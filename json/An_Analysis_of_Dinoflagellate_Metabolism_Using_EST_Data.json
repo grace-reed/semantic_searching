@@ -1,0 +1,1473 @@
+{
+    "paper_id": "An_Analysis_of_Dinoflagellate_Metabolism_Using_EST_Data",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-09-13T19:45:37.424975Z"
+    },
+    "title": "An Analysis of Dinoflagellate Metabolism Using EST Data",
+    "authors": [
+        {
+            "first": "Erin",
+            "middle": [
+                "R"
+            ],
+            "last": "Butterfield",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "North Terrace",
+                "location": {
+                    "postCode": "5000",
+                    "settlement": "Adelaide",
+                    "region": "SA",
+                    "country": "Australia"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Christopher",
+            "middle": [
+                "J"
+            ],
+            "last": "Howe",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Cambridge",
+                "location": {
+                    "addrLine": "Tennis Court Road",
+                    "postCode": "CB2 1QW",
+                    "settlement": "Cambridge, Cambridgeshire",
+                    "country": "United Kingdom"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "R",
+            "middle": [],
+            "last": "Ellen",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "R",
+            "middle": [],
+            "last": "Nisbet",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "North Terrace",
+                "location": {
+                    "postCode": "5000",
+                    "settlement": "Adelaide",
+                    "region": "SA",
+                    "country": "Australia"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Michael",
+            "middle": [
+                "L"
+            ],
+            "last": "Ginger",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        }
+    ],
+    "year": "",
+    "venue": null,
+    "identifiers": {},
+    "abstract": "The dinoflagellates are an important group of eukaryotic, single celled algae. They are the sister group of the Apicomplexa, a group of intracellular parasites and photosynthetic algae including the malaria parasite Plasmodium. Many apicomplexan mitochondria have a number of unusual features, including the lack of a pyruvate dehydrogenase and the existence of a branched TCA cycle. Here, we analyse dinoflagellate EST (expressed sequence tag) data to determine whether these features are apicomplexan-specific, or if they are more widespread. We show that dinoflagellates have replaced a key subunit (E1) of pyruvate dehydrogenase with a subunit of bacterial origin and that transcripts encoding many of the proteins that are essential in a conventional ATP synthase/Complex V are absent, as is the case in Apicomplexa. There is a pathway for synthesis of starch or glycogen as a storage carbohydrate. Transcripts encoding isocitrate lyase and malate synthase are present, consistent with ultrastructural reports of a glyoxysome. Finally, evidence for a conventional haem biosynthesis pathway is found, in contrast to the Apicomplexa, Chromera and early branching dinoflagellates (Perkinsus, Oxyrrhis).",
+    "pdf_parse": {
+        "paper_id": "An_Analysis_of_Dinoflagellate_Metabolism_Using_EST_Data",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "The dinoflagellates are an important group of eukaryotic, single celled algae. They are the sister group of the Apicomplexa, a group of intracellular parasites and photosynthetic algae including the malaria parasite Plasmodium. Many apicomplexan mitochondria have a number of unusual features, including the lack of a pyruvate dehydrogenase and the existence of a branched TCA cycle. Here, we analyse dinoflagellate EST (expressed sequence tag) data to determine whether these features are apicomplexan-specific, or if they are more widespread. We show that dinoflagellates have replaced a key subunit (E1) of pyruvate dehydrogenase with a subunit of bacterial origin and that transcripts encoding many of the proteins that are essential in a conventional ATP synthase/Complex V are absent, as is the case in Apicomplexa. There is a pathway for synthesis of starch or glycogen as a storage carbohydrate. Transcripts encoding isocitrate lyase and malate synthase are present, consistent with ultrastructural reports of a glyoxysome. Finally, evidence for a conventional haem biosynthesis pathway is found, in contrast to the Apicomplexa, Chromera and early branching dinoflagellates (Perkinsus, Oxyrrhis).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "Dinoflagellates are unicellular, flagellate protists found in a diversity of ecosystems. Approximately 50% of taxa are photosynthetic, while the remainder have lost the ability to carry out photosynthesis. Photosynthetic dinoflagellates are important primary producers, forming part of both the marine and fresh water phytoplankton. A few species can produce red tides, toxic algal blooms that can lead to shellfish poisoning. Dinoflagellates also form Corresponding author; fax +61 8 830 22389 e-mail ellen.nisbet@unisa.edu.au (R.E.R. Nisbet).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "symbioses with corals and a breakdown of this symbiosis, perhaps in response to elevated ocean temperatures, leads to expulsion of the symbionts and coral bleaching (Sanchez-Puerta et al. 2007) .",
+                "cite_spans": [
+                    {
+                        "start": 165,
+                        "end": 193,
+                        "text": "(Sanchez-Puerta et al. 2007)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "Some of the most unusual genomic organizations of all species are found in the dinoflagellate algae. The nuclear genome is exceptionally large (Holm-Hansen 1969) , with multiple copies of many genes, often arranged in tandem repeats (Bachvaroff and Place 2008) . The smallest dinoflagellate genome, of Symbiodinium, is estimated to be 3 x 10 9 bp, similar in scale to the human genome (Lin 2006) . Therefore, no genome has yet been fully sequenced and instead, extensive EST libraries have been created (Bachvaroff et al. 2004; Hackett et al. 2005; Leggat et al. 2007; Slamovits and Keeling 2008) .",
+                "cite_spans": [
+                    {
+                        "start": 143,
+                        "end": 161,
+                        "text": "(Holm-Hansen 1969)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 233,
+                        "end": 260,
+                        "text": "(Bachvaroff and Place 2008)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 385,
+                        "end": 395,
+                        "text": "(Lin 2006)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 503,
+                        "end": 527,
+                        "text": "(Bachvaroff et al. 2004;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 528,
+                        "end": 548,
+                        "text": "Hackett et al. 2005;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 549,
+                        "end": 568,
+                        "text": "Leggat et al. 2007;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 569,
+                        "end": 596,
+                        "text": "Slamovits and Keeling 2008)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "The chloroplast genome is fragmented and greatly reduced (Koumandou et al. 2004) . Recently, significant fragments of the dinoflagellate mitochondrial genome have been sequenced from a number of species including Alexandrium catenella, Amphidinium carterae, Crypthecodinium cohnii, Karlodinium micrum and Oxyrrhis marina (reviewed in Nash et al. 2008) . All contain just three proteinencoding genes (coxI, coxIII, cob) and fragmentary rRNA-encoding genes, with the majority of genes having been relocated to the nucleus (Jackson et al. 2007; Nash et al. 2007 Nash et al. , 2008 Slamovits et al. 2007) .",
+                "cite_spans": [
+                    {
+                        "start": 57,
+                        "end": 80,
+                        "text": "(Koumandou et al. 2004)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 321,
+                        "end": 351,
+                        "text": "(reviewed in Nash et al. 2008)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 399,
+                        "end": 418,
+                        "text": "(coxI, coxIII, cob)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 520,
+                        "end": 541,
+                        "text": "(Jackson et al. 2007;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 542,
+                        "end": 558,
+                        "text": "Nash et al. 2007",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 559,
+                        "end": 577,
+                        "text": "Nash et al. , 2008",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 578,
+                        "end": 600,
+                        "text": "Slamovits et al. 2007)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "Dinoflagellates are a sister group to the Apicomplexa, a group including a number of obligate parasites which include many important human and animal pathogens such as Plasmodium (causative agent of malaria), Toxoplasma and Cryptosporidium (Walker et al. 2011) . Many of the Apicomplexa contain a remnant chloroplast (Dorrell and Smith 2011), but only Chromera and closely related species are able to carry out photosynthesis (Moore et al. 2008) . The dinoflagellates and Apicomplexa are sister groups to the ciliates, as shown in Figure 1a . Ciliates are a large and diverse group of ciliated protozoa which can be free-living, facultatively parasitic or parasitic. Many species are symbionts. There is no evidence for the presence of a chloroplast in ciliates, although a few genes of possible algal origin have been identified (Archibald 2008) . The ciliates, dinoflagellates and Apicomplexa together are referred to as the alveolates.",
+                "cite_spans": [
+                    {
+                        "start": 240,
+                        "end": 260,
+                        "text": "(Walker et al. 2011)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 426,
+                        "end": 445,
+                        "text": "(Moore et al. 2008)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 830,
+                        "end": 846,
+                        "text": "(Archibald 2008)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 531,
+                        "end": 540,
+                        "text": "Figure 1a",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "It has been known for many years that mitochondrial function in Plasmodium is unconventional. This has been shown both by biochemical and genome analyses (Bowman et al. 1961; Gardner et al. 2002) . In the asexual stage the majority of cellular ATP is synthesized through glycolysis and lactic acid production (Uyemura et al. 2004) . There is no evidence for a mitochondrial acetyl-CoA source, as the sole pyruvate dehydrogenase (PDH) is located in the apicoplast (Foth et al. 2005) . Despite this, it is clear that the Plasmodium mitochondrion is functional (Howe and Purton 2007; Painter et al. 2007) . A recent metabolic analysis has shown that the Plasmodium TCA cycle is branched, bifurcating at 2-oxoglutarate dehydrogenase, and that malate is produced as a waste product (Olszewski et al. 2010) . The mitochondrial electron transport chain is missing a conventional complex I, replacing it with a single-subunit NADH dehydrogenase (Mogi and Kita 2010), and major components Chromera is a recently-discovered photosynthetic apicomplexan. A diagram of a model species is shown for each group. b. Schematic diagram showing relationships between dinoflagellate species for which EST datasets are available. The diagram is based on two hsp90 and rDNA phylogenies inferred by Hoppenrath and Leander (2010). There is poor phylogenetic support for many dinoflagellate relationships, and so this diagram should be taken as a guide only. However, it is clear that Perkinsus and Oxyrrhis are early-branching dinoflagellates and the remaining groups are monophyletic.",
+                "cite_spans": [
+                    {
+                        "start": 154,
+                        "end": 174,
+                        "text": "(Bowman et al. 1961;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 175,
+                        "end": 195,
+                        "text": "Gardner et al. 2002)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 309,
+                        "end": 330,
+                        "text": "(Uyemura et al. 2004)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 463,
+                        "end": 481,
+                        "text": "(Foth et al. 2005)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 558,
+                        "end": 580,
+                        "text": "(Howe and Purton 2007;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 581,
+                        "end": 601,
+                        "text": "Painter et al. 2007)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 777,
+                        "end": 800,
+                        "text": "(Olszewski et al. 2010)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "from complex V (ATP synthase) are also absent. Instead, the electron transport chain may be used for the regeneration of ubiquinone (Painter et al. 2007; van Dooren et al. 2006) . Other apicomplexan species have a diversity of mitochondrial metabolic functions, with Cryptosporidium parvum containing a mitosome, a derived mitochondrion lacking a genome (Henriquez et al. 2005) . In contrast, the ciliates contain a conventional mitochondrion, undergoing 'textbook style' biochemistry. A proteomic analysis of isolated mitochondria from the ciliate Tetrahymena thermophila identified all key components of the TCA cycle (Smith et al. 2007b) , and a functional electron transport chain, together with a significant number of proteins (45%) with no known function. ",
+                "cite_spans": [
+                    {
+                        "start": 132,
+                        "end": 153,
+                        "text": "(Painter et al. 2007;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 154,
+                        "end": 177,
+                        "text": "van Dooren et al. 2006)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 354,
+                        "end": 377,
+                        "text": "(Henriquez et al. 2005)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 620,
+                        "end": 640,
+                        "text": "(Smith et al. 2007b)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "Protein import Figure 2 . Major biochemical pathways essential to mitochondrial function. Glycolysis (shaded lightest grey) -although not a mitochondrial pathway -provides pyruvate for the mitochondrion. Following its import into the mitochondrion, pyruvate is converted to acetyl-CoA via PDH for use in the TCA cycle (shaded light grey). Reducing equivalents produced during the TCA cycle are used for the process of oxidative phosphorylation (shaded dark grey) where they power the electron transport chain. The proton motive force created in this process is used for the synthesis of ATP by Complex V/ATP synthase and also helps power protein import (shaded darkest grey). These pathways are supported by several different co-factors whose synthesis pathways primarily occur in the mitochondrion. Synthesis pathways include Fe-S cluster biosynthesis, haem biosynthesis, folate biosynthesis and biotin biosynthesis. Key PDH: pyruvate dehydrogenase complex, TCA cycle: tricarboxylic acid cycle.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 15,
+                        "end": 23,
+                        "text": "Figure 2",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "ATP ADP + P i",
+                "sec_num": null
+            },
+            {
+                "text": "Little is known about dinoflagellate metabolism. We have therefore searched the combined dinoflagellate EST libraries for transcripts encoding proteins involved in key metabolic pathways including glycolysis, gluconeogenesis, oxidative phosphorylation, iron-sulphur cluster biosynthesis, haem biosynthesis, folate biosynthesis, biotin biosynthesis and protein import, since these pathways are critical to mitochondrial function (Fig. 2) . We show that several features of mitochondrial biochemistry are different from the ciliates and Apicomplexa. We also show that there is diversity within the dinoflagellates, with the basal dinoflagellate lineages (Perkinsus and Oxyrrhis, Fig. 1b ) containing small, but significant differences.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 428,
+                        "end": 436,
+                        "text": "(Fig. 2)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 677,
+                        "end": 684,
+                        "text": "Fig. 1b",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "ATP ADP + P i",
+                "sec_num": null
+            },
+            {
+                "text": "Throughout this section, full details of each transcript (including NCBI identification and species in which the transcript was identified) are given in the Supplementary Table S1 .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 157,
+                        "end": 179,
+                        "text": "Supplementary Table S1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results and Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "One of the key functions of mitochondria is the conservation of energy in the form of ATP. In classical mitochondria, the synthesis of ATP by complex V is the final step in a long series of biochemical reactions that starts in the cytosol with the production of pyruvate by glycolysis. Pyruvate enters the mitochondrion where it is oxidatively decarboxylated to form acetyl-CoA and then oxidised to CO 2 by the TCA cycle, releasing NADH and FADH 2 . These enter the electron transport chain, resulting in the synthesis of ATP with oxygen as a terminal acceptor, releasing water ( Fig. 3) .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 580,
+                        "end": 587,
+                        "text": "Fig. 3)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Synthesis of ATP",
+                "sec_num": null
+            },
+            {
+                "text": "Glycolysis/Gluconeogenesis and conversion of pyruvate: We searched for sequences encoding key components of the glycolysis pathway in the dinoflagellate EST databases. Although ESTs corresponding to the majority of enzymes were present, there were none encoding hexokinase, an enzyme which encodes an irreversible step in glycolysis. Instead, in Perkinsus only, a transcript encoding glucokinase was present, an enzyme which catalyses the same reaction but with a lower affinity for glucose (a protein alignment is shown in Supplementary Table S2 ). The use of glucokinase at the start of the glycolysis pathway has previously been reported in a number of protist lineages including Giardia, Trichomonas, Trypanosoma and Leishmania (C\u00e1ceres et al. 2007; Henze et al. 2001; Wu et al. 2001) , although many other eukaryotes contain both enzymes. Ciliates are also missing hexokinase (Smith et al. 2007b) , and instead contain a glucokinase (NCBI ref: XP_002287250). Thus, it would appear that the gene encoding a glucokinase has independently been transferred into the eukaryotic lineage several times (Henze et al. 2001) , and the presence in dinoflagellates and ciliates adds a further gene transfer event(s) to those already described. No transcript encoding glucose-6-phosphatase was identified. This is perhaps not surprising as glucose-6-phosphatase activity, if combined with a bidirectional glucose transport pathway, would lead to glucose efflux.",
+                "cite_spans": [
+                    {
+                        "start": 692,
+                        "end": 753,
+                        "text": "Trichomonas, Trypanosoma and Leishmania (C\u00e1ceres et al. 2007;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 754,
+                        "end": 772,
+                        "text": "Henze et al. 2001;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 773,
+                        "end": 788,
+                        "text": "Wu et al. 2001)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 881,
+                        "end": 901,
+                        "text": "(Smith et al. 2007b)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1100,
+                        "end": 1119,
+                        "text": "(Henze et al. 2001)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 524,
+                        "end": 546,
+                        "text": "Supplementary Table S2",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Synthesis of ATP",
+                "sec_num": null
+            },
+            {
+                "text": "There are previous reports of dinoflagellates using starch as a storage polysaccharide (Deschamps et al. 2008) . This was confirmed by our EST searches, which revealed transcripts encoding phosphoglucomutase, phosphorylase, starch synthase and UDP-or ADP-glucose pyrophosphorylase, all required for the use of starch or glycogen as a storage carbohydrate.",
+                "cite_spans": [
+                    {
+                        "start": 87,
+                        "end": 110,
+                        "text": "(Deschamps et al. 2008)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Synthesis of ATP",
+                "sec_num": null
+            },
+            {
+                "text": "The irreversible conversion of pyruvate to acetyl-CoA is carried out by the pyruvate dehydrogenase complex (PDH) in aerobic mitochondria. Mito-chondrial PDH consists of four types of subunits, E1\u2423, E1\u2424, E2 and E3, where E1\u2423 and E1\u2424 form a heterotetramer (\u2423 2 \u2424 2 ) and E3 is shared with the 2-oxoglutarate dehydrogenase complex. In some bacteria, such as Corynebacterium and many others, the heterotetrameric E1 complex is replaced by a homodimeric E1 (\u2423 2 ) complex sharing no sequence similarity (Schreiner et al. 2005) . Although ciliates contain a conventional mitochondrial pyruvate dehydrogenase (Smith et al. 2007b ), Apicomplexa do not, with the only PDH being located in the remnant chloroplast (Foth et al. 2005; Ralph 2005) .",
+                "cite_spans": [
+                    {
+                        "start": 498,
+                        "end": 521,
+                        "text": "(Schreiner et al. 2005)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 602,
+                        "end": 621,
+                        "text": "(Smith et al. 2007b",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 704,
+                        "end": 722,
+                        "text": "(Foth et al. 2005;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 723,
+                        "end": 734,
+                        "text": "Ralph 2005)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Synthesis of ATP",
+                "sec_num": null
+            },
+            {
+                "text": "In order to determine if dinoflagellates possessed a PDH, the EST databases were searched for sequences encoding subunits of the Plasmodium apicoplast PDH, the Tetrahymena mitochondrial PDH and the diatom Thalassiosira pseudonana mitochondrial PDH (Armbrust et al. 2004; Foth et al. 2005; Smith et al. 2007b) . Photosynthetic dinoflagellates contained transcripts encoding E2 and E3 proteins, but we found none encoding the conventional E1 proteins. Instead we were able to identify in photosynthetic dinoflagellates a transcript encoding the homodimeric E1 (\u2423 2 ) subunit, similar to that found in Corynebacterium and related bacteria (Schreiner et al. 2005) .",
+                "cite_spans": [
+                    {
+                        "start": 248,
+                        "end": 270,
+                        "text": "(Armbrust et al. 2004;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 271,
+                        "end": 288,
+                        "text": "Foth et al. 2005;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 289,
+                        "end": 308,
+                        "text": "Smith et al. 2007b)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 636,
+                        "end": 659,
+                        "text": "(Schreiner et al. 2005)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Synthesis of ATP",
+                "sec_num": null
+            },
+            {
+                "text": "In contrast, Perkinsus and Oxyrrhis did not contain transcripts encoding E1 (of either form) or E2. Instead, transcripts encoding the enzyme pyruvate:NADP oxidoreductase, more commonly found in anaerobic mitochondria, were identified as previously reported for these organisms and also for Cryptosporidium (Hug et al. 2010) . In general, anaerobic mitochondria utilize alternatives to PDH. Organisms usually contain either pyruvate:ferredoxin oxidoreductase (PFO), an O 2 sensitive enzyme, or the related enzyme pyruvate:NADP oxidoreductase (PNO), a fusion of PFO and a NADPH cytochrome P450 reductase domain (Rotte et al. 2000; Stechmann et al. 2008) . No other dinoflagellate species contained transcripts encoding PNO or PFO.",
+                "cite_spans": [
+                    {
+                        "start": 306,
+                        "end": 323,
+                        "text": "(Hug et al. 2010)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 609,
+                        "end": 628,
+                        "text": "(Rotte et al. 2000;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 629,
+                        "end": 651,
+                        "text": "Stechmann et al. 2008)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Synthesis of ATP",
+                "sec_num": null
+            },
+            {
+                "text": "Phylogenetic analyses have previously shown that the presence of the PFO domain dates prior to the split of the dinoflagellates and Apicomplexa, as Perkinsus, Oxyrrhis and Cryptosporidium PFO domains group together to the exclusion of all other PFO sequences (Hug et al. 2010) . It therefore seems likely that that the genes encoding a conventional pyruvate dehydrogenase E1 subunit were lost prior to the separation of the dinoflagellate and apicomplexan lineages. These were then replaced by either PNO (in the early-branching dinoflagellate and Apicomplexa lineages) or with a bacterial-type E1 (other dinoflagellate lineages). Thus, the history of the pyruvate dehydrogenase in dinoflagellates is extremely interesting, for it involves two separate gene transfer events, each solving the same issue (the absence of E1 enzyme) in a different way. TCA cycle: The first step in the TCA cycle is the condensation of oxaloacetate and acetyl-CoA by citrate synthase to form citrate. Transcripts corresponding to citrate synthase were identified in the dinoflagellate EST databases. The second step is the conversion of citrate to isocitrate by aconitase, an Fe-S cluster protein. Most eukaryotes contain two forms of aconitase, one mitochondrial (involved in the TCA cycle) and a cytoplasmic version. Plasmodium and Tetrahymena contain a single aconitase (similar to the cytoplasmic version) dually targeted to the cytosol and mitochondrion (Smith et al. 2007b; van Dooren et al. 2006) . ESTs for a single isoform of aconitase were identified in the dinoflagellates. However, in contrast to the situation with Plasmodium and Tetrahymena, it was more similar to the mitochondrial isoform. It is possible that the ancestral alveolate contained both types of aconitase and the dinoflagellates subsequently lost the cytosolic form, whereas the ciliates and Apicomplexa lost the mitochondrial form, retargeting the cytoplasmic form.",
+                "cite_spans": [
+                    {
+                        "start": 259,
+                        "end": 276,
+                        "text": "(Hug et al. 2010)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1439,
+                        "end": 1459,
+                        "text": "(Smith et al. 2007b;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1460,
+                        "end": 1483,
+                        "text": "van Dooren et al. 2006)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Synthesis of ATP",
+                "sec_num": null
+            },
+            {
+                "text": "The third step in the TCA cycle is the decarboxylation of isocitrate to form 2-oxoglutarate by isocitrate dehydrogenase. Transcripts were found encoding an isocitrate dehydrogenase which appeared to be NADP-linked, based on sequence similarity to other isocitrate dehydrogenases, and targeted to the mitochondrion (Danne and Waller 2011). No evidence of transcripts for cytosolic or NAD-linked isoforms was found. The NADPlinked enzyme may function in the reverse direction (isocitrate synthesis) in mitochondria of other organisms, although roles in the direction of isocitrate oxidation have also been postulated (reviewed by Sazanov and Jackson 1994). It is possible that dinoflagellates possess an NAD-linked enzyme with transcripts at low abundance. Alternatively, (and assuming the TCA cycle functions in the usual direction in contrast to the situation in Plasmodium (Olszewski et al. 2010)) the NADP-linked enzyme might be used for isocitrate oxidation. The resulting NADPH could be used directly, or the reducing equivalents transferred to NAD by a transhydrogenase, for which ESTs were also found. Biochemical data on the NADPH/NADP ratio in dinoflagellate mitochondria would help to clarify the role of the NADP-linked isocitrate dehydrogenase. ESTs corresponding to an oxoglutarate translocator were identified in two Alexandrium species, indicating that 2-oxoglutarate produced by isocitrate oxidation could be exported from the mitochondrion if necessary. The fourth step, the conversion of 2-oxoglutarate to succinyl-CoA by oxoglutarate dehydrogenase is possible, as transcripts encoding this enzyme were also found. However, no transcripts encoding 2-oxoglutarate dehydrogenase were identified in Perkinsus (although they were present in Oxyrrhis).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Synthesis of ATP",
+                "sec_num": null
+            },
+            {
+                "text": "Transcripts encoding the three subsequent enzymes from the TCA cycle, succinyl-CoA synthase, succinate dehydrogenase and fumarase were all identified in dinoflagellates. The final step in the TCA cycle is the conversion of malate to oxaloacetate by malate dehydrogenase. Most organisms contain two malate dehydrogenases, one in the cytosol and one in the mitochondrion (together with a third in the chloroplast of photosynthetic organisms). Searches revealed transcripts encoding a malate dehydrogenase in dinoflagellates, which is predicted to be mitochondrial (Danne and Waller 2011). Plasmodium contains a single malate dehydrogenase which does not localize to the mitochondrion (van Dooren et al. 2006) , with a malate:quinone oxidoreductase enzyme operating instead (Uyemura et al. 2004). A malate:quinone oxidoreductase has previously been identified in dinoflagellates. However, it is likely to be cytosolic so it cannot play the same role as in Plasmodium (Nosenko and Bhattacharya 2007) .",
+                "cite_spans": [
+                    {
+                        "start": 682,
+                        "end": 706,
+                        "text": "(van Dooren et al. 2006)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 964,
+                        "end": 995,
+                        "text": "(Nosenko and Bhattacharya 2007)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Synthesis of ATP",
+                "sec_num": null
+            },
+            {
+                "text": "A glyoxysome: In addition to the mitochondrial TCA cycle, various eukaryotic organisms including plants and filamentous fungi contain a specialized organelle, the glyoxysome, which carries out the glyoxylate pathway allowing the TCA cycle to be partially bypassed. This pathway includes two key enzymes, isocitrate lyase and malate synthase. \u279b Figure 3 . Overview of proposed sugar metabolism in dinoflagellates. The dinoflagellates are able to store polysaccharides in the form of starch or glycogen (shaded dark grey) as shown through EST data. The dinoflagellates appear to be able to undergo glycolysis (shaded light grey). Although no hexokinase was identified, a glucokinase is present in Perkinsus. The pyruvate dehydrogenase complex contains a bacterial-type E1 subunit. The dinoflagellate TCA cycle (shaded medium grey) appears to be conventional in contrast to Plasmodium. EST data also supports the presence of a glyoxysome within the dinoflagellates. Key \u2020: present in Perkinsus only, #: bacterial-type E1 subunit.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 344,
+                        "end": 352,
+                        "text": "Figure 3",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Synthesis of ATP",
+                "sec_num": null
+            },
+            {
+                "text": "Transcripts encoding both enzymes were found in dinoflagellates. Any succinate produced could be converted to succinyl-CoA and thus re-enter the TCA cycle. A dinoflagellate glyoxysome has previously been suggested based on ultrastructural data (Bibby and Dodge 1973).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Synthesis of ATP",
+                "sec_num": null
+            },
+            {
+                "text": "The 2-oxoglutarate bypass: There was no evidence of sequences encoding the E1 or E2 subunits of 2-oxoglutarate dehydrogenase in Perkinsus. However, a bypass of this step has recently been reported for some cyanobacteria (Zhang and Bryant 2011). The first step of the bypass involves 2-oxoglutarate decarboxylase, a TPP-containing enzyme homologous to acetolactate synthase. Searching Perkinsus ESTs with the predicted protein sequence from the cyanobacterium Synechococcus sp. PCC7002 identified a 2-oxoglutarate decarboxylase homologue. Searching the other dinoflagellate ESTs with the predicted cyanobacterial protein sequence revealed transcripts encoding acetolactate synthase, but no 2-oxoglutarate decarboxylase. Thus it appears that the Perkinsus ESTs include a sequence encoding 2-oxoglutarate decarboxylase, but the other dinoflagellate EST collections do not.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Synthesis of ATP",
+                "sec_num": null
+            },
+            {
+                "text": "The second step in the bypass of 2-oxoglutarate dehydrogenase described by Zhang and Bryant (2011) is succinic semialdehyde dehydrogenase, which gives succinate as a product. Searching with the predicted sequence of this protein from Synechococcus sp. PCC7002 gave clear matches to transcripts encoding proteins from Perkinsus as well as photosynthetic dinoflagellates. Overall, it therefore seems that Perkinsus has the 2-oxoglutarate dehydrogenase bypass that allows the TCA cycle to function in the absence of 2-oxoglutarate dehydrogenase itself. The photosynthetic dinoflagellates, which appear to have a 2-oxoglutarate dehydrogenase (see above), lack the bypass.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Synthesis of ATP",
+                "sec_num": null
+            },
+            {
+                "text": "Oxidative phosphorylation: NADH and FADH 2 from the TCA cycle are used as electron donors to the mitochondrial electron transport chain which drives ATP synthesis, pumps protons and maintains the mitochondrial proton motive force necessary to power the protein import apparatus. Five complexes are involved in oxidative phosphorylation.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Synthesis of ATP",
+                "sec_num": null
+            },
+            {
+                "text": "Complex I: Complex I, or NADH dehydrogenase, is a large, multi-subunit enzyme which oxidizes NADH to NAD + and passes electrons through a series of iron-sulphur proteins to ubiquinone as well as acting as a proton pump. The number of proteins recognized as involved in the complex varies considerably according to species, from 14 or so in bacteria to 43 or so in mammalian cells and 49 in plants (Klodmann et al. 2010). We therefore searched for transcripts encoding the components of this multi-subunit enzyme. Transcripts encoding numerous Complex I subunits were identified, with results shown in Supplementary Table S1 . This is a different range of subunits from that found in the diatom algae. It therefore seems likely that Complex I is present, although with significant differences in the polypeptide composition compared with other eukaryotic lineages.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 601,
+                        "end": 623,
+                        "text": "Supplementary Table S1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Synthesis of ATP",
+                "sec_num": null
+            },
+            {
+                "text": "However, some organisms do not contain a conventional Complex I at all. Instead, these organisms (including Plasmodium) contain a single subunit NADH dehydrogenase (Mogi and Kita 2010). We therefore searched for transcripts encoding the single subunit NADH dehydrogenase. Transcripts encoding a single subunit NADH dehydrogenase with similarity to that found in Plasmodium were identified. In addition, ESTs for the alternative oxidase, which catalyses direct electron transfer from ubiquinone to oxygen (Matus-Ortega et al. 2011), were found in Perkinsus and Oxyrrhis as well as the photosynthetic dinoflagellates.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Synthesis of ATP",
+                "sec_num": null
+            },
+            {
+                "text": "Complex II: Complex II, succinate dehydrogenase (SDH), consists of two to four core proteins, plus various accessory proteins depending on species. Of the four core proteins, transcripts were identified which encode subunits SDH-A (succinate dehydrogenase flavoprotein) and SDH-B (succinate dehydrogenase (ubiquinone) iron-sulphur subunit), which are also found in Apicomplexa and plants. There was no evidence for a dinoflagellate SDH-C (succinate dehydrogenase cytochrome b 560 subunit) or SDH-D (integral membrane protein). SDH-C has been identified in diatoms and animals, although not in Apicomplexa or plants, while SDH-D is apparently absent from plants, Apicomplexa and diatoms.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Synthesis of ATP",
+                "sec_num": null
+            },
+            {
+                "text": "Ubiquinone: Coenzyme Q (ubiquinone) resides in the inner mitochondrial membrane, linking complexes I and II with complex III. It also participates in pyrimidine biosynthesis (Do et al. 2001; Macedo et al. 2002) . A variety of enzymes are involved in coenzyme Q biosynthesis. Although we were able to identify transcripts encoding putative methyltransferases in dinoflagellates, as previously reported with other eukaryotic species, we were not able definitively to identify transcripts encoding enzymes catalysing all proposed steps (Kanehisa and Goto 2000; Kanehisa et al. 2012; van Dooren et al. 2006) .",
+                "cite_spans": [
+                    {
+                        "start": 174,
+                        "end": 190,
+                        "text": "(Do et al. 2001;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 191,
+                        "end": 210,
+                        "text": "Macedo et al. 2002)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 533,
+                        "end": 557,
+                        "text": "(Kanehisa and Goto 2000;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 558,
+                        "end": 579,
+                        "text": "Kanehisa et al. 2012;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 580,
+                        "end": 603,
+                        "text": "van Dooren et al. 2006)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Synthesis of ATP",
+                "sec_num": null
+            },
+            {
+                "text": "Complex III: The dinoflagellate complex III (the cytochrome bc 1 complex) has previously been shown to be functional (Kamikawa et al. 2009) . We were able to identify transcripts encoding four proteins involved in complex III: a ubiquinolcytochrome c reductase iron-sulphur subunit, cytochrome b (encoded on the mitochondrial genome), ubiquinol-cytochrome c reductase and the cytochrome c 1 subunit. In addition, there was evidence for a possible QCR6 ubiquinolcytochrome c reductase hinge protein. The remaining proteins involved in complex III in animal mitochondria are not found in plants, diatom algae or Apicomplexa. The sole exception is QCR9, which is found in plants. However, no transcripts encoding this protein were identified in dinoflagellates.",
+                "cite_spans": [
+                    {
+                        "start": 117,
+                        "end": 139,
+                        "text": "(Kamikawa et al. 2009)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Synthesis of ATP",
+                "sec_num": null
+            },
+            {
+                "text": "Complex IV: Complex IV, also known as cytochrome c oxidase, consists of 14 subunits in animals, compared with just 9 subunits reported from the apicomplexan Plasmodium. We identified eight subunits: cox1, cox2, cox2A, cox3, cox5b, cox6b, cox10, cox11, together with possible cox61, cox15 and cox17 (cytochrome c oxidase assembly protein subunit 17, a very small protein that has not yet been identified in diatoms). It should be noted that Complex IV assembly protein subunits 10 and 11 (cox10 and cox11) were identified only in Perkinsus and not in other dinoflagellate species.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Synthesis of ATP",
+                "sec_num": null
+            },
+            {
+                "text": "Complex V: The final step in the electron transport chain is the synthesis of ATP by complex V. This is a multi-subunit complex, composed of around 20 or so proteins. ESTs for the key catalytic proteins (\u2423 and \u2424) were identified, as well as the membrane-bound c subunit and OSCP, \u2426, and \u2425. However, ESTs for the majority of the stator, which holds the complex together, were missing. As the same set of genes are missing from all alveolate genomes sequenced to date, it would appear that the alveolates have either a novel or a highly divergent set of proteins making up the stator complex. Recently, a novel complex V structure has been proposed for the ciliate Tetrahymena thermophila, including a number of newly described proteins (Nina et al. 2010). However, none of these proteins has been identified in either dinoflagellates or Apicomplexa. It is thus unclear how the complex functions.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Synthesis of ATP",
+                "sec_num": null
+            },
+            {
+                "text": "Haem lyase: One key process in the assembly of the multi-subunit electron transport chain is the attachment of haem to apocytochrome c. At least three different methods for this are used, Systems I, II and V, with each species containing just one System (Allen 2011; Stevens et al. 2011). System I (Ccm) is found in plant mitochondria, archaea and many Gram negative bacteria. No evidence for this System was found in dinoflagellates. System III consists of a haem lyase (cytchrome c haem lyase), and is the system found in fungi and animals, as well as the apicomplexan Plasmodium.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Synthesis of ATP",
+                "sec_num": null
+            },
+            {
+                "text": "Although we identified a transcript corresponding to haem lyase from Perkinsus, consistent with a previous observation based on gene sequence data (Allen et al. 2008b) , no such transcripts were identified for other dinoflagellates. The presence of a System V has been postulated in Euglenozoa for incorporation of haem into cytochromes where the haem-binding motif comprises single cysteines, but the proteins involved have not yet been identified (Allen 2011). Allen et al. (2008b) argue that haem lyase is generally used in organisms that have no mitochondrially-encoded System I components, and c-type cytochromes with conventional haembinding motifs containing two cysteines. Both the latter criteria are seen with dinoflagellates (Nash et al. 2008) . Given this, and the indications of haem lyase in Perkinsus and Apicomplexa, the most parsimonious explanation is that dinoflagellates also use a haem lyase, represented by transcripts that were too rare to be included in the EST databases. However, we cannot exclude the possibility of a different system acquired by lateral gene transfer.",
+                "cite_spans": [
+                    {
+                        "start": 147,
+                        "end": 167,
+                        "text": "(Allen et al. 2008b)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 736,
+                        "end": 754,
+                        "text": "(Nash et al. 2008)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Synthesis of ATP",
+                "sec_num": null
+            },
+            {
+                "text": "(Two further mechanisms, Systems II and IV, are normally used for the insertion of haem into chloroplast proteins. We found evidence for sequences encoding components of System IV. We found evidence for sequences encoding System II components in the chloroplast genomes of the dinoflagellates Durinskia and Kryptoperidinium, which contain essentially intact diatom endosymbionts (Imanian et al. 2010), but not in other dinoflagellates. The significance of this for cytochrome maturation in chloroplasts is unclear.)",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Synthesis of ATP",
+                "sec_num": null
+            },
+            {
+                "text": "In addition to providing cellular energy, mitochondria play a key role in the synthesis of various co-enzymes. The biosynthesis of these compounds is complex, and often only one or two steps occur in the mitochondrion (R\u00e9beill\u00e9 et al. 2007) . Products are exported from the mitochondrion for use throughout the cell.",
+                "cite_spans": [
+                    {
+                        "start": 218,
+                        "end": 240,
+                        "text": "(R\u00e9beill\u00e9 et al. 2007)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Synthesis of Co-enzymes",
+                "sec_num": null
+            },
+            {
+                "text": "Iron sulphur cluster biosynthesis: The biosynthesis of iron-sulphur (Fe-S) clusters is an essential biochemical pathway that has most likely existed since the origin of life (Seeber 2002). Three different iron sulphur cluster biosynthesis pathways exist in eukaryotic cells -one for each of the chloroplast, mitochondrion and the cytosol (Balk and Pilon 2011). The SUF (sulphur mobilization) pathway is found in chloroplasts, the ISC (iron sulphur cluster) pathway is found in mitochondria and the CIA (cytosolic iron-sulphur) pathway is found in the",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Synthesis of Co-enzymes",
+                "sec_num": null
+            },
+            {
+                "text": "Isu1-Fe-S cluster cytosol. In each case, the synthesis of Fe-S clusters occurs in two distinct steps: the co-ordination of iron and sulphur onto protein backbones using cysteine linkages followed by the transfer of the cluster onto apoproteins (Fig. 4) .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 244,
+                        "end": 252,
+                        "text": "(Fig. 4)",
+                        "ref_id": "FIGREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Isu1",
+                "sec_num": null
+            },
+            {
+                "text": "Iron is imported into the mitochondrion using the homologous transporters Mrs3 and Mrs4, and is then donated to the Isu1 scaffold protein via frataxin. Although we were able to identify transcripts encoding mitochondrial carrier proteins in dinoflagellates, we were unable to identify them specifically as Mrs3 or Mrs4. Transcripts encoding frataxin and Isu1 were identified. Nfs1 then forms a complex with the Isd11 protein, and catalyses the release of sulphide from cysteine (Adam et al. 2006 ; Balk and Pilon 2011). We identified ESTs corresponding to transcripts for Nfs1 but not for Isd11. Although Isd11 is found in all other eukaryotes, and appears to be essential, it is missing from bacteria (Lill and M\u00fchlenhoff 2005; Richards and van der Giezen 2006), which may suggest that the dinoflagellate process is more similar to that present in bacteria, or that the transcript is missing from the dataset.",
+                "cite_spans": [
+                    {
+                        "start": 478,
+                        "end": 495,
+                        "text": "(Adam et al. 2006",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Isu1",
+                "sec_num": null
+            },
+            {
+                "text": "An electron transport chain is also required for formation of the Fe-S clusters on the Isu1 which consists of a ferredoxin and ferredoxin reductase (Lill and M\u00fchlenhoff 2005) . We identified transcripts for ferredoxin and ferredoxin reductase. However, localization studies are required to demonstrate that the ferredoxin reductase is present in the mitochondrion, since the translated transcripts show greater similarity to chloroplast ferredoxin reductase sequences than to mitochondrial sequences (as shown in Supplementary Table S2) .",
+                "cite_spans": [
+                    {
+                        "start": 148,
+                        "end": 174,
+                        "text": "(Lill and M\u00fchlenhoff 2005)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 513,
+                        "end": 536,
+                        "text": "Supplementary Table S2)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Isu1",
+                "sec_num": null
+            },
+            {
+                "text": "Finally, the Fe-S clusters are transferred to apoproteins. The hsp70-type chaperone protein Ssq1 (in yeast; HscA in plants) is activated by a co-chaperone Jac1 (in yeast; HscB in plants) which releases the cluster from Isu1 (which is then reused). Several further proteins are involved with the attachment of the cluster to the apoprotein, including Isa1, Isa2, Iba57 and glutaredoxin, although their exact role has not been characterized in algae (Balk and Pilon 2011).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Isu1",
+                "sec_num": null
+            },
+            {
+                "text": "Although we were able to identify transcripts encoding hsp70, it was unclear if these were the mitochondrial Ssq1 or a cytosolic hsp70. Transcripts encoding Jac1 were identified only in Perkinsus and Oxyrrhis. A transcript encoding a putative glutaredoxin was identified, as were transcripts encoding Isa2. However, transcripts encoding Isa1 were only identified in Perkinsus. We were unable to identify transcripts for Iba57 in the dinoflagellates (Balk and Pilon 2011; Lill and M\u00fchlenhoff 2005, 2008) .",
+                "cite_spans": [
+                    {
+                        "start": 449,
+                        "end": 470,
+                        "text": "(Balk and Pilon 2011;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 471,
+                        "end": 479,
+                        "text": "Lill and",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 480,
+                        "end": 502,
+                        "text": "M\u00fchlenhoff 2005, 2008)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Isu1",
+                "sec_num": null
+            },
+            {
+                "text": "In addition to the assembly of iron-sulphur clusters for use within the organelle, the mitochondrion is also responsible for the first steps in cytosolic iron-sulphur cluster assembly. This process involves the transporters Atm1 (an ATPbinding cassette transporter) and Erv1 (sulphhydryl oxidase) (Balk and Pilon 2011). We identified transcripts encoding both Atm1 and Erv1 in dinoflagellates.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Isu1",
+                "sec_num": null
+            },
+            {
+                "text": "Haem biosynthesis: It has been reported recently that both Chromera (a photosynthetic apicomplexan) and non-photosynthetic Apicomplexa contain similar pathways for tetrapyrrole biosynthesis (Ko\u0159en\u00fd et al. 2011) . Ko\u0159en\u00fd et al. showed that aminolaevulinic acid was synthesized from the 'Shemin' pathway, involving succinyl-CoA and glycine as precursors, in the mitochondria of Chromera as in the other Apicomplexa. Subsequent steps in the synthesis of protohaem and chlorophyll were inferred as chloroplast located in Chromera, with synthesis as far as uroporphyrinogen or coproporphyrinogen located in the remnant chloroplast of Toxoplasma and Plasmodium respectively. Ko\u0159en\u00fd et al. (2011) also inferred an ALA synthase using succinyl-CoA and glycine in the mitochondrion of Perkinsus and Oxyrrhis (Fig. 5A ). However, we found no evidence of ESTs encoding such an ALA synthase in the photosynthetic dinoflagellates.",
+                "cite_spans": [
+                    {
+                        "start": 190,
+                        "end": 210,
+                        "text": "(Ko\u0159en\u00fd et al. 2011)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 798,
+                        "end": 806,
+                        "text": "(Fig. 5A",
+                        "ref_id": "FIGREF4"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Isu1",
+                "sec_num": null
+            },
+            {
+                "text": "The alternative pathway for ALA synthesis, as carried out by most other photosynthetic eukaryotes, uses glutamyl-tRNA and occurs in the chloroplast (Oborn\u00edk and Green 2005) . Surprisingly, we found no clear evidence for ESTs encoding the enzyme for the first committed step, glutamyl-tRNA reductase. It should be noted that there was a match to a single EST from Lingulodinium. A GC % comparison and BLAST analysis reveals that this transcript is most likely a bacterial contamination. However, strong matches were seen when searching for ESTs encoding the enzyme for the next step, glutamate semialdehyde aminomutase. Transcripts encoding enzymes for all remaining steps in the biosynthesis pathway until the divergence into haem and chlorophyll branches were identified (Fig. 5B) , including ALA dehydratase, porphobilinogen deaminase, uroporphyrinogen synthase, uroporphyrinogen decarboxylase, coproporphyrinogen oxidase, protoporphyrinogen oxidase, ferrochelatase, magnesium chelatase subunit H, magnesium chelatase subunit I (which may also take over the role of the partially homologous subunit D in dinoflagellates, as no EST corresponding specifically to subunit D was found). Given that transcripts encoding all remaining enzymes in the pathway are present, it seems likely that glutamyl-tRNA reductase is present, and is just not represented in the EST datasets.",
+                "cite_spans": [
+                    {
+                        "start": 148,
+                        "end": 172,
+                        "text": "(Oborn\u00edk and Green 2005)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 772,
+                        "end": 781,
+                        "text": "(Fig. 5B)",
+                        "ref_id": "FIGREF4"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Isu1",
+                "sec_num": null
+            },
+            {
+                "text": "When these sequences were used to search the protein databases excluding dinoflagellates the best hits were generally to diatom sequences. The protoporphyrinogen oxidase was an exception to this. When the dinoflagellate Crypthecodinium cohnii protoporphyrinogen oxidase homologue was used to search the databases excluding dinoflagellates, the best hits were to plant or green algal sequences. When the dinoflagellate Karenia brevis sequence was used, the best hit was to the soil bacterium Paenibacillus terrae. However, alignments ( Supplementary Table S2 ) were inconclusive due to the high rate of evolution of this protein. The ferrochelatase enzyme was most similar to those found in Apicomplexa and red algae rather than the form found in green plants and animals.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 535,
+                        "end": 557,
+                        "text": "Supplementary Table S2",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Isu1",
+                "sec_num": null
+            },
+            {
+                "text": "Dihydroorotate dehydrogenase: Dihydroorotate dehydrogenase is involved in pyrimidine biosynthesis, as well as being linked to the electron transport chain where it reduces coenzyme Q to ubiquinone (Krungkrai 1995) . An EST encoding this enzyme was found in the dinoflagellates.",
+                "cite_spans": [
+                    {
+                        "start": 197,
+                        "end": 213,
+                        "text": "(Krungkrai 1995)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Isu1",
+                "sec_num": null
+            },
+            {
+                "text": "Folate biosynthesis: The biosynthesis of folate in plants and algae involves enzymes located in the chloroplast, mitochondrion and the cytosol (Fig. 6 ) (R\u00e9beill\u00e9 et al. 2007; Smith et al. 2007a) . Initially, pABA is synthesized in the chloroplast, and pterin is synthesized in the cytosol. Both are imported to the mitochondrion. Here, the pterin is activated and linked to the pABA by a bifunctional enzyme, HPPK-DHPS (6-hydroxymethyldihydroprotein pyrophosphokinase -dihydropteroate synthase) forming dihydropteroate. Glutamate is then attached to dihydropteroate by the enzyme DHFS (dihydrofolate synthetase). Transcripts encoding a potential HPPK-DHPS were identified in dinoflagellates, but no obvious DHFS transcript was identified. In plants, the next step is catalyzed by DHFR-TS (dihydrofolate reductase-thymidylate synthase), a bifunctional enzyme. Transcripts encoding a wellconserved DHFR-TS were found in dinoflagellates. At this point, the products (H 4 F) can either be exported to the cytoplasm or be retained in the mitochondrion. In both the cytoplasm and the mitochondrion the next step is polyglutamation. This is carried out by folylpolyglutamate synthetase (FPGS) . No transcript encoding FPGS was identified in the dinoflagellate EST libraries, perhaps because such mRNA transcripts are at a very low abundance.",
+                "cite_spans": [
+                    {
+                        "start": 153,
+                        "end": 175,
+                        "text": "(R\u00e9beill\u00e9 et al. 2007;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 176,
+                        "end": 195,
+                        "text": "Smith et al. 2007a)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1180,
+                        "end": 1186,
+                        "text": "(FPGS)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 143,
+                        "end": 150,
+                        "text": "(Fig. 6",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Isu1",
+                "sec_num": null
+            },
+            {
+                "text": "Biotin biosynthesis: Biotin is an essential cofactor in several enzymes. There is considerable diversity across the eukaryotes, with many species being auxotrophic for biotin. This diversity includes the dinoflagellates; a recent survey showed that 7/27 species examined were auxotrophic (Croft et al. 2006) . Biosynthesis of biotin is a four-step process, of which the final two steps occur in the mitochondrion (Fig. 7) (Pinon et al. 2005; R\u00e9beill\u00e9 et al. 2007) . The first step occurs in the cytosol. This is the condensation of pimeloyl-CoA and L-alanine, carried out by KAPA synthase, which is encoded by the bioF gene. Transcripts encoding this enzyme were identified in Alexandrium tamarense, but not in Oxyrrhis. The absence from Oxyrrhis is not surprising, since it is auxotrophic for biotin (Croft et al. 2006) . The second step, the conversion of KAPA to DAPA (7,8 diaminopelargonic acid) is carried out by DAPA aminotransferase (encoded by bioA). A putative DAPA aminotransferase was identified.",
+                "cite_spans": [
+                    {
+                        "start": 288,
+                        "end": 307,
+                        "text": "(Croft et al. 2006)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 422,
+                        "end": 441,
+                        "text": "(Pinon et al. 2005;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 442,
+                        "end": 463,
+                        "text": "R\u00e9beill\u00e9 et al. 2007)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 801,
+                        "end": 820,
+                        "text": "(Croft et al. 2006)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 413,
+                        "end": 421,
+                        "text": "(Fig. 7)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Isu1",
+                "sec_num": null
+            },
+            {
+                "text": "No transcripts were identified encoding the third enzyme, DTB synthase (encoded by bioD). This is perhaps not surprising, as no bioD gene has been identified in any algal species, Plasmodium, or the higher plant Arabidopsis thaliana. It is assumed that this step is carried out by an as yet unidentified enzyme, present across all species missing bioD (Croft et al. 2006) . The final step is carried out by biotin synthase (bioB), and transcripts encoding this protein were found in photosynthetic dinoflagellates. Biotin is used in the biotinylation of proteins by the enzyme holocarboxylase synthetase, also known as biotin protein ligase. This enzyme is found in the mitochondrion, chloroplast and cytosol, allowing proteins throughout the cell to be biotinylated (R\u00e9beill\u00e9 et al. 2007) . No transcript encoding holocarboxylase synthetase was identified though it seems unlikely that this enzyme is missing from the cell. Perhaps transcripts are only present at low levels and are thus not found in the EST datasets.",
+                "cite_spans": [
+                    {
+                        "start": 352,
+                        "end": 371,
+                        "text": "(Croft et al. 2006)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 767,
+                        "end": 789,
+                        "text": "(R\u00e9beill\u00e9 et al. 2007)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Isu1",
+                "sec_num": null
+            },
+            {
+                "text": "As only three proteins are encoded on the dinoflagellate mitochondrial genome, the vast majority of proteins must be imported. Many proteins are involved in the protein translocation process, and the number utilized depends on how far into the mitochondrion the imported protein is required to travel (Fig. 8) . Although much is known about mitochondrial protein import in model species, there is significant diversity across the protists, and protein sequences are divergent (e.g. Rada et al. 2011) . Imported proteins initially pass through the translocase of the outer membrane (TOM) complex. The TOM complex is composed of multiple subunits. Of these, only transcripts encoding a possible Tom40 and a possible Tom70 were identified in the dinoflagellate EST dataset. It has recently been shown that Tom40 and Tom70 are the only TOM complex proteins found in Microsporidia (Heinz and Lithgow 2012), suggesting that this may be the minimum set of TOM proteins required for successful protein import.",
+                "cite_spans": [
+                    {
+                        "start": 482,
+                        "end": 499,
+                        "text": "Rada et al. 2011)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 301,
+                        "end": 309,
+                        "text": "(Fig. 8)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Protein Import",
+                "sec_num": null
+            },
+            {
+                "text": "Once proteins have crossed the outer membrane, subsequent sorting occurs. Proteins destined for the matrix cross the inner membrane using the Tim23 complex. We were able to identify transcripts for a reduced set of subunits (Tim50 (possible), Tim23, Tim17 (Oxyrrhis only), Tim44, Hsp70, Mge1 and Pam18). We were unable to identify transcripts for Tim21, Pam16 (Oxyrrhis only) and Pam17. There is no identified Tim21 homologue in Plasmodium falciparum (van Dooren et al. 2006) or Tetrahymena thermophila (Smith et al. 2007b) . Pam17 is also absent from plants and humans (Carrie et al. 2010b) , and Pam16 is absent from many species. Therefore, the absence of these proteins in photosynthetic dinoflagellates is not inconsistent with functional protein import (Heinz and Lithgow 2012).",
+                "cite_spans": [
+                    {
+                        "start": 451,
+                        "end": 475,
+                        "text": "(van Dooren et al. 2006)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 503,
+                        "end": 523,
+                        "text": "(Smith et al. 2007b)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 570,
+                        "end": 591,
+                        "text": "(Carrie et al. 2010b)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Protein Import",
+                "sec_num": null
+            },
+            {
+                "text": "Proteins which are destined for the inner membrane are inserted by one of two complexes. The Tim22 complex identifies proteins with an internal targeting sequence for the inner mitochondrial membrane. This complex consists of Tim18, Tim22 and Tim54. Although ESTs encoding Tim22 and a possible Tim18 were present, Tim54 appeared to be absent. Tim54 has also not been identified in Arabidopsis thaliana (Lister et al. 2004) which would suggest that this protein is not essential. The remaining proteins with an N-terminal targeting sequence are inserted into the mitochondrial membrane by the Oxa1 protein, transcripts for which were present.",
+                "cite_spans": [
+                    {
+                        "start": 402,
+                        "end": 422,
+                        "text": "(Lister et al. 2004)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Protein Import",
+                "sec_num": null
+            },
+            {
+                "text": "Those proteins which ultimately end up in the outer membrane are guided by the tiny Tims to the SAM complex (Sorting and Assembly Machinery, also called the TOB (topogenesis of outer membrane \u2424-barrel proteins) complex) (Dolezal et al. 2006; Dukanovic and Rapaport 2011; Wiedemann et al. 2004) . Of the tiny Tims, only transcripts encoding Tim10 were identified, together with a possible Tim8 in photosynthetic dinoflagellates. The numbers of tiny Tims across the eukaryotes varies, with most species containing homohexamers (Tim8 and 13 or Tim9 and 10), although Cryptosporidium has a single tiny Tim and microsporidia have lost the complex entirely (Heinz and Lithgow 2012). Tiny Tims are imported into the mitochondrion using MIA (mitochondrial intermembrane space assembly machinery) which is composed of the Mia40 and Erv1 proteins (Carrie et al. 2010a). We identified transcripts for Erv1 but were unable to identify transcripts for Mia40 (Allen et al. 2008a) . Assuming the tiny Tims are indeed located in the intermembrane space, it is unclear how this is achieved.",
+                "cite_spans": [
+                    {
+                        "start": 220,
+                        "end": 241,
+                        "text": "(Dolezal et al. 2006;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 242,
+                        "end": 270,
+                        "text": "Dukanovic and Rapaport 2011;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 271,
+                        "end": 293,
+                        "text": "Wiedemann et al. 2004)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 945,
+                        "end": 965,
+                        "text": "(Allen et al. 2008a)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Protein Import",
+                "sec_num": null
+            },
+            {
+                "text": "Once proteins are imported through the outer mitochondrial membrane, beta-barrel proteins destined to the outer mitochondrial membrane are inserted by the SAM complex. This complex is composed of three proteins Sam50/Tob55/Omp85, Sam37/Mas37/Tom37 and Sam35/Tob38/Tom38 together with Mdm10 and Mim1 (Dukanovic and Rapaport 2011). However, Sam50 is the only protein conserved across all eukaryotic species (with the exception of Giardia) (Heinz and Lithgow 2012). We were unable to identify transcripts for any of these proteins in the photosynthetic dinoflagellates. Figure 8 . Protein import in the dinoflagellates. EST data suggest that the dinoflagellates contain the core subunits of all import pathways with the exception of the SAM complex (the subunit Sam50 may be bacterial contamination of the EST library). Adapted from Schleiff and Becker (2011). Key TOM complex: translocase of the outer membrane complex, SAM complex: sorting and assembly machinery (also called TOB complex: topogenesis of outer membrane \u2424-barrel proteins), TIM23 complex: translocase of the inner membrane 23 complex, MIA: mitochondrial intermembrane space assembly machinery, TIM22 complex: translocase of the inner membrane 22 complex.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 567,
+                        "end": 575,
+                        "text": "Figure 8",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Protein Import",
+                "sec_num": null
+            },
+            {
+                "text": "We did identify a transcript for YaeT, an Escherichia coli protein homologous to Sam50 involved in insertion of proteins in the outer membrane (Paschen et al. 2005; Stegmeier and Andersen 2006; Werner and Misra 2005) . However, due to the identical protein alignment with E. coli (as shown in Supplementary Table S2 ) and low GC % we cannot rule out the possibility of contamination during the creation of the EST library. It is therefore unclear how \u2424-barrel proteins are inserted into the outer mitochondrial membrane. A recent paper has shown that the earlybranching dinoflagellate Perkinsus has a greater range of proteins involved in mitochondrial protein import than photosynthetic dinoflagellates, with the identification of Pam16 and all four tiny Tims, suggesting that these proteins have been lost in photosynthetic dinoflagellates (Alcock et al. 2012) .",
+                "cite_spans": [
+                    {
+                        "start": 143,
+                        "end": 164,
+                        "text": "(Paschen et al. 2005;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 165,
+                        "end": 193,
+                        "text": "Stegmeier and Andersen 2006;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 194,
+                        "end": 216,
+                        "text": "Werner and Misra 2005)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 842,
+                        "end": 862,
+                        "text": "(Alcock et al. 2012)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 293,
+                        "end": 315,
+                        "text": "Supplementary Table S2",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Protein Import",
+                "sec_num": null
+            },
+            {
+                "text": "Once proteins have been imported into the mitochondrion, processing occurs to remove the targeting peptide. Transcripts encoding both the mitochondrial processing peptidase (MPP, both subunits) and the mitochondrial intermediate peptidase (MIP) are present. However, no transcript was identified which encoded the inner membrane protease (IMP), responsible for a second cleavage after MPP (Gakh et al. 2002) .",
+                "cite_spans": [
+                    {
+                        "start": 385,
+                        "end": 407,
+                        "text": "MPP (Gakh et al. 2002)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Protein Import",
+                "sec_num": null
+            },
+            {
+                "text": "Since the partial sequencing of the dinoflagellate mitochondrial genome in 2007, (Jackson et al. 2007; Nash et al. 2007; Slamovits et al. 2007) it has been clear that the majority of mitochondrial proteins are encoded in the nucleus and imported into the organelle. Here, we have examined the EST datasets from a variety of dinoflagellate algae and show that although some features of mitochondrial biochemistry are conventional, there are numerous unexpected features.",
+                "cite_spans": [
+                    {
+                        "start": 81,
+                        "end": 102,
+                        "text": "(Jackson et al. 2007;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 103,
+                        "end": 120,
+                        "text": "Nash et al. 2007;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 121,
+                        "end": 143,
+                        "text": "Slamovits et al. 2007)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Conclusion",
+                "sec_num": null
+            },
+            {
+                "text": "Although glycolytic and gluconeogenic pathways are present, as is the TCA cycle, the pyruvate dehydrogenase complex is unconventional. It would appear that the classical E1 subunit has been replaced in photosynthetic dinoflagellates by a homodimeric E1 protein as found in some bacteria (as shown in Supplementary Table S2 ). Meanwhile, early branching lineages of dinoflagellates replaced PDH with PNO, usually found in anaerobic mitochondria. Given that Apicomplexa lack a mitochondrial PDH, it would appear that this gene loss/replacement event occurred early on in the alveolate lineage. A second lateral gene transfer event appears to have occurred within the haem biosynthesis pathway, where the protoporphyrinogen oxidase enzyme appears to have been replaced.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 300,
+                        "end": 322,
+                        "text": "Supplementary Table S2",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Conclusion",
+                "sec_num": null
+            },
+            {
+                "text": "A surprising discovery was the apparent absence of 2-oxoglutarate dehydrogenase from Perkinsus, associated with the acquisition of a bypass pathway. This bypass pathway, recently identified in cyanobacteria (Zhang and Bryant 2011) appears to have been obtained by Perkinsus through lateral gene transfer. The acquisition of genes from other species is typical of dinoflagellates, so is perhaps not unexpected (Nosenko and Bhattacharya 2007; Waller et al. 2006) . It is unclear whether the acquisition of these new genes was prior to the loss of the original, dinoflagellate gene, or whether the lateral gene transfer event preceded the loss of the original endogenous gene.",
+                "cite_spans": [
+                    {
+                        "start": 409,
+                        "end": 440,
+                        "text": "(Nosenko and Bhattacharya 2007;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 441,
+                        "end": 460,
+                        "text": "Waller et al. 2006)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Conclusion",
+                "sec_num": null
+            },
+            {
+                "text": "The discovery of a glyoxysome pathway in dinoflagellates confirmed electron micrograph reports from the 1970s (Bibby and Dodge 1973). This pathway is normally found in plants, allowing the TCA cycle to be partially bypassed. Searches showed that the pathway was not present in Apicomplexa. The most likely explanation is that the pathway was present in the ancestor of dinoflagellates and Apicomplexa, and lost in the latter lineage. It will be interesting to see if it is present in the photosynthetic apicomplexans such as Chromera An examination of the photosynthetic Apicomplexa Chromera and Vitrella genomes ought to reveal which scenario is more likely.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Conclusion",
+                "sec_num": null
+            },
+            {
+                "text": "The variation in mitochondrial biochemistry within the Apicomplexa (Olszewski et al. 2010), the highly divergent ATP synthase in ciliates (Nina et al. 2010) and the data presented here show that metabolic biochemistry in the alveolates is extremely diverse. It would appear that that these organisms are very good at adapting to many conditions, and the evolution of the mitochondrion plays a significant role in this adaptation. Far from being relatively homogeneous, eukaryotic mitochondria are extremely diverse, and the dinoflagellate mitochondria are no exception.",
+                "cite_spans": [
+                    {
+                        "start": 138,
+                        "end": 156,
+                        "text": "(Nina et al. 2010)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Conclusion",
+                "sec_num": null
+            },
+            {
+                "text": "Identification of ESTs for proteins putatively targeted to the mitochondria: Translated dinoflagellate EST (expressed sequence tag) libraries were searched using specific protein sequences using the NCBI tBLASTn tool. Translated dinoflagellate EST sequences were obtained using the NCBI tblastn software by selecting the EST dataset and setting organism option to 'dinoflagellate'. Species included Alexandrium minutum (Yang et al. 2010) , Amphidinium carterae (Bachvaroff and Place 2008), Crypthecodinium cohnii (Sanchez-Puerta et al.",
+                "cite_spans": [
+                    {
+                        "start": 419,
+                        "end": 437,
+                        "text": "(Yang et al. 2010)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "2007), Heterocapsa triquetra (Patron et al. 2005 , Karenia brevis (Yoon et al. 2005 , Karlodinium micrum (Patron et al. 2006) , Lingulodinium polyedrum (Tanikawa et al. 2004) and Symbiodinium. In addition, 'Perkinsus' (Joseph et al. 2010) and 'Oxyrrhis ' (Slamovits and Keeling 2008) were also searched where necessary. Full details of each species, together with the relative size of each EST dataset are given in Supplementary  Table S3 . Dinoflagellate sequences were then used to search back against the whole NCBI protein database to confirm identity where necessary. Returned sequences were placed within their metabolic families in order to determine the presence or absence of each metabolic pathway. Although EST sequences did not allow the identification of targeting sequences, which are in any case not well defined for dinoflagellate mitochondria, a mitochondrial location was generally inferred where this was consistent with the location of equivalent proteins in other organisms.",
+                "cite_spans": [
+                    {
+                        "start": 29,
+                        "end": 48,
+                        "text": "(Patron et al. 2005",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 49,
+                        "end": 83,
+                        "text": ", Karenia brevis (Yoon et al. 2005",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 105,
+                        "end": 125,
+                        "text": "(Patron et al. 2006)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 152,
+                        "end": 174,
+                        "text": "(Tanikawa et al. 2004)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 179,
+                        "end": 238,
+                        "text": "Symbiodinium. In addition, 'Perkinsus' (Joseph et al. 2010)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 253,
+                        "end": 283,
+                        "text": "' (Slamovits and Keeling 2008)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 415,
+                        "end": 438,
+                        "text": "Supplementary  Table S3",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Dinoflagellate Metabolism 233",
+                "sec_num": null
+            },
+            {
+                "text": "E.R. Butterfield et al.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "We thank Dr Giselle Walker (University of Otago, New Zealand) for line drawings of alveolate species. We thank Dr Edmund Nash who started this project whilst holding a Biotechnology and Biological Sciences Research Council studentship. ERB is funded by an Australian Postgraduate Award, CJH by a University of South Australia Distinguished Researcher Award and RERN by a University of South Australia Divisional Research Grant.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Acknowledgements",
+                "sec_num": null
+            },
+            {
+                "text": "Supplementary data associated with this article can be found, in the online version, at http://dx.doi.org/ 10.1016/j.protis.2012.09.001. ",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Appendix A. Supplementary data",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {},
+        "ref_entries": {
+            "FIGREF0": {
+                "num": null,
+                "uris": null,
+                "text": "Dinoflagellates, Apicomplexa and ciliate relationships. a. Schematic diagram showing relationships within the Alveolata: ciliates (nonphotosynthetic), dinoflagellate algae, and the Apicomplexa.",
+                "type_str": "figure"
+            },
+            "FIGREF2": {
+                "num": null,
+                "uris": null,
+                "text": "Fe-S cluster biosynthesis. EST data suggest dinoflagellate mitochondria are able to produce Fe-S clusters. Key \u00a7: no transcripts identified, \u2020: present in Perkinsus only, \u2021: present in Perkinsus and Oxyrrhis only.",
+                "type_str": "figure"
+            },
+            "FIGREF4": {
+                "num": null,
+                "uris": null,
+                "text": "Haem biosynthesis pathways. A. Haem biosynthesis pathway used by Perkinsus marinus and Oxyrrhis marina (Ko\u0159en\u00fd et al. 2011). B. Photosynthetic dinoflagellate haem biosynthesis pathway. Key *: possible EST contamination.",
+                "type_str": "figure"
+            },
+            "FIGREF5": {
+                "num": null,
+                "uris": null,
+                "text": "Figure 6. Folate biosynthesis. EST evidence was inconclusive as to the presence of the folate biosynthesis pathway within the dinoflagellates due to the inability to identify DHFS and FPGS. Key \u00a7: no transcripts identified, pABA: para-aminobenzoate, H 2 Pterin: 6-hydroxymethyldihydropterin, HPPK-DHPS: 6hydroxymethyldihydroprotein pyrophosphokinase -dihydropteroate synthase, PP i : pyrophosphate, H 2 Pteroate: dihydropteroate, DHFS: dihydrofolate synthase, P i : phosphate, H 2 F-Glu 1 : monoglutamated form of dihydrofolate, DHFR-TS: dihydrofolate reductase -thymidylate synthase, H 4 F-Glu 1 : monoglutamated form of tetrahydrofolate, FPGS: folylpolyglutamate synthetase, H 4 F-Glu n : polyglutamated form of tetrahydrofolate, CH 2 F-H 4 F-Glu n : polyglutamated form of methylene-tetrahydrofolate.",
+                "type_str": "figure"
+            },
+            "TABREF1": {
+                "content": "<table><tr><td/><td/><td/><td/><td/><td>Dinoflagellate Metabolism 223</td></tr><tr><td colspan=\"3\">Synthesis of Storage Polysaccharides</td><td/><td/></tr><tr><td/><td colspan=\"2\">Starch/ glycogen</td><td/><td/></tr><tr><td colspan=\"2\">Starch synthase UDP-glucose or ADP-glucose Glycolysis and Gluconeogenesis ADP-Glucose pyrophosphorylase</td><td colspan=\"4\">Glucose-1-phosphate Phosphorylase Phosphoglucomutase Phosphoglucose isomerase Glucose-6-phosphate Glucokinase  \u2020</td><td>Glucose</td><td>C Y T O S O</td></tr><tr><td/><td/><td colspan=\"4\">Fructose 6-phosphate</td><td>L</td></tr><tr><td/><td colspan=\"3\">Fructose 1,6-bisphosphatase</td><td colspan=\"2\">Phosphofructokinase</td><td>GLYOXYSOME</td></tr><tr><td/><td colspan=\"5\">Fructose 1,6-bisphosphate</td><td>Citrate synthase</td></tr><tr><td>Dihydroxyacetone</td><td colspan=\"2\">Triose phosphate isomerase</td><td colspan=\"2\">Aldolase Glyceraldehyde</td><td>Oxaloacetate</td><td>Citrate</td></tr><tr><td>phosphate</td><td/><td/><td colspan=\"2\">3-phosphate</td><td>Malate</td></tr><tr><td/><td/><td/><td/><td colspan=\"2\">Glyceraldehyde</td><td>dehydrogenase</td><td>Aconitase</td></tr><tr><td/><td/><td/><td/><td colspan=\"2\">3-phosphate dehydrogenase</td></tr><tr><td/><td/><td colspan=\"4\">1,3-Bisphosphoglycerate</td><td>Malate</td><td>Isocitrate</td></tr><tr><td/><td/><td/><td/><td colspan=\"2\">Phosphoglycerate kinase</td><td>Malate synthase</td><td>Isocitrate</td></tr><tr><td/><td/><td colspan=\"4\">3-phosphoglycerate</td><td>lyase</td></tr><tr><td/><td/><td/><td/><td colspan=\"2\">Phosphoglycerate mutase</td><td>Glyoxylate</td></tr><tr><td/><td/><td colspan=\"3\">2-phosphoglycerate</td><td>Succinate</td></tr><tr><td/><td>Phosphoenolpyruvate</td><td/><td/><td>Enolase</td><td>The Glyoxylate</td></tr><tr><td/><td>carboxykinase</td><td colspan=\"4\">Phosphoenolpyruvate</td><td>Cycle</td></tr><tr><td colspan=\"2\">Oxaloacetate</td><td/><td/><td colspan=\"2\">Pyruvate kinase</td></tr><tr><td/><td colspan=\"2\">Pyruvate carboxylase</td><td/><td>Pyruvate</td></tr><tr><td/><td/><td/><td/><td colspan=\"2\">Pyruvate dehydrogenase</td><td>MITOCHONDRION</td></tr><tr><td/><td/><td/><td/><td>complex #</td></tr><tr><td/><td/><td/><td colspan=\"2\">Acetyl-CoA</td></tr><tr><td/><td colspan=\"4\">Citrate synthase</td><td>Citrate</td><td>Aconitase</td></tr><tr><td/><td colspan=\"2\">Oxaloacetate</td><td/><td/><td>Cis-aconitate</td></tr><tr><td/><td>Malate</td><td/><td/><td/><td>Aconitase</td></tr><tr><td/><td>dehydrogenase</td><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td>D-Isocitrate</td></tr><tr><td/><td>Malate</td><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td>Isocitrate</td></tr><tr><td/><td>Fumarase</td><td/><td/><td/><td>dehydrogenase</td></tr><tr><td/><td>Fumarate</td><td/><td/><td/><td>2-Oxoglutarate</td></tr><tr><td/><td>Succinate</td><td/><td/><td/><td>Oxoglutarate</td></tr><tr><td/><td>dehydrogenase</td><td/><td/><td/><td>dehydrogenase</td></tr><tr><td/><td/><td colspan=\"3\">Succinate</td><td>Succinyl-CoA</td></tr><tr><td colspan=\"2\">The Tricarboxylic Acid Cycle</td><td/><td/><td colspan=\"2\">Succinyl-CoA synthetase</td></tr></table>",
+                "num": null,
+                "text": "E.R. Butterfield et al.",
+                "type_str": "table"
+            }
+        }
+    }
+}

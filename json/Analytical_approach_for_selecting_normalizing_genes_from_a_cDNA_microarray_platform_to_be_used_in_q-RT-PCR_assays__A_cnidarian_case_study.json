@@ -1,0 +1,2155 @@
+{
+    "paper_id": "Analytical_approach_for_selecting_normalizing_genes_from_a_cDNA_microarray_platform_to_be_used_in_q-RT-PCR_assays__A_cnidarian_case_study",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-09-13T19:46:12.195981Z"
+    },
+    "title": "Analytical approach for selecting normalizing genes from a cDNA microarray platform to be used in q-RT-PCR assays: A cnidarian case study",
+    "authors": [
+        {
+            "first": "Mauricio",
+            "middle": [],
+            "last": "Rodriguez-Lanetty",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "ARC Centre of Excellence for Coral Reef Studies /Centre for Marine Studies",
+                "institution": "University of Queensland",
+                "location": {
+                    "addrLine": "St. Lucia QLD 4072",
+                    "country": "Australia"
+                }
+            },
+            "email": "m.rodriguez-lanetty@uq.edu.au"
+        },
+        {
+            "first": "Wendy",
+            "middle": [
+                "S"
+            ],
+            "last": "Phillips",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "Oregon State University",
+                "location": {
+                    "postCode": "97331",
+                    "settlement": "Corvallis",
+                    "region": "OR",
+                    "country": "United States"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Sophie",
+            "middle": [],
+            "last": "Dove",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Queensland",
+                "location": {
+                    "addrLine": "St. Lucia QLD 4072",
+                    "country": "Australia"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Ove",
+            "middle": [],
+            "last": "Hoegh-Guldberg",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Queensland",
+                "location": {
+                    "addrLine": "St. Lucia QLD 4072",
+                    "country": "Australia"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Virginia",
+            "middle": [
+                "M"
+            ],
+            "last": "Weis",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "Oregon State University",
+                "location": {
+                    "postCode": "97331",
+                    "settlement": "Corvallis",
+                    "region": "OR",
+                    "country": "United States"
+                }
+            },
+            "email": ""
+        }
+    ],
+    "year": "",
+    "venue": null,
+    "identifiers": {},
+    "abstract": "Research in gene function using Quantitative Reverse Transcription PCR (q-RT-PCR) and microarray approaches are emerging and just about to explode in the field of coral and cnidarian biology. These approaches are showing the great potential to significantly advance our understanding of how corals respond to abiotic and biotic stresses, and how host cnidarians/dinoflagellates symbioses are maintained and regulated. With these genomic advances, however, new analytical challenges are also emerging, such as the normalization of gene expression data derived from q-RT-PCR. In this study, an effective analytical method is introduced to identify candidate housekeeping genes (HKG) from a sea anemone (Anthopleura elegantissima) cDNA microarray platform that can be used as internal control genes to normalize q-RT-PCR gene expression data. It is shown that the identified HKGs were stable among the experimental conditions tested in this study. The three most stables genes identified, in term of gene expression, were beta-actin, ribosomal protein L12, and a Poly(a) binding protein. The applications of these HKGs in other cnidarian systems are further discussed.",
+    "pdf_parse": {
+        "paper_id": "Analytical_approach_for_selecting_normalizing_genes_from_a_cDNA_microarray_platform_to_be_used_in_q-RT-PCR_assays__A_cnidarian_case_study",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "Research in gene function using Quantitative Reverse Transcription PCR (q-RT-PCR) and microarray approaches are emerging and just about to explode in the field of coral and cnidarian biology. These approaches are showing the great potential to significantly advance our understanding of how corals respond to abiotic and biotic stresses, and how host cnidarians/dinoflagellates symbioses are maintained and regulated. With these genomic advances, however, new analytical challenges are also emerging, such as the normalization of gene expression data derived from q-RT-PCR. In this study, an effective analytical method is introduced to identify candidate housekeeping genes (HKG) from a sea anemone (Anthopleura elegantissima) cDNA microarray platform that can be used as internal control genes to normalize q-RT-PCR gene expression data. It is shown that the identified HKGs were stable among the experimental conditions tested in this study. The three most stables genes identified, in term of gene expression, were beta-actin, ribosomal protein L12, and a Poly(a) binding protein. The applications of these HKGs in other cnidarian systems are further discussed.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "As a result of recent advances in genomic technology, a new set of tools has started to be used in addressing central questions in cnidarian and coral reef physiology [1] . Techniques such as gene expression profiling using DNA microarray, quantitative reverse transcription PCR (q-RT-PCR) and differential display assays are showing the great potential to significantly advance our understanding of how corals respond to abiotic and biotic stresses [2, 3] , and how the complex mutualistic association between host cnidarians and symbiotic dinoflagellates is maintained and regulated [4] . With these genomic advances, however, new analytical and methodological challenges are also emerging, not only for the field of coral biology, but also for the general field of molecular biology.",
+                "cite_spans": [
+                    {
+                        "start": 167,
+                        "end": 170,
+                        "text": "[1]",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 450,
+                        "end": 453,
+                        "text": "[2,",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 454,
+                        "end": 456,
+                        "text": "3]",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 585,
+                        "end": 588,
+                        "text": "[4]",
+                        "ref_id": "BIBREF3"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "Gene expression profiling studies using microarray technology to measure messenger RNA (mRNA) expression yields long lists of genes that appear to be differentially expressed. Differential expression of some of these genes is subsequently validated using q-RT-PCR assays, which compared to other methods to assess gene expression, such as northern blot analysis or conventional RT-PCR, are rapid, reproducible, and have a wide dynamic range [5] .",
+                "cite_spans": [
+                    {
+                        "start": 441,
+                        "end": 444,
+                        "text": "[5]",
+                        "ref_id": "BIBREF4"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "q-RT-PCR, a modification of PCR, is used to rapidly measure the quantity of starting amounts of DNA, cDNA, or RNA templates in a particular sample. The technique is based on the detection of a fluorescent reporter molecule that increases as PCR product accumulates with each cycle of amplification. q-RT-PCR exceeds the limitations of traditional end-point PCR methods by allowing either absolute or relative quantification of PCR product at the end of each cycle. This ability has greatly enhanced several areas of research including gene expression analysis and genotyping assays.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "When measuring the expression (i.e. amount of mRNA transcripts) of a gene of interest using q-RT-PCR assays, the expression data has to go through a step of normalization to remove or eliminate variation in the amount of starting material between the samples, e.g. caused by sample-to-sample variation, variation in RNA integrity, reverse transcription efficiency differences and cDNA sample loading variation [6] [7] [8] . This is especially relevant when the samples have been obtained from different individuals, different tissues and different time courses, and will result in the misinterpretation of the derived expression profile of the target genes. Therefore, normalization of target gene expression levels must be performed to compensate intra-and inter-kinetic RT-PCR variations (sample-to-sample and run-torun variations) [9] . q-RT-PCR data normalization can be carried out against total cellular DNA or RNA content (molecules/g total DNA/RNA and concentrations/g total DNA/RNA) or against endogenous unregulated reference gene transcript. Normalization according the total cellular RNA content has increasingly been used, but little is known about the total RNA content of cells or even about the mRNA concentrations [10] . The content per cell or per gram tissue may vary in different tissues in vivo, in cell culture (in vitro), between individuals and under different experimental conditions. Alternatively, relative quantification can be determined by normalizing the level of expression of a gene of interest relative to the levels of an endogenous reference gene, also called internal control or most popularly termed housekeeping gene (HKG). This housekeeping gene can be co-amplified in the same tube in a multiplex assay or can be amplified in a separate tube. Therefore, relative quantification using HKGs does not require standards with known concentrations and the reference can be any transcript, as long as its sequence is known. The normalization values for different samples can be then directly compared [10] .",
+                "cite_spans": [
+                    {
+                        "start": 410,
+                        "end": 413,
+                        "text": "[6]",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 414,
+                        "end": 417,
+                        "text": "[7]",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 418,
+                        "end": 421,
+                        "text": "[8]",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 834,
+                        "end": 837,
+                        "text": "[9]",
+                        "ref_id": "BIBREF8"
+                    },
+                    {
+                        "start": 1231,
+                        "end": 1235,
+                        "text": "[10]",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 2035,
+                        "end": 2039,
+                        "text": "[10]",
+                        "ref_id": "BIBREF9"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "When using housekeeping genes to normalize gene expression data, the underlying assumption is that they are expressed at constant levels across the samples and that their expression does not vary in response to the experimental manipulation. Because the expression of the target gene is measured relative to the housekeeping gene, it is critical that these assumptions hold. However, it has become clear that no single housekeeping gene can be used for all studies and that the choice of the control gene depends on the tissue type and the experimental conditions [11] [12] [13] . Furthermore, it has been shown that normalization based on a single housekeeping gene led to erroneous quantifications of up to 3-fold in 25% of cases and 6.4-fold in 10% of cases, with sporadic cases showing errors greater than 20-fold [14] . It is recommended, instead normalizing the gene expression of gene of interests to the geometric mean of several housekeeping genes [14] . Nevertheless, finding multiple HKGs to be used as normalizing internal controls is challenging and a difficult task.",
+                "cite_spans": [
+                    {
+                        "start": 564,
+                        "end": 568,
+                        "text": "[11]",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 569,
+                        "end": 573,
+                        "text": "[12]",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 574,
+                        "end": 578,
+                        "text": "[13]",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 818,
+                        "end": 822,
+                        "text": "[14]",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 957,
+                        "end": 961,
+                        "text": "[14]",
+                        "ref_id": "BIBREF13"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "Since the selection of internal control genes is tissue and experimental condition dependent, and there is a need for several of them for q-RT-PCR normalization, we suggest that potential HKG candidates for normalizing q-RT-PCR data could be attained from a cDNA microarray platform under similar experimental settings. The justification of this approach lies on the fact that only small proportions of genes from large, comprehensive cDNA microarrays tend to be differentially expressed under any experimental design, leaving the gene expression of most of the genes on the microarrays unalterable. Because of this, microarray experiments can be self-normalized using the data from the thousands of genes in the array that do not change expression [15] . Thus, microarrays offer a great advantage in mining for candidate HKGs.",
+                "cite_spans": [
+                    {
+                        "start": 749,
+                        "end": 753,
+                        "text": "[15]",
+                        "ref_id": "BIBREF14"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "In this study, we propose a statistical and analytical approach to select candidate \"Housekeeping Genes\" from microarray experiments, which then can be used as normalizing genes in q-RT-PCR assays. The gene expression stability among these candidate genes from q-RT-PCR data is further tested. For this study, we used a (cnidarian) sea anemone (Anthopleura elegantissima) cDNA microarray platform, where two treatments or conditions were compared: symbiont-free anemones (aposymbiotic) and symbiotic anemones (see [4] , for further details regarding the experimental design). After statistical and screening analyses, we found six candidate genes out of 10,368 cDNAs. We discuss the potential for these HKGs to be tested and used in other cnidarian systems.",
+                "cite_spans": [
+                    {
+                        "start": 514,
+                        "end": 517,
+                        "text": "[4]",
+                        "ref_id": "BIBREF3"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "The gene expression data from the microarray experiments published by Rodriguez-Lanetty et al. [4] and deposited in Gene Expression Omnibus (GSE3858) was used. In this study, the gene transcription profile from sea anemones hosting symbionts were compared to anemones free of symbionts (referred to as aposymbiotic).",
+                "cite_spans": [
+                    {
+                        "start": 95,
+                        "end": 98,
+                        "text": "[4]",
+                        "ref_id": "BIBREF3"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Selection of candidate housekeeping genes from a microarray platform",
+                "sec_num": "2.1."
+            },
+            {
+                "text": "Three criteria were established for selecting candidate HKGs from the microarray platform; (1) these genes should show low gene expression variability among samples within and between treatments; (2) They should show a ratio of expression not statistically different than 1 between treatments, and (3) they should be abundant transcripts.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Selection of candidate housekeeping genes from a microarray platform",
+                "sec_num": "2.1."
+            },
+            {
+                "text": "In order to filter out genes whose expressions are very variable among samples, we ranked all the genes on the array based on their coefficient of variation (CV) of the arraynormalized Cy5/Cy3 ratios and pre-selected those genes that had a coefficient of variation lower than 5%. From this list of pre-selected genes, we tested whether the Cy5/Cy3 ratios were not significantly different to ratio = 1 (null hypothesis), using a one-sample t-test (which compares the mean of a group to a hypothetical value), filtering out those genes whose ratios were significantly different from one (p b 0.05). In the case where microarray data includes more than two treatments or groups, we recommend that ANOVA analysis be performed and only those significant genes among the treatment be filtered out.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Selection of candidate housekeeping genes from a microarray platform",
+                "sec_num": "2.1."
+            },
+            {
+                "text": "From the list of non-differentially expressed genes, we then filtered out those genes that were below a set threshold of fluorescent intensity [measured by the Photo-Multiplier Tube (PMT) detector] per array-scanned channel. Only those pre-selected genes with PMT values higher than 30% of the saturation PMT values were chosen (PMT N 20,000). The rationale for this last criterion of selection is to choose common HKGs based on the assumption that transcript abundance correlates with PMT intensity values.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Selection of candidate housekeeping genes from a microarray platform",
+                "sec_num": "2.1."
+            },
+            {
+                "text": "Specific primers amplifying approximately 100-200 bp PCR products were designed for the chosen candidate HKGs, and specific amplification of appropriately sized bands was checked ( Table 1 ). The selected range of PCR product length was based on the recommendations given by Fleige et al. [16] . The candidate HKGs were tested on new sea anemone samples from the same two conditions, one infected with symbionts and the other one free of symbionts. cDNAs of five samples from each of the two treatments or conditions were synthesized from 100 ng of mRNA and then diluted to a final volume of 330 \u03bcl. Two \u03bcl of cDNA was used in triplicate 20 \u03bcl quantitative RT-PCR reactions with 250 nM primers and iQ SYBR Green Supermix (BioRad) for a total of 40 cycles. The comparative delta CT method corrected for the actual PCR efficiency was used to determine relative quantities of mRNA transcripts from each sampled anemone. The PCR efficiency was determined using Lin-RegPCR [17] .",
+                "cite_spans": [
+                    {
+                        "start": 289,
+                        "end": 293,
+                        "text": "[16]",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 968,
+                        "end": 972,
+                        "text": "[17]",
+                        "ref_id": "BIBREF16"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 181,
+                        "end": 188,
+                        "text": "Table 1",
+                        "ref_id": "TABREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Stability of the selected candidate housekeeping genes from the microarray platform 2.2.1. Primer design and q-RT-PCR assays",
+                "sec_num": "2.2."
+            },
+            {
+                "text": "We used the method described by Vandesompele et al. [14] to determine the expression stability (M value) of control HKGs on the basis of non-normalized expression data from q-RT-PCR assays. The \"M-value\" measure relies on the principle that the expression ratio of two hypothetical ideal internal control genes is identical in all samples, regardless of the experimental condition or treatment. In this way, variation of the expression ratios of two actual housekeeping genes reflects the fact that one (or both) of the genes is (are) not constantly expressed, with increasing variation in ratio corresponding to decreasing expression stability (M value). For every candidate housekeeping gene, we determined the pairwise variation with all other candidate control genes as the standard variation of the logarithmically transformed expression ratios, which was defined as the internal control genestability measure \"M value\", the average pairwise variation of a particular gene with all other control genes. Genes with the lowest M values have the most stable expression and therefore would be selected as the ideal housekeeping genes.",
+                "cite_spans": [
+                    {
+                        "start": 52,
+                        "end": 56,
+                        "text": "[14]",
+                        "ref_id": "BIBREF13"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Gene-stability measure of candidate housekeeping genes",
+                "sec_num": "2.2.2."
+            },
+            {
+                "text": "The calculation of the M values was performed using the software GeNorm created by Vandesompele et al. [14] . This program automatically calculates the gene-stability measure M for all control genes in a given set of samples, and enables elimination of the worst-scoring housekeeping gene (which is the one with the highest M value).",
+                "cite_spans": [
+                    {
+                        "start": 103,
+                        "end": 107,
+                        "text": "[14]",
+                        "ref_id": "BIBREF13"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Gene-stability measure of candidate housekeeping genes",
+                "sec_num": "2.2.2."
+            },
+            {
+                "text": "A normalization factor based on the expression level of the best-performing or the most stable housekeeping genes was calculated by computing the geometric mean among these genes. The reason to use a geometric average instead of an arithmetic average relies on the fact that the former is less sensitive to outlying values and abundance differences between the different genes [14] . This normalization factor was used to normalize the expression q-RT-PCR data of four target genes of interest (Table 2) known to be differentially expressed from a previous microarray study [4] . The expression values of array data and q-RT-PCR were compared. The sample of ratios (symbiotic vs aposymbiotic state) from the Q-RT-PCR data for each gene was compared to the absolute ratio value from the microarray data (Table 2 ) using a one-sample t-test (\u03b1 = 0.05). ",
+                "cite_spans": [
+                    {
+                        "start": 377,
+                        "end": 381,
+                        "text": "[14]",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 574,
+                        "end": 577,
+                        "text": "[4]",
+                        "ref_id": "BIBREF3"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 494,
+                        "end": 503,
+                        "text": "(Table 2)",
+                        "ref_id": "TABREF1"
+                    },
+                    {
+                        "start": 802,
+                        "end": 810,
+                        "text": "(Table 2",
+                        "ref_id": "TABREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Testing ideal housekeeping genes: comparison of array and q-RT-PCR expression data",
+                "sec_num": "2.2.3."
+            },
+            {
+                "text": "Out of 10,368 genes on the microarray, 18 genes satisfied the three stringent criteria of selection for housekeeping genes, which were low gene expression variability among all samples; no significant difference in gene expression between treatments (\u03b1 = 0.05), and high abundance of transcripts (Fig. 1) .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 296,
+                        "end": 304,
+                        "text": "(Fig. 1)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Selection of candidate housekeeping genes",
+                "sec_num": "3.1."
+            },
+            {
+                "text": "After completing sequencing and BLAST analyses, six unique genes out of the 18 candidate genes showed significant homology to genes deposited in GenBank. These genes were beta-actin, the ribosomal protein L12 and L10, a Poly(a)binding protein gene, a CCAAT/enhancer-binding protein gene and a putative senescence-associated protein gene (Table 1) , which were then further tested as potential housekeeping genes in q-RT-PCR assays. The genes that did not show any significant hit with the GenBank database were not further tested as potential candidate HKGs. The reason to remove the unknown genes from the analyses is because we are not able in the current stage to satisfy one of the important criteria when selecting multiple housekeeping genes to be used for normalizing Q-RT-PCR data, which is the selected HKGs should not be co-expressed or belonging to the same functional group. So because we could not determine the actual function of some of the genes from gene database comparisons, we decided not to include them in our analyses.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 337,
+                        "end": 346,
+                        "text": "(Table 1)",
+                        "ref_id": "TABREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Selection of candidate housekeeping genes",
+                "sec_num": "3.1."
+            },
+            {
+                "text": "The gene-stability expression measures (M) for the six candidate housekeeping genes on the basis of non-normalized expression levels from q-RT-PCR assays are shown in Fig. 2 . From a stepwise exclusion of the least stable control gene, we determined that beta-actin and the ribosomal protein L12 mRNA were the two most stable control genes, with an average expression stability value of 0.43, followed by the Poly(a)binding protein gene ( Fig. 2 ; Table 1 ). The least stable gene within these six candidates was the putative senescenceassociated protein gene which increased the average expression stability to 0.59.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 167,
+                        "end": 173,
+                        "text": "Fig. 2",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 439,
+                        "end": 445,
+                        "text": "Fig. 2",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 448,
+                        "end": 455,
+                        "text": "Table 1",
+                        "ref_id": "TABREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Analysis of gene-stability of candidate housekeeping genes from q-RT-PCR assays",
+                "sec_num": "3.2."
+            },
+            {
+                "text": "In order to measure expression levels accurately in q-RT-PCR assays, normalization by multiple housekeeping genes are required, as discussed by Vandesompele et al. [14] . The number of genes used for calculating a geometric average normalization factor should be a trade-off between practical considerations and accuracy. It would be impractical to quantify the six candidate control genes to obtain a normalization factor when only a few target genes would need to be studied. Furthermore, it would be a waste of resources to quantify more housekeeping genes than necessary if all genes are relatively stably expressed and if the normalization factor does not significantly change whether or not more genes are included. It has been recommended that the minimal use of the three most stable internal control genes for calculation of an q-RT-PCR normalization factor, and stepwise inclusion of more control genes until the (n + 1)th gene has no significant contribution to the newly calculated normalization factor [14] .",
+                "cite_spans": [
+                    {
+                        "start": 164,
+                        "end": 168,
+                        "text": "[14]",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 1015,
+                        "end": 1019,
+                        "text": "[14]",
+                        "ref_id": "BIBREF13"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Determination of the optimal number of control genes for q-RT-PCR normalization",
+                "sec_num": "3.3."
+            },
+            {
+                "text": "From our analysis, the pairwise variation of the normalization factor for the three most stable (i.e. best performing) control genes was less than 0.15, which is already a very low pairwise variation, suggesting that these three most stable genes might be enough for calculating an adequate normalization factor (Fig. 3) . However, we observed that the inclusion of the 4th ranked stable gene slightly reduced the pairwise variation of the new normalization Fig. 1 . Transcript abundance of pre-selected genes (ESTs) that did not show significant differences between treatments (\u03b1 b 0.05), and which expression variation among all samples were less than 5%. The ESTs that show transcript abundance (\u226520,000 PMT values) [bars in black] were finally chosen as candidate housekeeping genes and sequenced. factor to 0.11, advocating that this extra housekeeping gene might also be included in the calculation of the normalization factor. The inclusion of any further candidate housekeeping gene did not affect the pairwise variation of the subsequent normalization factors.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 312,
+                        "end": 320,
+                        "text": "(Fig. 3)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 458,
+                        "end": 464,
+                        "text": "Fig. 1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Determination of the optimal number of control genes for q-RT-PCR normalization",
+                "sec_num": "3.3."
+            },
+            {
+                "text": "In the previous section, we determined that the following four genes; beta-actin, Poly(a)-binding protein gene, the ribosomal protein L12 and L10 were the most stable housekeeping genes to be used for normalization of q-RT-PCR expression data (Table 1) . However, we decided to exclude one of the two ribosomal protein genes from the normalization factor calculation as these two genes might be co-regulated since they belong to the same functional class. Thus, we omitted the ribosomal L10 as this was slightly less stable than the ribosomal L12 gene.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 243,
+                        "end": 252,
+                        "text": "(Table 1)",
+                        "ref_id": "TABREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Testing housekeeping genes: comparison of microarray and q-RT-PCR expression data",
+                "sec_num": "3.4."
+            },
+            {
+                "text": "We then compared the expression of four other specific genes, which are particularly involved in symbiosis regulation [4] , measured by q-RT-PCR assays and normalized with the geometric mean of the three best-performing housekeeping genes determined previously, with the expression of the same genes measured by the microarray assays. Although there was slight variation in the mean of gene expression, no significant differences (p N 0.1; one-sample t-test) were detected between the q-RT-PCR and microarray data (Table 2) . Moreover, the patterns of gene expression as a function of symbiosis were the same. These results validate the gene expression data for these four genes measured previously using microarrays, but never previously validated with other gene expression assays [4] . These results also indicate that the normalization of the q-RT-PCR data by our three best-performing housekeeping genes was adequate. It is important to mention that the gene expression as function of symbiosis for few other genes has also been validated using the stable HKGs reported here [4] . Rodriguez-Lanetty et al. [4] reported the senescence-associated protein (Sap) [6th stable HKG] was included in the normalization factor in that study, but that was a typo mistake as it was indeed the Poly(a) binding protein (Pabp) used instead along with Betaactin and Ribosomal protein L12 (RibpL12).",
+                "cite_spans": [
+                    {
+                        "start": 118,
+                        "end": 121,
+                        "text": "[4]",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 783,
+                        "end": 786,
+                        "text": "[4]",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 1080,
+                        "end": 1083,
+                        "text": "[4]",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 1111,
+                        "end": 1114,
+                        "text": "[4]",
+                        "ref_id": "BIBREF3"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 514,
+                        "end": 523,
+                        "text": "(Table 2)",
+                        "ref_id": "TABREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Testing housekeeping genes: comparison of microarray and q-RT-PCR expression data",
+                "sec_num": "3.4."
+            },
+            {
+                "text": "We have introduced here an effective and original analytical approach to identify candidate housekeeping genes from a microarray platform that can be used as internal control genes to normalize q-RT-PCR data. Based on q-RT-PCR data, we have then tested and shown that the identified HKGs were stable among the experimental conditions of our study. Furthermore, comparison of q-RT-PCR and microarray data showed that the final three best-performing HKGs identified from our method were adequate to be used as normalizing genes in gene expression assays.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "4."
+            },
+            {
+                "text": "Based on the experimental conditions from our study, we determined the best-performing housekeeping genes in q-RT-PCR assays among the six candidates genes discovered from a microarray platform containing 10,368 ESTs. It is important, however, to mention that the rank based on performance of these HKGs could change depending on the experimental conditions of the samples. Thus we suggest that, if other researchers plan to use the HKGs described in this study on other cnidarian organisms, including anemones and corals, the stability and ranked performance should be established a priori from the new experimental conditions. The cellular function of the three best-performing (most stable) housekeeping genes is further discussed.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "The best-performing housekeeping genes",
+                "sec_num": "4.1."
+            },
+            {
+                "text": "Actin is a ubiquitous protein involved in the formation of filaments that are major components of the cytoskeleton. These filaments interact with myosin to produce a sliding effect, which is the basis of muscular contraction and many aspects of cell motility, including cytokinesis [18] . The three major groups of Fig. 3 . Pairwise variation (V n / n + 1 ) analysis between the normalization factor NF n and NF n + 1 to determine the number of control genes required for accurate normalization. N = number of the gene, so gene 1 to 6 refers from the most stable to least ones (ranked genes from Table 1 ). actin isoforms are the alpha, beta and gamma. The alpha actins are found in muscle tissues and are a major constituent of the contractile apparatus. The beta and gamma actins co-exist in most cell types as components of the cytoskeleton and as mediators of internal cell motility [18] .",
+                "cite_spans": [
+                    {
+                        "start": 282,
+                        "end": 286,
+                        "text": "[18]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 887,
+                        "end": 891,
+                        "text": "[18]",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 315,
+                        "end": 321,
+                        "text": "Fig. 3",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 596,
+                        "end": 603,
+                        "text": "Table 1",
+                        "ref_id": "TABREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Beta-actin",
+                "sec_num": "4.2."
+            },
+            {
+                "text": "Over the last 8 years, beta-actin has become the most common internal control gene in gene expression studies; however many studies have recently shown that caution should be taken when using beta-actin or any other common internal control gene, such as GAPDH, as their gene expression can vary based on the experimental conditions [19] . This does not imply that beta-actin or any other previous HKG cannot be used at all as normalizing or internal control gene. But it is becoming widely accepted that HKGs need careful validation before their use in quantitative mRNA assays. For instance, Murphy et al. [20] have shown that beta-actin among a few other control genes may be used as HKGs to study gene expression in human muscle in experiments employing short-term creatine supplementation.",
+                "cite_spans": [
+                    {
+                        "start": 332,
+                        "end": 336,
+                        "text": "[19]",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 607,
+                        "end": 611,
+                        "text": "[20]",
+                        "ref_id": "BIBREF19"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Beta-actin",
+                "sec_num": "4.2."
+            },
+            {
+                "text": "From our study, we have also shown that beta-actin is not only an adequate housekeeping gene, but the best-performing (most stable) gene along with the ribosomal protein L12 gene when used to address questions on cnidarian/dinoflagellate symbiosis by comparing aposymbiotic with symbiotic host anemones.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Beta-actin",
+                "sec_num": "4.2."
+            },
+            {
+                "text": "From our study, ribosomal protein L12 was equally ranked with beta-actin as the best-performing (stable) gene among the tested housekeeping genes.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Ribosomal protein L12",
+                "sec_num": "4.3."
+            },
+            {
+                "text": "Ribosomal proteins are structural proteins that in conjunction with rRNA, make up the ribosomal subunits involved in the cellular process of DNA translation. The L12, along with L7 polypeptides, however, are among the few protein components of the translational machinery that is involved in translation factor binding and in the ribosomal GTPase center [21] . It has been well documented that ribosomes depleted of L7/L12 protein cores inefficiently support protein synthesis and exhibit a higher error frequency [22, 23] . The proteins interact with initiation-, elongation-, and release factors, and are responsible for the factordependent GTP hydrolysis [24, 25] . All these finding suggest that ribosomal protein L7/L12 exerts well-defined functional roles to keep the homeostasis of the DNA translational processes in the cell, and thus to be considered as a good candidate housekeeping gene, as we have shown in this study.",
+                "cite_spans": [
+                    {
+                        "start": 354,
+                        "end": 358,
+                        "text": "[21]",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 514,
+                        "end": 518,
+                        "text": "[22,",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 519,
+                        "end": 522,
+                        "text": "23]",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 658,
+                        "end": 662,
+                        "text": "[24,",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 663,
+                        "end": 666,
+                        "text": "25]",
+                        "ref_id": "BIBREF24"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Ribosomal protein L12",
+                "sec_num": "4.3."
+            },
+            {
+                "text": "In our study, the Poly(a) binding protein was the third best ranked housekeeping gene. Poly(a) binding proteins play a role in the synthesis and mediating the biological function of Poly(a) tails, which are tails permanently attached to almost all eukaryotic mRNAs [26] . Two types of conserved eukaryotic Poly(a) binding proteins have been described so far in detail, one being localized in the cytoplasm, which is present in all eukaryotes and plays important roles in at least two processes within nucleic acid metabolism, translation and mRNA decay; and another type localized in the nucleus, which was discovered through its role in polyadenylation of mRNA precursors, and is also ubiquitous in eukaryotic organisms [26] . This group of proteins has been implicated in global gene regulation, both stimulating translation initiation [27] and by enhancing mRNA stability and function [28] . Therefore they play a significant role in keeping steady the healthy levels of nucleic acid metabolism, which make them good candidate housekeeping genes to be used as control gene for normalization of gene expression data. We have indeed shown in this study that this is the case for a cnidarian organism, as the gene expression of one of these proteins show high stability among two different experimental settings.",
+                "cite_spans": [
+                    {
+                        "start": 265,
+                        "end": 269,
+                        "text": "[26]",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 721,
+                        "end": 725,
+                        "text": "[26]",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 838,
+                        "end": 842,
+                        "text": "[27]",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 888,
+                        "end": 892,
+                        "text": "[28]",
+                        "ref_id": "BIBREF27"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Poly(a) binding protein",
+                "sec_num": "4.4."
+            },
+            {
+                "text": "The analytical method introduced in this study allows the identification of candidate housekeeping genes from a microarray platform which then can be used as internal control genes to normalize q-RT-PCR data. The approach encompasses three key steps for selecting candidate HKGs from a microarray platform; (1) the pre-selection of genes showing low gene expression variability among samples within and between treatments; (2) the test of whether the ratio of expression of these genes is not statistically different than 1 between treatments; and (3) The pre-selection of abundant transcripts. Finally, the gene-stability of the selected candidate housekeeping genes is tested in q-RT-PCR assays. The approach proposed in this study to identify HKGs can be applied to any comprehensive cDNA microarray platform generated from any biological system.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Simplified description of the method and its (future) applications",
+                "sec_num": "5."
+            },
+            {
+                "text": "Research in gene function using q-RT-PCR and microarray approaches are emerging and just about to explode in the field of coral and cnidarian biology. Because of the evolutionary importance of cnidarian organisms, as a basal metazoan, more attention has started to grow and more research in evolutionary developmental biology has began to be conducted in cnidarian species [29] . An entire genome has been already sequenced from a sea anemone (Nematostella vectensis) [30] , and several ESTs project are in progress for different corals species [31, 32] . All these genomics tools would provide molecular platforms to start studying the molecular basis of very important and significant biological phenomena, such as coral bleaching, the effect of ocean acidification on reef corals and host/symbiont regulation. However, in order to make sense with the gene expression data very important technological issues involving normalization in q-RT-PCR need careful attention.",
+                "cite_spans": [
+                    {
+                        "start": 373,
+                        "end": 377,
+                        "text": "[29]",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 468,
+                        "end": 472,
+                        "text": "[30]",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 545,
+                        "end": 549,
+                        "text": "[31,",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 550,
+                        "end": 553,
+                        "text": "32]",
+                        "ref_id": "BIBREF31"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Applications for other cnidarian studies",
+                "sec_num": "5.1."
+            },
+            {
+                "text": "Currently, there is no data available in regard what genes can be used as housekeeping genes to normalize gene expression data for cnidarian systems. We are proposing in this study several housekeeping genes that were successfully used to normalize gene expression data in cnidarian/algal symbiosis experiments. These genes may also be tested as normalizing genes in other coral/cnidarian gene expression studies. This is currently very feasible, as these genes have also already been pulled out from the Nemastostella genome [31] and from the Acropora millepora [32] coral EST project. Furthermore, the gene expression of Beta-actin (our most stable housekeeping gene) has also been shown to be stable in the coral A. millepora under different thermal stresses (Seneca et al. in preparation). These findings are promising and we then encourage other researchers to test, under other different experimental scenarios of interest, not only the three best-performing HKGs showed here but as well the other three normalizing genes reported in this study.",
+                "cite_spans": [
+                    {
+                        "start": 526,
+                        "end": 530,
+                        "text": "[31]",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 563,
+                        "end": 567,
+                        "text": "[32]",
+                        "ref_id": "BIBREF31"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Applications for other cnidarian studies",
+                "sec_num": "5.1."
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "We would like to thank to the members of Hoegh-Guldberg/ Dove's lab in the University of Queensland for meaningful discussions and comments on early versions of this manuscript. We also are grateful for the comments and suggestions by two anonymous reviewers which have helped to improve this manuscript. This research was funded by the National Science Foundation (IBN: 0342585) to V. M. W; and by the Australian Research Council Centre of Excellence for Coral Reef Studies.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Acknowledgements",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "Genomics-fueled approaches to current challenges in marine ecology",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Hofmann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Burnaford",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Fielman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "TREE",
+                "volume": "20",
+                "issue": "",
+                "pages": "305--316",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hofmann GE, Burnaford JL, Fielman KT. Genomics-fueled approaches to current challenges in marine ecology. TREE 2005;20:305-11.",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "Development of a coral cDNA array to examine gene expression profiles in Montastraea faveolata exposed to environmental stress",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Edge",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Morgan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Gleason",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Snell",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Mar Pollut Bul",
+                "volume": "51",
+                "issue": "",
+                "pages": "507--530",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Edge SE, Morgan MB, Gleason DF, Snell TW. Development of a coral cDNA array to examine gene expression profiles in Montastraea faveolata exposed to environmental stress. Mar Pollut Bul 2005;51:507-23.",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "Profiling differential gene expression of corals along a transect of waters adjacent to the Bermuda municipal dump",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Morgan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Edge",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Snell",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Mar Pollut Bull",
+                "volume": "51",
+                "issue": "",
+                "pages": "524--557",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Morgan MB, Edge SE, Snell TW. Profiling differential gene expression of corals along a transect of waters adjacent to the Bermuda municipal dump. Mar Pollut Bull 2005;51:524-33.",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "Transcriptome analysis of a cnidarian -dinoflagellate mutualism reveals complex modulation of host gene expression",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Rodriguez-Lanetty",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Phillips",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Weis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "BMC Genomics",
+                "volume": "7",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rodriguez-Lanetty M, Phillips WS, Weis VM. Transcriptome analysis of a cnidarian -dinoflagellate mutualism reveals complex modulation of host gene expression. BMC Genomics 2006;7:23.",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Quantification of nucleic acids by PCR",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Bustin",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "IUL Biotechnology Series",
+                "volume": "",
+                "issue": "",
+                "pages": "1--29",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bustin SA. Quantification of nucleic acids by PCR. In: Bustin SA, editor. A-Z of Quantification PCR. IUL Biotechnology Series, La Jolla; 2004. p. 1-29.",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "Quantitative real-time PCR method for detection of B-lymphocyte monoclonality by comparison of kappa and lambda immunoglobulin light chain expression",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Stahlberg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Aman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Ridell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Mostad",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Kubista",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Clin Chem",
+                "volume": "49",
+                "issue": "",
+                "pages": "51--60",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Stahlberg A, Aman P, Ridell B, Mostad P, Kubista M. Quantitative real-time PCR method for detection of B-lymphocyte monoclonality by comparison of kappa and lambda immunoglobulin light chain expression. Clin Chem 2003;49:51-9.",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "Comparison of reverse transcriptases in gene expression analysis",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Stahlberg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Kubista",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Pfaffl",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Clin Chem",
+                "volume": "50",
+                "issue": "",
+                "pages": "1678--80",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Stahlberg A, Kubista M, Pfaffl M. Comparison of reverse transcriptases in gene expression analysis. Clin Chem 2004;50:1678-80.",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "Properties of the reverse transcription reaction in mRNA quantification",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Stahlberg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Hakansson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "X",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Xian",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Semb",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Kubista",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Clin Chem",
+                "volume": "50",
+                "issue": "",
+                "pages": "509--524",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Stahlberg A, Hakansson J, Xian XJ, Semb H, Kubista M. Properties of the reverse transcription reaction in mRNA quantification. Clin Chem 2004;50:509-15.",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "Validities of mRNA quantification using recombinant RNA and recombinant DNA external calibration curves in real-time RT-PCR",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Pfaffl",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Hageleit",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Biotechnol Lett",
+                "volume": "23",
+                "issue": "",
+                "pages": "275--82",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pfaffl MW, Hageleit M. Validities of mRNA quantification using recombinant RNA and recombinant DNA external calibration curves in real-time RT-PCR. Biotechnol Lett 2001;23:275-82.",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "A new mathematical model for relative quantification in realtime RT-PCR",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Pfaffl",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Nucleic Acids Res",
+                "volume": "29",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pfaffl MW. A new mathematical model for relative quantification in real- time RT-PCR. Nucleic Acids Res 2001;29:e45.",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Housekeeping genes as internal standards: use and limits",
+                "authors": [
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Thellin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Zorzi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Lakaye",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "De",
+                        "middle": [],
+                        "last": "Borman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Coumans",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Hennen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "J Biotechnol",
+                "volume": "75",
+                "issue": "",
+                "pages": "291--296",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Thellin O, Zorzi W, Lakaye B, De Borman B, Coumans B, Hennen G, et al. Housekeeping genes as internal standards: use and limits. J Biotechnol 1999;75:291-5.",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "Effect of experimental treatment on housekeeping gene expression: validation by real-time, quantitative RT-PCR",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Schmittgen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Zakrajsek",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "J Biochem Biophys Methods",
+                "volume": "46",
+                "issue": "",
+                "pages": "69--81",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Schmittgen TD, Zakrajsek BA. Effect of experimental treatment on housekeeping gene expression: validation by real-time, quantitative RT- PCR. J Biochem Biophys Methods 2000;46:69-81.",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "Validation of endogenous controls for gene expression analysis in microdissected human renal biopsies",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Schmid",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Cohen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Henger",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Irrgang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Schlondorff",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Kretzler",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Kidney Int",
+                "volume": "64",
+                "issue": "",
+                "pages": "356--60",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Schmid H, Cohen CD, Henger A, Irrgang S, Schlondorff D, Kretzler M. Validation of endogenous controls for gene expression analysis in microdissected human renal biopsies. Kidney Int 2003;64:356-60.",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "Accurate normalization of real-time quantitative RT-PCR data by geometric averaging of multiple internal control genes",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Vandesompele",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "De",
+                        "middle": [],
+                        "last": "Preter",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Pattyn",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Poppe",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Van Roy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "De",
+                        "middle": [],
+                        "last": "Paepe",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Genome Biol",
+                "volume": "3",
+                "issue": "",
+                "pages": "1--11",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Vandesompele J, De Preter K, Pattyn F, Poppe B, Van Roy N, De Paepe A, et al. Accurate normalization of real-time quantitative RT-PCR data by geometric averaging of multiple internal control genes. Genome Biol 2002;3:1-11.",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "Normalization for cDNA microarray data: a robust composite method adressing single and multiple slide systematic variation",
+                "authors": [
+                    {
+                        "first": "Y",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Yang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Dudoit",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Lin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "Peng",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Ngai",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Speed",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Nucleic Acids Res",
+                "volume": "30",
+                "issue": "",
+                "pages": "1--15",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Yang YH, Dudoit S, Lin DM, Peng V, Ngai J, Speed TP. Normalization for cDNA microarray data: a robust composite method adressing single and multiple slide systematic variation. Nucleic Acids Res 2002;30:1-e15.",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Comparison of relative mRNA quantification models and the impact of RNA integrity in quantitative real-time RT-PCR",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Fleige",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "Walf",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Huch",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Prgomet",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Sehm",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Pfaffl",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Biotechnol Lett",
+                "volume": "28",
+                "issue": "",
+                "pages": "1601--1614",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Fleige S, Walf V, Huch S, Prgomet C, Sehm J, Pfaffl MW. Comparison of relative mRNA quantification models and the impact of RNA integrity in quantitative real-time RT-PCR. Biotechnol Lett 2006;28:1601-13.",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Assumption free analysis of quantitative real-time polymerase chain reaction (PCR) data",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Ramakers",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Ruijter",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Deprez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Moorman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Neurosci Lett",
+                "volume": "339",
+                "issue": "",
+                "pages": "62--68",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ramakers C, Ruijter JM, Deprez RH, Moorman AF. Assumption free analysis of quantitative real-time polymerase chain reaction (PCR) data. Neurosci Lett 2003;339:62-6.",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "beta-Actin and GAPDH housekeeping gene expression in asthmatic airways is variable and not suitable for normalizing mRNA levels",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Glare",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Divjak",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Bailey",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Walters",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Thorax",
+                "volume": "57",
+                "issue": "",
+                "pages": "765--70",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Glare EM, Divjak M, Bailey MJ, Walters EH. beta-Actin and GAPDH housekeeping gene expression in asthmatic airways is variable and not suitable for normalizing mRNA levels. Thorax 2002;57:765-70.",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "Effects of creatine supplementation on housekeeping genes in human skeletal muscle using real-time RT-PCR",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Murphy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Kko",
+                        "middle": [],
+                        "last": "Watt",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Cameron-Smith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Gibbons",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Snow",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Physiol Genomics",
+                "volume": "12",
+                "issue": "",
+                "pages": "163--74",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Murphy RM, Watt KKO, Cameron-Smith D, Gibbons CJ, Snow RJ. Effects of creatine supplementation on housekeeping genes in human skeletal muscle using real-time RT-PCR. Physiol Genomics 2003;12: 163-74.",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "Flexibility, conformational diversity and two dimerization modes in complexes of ribosomal protein L12",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Markus",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Gleb",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Bourenkov",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Bartunik",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "EMBO J",
+                "volume": "19",
+                "issue": "",
+                "pages": "174--86",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Markus CW, Gleb P, Bourenkov HD, Bartunik RH. Flexibility, conformational diversity and two dimerization modes in complexes of ribosomal protein L12. EMBO J 2000;19:174-86.",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "Requirement of an Escherichia coli 50S ribosomal protein component for effective interaction of the ribosome with T and G factors and with guanosine triphosphate",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Hamel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Koka",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Nakamoto",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1972,
+                "venue": "J Biol Chem",
+                "volume": "247",
+                "issue": "",
+                "pages": "805--819",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hamel E, Koka M, Nakamoto T. Requirement of an Escherichia coli 50S ribosomal protein component for effective interaction of the ribosome with T and G factors and with guanosine triphosphate. J Biol Chem 1972;247:805-14.",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "Ribosomal protein L7/L12 is required for optimal translation",
+                "authors": [
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Pettersson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Kurland",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1980,
+                "venue": "Proc Natl Acad Sci",
+                "volume": "77",
+                "issue": "",
+                "pages": "4007--4017",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pettersson I, Kurland CG. Ribosomal protein L7/L12 is required for optimal translation. Proc Natl Acad Sci USA 1980;77:4007-10.",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "Reconstitution of a GTPase activity by a 50S ribosomal protein from E. coli",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Kischa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "M\u00f6ller",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "St\u00f6ffler",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1971,
+                "venue": "Nat New Biol",
+                "volume": "233",
+                "issue": "",
+                "pages": "62--65",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kischa K, M\u00f6ller W, St\u00f6ffler G. Reconstitution of a GTPase activity by a 50S ribosomal protein from E. coli. Nat New Biol 1971;233:62-3.",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "Ribosomal proteins L7/L12 of Escherichia coli: localization and possible molecular mechanism in translation",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "M\u00f6ller",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Schrier",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Maassen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Zantema",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Schop",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Reinalda",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Cremers",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Mellema",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1983,
+                "venue": "J Mol Biol",
+                "volume": "3",
+                "issue": "",
+                "pages": "553--73",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "M\u00f6ller W, Schrier PI, Maassen JA, Zantema A, Schop E, Reinalda H, Cremers AF, Mellema JE. Ribosomal proteins L7/L12 of Escherichia coli: localization and possible molecular mechanism in translation. J Mol Biol 1983;3:553-73.",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "Structure and function of poly(A) binding proteins",
+                "authors": [
+                    {
+                        "first": "U",
+                        "middle": [],
+                        "last": "Kuhn",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Wahle",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Biochim Biophys Acta",
+                "volume": "1678",
+                "issue": "",
+                "pages": "67--84",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kuhn U, Wahle E. Structure and function of poly(A) binding proteins. Biochim Biophys Acta 2004;1678:67-84.",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "The Poly(A) binding protein is required for Poly(A) shortening and 60S ribosomal subunit-dependent translation initiation",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Sachs",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Davis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1989,
+                "venue": "Cell",
+                "volume": "58",
+                "issue": "",
+                "pages": "857--67",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sachs AB, Davis RW. The Poly(A) binding protein is required for Poly(A) shortening and 60S ribosomal subunit-dependent translation initiation. Cell 1989;58:857-67.",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "The Poly(A)-binding protein and an MrNA stability protein jointly regulate an endoribonuclease activity",
+                "authors": [
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Wang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Kiledjian",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Mol Cell Biol",
+                "volume": "20",
+                "issue": "",
+                "pages": "6334--6375",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wang Z, Kiledjian M. The Poly(A)-binding protein and an MrNA stability protein jointly regulate an endoribonuclease activity. Mol Cell Biol 2000;20:6334-41.",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "The coral Acropora: what it can contribute to our knowledge of metazoan evolution and the evolution of developmental processes",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Miller",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Ball",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "BioEssays",
+                "volume": "22",
+                "issue": "",
+                "pages": "291--297",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Miller DJ, Ball EE. The coral Acropora: what it can contribute to our knowledge of metazoan evolution and the evolution of developmental processes. BioEssays 2000;22:291-6.",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "The Nematostella vectensis Genomics Database",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Sullivan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Ryan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Watson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Webb",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Mullikin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Rokhsar",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Nucleic Acids Res",
+                "volume": "34",
+                "issue": "",
+                "pages": "495--504",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sullivan JC, Ryan JF, Watson JA, Webb J, Mullikin JC, Rokhsar D, et al. StellaBase: The Nematostella vectensis Genomics Database. Nucleic Acids Res 2006;34:D495-9.",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "EST analysis of the Cnidarian Acropora millepora reveals extensive gene loss and rapid sequence divergence in the model invertebrates",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Kortschak",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Samuel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Saint",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Miller",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Curr Biol",
+                "volume": "13",
+                "issue": "",
+                "pages": "2190--2195",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kortschak RD, Samuel G, Saint R, Miller DJ. EST analysis of the Cnidarian Acropora millepora reveals extensive gene loss and rapid sequence divergence in the model invertebrates. Curr Biol 2003;13:2190-5.",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "Coral reef genomics: developing tools for functional genomics of coral symbiosis",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Schwarz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Brokstein",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Manohar",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Coffroth",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Szmant",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Medina",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Proc 10th Int Coral Reef Symp",
+                "volume": "1",
+                "issue": "",
+                "pages": "274--81",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Schwarz JA, Brokstein P, Manohar C, Coffroth MA, Szmant A, Medina MA. Coral reef genomics: developing tools for functional genomics of coral symbiosis. Proc 10th Int Coral Reef Symp 2006;1:274-81.",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "uris": null,
+                "num": null,
+                "type_str": "figure",
+                "text": "Average variation of the expression stability value (M) for the six final candidate housekeeping genes during stepwise exclusion of the least stable control gene (from the left to the right on the X-axis)."
+            },
+            "TABREF0": {
+                "num": null,
+                "content": "<table><tr><td>Gene</td><td colspan=\"2\">Rank Primers</td><td>Product size</td></tr><tr><td>Beta-actin (b-actin)</td><td>1</td><td>For: CTG ATG GAC</td><td>200 bp</td></tr><tr><td/><td/><td>AGG TCA TCA CCA T</td><td/></tr><tr><td/><td/><td>Rev: CTC GTG GAT</td><td/></tr><tr><td/><td/><td>ACC AGC AGA TTC C</td><td/></tr><tr><td>Ribosomal protein L12</td><td>2</td><td>For: CCT AAG TTC</td><td>191 bp</td></tr><tr><td>(RibpL12)</td><td/><td>GAC CCC AAT GA</td><td/></tr><tr><td/><td/><td>Rev: TTT TGG ATG</td><td/></tr><tr><td/><td/><td>GTC AGT TGG AC</td><td/></tr><tr><td>Poly(a) binding protein</td><td>3</td><td>For: AAT GGC GTC</td><td>167 bp</td></tr><tr><td>(Pabp)</td><td/><td>TCT ATA CGT TGG</td><td/></tr><tr><td/><td/><td>Rev: CGT GAG CTG</td><td/></tr><tr><td/><td/><td>GTT GTT GGA A</td><td/></tr><tr><td>Ribosomal protein L10</td><td>4</td><td>For: TGT GTG GCA</td><td>212 bp</td></tr><tr><td>(RibpL10)</td><td/><td>AAG AAG GAT GA</td><td/></tr><tr><td/><td/><td>Rev: GTA GCA GGG</td><td/></tr><tr><td/><td/><td>ACG ATT TCA GG</td><td/></tr><tr><td>CCAAT/enhancer-binding</td><td>5</td><td>For: CGC TTC AAG</td><td>120 bp</td></tr><tr><td>protein (C/EBP)</td><td/><td>ACC AAA CAA AA</td><td/></tr><tr><td/><td/><td>Rev: TCG GAG TAC</td><td/></tr><tr><td/><td/><td>GTT GAG CTC TTT</td><td/></tr><tr><td>Senescence-associated</td><td>6</td><td>For: TCG CAC CAT</td><td>204 bp</td></tr><tr><td>protein (Sap)</td><td/><td>TGG CTT TTC</td><td/></tr><tr><td/><td/><td>Rev: CCT ATC ATT</td><td/></tr><tr><td/><td/><td>GCG AAG CAG AA</td><td/></tr></table>",
+                "type_str": "table",
+                "text": "Candidate housekeeping genes, ranked in order of their expression stability, and their forward and reverse primers used in q-RT-PCR assays"
+            },
+            "TABREF1": {
+                "num": null,
+                "content": "<table><tr><td>Gene</td><td>Gene expression</td><td>Gene expression</td><td>GenBank</td></tr><tr><td/><td>(microarray) a</td><td>(q-RT-PCR) b</td><td>accession ID</td></tr><tr><td>Death-associated protein 1</td><td>\u2191 1.39</td><td>\u2191 1.51</td><td>DQ309530</td></tr><tr><td>(DAP-1)</td><td/><td/><td/></tr><tr><td>Calcium/calmodulin-</td><td>\u2193 1.57</td><td>\u2193 1.33</td><td>DQ309544</td></tr><tr><td>dependent protein</td><td/><td/><td/></tr><tr><td>kinase IV</td><td/><td/><td/></tr><tr><td>Plasma glutamate</td><td>\u2191 1.70</td><td>\u2191 1.77</td><td>DQ309521</td></tr><tr><td>carboxypeptidase</td><td/><td/><td/></tr><tr><td>Collagen alpha-1 chain,</td><td>\u2193 1.94</td><td>\u2193 2.25</td><td>DQ309546</td></tr><tr><td>type XII</td><td/><td/><td/></tr></table>",
+                "type_str": "table",
+                "text": "Comparison of ratios of expression of four selected genes involved in symbiosis from microarray and q-RT-PCR data"
+            }
+        }
+    }
+}

@@ -1,0 +1,3712 @@
+{
+    "paper_id": "Application_of_1H-NMR_Metabolomic_Profiling_for_Reef-Building_Corals",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-09-13T19:47:25.676142Z"
+    },
+    "title": "Application of 1 H-NMR Metabolomic Profiling for Reef-Building Corals",
+    "authors": [
+        {
+            "first": "Emilia",
+            "middle": [
+                "M"
+            ],
+            "last": "Sogin",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "National Research Council of Italy",
+                "location": {
+                    "country": "Italy"
+                }
+            },
+            "email": "esogin@hawaii.edu"
+        },
+        {
+            "first": "Paul",
+            "middle": [],
+            "last": "Anderson",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "National Research Council of Italy",
+                "location": {
+                    "country": "Italy"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Philip",
+            "middle": [],
+            "last": "Williams",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "National Research Council of Italy",
+                "location": {
+                    "country": "Italy"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Chii-Shiarng",
+            "middle": [],
+            "last": "Chen",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "National Research Council of Italy",
+                "location": {
+                    "country": "Italy"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Ruth",
+            "middle": [
+                "D"
+            ],
+            "last": "Gates",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "National Research Council of Italy",
+                "location": {
+                    "country": "Italy"
+                }
+            },
+            "email": ""
+        }
+    ],
+    "year": "",
+    "venue": null,
+    "identifiers": {},
+    "abstract": "In light of global reef decline new methods to accurately, cheaply, and quickly evaluate coral metabolic states are needed to assess reef health. Metabolomic profiling can describe the response of individuals to disturbance (i.e., shifts in environmental conditions) across biological models and is a powerful approach for characterizing and comparing coral metabolism. For the first time, we assess the utility of a proton-nuclear magnetic resonance spectroscopy (H-NMR)-based metabolomics approach in characterizing coral metabolite profiles by 1) investigating technical, intra-, and inter-sample variation, 2) evaluating the ability to recover targeted metabolite spikes, and 3) assessing the potential for this method to differentiate among coral species. Our results indicate 1 H-NMR profiling of Porites compressa corals is highly reproducible and exhibits low levels of variability within and among colonies. The spiking experiments validate the sensitivity of our methods and showcase the capacity of orthogonal partial least squares discriminate analysis (OPLS-DA) to distinguish between profiles spiked with varying metabolite concentrations (0 mM, 0.1 mM, and 10 mM). Finally, 1 H-NMR metabolomics coupled with OPLS-DA, revealed species-specific patterns in metabolite profiles among four reef-building corals (Pocillopora damicornis, Porites lobata, Montipora aequituberculata, and Seriatopora hystrix). Collectively, these data indicate that 1 H-NMR metabolomic techniques can profile reef-building coral metabolomes and have the potential to provide an integrated picture of the coral phenotype in response to environmental change.",
+    "pdf_parse": {
+        "paper_id": "Application_of_1H-NMR_Metabolomic_Profiling_for_Reef-Building_Corals",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "In light of global reef decline new methods to accurately, cheaply, and quickly evaluate coral metabolic states are needed to assess reef health. Metabolomic profiling can describe the response of individuals to disturbance (i.e., shifts in environmental conditions) across biological models and is a powerful approach for characterizing and comparing coral metabolism. For the first time, we assess the utility of a proton-nuclear magnetic resonance spectroscopy (H-NMR)-based metabolomics approach in characterizing coral metabolite profiles by 1) investigating technical, intra-, and inter-sample variation, 2) evaluating the ability to recover targeted metabolite spikes, and 3) assessing the potential for this method to differentiate among coral species. Our results indicate 1 H-NMR profiling of Porites compressa corals is highly reproducible and exhibits low levels of variability within and among colonies. The spiking experiments validate the sensitivity of our methods and showcase the capacity of orthogonal partial least squares discriminate analysis (OPLS-DA) to distinguish between profiles spiked with varying metabolite concentrations (0 mM, 0.1 mM, and 10 mM). Finally, 1 H-NMR metabolomics coupled with OPLS-DA, revealed species-specific patterns in metabolite profiles among four reef-building corals (Pocillopora damicornis, Porites lobata, Montipora aequituberculata, and Seriatopora hystrix). Collectively, these data indicate that 1 H-NMR metabolomic techniques can profile reef-building coral metabolomes and have the potential to provide an integrated picture of the coral phenotype in response to environmental change.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "Coral reefs are among the most productive ecosystems in the world [1] . Globally, they produce up to 700610 12 g C year 21 [2] and provide important services (e.g., fisheries habitat, coastal protection, and promotion of tourism) that support tropical and subtropical coastal communities worldwide [3] . Despite the importance of coral reefs, damaging anthropogenic activities such as overfishing, pollution, and physical destruction jeopardize their long-term persistence [4] [5] [6] . Of particular concern are recent increases in sea surface temperatures and ocean acidification that are driving worldwide declines in coral reef ecosystems [7, 8] .",
+                "cite_spans": [
+                    {
+                        "start": 66,
+                        "end": 69,
+                        "text": "[1]",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 120,
+                        "end": 122,
+                        "text": "21",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 123,
+                        "end": 126,
+                        "text": "[2]",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 298,
+                        "end": 301,
+                        "text": "[3]",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 473,
+                        "end": 476,
+                        "text": "[4]",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 477,
+                        "end": 480,
+                        "text": "[5]",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 481,
+                        "end": 484,
+                        "text": "[6]",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 643,
+                        "end": 646,
+                        "text": "[7,",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 647,
+                        "end": 649,
+                        "text": "8]",
+                        "ref_id": "BIBREF7"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "Coral susceptibility to environmental stress varies within and among species [9, 10] . This feature reflects the combined physiology of a diverse assemblage of microorganisms and algal partners that comprise the coral holobiont [11] [12] [13] [14] [15] . While research has focused on describing differential responses of corals and their partners to environmental stress [12, 13, [16] [17] [18] [19] , the development of tools that can be broadly deployed and used to rapidly assess coral health trajectories is still in its infancy. Applications of 'omics' techniques are enhancing these efforts and are describing coral resistance, resilience, and function [20] . While there are challenges and limitations in interpreting these large datasets [20] , global analyses of genes [21] , transcripts [22] , and proteins [23] are advancing our understanding of holobiont responses to ecological disturbances. However, these techniques are currently too expensive to apply in reef-wide monitoring programs. Consequently, there is still a need for cost-effective molecular tools that can be proactively used to assess coral metabolic states.",
+                "cite_spans": [
+                    {
+                        "start": 77,
+                        "end": 80,
+                        "text": "[9,",
+                        "ref_id": "BIBREF8"
+                    },
+                    {
+                        "start": 81,
+                        "end": 84,
+                        "text": "10]",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 228,
+                        "end": 232,
+                        "text": "[11]",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 233,
+                        "end": 237,
+                        "text": "[12]",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 238,
+                        "end": 242,
+                        "text": "[13]",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 243,
+                        "end": 247,
+                        "text": "[14]",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 248,
+                        "end": 252,
+                        "text": "[15]",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 372,
+                        "end": 376,
+                        "text": "[12,",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 377,
+                        "end": 380,
+                        "text": "13,",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 381,
+                        "end": 385,
+                        "text": "[16]",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 386,
+                        "end": 390,
+                        "text": "[17]",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 391,
+                        "end": 395,
+                        "text": "[18]",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 396,
+                        "end": 400,
+                        "text": "[19]",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 660,
+                        "end": 664,
+                        "text": "[20]",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 747,
+                        "end": 751,
+                        "text": "[20]",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 779,
+                        "end": 783,
+                        "text": "[21]",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 798,
+                        "end": 802,
+                        "text": "[22]",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 818,
+                        "end": 822,
+                        "text": "[23]",
+                        "ref_id": "BIBREF22"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "Metabolites are small molecules that are products and intermediates of metabolism and play essential roles in biochemical pathways that underpin growth, nutrition, reproduction, and survival. As such, external disturbances can trigger responses in the metabolic processes of coral colonies leading to shifts in metabolite profiles. Despite their broad significance in maintaining basic biological functions, metabolite research is far from complete in reef corals. For instance, select groups of compounds, such as sugars, lipids and mycosporine like amino acids have received considerable attention in the literature due to their biochemical roles in maintaining coral metabolism. However, other metabolites such as steroids, isoprenoids, alkaloids, and sulfur containing compounds, such as dimethylsulphoniopropionate and acrylate, are also critical for coral reproduction, growth, survival and maintenance of symbiotic status [24] [25] [26] [27] . A more comprehensive description of coral metabolite composition could further elucidate the role of metabolites and pinpoint metabolic pathways essential for coral resilience to environmental change, thereby providing a means to gauge coral biological performance.",
+                "cite_spans": [
+                    {
+                        "start": 929,
+                        "end": 933,
+                        "text": "[24]",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 934,
+                        "end": 938,
+                        "text": "[25]",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 939,
+                        "end": 943,
+                        "text": "[26]",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 944,
+                        "end": 948,
+                        "text": "[27]",
+                        "ref_id": "BIBREF26"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "Advances in metabolomic technologies provide an opportunity to quantify many metabolites simultaneously. This holistic approach takes advantage of metabolite profiling methods using nuclear magnetic resonance (NMR) and/or mass spectrometry (MS) techniques to capture organism responses to external conditions. Changes in the metabolome typically reflect gene and protein expression [27] . Thus, metabolomics can describe and integrate complex responses of organisms. These methods are applicable across scientific disciplines and can identify bioactive compounds, assess food safety, and describe the function of unknown genes [28] [29] [30] . Of particular interest to coral reef scientists is the capacity of metabolomic tools to identify metabolites and profiles that may serve as biomarkers for disease or stress response [31] [32] [33] [34] . These techniques have only recently been applied to corals [35, 36] and extensions of these methods may enable rapid and cost-effective assessment of coral metabolic states.",
+                "cite_spans": [
+                    {
+                        "start": 382,
+                        "end": 386,
+                        "text": "[27]",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 627,
+                        "end": 631,
+                        "text": "[28]",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 632,
+                        "end": 636,
+                        "text": "[29]",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 637,
+                        "end": 641,
+                        "text": "[30]",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 826,
+                        "end": 830,
+                        "text": "[31]",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 831,
+                        "end": 835,
+                        "text": "[32]",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 836,
+                        "end": 840,
+                        "text": "[33]",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 841,
+                        "end": 845,
+                        "text": "[34]",
+                        "ref_id": "BIBREF33"
+                    },
+                    {
+                        "start": 907,
+                        "end": 911,
+                        "text": "[35,",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 912,
+                        "end": 915,
+                        "text": "36]",
+                        "ref_id": "BIBREF35"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "Here, we demonstrate the application of metabolomic profiling in reef-building corals using proton-NMR ( 1 H-NMR) spectroscopy. 1 H-NMR metabolomic methods are tractable because they are relatively inexpensive (typically,$5/sample), reproducible, require minimal sample preparation, are non-destructive allowing for repeat analyses using various acquisition experiments, and can be used in a non-targeted approach to measure multiple metabolite classes in a single run [37] . Furthermore, 1 H-NMR techniques have been used to quantitatively investigate the concentration of select metabolites in Acropora spp. corals [38, 39] . To determine the efficacy of profiling reef-building coral metabolomes using 1 H-NMR methods, we conducted three independent experiments to assess the variability, sensitivity, and ecological relevance of our methods. First, we investigated variation in 1 H-NMR profiles within and among multiple coral colonies. Then, we explored the sensitivity of our techniques by spiking samples with various concentrations of metabolites known to occur in reef-building corals. Finally, we compared metabolite profiles from four coral species to determine if our methods describe signatures inherent to taxonomic divisions. Our results collectively demonstrate that 1 H-NMR techniques are a viable and powerful tool for assessing the metabolomes of reef-building corals.",
+                "cite_spans": [
+                    {
+                        "start": 469,
+                        "end": 473,
+                        "text": "[37]",
+                        "ref_id": "BIBREF36"
+                    },
+                    {
+                        "start": 617,
+                        "end": 621,
+                        "text": "[38,",
+                        "ref_id": "BIBREF37"
+                    },
+                    {
+                        "start": 622,
+                        "end": 625,
+                        "text": "39]",
+                        "ref_id": "BIBREF38"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "Corals sampled in Hawaii were collected under special activity permits issued by the Department of Land and Natural Resources (permit numbers 2011-1, 2012-63) to the Hawaii Institute of Marine Biology (HIMB). Corals in Taiwan were collected under a research permit issued to the National Museum for Marine Biology and Aquarium (NMMBA) from the Kenting National Park of Taiwan.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Technical, Intra-, and Inter-Colony Variability. Reefbuilding coral samples were collected from a small area (ca. 135 m 2 ) of a fringing reef in Kaneohe Bay, Hawaii (21u25958.280N, 157u47923.550W) using bone cutters and immediately immersed in liquid nitrogen. Samples used to assess intracolony and technical variation in metabolite profiles were collected in December 2011, while those used to assess inter-colony variability were sampled in June 2013. While coral metabolite content may change, variability measured in 1 H-NMR profiles is still likely to be comparable within and among colonies through time. Following sample collection, coral fragments were lyophilized and stored at 280uC prior to metabolite extraction. To assess technical variation, three replicate fragments from separate colonies were collected, pooled, and pulverized. From these samples, 5 replicate extractions were performed. Five fragments of a single Porites compressa colony, which is a dominant reefbuilding coral in Hawaii, and 5 from separate colonies were used to assess intra-and inter-colony variation in 1 H-NMR profiles.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Coral Sampling and Metabolite Extractions",
+                "sec_num": null
+            },
+            {
+                "text": "Coral metabolite extracts were obtained following methods modified from Gordon et al. [40] to allow for increased extraction times. Solvent choice will significantly influence resulting 1 H-NMR profiles and consequently the interpretation of an individual's metabolome. While past studies have used methods combing polar and non-polar solvents to simultaneously extract hydrophilic and hydrophobic metabolites [41] , the current application of a 70% methanol/water (v/v; 70% MeOH) solvent system was developed to capture a broad range of the coral's metabolome without introducing added variation by minimizing extraction steps [40] .",
+                "cite_spans": [
+                    {
+                        "start": 86,
+                        "end": 90,
+                        "text": "[40]",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 410,
+                        "end": 414,
+                        "text": "[41]",
+                        "ref_id": "BIBREF40"
+                    },
+                    {
+                        "start": 628,
+                        "end": 632,
+                        "text": "[40]",
+                        "ref_id": "BIBREF39"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Coral Sampling and Metabolite Extractions",
+                "sec_num": null
+            },
+            {
+                "text": "All P. compressa samples were extracted following extraction method 1. Only inter-colony samples were re-extracted using method 2 to determine if variation in metabolite profiles differed between protocols used in the current study.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Coral Sampling and Metabolite Extractions",
+                "sec_num": null
+            },
+            {
+                "text": "Extraction Method 1. mL of pre-cooled 70% MeOH was added for every 0.7 g of coral to assess technical, intra-, and intercolony variability. All extracts were sonicated for 15 min and shaken for 24 h at 4uC. To ensure samples were fully extracted, a second solvent volume was added to each coral fragment for an additional 24 h at 4uC. The two resulting extracts were combined and cellular debris removed by centrifugation (4000 rpm for 10 min at 4uC). The supernatant containing the extracted metabolites was removed from the pellet and concentrated using a speed-vacuum concentrator. Extract weights were obtained prior to data acquisition and used to normalize 1 H-NMR spectra.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Coral Sampling and Metabolite Extractions",
+                "sec_num": null
+            },
+            {
+                "text": "Extraction method 2. Five inter-colony samples were also extracted by adding 2 mL of 70% MeOH (v/v) for every 0.1 g of coral. Extracts were sonicated for 15 min, mixed on ice for 45 min, and concentrated using a combination of rotary evaporation and lyophilization. Extract weights were obtained prior to data acquisition and used to normalize between 1 H-NMR spectra. Spiking Experiment. Eighteen fragments from a P. compressa colony were collected from a small region (c.a. 135 m 2 ) of a fringing reef adjacent to HIMB in December 2011. Fragment volumes were assessed by displacement of deionized (DI) water, which was used to remove excess salt and to determine the amount of solvent to add to each nubbin during metabolite extraction.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Coral Sampling and Metabolite Extractions",
+                "sec_num": null
+            },
+            {
+                "text": "While the addition of DI water may activate enzymatic pathways resulting in changes in metabolite composition, the identical treatment across all samples allows for comparison of coral metabolomes. Subsequently, fragments were immersed in liquid nitrogen to halt metabolism. To evaluate the capacity of 1 H-NMR methods to identify differences in concentrations of coral metabolites, 1 M alanine, 1 M glycolic acid, and 1 M glucose were combined and diluted with DI water to prepare 0.1 mM and mM metabolite cocktail spikes. Directly prior to metabolite extraction, 10 mL of the treatment and control (DI water only) cocktails were added to the surface of each whole coral nubbin (n = 6/treatment). Five mL of 70% methanol was added to each fragment for every 1 mL of coral volume (v/v) and metabolites were extracted following method 2 described above.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Coral Sampling and Metabolite Extractions",
+                "sec_num": null
+            },
+            {
+                "text": "Species Comparison. Replicate fragments (n = 8-9) of Montipora aequituberculata, Pocillopora damicornis, Porites lobata, and Seriatopora hystrix were collected from Nanwan Bay, Taiwan (ca. 21u569310N, 120u449560E) in the June of 2011 and transported to the National Museum for Marine Biology and Aquarium (NMMBA), Checheng, Taiwan. These coral species are dominant reef-building corals in Taiwan and represent ecologically distinct taxa [13] with varying morphological and physiological characteristics [42] . Corals were re-fragmented and allowed to recover in a flow-through holding tank (environmental conditions reported Table 1 ) for two weeks prior to sampling for metabolome analysis. Corals were briefly rinsed with DI water to remove excess salts, immediately immersed in liquid nitrogen, lyophilized, pulverized and transported on dry ice back to the HIMB where they were stored at 280uC. Metabolites were extracted following extraction method 2 described above.",
+                "cite_spans": [
+                    {
+                        "start": 437,
+                        "end": 441,
+                        "text": "[13]",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 503,
+                        "end": 507,
+                        "text": "[42]",
+                        "ref_id": "BIBREF41"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 625,
+                        "end": 632,
+                        "text": "Table 1",
+                        "ref_id": "TABREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Coral Sampling and Metabolite Extractions",
+                "sec_num": null
+            },
+            {
+                "text": "Coral extracts were reconstituted in 250 mL of deuterium oxide (D 2 O) containing 1 mM of 3-(trimethylsilyl)propionic acid sodium salt (TMSP-d 4 ) to facilitate comparison of resulting profiles to metabolites in 1 H-NMR databases. Extracts were briefly sonicated and transferred to a 3 mm NMR tube. 1 H-NMR profiles were obtained using a 500 MHz Varian Unity Inova spectrometer equipped with a 1M/x-broadband 3 mm probe. Spectra were acquired using a water suppression pulse sequence (PRESAT), consisting of 132 (extraction method 1) or 64 (extraction method 2) transients of 32 K data-points with a relaxation delay of 1 s (extraction method 1) or 3 s (extraction method 2) over a spectral window of 5500 Hz. Resulting spectra were zero-filled to 64 K and multiplied by a line-broadening factor of 0.5 Hz prior to Fourier transformation. Spectra were imported in to MestreNova (Mestrelabs version 7.1.2), where spectral baselines were adjusted using Whittiker smoothing and normalized to the total area. Three alignments were created to compare 1 H-NMR (1) profile variability, (2) spectra spiked with the metabolite cocktails, and (3) fingerprints among coral species. All alignments were reduced to ASCII files. Variables corresponding to the residual water impurity (4.48-4.92 ppm) and an observed acetone contaminant (2.22-2.27 ppm) were removed. Alignments were imported into Metabolink (http://metabolink.knoesis.org), where a dynamic adaptive binning routine was used to identify each peak as a separate variable [43] . For each alignment, bins were found between 0.5 to 10 ppm. R statistical environment (version 3.0.0, R Development Core Team 2013, http//www.R-project.org) was used for all further analysis, including normalizing spectral intensities to extract weights for comparison across samples.",
+                "cite_spans": [
+                    {
+                        "start": 1521,
+                        "end": 1525,
+                        "text": "[43]",
+                        "ref_id": "BIBREF42"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "NMR Spectroscopy",
+                "sec_num": null
+            },
+            {
+                "text": "Univariate Analyses. To investigate variability in 1 H-NMR spectra, relative standard deviations (% RSD = mean/standard deviation 6 100; reported as median % RSD) were calculated across variables for each group [44] . A Kruskal-Wallis analysis was applied to compare values among technical, intra-, and intercolony spectra from Porites compressa. In the spiking experiment, Chenomx NMR Suite 7.6 (Chenomx, Inc., Edmonton, Alberta, Canada) was used to identify and quantify 1 H-NMR signals resulting from the metabolite spikes. A Kruskal-Wallis test was used to statistically compared metabolite concentrations of alanine, glucose, and glycolic acid among treatment groups.",
+                "cite_spans": [
+                    {
+                        "start": 211,
+                        "end": 215,
+                        "text": "[44]",
+                        "ref_id": "BIBREF43"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Data Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "Multivariate analysis. All variables from the three alignments were scaled to unity and mean centered prior to multivariate analysis. Both principal component analysis (PCA) and orthogonal partial least squares-discriminate analyses (OPLS-DA) were used to investigate patterns in variables arising from 1 H-NMR spectra.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Data Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "PCA is an unsupervised pattern recognition tool that seeks to explain the maximum amount of variation inherent to a multidimensional dataset. As such, PCA was applied to investigate patterns between 1 H-NMR profiles. Additionally, PCA was used to screen for outlying samples. If spectra fell outside a 99% confidence interval and upon further inspection it was determined that NMR shims influenced resulting peak shapes and line widths, spectra were excluded from subsequently analyses (e.g., Fig. S1 ).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 493,
+                        "end": 500,
+                        "text": "Fig. S1",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Data Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "OPLS-DA is a supervised pattern recognition technique that aims to find the maximum separation between a priori groups [45, 46] . OPLS-DA was applied to discriminate between H-NMR profiles arising from (1) spiking treatments and (2) among coral species (for source code see http://birg.cs.cofc.edu/index.php/O-PLS). Model strength was assessed using both R 2 and Q 2 metrics. R 2 values report the total amount of variance explained by the model in both the H-NMR data (R X) and independent variables (R 2 Y; e.g., spiking treatment or species identity). Q 2 reports model accuracy and is calculated by 10-fold cross validation. The resulting Q 2 statistic was compared to a null distribution to test model significance (p,0.05). OPLS-DA is advantageous over analogous methods (e.g., partial least squares-discriminate analysis) because it looks to partition between-group variation (t) in H-NMR profiles from within-group variation (t-orthogonal), which enhances the interpretability of the resulting model [46] . Implementing the n-group OPLS-DA model. OPLS-DA typically is employed to discriminate between two treatment groups [46] . However, when there are more than three groups, the resulting model is influenced by group order. To facilitate comparing metabolite fingerprints among spiking treatments and reef-building corals, we developed an iterative strategy based on the magnitude of Q 2 to determine group ordering in the model. The algorithm finds the maximum Q 2 value between the two groups with the largest separation along the t-axis. Additional groups are inserted into the model based on the magnitude of Q . The overall Q 2 value is determined from model projections after allowing groups to cluster together based on profile similarities. This strategy allows the OPLS-DA model to dictate where added groups should reside with respect to those present. Furthermore, it provides information describing the similarity between groups (i.e., groups with similar profiles will have similar t values and be plotted closer together). Finally, the OPLS-DA algorithm calculates coefficients describing the contribution of each variable to the model.",
+                "cite_spans": [
+                    {
+                        "start": 119,
+                        "end": 123,
+                        "text": "[45,",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 124,
+                        "end": 127,
+                        "text": "46]",
+                        "ref_id": "BIBREF45"
+                    },
+                    {
+                        "start": 1008,
+                        "end": 1012,
+                        "text": "[46]",
+                        "ref_id": "BIBREF45"
+                    },
+                    {
+                        "start": 1130,
+                        "end": 1134,
+                        "text": "[46]",
+                        "ref_id": "BIBREF45"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Data Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "Variable Selection and Metabolite Identification. To determine which variables drive separation in metabolite composition among coral species, variable coefficients from the OPLS-DA model were compared to their null distributions. Null distributions were calculated by refitting the OPLS-DA model to the data, in which each variable is independently and randomly permuted to remove correlation structure. The actual coefficients were compared to their null distributions and variables in the tails (a = 0.01) were determined to significantly contribute to the model. To facilitate identification of the metabolites driving separation between species, a statistical total correlation spectroscopy analysis (STOSCY) in the R package MUMA [47] was used to determine strong correlations between 1 H-NMR variables. Highly correlated variables (r 2 .0.9) were assumed to originate from the same compound [48] . Metabolites were assigned by matching peak positions and patterns to Chenomx 500 MHz spectral libraries.",
+                "cite_spans": [
+                    {
+                        "start": 736,
+                        "end": 740,
+                        "text": "[47]",
+                        "ref_id": "BIBREF46"
+                    },
+                    {
+                        "start": 898,
+                        "end": 902,
+                        "text": "[48]",
+                        "ref_id": "BIBREF47"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Data Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "Variability in Porites compressa 1 H-NMR spectra was explored over 284 spectral bins (variables) describing metabolite profiles. PCA revealed close clustering of samples among technical and intra-colony replicates, while inter-colony samples were slightly more dispersed (Fig. 1A) . A Kruskal-Wallis comparison of relative standard deviation (RSD) scores quantifies these visual patterns, where technical (median 14.2%) and intra-colony (15.2%) scores were not statistically different from one another, but both were significantly lower than inter-colony scores (p,0.001, 35% and 38%, Fig. 1B ). While the two extraction methods formed separate groups (Fig. 1A) in the PCA, RSD scores were not significantly different following the Kruskal-Wallis analysis (35% vs. 38%). Thus, while metabolite composition may vary between protocols, variability in 1 H-NMR profiles is similar.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 271,
+                        "end": 280,
+                        "text": "(Fig. 1A)",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 585,
+                        "end": 592,
+                        "text": "Fig. 1B",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 652,
+                        "end": 661,
+                        "text": "(Fig. 1A)",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Technical, Intra-, and Inter-Colony Variability",
+                "sec_num": null
+            },
+            {
+                "text": "1 H-NMR profiles arising from the spiking experiment were binned into 208 variables. The resulting OPLS-DA model revealed clear separation of metabolite profiles (Fig. 2 , Table 2 ) among treatments (p,0.01, R 2 X = 0.09, R Y = 0.99, Q = 0.45). Of the three spiked compounds, alanine and glucose, but not glycolic acid, were successfully identified and quantified in control spectra. All three metabolites were detected in both the 0.1 mM and 10 mM spiking treatments (Fig. S2) . However, when comparing mean concentrations across groups for alanine, glucose, and glycolic acid using a Kruskal-Wallis ANOVA, only the 10 mM treatment was significantly different from the control and 0.1 mM groups (p,0.05, Table 3 ).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 162,
+                        "end": 169,
+                        "text": "(Fig. 2",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 172,
+                        "end": 179,
+                        "text": "Table 2",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 468,
+                        "end": 477,
+                        "text": "(Fig. S2)",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 705,
+                        "end": 712,
+                        "text": "Table 3",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Spiking Experiment",
+                "sec_num": null
+            },
+            {
+                "text": "Dynamic adaptive binning identified 152 variables describing 1 H-NMR fingerprints arising from Montipora aequituberculata, Pocillopora damicornis, Porites lobata, and Seriatopora hystrix aligned spectra. The OPLS-DA model revealed clear significant discrimination between metabolite profiles originating from P. lobata and S. hystrix corals. However, OPLS-DA was unable to separate profiles from M. aequituberculata and P. damicornis (P, 0.01, R 2 X = 0.25, R Y = 0.95, Q = 0.89; Fig. 3A , Table 2) . Consequently, to determine if OPLS-DA could significantly discriminate between metabolite profiles from all coral species analyzed, all possible combinations were modeled (Fig. S3 , Table  S1 ). The OPLS-DA comparison of profiles from M. aequituberculata and P. damicornis revealed significant separation in metabolite profiles (p,0.01, R 2 X = 0.25, R Y = 0.79, Q = 0.75, Fig. 2B , Table 2 ).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 480,
+                        "end": 487,
+                        "text": "Fig. 3A",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 490,
+                        "end": 498,
+                        "text": "Table 2)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 672,
+                        "end": 680,
+                        "text": "(Fig. S3",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 683,
+                        "end": 692,
+                        "text": "Table  S1",
+                        "ref_id": "TABREF0"
+                    },
+                    {
+                        "start": 874,
+                        "end": 881,
+                        "text": "Fig. 2B",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 884,
+                        "end": 891,
+                        "text": "Table 2",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Species Comparison",
+                "sec_num": null
+            },
+            {
+                "text": "From the OPLS-DA model comparing all 4 species, 35 bins were found to drive separation among coral profiles. STOCSY categorized these variables into 27 individual compounds (Table 4) , of which only three (alanine, trigonelline, threonine, and/or lactate) were matched to Chenomx spectral libraries. The remaining unidentified compounds contain proton signals matching spectral locations of lipids, amino acids, organic acids, and carbohydrates.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 173,
+                        "end": 182,
+                        "text": "(Table 4)",
+                        "ref_id": "TABREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Species Comparison",
+                "sec_num": null
+            },
+            {
+                "text": "1 H-NMR metabolite profiles obtained from reef-building corals were highly reproducible. Intra-colony variation in H-NMR spectra from P. compressa was low and equal to that of technical replicates. As expected, variation in metabolite fingerprints is higher among different coral colonies. Together, these results indicate that while metabolite composition is relatively homogeneous within a coral colony, genotypic differences among colonies elevate variability in metabolite profiles. Notably, the variability in metabolite profiles described here are consistent with reports [44] for fish, marine invertebrates, and mammals, where relative standard deviations (RSD) across 1 H-NMR bins are lower across technical replicates (median RSD range 1.6-20.6%) and increase with biological replication (median RSD range 7.2-58.4%).",
+                "cite_spans": [
+                    {
+                        "start": 578,
+                        "end": 582,
+                        "text": "[44]",
+                        "ref_id": "BIBREF43"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "H-NMR metabolomic profiling is reproducible",
+                "sec_num": "1"
+            },
+            {
+                "text": "Low technical variability is a critical attribute for any method, including metabolite profiling, that is applied to uncover patterns associated with shifts in performance or metabolism in response to ecological drivers. High levels of variation cloud researchers' ability to detect significant shifts in metabolic performance. Because 1 H-NMR techniques tend to be highly reproducible [49] , they have become popular in monitoring organism health in response to the environment. For instance, 1 H-NMR methods have uncovered patterns in metabolite profiles across a range of organisms in response to pollution [50] [51] [52] , shifts in temperature regimes [53, 54] and increases in ocean acidification [55, 56] . We add to this body of literature by demonstrating that H-NMR metabolite profiling methods are reproducible for reef-building corals, indicating that this approach is likely to have high value in monitoring metabolic state either in field or laboratory experiments.",
+                "cite_spans": [
+                    {
+                        "start": 386,
+                        "end": 390,
+                        "text": "[49]",
+                        "ref_id": "BIBREF48"
+                    },
+                    {
+                        "start": 610,
+                        "end": 614,
+                        "text": "[50]",
+                        "ref_id": "BIBREF49"
+                    },
+                    {
+                        "start": 615,
+                        "end": 619,
+                        "text": "[51]",
+                        "ref_id": "BIBREF50"
+                    },
+                    {
+                        "start": 620,
+                        "end": 624,
+                        "text": "[52]",
+                        "ref_id": "BIBREF51"
+                    },
+                    {
+                        "start": 657,
+                        "end": 661,
+                        "text": "[53,",
+                        "ref_id": "BIBREF52"
+                    },
+                    {
+                        "start": 662,
+                        "end": 665,
+                        "text": "54]",
+                        "ref_id": "BIBREF53"
+                    },
+                    {
+                        "start": 703,
+                        "end": 707,
+                        "text": "[55,",
+                        "ref_id": "BIBREF54"
+                    },
+                    {
+                        "start": 708,
+                        "end": 711,
+                        "text": "56]",
+                        "ref_id": "BIBREF55"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "H-NMR metabolomic profiling is reproducible",
+                "sec_num": "1"
+            },
+            {
+                "text": "The OPLS-DA model discriminated between 1 H-NMR spectra measured from the three spiking treatment groups (control, 0.1 mM and 10 mM), leading to significant separation in metabolite profiles (Fig. 2) . However, after Chenomx identified and quantified signals from the spiking compounds (alanine, glucose, and glycolic acid), a Kruskal-Wallis test only detected significant differences in the 10 mM treatment group in comparison to the others (Table 3 ). These results suggest that detecting small differences in individual metabolite concentrations (i.e., between the control and 0.1 mM treatments) may be constrained by dynamic signals within the coral metabolome or by background noise in 1 H-NMR spectra. It is clear that the majority of the 1 H signals arising from alanine, glucose and glycolic acid fall in regions of high peak overlap in coral 1 H-NMR spectra (Fig. S2 and Fig. S4 ). This limits the ability to detect small differences in metabolite concentrations. For instance, a recent targeted application of 1 H-NMR spectroscopy detected significant differences in dimethylsulphoniopropionate and acrylate, both of which resonate in regions of low spectral complexity, as low as 1.4 nmol/mm 2 between corals exposed to ambient and high temperature conditions [39] . These compounds did not contribute to separation in metabolite profiles among spiking treatments or coral taxa investigated here, which is expected given that they naturally occur in similar concentrations across individuals [38] . While targeted studies using 1 H-NMR techniques are informative towards describing and quantifying known metabolites, shifts in coral metabolomes may occur inside regions of high peak overlap. Furthermore, by comparing spectra with multivariate techniques, we can identify combined signals that better resolve differences in metabolite concentrations. Taken together, the current data suggest multivariate techniques enhance the capacity to identify small fluctuations in coral 1 H-NMR profiles in comparison to univariate methods. Consequently, when using H-NMR techniques to investigate coral metabolomes analyzing complete spectra may be more informative than comparing changes in individual compounds.",
+                "cite_spans": [
+                    {
+                        "start": 1271,
+                        "end": 1275,
+                        "text": "[39]",
+                        "ref_id": "BIBREF38"
+                    },
+                    {
+                        "start": 1503,
+                        "end": 1507,
+                        "text": "[38]",
+                        "ref_id": "BIBREF37"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 191,
+                        "end": 199,
+                        "text": "(Fig. 2)",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 442,
+                        "end": 450,
+                        "text": "(Table 3",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 867,
+                        "end": 887,
+                        "text": "(Fig. S2 and Fig. S4",
+                        "ref_id": "FIGREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Complete profiles distinguish small differences in 1 H-NMR profiles",
+                "sec_num": null
+            },
+            {
+                "text": "1 H-NMR profiling methods can detect species-specific signatures Our 1 H-NMR profiling approach and OPLS-DA indicate that different reef-building coral species have distinct metabolite profiles. While the separation in the OPLS-DA model suggests that spectra from Porites lobata and Seriatopora hystrix are very different, it has limited the capacity to discriminate between Pocillopora damicornis and Montipora aequituberculata profiles (Fig. 3A) . However, OPLS-DA can discriminate between P. damicornis and M. aequituberculata when these two species are modeled independently of the others (Fig. 3B) . These data suggest that there are distinct elements in coral metabolite profiles that are both similar between P. damicornis and M. aequituberculata, and that differentiate the four species.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 438,
+                        "end": 447,
+                        "text": "(Fig. 3A)",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 593,
+                        "end": 602,
+                        "text": "(Fig. 3B)",
+                        "ref_id": "FIGREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Complete profiles distinguish small differences in 1 H-NMR profiles",
+                "sec_num": null
+            },
+            {
+                "text": "Using the variable selection algorithm and a STOCSY analysis [48] , 27 compounds from a broad range of metabolite classes including lipids, amino acids, organic acids, and carbohydrates contribute to the separation in coral metabolite profiles. However, of these 27 compounds, only a few were matched to Chenomx database entries and include trigonelline, alanine, several branch chained amino acids (e.g., valine, isoleucine and leucine), and organic acids (threonine or lactate). Our work highlights the challenges associated with metabolite identification using 1 H-NMR metabolomics. NMR instrumentation is less sensitive than mass spectrometry. Overlapping signals, variation in sample pH, ionic strength, temperature and acquisition conditions can obscure accurate database assignments. Past studies have typically identified between 2 and 15 compounds that separate 1 H-NMR profiles in non-model species such as Mytilus edulis or Carcinus maenas exposed to disturbance (e.g., copper exposure or ocean acidification [52, 56] ). In contrast, 1 H-NMR-based metabolomics have identified upwards of metabolites driving differences in the metabolism of model organisms (e.g., impacts of Mycobacterium tuberculosis infections in mice [57] ). Lack of taxa-specific metabolite databases reduces the capacity to identify small compounds in non-model species. To overcome these challenges, research is focused on developing analytical (e.g., cyroprobes, increases in magnet strength, 2D-NMR techniques; reviewed by [58, 59] ), bioinformatics [60] [61] [62] [63] [64] and databases tools [65] to facilitate matching 1 H-NMR profiles to known metabolites.",
+                "cite_spans": [
+                    {
+                        "start": 61,
+                        "end": 65,
+                        "text": "[48]",
+                        "ref_id": "BIBREF47"
+                    },
+                    {
+                        "start": 1020,
+                        "end": 1024,
+                        "text": "[52,",
+                        "ref_id": "BIBREF51"
+                    },
+                    {
+                        "start": 1025,
+                        "end": 1028,
+                        "text": "56]",
+                        "ref_id": "BIBREF55"
+                    },
+                    {
+                        "start": 1232,
+                        "end": 1236,
+                        "text": "[57]",
+                        "ref_id": "BIBREF56"
+                    },
+                    {
+                        "start": 1509,
+                        "end": 1513,
+                        "text": "[58,",
+                        "ref_id": "BIBREF57"
+                    },
+                    {
+                        "start": 1514,
+                        "end": 1517,
+                        "text": "59]",
+                        "ref_id": "BIBREF58"
+                    },
+                    {
+                        "start": 1536,
+                        "end": 1540,
+                        "text": "[60]",
+                        "ref_id": "BIBREF59"
+                    },
+                    {
+                        "start": 1541,
+                        "end": 1545,
+                        "text": "[61]",
+                        "ref_id": "BIBREF60"
+                    },
+                    {
+                        "start": 1546,
+                        "end": 1550,
+                        "text": "[62]",
+                        "ref_id": "BIBREF61"
+                    },
+                    {
+                        "start": 1551,
+                        "end": 1555,
+                        "text": "[63]",
+                        "ref_id": "BIBREF62"
+                    },
+                    {
+                        "start": 1556,
+                        "end": 1560,
+                        "text": "[64]",
+                        "ref_id": "BIBREF63"
+                    },
+                    {
+                        "start": 1581,
+                        "end": 1585,
+                        "text": "[65]",
+                        "ref_id": "BIBREF64"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Complete profiles distinguish small differences in 1 H-NMR profiles",
+                "sec_num": null
+            },
+            {
+                "text": "Despite limitations associated with identifying metabolites in 1 H-NMR spectra, the patterns in metabolite composition observed in coral profiles are intriguing. The four species investigated represent physiologically distinct taxa [42] that respond differently to environmental disturbances [13] . 1 H-NMR profiles are indicative of metabolite composition and consequently the activity of metabolic pathways. The observed variation among species rationalizes further exploration of the metabolome to describe differential responses of corals to the environment and anthropogenic stress.",
+                "cite_spans": [
+                    {
+                        "start": 232,
+                        "end": 236,
+                        "text": "[42]",
+                        "ref_id": "BIBREF41"
+                    },
+                    {
+                        "start": 292,
+                        "end": 296,
+                        "text": "[13]",
+                        "ref_id": "BIBREF12"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Complete profiles distinguish small differences in 1 H-NMR profiles",
+                "sec_num": null
+            },
+            {
+                "text": "Our results illustrate the capacity of 1 H-NMR metabolomics to describe, compare and assess coral metabolomes. Future application of these methods, coupled with rigorous ecological monitoring [66] , may enable researchers to document shifts in metabolite composition across time and environmental conditions. As global climate change and other local stressors continue to threaten reefs, H-NMR tools may aid researchers in the rapid assessment of coral reef metabolic states. ",
+                "cite_spans": [
+                    {
+                        "start": 192,
+                        "end": 196,
+                        "text": "[66]",
+                        "ref_id": "BIBREF66"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Conclusions",
+                "sec_num": null
+            },
+            {
+                "text": "PLOS ONE | www.plosone.org",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "October 2014 | Volume 9 | Issue 10 | e111274",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "PLOS ONE | www.plosone.orgOctober 2014 | Volume 9 | Issue 10 | e111274",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "We thank the University of Hawaii at Manoa's NMR Facility for assistance in acquiring the NMR data. We also thank Tung-Yung Fan for coral collections and aquarium space at the National Museum for Marine Biology and Aquarium in Taiwan. Additionally, we value the input of Hollie Putnam, David Horgen, Megan Donahue, Danielle Claar, Ross Cunning, Robert Mason, Laura N\u00fanez Pons, Nyssa Silbiger and Chris Wall for their discussion and comments on the manuscript. Finally, we would like to thank our two reviewers, whose input helped to clarify our manuscript. This represents HIMB and SOEST contribution numbers 1601 and 9199.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Acknowledgments",
+                "sec_num": null
+            },
+            {
+                "text": "Conceived and designed the experiments: EMS PA RDG PW CSC. Performed the experiments: EMS PA. Analyzed the data: EMS PA RDG. Contributed reagents/materials/analysis tools: RDG CSC PA. Contributed to the writing of the manuscript: EMS PA PW CSC RDG.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Author Contributions",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "Diversity in tropical rain forests and coral reefs",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Connell",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1978,
+                "venue": "Science",
+                "volume": "199",
+                "issue": "",
+                "pages": "1302--1310",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Connell JH (1978) Diversity in tropical rain forests and coral reefs. Science 199: 1302-1310.",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "Role of coral reefs in global ocean production",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Crossland",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Hatcher",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Smith",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1991,
+                "venue": "Coral Reefs",
+                "volume": "10",
+                "issue": "",
+                "pages": "44--64",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Crossland C, Hatcher B, Smith S (1991) Role of coral reefs in global ocean production. Coral Reefs 10: 44-64.",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "Ecological goods and services of coral reef ecosystems",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Moberg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Folke",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "Ecol Econ",
+                "volume": "29",
+                "issue": "",
+                "pages": "215--233",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Moberg F, Folke C (1999) Ecological goods and services of coral reef ecosystems. Ecol Econ 29: 215-233.",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "Historical overfishing and the recent collapse of coastal ecosystems",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Jackson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "X"
+                        ],
+                        "last": "Kirby",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Berger",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Bjorndal",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Botsford",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Science",
+                "volume": "293",
+                "issue": "",
+                "pages": "629--637",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jackson JB, Kirby MX, Berger WH, Bjorndal KA, Botsford LW, et al. (2001) Historical overfishing and the recent collapse of coastal ecosystems. Science 293: 629-637.",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Responses of coral reefs and reef organisms to sedimentation",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Rogers",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1990,
+                "venue": "Mar Ecol Prog Ser",
+                "volume": "62",
+                "issue": "",
+                "pages": "185--202",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rogers CS (1990) Responses of coral reefs and reef organisms to sedimentation. Mar Ecol Prog Ser 62: 185-202.",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "Biodiversity of coral reefs: what are we losing and why?",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Sebens",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Am Zool",
+                "volume": "34",
+                "issue": "",
+                "pages": "115--133",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sebens KP (1994) Biodiversity of coral reefs: what are we losing and why? Am Zool 34: 115-133.",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "Coral reefs under rapid climate change and ocean acidification",
+                "authors": [
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Hoegh-Guldberg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Mumby",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Hooten",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Steneck",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Greenfield",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Science",
+                "volume": "318",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hoegh-Guldberg O, Mumby PJ, Hooten AJ, Steneck RS, Greenfield P, et al. (2007) Coral reefs under rapid climate change and ocean acidification. Science 318: 1737.",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "Projecting coral reef futures under global warming and ocean acidification",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Pandolfi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Connolly",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Marshall",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Cohen",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Science",
+                "volume": "333",
+                "issue": "",
+                "pages": "418--422",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pandolfi JM, Connolly SR, Marshall DJ, Cohen AL (2011) Projecting coral reef futures under global warming and ocean acidification. Science 333: 418-422.",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "Historical temperature variability affects coral response to heat stress",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Carilli",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Donner",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Hartmann",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "PLOS One",
+                "volume": "7",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Carilli J, Donner SD, Hartmann AC (2012) Historical temperature variability affects coral response to heat stress. PLOS One 7: e34418.",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "Contrasting patterns of coral bleaching susceptibility in 2010 suggest an adaptive response to thermal stress",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Guest",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Baird",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Maynard",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Muttaqin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Edwards",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "PLOS One",
+                "volume": "7",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Guest JR, Baird AH, Maynard JA, Muttaqin E, Edwards AJ, et al. (2012) Contrasting patterns of coral bleaching susceptibility in 2010 suggest an adaptive response to thermal stress. PLOS One 7: e33353.",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Landscape ecology of algal symbionts creates variation in episodes of coral bleaching",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Rowan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Knowlton",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Baker",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Jara",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Nature",
+                "volume": "388",
+                "issue": "",
+                "pages": "265--269",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rowan R, Knowlton N, Baker A, Jara J (1997) Landscape ecology of algal symbionts creates variation in episodes of coral bleaching. Nature 388: 265-269.",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "Photoinhibition and photoprotection in symbiotic dinoflagellates from reef-building corals",
+                "authors": [
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Hoegh-Guldberg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Jones",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "Mar Ecol Prog Ser",
+                "volume": "183",
+                "issue": "",
+                "pages": "73--86",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hoegh-Guldberg O, Jones RJ (1999) Photoinhibition and photoprotection in symbiotic dinoflagellates from reef-building corals. Mar Ecol Prog Ser 183: 73- 86.",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "Coral bleaching: the winners and the losers",
+                "authors": [
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Loya",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Ecol Lett",
+                "volume": "4",
+                "issue": "",
+                "pages": "122--131",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Loya Y (2001) Coral bleaching: the winners and the losers. Ecol Lett 4: 122-131.",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "Bleaching susceptibility and mortality of corals are determined by fine-scale differences in symbiont type",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Sampayo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Ridgway",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Proc Natl Acad Sci",
+                "volume": "105",
+                "issue": "",
+                "pages": "10444--10449",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sampayo E, Ridgway T (2008) Bleaching susceptibility and mortality of corals are determined by fine-scale differences in symbiont type. Proc Natl Acad Sci 105: 10444-10449.",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "The roles and interactions of symbiont, host and environment in defining coral fitness",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Mieog",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Olsen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Berkelmans",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Bleuler-Martinez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Willis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "PLOS One",
+                "volume": "4",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Mieog JC, Olsen JL, Berkelmans R, Bleuler-Martinez SA, Willis BL, et al. (2009) The roles and interactions of symbiont, host and environment in defining coral fitness. PLOS One 4: e6364.",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "The physiological mechanisms of acclimatization in tropical reef corals",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Gates",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Edmunds",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "Am Zool",
+                "volume": "39",
+                "issue": "",
+                "pages": "30--43",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Gates RD, Edmunds PJ (1999) The physiological mechanisms of acclimatization in tropical reef corals. Am Zool 39: 30-43.",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Coral bleaching-capacity for acclimatization and adaptation",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Coles",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Brown",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Adv Mar Biol",
+                "volume": "46",
+                "issue": "",
+                "pages": "183--223",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Coles SL, Brown BE (2003) Coral bleaching-capacity for acclimatization and adaptation. Adv Mar Biol 46: 183-223.",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "Mycosporine-like amino acids and related gadusols: biosynthesis, accumulation, and UV-protective functions in aquatic organisms",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Shick",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Dunlap",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Annu Rev Physiol",
+                "volume": "64",
+                "issue": "",
+                "pages": "223--262",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Shick JM, Dunlap WC (2002) Mycosporine-like amino acids and related gadusols: biosynthesis, accumulation, and UV-protective functions in aquatic organisms. Annu Rev Physiol 64: 223-262.",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "Response of two species of Indo-Pacific corals, Porites cylindrica and Stylophora pistillata, to short-term thermal stress: the host does matter in determining the tolerance of corals to bleaching",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Fitt",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Gates",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Hoegh-Guldberg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Bythell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Jatkar",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "J Exp Mar Bio Ecol",
+                "volume": "373",
+                "issue": "",
+                "pages": "102--110",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Fitt WK, Gates RD, Hoegh-Guldberg O, Bythell JC, Jatkar A, et al. (2009) Response of two species of Indo-Pacific corals, Porites cylindrica and Stylophora pistillata, to short-term thermal stress: the host does matter in determining the tolerance of corals to bleaching. J Exp Mar Bio Ecol 373: 102-110.",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "Study of cnidarian-algal symbiosis in the ''omics'' age",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Meyer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Weis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Biol Bull",
+                "volume": "223",
+                "issue": "",
+                "pages": "44--65",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Meyer E, Weis VM (2012) Study of cnidarian-algal symbiosis in the ''omics'' age. Biol Bull 223: 44-65.",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "Using the Acropora digitifera genome to understand coral responses to environmental change",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Shinzato",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Shoguchi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Kawashima",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Hamada",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Hisata",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Nature",
+                "volume": "476",
+                "issue": "",
+                "pages": "320--323",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Shinzato C, Shoguchi E, Kawashima T, Hamada M, Hisata K, et al. (2011) Using the Acropora digitifera genome to understand coral responses to environmental change. Nature 476: 320-323.",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "Genomic basis for coral resilience to climate change",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Barshis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Ladner",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Oliver",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "O"
+                        ],
+                        "last": "Seneca",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Traylor-Knowles",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Proc Natl Acad Sci",
+                "volume": "110",
+                "issue": "",
+                "pages": "1387--1392",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Barshis DJ, Ladner JT, Oliver TA, Seneca FO, Traylor-Knowles N, et al. (2013) Genomic basis for coral resilience to climate change. Proc Natl Acad Sci 110: 1387-1392.",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "Lipid bodies in coraldinoflagellate endosymbiosis: proteomic and ultrastructural studies",
+                "authors": [
+                    {
+                        "first": "Chen",
+                        "middle": [],
+                        "last": "Peng",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Chen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Lu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Mayfield",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Proteomics",
+                "volume": "11",
+                "issue": "",
+                "pages": "3540--3555",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Peng, Chen, Chen, Lu, Mayfield AB, et al. (2011) Lipid bodies in coral- dinoflagellate endosymbiosis: proteomic and ultrastructural studies. Proteomics 11: 3540-3555.",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "Symbiodinium-invertebrate symbioses and the role of metabolomics",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Gordon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Leggat",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Mar Drugs",
+                "volume": "8",
+                "issue": "",
+                "pages": "2546--2568",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Gordon BR, Leggat W (2010) Symbiodinium-invertebrate symbioses and the role of metabolomics. Mar Drugs 8: 2546-2568.",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "Metabolism of estrogens and androgens by Scleractinian corals",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Tarrant",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Blomquist",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Lima",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Atkinson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Atkinson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Comp Biochem Physiol B -Biochem Mol Bio",
+                "volume": "136",
+                "issue": "",
+                "pages": "473--485",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Tarrant A, Blomquist C, Lima P, Atkinson MJ, Atkinson S (2003) Metabolism of estrogens and androgens by Scleractinian corals. Comp Biochem Physiol B - Biochem Mol Bio 136: 473-485.",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "High levels of acrylate in the Great Barrier Reef coral Acropora millepora",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Tapiolas",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Motti",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Holloway",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Boyle",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Coral Reefs",
+                "volume": "29",
+                "issue": "",
+                "pages": "621--625",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Tapiolas DM, Motti CA, Holloway P, Boyle SG (2010) High levels of acrylate in the Great Barrier Reef coral Acropora millepora. Coral Reefs 29: 621-625.",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "Metabolomics: current technologies and future trends",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Hollywood",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Brison",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Goodacre",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Proteomics",
+                "volume": "6",
+                "issue": "",
+                "pages": "4716--4723",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hollywood K, Brison DR, Goodacre R (2006) Metabolomics: current technologies and future trends. Proteomics 6: 4716-4723.",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "Metabolomics: current analytical platforms and methodologies",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Dunn",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Ellis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "TrAC Trends Anal Chem",
+                "volume": "24",
+                "issue": "",
+                "pages": "285--294",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Dunn WB, Ellis D (2005) Metabolomics: current analytical platforms and methodologies. TrAC Trends Anal Chem 24: 285-294.",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "Environmental metabolomics links genotype to phenotype and predicts genotype abundance in wild plant populations",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Field",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Lake",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Physiol Plant",
+                "volume": "142",
+                "issue": "",
+                "pages": "352--360",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Field KJ, Lake JA (2011) Environmental metabolomics links genotype to phenotype and predicts genotype abundance in wild plant populations. Physiol Plant 142: 352-360.",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "Combining genomics, metabolome analysis, and biochemical modeling to understand metabolic networks",
+                "authors": [
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Fiehn",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Comp Funct Genomics",
+                "volume": "2",
+                "issue": "",
+                "pages": "155--168",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Fiehn O (2001) Combining genomics, metabolome analysis, and biochemical modeling to understand metabolic networks. Comp Funct Genomics 2: 155- 168.",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "Plasma phospholipids identify antecedent memory impairment in older adults",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Mapstone",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Cheema",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Fiandaca",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "X",
+                        "middle": [],
+                        "last": "Zhong",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Mhyre",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Nat Med",
+                "volume": "20",
+                "issue": "",
+                "pages": "415--418",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Mapstone M, Cheema AK, Fiandaca MS, Zhong X, Mhyre TR, et al. (2014) Plasma phospholipids identify antecedent memory impairment in older adults. Nat Med 20: 415-418.",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "NMR-based metabolomic studies on the toxicological effects of cadmium and copper on green mussels Perna viridis",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Wang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Wu",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Aquat Toxicol",
+                "volume": "4",
+                "issue": "",
+                "pages": "339--345",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wang W, Wu H (2010) NMR-based metabolomic studies on the toxicological effects of cadmium and copper on green mussels Perna viridis. Aquat Toxicol 4: 339-345.",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "Environmental metabolomics: a critical review and future perspectives",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Bundy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Davey",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Viant",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Metabolomics",
+                "volume": "5",
+                "issue": "",
+                "pages": "3--21",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bundy JG, Davey MP, Viant MR (2009) Environmental metabolomics: a critical review and future perspectives. Metabolomics 5: 3-21.",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "Environmental marine metabolomics: from whole organism system biology to ecosystem management",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Motti",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "J Marine Sci Res Dev",
+                "volume": "2",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Motti C (2012) Environmental marine metabolomics: from whole organism system biology to ecosystem management. J Marine Sci Res Dev 2: 3.",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "A lipidomic approach to understanding free fatty acid lipogenesis derived from dissolved inorganic carbon within cnidarian-dinoflagellate symbiosis",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Dunn",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Thomas",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Nette",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Dove",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "PLOS One",
+                "volume": "7",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Dunn SR, Thomas MC, Nette GW, Dove SG (2012) A lipidomic approach to understanding free fatty acid lipogenesis derived from dissolved inorganic carbon within cnidarian-dinoflagellate symbiosis. PLOS One 7: e46801.",
+                "links": null
+            },
+            "BIBREF35": {
+                "ref_id": "b35",
+                "title": "Evidence that glucose is the major transferred metabolite in dinoflagellate-cnidarian symbiosis",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Burriesci",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Raab",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Pringle",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "J Exp Biol",
+                "volume": "215",
+                "issue": "",
+                "pages": "3467--3477",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Burriesci MS, Raab TK, Pringle JR (2012) Evidence that glucose is the major transferred metabolite in dinoflagellate-cnidarian symbiosis. J Exp Biol 215: 3467-3477.",
+                "links": null
+            },
+            "BIBREF36": {
+                "ref_id": "b36",
+                "title": "Quantitative 1 H NMR spectroscopy",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Bharti",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Roy",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "TrAC Trends Anal Chem",
+                "volume": "35",
+                "issue": "",
+                "pages": "5--26",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bharti SK, Roy R (2012) Quantitative 1 H NMR spectroscopy. TrAC Trends Anal Chem 35: 5-26.",
+                "links": null
+            },
+            "BIBREF37": {
+                "ref_id": "b37",
+                "title": "Direct measurement of dimethylsulfoniopropionate (DMSP) in reef-building corals using quantitative nuclear magnetic resonance (qNMR) spectroscopy",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Tapiolas",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Raina",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Lutz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Willis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Motti",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "J Exp Mar Bio Ecol",
+                "volume": "443",
+                "issue": "",
+                "pages": "85--89",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Tapiolas DM, Raina, Lutz A, Willis BL, Motti CA (2013) Direct measurement of dimethylsulfoniopropionate (DMSP) in reef-building corals using quantitative nuclear magnetic resonance (qNMR) spectroscopy. J Exp Mar Bio Ecol 443: 85-89.",
+                "links": null
+            },
+            "BIBREF38": {
+                "ref_id": "b38",
+                "title": "DMSP biosynthesis by an animal and its role in coral thermal stress response",
+                "authors": [
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Raina",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Tapiolas",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "For\u00eat",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Lutz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Abrego",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Nature",
+                "volume": "502",
+                "issue": "",
+                "pages": "677--680",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Raina, Tapiolas DM, For\u00eat S, Lutz A, Abrego D, et al. (2013) DMSP biosynthesis by an animal and its role in coral thermal stress response. Nature 502: 677-680.",
+                "links": null
+            },
+            "BIBREF39": {
+                "ref_id": "b39",
+                "title": "Extraction Protocol for non-targeted NMR and LC-MS metabolomics-based analysis of hard coral and their algal symbionts",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Gordon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Leggat",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Motti",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Metabolomics Tools for Natural Product Discovery SE 210. Methods in Molecular Biology",
+                "volume": "1055",
+                "issue": "",
+                "pages": "129--147",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Gordon B, Leggat W, Motti C (2013) Extraction Protocol for non-targeted NMR and LC-MS metabolomics-based analysis of hard coral and their algal symbionts.In: Roessner U, Dias DA, editors. Metabolomics Tools for Natural Product Discovery SE 210. Methods in Molecular Biology. Humana Press, Vol. 1055. 129-147.",
+                "links": null
+            },
+            "BIBREF40": {
+                "ref_id": "b40",
+                "title": "Evaluation of metabolite extraction strategies from tissue samples using NMR metabolomics",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "Y"
+                        ],
+                        "last": "Lin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Wu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Tjeerdema",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Viant",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Metabolomics",
+                "volume": "3",
+                "issue": "",
+                "pages": "55--67",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lin CY, Wu H, Tjeerdema RS, Viant MR (2007) Evaluation of metabolite extraction strategies from tissue samples using NMR metabolomics. Metabo- lomics 3: 55-67.",
+                "links": null
+            },
+            "BIBREF41": {
+                "ref_id": "b41",
+                "title": "Diversity in skeletal architecture influences biological heterogeneity and Symbiodinium habitat in corals",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Yost",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Wang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Fan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Chen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Lee",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Zoology",
+                "volume": "116",
+                "issue": "",
+                "pages": "262--269",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Yost DM, Wang, Fan, Chen, Lee RW, et al. (2013) Diversity in skeletal architecture influences biological heterogeneity and Symbiodinium habitat in corals. Zoology 116: 262-269.",
+                "links": null
+            },
+            "BIBREF42": {
+                "ref_id": "b42",
+                "title": "Dynamic adaptive binning: an improved quantification technique for NMR spectroscopic data",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Anderson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Mahle",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Doom",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Reo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Delraso",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Metabolomics",
+                "volume": "7",
+                "issue": "",
+                "pages": "179--190",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Anderson PE, Mahle DA, Doom TE, Reo NV, DelRaso NJ, et al. (2010) Dynamic adaptive binning: an improved quantification technique for NMR spectroscopic data. Metabolomics 7: 179-190.",
+                "links": null
+            },
+            "BIBREF43": {
+                "ref_id": "b43",
+                "title": "Spectral relative standard deviation: a practical benchmark in metabolomics",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Parsons",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Ekman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Collette",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Viant",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Analyst",
+                "volume": "134",
+                "issue": "",
+                "pages": "478--485",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Parsons HM, Ekman DR, Collette TW, Viant MR (2009) Spectral relative standard deviation: a practical benchmark in metabolomics. Analyst 134: 478- 485.",
+                "links": null
+            },
+            "BIBREF44": {
+                "ref_id": "b44",
+                "title": "Orthogonal projections to latent structures (O-PLS)",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Trygg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Wold",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "J Chemom",
+                "volume": "16",
+                "issue": "",
+                "pages": "119--128",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Trygg J, Wold S (2002) Orthogonal projections to latent structures (O-PLS). J Chemom 16: 119-128.",
+                "links": null
+            },
+            "BIBREF45": {
+                "ref_id": "b45",
+                "title": "OPLS discriminant analysis: combining the strengths of PLS-DA and SIMCA classification",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Bylesj\u00f6",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Rantalainen",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "J Chemom",
+                "volume": "20",
+                "issue": "",
+                "pages": "341--351",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bylesj\u00f6 M, Rantalainen M (2006) OPLS discriminant analysis: combining the strengths of PLS-DA and SIMCA classification. J Chemom 20: 341-351.",
+                "links": null
+            },
+            "BIBREF46": {
+                "ref_id": "b46",
+                "title": "MUMA, an R package for metabolomics univariate and multivariate statistical analysis",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Gaude",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Chignola",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Spiliotopoulos",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Mari",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Spitaleri",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Curr Metabolomics",
+                "volume": "1",
+                "issue": "",
+                "pages": "180--189",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Gaude E, Chignola F, Spiliotopoulos D, Mari S, Spitaleri A, et al. (2012) MUMA, an R package for metabolomics univariate and multivariate statistical analysis. Curr Metabolomics 1: 180-189.",
+                "links": null
+            },
+            "BIBREF47": {
+                "ref_id": "b47",
+                "title": "Statistical total correlation spectroscopy: an exploratory approach for latent biomarker identification from metabolic 1 H-NMR data sets",
+                "authors": [
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Cloarec",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Dumas",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Craig",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Barton",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Trygg",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "",
+                "volume": "77",
+                "issue": "",
+                "pages": "1282--1289",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Cloarec O, Dumas M, Craig A, Barton RH, Trygg J, et al. (2005) Statistical total correlation spectroscopy: an exploratory approach for latent biomarker identification from metabolic 1 H-NMR data sets. 77: 1282-1289.",
+                "links": null
+            },
+            "BIBREF48": {
+                "ref_id": "b48",
+                "title": "An interlaboratory comparison demonstrates that 1 H-NMR metabolite fingerprinting is a robust technique for collaborative plant metabolomic data collection",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Ward",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Baker",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Miller",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Deborde",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Maucourt",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Metabolomics",
+                "volume": "6",
+                "issue": "",
+                "pages": "263--273",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ward JL, Baker JM, Miller SJ, Deborde C, Maucourt M, et al. (2010) An inter- laboratory comparison demonstrates that 1 H-NMR metabolite fingerprinting is a robust technique for collaborative plant metabolomic data collection. Metabolomics 6: 263-273.",
+                "links": null
+            },
+            "BIBREF49": {
+                "ref_id": "b49",
+                "title": "Metabolic effects of dinoseb, diazinon and esfenvalerate in eyed eggs and alevins of Chinook salmon (Oncorhynchus tshawytscha) determined by 1 H-NMR metabolomics",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Viant",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Pincetich",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Tjeerdema",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Aquat Toxicol",
+                "volume": "77",
+                "issue": "",
+                "pages": "359--371",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Viant M, Pincetich C, Tjeerdema R (2006) Metabolic effects of dinoseb, diazinon and esfenvalerate in eyed eggs and alevins of Chinook salmon (Oncorhynchus tshawytscha) determined by 1 H-NMR metabolomics. Aquat Toxicol 77: 359-371.",
+                "links": null
+            },
+            "BIBREF50": {
+                "ref_id": "b50",
+                "title": "Characterization of the metabolic actions of crude versus dispersed oil in salmon smolts via NMR-based metabolomics",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "Y"
+                        ],
+                        "last": "Lin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Anderson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Phillips",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Peng",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Clark",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Aquat Toxicol",
+                "volume": "95",
+                "issue": "",
+                "pages": "230--238",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lin CY, Anderson BS, Phillips BM, Peng AC, Clark S, et al. (2009) Characterization of the metabolic actions of crude versus dispersed oil in salmon smolts via NMR-based metabolomics. Aquat Toxicol 95: 230-238.",
+                "links": null
+            },
+            "BIBREF51": {
+                "ref_id": "b51",
+                "title": "An environmental H-NMR metabolomic study of the exposure of the marine mussel Mytilus edulis to atrazine, lindane, hypoxia and starvation",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Tuffnail",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Mills",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Cary",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Greenwood",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Metabolomics",
+                "volume": "5",
+                "issue": "",
+                "pages": "33--43",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Tuffnail W, Mills GA, Cary P, Greenwood R (2008) An environmental H- NMR metabolomic study of the exposure of the marine mussel Mytilus edulis to atrazine, lindane, hypoxia and starvation. Metabolomics 5: 33-43.",
+                "links": null
+            },
+            "BIBREF52": {
+                "ref_id": "b52",
+                "title": "NMR-based microbial metabolomics and the temperature-dependent coral pathogen Vibrio coralliilyticus",
+                "authors": [
+                    {
+                        "first": "Afb",
+                        "middle": [],
+                        "last": "Boroujerdi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Vizcaino",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Meyers",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Pollock",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Huynh",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Environ Sci Technol",
+                "volume": "43",
+                "issue": "",
+                "pages": "7658--7664",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Boroujerdi AFB, Vizcaino MI, Meyers A, Pollock EC, Huynh SL, et al. (2009) NMR-based microbial metabolomics and the temperature-dependent coral pathogen Vibrio coralliilyticus. Environ Sci Technol 43: 7658-7664.",
+                "links": null
+            },
+            "BIBREF53": {
+                "ref_id": "b53",
+                "title": "Effects of temperature on host-pathogen-drug interactions in red abalone, Haliotis rufescens, determined by 1 H-NMR metabolomics",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Rosenblum",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Tjeerdema",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Viant",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Environ Sci Technol",
+                "volume": "40",
+                "issue": "",
+                "pages": "7077--7084",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rosenblum ES, Tjeerdema RS, Viant MR (2006) Effects of temperature on host-pathogen-drug interactions in red abalone, Haliotis rufescens, determined by 1 H-NMR metabolomics. Environ Sci Technol 40: 7077-7084.",
+                "links": null
+            },
+            "BIBREF54": {
+                "ref_id": "b54",
+                "title": "H-NMR Metabolomics reveals contrasting response by male and female mussels exposed to reduced seawater pH, increased temperature, and a pathogen",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Ellis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Spicer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Byrne",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "U",
+                        "middle": [],
+                        "last": "Sommer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Viant",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Environ Sci Technol",
+                "volume": "1",
+                "issue": "",
+                "pages": "7044--7052",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ellis RP, Spicer JI, Byrne JJ, Sommer U, Viant MR, et al. (2014) 1 H-NMR Metabolomics reveals contrasting response by male and female mussels exposed to reduced seawater pH, increased temperature, and a pathogen. Environ Sci Technol 48: 7044-7052.",
+                "links": null
+            },
+            "BIBREF55": {
+                "ref_id": "b55",
+                "title": "Elevated seawater levels of CO 2 change the metabolic fingerprint of tissues and hemolymph from the green shore crab Carcinus maenas",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Hammer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Pedersen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "St\u00f8rseth",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Comp Biochem Physiol Part D Genomics Proteomics",
+                "volume": "7",
+                "issue": "",
+                "pages": "292--302",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hammer KM, Pedersen SA, St\u00f8rseth TR (2012) Elevated seawater levels of CO 2 change the metabolic fingerprint of tissues and hemolymph from the green shore crab Carcinus maenas. Comp Biochem Physiol Part D Genomics Proteomics 7: 292-302.",
+                "links": null
+            },
+            "BIBREF56": {
+                "ref_id": "b56",
+                "title": "H-NMR-based metabolomic profiling in mice infected with Mycobacterium tuberculosis",
+                "authors": [
+                    {
+                        "first": "Yang",
+                        "middle": [],
+                        "last": "Shin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Jeon",
+                        "middle": [],
+                        "last": "Yoon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Cho",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "J Proteome Res",
+                "volume": "10",
+                "issue": "",
+                "pages": "2238--2247",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Shin, Yang, Jeon, Yoon YJ, Cho, et al. (2011) 1 H-NMR-based metabolomic profiling in mice infected with Mycobacterium tuberculosis. J Proteome Res 10: 2238-2247.",
+                "links": null
+            },
+            "BIBREF57": {
+                "ref_id": "b57",
+                "title": "NMR for microbiology: In vivo and in situ applications",
+                "authors": [
+                    {
+                        "first": "Delort A-M",
+                        "middle": [],
+                        "last": "Grivet",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Prog Nucl Magn Reson Spectrosc",
+                "volume": "54",
+                "issue": "",
+                "pages": "1--53",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Grivet, Delort A-M (2009) NMR for microbiology: In vivo and in situ applications. Prog Nucl Magn Reson Spectrosc 54: 1-53.",
+                "links": null
+            },
+            "BIBREF58": {
+                "ref_id": "b58",
+                "title": "Improved identification of metabolites in complex mixtures using HSQC NMR spectroscopy",
+                "authors": [
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Xi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "De Ropp",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Viant",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Woodruff",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Yu",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Anal Chim Acta",
+                "volume": "614",
+                "issue": "",
+                "pages": "127--133",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Xi Y, de Ropp JS, Viant MR, Woodruff DL, Yu P (2008) Improved identification of metabolites in complex mixtures using HSQC NMR spectroscopy. Anal Chim Acta 614: 127-133.",
+                "links": null
+            },
+            "BIBREF59": {
+                "ref_id": "b59",
+                "title": "Identification and quantification of metabolites in 1 H-NMR spectra by Bayesian model selection",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Zheng",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Zhang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Ragg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Raftery",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Vitek",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Bioinformatics",
+                "volume": "27",
+                "issue": "",
+                "pages": "1637--1644",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Zheng C, Zhang S, Ragg S, Raftery D, Vitek O (2011) Identification and quantification of metabolites in 1 H-NMR spectra by Bayesian model selection. Bioinformatics 27: 1637-1644.",
+                "links": null
+            },
+            "BIBREF60": {
+                "ref_id": "b60",
+                "title": "Web-based inference of biological patterns, functions and pathways from metabolomic data using MetaboAnalyst",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Xia",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Wishart",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Nat Protoc",
+                "volume": "6",
+                "issue": "",
+                "pages": "743--760",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Xia J, Wishart DS (2011) Web-based inference of biological patterns, functions and pathways from metabolomic data using MetaboAnalyst. Nat Protoc 6: 743- 760.",
+                "links": null
+            },
+            "BIBREF61": {
+                "ref_id": "b61",
+                "title": "NMR spectra of complex mixtures",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Martin-Pastor",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "J Agric Food Chem",
+                "volume": "62",
+                "issue": "",
+                "pages": "1190--1197",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Martin-Pastor M (2014) NMR spectra of complex mixtures. J Agric Food Chem 62: 1190-1197.",
+                "links": null
+            },
+            "BIBREF62": {
+                "ref_id": "b62",
+                "title": "An efficient spectra processing method for metabolite identification from 1 H-NMR metabolomics data",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Jacob",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Deborde",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Moing",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Anal Bioanal Chem",
+                "volume": "405",
+                "issue": "",
+                "pages": "5049--5061",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jacob D, Deborde C, Moing A (2013) An efficient spectra processing method for metabolite identification from 1 H-NMR metabolomics data. Anal Bioanal Chem 405: 5049-5061.",
+                "links": null
+            },
+            "BIBREF63": {
+                "ref_id": "b63",
+                "title": "MetaboLab-advanced NMR data processing and analysis for metabolomics",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Ludwig",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "U",
+                        "middle": [],
+                        "last": "Gunther",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "U",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "G\u00fcnther",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "BMC Bioinformatics",
+                "volume": "12",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ludwig C, Gunther U, G\u00fcnther UL (2011) MetaboLab-advanced NMR data processing and analysis for metabolomics. BMC Bioinformatics 12: 366.",
+                "links": null
+            },
+            "BIBREF64": {
+                "ref_id": "b64",
+                "title": "MetaboHunter: an automatic approach for identification of metabolites from 1",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Tulpan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "L\u00e9ger",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Belliveau",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Culf",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Cuperlovi\u0107-Culf",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Tulpan D, L\u00e9ger S, Belliveau L, Culf A, Cuperlovi\u0107-Culf M (2011) MetaboHunter: an automatic approach for identification of metabolites from 1",
+                "links": null
+            },
+            "BIBREF65": {
+                "ref_id": "b65",
+                "title": "H-NMR spectra of complex mixtures",
+                "authors": [],
+                "year": null,
+                "venue": "BMC Bioinformatics",
+                "volume": "12",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "H-NMR spectra of complex mixtures. BMC Bioinformatics 12: 400.",
+                "links": null
+            },
+            "BIBREF66": {
+                "ref_id": "b66",
+                "title": "Direct sampling of organisms from the field and knowledge of their phenotype: key recommendations for environmental metabolomics",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Hines",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Oladiran",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Bignesll",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Stentiford",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Viant",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Environ Sci Technol Lett",
+                "volume": "41",
+                "issue": "",
+                "pages": "3375--3381",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hines A, Oladiran GS, Bignesll JP, Stentiford GD, Viant MR (2007) Direct sampling of organisms from the field and knowledge of their phenotype: key recommendations for environmental metabolomics. Environ Sci Technol Lett 41: 3375-3381.",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "num": null,
+                "type_str": "figure",
+                "text": "H-NMR profiles of Porites compressa are reproducible within and between coral colonies. (A) PCA comparing Porites compressa 1 H-NMR metabolite profiles between technical, intra-colony and inter-colony samples. Profiles from inter-colony P. compressa samples were obtained using two extraction methods: method 1 and method 2 (B) Boxplots of percent relative standard deviation (% RSD) scores across 1 H-NMR variables comparing technical, intra-and inter-colony variability. The median is indicated (black bar) along with the quartile ranges and outlying values (open circles). Letters denote Kruskal-Wallis test results (p,0.001). Groups connected by the same letter are not significantly different. doi:10.1371/journal.pone.0111274.g001",
+                "uris": null
+            },
+            "FIGREF1": {
+                "num": null,
+                "type_str": "figure",
+                "text": "Separation in metabolite profiles after experimental addition of alanine, glucose, and glycolic acid. (A) OPLS-DA model comparing the control, 0.1 mM, and 10 mM metabolite spiking treatments. Separation within and between treatments is represented by the torthogonal-and t-axis, respectively. Model statistics are reported(Table 2). (B) Corresponding loading plot showing 1 H-NMR bin coefficients. Bins arising from each spiking compound are indicated. Ala = alanine, Glu = glucose, Gly = glycolic acid. doi:10.1371/journal.pone.0111274.g002",
+                "uris": null
+            },
+            "FIGREF2": {
+                "num": null,
+                "type_str": "figure",
+                "text": "Reef-building corals have species-specific H-NMR profiles. OPLS-DA models comparing 1 H-NMR profiles from (A) Montipora aequituberculata, Pocillopora damicornis, Porites lobata and Seriatopora hystrix and (B) between M. aequituberculata and P. damicornis only. Separation within and between species is represented by the t-orthogonal-and t-axis, respectively. Model statistics are reported (Table 2). (C and D) Corresponding loading plots showing 1 H-NMR-bin coefficients. Variables driving separation in the 4-species OPLS-DA model (A) are identified with numbers corresponding to unknowns(Table 4). Only significant variables are indicated for each model. Ala = Alanine, Trig = Trigonelline, Thre/ Lac = Threonine/Lactate. doi:10.1371/journal.pone.0111274.g003",
+                "uris": null
+            },
+            "FIGREF3": {
+                "num": null,
+                "type_str": "figure",
+                "text": "S1 PCA identifies two outlying metabolite profiles when comparing spectra between reef-building coral species. PCA comparing metabolite profiles between Montipora aequituberculata, Pocillopora damicornis, Porites. lobata and Seriatopora hystrix (A) with and (B) without outlying samples. Ellipse represents a 99% confidence interval. (EPS) Figure S2 Complex profiles result in high signal overlap. Expanded regions of H-NMR spectra showing the location of 1 H-resonances for alanine, glucose, and glycolic acid. Turquoise = control, pink = 0.1 mM, dark blue = 10 mM. (EPS) Figure S3 All possible OPLS-DA models demonstrate reef-building corals have species-specific 1 H-NMR profiles. (A) 4-species model, (B-E) 3-species models, and (F-K) pairwise species comparisons of metabolite profiles from Montipora aequituberculata, Pocillopora damicornis, Porites lobata and Seriatopora hystrix. Model statistics are reported (Table S1). (EPS) Figure S4 P. compressa profiles are visually similar, except in regions of spiking compounds. Representative 1 H-NMR spectra from the metabolite spiking experiment of the 10 mM (A), 0.1 mM (B) and control (C) treatments. (EPS)",
+                "uris": null
+            },
+            "TABREF0": {
+                "num": null,
+                "type_str": "table",
+                "content": "<table><tr><td>Parameter</td><td>Mean \u00b1 SE</td></tr><tr><td>Temperature</td><td>27.660.03uC</td></tr><tr><td>Salinity</td><td>33.860.02 ppt</td></tr><tr><td>Light</td><td>10763.85 mmol photon</td></tr></table>",
+                "text": "Flow-through tank conditions prior to sampling of reef-corals at the National Museum for Marine Biology and Aquarium."
+            },
+            "TABREF1": {
+                "num": null,
+                "type_str": "table",
+                "content": "<table><tr><td>Model</td></tr></table>",
+                "text": "OPLS-DA Model Results. X and R Y represent the goodness of fit between the X (metabolite data) and Y (predictor values) matrices. Q 2 assesses the accuracy and predictability of the model. A Q 2 value close to 1.0 represents a more predictive model. doi:10.1371/journal.pone.0111274.t002 Kruskal-Wallis test results comparing spiking treatments."
+            },
+            "TABREF2": {
+                "num": null,
+                "type_str": "table",
+                "content": "<table><tr><td>Bin Center</td><td>Peak Pattern*</td><td>Annotation</td><td>Compound Class</td></tr><tr><td>0.938</td><td>m</td><td>Unknown 1</td><td>Branch-chained amino acids</td></tr><tr><td>0.983</td><td>m</td><td/><td/></tr><tr><td>1.011</td><td>m</td><td/><td/></tr><tr><td>1.090</td><td>m</td><td>Unknown 2</td><td>Branch-chained amino acids</td></tr><tr><td>1.306</td><td/><td>Unknown 3</td><td>Aliphatic</td></tr><tr><td>1.327</td><td>d</td><td>Threonine/Lactate</td><td>Organic Acid</td></tr><tr><td>1.337</td><td/><td/><td/></tr><tr><td>1.390</td><td>m</td><td>Unknown 4</td><td>Lipid</td></tr><tr><td>1.454</td><td>d</td><td>Alanine</td><td/></tr><tr><td>1.496</td><td/><td/><td/></tr><tr><td>1.740</td><td>m</td><td>Unknown 5</td><td>Aliphatic</td></tr><tr><td>2.031</td><td>m</td><td>Unknown 6</td><td>Aliphatic</td></tr><tr><td>2.051</td><td>m</td><td>Unknown 7</td><td>Aliphatic</td></tr><tr><td>2.072</td><td/><td/><td/></tr><tr><td>2.086</td><td/><td/><td/></tr><tr><td>2.670</td><td>m</td><td>Unknown 8</td><td>Aliphatic</td></tr><tr><td>2.707</td><td>t</td><td>Unknown 9</td><td>Aliphatic</td></tr><tr><td>2.779</td><td>s</td><td>Unknown 10</td><td>Aliphatic</td></tr><tr><td>2.870</td><td>m</td><td>Unknown 11</td><td>Aliphatic</td></tr><tr><td>2.986</td><td>s</td><td>Unknown 12</td><td>Aliphatic</td></tr><tr><td>3.031</td><td>m</td><td>Unknown 13</td><td>Aliphatic</td></tr><tr><td>3.046</td><td>m</td><td>Unknown 14</td><td>Aliphatic</td></tr><tr><td>3.160</td><td>s</td><td>Unknown 15</td><td>Aliphatic</td></tr><tr><td>3.380</td><td>m</td><td>Unknown 16</td><td>Carbohydrates</td></tr><tr><td>3.555</td><td>m</td><td>Unknown 17</td><td>Carbohydrates</td></tr><tr><td>3.566</td><td>m</td><td>Unknown 18</td><td>Carbohydrates</td></tr><tr><td>3.583</td><td>m</td><td>Unknown 19</td><td>Carbohydrates</td></tr><tr><td>3.649</td><td>s</td><td>Unknown 20</td><td>Carbohydrates</td></tr><tr><td>3.985</td><td>m</td><td>Unknown 21</td><td>Carbohydrates</td></tr><tr><td>4.031</td><td>s</td><td>Unknown 22</td><td>Carbohydrates</td></tr><tr><td>4.321</td><td>m</td><td>Unknown 23</td><td>Carbohydrates</td></tr><tr><td>5.152</td><td>d</td><td>Unknown 24</td><td>Carbohydrates</td></tr><tr><td>4.446</td><td>s</td><td>Trigonelline</td><td/></tr><tr><td>8.842</td><td>m</td><td/><td/></tr><tr><td>9.135</td><td>m</td><td/><td/></tr><tr><td colspan=\"2\">*Peak patterns: s-singlet, d-doublet, m-multiplet.</td><td/><td/></tr><tr><td colspan=\"2\">doi:10.1371/journal.pone.0111274.t004</td><td/><td/></tr></table>",
+                "text": "Variables driving separation in metabolite fingerprints among coral species."
+            },
+            "TABREF3": {
+                "num": null,
+                "type_str": "table",
+                "content": "<table/>",
+                "text": "All possible OPLS-DA models comparing reef coral 1 H-NMR profiles."
+            }
+        }
+    }
+}
