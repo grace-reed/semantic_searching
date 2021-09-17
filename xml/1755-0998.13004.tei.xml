@@ -1,0 +1,2117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/grace/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">SymPortal: A novel analytical framework and platform for coral algal symbiont next-generation sequencing ITS2 profiling</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Benjamin</forename><forename type="middle">C C</forename><surname>Hume</surname></persName>
+							<email>benjamin.hume@kaust.edu.sa</email>
+							<idno type="ORCID">0000-0001-7753-3903</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Biological and Environmental Science and Engineering (BESE)</orgName>
+								<orgName type="institution">King Abdullah University of Science and Technology (KAUST)</orgName>
+								<address>
+									<addrLine>Red Sea Research Center</addrLine>
+									<settlement>Thuwal</settlement>
+									<country key="SA">Saudi Arabia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">|</forename><forename type="middle">Edward G</forename><surname>Smith</surname></persName>
+							<idno type="ORCID">0000-0001-7753-3903</idno>
+							<affiliation key="aff1">
+								<orgName type="department">Center for Genomics and Systems Biology</orgName>
+								<orgName type="institution">New York University Abu Dhabi</orgName>
+								<address>
+									<settlement>Abu Dhabi</settlement>
+									<country key="AE">UAE</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Maren</forename><surname>Ziegler</surname></persName>
+							<idno type="ORCID">0000-0003-2237-9261</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Biological and Environmental Science and Engineering (BESE)</orgName>
+								<orgName type="institution">King Abdullah University of Science and Technology (KAUST)</orgName>
+								<address>
+									<addrLine>Red Sea Research Center</addrLine>
+									<settlement>Thuwal</settlement>
+									<country key="SA">Saudi Arabia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hugh</forename><forename type="middle">J M</forename><surname>Warrington</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Faculty of Computer Science and Technology</orgName>
+								<orgName type="institution">University of Cambridge</orgName>
+								<address>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">A</forename><surname>Burt</surname></persName>
+							<idno type="ORCID">0000-0001-6087-6424</idno>
+							<affiliation key="aff1">
+								<orgName type="department">Center for Genomics and Systems Biology</orgName>
+								<orgName type="institution">New York University Abu Dhabi</orgName>
+								<address>
+									<settlement>Abu Dhabi</settlement>
+									<country key="AE">UAE</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">|</forename><surname>Todd</surname></persName>
+							<idno type="ORCID">0000-0001-6087-6424</idno>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Lajeunesse</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joerg</forename><surname>Wiedenmann</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Institute for Life Sciences</orgName>
+								<orgName type="institution">University of Southampton</orgName>
+								<address>
+									<settlement>Southampton</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christian</forename><forename type="middle">R</forename><surname>Voolstra</surname></persName>
+							<email>christian.voolstra@kaust.edu.sa</email>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Biological and Environmental Science and Engineering (BESE)</orgName>
+								<orgName type="institution">King Abdullah University of Science and Technology (KAUST)</orgName>
+								<address>
+									<addrLine>Red Sea Research Center</addrLine>
+									<settlement>Thuwal</settlement>
+									<country key="SA">Saudi Arabia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Biology</orgName>
+								<orgName type="institution">The Pennsylvania State University</orgName>
+								<address>
+									<settlement>University Park</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department">Ocean and Earth Sciences</orgName>
+								<orgName type="institution" key="instit1">Pennsylvania Coral Reef Laboratory</orgName>
+								<orgName type="institution" key="instit2">University of Southampton</orgName>
+								<address>
+									<settlement>Southampton</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<orgName type="department" key="dep1">Division of Biological and Environmental Science and Engineering (BESE)</orgName>
+								<orgName type="department" key="dep2">King Abdullah University of Science and Technology (KAUST)</orgName>
+								<address>
+									<settlement>Thuwal</settlement>
+									<country key="SA">Saudi Arabia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">SymPortal: A novel analytical framework and platform for coral algal symbiont next-generation sequencing ITS2 profiling</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1111/1755-0998.13004</idno>
+					<note type="submission">Received: 7 October 2018 | Revised: 30 January 2019 | Accepted: 31 January 2019</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-09-14T02:36+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>ITS2</term>
+					<term>molecular ecology</term>
+					<term>multicopy</term>
+					<term>phylogentics</term>
+					<term>Symbiodiniaceae</term>
+					<term>SymPortal</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">| INTRODUC TI ON</head><p>Corals and the ecosystems they construct have been among the most susceptible to climate change, but corals have been shown to exhibit variation in their responses to stress <ref type="bibr" target="#b20">(Hughes et al., 2018;</ref><ref type="bibr">Norstrom et al., 2016)</ref>. One important factor that contributes to reef resilience is the genetic identity of the algal symbionts harboured by the reef-building corals <ref type="bibr" target="#b24">(Hume et al., 2016;</ref><ref type="bibr" target="#b28">Kemp, Hernandez-Pech, Iglesias-Prieto, Fitt, &amp; Schmidt, 2014;</ref><ref type="bibr" target="#b35">LaJeunesse et al., 2010;</ref><ref type="bibr" target="#b45">Rowan, 2004;</ref><ref type="bibr" target="#b46">Rowan, Knowlton, Baker, &amp; Jara, 1997;</ref><ref type="bibr" target="#b51">Silverstein, Cunning, &amp; Baker, 2015;</ref><ref type="bibr" target="#b58">Thornhill, Howells, Wham, Steury, &amp; Santos, 2017)</ref>. Effective characterization of these algal symbionts, family Symbiodiniaceae (formerly genus Symbiodinium containing Clades A-I, now equivalent to family Symbiodiniaceae, currently with seven named genera; LaJeunesse et al., 2018), is therefore important.</p><p>Despite the multitude of markers available for assessing Symbiodiniaceae diversity, the internal transcribed spacer (ITS2) of the rRNA gene shows an uninterrupted popularity and remains the most commonly used marker <ref type="bibr" target="#b12">(Cunning, Gates, &amp; Edmunds, 2017;</ref><ref type="bibr" target="#b17">Fujise et al., 2018;</ref><ref type="bibr" target="#b44">Pochon, Putnam, &amp; Gates, 2014;</ref><ref type="bibr" target="#b53">Smith, Ketchum, &amp; Burt, 2017b;</ref><ref type="bibr" target="#b62">Varasteh, Shokri, Rajabi-Maham, Behzadi, &amp; Hume, 2018)</ref>. However, this marker is multicopy in nature, which complicates its use. A single Symbiodiniaceae cell usually contains hundreds to thousands of rRNA gene copies <ref type="bibr" target="#b8">(Arif et al., 2014;</ref><ref type="bibr" target="#b31">LaJeunesse, 2002;</ref><ref type="bibr" target="#b59">Thornhill, Lajeunesse, &amp; Santos, 2007</ref>).</p><p>On the one hand, diversity of ITS2 sequences can come from sequence variations among these gene copies, giving rise to intragenomic diversity. On the other hand, sample sequence diversity may also be due to hosts associating with multiple genotypes of Symbiodiniaceae, referred to as intergenomic diversity <ref type="bibr" target="#b47">(Sampayo, Dove, &amp; Lajeunesse, 2009)</ref>. Without the use of additional genetic markers, differentiating among these sources of variation can be challenging <ref type="bibr" target="#b59">(Thornhill et al., 2007)</ref>.</p><p>Historically, analyses have primarily used one of two techniques to characterize ITS2 sequence diversity from PCR amplicons: denaturing gradient gel electrophoresis (DGGE) or molecular cloning-and-sequencing. Regardless of the technique used, the responsibility of characterizing different sequences as being due to intra-or intergenomic sources of variance lays with the researcher.</p><p>Most analyses successfully incorporated intragenomic theory, leading to the core understanding that specific combinations of intragenomic sequences (commonly known as ITS2 profiles) could differentiate, and therefore define, taxa (often referred to as socalled 'types <ref type="bibr">';</ref><ref type="bibr" target="#b31">LaJeunesse, 2002)</ref>. An example is the identification of both the D1 and D4 sequences to characterize Durusdinium trenchii, formerly Symbiodinium trenchii (LaJeunesse, <ref type="bibr" target="#b37">Wham, &amp; Pettay, 2014)</ref>. However, analyses interpreting every sequence as representative of a distinct Symbiodiniaceae genotype leads to erroneous inflation of Symbiodiniaceae diversity estimates <ref type="bibr" target="#b7">(Apprill &amp; Gates, 2007;</ref><ref type="bibr" target="#b59">Thornhill et al., 2007)</ref>.</p><p>Whilst DGGE and to a lesser extent molecular cloning-and-sequencing approaches are still used to analyse the state of rDNA variation <ref type="bibr" target="#b21">(Hume, D'Angelo, Burt, &amp; Wiedenmann, 2018;</ref><ref type="bibr" target="#b52">Smith, Hume, Delaney, Wiedenmann, &amp; Burt, 2017a;</ref><ref type="bibr" target="#b62">Varasteh et al., 2018;</ref><ref type="bibr" target="#b65">Wham, Ning, &amp; LaJeunesse, 2017)</ref>, contemporary analyses are starkly shifting towards employing next-generation sequencing (NGS) technologies <ref type="bibr" target="#b12">(Cunning et al., 2017;</ref><ref type="bibr" target="#b24">Hume et al., 2016;</ref><ref type="bibr" target="#b25">Hume, Ziegler et al., 2018;</ref><ref type="bibr" target="#b53">Smith, Ketchum et al., 2017b;</ref><ref type="bibr" target="#b66">Ziegler et al., 2017)</ref>. These NGS approaches afford a greater sequencing depth, but yield sequence diversities orders of magnitude larger than previous methodologies. NGS approaches also overcome limitations associated with the gelbased DGGE methodologies, such as, but not limited to, poor resolution between sequences and a sequence detection limit reliant on the effectiveness of the staining technique employed.</p><p>Despite the advances offered by NGS approaches, there is no consensus on how best to exploit their increased sequencing depth and differentiate between intragenomic and intergenomic sequence diversity. Initial analyses have used operational taxonomic unit (OTU) approaches to collapse sequence diversity at a 97% similarity threshold <ref type="bibr" target="#b8">(Arif et al., 2014;</ref><ref type="bibr" target="#b12">Cunning et al., 2017</ref>). Yet other approaches have combined OTU analyses with searches for key ITS2 type-defining sequences in attempts to better exploit the data <ref type="bibr" target="#b66">(Ziegler et al., 2017)</ref>. Most recently, a minimum entropy decomposition (MED)-based approach (referred to as the metahaplotype approach) has been used to consolidate the high diversity to a smaller set of core sequence nodes, based on biologically informative sequence positions rather than the fixed similarity thresholds of the OTU approach <ref type="bibr" target="#b16">(Eren et al., 2015;</ref><ref type="bibr" target="#b53">Smith, Ketchum et al., 2017b)</ref>.</p><p>However, these above-mentioned approaches are ultimately limited in their ability to resolve taxa from NGS ITS2 data. As numerous Symbiodiniaceae species share the same most abundant ITS2 sequence, and a 1-bp difference in this most abundant sequence may relate to evolutionary divergences of &gt;10 million years <ref type="bibr" target="#b60">(Thornhill, Lewis, Wham, &amp; LaJeunesse, 2014)</ref>, the fixed similarity threshold clustering of OTU approaches greatly limits their ability to maintain informative intragenomic structure and thus, resolve Symbiodiniaceae taxa. In contrast, the metahaplotype approach <ref type="bibr" target="#b53">(Smith, Ketchum et al., 2017b)</ref> does retain intragenomic diversity information. However, it does not differentiate between intra-and intergenomic diversity and is thus limited to scenarios where samples only contain a single symbiont taxon <ref type="bibr" target="#b53">(Smith, Ketchum et al., 2017b)</ref>. To verify this single symbiont assumption, the method is reliant on an additional less conserved marker, the chloroplastic psbA noncoding region (psbA ncr ), a marker often used to differentiate between closely related Symbiodiniaceae taxa <ref type="bibr" target="#b36">(LaJeunesse &amp; Thornhill, 2011)</ref>. While this marker may appear to be an attractive alternative to the ITS2 region due to its power to resolve closely related taxa, its highly variable nature severely limits the taxonomic range over which returned sequences can be aligned, and therefore it is effective only for reconstructing fine-level phylogenies among closely related taxa <ref type="bibr" target="#b60">(Thornhill et al., 2014)</ref>.</p><p>To maximize biological inferences obtained from NGS ITS2 data sets, we present SymPortal, a new analytical framework for resolving Symbiodiniaceae taxa using NGS data of the ITS2 marker gene.</p><p>Our methodology augments tried-and-tested intragenomic resolution theory with the power of NGS to resolve between symbiont taxa at a level far surpassing alternative methodologies using this marker. We employ novel logic to identify within-sample informative intragenomic sequences, which we have termed 'defining intragenomic variants' (DIVs), and use combinations of these DIVs to identify ITS2 type profiles representative of putative Symbiodiniaceae taxa. This approach means that SymPortal is better able to differentiate between intragenomic and intergenomic sources of ITS2 variation without the need for more resolute markers, such as the psbA ncr .</p><p>Here we give an overview of the SymPortal analytical framework and demonstrate its ability to achieve superior ITS2-based taxonomic resolutions within the family Symbiodiniaceae. We analyse NGS ITS2 data in the SymPortal framework and compare the results with the most commonly used approach, the 97% similarity OTU analysis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">| MATERIAL S AND ME THODS</head><p>This section provides an overview of the SymPortal analytical framework before detailing the approach used in the methodological comparison of the SymPortal and 97% similarity OTU analyses. More detailed and continually updated documentation of the SymPortal framework can be found on GitHub (https://github.com/ didillysquat/SymPortal_framework).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">| SymPortal and the reorganization of the former genus Symbiodinium</head><p>The former genus Symbiodinium has recently undergone a revision in systematics to the taxonomic level of family and named <ref type="bibr">Symbiodiniaceae (LaJeunesse et al., 2018)</ref>. The phylogenetic groupings commonly referred to as 'Clades' are now recognized as different genera. Currently seven, about half of the total, are given formal names. The group designated Clade A retains the genus name Symbiodinium. Thus, any mention of Symbiodinium refers to taxa in Clade A. As pertains to this research, Clade C is now the genus</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cladocopium.</head><p>Of note, the SymPortal framework was written before this taxonomic reorganization and all analyses to date have been completed according to the old organizational system/taxonomy. Given the need for backwards comparability to previous studies, the SymPortal framework will maintain its use of the clade systematics whilst working towards the additional incorporation of the Symbiodiniaceae systematics to ensure forward comparability. The term and taxonomic level of 'clade' will therefore still be referenced in the explanation of the SymPortal framework below, and it should be clear that this refers to the phylogenetic groupings of the former genus Symbiodinium (Clades A-I).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">| Overview of the SymPortal analytical framework</head><p>The SymPortal analytical framework consists of two parts: the SymPortal analysis and an SQL database with which the analysis is integrated. The analysis may be run either remotely via submission to SymPortal.org or locally. The main difference between these two modes of operation is the database used for the analysis. If running the analysis via submission to SymPortal.org, the remotely hosted SymPortal database is used, while analyses run locally make use of a user-constructed database. Please see Sections 2.3.4: Accessing the SymPortal analytical framework and 2.3.5: The SymPortal analytical framework's database below for further details.</p><p>Within the SymPortal framework, the SymPortal analysis works by employing the usually substantial ITS2 intragenomic diversity harboured within every Symbiodiniaceae genome, and captured by NGS ITS2 sequencing, to resolve between genetically differentiated taxa ( <ref type="figure">Figure 1</ref>). The analysis does this by identifying specific sets of 'defining intragenomic [ITS2 sequence] variants' (DIVs) that represent the taxonomic unit of SymPortal, the 'ITS2 type profile' (a term derived from the 'ITS2 types' defined by 'ITS2 profiles' in DGGE-based methodologies). The database with which the SymPortal analysis is integrated stores sequencing information from every previously conducted SymPortal analysis. With continued use, the SymPortal framework will therefore accrue a catalog of ITS2 type profiles representative of identified putative Symbiodiniaceae taxa.</p><p>Whilst several different Symbiodiniaceae taxa may be harboured by an individual coral, commonly only a single Symbiodiniaceae taxon is found to be predominant <ref type="bibr" target="#b9">(Baums, Devlin-Durante, &amp; Lajeunesse, 2014;</ref><ref type="bibr" target="#b18">Goulet &amp; Coffroth, 2003;</ref><ref type="bibr" target="#b41">Pettay, Wham, Pinzon, &amp; Lajeunesse, 2011;</ref><ref type="bibr" target="#b61">Thornhill, Xiang, Fitt, &amp; Santos, 2009)</ref>. In cases where multiple Symbiodiniaceae are harboured by a single coral, these taxa are usually from different genera. Nevertheless, although rare, individual corals may harbour multiple Symbiodiniaceae taxa from the same genera. SymPortal must therefore be able to differentiate between intra-and intergenomic sources of ITS2 sequence variants returned from sample amplicon libraries <ref type="bibr" target="#b8">(Arif et al., 2014;</ref><ref type="bibr" target="#b12">Cunning et al., 2017;</ref><ref type="bibr" target="#b59">Thornhill et al., 2007)</ref>. To achieve this, SymPortal applies a central principle: the probability that a given set of ITS2 sequences found in a single coral sample are representative of a single Symbiodiniaceae genotype increases with the number of samples that set is found in <ref type="figure">(Figure 1c</ref>). Key to this principle is that although distinct coral colonies may contain DNA from millions of individual Symbiodiniaceae cells, when considered on a genus by genus basis (ITS2 sequences from Symbiodiniaceae taxa of different genera are genetically diverse and mostly unalignable), the vast majority of the cells are usually of a single genotype <ref type="bibr" target="#b9">(Baums et al., 2014;</ref><ref type="bibr" target="#b18">Goulet &amp; Coffroth, 2003;</ref><ref type="bibr" target="#b41">Pettay et al., 2011;</ref><ref type="bibr" target="#b61">Thornhill et al., 2009)</ref>. On the rare occasions when multiple taxa belonging to the same genus are found within a single sample, these taxa may be successfully resolved using SymPortal when each of them is present in other samples as standalone taxa. This principle has been used in DGGE-based methodologies to successfully identify genetically distinct Symbiodiniaceae taxa that have been verified by additional genetic markers <ref type="bibr" target="#b36">(LaJeunesse &amp; Thornhill, 2011;</ref><ref type="bibr" target="#b37">LaJeunesse et al., 2014;</ref><ref type="bibr" target="#b47">Sampayo et al., 2009</ref>).</p><p>Given the above approach to differentiating between intra-and intergenomic sources of variation, SymPortal's ability to accurately identify DIVs and therefore ITS2 type profiles representative of Symbiodiniaceae taxa will increase as more samples are incorporated F I G U R E 1 Overview of the typical workflow employing the SymPortal analytical framework. Sampling: (ai) Field sampling: corals containing populations of Symbiodiniaceae are sampled. (aii) Each Symbiodiniaceae cell contains hundreds of copies of the ITS2 gene representing many unique sequences (intragenomic sequence diversity). In this example, three corals are sampled, each containing a single genetically differentiated population of Symbiodiniaceae. PCR library preparation and sequencing: (bi) genomic DNA is extracted from each sample, the ITS2 region is PCR-amplified and PCR libraries are prepared for sequencing through clean-up and adapter ligation. (bii) Prepared libraries are sequenced on the Illumina platform producing, (biii) raw sequencing reads in paired.fastq.gz format. SymPortal analysis: (ci) paired.fastq.gz files are quality control processed and loaded into the SymPortal framework's database before being run through the SymPortal analysis. (cii) During the analysis, re-occurring sets of ITS2 sequences are identified as 'defining intragenomic [ITS2 sequence] variants' (DIVs) that are used to define novel or pre-existing, taxa-representative, ITS2 type profiles. (ciii) tab-delimited count tables are output detailing the abundance of predicted ITS2 type profiles and post-quality control sequences found in each sample. A .fasta is also provided detailing nucleotide sequence information. Finally, clade-separated UniFrac distance matrices and calculated principal coordinate analysis (PCoA) coordinates are output for betweensample and between-ITS2 type profile pairwise comparisons [Colour figure can be viewed at wileyonlinelibrary.com] </p><formula xml:id="formula_0">(ci) (cii) (ciii)</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">| The SymPortal workflow</head><p>The processes underlying data submission and analysis in the Raw sequence data (a) </p><formula xml:id="formula_1">Genus/clade separation A1-A1aw A1-A1av-A1ax C3-C3a-C3ab C3-C3c-C3cc C1-C1ab-C1e C15-C15x D1-D4-D6 Sample_01 Sample_02 Sample_03 Sample_04 Sample_05 Sample_06 Sample_07 Sample_08 Sample_09 Sample_10 Sample_11 Sample_12 Sample_13 Sample_14 Sample_15 Sample_16 Sample_17 Sample_18 Sample_19 Sample_20 Sample_21 Sample_22 Sample_23 Sample_24 Sample_25 Sample_26 Sample_27 Sample_28 Sample_29 Sample_30 Sample_01 Sample_02 Sample_03 Sample_04 Sample_05 Sample_06 Sample_07 Sample_08 Sample_09 Sample_10 Sample_11 Sample_12 Sample_13 Sample_14 Sample_15 Sample_16 Sample_17 Sample_18 Sample_19 Sample_20 Sample_21 Sample_22 Sample_23 Sample_24 Sample_25 Sample_26 Sample_27 Sample_28 Sample_29</formula><formula xml:id="formula_2">Sample_01 Sample_02 Sample_03 Sample_04 Sample_05 Sample_06 Sample_07 Sample_08 Sample_09 Sample_10 Sample_11 Sample_12 Sample_13 Sample_14 Sample_15 Sample_16 Sample_17 Sample_18 Sample_19 Sample_20 Sample_21 Sample_22 Sample_23 Sample_24 Sample_25 Sample_26 Sample_27 Sample_28 Sample_29 Sample_30 (d) D1 D4 D6 C3 C3a C3ab C3c C3cc C1 C1ab C1e C15 C15x A1 A1aw A1av A1ax (c)</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Database</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SymPortal Framework</head><p>Analysis alongside an introduction to the general principles underlying the operation of SymPortal.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.1">| Sample input</head><p>A data submission to SymPortal is typically in the form of a batch of samples in which each sample's sequencing information is represented by a pair of demultiplexed .fastq.gz files (one file containing the forward read and one file containing the reverse read; <ref type="figure">Figure 1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Amplicon libraries must have been amplified with Symbiodiniaceae</head><p>ITS2-specific primers. We recommend use of the SYM_VAR primer pair (SYM_VAR_REV/SYM_VAR_5.8S2; <ref type="bibr" target="#b22">Hume et al., 2013;</ref><ref type="bibr">Hume et al., 2015, respectively;</ref><ref type="bibr" target="#b25">Hume, Ziegler et al., 2018)</ref>, but any amplicon is appropriate as long as the amplicon produced by the SYM_VAR primer pair is nested within it (e.g. ITSintfor2/ITS-Reverse as used in <ref type="bibr" target="#b8">Arif et al., 2014;</ref><ref type="bibr" target="#b11">Coleman, Suarez, &amp; Goff, 1994;</ref><ref type="bibr" target="#b31">LaJeunesse, 2002;</ref><ref type="bibr" target="#b66">Ziegler et al., 2017)</ref>. For a comparison of commonly used primer pairs, please refer to <ref type="bibr" target="#b25">Hume, Ziegler et al. (2018)</ref>.</p><p>To maintain standardization between data submissions, all sequence quality control (QC) is done within the SymPortal framework.</p><p>This is currently conducted using mothur 1.39.5 <ref type="bibr" target="#b49">(Schloss et al., 2009)</ref>, the blast+ suite of executables <ref type="bibr" target="#b10">(Camacho et al., 2009)</ref>, minimum en-   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.2">| An analysis: Searching for ITS2 type profiles and identifying DIVs</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.3">| Mixed Symbiodiniaceae community samples</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.4">| Accessing the SymPortal analytical framework</head><p>The SymPortal analytical framework may be run either remotely,  The clade system of taxonomic naming within the former genus Symbiodinium has now been superseded by new family-and genera-level descriptions (LaJeunesse et al., 2018). In the interest of maintaining reverse comparability to previous studies, SymPortal will continue to relate its outputs to the clade divisions. In time, SymPortal will also be updated to include the new Symbiodiniaceae organization.</p><p>TA B L E 1 Database tables populated upon loading of a new data set into the SymPortal framework   <ref type="bibr" target="#b50">(Sheneman, Evans, &amp; Foster, 2006)</ref> to generate multiple trees, and sumtrees (http://dendropy.org/programs/sumtrees.html) to generate a 50% majority rule consensus tree.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.6">| SymPortal output</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4">| Comparison of SymPortal's resolution to that of a 97% similarity cutoff clustering approach</head><p>To compare the ability of SymPortal to resolve putative Symbiodiniaceae taxa with that of the most commonly used ITS2</p><p>NGS analysis approach, the 97% similarity OTU approach, we reanalysed data from a previous study with both methods <ref type="figure">(Figure 3)</ref>. The clade system of taxonomic naming within the former genus Symbiodinium has now been superseded by new family-and genera-level descriptions (LaJeunesse et al., 2018). In the interest of maintaining reverse comparability to previous studies, SymPortal will continue to relate its outputs to the former clade divisions. In time, SymPortal will also be updated to include the new Symbiodiniaceae organization.</p><p>TA B L E 3 ITS2 type profile count table output features</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.1">| The test data set</head><p>The test data set was collected as part of Smith, Ketchum et al.  <ref type="bibr" target="#b22">(Hume et al., 2013</ref><ref type="bibr" target="#b23">(Hume et al., , 2015</ref><ref type="bibr" target="#b25">Hume, Ziegler et al., 2018)</ref> and for psbA ncr , PSBA_NC_F and PSBA_NC_R <ref type="bibr" target="#b53">(Smith, Ketchum et al., 2017b)</ref>. Amplicon libraries were prepared for, and sequenced on, the Illumina MiSeq platform. For the sake of clarity in demonstrating each approach's analysis, only sequences of the genus Cladocopium Predicted ITS2 type profiles <ref type="table">A01  A02  A03  A04  A05  A06  A07  A09  A10  A11  A12  A13  A08  C01  C02  C03  C04  C05  C06  C07  C08  C09  C10  C11  C12  C13  C14  C15  Y15  Y09  Y04  Y02  Y13  Y07  Y08  Y01  Y10  Y11  Y12  Y06  Y03  Y05  A01  A02  A03  A04  A05  A06  A07  A09  A10  A11  A12  A13  A08  C01  C02  C03  C04  C05  C06  C07  C08  C09  C10  C11  C12  C13  C14  C15  Y15  Y09  Y04  Y02  Y13  Y07  Y08  Y01  Y10  Y11  Y12  Y06  Y03  Y05  A01  A02  A03  A04  A05  A06  A07  A09  A10  A11  A12  A13  A08  C01  C02  C03  C04  C05  C06  C07  C08  C09  C10  C11  C12  C13  C14  C15  Y15  Y09  Y04  Y02  Y13  Y07  Y08  Y01  Y10  Y11  Y12  Y06  Y03  Y05   20   40   60   80   100   C3   C3gulf   C3c   C3aq   C115c   C115b   C3am   Unamed   Acropora  Cyphastrea  Platygyra   A01  A02  A03  A04  A05  A06  A07  A09  A10  A11  A12  A13  A08  C01  C02  C03  C04  C05  C06  C07  C08  C09  C10  C11  C12  C13  C14  C15  Y15  Y09  Y04  Y02  Y13  Y07  Y08  Y01  Y10  Y11  Y12  Y06  Y03  Y05  A01  A02  A03  A04  A05  A06  A07  A09  A10  A11  A12  A13  A08  C01  C02  C03  C04  C05  C06  C07  C08  C09  C10  C11  C12  C13  C14  C15  Y15  Y09  Y04  Y02  Y13  Y07  Y08  Y01  Y10  Y11  Y12  Y06  Y03  Y05  A01  A02  A03  A04  A05  A06  A07  A09  A10  A11  A12  A13  A08  C01  C02  C03  C04  C05  C06  C07  C08  C09  C10  C11  C12  C13  C14  C15  Y15  Y09  Y04  Y02  Y13  Y07  Y08  Y01  Y10  Y11  Y12  Y06  Y03  Y05   C3d   C3i</ref> diverse psbA ncr marker. <ref type="bibr" target="#b53">Smith, Ketchum et al. (2017b)</ref> have used the metahaplotype approach to resolve the samples in this data set into three groups that corresponded to the respective coral host origin.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Representative sequence annotation</head><formula xml:id="formula_4">Unamed C3-C3gulf-C3c-C3am C3 C3-C3gulf-C3c-C3aq C3-C3gulf-C3d-C3i-C115c-C115b</formula><p>Critically, however, the metahaplotype approach has no means of differentiating between within-sample intra-and intergenomic sources of ITS2 diversity. Rather, it is reliant on the psbA ncr marker to verify that only a single dominant taxon is present in each sample prior to application of the ITS2-based ordination resolution approach <ref type="bibr" target="#b53">(Smith, Ketchum et al., 2017b)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.2">| Sample analysis using generation of OTUs by 97% similarity cutoff clustering</head><p>Clustering to OTUs at the 97% similarity cutoff threshold is an analytical approach originating from the analysis of 16S rDNA in bacterial ecological studies <ref type="bibr" target="#b55">(Stackebrandt &amp; Goebel, 1994;</ref><ref type="bibr" target="#b63">Vetrovsky &amp; Baldrian, 2013)</ref>. This approach was applied to Symbiodiniaceae ITS2 DNA to collapse intragenomic sequence variability and to be able to resolve ecologically discrete entities <ref type="bibr" target="#b8">(Arif et al., 2014)</ref>. The 97% threshold was applied to Symbiodiniaceae due to its documented ability to collapse all ITS2 diversity in monoclonal cultures of Symbiodiniaceae <ref type="bibr" target="#b8">(Arif et al., 2014</ref>). In the approach described by <ref type="bibr" target="#b8">Arif et al. (2014)</ref>, sequences recovered from all samples are split by genus, pooled and clustered into OTUs. Representative sequences are then associated with each of the OTUs. More recently, a modification to this method was proposed by <ref type="bibr" target="#b12">Cunning et al. (2017)</ref> in which sequences are still clustered at a 97% similarity cutoff but on a sample-by-sample basis rather than across all samples. This more recent approach was developed to address the fact that the most abundant ITS2 sequences from different Symbiodiniaceae species may be more similar to one another than the intragenomic variants found within those species <ref type="bibr" target="#b8">(Arif et al., 2014;</ref><ref type="bibr" target="#b12">Cunning et al., 2017)</ref>.</p><p>The representative OTUs returned from this approach will usually be equivalent to the most abundant sequence in each sample per genus.</p><p>To maintain the maximum potential for resolution between the samples in our test data set, we undertook both analyses, namely within and across sample clustering approaches.</p><p>For both clustering methods, the initial QC of sample sequences was the same as the mothur-based component of QC used in SymPortal. Briefly, mothur _1.39.5 <ref type="bibr" target="#b49">(Schloss et al., 2009)</ref> was used to create contigs from paired forward and reverse demultiplexed .fastq.gz files using the make.contigs command. On a sample-by-sample basis, the following sequence of commands was then applied.</p><p>The screen.seqs command was used <ref type="bibr">(maxambig = 0, maxhomop = 5)</ref> to discard sequences putatively generated from sequencing errors.</p><p>The resultant .fasta file was used as an input for blastn with the max_target_seqs argument set to 1 and an output format string of '6 qseqid sseqid evalue pident gcovs' <ref type="bibr" target="#b10">(Camacho et al., 2009</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.3">| Sample analysis using SymPortal's framework</head><p>Paired .fastq.gz files for each sample were run through a SymPortal analysis in one batch. The abundances of the ITS2 type profiles belonging to Clade C, as reported in the SymPortal output count table,</p><p>were directly used to create <ref type="figure">Figure 3</ref>. Output count tables are provided as Files S1-S5.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.4">| Plotting of the psbA ncr maximum-likelihood (ML) phylogeny</head><p>To create a psbA ncr phylogeny, the preprocessed psbA ncr sequences from the data associated with <ref type="bibr" target="#b53">Smith, Ketchum et al. (2017b)</ref> were used to generate a single consensus sequence for each sample.</p><p>Generation of these consensus sequences is detailed at https:// github.com/didillysquat/sp_ms_figure_creation/blob/master/SP_ MS_figure_making.ipynb. Unfortunately, psbA ncr marker amplicons were not available for one of the Platygyra samples, Y11, due to an indexing error (Y11 was not included in the original study <ref type="bibr">;</ref><ref type="bibr" target="#b54">Smith, Vaughan et al., 2017c)</ref>. A multiple sequence alignment was created from these sequences (File S13). A best nucleotide substitution model was selected in mega7 <ref type="bibr" target="#b56">(Tamura, Stecher, Peterson, Filipski, &amp; Kumar, 2013)</ref> and used to plot a bootstrapped (100 replications) ML phylogeny.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5">| Figure creation</head><p>The largely programmatic process used to make figures 2-5 is documented here: https://github.com/didillysquat/sp_ms_figure_creation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">| RE SULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">| ITS2 type profile determination with SymPortal</head><p>Running the 42 samples from three coral species (Acropora downingi, Cyphastrea microphthalma and Platygyra daedalea) from the Persian/ Arabian Gulf (see Methods) generated four Cladocopium ITS2 type profiles characterized by between one and six DIVs (output count tables for sequences and ITS2 type profiles are provided in Files S1-S5). Notably, 41 of the 42 samples were represented by three of the four ITS2 type profiles, which correlated to host genus <ref type="figure">(Figure 3)</ref>:</p><formula xml:id="formula_5">A. downingi, C3-C3gulf-C3c-C3aq; C. microphthalma, C3-C3gulf-</formula><p>C3c-C3am; and P. daedalea, C3-C3gulf-C3d-C3i-C115c-C115b. The fourth ITS2 type profile, denoted as 'C3' in the SymPortal analysis (Files S4 and S5), was found in only one sample that was collected from an A. downingi coral, sample A08. This ITS2 type profile was most closely related to the ITS2 type profile found in the other samples from A. downingi corals (denoted as C3-C3gulf-C3c-C3aq in the SymPortal analysis, Files S4 and S5). Despite the C3, C3gulf, C3c</p><p>and C3aq sequences being present, the A08 sample was not assigned to C3-C3gulf-C3c-C3aq due to the C3aq sequence being at a relative abundance that was lower than the defining abundances for the ITS2 type profile. As no other ITS2 type profile could be assigned to the sample, it was conservatively assigned the C3 ITS2 type profile based only on the sample's most abundant ITS2 sequence from the clade in question (Clade C). Plotting the within-genus UniFrac distance-based PCoA coordinates for pairwise sample comparisons (provided as part of the SymPortal output; File S11) also illustrates a clustering of samples according to host species <ref type="figure">(Figure 4)</ref>. One</p><p>Acropora sp. sample, A08, falls outside of the main Acropora sp.</p><p>grouping. The cause of this divergence is the difference in ITS2 diversity (abundance and presence/absence of ITS2 sequences) contained in this sample compared to the other samples of this host species, as can be seen in <ref type="figure">Figure 3(aii)</ref>.</p><p>The host-correlated resolution of the SymPortal analysis is in accordance with the results from the ordination-based metahaplotype approach of <ref type="bibr" target="#b53">Smith, Ketchum et al. (2017b)</ref> that also split the samples into three groups.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">| ITS2 OTU generation by 97% similarity cutoff clustering, within and across samples</head><p>The within-and across-sample clustering approaches provided identical results. All sequences clustered into a single OTU, which was represented by the C3 sequence <ref type="figure">(Figure 3</ref>; nucleotides 5-267 of sequence KX815267). Clustering into this single OTU was concluded at &gt;98% dissimilarity (i.e. before the 97% threshold could be reached),</p><p>illustrating the much lower sequence and taxon diversity in comparison to 16S rDNA amplicon studies <ref type="bibr" target="#b8">(Arif et al., 2014;</ref><ref type="bibr" target="#b66">Ziegler et al., 2017)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3">| Agreement between the ITS2 and psbA ncr genetic markers</head><p>Construction of an unrooted ML phylogeny from the psbA ncr sequences associated with the <ref type="bibr" target="#b53">Smith, Ketchum et al. (2017b)</ref> data set demonstrated a host-correlated resolution of the study's samples ( <ref type="figure">Figure 5</ref>). This resolution is in accordance with that of the SymPortal results but undetected by the OTU approach. Although not detected in the ML phylogeny, the psbA ncr sequence of sample A08</p><p>differed from all other Acropora-derived sequences in four positions (three separate indels). All other Acropora-derived sequences were identical. This difference is also realized in the ITS2 sequence and type profiles recovered and designated for A08 by the SymPortal analytical framework. Of the 13 Platygyra sequences for which psbA ncr sequences were available, four showed a divergence from the consensus (three at a single position and one at two positions; samples Y03, Y04, Y05 and Y06; File S13). This divergence from  <ref type="figure">Figure   S4</ref>). Only one Cyphastrea sample differed from the psbA ncr consensus sequence (one single nucleotide indel).</p><formula xml:id="formula_6">F I G U R E 4</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">| D ISCUSS I ON</head><p>The multicopy ITS2 sequence diversity harboured within every Symbiodiniaceae genome represents a wealth of information that is currently underutilized in many NGS analytical approaches. Here, we demonstrate that by exploiting this diversity, the SymPortal analytical framework is able to resolve between closely related Symbiodiniaceae genotypes at a resolution never before achievable with the ITS2 marker alone <ref type="figure">(Figure 3</ref>). Our results demonstrate that while all sequence diversity was effectively collapsed using a 97% similarity clustering method (as commonly used in current Symbiodiniaceae ITS2 approaches using NGS data), the SymPortal framework was able to identify four putative and distinct symbiont taxa that were harboured in multiple samples across each of the three coral host species investigated <ref type="figure">(Figure 3</ref>).</p><p>While intragenomic ITS2 sequence analysis has been used in characterizing Symbiodiniaceae taxa in more traditional approaches such as DGGE for some time <ref type="bibr" target="#b31">(LaJeunesse, 2002)</ref>, the uptake of NGS technologies has afforded researchers the power to interrogate PCR amplicon libraries never previously possible <ref type="bibr" target="#b8">(Arif et al., 2014)</ref>. In particular, the improvement in sequencing depth and accuracy afforded by NGS makes it the perfect platform for characterizing multicopy marker amplicon diversity. Indeed, we see from the example data set analysed here that the introduction of the concept of using 'defining intragenomic variants' (so-called DIVs in our SymPortal approach)</p><p>for NGS within the SymPortal analysis is (a) effective in resolving between intra-and intergenomic sources of ITS2 sequence variants (more so than any a priori clustering cutoff method or most-abundant sequence method) and (b) does so at a resolution surpassing classical DGGE approaches. For example, DIVs used to differentiate between different ITS2 type profiles may be found at relatively low abundances (~&lt;5%; <ref type="figure">Figure 3</ref>). Such sequences would previously have been below detection limits. As such, taxonomic inferences afforded by these DIVs would not have been achievable <ref type="bibr" target="#b23">(Hume et al., 2015;</ref><ref type="bibr" target="#b52">Smith, Hume et al., 2017a)</ref>.  with the taxa (e.g. C1, A1). However, more recent descriptions contain information relating to additional ITS2 sequence variants that are instrumental in identifying the taxa in question using the ITS2 marker (e.g. <ref type="bibr" target="#b23">Hume et al., 2015;</ref><ref type="bibr" target="#b24">Hume et al., 2016;</ref><ref type="bibr" target="#b37">LaJeunesse et al., 2014)</ref>. Indeed, we see that ITS2 sequences referred to in such descriptions (e.g. For example, many early analyses reported only to the clade (genus) level, which may be compared directly to SymPortal's 'clade' output (see Section 2.3.6 for further details). More recently, samples were often assigned to a 'type,' a somewhat ambiguous term, often related to the most abundant sequence, or sequences, found in a sample. Such findings will be comparable using the 'Majority ITS2 sequence' output of SymPortal. Previously used OTU clustering approaches may also be compared: those approaches that cluster within samples may be approximated to identifying the most abundant sequences of samples (therefore comparable again to the 'Majority ITS2 sequence' output), and those that cluster across samples may be compared by searching for OTU representative sequences amongst ITS2 type profile DIVs. With time, the new Symbiodiniaceae systematics will also be fully integrated into the SymPortal outputs to ensure both forward and reverse comparability of studies analysed through the SymPortal framework.</p><p>While we have demonstrated SymPortal's ability to resolve between closely related Symbiodiniaceae taxa, it is also important to consider whether this level of resolution is biologically pertinent.</p><p>In the analysed data set, we have demonstrated SymPortal's ability to differentiate subtaxa within Cladocopium thermophilum that associate with specific scleractinian coral hosts <ref type="figure">(Figure 3)</ref>. Analyses conducted since the initial description of C. thermophilum have returned a larger diversity of chloroplastic psbA ncr marker sequences from genotypes belonging to this species, than were found in the initial description <ref type="bibr" target="#b24">(Hume et al., 2016)</ref>. This additional diversity has led to the hypothesis that the C. thermophilum taxon probably contains multiple subtaxa that may be species in their own right.</p><p>With the incorporation of ITS2 intragenomic sequence variants into analyses, delineation of specific geographical and host-specific populations has now been made possible <ref type="bibr" target="#b21">(Hume, D'Angelo, Burt et al., 2018;</ref><ref type="bibr" target="#b53">Smith, Ketchum et al., 2017b)</ref>. In particular, the analyses conducted with SymPortal here allow for the identification of these host-specific subtaxa by their specific combinations of DIVs.</p><p>The fidelity of a given algal symbiont to a specific coral host can be viewed as being representative of a complex and complementary suite of physiological mechanisms that result in the specific host-symbiont association <ref type="bibr" target="#b13">(D'Angelo et al., 2015;</ref><ref type="bibr" target="#b14">Davy, Allemand, &amp; Weis, 2012;</ref><ref type="bibr" target="#b40">Ochsenkuhn, Rothig, D'Angelo, Wiedenmann, &amp; Voolstra, 2017;</ref><ref type="bibr" target="#b64">Voolstra et al., 2009)</ref>. As such it would appear that the resolution offered by SymPortal is probably biologically significant. Importantly, it should be noted that Symbiodiniaceae taxa to date have been classified at a coarser resolution than is used here, either with alternative markers (e.g. <ref type="bibr" target="#b43">Picciani, de Lossio e Seiblitz, de Paiva, e Castro, &amp; Zilberberg, 2016;</ref><ref type="bibr" target="#b57">Thomas, Kendrick, Kennington, Richards, &amp; Stat, 2014)</ref> or with alternative means of analysis using the ITS2 marker <ref type="bibr" target="#b19">(Howells, Abrego, Meyer, Kirk, &amp; Burt, 2016;</ref><ref type="bibr" target="#b22">Hume et al., 2013)</ref>. Given the biologically meaningful finer scale resolutions presented through the use of the SymPortal framework, generalizations based on these coarser resolutions should be exercised with care, as exceptions to these generalizations may simply be unresolved, if derived from more traditional classification approaches (e.g. Symbiodiniaceae containing the C3 sequence as their majority sequence are generally considered to be thermally sensitive). Yet, C. thermophilum, the predominant algal symbiont harboured by corals surviving in the world's hottest sea, the Persian/Arabian Gulf, also has a most abundant sequence of C3 <ref type="bibr" target="#b19">(Howells et al., 2016;</ref><ref type="bibr" target="#b22">Hume et al., 2013;</ref><ref type="bibr" target="#b54">Smith, Vaughan et al., 2017c)</ref>. However, only by undertaking further fine-scale analyses and correlating these results with associated metadata will we be able to better assess at what level phylogenetic resolutions correlate with meaningful biological divisions.</p><p>The central analytical principle that the SymPortal and DGGEbased analyses are built on has some inherent limitations. The principle relies on identifying re-occurring sets (found in multiple samples) of ITS2 sequences with the understanding that the more commonly a set of sequences occurs, the more likely that set of sequences is representative of a single taxon <ref type="bibr" target="#b30">(LaJeunesse, 2001</ref><ref type="bibr" target="#b31">(LaJeunesse, , 2002</ref>. However, although rare, it is possible that Symbiodiniaceae taxa co-occur in a sufficient number of samples that the ITS2 sequences returned from several taxa may be documented as being representative of a single taxon. In the analyses that have already been completed, such 'super types' have been a very rare occurrence with only one detected case so far. In this study (unpublished), an ITS2 type profile was generated by SymPortal that was co-dominant for the C15 and C3 sequences. This ITS2 type profile was easily diagnosed as a 'super type' due to its profile being a combination of two ITS2 type profiles also identified in the same study (one C3 radiation ITS2 type profile, and one C15 radiation ITS2 type profile). In cases where these super types have been identified, mitigations to their specific instances have been incorporated into the SymPortal algorithms directly to prevent their propagation and re-occurrence. In the future, however, a median joining network-based approach will probably be used to assess whether co-occurring sets of sequences may represent several taxa. Sequence collections will be assessed to see whether they form contiguous networks characteristic of a single taxon's profile, or whether multiple discrete radiations exist, probably characteristic of multiple taxa. Another limitation occurs when trying to quantify the abundances of closely related symbiont taxa (taxa that share the same most abundant ITS2 sequence) found in the same sample. In such cases, where several taxa in a single sample have some of the same DIVs in common, it is extremely difficult to partition what proportions of each of the DIVs are representative of which taxa (as it would be for any other approach given the nature of the problem).</p><p>Currently, SymPortal uses a conservative approach and does not aim to partition the DIVs, but instead assigns only one of the taxa in question to the sample (the ITS2 type profile containing the greatest abundance of DIVs from the sample). However, given that the majority of coral samples typically harbour one dominant Symbiodiniaceae taxon, especially within a single genus, we anticipate this to be an issue restricted to a small number of cases.</p><p>Free-living or environmental assemblages of Symbiodiniaceae may be structured very differently to those assemblages associated with an animal host. Outside of the host, Symbiodiniaceae populations are free from any host-selective influence and might therefore be more evenly distributed. Therefore, it cannot be assumed that a single Symbiodiniaceae taxon will be prevalent in a sample from the environment, an assumption required for SymPortal to be able to successfully identify ITS2 type profiles of putative taxa <ref type="bibr" target="#b58">(Thornhill et al., 2017</ref>, and references therein). However, as mentioned previously, with continued use, SymPortal will accrue a catalogue of ITS2 type profiles representative of identified putative Symbiodiniaceae taxa. This catalogue of defining ITS2 type profiles may be applied to ITS2 amplicon libraries from environmental samples to predict the presence of Symbiodiniaceae that have already been identified in animal hosts. However, given the breakdown of the aforementioned assumption in these free-living environments, it is unlikely to be straightforward to identify previously unaccounted putative taxa de novo from environmental samples. Notably, many of the free-living taxa may not form stable associations with hosts <ref type="bibr" target="#b58">(Thornhill et al., 2017)</ref>. Besides attempting to use additional markers to attain a finer scale resolution in free-living samples, another option would be to extract, culture, sequence and characterize monoclonal strains found in such samples (sensu <ref type="bibr" target="#b8">Arif et al., 2014)</ref>. While host-associating Symbiodiniaceae can be notoriously difficult to culture, free-living Symbiodiniaceae are often more readily cultured <ref type="bibr" target="#b29">(Krueger &amp; Gates, 2012;</ref><ref type="bibr" target="#b31">LaJeunesse, 2002;</ref><ref type="bibr" target="#b48">Santos, Taylor, &amp; Coffroth, 2001</ref>). Once cultured, monoclonal lines may be sequenced and their ITS2 type profiles directly submitted to the SymPortal database to enable their identification in subsequent analyses.</p><p>Basin-and global-scale coral reef ecosystem sampling efforts (e.g. the Tara Oceans or Tara Pacific expeditions https://oceans.taraexpeditions.org/en/, or the Global Coral Microbiome Project http:// coralmicrobes.org/) are bringing us closer to having a complete catalog of Symbiodiniaceae diversity <ref type="bibr" target="#b15">(Decelle et al., 2018)</ref>. Thanks to the wide use of the ITS2 marker in many previously conducted analyses we can already observe closely related Symbiodiniaceae taxa (having the same most abundant ITS2 sequence in common) harboured in a range of species found across geographical ranges that span ocean basins (e.g. <ref type="bibr" target="#b42">Pettay, Wham, Smith, Iglesias-Prieto, &amp; LaJeunesse, 2015)</ref>. As sampling efforts intensify, and sequencing and informatic power becomes more accessible, we may be able to document and catalogue such a global convergence of Symbiodiniaceae taxa but at an even finer scale, unlocking the biological inferences associated with this increased resolution.</p><p>However, standardization between future sampling initiatives (i.e. use of methodologies that incorporate comparable approaches to resolution and nomenclature) will be critical in achieving this goal.</p><p>To this end, SymPortal enforces standardization through consistent quality control parameters built-in to the analytical framework and encourages integration and data curation through the offered ability to run SymPortal against the centralized SymPortal database via SymPortal.org. SymPortal is also a community-driven platform, in that its power to resolve grows with the addition of more sequence data. By embracing this standardized and user-driven approach, we hope that SymPortal will be widely adopted by the research community as a tool that can generate better results from data that are already being produced. We consider that SymPortal should play an instrumental role in making future sampling efforts comparable and in maximizing their efficacy in working towards the classification of the global Symbiodiniaceae diversity. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ACK N OWLED G EM ENTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CO N FLI C T O F I NTE R E S T</head><p>The authors declare no conflicts of interest.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>tropy decomposition (MED; Eren et al., 2015) and custom functions written in Python to minimize the incorporation of artefactual and non-Symbiodiniaceae sequences, while increasing the informative potential of each library. Post-QC, the sequencing information from each sample is loaded into the SymPortal database, at which point it is available for subsequent analyses (see Section 2.3.5: The SymPortal analytical framework's database below).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>Individual samples may contain taxa from more than one genus in the family Symbiodiniaceae (formerly Clades A-G; LaJeunesse et al.,2018). Between these genera, ITS2 sequences are mostly unalignable. Therefore, as a precursor to all analyses, sequence data are separated by genus/clade before subsequent analysis of ITS2 type profiles. The genus-/clade-separated data are then merged back together before final output with abundances of predicted ITS2 type profiles adjusted relative to the preseparation proportions (Figure 2). Samples may also contain multiple Symbiodiniaceae populations from the same genus, and each can make up a considerable proportion of the host's algal symbiont complement. SymPortal is able to identify multiple ITS2 type profiles of the same genus within a given sample as long as each of the ITS2 type profiles has been found as the sole ITS2 type profile in another sample, such as C3-C3a-C3ab and C15-C15x in Figure 2 (see Section 2.3.6, SymPortal output, for an explanation of ITS2 type profile systematics).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>(</head><label></label><figDesc>formerly Clade C; LaJeunesse et al., 2018) were considered in the comparison (although samples contained some sequences from the genus Symbiodinium, formerly Clade A). Of note, the figures automatically generated during the SymPortal data analysis conducted for this study that contain genus Cladocopium and Symbiodinium information are provided in Figures S2 and S3.The availability of both ITS2 and psbA ncr NGS amplicon data in this data set makes it ideal for testing ITS2-based genetic resolutions. ITS2-resolved genetic delineations can be verified against phylogenies made from the highly variable, but less intragenomically F I G U R E 3 Comparison of the SymPortal analytical framework (top) with operational taxonomic unit (OTU) generation based on 97% similarity cutoff clustering (bottom) from the<ref type="bibr" target="#b53">Smith, Ketchum et al. (2017b)</ref> data set (three coral species with 13-15 samples for each coral species). The comparison demonstrates the ability of both methods to resolve between closely related (i.e. the same most common ITS2 sequence) Symbiodiniaceae taxa. From left to right, plots represent progress in each analysis: (ai, bi) raw sequence data, (aii) post-quality control (QC) and minimum entropy decomposition analyses (MED), (bii) post-QC and 97% similarity clustering, (aiii) determination of ITS2 type profiles through the identification of defining intragenomic sequence variants (DIVs), and (biii) identification and annotation of representative OTUs. In all plots, each stacked bar column represents a single sample with each individual bar representing either the proportion of a single ITS2 sequence relative to the total abundance of sequences in that sample or the relative abundance of ITS2 type profiles identified in each sample (plot aiii only). Notably, SymPortal ITS2 type profiles determine distinct Symbiodiniaceae taxa associated with distinct hosts, whereas a 97% OTU approach suggests the same symbiont is associated with all hosts. Coloured bars denote DIV sequences (see coloured key) as opposed to grey scale bars that represent non-DIV sequences [Colour figure can be viewed at wileyonlinelibrary.com]</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>The informative nature of the intragenomic diversity found within Symbiodiniaceae samples may be put into context by comparing the ITS2 type profile outputs from the SymPortal analysis, the ordination-based ITS2 analytical approaches (the metahaplotype approach of Smith et al. and the UniFrac-based PCoA groupings of the SymPortal output), and the psbA ncr alignment and phylogeny (Figures 4 and 5; File S13 and Figure S4). The only sample to return an ITS2 type profile designation different from other samples of the same host origin was sample A08. The visually different ITS2 sequence profile of this sample (in the ordination and sequence profiles), as well as the conservative C3 ITS2 type profile designation of SymPortal, are in agreement with its disparate psbA ncr sequence (differing from the consensus by three indels across four nucleotides).Within the other two host species, the maximum divergence from the psbA ncr consensus sequence was by two separate single nucleotide indels. Whilst only one of the Cyphastrea samples differed from the consensus, four of the Platygyra samples returned different ps-bA ncr sequences, three of which had the same indel. Although none of these samples were designated as unique ITS2 type profiles, ordination of the ITS2 profiles did suggest some grouping of the samples that returned the same psbA ncr indel (Figure S4</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head></head><label></label><figDesc>Cladocopium thermophilum : C3, C3-gulf; Durusdinium trenchii [formerly Symbiodinium trenchii]: D1, D4) are correspondingly being identified as DIVs in the SymPortal framework. Just as these more recent descriptions have exploited improvements in scientific understanding and sequencing power to offer more finescale resolution, the improved resolution of the SymPortal framework should also be incorporated into taxonomic descriptions where appropriate. Where a unique ITS2 type profile is able to identify a discrete Symbiodiniaceae taxon, incorporating information relating to its characterizing DIVs into its description will increase the ease with which taxa may be identified. Of course, further subdivisions of Symbiodiniaceae taxa proposed by differentiated ITS2 type profiles will need to be corroborated with additional supporting evidence. This may take the form of fine-scale genetic markers such as the chloroplastic psbA ncr and microsatellite flanking sequences, biogeographical data such as specific host-species fidelities or physical distributions, or correlations of genetic divisions to host or symbiont physiological measurements. Aside from considering how taxonomic descriptions may be advanced, it is equally important to consider how the outputted resolutions of SymPortal may be evaluated in relation to previous analyses that used alternative methods of analysis in conjunction with the ITS2 marker. By reporting all levels of resolution from the coarser to the finer scale, namely clade, most abundant sequence, putative species and ITS2 type profile, the SymPortal output enables researchers to work at the most appropriate level for their investigation, while maintaining the ability to compare with previous studies.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head></head><label></label><figDesc>This work was supported by KAUST baseline funding to C.R.V.,Red Sea Research Center funding (FCC/1/1973-22-01) to C.R.V. and B.C.C.H., Natural Environment Research Council Grant NE/ K00641X/1 to J.W., and the European Research Council under the European Union's Seventh Framework Programme Grant FP7/2007-013/ERC Grant Agreement 311179 to J.W. The NYU Abu Dhabi Institute is acknowledged for funding coral sample collections. Alex Mercière is thanked for his help in preparing Figure 1. Finally, three anonymous reviewers are thanked for their considerable contributions in improving the manuscript and the accessibility of the SymPortal framework in general.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Count tables 1 1 DIVs ITS2 type profile ITS2 type profile DIVs DIVs ITS2 type profile FWD_1_fastq.gz REV_1_fastq.gz FWD_2_fastq.gz REV_2_fastq.gz FWD_3_fastq.gz REV_3_fastq.gz Raw Seq Data QC &amp; DB Submission (bi) (bii) ( biii) PCR library preparation N GS amplicon sequencing R aw sequences (ai) Symbiodiniaceae taxon 3 Symbiodiniaceae taxon 2 Symbiodiniaceae taxon 1 (aii) .fasta ITS2 sequences ITS2 type profiles Output documents UniFrac distances PCoA coordinates</head><label></label><figDesc></figDesc><table><row><cell>into the analysis. Therefore, to maximize the confidence with which</cell></row><row><cell>each analysis identifies ITS2 type profiles indicative of putative taxa,</cell></row><row><cell>SymPortal makes use of the sequencing information stored in its</cell></row><row><cell>database from previously run analyses. By having more samples at</cell></row><row><cell>its disposal, from which it may search for re-occurring sets of ITS2</cell></row><row><cell>sequences, SymPortal's power to resolve within Symbiodiniaceae</cell></row><row><cell>increases with use.</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>Determination of ITS2 type profiles in samples containing mixed Symbiodiniaceae communities. In all subplots, each stacked bar represents sequence data or predicted ITS2 type profiles for a single given sample with individual bars of the stack representing relative abundances within the sample. Coloured bars represent specific ITS2 sequences or ITS2 type profiles. Grey scale bars represent unidentified</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="31">SymPortal analytical framework are documented in detail online at</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="31">the GitHub wiki (https://github.com/didillysquat/SymPortal_frame-</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="31">work/wiki). Below, we provide an overview of these processes</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>(b)</cell><cell></cell><cell cols="29">Genus separated raw sequence data</cell></row><row><cell>relative sequence abundance</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Symbiodinium clade A Cladocopium clade C Durusdinium clade D</cell></row><row><cell>Sample_01</cell><cell>Sample_02</cell><cell>Sample_03</cell><cell>Sample_04</cell><cell>Sample_05</cell><cell>Sample_06</cell><cell>Sample_07</cell><cell>Sample_08</cell><cell>Sample_09</cell><cell>Sample_10</cell><cell>Sample_11</cell><cell>Sample_12</cell><cell>Sample_13</cell><cell>Sample_14</cell><cell>Sample_15</cell><cell>Sample_16</cell><cell>Sample_17</cell><cell>Sample_18</cell><cell>Sample_19</cell><cell>Sample_20</cell><cell>Sample_21</cell><cell>Sample_22</cell><cell>Sample_23</cell><cell>Sample_24</cell><cell>Sample_25</cell><cell>Sample_26</cell><cell>Sample_27</cell><cell>Sample_28</cell><cell>Sample_29</cell><cell>Sample_30</cell><cell>Sample_01</cell><cell>Sample_02</cell><cell>Sample_03</cell><cell>Sample_04</cell><cell>Sample_05</cell><cell>Sample_06</cell><cell>Sample_07</cell><cell>Sample_08</cell><cell>Sample_09</cell><cell>Sample_10</cell><cell>Sample_11</cell><cell>Sample_12</cell><cell>Sample_13</cell><cell>Sample_14</cell><cell>Sample_15</cell><cell>Sample_16</cell><cell>Sample_17</cell><cell>Sample_18</cell><cell>Sample_19</cell><cell>Sample_20</cell><cell>Sample_21</cell><cell>Sample_22</cell><cell>Sample_23</cell><cell>Sample_24</cell><cell>Sample_25</cell><cell>Sample_26</cell><cell>Sample_27</cell><cell>Sample_28</cell><cell>Sample_29</cell><cell>Sample_30</cell></row><row><cell cols="60">F I G U R E 2 ITS2 sequences. (a) Samples that contain ITS2 sequence diversity originating from intergenomic and intragenomic variation are submitted to</cell></row><row><cell cols="60">SymPortal. (b) Raw sequences are separated by genus as part of the standard quality control pipeline. (c-e) The remaining analysis is conducted</cell></row><row><cell cols="60">on the genus-separated sequence data, but only genus-separated collections of more than 200 sequences (per sample) are searched for ITS2</cell></row><row><cell cols="60">type profiles to minimize sequencing depth artefacts. Multiple ITS2 type profiles of the same genus (e.g. C15-C15x and C3-C3a-C3ab) may be</cell></row><row><cell cols="60">predicted within individual samples, if each of the ITS2 type profiles are found in isolation in the current or previously analysed data sets. (f)</cell></row><row><cell cols="60">Before output, the genus-separated predicted ITS2 type profiles are merged and abundances are adjusted relative to preseparation proportions.</cell></row><row><cell cols="60">The data used in this figure have been generated for the purpose of illustration and are not based on actual data. The code used to generate the</cell></row><row><cell cols="60">data can be found at https://github.com/didillysquat/sp_ms_figure_creation [Colour figure can be viewed at wileyonlinelibrary.com]</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>relative abundance Outputted ITS2 type profile predictions (e) (f) Predicted ITS2 type profiles Genus merging Post-QC incl. MED; DIVs identified</head><label></label><figDesc></figDesc><table><row><cell>Sample_30</cell><cell>ITS2 type profile</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc>the samples in which the ITS2 set of sequences was found (i.e. whether there are two or more distinctly different abundances of the sequence). If a multimodal distribution is identified, the collection of samples to which the ITS2 set of sequences were associated is split according to the distribution of the sequences between the different modes. Once no further multimodal distributions are identified, the ITS2 sequences of the separated sets of ITS2 sequences are considered DIVs. In this way, it is possible for different ITS2 type profiles to contain exactly the same collection of DIVs but at different abundances. At this point, the relative abundances of the ITS2 type profile's DIVs within all the samples they were found in are then used to characterize the ITS2 type profile. Therefore, when searching for ITS2 type profiles within samples, a match is only considered if all of the characterizing DIVs are found, and these have relative abundances that fall within the abundance ranges determined during characterization of the given ITS2 type profile.</figDesc><table /><note>Each new SymPortal analysis makes use of the sequencing informa- tion associated with not only the new samples, but all previously an- alysed samples as well. During an analysis, each sample's collection of ITS2 sequences is algorithmically searched in a genus-/clade-sepa- rated manner (Figure 2) to identify the largest set of ITS2 sequences that also occur in other samples in the analysis. To minimize the ef- fects of sequencing depth artefacts, these genera-separated collec- tions of sequences will only be searched if they contain more than 200 sequences. When a set of ITS2 sequences is found to re-occur in a sufficient number of samples, each of these sequences is con- sidered to be a DIV and these DIVs are used to characterize an ITS2 type profile (Figures 1 and 2). If for any given sample a re-occurring set of DIVs cannot be found, then an ITS2 type profile will be as- signed to this sample that is defined simply by the sample's most abundant ITS2 sequence. When identifying ITS2 type profiles, the presence as well as the abundance of characterizing DIVs are considered. For each set of supported ITS2 sequences that is found in the algorithmic search, each constituent ITS2 sequence is tested to see whether it has a multimodal distribution across</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head></head><label></label><figDesc>through submission of data to a version of the framework hosted remotely at SymPortal.org, or locally, by running the Python scripts housed on the GitHub repository (https://github.com/didillysquat/ SymPortal_framework). Instructions for submitting data to the remote instance of the framework are detailed at the GitHub wiki and at SymPortal.org. Additionally, policies regarding data ownership and</figDesc><table /><note>accessibility when submitting to the remote instance of SymPortal are also hosted on SymPortal's GitHub wiki. Analyses run remotely through SymPortal.org will have access to the latest version of the SymPortal database. This remotely hosted PostgreSQL database con- tains sequencing information from all samples previously analysed that were submitted via SymPortal.org. Analyses run via SymPortal.org will therefore have access to the greatest possible resolving power and enable comparability to other data sets previously submitted to SymPortal.org. If running the SymPortal framework locally, it will be necessary for the user to populate the local database with which the local SymPortal analysis will integrate. As such, when running analyses locally, the ability to resolve ITS2 type profiles will be contingent on the extent of sequencing information housed in the local database. Further documentation may be found at the SymPortal GitHub repository.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table name Table description</head><label>namedescription</label><figDesc>DataSetEquivalent to a set of samples loaded into, and analysed on, the SymPortal framework. Contains fields to store basic information such as: the submitting user, the working directory, or the data set's unique nameDataSetSampleEquivalent to a single sample from a specific data set. Has a foreign key relation to the DataSet table. Contains fields that store quality control statistics, as well as basic sample information, for example name of samples, number of reads after making contiguous sequences, or number of nodes after minimum entropy decomposition</figDesc><table><row><cell>CladeCollection</cell><cell>An abstract object that is a collection of all</cell></row><row><cell></cell><cell>DataSetSampleSequence instances for a specific</cell></row><row><cell></cell><cell>DataSetSample that are all of the same clade and have a total</cell></row><row><cell></cell><cell>abundance &gt; 200. Has a foreign key relationship to</cell></row><row><cell></cell><cell>DataSetSample. Contains fields that store basic information on</cell></row><row><cell></cell><cell>the DataSetSampleSequence instances in the collection and of</cell></row><row><cell></cell><cell>the clade a</cell></row><row><cell>DataSetSampleSequence</cell><cell>Equivalent to a single unique post-QC sequencing read returned</cell></row><row><cell></cell><cell>from a given data set sample. Contains a field for abundance.</cell></row><row><cell></cell><cell>Has foreign key relationships to ReferenceSequence,</cell></row><row><cell></cell><cell>CladeCollection and DataSetSample</cell></row><row><cell>ReferenceSequence</cell><cell>Equivalent to a single unique post-QC sequencing read,</cell></row><row><cell></cell><cell>independent of any one sample. Contains fields for name,</cell></row><row><cell></cell><cell>sequence, clade and accession number</cell></row><row><cell>a</cell><cell></cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>Table name Table description</head><label>namedescription</label><figDesc>DataAnalysisEquivalent to a single SymPortal analysis. Contains fields to store high-level information about the analysis, such as DataSet objects included in the analysis, name, description and parameters used within the analysis AnalysisType Equivalent to an ITS2 type profile. Contains fields relating to ITS2 type profile features, for example the ReferenceSequence objects that characterize the AnalysisType (DIVs) listed in order of abundance, the ReferenceSequence objects that are found as the most abundant sequences in each of the samples in which the AnalysisType is found, a list of the CladeCollection objects in which the AnalysisType is found, or the maximum and minimum relative abundances of the DIVs that characterize the AnalysisType. Has a foreign key relationship to DataAnalysisCladeCollectionTypeAn abstract table used to link the database tables associated with data analyses to the database tables associated with data set loading. Has foreign key relationships to CladeCollection and AnalysisType a aThe clade system of taxonomic division within the former genus Symbiodinium has now been superseded by new family-and genera-level descriptions<ref type="bibr" target="#b33">(LaJeunesse et al., 2018)</ref>. In the interest of maintaining reverse comparability to previous studies, SymPortal will continue to relate its outputs to the clade divisions. In time SymPortal will also be updated to include the new Symbiodiniaceae organization.Irrespective of whether analyses are run locally or remotely via SymPortal.org, the sequencing information of every data set analysed by SymPortal is stored in the associated database. This sequencing information is stored when a data set is loaded into a SymPortal database instance(Table 1) and when analyses are run(Table 2). Remotely run analyses will use the remote SymPortal database, while local analyses will use a locally defined database. All database instances are integrated into the Python-scripted analysis through the Django API (https://www.djangoproject.com/). In this way, the sequencing information from all previously analysed samples is accessible for use in future analyses.In addition to storing detailed sequencing information for each submitted data set, the database also stores details of all completed analyses(Table 2). Analysis details, such as which ITS2 type profiles were found and which DIVs characterize those profiles, are associated with the respective sequencing information, e.g. which samples the ITS2 type profiles were found in, and which of the samples'sequences were identified as DIVs. The remotely hosted SymPortal database therefore represents a powerful analytical and reference resource, effectively accruing a catalogue of global Symbiodiniaceae diversity as the number of samples analysed grows. With every new data set submitted to the SymPortal framework's database, the amount of sequencing information available for use in the SymPortal analysis will increase. Effectively, each sequential analysis will have access to a more resource-rich version of the database.In this way, subtle differences between the identities of the ITS2 type profiles discovered in consecutive analyses may occur as SymPortal's power to resolve improves. As such, when comparing outputs from two different SymPortal analyses, it will be helpful to consider which data sets from the SymPortal database were included in the given analyses. For this reason, every analysis count table output will provide the unique database identifier (UID) of the analysis it is related to. From this information, a list of the data sets that were incorporated into the analysis may be generated. However, changes that occur between analyses run against sequential database versions are likely to be small. Samples from different analyses that contain similarITS2 sequence diversities will still have comparable ITS2 type profile designations. At the time of writing, the latest analysis (DataAnalysis UID 44) contained 7,173 samples, representing the sampling efforts of 35 studies (35 DataSet objects). Within these samples, 771 different ITS2 type profiles were identified, representing 10,539 unique ITS2 type profile/sample associations. Importantly, 50% of these unique associations are represented by the 92 most abundant ITS2type profiles (Figure S1). A summary of the database tables held in the</figDesc><table><row><cell>2.3.5 | The SymPortal analytical</cell></row><row><cell>framework's database</cell></row><row><cell>TA B L E 2 Database tables populated</cell></row><row><cell>during a SymPortal analysis</cell></row></table><note>SymPortal framework's database is given in Tables 1 and 2.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head></head><label></label><figDesc>ITS2type profile abundances identified in the output's samples (each reported in absolute and relative abundances) and a .fasta file containing nucleotide sequence information for every ITS2 sequence reported in the count table. In addition, a set of genus-separated Bray-Curtis-or UniFrac-based distance matrices for betweensample and between-ITS2 type profile comparisons, and principal coordinate analysis (PCoA) coordinates for each of these distance matrices, are output. To give an overview of data submissions and data analyses, plots of sequences and ITS2 type profile abundances across samples as well as graphical representations of the PCoA results are additionally generated for the user (seeFigures S2and S3 as an example).For both count tables (i.e. sequences and IT2 type profiles), the format resembles the OTU count tables commonly used in 16S analyses. Therefore, the format of these tables is ideally suited to be used as direct input to commonly implemented statistical analyses for sequencing diversity and abundance data. The SymPortal out-For a species to be associated with an ITS2 type profile, the ITS2 sequence(s) characteristic of the species, as detailed in its description, must all be found in the list of DIVs that define the ITS2 type profile in question. New species information will be added to the SymPortal database, and therefore associated with outputs, as new descriptions are made. Importantly, this is not a list of species that the ITS2 type profile definitely represents, and it remains the responsibility of the researcher to carefully consider the species descriptions to assess whether the queried sample may be the species in question.Depending on the description, this may require the use of further genetic, morphological, or physiological evidence. This comajority abundance is denoted by the '/' in the ITS2 type profile name.Distance matrices of pairwise comparisons are output fromSymPortal to aid in the quantification of similarity or relatedness between study samples (Files S8 and S10) and ITS2 type profiles (File S6), respectively. Given the inability to align some ITS2 sequences from different genera within the Symbiodiniaceae, pairwise differences are calculated for genus-separated groupings of ITS2 sequences. Distance matrices are calculated based on either a</figDesc><table><row><cell>Weighted UniFrac distance matrices are calculated in mothur</cell></row><row><cell>1.39.5 (Schloss et al., 2009). A bootstrapped neighbour-joining (NJ)</cell></row><row><cell>tree is used as input to the unifrac.weighted command and gen-</cell></row><row><cell>erated using a combination of: mafft (Katoh &amp; Standley, 2013) to</cell></row><row><cell>create a multiple sequence alignment, seqboot from phylip (http://</cell></row><row><cell>evolution.genetics.washington.edu/phylip/) to generate multiple</cell></row><row><cell>alignments by resampling, mothur's implementation of clearcut</cell></row></table><note>The SymPortal output consists of five core output files. Two tab- delimited count tables each report on post-QC sequences,puts for the data analysed in this study is provided as Files S1-S11. The sequence output table lists the sequences found in order of their abundances across all the samples included in the output (Files S1 and S2). For each sequence, its abundance in each of the samples is reported. A GenBank accession number (if available) or alterna- tively a UID is also provided for each ITS2 sequence that allows it to be identified in the SymPortal database. In this way, a single defini- tive source for the ITS2 sequence is always available. The nucleotide sequence for each of the ITS2 sequences reported in the count table is available in a .fasta file (File S3). Finally, for each sample, the num- ber of sequences retained at each step of QC is reported. The ITS2 type profile abundances are output in decreasing order of the number of samples they were found in for the current analysis output (Files S4 and S5). For each ITS2 type profile, several features are reported as summarized in Table 3. To aid in relating the determined ITS2 type profiles to species descriptions, a list of associated Symbiodiniaceae species is re- ported for each ITS2 type profile where applicable (Table 3). The purpose of this list is to aid the researcher in identifying potential Symbiodiniaceae species that the ITS2 type profile could represent.The naming scheme of the ITS2 type profiles is informative. It denotes which underlying DIVs the ITS2 type profiles are composed of in decreasing order of abundance. Hence, the ITS2 type pro- file 'C3-C3gulf-C3c-C3aq' contains DIVs that are ITS2 sequences denoted as C3, C3gulf, C3c and C3aq. This nomenclature also provides information on which of the DIVs were the most abundant in each of the samples in which the ITS2 type profile was found. In the case of 'C3-C3gulf-C3c-C3aq,' the C3 sequence was the most abundant sequence in all of the samples in which this ITS2 type pro- file was found, as this DIV is listed first in the name. Interestingly, a Symbiodiniaceae taxon represented by an ITS2 type profile is some- times characterized by more than one most abundant sequence. For example, in the type 'C3/C3c-C3gulf' some of the samples in which this ITS2 type profile was found contained the C3 sequence as the most abundant DIV, but in others the C3c sequence was most abun- dant.Bray-Curtis method (sensu Smith, Vaughan, Ketchum, McParland, &amp; Burt, 2017c) or using the weighted UniFrac method (Lozupone, Lladser, Knights, Stombaugh, &amp; Knight, 2011). UniFrac is often used to compare bacterial communities by assessing similarity between sets of 16S rDNA sequences representative of bacterial taxa (Lozupone et al., 2011). As such, it is well suited to comparing similarities between sets of ITS2 sequences where closely related ITS2 type profiles (those sharing a most abundant ITS2 sequence) are likely to be more closely related, the more similar their ITS2 se- quence complements are. To compare similarity between two sets of sequences, UniFrac calculates the proportion of sequences from each set that share a branch on a precomputed phylogenetic tree containing all sequences from both sequence sets. Such a phylo- genetic tree is therefore required for the analysis and computed as detailed in the following.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9"><head></head><label></label><figDesc>. It consisted of Symbiodiniaceae ITS2 and psbA ncr NGS am-</figDesc><table><row><cell>plicon data from 13, 15 and 14 coral samples from each of three</cell></row><row><cell>coral species: Acropora downingi, Cyphastrea microphthalma and</cell></row><row><cell>Platygyra daedalea, respectively. All samples, from each of the coral</cell></row><row><cell>species, were found to contain Symbiodiniaceae taxa of the species</cell></row><row><cell>Cladocopium thermophilum (Hume et al., 2015; LaJeunesse et al.,</cell></row><row><cell>2018) by Smith, Ketchum et al. (2017b). Briefly, corals were collected</cell></row></table><note>from Saadiyat reef (24°35′56.4″N, 54°25′17.4″E) in the southern Persian/Arabian Gulf in February 2016. DNA was extracted through: sample lysis in an sodium dodecylsulphate-based lysis buffer, binding of DNA on carboxylated modified SeraMag beads (GE Healthcare Life Sciences), washing in 80% ethanol and subsequent dissolution in molecular-grade water. Amplicon libraries were generated using Symbiodiniaceae-specific primer pairs for ITS2, SYM_VAR_5.8S2 and SYM_VAR_REV</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10"><head></head><label></label><figDesc>The unique.seqs command was used to create a nonredundant collection of sequences represented by a .name and a .fasta file. The remainder of the QC was performed using both the .name and the .fasta files produced. Next, split.abund was run (cutoff = 2) to discard sequences that were not found at an abundance &gt; 2 in each sequenced sample -again, to reduce incorporating sequences with sequencing errors. The pcr.seqs command (pdiffs = 2, rdiffs = 2) was used to trim the primer sequence regions from the returned sequences. In addition, this command was used to discard sequences in which the specific primer pairs could not be found -indicative of poor sequencing quality -allowing a deviation of ≤2-nucleotide differences in either of the forward or the reverse primer sequences. Sequences were again made nonredundant using the unique.seqs command, then sequences &lt;184 bp and &gt;310 bp in length were removed using the screen.seqs minlength and maxlength parameters. Sequences were again made nonredundant.To perform clustering on pooled sequences across all samples, for each of the .fasta and .name file pairs created above (one pair per sample), a single redundant .fasta file was created using the deunique.seqs command. Each of these deuniqued .fasta files was then combined to create a single redundant .fasta file containing all post-QC sequences from the sequencing effort. A single master nonredundant .fasta and .name file set was then created using the unique.seqs command. This .fasta file was then aligned using mafft<ref type="bibr" target="#b27">(Katoh &amp; Standley, 2013)</ref> with the --auto flag active. A phylip style distance matrix was created using mothur's dist.seqs command with countends = F and output = lt. The sequences were then clustered at a 3% dissimilarity cutoff using the average-neighbour algorithm, the phylip distance matrix and the .name file using the cluster com-</figDesc><table><row><cell>mand (method = average, cutoff = 0.03) to produce OTUs. Finally,</cell></row><row><cell>the get.oturep command was used to return the most abundant</cell></row><row><cell>sequence as a representative sequence for each OTU generated</cell></row><row><cell>by the clustering.</cell></row><row><cell>To perform clustering on sequences within samples: The same</cell></row><row><cell>process as above was used to align, cluster and generate representa-</cell></row><row><cell>tive OTU sequences, only working on a sample-by-sample basis with</cell></row><row><cell>the respective pairs of nonredundant .fasta and .name files.</cell></row></table><note>). A customblast database was used that contained a single representative se- quence for each of the nine clades of the former genus Symbiodinium (Clades A-I; LaJeunesse et al., 2018; File S12). Any sequences not returning the Clade C entry as the closest match were disregarded from the analyses (see above).</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_12"><head></head><label></label><figDesc>). A greater number of samples would be required to elucidate the robustness of this resolution, but it would appear that divergence in the psbA ncr (even as small as a single indel) may also be reflected in the ITS2 marker. Given the hypervariable character of the psbA ncr region in general, and the fact that even closely related taxa may have considerable differences between their most abundant psbA ncr sequence (as evidenced by the between-host species differences seen here), it would appear that exploiting intragenomic ITS2 diversity in phylogenetic resolutions within Symbiodiniaceae enables a resolution comparable to that of psbA ncr (at least when considering the short read sequencing-derived psbA ncr amplicons of the Smith et al. data). Furthermore, because any two ITS2 sequences from the same Symbiodiniaceae clade (A-I) may be aligned, the taxonomic breadth over which comparisons may be made with ITS2 greatly exceeds that of psbA ncr (psbA ncr sequences from the C3 radiation and the C1 radiation are largely unalignable).</figDesc><table><row><cell>C. microphthalma</cell><cell>85</cell><cell>P. daedalea</cell></row><row><cell>0.002</cell><cell>99</cell><cell>A. downingi</cell></row><row><cell cols="3">F I G U R E 5 Unrooted maximum likelihood phylogeny based on</cell></row><row><cell cols="3">the psbA ncr sequences from all the samples associated with the</cell></row><row><cell cols="3">Smith, Ketchum et al. (2017b) study. Samples resolved in three</cell></row><row><cell cols="3">positions on the tree according to host species, as annotated.</cell></row><row><cell cols="3">Bootstrap support values &lt; 100 (100 replicates) are annotated</cell></row><row><cell></cell><cell></cell><cell>As our ability to resolve Symbiodiniaceae improves, taxonomic</cell></row><row><cell></cell><cell></cell><cell>descriptions may need to be revisited and updated. The majority of</cell></row><row><cell></cell><cell></cell><cell>Symbiodiniaceae taxa descriptions to date include information re-</cell></row><row><cell></cell><cell></cell><cell>lated to ITS2 sequence characterization (for example, but not lim-</cell></row><row><cell></cell><cell></cell><cell>ited to, Hume et al., 2015; Jeong et al., 2014; LaJeunesse, 2017;</cell></row><row><cell></cell><cell></cell><cell>Lajeunesse, Parkinson, &amp; Reimer, 2012). In many cases, this infor-</cell></row><row><cell></cell><cell></cell><cell>mation relates only to the most common ITS2 sequence associated</cell></row></table><note></note></figure>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AUTH O R CO NTR I B UTI O N S</head><p>The SymPortal framework was conceived by B.C.C.H., C.R.V., J.W., E.G.S. and M.Z. The framework was built by B.C.C.H. with significant input from: C.R.V. and J.W. for funding and provision of computational resources; C.R.V., E.G.S., M.Z. and T.L.J. for developing analysis</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">for providing example data sets</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">G S</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">E.G.S. and J.B. for providing example data sets;</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">for sourcing additional data to aid in development of the framework prior to public release. B.C.C.H. conducted data analyses and created the figures with significant input from C</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">J M W</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">R V ; R V</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">Z</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">G S B C C H</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">R V</forename><surname>Vaughan</surname></persName>
+		</author>
+		<idno type="DOI">10.5061/dryad.h6s54</idno>
+		<ptr target="https://github" />
+		<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note>wrote the manuscript; all authors commented and approved the final manuscript. DATA ACCE SS I B I LIT Y Data from the original Smith. study are deposited in the Dryad Digital Repository. The largely programmatic process used to make figures 2-5 is documented here</note>
+	<note type="raw_reference">H.J.M.W. for informatic support; and C.R.V. for sourcing additional data to aid in development of the framework prior to public release. B.C.C.H. con- ducted data analyses and created the figures with significant input from C.R.V., M.Z. and E.G.S. B.C.C.H. and C.R.V. wrote the manu- script; all authors commented and approved the final manuscript. DATA ACCE SS I B I LIT Y Data from the original Smith, Vaughan et al. (2017c) study are de- posited in the Dryad Digital Repository (http://dx.doi.org/10wiki hosted on GitHub: https://github.com/didillys- quat/SymPortal_framework/wiki. The largely programmatic pro- cess used to make figures 2-5 is documented here: https://github.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">C</forename><surname>Benjamin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Hume</surname></persName>
+		</author>
+		<ptr target="https://orcid.org/0000-0001-7753-3903" />
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Benjamin C. C. Hume https://orcid.org/0000-0001-7753-3903</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Maren</forename><surname>Ziegler</surname></persName>
+		</author>
+		<ptr target="https://orcid.org/0000-0003-2237-9261" />
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Maren Ziegler https://orcid.org/0000-0003-2237-9261</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">A</forename><surname>Burt</surname></persName>
+		</author>
+		<ptr target="https://orcid.org/0000-0001-6087-6424" />
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">John A. Burt https://orcid.org/0000-0001-6087-6424</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Christian</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Voolstra</surname></persName>
+		</author>
+		<ptr target="https://orcid.org/0000-0003-4555-3795" />
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Christian R. Voolstra https://orcid.org/0000-0003-4555-3795</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R E</forename><surname>Fe R E N C E S</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">R E FE R E N C E S</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Recognizing diversity in coral symbiotic dinoflagellate communities</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Apprill</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">D</forename><surname>Gates</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-294X.2006.03214.x</idno>
+		<ptr target="https://doi.org/10.1111/j.1365-294X.2006.03214.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="1127" to="1134" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Apprill, A. M., &amp; Gates, R. D. (2007). Recognizing diversity in coral sym- biotic dinoflagellate communities. Molecular Ecology, 16, 1127-1134. https://doi.org/10.1111/j.1365-294X.2006.03214.x</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Assessing Symbiodinium diversity in scleractinian corals via next-generation sequencing-based genotyping of the ITS2 rDNA region</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Arif</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Daniels</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Bayer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Banguera-Hinestroza</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Barbrook</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">J</forename><surname>Howe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">R</forename><surname>Voolstra</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/mec.12869</idno>
+		<ptr target="https://doi.org/10.1111/mec.12869" />
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="4418" to="4433" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arif, C., Daniels, C., Bayer, T., Banguera-Hinestroza, E., Barbrook, A., Howe, C. J., … Voolstra, C. R. (2014). Assessing Symbiodinium diver- sity in scleractinian corals via next-generation sequencing-based genotyping of the ITS2 rDNA region. Molecular Ecology, 23, 4418- 4433. https://doi.org/10.1111/mec.12869</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">New insights into the dynamics between reef corals and their associated dinoflagellate endosymbionts from population genetic studies</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><forename type="middle">B</forename><surname>Baums</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">K</forename><surname>Devlin-Durante</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C</forename><surname>Lajeunesse</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/mec.12788</idno>
+		<ptr target="https://doi.org/10.1111/mec.12788" />
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="4203" to="4215" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baums, I. B., Devlin-Durante, M. K., &amp; Lajeunesse, T. C. (2014). New in- sights into the dynamics between reef corals and their associated dino- flagellate endosymbionts from population genetic studies. Molecular Ecology, 23, 4203-4215. https://doi.org/10.1111/mec.12788</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">BLAST+: Architecture and applications</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Camacho</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Coulouris</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Avagyan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Papadopoulos</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Bealer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">L</forename><surname>Madden</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1471-2105-10-421</idno>
+		<ptr target="https://doi.org/10.1186/1471-2105-10-421" />
+	</analytic>
+	<monogr>
+		<title level="j">BMC Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">421</biblScope>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Camacho, C., Coulouris, G., Avagyan, V., Ma, N., Papadopoulos, J., Bealer, K., &amp; Madden, T. L. (2009). BLAST+: Architecture and applications. BMC Bioinformatics, 10, 421. https://doi.org/10.1186/1471-2105-10-421</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Molecular delineation of species and syngens in volvocacean green-algae (Chlorophyta)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">W</forename><surname>Coleman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Suarez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">J</forename><surname>Goff</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.0022-3646.1994.00080.x</idno>
+		<ptr target="https://doi.org/10.1111/j.0022-3646.1994.00080.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Phycology</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="80" to="90" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Coleman, A. W., Suarez, A., &amp; Goff, L. J. (1994). Molecular delin- eation of species and syngens in volvocacean green-algae (Chlorophyta). Journal of Phycology, 30, 80-90. https://doi. org/10.1111/j.0022-3646.1994.00080.x</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Using high-throughput sequencing of ITS2 to describe Symbiodinium metacommunities in St</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Cunning</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">D</forename><surname>Gates</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">J</forename><surname>Edmunds</surname></persName>
+		</author>
+		<idno type="DOI">10.7717/peerj.3472</idno>
+		<ptr target="https://doi.org/10.7717/peerj.3472" />
+	</analytic>
+	<monogr>
+		<title level="j">John, US Virgin Islands. Peerj</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cunning, R., Gates, R. D., &amp; Edmunds, P. J. (2017). Using high-throughput sequencing of ITS2 to describe Symbiodinium metacommunities in St. John, US Virgin Islands. Peerj, 5, e3472. https://doi.org/10.7717/ peerj.3472</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Local adaptation constrains the distribution potential of heat-tolerant Symbiodinium from the Persian/Arabian Gulf</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>D'angelo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">C C</forename><surname>Hume</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Burt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">G</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">P</forename><surname>Achterberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Wiedenmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ismej.2015.80</idno>
+		<ptr target="https://doi.org/10.1038/ismej.2015.80" />
+	</analytic>
+	<monogr>
+		<title level="j">The ISME Journal</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="2551" to="2560" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D&apos;Angelo, C., Hume, B. C. C., Burt, J., Smith, E. G., Achterberg, E. P., &amp; Wiedenmann, J. (2015). Local adaptation constrains the distribution potential of heat-tolerant Symbiodinium from the Persian/Arabian Gulf. The ISME Journal, 9, 2551-2560. https://doi.org/10.1038/ ismej.2015.80</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Cell biology of cnidariandinoflagellate symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Davy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Allemand</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">M</forename><surname>Weis</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/MMBR.05014-11</idno>
+		<ptr target="https://doi.org/10.1128/MMBR.05014-11" />
+	</analytic>
+	<monogr>
+		<title level="j">Microbiology and Molecular Biology Reviews</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="229" to="261" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Davy, S. K., Allemand, D., &amp; Weis, V. M. (2012). Cell biology of cnidarian- dinoflagellate symbiosis. Microbiology and Molecular Biology Reviews, 76, 229-261. https://doi.org/10.1128/MMBR.05014-11</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Worldwide occurrence and activity of the reef-building coral symbiont symbiodinium in the open Ocean</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Decelle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Q</forename><surname>Carradec</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Pochon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Henry</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Romac</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Mahé</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Vargas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Current Biology</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">22</biblScope>
+			<biblScope unit="page" from="3625" to="3633" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note>e3</note>
+	<note type="raw_reference">Decelle, J., Carradec, Q., Pochon, X., Henry, N., Romac, S., Mahé, F., … de Vargas, C. (2018). Worldwide occurrence and activity of the reef-building coral symbiont symbiodinium in the open Ocean. Current Biology, 28(22), 3625-3633.e3.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Minimum entropy decomposition: Unsupervised oligotyping for sensitive partitioning of high-throughput marker gene sequences</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Eren</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">G</forename><surname>Morrison</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">J</forename><surname>Lescault</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Reveillaud</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">H</forename><surname>Vineis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">L</forename><surname>Sogin</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ismej.2014.195</idno>
+		<ptr target="https://doi.org/10.1038/ismej.2014.195" />
+	</analytic>
+	<monogr>
+		<title level="j">The ISME Journal</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Eren, A. M., Morrison, H. G., Lescault, P. J., Reveillaud, J., Vineis, J. H., &amp; Sogin, M. L. (2015). Minimum entropy decomposition: Unsupervised oligotyping for sensitive partitioning of high-throughput marker gene sequences. The ISME Journal, 9, 968. https://doi.org/10.1038/ ismej.2014.195</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Cell cycle dynamics of cultured coral endosymbiotic microalgae (Symbiodinium) across different types (species) under alternate light and temperature conditions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Fujise</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">R</forename><surname>Nitschke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Frommlet</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Serôdio</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Woodcock</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">J</forename><surname>Ralph</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Suggett</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/jeu.12497</idno>
+		<ptr target="https://doi.org/10.1111/jeu.12497" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Eukaryotic Microbiology</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="505" to="517" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fujise, L., Nitschke, M. R., Frommlet, J. C., Serôdio, J., Woodcock, S., Ralph, P. J., &amp; Suggett, D. J. (2018). Cell cycle dynamics of cul- tured coral endosymbiotic microalgae (Symbiodinium) across dif- ferent types (species) under alternate light and temperature con- ditions. Journal of Eukaryotic Microbiology, 65, 505-517. https://doi. org/10.1111/jeu.12497</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Stability of an octocoral-algal symbiosis over time and space</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">L</forename><surname>Goulet</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Coffroth</surname></persName>
+		</author>
+		<idno type="DOI">10.3354/meps250117</idno>
+		<ptr target="https://doi.org/10.3354/meps250117" />
+	</analytic>
+	<monogr>
+		<title level="j">Marine Ecology Progress Series</title>
+		<imprint>
+			<biblScope unit="volume">250</biblScope>
+			<biblScope unit="page" from="117" to="124" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Goulet, T. L., &amp; Coffroth, M. A. (2003). Stability of an octocoral-algal symbiosis over time and space. Marine Ecology Progress Series, 250, 117-124. https://doi.org/10.3354/meps250117</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Host adaptation and unexpected symbiont partners enable reef-building corals to tolerate extreme temperatures</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">J</forename><surname>Howells</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Abrego</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">L</forename><surname>Kirk</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Burt</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/gcb.13250</idno>
+		<ptr target="https://doi.org/10.1111/gcb.13250" />
+	</analytic>
+	<monogr>
+		<title level="j">Global Change Biology</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="2702" to="2714" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Howells, E. J., Abrego, D., Meyer, E., Kirk, N. L., &amp; Burt, J. A. (2016). Host adaptation and unexpected symbiont partners enable reef-building corals to tolerate extreme temperatures. Global Change Biology, 22, 2702-2714. https://doi.org/10.1111/gcb.13250</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Spatial and temporal patterns of mass bleaching of corals in the Anthropocene</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">P</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">D</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Connolly</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">F</forename><surname>Heron</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">T</forename><surname>Kerry</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Lough</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Wilson</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aan8048</idno>
+		<ptr target="https://doi.org/10.1126/science.aan8048" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">359</biblScope>
+			<biblScope unit="page" from="80" to="83" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hughes, T. P., Anderson, K. D., Connolly, S. R., Heron, S. F., Kerry, J. T., Lough, J. M., … Wilson, S. K. (2018). Spatial and temporal patterns of mass bleaching of corals in the Anthropocene. Science, 359, 80-83. https://doi.org/10.1126/science.aan8048</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Finescale biogeographical boundary delineation and sub-population resolution in the Symbiodinium thermophilum coral symbiont group from the Persian/Arabian Gulf and Gulf of Oman</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">C C</forename><surname>Hume</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Angelo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Burt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Wiedenmann</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fmars.2018.00138</idno>
+		<ptr target="https://doi.org/10.3389/fmars.2018.00138" />
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Marine Science</title>
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hume, B. C. C., D&apos;Angelo, C., Burt, J. A., &amp; Wiedenmann, J. (2018) Fine- scale biogeographical boundary delineation and sub-population resolution in the Symbiodinium thermophilum coral symbiont group from the Persian/Arabian Gulf and Gulf of Oman. Frontiers in Marine Science, 5. https://doi.org/10.3389/fmars.2018.00138</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Corals from the Persian/Arabian Gulf as models for thermotolerant reef-builders: Prevalence of clade C3 Symbiodinium, host fluorescence and ex situ temperature tolerance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Hume</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>D'angelo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Burt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Riegl</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Wiedenmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.marpolbul.2012.11.032</idno>
+		<ptr target="https://doi.org/10.1016/j.marpolbul.2012.11.032" />
+	</analytic>
+	<monogr>
+		<title level="j">Marine Pollution Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="313" to="322" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hume, B., D&apos;Angelo, C., Burt, J., Baker, A. C., Riegl, B., &amp; Wiedenmann, J. (2013). Corals from the Persian/Arabian Gulf as models for thermo- tolerant reef-builders: Prevalence of clade C3 Symbiodinium, host flu- orescence and ex situ temperature tolerance. Marine Pollution Bulletin, 72, 313-322. https://doi.org/10.1016/j.marpolbul.2012.11.032</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Symbiodinium thermophilum sp nov., a thermotolerant symbiotic alga prevalent in corals of the world&apos;s hottest sea, the Persian/Arabian</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">C C</forename><surname>Hume</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Angelo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">G</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Stevens</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Burt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Wiedenmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/srep08562</idno>
+		<ptr target="https://doi.org/10.1038/srep08562" />
+	</analytic>
+	<monogr>
+		<title level="j">Gulf. Scientific Reports</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hume, B. C. C., D&apos;Angelo, C., Smith, E. g., Stevens, J. r., Burt, J., &amp; Wiedenmann, J. (2015). Symbiodinium thermophilum sp nov., a ther- motolerant symbiotic alga prevalent in corals of the world&apos;s hottest sea, the Persian/Arabian. Gulf. Scientific Reports, 5, 8562. https://doi. org/10.1038/srep08562</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Ancestral genetic diversity associated with the rapid spread of stress-tolerant coral symbionts in response to Holocene climate change</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">C C</forename><surname>Hume</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">R</forename><surname>Voolstra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Arif</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>D'angelo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Burt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Eyal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Wiedenmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1601910113</idno>
+		<ptr target="https://doi.org/10.1073/pnas.1601910113" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the National Academy of Sciences of the United States of America</title>
+		<meeting>the National Academy of Sciences of the United States of America</meeting>
+		<imprint>
+			<date type="published" when="2016" />
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="4416" to="4421" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hume, B. C. C., Voolstra, C. R., Arif, C., D&apos;Angelo, C., Burt, J. A., Eyal, G., … Wiedenmann, J. (2016). Ancestral genetic diversity associated with the rapid spread of stress-tolerant coral symbionts in response to Holocene climate change. Proceedings of the National Academy of Sciences of the United States of America, 113, 4416-4421. https://doi. org/10.1073/pnas.1601910113</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">An improved primer set and amplification protocol with increased specificity and sensitivity targeting the Symbiodinium ITS2 region. Peerj, 6, e4816</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">C C</forename><surname>Hume</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Ziegler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Poulain</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Pochon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Romac</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Boissin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">R</forename><surname>Voolstra</surname></persName>
+		</author>
+		<idno type="DOI">10.7717/peerj.4816</idno>
+		<ptr target="https://doi.org/10.7717/peerj.4816" />
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hume, B. C. C., Ziegler, M., Poulain, J., Pochon, X., Romac, S., Boissin, E., … Voolstra, C. R. (2018). An improved primer set and amplifica- tion protocol with increased specificity and sensitivity targeting the Symbiodinium ITS2 region. Peerj, 6, e4816. https://doi.org/10.7717/ peerj.4816</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Genetics and morphology characterize the dinoflagellate Symbiodinium voratum, n. sp., (Dinophyceae) as the sole representative of Symbiodinium Clade E</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">J</forename><surname>Jeong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">Y</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">S</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">D</forename><surname>Yoo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">S</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C</forename><surname>Lajeunesse</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/jeu.12088</idno>
+		<ptr target="https://doi.org/10.1111/jeu.12088" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Eukaryotic Microbiology</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="75" to="94" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jeong, H. J., Lee, S. Y., Kang, N. S., Yoo, Y. D., Lim, A. S., Lee, M. J., … LaJeunesse, T. C. (2014). Genetics and morphology characterize the dinoflagellate Symbiodinium voratum, n. sp., (Dinophyceae) as the sole representative of Symbiodinium Clade E. Journal of Eukaryotic Microbiology, 61, 75-94. https://doi.org/10.1111/jeu.12088</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">MAFFT multiple sequence alignment software version 7: Improvements in performance and usability</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Katoh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">M</forename><surname>Standley</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/molbev/mst010</idno>
+		<ptr target="https://doi.org/10.1093/molbev/mst010" />
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Biology and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="772" to="780" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Katoh, K., &amp; Standley, D. M. (2013). MAFFT multiple sequence align- ment software version 7: Improvements in performance and us- ability. Molecular Biology and Evolution, 30, 772-780. https://doi. org/10.1093/molbev/mst010</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Community dynamics and physiology of Symbiodinium spp. before, during, and after a coral bleaching event</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">W</forename><surname>Kemp</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Hernandez-Pech</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Iglesias-Prieto</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">K</forename><surname>Fitt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">W</forename><surname>Schmidt</surname></persName>
+		</author>
+		<idno type="DOI">10.4319/lo.2014.59.3.0788</idno>
+		<ptr target="https://doi.org/10.4319/lo.2014.59.3.0788" />
+	</analytic>
+	<monogr>
+		<title level="j">Limnology and Oceanography</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="788" to="797" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kemp, D. W., Hernandez-Pech, X., Iglesias-Prieto, R., Fitt, W. K., &amp; Schmidt, G. W. (2014). Community dynamics and physiology of Symbiodinium spp. before, during, and after a coral bleaching event. Limnology and Oceanography, 59, 788-797. https://doi.org/10.4319/ lo.2014.59.3.0788</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Cultivating endosymbionts -Host environmental mimics support the survival of Symbiodinium C15 ex hospite</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Krueger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">D</forename><surname>Gates</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jembe.2011.12.002</idno>
+		<ptr target="https://doi.org/10.1016/j.jembe.2011.12.002" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Marine Biology and Ecology</title>
+		<imprint>
+			<biblScope unit="volume">413</biblScope>
+			<biblScope unit="page" from="169" to="176" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Krueger, T., &amp; Gates, R. D. (2012). Cultivating endosymbionts -Host en- vironmental mimics support the survival of Symbiodinium C15 ex hos- pite. Journal of Experimental Marine Biology and Ecology, 413, 169-176. https://doi.org/10.1016/j.jembe.2011.12.002</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Investigating the biodiversity, ecology, and phylogeny of endosymbiotic dinoflagellates in the genus Symbiodinium using the its region: In search of a &quot;species&quot; level marker</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C</forename><surname>Lajeunesse</surname></persName>
+		</author>
+		<idno type="DOI">10.1046/j.1529-8817.2001.01031.x</idno>
+		<ptr target="https://doi.org/10.1046/j.1529-8817.2001.01031.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Phycology</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="866" to="880" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">LaJeunesse, T. C. (2001). Investigating the biodiversity, ecology, and phylog- eny of endosymbiotic dinoflagellates in the genus Symbiodinium using the its region: In search of a &quot;species&quot; level marker. Journal of Phycology, 37, 866-880. https://doi.org/10.1046/j.1529-8817.2001.01031.x</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Diversity and community structure of symbiotic dinoflagellates from Caribbean coral reefs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C</forename><surname>Lajeunesse</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00227-002-0829-2</idno>
+		<ptr target="https://doi.org/10.1007/s00227-002-0829-2" />
+	</analytic>
+	<monogr>
+		<title level="j">Marine Biology</title>
+		<imprint>
+			<biblScope unit="volume">141</biblScope>
+			<biblScope unit="page" from="387" to="400" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">LaJeunesse, T. C. (2002). Diversity and community structure of symbi- otic dinoflagellates from Caribbean coral reefs. Marine Biology, 141, 387-400. https://doi.org/10.1007/s00227-002-0829-2</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Validation and description of Symbiodinium microadriaticum, the type species of Symbiodinium (Dinophyta)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C</forename><surname>Lajeunesse</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/jpy.12570</idno>
+		<ptr target="https://doi.org/10.1111/jpy.12570" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Phycology</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="1109" to="1114" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">LaJeunesse, T. C. (2017). Validation and description of Symbiodinium mi- croadriaticum, the type species of Symbiodinium (Dinophyta). Journal of Phycology, 53, 1109-1114. https://doi.org/10.1111/jpy.12570</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Systematic revision of Symbiodiniaceae highlights the antiquity and diversity of coral endosymbionts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C</forename><surname>Lajeunesse</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Parkinson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">W</forename><surname>Gabrielson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">J</forename><surname>Jeong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">D</forename><surname>Reimer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">R</forename><surname>Voolstra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Santos</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cub.2018.07.008</idno>
+		<ptr target="https://doi.org/10.1016/j.cub.2018.07.008" />
+	</analytic>
+	<monogr>
+		<title level="j">Current Biology</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="2570" to="2580" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">LaJeunesse, T. C., Parkinson, J. E., Gabrielson, P. W., Jeong, H. J., Reimer, J. D., Voolstra, C. R., &amp; Santos, S. R. (2018). Systematic re- vision of Symbiodiniaceae highlights the antiquity and diversity of coral endosymbionts. Current Biology, 28, 2570-2580. https://doi. org/10.1016/j.cub.2018.07.008</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">A geneticsbased description of Symbiodinium minutum sp. nov. and S. psygmophilum sp. nov. (Dinophyceae), two dinoflagellates symbiotic with cnidaria</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C</forename><surname>Lajeunesse</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Parkinson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">D</forename><surname>Reimer</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1529-8817.2012.01217.x</idno>
+		<ptr target="https://doi.org/10.1111/j.1529-8817.2012.01217.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Phycology</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="1380" to="1391" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lajeunesse, T. C., Parkinson, J. E., &amp; Reimer, J. D. (2012). A genetics- based description of Symbiodinium minutum sp. nov. and S. psyg- mophilum sp. nov. (Dinophyceae), two dinoflagellates symbiotic with cnidaria. Journal of Phycology, 48, 1380-1391. https://doi. org/10.1111/j.1529-8817.2012.01217.x</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Long-standing environmental conditions, geographic isolation and host-symbiont specificity influence the relative ecological dominance and genetic diversification of coral endosymbionts in the genus Symbiodinium</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C</forename><surname>Lajeunesse</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">T</forename><surname>Pettay</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">M</forename><surname>Sampayo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Phongsuwan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">O</forename><surname>Obura</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">K</forename><surname>Fitt</surname></persName>
+		</author>
+		<ptr target="1111/j.1365-2699.2010.02273.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biogeography</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="785" to="800" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">LaJeunesse, T. C., Pettay, D. T., Sampayo, E. M., Phongsuwan, N., Brown, B., Obura, D. O., … Fitt, W. K. (2010). Long-standing environmen- tal conditions, geographic isolation and host-symbiont specificity influence the relative ecological dominance and genetic diversifica- tion of coral endosymbionts in the genus Symbiodinium. Journal of Biogeography, 37, 785-800. 1111/j.1365-2699.2010.02273.x</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Improved resolution of reefcoral endosymbiont (Symbiodinium) species diversity, ecology, and evolution through psbA non-coding region genotyping</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C</forename><surname>Lajeunesse</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Thornhill</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0029013</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0029013" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">LaJeunesse, T. C., &amp; Thornhill, D. J. (2011). Improved resolution of reef- coral endosymbiont (Symbiodinium) species diversity, ecology, and evolution through psbA non-coding region genotyping. PLoS ONE, 6, e29013. https://doi.org/10.1371/journal.pone.0029013</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Ecologically differentiated stress-tolerant endosymbionts in the dinoflagellate genus Symbiodinium (Dinophyceae) Clade D are different species</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C</forename><surname>Lajeunesse</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">C</forename><surname>Wham</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">T</forename><surname>Pettay</surname></persName>
+		</author>
+		<idno type="DOI">10.2216/13-186.1</idno>
+		<ptr target="https://doi.org/10.2216/13-186.1" />
+	</analytic>
+	<monogr>
+		<title level="j">Phycologia</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="305" to="319" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">LaJeunesse, T. C., Wham, D. C., Pettay, D. T., et al. (2014). Ecologically differentiated stress-tolerant endosymbionts in the dinoflagellate genus Symbiodinium (Dinophyceae) Clade D are different species. Phycologia, 53, 305-319. https://doi.org/10.2216/13-186.1</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">UniFrac: An effective distance metric for microbial community comparison</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Lozupone</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E</forename><surname>Lladser</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Knights</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Stombaugh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Knight</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ismej.2010.133</idno>
+		<ptr target="https://doi.org/10.1038/ismej.2010.133" />
+	</analytic>
+	<monogr>
+		<title level="j">ISME Journal</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="169" to="172" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lozupone, C., Lladser, M. E., Knights, D., Stombaugh, J., &amp; Knight, R. (2011). UniFrac: An effective distance metric for microbial commu- nity comparison. ISME Journal, 5, 169-172. https://doi.org/10.1038/ ismej.2010.133</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Guiding coral reef futures in the Anthropocene</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">V</forename><surname>Norström</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Nyström</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J.-B</forename><surname>Jouffray</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Folke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">A J</forename><surname>Graham</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Moberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">J</forename><surname>Williams</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/fee.1427</idno>
+		<ptr target="https://doi.org/10.1002/fee.1427" />
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Ecology and the Environment</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="490" to="498" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Norström, A. V., Nyström, M., Jouffray, J.-B., Folke, C., Graham, N. A. J., Moberg, F., … Williams, G. J. (2016). Guiding coral reef futures in the Anthropocene. Frontiers in Ecology and the Environment, 14, 490-498. https://doi.org/10.1002/fee.1427</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">The role of floridoside in osmoadaptation of coral-associated algal endosymbionts to high-salinity conditions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Ochsenkuhn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Rothig</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>D'angelo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Wiedenmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">R</forename><surname>Voolstra</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/sciadv.1602047</idno>
+		<ptr target="https://doi.org/10.1126/sciadv.1602047" />
+	</analytic>
+	<monogr>
+		<title level="j">Science Advances</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ochsenkuhn, M. A., Rothig, T., D&apos;Angelo, C., Wiedenmann, J., &amp; Voolstra, C. R. (2017). The role of floridoside in osmoadaptation of coral-as- sociated algal endosymbionts to high-salinity conditions. Science Advances, 3, e1602047. https://doi.org/10.1126/sciadv.1602047</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Genotypic diversity and spatial-temporal distribution of Symbiodinium clones in an abundant reef coral</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">T</forename><surname>Pettay</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">C</forename><surname>Wham</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">H</forename><surname>Pinzon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C</forename><surname>Lajeunesse</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-294X.2011.05357.x</idno>
+		<ptr target="https://doi.org/10.1111/j.1365-294X.2011.05357.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="5197" to="5212" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pettay, D. T., Wham, D. C., Pinzon, J. H., &amp; Lajeunesse, T. C. (2011). Genotypic diversity and spatial-temporal distribution of Symbiodinium clones in an abundant reef coral. Molecular Ecology, 20, 5197-5212. https://doi.org/10.1111/j.1365-294X.2011.05357.x</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Microbial invasion of the Caribbean by an Indo-Pacific coral zooxanthella</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">T</forename><surname>Pettay</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">C</forename><surname>Wham</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">T</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Iglesias-Prieto</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C</forename><surname>Lajeunesse</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1502283112</idno>
+		<ptr target="https://doi.org/10.1073/pnas.1502283112" />
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="7513" to="7518" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pettay, D. T., Wham, D. C., Smith, R. T., Iglesias-Prieto, R., &amp; LaJeunesse, T. C. (2015). Microbial invasion of the Caribbean by an Indo-Pacific coral zooxanthella. Proceedings of the National Academy of Sciences, 112, 7513-7518. https://doi.org/10.1073/pnas.1502283112</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Geographic patterns of Symbiodinium diversity associated with the coral Mussismilia hispida (Cnidaria, Scleractinia) correlate with major reef regions in the Southwestern Atlantic Ocean</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Picciani</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><forename type="middle">G</forename><surname>De Lossio E Seiblitz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">C</forename><surname>De Paiva</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">B</forename><surname>Castro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Zilberberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00227-016-3010-z</idno>
+		<ptr target="https://doi.org/10.1007/s00227-016-3010-z" />
+	</analytic>
+	<monogr>
+		<title level="j">Marine Biology</title>
+		<imprint>
+			<biblScope unit="volume">163</biblScope>
+			<biblScope unit="page">236</biblScope>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Picciani, N., de Lossio e Seiblitz, I. G., de Paiva, P. C., e Castro, C. B., &amp; Zilberberg, C. (2016). Geographic patterns of Symbiodinium di- versity associated with the coral Mussismilia hispida (Cnidaria, Scleractinia) correlate with major reef regions in the Southwestern Atlantic Ocean. Marine Biology, 163, 236. https://doi.org/10.1007/ s00227-016-3010-z</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title level="m" type="main">Multi-gene analysis of Symbiodinium dinoflagellates: A perspective on rarity, symbiosis, and evolution. Peerj, 2, e394</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Pochon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">M</forename><surname>Putnam</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">D</forename><surname>Gates</surname></persName>
+		</author>
+		<idno type="DOI">10.7717/peerj.394</idno>
+		<ptr target="https://doi.org/10.7717/peerj.394" />
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pochon, X., Putnam, H. M., &amp; Gates, R. D. (2014) Multi-gene analysis of Symbiodinium dinoflagellates: A perspective on rarity, symbiosis, and evolution. Peerj, 2, e394. https://doi.org/10.7717/peerj.394</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Coral bleaching -Thermal adaptation in reef coral symbionts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Rowan</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/430742a</idno>
+		<ptr target="https://doi.org/10.1038/430742a" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">430</biblScope>
+			<biblScope unit="page" from="742" to="742" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rowan, R. (2004). Coral bleaching -Thermal adaptation in reef coral symbionts. Nature, 430, 742-742. https://doi.org/10.1038/430742a</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Landscape ecology of algal symbionts creates variation in episodes of coral bleaching</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Rowan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Knowlton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Jara</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/40843</idno>
+		<ptr target="https://doi.org/10.1038/40843" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">388</biblScope>
+			<biblScope unit="page" from="265" to="269" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rowan, R., Knowlton, N., Baker, A., &amp; Jara, J. (1997). Landscape ecology of algal symbionts creates variation in episodes of coral bleaching. Nature, 388, 265-269. https://doi.org/10.1038/40843</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Cohesive molecular genetic data delineate species diversity in the dinoflagellate genus Symbiodinium</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">M</forename><surname>Sampayo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Dove</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C</forename><surname>Lajeunesse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="500" to="519" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sampayo, E. M., Dove, S., &amp; Lajeunesse, T. C. (2009). Cohesive molecular genetic data delineate species diversity in the dinoflagellate genus Symbiodinium. Molecular Ecology, 18, 500-519.</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Genetic comparisons of freshly isolated versus cultured symbiotic dinoflagellates: Implications for extrapolating to the intact symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Santos</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Coffroth</surname></persName>
+		</author>
+		<idno type="DOI">10.1046/j.1529-8817.2001.00194.x</idno>
+		<ptr target="https://doi.org/10.1046/j.1529-8817.2001.00194.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Phycology</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="900" to="912" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Santos, S. R., Taylor, D. J., &amp; Coffroth, M. A. (2001). Genetic comparisons of freshly isolated versus cultured symbiotic dinoflagellates: Implications for extrapolating to the intact symbiosis. Journal of Phycology, 37, 900-912. https://doi.org/10.1046/j.1529-8817.2001.00194.x</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Introducing mothur: Opensource, platform-independent, community-supported software for describing and comparing microbial communities</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">D</forename><surname>Schloss</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">L</forename><surname>Westcott</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Ryabin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Hall</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Hartmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">B</forename><surname>Hollister</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">F</forename><surname>Weber</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/AEM.01541-09</idno>
+		<ptr target="https://doi.org/10.1128/AEM.01541-09" />
+	</analytic>
+	<monogr>
+		<title level="j">Applied and Environmental Microbiology</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="7537" to="7541" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schloss, P. D., Westcott, S. L., Ryabin, T., Hall, J. R., Hartmann, M., Hollister, E. B., … Weber, C. F. (2009). Introducing mothur: Open- source, platform-independent, community-supported software for describing and comparing microbial communities. Applied and Environmental Microbiology, 75, 7537-7541. https://doi.org/10.1128/ AEM.01541-09</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Clearcut: A fast implementation of relaxed neighbor joining</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Sheneman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Foster</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btl478</idno>
+		<ptr target="https://doi.org/10.1093/bioinformatics/btl478" />
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="2823" to="2824" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sheneman, L., Evans, J., &amp; Foster, J. A. (2006). Clearcut: A fast implemen- tation of relaxed neighbor joining. Bioinformatics, 22, 2823-2824. https://doi.org/10.1093/bioinformatics/btl478</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Change in algal symbiont communities after bleaching, not prior heat exposure, increases heat tolerance of reef corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">N</forename><surname>Silverstein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Cunning</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Baker</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/gcb.12706</idno>
+		<ptr target="https://doi.org/10.1111/gcb.12706" />
+	</analytic>
+	<monogr>
+		<title level="j">Global Change Biology</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="236" to="249" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Silverstein, R. N., Cunning, R., &amp; Baker, A. C. (2015). Change in algal symbiont communities after bleaching, not prior heat exposure, in- creases heat tolerance of reef corals. Global Change Biology, 21, 236- 249. https://doi.org/10.1111/gcb.12706</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Genetic structure of coral-Symbiodinium symbioses on the world&apos;s warmest reefs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">G</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">C C</forename><surname>Hume</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Delaney</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Wiedenmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Burt</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0180169</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0180169" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Smith, E. G., Hume, B. C. C., Delaney, P., Wiedenmann, J., &amp; Burt, J. A. (2017a). Genetic structure of coral-Symbiodinium symbioses on the world&apos;s warmest reefs. PLoS ONE, 12, e0180169. https://doi. org/10.1371/journal.pone.0180169</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Host specificity of Symbiodinium variants revealed by an ITS2 metahaplotype approach</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">G</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">N</forename><surname>Ketchum</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Burt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The ISME Journal</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1500" to="1503" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Smith, E. G., Ketchum, R. N., &amp; Burt, J. A. (2017b). Host specificity of Symbiodinium variants revealed by an ITS2 metahaplotype approach. The ISME Journal, 11, 1500-1503.</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Symbiont community stability through severe coral bleaching in a thermally extreme lagoon</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">G</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">O</forename><surname>Vaughan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">N</forename><surname>Ketchum</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Mcparland</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Burt</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-017-01569-8</idno>
+		<ptr target="https://doi.org/10.1038/s41598-017-01569-8" />
+	</analytic>
+	<monogr>
+		<title level="j">Scientific Reports</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Smith, E. G., Vaughan, G. O., Ketchum, R. N., McParland, D., &amp; Burt, J. A. (2017c). Symbiont community stability through severe coral bleach- ing in a thermally extreme lagoon. Scientific Reports, 7, 2428. https:// doi.org/10.1038/s41598-017-01569-8</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">A place for DNA-DNA reassociation and 16s ribosomal-RNA sequence-analysis in the present species definition in bacteriology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Stackebrandt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">M</forename><surname>Goebel</surname></persName>
+		</author>
+		<idno type="DOI">10.1099/00207713-44-4-846</idno>
+		<ptr target="https://doi.org/10.1099/00207713-44-4-846" />
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Systematic Bacteriology</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="846" to="849" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stackebrandt, E., &amp; Goebel, B. M. (1994). A place for DNA-DNA reassociation and 16s ribosomal-RNA sequence-analysis in the present species definition in bacteriology. International Journal of Systematic Bacteriology, 44, 846-849. https://doi. org/10.1099/00207713-44-4-846</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<monogr>
+		<title level="m" type="main">MEGA6: Molecular evolutionary genetics analysis version 6.0. Molecular Biology and Evolution</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Tamura</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Stecher</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Peterson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Filipski</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Kumar</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/molbev/mst197</idno>
+		<ptr target="https://doi.org/10.1093/molbev/mst197" />
+		<imprint>
+			<date type="published" when="2013" />
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="2725" to="2729" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tamura, K., Stecher, G., Peterson, D., Filipski, A., &amp; Kumar, S. (2013). MEGA6: Molecular evolutionary genetics analysis version 6.0. Molecular Biology and Evolution, 30, 2725-2729. https://doi. org/10.1093/molbev/mst197</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Exploring Symbiodinium diversity and host specificity in Acropora corals from geographical extremes of Western Australia with 454 amplicon pyrosequencing</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">A</forename><surname>Kendrick</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">J</forename><surname>Kennington</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><forename type="middle">T</forename><surname>Richards</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Stat</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/mec.12801</idno>
+		<ptr target="https://doi.org/10.1111/mec.12801" />
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="3113" to="3126" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Thomas, L., Kendrick, G. A., Kennington, W. J., Richards, Z. T., &amp; Stat, M. (2014). Exploring Symbiodinium diversity and host specificity in Acropora corals from geographical extremes of Western Australia with 454 amplicon pyrosequencing. Molecular Ecology, 23, 3113- 3126. https://doi.org/10.1111/mec.12801</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Population genetics of reef coral endosymbionts (Symbiodinium, Dinophyceae)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Thornhill</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">J</forename><surname>Howells</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">C</forename><surname>Wham</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">D</forename><surname>Steury</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Santos</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/mec.14055</idno>
+		<ptr target="https://doi.org/10.1111/mec.14055" />
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="2640" to="2659" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Thornhill, D. J., Howells, E. J., Wham, D. C., Steury, T. D., &amp; Santos, S. R. (2017). Population genetics of reef coral endosymbionts (Symbiodinium, Dinophyceae). Molecular Ecology, 26, 2640-2659. https://doi.org/10.1111/mec.14055</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Measuring rDNA diversity in eukaryotic microbial systems: How intragenomic variation, pseudogenes, and PCR artifacts confound biodiversity estimates</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Thornhill</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C</forename><surname>Lajeunesse</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Santos</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-294X.2007.03576.x</idno>
+		<ptr target="https://doi.org/10.1111/j.1365-294X.2007.03576.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="5326" to="5340" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Thornhill, D. J., Lajeunesse, T. C., &amp; Santos, S. R. (2007). Measuring rDNA diversity in eukaryotic microbial systems: How intrage- nomic variation, pseudogenes, and PCR artifacts confound biodi- versity estimates. Molecular Ecology, 16, 5326-5340. https://doi. org/10.1111/j.1365-294X.2007.03576.x</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Host-specialist lineages dominate the adaptive radiation of reef coral endosymbionts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Thornhill</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">C</forename><surname>Wham</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C</forename><surname>Lajeunesse</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/evo.12270</idno>
+		<ptr target="https://doi.org/10.1111/evo.12270" />
+	</analytic>
+	<monogr>
+		<title level="j">Evolution</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="352" to="367" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Thornhill, D. J., Lewis, A. M., Wham, D. C., &amp; LaJeunesse, T. C. (2014). Host-specialist lineages dominate the adaptive radiation of reef coral endosymbionts. Evolution, 68, 352-367. https://doi.org/10.1111/ evo.12270</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Reef endemism, host specificity and temporal stability in populations of symbiotic dinoflagellates from two ecologically dominant Caribbean corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Thornhill</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Xiang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">K</forename><surname>Fitt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Santos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="page">4</biblScope>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Thornhill, D. J., Xiang, Y., Fitt, W. K., &amp; Santos, S. R. (2009). Reef en- demism, host specificity and temporal stability in populations of symbiotic dinoflagellates from two ecologically dominant Caribbean corals. PLoS ONE, 4.</note>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Symbiodinium thermophilum symbionts in Porites harrisoni and Cyphastrea microphthalma in the northern Persian Gulf</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Varasteh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">R</forename><surname>Shokri</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Rajabi-Maham</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Behzadi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">C</forename><surname>Hume</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/s0025315417001746</idno>
+		<ptr target="https://doi.org/10.1017/s0025315417001746" />
+	</analytic>
+	<monogr>
+		<title level="j">Iran. Journal of the Marine Biological Association of the United Kingdom</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="2067" to="2073" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Varasteh, T., Shokri, M. R., Rajabi-Maham, H., Behzadi, S., &amp; Hume, B. C. (2018). Symbiodinium thermophilum symbionts in Porites harrisoni and Cyphastrea microphthalma in the northern Persian Gulf, Iran. Journal of the Marine Biological Association of the United Kingdom, 98, 2067- 2073. https://doi.org/10.1017/s0025315417001746</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">The variability of the 16S rRNA gene in bacterial genomes and its consequences for bacterial community analyses</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Vetrovsky</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Baldrian</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0057923</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0057923" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vetrovsky, T., &amp; Baldrian, P. (2013). The variability of the 16S rRNA gene in bacterial genomes and its consequences for bacterial community analyses. PLoS ONE, 8, e57923. https://doi.org/10.1371/journal. pone.0057923</note>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">The host transcriptome remains unaltered during the establishment of coralalgal symbioses</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">R</forename><surname>Voolstra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Schwarz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Schnetzer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Sunagawa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">K</forename><surname>Desalvo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Szmant</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Medina</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-294X.2009.04167.x</idno>
+		<ptr target="https://doi.org/10.1111/j.1365-294X.2009.04167.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1823" to="1833" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Voolstra, C. R., Schwarz, J. A., Schnetzer, J., Sunagawa, S., Desalvo, M. K., Szmant, A. M., … Medina, M. (2009). The host transcrip- tome remains unaltered during the establishment of coral- algal symbioses. Molecular Ecology, 18, 1823-1833. https://doi. org/10.1111/j.1365-294X.2009.04167.x</note>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Symbiodinium glynnii sp nov., a species of stress-tolerant symbiotic dinoflagellates from pocilloporid and montiporid corals in the Pacific Ocean</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">C</forename><surname>Wham</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Ning</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C</forename><surname>Lajeunesse</surname></persName>
+		</author>
+		<idno type="DOI">10.2216/16-86.1</idno>
+		<ptr target="https://doi.org/10.2216/16-86.1" />
+	</analytic>
+	<monogr>
+		<title level="j">Phycologia</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="396" to="409" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wham, D. C., Ning, G., &amp; LaJeunesse, T. C. (2017). Symbiodinium glynnii sp nov., a species of stress-tolerant symbiotic dinoflagellates from pocilloporid and montiporid corals in the Pacific Ocean. Phycologia, 56, 396-409. https://doi.org/10.2216/16-86.1</note>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Biogeography and molecular diversity of coral symbionts in the genus Symbiodinium around the Arabian Peninsula</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Ziegler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Arif</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Burt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Dobretsov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Roder</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C</forename><surname>Lajeunesse</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">R</forename><surname>Voolstra</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/jbi.12913</idno>
+		<ptr target="https://doi.org/10.1111/jbi.12913" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biogeography</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="674" to="686" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ziegler, M., Arif, C., Burt, J. A., Dobretsov, S., Roder, C., LaJeunesse, T. C., &amp; Voolstra, C. R. (2017). Biogeography and molecular diversity of coral symbionts in the genus Symbiodinium around the Arabian Peninsula. Journal of Biogeography, 44, 674-686. https://doi. org/10.1111/jbi.12913</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

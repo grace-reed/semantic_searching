@@ -1,0 +1,1661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/grace/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The genomics of recovery from coral bleaching</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Luke</forename><surname>Thomas</surname></persName>
+							<email>luke.thomas@live.com.au</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Biology</orgName>
+								<orgName type="department" key="dep2">Hopkins Marine Station</orgName>
+								<orgName type="institution">Stanford University</orgName>
+								<address>
+									<postCode>93950, 0000-0003-1095-9170</postCode>
+									<settlement>Pacific Grove</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Biology</orgName>
+								<orgName type="department" key="dep2">Hopkins Marine Station</orgName>
+								<orgName type="institution">Stanford University</orgName>
+								<address>
+									<postCode>93950, 0000-0003-1095-9170</postCode>
+									<settlement>Pacific Grove</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stephen</forename><forename type="middle">R</forename><surname>Palumbi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Biology</orgName>
+								<orgName type="department" key="dep2">Hopkins Marine Station</orgName>
+								<orgName type="institution">Stanford University</orgName>
+								<address>
+									<postCode>93950, 0000-0003-1095-9170</postCode>
+									<settlement>Pacific Grove</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The genomics of recovery from coral bleaching</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1098/rspb.2017.1790</idno>
+					<note type="submission">Received: 11 August 2017 Accepted: 22 September 2017</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-09-14T02:31+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Global change and conservation ecology</term>
+					<term>genomics</term>
+					<term>physiology coral bleaching</term>
+					<term>transcriptomics</term>
+					<term>recovery</term>
+					<term>Acropora hyacinthus</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Ecological damage from periodic environmental extremes is often repaired in resilient ecosystems, but the rate of return to a non-damaged state is critical. Measures of recovery of communities include biomass, productivity and diversity, while measures of recovery of individuals tend to focus on physiological conditions and the return to normal metabolic functioning. Transcriptomics offers a window into the entire physiology of the organism under stress and can represent a holistic view of organismal recovery. In this study, we track the recovery of seven colonies of Acropora hyacinthus following a natural bleaching event. We identified a large environmental stress response in the field that involved approximately 20% of the host transcriptome. The transcriptome remained largely perturbed for at least six months after temperatures had cooled and four months after symbiont populations had recovered. Moreover, a small set of genes did not recover to previous expression levels even 12 months after the event, about the time that normal growth rates resumed. This study is among the first to incorporate transcriptomics into a longitudinal dataset of recovery from environmental stress. The data demonstrate large and lasting effects on coral physiology long after environmental conditions return to normal and symbiont populations recover.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>A key component of resilience is the capacity for recovery following disturbance. This is often referred to as engineering resilience, measured as the rate of return to a predisturbance equilibrium <ref type="bibr" target="#b0">[1]</ref>. If disturbance occurs at a rate greater than recovery, then communities can experience irreversible change. Understanding rates of recovery following disturbance is becoming increasingly critical as climate change begins to alter disturbance regimes. This is particularly true for habitat-forming foundation species, for which the resilience of the entire ecosystem is ultimately hinged upon.</p><p>Mass-bleaching events are among the most threatening disturbances to coral reef ecosystems globally <ref type="bibr" target="#b1">[2]</ref>. While severe cases of coral bleaching can result in wide-spread mortality and phase shifts <ref type="bibr" target="#b2">[3]</ref>, during more moderate bleaching events individual coral colonies show a remarkable capacity to recover <ref type="bibr" target="#b3">[4]</ref>. In order for this to occur, corals must rely on alternative forms of energy to account for the reduced levels of photosynthetically fixed carbon from their algal symbionts, which can decline by up to 90% in bleached colonies <ref type="bibr" target="#b4">[5]</ref>. Corals that can increase heterotrophy maintain high levels of energy reserves across the bleaching period and have quick recovery trajectories <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b6">7]</ref>. Most corals, however, rely on stored energy reserves to meet daily metabolic demands while bleached and experience significant declines in tissue biomass across the bleaching period <ref type="bibr" target="#b4">[5]</ref>. Recovering lost energy reserves after symbiont populations recover can take months, and as a result, periods of bleaching are often followed by strong declines in metabolically-intensive processes such as calcification, growth, and reproduction <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref>.</p><p>To date, physiological studies of bleaching recovery have focused mainly on energy reserves, growth and reproduction <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref>. Transcriptomics additionally offers a window into the entire physiology of the organism under stress and is an emerging tool in natural populations <ref type="bibr" target="#b18">[19]</ref>. Recent studies applying transcriptomics to investigate thermal tolerance in corals have greatly improved our understanding of the physiological response to heat stress <ref type="bibr">[20]</ref><ref type="bibr" target="#b21">[21]</ref><ref type="bibr" target="#b22">[22]</ref>; however, they have been limited to short time periods (generally less than 10 days) and there remains a lack of long-term transcriptomic experiments on the bleaching recovery process <ref type="bibr" target="#b23">[23]</ref>.</p><p>Here, we present a longitudinal study of bleaching recovery in reef-building corals of the United States National Park of American Samoa to a climate driven warm-water event. Using samples collected from Acropora hyacinthus at five time points spanning a year of recovery, our results highlight the lasting impacts of warm-water events on the physiology of the coral colony. Our data indicate that the coral transcriptome can remain perturbed for up to 10 months after bleaching occurs and can have persistent effects on the physiology of an individual colony more than a year after bleaching. If bleaching events begin to occur annually in the coming decades, rates of disturbance may soon outpace the capacity of some important reef-building coral species to recover.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Methods (a) The 2015 bleaching event</head><p>Anomalous sea surface temperatures associated with strong El Nino conditions emerging in late 2014 triggered the longest and most severe global-scale bleaching event since records began in the 1980s <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b24">24]</ref>. In January 2015, corals in the National Park of American Samoa on Ofu Island spent approximately 38% of their time above the NOAA regional bleaching threshold of 30.28C; the previous 3 years never exceeded 5% (figure 1a,b). Bleaching in the Park on Ofu was first reported in February and reef-wide surveys in April showed that overall response in the dominant reef-building coral A. hyacinthus was relatively mild; the mean bleaching score across 64 surveyed colonies was 30% (figure 1c).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>(b) Sample collection and field data</head><p>Seven colonies of A. hyacinthus (type C <ref type="bibr" target="#b26">[26]</ref>) from the back-reef environment of Ofu Island were tagged, sampled, and monitored at five time-points spanning the bleaching event <ref type="table">(table 1)</ref>: before bleaching representing baseline expression levels (August 2011), and then two months (April 2015), six months (August 2015), months (December 2015) and 12 months (February 2016) after initial bleaching was observed in February 2015. We focused on A. hyacinthus because it is one of the dominant reef-building species in Ofu, has large amounts of genomic resources available <ref type="bibr" target="#b21">[21,</ref><ref type="bibr" target="#b27">[27]</ref><ref type="bibr" target="#b28">[28]</ref><ref type="bibr" target="#b29">[29]</ref>, and is one of the few species that we had samples in hand that predated the bleaching event. Coral nubbins of approximately 2-4 cm in size were collected from colonies within 3 h of high-tide using garden clippers and preserved in RNAlater. All colonies occurred at depths of approximately 0.5-1.0 m and were within a 2500 m 2 area of back-reef. We measured growth rates for the seven colonies by combing field collected maximum length measurements with colony photographs to calculate total colony area for each sample date using IMAGEJ <ref type="bibr" target="#b30">[30]</ref>. We used these data to calculate colony growth rates across the bleaching recovery period, presented as fraction of colony growth per month. We returned to each colony in April 2016 to collect final data points on growth and mortality. Growth rates across the recovery period were compared to pre-bleaching growth rates determined using a monthly average from growth data calculated over 6 years (2010-2016) as part of a larger growth study <ref type="bibr" target="#b31">[31]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>(c) Symbiont cell densities</head><p>Symbiodinium cell densities were quantified using automated cell counting with the non-sorting Guava EasyCyte flow cytometer, as in Krediet et al. <ref type="bibr" target="#b32">[32]</ref>. Briefly, coral tissue was removed from the skeleton using a single-action siphon-feed airbrush (Paasche) filled with artificial seawater (33.5 ppt in deionized water) and needle sheared. Algal counts were normalized to total protein of each corresponding sample using the DC protein assay (Bio-Rad).  <ref type="bibr" target="#b33">[33]</ref> under the very-sensitive mode with a minimum mapping quality of 10. We used SAMTOOLS <ref type="bibr" target="#b34">[34]</ref> to generate counts for each contig in our reference transcriptome. We also mapped raw reads to a reference FASTA file that included the common Symbiodinium chloroplast 23S (cp23s) sequences present on Ofu Island (clades C and D; <ref type="bibr" target="#b35">[35]</ref>). We calculated the proportion of reads that uniquely mapped to each reference sequence as a measure for symbiont composition. To confirm that tissue samples collected at each time point corresponded to the same coral colony, we used FREEBAYES <ref type="bibr" target="#b36">[36]</ref> to generate variant call files and VCFTOOLS <ref type="bibr" target="#b37">[37]</ref> to filter using a mapping quality of 20, a minor allele frequency of 0.05 and with no missing data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>(d) RNAseq</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>(e) Targeting transcriptional modules</head><p>The transcriptomic response to environmental stress often involves thousands of transcripts that can be summarized as the expression of a small number of co-regulated gene sets, or transcriptional modules <ref type="bibr" target="#b38">[38]</ref>. Transcriptional modules can represent distinct physiological units with individual functional enrichments that can dramatically simplify interpretations of the physiological stress response. For example, the response to experimental acute heat stress (3 h temperature ramp to 358C with a 1 h hold) in A. hyacinthus involves thousands of transcripts that can be summarized as the expression of 23 transcriptional modules, some of which are significantly correlated with bleaching outcome after heat stress and enriched for molecular functions including sequencespecific DNA binding, motor activity and extracellular matrix structure <ref type="bibr" target="#b27">[27]</ref>. In addition, Ruiz-Jones &amp; Palumbi <ref type="bibr" target="#b28">[28]</ref> combined high-resolution transcriptomic and environmental profiling and identified an additional three transcriptional modules in A. hyacinthus that are upregulated during tidal heat pulses when extreme low tides cause temperatures to spike above 30.58C. These modules are significantly enriched for transcription factors and gene products associated with the unfolded protein response <ref type="bibr" target="#b28">[28]</ref>. We used these transcriptional modules to analyse our field-collected bleaching recovery dataset. To do this, we first normalized our expression data with DESEQ2 v 1.6.3 <ref type="bibr" target="#b39">[39]</ref> and matched the normalized matrix to a list of contigs comprising the three sub-bleaching field stress modules that respond to field stress experienced during extreme low tides <ref type="bibr" target="#b28">[28]</ref> (modules RJ6, RJ9, RJ11) and the seven acute heat stress modules that correlate with bleaching outcome following experimental heat stress <ref type="bibr" target="#b27">[27]</ref> (modules R1, R4, R10, R12, R14, R15, R17). We then used WGCNA <ref type="bibr" target="#b40">[40]</ref> to calculate the expression of these 10 modules for each colony in our field-collected dataset across the bleaching recovery period. To determine whether these transcriptional modules also comprised co-regulated gene sets in our field-collected dataset, we used Pearson product-moment correlation tests of contig expression and corresponding module eigengene.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>(f ) Transcriptome-wide gene expression</head><p>In addition to the targeted module analysis, transcriptome-wide changes in individual gene expression were analysed on raw expression counts using DESEQ2 <ref type="bibr" target="#b39">[39]</ref>. We calculated pairwise comparisons independently for all dates relative to pre-bleaching baseline expression (August 2011) using Wald tests. Differentially expressed contigs (DECs) were identified as those with a log fold change greater than two. We carried out functional enrichment analyses using Uniprot accessions with the Database for Annotation, Visualization and Integrated Discovery (DAVID v. 6.8). All analyses we corrected for multiple comparisons using the Benjamini and Hochberg (BH) method at the 0.05 significance level. ADEGENET <ref type="bibr" target="#b42">[41]</ref> was used to perform a discriminant analysis of principle components (DAPC) on the normalized counts matrix after removing contigs with low counts or extreme outliers using DESEQ2.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results (a) Bleaching, mortality and size changes</head><p>Two months after initial bleaching, the intensity of pigment loss varied across the seven individual colonies, with visual bleaching score ranging from 0 to 80% (table 1). All colonies regained full pigmentation by six months (electronic supplementary material, table S1). AH18 was the only colony to display a strong bleaching phenotype in subsequent surveys; it showed 80% bleaching at 12 months, and 90% mortality at months (electronic supplementary material, table S1). Other mortality rates after bleaching were low except in AH21, which experienced 50% by August 2015 and 80% mortality by April 2016 (table 1). We did not have suitable photographs to calculate growth rates for AH91. For all other colonies except AH25, growth rates (measured as fraction of colony growth per month) declined across the recovery period (April 2015 to February 2016) relative to pre-bleaching baseline levels <ref type="table">(table 1)</ref>. When excluding colonies that suffered partial mortality (i.e. AH18) or wave damage (i.e. AH25) at the final sample date, growth rates recovered to pre-bleaching levels in the remaining four colonies by April 2016 (electronic <ref type="table">Table 1</ref>. Colonies of A. hyacinthus monitored across the bleaching recovery period. (Thermal microclimate was calculated from data collected from February to August 2011 and presented as per cent of time spent above 318C. Bleaching level was based on a visual bleaching score of 0 -100% in April 2015. Symbiont indicates the dominant cp23s haplotype in samples collected in April 2015, when colonies were bleached. Mortality data were from the final time point, months after initial bleaching.)  <ref type="figure" target="#fig_0">S2</ref>). Four of these modules have significant enrichment (gene ontology (GO) terms) for molecular functions: RJ6 is enriched for transcription factor activity, RJ9 for gene products essential to the unfolded protein response, R12 for sequence-specific DNA binding, and R15 for microtubule motor activity (electronic supplementary material, table S5). Expression profiles for these stress response modules in our field-collected samples followed similar patterns: low expression in samples collected before the bleaching event, and a strong increase two months after bleaching (figure 3). Overall expression of the modules rose two months after the bleaching event while bleaching was still visually evident; however, these modules continued to increase in expression until six months after the bleaching event, when all colonies had returned to normal symbiont densities (figure 2). This eigengene increase occurred despite cooler water temperatures during the April-August 2015 period. Expression declined in December 2015 and remained low in February 2016 despite warmer water temperatures during the Austral summer.</p><formula xml:id="formula_0">colony</formula><p>Consistent with the targeted module analysis, differential gene expression analyses across time showed a large transcriptome-wide response in samples collected two and six months after bleaching relative to pre-bleaching baseline expression (figure 4). A total of 4766 DECs (2805 upregulated and 1961 downregulated contigs) were identified between samples collected two months after bleaching and pre-bleaching baseline samples (figure 4a; electronic supplementary material, dataset S1). The top upregulated DECs at the two-month time point in April 2015 had annotations for proteins involved in response to stress and apoptosis, including heat-shock proteins, the transcription factor fosB, and BAG-domain containing proteins (electronic supplementary material, table S6 and dataset S1). Functional enrichment analyses showed that the upregulated DECs at two months were significantly enriched ( p.adj , 0.05) for gene products associated with extracellular regions and calcium ion binding (electronic supplementary material, table S7). Downregulated contigs had no significant functional enrichment.</p><p>Six months after bleaching in August 2015, the number of DECs relative to pre-bleaching baseline expression remained high at 4690 (2896 upregulated and 1794 downregulated) ( <ref type="figure" target="#fig_0">figure 4a; electronic supplementary material, dataset S2)</ref>. While the top DECs from April 2015 remained strongly    (e) Lingering response genes</p><p>Although the main stress response declined 10 months after initial bleaching, module eigengenes did not fully reach prebleaching levels (figure 3). This lingering response was not restricted to these contigs. Differential gene expression analyses in DESEQ2 identified 348 contigs that were significantly upregulated at two months, when bleaching was still evident, and that remained upregulated in all sample dates thereafter (electronic supplementary material, dataset S5 </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>(f ) Bleaching predicts the expression of stress genes a year later</head><p>Pearson correlation coefficients showed that individual colony bleaching score measured in April 2015 significantly predicted ( p , 0.05) the expression of the transcriptional modules and hundreds of other stress response genes measured in February 2016, 12 months after bleaching (electronic supplementary material, <ref type="figure" target="#fig_2">figure S4</ref>). There were 169 contigs that were in the top 10% tail of differential expression (log 2 fold change . 2.0, p.adj , 0.05) at two or six months (when the stress response was strongest) and that also fell in the top 10% tail of the Pearson correlation coefficient between visual bleaching score and expression at twelve months (electronic supplementary material, dataset S6). Included in this list were the top five most upregulated contigs from both April and August 2015, when the environmental stress response was at its greatest. This gene list was functionally enriched ( p.adj , 0.05) for response to chemical stimulus, with 36 genes involved in this annotation category, including transcription factors, heat-shock proteins, TNF and fibroblast growth receptors (electronic supplementary material, dataset S7). Other GO categories that were marginally non-significant included positive regulation of signalling, response to stimulus, positive regulation of cell communication, and response to organic substance (electronic supplementary material, table S7).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>Our data on the recovery process after coral bleaching show that a large part of the host transcriptome changed dramatically after bleaching and remained perturbed for several months after pigmentation returned to the colony. Even 10-12 months after bleaching, hundreds of genes had not returned to baseline expression. Across colonies, bleaching severity had a persistent effect on the transcriptome 12 months after the event: bleaching levels in April 2015 predicted gene expression patterns in February 2016. Taken together, the results from this study highlight the lasting impacts of a warm-water event on the physiology of a coral colony.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>(a) Stages of bleaching recovery</head><p>In this study, the return of Symbiodinium populations marked merely the first stage of bleaching recovery. This is consistent with the generalized pattern of bleaching recovery from past studies, where symbionts and chlorophyll-a recover first, followed by tissue biomass and energy reserves, and finally growth and reproduction <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b43">42]</ref>. Bleaching recovery is primarily associated with energetics; corals that are capable of increasing heterotrophy maintain energy reserves throughout the bleaching recovery period and thus have a rapid recovery trajectory <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b6">7]</ref>. Corals that cannot increase heterotrophy begin to consume stored energy reserves to meet basic metabolic demands, resulting in a significant decline in tissue biomass <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b44">43]</ref>. Recovering those lost energy reserves takes time and often lags well behind the recovery of symbiont and chlorophyll-a levels <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b45">44]</ref>. In this study we did not measure changes in energy reserves; however, the lag in transcriptome recovery we observed parallels previous observations that physiology recovers only slowly from bleaching. Where we could measure them, growth rates recovered after February 2016, suggesting that growth recovery quickly followed transcriptome recovery. Similarly, previous studies have shown skeletal extension rates to recover once tissue biomass is restored <ref type="bibr" target="#b3">[4]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>(b) Recovery does not involve a shift in Symbiodinium clade</head><p>Our data show that recovering from bleaching does not require a shift in Symbiodinium clade (figure 2b). This finding contrasts a number of other studies that have identified symbiont type to play a key role in the bleaching recovery process <ref type="bibr" target="#b46">[45]</ref><ref type="bibr" target="#b47">[46]</ref><ref type="bibr" target="#b48">[47]</ref>. In American Samoa, A. hyacinthus forms a flexible association with Symbiodinium clades C and D, with higher levels of the more thermally tolerant clade D occurring in high-temperature habitats <ref type="bibr" target="#b35">[35]</ref>. However, these colonies do not shift symbiont clade when transplanted to alternate microhabitats <ref type="bibr" target="#b49">[48]</ref>. In the current study, one colony (AH13) shifted to higher levels of clade D at the six month time point (figure 2; electronic supplementary material, table S5) but shifted back to pre-bleaching proportions by the 10 month time point in December. Photographs made of these times showed sediment intrusion and a wholesale die off of corals immediately surrounding AH13 after the February 2015 bleaching event. Inspection of genetic variants confirmed that samples in August 2015 were AH13. It is possible that the large changes in symbiont type in AH13 reflect microclimate-this colony is the shallowest, most shoreward of all the colonies in our study and showed the highest temperature levels <ref type="table">(table 1)</ref>.</p><p>(c) A lasting environmental stress response to a warmwater event</p><p>We identified a large environmental stress response in corals exposed to a natural warm-water event. Two months after initial bleaching, this response was largely similar to the response rspb.royalsocietypublishing.org Proc. R. Soc. B 284: 20171790</p><p>triggered during acute experimental heat stress, marked by changes in expression of genes associated with extracellular space, calcium ion homeostasis, heat shock and apoptotic proteins <ref type="bibr" target="#b21">[21,</ref><ref type="bibr" target="#b29">29]</ref>. Unlike the acute bleaching data, which show a decline in transcriptional changes within days, our data show that one portion of the environmental stress response intensified until at least the six month mark (figures 3 and 4). The environmental stress response in model organisms such as yeast, responds to a range of stressors, from heat stress to starvation, and is comprised of hundreds of genes that are common to a diverse range of environmental pressures, as well as a subset of genes unique to a particular environment <ref type="bibr" target="#b50">[49]</ref>. Colonies in our current study initially bleached in February, so would have been surviving on reduced levels of photosynthetically fixed carbon for up to six months before symbiont populations fully returned by August 2015. As a result, colonies may have consumed large portions of their energy reserves during this period, and the environmental stress response we see at the six month time point in August 2015 may be associated with nutrient deprivation rather than a heat stress response. Past studies have shown that the recovery of lost energy reserves lags behind the recovery of symbiont populations <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b43">42]</ref>, so we would expect the stress response to starvation to linger after symbiont densities recover until sufficient energy reserves were restored.</p><p>Top upregulated genes in corals at the six month mark were involved in amino acid modification and the metabolism of complex sugars (electronic supplementary material, table S6 and dataset S2). Among the most upregulated genes in samples collected six months after bleaching were two transcripts with annotations for aspartate beta-hydroxylase, a protein involved in the hydroxylation of aspartic acid, an amino acid that is a metabolite in the urea cycle and a primary component of the organic skeletal matrix of scleractinian corals. In addition, two of the top upregulated transcripts at six months had annotations for proteins of the glycosyl hydrolase family 5 (cellulase family A) (electronic supplementary material, table S6), which are common enzymes involved in the degradation of complex sugars, such as cellulose <ref type="bibr" target="#b51">[50]</ref>. While most metazoans do not produce cellulase enzymes, the few that can are believed to have acquired their cellulolytic endoglucanases by horizontal gene transfer from their symbionts <ref type="bibr" target="#b51">[50]</ref><ref type="bibr" target="#b52">[51]</ref><ref type="bibr" target="#b53">[52]</ref>.</p><p>Symbiodinium cells are encased in a cell wall containing cellulose <ref type="bibr" target="#b54">[53]</ref> and like other dinoflagellates must regulate the production and degradation of these walls during their life cycle <ref type="bibr" target="#b55">[54]</ref>. In culture, cellulase treatments can successfully digest isolated Symbiodinium cell walls <ref type="bibr" target="#b56">[55]</ref>. However, within coral cells, the fate of symbiont cell walls remains largely unknown. Multiple layers of membranous material can accumulate between the symbiosome membrane and the vegetative algal cell wall <ref type="bibr" target="#b54">[53]</ref>, but it is unclear whether this is a possible nutrient source or alternatively a hindrance to symbiont replication. An interesting question that follows is whether corals increase the production of cellulase-like enzymes to digest any nutrient-rich structures in Symbiodinium prior to expulsion, or if host-produced cellulase functions in rapid proliferation of symbionts during recovery. Periods of nutrient deprivation in other coral genera have been shown to coincide with marked declines in symbiont densities and an increase in the intensity of algal cell degradation in the gastroderm of the coral <ref type="bibr" target="#b57">[56]</ref>. If this observation is general, then rapid symbiont expulsion after acute bleaching might be a slightly different phenomenon than later expulsion during starvation. Furthermore, should these observations be repeated in other localities, species and bleaching events, then enzymatic assays of endoglucanase in seemingly recovered corals might be a practical assay of lingering negative effects of previous bleaching events.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>(d) Lingering physiological impacts of bleaching</head><p>Natural bleaching events can have lasting implications on the physiology of the coral colony. Previous transcriptome studies have shown lasting impacts on immune-related pathways in other genera of corals (Orbicella) exposed to a natural bleaching event, with changes in expression of apoptotic proteins up to a year after bleaching <ref type="bibr" target="#b58">[57]</ref>. The predominant transcriptome response in our current study, involving up to 20% of the transcriptome, persisted up to six months after bleaching, and hundreds of genes remained upregulated for a year after bleaching. Gene expression patterns that linger and do not return to baseline expression following acute experimental heat stress comprise functional annotation clusters for the regulation of the immune system, apoptosis, transcription, and protein signalling <ref type="bibr" target="#b29">[29]</ref>. Corals thriving in naturally extreme thermal environments frontload similar stress response genes as a mechanism to prepare an individual for frequently encountered stress <ref type="bibr" target="#b21">[21]</ref>. The same mechanism may apply to corals exposed to natural warm-water events, where constitutive transcriptional activity is altered in order to better prepare individuals for future stress.</p><p>(e) Bleaching has a persistent effect on the coral transcriptome</p><p>Gene expression biomarkers that can accurately and rapidly assess the health of corals in situ represent a highly soughtafter tool for management that aims to take proactive approaches to coral reef conservation <ref type="bibr" target="#b59">[58]</ref>. In our dataset, individual colony bleaching level predicted eigengenes for five of the six stress modules, as well as the expression of approximately 200 stress response genes, at the final time point in those colonies (electronic supplementary material, <ref type="figure" target="#fig_2">figure S4</ref> and dataset S6). This list of genes included classic stress response genes such as heat-shock proteins and TNF receptors and was functionally enriched for gene products associated with cellular response to chemical stimulus and signalling (electronic supplementary material, dataset S7). It may be the case that corals frontload a sub-set of stress response genes during warm summer months proportional to the level of bleaching stress they experienced the previous summer. If this is the case, then in addition to monitoring the in situ health of a coral colony, gene expression biomarkers may be capable of assaying the bleaching history of a colony even when the main stress response has subsided. Future studies that validate the results of high-throughput sequencing approaches with more classical biomarker development approaches using qPCR and protein assays will help verify whether any of the genes identified in this study using a RNAseq approach represent good candidate biomarkers for bleaching history.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>(f ) Broader implications</head><p>Understanding rates of recovery following severe disturbance is central to forecasting the response of coral reef ecosystems to rapid climate change. Ecological recovery from severe bleaching events can take decades, yet, the individual coral rspb.royalsocietypublishing.org Proc. R. Soc. B 284: 20171790 colony has a much faster recovery trajectory, which is an important component of resilience at the reef level. Our data show that full recovery for the cosmopolitan reefbuilder A. hyacinthus can take more than a year. The long time that individual colonies require to recover fully means that even this rapid mechanism is limited in effect when summer after summer imposes bleaching or sub-bleaching conditions. Different coral species have markedly different rates of recovery <ref type="bibr" target="#b15">[16]</ref>, which together with differential rates of mortality, will drive shifts in community composition and reef function as climate-driven bleaching events become more and more frequent.</p><p>Ethics. Tissue samples were collected under the Department of Marine and Wildlife Resources permit 2016/004 and National Park Service permit NPSA-2016-SCI-0003.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 2 .</head><label>2</label><figDesc>Changes in Symbiodinium communities across the bleaching recovery period. (a) Symbiont densities for each sample date calculated using flow cytometry. (b) Proportion of Symbiodinium clades C (light grey) and D (dark grey) for each colony determined by mapping raw sequence reads to reference Symbiodinium cp23s haplotypes<ref type="bibr" target="#b35">[35]</ref>.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 3 .</head><label>3</label><figDesc>Changes in transcriptional module expression across the bleaching recovery period. Module eigengenes, representing the first principle component of the expression of all genes in that module, are on the y-axis and sample dates are on the x-axis. Significant GO terms ( p.adj , 0.05) are provided above each corresponding plot. Module name and size are provided in corners of plot. (Online version in colour.)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 4 .</head><label>4</label><figDesc>Changes in transcriptome-wide gene expression across the bleaching recovery period. (a) Regression of contig expression for each sample date ( y-axis) against pre-bleaching baseline expression (x-axis). Each point represents a differentially expressed contig (DECs, p.adj , 0.05) identified using DESEQ2. Points above the 1:1 line are upregulated and below the 1:1 are downregulated at the respective date relative to pre-bleaching baseline levels. (b) DAPC of transcriptome-wide gene expression data. Plot displays the density distribution of colonies along the first principle component and arrows mark the direction and magnitude of the transcriptional shift across the recovery period. (Online version in colour.) rspb.royalsocietypublishing.org Proc. R. Soc. B 284: 20171790 two months relative to the pre-bleaching baseline (figure 4b).Consistent with the targeted module analysis, this response intensified at the six month time point in August 2015. The response subsided by 10 months and returned to near pre-bleaching levels by months (figure 4b).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>rspb.royalsocietypublishing.org Proc. R. Soc. B 284: 20171790 supplementary material, table S2). For these four colonies, declines in growth rates and visual bleaching score showed a strong and significant relationship (r 2 ¼ 0.989, p ¼ 0.004). In total, 69 689 086 reads from 35 cDNA libraries were mapped to a reference A. hyacinthus transcriptome consisting of 33 496 coral contigs [21]. On average, 1 991 117 (+144 581 s.e.) reads per sample were successfully mapped to 31 737 contigs, with 13 253 contigs represented by a mean read depth greater than five (electronic supplementary material, table S3). Clustering analyses based on 3946 single nucleotide polymorphisms (SNPs) showed that tissue samples collected on consecutive dates from AH25 actually comprised three distinct genotypes (electronic supplementary material,figure S1), indicating that tissue samples were mistakenly collected from a nearby colony on three of the five sampling dates. As a result, we excluded AH25 for any individual-level gene expression analyses.Symbiodinium cell densities had declined by 51% (+10% s.e.) in colonies two months after bleaching (figure 2). Cell densities rebounded back to pre-bleaching baseline levels at six months and remained stable over the remaining sample dates. An average of 158 reads per sample (range 22-626) mapped to the reference Symbiodinium sequence (cp23S). All colonies were associated predominantly with clade C (showing 0.75-0.95 proportion of clade C mapped reads) at all time points, except for a single colony (AH13) which showed 60% clade D six months after bleaching but over 90% clade C four months before and after this time point (figure 2; electronic supplementary material, table S4). SNP analysis confirmed that AH13 samples were in fact from the same colony in each time point (electronic supplementary material,figure S1).</figDesc><table><row><cell>ID</cell><cell>microclimate</cell><cell>bleaching (%)</cell><cell>symbiont (cp23s)</cell><cell>D growth</cell><cell>mortality (%)</cell></row><row><cell>AH13</cell><cell>0.411</cell><cell>20</cell><cell>C2</cell><cell>20.007</cell><cell>0</cell></row><row><cell>AH14</cell><cell>0.297</cell><cell>20</cell><cell>C2</cell><cell>20.012</cell><cell>0</cell></row><row><cell>AH18</cell><cell>0.155</cell><cell>80</cell><cell>C2</cell><cell>20.06</cell><cell>90</cell></row><row><cell>AH21</cell><cell>0.334</cell><cell>20</cell><cell>C2</cell><cell>-</cell><cell>80</cell></row><row><cell>AH25</cell><cell>0.05</cell><cell>0</cell><cell>C2</cell><cell>0.083</cell><cell>0</cell></row><row><cell>AH91</cell><cell>0.063</cell><cell>30</cell><cell>C2</cell><cell>-</cell><cell>0</cell></row><row><cell>AH95</cell><cell>0.041</cell><cell>40</cell><cell>C2</cell><cell>20.033</cell><cell>0</cell></row><row><cell>(b) RNAseq</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">(c) Symbiont recovery</cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table><note>(d) A prolonged environmental stress response Using Pearson correlations of contig expression and corre- sponding module eigengenes, we determined that six of the stress response modules occurred as co-regulated gene sets in our natural bleaching recovery dataset (RJ6, RJ9, RJ11, R12, R15, R17; electronic supplementary material, figure</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>rspb.royalsocietypublishing.org Proc. R. Soc. B 284: 20171790</figDesc><table><row><cell></cell><cell cols="5">transcription factor activity</cell><cell></cell><cell cols="5">unfolded protein response</cell><cell cols="6">sequence-specific DNA binding</cell><cell></cell><cell cols="2">microtubule motor activity</cell></row><row><cell></cell><cell>RJ6</cell><cell></cell><cell></cell><cell cols="2">251 contigs</cell><cell>0.4</cell><cell>RJ9</cell><cell></cell><cell></cell><cell cols="2">177 contigs</cell><cell>0.008</cell><cell>R12</cell><cell></cell><cell></cell><cell cols="2">277 contigs</cell><cell>0.3</cell><cell>R15</cell><cell>153 contigs</cell></row><row><cell></cell><cell>0.3</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>0.3</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>0.006</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>0.2</cell><cell></cell></row><row><cell>eigengene module</cell><cell>0.2 0.1 0 -0.1</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>0.2 0.1 0 -0.1</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>0.004 0.002 0</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>0.1 0 -0.1</cell><cell></cell></row><row><cell></cell><cell>-0.2</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>-0.2</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>-0.002</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>-0.2</cell><cell></cell></row><row><cell></cell><cell>before</cell><cell>2</cell><cell>6</cell><cell>10</cell><cell>12</cell><cell></cell><cell>before</cell><cell>2</cell><cell>6</cell><cell>10</cell><cell>12</cell><cell></cell><cell>before</cell><cell>2</cell><cell>6</cell><cell>10</cell><cell>12</cell><cell></cell><cell>before</cell><cell>2</cell><cell>6</cell><cell>10</cell><cell>12</cell></row><row><cell></cell><cell cols="5">months after bleaching</cell><cell></cell><cell cols="5">months after bleaching</cell><cell></cell><cell cols="5">months after bleaching</cell><cell></cell><cell cols="2">months after bleaching</cell></row><row><cell cols="12">upregulated in August 2015, the contigs with greatest increase in</cell><cell cols="9">terms including extracellular regions, signalling, plasma mem-</cell></row><row><cell cols="12">expression at the six-month time point in August 2015 were</cell><cell cols="9">brane, response to stimulus and cell projection, among others</cell></row><row><cell cols="12">involved in amino acid modification and metabolism of com-</cell><cell cols="9">(electronic supplementary material, table S7). Downregulated</cell></row><row><cell cols="12">plex sugars, and included two contigs with annotations for</cell><cell cols="9">DECs were functionally enriched for gene products associated</cell></row><row><cell cols="12">glycosyl-hydrolase family 5 proteins (endoglucanase and</cell><cell cols="9">with cellular compartments including vacuoles and endo-</cell></row></table><note>glycosyl hydrolase) and two for aspartate-beta hydroxylase domain containing proteins (electronic supplementary material, table S6 and dataset S2). These contigs were more highly expressed at the six-month time point by 460-to 820-fold across all colonies and returned to normal in subsequent time points (electronic supplementary material, figure S3). Func- tional enrichment analyses showed that upregulated DECs at six months were significantly enriched ( p.adj , 0.05) for GOsomes. By December 2015, 10 months after initial bleaching, the number of DECs relative to pre-bleaching baseline expression declined to 815 (electronic supplementary material, dataset S3), and remained low at the 12 month mark (figure 4a; electronic supplementary material, dataset S4). A discriminant analysis of principle components (DAPC) based on 9839 contigs identified a clear transcriptome-wide shift in expression along the first principle component at</note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">&amp; 2017 The Author(s) Published by the Royal Society. All rights reserved. Downloaded from https://royalsocietypublishing.org/ on 23 August 2021</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">Downloaded from https://royalsocietypublishing.org/ on 23 August 2021</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Acknowledgements. We are grateful for the logistical support from the National Park of American Samoa throughout this study. We would like to thank Noah H. Rose for assistance in the field and with bioinformatics. Thanks are also extended to E. Sheets, M. Morikawa and E. Lopez for their invaluable assistance in the field and for insightful discussion on the data. Finally, we thank two anonymous reviewers for their constructive comments on earlier versions of this manuscript.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Data accessibility. All datasets and files are archived in the Dryad repository: http://dx.doi.org/10.5061/dryad.3444s <ref type="bibr" target="#b60">[59]</ref>.</p><p>Authors' contributions. L.T. and S.R.P. designed the project. L.T. collected the samples and conducted laboratory work. L.T. and S.R.P. analysed the data and drafted the manuscript. L.T. and S.R.P. prepared the final version of this manuscript.</p><p>Competing interests. The authors declare no competing interests. Funding. This research was supported by the Gordon and Betty Moore Foundation and the National Science Foundation's Rapid Response Research (RAPID) OCE-1547921 to S.R.P.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Resilience and stability of ecological systems</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">S</forename><surname>Holling</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev.es.04.110173.000245</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Ecol. Syst</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="1" to="23" />
+			<date type="published" when="1973" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Holling CS. 1973 Resilience and stability of ecological systems. Annu. Rev. Ecol. Syst. 4, 1-23. (doi:10.1146/annurev.es.04.110173.000245)</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Coral reefs in the Anthropocene</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">P</forename><surname>Hughes</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature22901</idno>
+		<idno>doi:10.1038/ nature22901</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">546</biblScope>
+			<biblScope unit="page" from="82" to="90" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hughes TP et al. Coral reefs in the Anthropocene. Nature 546, 82 -90. (doi:10.1038/ nature22901)</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Bleaching, coral mortality and subsequent survivorship on a West Australian fringing reef</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Depczynski</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00338-012-0974-0</idno>
+		<idno>doi:10. 1007/s00338-012-0974-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Coral Reefs</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="233" to="238" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Depczynski M et al. 2012 Bleaching, coral mortality and subsequent survivorship on a West Australian fringing reef. Coral Reefs 32, 233-238. (doi:10. 1007/s00338-012-0974-0)</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Effect of the 1995 -1996 bleaching event on polyp tissue depth, growth, reproduction and skeletal band formation in Montastraea annularis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Mendes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">D</forename><surname>Woodley</surname></persName>
+		</author>
+		<idno type="DOI">10.3354/meps235093</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Ecol. Prog. Ser</title>
+		<imprint>
+			<biblScope unit="volume">235</biblScope>
+			<biblScope unit="page" from="93" to="102" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mendes JM, Woodley JD. 2002 Effect of the 1995 - 1996 bleaching event on polyp tissue depth, growth, reproduction and skeletal band formation in Montastraea annularis. Mar. Ecol. Prog. Ser. 235, 93 -102. (doi:10.3354/meps235093)</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Energy reserves and metabolism as indicators of coral recovery from bleaching</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">J</forename><surname>Rodrigues</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">G</forename><surname>Grottoli</surname></persName>
+		</author>
+		<idno type="DOI">10.4319/lo.2007.52.5.1874</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Limnol. Oceanogr</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="1874" to="1882" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rodrigues LJ, Grottoli AG. 2007 Energy reserves and metabolism as indicators of coral recovery from bleaching. Limnol. Oceanogr. 52, 1874 -1882. (doi:10.4319/lo.2007.52.5.1874)</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Heterotrophic plasticity and resilience in bleached corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">G</forename><surname>Grottoli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">J</forename><surname>Rodrigues</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Palardy</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature04565</idno>
+		<idno>doi:10.1038/ nature04565</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">440</biblScope>
+			<biblScope unit="page" from="1186" to="1189" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Grottoli AG, Rodrigues LJ, Palardy JE. Heterotrophic plasticity and resilience in bleached corals. Nature 440, 1186 -1189. (doi:10.1038/ nature04565)</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Heterotrophic compensation: a possible mechanism for resilience of coral reefs to global warming or a sign of prolonged stress?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">D</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">G</forename><surname>Grottoli</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0081172</idno>
+		<idno>doi:10.1371/ journal.pone.0081172</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1" to="10" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hughes AD, Grottoli AG. 2013 Heterotrophic compensation: a possible mechanism for resilience of coral reefs to global warming or a sign of prolonged stress? PLoS ONE 8, 1 -10. (doi:10.1371/ journal.pone.0081172)</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Coral reefs following the 1987 -1988 coral-bleaching event</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">J</forename><surname>Goreau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">H</forename><surname>Macfarlane</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF00265013</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Coral Reefs</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="211" to="215" />
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Goreau TJ, Macfarlane AH. 1990 Coral reefs following the 1987 -1988 coral-bleaching event. Coral Reefs 8, 211 -215. (doi:10.1007/BF00265013)</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The effects of prolonged &apos;bleaching&apos; on the tissue biomass and reproduction of the reef coral Montastrea annularis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Szmant</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">J</forename><surname>Gassman</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF00265014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Coral Reefs</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="217" to="224" />
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Szmant AM, Gassman NJ. 1990 The effects of prolonged &apos;bleaching&apos; on the tissue biomass and reproduction of the reef coral Montastrea annularis. Coral Reefs 8, 217 -224. (doi:10.1007/BF00265014)</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Mortality, growth and reproduction in scleractinian corals following bleaching on the Great Barrier Reef</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">H</forename><surname>Baird</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">A</forename><surname>Marshall</surname></persName>
+		</author>
+		<idno type="DOI">10.3354/meps237133</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Ecol. Prog. Ser</title>
+		<imprint>
+			<biblScope unit="volume">237</biblScope>
+			<biblScope unit="page" from="133" to="141" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baird AH, Marshall PA. 2002 Mortality, growth and reproduction in scleractinian corals following bleaching on the Great Barrier Reef. Mar. Ecol. Prog. Ser. 237, 133-141. (doi:10.3354/meps237133)</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Can heterotrophic uptake of dissolved organic carbon and zooplankton mitigate carbon budget deficits in annually bleached corals?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Levas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">G</forename><surname>Grottoli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Schoepf</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Aschaffenburg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Baumann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Bauer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E</forename><surname>Warner</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00338-015-1390-z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Coral Reefs</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="495" to="506" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Levas S, Grottoli AG, Schoepf V, Aschaffenburg M, Baumann J, Bauer JE, Warner ME. 2016 Can heterotrophic uptake of dissolved organic carbon and zooplankton mitigate carbon budget deficits in annually bleached corals? Coral Reefs 35, 495-506. (doi:10.1007/s00338-015-1390-z)</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Physiological and biogeochemical traits of bleaching and recovery in the mounding species of coral Porites lobata: implications for resilience in mounding corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">J</forename><surname>Levas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">G</forename><surname>Grottoli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">L</forename><surname>Osburn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Matsui</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0063267</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="32" to="35" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Levas SJ, Grottoli AG, Hughes A, Osburn CL, Matsui Y. 2013 Physiological and biogeochemical traits of bleaching and recovery in the mounding species of coral Porites lobata: implications for resilience in mounding corals. PLoS ONE 8, 32 -35. (doi:10.1371/journal.pone. 0063267)</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Energetics approach to predicting mortality risk from environmental stress: a case study of coral bleaching</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Krn</forename><surname>Anthony</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">O</forename><surname>Hoogenboom</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Maynard</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">G</forename><surname>Grottoli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Middlebrook</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-2435.2008.01531.x</idno>
+		<idno>doi:10.1111/j. 1365-2435.2008.01531</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Funct. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="539" to="550" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Anthony KRN, Hoogenboom MO, Maynard JA, Grottoli AG, Middlebrook R. 2009 Energetics approach to predicting mortality risk from environmental stress: a case study of coral bleaching. Funct. Ecol. 23, 539-550. (doi:10.1111/j. 1365-2435.2008.01531.x)</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Bleached Porites compressa and Montipora capitata corals catabolize d13C-enriched lipids</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">G</forename><surname>Grottoli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">J</forename><surname>Rodrigues</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00338-011-0756-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Coral Reefs</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="687" to="692" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Grottoli AG, Rodrigues LJ. 2011 Bleached Porites compressa and Montipora capitata corals catabolize d13C-enriched lipids. Coral Reefs 30, 687-692. (doi:10.1007/s00338-011-0756-0)</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Physiology and biogeochemistry of bleached and recovering corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">J</forename><surname>Rodrigues</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+			<pubPlace>PA, USA</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Department of Earth and Environmental Science, University of Pennsylvania</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">PhD thesis</note>
+	<note type="raw_reference">Rodrigues LJ. 2005 Physiology and biogeochemistry of bleached and recovering corals. PhD thesis, Department of Earth and Environmental Science, University of Pennsylvania, PA, USA.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Annual coral bleaching and the long-term recovery capacity of coral</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Schoepf</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">G</forename><surname>Grottoli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">J</forename><surname>Levas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">D</forename><surname>Aschaffenburg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">H</forename><surname>Baumann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Matsui</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E</forename><surname>Warner</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rspb.2015.1887</idno>
+		<idno>doi:10. 1098/rspb.2015.1887</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. R. Soc. B</title>
+		<imprint>
+			<biblScope unit="volume">282</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schoepf V, Grottoli AG, Levas SJ, Aschaffenburg MD, Baumann JH, Matsui Y, Warner ME. 2015 Annual coral bleaching and the long-term recovery capacity of coral. Proc. R. Soc. B 282, 20151887. (doi:10. 1098/rspb.2015.1887)</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Coral bleaching reduces reproduction of scleractinian corals and increases susceptibility to future stress</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Harrison</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Hoegh-Guldberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. 9th Int. Coral Reef Symp</title>
+		<meeting>9th Int. Coral Reef Symp</meeting>
+		<imprint>
+			<date type="published" when="2002" />
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1123" to="1128" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ward S, Harrison P, Hoegh-guldberg O. 2002 Coral bleaching reduces reproduction of scleractinian corals and increases susceptibility to future stress. Proc. 9th Int. Coral Reef Symp. 2, 1123-1128.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Coral reefs after the 1987 Caribbean &apos;bleaching event&apos;</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">K</forename><surname>Fitt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">J</forename><surname>Spero</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Halas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">W</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">W</forename><surname>Porter</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF00302102</idno>
+		<idno>doi:10.1007/ BF00302102</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Coral Reefs</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="57" to="64" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fitt WK, Spero HJ, Halas J, White MW, Porter JW. 1993 Coral reefs after the 1987 Caribbean &apos;bleaching event&apos;. Coral Reefs 12, 57 -64. (doi:10.1007/ BF00302102)</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Transcriptomic resilience to global warming in the seagrass Zostera marina, a marine foundation species</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">U</forename><surname>Franssen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Bergmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Winters</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><forename type="middle">C</forename><surname>Klostermeier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Rosenstiel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Bornberg-Bauer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tbh</forename><surname>Reusch</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1107680108</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="276" to="295" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Franssen SU, Gu J, Bergmann N, Winters G, Klostermeier UC, Rosenstiel P, Bornberg-Bauer E, Reusch TBH. 2011 Transcriptomic resilience to global warming in the seagrass Zostera marina, a marine foundation species. Proc. Natl Acad. Sci. USA 108, 19 276-19 281. (doi:10.1073/pnas.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Resistance to thermal stress in corals without changes in symbiont composition</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename><surname>Bellantuono</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Hoegh-Guldberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Rodriguez-Lanetty</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">20. Bellantuono AJ, Hoegh-guldberg O, Rodriguez- Lanetty M. 2012 Resistance to thermal stress in corals without changes in symbiont composition.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<idno type="DOI">10.1098/rspb.2011.1780</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. R. Soc. B</title>
+		<imprint>
+			<biblScope unit="volume">279</biblScope>
+			<biblScope unit="page" from="1100" to="1107" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Proc. R. Soc. B 279, 1100-1107. (doi:10.1098/rspb. 2011.1780)</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Genomic basis for coral resilience to climate change</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Barshis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">T</forename><surname>Ladner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Oliver</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">O</forename><surname>Seneca</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Traylor-Knowles</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Palumbi</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1210224110</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="1387" to="1392" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Barshis DJ, Ladner JT, Oliver T, Seneca FO, Traylor- Knowles N, Palumbi SR. 2013 Genomic basis for coral resilience to climate change. Proc. Natl Acad. Sci. USA 110, 1387 -1392. (doi:10.1073/pnas. 1210224110)</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Rapid acclimation ability mediated by transcriptome changes in reef-building corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">A</forename><surname>Bay</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Palumbi</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/gbe/evv085</idno>
+		<idno>doi:10. 1093/gbe/evv085</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1602" to="1612" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bay RA, Palumbi SR. 2015 Rapid acclimation ability mediated by transcriptome changes in reef-building corals. Genome Biol. Evol. 7, 1602-1612. (doi:10. 1093/gbe/evv085)</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Survey of Cnidarian gene expression profiles in response to environmental stressors: summarizing 20 years of research, what are we heading for?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Maor-Landaw</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O ; S</forename><surname>Levy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Goffredo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Dubinsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The Cnidaria, past, present and future</title>
+		<meeting><address><addrLine>Basel, Switzerland</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2016" />
+			<biblScope unit="page" from="523" to="543" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maor-landaw K, Levy O. 2016 Survey of Cnidarian gene expression profiles in response to environmental stressors: summarizing 20 years of research, what are we heading for? In The Cnidaria, past, present and future (eds S Goffredo, Z Dubinsky), pp. 523-543. Basel, Switzerland: Springer International Publishing.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Global warming and recurrent mass bleaching of corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">P</forename><surname>Hughes</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature21707</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">543</biblScope>
+			<biblScope unit="page" from="373" to="377" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hughes TP et al. 2017 Global warming and recurrent mass bleaching of corals. Nature 543, 373-377. (doi:10.1038/nature21707)</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Environmental versus genetic influences on growth rates of the corals Pocillopora eydouxi and Porites lobata</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">W</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Wirshing</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Birkeland</surname></persName>
+		</author>
+		<idno type="DOI">10.2984/1534-6188</idno>
+		<idno>doi:10.2984/ 1534-6188</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Pacific Sci</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="57" to="69" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Smith LW, Wirshing H, Baker AC, Birkeland C. Environmental versus genetic influences on growth rates of the corals Pocillopora eydouxi and Porites lobata. Pacific Sci. 62, 57 -69. (doi:10.2984/ 1534-6188)</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Extensive sympatry, cryptic diversity and introgression throughout the geographic distribution of two coral species complexes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">T</forename><surname>Ladner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Palumbi</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-294X.2012.05528.x</idno>
+		<idno>doi:10. 1111/j.1365-294X.2012.05528</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="2224" to="2238" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ladner JT, Palumbi SR. 2012 Extensive sympatry, cryptic diversity and introgression throughout the geographic distribution of two coral species complexes. Mol. Ecol. 21, 2224 -2238. (doi:10. 1111/j.1365-294X.2012.05528.x)</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Gene networks in the wild: identifying transcriptional modules that mediate coral resistance to experimental heat stress</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Rose</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">O</forename><surname>Seneca</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Palumbi</surname></persName>
+		</author>
+		<idno type="DOI">10.5061/dryad.and</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="243" to="252" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rose N, Seneca FO, Palumbi SR. 2016 Gene networks in the wild: identifying transcriptional modules that mediate coral resistance to experimental heat stress. Genome Biol. Evol. 8, 243-252. (doi:10.5061/dryad.and)</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Tidal heat pulses on a reef trigger a fine-tuned transcriptional response in corals to maintain homeostasis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">J</forename><surname>Ruiz-Jones</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Palumbi</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/sciadv.1601298</idno>
+	</analytic>
+	<monogr>
+		<title level="j">rspb.royalsocietypublishing.org Proc. R. Soc. B</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">20171790</biblScope>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note>Sci. Adv.</note>
+	<note type="raw_reference">Ruiz-jones LJ, Palumbi SR. 2017 Tidal heat pulses on a reef trigger a fine-tuned transcriptional response in corals to maintain homeostasis. Sci. Adv. 3, 1 -10. (doi:10.1126/sciadv.1601298) rspb.royalsocietypublishing.org Proc. R. Soc. B 284: 20171790</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">The role of transcriptome resilience in resistance of corals to bleaching</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">O</forename><surname>Seneca</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Palumbi</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/mec.13125</idno>
+		<idno>doi:10.1111/ mec.13125</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="1387" to="1641" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Seneca FO, Palumbi SR. 2015 The role of transcriptome resilience in resistance of corals to bleaching. Mol. Ecol. 24, 1387-1641. (doi:10.1111/ mec.13125)</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">NIH Image to ImageJ: 25 years of image analysis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">S</forename><surname>Rasband</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">W</forename><surname>Eliceiri</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmeth.2089</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="671" to="675" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schneider CA, Rasband WS, Eliceiri KW. 2012 NIH Image to ImageJ: 25 years of image analysis. Nat. Methods 9, 671-675. (doi:10.1038/nmeth.2089)</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">In press. Long term growth rates and effects of bleaching in Acropora hyacinthus</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Gold</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Palumbi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Coral Reefs</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Gold Z, Palumbi SR. In press. Long term growth rates and effects of bleaching in Acropora hyacinthus. Coral Reefs.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Rapid, precise, and accurate counts of Symbiodinium cells using the guava flow cytometer, and a comparison to other methods</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">J</forename><surname>Krediet</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Denofrio</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Caruso</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">S</forename><surname>Burriesci</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Cella</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Pringle</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0135725</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Krediet CJ, DeNofrio JC, Caruso C, Burriesci MS, Cella K, Pringle JR. 2015 Rapid, precise, and accurate counts of Symbiodinium cells using the guava flow cytometer, and a comparison to other methods. PLoS ONE 10, e0135725. (doi:10.1371/journal.pone. 0135725)</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Fast gappedread alignment with Bowtie 2</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Langmead</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">L</forename><surname>Salzberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmeth.1923</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="357" to="359" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Langmead B, Salzberg SL. 2012 Fast gapped- read alignment with Bowtie 2. Nat. Methods 9, 357-359. (doi:10.1038/nmeth.1923)</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">The sequence alignment/map format and SAMtools</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Handsaker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Wysoker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Fennell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Ruan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Homer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Marth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Abecasis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Durbin</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btp352</idno>
+		<idno>doi:10.1093/ bioinformatics/btp352</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="2078" to="2079" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li H, Handsaker B, Wysoker A, Fennell T, Ruan J, Homer N, Marth G, Abecasis G, Durbin R. 2009 The sequence alignment/map format and SAMtools. Bioinformatics 25, 2078-2079. (doi:10.1093/ bioinformatics/btp352)</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Many corals host thermally resistant symbionts in high-temperature habitat</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Oliver</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Palumbi</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00338-010-0696-0</idno>
+		<idno>doi:10.1007/ s00338-010-0696-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Coral Reefs</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="241" to="250" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Oliver T, Palumbi SR. 2010 Many corals host thermally resistant symbionts in high-temperature habitat. Coral Reefs 30, 241 -250. (doi:10.1007/ s00338-010-0696-0)</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">Haplotype-based variant detection from short-read sequencing</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Garrison</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Marth</surname></persName>
+		</author>
+		<ptr target="http://arxiv.org/abs/1207.3907" />
+		<imprint>
+			<date type="published" when="2012" />
+			<biblScope unit="volume">1207</biblScope>
+			<biblScope unit="page">3907</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Garrison E, Marth G. 2012 Haplotype-based variant detection from short-read sequencing. ArXiv e-prints 2012, 1207:3907. (http://arxiv.org/abs/1207.3907)</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">The variant call format and VCFtools</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Danecek</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btr330</idno>
+		<idno>doi:10. 1093/bioinformatics/btr330</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="2156" to="2158" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Danecek P et al. 2011 The variant call format and VCFtools. Bioinformatics 27, 2156-2158. (doi:10. 1093/bioinformatics/btr330)</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Systems genetics approaches to understand complex traits</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Civelek</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename><surname>Lusis</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nrg3575</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Genet</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="34" to="48" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Civelek M, Lusis AJ. 2014 Systems genetics approaches to understand complex traits. Nat. Rev. Genet. 15, 34 -48. (doi:10.1038/nrg3575)</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Moderated estimation of fold change and dispersion for RNAseq data with DESeq2</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">I</forename><surname>Love</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Huber</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Anders</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s13059-014-0550-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Love MI, Huber W, Anders S. 2014 Moderated estimation of fold change and dispersion for RNA- seq data with DESeq2. Genome Biol. 15, 550. (doi:10.1186/s13059-014-0550-8)</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<title level="m" type="main">WGCNA: an R package for weighted correlation network analysis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Langfelder</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Horvath</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Langfelder P, Horvath S. 2008 WGCNA: an R package for weighted correlation network analysis.</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+		<idno type="DOI">10.1186/1471-2105-9-559</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">BMC Bioinformatics 9, 559. (doi:10.1186/1471-2105- 9-559)</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Adegenet: an R package for the multivariate analysis of genetic markers</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Jombart</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btn129</idno>
+		<idno>doi:10.1093/ bioinformatics/btn129</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="1403" to="1405" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jombart T. 2008 Adegenet: an R package for the multivariate analysis of genetic markers. Bioinformatics 24, 1403-1405. (doi:10.1093/ bioinformatics/btn129)</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Calcification rate and the stable carbon, oxygen, and nitrogen isotopes in the skeleton, host tissue, and zooxanthellae of bleached and recovering Hawaiian corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">J</forename><surname>Rodrigues</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">G</forename><surname>Grottoli</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.gca.2006.02.014</idno>
+		<idno>doi:10.1016/j. gca.2006.02.014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="2781" to="2789" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rodrigues LJ, Grottoli AG. 2006 Calcification rate and the stable carbon, oxygen, and nitrogen isotopes in the skeleton, host tissue, and zooxanthellae of bleached and recovering Hawaiian corals. Geochim. Cosmochim. Acta 70, 2781-2789. (doi:10.1016/j. gca.2006.02.014)</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">The cumulative impact of annual coral bleaching can turn some coral species winners into losers</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">G</forename><surname>Grottoli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E</forename><surname>Warner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">J</forename><surname>Levas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">D</forename><surname>Aschaffenburg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Schoepf</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Mcginley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Baumann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Matsui</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/gcb.12658</idno>
+		<idno>doi:10. 1111/gcb.12658</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Glob. Chang. Biol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="3823" to="3833" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Grottoli AG, Warner ME, Levas SJ, Aschaffenburg MD, Schoepf V, Mcginley M, Baumann J, Matsui Y. The cumulative impact of annual coral bleaching can turn some coral species winners into losers. Glob. Chang. Biol. 20, 3823-3833. (doi:10. 1111/gcb.12658)</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Seasonal patterns of tissue biomass and densities of symbiotic dinoflagellates in reef corals and relation to coral bleaching</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">K</forename><surname>Fitt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">K</forename><surname>Mcfarland</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E</forename><surname>Warner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">C</forename><surname>Chilcoat</surname></persName>
+		</author>
+		<idno type="DOI">10.4319/lo.2000.45.3.0677</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Limnol. Oceanogr</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="677" to="685" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fitt WK, McFarland FK, Warner ME, Chilcoat GC. 2000 Seasonal patterns of tissue biomass and densities of symbiotic dinoflagellates in reef corals and relation to coral bleaching. Limnol. Oceanogr. 45, 677 -685. (doi:10.4319/lo.2000. 45.3.0677)</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">A community change in the algal endosymbionts of a scleractinian coral following a natural bleaching event: field evidence of acclimatization</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Berkelmans</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mjh</forename><surname>Van Oppen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Mieog</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Sinclair</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rspb.2008.0069</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. R. Soc. B</title>
+		<imprint>
+			<biblScope unit="volume">275</biblScope>
+			<biblScope unit="page" from="1359" to="1365" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jones AM, Berkelmans R, van Oppen MJH, Mieog JC, Sinclair W. 2008 A community change in the algal endosymbionts of a scleractinian coral following a natural bleaching event: field evidence of acclimatization. Proc. R. Soc. B 275, 1359-1365. (doi:10.1098/rspb.2008.0069)</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Reef corals bleach to survive change</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Baker</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/35081151</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">411</biblScope>
+			<biblScope unit="page" from="765" to="766" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baker AC. 2001 Reef corals bleach to survive change. Nature 411, 765-766. (doi:10.1038/35081151)</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">The role of zooxanthellae in the thermal tolerance of corals: a &apos;nugget of hope&apos; for coral reefs in an era of climate change</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Berkelmans</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mjh</forename><surname>Van Oppen</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rspb.2006.3567</idno>
+		<idno>doi:10. 1098/rspb.2006.3567</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. R. Soc. B</title>
+		<imprint>
+			<biblScope unit="volume">273</biblScope>
+			<biblScope unit="page" from="2305" to="2312" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Berkelmans R, van Oppen MJH. 2006 The role of zooxanthellae in the thermal tolerance of corals: a &apos;nugget of hope&apos; for coral reefs in an era of climate change. Proc. R. Soc. B 273, 2305 -2312. (doi:10. 1098/rspb.2006.3567)</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Mechanisms of reef coral resistance to future climate change</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Palumbi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Barshis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Taylor-Knowles</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">A</forename><surname>Bay</surname></persName>
+		</author>
+		<idno type="DOI">10.1071/MF99078</idno>
+		<idno>doi:10. 1071/MF99078</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">344</biblScope>
+			<biblScope unit="page" from="895" to="898" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Palumbi SR, Barshis DJ, Taylor-Knowles N, Bay RA. 2014 Mechanisms of reef coral resistance to future climate change. Science 344, 895-898. (doi:10. 1071/MF99078)</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">The genomics of yeast responses to environmental stress and starvation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">P</forename><surname>Gasch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Werner-Washburne</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10142-002-0058-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Funct. Integr. Genomics</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="181" to="192" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gasch AP, Werner-Washburne M. 2002 The genomics of yeast responses to environmental stress and starvation. Funct. Integr. Genomics 2, 181 -192. (doi:10.1007/s10142-002-0058-2)</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Ancient origin of glycosyl hydrolase family 9 cellulase genes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Davison</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Blaxter</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/molbev/msi107</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Biol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="1273" to="1284" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Davison A, Blaxter M. 2005 Ancient origin of glycosyl hydrolase family 9 cellulase genes. Mol. Biol. Evol. 22, 1273-1284. (doi:10.1093/molbev/msi107)</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">The dynamic genome of Hydra</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Chapman</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature08830</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">464</biblScope>
+			<biblScope unit="page" from="592" to="596" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chapman JA et al. 2010 The dynamic genome of Hydra. Nature 464, 592-596. (doi:10.1038/nature08830)</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">The genome of Aiptasia, a sea anemone model for coral symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Baumgarten</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1513318112</idno>
+		<idno>doi:10.1073/ pnas.1513318112</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="893" to="904" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baumgarten S et al. 2015 The genome of Aiptasia, a sea anemone model for coral symbiosis. Proc. Natl Acad. Sci. USA 112, 11 893-11 898. (doi:10.1073/ pnas.1513318112)</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Revised description of the fine structure of in situ &apos;Zooxanthellae&apos; genus Symbiodinium</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">S</forename><surname>Wakefield</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Farmer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">C</forename><surname>Kempf</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/1542709</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Bull</title>
+		<imprint>
+			<biblScope unit="volume">199</biblScope>
+			<biblScope unit="page" from="76" to="84" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wakefield TS, Farmer MA, Kempf SC. Revised description of the fine structure of in situ &apos;Zooxanthellae&apos; genus Symbiodinium. Biol. Bull. 199, 76-84. (doi:10.2307/1542709)</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">The activity of a wallbound cellulase is required for and is coupled to cell cycle progression in the dinoflagellate Crypthecodinium cohnii</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Acm</forename><surname>Kwok</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jty</forename><surname>Wong</surname></persName>
+		</author>
+		<idno type="DOI">10.1105/tpc.109.070243</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Cell</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="1281" to="1298" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kwok ACM, Wong JTY. 2010 The activity of a wall- bound cellulase is required for and is coupled to cell cycle progression in the dinoflagellate Crypthecodinium cohnii. Plant Cell 22, 1281-1298. (doi:10.1105/tpc.109.070243)</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Expanding the Symbiodinium toolkit through protoblast technology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Levin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Suggett</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Nitschke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Van Oppen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Steinberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/jeu.12393</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eukaryot. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="588" to="597" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Levin R, Suggett D, Nitschke M, van Oppen M, Steinberg P. 2017 Expanding the Symbiodinium toolkit through protoblast technology. Eukaryot. Microbiol. 64, 588-597. (doi:10.1111/jeu.12393)</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Degradation of zooxanthellae and regulation of their density in hermatypic corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">A</forename><surname>Titlyanov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">V</forename><surname>Titlyanova</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">A</forename><surname>Leletkin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Tsukahara</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Van Woesik</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Yamazato</surname></persName>
+		</author>
+		<idno type="DOI">10.3354/meps139167</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Ecol. Prog. Ser</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="page" from="167" to="178" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Titlyanov EA, Titlyanova TV, Leletkin VA, Tsukahara J, Van Woesik R, Yamazato K. 1996 Degradation of zooxanthellae and regulation of their density in hermatypic corals. Mar. Ecol. Prog. Ser. 139, 167-178. (doi:10.3354/meps139167)</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Whole transcriptome analysis reveals changes in expression of immunerelated genes during and after bleaching in a reefbuilding coral</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">H</forename><surname>Pinzón</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Kamel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Burge</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">D</forename><surname>Harvell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Medina</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Weil</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">D</forename><surname>Mydlarz</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rsos.140214</idno>
+		<idno>doi:10. 1098/rsos.140214</idno>
+	</analytic>
+	<monogr>
+		<title level="j">R. Soc. open sci</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pinzón JH, Kamel B, Burge CA, Harvell CD, Medina M, Weil E, Mydlarz LD. 2015 Whole transcriptome analysis reveals changes in expression of immune- related genes during and after bleaching in a reef- building coral. R. Soc. open sci. 2, 140214. (doi:10. 1098/rsos.140214)</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Gene expression biomarkers of heat stress in scleractinian corals: promises and limitations</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">D</forename><surname>Louis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Bhagooli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">D</forename><surname>Kenkel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">D</forename><surname>Dyall</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cbpc.2016.08.007</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Comp. Biochem. Physiol. Part C Toxicol. Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">191</biblScope>
+			<biblScope unit="page" from="63" to="77" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Louis YD, Bhagooli R, Kenkel CD, Baker AC, Dyall SD. 2016 Gene expression biomarkers of heat stress in scleractinian corals: promises and limitations. Comp. Biochem. Physiol. Part C Toxicol. Pharmacol. 191, 63-77. (doi:10.1016/j.cbpc.2016.08.007)</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Data from: The genomics of recovery from coral bleaching</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Palumbi</surname></persName>
+		</author>
+		<idno type="DOI">10.5061/dryad.3444s</idno>
+		<ptr target="http://dx.doi.org/10.5061/dryad.3444s)rspb.royalsocietypublishing.org" />
+	</analytic>
+	<monogr>
+		<title level="j">Dryad Digital Repository</title>
+		<imprint>
+			<biblScope unit="volume">284</biblScope>
+			<biblScope unit="page">20171790</biblScope>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note>Proc. R. Soc. B</note>
+	<note type="raw_reference">Thomas L, Palumbi SR. 2017 Data from: The genomics of recovery from coral bleaching. Dryad Digital Repository. (http://dx.doi.org/10.5061/dryad.3444s) rspb.royalsocietypublishing.org Proc. R. Soc. B 284: 20171790</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,1972 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/grace/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Mycosporine-Like Amino Acids (MAAs) in Zooplankton</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2020-01-23">23 January 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Samuel</forename><surname>Hylander</surname></persName>
+							<email>samuel.hylander@lnu.se</email>
+							<affiliation key="aff0">
+								<orgName type="department">Centre for Ecology and Evolution</orgName>
+								<orgName type="institution" key="instit1">Microbial Model Systems-EEMiS</orgName>
+								<orgName type="institution" key="instit2">Linnaeus University</orgName>
+								<address>
+									<postCode>SE-39182</postCode>
+									<settlement>Kalmar</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Mycosporine-Like Amino Acids (MAAs) in Zooplankton</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-01-23">23 January 2020</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.3390/md18020072</idno>
+					<note type="submission">Received: 29 November 2019; Accepted: January 2020;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-09-14T02:33+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>copepod</term>
+					<term>rotifer</term>
+					<term>daphnia</term>
+					<term>cladocera</term>
+					<term>krill</term>
+					<term>photoprotective compounds</term>
+					<term>ultraviolet radiation</term>
+					<term>UV</term>
+					<term>pigments</term>
+					<term>carotenoids</term>
+					<term>database</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Organisms have different adaptations to avoid damage from ultraviolet radiation and one such adaptation is the accumulation of mycosporine-like amino acids (MAAs). These compounds are common in aquatic taxa but a comprehensive review is lacking on their distribution and function in zooplankton. This paper shows that zooplankton MAA concentrations range from non-detectable to ~13 μg mgDW −1. Copepods, rotifers, and krill display a large range of concentrations, whereas cladocerans generally do not contain MAAs. The proposed mechanisms to gain MAAs are via ingestion of MAA-rich food or via symbiotic bacteria providing zooplankton with MAAs. Exposure to UV-radiation increases the concentrations in zooplankton both via increasing MAA concentrations in the phytoplankton food and due to active accumulation. Concentrations are generally low during winter and higher in summer and females seem to deposit MAAs in their eggs. The concentrations of MAAs in zooplankton tend to increase with altitude but only up to a certain altitude suggesting some limitation for the uptake. Shallow and UV-transparent systems tend to have copepods with higher concentrations of MAAs but this has only been shown in a few species. A high MAA concentration has also been shown to lead to lower UV-induced mortality and an overall increased fitness. While there is a lot of information on MAAs in zooplankton we still lack understanding of the potential costs and constraints for accumulation. There is also scarce information in some taxa such as rotifers as well as from systems in tropical, sub(polar) areas as well as in marine systems in general.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Ultraviolet radiation constitutes a small proportion of the solar spectrum but can cause significant damage to DNA and other cellular structures and in the end affect ecosystems and human health <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2]</ref>. UV is also a natural environmental factor that has been present throughout evolutionary time <ref type="bibr" target="#b2">[3]</ref> but recent human-induced pollution with release of ozone depleting substances has raised concern that UV-exposure will change <ref type="bibr" target="#b0">[1]</ref>. Organisms have different adaptations to avoid UVinduced damage for example behavioral avoidance, cell repair, antioxidant defenses and accumulation of photoprotective compounds <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b4">[4]</ref><ref type="bibr" target="#b5">[5]</ref><ref type="bibr" target="#b6">[6]</ref><ref type="bibr" target="#b7">[7]</ref><ref type="bibr" target="#b8">[8]</ref>. Mycosporine-like amino acids, so called MAAs, are one group of such photoprotective compounds with absorption maxima ranging from 310-360 nm and they are known to occur in a wide range of both aquatic and terrestrial taxa <ref type="bibr" target="#b5">[5,</ref><ref type="bibr" target="#b7">7,</ref><ref type="bibr" target="#b9">9]</ref>. The distribution and functions of MAAs have been covered in several general reviews <ref type="bibr" target="#b4">[4,</ref><ref type="bibr" target="#b5">5,</ref><ref type="bibr" target="#b7">7,</ref><ref type="bibr" target="#b8">8]</ref> but none of these reviews have focused on the role and significance of MAAs in zooplankton. These consumers are key components in the aquatic food web transferring energy and matter from lower trophic levels, such as phytoplankton and bacteria, and are themselves a key prey items for planktivorous fish. Hence, it is important to understand the zooplankton biology and the role of MAAs in zooplankton ecology. Some of the first records of MAAs in zooplankton came from clear alpine lakes <ref type="bibr" target="#b10">[10,</ref><ref type="bibr" target="#b11">11]</ref> and from marine Antarctic copepods <ref type="bibr" target="#b9">[9]</ref>, and the development of precise methods for quantifying MAAs in plankton using high-performance liquid chromatography (HPLC) was important for the development of this field <ref type="bibr" target="#b12">[12]</ref>. The knowledge has since then expanded and this paper reviews and synthetizes the literature covering the presence and significance of MAAs in freshwater and marine zooplankton. I focus on MAA concentration ranges in different taxa of zooplankton including copepods, cladocerans, rotifers and krill in different habitats. I describe the mechanisms for gaining MAAs, seasonal dynamics as well as differences in MAA concentrations along environmental gradients. Finally, I review and discuss the function of MAAs in zooplankton.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Results and Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Concentrations in Different Taxa</head><p>MAAs have been detected in several zooplankton taxa in a total of 43 species <ref type="figure" target="#fig_0">(Figure 1</ref>, see references in figure text). This is a small proportion of all known zooplankton species. For example, there are in the order of 13,000 copepod species worldwide and 2800 of these live in freshwater systems <ref type="bibr" target="#b13">[13]</ref>. Concentrations in copepods generally range from close to zero up to approximately 13 μg mgDW −1 (i.e., concentration of MAAs per dry weight) and median concentrations in freshwater calanoid and cyclopoid copepods are 1.2 and 3.1 μg mgDW −1 , respectively ( <ref type="figure" target="#fig_0">Figure 1A</ref>). In total 16 species of calanoids and four cyclopoid species have been analyzed coming from 37 and 14 lakes, respectively. The three most common genera in the database are Cyclops sp., Boeckella sp. and Leptodiaptomus sp. where the two former have a larger range of reported MAA concentrations and higher median values compared to Leoptodiaptomus sp. ( <ref type="figure" target="#fig_0">Figure 1B</ref>).  <ref type="table">Table  S1</ref> and has been extracted from published estimates of MAA concentrations when authors have used HPLC-methods in the quantification <ref type="bibr" target="#b14">[14]</ref><ref type="bibr" target="#b15">[15]</ref><ref type="bibr" target="#b16">[16]</ref><ref type="bibr" target="#b17">[17]</ref><ref type="bibr" target="#b18">[18]</ref><ref type="bibr" target="#b19">[19]</ref><ref type="bibr" target="#b20">[20]</ref><ref type="bibr" target="#b21">[21]</ref><ref type="bibr" target="#b22">[22]</ref><ref type="bibr" target="#b23">[23]</ref><ref type="bibr" target="#b24">[24]</ref><ref type="bibr" target="#b25">[25]</ref><ref type="bibr" target="#b26">[26]</ref><ref type="bibr" target="#b27">[27]</ref><ref type="bibr" target="#b28">[28]</ref><ref type="bibr" target="#b29">[29]</ref><ref type="bibr" target="#b30">[30]</ref><ref type="bibr" target="#b31">[31]</ref>.</p><p>Hence, freshwater copepods are relatively well covered in the literature. However, the cyclopoid data is heavily skewed towards one species (Cyclops abyssorum tatricus) providing 80% of the total data on cyclopoids whereas data on calanoid copepods is more evenly distributed among species. More than 90% of the freshwater MAA estimates derive from latitudes 40-49 N and S and the data coverage around the equator and poles is scarce ( <ref type="figure" target="#fig_1">Figure 2B</ref>). When it comes to altitude, most studies are performed at 0-500 m and 2000-2500 m above sea level <ref type="figure" target="#fig_1">(Figure 2A</ref>).  <ref type="table">Table  S1</ref> and have been extracted from published estimates of MAA concentrations where authors have used HPLC-quantification methods <ref type="bibr" target="#b14">[14]</ref><ref type="bibr" target="#b15">[15]</ref><ref type="bibr" target="#b16">[16]</ref><ref type="bibr" target="#b17">[17]</ref><ref type="bibr" target="#b18">[18]</ref><ref type="bibr" target="#b19">[19]</ref><ref type="bibr" target="#b20">[20]</ref><ref type="bibr" target="#b21">[21]</ref><ref type="bibr" target="#b22">[22]</ref><ref type="bibr" target="#b23">[23]</ref><ref type="bibr" target="#b24">[24]</ref><ref type="bibr" target="#b25">[25]</ref><ref type="bibr" target="#b26">[26]</ref><ref type="bibr" target="#b27">[27]</ref><ref type="bibr" target="#b28">[28]</ref><ref type="bibr" target="#b29">[29]</ref><ref type="bibr" target="#b30">[30]</ref><ref type="bibr" target="#b31">[31]</ref>.</p><p>Marine copepods are much less studied with data only provided from three different studies including seven species of calanoids and three cyclopoid copepod species <ref type="figure" target="#fig_0">(Figure 1</ref>, see references in figure text). Of the few species that have been analyzed they generally have smaller ranges in MAA concentrations compared to freshwater systems ranging from non-detectable to 2.6 and 0.2 μg mgDW −1 , respectively <ref type="figure" target="#fig_0">(Figure 1</ref>; median 0.2 and 0.05 for marine calanoid and cyclopoid copepods, respectively). Even though sampling effort has been relatively low in marine zooplankton, one cruise has covered a vast transect from latitudes 40 N to 40 S ( <ref type="figure" target="#fig_2">Figure 3</ref>) and another study covered several months of seasonal dynamics from the Arctic <ref type="bibr" target="#b14">[14,</ref><ref type="bibr" target="#b19">19]</ref>. For example, the ecologically and economically important genus Calanus spp. have MAA concentrations ranging from non-detectable to 1.6 μg mgDW −1 but this has only been analyzed in one study <ref type="bibr" target="#b19">[19]</ref>. For other marine species, apart from Calanus, only few recordings occur per genus <ref type="figure" target="#fig_0">(Figure 1 and 3)</ref>.</p><p>Six species of cladocerans coming from 13 different lakes have been sampled for MAAs <ref type="table">(Figure  and Supplementary material Table S1</ref>). There is one example of Daphnia sp. containing significant concentrations of MAAs <ref type="bibr" target="#b25">[25]</ref> but this is based on a single sample and all other analyses have found no MAAs or only in trace amounts (~0.02 μg mgDW −1 , <ref type="figure" target="#fig_0">Figure 1</ref>). The general conclusion is therefore that cladocerans do not contain MAAs in the body tissues and trace amounts detected could be from the ingested food <ref type="bibr" target="#b24">[24,</ref><ref type="bibr" target="#b32">32]</ref>.</p><p>Rotifers are not as well studied as the other zooplankton groups and only five species have been analyzed from a single lake <ref type="bibr" target="#b22">[22]</ref>. MAA concentrations range from 0-6 μg mgDW −1 . Also Asplanchna priodonta, Keratella cochlearis, and Polyarthra dolichoptera have been analyzed for MAAs in another study where A. priodonta had no MAAs and the latter two contained a suite of different MAAs but total concentrations were not reported <ref type="bibr" target="#b32">[32]</ref>. Krill seem to have the ability to take up MAAs from the food source <ref type="bibr" target="#b33">[33]</ref> and in the few field data that are available concentrations ranged from 1.6-5.1 μg mgDW −1 (calculated to this unit assuming molecular weight of shinorine) <ref type="bibr" target="#b34">[34]</ref>. Hence, in general MAAs seem to be present in copepods, rotifers, and krill but not in cladocerans. The number of samplings are significant when it comes to freshwater copepods but MAA concentrations have mainly been studied at latitudes 40-49 N/S and studies closer to the poles and equator are to a large extent lacking. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Mechanism for Gaining the MAAs (Feeding, Symbiosis, Production)</head><p>The current view is that MAAs are not produced by animals and zooplankton have to gain them in some way, either via the diet or as recently suggested via symbiotic bacteria in the gut. However, recent studies have found that some animals (e.g., some fish, amphibians, reptiles, and birds) have the pathways and ability to produce a MAA precursor called gadusol <ref type="bibr" target="#b35">[35]</ref>. Furthermore, genes related to MAA-production have been found in sea anemones suggesting that some animals in fact may have the possibility to produce MAAs <ref type="bibr" target="#b36">[36,</ref><ref type="bibr" target="#b37">37]</ref> but this has not been shown among zooplankton and the discussion below is therefore focused on dietary and symbiotic pathways for gaining MAAs. Dietary MAAs are only available in some phytoplankton and concentrations in seston vary among systems <ref type="bibr" target="#b38">[38,</ref><ref type="bibr" target="#b39">39]</ref>. Several studies have analyzed if there is a correlation between field concentrations of MAAs in seston and zooplankton and this correlation is generally relatively weak to nonsignificant <ref type="bibr" target="#b30">[30,</ref><ref type="bibr" target="#b32">32,</ref><ref type="bibr" target="#b40">40]</ref>. However, stronger relationships have been demonstrated if a lag phase of a couple of weeks is introduced between copepod and seston MAAs <ref type="bibr" target="#b30">[30]</ref> suggesting that the copepod concentrations is a reflection of the previous feeding history. Furthermore, populations of the same species deriving from different lakes display different MAA dynamics suggesting that isolation of populations in areas with different UV exposure and temperatures regimes leads to local adaptation in terms of MAA accumulation capability <ref type="bibr" target="#b16">[16]</ref>.</p><p>It has been shown several times that MAA concentrations are higher in copepods fed with food items containing MAAs as compared to controls with other food sources devoid of MAAs <ref type="bibr" target="#b21">[21,</ref><ref type="bibr" target="#b23">23,</ref><ref type="bibr" target="#b40">40,</ref><ref type="bibr" target="#b41">41]</ref>. Furthermore, MAA concentrations increase even more when copepods are simultaneously exposed to UV-radiation ( <ref type="figure" target="#fig_3">Figure 4A</ref>) <ref type="bibr" target="#b15">[15]</ref><ref type="bibr" target="#b16">[16]</ref><ref type="bibr" target="#b17">[17]</ref><ref type="bibr" target="#b21">21,</ref><ref type="bibr" target="#b23">23,</ref><ref type="bibr" target="#b40">[40]</ref><ref type="bibr" target="#b41">[41]</ref><ref type="bibr" target="#b42">[42]</ref>. This is likely because of two processes where phytoplankton exposed to UV increase their production of MAAs and this is mirrored in higher concentrations in the zooplankton <ref type="bibr" target="#b43">[43]</ref>. This has been shown in krill (Euphasia superba) that increased their MAA concentrations when fed with phytoplankton earlier exposed to UV <ref type="bibr" target="#b33">[33]</ref>. However, other experiments with a supply of replenished phytoplankton every day (not exposed to UV) suggest that zooplankton also actively accumulate MAAs during UV-exposure ( <ref type="figure" target="#fig_3">Figure 4B</ref>) <ref type="bibr" target="#b21">[21]</ref>. Field data also suggest a mechanism for active accumulation of MAAs <ref type="bibr" target="#b39">[39]</ref>. Hence, animals exposed to UV-stress accumulate in the order of double amounts of MAAs compared to controls under the condition that MAAs are available in the food source <ref type="bibr" target="#b21">[21]</ref>. Several examples also exist where copepods have displayed changed MAA concentrations without a food source containing MAAs <ref type="bibr" target="#b15">[15,</ref><ref type="bibr" target="#b16">16,</ref><ref type="bibr" target="#b44">44,</ref><ref type="bibr" target="#b45">45]</ref>. This is suggested to be due to symbiotic bacteria in the gut providing MAAs to the zooplankton since this effect diminishes when zooplankton are exposed to antibiotic treatment <ref type="bibr" target="#b15">[15,</ref><ref type="bibr" target="#b23">23]</ref>. Bacteria known to have the MAA-synthesis pathways have been found in the microbiome of calanoid copepods suggesting that this is a possible mechanism for zooplankton to gain MAAs without a food source containing these substances <ref type="bibr" target="#b23">[23]</ref>. Symbiosis between reef building corals and microalgae can provide MAAs for the organisms <ref type="bibr" target="#b36">[36,</ref><ref type="bibr" target="#b46">46]</ref> but this potential interaction has not been shown among zooplankton and MAA producing microalgae.</p><p>The mechanisms for absorption of MAAs in the zooplankton gut are not well known. Accumulation has been shown to follow a hyperbolic curve levelling off at high concentration of MAAs in the food source ( <ref type="figure" target="#fig_3">Figure 4B</ref>) and has been suggested to be highly efficient even when dietary MAAs are limited <ref type="bibr" target="#b21">[21]</ref>. Uptake rates are dependent on initial concentration with higher uptake rates in copepods with lower initial MAA concentrations <ref type="bibr" target="#b15">[15,</ref><ref type="bibr" target="#b16">16]</ref>. For example, a copepod with initially relatively low concentrations of MAAs increased its concentration with 171% during an incubation <ref type="bibr" target="#b15">[15]</ref>. When copepods do not have MAAs in the food source concentrations seem to decrease at a halflife of approximately 23 days regardless of the radiation treatment <ref type="bibr" target="#b21">[21]</ref>. However, other studies have found that MAA concentrations in different copepod species are maintained or even increase over time when the diet lacks MAAs supposedly with help of provision of MAAs from symbiotic bacteria <ref type="bibr" target="#b15">[15]</ref>. Finally, krill seem to be able to retain several of the initially available MAAs although exposed to several weeks of starvation <ref type="bibr" target="#b33">[33]</ref>. Temperature also affects the MAA dynamics in copepods where MAA accumulation rates have been shown to have a linear relationship over a certain range of temperatures <ref type="bibr" target="#b15">[15,</ref><ref type="bibr" target="#b44">44]</ref> and temperature dependence is population specific <ref type="bibr" target="#b16">[16]</ref>.</p><p>Little is known about the fate of MAAs in the body tissues of zooplankton and how MAAs are distributed but one study has shown that concentrations generally are low in antennas, furca, and some body segments, intermediate in the cephalothorax, abdomen, some other body segments, legs, and highest in the eggs <ref type="bibr" target="#b47">[47]</ref>. This is consistent with other studies showing that concentrations of MAAs are generally higher in eggs and nauplii compared to juveniles and adults <ref type="bibr" target="#b30">[30,</ref><ref type="bibr" target="#b32">32]</ref>. This is generally interpreted as a maternal transfer of the substance since early stages of nauplii do not feed and often stay close to the surface <ref type="bibr" target="#b32">[32]</ref>. For example, <ref type="bibr" target="#b30">Tartarotti and Sommaruga (2006)</ref> found almost three times higher concentrations of MAAs in eggs compared to adult males <ref type="bibr" target="#b30">[30]</ref>  <ref type="figure" target="#fig_4">(Figure 5</ref>). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Seasonal Variation</head><p>Seasonal variation in copepod MAA concentrations has been studied in one marine and a few freshwater systems <ref type="bibr" target="#b19">[19,</ref><ref type="bibr" target="#b21">21,</ref><ref type="bibr" target="#b24">24,</ref><ref type="bibr" target="#b27">27,</ref><ref type="bibr" target="#b30">30]</ref>. MAAs are usually detected throughout the year but concentrations are generally low in winter <ref type="bibr" target="#b19">[19,</ref><ref type="bibr" target="#b27">27,</ref><ref type="bibr" target="#b30">30]</ref>. As spring progresses and ice disappears, there is generally an increase followed by a peak during spring-summer followed by a reduction in concentrations during fall <ref type="bibr" target="#b19">[19,</ref><ref type="bibr" target="#b21">21,</ref><ref type="bibr" target="#b24">24,</ref><ref type="bibr" target="#b27">27,</ref><ref type="bibr" target="#b30">30]</ref>. This has been studied in more detail in three species of marine Calanus spp. And one species of freshwater Cyclops <ref type="bibr" target="#b19">[19,</ref><ref type="bibr" target="#b30">30]</ref>. Calanus spp. over-winter at great depths and emerge to surface waters during spring for feeding and reproduction but are at this time exposed to the risk of UV-damage ( <ref type="figure" target="#fig_5">Figure 6</ref>). MAA concentrations increase rapidly in C. finmarchicus and C. glacialis during the Arctic ice-out and this is also a period when chlorophyll concentrations increased rapidly in the system <ref type="bibr" target="#b19">[19]</ref>. Another species, C. hyperboreus, has lower concentrations of MAAs during ice-out but eventually concentrations increase as spring progresses <ref type="bibr" target="#b19">[19]</ref>  <ref type="figure" target="#fig_5">(Figure 6</ref>). This could be attributed to different lifehistories among Calanus species where this latter species migrated to surface waters later than C. finmarchicus and C. glacialis <ref type="bibr" target="#b19">[19]</ref>. Freshwater copepod MAA seasonal dynamics has been studied during an entire year and concentrations increased rapidly after ice-out and were generally highest during the ice-free period, peaking during summer <ref type="bibr" target="#b30">[30]</ref>. Concentrations then decrease during autumn and had lowest values in March and April before ice-out in late May-early June <ref type="bibr" target="#b30">[30]</ref>. Concentrations were on average approximately three times higher during the ice-free period than during ice conditions and the seasonal patterns were relatively similar among different life stages <ref type="bibr" target="#b30">[30]</ref>  <ref type="figure" target="#fig_4">(Figure 5</ref>). Seasonal dynamics in krill is available in one study suggesting no particular differences under seasonal changes in UV levels and MAA-diet supply <ref type="bibr" target="#b34">[34]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Variation along Different Environmental Gradients</head><p>Much attention in the literature has been devoted to increase our understanding of how MAA concentrations in zooplankton vary along different environmental gradients. Copepods within the same species tend to have higher MAA concentrations in lakes at higher altitudes <ref type="bibr" target="#b16">[16]</ref> and significant linear relationships within species between MAAs and altitude have been demonstrated several times <ref type="bibr" target="#b28">[28,</ref><ref type="bibr" target="#b32">32]</ref>. Comparing all calanoid species available in the present data set (Supplementary Material Table S1, <ref type="figure" target="#fig_0">Figure 1</ref>) there seems to be a positive linear relationship up to approximately 2000 m above sea level <ref type="figure" target="#fig_6">(Figure 7</ref>). However, at higher altitudes concentrations then tend to be lower. For example, copepods sampled in lakes in the Himalayas (4800-5200 m above sea level) had MAA concentrations ranging from 0.03-1.7 μg mgDW −1 which is in the lower range of reported MAA concentrations <ref type="bibr" target="#b26">[26]</ref>  <ref type="figure" target="#fig_0">(Figure 1 for comparison)</ref>. Considering other environmental gradients there are also several examples of significant relationships between MAAs and temperature as well as UV transparency <ref type="bibr" target="#b31">[31]</ref>, which is consistent with the fact that high altitude lakes generally are cold and usually have a high UV-transparency. Each data point shows the MAA concentration per species in each lake (some lakes have several species of calanoid copepods). The average concentration for the ice-free period is shown herewhen several measurements of the same species were available from the same lake. Also see <ref type="figure" target="#fig_0">Figure 1</ref> and data in Supplementary Material <ref type="table">Table S1</ref>.</p><p>An extension of this reasoning is the relationship found between MAA concentrations in zooplankton and the ratio between the 1% attenuation depth of UV and the maximum depth put forward by <ref type="bibr" target="#b32">Tartarotti et al. (2001)</ref>  <ref type="bibr" target="#b32">[32]</ref>  <ref type="figure" target="#fig_7">(Figure 8)</ref>. Such relationships were also demonstrated in another study in three out of four copepod taxa but variability was relatively high suggesting that other factors may be of importance <ref type="bibr" target="#b24">[24]</ref>. The rationale for using such a relationship is to understand if deep transparent lakes have a depth refuge where zooplankton can avoid UV-exposure. Continuing with turbidity one study has found that lakes with high turbidity have zooplankton with relatively low MAA concentrations <ref type="bibr" target="#b48">[48]</ref>, and a survey of six lakes along a transparency gradient found that copepods in the clear lakes had in the order of 11 times more MAAs compared to copepods deriving from glacier-fed turbid lakes <ref type="bibr" target="#b31">[31]</ref>.  <ref type="bibr" target="#b32">[32]</ref>. MAA concentrations in a freshwater cyclopoid copepod along a gradient of the ratio of 1% attenuation depth (320 nm; Z1%) and the maximum lake depth (Zmax).</p><p>Comparing MAA concentrations between freshwater and marine systems is difficult since few measurements exist from marine habitats and lake data is skewed towards high altitude systems. With the few comparable data that exists (low altitudes and similar latitude) it seems like concentrations in marine and freshwater systems are approximately the same <ref type="bibr" target="#b41">[41]</ref>. Furthermore, MAA concentrations tend to be higher in copepods residing close to the surface or at mid-depths compared to deeper down as has been shown in both marine and freshwater systems <ref type="bibr" target="#b30">[30,</ref><ref type="bibr" target="#b42">42]</ref>. Rotifer species with relatively high MAA concentrations have also been shown to have a surface dwelling life style compared to other species that generally reside at deeper depths <ref type="bibr" target="#b22">[22]</ref>.</p><p>Finally, some studies suggest that there is a cost associated with high concentrations of MAAs in zooplankton in terms of higher visibility and predation. For example, surface dwelling zooplankton have been shown to be less UV transparent compared to deeper dwelling zooplankton <ref type="bibr" target="#b49">[49]</ref> and fish foraging is elevated in the presence of UV compared to non-UV treatments <ref type="bibr" target="#b50">[50]</ref>. However, experimental exposure to fish cues did not have any effect on MAA concentrations in freshwater copepods <ref type="bibr" target="#b40">[40]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">Function of MAAs in Zooplankton</head><p>As summarized here, zooplankton tend to have high concentrations of MAAs when residing in habitats where UV-exposure is high. Examples of these systems are shallow and clear high altitude lakes and during periods when marine and freshwater zooplankton are migrating to the surface for feeding. It was early hypothesized that MAAs provide zooplankton with UV-screening since this had been demonstrated in other types of organisms <ref type="bibr" target="#b10">[10,</ref><ref type="bibr" target="#b11">11]</ref>. One of the main results supporting this hypothesis is that zooplankton exposed to UV radiation accumulate more MAAs compared to individuals only exposed to visible light (see Mechanism for gaining the MAAs). Furthermore, field studies find significant relationships between MAA concentrations and different metrics for UVthreat <ref type="bibr" target="#b24">[24,</ref><ref type="bibr" target="#b32">32,</ref><ref type="bibr" target="#b40">40]</ref>. <ref type="bibr" target="#b51">Helbling et al. (2002)</ref> observed that UV-induced mortality was higher in individuals from the same species if they had low concentrations of MAAs <ref type="bibr" target="#b51">[51]</ref>. Other studies have also found UV-induced mortality to be higher in populations of the same species with lower concentrations of MAAs <ref type="bibr" target="#b21">[21,</ref><ref type="bibr" target="#b52">52]</ref>. Comparing different species it has also been suggested that species having large amounts of MAAs are more tolerant to UV-exposure compared to other species without this photoprotection <ref type="bibr" target="#b53">[53]</ref>. A biological weighting function was developed to assess the effects of different wavelengths of UV on copepod mortality <ref type="figure" target="#fig_9">(Figure 9</ref>). This analysis shows that MAAs seem to provide UV-protection in the UVA and in parts of the UVB spectrum <ref type="bibr" target="#b51">[51]</ref>.  Exposure to UV radiation leads to DNA damage <ref type="bibr" target="#b54">[54]</ref> and a study comparing four different populations of copepods found similar DNA damage in all populations upon UV-exposure but background levels were lower in the population with the lowest MAA concentration (and antioxidant capacity) leading to an overall higher total DNA damage among copepods from this population <ref type="bibr" target="#b29">[29]</ref>. The molecular mechanisms are now being examined and the expression of genes associated with stress have been shown to be modulated by the photoprotection level (including MAAs) in the animal <ref type="bibr" target="#b27">[27]</ref>.</p><p>Moving beyond mortality some studies now show that MAAs (together with other photoprotective strategies) enable zooplankton to maintain feeding upon UV exposure <ref type="bibr" target="#b55">[55]</ref>. It has also been shown that reproduction in copepods is reduced when MAAs are not available in the food source, but only under the condition that other UV-defenses are simultaneously at a low level <ref type="bibr" target="#b40">[40]</ref>. For example, freshwater copepods reduced their carotenoid concentration upon exposure of fish cues and this led to reduced nauplii production if MAA were not available in the food source <ref type="bibr" target="#b40">[40]</ref>. To assess if MAAs provide overall higher fitness to zooplankton one has to consider the entire life-time reproductive success. This has been done in one study where a cohort of a marine copepod was studied from the egg stage to death under UV-exposure and at varying availability of MAAs in the food source <ref type="bibr" target="#b41">[41]</ref>  <ref type="figure" target="#fig_0">(Figure 10</ref>). Several fitness parameters including somatic growth and egg quality were negatively affected by UV exposure especially when MAAs were not available in the food source <ref type="bibr" target="#b41">[41]</ref>  <ref type="figure" target="#fig_0">(Figure 10</ref>). Hence, exposure to UV radiation without availability of MAAs in the food source reduced the net reproductive rate, i.e., the average number of offspring that an individual delivers to the next generation (a commonly used proxy for fitness) <ref type="bibr" target="#b41">[41]</ref>.  <ref type="bibr" target="#b41">[41]</ref>. (A) Nauplii production in a cohort of Acartia tonsa raised from eggs to death. P = only exposed to PAR; U = exposed to UV-radiation, PH = PAR and MAA rich food, UH = UV exposure and MAA rich food. Subpanel. (B) The net reproductive rate (R0 for this cohort of Acartia tonsa). R0 is a proxy for fitness.</p><p>It is now widely accepted that MAAs provide photoprotection to a range of aquatic taxa <ref type="bibr" target="#b4">[4,</ref><ref type="bibr" target="#b5">5,</ref><ref type="bibr" target="#b7">7,</ref><ref type="bibr" target="#b8">8,</ref><ref type="bibr" target="#b56">56]</ref> but it is also important to take into account other strategies that organisms use to avoid damage from UV. These other adaptations can co-vary with MAA concentrations, for example behavioral responses, accumulation of carotenoids, and anti-oxidant enzymes <ref type="bibr" target="#b4">[4]</ref>. For example, low concentrations of MAAs and absence of other photoprotective strategies such as accumulation of carotenoids or avoidance <ref type="bibr" target="#b4">[4]</ref> have been suggested to be compensated by higher antioxidant defenses <ref type="bibr" target="#b57">[57]</ref><ref type="bibr" target="#b58">[58]</ref><ref type="bibr" target="#b59">[59]</ref>. Furthermore, Daphnia has shown to behaviorally avoid UV radiation by migrating to deeper depths (e.g., <ref type="bibr" target="#b17">[17,</ref><ref type="bibr" target="#b60">60]</ref>). Copepods show a more diverse behavioral response to UV with some examples of avoidance, whereas some species display little response or even attraction (e.g., <ref type="bibr" target="#b20">[20,</ref><ref type="bibr" target="#b61">[61]</ref><ref type="bibr" target="#b62">[62]</ref><ref type="bibr" target="#b63">[63]</ref>). Differences in behavioral avoidance in response to UV have been suggested to be due to higher amounts of photoprotective compounds in copepods compared to cladocerans allowing them to utilize surface waters without being harmed by UV <ref type="bibr" target="#b17">[17,</ref><ref type="bibr" target="#b64">64]</ref>. In all, organisms have to optimize the UV defenses without spending too much energy in the process, to enable them to utilize habitats that are dangerous in terms of UV exposure <ref type="bibr" target="#b17">[17]</ref>.</p><p>Finally, some data have also emerged suggesting that MAAs can be beneficial for zooplankton for other reasons than as sunscreens. For example, studies have shown that MAA concentrations can increase under dark conditions at low temperatures <ref type="bibr" target="#b16">[16]</ref> and another study demonstrated stimulated fitness under UV exposure when MAAs were abundant as compared to PAR treatments <ref type="bibr" target="#b41">[41]</ref>. It has been suggested that MAAs should be regarded as multi-purpose substances potentially involved in osmoregulation, nitrogen storage, and antioxidant systems <ref type="bibr" target="#b5">[5,</ref><ref type="bibr" target="#b16">16,</ref><ref type="bibr" target="#b41">41]</ref> but these hypotheses have not been explicitly tested among zooplankton. Antioxidant capacity of mycosporine-glycine with degradation of harmful reactive oxygen species has been demonstrated in several model systems <ref type="bibr" target="#b65">[65]</ref><ref type="bibr" target="#b66">[66]</ref><ref type="bibr" target="#b67">[67]</ref>. This suggests that at least some of the MAAs provide aquatic organisms with antioxidant capacity <ref type="bibr" target="#b5">[5,</ref><ref type="bibr" target="#b66">66]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Gaps of Knowledge</head><p>Research on MAAs in zooplankton has been very active in the last 30 years providing a good coverage of the mechanisms for accumulation and field patterns. However, the research is heavily skewed toward latitudes 40-50 N/S and little information is available from other latitudes including the tropics and polar regions. There are also relatively few estimates available from marine systems. Future research needs to disentangle when MAA accumulation is constrained as suggested in high altitude lakes and we need better understanding of other potential benefits of MAAs in terms of nitrogen storage as well as MAAs in antioxidant and osmoregulation systems. MAA provision to zooplankton by gut microbiota has been suggested but it needs to be shown if this is a wide-spread phenomenon in many species and taxa. It would also be beneficial if the significance of MAAs was possible to quantify without co-variation with other UV-protective adaptations such as antioxidant defenses, pigmentation, and avoidance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Materials and Methods</head><p>Literature was collected using Web of Science Core collection (4th of September 2019) with the search strings: mycospor* AND zooplankton OR mycospor* AND copepod (51 articles found). An additional database search was performed using the Scopus database (14 Jan 2020) to confirm that the initial literature coverage was comprehensive. Using search strings mycospor* AND zooplankton OR mycospor* AND copepod (limiting the search to articles in English with the keyword "Zooplankton"; 89 articles found, most of them overlapping with the initial literature search). All of these articles together with their reference lists were used to compile the present synthesis (final number of references used was 67). From this literature, all published data on MAA concentrations in zooplankton were also retrieved (see <ref type="table">Supplementary Material Table S1</ref>, in total 18 references) including rotifers, cladocerans, copepods, and krill, and data were extracted from tables and from figures (mean values) using WebPlotDigitilizer (https://apps.automeris.io/wpd/). Each estimate of MAA concentration per lake, species, and time point was included in the data extraction. Hence, for some species there is data from the same species from the same lake at different times of the year.</p><p>The criteria for including concentration data were: Had to include field concentrations (i.e., not after experimental treatments); were analyzed with HPLC-methods; and that taxonomic information was available (a least at genus level). I also extracted background data from the same articles on system (freshwater or marine systems), altitude, latitude, UVB transparency of the system (1% attenuation depth, 320 nm), maximum depth, sampling time, and site. This data together with the literature was used to illustrate the patterns and ranges of MAA concentrations in different systems and along environmental gradients focusing on the distribution and function of MAAs in zooplankton.</p><p>Supplementary Materials: The following are available online at www.mdpi.com/xxx/s1, <ref type="table">Table S1</ref>. Database MAAs in zooplankton.</p><p>Funding: This research was funded by Centre for Ecology and Evolution in Microbial model Systems-EEMiS; Linnaeus University.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Total range of reported mycosporine-like amino acids (MAA) concentrations (box) in different taxa of zooplankton (A) and in the most commonly studied genera (B) in freshwater and marine systems. Median is illustrated by a line. All data is available in supplementary material</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>The relative distribution of MAA measurements in zooplankton in lakes at different altitudes (A) and latitudes (B; either N or S). All data are available in supplementary material</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure fromFileman et al. (2017) illustrating the MAA concentrations in different marine copepod taxa along a transect from 40 S to 40 N [14]. Colors and patterns denote different MAAs.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure adaptedfrom Hansson et al. (2007; A;<ref type="bibr" target="#b17">[17]</ref>) and<ref type="bibr" target="#b21">Moeller et al. (2005;</ref> [21]). Left panel (A) illustrates the change in MAA concentrations compared to initial concentrations in two calanoid freshwater copepods, Leptodiaptomus angustilobus (left) and Eudiaptomus gracilis (right), upon laboratory UV treatment or release from UV stress (PAR-photosynthetically active radiation). Right panel (B) illustrates the MAA accumulation in Leptodiaptomus minutus at different availability of MAAs in the diet. The diet had different proportions of MAA-producing phytoplankton and copepods were raised for four weeks. For more details on methods seeHansson et al. (2007 [17]) and<ref type="bibr" target="#b21">Moeller et al. (2005;</ref> [21]).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Figure adaptedfrom<ref type="bibr" target="#b30">Tartarotti and Sommaruga (2006;</ref> [30]) illustrating life-stage specific concentrations of MAAs in a freshwater cyclopoid copepod (Cyclops abyssorum tatricus) during the ice-free and ice-covered season. Life stages are eggs, nauplii, copepodite stages (C1-5), females and males.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6 .</head><label>6</label><figDesc>Figure adaptedfrom Hylander et al. (2015; [19]) illustrating the concentrations of MAAs (A) in three marine calanoid copepods (C. finmarchicus, C. glacialis and C. hyperboreus) from 8 March to 24 May during an Arctic spring. Panel (B) shows ice cover in percent over the same time period.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 7 .</head><label>7</label><figDesc>Range of MAA concentrations at different altitudes (m above sea level) in the most commonly occurring group of copepods in the MAA-literature, i.e., freshwater calanoid copepods.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 8 .</head><label>8</label><figDesc>Adapted from Tartarotti et al. (2001;</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 9 .</head><label>9</label><figDesc>Biological weighting functions (BWF) of the copepod B. titicacae containing either high or low concentrations of MAAs<ref type="bibr" target="#b51">[51]</ref>. Raw data for this figure was kindly provided from by W. Helbling.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure 10 .</head><label>10</label><figDesc>Adapted from Hylander et al. 2014</figDesc></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Acknowledgments: I would like to thank all the authors of the articles that I reviewed for this study and two anonymous reviewers for providing valuable feedback on the initial manuscript. Hard and detailed work is underlying the body of literature that is now available in this subject. I would also like to acknowledge Prof. E. Walter, Helbling who kindly provided the raw data for <ref type="figure">Figure 9</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflicts of Interest:</head><p>The authors declare no conflict of interest.</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Ozone depletion, ultraviolet radiation, climate change and prospects for a sustainable future</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">W</forename><surname>Barnes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">E</forename><surname>Williamson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Lucas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Madronich</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">D</forename><surname>Paul</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">F</forename><surname>Bornman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">F</forename><surname>Bais</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Sulzberger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Sustain</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="569" to="579" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Barnes, P.W.; Williamson, C.E.; Lucas, R.M.; Robinson, S.A.; Madronich, S.; Paul, N.D.; Bornman, J.F.; Bais, A.F.; Sulzberger, B.; Wilson, S.R.; et al. Ozone depletion, ultraviolet radiation, climate change and prospects for a sustainable future. Nat. Sustain. 2019, 2, 569-579.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The interactive effects of stratospheric ozone depletion, UV radiation, and climate change on aquatic ecosystems</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">E</forename><surname>Williamson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">J</forename><surname>Neale</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Hylander</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">C</forename><surname>Rose</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">L</forename><surname>Figueroa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D.-P</forename><surname>Häder</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S.-Å</forename><surname>Wängberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">C</forename><surname>Worrest</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Photochem. Photobiol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="717" to="746" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Williamson, C.E.; Neale, P.J.; Hylander, S.; Rose, K.C.; Figueroa, F.L.; Robinson, S.A.; Häder, D.-P.; Wängberg, S.-Å.; Worrest, R.C. The interactive effects of stratospheric ozone depletion, UV radiation, and climate change on aquatic ecosystems. Photochem. Photobiol. Sci. 2019, 18, 717-746.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Solar Radiation and the Evolution of Life</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">O</forename><surname>Hessen</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Hessen, D.O. Solar Radiation and the Evolution of Life;</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Bjertness</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ed</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Norwegian Academy of Science and Letters</title>
+		<imprint>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bjertness, E., Ed.; The Norwegian Academy of Science and Letters: Oslo, Norway, 2008.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Effects of ultraviolet radiation on pigmentation, photoenzymatic repair, behavior, and community ecology of zooplankton</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">A</forename><surname>Hansson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Hylander</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Photochem. Photobiol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1266" to="1275" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hansson, L.A.; Hylander, S. Effects of ultraviolet radiation on pigmentation, photoenzymatic repair, behavior, and community ecology of zooplankton. Photochem. Photobiol. Sci. 2009, 8, 1266-1275.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Mycosporines and mycosporine-like amino acids: UV protectants or multipurpose secondary metabolites?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Oren</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Gunde-Cimerman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FEMS Microbiol. Lett</title>
+		<imprint>
+			<biblScope unit="volume">269</biblScope>
+			<biblScope unit="page" from="1" to="10" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Oren, A.; Gunde-Cimerman, N. Mycosporines and mycosporine-like amino acids: UV protectants or multipurpose secondary metabolites? FEMS Microbiol. Lett. 2007, 269, 1-10.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">UV Radiation and Freshwater Zooplankton: Damage, Protection and Recovery</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Rautio</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Tartarotti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Freshw. Rev</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="105" to="131" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rautio, M.; Tartarotti, B. UV Radiation and Freshwater Zooplankton: Damage, Protection and Recovery. Freshw. Rev. 2010, 3, 105-131.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Mycosporine-like amino acids and related Gadusols: Biosynthesis, acumulation, and UV-protective functions in aquatic organisms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Shick</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">C</forename><surname>Dunlap</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="223" to="262" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shick, J.M.; Dunlap, W.C. Mycosporine-like amino acids and related Gadusols: Biosynthesis, acumulation, and UV-protective functions in aquatic organisms. Annu. Rev. Physiol. 2002, 64, 223-262.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The role of solar UV radiation in the ecology of alpine lakes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Sommaruga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Photochem. Photobiol. B</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="35" to="42" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sommaruga, R. The role of solar UV radiation in the ecology of alpine lakes. J. Photochem. Photobiol. B 2001, 62, 35-42.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Survey of Mycosporine-Like Amino-Acid Compounds in Antarctic Marine Organisms-Potential Protection from Ultraviolet Exposure</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Karentz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">S</forename><surname>Mceuen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">C</forename><surname>Land</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">C</forename><surname>Dunlap</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Biol</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="157" to="166" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Karentz, D.; Mceuen, F.S.; Land, M.C.; Dunlap, W.C. Survey of Mycosporine-Like Amino-Acid Compounds in Antarctic Marine Organisms-Potential Protection from Ultraviolet Exposure. Mar. Biol. 1991, 108, 157-166.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">UV-absorbing mycosporine-like compounds in planktonic and benthic organisms from a high-mountain lake</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Sommaruga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Garcia-Pichel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch. Hydrobiol</title>
+		<imprint>
+			<biblScope unit="volume">144</biblScope>
+			<biblScope unit="page" from="255" to="269" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sommaruga, R.; Garcia-Pichel, F. UV-absorbing mycosporine-like compounds in planktonic and benthic organisms from a high-mountain lake. Arch. Hydrobiol. 1999, 144, 255-269.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Inhibition of phytoplankton photosynthesis by solar ultraviolet radiation: Studies in Lake Titicaca</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">E</forename><surname>Villafane</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Andrade</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Lairana</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Zaratti</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">W</forename><surname>Helbling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Freshw. Biol</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="215" to="224" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Villafane, V.E.; Andrade, M.; Lairana, V.; Zaratti, F.; Helbling, E.W. Inhibition of phytoplankton photosynthesis by solar ultraviolet radiation: Studies in Lake Titicaca, Bolivia. Freshw. Biol. 1999, 42, 215- 224.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The effect of different methanol concentrations and temperatures on the extraction of mycosporine-like amino acids (MAAs) in algae and zooplankton</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Tartarotti</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Sommaruga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch. Hydrobiol</title>
+		<imprint>
+			<biblScope unit="volume">154</biblScope>
+			<biblScope unit="page" from="691" to="703" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tartarotti, B.; Sommaruga, R. The effect of different methanol concentrations and temperatures on the extraction of mycosporine-like amino acids (MAAs) in algae and zooplankton. Arch. Hydrobiol. 2002, 154, 691-703.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Global diversity of copepods (Crustacea: Copepoda) in freshwater</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">A</forename><surname>Boxshall</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Defaye</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hydrobiologia</title>
+		<imprint>
+			<biblScope unit="volume">595</biblScope>
+			<biblScope unit="page" from="195" to="207" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Boxshall, G.A.; Defaye, D. Global diversity of copepods (Crustacea: Copepoda) in freshwater. Hydrobiologia 2007, 595, 195-207.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Stress of life at the ocean&apos;s surface: Latitudinal patterns of UV sunscreens in plankton across the Atlantic</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">S</forename><surname>Fileman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">A</forename><surname>Harmer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ü</forename><surname>Aytan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">A</forename><surname>Tarran</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Smyth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Atkinson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Oceanogr</title>
+		<imprint>
+			<biblScope unit="volume">158</biblScope>
+			<biblScope unit="page" from="171" to="184" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fileman, E.S.; White, D.A.; Harmer, R.A.; Aytan, Ü.; Tarran, G.A.; Smyth, T.; Atkinson, A. Stress of life at the ocean&apos;s surface: Latitudinal patterns of UV sunscreens in plankton across the Atlantic. Prog. Oceanogr. 2017, 158, 171-184.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Mycosporine-like Amino Acids in Freshwater Copepods: Potential Sources and Some Factors That Affect Their Bioaccumulation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">E</forename><surname>Garcia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">C</forename><surname>Dieguez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Ferraro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">E</forename><surname>Zagarese</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">P</forename><surname>Perez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Photochem. Photobiol</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="353" to="359" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Garcia, P.E.; Dieguez, M.C.; Ferraro, M.A.; Zagarese, H.E.; Perez, A.P. Mycosporine-like Amino Acids in Freshwater Copepods: Potential Sources and Some Factors That Affect Their Bioaccumulation. Photochem. Photobiol. 2010, 86, 353-359.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Contrasting patterns of MAAs accumulation in two populations of the copepod Boeckella gracilipes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">E</forename><surname>Garcia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Ferraro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">P</forename><surname>Perez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">E</forename><surname>Zagarese</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">C</forename><surname>Dieguez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Photochem. Photobiol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="898" to="906" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Garcia, P.E.; Ferraro, M.A.; Perez, A.P.; Zagarese, H.E.; Dieguez, M.C. Contrasting patterns of MAAs accumulation in two populations of the copepod Boeckella gracilipes. Photochem. Photobiol. Sci. 2014, 13, 898-906.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Escape from UV threats in zooplankton: A cocktail of behavior and protective pigmentation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">A</forename><surname>Hansson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Hylander</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Sommaruga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="1932" to="1939" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hansson, L.A.; Hylander, S.; Sommaruga, R. Escape from UV threats in zooplankton: A cocktail of behavior and protective pigmentation. Ecology 2007, 88, 1932-1939.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">UV protective compounds transferred from a marine dinoflagellate to its copepod predator</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Hylander</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Jephson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Mar. Biol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">389</biblScope>
+			<biblScope unit="page" from="38" to="44" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hylander, S.; Jephson, T. UV protective compounds transferred from a marine dinoflagellate to its copepod predator. J. Exp. Mar. Biol. Ecol. 2010, 389, 38-44.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Concentrations of sunscreens and antioxidant pigments in ArcticCalanusspp. in relation to ice cover, ultraviolet radiation, and the phytoplankton spring bloom</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Hylander</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Kiørboe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Snoeijs</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Sommaruga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">G</forename><surname>Nielsen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Limnol. Oceanogr</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="2197" to="2206" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hylander, S.; Kiørboe, T.; Snoeijs, P.; Sommaruga, R.; Nielsen, T.G. Concentrations of sunscreens and antioxidant pigments in ArcticCalanusspp. in relation to ice cover, ultraviolet radiation, and the phytoplankton spring bloom. Limnol. Oceanogr. 2015, 60, 2197-2206.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Zooplankton vertical migration and plasticity of pigmentation arising from simultaneous UV and predation threats</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Hylander</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Larsson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">A</forename><surname>Hansson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Limnol. Oceanogr</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="483" to="491" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hylander, S.; Larsson, N.; Hansson, L.A. Zooplankton vertical migration and plasticity of pigmentation arising from simultaneous UV and predation threats. Limnol. Oceanogr. 2009, 54, 483-491.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Dietary acquisition of photoprotective compounds (mycosporine-like amino acids, carotenoids) and acclimation to ultraviolet radiation in a freshwater copepod</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">E</forename><surname>Moeller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Gilroy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">E</forename><surname>Williamson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Grad</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Sommaruga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Limnol. Oceanogr</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="427" to="439" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Moeller, R.E.; Gilroy, S.; Williamson, C.E.; Grad, G.; Sommaruga, R. Dietary acquisition of photoprotective compounds (mycosporine-like amino acids, carotenoids) and acclimation to ultraviolet radiation in a freshwater copepod. Limnol. Oceanogr. 2005, 50, 427-439.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Multifactorial nature of rotifer water layer preferences in an oligotrophic lake</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Obertegger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Flaim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Sommaruga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Plankton Res</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="633" to="643" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Obertegger, U.; Flaim, G.; Sommaruga, R. Multifactorial nature of rotifer water layer preferences in an oligotrophic lake. J. Plankton Res. 2008, 30, 633-643.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The relative contributions of diet and associated microbiota to the accumulation of UV-absorbing mycosporine-like amino acids in the freshwater copepod Boeckella antiqua</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">P</forename><surname>Perez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Ferraro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">E</forename><surname>Zagarese</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Freshw. Biol</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="993" to="1004" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Perez, A.P.; Ferraro, M.A.; Zagarese, H.E. The relative contributions of diet and associated microbiota to the accumulation of UV-absorbing mycosporine-like amino acids in the freshwater copepod Boeckella antiqua. Freshw. Biol. 2012, 57, 993-1004.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Photoprotective compounds in weakly and strongly pigmented copepods and co-occurring cladocerans</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">D</forename><surname>Persaud</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">E</forename><surname>Moeller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">E</forename><surname>Williamson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">W</forename><surname>Burns</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Freshw. Biol</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="2121" to="2133" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Persaud, A.D.; Moeller, R.E.; Williamson, C.E.; Burns, C.W. Photoprotective compounds in weakly and strongly pigmented copepods and co-occurring cladocerans. Freshw. Biol. 2007, 52, 2121-2133.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">UV photoprotectants in arctic zooplankton</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Rautio</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Bonilla</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">F</forename><surname>Vincent</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aquat. Biol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="93" to="105" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rautio, M.; Bonilla, S.; Vincent, W.F. UV photoprotectants in arctic zooplankton. Aquat. Biol. 2009, 7, 93- 105.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Preferential accumulation of carotenoids rather than of mycosporine-like amino acids in copepods from high altitude Himalayan lakes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Sommaruga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hydrobiologia</title>
+		<imprint>
+			<biblScope unit="volume">648</biblScope>
+			<biblScope unit="page" from="143" to="156" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sommaruga, R. Preferential accumulation of carotenoids rather than of mycosporine-like amino acids in copepods from high altitude Himalayan lakes. Hydrobiologia 2010, 648, 143-156.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Seasonal plasticity in photoprotection modulates UV-induced hsp gene expression in copepods from a clear lake</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Tartarotti</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Alfreider</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Egg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Saul</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Sommaruga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Tischler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Vetter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Limnol. Oceanogr</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="1579" to="1592" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tartarotti, B.; Alfreider, A.; Egg, M.; Saul, N.; Schneider, T.; Sommaruga, R.; Tischler, A.; Vetter, J. Seasonal plasticity in photoprotection modulates UV-induced hsp gene expression in copepods from a clear lake. Limnol. Oceanogr. 2018, 63, 1579-1592.</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Mycosporine-like amino acids in planktonic organisms living under different UV exposure conditions in Patagonian lakes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Tartarotti</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Baffico</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Temporetti</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">E</forename><surname>Zagarese</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Plankton Res</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="753" to="762" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tartarotti, B.; Baffico, G.; Temporetti, P.; Zagarese, H.E. Mycosporine-like amino acids in planktonic organisms living under different UV exposure conditions in Patagonian lakes. J. Plankton Res. 2004, 26, 753- 762.</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">UV-induced DNA damage in Cyclops abyssorum tatricus populations from clear and turbid alpine lakes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Tartarotti</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Saul</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Chakrabarti</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Trattner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">E W</forename><surname>Steinberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Sommaruga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Plankton Res</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="557" to="566" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tartarotti, B.; Saul, N.; Chakrabarti, S.; Trattner, F.; Steinberg, C.E.W.; Sommaruga, R. UV-induced DNA damage in Cyclops abyssorum tatricus populations from clear and turbid alpine lakes. J. Plankton Res. 2014, 36, 557-566.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Seasonal and ontogenetic changes of mycosporine-like amino acids in planktonic organisms from an alpine lake</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Tartarotti</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Sommaruga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Limnol. Oceanogr</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="1530" to="1541" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tartarotti, B.; Sommaruga, R. Seasonal and ontogenetic changes of mycosporine-like amino acids in planktonic organisms from an alpine lake. Limnol. Oceanogr. 2006, 51, 1530-1541.</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Distribution and UV protection strategies of zooplankton in clear and glacier-fed alpine lakes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Tartarotti</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Trattner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Remias</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Saul</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">E W</forename><surname>Steinberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Sommaruga</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">4487</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tartarotti, B.; Trattner, F.; Remias, D.; Saul, N.; Steinberg, C.E.W.; Sommaruga, R. Distribution and UV protection strategies of zooplankton in clear and glacier-fed alpine lakes. Sci. Rep. 2017, 7, 4487.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Large variability in the concentration of mycosporine-like amino acids among zooplankton from lakes located across an altitude gradient</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Tartarotti</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Laurion</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Sommaruga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Limnol. Oceanogr</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="1546" to="1552" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tartarotti, B.; Laurion, I.; Sommaruga, R. Large variability in the concentration of mycosporine-like amino acids among zooplankton from lakes located across an altitude gradient. Limnol. Oceanogr. 2001, 46, 1546- 1552.</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Antarctic krill (Euphausia superba) acquire a UV-absorbing mycosporine-like amino acid from dietary algae</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">J</forename><surname>Newman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">C</forename><surname>Dunlap</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Nicol</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Ritz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Mar. Biol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">255</biblScope>
+			<biblScope unit="page" from="93" to="110" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Newman, S.J.; Dunlap, W.C.; Nicol, S.; Ritz, D. Antarctic krill (Euphausia superba) acquire a UV-absorbing mycosporine-like amino acid from dietary algae. J. Exp. Mar. Biol. Ecol. 2000, 255, 93-110.</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Temporal concentrations of sunscreen compounds (Mycosporinelike Amino Acids) in phytoplankton and in the New Zealand krill</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Riemer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">D</forename><surname>Lamare</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">M</forename><surname>Peake</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nyctiphanes australis G.O. Sars. J. Plankton Res</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="1077" to="1086" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Riemer, U.; Lamare, M.D.; Peake, B.M. Temporal concentrations of sunscreen compounds (Mycosporine- like Amino Acids) in phytoplankton and in the New Zealand krill, Nyctiphanes australis G.O. Sars. J. Plankton Res. 2007, 29, 1077-1086.</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<title level="m" type="main">De novo synthesis of a sunscreen compound in vertebrates</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">R</forename><surname>Osborn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">H</forename><surname>Almabruk</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Holzwarth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Asamizu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Ladu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">M</forename><surname>Kean</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">A</forename><surname>Karplus</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">L</forename><surname>Tanguay</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">T</forename><surname>Bakalinsky</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Mahmud</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">5919</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Osborn, A.R.; Almabruk, K.H.; Holzwarth, G.; Asamizu, S.; LaDu, J.; Kean, K.M.; Karplus, P.A.; Tanguay, R.L.; Bakalinsky, A.T.; Mahmud, T. De novo synthesis of a sunscreen compound in vertebrates. Elife 2015, 4, e05919.</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Mycosporine-like amino acids from coral dinoflagellates</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">N</forename><surname>Rosic</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Dove</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="8478" to="8486" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rosic, N.N.; Dove, S. Mycosporine-like amino acids from coral dinoflagellates. Appl. Environ. Microbiol. 2011, 77, 8478-8486.</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Enzymes of the shikimic acid pathway encoded in the genome of a basal metazoan, Nematostella vectensis, have microbial origins</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Starcevic</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Akthar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Dunlap</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Shick</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Hranueli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Cullum</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Long</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. Natl. Acad. Sci</title>
+		<meeting>Natl. Acad. Sci<address><addrLine>USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="2533" to="2537" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Starcevic, A.; Akthar, S.; Dunlap, W.; Shick, J.; Hranueli, D.; Cullum, J.; Long, P. Enzymes of the shikimic acid pathway encoded in the genome of a basal metazoan, Nematostella vectensis, have microbial origins. Proc. Natl. Acad. Sci. USA 2008, 105, 2533-2537.</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Occurrence of UVA-and UVBabsorbing compounds in 152 species (206 strains) of marine microalgae</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">W</forename><surname>Jeffrey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">S</forename><surname>Mactavish</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">C</forename><surname>Dunlap</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Vesk</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Groenewoud</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Ecol. Prog. Ser</title>
+		<imprint>
+			<biblScope unit="volume">189</biblScope>
+			<biblScope unit="page" from="35" to="51" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jeffrey, S.W.; MacTavish, H.S.; Dunlap, W.C.; Vesk, M.; Groenewoud, K. Occurrence of UVA-and UVB- absorbing compounds in 152 species (206 strains) of marine microalgae. Mar. Ecol. Prog. Ser. 1999, 189, 35- 51.</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Distribution of mycosporine-like amino acids and photoprotective carotenoids among freshwater phytoplankton assemblages</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Laurion</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Lami</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Sommaruga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aquat. Microb. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="283" to="294" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Laurion, I.; Lami, A.; Sommaruga, R. Distribution of mycosporine-like amino acids and photoprotective carotenoids among freshwater phytoplankton assemblages. Aquat. Microb. Ecol. 2002, 26, 283-294.</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Complementary UV protective compounds in zooplankton</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Hylander</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">J</forename><surname>Boeing</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Graneli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Karlsson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Von Einem</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Gutseit</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">A</forename><surname>Hansson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Limnol. Oceanogr</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="1883" to="1893" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hylander, S.; Boeing, W.J.; Graneli, W.; Karlsson, J.; von Einem, J.; Gutseit, K.; Hansson, L.A. Complementary UV protective compounds in zooplankton. Limnol. Oceanogr. 2009, 54, 1883-1893.</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Fitness costs and benefits of ultraviolet radiation exposure in marine pelagic copepods</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Hylander</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Grenvald</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Kiørboe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Pfrender</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Funct. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="149" to="158" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hylander, S.; Grenvald, J.C.; Kiørboe, T.; Pfrender, M. Fitness costs and benefits of ultraviolet radiation exposure in marine pelagic copepods. Funct. Ecol. 2014, 28, 149-158.</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Vertical distribution and pigmentation of Antarctic zooplankton determined by a blend of UV radiation, predation and food availability</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Hylander</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L.-A</forename><surname>Hansson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aquat. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="467" to="480" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hylander, S.; Hansson, L.-A. Vertical distribution and pigmentation of Antarctic zooplankton determined by a blend of UV radiation, predation and food availability. Aquat. Ecol. 2013, 47, 467-480.</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Climate-induced input of turbid glacial meltwater affects vertical distribution and community composition of phyto-and zooplankton</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Hylander</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Jephson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Lebret</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Von Einem</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Fagerberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Balseiro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Modenutti</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">S</forename><surname>Souza</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Laspoumaderes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Jonsson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Plankton Res</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="1239" to="1248" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hylander, S.; Jephson, T.; Lebret, K.; Von Einem, J.; Fagerberg, T.; Balseiro, E.; Modenutti, B.; Souza, M.S.; Laspoumaderes, C.; Jonsson, M.; et al. Climate-induced input of turbid glacial meltwater affects vertical distribution and community composition of phyto-and zooplankton. J. Plankton Res. 2011, 33, 1239-1248.</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Dual control of the levels of photoprotective compounds by ultraviolet radiation and temperature in the freshwater copepod Boeckella antiqua</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">E</forename><surname>Garcia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">P</forename><surname>Perez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">D C</forename><surname>Dieguez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Ferraro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">E</forename><surname>Zagarese</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Plankton Res</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="817" to="827" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Garcia, P.E.; Perez, A.P.; Dieguez, M.D.C.; Ferraro, M.A.; Zagarese, H.E. Dual control of the levels of photoprotective compounds by ultraviolet radiation and temperature in the freshwater copepod Boeckella antiqua. J. Plankton Res. 2008, 30, 817-827.</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Mycosporines from freshwater yeasts: A trophic cul-de-sac</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Perez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Libkind</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">D</forename><surname>Dieguez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Summerer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Sonntag</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Sommaruga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Van Broock</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">E</forename><surname>Zagarese</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Photochem. Photobiol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="25" to="30" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Perez, P.; Libkind, D.; Dieguez, M.D.; Summerer, M.; Sonntag, B.; Sommaruga, R.; van Broock, M.; Zagarese, H.E. Mycosporines from freshwater yeasts: A trophic cul-de-sac? Photochem. Photobiol. Sci. 2006, 5, 25-30.</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Two divergent Symbiodinium genomes reveal conservation of a gene cluster for sunscreen biosynthesis and recently lost genes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Shoguchi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Beedessee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Tada</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Hisata</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Kawashima</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Takeuchi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Arakaki</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Fujie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Koyanagi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Roy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genom</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">458</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shoguchi, E.; Beedessee, G.; Tada, I.; Hisata, K.; Kawashima, T.; Takeuchi, T.; Arakaki, N.; Fujie, M.; Koyanagi, R.; Roy, M.; et al. Two divergent Symbiodinium genomes reveal conservation of a gene cluster for sunscreen biosynthesis and recently lost genes. BMC Genom. 2018, 19, 458.</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Body distribution and source of mycosporine-like amino acids in the cyclopoid copepod Cyclops abyssorum tatricus</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Orfeo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Ventura</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Tartarotti</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Sommaruga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Plankton Res</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="1430" to="1444" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Orfeo, M.; Ventura, M.; Tartarotti, B.; Sommaruga, R. Body distribution and source of mycosporine-like amino acids in the cyclopoid copepod Cyclops abyssorum tatricus. J. Plankton Res. 2011, 33, 1430-1444.</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Copepods in turbid shallow soda lakes accumulate unexpected high levels of carotenoids</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Herzig</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">A</forename><surname>Koinig</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Sommaruga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">43063</biblScope>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schneider, T.; Herzig, A.; Koinig, K.A.; Sommaruga, R. Copepods in turbid shallow soda lakes accumulate unexpected high levels of carotenoids. PLoS ONE 2012, 7, e43063.</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Ultraviolet absorption in transparent zooplankton and its implications for depth distribution and visual predation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Johnsen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">A</forename><surname>Widder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Biol</title>
+		<imprint>
+			<biblScope unit="volume">138</biblScope>
+			<biblScope unit="page" from="717" to="730" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Johnsen, S.; Widder, E.A. Ultraviolet absorption in transparent zooplankton and its implications for depth distribution and visual predation. Mar. Biol. 2001, 138, 717-730.</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">UV-enhanced fish predation and the differential migration of zooplankton to UV radiation and fish</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">M</forename><surname>Leech</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">J</forename><surname>Boeing</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">L</forename><surname>Cooke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">E</forename><surname>Williamson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Torres</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Limnol. Oceanogr</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="1152" to="1161" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Leech, D.M.; Boeing, W.J.; Cooke, S.L.; Williamson, C.E.; Torres, L. UV-enhanced fish predation and the differential migration of zooplankton to UV radiation and fish. Limnol. Oceanogr. 2009, 54, 1152-1161.</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Mycosporine-like amino acids protect the copepod Boeckella titicacae (Harding) against high levels of solar UVR</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">W</forename><surname>Helbling</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Zaratti</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">O</forename><surname>Sala</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">R</forename><surname>Palenque</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">F</forename><surname>Menchi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">E</forename><surname>Villafane</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Plankton Res</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="225" to="234" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Helbling, E.W.; Zaratti, F.; Sala, L.O.; Palenque, E.R.; Menchi, C.F.; Villafane, V.E. Mycosporine-like amino acids protect the copepod Boeckella titicacae (Harding) against high levels of solar UVR. J. Plankton Res. 2002, 24, 225-234.</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Ultraviolet damage and counteracting mechanisms in the freshwater copepod Boeckella poppei from the Antarctic Peninsula</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">E</forename><surname>Rocco</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Oppezzo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Pizarro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Sommaruga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Ferraro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">E</forename><surname>Zagarese</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Limnol. Oceanogr</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="829" to="836" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rocco, V.E.; Oppezzo, O.; Pizarro, R.; Sommaruga, R.; Ferraro, M.; Zagarese, H.E. Ultraviolet damage and counteracting mechanisms in the freshwater copepod Boeckella poppei from the Antarctic Peninsula. Limnol. Oceanogr. 2002, 47, 829-836.</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Photorepair activity and protective compounds in two freshwater zooplankton species (Daphnia menucoensis and Metacyclops mendocinus) from Patagonia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">J</forename><surname>Goncalves</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">E</forename><surname>Villafane</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">W</forename><surname>Helblingh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Argentina. Photochem. Photobiol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="996" to="1000" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Goncalves, R.J.; Villafane, V.E.; Helblingh, E.W. Photorepair activity and protective compounds in two freshwater zooplankton species (Daphnia menucoensis and Metacyclops mendocinus) from Patagonia, Argentina. Photochem. Photobiol. Sci. 2002, 1, 996-1000.</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">The Wavelengths in Sunlight Effective in Producing Skin Cancer: A Theoretical Analysis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">B</forename><surname>Setlow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. Natl. Acad. Sci</title>
+		<meeting>Natl. Acad. Sci<address><addrLine>USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1974" />
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="3363" to="3366" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Setlow, R.B. The Wavelengths in Sunlight Effective in Producing Skin Cancer: A Theoretical Analysis. Proc. Natl. Acad. Sci. USA 1974, 71, 3363-3366.</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Effect of ultraviolet radiation on clearance rate of planktonic copepods with different photoprotective strategies</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Laspoumaderes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Bastidas Navarro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">S</forename><surname>Souza</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Modenutti</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Balseiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. Rev. Hydrobiol</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="34" to="44" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Laspoumaderes, C.; Bastidas Navarro, M.; Souza, M.S.; Modenutti, B.; Balseiro, E. Effect of ultraviolet radiation on clearance rate of planktonic copepods with different photoprotective strategies. Int. Rev. Hydrobiol. 2019, 104, 34-44.</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Mycosporine-like amino acids: Relevant secondary metabolites. Chemical and ecological aspects</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">I</forename><surname>Carreto</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">O</forename><surname>Carignan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Drugs</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="387" to="446" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Carreto, J.I.; Carignan, M.O. Mycosporine-like amino acids: Relevant secondary metabolites. Chemical and ecological aspects. Mar. Drugs 2011, 9, 387-446.</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Fish-mediated trait compensation in zooplankton</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Hylander</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">S</forename><surname>Souza</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Balseiro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Modenutti</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L.-A</forename><surname>Hansson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Funct. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="608" to="615" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hylander, S.; Souza, M.S.; Balseiro, E.; Modenutti, B.; Hansson, L.-A. Fish-mediated trait compensation in zooplankton. Funct. Ecol. 2012, 26, 608-615.</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Effect of Ultraviolet Radiation on Acetylcholinesterase Activity in Freshwater Copepods</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">S</forename><surname>Souza</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Balseiro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Laspoumaderes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Modenutti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Photochem. Photobiol</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="367" to="373" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Souza, M.S.; Balseiro, E.; Laspoumaderes, C.; Modenutti, B. Effect of Ultraviolet Radiation on Acetylcholinesterase Activity in Freshwater Copepods. Photochem. Photobiol. 2010, 86, 367-373.</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Antioxidant Defences in Planktonic Crustaceans Exposed to Different Underwater Light Irradiances in Andean Lakes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">S</forename><surname>Souza</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">E</forename><surname>Modenutti</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">G</forename><surname>Balseiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Water Air Soil Pollut</title>
+		<imprint>
+			<biblScope unit="volume">183</biblScope>
+			<biblScope unit="page" from="49" to="57" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Souza, M.S.; Modenutti, B.E.; Balseiro, E.G. Antioxidant Defences in Planktonic Crustaceans Exposed to Different Underwater Light Irradiances in Andean Lakes. Water Air Soil Pollut. 2007, 183, 49-57.</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">The impact of ultraviolet radiation on the vertical distribution of zooplankton of the genus Daphnia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">C</forename><surname>Rhode</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Pawlowski</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Tollrian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">412</biblScope>
+			<biblScope unit="page" from="69" to="72" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rhode, S.C.; Pawlowski, M.; Tollrian, R. The impact of ultraviolet radiation on the vertical distribution of zooplankton of the genus Daphnia. Nature 2001, 412, 69-72.</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Diel vertical migration, size distribution and photoprotection in zooplankton as response to UV-A radiation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">T</forename><surname>Ekvall</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Hylander</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Walles</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L.-A</forename><surname>Hansson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Limnol. Oceanogr</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="2048" to="2058" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ekvall, M.T.; Hylander, S.; Walles, T.; Yang, X.; Hansson, L.-A. Diel vertical migration, size distribution and photoprotection in zooplankton as response to UV-A radiation. Limnol. Oceanogr. 2015, 60, 2048-2058.</note>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Horizontal migration of Acartia pacifica Steuer (copepoda) in response to UVradiation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Gao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Photochem. Photobiol. B</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="233" to="237" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ma, Z.; Li, W.; Gao, K. Horizontal migration of Acartia pacifica Steuer (copepoda) in response to UV- radiation. J. Photochem. Photobiol. B 2010, 101, 233-237.</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Behavioral responses of freshwater calanoid copepods to the presence of ultraviolet radiation: Avoidance and attraction</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">P</forename><surname>Overholt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">C</forename><surname>Rose</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">E</forename><surname>Williamson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Fischer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">A</forename><surname>Cabrol</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Plankton Res</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="16" to="26" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Overholt, E.P.; Rose, K.C.; Williamson, C.E.; Fischer, J.M.; Cabrol, N.A. Behavioral responses of freshwater calanoid copepods to the presence of ultraviolet radiation: Avoidance and attraction. J. Plankton Res. 2016, 38, 16-26.</note>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Instantaneous threat escape and differentiated refuge demand among zooplankton taxa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L.-A</forename><surname>Hansson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Bianco</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Ekvall</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Heuschele</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Hylander</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="279" to="285" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hansson, L.-A.; Bianco, G.; Ekvall, M.; Heuschele, J.; Hylander, S.; Yang, X. Instantaneous threat escape and differentiated refuge demand among zooplankton taxa. Ecology 2016, 97, 279-285.</note>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Small-molecule antioxidants in marine organisms: Antioxidant activity of mycosporine-glycine</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Dunlap</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Yamamoto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comp. Biochem. Physiol. Part B Biochem. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="105" to="114" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dunlap, W.; Yamamoto, Y. Small-molecule antioxidants in marine organisms: Antioxidant activity of mycosporine-glycine,. Comp. Biochem. Physiol. Part B Biochem. Mol. Biol. 1995, 112, 105-114.</note>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Mycosporine Glycine Protects Biological Systems Against Photodynamic Damage by Quenching Singlet Oxygen with a High Efficiency</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H.-J</forename><surname>Suh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H.-W</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Jung</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Photochem. Photobiol</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="109" to="113" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Suh, H.-J.; Lee, H.-W.; Jung, J. Mycosporine Glycine Protects Biological Systems Against Photodynamic Damage by Quenching Singlet Oxygen with a High Efficiency. Photochem. Photobiol. 2003, 78, 109-113.</note>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Differential susceptibility to oxidative stress of two scleractinian corals: Antioxidant functioning of mycosporine-glycine</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Yakovleva</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Bhagooli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Takemura</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Hidaka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comp. Biochem. Physiol. B Biochem. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="page" from="721" to="730" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yakovleva, I.; Bhagooli, R.; Takemura, A.; Hidaka, M. Differential susceptibility to oxidative stress of two scleractinian corals: Antioxidant functioning of mycosporine-glycine. Comp. Biochem. Physiol. B Biochem. Mol. Biol. 2004, 139, 721-730.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

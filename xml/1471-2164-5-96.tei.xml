@@ -1,0 +1,2101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/grace/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">FunnyBase: a systems level functional annotation of Fundulus ESTs for the analysis of gene expression</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2004-12-20">20 December 2004</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Justin</forename><forename type="middle">E</forename><surname>Paschall</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Division of Molecular Biology and Biochemistry</orgName>
+								<orgName type="department" key="dep2">Rockhill Rd</orgName>
+								<orgName type="institution">University of Missouri-Kansas City 64110</orgName>
+								<address>
+									<postCode>5100</postCode>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marjorie</forename><forename type="middle">F</forename><surname>Oleksiak</surname></persName>
+							<email>mfoleksi@ncsu.edu</email>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Environmental &amp; Molecular Toxicology</orgName>
+								<orgName type="institution">North Carolina State University</orgName>
+								<address>
+									<postCode>27695-7633</postCode>
+									<settlement>Raleigh</settlement>
+									<region>NC</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeffrey</forename><forename type="middle">D</forename><surname>Vanwye</surname></persName>
+							<email>jvanwye@rsmas.miami.edu</email>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Division of Marine Biology and Fisheries</orgName>
+								<orgName type="department" key="dep2">Freshwater Biomedical Sciences Center</orgName>
+								<orgName type="institution" key="instit1">NIEHS Marine</orgName>
+								<orgName type="institution" key="instit2">Rosenstiel School of Marine &amp; Atmospheric Science</orgName>
+								<orgName type="institution" key="instit3">University of Miami</orgName>
+								<address>
+									<postCode>33149</postCode>
+									<settlement>Miami</settlement>
+									<region>FL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jennifer</forename><forename type="middle">L</forename><surname>Roach</surname></persName>
+							<email>jlroach@rsmas.miami.edu</email>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Division of Marine Biology and Fisheries</orgName>
+								<orgName type="department" key="dep2">Freshwater Biomedical Sciences Center</orgName>
+								<orgName type="institution" key="instit1">NIEHS Marine</orgName>
+								<orgName type="institution" key="instit2">Rosenstiel School of Marine &amp; Atmospheric Science</orgName>
+								<orgName type="institution" key="instit3">University of Miami</orgName>
+								<address>
+									<postCode>33149</postCode>
+									<settlement>Miami</settlement>
+									<region>FL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">Andrew</forename><surname>Whitehead</surname></persName>
+							<email>awhitehead@rsmas.miami.edu</email>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Division of Marine Biology and Fisheries</orgName>
+								<orgName type="department" key="dep2">Freshwater Biomedical Sciences Center</orgName>
+								<orgName type="institution" key="instit1">NIEHS Marine</orgName>
+								<orgName type="institution" key="instit2">Rosenstiel School of Marine &amp; Atmospheric Science</orgName>
+								<orgName type="institution" key="instit3">University of Miami</orgName>
+								<address>
+									<postCode>33149</postCode>
+									<settlement>Miami</settlement>
+									<region>FL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gerald</forename><forename type="middle">J</forename><surname>Wyckoff</surname></persName>
+							<email>wyckoffg@umkc.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Division of Molecular Biology and Biochemistry</orgName>
+								<orgName type="department" key="dep2">Rockhill Rd</orgName>
+								<orgName type="institution">University of Missouri-Kansas City 64110</orgName>
+								<address>
+									<postCode>5100</postCode>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kevin</forename><forename type="middle">J</forename><surname>Kolell</surname></persName>
+							<email>kolellk@umkc.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Division of Molecular Biology and Biochemistry</orgName>
+								<orgName type="department" key="dep2">Rockhill Rd</orgName>
+								<orgName type="institution">University of Missouri-Kansas City 64110</orgName>
+								<address>
+									<postCode>5100</postCode>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Douglas</forename><forename type="middle">L</forename><surname>Crawford</surname></persName>
+							<email>dcrawford@rsmas.miami.edu</email>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Division of Marine Biology and Fisheries</orgName>
+								<orgName type="department" key="dep2">Freshwater Biomedical Sciences Center</orgName>
+								<orgName type="institution" key="instit1">NIEHS Marine</orgName>
+								<orgName type="institution" key="instit2">Rosenstiel School of Marine &amp; Atmospheric Science</orgName>
+								<orgName type="institution" key="instit3">University of Miami</orgName>
+								<address>
+									<postCode>33149</postCode>
+									<settlement>Miami</settlement>
+									<region>FL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><roleName>Species ID</roleName><forename type="first">D</forename><forename type="middle">B</forename><surname>Identifier</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gene</forename><forename type="middle">Ontology</forename><surname>Kegg</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Seq</forename><surname>Id</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="laboratory">Alignment Consensus Cluster Data Swiss-Prot Unigene NR</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department">Gene Name Description Enzyme EC</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">FunnyBase: a systems level functional annotation of Fundulus ESTs for the analysis of gene expression</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2004-12-20">20 December 2004</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1186/1471-2164-5-96</idno>
+					<note type="submission">Received: 17 August 2004 Accepted: 20 December 2004</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-09-14T02:35+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>Background: While studies of non-model organisms are critical for many research areas, such as evolution, development, and environmental biology, they present particular challenges for both experimental and computational genomic level research. Resources such as mass-produced microarrays and the computational tools linking these data to functional annotation at the system and pathway level are rarely available for non-model species. This type of &quot;systems-level&quot; analysis is critical to the understanding of patterns of gene expression that underlie biological processes. Results: We describe a bioinformatics pipeline known as FunnyBase that has been used to store, annotate, and analyze 40,363 expressed sequence tags (ESTs) from the heart and liver of the fish, Fundulus heteroclitus. Primary annotations based on sequence similarity are linked to networks of systematic annotation in Gene Ontology (GO) and the Kyoto Encyclopedia of Genes and Genomes (KEGG) and can be queried and computationally utilized in downstream analyses. Steps are taken to ensure that the annotation is self-consistent and that the structure of GO is used to identify higher level functions that may not be annotated directly. An integrated framework for cDNA library production, sequencing, quality control, expression data generation, and systems-level analysis is presented and utilized. In a case study, a set of genes, that had statistically significant regression between gene expression levels and environmental temperature along the Atlantic Coast, shows a statistically significant (P &lt; 0.001) enrichment in genes associated with amine metabolism. Conclusion: The methods described have application for functional genomics studies, particularly among non-model organisms. The web interface for FunnyBase can be accessed at http:// genomics.rsmas.miami.edu/funnybase/super_craw4/.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Background</head><p>Investigating patterns of gene expression using mouse and human microarrays has produced insights into cancer <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2]</ref>, cardiac diseases <ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref>, and metabolic disorders <ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref>. These and many other functional genomics studies rely on full genomic sequence to establish well-annotated databases. Yet, microarrays based on EST collections are increasingly being used for diverse species, from honey bees to fish <ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref> and including simple diploblastic organisms <ref type="bibr" target="#b20">[21]</ref>. These studies within a diversity of organisms provide insights not provided by 'model' species (species that are genetically well defined or with annotated genomes <ref type="bibr" target="#b21">[22]</ref>). For example, 'non-model' organisms have provided insight into the natural variation in gene expression <ref type="bibr" target="#b22">[23]</ref>, social castes among bees <ref type="bibr" target="#b23">[24,</ref><ref type="bibr" target="#b24">25]</ref>, hypoxia <ref type="bibr" target="#b25">[26]</ref>, and physiological responses to variation in the thermal environment <ref type="bibr" target="#b26">[27,</ref><ref type="bibr" target="#b27">28]</ref>. To investigate adaptive variation in gene expression we use the teleost Fundulus heteroclitus (killifish) <ref type="bibr" target="#b22">[23,</ref><ref type="bibr" target="#b28">29]</ref>.</p><p>The killifish Fundulus heteroclitus are distributed along the eastern coast of North America which has one of the steepest thermal clines in the world: northern populations have environmental temperatures more than 12°C below southern populations across 12 degrees of latitude. Migration among populations is sufficient to minimize random genetic drift <ref type="bibr" target="#b29">[30]</ref> but not frequent enough to extinguish local adaptation <ref type="bibr" target="#b30">[31,</ref><ref type="bibr" target="#b31">32]</ref>. Populations are large (&gt;10,000) and affected by historical, demographic and selective constraints, providing a framework for the partitioning of variation in gene expression within and among populations. Additionally, the well-established phylogenetic relationship among Fundulus species can be used to discern adaptive changes <ref type="bibr" target="#b22">[23,</ref><ref type="bibr" target="#b32">33,</ref><ref type="bibr" target="#b33">34]</ref>. These characteristics make F. heteroclitus an ideal species to investigate adaptive variation in gene expression.</p><p>Microarrays from diverse EST collections offer opportunities to address many biological problems, but to effectively use this information often requires a locally generated bioinformatics approach. Tools like the TIGR Gene index <ref type="bibr">[35]</ref> and Unigene <ref type="bibr">[36]</ref> provide significant information on many species, yet these databases do not meet the needs of functional genomics projects for many non-model species. Currently, TIGR and NCBI provide gene indices for 28 and 23 animal species, respectively. Yet, there are 63 animal species with more than 10,000 ESTs <ref type="bibr">[37]</ref>. The number of species with ESTs &gt;10,000 has continued to grow, and there was approximately a 20% increase in the preceding three months. While annotation from these resources can be accessed through web-based homology searches, for many laboratory collections of ESTs it is difficult to use existing tools to achieve a systems-level view of gene functions and relationships. Rather than simply browsing functional information over the web for a different group's project, laboratories that produce novel EST collections and microarrays require customized databases providing access to integrated functional annotation as expression data are being analyzed.</p><p>We have developed FunnyBase to meet these functional genomics needs. FunnyBase provides functional information for &gt;40,000 ESTs from the teleost fish Fundulus heteroclitus, provides the means to quickly process, evaluate, and store annotation based on similarity searches of public resources, and integrates these data with species-specific clustering and microarray analysis. Perhaps ironically, the greatest challenge for functional annotation based on similarity searches is an overabundance of data. There are a number of databases to chose from, and often the single best hit from a given database search is not the most informative. FunnyBase implements a strategy to make maximum use of systems-level functional information from Gene Ontology (GO) <ref type="bibr" target="#b34">[38]</ref> assignments and membership in metabolic pathways as defined by the Kyoto Encyclopedia of Genes and Genomes (KEGG) <ref type="bibr" target="#b35">[39]</ref>. Specifically, several sequence databases are queried and results integrated to maximize the number of annotated sequences. Alignments and scores for all homology based associations are tracked, allowing further evaluation and statistical studies.</p><p>Microarray data using genes annotated in FunnyBase can be systematically analyzed in the context of biological functions. We present a case study to illustrate how assessment of systems-level annotation can identify statistically significant functional differences among sets of genes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and discussion</head><p>FunnyBase <ref type="figure">(Fig. 1</ref>) is divided into 3 modules: Sequence Pipeline, Hierarchical Annotation, and Microarray Production and Analysis. The Sequence Pipeline takes sequences and quality output files from the sequencer, applies vector screening, quality trimming, clone tracking, and clustering (described below) to produce a set of unique sequences that are deposited in the 'Sequence Data' and 'Cluster Data' tables. Notice "unique sequences" are a combination of singletons (single unique ESTs) and clusters of overlapping sequences.</p><p>The Hierarchical Annotation module uses the consensus sequences from the clusters or singletons, and integrates primary annotation such as gene name and description with associated pathways and systems-level functional annotation. This may include gene function (e.g., enzyme catalyst), metabolic or signal pathway (e.g., oxidative phosphorylation), or biological function (e.g., protein translation). Sequence data from the first module and functional annotation from the second are matched using database similarity searches (BLASTX and BLASTN). E-val-ues, bit scores and local alignments are stored in the 'Similarity Data' table for all significant matches. One of the strengths of FunnyBase is the use of different sequence databases (SwissProt <ref type="bibr" target="#b36">[40]</ref>, NCBI UniGene <ref type="bibr">[36]</ref>, and NCBI non-redundant NR <ref type="bibr" target="#b37">[41]</ref>) to provide separate annotations. Although these databases are not completely independent, the three separate annotations provide verification of gene names.</p><p>The third module, Microarray Production &amp; Analysis provides a list of unique genes to be printed and integrates expression data from microarray experiments with the Hierarchical Annotation module. This provides func-tional annotation for expression data. FunnyBase annotation is accessible through the web or through local SQL queries and data-mining scripts.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>EST isolation and sequencing</head><p>The overall strategy used to isolate and sequence thousands of Fundulus cDNAs was (1) generate a high quality unidirectional cDNA library, (2) normalize the library, (3) randomly pick colonies and amplify by PCR the cDNA within the vector, (4) sequence and identify PCR products, and (5) after approximately every 1,000 clones, subtract these from the normalized library and repeat steps 3-5. Details for all protocols are provided at http://craw FunnyBase annotation scheme <ref type="figure">Figure 1</ref> FunnyBase annotation scheme. The integration of the three FunnyBase modules: sequence pipeline, hierarchical annotations and microarray production and analysis. Database tables are shown in cylinders, arrows are data flow, and dashed lines indicate the integration of data from multiple sources. ). The remaining 6,966 un-submitted sequences failed to meet one of the sequence quality parameters. Two criteria are used for defining "good" sequences: 1) &gt;100 bp of sequence with Phred score &gt;20 or 2) form an overlapping cluster with other sequences. Of the 19,937 sequences processed with the current version of FunnyBase, 17,893 (90%) passed one of these quality parameters. In earlier iterations of FunnyBase, visual inspection and later a sequencer-specific quality measure equivalent to a Phred score of 15 were used as filters resulting in 3,603 of the first 5,760 sequences (63%) and 13,922 of the next 15,168 sequences (92%) meeting quality standards, respectively. Re-sequences account for 5,668 sequences, and 4,625 of these were submitted.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Controls</head><p>One of the most important steps for producing microarrays from cDNA libraries is being able to associate the bacteria containing the cDNAs of interest with the EST annotation. High-throughput procedures are highly prone to tracking errors including: loading plates into an automatic sequencer in the wrong order, orienting symmetric plates in the wrong direction, or mislabeling of plates. The ability to identify these types of mistakes requires controls for identifying plates and plate orientation. The FunnyBase system has a number of integrated quality control steps. First, a Ctenophore cDNA (NCBI: accession number: CN992733) that is unlike anything else in GenBank is used as a control. Controls are placed in 96-well plates in wells corresponding to the plate number and two orientation wells (A5 and F9). Sequences from 96-well plates are automatically scanned for these controls so that the identity and orientation are confirmed and a report is generated for manual review. Secondly, all clones used for microarray production are re-sequenced. This is necessary because individual cDNAs are cherry picked, re-grown and re-amplified, and each of these steps has the potential to introduce or magnify an error. For example, for a 6,000 gene array, a 5% error rate would result in 300 incorrect clones. Re-sequenced array plates are compared using pair-wise BLAST <ref type="bibr" target="#b38">[42]</ref> against previous sequencing results so that the identity of printed microarray spots are verified.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>EST clustering</head><p>EST projects generate a number of redundant sequences due to the random selection of cDNAs from tissue libraries <ref type="table" target="#tab_1">(Table 1)</ref>. Clustering redundant sequences is a critical first step of analysis in order to identify genes to target for subtraction. The program CAP3 by Xiaong Huang <ref type="bibr" target="#b39">[43]</ref> was used to cluster EST sequences with a 30 bp overlap and 75 percent similarity.</p><p>FunnyBase contains a total of 40,043 EST sequences from F. heteroclitus heart and liver. Clustering with CAP3 yields 3,776 clusters that contain 30,688 ESTs (77%). The remaining 8,991 ESTs (23%) are singletons. By storing the results of clustering with annotation, FunnyBase easily identifies these genes and aids in the selection of genes to be used for library subtraction with the goal of picking less common transcripts.</p><p>The 10 annotated clusters with the most sequences are listed in <ref type="table" target="#tab_1">Table 1</ref>. In microarray experiments these genes tend to be highly expressed and the fluorescent signal tends to saturate the photomultiplier tube. These genes also serve to verify microarray printing because the predicted spots for these genes have the strongest signal.</p><p>The distribution of the number of clusters with two or more ESTs is depicted in <ref type="figure" target="#fig_0">Figure 2</ref>. Although most clusters (2,581 or 68%) in FunnyBase have two or three-to-four sequences ( <ref type="figure" target="#fig_0">Fig. 2)</ref>, a small number of highly expressed genes form clusters with a large number of ESTs. For example, there are three clusters that contain 512 to 1,024 ESTs and ten clusters that contain 256 to 512 ESTs (bottom two bars for killifish in <ref type="figure" target="#fig_0">Fig. 2</ref>). This distribution is similar to other teleost fish EST collections <ref type="figure" target="#fig_0">(Fig 2)</ref>. Notice, as more ESTs are added, clusters tend to get larger (more ESTs per cluster) rather than new small clusters growing in frequency. Of the 3,779 killifish clusters, 14% have more than eight ESTs, yet of the 14,714 Medaka clusters, 48% have eight or more ESTs. These distributions suggest that adding more EST sequences has diminishing returns.</p><p>One of the objectives of EST projects is to isolate most, if not all, genes expressed in a tissue or organism. The increasing size of larger clusters with more sequencing efforts indicates that strategies to increase the probability of isolating new genes need to be employed. We used two strategies. First, we normalized the library to reduce the differences among expressed genes to less than 10-fold among rare and abundant mRNAs <ref type="bibr" target="#b40">[44,</ref><ref type="bibr" target="#b41">45]</ref>. Using this technique we were able to reduce redundancy in annotated genes from 33% in the non-normalized library to 11% after normalization. Second, we targeted specific sequences for subtraction: annotated cDNAs with high frequencies were targeted in order to focus effort on picking new, rare sequences. Through subtraction we were able to increase the rate of discovery of new annotatable sequences from 24% to 36%. However, analysis of these results indicate that a set of highly expressed sequences, some of which were not subtracted because they were not in the set of annotated genes, still make up much of the EST library and should be the focus of future subtractions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Gene annotation</head><p>Of the 12,776 unique ESTs (3,776 clusters and 8,991 singletons), 3,877 (30%) were annotated. The distribution of e-values for these annotations is shown in <ref type="figure">Figure 3</ref>. Most (84%) of these ESTs have e-values less than 10 -5 . Among the clusters, 2,265 of 3, 779 (60%) were annotated as compared to 333 of 1,131 (30%) of confirmed high quality singletons. The lower percent of annotated singletons suggests that these are either rare fish-specific genes, or represent otherwise divergent, likely non-coding (5' or 3' UTR), regions.</p><p>Annotations for ESTs are based on similarity using BLASTX or BLASTN <ref type="bibr" target="#b38">[42]</ref>   quality single unique sequences (singletons) are used as query sequences for BLAST searches against these public databases. The use of consensus sequences, when available, allows sequences that do not contain regions of significant similarity with known protein (e.g., 5' or 3' noncoding regions) to be annotated if they are members of an annotated cluster. All hits with e-value less than 0.001 and their associated alignments are stored in the database and tracked with any associated functional annotation. Users can specify a custom level of significance when assessing the validity of homology based annotation. This record, which goes beyond storing a certain number of 'best hits', is critical because in many cases additional results may have a negligibly lower alignment score, but provide much more useful functional data.</p><p>The use of multiple databases increases the total number of annotated ESTs <ref type="figure" target="#fig_2">(Fig. 4)</ref> as compared with any one source and provides opportunity to compare annotation between all three sources for 1,841 (47%) sequences. GenBank NR provided the most number of annotations, but these tend to be less informative (see systematic functional annotations below). Human Unigene provided an additional 311 (8% of total) annotations. SwissProt provided an additional 32 annotations (1% of total) with 743 fewer annotated sequences than the NR. However, Swiss-Prot is uniformly well annotated as compared to NR where informative functional annotation can easily be buried by numerous uninformative hits at similar e-values. Besides increasing the number of annotations, comparing the annotations from multiple databases ensures that mistakes in the curation can be detected and information such as alternative gene names can be compiled from multiple sources.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Systematic functional annotation: KEGG and Gene Ontology</head><p>In conjunction with performing similarity searches by BLAST, FunnyBase includes locally parsed representations of public databases such as SWISS-PROT in a relational database format. These databases provide additional information that cross-references other public resources such as GO, KEGG or OMIM <ref type="bibr" target="#b42">[46]</ref> that are not available in</p><p>Distribution of e-values for annotations <ref type="figure">Figure 3</ref> Distribution of e-values for annotations. Gene annotation is based on sequence similarity. The e-values, which describe the probability of random sequence similarity, are shown as the negative log value (e.g., 10 -5 = 5).  KEGG <ref type="bibr" target="#b35">[39]</ref> is a unique tool that represents metabolic and signal-transduction pathways both visually and computationally. FunnyBase links annotated genes to enzymes in KEGG pathways based on enzyme commission (EC) numbers. These pathway associations are stored and queries can readily identify genes from a given pathway that show specific patterns of expression. For visual inspection of the pathway, the web interface http://genom ics.rsmas.miami.edu/funnybase/super_craw4/ links directly to the graphical KEGG pathways in which a gene occurs.</p><p>Of the 3,877 annotated ESTs in FunnyBase, 588 (14%) participate in one or more pathways defined by KEGG. These 588 ESTs represent 105 different pathways. <ref type="table" target="#tab_3">Table 2</ref> provides a breakdown of the number of ESTs in FunnyBase for the 10 pathways associated with the largest number of distinct sequences (contigs or singletons). The extent that a given pathway is represented in FunnyBase can be used to identify metabolic differences among tissues <ref type="bibr" target="#b43">[47]</ref> or in different species.</p><p>The Gene Ontology project (GO) has produced a structured vocabulary in the form of an acyclic directed graph that biologists can use to annotate genes in a systematic manner <ref type="bibr" target="#b34">[38]</ref>. FunnyBase includes two non-trivial steps to make the best possible use of GO terms. First, many GO annotations are lost if only the single 'best hit' from a homology search is considered because GO annotation is applied most often to a few model species such as human that may not appear as the single 'best hit' in a list of BLAST results. FunnyBase identifies the gene name associated with the 'best hit' BLAST result and then uses all GO annotation associated with hits from the complete BLAST results that have the same gene name as the 'best hit' and an e-value of e &lt; 10 -12 . The goal of this approach is to identify annotation associated with a single 'best hit' gene based on results that may come from multiple species (orthologous genes) and therefore may have varying degrees of sequence similarity due to phylogenetic distance, but to avoid the problem of selecting an inconsistent set of GO terms arising from gene families that share regions of sequence similarity but may have different functions.</p><p>Secondly, GO annotation in public databases tends to annotate sequences with only the most specific GO term available, for example RNA polymerase II transcription factor activity, enhancer binding (GO:0003705) rather than the more general parent term transcription regulator activity (GO:0030528). However, in functional genomic analysis, significant patterns of expression may exist at the more general level of functional description. FunnyBase takes advantage of the connected parent-child relationship of GO terms provided by using the relational database version of GO available for download at http://www.geneon tology.org to identify such relationships. These data are used to extract the tree of more general GO terms related to those provided by public databases. A FunnyBase script then re-annotates genes with this more complete set of GO terms.</p><p>Of the 3,877 annotated genes, 1,912 (54%) are assigned one or more GO terms with a total 6,728 GO assignments being made directly based on information in public databases such as SwissProt. Using parent-child GO term relationship backtracking, an additional 34,112 GO term assignments were made, resulting in a final count of GO assignments of 36,024 excluding the most general terms that divide GO into three categories. Thus, on average, 19 GO terms are assigned to each of 1,912 annotated genes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Gene scaffolding: clustering of clusters</head><p>Humans have approximately 30,000 expressed genes, yet there are over 1,000,000 human UniGenes (NCBI). Clearly, these clusters of cDNAs greatly overestimate the number of unique genes. Similarly, FunnyBase has multiple clusters for the same gene: 15 apolipoprotein I, 10 cytochrome oxidase I, and 53 vitellogenin clusters. To provide a more precise estimate of the number of unique genes, consensus sequences were queried against the 27,695 sequences from the Human RefSeq <ref type="bibr" target="#b44">[48]</ref> database, then grouped by identical gene symbol. Of the 2,376 Fundulus clusters that were similar to a sequence in Human RefSeq (e-value &lt; 10 -10 ), 1,818 (76%) had distinct gene annotations. This method of clustering clusters by similarity to well-annotated reference sequences provides a method to more accurately define the number of unique genes represented by an EST set.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Case study: using functional annotation for microarray analysis</head><p>As a case study in how functional annotation in FunnyBase can be integrated with microarray data in a rigorous manner, we used a data set based on a microarray of metabolic genes printed from ESTs annotated in FunnyBase <ref type="bibr" target="#b43">[47]</ref>. Statistical analysis of this set of 363 metabolic genes identified a set of 62 genes that showed statistically significant regression between gene expression levels and temperature along the Atlantic coast. That is, among individuals collected from different locations along the thermocline and then acclimated to common physiological conditions for at least nine months before analysis, 17% of the metabolic genes had a linear relationship between the amount of mRNA and the environmental temperature these animals evolved in. Our hypothesis was that this set of 59 genes represents a functionally different set than those genes that do not show regression with temperature. To test this hypothesis we examined the frequency of genes annotated with a given GO term in the statistically significant gene set versus the non-significant genes. <ref type="figure" target="#fig_3">Figure 5</ref> shows the relevant proportions in each set for GO terms that are represented by 5 or more ESTs in the significant set. For example, the GO term Amine Metabolism (GO:0009308) is assigned to 14% of the 62 statistically significant genes but only 3% of the non-significant genes (those that do not show significant regression with temperature). A Fisher-exact test indicates these frequencies (14% vs. 3%) represent different underlying distributions (p &lt; 0.001). Specifically, genes involved in amine metabolism are overrepresented in the set of genes that show regression with temperature as compared with the remaining sequences. This significant increase is found for two other non-mutually exclusive GO terms: amino acid and derivative metabolism, and amino acid metabolism (p &lt; 0.05). Other GO terms show a reverse trend although none were statistically significant. For example, ion transport (p = 0.08) and cell growth (p = 0.16) had few genes with a clinal variation in expression. These data suggest that the functions of genes influence whether they are affected by ecologically interesting patterns of expression ( <ref type="figure" target="#fig_3">Fig 5)</ref>.</p><p>Distribution of significant and non-significant genes relative to GO terms <ref type="figure" target="#fig_3">Figure 5</ref> Distribution of significant and non-significant genes relative to GO terms. The relationship between gene expression from "common gardened" fish and the environment they evolved in was statistically analyzed and grouped by GO terms. Black bars represent genes whose levels of expression has a significant regression with the environmental thermal cline among populations (p &lt; 0.05). Hatched bars represent the set of genes with no significant relationship to the thermal environment. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Web interface</head><p>The web interface http://genomics.rsmas.miami.edu/fun nybase/super_craw4/ provides public access to the Funny-Base system and dataset. Searches can query by keyword in annotation, gene name, GO term, metabolic pathway, clone or plate id, and BLAST homology search. All data including raw sequences, cluster memberships, cluster alignments, and alignments with homologous sequences are provided for the user to examine the source of annotations. Links associated with each annotation are made to external resources such as GO's AMIGO browser, KEGG pathways, SwissProt, and NCBI records.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Other Fundulus sequences</head><p>FunnyBase was constructed to annotate sequences for the analysis of gene expression. It provides identification and annotation for genes in the Crawford laboratory with a primary goal of identifying clones useful for the construction of microarrays. As such, other Fundulus sequences in Genbank are not included. However, FunnyBase forms the basis of the TIGR Killifish gene index http://www.tigr.org/ tigr-scripts/tgi/T_index.cgi?species=killifish that includes publicly available F. heteroclitus sequences.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>Customized species specific EST databases are available for many species <ref type="bibr" target="#b16">[17,</ref><ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b20">21,</ref><ref type="bibr" target="#b45">[49]</ref><ref type="bibr" target="#b47">[50]</ref><ref type="bibr" target="#b48">[51]</ref><ref type="bibr" target="#b49">[52]</ref><ref type="bibr" target="#b50">[53]</ref><ref type="bibr" target="#b51">[54]</ref><ref type="bibr" target="#b52">[55]</ref><ref type="bibr" target="#b53">[56]</ref>. FunnyBase provides an integrated method to annotate ESTs with the most biologically relevant set of associations and provides several innovations for the production of ESTs for microarrays. Control sequences are identified in each 96-well plate so that mislabelled or inverted plates are automatically detected. Annotations are based upon several different public databases. The multiple annotations provide greater assurance about gene description and greater frequency of annotation than any one database. The most functionally informative innovation of FunnyBase is the process of culling through numerous primary similarity search results in order to identify links to systematic functional databases in GO and KEGG. These provide a discrete set of terms that can be analyzed statistically and that are organized into networks that represent biological knowledge of higher-level functional and pathway associations. The range of databases queried by similarity search and the tracking of homology beyond a single 'best' hit maximizes the opportunity to obtain this annotation. A richer set of GO terms is achieved by using all hits with evalues less than 10 -11 that represent the same gene as the 'best hit'. Additional GO terms that represent more general functions than those found in public annotation are derived through the parent-child relationship of the Gene Ontology. EC numbers provide links, via KEGG, to metabolic pathways and these stored terms can be used to investigate the relationship between gene expression in specific metabolic pathways including cardiac metabo-lism <ref type="bibr" target="#b54">[57]</ref>. To provide a more accurate accounting of the number of unique genes, consensus sequence from clusters of ESTs were queried against the Human RefSeq database and those sequences sharing the same gene symbol are grouped based on this scaffolding information. These approaches use publicly available bioinformatics tools (BLAST, CAP3, Phred, Cross-Match, Perl, and the MySQL database management system). The application of theses tools in an appropriate framework as outlined in Funny-Base can be used to create a systems level functional genomics annotation system useful for EST databases to study biological processes among a rich diversity of organisms.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Organism</head><p>The animal protocols used in the present study have been approved by the University of Miami Institute Animal Care and Use Committee. The teleost fish Fundulus heteroclitus used for ESTs were collected from two sites: Scorton Creek in Sandwich, MA, and Stone Harbor, NJ. These populations are in the central portion of the thermal cline and have relatively high levels of heterozygosity <ref type="bibr" target="#b31">[32]</ref>. These fish were subjected to the following environmental regime before tissues were harvested for mRNA extraction: kept in controlled temperature and aeration conditions, and acclimated to common conditions (20°C, 15 ppt salinity) in re-circulating aquaria for at least nine months before experiments. Following this common acclimation a subset of fish were subjected to one of several stresses: 4°C, 34°C, hypoxia, or a complex mix of hydrocarbons.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>cDNA library</head><p>To effectively isolate and sequence thousands of cDNAs for the production of microarrays, a unidirectional cDNA library with few non-recombinants was required. We created four cDNA libraries: heart libraries from non-stressed and stressed fish and liver libraries from non-stressed and stressed fish. The non-stressed F. heteroclitus cardiac and liver libraries were provided by Drs. S. Karchner and M. Hahn, WHOI <ref type="bibr" target="#b55">[58]</ref> and were constructed using the UniZap λ cDNA Gigpack Gold cloning kit (Stratagene, La Jolla, CA, USA). The cardiac library was produced from 27 fish hearts (both sexes) sampled from Scorton Creek in Sandwich, MA. The cDNAs in these libraries are oriented such that the 5'end of each cDNA is ligated to EcoR1 and 3' poly A is ligated to XhoI. These libraries had less than 1% non-recombinants, i.e. 2 of 300 random clones from a non-normalized library had no inserts. The stressed libraries included 4 fish subjected to the four stressors (above) and 4 non-stressed individuals. Unidirectional heart and liver libraries were constructed such that the 5'end of each cDNA is ligated to EcoR1 and 3' poly A is ligated to XhoI of the plasmid vector pSmart (Lucigen, Middleton, WI, USA). The pSmart-cDNA vector was designed for EST work. The vector expresses kanamycinresistance and has a terminator on both sides of the cDNA insertion site preventing expression of cDNA. These two attributes (non-expression and Kan-resistance) increase the stability of different genes in the library versus cDNA libraries in Amp libraries with Lac promoters <ref type="bibr">(Crawford, unpublished)</ref>. These libraries had less than 1% nonrecombinants.</p><p>Normalization of cDNA libraries reduces the differences among expressed genes to less than 10-fold among rare and abundant mRNAs <ref type="bibr" target="#b40">[44,</ref><ref type="bibr" target="#b41">45]</ref>. Normalized libraries were produced by isolating cDNAs from approximately <ref type="bibr">10 12</ref> plasmids. The cDNAs were isolated using PCR amplification with vector specific primers immediately 5' and 3' to the insertion site (EcoRI and XhoI sites). These PCR products (PCR-cDNAs) were denatured and hybridized to single stranded plasmids from the cardiac cDNA library. Taking advantage of Cot values, the most abundant cDNAs were annealed to the more abundant PCR products and were removed selectively by hydroxyapatite-column chromatography. The single-stranded plasmids in the flow-through were converted to double strands using the Sequenase DNA polymerase (Amersham, Piscataway, NJ, USA). DH10s E. coli (BRL) were transformed with these double-stranded plasmids by electroporation. The number of recovered plasmids and the resulting complexity of the normalized library depended on the duration of hybridization or Cot values. Two normalized libraries were made using either a 12 or 24 hour hybridization. The library from the 12-hour hybridization yielded 250,000 plasmids. The library from the 24 hour hybridization yielded 3,000 plasmids and had a greater representation of rare mRNAs and greater frequency of non-recombinants.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Isolation and sequencing of cDNAs</head><p>Characterization of cDNAs (growth of individual bacterial colonies containing plasmids, PCRs, purification of PCR products, sequencing reactions) used 96 well plates and octopipettes. To characterize cDNAs, 96 individual bacterial colonies from the normalized library were randomly chosen, and each was grown in 1.25 ml of Superbroth in 2 ml-96 well plates. After 18 hours of growth, two 250 ul bacterial glycerol stocks were made and stored in 96 well plates at -80°C. One microliter of these bacterial growths was used for PCR reactions using forward and reverse plasmid specific primers: (PucF = CGCCAGGGTTTTCCCAGT-CACG, PucR = GAGCGGATAACAATTTCACACAGGAAA). PCR reactions had 0.2 mM dNTPs, 10 pmoles of each primer, 1 unit of Promega Taq (0.2 ul), and reaction buffer with detergents and DMSO (final concentrations: 50 mM Tris HCl, pH 9.2 (25°C), 16 mM (NH 4 )2SO 4 , 2.25 mM MgCl 2 , 2% (v/v) DMSO, 0.1% (v/v) Tween 20). Twostep thermal cycle conditions were used (94°C for 10 sec-onds; then 32 cycles of 94°C for 30 seconds followed by 70°C for 5 minutes; then 72°C for 15 minutes). PCR products were purified manually in 96 well format using Sephadex G-50 in a deep well plate with a 0.2 microfilter (Millipore, Billerica, USA) or robotically using AmPure (Agencourt, Beverly, MA, USA) and EvolP 3 96 pipetting liquid handling system (PerkinElmer Life Sciences Inc., Boston, MA, USA).</p><p>PCR products were sequenced from the 5' end (relative to the mRNA) on an ABI 373 or ABI 3730 sequencer using ABI "Big Dye" reaction mix. We typically used 1/16 the amount of reaction mix, yielding 300 to 400 unambiguous bases. Sequences were purified using biotin primers and streptavidin coated magnetic beads (for the ABI 373) or Agencort CleanSeq (for the ABI 3730).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Validation</head><p>We used three procedures to verify that the correct sequence was associated with each cDNA. 1) Each 96-well plate had three wells with a "marker cDNA" (Ctenophore cDNA #5, a random cDNA with no similarity to any sequence in GenBank). Two wells (#40 and #67) always contained the marker cDNA, and thus any misloading or mislabeling of sequencing lanes was identifiable. The third marker cDNA was placed in a well that corresponds to the plate number (e.g., plate 2 had the marker in well 2). 2) After the production of 12 plates, one row (8 wells) from each plate was re-sequenced. Thus, 8/96 or ~8% of all sequences and their locations were confirmed. 3) cDNAs used for microarrays were re-sequenced. These measures are important to ensure that the correct and known cDNAs are printed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Subtraction</head><p>The complexity of the normalized library was reduced by subtracting the characterized cDNAs previously isolated from the normalized library. Subtraction greatly reduced the probability of isolating the same cDNA and thus improved the efficiency of screening the library for unique clones. Subtraction used a 100-fold molar excess of biotin-labeled antisense cDNAs produced by PCR using all the characterized cDNAs as substrates and vector-specific primers in which the 3' primer was labeled with biotin. These PCR products were hybridized to the cDNA libraries in the presence of oligo-dA and vector-specific oligos (that prevented non-specific hybridization to oligo-dT or vector sequences). After a 24 hour hybridization, genes in the library that bound to these biotin-labeled PCR products were removed with the use of magnetized, streptavidin coated beads. DH10s E. coli were transformed with the subtracted library by electroporation.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 2 .</head><label>2</label><figDesc>Frequency of Cluster Size Class in Teleost.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 3 . 4</head><label>34</label><figDesc>Distribution of E-values for Annotations.Venn diagram of annotations from three different databasesFigure Venn diagram of annotations from three different databases. Number of unique ESTs annotated by three different databases: GenBank non-redundant (NR, total annotated = 3,534), Swiss-Prot (total annotated = 2,829), and human Unigene (total annotated = 2,390).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 4 .</head><label>4</label><figDesc>Venn Diagram of Annotations from Three Different Databases the single FASTA description line returned by BLAST search.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 5 .</head><label>5</label><figDesc>Distribution of Significant and Non-significant Genes Relative to GO Terms.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1 : The Ten Most Frequently Annotated ESTs. Clusters with the greatest number of annotated ESTs, the sequence id, number of ESTs that cluster together, and the e-value (probability of similarity) are listed. ID Number of ESTs Evalue Description</head><label>1</label><figDesc></figDesc><table><row><cell>1616</cell><cell>977</cell><cell>0</cell><cell>Vitellogenin I precursor</cell></row><row><cell>2262</cell><cell>734</cell><cell>2e-88</cell><cell>Cytochrome c oxidase polypeptide II</cell></row><row><cell>1348</cell><cell>507</cell><cell>1e-102</cell><cell>Alpha-1-antitrypsin homolog precursor</cell></row><row><cell></cell><cell>481</cell><cell>5e-61</cell><cell>Zona pellucida sperm-binding protein 3 precursor</cell></row><row><cell>1727</cell><cell>401</cell><cell>0</cell><cell>Serotransferrin precursor</cell></row><row><cell>555</cell><cell>397</cell><cell>0</cell><cell>Cytochrome c oxidase polypeptide I</cell></row><row><cell>640</cell><cell>369</cell><cell>8e-61</cell><cell>Zona pellucida sperm-binding protein B precursor</cell></row><row><cell>1549</cell><cell>351</cell><cell>2e-77</cell><cell>Apolipoprotein A-I precursor</cell></row><row><cell>570</cell><cell>331</cell><cell>1e-111</cell><cell>Cytochrome c oxidase polypeptide III</cell></row><row><cell>1178</cell><cell>304</cell><cell>2e-45</cell><cell>ATP synthase a chain</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 2 : Number of distinct sequences in the Top 10 most common KEGG pathways. The KEGG pathway name and number of distinct sequences (clusters or singletons) from FunnyBase are presented. There are more distinct sequences than enzymes in a pathway because many enzymes have several protein subunits and many proteins have several different loci encoding the same subunit (e.g., NADH dehydrogenase, a protein complex of oxidative phosphorylation, has 26 protein subunits and 42 loci for these subunits). Sequence count for TOP 10 pathways</head><label>2</label><figDesc></figDesc><table><row><cell>Glycolysis/Gluconeogenesis</cell><cell>89</cell></row><row><cell>Oxidative phosphorylation</cell><cell>86</cell></row><row><cell>Fatty acid metabolism</cell><cell>70</cell></row><row><cell>Pyruvate metabolism</cell><cell>69</cell></row><row><cell>Tryptophan metabolism</cell><cell>66</cell></row><row><cell>Butanoate metabolism</cell><cell>48</cell></row><row><cell>Glycerolipid metabolism</cell><cell>47</cell></row><row><cell>Valine, leucine and isoleucine degradation</cell><cell>46</cell></row><row><cell>Glycine, serine and threonine metabolism</cell><cell>44</cell></row><row><cell>Propanoate metabolism</cell><cell></cell></row></table><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">(page number not for citation purposes)</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgements</head></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Hardware and software</head><p>Computational work was done on an Apple G5 dual 2 GHz processor system with 4 GB of RAM. Data are stored in a MySQL database, perl scripts were used extensively for parsing and loading data, and PHP was used on an APACHE web server to construct the user interface. Additional programs available from their authors are mentioned within context. Software and databases are described in <ref type="table">Table 3</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Microarrays</head><p>Microarrays were printed using a select 384 cDNAs from F. heteroclitus cardiac library encoding essential proteins for cellular metabolism isolated from over 40,000 expressed sequences http://genomics.rsmas.miami.edu/ FunnyBase/super_craw4/. These 384 cDNAs were amplified with amine-linked primers and printed on 3-D Link Activated slides (Surmodics Inc., Eden Prairie, MN, USA) using GeneMachine OminGrider, and blocked following slide manufacturer protocols. The suite of 384 amplified cDNAs was printed as a group in four spatially separated replicates. Four hybridization zones of these four replicate arrays were printed per slide, with each zone set separated by a hydrophobic barrier. Samples were hybridized twice; once with Cy3 and once with Cy5 resulting in overall technical replication of 8-fold per sample.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample preparation and hybridization</head><p>RNA was extracted from tissue homogenate in a chaotropic buffer using phenol/cholorform/isoamyl alcohol and RNA quality was assessed using the Agilent 2100 Bio-analyzer (Agilent Technologies, Palo Alto, CA, USA). RNA for hybridization was prepared by amplification using a modified Eberwine protocol <ref type="bibr" target="#b56">[59]</ref> using the Ambion Amino Allyl MessageAmp aRNA Kit. Cy3 and Cy5 were hybridized to slides and incubated 12-18 hours at 42°C. Following hybridization, slides were scanned using the Packard Bioscience ScanArray Express microarray scanner (PerkinElmer Life Sciences Inc., Boston, MA, USA) and images processed using ImaGene (Biodiscovery Inc., Marina del Rey, CA, USA).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Authors' contributions</head><p>JP designed, scripted and implemented FunnyBase and provided statistical analyses of database. MFO initiated, designed protocols and provided sequences for F. heteroclitus' EST project. JDV optimized robotic interfaces for sequencing and sequenced ESTs. JLR and KJK sequenced ESTs. GJW collaborated on bioinformatics and database development. JAW provided microarray data and analyses. DLC initiated F. heteroclitus' EST project and developed the database and annotation schemes for Fun-nyBase. All authors read and approved the final manuscript.</p><p>Initial support for the F. heteroclitus EST project was provided by NSF Bio-Informatics post-doctoral fellowship 0074520 to MFO and NSF/IBN grant 9986602 to DLC. We would like to thank Kristin Horgan of M.J. research for arranging the loan of Tetrad-thermal cycler for the Compartive Functional Genomic Course. Additionally, we would like to thank AP-Biotech and specifically Dr. Robert Feldman for use of MegaBace used to resequence cDNAs. Current EST isolation, sequencing and bioinformatics is supported by NSF/ OCE grant 0221879 and NIH/NHLBI R01 HL65470 to DLC and NIH/ NIEHS ES011588 to MFO.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Gene expression patterns of breast carcinomas distinguish tumor subclasses with clinical implications</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Sorlie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">M</forename><surname>Perou</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Tibshirani</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Aas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Geisler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Johnsen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Hastie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">B</forename><surname>Eisen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Van</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">S</forename><surname>Jeffrey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Thorsen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Quist</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Matese</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">O</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Botstein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">E</forename><surname>Lonning</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">L</forename><surname>Borresen-Dale</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001" />
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="10869" to="10874" />
+		</imprint>
+		<respStmt>
+			<orgName>Proceedings of the National Academy of Sciences of the United States of America</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">Sorlie T, Perou CM, Tibshirani R, Aas T, Geisler S, Johnsen H, Hastie T, Eisen MB, van RM, Jeffrey SS, Thorsen T, Quist H, Matese JC, Brown PO, Botstein D, Lonning PE, Borresen-Dale AL: Gene expression patterns of breast carcinomas distinguish tumor subclasses with clinical implications. Proceedings of the National Academy of Sciences of the United States of America 2001, 98:10869-10874.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Systematic variation in gene expression patterns in human cancer cell lines</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Ross</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Scherf</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Eisen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Perou</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Rees</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Spellman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Iyer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Jeffrey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Van</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Waltham</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Pergamenschikov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Lashkari</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Shalon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Myers</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Weinstein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Botstein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Brown</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Genetics</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="227" to="235" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ross D, Scherf U, Eisen M, Perou C, Rees C, Spellman P, Iyer V, Jeffrey S, Van RM, Waltham M, Pergamenschikov A, Lee J, Lashkari D, Shalon D, Myers T, Weinstein J, Botstein D, Brown P: Systematic varia- tion in gene expression patterns in human cancer cell lines. Nature Genetics 2000, 24:227-235.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Expression profiling reveals distinct sets of genes altered during induction and regression of cardiac hypertrophy</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">J</forename><surname>Friddle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Koga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">M</forename><surname>Rubin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Bristow</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000" />
+			<publisher>PNAS</publisher>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="6745" to="6750" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Friddle CJ, Koga T, Rubin EM, Bristow J: Expression profiling reveals distinct sets of genes altered during induction and regression of cardiac hypertrophy. PNAS 2000, 97:6745-6750.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Identification of new genes differentially expressed in coronary artery disease by expression profiling</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Archacki</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Angheloiu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><forename type="middle">L</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">L</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Dipaola</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">Q</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Moravec</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Ellis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">J</forename><surname>Topol</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol Genomics</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="65" to="74" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Archacki SR, Angheloiu G, Tian XL, Tan FL, DiPaola N, Shen GQ, Moravec C, Ellis S, Topol EJ, Wang Q: Identification of new genes differentially expressed in coronary artery disease by expres- sion profiling. Physiol Genomics 2003, 15:65-74.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Cardiac hypertrophy by hypertension and exercise training exhibits different gene expression of enzymes in energy metabolism</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Iemitsu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Miyauchi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Maeda</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Sakai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Fujii</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Miyazaki</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Kakinuma</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Matsuda</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Yamaguchi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hypertens Res</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="829" to="837" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Iemitsu M, Miyauchi T, Maeda S, Sakai S, Fujii N, Miyazaki H, Kakinuma Y, Matsuda M, Yamaguchi I: Cardiac hypertrophy by hyperten- sion and exercise training exhibits different gene expression of enzymes in energy metabolism. Hypertens Res 2003, 26:829-837.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Transcriptomal analysis of failing and nonfailing human hearts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Steenman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Le</forename><surname>Cunff</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Lamirault</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Varro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Hoffman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Leger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol Genomics</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="97" to="112" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Steenman M, Chen YW, Le Cunff M, Lamirault G, Varro A, Hoffman E, Leger JJ: Transcriptomal analysis of failing and nonfailing human hearts. Physiol Genomics 2003, 12:97-112.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Cardiac transcriptional response to acute and chronic angiotensin II treatments</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Larkin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">C</forename><surname>Frank</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Gaspard</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Duka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Gavras</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Quackenbush</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol Genomics</title>
+		<imprint>
+			<biblScope unit="page" from="152" to="66" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Larkin JE, Frank BC, Gaspard RM, Duka I, Gavras H, Quackenbush J: Cardiac transcriptional response to acute and chronic angi- otensin II treatments. Physiol Genomics 2004:152-66.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Comprehensive analysis of the mouse metabolome based on the transcriptome</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Bono</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Nikaido</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Kasukawa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Hayashizaki</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Okazaki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1345" to="1349" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bono H, Nikaido I, Kasukawa T, Hayashizaki Y, Okazaki Y: Compre- hensive analysis of the mouse metabolome based on the transcriptome. Genome Res 2003, 13:1345-1349.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Alterations in mitochondrial function in a mouse model of hypertrophic cardiomyopathy</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">T</forename><surname>Lucas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Aryal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">I</forename><surname>Szweda</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">J</forename><surname>Koch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">A</forename><surname>Leinwand</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Physiol Heart Circ Physiol</title>
+		<imprint>
+			<biblScope unit="volume">284</biblScope>
+			<biblScope unit="page" from="575" to="83" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lucas DT, Aryal P, Szweda LI, Koch WJ, Leinwand LA: Alterations in mitochondrial function in a mouse model of hypertrophic cardiomyopathy. Am J Physiol Heart Circ Physiol 2003, 284:H575-83.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Global transcription analysis of Krebs tricarboxylic acid cycle mutants reveals an alternating pattern of gene expression and effects on hypoxic and oxidative genes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">T</forename><surname>Mccammon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">B</forename><surname>Epstein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Przybyla-Zawislak</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Mcalister-Henn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">A</forename><surname>Butow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Biol Cell</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="958" to="972" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McCammon MT, Epstein CB, Przybyla-Zawislak B, McAlister-Henn L, Butow RA: Global transcription analysis of Krebs tricarboxylic acid cycle mutants reveals an alternating pattern of gene expression and effects on hypoxic and oxidative genes. Mol Biol Cell 2003, 14:958-972.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Genetics and functional genomics of type 2 diabetes mellitus</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Toye</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Gauguier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biology</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">241</biblScope>
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Toye A, Gauguier D: Genetics and functional genomics of type 2 diabetes mellitus. Genome Biology 2003, 4:241.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Coordinated patterns of gene expression for substrate and energy metabolism in skeletal muscle of diabetic mice</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">K</forename><surname>Yechoor</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E</forename><surname>Patti</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Saccone</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">R</forename><surname>Kahn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="10587" to="10592" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yechoor VK, Patti ME, Saccone R, Kahn CR: Coordinated patterns of gene expression for substrate and energy metabolism in skeletal muscle of diabetic mice. Proc Natl Acad Sci U S A 2002, 99:10587-10592.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Transposon-mediated enhancer trapping in medaka</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Grabher</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Henrich</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Sasado</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Arenz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Wittbrodt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Furutani-Seiki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gene</title>
+		<imprint>
+			<biblScope unit="volume">322</biblScope>
+			<biblScope unit="page" from="57" to="66" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Grabher C, Henrich T, Sasado T, Arenz A, Wittbrodt J, Furutani-Seiki M: Transposon-mediated enhancer trapping in medaka. Gene 2003, 322:57-66.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">A survey of expressed genes in Japanese flounder (Paralichthys olivaceus) liver and spleen</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Inoue</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">H</forename><surname>Nam</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Hirono</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Aoki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Marine Biology &amp; Biotechnology</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="376" to="380" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Inoue S, Nam BH, Hirono I, Aoki T: A survey of expressed genes in Japanese flounder (Paralichthys olivaceus) liver and spleen. Molecular Marine Biology &amp; Biotechnology 1997, 6:376-380.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">000 Unique zebrafish EST clusters and their future use in microarray for profiling gene expression patterns during embryogenesis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Lo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Ruan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eun</forename><forename type="middle">A</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Research</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="455" to="466" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lo J, Lee S, Xu M, Liu F, Ruan H, Eun A, He Y, Ma W, Wang W, Wen Z, Peng J: 15,000 Unique zebrafish EST clusters and their future use in microarray for profiling gene expression pat- terns during embryogenesis. Genome Research 2003, 13:455-466.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Analysis of expressed sequence tags (EST) obtained from common carp, Cyprinus carpio L., head kidney cells after stimulation by two mitogens, lipopolysaccharide and concanavalin-A</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Savan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Sakai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comparative Biochemistry &amp; Physiology Part B</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page" from="71" to="82" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note>Biochemistry &amp; Molecular Biology</note>
+	<note type="raw_reference">Savan R, Sakai M: Analysis of expressed sequence tags (EST) obtained from common carp, Cyprinus carpio L., head kid- ney cells after stimulation by two mitogens, lipopolysaccha- ride and concanavalin-A. Comparative Biochemistry &amp; Physiology Part B, Biochemistry &amp; Molecular Biology 131B 2002, 1:71-82.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">The construction of an EST database for Bombyx mori and its application</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Mita</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Morimyo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Okano</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Koike</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Nohata</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Kawasaki</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Kadono-Okuda</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Yamamoto</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">G</forename><surname>Suzuki</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Shimada</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">R</forename><surname>Goldsmith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Maeda</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="14121" to="14126" />
+		</imprint>
+		<respStmt>
+			<orgName>Proceedings of the National Academy of Sciences of the United States of America</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">Mita K, Morimyo M, Okano K, Koike Y, Nohata J, Kawasaki H, Kadono-Okuda K, Yamamoto K, Suzuki MG, Shimada T, Goldsmith MR, Maeda S: The construction of an EST database for Bom- byx mori and its application. Proceedings of the National Academy of Sciences of the United States of America 2003, 100:14121-14126.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Development and application of a salmonid EST database and cDNA microarray: data mining and interspecific hybridization characteristics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">L</forename><surname>Rise</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">R</forename><surname>Schalburg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">D</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Mawer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">H</forename><surname>Devlin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Kuipers</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Busby</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Beetz-Sargent</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alberto</forename><forename type="middle">R</forename><surname>Gibbs</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">R</forename><surname>Hunt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Shukin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Zeznik</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Smailus</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">E</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">J</forename><surname>Schein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Marra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Butterfield</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">S</forename><surname>Stott</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">H</forename><surname>Davidson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">S</forename><surname>Koop</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">F</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="478" to="490" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rise ML, von Schalburg KR, Brown GD, Mawer MA, Devlin RH, Kuipers N, Busby M, Beetz-Sargent M, Alberto R, Gibbs AR, Hunt P, Shukin R, Zeznik JA, Nelson C, Jones SR, Smailus DE, Jones SJ, Schein JE, Marra MA, Butterfield YS, Stott JM, Ng SH, Davidson WS, Koop BF: Development and application of a salmonid EST database and cDNA microarray: data mining and interspecific hybrid- ization characteristics. Genome Res 2004, 14:478-490.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Annotated Expressed Sequence Tags and cDNA Microarrays for Studies of Brain and Behavior in the Honey Bee</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">W</forename><surname>Whitfield</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">R</forename><surname>Band</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">F</forename><surname>Bonaldo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">G</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Pardinas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">M</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">B</forename><surname>Soares</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">E</forename><surname>Robinson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="555" to="566" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Whitfield CW, Band MR, Bonaldo MF, Kumar CG, Liu L, Pardinas JR, Robertson HM, Soares MB, Robinson GE: Annotated Expressed Sequence Tags and cDNA Microarrays for Studies of Brain and Behavior in the Honey Bee. Genome Res 2002, 12:555-566.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The utility of natural populations for microarray analyses: isolation of genes necessary for functional genomic studies</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">F</forename><surname>Oleksiak</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Kolell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">L</forename><surname>Crawford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marine Biotechnology</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="203" to="211" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Oleksiak MF, Kolell K, Crawford DL: The utility of natural popu- lations for microarray analyses: isolation of genes necessary for functional genomic studies. Marine Biotechnology 2001, 3:S203-S211.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">CnidBase: The Cnidarian Evolutionary Genomics Database</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">F</forename><surname>Ryan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Finnerty</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Research</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="159" to="163" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ryan JF, Finnerty JR: CnidBase: The Cnidarian Evolutionary Genomics Database. Nucleic Acids Research 2003, 31:159-163.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Functional genomics does not have to be limited to a few select organisms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">L</forename><surname>Crawford</surname></persName>
+		</author>
+		<ptr target="http://www.genomebiology.com/2001/2/1/interactions/1001/" />
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biology</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Crawford DL: Functional genomics does not have to be lim- ited to a few select organisms. Genome Biology 2001, 2:INTERACTIONS1001 http://www.genomebiology.com/2001/2/1/ interactions/1001/.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Variation in gene expression within and among natural populations</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">F</forename><surname>Oleksiak</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">A</forename><surname>Churchill</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">L</forename><surname>Crawford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Genetics</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="261" to="266" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Oleksiak MF, Churchill GA, Crawford DL: Variation in gene expression within and among natural populations. Nature Genetics 2002, 32:261-266.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Gene Expression Profiles in the Brain Predict Behavior in Individual Honey Bees</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">W</forename><surname>Whitfield</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Cziko</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">E</forename><surname>Robinson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">302</biblScope>
+			<biblScope unit="page" from="296" to="299" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Whitfield CW, Cziko AM, Robinson GE: Gene Expression Profiles in the Brain Predict Behavior in Individual Honey Bees. Sci- ence 2003, 302:296-299.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Expression profiles during honeybee caste determination</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">D</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">E</forename><surname>Wheeler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biology</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Evans JD, Wheeler DE: Expression profiles during honeybee caste determination. Genome Biology 2001, 2:RESEARCH0001.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Hypoxia-induced gene expression profiling in the euryoxic fish Gillichtys mirabilis. Proceeding of National Academy of Science</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">Y</forename><surname>Gracey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">V</forename><surname>Troll</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">N</forename><surname>Somero</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001" />
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="1993" to="1998" />
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gracey AY, Troll JV, Somero GN: Hypoxia-induced gene expres- sion profiling in the euryoxic fish Gillichtys mirabilis. Proceed- ing of National Academy of Science, USA 2001, 98:1993-1998.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Changes in gene expression associated with acclimation to constant temperatures and fluctuating daily temperatures in an annual killifish Austrofundulus limnaeus</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Podrabsky</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">N</forename><surname>Somero</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Biol</title>
+		<imprint>
+			<biblScope unit="volume">207</biblScope>
+			<biblScope unit="page" from="2237" to="2254" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Podrabsky JE, Somero GN: Changes in gene expression associ- ated with acclimation to constant temperatures and fluctu- ating daily temperatures in an annual killifish Austrofundulus limnaeus. J Exp Biol 2004, 207:2237-2254.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Differential gene expression in the brain of channel catfish (Ictalurus punctatus) in response to cold acclimation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Ju</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">A</forename><surname>Dunham</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Genetics and Genomics</title>
+		<imprint>
+			<biblScope unit="volume">268</biblScope>
+			<biblScope unit="page" from="87" to="95" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ju Z, Dunham RA, Liu Z: Differential gene expression in the brain of channel catfish (Ictalurus punctatus) in response to cold acclimation. Molecular Genetics and Genomics 2002, 268:87-95.</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Phylogenetic analysis of glycolytic enzyme expression</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">A</forename><surname>Pierce</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">L</forename><surname>Crawford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">275</biblScope>
+			<biblScope unit="page" from="256" to="259" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pierce VA, Crawford DL: Phylogenetic analysis of glycolytic enzyme expression. Science 1997, 275:256-259.</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Gene flow and mitochondrial DNA variation in the killifish Fundulus heteroclitus</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">L</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">W</forename><surname>Chapman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Evolution</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="1147" to="1161" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brown BL, Chapman RW: Gene flow and mitochondrial DNA variation in the killifish Fundulus heteroclitus. Evolution 1991, 45:1147-1161.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Molecular basis of evolutionary adaptation at the lactate dehydrogenase-B locus in the fish Fundulus heteroclitus</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">L</forename><surname>Crawford</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Powers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the National Academy of Sciences of the United States of America</title>
+		<meeting>the National Academy of Sciences of the United States of America</meeting>
+		<imprint>
+			<date type="published" when="1989" />
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="9365" to="9369" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Crawford DL, Powers DA: Molecular basis of evolutionary adaptation at the lactate dehydrogenase-B locus in the fish Fundulus heteroclitus. Proceedings of the National Academy of Sci- ences of the United States of America 1989, 86:9365-9369.</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">A multidisciplinary approach to the selectionist/neutralist controversy using the model teleost, Fundulus heteroclitus</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Powers</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Gonzalez-Villasenor</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Dimichelle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">L</forename><surname>Crawford</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Bernardi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Lauerman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Futuyma</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Antonovics</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">In Oxford Surveys in Evolutionary Biology</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="43" to="108" />
+			<date type="published" when="1993" />
+			<publisher>Oxford University Press</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Powers DA, Smith M, Gonzalez-Villasenor I, DiMichelle L, Crawford DL, Bernardi G, Lauerman T: A multidisciplinary approach to the selectionist/neutralist controversy using the model tele- ost, Fundulus heteroclitus. In Oxford Surveys in Evolutionary Biology Volume 9. Edited by: Futuyma D and Antonovics J. New York, NY, Oxford University Press; 1993:43-108.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Phylogenetic analysis of thermal acclimation of the glycolytic enzymes in the genus Fundulus</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">A</forename><surname>Pierce</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">L</forename><surname>Crawford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiological Zoology</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="597" to="609" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pierce VA, Crawford DL: Phylogenetic analysis of thermal accli- mation of the glycolytic enzymes in the genus Fundulus. Phys- iological Zoology 1997, 70:597-609.</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Phylogenetic analysis of glycolytic enzyme expression</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">A</forename><surname>Pierce</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">L</forename><surname>Crawford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">276</biblScope>
+			<biblScope unit="page" from="256" to="259" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pierce VA, Crawford DL: Phylogenetic analysis of glycolytic enzyme expression. Science 1997, 276:256-259.</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Gene ontology: tool for the unification of biology. The Gene Ontology Consortium</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Ashburner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Ball</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Blake</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Botstein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Butler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Cherry</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">P</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Dolinski</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">S</forename><surname>Dwight</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">T</forename><surname>Eppig</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">P</forename><surname>Hill</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Issel-Tarver</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Kasarskis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Matese</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Richardson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Ringwald</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">M</forename><surname>Rubin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Sherlock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Genetics</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="25" to="29" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ashburner M, Ball CA, Blake JA, Botstein D, Butler H, Cherry JM, Davis AP, Dolinski K, Dwight SS, Eppig JT, Harris MA, Hill DP, Issel- Tarver L, Kasarskis A, Lewis S, Matese JC, Richardson JE, Ringwald M, Rubin GM, Sherlock G: Gene ontology: tool for the unification of biology. The Gene Ontology Consortium. Nature Genetics 2000, 25:25-29.</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">The Kyoto encyclopedia of genes and genomes--KEGG</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Wixon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Kell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Yeast</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="48" to="55" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wixon J, Kell D: The Kyoto encyclopedia of genes and genomes--KEGG. Yeast 2000, 17:48-55.</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">UniProt: the Universal Protein knowledgebase</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Apweiler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Bairoch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">H</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">C</forename><surname>Barker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Boeckmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Ferro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Gasteiger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Lopez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Magrane</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Natale</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>'donovan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Redaschi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Research</title>
+		<imprint>
+			<biblScope unit="page" from="115" to="124" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note>32 Database issue</note>
+	<note type="raw_reference">Apweiler R, Bairoch A, Wu CH, Barker WC, Boeckmann B, Ferro S, Gasteiger E, Huang H, Lopez R, Magrane M, Martin MJ, Natale DA, O&apos;Donovan C, Redaschi N, Yeh LS: UniProt: the Universal Pro- tein knowledgebase. Nucleic Acids Research 2004, 32 Database issue:D115-9.</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title level="m">NCBI: NCBI NR (non-redudant) Database</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">NCBI: NCBI NR (non-redudant) Database. .</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Basic local alignment search tool</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">F</forename><surname>Altschul</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Gish</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">W</forename><surname>Myers</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Lipman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Molecular Biology</title>
+		<imprint>
+			<biblScope unit="volume">215</biblScope>
+			<biblScope unit="page" from="403" to="410" />
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Altschul SF, Gish W, Miller W, Myers EW, Lipman DJ: Basic local alignment search tool. Journal of Molecular Biology 1990, 215:403-410.</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">CAP3: A DNA Sequence Assembly Program</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Madan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Research</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="868" to="877" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Huang X, Madan A: CAP3: A DNA Sequence Assembly Program. Genome Research 1999, 9:868-877.</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Generation and analysis of 280,000 human expressed sequence tags</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">D</forename><surname>Hillier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Lennon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">F</forename><surname>Bonaldo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Chiapelli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Chissoe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Dietrich</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Dubuque</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Favello</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Gish</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Hawkins</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Hultman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Kucaba</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Lacy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Le</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Le</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Mardis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Morris</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Parsons</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Prange</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Rifkin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Rohlfing</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Schellenberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Marra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Research</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="807" to="828" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hillier LD, Lennon G, Becker M, Bonaldo MF, Chiapelli B, Chissoe S, Dietrich N, DuBuque T, Favello A, Gish W, Hawkins M, Hultman M, Kucaba T, Lacy M, Le M, Le N, Mardis E, Moore B, Morris M, Parsons J, Prange C, Rifkin L, Rohlfing T, Schellenberg K, Marra M, et al.: Gen- eration and analysis of 280,000 human expressed sequence tags. Genome Research 1996, 6:807-828.</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Normalization and subtraction: two approaches to facilitate gene discovery</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">F</forename><surname>Bonaldo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Lennon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">B</forename><surname>Soares</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Research</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="791" to="806" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bonaldo MF, Lennon G, Soares MB: Normalization and subtrac- tion: two approaches to facilitate gene discovery. Genome Research 1996, 6:791-806.</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jhubmdnc-Binlm</forename><surname>Mckusick-Nathans Institute For Genetic Medicine</surname></persName>
+		</author>
+		<ptr target="http://www.ncbi.nlm.nih.gov/omim/" />
+		<title level="m">Online Mendelian Inheritance in Man, OMIM (TM)</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">McKusick-Nathans Institute for Genetic Medicine JHUBMDNC- BINLM: Online Mendelian Inheritance in Man, OMIM (TM). [http://www.ncbi.nlm.nih.gov/omim/].</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Variation in tissue-specific gene expression</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Whitehead</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">L</forename><surname>Crawford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biology</title>
+		<imprint>
+			<date type="published" when="2004" />
+			<publisher>In Press</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Whitehead JA, Crawford DL: Variation in tissue-specific gene expression. Genome Biology 2004, In Press:.</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">RefSeq and LocusLink: NCBI gene-centered resources</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">D</forename><surname>Pruitt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">R</forename><surname>Maglott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Research</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="137" to="140" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pruitt KD, Maglott DR: RefSeq and LocusLink: NCBI gene-cen- tered resources. Nucleic Acids Research 2001, 29:137-140.</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<title level="m" type="main">A large database of chicken bursal ESTs as a resource for the analysis of vertebrate gene function</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Abdrakhmanov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Lodygin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Geroth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Arakawa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Law</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Plachy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Korn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Buerstedde</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Abdrakhmanov I, Lodygin D, Geroth P, Arakawa H, Law A, Plachy J, Korn B, Buerstedde JM: A large database of chicken bursal ESTs as a resource for the analysis of vertebrate gene function.</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="2062" to="2069" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Genome Res 2000, 10:2062-2069.</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">SGMD: the Soybean Genomics and Microarray Database</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">W</forename><surname>Alkharouf</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">F</forename><surname>Matthews</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="page" from="398" to="400" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note>32 Database issue</note>
+	<note type="raw_reference">Alkharouf NW, Matthews BF: SGMD: the Soybean Genomics and Microarray Database. Nucleic Acids Res 2004, 32 Database issue:D398-400.</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">ZmDB, an integrated database for maize genome research</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Q</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Roy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Freeling</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Walbot</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Brendel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="244" to="247" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dong Q, Roy L, Freeling M, Walbot V, Brendel V: ZmDB, an inte- grated database for maize genome research. Nucleic Acids Res 2003, 31:244-247.</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<title level="m" type="main">Winter Flounder Expressed Sequence Tags: Establishment of an EST Database and Identification of Novel Fish Genes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">E</forename><surname>Douglas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">W</forename><surname>Gallant</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">E</forename><surname>Bullerwell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Wolff</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Munholland</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E</forename><surname>Reith</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999" />
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="458" to="464" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Douglas SE, Gallant JW, Bullerwell CE, Wolff C, Munholland J, Reith ME: Winter Flounder Expressed Sequence Tags: Establish- ment of an EST Database and Identification of Novel Fish Genes. 1999, 1:458-464.</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Gene discovery using the maize genome database ZmDB</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Gai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Lal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Xing</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Brendel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Walbot</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="94" to="96" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gai X, Lal S, Xing L, Brendel V, Walbot V: Gene discovery using the maize genome database ZmDB. Nucleic Acids Res 2000, 28:94-96.</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Genome Database for Rosaceae): integrated web resources for Rosaceae genomics and genetics research</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Jesudurai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Staton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Ficklin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Abbott</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Tomkins</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D:</forename><surname>Main</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Gdr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">130</biblScope>
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jung S, Jesudurai C, Staton M, Du Z, Ficklin S, Cho I, Abbott A, Tom- kins J, Main D: GDR (Genome Database for Rosaceae): inte- grated web resources for Rosaceae genomics and genetics research. BMC Bioinformatics 2004, 5:130.</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Development of a porcine brain cDNA library, EST database, and microarray resource</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Nobis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">P</forename><surname>Suchyta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">R</forename><surname>Suchyta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename><surname>Zanella</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">M</forename><surname>Coussens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol Genomics</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="153" to="159" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nobis W, Ren X, Suchyta SP, Suchyta TR, Zanella AJ, Coussens PM: Development of a porcine brain cDNA library, EST data- base, and microarray resource. Physiol Genomics 2003, 16:153-159.</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">New genomic resources for the honey bee(Apis mellifera L.): development of a deep-coverage BAC library and a preliminary STC database</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">P</forename><surname>Tomkins</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">C</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Main</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Goicoechea</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Atkins</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Frisch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">E</forename><surname>Page</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Guzman-Novoa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Hunt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">A</forename><surname>Wing</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genet Mol Res</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="306" to="316" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tomkins JP, Luo M, Fang GC, Main D, Goicoechea JL, Atkins M, Frisch DA, Page RE, Guzman-Novoa E, Yu Y, Hunt G, Wing RA: New genomic resources for the honey bee(Apis mellifera L.): development of a deep-coverage BAC library and a prelimi- nary STC database. Genet Mol Res 2002, 1:306-316.</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Natural Variation in Cardiac Metabolism and Gene Expression in Fundulus heteroclitus</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">F</forename><surname>Oleksiak</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Roach</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">L</forename><surname>Crawford</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ng1483:</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Genetics</title>
+		<imprint>
+			<date type="published" when="2004-11-28" />
+		</imprint>
+	</monogr>
+	<note>Advance_Online</note>
+	<note type="raw_reference">Oleksiak MF, Roach JL, Crawford DL: Natural Variation in Car- diac Metabolism and Gene Expression in Fundulus heterocli- tus. Nature Genetics 2004, Advance_Online 28 November 2004; doi:10.1038/ng1483:.</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Identification and functional characterization of two highly divergent aryl hydrocarbon receptors (AHR1 and AHR2) in the teleost Fundulus heteroclitus. Evidence for a novel subfamily of ligand-binding basic helix loop helix-Per-ARNT-Sim (bHLH-PAS) factors</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">I</forename><surname>Karchner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">H</forename><surname>Powell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E</forename><surname>Hahn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biological Chemistry</title>
+		<imprint>
+			<biblScope unit="volume">274</biblScope>
+			<biblScope unit="page" from="33814" to="33824" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Karchner SI, Powell WH, Hahn ME: Identification and functional characterization of two highly divergent aryl hydrocarbon receptors (AHR1 and AHR2) in the teleost Fundulus hetero- clitus. Evidence for a novel subfamily of ligand-binding basic helix loop helix-Per-ARNT-Sim (bHLH-PAS) factors. Journal of Biological Chemistry 1999, 274:33814-33824.</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Amplified Rna Synthesized from Limited Quantities of Heterogeneous Complementary DNA</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">N</forename><surname>Van Gelder</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Von</forename><surname>Zastrow</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E</forename><surname>Yool</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Dement</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">C</forename><surname>Barchas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">D</forename><surname>Eberwine</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">H</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the National Academy of Sciences of the United States of America</title>
+		<meeting>the National Academy of Sciences of the United States of America</meeting>
+		<imprint>
+			<date type="published" when="1990" />
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="1663" to="1667" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Van Gelder RN, Von Zastrow ME, Yool A, Dement WC, Barchas JD, Eberwine JH: Amplified Rna Synthesized from Limited Quan- tities of Heterogeneous Complementary DNA. Proceedings of the National Academy of Sciences of the United States of America 1990, 87:1663-1667.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,1816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/grace/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Generation and analysis of transcriptomic resources for a model system on the rise: the sea anemone Aiptasia pallida and its dinoflagellate endosymbiont</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2009-06-05">5 June 2009</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shinichi</forename><surname>Sunagawa</surname></persName>
+							<email>ssunagawa@ucmerced.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">School of Natural Sciences</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<postCode>95344</postCode>
+									<settlement>Merced</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Emily</forename><forename type="middle">C</forename><surname>Wilson</surname></persName>
+							<email>ewilson3@ucmerced.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">School of Natural Sciences</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<postCode>95344</postCode>
+									<settlement>Merced</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><surname>Thaler</surname></persName>
+							<email>mithaler@vassar.edu</email>
+							<affiliation key="aff1">
+								<orgName type="department">Biology Department</orgName>
+								<orgName type="institution">Vassar College</orgName>
+								<address>
+									<postCode>12604</postCode>
+									<settlement>Poughkeepsie</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marc</forename><forename type="middle">L</forename><surname>Smith</surname></persName>
+							<email>mlsmith@vassar.edu</email>
+							<affiliation key="aff2">
+								<orgName type="department">Computer Science Department</orgName>
+								<orgName type="institution">Vassar College</orgName>
+								<address>
+									<postCode>12604</postCode>
+									<settlement>Poughkeepsie</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Carlo</forename><surname>Caruso</surname></persName>
+							<email>caruso@stanford.edu</email>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Genetics</orgName>
+								<orgName type="institution">Stanford University School of Medicine</orgName>
+								<address>
+									<postCode>94305</postCode>
+									<settlement>Stanford</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">R</forename><surname>Pringle</surname></persName>
+							<email>jpringle@stanford.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Virginia</forename><forename type="middle">M</forename><surname>Weis</surname></persName>
+							<email>weisv@science.oregonstate.edu</email>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Zoology</orgName>
+								<orgName type="institution">Oregon State University</orgName>
+								<address>
+									<postCode>97331</postCode>
+									<settlement>Corvallis</settlement>
+									<region>OR</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mónica</forename><surname>Medina</surname></persName>
+							<email>mmedina@ucmerced.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">School of Natural Sciences</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<postCode>95344</postCode>
+									<settlement>Merced</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jodi</forename><forename type="middle">A</forename><surname>Schwarz</surname></persName>
+							<email>joschwarz@vassar.edu</email>
+							<affiliation key="aff1">
+								<orgName type="department">Biology Department</orgName>
+								<orgName type="institution">Vassar College</orgName>
+								<address>
+									<postCode>12604</postCode>
+									<settlement>Poughkeepsie</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Generation and analysis of transcriptomic resources for a model system on the rise: the sea anemone Aiptasia pallida and its dinoflagellate endosymbiont</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2009-06-05">5 June 2009</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1186/1471-2164-10-258</idno>
+					<note type="submission">Received: 11 February 2009 Accepted: 5 June 2009</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-09-14T02:34+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>Background: The most diverse marine ecosystems, coral reefs, depend upon a functional symbiosis between cnidarian hosts and unicellular dinoflagellate algae. The molecular mechanisms underlying the establishment, maintenance, and breakdown of the symbiotic partnership are, however, not well understood. Efforts to dissect these questions have been slow, as corals are notoriously difficult to work with. In order to expedite this field of research, we generated and analyzed a collection of expressed sequence tags (ESTs) from the sea anemone Aiptasia pallida and its dinoflagellate symbiont (Symbiodinium sp.), a system that is gaining popularity as a model to study cellular, molecular, and genomic questions related to cnidarian-dinoflagellate symbioses. Results: A set of 4,925 unique sequences (UniSeqs) comprising 1,427 clusters of 2 or more ESTs (contigs) and 3,498 unclustered ESTs (singletons) was generated by analyzing 10,285 high-quality ESTs from a mixed host/symbiont cDNA library. Using a BLAST-based approach to predict which unique sequences derived from the host versus symbiont genomes, we found that the contribution of the symbiont genome to the transcriptome was surprisingly small (1.6-6.4%). This may reflect low levels of gene expression in the symbionts, low coverage of alveolate genes in the sequence databases, a small number of symbiont cells relative to the total cellular content of the anemones, or failure to adequately lyse symbiont cells. Furthermore, we were able to identify groups of genes that are known or likely to play a role in cnidarian-dinoflagellate symbioses, including oxidative stress pathways that emerged as a prominent biological feature of this transcriptome. All ESTs and UniSeqs along with annotation results and other tools have been made accessible through the implementation of a publicly accessible database named AiptasiaBase. Conclusion: We have established the first large-scale transcriptomic resource for Aiptasia pallida and its dinoflagellate symbiont. These data provide researchers with tools to study questions related to cnidarian-dinoflagellate symbioses on a molecular, cellular, and genomic level. This</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>groundwork represents a crucial step towards the establishment of a tractable model system that can be utilized to better understand cnidarian-dinoflagellate symbioses. With the advent of nextgeneration sequencing methods, the transcriptomic inventory of A. pallida and its symbiont, and thus the extent of AiptasiaBase, should expand dramatically in the near future.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Background</head><p>Many biological systems rely on symbiotic interactions between different organisms. One of the most dramatic examples is the coral reef ecosystem, which has at its heart a mutualistic partnership between corals and endosymbiotic, dinoflagellate algae. The dinoflagellates are classified in a single genus, Symbiodinium, but molecular methods have revealed a high genetic diversity in this genus <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2]</ref>. The onset of these symbioses has been shown to display flexibility, but a range of specificity, i.e. from highly flexible to highly specific, is apparent during its maintenance <ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref>. This process is likely to involve early recognition mechanisms <ref type="bibr" target="#b8">[9,</ref><ref type="bibr" target="#b9">10]</ref> and an evasion of the hosts' digestive and immune systems <ref type="bibr" target="#b10">[11]</ref>, as well as adaptations to diverse ecological niches <ref type="bibr" target="#b11">[12,</ref><ref type="bibr" target="#b12">13]</ref> and physiological acclimation <ref type="bibr" target="#b13">[14,</ref><ref type="bibr" target="#b14">15]</ref>. There have also been controversial discussions of whether Symbiodinium populations may shift toward more heat-tolerant types as a consequence of thermal stress ("bleaching") in order to adapt to environmental changes <ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref> such as increasing seawater temperatures. In light of global climate change, this subject, i.e. cnidarian bleaching, has received much attention as devastating mass bleaching events have increased both in frequency and geographic extent <ref type="bibr" target="#b18">[19]</ref>. Nonetheless, our knowledge of the underlying cellular and molecular mechanisms that facilitate the recognition between the partners, and determine the specificity, dynamics, and collapse of cnidarian-dinoflagellate symbioses, is limited.</p><p>The cellular and molecular interactions between host and symbiont cells are important targets for genetic and genomic dissection, but corals are notoriously difficult to work with. For example, corals form large, slow-growing colonies that are difficult and costly to maintain in the laboratory, and their handling for microscopy and amenability to other cell biological, biochemical, and genetic methods is complicated by the calcareous skeleton precipitated by reef-building corals. What is needed to make rapid advances in this field is a model system that possesses the key characteristics of coral symbiosis, but allows more facile laboratory investigation (for a detailed review see <ref type="bibr" target="#b19">[20]</ref>). The sea anemone Aiptasia represents a good candidate system <ref type="bibr" target="#b19">[20]</ref>, as it possesses the same mutualistic relationship with Symbiodinium spp., but lacks the calcareous skeleton that hinders cellular-level work. It is widely distributed, and found in shallow tropical marine environments worldwide. Sequence characterized amplified region (SCAR) data indicate that the vast majority of Aiptasia worldwide (encompassing two described species, A. pallida and A. pulchella), appear to be genetically homogeneous (Santos Lab at Auburn University, pers. comm.). The one exception is a closely related, but genetically distinct, lineage potentially restricted to the Florida Keys. Data from the Santos Lab also indicate that natural populations of Aiptasia from the Florida Keys preferentially host Symbiodinium spp. comprised of only clade A or both clades A and B, whereas those from the remaining global range host clade B exclusively. Typically considered a pest organism by seawater aquarists, Aiptasia is hardy and proliferates rapidly by asexual reproduction. Individual polyps can be maintained in a symbiotic or aposymbiotic state (i.e., with and without symbionts, respectively), experimentally re-infected with a variety of Symbiodinium strains <ref type="bibr" target="#b20">[21,</ref><ref type="bibr" target="#b21">22]</ref>, and cultured at low cost <ref type="bibr" target="#b22">[23]</ref>. In fact, numerous studies have addressed symbiosis-related questions using A. pallida and its sister species A. pulchella by applying multiple tools ranging from microscopy to RNAinterference methods <ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref><ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref>. The generation of genomic resources for Aiptasia would therefore greatly advance research addressing the understanding of symbioses at a molecular, cell-biological, and genomic level.</p><p>As a cost-effective alternative to sequencing the genome of an organism, the generation and analysis of expressedsequence-tag (EST) libraries provides an efficient method for discovering novel genes, estimating gene content, and approximating levels of gene expression. Once established, these resources can be utilized for comparative genomics studies or the construction of gene expression microarrays <ref type="bibr" target="#b29">[30]</ref>. Among cnidarians, the extensive genomic resources now available for the non-symbiotic sea anemone Nematostella vectensis have opened new perspectives on the study of basal metazoans <ref type="bibr" target="#b30">[31]</ref>, and several EST resources have been generated for symbiotic cnidarians (predominantly corals) and Symbiodinium spp. <ref type="bibr" target="#b31">[32]</ref><ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref>. However, to date, only one small-scale project has generated ESTs (N = 870) for the symbiotic anemone Aiptasia pulchella <ref type="bibr" target="#b34">[35]</ref>.</p><p>In this study, we report the generation and analysis of 10,285 high-quality ESTs from a Symbiodinium clade Ahosting clonal population of Aiptasia pallida that was likely derived from an individual originating from the Florida Keys lineage, which were processed through a software pipeline <ref type="bibr" target="#b35">[36]</ref> resulting in a user-friendly, queryable, web-accessible database named AiptasiaBase. A BLASTx-based approach was used to estimate the relative contributions of each partner to the mixed cDNA library, and we were able to identify numerous genes involved in key processes of cnidarian-dinoflagellate symbioses.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and Discussion</head><p>EST library construction and assembly A total of 6,448 cDNA clones were bi-directionally sequenced, resulting in 12,896 raw chromatograms, which served as input for the processing pipeline. After base calling by phred <ref type="bibr" target="#b36">[37]</ref>, Lucy <ref type="bibr" target="#b38">[38]</ref> discarded 2,556 lowquality sequences, short or insert-less sequences, and vector or polyA-only sequences. An additional 55 sequences were removed by seqclean <ref type="bibr" target="#b39">[39]</ref>, leaving 10,285 high-quality ESTs (from 5,450 cDNA clones) for further processing (success rate ~80%). Assembly of these ESTs by cap3 <ref type="bibr" target="#b40">[40]</ref> resulted in the generation of 1,427 contigs, which ranged from 112 to 3,440 bp in length and contained 2 -259 ESTs (mean: 4.8). Together with the remaining 3,498 singletons, a total of 4,925 unique sequences (UniSeqs) were generated. Because of the possibility that two (or more) UniSeqs originated from the same transcript, we also estimated the number of unique genes (unigenes) in our dataset by assembling only the reverse reads of the directionally cloned cDNAs. The resulting estimate of 2,564 unigenes compared to the 4,925 UniSeqs is likely to reflect the large average size (1.95 kb) of inserts in the cDNA library; thus, in many cases, UniSeqs represent the 3' and 5' ends of genes for which the central parts were not captured due to Sanger-sequencing length limitations (600-800 bp). In addition, different splice variants or alleles of the same gene may have contributed to the excess of UniSeqs over unigenes. Detailed pre-assembly statistics are summarized in Additional file 1: Quality control and assembly statistics.</p><p>Previously, a small-scale EST project was conducted in order to compare the abundance of transcripts between symbiotic and aposymbiotic Aiptasia pulchella polyps <ref type="bibr" target="#b34">[35]</ref>. The present study included bi-directional sequencing, and the total number of ESTs is more than 14 times larger than in the earlier study. Therefore, the availability of almost 5,000 UniSeqs for about 2,500 unigenes represents a rich transcriptomic resource, previously unavailable at this scale, for a symbiotic anemone.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Annotation of unique sequences and implementation of AiptasiaBase</head><p>All UniSeqs were assigned putative identities based on BLASTx hits (E-value cutoff: 1e-5) to the UniProt Knowledgebase databases SwissProt and TrEMBL <ref type="bibr" target="#b41">[41]</ref>. About 37% and ~63% of the UniSeqs found hits in SwissProt and TrEMBL, respectively, leaving ~36% of the UniSeqs without similarities to known proteins. Because the TrEMBL database contains protein sequences based on conceptual translations of all nucleotide sequence entries in EMBL/GenBank/DDBJ, we chose to annotate the UniSeqs according to the curated SwissProt entries. Assignments of gene ontologies (GO) could be made for about one third of UniSeqs in each of the GO categories: molecular function, biological process, and cellular component. Because our cDNA library represents the symbiotic, adult life-history stage of A. pallida, the GO resource generated in this study sets the stage for statistical assessments of over-or under-representation of specific GO-categories in libraries obtained from anemones under different conditions such as life-history stages, symbiotic state (symbiotic vs. aposymbiotic), or environmental conditions (temperature, salinity, nutrients, etc.). In addition to BLAST and GO annotations, all UniSeqs were screened for single-nucleotide polymorphisms (SNPs) and simplesequence repeats (SSRs), providing resources for the investigation of gene polymorphisms between individuals and/or populations. The prediction of open reading frames within UniSeqs also provided the basis for domain annotations at the protein level. About 25% of UniSeqs matched a protein domain entry in the Pfam database <ref type="bibr" target="#b42">[42]</ref>.</p><p>One of the primary challenges of sequencing ESTs from a mixed transcriptome originating from two or more partners is to assign sequences to the proper genome of origin. Taking a bioinformatic approach to this problem, we constructed taxon-specific databases representing either "Cnidaria-only" or "Alveolata-only" (i.e., dinoflagellates and their relatives) sequences from GenBank, and then performed BLASTx-searches against those databases as well as the complete non-redundant database (see Methods). We then employed a best-BLASTx-hit (BBH) approach (Additional file 2: Flow diagram illustrating BBH approach) to estimate the numbers of ESTs that originated from A. pallida and Symbiodinium spp., respectively, at various levels of confidence <ref type="table" target="#tab_0">(Table 1</ref>). Irrespective of the confidence level, about one quarter of ESTs had no BLASTx-hit (Evalue cutoff 1e-5). At the different levels of confidence, 56 -70% and 1.7 -6.4% were predicted to originate from the anemone and the Symbiodinium genomes, respectively (Additional file 3: Detailed EST (N = 10,285) distribution and assignment). The relatively small fraction of Symbiodinium ESTs could be expected given that Symbiodinum spp. are spatially restricted to the endodermal tissue layer of the host and that no special effort was made to disrupt the algal cell walls during the preparation of the RNA (see Methods). Furthermore, the number of UniSeqs without a significant BLASTx hit may be higher for Symbiodinium transcripts. However, the uncertainty about the origin of non-annotated sequences represents a current limitation to our approach. Ongoing and future genome-sequencing projects for symbiotic cnidarians and their dinoflagellate endosymbionts should soon become available and help to uncover the origins of sequences without currently known homologs in other organisms. This will provide an interesting opportunity to revisit our data set to look further at these perhaps taxonomically restricted genes.</p><p>Using an EST-processing software (EST2uni) <ref type="bibr" target="#b35">[36]</ref>, we stored all ESTs, UniSeqs, and annotations in a queryable database named AiptasiaBase (database = AiptasiaBase_v1), which is accessible through the URL: http://aiptasia.cs.vassar.edu/AiptasiaBase/index.php. In addition to the results generated by the software, we have included the annotation of UniSeqs according to KEGG, which provides a convenient way to explore pathway components that were identified in this study.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analysis of the most highly abundant transcripts</head><p>We identified the contigs containing the greatest numbers of ESTs, which we used as a proxy for the most abundant transcripts. Although the numbers of ESTs in contigs that are predicted to originate from Symbiodinium were too low to be analyzed (data not shown), many of the most abundant host-derived transcripts represented genes that are involved in the processes of protein biosynthesis, extracellular-matrix formation, and oxidative-stress response <ref type="table" target="#tab_1">(Table 2)</ref>. <ref type="bibr" target="#b34">Kuo et al. (2004)</ref> reported that the most highly expressed gene in symbiotic A. pulchella was ferritin (11.7%), whereas we found only 4 ESTs (0.04%) that represented this gene. Although differences in the preparations of the cDNA libraries (e.g. insert size-selection) and sequencing depths (474 vs. 10,285 ESTs) pose an obstacle for a direct comparison, the discrepancy in the numbers of ferritin transcripts appears to be noteworthy. In a recent study that investigated the effect of increased temperature and UV levels on the symbiotic anemone Anthopleura elegantissima, Richier et al. (2008) observed a more than 17-fold up-regulation of ferritin expression upon thermal stress, but not UV stress <ref type="bibr" target="#b43">[43]</ref>. Given this observation, it seems possible that the anemones in the study by <ref type="bibr" target="#b34">Kuo et al. (2004)</ref> were under elevated thermal stress at the time of sampling, which, taken together with the methodological differences mentioned above, makes any further comparative analyses unfeasible. This result has important implications, i.e., how culturing conditions of organisms as well as methodological differences between studies may have an impact on the transcriptome, and by extension, the interpretation of gene expression analyses.</p><p>The highly abundant sequences with the highest uncertainties for correct annotation (highest E-values), apolipophorin and the CUB and zona pellucida-like domaincontaining protein 1, were further scrutinized by similarity searches in additional databases. These searches revealed that the best hit for CUB and zona pellucida-like domain-containing protein 1 in the GenBank non-redundant database (nr) was mesoglein, a protein that is proposed to be a structural element of the extracellular matrix of the mesoglea in the jellyfish Aurelia aurita <ref type="bibr" target="#b44">[44]</ref>. The sequence annotated as apolipophorin contains a von Willebrand factor type-D domain, and was reported to be involved in forming lipoprotein particles that bind lipoproteins and lipids <ref type="bibr" target="#b45">[45]</ref>. Two other highly abundant sequences had no homologs among previously characterized proteins, suggesting that they are novel, and a third contig with no BLASTx-hit was identified as an artifact due to misassembled sequences. These results illustrate some of the caveats to automated sequence assembly and annotation and highlight the necessity for corroboration after automated sequence processing when focusing on single genes or groups of genes of interest.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Candidate genes with potential relevance to cnidariandinoflagellate symbioses</head><p>We generated a candidate gene list of groups containing UniSeqs that are likely to be of relevance to cnidariandinoflagellate symbioses <ref type="table" target="#tab_3">(Table 3)</ref>. Among these, the cellular antioxidant-response system could be most comprehensively reconstructed (see below). Genes related to the innate immune system and sugar-binding proteins gave rise to a partial gene inventory ( <ref type="figure">Fig. 1</ref>; <ref type="table" target="#tab_3">Table 3</ref>). Other genes that are likely to play a role in the cellular events surrounding the breakdown of symbiosis (exocytosis, hostcell detachment, apoptosis and/or autophagy <ref type="bibr" target="#b46">[46]</ref><ref type="bibr" target="#b47">[47]</ref><ref type="bibr" target="#b48">[48]</ref><ref type="bibr" target="#b49">[49]</ref><ref type="bibr" target="#b50">[50]</ref><ref type="bibr" target="#b51">[51]</ref><ref type="bibr" target="#b52">[52]</ref>) were also identified.</p><p>Stress-induced photoinhibition and damage to algal photosystem II are thought to be responsible for an increased production of reactive oxygen species <ref type="bibr" target="#b53">[53,</ref><ref type="bibr" target="#b54">54]</ref> and consequently, diffusion of hydrogen peroxide (H 2 O 2 ) through the membranes into the host cells <ref type="bibr" target="#b55">[55]</ref>. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>By analyzing &gt;10,000 high-quality ESTs and generating a comprehensive database for the user community, we have provided a foundation of transcriptomic resources for a symbiotic anemone that is becoming an important model system for studying coral-dinoflagellate symbioses. The set of sequences identified constitutes a rich source of candidate genes that are likely to be involved in processes related to the onset, maintenance, and breakdown of symbiosis. In this context, we were able to reconstruct the oxi-dative-stress response, which we also found to be prominent during basal transcription. At the current depth of sequencing, we have identified two problems, namely (1) that some transcripts are represented by two (or more) contigs and (2) that we lack information on transcripts of low abundance. These issues will be addressed in the near future by using 454 sequencing, which, for example, has been successfully applied to sequence the coral larval transcriptome of Acropora millepora at 3 × coverage <ref type="bibr" target="#b56">[56]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Generation and sequencing of a cDNA library from Aiptasia pallida and its dinoflagellate symbiont</head><p>A clonal line of Aiptasia pallida (clone CC7, available through the Pringle lab) hosting Symbiodinium of clade A was established from a single tiny propagule in a population obtained from Carolina Biological Supply (Burling-ton, NC) and grown into an abundant stock. Given the Symbiodinium clade harbored by this population, it is likely that the Aiptasia individual originated from the Florida Keys lineage. Approximately 500 anemones of various sizes were harvested from this stock under normal growth conditions (~26°C; salinity, ~33 ppt; light, ~40 μmol m -2 s -1 photosynthetic photon flux; 12-h light-dark cycle), blotted to remove excess water, and immediately frozen in liquid nitrogen. The anemones were then ground to a fine powder under liquid nitrogen using a ceramic mortar and pestle. The powder was weighed (~4 g) while still frozen and mixed with a proportional volume (50 ml) of TRIzol Reagent (Invitrogen, Carlsbad, CA); extraction was then performed in accordance with the manufacturer's instructions yielding ~5 mg of total RNA. This RNA was sent to Open Biosystems (Huntsville, AL), where it was tested for quality; mRNA was then isolated using oligo(dT)-coated magnetic particles (Seradyn, Indianapolis, IN), and cDNA</p><p>Illustration of genes and pathways known or likely to be involved in cnidarian-dinoflagellate symbioses <ref type="figure">Figure 1</ref> Illustration of genes and pathways known or likely to be involved in cnidarian-dinoflagellate symbioses. Genes that were identified or missing in the EST library are highlighted by solid red lines or dashed black lines, respectively. Pathways or cellular processes that were partially represented are highlighted by dashed red lines. APx -ascorbate peroxidase, ATGautophagy-related protein, AIF -apoptosis-inducing factor, CASP -caspases, CAT -catalase, DRAM -damage-regulated autophagy modulator, GCLC -glutamate-cysteine ligase catalytic subunit, GGT -gamma-glutamyltranspeptidase, GPx -glutathione peroxidase, GR -glutathione reductase, GS -glutathione synthetase, GST -glutathione-S-transferase, HSP -heatshock protein, IAP -inhibitor of apoptosis, Prx -peroxiredoxin, SOD -superoxide dismutase, Sym -Symbiodinium spp.. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Processing of ESTs and implementation of AiptasiaBase</head><p>Raw chromatogram files were used as input for the software pipeline EST2uni <ref type="bibr" target="#b35">[36]</ref>, which was implemented on an Ubuntu server (8.04 "Hardy Heron", Dual Intel Xeon 3.06 GHz) to generate the database named AiptasiaBase <ref type="bibr" target="#b57">[57]</ref>. During the pipeline processing, raw EST reads were based-called by phred <ref type="bibr" target="#b36">[37]</ref>, and quality filtered and vector trimmed by the software Lucy <ref type="bibr" target="#b38">[38]</ref>; low-complexity regions and repetitive elements were then removed by seqclean <ref type="bibr" target="#b39">[39]</ref> and RepeatMasker [58], respectively. To remove unexpected vector sequences, seqclean additionally screened the processed ESTs using NCBI's UniVec database. All ESTs are available through GenBank accession numbers GH571982 -GH582266.</p><p>Clustering of processed ESTs was performed by cap3 <ref type="bibr" target="#b40">[40]</ref> with default settings resulting in unique sequences (UniSeqs), for which open reading frames were predicted by ESTScan <ref type="bibr" target="#b58">[59]</ref>. Similar UniSeqs were found using BLASTn <ref type="bibr" target="#b59">[60]</ref>, resulting in clusters of similar UniSeqs <ref type="bibr" target="#b59">[60]</ref>. Short-sequence-repeat microsatellites and sequence variations were predicted by Sputnik <ref type="bibr" target="#b60">[61]</ref> and local algorithms <ref type="bibr" target="#b35">[36]</ref>, respectively. All UniSeqs were functionally anno-tated by BLASTx searches <ref type="bibr" target="#b59">[60]</ref> in protein databases nr (GenBank -NCBI), TrEMBL, and SwissProt (Uniprot) <ref type="bibr" target="#b61">[62]</ref>; HMMER <ref type="bibr" target="#b62">[63]</ref> searches in pfam <ref type="bibr" target="#b42">[42]</ref>; and GO-term associations (UniProt GOA, March 2008) <ref type="bibr" target="#b63">[64]</ref>. The number of unique genes was estimated by clustering all reverse reads using the cap3 software with default settings.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>BLAST-based prediction of UniSeq origin and KEGG annotation</head><p>In order to predict whether an EST originated from Aiptasia pallida or Symbiodinium spp., we performed a best-BLASTx-hit (BBH) approach (Additional file 2: Flow diagram illustrating BBH approach). First, all UniSeqs were BLASTx-searched (E-value cutoff: 1e-5) in a non-redundant protein database (nr, GenBank, NCBI). If the BBH was from a cnidarian or an alveolate species, the sequence was predicted to originate from Aiptasia pallida or Symbiodinium spp., respectively, with high confidence. Next, if the BBH was not from a cnidarian or alveolate species, we compared the E-values for the BBHs from a search against nr databases that were previously filtered for sequences from cnidarian (582,480) or alveolate (468,072) species. The organism for which the E-value was lower was assigned to the corresponding UniSeq with medium confidence. Finally, if the E-values for BBH searches in the cnidarian and alveolate databases were equal, we compared the percentage of identical amino acids in the sequence alignments. As in the E-value-based approach, the organism with the higher percentage of identical amino acids was assigned to the corresponding UniSeq (low confidence). In addition to the annotations described above, we used the Automatic Annotation Server provided by the Kyoto Encyclopedia of Genes and Genomes (KEGG) for all UniSeqs using the single-directional best-hit option.  </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 : Predicted genome-of-origin for contigs and singletons of the holobiont Type of UniSeq # of UniSeqs Predicted genome of origin Prediction assignment Confidence # of ESTs (%)</head><label>1</label><figDesc></figDesc><table><row><cell>Contig</cell><cell>775 Aiptasia</cell><cell>BBH = Cnidaria</cell><cell>high</cell><cell>4029 (39)</cell></row><row><cell>Contig</cell><cell>32 Symbiodinium</cell><cell>BBH = Alveolata</cell><cell>high</cell><cell>88 (0.86)</cell></row><row><cell>Contig</cell><cell>144 Aiptasia</cell><cell>E-value(Cnidaria) &lt; E-value(Alveolata)</cell><cell>medium</cell><cell>540 (5.3)</cell></row><row><cell>Contig</cell><cell>63 Symbiodinium</cell><cell>E-value(Alveolata) &lt; E-value(Cnidaria)</cell><cell>medium</cell><cell>228 (2.2)</cell></row><row><cell>Contig</cell><cell>14 Aiptasia</cell><cell>sim%(Cnidaria) &gt; sim%(Alveolata)</cell><cell>low</cell><cell>576 (5.6)</cell></row><row><cell>Contig</cell><cell>7 Symbiodinium</cell><cell>sim%(Alveolata) &gt; sim%(Cnidaria)</cell><cell>low</cell><cell>27 (0.26)</cell></row><row><cell>Contig</cell><cell>2 n/a</cell><cell>no assignment</cell><cell>-</cell><cell>5 (0.049)</cell></row><row><cell>Contig</cell><cell>390 n/a</cell><cell>no hit</cell><cell>-</cell><cell>1294 (12)</cell></row><row><cell>Sum</cell><cell>1427</cell><cell></cell><cell></cell><cell>6787 (66%)</cell></row><row><cell>Singleton</cell><cell>1731 Aiptasia</cell><cell>BBH = Cnidaria</cell><cell>high</cell><cell>1731 (16)</cell></row><row><cell>Singleton</cell><cell>91 Symbiodinium</cell><cell>BBH = Alveolata</cell><cell>high</cell><cell>91 (0.88)</cell></row><row><cell>Singleton</cell><cell>307 Aiptasia</cell><cell>E-value(Cnidaria) &lt; E-value(Alveolata)</cell><cell>medium</cell><cell>307 (2.9)</cell></row><row><cell>Singleton</cell><cell>175 Symbiodinium</cell><cell>E-value(Alveolata) &lt; E-value(Cnidaria)</cell><cell>medium</cell><cell>175 (1.7)</cell></row><row><cell>Singleton</cell><cell>42 Aiptasia</cell><cell>sim%(Cnidaria) &gt; sim%(Alveolata)</cell><cell>low</cell><cell>42 (0.41)</cell></row><row><cell>Singleton</cell><cell>49 Symbiodinium</cell><cell>sim%(Alveolata) &gt; sim%(Cnidaria)</cell><cell>low</cell><cell>49 (0.48)</cell></row><row><cell>Singleton</cell><cell>1103 n/a</cell><cell>no hit</cell><cell>-</cell><cell>1103 (10)</cell></row><row><cell>Sum</cell><cell>3498</cell><cell></cell><cell></cell><cell>3498 (34%)</cell></row></table><note>Details can be found in Additional file 2: Flow diagram illustrating BBH appraoch and Additional File 3: Detailed EST (N = 10,285) distribution and assignment.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 : Most highly expressed genes predicted to originate from the host genome a Contigs # of reads (%) Annotation Accession SwissProt Species E-value</head><label>2</label><figDesc></figDesc><table><row><cell>Contig777</cell><cell>259 (2.5)</cell><cell>Elongation factor 2</cell><cell>P05197</cell><cell>Rattus norvegicus</cell><cell></cell></row><row><cell cols="2">Contig642 b 203 (2.0)</cell><cell>Elongation factor 1-alpha</cell><cell>P29520</cell><cell>Bombyx mori</cell><cell>0</cell></row><row><cell>Contig643 c</cell><cell>(1.8)</cell><cell>Polyadenylate-binding protein 1</cell><cell>P11940</cell><cell>Homo sapiens</cell><cell>1e-177</cell></row><row><cell>Contig785 c</cell><cell>178 (1.7)</cell><cell>Polyadenylate-binding protein 4</cell><cell>Q13310</cell><cell>Homo sapiens</cell><cell>8e-30</cell></row><row><cell>Contig248</cell><cell>113 (1.1)</cell><cell>Collagen alpha-2(I) chain</cell><cell>Q01149</cell><cell>Mus musculus</cell><cell>6e-41</cell></row><row><cell cols="2">Contig824 d 110 (1.1)</cell><cell>Apolipophorins</cell><cell>Q9U943</cell><cell>Locusta migratoria</cell><cell>2e-33</cell></row><row><cell cols="2">Contig174 e 83 (0.8)</cell><cell>no_hits_found</cell><cell>-</cell><cell>-</cell><cell>-</cell></row><row><cell>Contig514</cell><cell>79 (0.8)</cell><cell>Catalase</cell><cell>P04040</cell><cell>Homo sapiens</cell><cell>0</cell></row><row><cell cols="2">Contig1015 b 55 (0.5)</cell><cell>Elongation factor 1-alpha</cell><cell>P29520</cell><cell>Bombyx mori</cell><cell>1e-125</cell></row><row><cell>Contig950</cell><cell>51 (0.5)</cell><cell>Collagen alpha-1(II) chain</cell><cell>Q91717</cell><cell>Xenopus laevis</cell><cell>2e-50</cell></row><row><cell>Contig262</cell><cell>50 (0.5)</cell><cell>no_hits_found</cell><cell>-</cell><cell>-</cell><cell>-</cell></row><row><cell>Contig6</cell><cell>44 (0.4)</cell><cell>no_hits_found</cell><cell>-</cell><cell>-</cell><cell>-</cell></row><row><cell>Contig651</cell><cell>43 (0.4)</cell><cell>Adenosylhomocysteinase</cell><cell>P27604</cell><cell cols="2">Caenorhabditis elegans 0</cell></row><row><cell cols="2">Contig1051 f 42 (0.4)</cell><cell>CUB and zona pellucida-like domain-containing</cell><cell>Q86UP6</cell><cell>Homo sapiens</cell><cell>3e-23</cell></row><row><cell></cell><cell></cell><cell>protein 1</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Contig425</cell><cell>41 (0.4)</cell><cell>Peroxidasin homolog</cell><cell>Q92626</cell><cell>Homo sapiens</cell><cell>4e-88</cell></row></table><note>a BLASTx (E-value cutoff: 1e-5) search in SwissProt (as posted on 08/01/2008). Contig numbering is according to AiptasiaBase_v1.b Contigs 642 and 1015 are likely to originate from the same transcript.c Contigs 643 and 785 are likely to originate from the same transcript.d Best BLAST search hit (with annotation) in nr: von Willebrand factor-like protein (Anthopleura elegantissima) [GenBank:DQ309533].e Sequencing error artifact.f Best BLAST search hit (with annotation) in nr: mesoglein variant 1 (Aurelia aurita) [GenBank:EF093532].</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 3 : Potential symbiosis-related genes identified from the Aiptasia transcriptome Name UniSeq example SwissProt Accession E-value blastx Notes</head><label>3</label><figDesc></figDesc><table><row><cell>Oxidative stress-/antioxidant activity-</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>related</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>1-Cys peroxiredoxin</cell><cell>CCAS1731.g1</cell><cell>O17433</cell><cell>3.00E-45</cell><cell>Thiol specific antioxidant</cell></row><row><cell>Catalase</cell><cell>Contig514</cell><cell>P04040</cell><cell>0</cell><cell>Homolog to catalase</cell></row><row><cell>Peroxidase/catalase</cell><cell>Contig1300</cell><cell>O59651</cell><cell>1.00E-26</cell><cell>Catalase and peroxidase activity</cell></row><row><cell>Dual oxidase</cell><cell>Contig42</cell><cell>Q9VQH2</cell><cell>8.00E-41</cell><cell>Anti-microbial oxidative burst</cell></row><row><cell>L-ascorbate peroxidase T,</cell><cell>CCAS2499.b1</cell><cell>Q42593</cell><cell>2.00E-18</cell><cell>Ascorbate peroxidase activity</cell></row><row><cell>chloroplastic</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Glutathione reductase</cell><cell>CCAS6616.g1</cell><cell>P30635</cell><cell>7.00E-30</cell><cell>Generation of reduced glutathione</cell></row><row><cell>Glutamate-cysteine ligase catalytic</cell><cell>CCAS1277.g1</cell><cell>P19468</cell><cell>3.00E-80</cell><cell></cell></row><row><cell>subunit</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Glutathione synthetase</cell><cell>Contig25</cell><cell>P35668</cell><cell>3.00E-60</cell><cell>Synthesis of glutathione</cell></row><row><cell>Glutathione transferase omega-like</cell><cell>Contig320</cell><cell>Q04806</cell><cell>7.00E-21</cell><cell></cell></row><row><cell>Gamma-glutamyltranspeptidase</cell><cell>Contig586</cell><cell>P18956</cell><cell>1.00E-42</cell><cell>Extracellular glutathione breakdown</cell></row><row><cell>Apoptosis-/Autophagy-related</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Apoptosis inhibitor 1</cell><cell>Contig462</cell><cell>Q24306</cell><cell>1.00E-08</cell><cell></cell></row><row><cell>Apoptosis inhibitor 2</cell><cell>CCAS3883.b1</cell><cell>P41454</cell><cell>3.00E-10</cell><cell></cell></row><row><cell>Apoptosis-inducing factor 1</cell><cell>CCAS6130.g1</cell><cell>O95831</cell><cell>9.00E-57</cell><cell></cell></row><row><cell>Apoptosis-inducing factor 2</cell><cell>CCAS2159.g2</cell><cell>Q8BUE4</cell><cell>2.00E-38</cell><cell></cell></row><row><cell>Caspase-3</cell><cell>CCAS2871.b1</cell><cell>Q2PFV2</cell><cell>5.00E-11</cell><cell>Effector caspase</cell></row><row><cell>Caspase-8</cell><cell>Contig694</cell><cell>O89110</cell><cell>3.00E-08</cell><cell>Initiator caspase</cell></row><row><cell>Caspase-10</cell><cell>CCAS4895.g1</cell><cell>Q92851</cell><cell>3.00E-09</cell><cell>Initiator caspase</cell></row><row><cell>Histone-lysine N-methyltransferase</cell><cell>Contig595</cell><cell>Q03164</cell><cell>7.00E-31</cell><cell>Promotes PPP1R15A-induced</cell></row><row><cell>HRX</cell><cell></cell><cell></cell><cell></cell><cell>apoptosis</cell></row><row><cell>Death-associated protein kinase 3</cell><cell>Contig472</cell><cell>O88764</cell><cell>9.00E-10</cell><cell>Positive regulator of apoptosis</cell></row><row><cell>Large proline-rich protein BAT3</cell><cell>CCAS4314.b1</cell><cell>Q9Z1R2</cell><cell>1.00E-18</cell><cell>Role in ricin-induced apoptosis</cell></row><row><cell>Autophagy-related protein 7</cell><cell>CCAS4000.g1</cell><cell>Q641Y5</cell><cell>1.00E-93</cell><cell></cell></row><row><cell>Autophagy-related protein 23</cell><cell>CCAS4265.g1</cell><cell>Q6BHF8</cell><cell>5.00E-06</cell><cell></cell></row><row><cell>Damage-regulated autophagy</cell><cell>CCAS6260.g1</cell><cell>Q5EAK8</cell><cell>1.00E-12</cell><cell></cell></row><row><cell>modulator</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Endo-, Exo-, Phagocytosis-related</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Ankyrin-1</cell><cell>CCAS3968.g1</cell><cell>P16157</cell><cell>2.00E-26</cell><cell>Attach membrane proteins to</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>cytoskeleton</cell></row><row><cell>AP-1 complex subunit beta-1</cell><cell>CCAS4406.g1</cell><cell>Q10567</cell><cell>5.00E-58</cell><cell>Clathrin-associated adaptor protein</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>complex 1</cell></row><row><cell>Dynamin-1</cell><cell>CCAS5621.g1</cell><cell>P21575</cell><cell>7.00E-69</cell><cell>Vesicular trafficking processes</cell></row><row><cell>Exocyst complex component 6</cell><cell>Contig181</cell><cell>Q8TAG9</cell><cell>2.00E-21</cell><cell>Component of the exocyst complex</cell></row><row><cell>Formin-binding protein 1</cell><cell>CCAS4356.g1</cell><cell>Q96RU3</cell><cell>1.00E-09</cell><cell>Membrane tubulation</cell></row><row><cell>Intersectin-1</cell><cell>CCAS6126.g1</cell><cell>Q9Z0R4</cell><cell>4.00E-12</cell><cell>Formation of clathrin-coated vesicles</cell></row><row><cell>SNARE-interacting protein KEULE</cell><cell>Contig601</cell><cell>Q9C5X3</cell><cell>5.00E-15</cell><cell>Vesicle trafficking in cytokinesis</cell></row><row><cell>Ras-related protein ARA-5</cell><cell>Contig1350</cell><cell>P28188</cell><cell>2.00E-30</cell><cell>Homolog to Rab7</cell></row><row><cell>Immunity-related</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Complement C2</cell><cell>Contig732</cell><cell>Q3SYW2</cell><cell>2.00E-19</cell><cell></cell></row><row><cell>Complement C3</cell><cell>CCAS2220.b1</cell><cell>P23667</cell><cell>5.00E-10</cell><cell></cell></row><row><cell>Complement C5</cell><cell>CCAS2793.b1</cell><cell>P06684</cell><cell>6.00E-11</cell><cell></cell></row><row><cell>Complement component C8 beta</cell><cell>CCAS2550.g1</cell><cell>P07358</cell><cell>3.00E-08</cell><cell></cell></row><row><cell>chain</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>NF-kappa-B inhibitor alpha</cell><cell>CCAS395.g1</cell><cell>P25963</cell><cell>2.00E-21</cell><cell></cell></row><row><cell>Heat-shock-related</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>DnaJ homolog subfamily B member 4</cell><cell>CCAS6247.g1</cell><cell>Q9UDY4</cell><cell>7.00E-45</cell><cell></cell></row><row><cell cols="2">DnaJ homolog subfamily C member 10 Contig808</cell><cell>Q9DC23</cell><cell>1.00E-27</cell><cell></cell></row><row><cell cols="2">DnaJ homolog subfamily C member 13 Contig104</cell><cell>O75165</cell><cell>7.00E-07</cell><cell></cell></row><row><cell cols="2">DnaJ homolog subfamily C member 21 CCAS2838.g1</cell><cell>Q6PGY5</cell><cell>3.00E-56</cell><cell></cell></row><row><cell>DnaJ homolog subfamily C member 7</cell><cell>Contig1270</cell><cell>Q9QYI3</cell><cell>8.00E-42</cell><cell></cell></row><row><cell>Heat shock 70 kDa protein</cell><cell>Contig753</cell><cell>P41753</cell><cell>2.00E-62</cell><cell></cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table 3 :</head><label>3</label><figDesc></figDesc><table /><note>Potential symbiosis-related genes identified from the Aiptasia transcriptome (Continued)</note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">(page number not for citation purposes)</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgements</head><p>We would like to thank Wayne Huang and Greg Priest-Dorman for system administration, Henry J. Forman for his input on oxidative-stress-related subjects, Elisha Wood-Charlson and two anonymous reviewers for providing constructive comments on the manuscript, and Josh Meisel for his assistance in preparation of the RNA used for library construction. Partial sequencing was donated by Eddy Rubin, director of the DOE Joint Genome Institute, through the sequencing quota allocated to the UC Merced Genome Biology course (BIS 142) in Spring 2007 and Spring 2008. Bioinformatics analyses were initiated by undergraduate students in the context of BIS 142 and courses BIOL325 and BIOL/CMPU353 taught at Vassar College. CC and JRP were partially supported by an Environmental Venture Project from the Woods Institute at Stanford University. VMW was partially supported by NSF grant IOB0542452. MM was partially supported by NSF awards (BE-GEN 0313708 and IOS 0644438) and startup funds from UC Merced. JS was supported by startup funds from Vassar College.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Authors' contributions</head><p>SS carried out the bioinformatics work, analyzed the data, implemented AiptasiaBase, and prepared the manuscript. ECW participated in the data analysis. MT, MLS, and JS participated in the implementation and web-design of AiptasiaBase. CC and JRP cultivated the anemones, and CC prepared the total RNA for cDNA-library construction. JRP, VMW, MM, and JS conceived of the study, coordinated its design, and helped in preparing the manuscript. All authors read and approved the final manuscript. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional material</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Diversity and community structure of symbiotic dinoflagellates from Caribbean coral reefs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C</forename><surname>Lajeunesse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marine Biology</title>
+		<imprint>
+			<biblScope unit="volume">141</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="387" to="400" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">LaJeunesse TC: Diversity and community structure of symbi- otic dinoflagellates from Caribbean coral reefs. Marine Biology 2002, 141(2):387-400.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Ribosomal RNA sequences and the diversity of symbiotic dinoflagellates (zooxanthellae)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Rowan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Powers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="3639" to="3643" />
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rowan R, Powers DA: Ribosomal RNA sequences and the diversity of symbiotic dinoflagellates (zooxanthellae). Proc Natl Acad Sci USA 1992, 89(8):3639-3643.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Rodriguez-Lanetty M: Fidelity and flexibility in coral symbioses</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">H</forename><surname>Baird</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">R</forename><surname>Cumbo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Leggat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar Ecol Prog Ser</title>
+		<imprint>
+			<biblScope unit="volume">347</biblScope>
+			<biblScope unit="page" from="307" to="309" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baird AH, Cumbo VR, Leggat W, Rodriguez-Lanetty M: Fidelity and flexibility in coral symbioses. Mar Ecol Prog Ser 2007, 347:307-309.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Flexibility and specificity in coral-algal symbiosis: Diversity, ecology, and biogeography of Symbiodinium</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Ecol Evol Syst</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="661" to="689" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baker AC: Flexibility and specificity in coral-algal symbiosis: Diversity, ecology, and biogeography of Symbiodinium. Annu Rev Ecol Evol Syst 2003, 34:661-689.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Flexibility in algal endosymbioses shapes growth in reef corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">F</forename><surname>Little</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Van Oppen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">L</forename><surname>Willis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">304</biblScope>
+			<biblScope unit="issue">5676</biblScope>
+			<biblScope unit="page" from="1492" to="1494" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Little AF, van Oppen MJ, Willis BL: Flexibility in algal endosymbi- oses shapes growth in reef corals. Science 2004, 304(5676):1492-1494.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Diversity and community structure of symbiotic dinoflagellates from Caribbean coral reefs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C</forename><surname>Lajeunesse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar Biol</title>
+		<imprint>
+			<biblScope unit="volume">141</biblScope>
+			<biblScope unit="page" from="387" to="400" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">LaJeunesse TC: Diversity and community structure of symbi- otic dinoflagellates from Caribbean coral reefs. Mar Biol 2002, 141:387-400.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Fine-scale diversity and specificity in the most prevalent lineage of symbiotic dinoflagellates (Symbiodinium, Dinophyceae) of the Caribbean</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Santos</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">L</forename><surname>Shearer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">R</forename><surname>Hannes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Coffroth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="459" to="469" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Santos SR, Shearer TL, Hannes AR, Coffroth MA: Fine-scale diver- sity and specificity in the most prevalent lineage of symbiotic dinoflagellates (Symbiodinium, Dinophyceae) of the Carib- bean. Mol Ecol 2004, 13(2):459-469.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Multi-year, seasonal genotypic surveys of coral-algal symbioses reveal prevalent stability or post-bleaching reversion</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Thornhill</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C</forename><surname>Lajeunesse</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">W</forename><surname>Kemp</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">K</forename><surname>Fitt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">W</forename><surname>Schmidt</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="volume">148</biblScope>
+			<biblScope unit="page" from="711" to="722" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Thornhill DJ, Lajeunesse TC, Kemp DW, Fitt WK, Schmidt GW: Multi-year, seasonal genotypic surveys of coral-algal symbi- oses reveal prevalent stability or post-bleaching reversion. Mar Biol 2006, 148(4):711-722.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Lectin/glycan interactions play a role in recognition in a coral/ dinoflagellate symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">M</forename><surname>Wood-Charlson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">L</forename><surname>Hollingsworth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Krupp</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">M</forename><surname>Weis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1985" to="1993" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wood-Charlson EM, Hollingsworth LL, Krupp DA, Weis VM: Lec- tin/glycan interactions play a role in recognition in a coral/ dinoflagellate symbiosis. Cell Microbiol 2006, 8(12):1985-1993.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Temporal and spatial infection dynamics indicate recognition events in the early hours of a dinoflagellate/ coral symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Rodriguez-Lanetty</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">M</forename><surname>Wood-Charlson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">L</forename><surname>Hollingsworth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Krupp</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">M</forename><surname>Weis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marine Biology</title>
+		<imprint>
+			<biblScope unit="volume">149</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="713" to="719" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rodriguez-Lanetty M, Wood-Charlson EM, Hollingsworth LL, Krupp DA, Weis VM: Temporal and spatial infection dynamics indi- cate recognition events in the early hours of a dinoflagellate/ coral symbiosis. Marine Biology 2006, 149(4):713-719.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Endocytosis of the symbiotic dinoflagellate Symbiodinium microadriaticum Freudenthal by endodermal cells of the scyphistomae of Cassiopeia xamachana and resistance of the algae to host digestion</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">K</forename><surname>Fitt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">K</forename><surname>Trench</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Sci</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="195" to="212" />
+			<date type="published" when="1983" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fitt WK, Trench RK: Endocytosis of the symbiotic dinoflagel- late Symbiodinium microadriaticum Freudenthal by endoder- mal cells of the scyphistomae of Cassiopeia xamachana and resistance of the algae to host digestion. J Cell Sci 1983, 64:195-212.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Different algal symbionts explain the vertical distribution of dominant reef corals in the eastern Pacific</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Iglesias-Prieto</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">H</forename><surname>Beltran</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C</forename><surname>Lajeunesse</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Reyes-Bonilla</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">E</forename><surname>Thome</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Biol Sci</title>
+		<imprint>
+			<biblScope unit="volume">271</biblScope>
+			<biblScope unit="page" from="1757" to="1763" />
+			<date type="published" when="1549" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Iglesias-Prieto R, Beltran VH, LaJeunesse TC, Reyes-Bonilla H, Thome PE: Different algal symbionts explain the vertical distribution of dominant reef corals in the eastern Pacific. Proc Biol Sci 2004, 271(1549):1757-1763.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Intraspecific diversity and ecological zonation in coral-algal symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Rowan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Knowlton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="2850" to="2853" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rowan R, Knowlton N: Intraspecific diversity and ecological zonation in coral-algal symbiosis. Proc Natl Acad Sci USA 1995, 92(7):2850-2853.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Coral bleaching: thermal adaptation in reef coral symbionts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Rowan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">430</biblScope>
+			<biblScope unit="issue">7001</biblScope>
+			<biblScope unit="page">742</biblScope>
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rowan R: Coral bleaching: thermal adaptation in reef coral symbionts. Nature 2004, 430(7001):742.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The role of zooxanthellae in the thermal tolerance of corals: a &apos;nugget of hope&apos; for coral reefs in an era of climate change</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Berkelmans</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Van Oppen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Biol Sci</title>
+		<imprint>
+			<biblScope unit="volume">273</biblScope>
+			<biblScope unit="page" from="2305" to="2312" />
+			<date type="published" when="1599" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Berkelmans R, van Oppen MJ: The role of zooxanthellae in the thermal tolerance of corals: a &apos;nugget of hope&apos; for coral reefs in an era of climate change. Proc Biol Sci 2006, 273(1599):2305-2312.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Reef corals bleach to survive change</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">411</biblScope>
+			<biblScope unit="page" from="765" to="766" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baker AC: Reef corals bleach to survive change. Nature 2001, 411:765-766.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">W</forename><surname>Buddemeier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">G</forename><surname>Fautin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Coral Bleaching as an Adaptive Mechanism</title>
+		<imprint>
+			<date type="published" when="1993" />
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="320" to="325" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Buddemeier RW, Fautin DG: Coral Bleaching as an Adaptive Mechanism. BioScience 1993, 43(5):320-325.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Communication arising. Is coral bleaching really adaptive? Nature</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Hoegh-Guldberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">J</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">K</forename><surname>Loh</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+			<biblScope unit="volume">415</biblScope>
+			<biblScope unit="page" from="601" to="602" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hoegh-Guldberg O, Jones RJ, Ward S, Loh WK: Communication arising. Is coral bleaching really adaptive? Nature 2002, 415(6872):601-602.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">O: Climate change, coral bleaching and the future of the world&apos;s coral reefs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Hoegh-Guldberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar Freshw Res</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="839" to="866" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hoegh-Guldberg O: Climate change, coral bleaching and the future of the world&apos;s coral reefs. Mar Freshw Res 1999, 50:839-866.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Cell biology in model systems as the key to understanding corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">M</forename><surname>Weis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Davy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Hoegh-Guldberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Rodriguez-Lanetty</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Pringle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Ecol Evol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="369" to="376" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Weis VM, Davy SK, Hoegh-Guldberg O, Rodriguez-Lanetty M, Pringle JR: Cell biology in model systems as the key to understanding corals. Trends Ecol Evol 2008, 23(7):369-376.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">The role of symbiotic dinoflagellates in the temperature-induced bleaching response of the subtropical sea anemone Aiptasia pallida</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">F</forename><surname>Perez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">B</forename><surname>Cook</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">R</forename><surname>Brooks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Mar Biol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">256</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="14" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Perez SF, Cook CB, Brooks WR: The role of symbiotic dinoflag- ellates in the temperature-induced bleaching response of the subtropical sea anemone Aiptasia pallida. J Exp Mar Biol Ecol 2001, 256(1):1-14.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Specificity of a model cnidarian-dinoflagellate symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Belda-Baillie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">K</forename><surname>Baillie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Maruyama</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol Bull</title>
+		<imprint>
+			<biblScope unit="volume">202</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="74" to="85" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Belda-Baillie CA, Baillie BK, Maruyama T: Specificity of a model cnidarian-dinoflagellate symbiosis. Biol Bull 2002, 202(1):74-85.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Pedal Laceration by the Anemone Aiptasia pallida</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">S</forename><surname>Clayton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar Ecol Prog Ser</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="75" to="80" />
+			<date type="published" when="1985" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Clayton WS: Pedal Laceration by the Anemone Aiptasia pall- ida. Mar Ecol Prog Ser 1985, 21(1-2):75-80.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Fang LS: ApRab11, a cnidarian homologue of the recycling regulatory protein Rab11, is involved in the establishment and maintenance of the Aiptasia-Symbiodinium endosymbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">C</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">C</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">S</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">C</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">M</forename><surname>Cheng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem Biophys Res Commun</title>
+		<imprint>
+			<biblScope unit="volume">338</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1607" to="1616" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen MC, Hong MC, Huang YS, Liu MC, Cheng YM, Fang LS: ApRab11, a cnidarian homologue of the recycling regulatory protein Rab11, is involved in the establishment and mainte- nance of the Aiptasia-Symbiodinium endosymbiosis. Biochem Biophys Res Commun 2005, 338(3):1607-1616.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Knockdown of actin and caspase gene expression by RNA interference in the symbiotic anemone Aiptasia pallida</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Dunn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">S</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">R</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">M</forename><surname>Weis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol Bull</title>
+		<imprint>
+			<biblScope unit="volume">212</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="250" to="258" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dunn SR, Phillips WS, Green DR, Weis VM: Knockdown of actin and caspase gene expression by RNA interference in the symbiotic anemone Aiptasia pallida. Biol Bull 2007, 212(3):250-258.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Elevated temperatures and ultraviolet radiation cause oxidative stress and inhibit photosynthesis in symbiotic dinoflagellates</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">P</forename><surname>Lesser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Limnol Oceanogr</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="271" to="283" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lesser MP: Elevated temperatures and ultraviolet radiation cause oxidative stress and inhibit photosynthesis in symbi- otic dinoflagellates. Limnol Oceanogr 1996, 41(2):271-283.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Oxidative stress in the symbiotic sea anemone Aiptasia pulchella (Carlgren, 1943): Contribution of the animal to superoxide ion production at elevated temperature</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">M</forename><surname>Nii</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Muscatine</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol Bull</title>
+		<imprint>
+			<biblScope unit="volume">192</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="444" to="456" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nii CM, Muscatine L: Oxidative stress in the symbiotic sea anemone Aiptasia pulchella (Carlgren, 1943): Contribution of the animal to superoxide ion production at elevated temper- ature. Biol Bull 1997, 192(3):444-456.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Nitric oxide and cnidarian bleaching: an eviction notice mediates breakdown of a symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Perez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Weis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Biol</title>
+		<imprint>
+			<biblScope unit="volume">209</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page" from="2804" to="2810" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Perez S, Weis V: Nitric oxide and cnidarian bleaching: an evic- tion notice mediates breakdown of a symbiosis. J Exp Biol 2006, 209(14):2804-2810.</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Cellular mechanisms underlying temperature-induced bleaching in the tropical sea anemone Aiptasia pulchella</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">J</forename><surname>Sawyer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Muscatine</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Biol</title>
+		<imprint>
+			<biblScope unit="volume">204</biblScope>
+			<biblScope unit="issue">20</biblScope>
+			<biblScope unit="page" from="3443" to="3456" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sawyer SJ, Muscatine L: Cellular mechanisms underlying tem- perature-induced bleaching in the tropical sea anemone Aiptasia pulchella. J Exp Biol 2001, 204(20):3443-3456.</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main">A hitchhiker&apos;s guide to expressed sequence tag (EST) analysis. Brief Bioinform</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">H</forename><surname>Nagaraj</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">B</forename><surname>Gasser</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Ranganathan</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="6" to="21" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nagaraj SH, Gasser RB, Ranganathan S: A hitchhiker&apos;s guide to expressed sequence tag (EST) analysis. Brief Bioinform 2007, 8(1):6-21.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Sea anemone genome reveals ancestral eumetazoan gene repertoire and genomic organization</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">H</forename><surname>Putnam</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Srivastava</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Hellsten</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Dirks</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Chapman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Salamov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Terry</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Shapiro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Lindquist</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">V</forename><surname>Kapitonov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">317</biblScope>
+			<biblScope unit="issue">5834</biblScope>
+			<biblScope unit="page" from="86" to="94" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Putnam NH, Srivastava M, Hellsten U, Dirks B, Chapman J, Salamov A, Terry A, Shapiro H, Lindquist E, Kapitonov VV, et al.: Sea anem- one genome reveals ancestral eumetazoan gene repertoire and genomic organization. Science 2007, 317(5834):86-94.</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">EST analysis of the cnidarian Acropora millepora reveals extensive gene loss and rapid sequence divergence in the model invertebrates</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">D</forename><surname>Kortschak</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Samuel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Saint</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Miller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Biol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<biblScope unit="page" from="2190" to="2195" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kortschak RD, Samuel G, Saint R, Miller DJ: EST analysis of the cnidarian Acropora millepora reveals extensive gene loss and rapid sequence divergence in the model invertebrates. Curr Biol 2003, 13(24):2190-2195.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Analysis of an EST library from the dinoflagellate (Symbiodinium sp.) symbiont of reef-building corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Leggat</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Hoegh-Guldberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Dove</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Yellowlees</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Phycol</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1010" to="1021" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Leggat W, Hoegh-Guldberg O, Dove S, Yellowlees D: Analysis of an EST library from the dinoflagellate (Symbiodinium sp.) sym- biont of reef-building corals. J Phycol 2007, 43(5):1010-1021.</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Coral Life History and Symbiosis: functional genomic resources for two reef building Caribbean corals, Acropora palmata and Montastraea faveolata</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Schwarz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">B</forename><surname>Brokstein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Voolstra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">Y</forename><surname>Terry</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">F</forename><surname>Manohar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Szmant</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Coffroth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Medina</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genomics</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">97</biblScope>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schwarz JA, Brokstein PB, Voolstra C, Terry AY, Manohar CF, Szmant AM, Coffroth MA, Miller DJ, Medina M: Coral Life History and Symbiosis: functional genomic resources for two reef build- ing Caribbean corals, Acropora palmata and Montastraea faveolata. BMC Genomics 2008, 9:97.</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Comparative gene expression in the symbiotic and aposymbiotic Aiptasia pulchella by expressed sequence tag analysis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Kuo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">C</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">H</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">S</forename><surname>Fang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem Biophys Res Commun</title>
+		<imprint>
+			<biblScope unit="volume">318</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="176" to="186" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kuo J, Chen MC, Lin CH, Fang LS: Comparative gene expression in the symbiotic and aposymbiotic Aiptasia pulchella by expressed sequence tag analysis. Biochem Biophys Res Commun 2004, 318(1):176-186.</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">EST2uni: an open, parallel tool for automated EST analysis and database creation, with a data mining web interface and microarray expression data integration</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Forment</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Gilabert</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Robles</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Conejero</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Nuez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Blanca</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">5</biblScope>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Forment J, Gilabert F, Robles A, Conejero V, Nuez F, Blanca JM: EST2uni: an open, parallel tool for automated EST analysis and database creation, with a data mining web interface and microarray expression data integration. BMC Bioinformatics 2008, 9:5.</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">Base-calling of automated sequencer traces using phred. I. Accuracy assessment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Ewing</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Hillier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">C</forename><surname>Wendl</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Green</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Ewing B, Hillier L, Wendl MC, Green P: Base-calling of automated sequencer traces using phred. I. Accuracy assessment.</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="175" to="185" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Genome Res 1998, 8(3):175-185.</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">DNA sequence quality trimming and vector removal</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">H</forename><surname>Chou</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">H</forename><surname>Holmes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1093" to="1104" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chou HH, Holmes MH: DNA sequence quality trimming and vector removal. Bioinformatics 2001, 17(12):1093-1104.</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<ptr target="http://compbio.dfci.harvard.edu/tgi/software/" />
+		<title level="m">The Gene Index project</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">The Gene Index project [http://compbio.dfci.harvard.edu/tgi/ software/]</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">CAP3: A DNA sequence assembly program</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Madan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="868" to="877" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Huang X, Madan A: CAP3: A DNA sequence assembly pro- gram. Genome Res 1999, 9(9):868-877.</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">The Universal Protein Resource (UniProt)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">U</forename><surname>Consortium</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="190" to="195" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Consortium TU: The Universal Protein Resource (UniProt). Nucleic Acids Res 2008, 36:D190-D195.</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">The Pfam protein families database</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">D</forename><surname>Finn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Tate</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Mistry</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">C</forename><surname>Coggill</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">J</forename><surname>Sammut</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">R</forename><surname>Hotz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Ceric</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Forslund</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Eddy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">L</forename><surname>Sonnhammer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="281" to="288" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Finn RD, Tate J, Mistry J, Coggill PC, Sammut SJ, Hotz HR, Ceric G, Forslund K, Eddy SR, Sonnhammer EL, et al.: The Pfam protein families database. Nucleic Acids Res 2008, 36:D281-288.</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Response of the symbiotic cnidarian Anthopleura elegantissima transcriptome to temperature and UV increase</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Richier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Rodriguez-Lanetty</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">E</forename><surname>Schnitzler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">M</forename><surname>Weis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comp Biochem Physiol D: Genomics Proteomics</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="283" to="289" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Richier S, Rodriguez-Lanetty M, Schnitzler CE, Weis VM: Response of the symbiotic cnidarian Anthopleura elegantissima tran- scriptome to temperature and UV increase. Comp Biochem Physiol D: Genomics Proteomics 2008, 3(4):283-289.</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">A novel Aurelia aurita protein mesoglein contains DSL and ZP domains</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><forename type="middle">V</forename><surname>Matveev</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">G</forename><surname>Shaposhnikova</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><forename type="middle">I</forename><surname>Podgornaya</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gene</title>
+		<imprint>
+			<biblScope unit="volume">399</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="20" to="25" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Matveev IV, Shaposhnikova TG, Podgornaya OI: A novel Aurelia aurita protein mesoglein contains DSL and ZP domains. Gene 2007, 399(1):20-25.</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Molecular characterization and gene expression in the eye of the apolipophorin II/I precursor from Locusta migratoria</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Bogerd</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">J</forename><surname>Babin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">P</forename><surname>Kooiman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>André</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Ballagny</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wja</forename><surname>Van Marrewijk</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Horst Dj Van</forename><surname>Der</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Comp Neurol</title>
+		<imprint>
+			<biblScope unit="volume">427</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="546" to="558" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bogerd J, Babin PJ, Kooiman FP, André M, Ballagny C, Van Marrewijk WJA, Horst DJ Van Der: Molecular characterization and gene expression in the eye of the apolipophorin II/I precursor from Locusta migratoria. J Comp Neurol 2000, 427(4):546-558.</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Symbiophagy as a cellular mechanism for coral bleaching</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Downs</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Kramarsky-Winter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Martinez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Kushmaro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">M</forename><surname>Woodley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Loya</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">K</forename><surname>Ostrander</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Autophagy</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="211" to="216" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Downs CA, Kramarsky-Winter E, Martinez J, Kushmaro A, Woodley CM, Loya Y, Ostrander GK: Symbiophagy as a cellular mecha- nism for coral bleaching. Autophagy 2009, 5(2):211-216.</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Apoptosis and autophagy as mechanisms of dinoflagellate symbiont release during cnidarian bleaching: every which way you lose</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Dunn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">E</forename><surname>Schnitzler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">M</forename><surname>Weis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Biol Sci</title>
+		<imprint>
+			<biblScope unit="volume">274</biblScope>
+			<biblScope unit="page" from="3079" to="3085" />
+			<date type="published" when="1629" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dunn SR, Schnitzler CE, Weis VM: Apoptosis and autophagy as mechanisms of dinoflagellate symbiont release during cni- darian bleaching: every which way you lose. Proc Biol Sci 2007, 274(1629):3079-3085.</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Temperature stress causes host cell detachment in symbiotic cnidarians: implications for coral bleaching</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">D</forename><surname>Gates</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Baghdasarian</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Muscatine</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol Bull</title>
+		<imprint>
+			<biblScope unit="volume">182</biblScope>
+			<biblScope unit="page" from="324" to="332" />
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gates RD, Baghdasarian G, Muscatine L: Temperature stress causes host cell detachment in symbiotic cnidarians: implica- tions for coral bleaching. Biol Bull 1992, 182:324-332.</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Molecular identification of Rab7 (ApRab7) in Aiptasia pulchella and its exclusion from phagosomes harboring zooxanthellae</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">C</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">M</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">J</forename><surname>Sung</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">E</forename><surname>Kuo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">S</forename><surname>Fang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem Biophys Res Commun</title>
+		<imprint>
+			<biblScope unit="volume">308</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="586" to="595" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen MC, Cheng YM, Sung PJ, Kuo CE, Fang LS: Molecular identi- fication of Rab7 (ApRab7) in Aiptasia pulchella and its exclu- sion from phagosomes harboring zooxanthellae. Biochem Biophys Res Commun 2003, 308(3):586-595.</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Bleaching in coral reef anthozoans: Effects of irradiance, ultraviolet radiation and temperature, on the activities of protective enzymes against active oxygen</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Lesser</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Stochaj</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Tapley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Shick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Coral Reefs</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="225" to="232" />
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lesser M, Stochaj W, Tapley D, Shick J: Bleaching in coral reef anthozoans: Effects of irradiance, ultraviolet radiation and temperature, on the activities of protective enzymes against active oxygen. Coral Reefs 1990, 8:225-232.</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Catalase characterization and implication in bleaching of a symbiotic sea anemone</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">L</forename><surname>Merle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Sabourault</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Richier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Allemand</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Furla</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Free Radic Biol Med</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="236" to="246" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Merle PL, Sabourault C, Richier S, Allemand D, Furla P: Catalase characterization and implication in bleaching of a symbiotic sea anemone. Free Radic Biol Med 2007, 42(2):236-246.</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Hyperthermic stressinduced increase in the expression of glutamate-cysteine ligase and glutathione levels in the symbiotic sea anemone Aiptasia pallida</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Sunagawa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">J</forename><surname>Forman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Medina</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comp Biochem Physiol B</title>
+		<imprint>
+			<biblScope unit="volume">151</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="133" to="138" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note>Biochem Mol Biol</note>
+	<note type="raw_reference">Sunagawa S, Choi J, Forman HJ, Medina M: Hyperthermic stress- induced increase in the expression of glutamate-cysteine ligase and glutathione levels in the symbiotic sea anemone Aiptasia pallida. Comp Biochem Physiol B: Biochem Mol Biol 2008, 151(1):133-138.</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Temperature-induced bleaching of corals begins with impairment of the CO 2 fixation mechanism in zooxanthellae</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">J</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Hoegh-Guldberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Awd</forename><surname>Larkum</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Schreiber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Cell Environ</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page">1219</biblScope>
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jones RJ, Hoegh-Guldberg O, Larkum AWD, Schreiber U: Temper- ature-induced bleaching of corals begins with impairment of the CO 2 fixation mechanism in zooxanthellae. Plant Cell Envi- ron 1998, 21(12):1219.</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Damage to photosystem II in symbiotic dinoflagellates: A determinant of coral bleaching</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E</forename><surname>Warner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">K</forename><surname>Fitt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">W</forename><surname>Schmidt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page" from="8007" to="8012" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Warner ME, Fitt WK, Schmidt GW: Damage to photosystem II in symbiotic dinoflagellates: A determinant of coral bleach- ing. Proc Natl Acad Sci USA 1999, 96(14):8007-8012.</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Production and scavenging of active oxygen in photosynthesis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Asada</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M ;</forename><surname>Takahashi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Kyle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Osmond</forename><surname>Cb</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">J</forename><surname>Arntzen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Amsterdam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Topics in photosynthesis</title>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="1987" />
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="227" to="287" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Asada K, Takahashi M: Production and scavenging of active oxy- gen in photosynthesis. In Topics in photosynthesis, Photoinhibition Vol- ume 9. Edited by: Kyle DJ, Osmond CB, Arntzen CJ . Amsterdam: Elsevier; 1987:227-287.</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Sequencing and de novo analysis of a coral larval transcriptome using 454 GS-Flx</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">V</forename><surname>Aglyamova</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Buchanan-Carter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Abrego</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">K</forename><surname>Colbourne</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">L</forename><surname>Willis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">V</forename><surname>Matz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genomics</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">219</biblScope>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Meyer E, Aglyamova GV, Wang S, Buchanan-Carter J, Abrego D, Col- bourne JK, Willis BL, Matz MV: Sequencing and de novo analysis of a coral larval transcriptome using 454 GS-Flx. BMC Genom- ics 2009, 10(1):219.</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<monogr>
+		<ptr target="http://www.repeatmasker.org" />
+		<title level="m">AiptasiaBase</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">AiptasiaBase [http://aiptasia.cs.vassar.edu/AiptasiaBase/index.php] 58. RepeatMasker [http://www.repeatmasker.org]</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">ESTScan: a program for detecting, evaluating, and reconstructing potential coding regions in EST sequences</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Iseli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">V</forename><surname>Jongeneel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Bucher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Int Conf Intell Syst Mol Biol</title>
+		<imprint>
+			<biblScope unit="page" from="138" to="148" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Iseli C, Jongeneel CV, Bucher P: ESTScan: a program for detect- ing, evaluating, and reconstructing potential coding regions in EST sequences. Proc Int Conf Intell Syst Mol Biol 1999:138-148.</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Lipman DJ: Gapped BLAST and PSI-BLAST: a new generation of protein database search programs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">F</forename><surname>Altschul</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">L</forename><surname>Madden</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">A</forename><surname>Schaffer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Miller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">17</biblScope>
+			<biblScope unit="page" from="3389" to="3402" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Altschul SF, Madden TL, Schaffer AA, Zhang J, Zhang Z, Miller W, Lip- man DJ: Gapped BLAST and PSI-BLAST: a new generation of protein database search programs. Nucleic Acids Res 1997, 25(17):3389-3402.</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<monogr>
+		<ptr target="http://espressosoftware.com/sputnik/index.html" />
+		<title level="m">Sputnik -DNA microsatellite repeat search utility</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Sputnik -DNA microsatellite repeat search utility [http:// espressosoftware.com/sputnik/index.html]</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">TheUniProtConsortium: The universal protein resource (Uni-Prot)</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="190" to="195" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">TheUniProtConsortium: The universal protein resource (Uni- Prot). Nucleic Acids Res 2008, 36:D190-195.</note>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<monogr>
+		<ptr target="http://hmmer.janelia.org" />
+		<title level="m">HMMER: biosequence analysis using profile hidden Markov models</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">HMMER: biosequence analysis using profile hidden Markov models [http://hmmer.janelia.org]</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">The Gene Ontology Annotation (GOA) project: implementation of GO in SWISS-PROT, TrEMBL, and InterPro</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Camon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Magrane</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Barrell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Binns</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Fleischmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Kersey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Mulder</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Oinn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Maslen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Cox</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="662" to="672" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Camon E, Magrane M, Barrell D, Binns D, Fleischmann W, Kersey P, Mulder N, Oinn T, Maslen J, Cox A, et al.: The Gene Ontology Annotation (GOA) project: implementation of GO in SWISS-PROT, TrEMBL, and InterPro. Genome Res 2003, 13(4):662-672.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

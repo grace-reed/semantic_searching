@@ -1,0 +1,3196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/grace/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Experimental Models to Study the Role of Microbes in Host-Parasite Interactions</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2016-08-23">23 August 2016</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><surname>Brucker</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Amparo</forename><surname>Latorre</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Adam</forename><forename type="middle">Michael</forename><surname>Reitzel</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Reid</forename><surname>Harris</surname></persName>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nolwenn</forename><forename type="middle">M</forename><surname>Dheilly</surname></persName>
+							<email>nolwenn.dheilly@stonybrook.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Megan</forename><forename type="middle">A</forename><surname>Hahn</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">Rowland Institute at Harvard</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Valencia</orgName>
+								<address>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">University of North Carolina at Charlotte</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="institution">James Madison University</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department">School of Marine and Atmospheric Sciences</orgName>
+								<orgName type="institution">Stony Brook University</orgName>
+								<address>
+									<settlement>Stony Brook</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Experimental Models to Study the Role of Microbes in Host-Parasite Interactions</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2016-08-23">23 August 2016</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.3389/fmicb.2016.01300</idno>
+					<note type="submission">Received: 27 May 2016 Accepted: 08 August 2016</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-09-14T02:32+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>holobiont</term>
+					<term>symbioses</term>
+					<term>microbiome</term>
+					<term>microbe</term>
+					<term>mutualism</term>
+					<term>experimental models</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Until recently, parasitic infections have been primarily studied as interactions between the parasite and the host, leaving out crucial players: microbes. The recent realization that microbes play key roles in the biology of all living organisms is not only challenging our understanding of host-parasite evolution, but it also provides new clues to develop new therapies and remediation strategies. In this paper we provide a review of promising and advanced experimental organismal systems to examine the dynamic of hostparasite-microbe interactions. We address the benefits of developing new experimental models appropriate to this new research area and identify systems that offer the best promises considering the nature of the interactions among hosts, parasites, and microbes. Based on these systems, we identify key criteria for selecting experimental models to elucidate the fundamental principles of these complex webs of interactions. It appears that no model is ideal and that complementary studies should be performed on different systems in order to understand the driving roles of microbes in host and parasite evolution.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>The term 'symbiosis' (from Greek "living together") was first coined by Albert Bernhardt Frank in 1877, when he described the relationship between fungi and algae in lichens, and was then used to define "the living together of unlike organisms" by de <ref type="bibr" target="#b19">Bary (1879)</ref> and <ref type="bibr" target="#b102">Theis et al. (2016)</ref>. The modern definition of symbiosis encompasses all beneficial, neutral, and harmful long-term and intimate relationships, which correspond to a continuum of mutualistic, communal, and parasitic symbiosis <ref type="bibr" target="#b7">(Bronstein, 2009;</ref><ref type="bibr" target="#b15">Cheng, 2012)</ref>. Symbionts can contribute to phenotypic variations and thus to evolutionary innovation in their hosts <ref type="bibr" target="#b70">(Margulis, 1991)</ref>. Recent developments in molecular techniques have propelled a vast expansion of our knowledge regarding the presence, diversity, and abundance of non-cultivable microbes. It has revealed that most often, organisms are not associated with one single symbiont, but with a myriad of microbial symbionts that can independently or synergistically participate in their physiology and evolution <ref type="bibr" target="#b92">(Rosenberg and Zilber-Rosenberg, 2011)</ref>. The recognition of this inherent complexity of organisms led to the concept of the holobiont that integrates the host organism and all its associated microbes <ref type="bibr" target="#b70">(Margulis, 1991)</ref>. Two divergent opinions have recently risen. Some argue that the term holobiont and the concepts associated to it can lead to misunderstanding of evolutionary concepts in host-associated microbes <ref type="bibr" target="#b79">(Moran and Sloan, 2015;</ref><ref type="bibr" target="#b25">Douglas and Werren, 2016)</ref>. Others maintain that this new concept is necessary to embrace the pluralistic attributes of any plants and animals, whose phenotype result from multilevel selection on the host genome, the microbe genomes, and the hologenome <ref type="bibr" target="#b5">(Bordenstein and Theis, 2015;</ref><ref type="bibr" target="#b102">Theis et al., 2016)</ref>. This complexity and its implications has renewed interest in symbionts and is revolutionizing many fields of biology including parasitology and immunology. Of interest in this review, host-parasite interactions are now being re-considered in light of the microbiome <ref type="bibr" target="#b20">(Dheilly, 2014)</ref>. This has led to a better understanding of the pluralistic role of microbes in host defense and to new theories of parasite virulence strategies driven by their interaction with microbes <ref type="bibr" target="#b22">(Dheilly et al., 2015b)</ref>. Host and parasite microbiomes contribute to host and parasite fitness and impose new selection pressures on parasites and hosts, respectively <ref type="figure">(Figure 1)</ref>. Alteration of any partner may cause a chain of responses in those remaining and change the outcome of infection.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>HOST DEFENSIVE SYMBIONTS</head><p>Scientists have long recognized and accepted that mixed infection is the rule in natural environments and that microbes in the same host can directly and indirectly interfere with each other. Concomitant immunity was shown in Schistosomes (blood flukes) as early as 1969 and facilitation in 1971 <ref type="bibr" target="#b58">(Kloetzel et al., 1971</ref><ref type="bibr" target="#b57">(Kloetzel et al., , 1977</ref>. We now know that resistance, competition, and facilitation can result from direct and indirect interactions among protozoa, helminthes, viruses, and bacteria <ref type="bibr" target="#b18">(Cox, 2001)</ref>. Thus, the net outcome of the host-parasite interaction can vary greatly in presence of other microbes, from harmful to neutral and beneficial. In particular, the concept of defensive mutualism led to the discovery of microbes acting in defense to parasites in many taxa, including fungi, mollusks, insects, plants, and vertebrates <ref type="bibr" target="#b17">(Clay, 1988;</ref><ref type="bibr" target="#b109">White and Torres, 2009)</ref>. Microbial symbionts are necessary for maturation of the immune system during early-life <ref type="bibr" target="#b32">(Gollwitzer and Marsland, 2015)</ref> and later protect the host against pathogens via immune activation <ref type="bibr" target="#b38">(Hall et al., 2008;</ref><ref type="bibr" target="#b2">Benson et al., 2009)</ref>, production of antimicrobial factors, competition for resources or by limiting parasite adhesion to host cells <ref type="bibr" target="#b12">(Cash, 2006;</ref><ref type="bibr" target="#b53">Kamada et al., 2012;</ref><ref type="bibr" target="#b10">Buffie and Pamer, 2013)</ref>. Most importantly, microbe-mediated protection can evolve rapidly due to their large population size and short generation times, thus participating in host adaptation <ref type="bibr" target="#b56">(King et al., 2016)</ref>. In fact, symbionts may take over the evolutionary arms race against parasites, and alleviate the selection pressures on the host <ref type="bibr" target="#b64">(Kwiatkowski et al., 2012)</ref>, as demonstrated by the reduction in Drosophila melanogaster resistance to Drosophila C virus when associated with the defensive symbiont Wolbachia <ref type="bibr" target="#b71">(Martinez et al., 2016a)</ref>. The inter-regulation between microbiome and immune system has led to redefinition of this new unit that integrates host and microbe-encoded defenses into a single "holoimmunome" <ref type="bibr" target="#b20">(Dheilly, 2014)</ref> or "microimmunosome" <ref type="bibr" target="#b23">(Dietert, 2016)</ref>.</p><p>A number of organismal systems were developed to study the role of defensive symbionts in the ecology and evolution of hosts and parasites. Many insects harbor microbial mutualists and studies of their role in defense to parasites have long been successful. Aphids have provided the most remarkable example of insect-associated defensive symbionts (see Oliver et al., 2014 for detailed review). In Acyrthosiphon pisum, the facultative symbionts Hamiltonella and Serratia provide defense against the parasitic wasp Aphidius ervi <ref type="bibr" target="#b85">(Oliver et al., 2003</ref><ref type="bibr" target="#b83">(Oliver et al., , 2005</ref> whereas Regiella provides resistance to the fungus Pandora neoaphidis <ref type="bibr" target="#b97">(Scarborough et al., 2005)</ref>. Because aphids have a parthenogenetic reproduction, clonal lines of aphids can be maintained indefinitely and the microbiome is manipulated by a combination of antibiotic treatments and micro-injection of symbionts. Aphids are thus ideal experimental models to understand the impact of defensive symbionts on the evolution of their hosts and parasites. For instance, it is employed to study the cost of defensive symbionts <ref type="bibr" target="#b106">(Vorburger et al., 2013;</ref><ref type="bibr" target="#b90">Polin et al., 2014;</ref><ref type="bibr" target="#b13">Cayetano et al., 2015)</ref>, their population dynamics <ref type="bibr" target="#b82">(Oliver et al., 2008)</ref>, their role in parasitoid community composition <ref type="bibr" target="#b93">(Rothacher et al., 2016)</ref>, the specificity of symbiontassociated defense <ref type="bibr" target="#b72">(Martinez et al., 2016b)</ref>, and to demonstrate that host symbiont's role in defense imposes new selection pressure on parasites <ref type="bibr" target="#b84">(Oliver et al., 2012</ref>). Another biological system worth mentioning is the role of Wolbachia against viruses. Wolbachia is a reproductive parasite of the fruit fly Drosophila melanogaster <ref type="bibr" target="#b30">(Fry et al., 2004)</ref> but it also imparts resistance to Drosophila C viruses, Cricket Paralysis Virus, Flock house virus, Nora virus, and West Nile Virus by reducing the viral load <ref type="bibr" target="#b42">(Hedges et al., 2008;</ref><ref type="bibr" target="#b101">Teixeira et al., 2008;</ref><ref type="bibr" target="#b88">Osborne et al., 2009;</ref><ref type="bibr" target="#b31">Glaser and Meola, 2010)</ref>. Knowledge gained from studying this organismal system has led to the discovery of a Wolbachia-induced resistance to many human parasites including Dengue virus, Chikungunya virus, Yellow fever virus, West Nile Virus, and malaria parasites in mosquitoes <ref type="bibr" target="#b80">(Moreira et al., 2009;</ref><ref type="bibr" target="#b4">Bian et al., 2010;</ref><ref type="bibr" target="#b104">Van den Hurk et al., 2012)</ref>. Clearly, integrating the role of defensive symbionts into our understanding of vector competence has implications for the control of disease transmission. For example, Wolbachiainfected mosquitoes have been released in natural environments as a preventative measure to limit the prevalence of Dengue virus <ref type="bibr" target="#b45">(Hoffmann et al., 2011;</ref><ref type="bibr" target="#b49">Iturbe-Ormaetxe et al., 2011)</ref>. The diversity of insects carrying defensive symbionts provides opportunities to answer many including the extent of host system reliance on defensive symbionts, the role of competition among symbionts, or the potential co-diversification of defensive symbionts with parasites.</p><p>In vertebrates, emerging evidence shows that microbes inhabiting many sites in the body have a role in maintaining health even though few studies examine the direct role of defensive symbionts in resistance against parasites. Promising experimental systems include the red-back salamander, Plethodon cinereus that hosts cutaneous, antifungal metaboliteproducing bacteria, which prevent infection by pathogenic fungi Batrachochytrium dendrobatidis <ref type="bibr" target="#b8">(Brucker et al., 2007</ref><ref type="bibr" target="#b9">(Brucker et al., , 2008</ref>. In birds, Upupa epops and Phoeniculus purpureus, the uropygial glands house symbiotic bacteria that secrete protective antimicrobial substances providing protection to the feathers and eggs <ref type="bibr" target="#b73">(Martín-Platero et al., 2006;</ref><ref type="bibr" target="#b95">Ruiz-Rodriguez et al., 2009;</ref><ref type="bibr" target="#b74">Martín-Vivaldi et al., 2010</ref><ref type="bibr" target="#b20">, 2014</ref><ref type="bibr" target="#b94">Ruiz-Rodríguez et al., 2013)</ref>. Further studies of these tractable vertebrate biological systems are necessary to characterize the significance of the increased FIGURE 1 | Contribution of the host and parasite microbiome to the host and parasite fitness and evolutionary responses expected from the parasite and host, respectively. The smaller symbols represent the microbes; the shape and color indicate whether it is associated with the host (white circle) or parasite (gray square).</p><p>resistance and test ecological and evolutionary theories that are mostly developed on invertebrate systems.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PARASITE DISRUPTIVE STRATEGIES</head><p>Many parasites share the same environment as host-associated microbes, including defensive symbionts. Interestingly, parasites from all major phyla, including helminthes, viruses, bacteria, and fungi modify their host microbiome. For example, parasitic helminth infection results in significant modifications of gut microbiome in humans, pigs, cattle, hamsters, goats, and sheep <ref type="bibr" target="#b81">(Nicholls, 1987;</ref><ref type="bibr" target="#b67">Li et al., 2011</ref><ref type="bibr" target="#b69">Li et al., , 2012</ref><ref type="bibr" target="#b66">Li et al., , 2016</ref><ref type="bibr" target="#b110">Wu et al., 2012;</ref><ref type="bibr" target="#b89">Plieskatt et al., 2013;</ref><ref type="bibr" target="#b11">Cantacessi et al., 2014;</ref><ref type="bibr" target="#b65">Lee et al., 2014)</ref>. But it is unknown if the modifications in the composition of the host microbiome are beneficial for the parasite, a defense mechanism of the host, or by-products of the pathology. It was proposed that parasites can directly modify their microbial environment to make it more favorable, or to exercise immune-modulatory activity and reduce the host resistance to infection, a process called the disruptive strategy <ref type="bibr" target="#b22">(Dheilly et al., 2015b)</ref>. In helminths, evidence suggests that alteration of the host microbiome indeed participates in parasite strategies to modulate the host immune system <ref type="bibr" target="#b89">(Plieskatt et al., 2013)</ref>. This theory is also supported by the observation that hatching by the nematode Trichuris muris is dependent on an abundant microflora <ref type="bibr" target="#b41">(Hayes et al., 2010;</ref><ref type="bibr" target="#b54">Kane et al., 2011;</ref><ref type="bibr" target="#b63">Kuss et al., 2011)</ref> but the beneficial role of parasite-associated disruption of the host microbiome remains to be experimentally tested in a tractable system. Trophically transmitted parasites such as cestodes, are of interest because they have the potential to interact with microbes associated with both definitive and intermediate hosts. Triaenophorus nodulosus and Eubortium rugosum have been found to physically interact with many gut bacteria of their intermediate hosts, Esox Lucius (pike) and Lota lota (burbot), respectively, <ref type="bibr" target="#b51">(Izvekova and Lapteva, 2004)</ref>. In the rat, Hymenolepis diminuta infection results in a significant modification of the gut microbiome composition and a stronger stability in response to a mild inflammatory challenge <ref type="bibr" target="#b77">(McKenney et al., 2015)</ref>. The cestode parasite, Schistocephalus solidus, appears as a model of choice to investigate cestode parasite interactions with host gut microbes because all parasite stages can be cultured in vitro by mimicking either the avian intestinal environment, or the copepod or the stickleback fish body cavity <ref type="bibr" target="#b99">(Smyth, 1990;</ref><ref type="bibr" target="#b52">Jakobsen et al., 2012)</ref>, which allows rigorous functional experiments. Of interest, the highly specific second intermediate host of S. solidus, the threespine stickleback has a broad geographical variation <ref type="bibr" target="#b37">(Hagen and Gilbertson, 1972)</ref> and has become a model species in biology for both ecological and evolutionary studies of the interaction <ref type="bibr" target="#b1">(Barber and Nettleship, 2010)</ref>.</p><p>While most microbiome disruptions by parasites result in subtle changes with unknown consequences for the outcome of infection, some have spectacular consequences. Vibrio shiloi, a bacterium infecting the coral host Oculina patagonica, produces toxins specifically targeting the coral's symbiotic zooxanthellae <ref type="bibr" target="#b62">(Kushmaro et al., 1997</ref><ref type="bibr" target="#b61">(Kushmaro et al., , 1998</ref><ref type="bibr" target="#b60">(Kushmaro et al., , 2001</ref>. Following the temperaturedependent attachment to the coral surface, V. shiloi infiltrates the tissue and multiplies rapidly <ref type="bibr" target="#b61">(Kushmaro et al., 1998;</ref><ref type="bibr" target="#b103">Toren et al., 1998;</ref><ref type="bibr" target="#b0">Banin et al., 2000)</ref>. The bacterium then releases photosynthesis-inhibiting toxins and lyses zooxanthellae, eventually leading to coral bleaching and death <ref type="bibr" target="#b3">(Ben-Haim et al., 1999)</ref>. In another key example, the microsporidian parasite Paranosema locustae relies on gut acidification of its locust host (Locusta migratoria manilensis) and increased production of reactive oxygen species to modify the gut microbial community and insure its own development <ref type="bibr" target="#b98">(Shi et al., 2014)</ref>. Because the locust microbiome is involved in producing pheromones responsible for the locust swarming behavior, infection by P. locustae prevents swarming <ref type="bibr" target="#b24">(Dillon et al., 2000;</ref><ref type="bibr" target="#b98">Shi et al., 2014)</ref>. The adaptive value and specificity of V. shiloi and P. locustae for their host-associated microbes remain to be demonstrated but the obvious phenotypic changes associated with the microbiome disruption increases the value of these organismal systems. In addition, they provide the opportunity to study evolutionary trade-offs of parasite induced disruption of the host microbiome.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PARASITE BIOLOGICAL WEAPON STRATEGIES</head><p>The presence of microbes associated with hosts has been demonstrated in many systems, but the presence of microbes associated with parasites has been tested less frequently. For example, Wolbachia is an obligate bacterial symbiont of parasitic filarial nematodes <ref type="bibr" target="#b59">(Kozek, 1977;</ref><ref type="bibr" target="#b44">Hoerauf et al., 1999)</ref>. Wolbachia incite inflammatory reactions in the human host and it has been implicated in many debilitating diseases <ref type="bibr" target="#b100">(Taylor and Hoerauf, 1999)</ref>. For instance, Wolbachia-induced inflammation is responsible for the loss of vision and blindness following O. volvulus infection <ref type="bibr" target="#b29">(Francis et al., 1985;</ref><ref type="bibr" target="#b39">Hall and Pearlman, 1999;</ref><ref type="bibr" target="#b96">Saint André et al., 2002)</ref> and for the inflammation of lymphatic vessels following W. bancrofti infection <ref type="bibr" target="#b26">(Dreyer et al., 2000;</ref><ref type="bibr" target="#b43">Hoerauf et al., 2003)</ref>. Similarly, the trematode Opisthorchis viverrini, also known as liver fluke, often leads to cholangiocarcinoma <ref type="bibr" target="#b6">(Braconi and Patel, 2010)</ref>. Recent studies demonstrated that O. viverrini is associated with a complex microbiome <ref type="bibr" target="#b89">(Plieskatt et al., 2013)</ref> and that some of these bacteria are transmitted to the host and present in abundance in tumors, calling for more basic experiments to determine their contribution in cancer development <ref type="bibr" target="#b16">(Chng et al., 2016;</ref><ref type="bibr" target="#b87">Osborne and WegenerParfrey, 2016)</ref>. Other parasites are associated with viruses, such as Trichomonas vaginalis, a protozoan parasite that infects the human vagina <ref type="bibr" target="#b33">(Goodman et al., 2011)</ref>. Approximately half of all clinical samples carry a dsRNA virus called Trichomonavirus that is recognized by the human immune system and causes an inflammatory response <ref type="bibr" target="#b28">(Fichorova et al., 2012)</ref> responsible for increased susceptibility to sexually transmitted diseases <ref type="bibr" target="#b105">(Van Der Pol et al., 2008)</ref>, infertility <ref type="bibr" target="#b36">(Grys, 1972;</ref><ref type="bibr" target="#b35">Grodstein et al., 1993)</ref>, miscarriage <ref type="bibr" target="#b78">(Minkoff et al., 1984)</ref>, pre-term delivery <ref type="bibr" target="#b40">(Hardy et al., 1984;</ref><ref type="bibr" target="#b78">Minkoff et al., 1984)</ref>, low birth weight <ref type="bibr" target="#b40">(Hardy et al., 1984)</ref>, and cervical cancer <ref type="bibr" target="#b34">(Gram et al., 1992;</ref><ref type="bibr" target="#b55">Kharsany et al., 1993)</ref>. The presence of the Trichomonavirus also explains why symptoms can worsen upon successful antibiotic treatment: the dying parasite releases its viral load within the human vagina <ref type="bibr" target="#b28">(Fichorova et al., 2012)</ref>. Notably, parasites from various phyla are associated with viruses, including trematodes and parasitic protozoans but their impact on the host has been rarely investigated <ref type="bibr" target="#b48">(Ip and Desser, 1984;</ref><ref type="bibr" target="#b107">Wang and Wang, 1991;</ref><ref type="bibr" target="#b50">Ives et al., 2011)</ref>. Clearly, the significance of parasite-virus and parasite-bacteria associations for treatment of the diseases is evident. But, what is the significance of the phenomenon for the parasites themselves? It has been proposed that parasites can utilize symbionts to increase their virulence, a process called the biological weapon strategy <ref type="bibr" target="#b22">(Dheilly et al., 2015b)</ref>. Clearly, further experimental studies are needed to determine if symbiotic bacteria or viruses and associated inflammation are beneficial for the parasite.</p><p>A promising tractable experimental system involves the parasitoid wasp, Dinocampus coccinellae that infects ladybeetles and carries a RNA virus, D. coccinellae paralysis virus (DcPV; <ref type="bibr" target="#b21">Dheilly et al., 2015a)</ref>. In adult wasps, DcPV is stored in the oviduct. The wasp injects its eggs into the body cavity of the ladybeetle and the growing larvae feed off the ladybeetle's fat body. During larval development, the virus replicates actively and is transmitted to the ladybeetle. DcPV then targets the ladybeetle nervous tissue. When later a single mature larva egresses from the host, DcPV replication in the ladybeetle nervous system results in the induction of antiviral immune responses and damage to the nervous tissue associated with ladybeetle paralysis. The larva stills between the legs of the immobilized ladybeetle and spins a cocoon within which it pupates into an adult wasp. The ladybeetle appears crouched protectively over the cocoon of the wasp and makes erratic movements efficiently deterring predators <ref type="bibr" target="#b76">(Maure et al., 2011)</ref>. Upon larva pupation, clearance of DcPV and nervous system regeneration results in the ladybeetle recovery of normal behavior <ref type="bibr" target="#b21">(Dheilly et al., 2015a)</ref>. Therefore, it appears that D. coccinellae uses DcPV as a biological weapon to manipulate its ladybeetle host and protect its progeny from predation <ref type="bibr" target="#b76">(Maure et al., 2011;</ref><ref type="bibr" target="#b21">Dheilly et al., 2015a</ref>). This organismal system appears ideal to investigate the role of associated viruses in the evolution of parasites because of the short generation time of host and parasite, the broad geographic range of the parasite that infect ladybeetle species on all continents, and because of the possibility to track variations in virus genome in experimental evolution experiments. Most interestingly, ladybeetles are also associated with a diverse array of bacteria including multiple members of the genus Flavobacteria, Rickettsia, Spiroplasma, and Wolbachia, that may be involved in ladybeetle defense against the parasitoid <ref type="bibr" target="#b47">(Hurst et al., 1994</ref><ref type="bibr" target="#b46">(Hurst et al., , 1997</ref><ref type="bibr" target="#b108">Weinert et al., 2007;</ref><ref type="bibr" target="#b27">Elnagdy et al., 2013)</ref>. Using techniques developed previously to study the defensive role of aphid symbionts, the microbiome of ladybeetles could be manipulated using a combination of antibiotic treatments and microinjections. Thus, this organismal system provides an opportunity to investigate the possibility for direct interactions between host-associated microbes and parasite-associated microbes within the body cavity of the host.</p><p>BOX 1 | Key Criteria for experimental model evaluation.</p><p>(1) The host and parasite could be bred and maintained in the laboratory. It is a necessary step to perform controlled experimental infections and understand the transmission mechanisms of symbionts of interest. It is also crucial for testing the environmental and host genetic factors that regulate the abundance, diversity and stability of the microbiome.</p><p>(2) A core microbiome would have been identified in the host suggesting that it selects for specific microbes. This in itself suggests that the host should be considered as a holobiont.</p><p>(3) The parasite shares the same environment as microbes in the host body, which would suggest potential direct parasite-host-associated microbe interaction that remain to be tested. (4) The parasite would be associated with microbes for which the role in virulence will be assessed. The presence of a core microbiome in parasites and the role of parasite-associated microbes in driving the evolution of host defenses remain to be demonstrated. (5) Techniques have been developed to manipulate the composition of the microbiome of the host and/or parasite. The role of microbes in the result of infection can only be tested through manipulation of the microbiome and injection of isolated microbes. It is necessary to characterize the role of microbes individually and as a community in susceptibility, resistance, and infectivity. (6) The host and the parasite would have a wide geographical species range and ecological diversity, which would allow comprehensive fields studies to understand how environmental factors influence host-parasite-microbe interaction. It would allow to examine the role of microbes in local adaptation of parasites through cross-infection experiments. (7) The host and/or parasite would have short generation time, which would facilitate the use experimental evolution to test the role of microbes in host or parasite adaptation. For instance, the hologenome theory would predict that associated microbes participate in the arms race through shorter generation time and higher mutation rate but this hypothesis remains to be tested. (8) Closely related species of hosts could be parasitized with closely related species of parasites, thus allowing comparative studies of the role of microbes in the interaction and testing their role during parasite evolution, host switch, and host or parasite speciation. (9) The parasite would have various effects on the phenotype of its host, so that the role of microbes in any aspect of the 'normal' behavior or appearance of infected organism may be more readily detected and more reliably assessed for fitness consequences. (10) The genome of the host and parasite would have been sequenced, facilitating the use of high throughput comparative genomics approaches to characterize the genes involved in</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSION</head><p>Understanding the role of microbes in host and parasite ecology and evolution is important for both basic and applied biology, as so many disease-causing organisms carry their own microbes or interact with host-associated microbes. Empirical studies of host-parasite-microbes interactions at a mechanistic and evolutionary level can help us understand the ecological circumstances where symbiosis benefits host or parasite fitness. The current review of experimental systems enabling studies of host-parasite-microbe interactions has allowed us to identify key criteria to improve upon and further study these complex interactions (Box 1, <ref type="table">Supplementary Table S1</ref>). We would like to emphasize that it is now crucial to investigate the role of community of microbes as well as individual microbial symbionts. Indeed, microbes may independently, synergistically, or antagonistically impact and participate in the physiology and evolution of their hosts Therefore, it is of particular importance to develop models where it is possible to intimately manipulate the host and parasite microbiomes to alter their composition. We expect that future research project will couple such manipulation with new sequencing technologies, proteomics or metabolomics to elucidate the molecular dialog between the different partners, as demonstrated in studies of host-symbiont and host-microbiome interactions <ref type="bibr" target="#b14">(Chaston and Douglas, 2012;</ref><ref type="bibr" target="#b91">Rooks and Garrett, 2016)</ref>. Development of these systems can provide a basis for developing new therapeutic and prevention strategies: vector hosts could be inoculated with defensive symbionts to reduce the transmission rate of a parasite;</p><p>Parasite-associated microbes could be targeted to limit parasite development and allow its elimination by the host immune system; New parasite-specific probiotics could be selected to increase resistance or tolerance to parasitic infection. Developing these experimental systems for host-parasitemicrobes' interactions is now critical to determine which partner in the interaction should be targeted for effective therapy. Finally, investigating the role of microbes and microbiomes in host-parasite interactions may provide opportunities to confirm or infirm the hologenome theory of evolution by demonstrating multi-level selection.</p></div>			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">Frontiers in Microbiology | www.frontiersin.org</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">August 2016 | Volume 7 | Article 1300</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AUTHOR CONTRIBUTIONS</head><p>All authors listed, have made substantial, direct and intellectual contribution to the work, and approved it for publication.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FUNDING</head><p>The authors acknowledge support from Stony Brook University.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SUPPLEMENTARY MATERIAL</head><p>The Supplementary Material for this article can be found online at:</p><p>http://journal.frontiersin.org/article/10.3389/fmicb.2016.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflict of Interest Statement:</head><p>The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p><p>Copyright © 2016 Hahn and Dheilly. This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) or licensor are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Penetration of the coral-bleaching bacterium Vibrio shiloi into Oculina patagonica</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Banin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Israely</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Kushmaro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Loya</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Orr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Rosenberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/AEM.66.7.3031-3036.2000</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="3031" to="3036" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Banin, E., Israely, T., Kushmaro, A., Loya, Y., Orr, E., and Rosenberg, E. (2000). Penetration of the coral-bleaching bacterium Vibrio shiloi into Oculina patagonica. Appl. Environ. Microbiol. 66, 3031-3036. doi: 10.1128/AEM.66.7.3031-3036.2000</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">From &apos;trash fish&apos;to supermodel: the rise and rise of the three-spined stickleback in evolution and ecology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Barber</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Nettleship</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biologist</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="15" to="21" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Barber, I., and Nettleship, S. (2010). From &apos;trash fish&apos;to supermodel: the rise and rise of the three-spined stickleback in evolution and ecology. Biologist 57, 15-21.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Gut commensal bacteria direct a protective immune response against Toxoplasma gondii</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Benson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Pifer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">L</forename><surname>Behrendt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">V</forename><surname>Hooper</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yarovinsky</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.chom.2009.06.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Host Microbe</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="187" to="196" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Benson, A., Pifer, R., Behrendt, C. L., Hooper, L. V., and Yarovinsky, F. (2009). Gut commensal bacteria direct a protective immune response against Toxoplasma gondii. Cell Host Microbe 6, 187-196. doi: 10.1016/j.chom.2009.06.005</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Inhibition of photosynthesis and bleaching of zooxanthellae by the coral pathogen Vibrio shiloi</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Ben-Haim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Banim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Kushmaro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Loya</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Rosenberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1046/j.1462-2920.1999.00027.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="223" to="229" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ben-Haim, Y., Banim, E., Kushmaro, A., Loya, Y., and Rosenberg, E. (1999). Inhibition of photosynthesis and bleaching of zooxanthellae by the coral pathogen Vibrio shiloi. Appl. Environ. Microbiol. 1, 223-229. doi: 10.1046/j.1462-2920.1999.00027.x</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The endosymbiotic bacterium Wolbachia induces resistance to dengue virus in Aedes aegypti</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Bian</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Xi</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.ppat.1000833</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Pathog</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">1000833</biblScope>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bian, G., Xu, Y., Lu, P., Xie, Y., and Xi, Z. (2010). The endosymbiotic bacterium Wolbachia induces resistance to dengue virus in Aedes aegypti. PLoS Pathog. 6:e1000833. doi: 10.1371/journal.ppat.1000833</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Host biology in light of the microbiome: ten principles of holobionts and hologenomes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Bordenstein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">R</forename><surname>Theis</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pbio.1002226</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Biol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">1002226</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bordenstein, S. R., and Theis, K. R. (2015). Host biology in light of the microbiome: ten principles of holobionts and hologenomes. PLoS Biol. 13:e1002226. doi: 10.1371/journal.pbio.1002226</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Cholangiocarcinoma: new insights into disease pathogenesis and biology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Braconi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Patel</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.idc.2010.07.006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Infect. Dis. Clin. North Am</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="871" to="884" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Braconi, C., and Patel, T. (2010). Cholangiocarcinoma: new insights into disease pathogenesis and biology. Infect. Dis. Clin. North Am. 24, 871-884. doi: 10.1016/j.idc.2010.07.006</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The evolution of facilitation and mutualism</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Bronstein</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-2745.2009.01566.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="1160" to="1170" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bronstein, J. L. (2009). The evolution of facilitation and mutualism. J. Ecol. 97, 1160-1170. doi: 10.1111/j.1365-2745.2009.01566.x</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The identification of 2,4-diacetylphloroglucinol as an antifungal metabolite produced by cutaneous bacteria of the salamander Plethodon cinereus</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Brucker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">M</forename><surname>Baylor</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">L</forename><surname>Walters</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Lauer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">N</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">P C</forename><surname>Minbiole</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10886-007-9352-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="39" to="43" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brucker, R. M., Baylor, C. M., Walters, R. L., Lauer, A., Harris, R. N., and Minbiole, K. P. C. (2007). The identification of 2,4-diacetylphloroglucinol as an antifungal metabolite produced by cutaneous bacteria of the salamander Plethodon cinereus. J. Chem. Ecol. 34, 39-43. doi: 10.1007/s10886-007- 9352-8</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Amphibian chemical defense: antifungal metabolites of the microsymbiont Janthinobacterium lividum on the salamander Plethodon cinereus</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Brucker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">N</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">R</forename><surname>Schwantes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">N</forename><surname>Gallaher</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">C</forename><surname>Flaherty</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">A</forename><surname>Lam</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10886-008-9555-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="1422" to="1429" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brucker, R. M., Harris, R. N., Schwantes, C. R., Gallaher, T. N., Flaherty, D. C., Lam, B. A., et al. (2008). Amphibian chemical defense: antifungal metabolites of the microsymbiont Janthinobacterium lividum on the salamander Plethodon cinereus. J. Chem. Ecol. 34, 1422-1429. doi: 10.1007/s10886-008- 9555-7</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Microbiota-mediated colonization resistance against intestinal pathogens</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">G</forename><surname>Buffie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">G</forename><surname>Pamer</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nri3535</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="790" to="801" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Buffie, C. G., and Pamer, E. G. (2013). Microbiota-mediated colonization resistance against intestinal pathogens. Nat. Rev. Immunol. 13, 790-801. doi: 10.1038/nri3535</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Impact of experimental hookworm infection on the human gut microbiota</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Cantacessi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Giacomin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Croese</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Zakrzewski</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Sotillo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Mccann</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/infdis/jiu256</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Infect. Dis</title>
+		<imprint>
+			<biblScope unit="volume">210</biblScope>
+			<biblScope unit="page" from="1431" to="1434" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cantacessi, C., Giacomin, P., Croese, J., Zakrzewski, M., Sotillo, J., McCann, L., et al. (2014). Impact of experimental hookworm infection on the human gut microbiota. J. Infect. Dis. 210, 1431-1434. doi: 10.1093/infdis/jiu256</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">The Ligand and Function of the RegIII Family of Bactericidal C-Type Lectins</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">L</forename><surname>Cash</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+			<pubPlace>Dallas, TX</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>University of Texas Southwestern Medical Center</orgName>
+		</respStmt>
+	</monogr>
+	<note>Master&apos;s thesis</note>
+	<note type="raw_reference">Cash, H. L. (2006). The Ligand and Function of the RegIII Family of Bactericidal C-Type Lectins. Master&apos;s thesis, University of Texas Southwestern Medical Center, Dallas, TX.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Cheaper is not always worse: strongly protective isolates of a defensive symbiont are less costly to the aphid host</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Cayetano</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Rothacher</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J.-C</forename><surname>Simon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Vorburger</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rspb.2014.2333</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. R. Soc.B</title>
+		<imprint>
+			<biblScope unit="volume">282</biblScope>
+			<biblScope unit="page">20142333</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cayetano, L., Rothacher, L., Simon, J.-C., and Vorburger, C. (2015). Cheaper is not always worse: strongly protective isolates of a defensive symbiont are less costly to the aphid host. Proc. R. Soc.B 282, 20142333. doi: 10.1098/rspb.2014.2333</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Making the most of &quot;omics&quot; for symbiosis research</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Chaston</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Douglas</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Bull</title>
+		<imprint>
+			<biblScope unit="volume">223</biblScope>
+			<biblScope unit="page" from="21" to="29" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chaston, J., and Douglas, A. (2012). Making the most of &quot;omics&quot; for symbiosis research. Biol. Bull. 223, 21-29.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C</forename><surname>Cheng</surname></persName>
+		</author>
+		<title level="m">General Parasitology</title>
+		<meeting><address><addrLine>Amsterdam</addrLine></address></meeting>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cheng, T. C. (2012). General Parasitology. Amsterdam: Elsevier.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Tissue microbiome profiling identifies an enrichment of specific enteric bacteria in Opisthorchis viverrini associated cholangiocarcinoma</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">R</forename><surname>Chng</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">H</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">H Q</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Jusakul</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Bertrand</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ebiom.2016.04.034</idno>
+		<imprint>
+			<date type="published" when="2016" />
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="195" to="202" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chng, K. R., Chan, S. H., Ng, A. H. Q., Li, C., Jusakul, A., Bertrand, D., et al. (2016). Tissue microbiome profiling identifies an enrichment of specific enteric bacteria in Opisthorchis viverrini associated cholangiocarcinoma. EBioMedicine 8, 195-202. doi: 10.1016/j.ebiom.2016.04.034</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Fungal endophytes of grasses: a defensive mutualism between plants and fungi</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Clay</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/1943155</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="10" to="16" />
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Clay, K. (1988). Fungal endophytes of grasses: a defensive mutualism between plants and fungi. Ecology 69, 10-16. doi: 10.2307/1943155</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Concomitant infections, parasites and immune responses</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">E G</forename><surname>Cox</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/S003118200001698X</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Parasitology</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="23" to="38" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cox, F. E. G. (2001). Concomitant infections, parasites and immune responses. Parasitology 122, S23-S38. doi: 10.1017/S003118200001698X</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Die Erscheinung der Symbiose: Vortrag gehalten auf der Versammlung Deutscher Naturforscher und Aerzte zu Cassel. Strassburg: Verlag von</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>De Bary</surname></persName>
+		</author>
+		<editor>Karl J. Trübner</editor>
+		<imprint>
+			<date type="published" when="1879" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">de Bary, A. (1879). Die Erscheinung der Symbiose: Vortrag gehalten auf der Versammlung Deutscher Naturforscher und Aerzte zu Cassel. Strassburg: Verlag von Karl J. Trübner.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Holobiont-Holobiont interactions: redefining host-parasite interactions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">M</forename><surname>Dheilly</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.ppat.1004093</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Pathog</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">1004093</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dheilly, N. M. (2014). Holobiont-Holobiont interactions: redefining host-parasite interactions. PLoS Pathog. 10:e1004093. doi: 10.1371/journal.ppat.1004093</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Who is the puppet master? Replication of a parasitic waspassociated virus correlates with host behaviour manipulation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">M</forename><surname>Dheilly</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Maure</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Ravallec</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Galinier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Doyon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Duval</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rspb.2014.2773</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. R. Soc. B</title>
+		<imprint>
+			<biblScope unit="volume">282</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dheilly, N. M., Maure, F., Ravallec, M., Galinier, R., Doyon, J., Duval, D., et al. (2015a). Who is the puppet master? Replication of a parasitic wasp- associated virus correlates with host behaviour manipulation. Proc. R. Soc. B 282, 20142773. doi: 10.1098/rspb.2014.2773</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Biological warfare: microorganisms as drivers of host-parasite interactions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">M</forename><surname>Dheilly</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Poulin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thomas</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.meegid.2015.05.027</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Infect. Genet. Evol</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="251" to="259" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dheilly, N. M., Poulin, R., and Thomas, F. (2015b). Biological warfare: microorganisms as drivers of host-parasite interactions. Infect. Genet. Evol. 34, 251-259. doi: 10.1016/j.meegid.2015.05.027</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The microbiome-immune-host defense barrier complex (microimmunosome) and developmental programming of noncommunicable diseases</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">R</forename><surname>Dietert</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.reprotox.2016.04.026</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Reprod. Toxicol</title>
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note>in press</note>
+	<note type="raw_reference">Dietert, R. R. (2016). The microbiome-immune-host defense barrier complex (microimmunosome) and developmental programming of noncommunicable diseases. Reprod. Toxicol. (in press). doi: 10.1016/j.reprotox.2016.04.026</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Pheromones: exploitation of gut bacteria in the locust</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">J</forename><surname>Dillon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">T</forename><surname>Vennard</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">K</forename><surname>Charnley</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/35002669</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">403</biblScope>
+			<biblScope unit="page" from="851" to="851" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dillon, R. J., Vennard, C. T., and Charnley, A. K. (2000). Pheromones: exploitation of gut bacteria in the locust. Nature 403, 851-851. doi: 10.1038/35002669</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Holes in the hologenome: why host-microbe symbioses are not holobionts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Douglas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">H</forename><surname>Werren</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/mBio.02099-15</idno>
+		<imprint>
+			<date type="published" when="2016" />
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">2099</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Douglas, A. E., and Werren, J. H. (2016). Holes in the hologenome: why host-microbe symbioses are not holobionts. mBio 7, e02099. doi: 10.1128/mBio.02099-15</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Pathogenesis of lymphatic disease in bancroftian filariasis: a clinical perspective</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Dreyer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Noroes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Figueredo-Silva</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Piessens</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0169-4758(00)01778-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Parasitol. Today</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="544" to="548" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dreyer, G., Noroes, J., Figueredo-Silva, J., and Piessens, W. (2000). Pathogenesis of lymphatic disease in bancroftian filariasis: a clinical perspective. Parasitol. Today. 16, 544-548. doi: 10.1016/S0169-4758(00)01778-6</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Two strains of male-killing Wolbachia in a ladybird, Coccinella undecimpunctata, from a hot climate</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Elnagdy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Messing</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E N</forename><surname>Majerus</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0054218</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">54218</biblScope>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Elnagdy, S., Messing, S., and Majerus, M. E. N. (2013). Two strains of male-killing Wolbachia in a ladybird, Coccinella undecimpunctata, from a hot climate. PLoS ONE 8:e54218. doi: 10.1371/journal.pone.0054218</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Endobiont viruses sensed by the human host-beyond conventional antiparasitic therapy</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">N</forename><surname>Fichorova</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">S</forename><surname>Yamamoto</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Takagi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">R</forename><surname>Hayes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">P</forename><surname>Goodman</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0048418</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">48418</biblScope>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fichorova, R. N., Lee, Y., Yamamoto, H. S., Takagi, Y., Hayes, G. R., Goodman, R. P., et al. (2012). Endobiont viruses sensed by the human host-beyond conventional antiparasitic therapy. PLoS ONE 7:e48418. doi: 10.1371/journal.pone. 0048418</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">The Mazzotti reaction following treatment of onchocerciasis with diethylcarbamazine: clinical severity as a function of infection intensity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Francis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Awadzi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Ottesen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Trop. Med. Hyg</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="529" to="536" />
+			<date type="published" when="1985" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Francis, H., Awadzi, K., and Ottesen, E. (1985). The Mazzotti reaction following treatment of onchocerciasis with diethylcarbamazine: clinical severity as a function of infection intensity. Am. J. Trop. Med. Hyg. 34, 529-536.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Variable fitness effects of Wolbachia infection in Drosophila melanogaster</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename><surname>Fry</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">R</forename><surname>Palmer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rand</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">M</forename></persName>
+		</author>
+		<idno type="DOI">10.1038/sj.hdy.6800514</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Heredity (Edinb)</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="379" to="389" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fry, A. J., Palmer, M. R., and Rand, D. M. (2004). Variable fitness effects of Wolbachia infection in Drosophila melanogaster. Heredity (Edinb) 93, 379-389. doi: 10.1038/sj.hdy.6800514</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">The native Wolbachia endosymbionts of Drosophila melanogaster and Culex quinquefasciatus increase host resistance to West Nile virus infection</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">L</forename><surname>Glaser</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Meola</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0011977</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">11977</biblScope>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Glaser, R. L., and Meola, M. A. (2010). The native Wolbachia endosymbionts of Drosophila melanogaster and Culex quinquefasciatus increase host resistance to West Nile virus infection. PLoS ONE 5:e11977. doi: 10.1371/journal.pone.0011977</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Impact of early-life exposures on immune maturation and susceptibility to disease</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">S</forename><surname>Gollwitzer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">J</forename><surname>Marsland</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.it.2015.09.009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Immunol</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="684" to="696" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gollwitzer, E. S., and Marsland, B. J. (2015). Impact of early-life exposures on immune maturation and susceptibility to disease. Trends Immunol. 36, 684- 696. doi: 10.1016/j.it.2015.09.009</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Trichomonasvirus: a new genus of protozoan viruses in the family Totiviridae</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">P</forename><surname>Goodman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Ghabrial</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">N</forename><surname>Fichorova</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">L</forename><surname>Nibert</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00705-010-0832-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Arch. Virol</title>
+		<imprint>
+			<biblScope unit="volume">156</biblScope>
+			<biblScope unit="page" from="171" to="179" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Goodman, R. P., Ghabrial, S. A., Fichorova, R. N., and Nibert, M. L. (2011). Trichomonasvirus: a new genus of protozoan viruses in the family Totiviridae. Arch. Virol. 156, 171-179. doi: 10.1007/s00705-010-0832-8</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Trichomonas vaginalis (TV) and human papillomavirus (HPV) infection and the incidence of cervical intraepithelial neoplasia (CIN) grade III</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><forename type="middle">T</forename><surname>Gram</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Macaluso</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Churchill</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Stalsberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF00124256</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cancer Causes Control</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="231" to="236" />
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gram, I. T., Macaluso, M., Churchill, J., and Stalsberg, H. (1992). Trichomonas vaginalis (TV) and human papillomavirus (HPV) infection and the incidence of cervical intraepithelial neoplasia (CIN) grade III. Cancer Causes Control 3, 231-236. doi: 10.1007/BF00124256</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Relation of tubal infertility to history of sexually transmitted diseases</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Grodstein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">B</forename><surname>Goldman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">W</forename><surname>Cramer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">137</biblScope>
+			<biblScope unit="page" from="577" to="584" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Grodstein, F., Goldman, M. B., and Cramer, D. W. (1993). Relation of tubal infertility to history of sexually transmitted diseases. Am. J. Epidemiol. 137, 577-584.</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Diagnosis of trichomonadosis in the urinary tract of women (preliminary report)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Grys</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Parasitol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="461" to="462" />
+			<date type="published" when="1972" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Grys, E. (1972). Diagnosis of trichomonadosis in the urinary tract of women (preliminary report). Ann. Parasitol. 19, 461-462.</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Geographic variation and environmental selection in Gasterosteus aculeatus L. in the Pacific Northwest</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Hagen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Gilbertson</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/2406981</idno>
+	</analytic>
+	<monogr>
+		<title level="j">America. Evolution</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="32" to="51" />
+			<date type="published" when="1972" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hagen, D., and Gilbertson, L. (1972). Geographic variation and environmental selection in Gasterosteus aculeatus L. in the Pacific Northwest, America. Evolution 26, 32-51. doi: 10.2307/2406981</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Commensal DNA limits regulatory T cell conversion and is a natural adjuvant of intestinal immune responses</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Hall</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Bouladoux</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">M</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">A</forename><surname>Wohlfert</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">B</forename><surname>Blank</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Q</forename><surname>Zhu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.immuni.2008.08.009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Immunity</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="637" to="649" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hall, J. A., Bouladoux, N., Sun, C. M., Wohlfert, E. A., Blank, R. B., Zhu, Q., et al. (2008). Commensal DNA limits regulatory T cell conversion and is a natural adjuvant of intestinal immune responses. Immunity 29, 637-649. doi: 10.1016/j.immuni.2008.08.009</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Pathogenesis of onchocercal keratitis (river blindness)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">R</forename><surname>Hall</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Pearlman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin. Microbiol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="445" to="453" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hall, L. R., and Pearlman, E. (1999). Pathogenesis of onchocercal keratitis (river blindness). Clin. Microbiol. Rev. 12, 445-453.</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Prevalence of six sexually transmitted disease agents among pregnant inner-city adolescents and pregnancy outcome</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Hardy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">E</forename><surname>Nell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Spence</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Hardy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Graham</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Rosenbaum</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0140-6736(84)92698-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">324</biblScope>
+			<biblScope unit="page" from="333" to="337" />
+			<date type="published" when="1984" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hardy, P., Nell, E. E., Spence, M., Hardy, J., Graham, D., and Rosenbaum, R. (1984). Prevalence of six sexually transmitted disease agents among pregnant inner-city adolescents and pregnancy outcome. Lancet. 324, 333-337. doi: 10.1016/S0140-6736(84)92698-9</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Exploitation of the intestinal microflora by the parasitic nematode Trichuris muris</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Hayes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Bancroft</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Goldrick</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Portsmouth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Grencis</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1187703</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">328</biblScope>
+			<biblScope unit="page" from="1391" to="1394" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hayes, K., Bancroft, A., Goldrick, M., Portsmouth, C., Roberts, I., and Grencis, R. (2010). Exploitation of the intestinal microflora by the parasitic nematode Trichuris muris. Science 328, 1391-1394. doi: 10.1126/science. 1187703</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Wolbachia and virus protection in insects</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">M</forename><surname>Hedges</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Brownlie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">L</forename><surname>O'neill</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Johnson</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">N</forename></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1162418</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">322</biblScope>
+			<biblScope unit="page" from="702" to="702" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hedges, L. M., Brownlie, J. C., O&apos;Neill, S. L., and Johnson, K. N. (2008). Wolbachia and virus protection in insects. Science 322, 702-702. doi: 10.1126/science.1162418</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Doxycycline in the treatment of human onchocerciasis: kinetics of Wolbachia endobacteria reduction and of inhibition of embryogenesis in female Onchocerca worms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Hoerauf</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Mand</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Volkmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Büttner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Marfo-Debrekyei</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Taylor</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S1286-4579</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Microbes Infect</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">03</biblScope>
+			<biblScope unit="page" from="26" to="27" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hoerauf, A., Mand, S., Volkmann, L., Büttner, M., Marfo-Debrekyei, Y., Taylor, M., et al. (2003). Doxycycline in the treatment of human onchocerciasis: kinetics of Wolbachia endobacteria reduction and of inhibition of embryogenesis in female Onchocerca worms. Microbes Infect. 5, 261-273. doi: 10.1016/S1286- 4579(03)00026-1</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Tetracycline therapy targets intracellular bacteria in the filarial nematode Litomosoides sigmodontis and results in filarial infertility</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Hoerauf</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Nissen-Pähle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Schmetz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Henkle-Dührsen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">L</forename><surname>Blaxter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">W</forename><surname>Büttner</surname></persName>
+		</author>
+		<idno type="DOI">10.1172/JCI4768</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clin. Invest</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page" from="11" to="18" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hoerauf, A., Nissen-Pähle, K., Schmetz, C., Henkle-Dührsen, K., Blaxter, M. L., Büttner, D. W., et al. (1999). Tetracycline therapy targets intracellular bacteria in the filarial nematode Litomosoides sigmodontis and results in filarial infertility. J. Clin. Invest. 103, 11-18. doi: 10.1172/JCI4768</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Successful establishment of Wolbachia in Aedes populations to suppress dengue transmission</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Montgomery</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Popovici</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Iturbe-Ormaetxe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Muzzi</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature10356</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">476</biblScope>
+			<biblScope unit="page" from="454" to="457" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hoffmann, A., Montgomery, B., Popovici, J., Iturbe-Ormaetxe, I., Johnson, P., Muzzi, F., et al. (2011). Successful establishment of Wolbachia in Aedes populations to suppress dengue transmission. Nature 476, 454-457. doi: 10.1038/nature10356</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">The diversity of inherited parasites of insects: the male-killing agent of the ladybird beetle Coleomegilla maculata is a member of the Flavobacteria</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">D D</forename><surname>Hurst</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C</forename><surname>Hammarton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Bandi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">M O</forename><surname>Majerus</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Bertrand</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E N</forename><surname>Majerus</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/S0016672397002838</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genet. Res</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="1" to="6" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hurst, G. D. D., Hammarton, T. C., Bandi, C., Majerus, T. M. O., Bertrand, D., and Majerus, M. E. N. (1997). The diversity of inherited parasites of insects: the male-killing agent of the ladybird beetle Coleomegilla maculata is a member of the Flavobacteria. Genet. Res. 70, 1-6. doi: 10.1017/S001667239700 2838</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">The effect of infection with male-killing Rickettsia on the demography of female Adalia bipunctata L. (two spot ladybird)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">D D</forename><surname>Hurst</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">L</forename><surname>Purvis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename><surname>Sloggett</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E N</forename><surname>Majerus</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/hdy.1994.138</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Heredity</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="309" to="316" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hurst, G. D. D., Purvis, E. L., Sloggett, J. J., and Majerus, M. E. N. (1994). The effect of infection with male-killing Rickettsia on the demography of female Adalia bipunctata L. (two spot ladybird). Heredity 73, 309-316. doi: 10.1038/hdy.1994.138</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">A picornavirus-like pathogen of Cotylogaster occidentalis (Trematoda: Aspidogastrea), an intestinal parasite of freshwater mollusks</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">S</forename><surname>Ip</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">S</forename><surname>Desser</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0022-2011(84)90138-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Invertebr. Pathol</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="197" to="206" />
+			<date type="published" when="1984" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ip, H. S., and Desser, S. S. (1984). A picornavirus-like pathogen of Cotylogaster occidentalis (Trematoda: Aspidogastrea), an intestinal parasite of freshwater mollusks. J. Invertebr. Pathol. 43, 197-206. doi: 10.1016/0022-2011(84) 90138-1</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Wolbachia and the biological control of mosquito-borne disease</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Iturbe-Ormaetxe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">L</forename><surname>Neill</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/embor.2011.84</idno>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO Rep</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="508" to="518" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Iturbe-Ormaetxe, I., Walker, T., and O&apos; Neill, S. L. (2011). Wolbachia and the biological control of mosquito-borne disease. EMBO Rep. 12, 508-518. doi: 10.1038/embor.2011.84</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Leishmania RNA virus controls the severity of Mucocutaneous leishmaniasis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Ives</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Ronet</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Prevel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Ruzzante</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Fuertes-Marraco</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Schutz</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1199326</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">331</biblScope>
+			<biblScope unit="page" from="775" to="778" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ives, A., Ronet, C., Prevel, F., Ruzzante, G., Fuertes-Marraco, S., Schutz, F., et al. (2011). Leishmania RNA virus controls the severity of Mucocutaneous leishmaniasis. Science 331, 775-778. doi: 10.1126/science.1199326</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Microflora associated with the digestivetransport surfaces of fish and their parasitic cestodes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Izvekova</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Lapteva</surname></persName>
+		</author>
+		<idno type="DOI">10.1023/B:RUSE.0000025968.97632.30</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Russ. J. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="176" to="180" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Izvekova, G., and Lapteva, N. (2004). Microflora associated with the digestive- transport surfaces of fish and their parasitic cestodes. Russ. J. Ecol. 35, 176-180. doi: 10.1023/B:RUSE.0000025968.97632.30</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">In vitro transition of Schistocephalus solidus (Cestoda) from coracidium to procercoid and from procercoid to plerocercoid</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Jakobsen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Scharsack</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Hammerschmidt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Deines</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Kalbe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Milinski</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.exppara.2011.09.009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Exp. Parasitol</title>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+			<biblScope unit="page" from="267" to="273" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jakobsen, P., Scharsack, J., Hammerschmidt, K., Deines, P., Kalbe, M., and Milinski, M. (2012). In vitro transition of Schistocephalus solidus (Cestoda) from coracidium to procercoid and from procercoid to plerocercoid. Exp. Parasitol. 130, 267-273. doi: 10.1016/j.exppara.2011.09.009</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Regulated virulence controls the ability of a pathogen to compete with the gut microbiota</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Kamada</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y.-G</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">P</forename><surname>Sham</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">A</forename><surname>Vallance</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Puente</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">C</forename><surname>Martens</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1222195</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">336</biblScope>
+			<biblScope unit="page" from="1325" to="1329" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kamada, N., Kim, Y.-G., Sham, H. P., Vallance, B. A., Puente, J. L., Martens, E. C., et al. (2012). Regulated virulence controls the ability of a pathogen to compete with the gut microbiota. Science 336, 1325-1329. doi: 10.1126/science. 1222195</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Successful transmission of a retrovirus depends on the commensal microbiota</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Kane</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">K</forename><surname>Case</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Kopaskie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Kozlova</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Macdearmid</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">V</forename><surname>Chervonsky</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1210718</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">334</biblScope>
+			<biblScope unit="page" from="245" to="249" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kane, M., Case, L. K., Kopaskie, K., Kozlova, A., MacDearmid, C., Chervonsky, A. V., et al. (2011). Successful transmission of a retrovirus depends on the commensal microbiota. Science 334, 245-249. doi: 10.1126/science. 1210718</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">The association between sexually transmitted pathogens and cervical intra-epithelial neoplasia in a developing community</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Kharsany</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Hoosen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Moodley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Bagaratee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Gouws</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/sti.69.5.357</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genitourin. Med</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="357" to="360" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kharsany, A., Hoosen, A., Moodley, J., Bagaratee, J., and Gouws, E. (1993). The association between sexually transmitted pathogens and cervical intra-epithelial neoplasia in a developing community. Genitourin. Med. 69, 357-360. doi: 10.1136/sti.69.5.357</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Rapid evolution of microbe-mediated protection against pathogens in a worm host</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">C</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Brockhurst</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Vasieva</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Paterson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Betts</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Ford</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ismej.2015.259</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ISME J</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1915" to="1924" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">King, K. C., Brockhurst, M. A., Vasieva, O., Paterson, S., Betts, A., Ford, S. A., et al. (2016). Rapid evolution of microbe-mediated protection against pathogens in a worm host. ISME J. 10, 1915-1924. doi: 10.1038/ismej.2015.259</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Mortality and other parameters of concomitant infections in albino mice: the Schistosoma-Toxoplasma model</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Kloetzel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Chieffi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Faleiros</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trop. Geogr. Med</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="407" to="410" />
+			<date type="published" when="1977" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kloetzel, K., Chieffi, P., and Faleiros, J. (1977). Mortality and other parameters of concomitant infections in albino mice: the Schistosoma-Toxoplasma model. Trop. Geogr. Med. 29, 407-410.</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Concurrent infection of white mice with T. cruzi and S. mansoni</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Kloetzel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename><surname>Faleiros</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Mendes</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0035-9203(71)90167-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trans. R. Soc. Trop. Med. Hyg</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="530" to="531" />
+			<date type="published" when="1971" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kloetzel, K., Faleiros, J. J., and Mendes, S. R. (1971). Concurrent infection of white mice with T. cruzi and S. mansoni. Trans. R. Soc. Trop. Med. Hyg. 65, 530-531. doi: 10.1016/0035-9203(71)90167-2</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Transovarially-transmitted intracellular microorganisms in adult and larval stages of Brugia malayi</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">J</forename><surname>Kozek</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/3279832</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Parasitol</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="992" to="1000" />
+			<date type="published" when="1977" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kozek, W. J. (1977). Transovarially-transmitted intracellular microorganisms in adult and larval stages of Brugia malayi. J. Parasitol. 63, 992-1000. doi: 10.2307/3279832</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Vibrio shiloi sp. nov., the causative agent of bleaching of the coral Oculina patagonica</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Kushmaro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Banin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Loya</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Stackebrandt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Rosenberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1099/00207713-51-4-1383</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Syst. Evol. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="1383" to="1388" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kushmaro, A., Banin, E., Loya, Y., Stackebrandt, E., and Rosenberg, E. (2001). Vibrio shiloi sp. nov., the causative agent of bleaching of the coral Oculina patagonica. Int. J. Syst. Evol. Microbiol. 51, 1383-1388. doi: 10.1099/00207713- 51-4-1383</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Effect of temperature on bleaching of the coral Oculina patagonica by Vibrio AK-1</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Kushmaro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Rosenberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Fine</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Ben Haim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Loya</surname></persName>
+		</author>
+		<idno type="DOI">10.3354/meps171131</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Ecol. Prog. Ser</title>
+		<imprint>
+			<biblScope unit="volume">171</biblScope>
+			<biblScope unit="page" from="131" to="137" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kushmaro, A., Rosenberg, E., Fine, M., Ben Haim, Y., and Loya, Y. (1998). Effect of temperature on bleaching of the coral Oculina patagonica by Vibrio AK-1. Mar. Ecol. Prog. Ser. 171, 131-137. doi: 10.3354/meps171131</note>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Bleaching of the coral Oculina patagonica by Vibrio AK-1</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Kushmaro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Rosenberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Fine</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Loya</surname></persName>
+		</author>
+		<idno type="DOI">10.3354/meps147159</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Ecol. Prog. Ser</title>
+		<imprint>
+			<biblScope unit="volume">147</biblScope>
+			<biblScope unit="page" from="159" to="165" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kushmaro, A., Rosenberg, E., Fine, M., and Loya, Y. (1997). Bleaching of the coral Oculina patagonica by Vibrio AK-1. Mar. Ecol. Prog. Ser. 147, 159-165. doi: 10.3354/meps147159</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Intestinal microbiota promote enteric virus replication and systemic pathogenesis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Kuss</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">T</forename><surname>Best</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Etheredge</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename><surname>Pruijssers</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Frierson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">V</forename><surname>Hooper</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1211057</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">334</biblScope>
+			<biblScope unit="page" from="249" to="252" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kuss, S. K., Best, G. T., Etheredge, C. A., Pruijssers, A. J., Frierson, J. M., Hooper, L. V., et al. (2011). Intestinal microbiota promote enteric virus replication and systemic pathogenesis. Science 334, 249-252. doi: 10.1126/science.1211057</note>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">On genetic specificity in symbiont-mediated host-parasite coevolution</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Kwiatkowski</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Engelstädter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Vorburger</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pcbi.1002633</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Comput. Biol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">1002633</biblScope>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kwiatkowski, M., Engelstädter, J., and Vorburger, C. (2012). On genetic specificity in symbiont-mediated host-parasite coevolution. PLoS Comput. Biol. 8:e1002633. doi: 10.1371/journal.pcbi.1002633</note>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Helminth colonization is associated with increased diversity of the gut microbiota</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">C</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>San Tang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">A</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">H</forename><surname>Choy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><forename type="middle">D</forename><surname>Kurtz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">M</forename><surname>Cox</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pntd.0002880</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Negl. Trop. Dis</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">2880</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lee, S. C., San Tang, M., Lim, Y. A., Choy, S. H., Kurtz, Z. D., Cox, L. M., et al. (2014). Helminth colonization is associated with increased diversity of the gut microbiota. PLoS Negl. Trop. Dis. 8:e2880. doi: 10.1371/journal.pntd. 0002880</note>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">The effect of helminth infection on the microbial composition and structure of the caprine abomasal microbiome</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">L</forename><surname>Baldwin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">F</forename><surname>Urban</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/srep20606</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">20606</biblScope>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li, R. W., Li, W., Sun, J., Yu, P., Baldwin, R. L., and Urban, J. F. (2016). The effect of helminth infection on the microbial composition and structure of the caprine abomasal microbiome. Sci. Rep. 6:20606. doi: 10.1038/srep20606</note>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">C</forename><surname>Gasbarre</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li, R. W., Wu, S., Li, W., Huang, Y., and Gasbarre, L. C. (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Metagenome plasticity of the bovine abomasal microbiota in immune animals in response to Ostertagia ostertagi infection</title>
+		<idno type="DOI">10.1371/journal.pone.0024417</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">24417</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Metagenome plasticity of the bovine abomasal microbiota in immune animals in response to Ostertagia ostertagi infection. PLoS ONE 6:e24417. doi: 10.1371/journal.pone.0024417</note>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Alterations in the porcine colon microbiota induced by the gastrointestinal nematode Trichuris suis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Navarro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">D</forename><surname>Couch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Hill</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/IAI.00141-12</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Infect. Immun</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="2150" to="2157" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li, R. W., Wu, S., Li, W., Navarro, K., Couch, R. D., Hill, D., et al. (2012). Alterations in the porcine colon microbiota induced by the gastrointestinal nematode Trichuris suis. Infect. Immun. 80, 2150-2157. doi: 10.1128/IAI. 00141-12</note>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Symbiogenesis and Symbionticism</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Margulis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Symbiosis as a Source of Evolutionary Innovation: Speciation and Morphogenesis</title>
+		<editor>L. Margulis and R. Fester</editor>
+		<meeting><address><addrLine>Cambridge, MA</addrLine></address></meeting>
+		<imprint>
+			<publisher>MIT Press</publisher>
+			<date type="published" when="1991" />
+			<biblScope unit="page" from="1" to="13" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Margulis, L. (1991). &quot;Symbiogenesis and Symbionticism, &quot; in Symbiosis as a Source of Evolutionary Innovation: Speciation and Morphogenesis, eds L. Margulis and R. Fester (Cambridge, MA: MIT Press), 1-13.</note>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Addicted? Reduced host resistance in populations with defensive symbionts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Martinez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Cogni</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">J</forename><surname>Illingworth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">M</forename><surname>Jiggins</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rspb.2016.0778</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. R. Soc. B</title>
+		<imprint>
+			<biblScope unit="volume">283</biblScope>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Martinez, J., Cogni, R., Cao, C., Smith, S., Illingworth, C. J., and Jiggins, F. M. (2016a). Addicted? Reduced host resistance in populations with defensive symbionts. Proc. R. Soc. B 283, 20160778. doi: 10.1098/rspb.2016.0778</note>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Specificity of multi-modal aphid defenses against two rival parasitoids</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename><surname>Martinez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">L</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">P</forename><surname>Harmon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">M</forename><surname>Oliver</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0154670</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Martinez, A. J., Kim, K. L., Harmon, J. P., and Oliver, K. M. (2016b). Specificity of multi-modal aphid defenses against two rival parasitoids. PLoS ONE 11:e0154670. doi: 10.1371/journal.pone.0154670</note>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Characterization of antimicrobial substances produced by Enterococcus faecalis MRR 10-3, isolated from the uropygial gland of the hoopoe (Upupa epops)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Martín-Platero</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Valdivia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Ruíz-Rodríguez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename><surname>Soler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Martín-Vivaldi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Maqueda</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/AEM.02940-05</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="4245" to="4249" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Martín-Platero, A. M., Valdivia, E., Ruíz-Rodríguez, M., Soler, J. J., Martín- Vivaldi, M., Maqueda, M., et al. (2006). Characterization of antimicrobial substances produced by Enterococcus faecalis MRR 10-3, isolated from the uropygial gland of the hoopoe (Upupa epops). Appl. Environ. Microbiol. 72, 4245-4249. doi: 10.1128/AEM.02940-05</note>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Antimicrobial chemicals in hoopoe preen secretions are produced by symbiotic bacteria</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Martín-Vivaldi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Peña</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Peralta-Sánchez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Sánchez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Ananou</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Ruiz-Rodríguez</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rspb.2009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. R. Soc. B</title>
+		<imprint>
+			<biblScope unit="volume">277</biblScope>
+			<biblScope unit="page" from="123" to="130" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Martín-Vivaldi, M., Peña, A., Peralta-Sánchez, J. M., Sánchez, L., Ananou, S., Ruiz-Rodríguez, M., et al. (2010). Antimicrobial chemicals in hoopoe preen secretions are produced by symbiotic bacteria. Proc. R. Soc. B 277, 123-130. doi: 10.1098/rspb.2009</note>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Special structures of hoopoe eggshells enhance the adhesion of symbiont-carrying uropygial secretion that increase hatching success</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Martín-Vivaldi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename><surname>Soler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Peralta-Sánchez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Arco</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Martín-Platero</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Martínez-Bueno</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1365-2656.12243</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Anim. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="1289" to="1301" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Martín-Vivaldi, M., Soler, J. J., Peralta-Sánchez, J. M., Arco, L., Martín-Platero, A. M., Martínez-Bueno, M., et al. (2014). Special structures of hoopoe eggshells enhance the adhesion of symbiont-carrying uropygial secretion that increase hatching success. J. Anim. Ecol. 83, 1289-1301. doi: 10.1111/1365-2656. 12243</note>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">The cost of a bodyguard</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Maure</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Brodeur</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Ponlet</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Doyon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Firlej</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">É</forename><surname>Elguero</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rsbl.2011.0415</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Lett</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="843" to="846" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maure, F., Brodeur, J., Ponlet, N., Doyon, J., Firlej, A., Elguero, É, et al. (2011). The cost of a bodyguard. Biol. Lett. 7, 843-846. doi: 10.1098/rsbl.2011.0415</note>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Alteration of the rat cecal microbiome during colonization with the helminth Hymenolepis diminuta</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">A</forename><surname>Mckenney</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Williamson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">D</forename><surname>Yoder</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">F</forename><surname>Rawls</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">D</forename><surname>Bilbo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Parker</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/19490976.2015.1047128</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Gut Microbes</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="182" to="193" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McKenney, E. A., Williamson, L., Yoder, A. D., Rawls, J. F., Bilbo, S. D., and Parker, W. (2015). Alteration of the rat cecal microbiome during colonization with the helminth Hymenolepis diminuta. Gut Microbes 6, 182-193. doi: 10.1080/19490976.2015.1047128</note>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Risk factors for prematurity and premature rupture of membranes: a prospective study of the vaginal flora in pregnancy</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Minkoff</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">N</forename><surname>Grunebaum</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">H</forename><surname>Schwarz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Feldman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Cummings</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Crombleholme</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0002-9378(84)90392-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Obstet. Gynecol</title>
+		<imprint>
+			<biblScope unit="volume">150</biblScope>
+			<biblScope unit="page" from="965" to="972" />
+			<date type="published" when="1984" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Minkoff, H., Grunebaum, A. N., Schwarz, R. H., Feldman, J., Cummings, M., Crombleholme, W., et al. (1984). Risk factors for prematurity and premature rupture of membranes: a prospective study of the vaginal flora in pregnancy. Am. J. Obstet. Gynecol. 150, 965-972. doi: 10.1016/0002-9378(84)90392-2</note>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">The hologenome concept: helpful or hollow?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">A</forename><surname>Moran</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">B</forename><surname>Sloan</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pbio.1002311</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Biol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">1002311</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Moran, N. A., and Sloan, D. B. (2015). The hologenome concept: helpful or hollow? PLoS Biol. 13:e1002311. doi: 10.1371/journal.pbio.1002311</note>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">A Wolbachia symbiont in Aedes aegypti limits infection with dengue, Chikungunya, and Plasmodium</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">A</forename><surname>Moreira</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Iturbe-Ormaetxe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Jeffery</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">T</forename><surname>Pyke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">M</forename><surname>Hedges</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cell.2009.11.042</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="page" from="1268" to="1278" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Moreira, L. A., Iturbe-Ormaetxe, I., Jeffery, J. A., Lu, G., Pyke, A. T., Hedges, L. M., et al. (2009). A Wolbachia symbiont in Aedes aegypti limits infection with dengue, Chikungunya, and Plasmodium. Cell 139, 1268-1278. doi: 10.1016/j.cell.2009.11.042</note>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<monogr>
+		<title level="m" type="main">Endoscopy, Physiology and Bacterial Flora of Sheep Infected with Abomasal Nematodes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Nicholls</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1987" />
+			<pubPlace>Leeds</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>University of Leeds</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Ph.D. thesis</note>
+	<note type="raw_reference">Nicholls, C. (1987). Endoscopy, Physiology and Bacterial Flora of Sheep Infected with Abomasal Nematodes. Ph.D. thesis, University of Leeds, Leeds.</note>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">Population dynamics of defensive symbionts in aphids</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">M</forename><surname>Oliver</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Campos</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">A</forename><surname>Moran</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">S</forename><surname>Hunter</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rspb.2007.1192</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. R. Soc. B</title>
+		<imprint>
+			<biblScope unit="volume">275</biblScope>
+			<biblScope unit="page" from="293" to="299" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Oliver, K. M., Campos, J., Moran, N. A., and Hunter, M. S. (2008). Population dynamics of defensive symbionts in aphids. Proc. R. Soc. B 275, 293-299. doi: 10.1098/rspb.2007.1192</note>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Variation in resistance to parasitism in aphids is due to symbionts not host genotype</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">M</forename><surname>Oliver</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">A</forename><surname>Moran</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">S</forename><surname>Hunter</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0506131102</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Oliver, K. M., Moran, N. A., and Hunter, M. S. (2005). Variation in resistance to parasitism in aphids is due to symbionts not host genotype. Proc. Natl. Acad. Sci. 102, 12795-12800. doi: 10.1073/pnas.0506131102</note>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">Parasitic wasp responses to symbiont-based defense in aphids</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">M</forename><surname>Oliver</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Noge</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">M</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Campos</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">X</forename><surname>Becerra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">S</forename><surname>Hunter</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1741-7007-10-11</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">11</biblScope>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Oliver, K. M., Noge, K., Huang, E. M., Campos, J. M., Becerra, J. X., and Hunter, M. S. (2012). Parasitic wasp responses to symbiont-based defense in aphids. BMC Biol. 10:11. doi: 10.1186/1741-7007-10-11</note>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">Facultative bacterial symbionts in aphids confer resistance to parasitic wasps</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">M</forename><surname>Oliver</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">A</forename><surname>Moran</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">S</forename><surname>Hunter</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0335320100</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="1803" to="1807" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Oliver, K. M., Russell, J. A., Moran, N. A., and Hunter, M. S. (2003). Facultative bacterial symbionts in aphids confer resistance to parasitic wasps. Proc. Natl. Acad. Sci. 100, 1803-1807. doi: 10.1073/pnas.0335320100</note>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main">Defensive symbiosis in the real world-advancing ecological studies of heritable, protective bacteria in aphids and beyond</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">M</forename><surname>Oliver</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">H</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Russell</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1365-2435.12133</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Funct. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="341" to="355" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Oliver, K. M., Smith, A. H., and Russell, J. A. (2014). Defensive symbiosis in the real world-advancing ecological studies of heritable, protective bacteria in aphids and beyond. Funct. Ecol. 28, 341-355. doi: 10.1111/1365-2435.12133</note>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<monogr>
+		<title level="m" type="main">Liver flukes and the microbiota in cancer</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">C</forename><surname>Osborne</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Wegenerparfrey</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ebiom.2016.05.038</idno>
+		<imprint>
+			<date type="published" when="2016" />
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="12" to="13" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Osborne, L. C., and WegenerParfrey, L. (2016). Liver flukes and the microbiota in cancer. EBioMedicine 8, 12-13. doi: 10.1016/j.ebiom.2016.05.038</note>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Variation in antiviral protection mediated by different Wolbachia strains in Drosophila simulans</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">E</forename><surname>Osborne</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">S</forename><surname>Leong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">L</forename><surname>O'neill</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Johnson</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">N</forename></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.ppat.1000656</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Pathog</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">1000656</biblScope>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Osborne, S. E., Leong, Y. S., O&apos;Neill, S. L., and Johnson, K. N. (2009). Variation in antiviral protection mediated by different Wolbachia strains in Drosophila simulans. PLoS Pathog. 5:e1000656. doi: 10.1371/journal.ppat. 1000656</note>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title level="a" type="main">Infection with the carcinogenic liver fluke Opisthorchis viverrini modifies intestinal and biliary microbiome</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Plieskatt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Deenonpoe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">P</forename><surname>Mulvenna</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Krause</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Sripa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Bethony</surname></persName>
+		</author>
+		<idno type="DOI">10.1096/fj.13-232751</idno>
+	</analytic>
+	<monogr>
+		<title level="j">FASEB J</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="4572" to="4584" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Plieskatt, J. L., Deenonpoe, R., Mulvenna, J. P., Krause, L., Sripa, B., Bethony, J. M., et al. (2013). Infection with the carcinogenic liver fluke Opisthorchis viverrini modifies intestinal and biliary microbiome. FASEB J. 27, 4572-4584. doi: 10.1096/fj.13-232751</note>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<analytic>
+		<title level="a" type="main">An ecological cost associated with protective symbionts of aphids</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Polin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Simon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Outreman</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/ece3.991</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ecol. evol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="836" to="840" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Polin, S., Simon, J. C., and Outreman, Y. (2014). An ecological cost associated with protective symbionts of aphids. Ecol. evol. 4, 836-840. doi: 10.1002/ece3.991</note>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<analytic>
+		<title level="a" type="main">Gut microbiota, metabolites and host immunity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">G</forename><surname>Rooks</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">S</forename><surname>Garrett</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nri.2016.42</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="341" to="352" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rooks, M. G., and Garrett, W. S. (2016). Gut microbiota, metabolites and host immunity. Nat. Rev. Immunol. 16, 341-352. doi: 10.1038/nri.2016.42</note>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<analytic>
+		<title level="a" type="main">The Hologenome Concept</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Rosenberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Zilber-Rosenberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Beneficial Microorganisms in Multicellular Life Forms</title>
+		<editor>E. Rosenberg and U. Gophna</editor>
+		<meeting><address><addrLine>Berlin</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2011" />
+			<biblScope unit="page" from="323" to="340" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rosenberg, E., and Zilber-Rosenberg, I. (2011). &quot;The Hologenome Concept, &quot; in Beneficial Microorganisms in Multicellular Life Forms, eds E. Rosenberg and U. Gophna (Berlin: Springer), 323-340.</note>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<analytic>
+		<title level="a" type="main">Bacterial endosymbionts protect aphids in the field and alter parasitoid community composition</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Rothacher</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Ferrer-Suay</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Vorburger</surname></persName>
+		</author>
+		<idno type="DOI">10.1890/15-2022.1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="1712" to="1723" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rothacher, L., Ferrer-Suay, M., and Vorburger, C. (2016). Bacterial endosymbionts protect aphids in the field and alter parasitoid community composition. Ecology 97, 1712-1723. doi: 10.1890/15-2022.1</note>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<analytic>
+		<title level="a" type="main">Bacteriocins with a broader antimicrobial spectrum prevail in enterococcal symbionts isolated from the hoopoe&apos;s uropygial gland</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Ruiz-Rodríguez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Martínez-Bueno</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Martín-Vivaldi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Valdivia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename><surname>Soler</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1574-6941.12138</idno>
+	</analytic>
+	<monogr>
+		<title level="j">FEMS Microbiol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="495" to="502" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ruiz-Rodríguez, M., Martínez-Bueno, M., Martín-Vivaldi, M., Valdivia, E., and Soler, J. J. (2013). Bacteriocins with a broader antimicrobial spectrum prevail in enterococcal symbionts isolated from the hoopoe&apos;s uropygial gland. FEMS Microbiol. Ecol. 85, 495-502. doi: 10.1111/1574-6941.12138</note>
+</biblStruct>
+
+<biblStruct xml:id="b95">
+	<analytic>
+		<title level="a" type="main">Symbiotic bacteria living in the hoopoe&apos;s uropygial gland prevent feather degradation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Ruiz-Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Valdivia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename><surname>Soler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Martin-Vivaldi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Martin-Platero</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Martinez-Bueno</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/jeb.031336</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Biol</title>
+		<imprint>
+			<biblScope unit="volume">212</biblScope>
+			<biblScope unit="page" from="3621" to="3626" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ruiz-Rodriguez, M., Valdivia, E., Soler, J. J., Martin-Vivaldi, M., Martin-Platero, A., and Martinez-Bueno, M. (2009). Symbiotic bacteria living in the hoopoe&apos;s uropygial gland prevent feather degradation. J. Exp. Biol. 212, 3621-3626. doi: 10.1242/jeb.031336</note>
+</biblStruct>
+
+<biblStruct xml:id="b96">
+	<analytic>
+		<title level="a" type="main">The role of endosymbiotic Wolbachia bacteria in the pathogenesis of river blindness</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">V</forename><surname>Saint André</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">M</forename><surname>Blackwell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">R</forename><surname>Hall</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Hoerauf</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">W</forename><surname>Brattig</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Volkmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1068732</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">295</biblScope>
+			<biblScope unit="page" from="1892" to="1895" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Saint André, A. V., Blackwell, N. M., Hall, L. R., Hoerauf, A., Brattig, N. W., Volkmann, L., et al. (2002). The role of endosymbiotic Wolbachia bacteria in the pathogenesis of river blindness. Science 295, 1892-1895. doi: 10.1126/science. 1068732</note>
+</biblStruct>
+
+<biblStruct xml:id="b97">
+	<analytic>
+		<title level="a" type="main">Aphid protected from pathogen by endosymbiont</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">L</forename><surname>Scarborough</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Ferrari</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Godfray</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1120180</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">310</biblScope>
+			<biblScope unit="page" from="1781" to="1781" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Scarborough, C. L., Ferrari, J., and Godfray, H. (2005). Aphid protected from pathogen by endosymbiont. Science 310, 1781-1781. doi: 10.1126/science. 1120180</note>
+</biblStruct>
+
+<biblStruct xml:id="b98">
+	<analytic>
+		<title level="a" type="main">Unveiling the mechanism by which microsporidian parasites prevent locust swarm behavior</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Miao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Feng</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1314009111</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Nat. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="1343" to="1348" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shi, W., Guo, Y., Xu, C., Tan, S., Miao, J., Feng, Y., et al. (2014). Unveiling the mechanism by which microsporidian parasites prevent locust swarm behavior. Proc. Nat. Acad. Sci. U.S.A 111, 1343-1348. doi: 10.1073/pnas.13140 09111</note>
+</biblStruct>
+
+<biblStruct xml:id="b99">
+	<monogr>
+		<title level="m" type="main">In Vitro Cultivation Of Parasitic Helminths</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">D</forename><surname>Smyth</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1990" />
+			<publisher>CRC press</publisher>
+			<pubPlace>Boca Raton, FL</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Smyth, J. D. (1990). In Vitro Cultivation Of Parasitic Helminths. Boca Raton, FL: CRC press.</note>
+</biblStruct>
+
+<biblStruct xml:id="b100">
+	<analytic>
+		<title level="a" type="main">Wolbachia bacteria of filarial nematodes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Hoerauf</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0169-4758(99)01533-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Parasitol. Today</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="437" to="442" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Taylor, M., and Hoerauf, A. (1999). Wolbachia bacteria of filarial nematodes. Parasitol. Today 15, 437-442. doi: 10.1016/S0169-4758(99)01533-1</note>
+</biblStruct>
+
+<biblStruct xml:id="b101">
+	<analytic>
+		<title level="a" type="main">The bacterial symbiont Wolbachia induces resistance to RNA viral infections in Drosophila melanogaster</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Teixeira</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Á</forename><surname>Ferreira</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Ashburner</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pbio.1000002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Biol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">1000002</biblScope>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Teixeira, L., Ferreira, Á., and Ashburner, M. (2008). The bacterial symbiont Wolbachia induces resistance to RNA viral infections in Drosophila melanogaster. PLoS Biol. 6:e1000002. doi: 10.1371/journal.pbio.1000002</note>
+</biblStruct>
+
+<biblStruct xml:id="b102">
+	<monogr>
+		<title level="m" type="main">Getting the hologenome concept right: an eco-evolutoinary framework for hosts and their microbiome. mSystems 1</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Theis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Dheilly</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Klassen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Brucker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C G</forename><surname>Bosch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">F</forename><surname>Cryan</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/mSystems.00028-16</idno>
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Theis, K., Dheilly, N., Klassen, J., Brucker, R. M., Bosch, T. C. G., Cryan, J. F., et al. (2016). Getting the hologenome concept right: an eco-evolutoinary framework for hosts and their microbiome. mSystems 1. doi: 10.1128/mSystems. 00028-16</note>
+</biblStruct>
+
+<biblStruct xml:id="b103">
+	<analytic>
+		<title level="a" type="main">Effect of temperature on adhesion of Vibrio strain AK-1 to Oculina patagonica and on coral bleaching</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Toren</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Landau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Kushmaro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Loya</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Rosenberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="1379" to="1384" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Toren, A., Landau, L., Kushmaro, A., Loya, Y., and Rosenberg, E. (1998). Effect of temperature on adhesion of Vibrio strain AK-1 to Oculina patagonica and on coral bleaching. Appl. Environ. Microbiol. 64, 1379-1384.</note>
+</biblStruct>
+
+<biblStruct xml:id="b104">
+	<analytic>
+		<title level="a" type="main">Impact of Wolbachia on infection with chikungunya and yellow fever viruses in the mosquito vector Aedes aegypti</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">F</forename><surname>Van Den Hurk</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Hall-Mendelin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">T</forename><surname>Pyke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">D</forename><surname>Frentiu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Mcelroy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Day</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pntd.0001892</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Negl. Trop. Dis</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">1892</biblScope>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Van den Hurk, A. F., Hall-Mendelin, S., Pyke, A. T., Frentiu, F. D., McElroy, K., Day, A., et al. (2012). Impact of Wolbachia on infection with chikungunya and yellow fever viruses in the mosquito vector Aedes aegypti. PLoS Negl. Trop. Dis. 6:e1892. doi: 10.1371/journal.pntd.0001892</note>
+</biblStruct>
+
+<biblStruct xml:id="b105">
+	<analytic>
+		<title level="a" type="main">Trichomonas vaginalis infection and human immunodeficiency virus acquisition in African women</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Van Der Pol</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Kwok</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Pierre-Louis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Rinaldi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">A</forename><surname>Salata</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P.-L</forename><surname>Chen</surname></persName>
+		</author>
+		<idno>doi: 10.1086/ 526496</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Infect. Dis</title>
+		<imprint>
+			<biblScope unit="volume">197</biblScope>
+			<biblScope unit="page" from="548" to="554" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Van Der Pol, B., Kwok, C., Pierre-Louis, B., Rinaldi, A., Salata, R. A., Chen, P.- L., et al. (2008). Trichomonas vaginalis infection and human immunodeficiency virus acquisition in African women. J. Infect. Dis. 197, 548-554. doi: 10.1086/ 526496</note>
+</biblStruct>
+
+<biblStruct xml:id="b106">
+	<analytic>
+		<title level="a" type="main">Comparing constitutive and induced costs of symbiont-conferred resistance to parasitoids in aphids</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Vorburger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Ganesanandamoorthy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Kwiatkowski</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/ece3.491</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ecol. evol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="706" to="713" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vorburger, C., Ganesanandamoorthy, P., and Kwiatkowski, M. (2013). Comparing constitutive and induced costs of symbiont-conferred resistance to parasitoids in aphids. Ecol. evol. 3, 706-713. doi: 10.1002/ece3.491</note>
+</biblStruct>
+
+<biblStruct xml:id="b107">
+	<analytic>
+		<title level="a" type="main">Viruses of the protozoa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wang</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev.mi.45.100191.001343</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="251" to="263" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, A., and Wang, C. (1991). Viruses of the protozoa. Annu. Rev. Microbiol. 45, 251-263. doi: 10.1146/annurev.mi.45.100191.001343</note>
+</biblStruct>
+
+<biblStruct xml:id="b108">
+	<analytic>
+		<title level="a" type="main">Are we underestimating the diversity and incidence of insect bacterial symbionts? A case study in ladybird beetles</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">A</forename><surname>Weinert</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">C</forename><surname>Tinsley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Temperley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">M</forename><surname>Jiggins</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rsbl.2007.0373</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Lett</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="678" to="681" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Weinert, L. A., Tinsley, M. C., Temperley, M., and Jiggins, F. M. (2007). Are we underestimating the diversity and incidence of insect bacterial symbionts? A case study in ladybird beetles. Biol. Lett. 3, 678-681. doi: 10.1098/rsbl.2007.0373</note>
+</biblStruct>
+
+<biblStruct xml:id="b109">
+	<monogr>
+		<title level="m" type="main">Defensive Mutualism in Microbial Symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">F</forename><surname>White</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">S</forename><surname>Torres</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+			<publisher>CRC Press</publisher>
+			<pubPlace>Boca Raton, FL</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">White, J. F. Jr., and Torres, M. S. (2009). Defensive Mutualism in Microbial Symbiosis. Boca Raton, FL: CRC Press.</note>
+</biblStruct>
+
+<biblStruct xml:id="b110">
+	<analytic>
+		<title level="a" type="main">Worm burden-dependent disruption of the porcine colon microbiota by Trichuris suis infection</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Beshah</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">D</forename><surname>Dawson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">F</forename><surname>Urban</surname><genName>Jr</genName></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0035470</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">35470</biblScope>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wu, S., Li, R. W., Li, W., Beshah, E., Dawson, H. D., and Urban, J. F. Jr. (2012). Worm burden-dependent disruption of the porcine colon microbiota by Trichuris suis infection. PLoS ONE 7:e35470. doi: 10.1371/journal.pone. 0035470</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

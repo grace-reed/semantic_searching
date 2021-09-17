@@ -1,0 +1,2096 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/grace/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Inhibiting the stringent response blocks Mycobacterium tuberculosis entry into quiescence and reduces persistence</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2019-03-20">20 March 2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Noton</forename><forename type="middle">K</forename><surname>Dutta</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Medicine</orgName>
+								<orgName type="department" key="dep2">Medical Department</orgName>
+								<orgName type="institution">Johns Hopkins University School of Medicine</orgName>
+								<address>
+									<settlement>Baltimore, GlaxoSmithKline</settlement>
+									<region>MD</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Diseases of the Developing World</orgName>
+								<orgName type="institution">Tres Cantos</orgName>
+								<address>
+									<settlement>Madrid, GlaxoSmithKline</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">Tres Cantos</orgName>
+								<address>
+									<settlement>Madrid</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="laboratory">Biostatistics and Bio-informatics Unit</orgName>
+								<orgName type="institution" key="instit1">Molecular Dis-covery Research</orgName>
+								<orgName type="institution" key="instit2">GlaxoSmithKline</orgName>
+								<orgName type="institution" key="instit3">Tres Cantos</orgName>
+								<address>
+									<settlement>Madrid</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="institution">IMDEA Food Institute</orgName>
+								<address>
+									<settlement>Madrid</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lee</forename><forename type="middle">G</forename><surname>Klinkenberg</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Medicine</orgName>
+								<orgName type="department" key="dep2">Medical Department</orgName>
+								<orgName type="institution">Johns Hopkins University School of Medicine</orgName>
+								<address>
+									<settlement>Baltimore, GlaxoSmithKline</settlement>
+									<region>MD</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Diseases of the Developing World</orgName>
+								<orgName type="institution">Tres Cantos</orgName>
+								<address>
+									<settlement>Madrid, GlaxoSmithKline</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">Tres Cantos</orgName>
+								<address>
+									<settlement>Madrid</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="laboratory">Biostatistics and Bio-informatics Unit</orgName>
+								<orgName type="institution" key="instit1">Molecular Dis-covery Research</orgName>
+								<orgName type="institution" key="instit2">GlaxoSmithKline</orgName>
+								<orgName type="institution" key="instit3">Tres Cantos</orgName>
+								<address>
+									<settlement>Madrid</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="institution">IMDEA Food Institute</orgName>
+								<address>
+									<settlement>Madrid</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Maria-Jesus</forename><surname>Vazquez</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Delfina</forename><surname>Segura-Carro</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gonzalo</forename><surname>Colmenarejo</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Fernando</forename><surname>Ramon</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Beatriz</forename><surname>Rodriguez-Miquel</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lydia</forename><surname>Mata-Cantero</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Esther</forename><surname>Porras-De</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yu-Min</forename><surname>Francisco</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Harvey</forename><surname>Chuang</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jae</forename><forename type="middle">Jin</forename><surname>Rubin</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hyungjin</forename><surname>Lee</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joel</forename><forename type="middle">S</forename><surname>Eoh</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Esther</forename><surname>Bader</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alfonso</forename><surname>Perez-Herran</surname></persName>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Petros</forename><forename type="middle">C</forename><surname>Mendoza-Losana</surname></persName>
+							<email>petros@jhmi.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Karakousis</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Medicine</orgName>
+								<orgName type="department" key="dep2">Medical Department</orgName>
+								<orgName type="institution">Johns Hopkins University School of Medicine</orgName>
+								<address>
+									<settlement>Baltimore, GlaxoSmithKline</settlement>
+									<region>MD</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Diseases of the Developing World</orgName>
+								<orgName type="institution">Tres Cantos</orgName>
+								<address>
+									<settlement>Madrid, GlaxoSmithKline</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">Tres Cantos</orgName>
+								<address>
+									<settlement>Madrid</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="laboratory">Biostatistics and Bio-informatics Unit</orgName>
+								<orgName type="institution" key="instit1">Molecular Dis-covery Research</orgName>
+								<orgName type="institution" key="instit2">GlaxoSmithKline</orgName>
+								<orgName type="institution" key="instit3">Tres Cantos</orgName>
+								<address>
+									<settlement>Madrid</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="institution">IMDEA Food Institute</orgName>
+								<address>
+									<settlement>Madrid</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>De-</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="department" key="dep1">Department of Medicine</orgName>
+								<orgName type="department" key="dep2">Perelman School of Medicine</orgName>
+								<orgName type="institution">University of Pennsylvania</orgName>
+								<address>
+									<settlement>Philadelphia</settlement>
+									<region>PA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<orgName type="department" key="dep1">partment of Molecular Microbiology and Immunology</orgName>
+								<orgName type="department" key="dep2">Keck School of Medicine of USC</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff7">
+								<orgName type="department" key="dep1">Department of Biomedical Engineering</orgName>
+								<orgName type="department" key="dep2">Department of International Health</orgName>
+								<orgName type="department" key="dep3">School of Public Health</orgName>
+								<orgName type="institution">Johns Hopkins University School of Medicine</orgName>
+								<address>
+									<addrLine>Johns Hopkins Bloomberg</addrLine>
+									<settlement>Baltimore, Baltimore</settlement>
+									<region>MD, MD</region>
+									<country>USA., USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Inhibiting the stringent response blocks Mycobacterium tuberculosis entry into quiescence and reduces persistence</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2019-03-20">20 March 2019</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-09-14T02:31+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>The stringent response enables Mycobacterium tuberculosis (Mtb) to shut down its replication and metabolism under various stresses. Here we show that Mtb lacking the stringent response enzyme Rel Mtb was unable to slow its replication rate during nutrient starvation. Metabolomics analysis revealed that the nutrient-starved rel Mtb-deficient strain had increased metabolism similar to that of exponentially growing wild-type bacteria in nutrient-rich broth, consistent with an inability to enter quiescence. Deficiency of rel Mtb increased the susceptibility of mutant bacteria to killing by isoniazid during nutrient starvation and in the lungs of chronically infected mice. We screened a pharmaceutical library of over 2 million compounds for inhibitors of Rel Mtb and showed that the lead compound X9 was able to directly kill nutrient-starved M. tuberculosis and enhanced the killing activity of isoniazid. Inhibition of Rel Mtb is a promising approach to target M. tuberculosis persisters, with the potential to shorten the duration of TB treatment.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Although the current "short-course" 6-month combination therapy for tuberculosis (TB) is highly effective, TB remains a global health emergency in large part because this prolonged and complicated regimen poses formidable challenges for medical adherence and proper drug provision. Lapses in the availability and delivery of treatment lead to the emergence of multidrug-resistant and extensively drug-resistant TB and continued transmission, as well as excess morbidity and mortality.</p><p>The requirement for such a long course of treatment is thought to be due to a population of metabolically altered bacilli characterized by little or no replication, termed "persisters" <ref type="bibr" target="#b0">(1)</ref>. Mycobacterium tuberculosis (Mtb) persisters exhibit "antibiotic tolerance" <ref type="bibr" target="#b1">(2)</ref> to the bactericidal drug isoniazid (INH), which inhibits the mycolic acid synthesis pathway <ref type="bibr" target="#b2">(3)</ref>, but can be more effectively targeted by sterilizing drugs, such as rifampin and pyrazinamide <ref type="bibr" target="#b3">(4)</ref>. The molecular mechanisms underlying Mtb persistence remain largely undefined.</p><p>The Escherichia coli stringent response, which is triggered by the accumulation of hyperphosphorylated guanosine in the forms of ppGpp and pppGpp [collectively termed (p)ppGpp] by proteins of the RelA [monofunctional (p)ppGpp synthetase]-SpoT [bifunctional enzyme with (p)ppGpp hydrolysis and weak (p)ppGpp synthetase activity] homolog (RSH) family, is an adaptive mechanism in response to nutrient starvation (NS) and other stresses <ref type="bibr" target="#b4">(5)</ref>. Binding of the alarmone (p)ppGpp changes the sigma factor specificity of the RNA polymerase, allowing the binding of alternative sigma factors, which have unique promoter recognition and activity <ref type="bibr" target="#b5">(6)</ref>. Recent studies have highlighted additional molecular mechanisms by which (p)ppGpp mediates bacterial persistence <ref type="bibr" target="#b6">(7)</ref>, including its role as a central regulator of multidrug tolerance through stochastic induction and by environmental stimuli in a process called responsive diversification <ref type="bibr" target="#b6">(7,</ref><ref type="bibr" target="#b7">8)</ref>.</p><p>Unlike members of the gand b-proteobacteria lineages, which encode two functionally divergent RSHhomologs (RelA and SpoT) <ref type="bibr" target="#b8">(9)</ref>, Mtb encodes a single bifunctional RSH enzyme, Rel Mtb , which is conserved in all Mycobacterium species <ref type="bibr" target="#b9">(10)</ref>. Rel Mtb contains two catalytic domains, a (p)ppGpp hydrolysis domain (1 to 181 amino acids) and a (p)ppGpp synthetase domain (87 to 394 amino acids), and a regulatory C-terminal domain (395 to 738 amino acids) <ref type="bibr" target="#b10">(11)</ref><ref type="bibr" target="#b11">(12)</ref><ref type="bibr" target="#b12">(13)</ref>. The synthesis of ppGpp and pppGpp is catalyzed by the (p)ppGpp synthetase domain through transfer of the 5′-b,g-pyrophosphate from adenosine 5′-triphosphate (ATP) to the 3′-OH of guanosine diphosphate (GDP) or guanosine 5′-triphosphate (GTP), respectively <ref type="bibr" target="#b10">(11)</ref>. Crystallography studies showed that the Mtb (p)ppGpp synthetase domain comprises five b sheets surrounded by five a helices <ref type="bibr" target="#b12">(13)</ref>, and mutational analysis revealed that amino acids D265 and E325 are required for (p)ppGpp synthesis in vitro <ref type="bibr" target="#b13">(14)</ref>. The (p)ppGpp hydrolysis domain comprises 11 a helices, including a (p)ppGpp-binding pocket between the second and the third a helices <ref type="bibr" target="#b12">(13)</ref>, and amino acids H80 and D81 are critical for hydrolase activity but dispensable for (p)ppGpp synthesis <ref type="bibr" target="#b11">(12)</ref>. The function of each Rel Mtb catalytic domain is dependent on the concentration of cation cofactors, including Mg <ref type="bibr">2+</ref> and Mn 2+ <ref type="bibr" target="#b9">(10)</ref>. Although rel Mtb is constitutively expressed at basal levels, (p)ppGpp synthetase activity is repressed by the C-terminal domain in the absence of stresses <ref type="bibr" target="#b10">(11,</ref><ref type="bibr" target="#b14">15)</ref>, and (p)ppGpp accumulates in Mtb during NS and in response to hypoxia and oxidative stress <ref type="bibr" target="#b4">(5,</ref><ref type="bibr" target="#b15">16)</ref>. The preponderance of evidence suggests that the classic model of (p)ppGpp affecting RNA polymerase promoter open complexes to alter gene expression during the stringent response may be conserved in Mtb, but the underlying molecular mechanisms may differ from those of model organisms <ref type="bibr" target="#b9">(10)</ref>.</p><p>Previous studies have shown that deletion of the Rv2583c gene encoding Rel Mtb results in a (p)ppGpp null mutant, suggesting that Rel Mtb is the only functional Mtb (p)ppGpp synthetase <ref type="bibr" target="#b4">(5)</ref>. A rel Mtb deletion mutant showed impaired growth at elevated temperatures and long-term survival in nutrient depletion and progressive hypoxia <ref type="bibr" target="#b4">(5)</ref>, as well as reduced persistence during the chronic phase of infection in mouse lungs <ref type="bibr" target="#b16">(17)</ref>. The deletion of rel Mtb also resulted in impaired Mtb survival in a mouse hypoxic granuloma model of latent TB infection <ref type="bibr" target="#b17">(18)</ref> and in the guinea pig model of chronic TB <ref type="bibr" target="#b18">(19)</ref>. <ref type="bibr">Weiss and Stallings (20)</ref> also highlighted an essential role for Rel Mtb in Mtb pathogenesis beyond the production of (p)ppGpp, since a Rel Mtb H80A mutant, which was unable to hydrolyze (p)ppGpp but retained synthetase activity, showed impaired growth and defective survival in the lungs of mice during acute and chronic TB infection, respectively.</p><p>Another important regulatory molecule in the bacterial stringent response is inorganic polyphosphate [poly(P)] <ref type="bibr" target="#b20">(21)</ref>. Poly(P) accumulation in bacteria is transient and requires stress-induced accumulation of (p)ppGpp <ref type="bibr" target="#b5">(6,</ref><ref type="bibr" target="#b21">22)</ref>. Mtb expresses two poly(P) kinases (PPK1/Rv2984 and PPK2/Rv3232c) and two exopolyphosphatases (PPX1/Rv0496 and PPX2/Rv1026) to regulate intracellular poly(P) homeostasis <ref type="bibr" target="#b21">(22)</ref>. The increased expression of ppk1 leads to poly(P) accumulation, which drives synthesis of (p)ppGpp through induction of the mprAB-sigErel Mtb signaling pathway <ref type="bibr" target="#b22">(23,</ref><ref type="bibr" target="#b23">24)</ref>. Through a positive feedback mechanism, (p)ppGpp can inhibit the hydrolytic activity of Mtb PPX1 and PPX2 <ref type="bibr" target="#b24">(25,</ref><ref type="bibr" target="#b25">26)</ref>, leading to further accumulation of poly(P). Poly(P) accumulation contributes to Mtb antibiotic tolerance <ref type="bibr" target="#b24">(25,</ref><ref type="bibr" target="#b26">27,</ref><ref type="bibr" target="#b27">28)</ref> and reduced bacterial survival in the lungs of guinea pigs <ref type="bibr" target="#b26">(27)</ref>. Conversely, poly(P) deficiency enhances Mtb susceptibility to INH and fluoroquinolones and also results in defective growth and survival in guinea pig lungs <ref type="bibr" target="#b28">(29)</ref>. Therefore, the tight regulation of the stringent response pathway is essential for the organism's ability to survive long term in host tissues and for tolerance to bactericidal drugs.</p><p>We hypothesized that deficiency of the stringent response enzyme Rel Mtb would prevent Mtb quiescence and antibiotic tolerance during growth-limiting conditions, thereby rendering bacilli more susceptible to killing by conventional tuberculocidal drugs. In the current study, we assessed the cellular division rate, metabolic profile, intracellular ATP and poly(P) levels, and antibiotic susceptibility of a recombinant rel Mtb -deficient mutant (Drel) (5) and the isogenic wild-type (WT) and complemented strains during growth-limiting conditions <ref type="bibr" target="#b18">(19)</ref>. Specifically, we studied the susceptibility of Drel to INH during NS in vitro, as well as to human-equivalent doses of INH during the chronic phase of infection in BALB/c mouse lungs, when wild-type Mtb exhibits tolerance to bactericidal drugs <ref type="bibr" target="#b29">(30)</ref>. On the basis of our encouraging preliminary data, we sought to develop a small-molecule inhibitor targeting Rel Mtb . High-throughput screening (HTS) of a~2 million GlaxoSmithKline (GSK) compound library using a recombinant Rel Mtb enzyme yielded 178 candidate molecules with a preliminarily acceptable safety profile. As proof of concept, we tested 39 of these compounds in a whole-cell assay against nutrient-starved Mtb and Drel. One of these compounds, X9, was found to have Rel Mtb -specific inhibitory activity and synergy with INH against nutrient-starved Mtb, offering an attractive new strategy for eradicating Mtb antibiotictolerant persisters in conjunction with conventional TB treatment.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS (p)ppGpp deficiency leads to ongoing Mtb replication during NS</head><p>We hypothesized that the alarmone (p)ppGpp serves as a molecular "brake" responsible for Mtb growth arrest and antibiotic tolerance. Therefore, the deficiency of Rel Mtb [and, consequently, the deficiency of (p)ppGpp] (5) would be expected to lead to continued cellular division and metabolism of Mtb under growth-limiting conditions, culminating in bacillary death. To determine whether (p)ppGpp deficiency is associated with ongoing Mtb division during NS, we introduced a "replication clock" plasmid, pBP10 <ref type="bibr" target="#b30">(31)</ref>, into an H37Rv strain deficient in Rv2583c/rel Mtb (Drel) and the isogenic WT strain <ref type="bibr" target="#b4">(5)</ref>. The basis of this technique is that the unstable "clock" plasmid is lost at a steady, quantifiable rate from dividing cells in the absence of antibiotic selection.</p><p>We then measured the retention of the replication clock plasmid for WT and Drel strains in standard nutrient-rich media (7H9) and during NS over a 21-day time course ( <ref type="figure">Fig. 1 and table S1</ref>). Total and plasmidcontaining bacterial counts were assessed at days 7, 14, and 21. Statistical tests were performed using log -scale values; for convenience, means and ±1 SD ranges are presented on an arithmetic scale. All tests were performed as equal variance and one-sided in the anticipated direction.</p><p>We first tested that the WT strain reduces its replication during NS. At day 14, 70% of the cells in NS versus 35% of the cells in 7H9 contained the plasmid (P = 0.04), and by day 21, the retention was 9.6-fold greater in NS (81% versus 7%; P = 0.002). We performed the same test using Drel and found no evidence for slowed bacterial division. At day 14, retention fractions in NS versus 7H9 has no significant difference (79% versus 73%; P = 0.5). At day 21, the retention fractions remained equivalent (59% versus 48%; P = 0.4). These data suggest that the Drel strain does not slow its division rate at all, even under growth-limiting conditions; estimates of the ratio of fraction of plasmid retained in NS versus 7H9 remain at 1.0 throughout the entire time course.</p><p>We then compared WT and Drel using the ratio of plasmid retained in NS/7H9 for each genotype to normalize for possible strain-specific differences in growth rate and retention. At day 14, the WT showed greater plasmid retention ratio (P = 0.02), with 1.8-fold greater retention in NS/7H9 versus equivalent retention for Drel. The effect size and significance increased at day 21 (P = 0.01), with a 9.6-fold retention ratio for WT versus continued equivalent retention in NS/7H9 for Drel. Consistent with the replication clock data, the bacterial density of the Drel mutant increased from 5.35 ± 0.28 colony forming units (CFU)/ml on day 1 to 6.06 ± 0.13 CFU/ml on day 7 (P = 0.01) and remained stable at 6.07 ± 0.25 CFU/ml on day 21 (P = 0.95), while that of the WT remained relatively constant throughput (5.36 ± 0.32 CFU/ml on day 1 and 5.69 ± 0.47 CFU/ml on day 21; P = 0.36). There was no statistically different difference between the bacterial density of the <ref type="figure">Fig. 1</ref>. Ongoing division of nutrient-starved Mtb lacking the stringent response pathway. The ratio of plasmid retention in phosphate-buffered saline relative to 7H9 was greater for WT (blue bar) than for the Drel mutant (orange bar). Error bars correspond to ±1 SD, with differences from a one-sided test reaching significance at day 14 (P = 0.020) and day 21 (P = 0.011).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>S C I E N C E A D V A N C E S | R E S E A R C H A R T I C L E</head><p>Dutta et al., Sci. Adv. 2019; 5 : eaav2104 mutant and that of the isogenic WT strain at day 21 (P = 0.29). These data may reflect ongoing futile division of the mutant even after exhaustion of the nutrient supply, culminating in bacterial death.</p><p>The Mtb stringent response is required for metabolic arrest in NS Next, we used liquid chromatography-tandem mass spectrometry (LC-MS/MS) to investigate the metabolic profiles of WT Mtb and Drel during exponential growth in nutrient-rich broth (7H9) and during NS. Volcano plots were used for statistical visualization of the metabolomics data (y axis = P value and x axis = fold change) and for comparing changes in metabolite abundance between WT Mtb in nutrient-rich broth (7H9) and during NS, as well as for comparing the metabolite profiles of WT Mtb in 7H9 and nutrient-starved Drel. Metabolites involved in energy metabolism or lipid metabolism that have relatively significant P values and high fold change were identified at the top-right or top-left area of the volcano plots <ref type="figure">(Fig. 2, A and B)</ref>. The volcano plots of metabolite distribution depicting WT Mtb in 7H9 versus WT in NS ( <ref type="figure">Fig. 2A</ref>) and WT Mtb versus Drel in NS ( <ref type="figure">Fig. 2B</ref>) revealed that WT Mtb redirected, rather than bulk-reduced, its metabolic activities during NS, as shown by the scattered pattern of metabolite distribution. The scattered pattern of metabolites in nutrient-starved Drel showed greater similarity to the metabolite profile of WT Mtb in 7H9 than to that of nutrient-starved WT Mtb.</p><p>Our analysis was focused on essential metabolic activities, including amino acid metabolism and central carbon metabolism pathways. We focused more on tricarboxylic acid (TCA) cycle remodeling because it is functionally associated with energy metabolism and lipid biosynthesis, which have been implicated as key cellular activities during Mtb adaptation to growth-limiting conditions <ref type="bibr" target="#b31">(32,</ref><ref type="bibr" target="#b32">33)</ref>. We observed that the WT strain adapted to NS by down-regulation of its TCA cycle activity, except for the alpha-ketoglutarate pool size <ref type="figure">(Fig. 2C)</ref>. Conversely, nutrient-starved Drel failed to remodel its TCA cycle intermediates, which mimicked the pattern observed for exponentially growing WT Mtb, as most of the TCA cycle intermediates (2-methylcitrate, citrate, succinate, fumarate, and malate) remained similar to those of WT Mtb in 7H9. The restoration of acetyl-P, citrate, and aconitate levels in nutrient-starved Drel was relatively minor as compared to other TCA cycle intermediates, including reductive branch intermediates (malate, fumarate, and oxaloacetate). Methylcitrate cycle (MCC) intermediates, such as 2-methylcitrate, were not restored but rather more abundant in nutrient-starved Drel, suggesting that Rel Mtb deficiency is associated with greater MCC activity during NS. Therefore, TCA cycle restoration in nutrient-starved Drel may be directly or indirectly associated with dysregulated MCC activities. We also observed that the nutrient-starved WT strain down-regulated its lipid metabolism, including biosynthesis or degradation of fatty acids with various chain lengths, resulting in decreased pool sizes of precursors of longer chain fatty acids that are potential products of fatty acid synthase (FAS) I and substrates for FAS II <ref type="figure">(Fig. 2,  B</ref> and D). The deficiency of Rel Mtb was associated with partial activation of lipid metabolism during NS, as shown in replicating WT Mtb. The metabolite profiles of WT Mtb and Drel during exponential growth in nutrient-rich broth and during NS affirmed our hypothesis that Rel Mtb serves as a metabolic sensor to monitor NS and initiate stringent adaptation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>(p)ppGpp deficiency leads to preserved Mtb intracellular ATP concentrations during NS</head><p>We have shown previously that hypometabolic, nonreplicating Mtb has decreased requirements for ATP synthase, since the genes encoding the components of the ATP synthase operon are down-regulated both in vitro <ref type="bibr" target="#b33">(34)</ref> and in vivo <ref type="bibr" target="#b17">(18)</ref>. Previous studies have shown that intracellular ATP content is reduced in nonreplicating mycobacteria during NS <ref type="bibr" target="#b34">(35)</ref> and hypoxia <ref type="bibr" target="#b35">(36)</ref> and that de novo ATP synthesis is required for the maintenance of Mtb survival <ref type="bibr" target="#b35">(36)</ref>. On the basis of our metabolomics analysis showing altered energy metabolism (TCA cycle intermediates) and lipid biosynthesis in WT only but not in Drel during NS, we hypothesized that ATP content would be preserved in the nutrient-starved Drel at levels similar to those of replicating WT Mtb in 7H9. Since the enzymatic conversion of the substrate luciferin to light by luciferase is ATP dependent, this assay has been used to quantify intracellular ATP content <ref type="bibr" target="#b36">(37)</ref>. As shown in <ref type="figure" target="#fig_0">Fig. 3A</ref>, at day 14 following NS of the WT and rel Mtb -complemented (rel Comp) strains, there was a significant decline in intrabacillary ATP levels from 18 mM to 6.3 ± 0.6 mM and from 18 mM to 3.5 ± 2.2 mM, respectively, compared to Drel, in which ATP levels remained relatively constant (18 mM to 18.8 ± 3.2 mM; P &lt; 0.01). These findings are all the more significant given that CFU per milliliter of Drel declined by 0.25 log CFU/ml relative to WT during this interval.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Increased poly(P) levels during adaptation to NS requires Rel Mtb</head><p>As a part of the early stress response to NS, bacterial poly(P) levels peak and then decline rapidly toward baseline levels <ref type="bibr" target="#b22">(23,</ref><ref type="bibr" target="#b23">24)</ref>. We hypothesized that if (p)ppGpp and poly(P) form a positive feedback regulatory loop in the Mtb stringent response <ref type="bibr" target="#b21">(22)</ref>, then changes in rel Mtb activity should modulate intracellular poly(P) content. We found that poly(P) levels peaked after 6 hours of nutrient starvation at 17.8 ± 3.7 ng/mg total protein and 15.4 ± 0.4 ng/mg total protein in the wild-type and the rel Mtb -complemented (rel Comp) strains, respectively, but only reached 5.7 ± 2.9 ng/mg total protein in Drel <ref type="figure" target="#fig_0">(Fig. 3B</ref>). The differences between WT and Drel were statistically significant at 6 hours (P &lt; 0.05), 16 hours (P &lt; 0.01), and 24 hours (P &lt; 0.05).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>(p)ppGpp deficiency preserves susceptibility to INH during NS</head><p>Since nutrient-starved Drel showed a cell division rate, lipid biosynthesis, and intracellular ATP content at levels comparable to those of replicating WT Mtb, we hypothesized that deficiency of the stringent response during growth-limiting conditions would also be associated with reduced antibiotic tolerance to INH, which shows markedly reduced activity against WT nutrient-starved WT Mtb <ref type="bibr" target="#b21">(22)</ref>. The minimum bactericidal concentration (MBC) of INH, defined as the concentration of INH required to kill 99% (2 log ) of the starting culture, against Drel and the isogenic WT and rel Comp strains was identical in nutrient-rich broth (0.06 mg/ml). As expected, the MBC of INH increased 512-fold against the WT and rel Comp after 7 days of NS (from 0.06 mg/ml to 30.72 mg/ml). On the other hand, the MBC of INH against nutrient-starved Drel remained constant at 0.06 mg/ml, consistent with reduced antibiotic tolerance in the absence of the Mtb stringent response. These results were replicated in triplicate, with identical results.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>(p)ppGpp deficiency enhances Mtb susceptibility to INH during the chronic phase of infection in BALB/c mouse lungs</head><p>To determine whether the stringent response is required for antibiotic tolerance of Mtb in vivo, we studied the susceptibility of Drel to INH following the onset of adaptive immune responses in the lungs of immunocompetent BALB/c mice. During the chronic phase of infection,</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>S C I E N C E A D V A N C E S | R E S E A R C H A R T I C L E</head><p>Dutta et al., Sci. Adv. 2019; 5 : eaav2104 <ref type="figure">Fig. 2</ref>. The nutrient-starved Drel mutant has a metabolomics profile similar to that of WT Mtb in nutrient-rich broth (7H9). Volcano plots of relative abundances of metabolites of the WT strain following exposure to 7H9 versus WT strain following exposure to NS (A) and between WT strain following exposure to 7H9 versus Drel following exposure to NS (B). FC, fold change. The y axis indicates −log 10 [P], and the x axis indicates relative abundance in log 2 scale. The effect of Rel Mtb deficiency on Mtb metabolic responses while adapting to NS was monitored by analyzing pathways involved in energy metabolism (C) and fatty acid metabolism (D). In clustered heat maps, rows depict experimental conditions as indicated, starting from WT strain control (WT day 0) followed by WT day 1 and Drel day 1. Columns indicate individual metabolites. Data were parsed using uncentered Pearson's correlation with centroid linkage clustering and were rendered using the image generation program TreeView (http://jtreeview.sourceforge.net/). Data are depicted on a log 2 scale relative to untreated control for each experimental condition. (1, WT Mtb in 7H9; 2, WT Mtb during NS; 3, Drel during NS).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>S C I E N C E A D V A N C E S | R E S E A R C H A R T I C L E</head><p>Dutta et al., Sci. Adv. 2019; 5 : eaav2104</p><p>Mtb exhibits tolerance to INH <ref type="bibr" target="#b29">(30,</ref><ref type="bibr" target="#b37">38)</ref>, likely due to reduced bacterial replication <ref type="bibr" target="#b38">(39)</ref> and metabolism <ref type="bibr" target="#b39">(40)</ref>. Separate groups of BALB/c mice were aerosol-infected with~200 bacilli of WT H37Rv (2.13 ± 0.06 log ), Drel (2.46 ± 0.06 log ), or rel Comp (1.71 ± 0.13 log ). Daily treatment with human-equivalent doses of INH or vehicle by esophageal gavage for a total of 14 days was initiated 28 days after infection, after lung bacillary counts achieved a stable plateau. As previously reported (30), the WT control displayed antibiotic tolerance, as INH reduced the lung bacillary burden by only 0.11 log relative to that at the start of treatment (P = 0.65). On the other hand, INH showed potent bactericidal activity against Drel during chronic infection, killing 2.03 log 10 bacilli in the lungs during 2 weeks of treatment (P &lt; 0.0001) ( <ref type="figure" target="#fig_1">Fig. 4A</ref>). Similar to its effect against WT H37Rv, INH monotherapy had relatively limited activity against rel Comp when administered during the chronic phase of infection, reducing lung bacterial load by 0.48 log 10 (P = 0.35).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Prolonged host survival following infection with Mtb lacking the stringent response in a mouse model of necrotic TB granulomas</head><p>To determine whether deficiency of the Mtb stringent response has a detrimental effect on long-term immune containment in a host with human-like TB pathology, we used Drel and the isogenic WT strain to infect C3HeB/FeJ mice, which develop necrotic lung granulomas containing tissue hypoxia, analogous to their human counterparts <ref type="bibr" target="#b40">(41)</ref>. At day 1 after infection, the implantation was 2.99 ± 0.03 log CFU per lung for WT and 2.98 ± 0.06 log CFU per lung for Drel. The median survival for mice infected with WT Mtb was 20.29 weeks <ref type="figure" target="#fig_1">(Fig. 4B</ref>). The survival of the Drel-infected mice was followed for a total of 40 weeks, at which time no mice showed any signs of morbidity. The mutant-infected mice continued to gain weight, reaching a maximum of 42.78 ± 6.28 g at week 40. This difference was statistically significant by the Mantel-Cox test (P &lt; 0.0001) and by the Gehan-Breslow-Wilcoxon test (P &lt; 0.0001), with a hazard ratio of 10.34 for infection with WT compared to that with Drel.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Development and validation of a high-throughput screening assay for identifying Rel Mtb inhibitors</head><p>Given the reduced persistence of (p)ppGpp-deficient Mtb in clinically relevant models and its increased susceptibility to anti-TB drugs during growth-limiting conditions and in mouse lungs, we next sought to validate the stringent response as a target for Mtb persisters by identifying chemical inhibitors against Rel Mtb . To enhance the yield of recom-binant protein during the expression and purification processes and to maintain (p)ppGpp synthetic function (12), we used a truncated version of Rel Mtb (residues 53 to 446) for our HTS strategy <ref type="bibr" target="#b41">(42)</ref>.</p><p>Traditionally, Rel Mtb (p)ppGpp synthetase activity has been studied using radiolabeled ATP following the incorporation of radioactive inorganic pyrophosphate to GTP by a chromatography separation of the nucleotide mixture by thin-layer chromatography, with a final quantification of the radioactive spot corresponding to pppGpp <ref type="bibr" target="#b11">(12)</ref>. This heterogeneous method is time consuming, laborious, and difficult to adapt to an HTS environment. For this reason, we developed and optimized a homogeneous assay based on the quantification of adenosine 5′-monophosphate (AMP) using fluorescence polarization (FP). The assay principle is competitive binding to an antibody between a fluorescently labeled AMP probe and the unlabeled AMP produced during the reaction catalyzed by Rel Mtb <ref type="figure" target="#fig_2">(Fig. 5A</ref>). The anisotropy of the fluorescent probe increases as the rotational mobility of the molecule decreases by interaction with the specific anti-AMP antibody. As a consequence of Rel Mtb activity, AMP is synthesized from ATP and GTP in the presence of magnesium (II). The newly generated AMP displaces this interaction, proportionally decreasing the FP exerted by reaction mixtures.</p><p>Next, we sought to determine the optimal substrate concentration for the enzymatic assay. Substrate concentrations around the Michaelis constant (K m ) value allow the identification of molecules that interact with each possible state of the enzyme, including competitive, uncompetitive, noncompetitive, and mixed inhibitors. Using a label-free assay based on high-performance LC, initial velocities were measured as a function of substrate concentration with a simple and rapid determination of ATP, GTP, and AMP. Apparent K m values for GTP and ATP were 0.66 ± 0.17 mM and 1.59 ± 0.21 mM, respectively. These values are in agreement with previously reported values <ref type="bibr" target="#b16">(17)</ref>. Using 1.5 mM ATP and 0.5 mM GTP, reaction progress curves were linear for at least 2 hours at enzyme concentrations up to 800 nM. Using the antibody-based FP assay format, the experimental progression curve for 40 nM Rel Mtb was linear up to 90 min at room temperature with an acceptable signal/background window.</p><p>Assay sensitivity was tested using several substrate analogs. Thus, 50% of Rel Mtb activity was inhibited by 3′-dGTP (4 mM), AP 4 G (1.8 mM), and AMPCPP (a,b-methylene analogue of ATP) (6.2 mM), demonstrating that these relatively poor substrates were able to inhibit enzymatic activity with comparable potencies as ppGpp analogs.</p><p>We next assessed the robustness, reproducibility, and HTS compatibility of this homogeneous assay under fully automated conditions before conducting the large-scale HTS. We screened a total of 29,109 compounds from different sources, including a "validation set" of 10,000 chemically diverse compounds derived from the GSK HTS collection, a "kinase compound set" comprising~14,000 compounds designed to target the ATP site, and a "virtual set" comprising approximately 6000 compounds selected by virtual screening of the GSK compound collection by computational docking studies based on the crystal structure of the catalytic N-terminal residues 1 to 385 of the bifunctional RelA homolog from the Gram-positive bacterium Streptococcus equisimilis <ref type="bibr" target="#b42">(43)</ref>. Compounds were tested at 10 mM in triplicate, and the average Z′ was 0.57, with a statistical cutoff of 24.86 ± 1.07% inhibition calculated as threefold the SD of inactive compounds in daily batches of plates. The hit rates obtained were 0.21% for the validation set, 0.31% for the virtual set, and 0.65% for the kinase compound set. Compounds above the cutoff were selected for dose-response studies, and 59 of them displayed a median inhibitory concentration (pIC 50 ) of ≥4.5. The most potent inhibitors discovered in each set displayed pIC 50 values of 5.35 ± 0.03 in the validation set, 5.15 ± 0.09 in the kinase compound set, and 4.63 ± 0.15 in the virtual set. These results increase confidence in the success of targeting Rel Mtb by screening diverse drug-like small molecules.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Identification of active scaffolds with Rel Mtb inhibitory activity</head><p>To identify novel and potent inhibitors targeting Rel Mtb , we performed an HTS of the GSK chemical diversity library <ref type="figure" target="#fig_2">(Fig. 5B)</ref>. Approximately million compounds were tested at 10 mM with an overall Z′ value of 0.53 ± 0.15 across the entire screen. Consistent with a typical HTS, most compounds were inactive with a distribution of percent inhibition values centered around 1.8%. Using an average statistical threshold of 24.7% inhibition, 12,526 compounds were selected as being active (0.63% hit rate). This hit rate was slightly higher than predicted by the validation set study. The list of primary hits was expanded by the inclusion of compounds producing inhibition just below the threshold but having good physicochemical properties. The resulting list of 15,463 primary hits was retested for confirmation of activity in quadruplicate at 10 mM. In addition, functional group and property filters were applied to remove compounds that were large, lipophilic, reactive, and potentially promiscuous. In this way, a list of 2084 active and chemically attractive compounds was generated for progression into dose-response studies. An 11-point concentration response curve was generated to determine the IC 50 value of each compound in the HTS assay, as well as in an artifact-detecting assay, which allows the identification of undesirable compounds interfering with the fluorescent signal or preventing the interaction between the antibody and the fluorescent probe.</p><p>Approximately 83% of the selected compounds showed activity in a concentration-dependent manner in the Rel Mtb assay with a broad range of potencies. These compounds were clustered using a complete linkage hierarchical algorithm to evaluate the chemical diversity of the set. The artifact-detecting assay robustly discerned whole undesirable chemotypes. Approximately 750 hits with appropriate physicochemical properties, belonging to different chemical classes, were identified as inhibitors in the pharmacological screening showing pIC values of &gt;4.5 and no artifactual effect <ref type="figure" target="#fig_2">(Fig. 5B)</ref>. Less than 10% of these were analogs of known kinase inhibitors. About 50 additional compounds were rescued with a molecular weight (MW) of &gt;600 and a clogP of &gt;6.5 by manual inspection, with the aim of increasing diversity and improving potency.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Assay of Rel Mtb inhibitor candidates in whole-cell screen</head><p>On the basis of the results published by Primm et al. (5), we decided to take advantage of the thermosensitivity of rel Mtb -deficient Mtb to set up a medium throughput whole-cell assay. We studied the growth of Drel, rel Comp, and WT strains to find the best signal-to-noise ratio that allowed us to test a high number of compounds. As outlined in Materials and Methods, we tested different carbon sources and culture media, different bacterial inoculum sizes in 96-well format plates (from 10 2 to 10 4 CFU per well, with a total volume of 200 ml per well), and different temperatures (37°and 39°C).</p><p>The growth in the majority of the stress-condition media tested was identical in the three strains. However, we could observe a shift in the growth rate of the different strains on acetate and glucose with low inocula (below 370 CFU per well) between day 7 and day 12 of growth. The greatest difference in growth between the WT and Drel was observed with low concentrations of bacteria in the inocula (1.5 × 10 3 CFU/ml) in minimal media incubated at 39°C ( <ref type="figure">fig. S1)</ref>.</p><p>A total of 791 compounds were profiled in the whole-cell assays to identify hits yielding the Drel phenotype during heat stress. Almost 30% of them showed inhibition at 125 mM against Mtb during exposure to </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>S C I E N C E A D V A N C E S | R E S E A R C H A R T I C L E</head><p>Dutta et al., Sci. Adv. 2019; 5 : eaav2104 elevated temperature. Of these, 178 compounds with no or moderate toxicity against HepG2 cells (pIC &lt; 4.6) were progressed to further studies. Afterward, minimum inhibitory concentration (MIC) values were determined in two independent experiments, the rel Mtb essentiality assay with H37Rv and the nonessentiality assay with the H37Rv Drel mutant. The range of MIC in the rel Mtb essentiality assay was from 1 to 125 mM and from 4 to &gt;125 mM in the nonessentiality assay. Compounds with MIC ratios at least twofold greater against WT Mtb versus Drel were grouped into 18 structurally diverse classes. To carry out a preliminary exploration of the structure-activity relationship (SAR) patterns of these compounds, these hits were expanded through a series of analogs that were selected from the GSK compound library on the basis of similarity and substructure searches. Approximately 1000 compounds were tested in the biochemical Rel Mtb and HepG2 assays. Further phenotypic characterization was performed with a selection of the most promising compounds from each family. Ten families were discarded on the basis of cytotoxicity, low chemical tractability, lack of SAR, or absence of the desired phenotypic profile. The remaining eight families (GSK-A, GSK-B, GSK-C, GSK-D, GSK-H1, GSK-I, GSK-K, and GSK-M) lacked significant cyto-toxicity issues, and in four of these series, substantially more potent representatives were discovered ( <ref type="figure">fig. S2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Inhibition of Rel Mtb kills Mtb during NS</head><p>Following the temperature-based whole-cell assays, we next decided to test a set of compounds in an alternative Mtb whole-cell assay requiring Rel Mtb activity. A total of 39 compounds [15 compounds representing the eight families previously described and an additional 24 singleton compounds (grouped together as GSK-X)], selected on the basis of chemical diversity and favorable physicochemical properties, were tested in resazurin-based whole-cell assays using nutrient-starved WT and Drel. Of the 39 compounds tested, 11 showed &gt;50% inhibition against WT Mtb at concentrations ≤8 mM and displayed ≥8-fold specificity against Drel <ref type="figure" target="#fig_0">(table S2 and fig. S3</ref>).</p><p>Specifically, at a concentration of 2 mM, X9 (see chemical synthetic route of X9 in <ref type="figure" target="#fig_1">fig. S4</ref>) showed a 50% reduction in the fluorescence signal against WT (P &lt; 0.01), whereas a concentration of 16 mM was required to show similar activity against Drel.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>X9 preserves susceptibility to INH during NS</head><p>On the basis of our data with Drel, we hypothesized that the chemical inhibition of Rel Mtb by X9 would enhance the susceptibility of nutrientstarved Mtb to INH. The MBC of INH decreased 16-fold in the WT and rel Comp strains after 7 days of NS in the presence of 4 mM X9 (from 61.44 to 3.84 mg/ml). On the other hand, the MBC of INH against nutrient-starved Drel remained constant at 0.96 mg/ml, consistent with reduced antibiotic tolerance of Mtb in the absence of a stringent response <ref type="table">(table S3)</ref>. These results were replicated in separate experiments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Confirmation of on-target activity of X9</head><p>We hypothesized that WT Mtb exposed to Rel Mtb inhibitor should exhibit a similar survival phenotype as Drel during NS, while exposure of nutrient-starved Drel to Rel Mtb inhibitor should not alter the survival phenotype of the latter. As shown in <ref type="figure" target="#fig_3">Fig. 6A</ref>, the addition of X9 (2mM) to nutrient-starved WT Mtb resulted in significant (P = 0.001) reduction in the bacillary density compared to the untreated WT control, phenocopying the survival defect of the untreated Drel mutant. On the other hand, there was no significant difference in bacillary survival between Drel treated with X9 and untreated Drel during NS (P = 0.53), consistent with target specificity of the inhibitor.</p><p>Next, we used a rel Mtb overexpression strain (rel knock-in) and an empty vector control strain to study the efficacy of X9 alone and in combination with INH during NS. Following 7 days of exposure of the nutrient-starved empty vector control to X9 (2 mM) or INH (15.36 mg/ml), the bacterial density (in CFU/ml) was reduced by a mean of 0.29 log 10 (P &lt; 0.05) and 1.43 log 10 CFU (P &lt; 0.0001), respectively <ref type="figure" target="#fig_3">(Fig. 6B)</ref>. The combination of X9 and INH resulted in a significant (D = 1.89 log ) reduction in the bacillary density compared to INH alone (P &lt; 0.0001). However, X9 alone showed very limited activity against the nutrient-starved rel knock-in (D = 0.05 log ), and its addition to INH did not significantly enhance the activity of the latter against the rel knock-in strain (D = 0.03 log , P = 0.82).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>Traditionally, target-based approaches using biochemical assays, three-dimensional structural information, and demonstrated biological function have had limited success in yielding novel TB drugs <ref type="bibr" target="#b43">(44)</ref>. Moreover, HTS of compound libraries is conducted routinely in mM. The 15,463 primary hits were retested for confirmation at 10 mM. The 2084 active and chemically attractive compounds were generated for progression into dose-response studies. Eighty-three percent of the selected compounds showed activity. These compounds were clustered to evaluate the chemical diversity of the set. Approximately 750 hits with appropriate physicochemical properties, belonging to different chemical classes, were identified showing inhibitory concentration (pIC 50 ) values of &gt;4.5 and no artifactual effect. About 50 additional compounds were rescued with an MW of &gt;600 and a clogP of &gt;6.5 by manual inspection. A total of 791 compounds were profiled in whole-cell assays to identify hits yielding the Drel phenotype during heat stress. One hundred seventyeight compounds showed inhibition at 125 mM against Mtb during exposure to elevated temperature with no or moderate toxicity against HepG2 cells (pIC 50 &lt; 4.6). Compounds with minimum inhibitory concentration ratios greater than twofold against WT Mtb versus Drel were grouped into 18 structurally diverse classes. These hits were expanded through a series of analogs, which were tested in the biochemical Rel Mtb and HepG2 assays. Further phenotypic characterization was performed with a selection of the most promising compounds from each family. The remaining eight families (GSK-A, GSK-B, GSK-C, GSK-D, GSK-H, GSK-I, GSK-K, and GSK-M) were selected for further studies. Inh, inhibition; D/R, doseresponse; SS, substructure.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>S C I E N C E A D V A N C E S | R E S E A R C H A R T I C L E</head><p>Dutta et al., Sci. Adv. 2019; 5 : eaav2104 nutrient-rich broth. While potentially useful in identifying novel drugs with activity against actively multiplying organisms, such approaches are limited in their ability to identify drugs with potent sterilizing activity, i.e., the ability to kill persistent organisms. An alternative approach, which challenges the current paradigm in TB drug discovery, is to screen compounds for biochemical activity against conditionally essential targets and for whole-cell activity against Mtb under physiologically relevant stress conditions inducing the persistent state.</p><p>Here, we describe an efficient method for the HTS of inhibitors of recombinant Rel Mtb (codons 53 to 446). We focused our primary screen on the identification of ATP:GTP 3′-pyrophosphoryltransferase inhibitors. The development and validation of the enzymatic assay has been the first critical step toward identifying candidate small molecules with promise for targeting the stringent response in a novel way by targeting the ability of Mtb to persist. Our strategy used three separate assays formats: a highly sensitive FP assay, a phenotype whole-cell assay based on temperature stress to gain knowledge of on-target effects, and cytotoxicity determinations to assess selectivity. After applying cluster analysis and chemical filtering, the identification of several compounds from the GSK compound library exemplifies the power of our screening strategy. Our compound screen yielded 39 Rel Mtb inhibitor candidates, 11 of which showed at least eightfold greater activity against WT Mtb than the rel Mtb -deficient mutant during NS. The lead candidate, X9, alone killed nutrient-starved Mtb and significantly reduced the tolerance of these bacilli to INH, phenocopying Drel under these conditions. Furthermore, X9 lacked activity against nutrient-starved Drel and, overexpression of Rel Mtb partially reversed its anti-TB activity against nutrientstarved Mtb, consistent with on-target activity of the compound.</p><p>Previous studies have attempted to target persistent bacteria through a variety of different approaches. For example, Allison et al. <ref type="bibr" target="#b44">(45)</ref> postulated that bacterial persisters are not susceptible to aminoglycosides because of decreased proton-motive force, which is required for aminoglycoside uptake. The exposure of persistent bacteria to specific metabolic stimuli (e.g., mannitol and fructose) rendered them more susceptible to killing by aminoglycosides, which target protein translation, an essential process during bacterial persistence. On the other hand, these metabolic stimuli did not promote killing of persisters by antibiotics with distinct mechanisms of action, such as quinolones or b-lactams. Previous studies have attempted to target the bacterial stringent response in other organisms. Wexselblatt et al. <ref type="bibr" target="#b45">(46)</ref> synthesized a group of (p)ppGpp analogs and tested these as competitive inhibitors of Rel proteins in vitro. The same group developed a novel compound, Relacin, designed to inhibit RelA-mediated synthesis of (p)ppGpp, leading to a marked reduction in viability and spore formation of Bacillus anthracis <ref type="bibr" target="#b46">(47)</ref>. Subsequently, SAR studies permitted the development of deoxyguanosine-based analogs of Relacin with improved potency against Gram-positive and Gram-negative bacteria <ref type="bibr" target="#b47">(48)</ref>. Very similar approaches have been used to inhibit biofilm formation by Mtb and Pseudomonas aeruginosa <ref type="bibr" target="#b12">(13,</ref><ref type="bibr" target="#b48">(49)</ref><ref type="bibr" target="#b49">(50)</ref><ref type="bibr" target="#b50">(51)</ref>.</p><p>The phenotypes associated with Drel during NS suggest that the inhibition of the stringent response is a promising approach for targeting Mtb persisters. Nutrient-starved Drel showed an unabated bacterial division rate as measured by loss of the replication clock plasmid, and the mean number of nutrient-starved Drel increased slightly, while that of the nutrient-starved WT strain remained stable. Primm et al. <ref type="bibr" target="#b4">(5)</ref> found that Drel was relatively stable after 7 days of NS but declined bỹ log 10 CFU/ml after~120 days of NS. The modest increase in the bacterial density of nutrient-starved Drel after 7 days in our studies may be attributable to carryover of nutrients, since cultures grown in nutrient-rich broth were diluted in phosphate-buffered saline (PBS) rather than pelleted and resuspended in the latter to prevent clumping over the 21-day observation period. Together, these data suggest that, although the mutant bacteria may be able to multiply for a limited number of cycles by scavenging scarce nutrients and using intracellular nutrient stores, eventually, the nutrient supply is depleted and the total number of viable bacteria declines as they futilely attempt to continue to divide. Assuming that mutant progeny bacteria carrying the plasmid and those lacking the plasmid die at equal rates, the net effect is a declining total number of mutant bacteria over time and a lower proportion of surviving bacteria carrying the plasmid (which is lost with each round of cell division). An alternative explanation is that there is differential stability of plasmid versus bacterial chromosomal DNA during stress exposure, although this has not been described previously in mouse lungs <ref type="bibr" target="#b30">(31)</ref> or in macrophages <ref type="bibr" target="#b51">(52)</ref>, and there is no reason to suspect that plasmid DNA is more unstable in Drel than in WT Mtb.</p><p>We also found that nutrient-starved Mtb lacking the stringent response had a metabolic profile more similar to that of logarithmically growing bacteria in nutrient-rich broth, an inability to mount a transient spike in intracellular poly(P) levels, and reduced tolerance to the cell wall-active agent, INH. These phenotypes are largely consistent with the available literature. The accumulation of (p)ppGpp in bacteria is known to alter the intracellular ATP:GTP ratio <ref type="bibr" target="#b9">(10)</ref>, and Gengenbacher et al. <ref type="bibr" target="#b34">(35)</ref> found a fivefold decline in ATP content of WT Mtb following nutrient deprivation in oxygen-rich medium (Loebel model). Our data suggest that this energetic shift is dependent on the Mtb stringent response, since intracellular ATP levels remained relatively </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>S C I E N C E A D V A N C E S | R E S E A R C H A R T I C L E</head><p>Dutta et al., Sci. Adv. 2019; 5 : eaav2104 preserved in Drel after 14 days of NS. Singh et al. found that the deletion of rel Mtb causes mid-and late-log phase cultures of Mtb to accumulate less poly(P) <ref type="bibr" target="#b28">(29)</ref>, and our data suggest that the stringent response is also required for the transient accumulation of poly(P) during Mtb adaptation to NS. Unlike the metabolomics profile associated with Mtb poly(P) accumulation in a ppx2/rv1026 knockdown mutant in nutrient-rich conditions (25), we found that poly(P) accumulation in nutrient-starved WT Mtb was associated with down-regulated reductive branch TCA cycle intermediates (succinate, fumarate, and malate) with reciprocal up-regulation of oxidative TCA cycle intermediates (alpha-ketoglutarate) <ref type="figure">(Fig. 2C)</ref>. Recent 13 C isotope metabolomics profiling of hypoxic Mtb (33) provides a possible explanation for the differences in TCA cycle remodeling observed between nutrient-starved WT Mtb and the ppx2 knockdown mutant grown in nutrient-rich conditions, both of which show activation of the stringent response, as manifested by poly(P) accumulation and antibiotic tolerance. This analysis showed that the induction of reductive TCA cycle intermediates in hypoxic Mtb is significantly attributable to the 13 C-labeled fraction, suggesting that hypoxic Mtb biosynthesizes reductive TCA cycle intermediates partly by using carbon substrates supplied in the media. Thus, during NS, Mtb lacks the carbon substrates to be used for the biosynthesis of the reductive branch TCA cycle intermediates, resulting in reduction of these intermediates. Nutrient-starved Mtb maintained high levels of alpha-ketoglutarate, which was not observed in the metabolic remodeling of hypoxic Mtb and which was kinetically matched to catabolic remodeling of glutamine. Activities required for glutamine degradation and alpha-ketoglutarate biosynthesis warrant further investigation as another metabolic strategy of Mtb adaptation to nutrient-limited environments.</p><p>Previous studies have shown that the MIC of INH and rifampin against rel Mtb -deficient Mtb was the same as that against the WT strain in nutrient-rich broth <ref type="bibr" target="#b4">(5)</ref>. These findings may be explained by the potent antitubercular activity of these drugs against actively dividing Mtb, in which the stringent response is not activated. In contrast, during Mtb growth restriction, such as following exposure to NS, the organism exhibits antibiotic tolerance, manifested by a &gt;100-fold increase in the MBC of INH <ref type="bibr" target="#b52">(53)</ref>. We found that this antibiotic tolerance was completely reversed in the absence of a stringent response, as the MBC of INH against nutrient-starved Drel was identical to that against actively dividing WT Mtb in nutrient-rich broth. Our data are consistent with previous studies linking the stringent response with antibiotic tolerance in Mtb. Thus, exopolyphosphatase deficiency and poly(P) accumulation in Mtb, which lead to increased (p)ppGpp levels through the MprAB-SigE-Rel Mtb feedback loop <ref type="bibr" target="#b21">(22,</ref><ref type="bibr" target="#b22">23)</ref>, result in reduced susceptibility to INH <ref type="bibr" target="#b24">(25,</ref><ref type="bibr" target="#b26">27,</ref><ref type="bibr" target="#b27">28)</ref>. Conversely, reduced poly(P) levels due to deficiency of PPK1 was associated with increased susceptibility to INH <ref type="bibr" target="#b28">(29)</ref>.</p><p>There are several important limitations of our study, which could pave the way for future work. First, it is important to address whether the phenotypes of Drel described here are directly attributable to (p)ppGpp deficiency and/or poly(P) deficiency. Currently, we are unaware of reliable and reproducible methods to directly measure (p)ppGpp in Mtb. However, these phenotypes may be studied following site-directed mutagenesis of the (p)ppGpp synthetase and hydrolysis domains, as well as in poly(P)-deficient mutants (e.g., Dppk1 and recombinant knock-in strains of ppx1/rv0496 or ppx2/rv1026). Furthermore, the current studies used a rel Mtb deletion strain, which was incapable of inducing the stringent response during Mtb adaptation to NS. Future studies will focus on the generation and characterization of a conditional rel Mtb knockdown strain to determine whether down-regulation of the strin-gent response after Mtb adaptation to NS (and during chronic infection in animal lungs) leads to reduced bacterial viability and antibiotic tolerance. Although the lead compound X9 appears to inhibit the (p)ppGpp synthetase activity of Rel Mtb based on the enzymatic assays used for the HTS, it is unknown whether the compound binds to amino acid D265 and/or E325, both of which are required for (p)ppGpp synthesis. Future crystallographic analysis and site-directed mutagenesis of the recombinant enzyme will attempt to characterize the nature and location of X9 binding to Rel Mtb . Last, studies focused on the SAR of X9 and other Rel Mtb candidate inhibitors will guide the selection of a lead compound for pharmacokinetics and efficacy studies in animal models.</p><p>In summary, the inhibition of the stringent response via chemical inhibition of Rel Mtb is a theoretically attractive strategy for targeting Mtb persisters, since Rel Mtb is essential for Mtb survival under growthlimiting conditions, including prolonged NS and progressive hypoxia <ref type="bibr" target="#b4">(5)</ref>. In addition, this strain is highly attenuated in the standard mouse model <ref type="bibr" target="#b16">(17)</ref>, in a mouse hypoxic granuloma model <ref type="bibr" target="#b17">(18)</ref>, and in guinea pig lungs <ref type="bibr" target="#b18">(19)</ref>. The mammalian host lacks a Rel Mtb homolog, and (p)ppGpp-mediated signaling is limited to prokaryotes <ref type="bibr" target="#b45">(46,</ref><ref type="bibr" target="#b46">47)</ref>. Our study provides validation of the stringent response enzyme Rel Mtb as a target for the design of small-molecule inhibitors against TB. Future studies will focus on the utility of Rel Mtb inhibitors as adjuncts in shortening the duration of TB chemotherapy in relevant preclinical animal models.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MATERIALS AND METHODS</head><p>Bacterial strains, growth conditions, and strain construction Mtb H37Rv strain deficient in Rv2583c/rel Mtb (Drel) and the isogenic WT strain <ref type="bibr" target="#b4">(5,</ref><ref type="bibr" target="#b18">19)</ref> were provided by V. Mizrahi. A description of the construction of the Drel mutant strain, which encodes an in-framedeleted form of Rel Mtb lacking the N-terminal region between His94 and Ala413, was provided by Primm et al. <ref type="bibr" target="#b4">(5)</ref>. The complement strain (rel Comp) was generated previously in our laboratory <ref type="bibr" target="#b18">(19)</ref>. The strains used for animal infections were twice-passaged, once through the guinea pig and once through the mouse. Unless otherwise noted, all strains were grown to mid-logarithmic phase (optical density at 600 nm of~0.8) in ambient air at 37°C in Middlebrook 7H9 liquid broth (Difco) supplemented with 10% OADC (oleic acid-albumin-dextrosecatalase) and 0.05% tyloxapol, defined as "nutrient-rich" broth in these studies, whereas PBS containing 0.05% tyloxapol was used for "NS" conditions. The rel Mtb knock-in and empty vector strains were generated in WT CDC1551 Mtb strain using a conditional expression plasmid, pUV15tetORm, which was obtained from Addgene (plasmid no. 17975) <ref type="bibr" target="#b53">(54)</ref>. To generate the rel Mtb knock-in strain, the segment containing the rel Mtb gene, including 2441 base pairs downstream, was cloned using Pac I and Acl I, the sense orientation under control of the tetracycline operator (TetO) responsive mycobacterial promoter (pUVatt relA knock-in). The segment containing attB and Int from pMH94 was cloned into puv15tetORm using the Mfe I and Acl I restriction sites to generate a single-copy plasmid conferring hygromycin resistance <ref type="bibr" target="#b54">(55,</ref><ref type="bibr" target="#b55">56)</ref>. For generation of the empty vector, the segment containing rel Mtb was replaced by the segment containing attB and Int from pMH94 using the Mfe I and Pac I sites (pUVatt empty vector). The integrating plasmids pUVatt rel Mtb knock-in and pUVatt empty vector were introduced into the WT CDC1551 Mtb strain by electroporation, and transformants were selected on hygromycin-containing 7H10 plates. Plasmid insertion was confirmed by polymerase chain reaction (PCR).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>S C I E N C E A D V A N C E S | R E S E A R C H A R T I C L E</head><p>Dutta et al., Sci. Adv. 2019; 5 : eaav2104</p><p>Replication kinetics studies The WT and Drel strains were transformed with a "molecular clock" plasmid, pBP10 [gift of D. Sherman, <ref type="bibr" target="#b30">(31)</ref>], which is slightly defective in replication in the absence of selection. The loss of this plasmid in nonselective media allows a direct measurement of cell division as a function of the ratio of cells containing the plasmid divided by the total number of cells. The rel Comp strain was not used in this assay because of a conflict with the selectable markers. Cells were maintained in media containing kanamycin (30 mg/ml) to prevent plasmid loss. To prevent clumping, which would affect the accuracy of the bacterial counts for these studies, cultures of WT and Drel strains grown in supplemented Middlebrook 7H9 broth were not centrifuged or washed with PBS to remove remaining nutrients. Instead, they were directly diluted either into PBS containing 0.05% tyloxapol (to assess bacterial growth and survival in NS conditions) or 7H9 media + OADC + 0.05% tyloxapol (to assess bacterial growth in nutrient-rich conditions), each lacking kanamycin. Since Tween 80 is relatively unstable and more likely to break down to oleic acid, which can serve as a fatty acid carbon source for the growth of mycobacteria <ref type="bibr" target="#b56">(57)</ref>, the more stable detergent tyloxapol, which is not readily metabolized by mycobacteria, was used to prevent clumping in these studies. However, it is estimated that a volume of 1 to 2% of 7H9 broth was transferred during the dilution of cultures into PBS, thus introducing some nutrients into the latter.</p><p>To determine the replication rates, we used the model introduced by Gill et al. <ref type="bibr" target="#b30">(31)</ref>. For each genotype (WT and Drel) and each condition (rich media = 7H9, NS = NS), the CFU of the total population at time t is denoted as T(t). The observed time points were t = day 0, day 7, day 14, and day 21. The total population T(t) includes cells with plasmids [P(t)] and cells with no plasmids [N(t)], with T(t) = P(t) + N(t). We assumed that cells with and without plasmids replicate at the same rate k and die at the same rate a, giving total growth dynamics</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ðd=dtÞTðtÞ ¼ ðk À aÞTðtÞ</head><p>We assumed that the probability of loss of the plasmid is constant per replication, regardless of the replication rate, as demonstrated by <ref type="bibr">Gill et al. (31)</ref>. We denoted the proportionality constant s and the plasmid loss rate ks, with corresponding dynamics The logarithm of f(t) therefore decreases linearly with the generation number kt, regardless of the death rate. Furthermore, if s is known, then the replication rate k and the death rate a may be estimated independently.</p><p>Because the growth equations involve exponentials, we performed all calculations on a log scale. For each genotype, we calculated log 10 [ f NS (t)/f 7H9 (t)] for each time point independently for three trials, yielding three values for each genotype and time point (day 0, day 7, day 14, and day 21). At day 0, f NS (t) = f 7H9 (t), and by definition, the ratio is 1. For trial 3, data from day 14 and day 21 were absent, yielding only two values for each genotype at these time points.</p><p>We performed a one-sided, equal variance t test of the hypothesis that log 10 [f NS (t)/f 7H9 (t)] is greater for Drel than for WT using the four or six log-scale values at each time point. Means are reported on an arithmetic scale with confidence intervals calculated as 10 m±s , with m and s as the calculated mean and SD of log [f NS (t)/f 7H9 (t)] for each strain, corresponding to the central 68.3% confidence interval.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Metabolomics analysis</head><p>Sample preparation and analysis were performed as previously described <ref type="bibr" target="#b24">(25)</ref>. Before and after NS, cultures of WT and Drel strains were pelleted, samples were extracted in 1 ml of extraction buffer (chloroform:methanol, 2:1), and the extracts were concentrated under nitrogen. The samples were processed and analyzed by Metabolon Inc. (Durham, NC, USA). Bioinformatics analysis was carried out using MetaboAnalyst v.3.5 (www.metaboanalyst.ca), which is a web-based available software for processing metabolomics data, and pathway mapping was performed on the basis of annotated TB metabolic pathways available in the Kyoto Encyclopedia of Genes and Genomes pathway database. Metabolomics data were analyzed by statistical analysis (volcano plots). A univariate statistical analysis involving unpaired t test was used to identify significant differences in the abundances of metabolites between the two groups.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ATP measurements</head><p>Cultures of the WT, Drel, and rel Comp strains were prepared and resuspended in PBS, as described above. Cultures were incubated at 37°C without shaking in 50-ml conical tubes. Samples were taken at day 0 of incubation and then weekly at days 7, 14, and 21. Samples containing~7.5 log 10 bacilli were pelleted, resuspended in 100 ml of mM tris and 4 mM EDTA (pH 7.5) (HCl), and lysed by bead beating. ATP levels in the supernatant were measured by ATP bioluminescence assay (Roche), compared to a standard curve of known ATP concentrations, and normalized to total protein found in the extract. Statistical analysis was performed on three independent culture assays using the Student's t test.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>poly(P) measurements</head><p>Strains were grown to mid-log phase and then resuspended in PBS for up to 24 hours. Samples were collected at time 0 and after 4, 6, 16, and 24 hours of NS or, in the overexpression experiment, simply at mid-log growth in 7H9. Poly(P) levels were measured using a 4′,6-diamidino-2-phenylindole-based method <ref type="bibr" target="#b26">(27,</ref><ref type="bibr" target="#b27">28,</ref><ref type="bibr" target="#b57">58)</ref>. The poly(P) content was normalized to the total protein amount in the lysate. Statistical analysis was performed on three independent culture assays using the Student's t test.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Antibiotic susceptibility</head><p>Equal density cultures of all three strains were incubated in PBS without Tween 80 at 37°C for 7 days and then exposed to concentrations of INH ranging from 0.015 to 245.76 mg/ml for an additional 7 days. Samples were plated on 7H10 and incubated at 37°C for 21 days before</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>S C I E N C E A D V A N C E S | R E S E A R C H A R T I C L E</head><p>Dutta et al., Sci. Adv. 2019; 5 : eaav2104 CFU counting. The MBC was defined as the concentration of INH required to reduce the bacterial density at least 100-fold. Assays were replicated in triplicate.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Infection of animals, chemotherapy, and virulence end points</head><p>Six-week-old female C3HeB/FeJ and BALB/c mice were housed in a biosafety level-3, pathogen-free animal facility and were fed water and chow ad libitum. The animals were maintained, and all procedures were performed according to protocols approved by the Institutional Animal Care and Use Committee at the Johns Hopkins University School of Medicine. These protocols are in accordance with the GSK Policy on the Care, Welfare, and Treatment of Laboratory Animals and the National Institutes of Health (NIH) Guide for the Care and Use of Laboratory Animals.</p><p>BALB/c mice were aerosol-infected with WT, Drel, or rel Comp strains using an inhalation exposure system (Glas-Col) calibrated to deliver~200 bacilli per animal. Beginning at day 28 after infection, groups of mice infected with each strain were treated by gavage, with INH (25 mg/kg per day) or HRZE (H, 10 mg/kg; R, 10 mg/kg; Z, 150 mg/kg; and E, 100 mg/kg) 5 days/week, for a total of 14 days or up to 2 months. Control animals received vehicle by gavage.</p><p>C3HeB/FeJ mice were aerosol-infected either with~1000 WT or Drel bacilli. The implantation dose was confirmed by homogenizing and plating lungs on the day after infection. Animals were then carefully monitored for signs of morbidity, such as rapid breathing, hunched posture, and &gt;20% weight loss. At these signs of terminal disease, animals were euthanized, and lung CFU were enumerated. Data were analyzed using GraphPad Prism version 5.01 for Windows (GraphPad Software).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cloning, expression, and purification of Mtb Rel Mtb</head><p>The Mtb Rel Mtb 53 to 446 construct was purchased from GenScript USA Inc. (Piscataway, NJ, USA). Truncated Rel Mtb was PCR-amplified from genomic DNA and cloned into pET42b (Novagen, Darmstadt, Germany) using Nde l/Hind III restriction sites. The pET24b 6HisFLAG TB Rel Mtb 53 to 446 construct was amplified into E. coli's top 10 cells (Thermo Fisher Scientific Inc.) using a heat shock procedure, and transformant colonies were screened by PCR. Positive clones were verified by DNA sequencing.</p><p>The recombinant protein was expressed in a strain of Rosetta 2 competent cells (Merck KGaA, Darmstadt, Germany) overnight. Following protein expression, the cells were harvested and sonicated in lysis buffer, and cell debris was removed by centrifugation at 13,000 rpm at 4°C for 20 min. Expression of soluble protein was monitored by Novex 4 to 20% Tris-Glycine Protein Gels (Thermo Fisher Scientific Inc.) in reducing running conditions and visualized by instant blue staining (Expedeon Inc., San Diego, CA, USA). Peptide mass fingerprinting (PMF) analysis gave a 49% coverage, which confirms the identity of the protein.</p><p>The supernatant was applied to a 1-ml HisTrap HP column (GE Healthcare Bio-Sciences Corp., Piscataway, NJ, USA) previously equilibrated in 50 mM Na 2 HPO 4 , 300 mM NaCl, and 20 mM imidazole. The protein was then eluted in three steps using ÄKTAxpress (GE Healthcare Bio-Sciences Corp.) with the equilibration buffer by increasing the concentration of imidazole (100, 250, and 500 mM). The chromatogram revealed two peaks that were dialyzed separately using a 10-kDa snake skin (Thermo Fisher Scientific Inc.) overnight at 4°C to remove imidazole. The P1 and P2 pools of His-FLAG-Rel Mtb were further submitted to size exclusion purification, and the supernatant was adjusted to mM NaCl and 10% glycerol before it was applied to a 124-ml HiLoad Superdex 75 16/600 column (GE Healthcare Bio-Sciences Corp.) equilibrated in 50 mM tris base (pH 8.0), 500 mM NaCl, 1 mM dithiothreitol, and 10% glycerol. A similar pattern of three peaks was observed for the P1 and P2 pools. The large peaks obtained in each preparation were pooled together, yielding 108.1 mg of His-FLAG-Rel Mtb with good purity (&gt;95%) by gel densitometry (Synoptics Ltd., Cambridge, UK) from 2 g of cell pellet. Protein concentration was determined by ultraviolet absorbance with a NanoDrop (Thermo Fisher Scientific Inc.) and aliquoted for storage at −80°C. The MW obtained by LC-MS analysis (46,539.5 Da) has an acceptable variation range with respect to the expected mass and indicates the loss of the N-terminal methionine (129.5 Da). These results have been confirmed by PMF analysis as well.</p><p>High-throughput compound screen A detailed description of the high-throughput compound screen is included in the Supplementary Text.</p><p>Phenotypic whole-cell assay at elevated temperature Mtb H37Rv, H37Rv Drel mutant, and the complemented strain <ref type="bibr" target="#b4">(5,</ref><ref type="bibr" target="#b18">19)</ref> were grown at 37°C in Middlebrook 7H9 broth (Difco) supplemented with 0.025% Tween 80 and 10% albumin-dextrose-catalase as the reference media. The measurement of the MIC against Mycobacterium strains for each tested compound was performed in 96-well flat-bottom polystyrene microtiter plates in a final volume of 200 ml. Ten twofold drug dilutions in neat dimethyl sulfoxide starting at 5 mM were performed. Five microliters of drug solutions were added to 100 ml of medium, and INH was used as a control with twofold dilutions starting at mg/ml of INH. To determine the Rel Mtb inhibitor, the phenotype ran two assays: the Rel Mtb essentiality assay with H37Rv and the nonessentiality assay with the H37Rv Drel mutant. In the Rel Mtb essentiality assay, the H37Rv inoculum was standardized to 1.5 × 10 CFU/ml in Middlebrook 7H9 broth (Difco), 0.1% glucose, 10% AS (0.5% albumin in 15mM NaCl), and 0.05% Tween 80 in a 96-well format and incubated for 10 days at 39°C. This inoculum (100 ml) was added to the entire plate, except for column 11, which was used as controls for inhibition. The wells in column 11 were filled with Drel mutant in the same conditions. In the Rel Mtb nonessentiality assay, the H37Rv Drel mutant inoculum was standardized to 10 CFU/ml in Middlebrook 7H9 broth (Difco), 0.1% glucose, 10% AS (0.5% albumin in 15mM NaCl), and 0.05% Tween in a 96-well format and incubated for 7 days at 37°C. Resazurin measurements were done 48 hours after addition of 25 ml of dye solution. Fluorescence was measured using a Fluostar Optima fluorescence plate reader (BMG Labtech) equipped with a 544-nm excitation filter and a 590-nm emission filter.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Activity of Rel Mtb inhibitor against nutrient-starved Mtb</head><p>Early stationary-phase cultures of the WT and Drel strains were centrifuged and resuspended in PBS <ref type="bibr" target="#b29">(30)</ref>, with the exception that 0.05% tyloxapol was added to prevent clumping. Cultures were incubated in the presence of a titration of each of the 39 compounds, ranging from to 128 mM. Fluorescence due to reduction of resazurin (AlamarBlue, Invitrogen) by viable bacilli was read initially and after 7 days of incubation with compounds on a Fluostar Optima fluorescence plate reader, as described above. Fluorescence measurements were normalized to the signal obtained from the culture with 0 mM drug for each individual assay. Statistical analysis was performed on three independent culture assays using the Student's t test.</p><p>Antibiotic susceptibility in combination with X9 Strains were incubated, as above, in PBS for 7 days with the addition of X9 at 0, 0.5, 1, 2, and 4 mM and then exposed for an additional 7 days to concentrations of INH at 0, 0.96, 3.84, 15.36, 31.72, and 61.44 mM. MBC measurements were confirmed with duplicate assays. The rel knock-in and the empty vector control strains were induced with anhydrotetracycline (250 ng/ml).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SUPPLEMENTARY MATERIALS</head><p>Supplementary material for this article is available at http://advances.sciencemag.org/cgi/ content/full/5/3/eaav2104/DC1 Supplementary Text <ref type="table">Table S1</ref>. Molecular clock assay reveals that Rel Mtb deficiency results in ongoing Mtb replication during NS. <ref type="table">Table S2</ref>. Activity of Rel Mtb inhibitor candidates in enzymatic assay and in whole-cell assay against nutrient-starved Mtb. <ref type="table">Table S3</ref>. X9 significantly reduced the MBC of INH (in mg/ml) against Mtb during NS. <ref type="figure">Fig. S1</ref>. Drel shows reduced growth at elevated temperature relative to its WT background strain. <ref type="figure">Fig. S2</ref>. Potent compounds identified by analog search of HTS hits. <ref type="figure" target="#fig_0">Fig. S3</ref>. Chemical structures of the 11 additional active compounds. <ref type="figure" target="#fig_1">Fig. S4</ref>. Chemical synthetic route of X9.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 3 .</head><label>3</label><figDesc>Rel Mtb is required for Mtb growth restriction and modulates intracellular poly(P) content during NS. (A) Cellular ATP concentration from cell lysates, normalized to total protein in extract. (B) Transient accumulation of intracellular poly(P) during NS is Rel Mtb dependent (minimum of three biological replicates). **P &lt; 0.01 and *P &lt; 0.05 S C I E N C E A D V A N C E S | R E S E A R C H A R T I C L E Dutta et al., Sci. Adv. 2019; 5 : eaav2104</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 4 .</head><label>4</label><figDesc>rel Mtb deficiency is associated with attenuated Mtb phenotypes in vivo. (A) The stringent response is required for Mtb tolerance to INH during the chronic phase of infection in mouse lungs. BALB/c mice were aerosol-infected with WT Mtb H37Rv or Drel, and daily (5 days/week) treatment with INH (10 mg/kg) by esophageal gavage was initiated 28 days after infection. ****P &lt; 0.0001. The growth phenotype and treatment response of rel Comp was similar to that of the WT strain (see Results). (B) Rel Mtb is required for Mtb-induced mortality of immune-competent mice with human-like TB pathology. Survival of C3HeB/FeJ mice following a low-dose aerosol infection with either WT or rel Mtb -deficient (Drel) strains of Mtb was monitored for 40 weeks after infection. The starting number of mice in each group was 15. Mouse survival is significantly improved following infection with Drel relative to WT (P &lt; 0.0001).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 5 .</head><label>5</label><figDesc>HTS strategy of GSK compound library. (A) Target inhibition assay using truncated Rel Mtb . (B) Flowchart of Rel Mtb inhibitor screen, yielding 178 hits and representing eight distinct families. Over 2 million compounds were tested at</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 6 .</head><label>6</label><figDesc>Rel Mtb -specific activity of X9 against nutrient-starved Mtb. (A) The Mtb H37Rv WT strain treated with the Rel Mtb inhibitor X9 and the rel Mtb deletion mutant show significantly decreased CFU per milliliter compared to the untreated WT. CFU were determined at day 0 (start of treatment), day 1, and day 7 after treatment. (B) Overexpression of rel Mtb reverses the anti-TB activity of X9 during NS. *P &lt; 0.05 compared to no drug and **P &lt; 0.001 compared to INH.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head></head><label></label><figDesc>ðd=dtÞPðtÞ ¼ ðk À aÞPðtÞ À ks PðtÞ ðd=dtÞNðtÞ ¼ ks PðtÞ þ ðk À aÞNðtÞ Summing these equations recovers the growth rate for the entire population ðd=dtÞ½PðtÞ þ NðtÞ ¼ ðk À aÞ½PðtÞ þ NðtÞ The fraction of plasmid-containing cells at time t is denoted as f(t). The solution of this growth model is TðtÞ ¼ exp½ðk À aÞtTð0Þ PðtÞ ¼ exp½k À aÞt À kstPð0Þ f ðtÞ ¼ PðtÞ=TðtÞ ¼ exp½ÀkstPð0Þ=Tð0Þ</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2">of 13 on March 22, 2019 http://advances.sciencemag.org/ Downloaded from</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3">of 13 on March 22, 2019 http://advances.sciencemag.org/ Downloaded from</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="20">March 2019 4 of 13 on March 22, 2019 http://advances.sciencemag.org/ Downloaded from</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5">of 13 on March 22, 2019 http://advances.sciencemag.org/ Downloaded from</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="6">of 13 on March 22, 2019 http://advances.sciencemag.org/ Downloaded from</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="7">of 13 on March 22, 2019 http://advances.sciencemag.org/ Downloaded from</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="20">March 2019 8 of 13 on March 22, 2019 http://advances.sciencemag.org/ Downloaded from</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="20">March 2019 9 of 13 on March 22, 2019 http://advances.sciencemag.org/ Downloaded from</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="10">of 13 on March 22, 2019 http://advances.sciencemag.org/ Downloaded from</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">Dutta et al., Sci. Adv. 2019; 5 : eaav2104</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="11">of 13 on March 22, 2019 http://advances.sciencemag.org/ Downloaded from</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">Dutta et al., Sci. Adv. 2019; 5 : eaav2104 20 March 2019 12 of 13 on March 22, 2019 http://advances.sciencemag.org/ Downloaded from</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="13">of 13 on March 22, 2019 http://advances.sciencemag.org/ Downloaded from</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgments:</head><p>We would like to acknowledge Metabolon Inc. for generation of the metabolomics data. Funding: This work was supported by R01AI083125, R21AI122922,</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>S C I E N C E A D V A N C E S | R E S E A R C H A R T I C L E</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Microbial persistence</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Mcdermott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Yale J. Biol. Med</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="257" to="291" />
+			<date type="published" when="1958" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W. McDermott, Microbial persistence. Yale J. Biol. Med. 30, 257-291 (1958).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Multiple antibiotic resistance in a bacterium with suppressed autolytic system</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Tomasz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Albino</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Zanati</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">227</biblScope>
+			<biblScope unit="page" from="138" to="140" />
+			<date type="published" when="1970" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Tomasz, A. Albino, E. Zanati, Multiple antibiotic resistance in a bacterium with suppressed autolytic system. Nature 227, 138-140 (1970).</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Inhibition by isoniazid of synthesis of mycolic acids in Mycobacterium tuberculosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">G</forename><surname>Winder</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">B</forename><surname>Collins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Gen. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="41" to="48" />
+			<date type="published" when="1970" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. G. Winder, P. B. Collins, Inhibition by isoniazid of synthesis of mycolic acids in Mycobacterium tuberculosis. J. Gen. Microbiol. 63, 41-48 (1970).</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">In vitro and in vivo activities of new rifamycin derivatives against mycobacterial infections</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Lounis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Roscigno</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Pharm. Des</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="3229" to="3238" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. Lounis, G. Roscigno, In vitro and in vivo activities of new rifamycin derivatives against mycobacterial infections. Curr. Pharm. Des. 10, 3229-3238 (2004).</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The stringent response of Mycobacterium tuberculosis is required for long-term survival</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">P</forename><surname>Primm</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">J</forename><surname>Andersen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Mizrahi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Avarbock</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Rubin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">E</forename><surname>Barry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Bacteriol</title>
+		<imprint>
+			<biblScope unit="volume">182</biblScope>
+			<biblScope unit="page" from="4889" to="4898" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. P. Primm, S. J. Andersen, V. Mizrahi, D. Avarbock, H. Rubin, C. E. Barry III, The stringent response of Mycobacterium tuberculosis is required for long-term survival. J. Bacteriol. 182, 4889-4898 (2000).</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Polyphosphate and stress response in mycobacteria</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Manganelli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="258" to="260" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Manganelli, Polyphosphate and stress response in mycobacteria. Mol. Microbiol. 65, 258-260 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Molecular mechanisms underlying bacterial persisters</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Maisonneuve</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Gerdes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">157</biblScope>
+			<biblScope unit="page" from="539" to="548" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Maisonneuve, K. Gerdes, Molecular mechanisms underlying bacterial persisters. Cell 157, 539-548 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Obg and membrane depolarization are part of a microbial bet-hedging strategy that leads to antibiotic tolerance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Verstraeten</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">J</forename><surname>Knapen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">I</forename><surname>Kint</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Liebens</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Van Den Bergh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Dewachter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Michiels</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Q</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">C</forename><surname>David</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Fierro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Marchal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Beirlant</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Versées</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Hofkens</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Jansen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Fauvart</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Michiels</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="9" to="21" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. Verstraeten, W. J. Knapen, C. I. Kint, V. Liebens, B. Van den Bergh, L. Dewachter, J. E. Michiels, Q. Fu, C. C. David, A. C. Fierro, K. Marchal, J. Beirlant, W. Versées, J. Hofkens, M. Jansen, M. Fauvart, J. Michiels, Obg and membrane depolarization are part of a microbial bet-hedging strategy that leads to antibiotic tolerance. Mol. Cell 59, 9-21 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The RelA/SpoT homolog (RSH) superfamily: Distribution and functional evolution of ppGpp synthetases and hydrolases across the tree of life</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">C</forename><surname>Atkinson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Tenson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Hauryliuk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLOS ONE</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">23479</biblScope>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. C. Atkinson, T. Tenson, V. Hauryliuk, The RelA/SpoT homolog (RSH) superfamily: Distribution and functional evolution of ppGpp synthetases and hydrolases across the tree of life. PLOS ONE 6, e23479 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">The stringent response and Mycobacterium tuberculosis pathogenesis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Prusa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">X</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">L</forename><surname>Stallings</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pathog. Dis</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page">54</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Prusa, D. X. Zhu, C. L. Stallings, The stringent response and Mycobacterium tuberculosis pathogenesis. Pathog. Dis. 76, fty054 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Cloning and characterization of a bifunctional RelA/SpoT homologue from Mycobacterium tuberculosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Avarbock</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Salem</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Rubin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gene</title>
+		<imprint>
+			<biblScope unit="volume">233</biblScope>
+			<biblScope unit="page" from="261" to="269" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Avarbock, J. Salem, L.-s. Li, Z.-m. Wang, H. Rubin, Cloning and characterization of a bifunctional RelA/SpoT homologue from Mycobacterium tuberculosis. Gene 233, 261-269 (1999).</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Functional regulation of the opposing (p)ppGpp synthetase/hydrolase activities of Rel Mtb from Mycobacterium tuberculosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Avarbock</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Avarbock</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J.-S</forename><surname>Teh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Buckstein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Rubin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="9913" to="9923" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Avarbock, D. Avarbock, J.-S. Teh, M. Buckstein, Z.-m. Wang, H. Rubin, Functional regulation of the opposing (p)ppGpp synthetase/hydrolase activities of Rel Mtb from Mycobacterium tuberculosis. Biochemistry 44, 9913-9923 (2005).</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Crystallographic and solution structure of the N-terminal domain of the Rel protein from Mycobacterium tuberculosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Singal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Balakrishna</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Nartey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">S S</forename><surname>Manimekalai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Jeyakanthan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Gruber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FEBS Lett</title>
+		<imprint>
+			<biblScope unit="volume">591</biblScope>
+			<biblScope unit="page" from="2323" to="2337" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Singal, A. M. Balakrishna, W. Nartey, M. S. S. Manimekalai, J. Jeyakanthan, G. Gruber, Crystallographic and solution structure of the N-terminal domain of the Rel protein from Mycobacterium tuberculosis. FEBS Lett. 591, 2323-2337 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Mutational analysis of the (p)ppGpp synthetase activity of the Rel enzyme of Mycobacterium tuberculosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Bag</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Das</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Dasgupta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">K</forename><surname>Bhadra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">196</biblScope>
+			<biblScope unit="page" from="575" to="588" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Bag, B. Das, S. Dasgupta, R. K. Bhadra, Mutational analysis of the (p)ppGpp synthetase activity of the Rel enzyme of Mycobacterium tuberculosis. Arch. Microbiol. 196, 575-588 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Molecular dissection of the mycobacterial stringent response protein Rel</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Jain</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Saleem-Batcha</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>China</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Chatterji</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Sci</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="1449" to="1464" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. Jain, R. Saleem-Batcha, A. China, D. Chatterji, Molecular dissection of the mycobacterial stringent response protein Rel. Protein Sci. 15, 1449-1464 (2006).</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">CarD is an essential regulator of rRNA transcription required for Mycobacterium tuberculosis persistence</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">L</forename><surname>Stallings</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">C</forename><surname>Stephanou</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Chu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Hochschild</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">E</forename><surname>Nickels</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">S</forename><surname>Glickman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">138</biblScope>
+			<biblScope unit="page" from="146" to="159" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. L. Stallings, N. C. Stephanou, L. Chu, A. Hochschild, B. E. Nickels, M. S. Glickman, CarD is an essential regulator of rRNA transcription required for Mycobacterium tuberculosis persistence. Cell 138, 146-159 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The role of Rel Mtb -mediated adaptation to stationary phase in long-term persistence of Mycobacterium tuberculosis in mice</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Dahl</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">N</forename><surname>Kraus</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">I M</forename><surname>Boshoff</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Doan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Foley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Avarbock</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Kaplan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Mizrahi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Rubin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">E</forename><surname>Barry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="10026" to="10031" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. L. Dahl, C. N. Kraus, H. I. M. Boshoff, B. Doan, K. Foley, D. Avarbock, G. Kaplan, V. Mizrahi, H. Rubin, C. E. Barry III, The role of Rel Mtb -mediated adaptation to stationary phase in long-term persistence of Mycobacterium tuberculosis in mice. Proc. Natl. Acad. Sci. U.S.A. 100, 10026-10031 (2003).</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Dormancy phenotype displayed by extracellular Mycobacterium tuberculosis within artificial granulomas in mice</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">C</forename><surname>Karakousis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Yoshimatsu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Lamichhane</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">C</forename><surname>Woolwine</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">L</forename><surname>Nuermberger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Grosset</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">R</forename><surname>Bishai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Med</title>
+		<imprint>
+			<biblScope unit="volume">200</biblScope>
+			<biblScope unit="page" from="647" to="657" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. C. Karakousis, T. Yoshimatsu, G. Lamichhane, S. C. Woolwine, E. L. Nuermberger, J. Grosset, W. R. Bishai, Dormancy phenotype displayed by extracellular Mycobacterium tuberculosis within artificial granulomas in mice. J. Exp. Med. 200, 647-657 (2004).</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">The stringent response is required for full virulence of Mycobacterium tuberculosis in guinea pigs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">G</forename><surname>Klinkenberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J.-H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">R</forename><surname>Bishai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">C</forename><surname>Karakousis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Infect. Dis</title>
+		<imprint>
+			<biblScope unit="volume">202</biblScope>
+			<biblScope unit="page" from="1397" to="1404" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. G. Klinkenberg, J.-H. Lee, W. R. Bishai, P. C. Karakousis, The stringent response is required for full virulence of Mycobacterium tuberculosis in guinea pigs. J. Infect. Dis. 202, 1397-1404 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Essential roles for Mycobacterium tuberculosis Rel beyond the production of (p)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">A</forename><surname>Weiss</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">L</forename><surname>Stallings</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Bacteriol</title>
+		<imprint>
+			<biblScope unit="volume">195</biblScope>
+			<biblScope unit="page" from="5629" to="5638" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. A. Weiss, C. L. Stallings, Essential roles for Mycobacterium tuberculosis Rel beyond the production of (p)ppGpp. J. Bacteriol. 195, 5629-5638 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Inorganic polyphosphate supports resistance and survival of stationary-phase Escherichia coli</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">N</forename><surname>Rao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Kornberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Bacteriol</title>
+		<imprint>
+			<biblScope unit="volume">178</biblScope>
+			<biblScope unit="page" from="1394" to="1400" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. N. Rao, A. Kornberg, Inorganic polyphosphate supports resistance and survival of stationary-phase Escherichia coli. J. Bacteriol. 178, 1394-1400 (1996).</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Latent tuberculosis infection: Myths, models, and molecular mechanisms. Microbiol</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">K</forename><surname>Dutta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">C</forename><surname>Karakousis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Biol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="343" to="371" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. K. Dutta, P. C. Karakousis, Latent tuberculosis infection: Myths, models, and molecular mechanisms. Microbiol. Mol. Biol. Rev. 78, 343-371 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Polyphosphate kinase is involved in stress-induced mprAB-sigE-rel signalling in mycobacteria</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Sureka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Dey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Datta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Dasgupta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Rodrigue</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Basu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Kundu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="261" to="276" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. Sureka, S. Dey, P. Datta, A. K. Singh, A. Dasgupta, S. Rodrigue, J. Basu, M. Kundu, Polyphosphate kinase is involved in stress-induced mprAB-sigE-rel signalling in mycobacteria. Mol. Microbiol. 65, 261-276 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Positive feedback and noise activate the stringent response regulator rel in mycobacteria</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Sureka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Ghosh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Dasgupta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Basu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Kundu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Bose</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLOS ONE</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">1771</biblScope>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. Sureka, B. Ghosh, A. Dasgupta, J. Basu, M. Kundu, I. Bose, Positive feedback and noise activate the stringent response regulator rel in mycobacteria. PLOS ONE 3, e1771 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Deficiency of the novel exopolyphosphatase Rv1026/PPX2 leads to metabolic downshift and altered cell wall permeability in Mycobacterium tuberculosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y.-M</forename><surname>Chuang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Bandyopadhyay</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Rifat</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Rubin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">S</forename><surname>Bader</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">C</forename><surname>Karakousis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">MBio</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="2428" to="2443" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y.-M. Chuang, N. Bandyopadhyay, D. Rifat, H. Rubin, J. S. Bader, P. C. Karakousis, Deficiency of the novel exopolyphosphatase Rv1026/PPX2 leads to metabolic downshift and altered cell wall permeability in Mycobacterium tuberculosis. MBio 6, e02428-15 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">The two PPX-GppA homologues from Mycobacterium tuberculosis have distinct biochemical activities</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">Y</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">L Y</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Tanner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Watt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLOS ONE</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">42561</biblScope>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Y. Choi, Y. Wang, L. L. Y. Wong, B.-t. Lu, W.-y. Chen, J.-d. Huang, J. A. Tanner, R. M. Watt, The two PPX-GppA homologues from Mycobacterium tuberculosis have distinct biochemical activities. PLOS ONE 7, e42561 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">The role of the novel exopolyphosphatase MT0516 in Mycobacterium tuberculosis drug tolerance and persistence</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">M</forename><surname>Thayil</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Morrison</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Schechter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Rubin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">C</forename><surname>Karakousis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLOS ONE</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">28076</biblScope>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. M. Thayil, N. Morrison, N. Schechter, H. Rubin, P. C. Karakousis, The role of the novel exopolyphosphatase MT0516 in Mycobacterium tuberculosis drug tolerance and persistence. PLOS ONE 6, e28076 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">The polyphosphate kinase gene ppk2 is required for Mycobacterium tuberculosis inorganic polyphosphate regulation and virulence</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y.-M</forename><surname>Chuang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Belchis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">C</forename><surname>Karakousis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">MBio</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="39" to="52" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y.-M. Chuang, D. A. Belchis, P. C. Karakousis, The polyphosphate kinase gene ppk2 is required for Mycobacterium tuberculosis inorganic polyphosphate regulation and virulence. MBio 4, e00039-13 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Polyphosphate deficiency in Mycobacterium tuberculosis is associated with enhanced drug susceptibility and impaired growth in guinea pigs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Arora</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Tiwari</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Kidwai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Bacteriol</title>
+		<imprint>
+			<biblScope unit="volume">195</biblScope>
+			<biblScope unit="page" from="2839" to="2851" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Singh, M. Singh, G. Arora, S. Kumar, P. Tiwari, S. Kidwai, Polyphosphate deficiency in Mycobacterium tuberculosis is associated with enhanced drug susceptibility and impaired growth in guinea pigs. J. Bacteriol. 195, 2839-2851 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Altered expression of isoniazid-regulated genes in drug-treated dormant Mycobacterium tuberculosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">C</forename><surname>Karakousis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">P</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">R</forename><surname>Bishai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Antimicrob. Chemother</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="323" to="331" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. C. Karakousis, E. P. Williams, W. R. Bishai, Altered expression of isoniazid-regulated genes in drug-treated dormant Mycobacterium tuberculosis. J. Antimicrob. Chemother. 61, 323-331 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">A replication clock for Mycobacterium tuberculosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">P</forename><surname>Gill</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">S</forename><surname>Harik</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">R</forename><surname>Whiddon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">P</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Mittler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">R</forename><surname>Sherman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Med</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="211" to="214" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W. P. Gill, N. S. Harik, M. R. Whiddon, R. P. Liao, J. E. Mittler, D. R. Sherman, A replication clock for Mycobacterium tuberculosis. Nat. Med. 15, 211-214 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Fumarate reductase activity maintains an energized membrane in anaerobic Mycobacterium tuberculosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Watanabe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Zimmermann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">B</forename><surname>Goodwin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Sauer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">E</forename><surname>Barry</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Iii</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">I</forename><surname>Boshoff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLOS Pathog</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">1002287</biblScope>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Watanabe, M. Zimmermann, M. B. Goodwin, U. Sauer, C. E. Barry III, H. I. Boshoff, Fumarate reductase activity maintains an energized membrane in anaerobic Mycobacterium tuberculosis. PLOS Pathog. 7, e1002287 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Multifunctional essentiality of succinate metabolism in adaptation to hypoxia in Mycobacterium tuberculosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Eoh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">Y</forename><surname>Rhee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="6554" to="6559" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Eoh, K. Y. Rhee, Multifunctional essentiality of succinate metabolism in adaptation to hypoxia in Mycobacterium tuberculosis. Proc. Natl. Acad. Sci. U.S.A. 110, 6554-6559 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Expression of Th1-mediated immunity in mouse lungs induces a Mycobacterium tuberculosis transcription pattern characteristic of nonreplicating persistence</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y.-J</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Tyagi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">L</forename><surname>Gennaro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">J</forename><surname>North</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="241" to="246" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Shi, Y.-J. Jung, S. Tyagi, M. L. Gennaro, R. J. North, Expression of Th1-mediated immunity in mouse lungs induces a Mycobacterium tuberculosis transcription pattern characteristic of nonreplicating persistence. Proc. Natl. Acad. Sci. U.S.A. 100, 241-246 (2003).</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Nutrient-starved, non-replicating Mycobacterium tuberculosis requires respiration, ATP synthase and isocitrate lyase for maintenance of ATP homeostasis and viability</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Gengenbacher</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">P S</forename><surname>Rao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Pethe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Dick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiology</title>
+		<imprint>
+			<biblScope unit="volume">156</biblScope>
+			<biblScope unit="page" from="81" to="87" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Gengenbacher, S. P. S. Rao, K. Pethe, T. Dick, Nutrient-starved, non-replicating Mycobacterium tuberculosis requires respiration, ATP synthase and isocitrate lyase for maintenance of ATP homeostasis and viability. Microbiology 156, 81-87 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">The protonmotive force is required for maintaining ATP homeostasis and viability of hypoxic, nonreplicating Mycobacterium tuberculosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">P S</forename><surname>Rao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Alonso</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Rand</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Dick</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Pethe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="11945" to="11950" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. P. S. Rao, S. Alonso, L. Rand, T. Dick, K. Pethe, The protonmotive force is required for maintaining ATP homeostasis and viability of hypoxic, nonreplicating Mycobacterium tuberculosis. Proc. Natl. Acad. Sci. U.S.A. 105, 11945-11950 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Activity of faropenem with and without rifampicin against Mycobacterium tuberculosis: Evaluation in a whole-blood bactericidal activity trial</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Gurumurthy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Verma</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">M</forename><surname>Naftalin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">H</forename><surname>Hee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Q</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">H</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Issac</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K.-Y</forename><surname>Seng</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">S U</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">I</forename><surname>Paton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Antimicrob. Chemother</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="2012" to="2019" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Gurumurthy, R. Verma, C. M. Naftalin, K. H. Hee, Q. Lu, K. H. Tan, S. Issac, W. Lin, A. Tan, K.-Y. Seng, L. S.-U. Lee, N. I. Paton, Activity of faropenem with and without rifampicin against Mycobacterium tuberculosis: Evaluation in a whole-blood bactericidal activity trial. J. Antimicrob. Chemother. 72, 2012-2019 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">The fate of Mycobacterium tuberculosis in mouse tissues as determined by the microbial enumeration technique. II. The conversion of tuberculous infection to the latent state by the administration of pyrazinamide and a companion drug</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Mccune</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Mcdermott</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Tompsett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Med</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="763" to="802" />
+			<date type="published" when="1956" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. M. McCune Jr., W. McDermott, R. Tompsett, The fate of Mycobacterium tuberculosis in mouse tissues as determined by the microbial enumeration technique. II. The conversion of tuberculous infection to the latent state by the administration of pyrazinamide and a companion drug. J. Exp. Med. 104, 763-802 (1956).</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Replication dynamics of Mycobacterium tuberculosis in chronically infected mice</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">J</forename><surname>Muñoz-Elias</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Timm</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Botha</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W.-T</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Gomez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">D</forename><surname>Mckinney</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Infect. Immun</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="546" to="551" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. J. Muñoz-Elias, J. Timm, T. Botha, W.-T. Chan, J. E. Gomez, J. D. McKinney, Replication dynamics of Mycobacterium tuberculosis in chronically infected mice. Infect. Immun. 73, 546-551 (2004).</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Stress and host immunity amplify Mycobacterium tuberculosis phenotypic heterogeneity and induce nongrowing metabolically active forms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Manina</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Dhar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">D</forename><surname>Mckinney</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Host Microbe</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="32" to="46" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Manina, N. Dhar, J. D. McKinney, Stress and host immunity amplify Mycobacterium tuberculosis phenotypic heterogeneity and induce nongrowing metabolically active forms. Cell Host Microbe 17, 32-46 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Mouse model of necrotic tuberculosis granulomas develops hypoxic lesions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Harper</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Skerry</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">L</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Tasneen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Weir</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Kramnik</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">R</forename><surname>Bishai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">G</forename><surname>Pomper</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">L</forename><surname>Nuermberger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Jain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Infect. Dis</title>
+		<imprint>
+			<biblScope unit="volume">205</biblScope>
+			<biblScope unit="page" from="595" to="602" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Harper, C. Skerry, S. L. Davis, R. Tasneen, M. Weir, I. Kramnik, W. R. Bishai, M. G. Pomper, E. L. Nuermberger, S. K. Jain, Mouse model of necrotic tuberculosis granulomas develops hypoxic lesions. J. Infect. Dis. 205, 595-602 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">A charge reversal differentiates (p)ppGpp synthesis by monofunctional and bifunctional Rel proteins</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Sajish</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Tiwari</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Rananaware</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">K</forename><surname>Nandicoori</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Prakash</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">282</biblScope>
+			<biblScope unit="page" from="34977" to="34983" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Sajish, D. Tiwari, D. Rananaware, V. K. Nandicoori, B. Prakash, A charge reversal differentiates (p)ppGpp synthesis by monofunctional and bifunctional Rel proteins. J. Biol. Chem. 282, 34977-34983 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Conformational antagonism between opposing active sites in a bifunctional RelA/SpoT homolog modulates (p)ppGpp metabolism during the stringent response</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Hogg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Mechold</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Malke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Cashel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Hilgenfeld</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page" from="57" to="68" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Hogg, U. Mechold, H. Malke, M. Cashel, R. Hilgenfeld, Conformational antagonism between opposing active sites in a bifunctional RelA/SpoT homolog modulates (p)ppGpp metabolism during the stringent response [corrected]. Cell 117, 57-68 (2004).</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Drugs for bad bugs: Confronting the challenges of antibacterial discovery</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Payne</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">N</forename><surname>Gwynn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Holmes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">L</forename><surname>Pompliano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Drug Discov</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="29" to="40" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. J. Payne, M. N. Gwynn, D. J. Holmes, D. L. Pompliano, Drugs for bad bugs: Confronting the challenges of antibacterial discovery. Nat. Rev. Drug Discov. 6, 29-40 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Metabolite-enabled eradication of bacterial persisters by aminoglycosides</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">R</forename><surname>Allison</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">P</forename><surname>Brynildsen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename><surname>Collins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">473</biblScope>
+			<biblScope unit="page" from="216" to="220" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. R. Allison, M. P. Brynildsen, J. J. Collins, Metabolite-enabled eradication of bacterial persisters by aminoglycosides. Nature 473, 216-220 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">ppGpp analogues inhibit synthetase activity of Rel proteins from Gramnegative and Gram-positive bacteria</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Wexselblatt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Katzhendler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Saleem-Batcha</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Hilgenfeld</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Glaser</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">R</forename><surname>Vidavski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioorg. Med. Chem</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="4485" to="4497" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Wexselblatt, J. Katzhendler, R. Saleem-Batcha, G. Hansen, R. Hilgenfeld, G. Glaser, R. R. Vidavski, ppGpp analogues inhibit synthetase activity of Rel proteins from Gram- negative and Gram-positive bacteria. Bioorg. Med. Chem. 18, 4485-4497 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Relacin, a novel antibacterial agent targeting the stringent response</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Wexselblatt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Oppenheimer-Shaanan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Kaspy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>London</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Schueler-Furman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Yavin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Glaser</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Katzhendler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Ben-Yehuda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLOS Pathog</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">1002925</biblScope>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Wexselblatt, Y. Oppenheimer-Shaanan, I. Kaspy, N. London, O. Schueler-Furman, E. Yavin, G. Glaser, J. Katzhendler, S. Ben-Yehuda, Relacin, a novel antibacterial agent targeting the stringent response. PLOS Pathog. 8, e1002925 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Design, synthesis and structure-activity relationship of novel Relacin analogs as inhibitors of Rel proteins</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Wexselblatt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Kaspy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Glaser</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Katzhendler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Yavin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Med. Chem</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="497" to="504" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Wexselblatt, I. Kaspy, G. Glaser, J. Katzhendler, E. Yavin, Design, synthesis and structure-activity relationship of novel Relacin analogs as inhibitors of Rel proteins. Eur. J. Med. Chem. 70, 497-504 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Broadspectrum anti-biofilm peptide that targets a cellular stress response</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>De La Fuente-Núñez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Reffuveille</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">F</forename><surname>Haney</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Straus</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">E W</forename><surname>Hancock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLOS Pathog</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">1004152</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. de la Fuente-Núñez, F. Reffuveille, E. F. Haney, S. K. Straus, R. E. W. Hancock, Broad- spectrum anti-biofilm peptide that targets a cellular stress response. PLOS Pathog. 10, e1004152 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">D-enantiomeric peptides that eradicate wild-type and multi-drug resistant biofilms and protect against lethal Pseudomonas aeruginosa infections</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>De La Fuente-Núñez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Reffuveille</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">C</forename><surname>Mansour</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">L</forename><surname>Reckseidler-Zenteno</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Hernández</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Brackman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Coenye</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">E W</forename><surname>Hancock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="196" to="205" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. de la Fuente-Núñez, F. Reffuveille, S. C. Mansour, S. L. Reckseidler-Zenteno, D. Hernández, G. Brackman, T. Coenye, R. E. W. Hancock, D-enantiomeric peptides that eradicate wild-type and multi-drug resistant biofilms and protect against lethal Pseudomonas aeruginosa infections. Chem. Biol. 22, 196-205 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Synthetic (p)ppGpp analogue is an inhibitor of stringent response in mycobacteria</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Syal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Flentie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Bhardwaj</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Maiti</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Jayaraman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">L</forename><surname>Stallings</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Chatterji</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Antimicrob. Agents Chemother</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="443" to="460" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. Syal, K. Flentie, N. Bhardwaj, K. Maiti, N. Jayaraman, C. L. Stallings, D. Chatterji, Synthetic (p)ppGpp analogue is an inhibitor of stringent response in mycobacteria. Antimicrob. Agents Chemother. 61, e00443-17 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Linking the transcriptional profiles and the physiological states of Mycobacterium tuberculosis during an extended intracellular infection</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">H</forename><surname>Rohde</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">F T</forename><surname>Veiga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Caldwell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Balázsi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">G</forename><surname>Russell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLOS Pathog</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">1002769</biblScope>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. H. Rohde, D. F. T. Veiga, S. Caldwell, G. Balázsi, D. G. Russell, Linking the transcriptional profiles and the physiological states of Mycobacterium tuberculosis during an extended intracellular infection. PLOS Pathog. 8, e1002769 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Differential antibiotic susceptibilities of starved Mycobacterium tuberculosis isolates</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Siddiqi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">J</forename><surname>Rubin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Antimicrob. Agents Chemother</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="4778" to="4780" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Z. Xie, N. Siddiqi, E. J. Rubin, Differential antibiotic susceptibilities of starved Mycobacterium tuberculosis isolates. Antimicrob. Agents Chemother. 49, 4778-4780 (2005).</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Silencing Mycobacterium smegmatis by using tetracycline repressors</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><forename type="middle">V</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Monteleone</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Klotzsche</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Kamionka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Hillen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Braunstein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Ehrt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Schnappinger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Bacteriol</title>
+		<imprint>
+			<biblScope unit="volume">189</biblScope>
+			<biblScope unit="page" from="4614" to="4623" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">X. V. Guo, M. Monteleone, M. Klotzsche, A. Kamionka, W. Hillen, M. Braunstein, S. Ehrt, D. Schnappinger, Silencing Mycobacterium smegmatis by using tetracycline repressors. J. Bacteriol. 189, 4614-4623 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Construction and characterization of a Mycobacterium tuberculosis mutant lacking the alternate sigma factor gene, sigF</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">E</forename><surname>Ruiz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Q</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">F</forename><surname>Silver</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">R</forename><surname>Bishai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Infect. Immun</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="5575" to="5580" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Chen, R. E. Ruiz, Q. Li, R. F. Silver, W. R. Bishai, Construction and characterization of a Mycobacterium tuberculosis mutant lacking the alternate sigma factor gene, sigF. Infect. Immun. 68, 5575-5580 (2000).</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Site-specific integration of mycobacteriophage L5: Integration-proficient vectors for Mycobacterium smegmatis, Mycobacterium tuberculosis, and bacille Calmette-Guérin</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Pascopella</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">R</forename><surname>Jacobs</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">F</forename><surname>Hatfull</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="3111" to="3115" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. H. Lee, L. Pascopella, W. R. Jacobs Jr., G. F. Hatfull, Site-specific integration of mycobacteriophage L5: Integration-proficient vectors for Mycobacterium smegmatis, Mycobacterium tuberculosis, and bacille Calmette-Guérin. Proc. Natl. Acad. Sci. U.S.A. 88, 3111-3115 (1991).</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Factors affecting the growth of Tubercle Bacilli in liquid media</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">J</forename><surname>Dubos</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">D</forename><surname>Davis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Med</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="409" to="423" />
+			<date type="published" when="1946" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. J. Dubos, B. D. Davis, Factors affecting the growth of Tubercle Bacilli in liquid media. J. Exp. Med. 83, 409-423 (1946).</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">High sensitivity, quantitative measurements of polyphosphate using a new DAPI-based approach</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Aschar-Sobbi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">Y</forename><surname>Abramov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Diao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E</forename><surname>Kargacin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">J</forename><surname>Kargacin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">J</forename><surname>French</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Pavlov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Fluoresc</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="859" to="866" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Aschar-Sobbi, A. Y. Abramov, C. Diao, M. E. Kargacin, G. J. Kargacin, R. J. French, E. Pavlov, High sensitivity, quantitative measurements of polyphosphate using a new DAPI-based approach. J. Fluoresc. 18, 859-866 (2008).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
