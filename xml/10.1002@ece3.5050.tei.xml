@@ -1,0 +1,2786 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/grace/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">3D Printing: Applications in evolution and ecology</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matthew</forename><surname>Walker</surname></persName>
+							<email>matthew.walker92@outlook.com</email>
+							<idno type="ORCID">0000-0002-9865-1375</idno>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stuart</forename><surname>Humphries</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseph</forename><surname>Banks</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>E Y W O R D S</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Humphries</forename><forename type="middle">S</forename><surname>3d</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">School of Life Sciences</orgName>
+								<orgName type="institution">University of Lincoln</orgName>
+								<address>
+									<settlement>Lincoln</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Lincoln</orgName>
+								<address>
+									<settlement>Lincoln</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">3D Printing: Applications in evolution and ecology</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1002/ece3.5050</idno>
+					<note type="submission">Received: 31 January 2018 | Revised: 17 February 2019 | Accepted: 19 February 2019</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-09-14T02:28+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">| INTRODUC TI ON</head><p>Studies of ecology and evolution often use equipment which has been made by the investigators, for a diverse range of applications and exhibits a high level of creativity. 3D printing offers an opportunity to produce equipment which can be shared with the scientific community, allowing other investigators to replicate studies with more accuracy than before, strengthening the open science movement <ref type="bibr" target="#b5">(Baden et al., 2015;</ref><ref type="bibr" target="#b69">Pearce, 2014)</ref>. Furthermore, 3D printing offers timesavings over traditional manufacturing methods, as the process is largely automated. As well as simple models, 3D printing makes it possible to generate complex morphologies accurately, produce laboratory equipment and generate models for teaching and outreach. 3D printing also removes ethical concerns over using live animals for experimental manipulation.</p><p>Previous studies that have used models in one form or another could be improved using 3D printing (e.g., in <ref type="bibr" target="#b26">Fraisse, Bormans, &amp; Lagadeuc, 2015)</ref>. Many studies might simply benefit from the increased consistency of the technique, reduction in costs, and ease of production. For some studies, 3D printing would offer the opportunity to conduct the research using more life-like models, which may elicit more appropriate responses from the organisms</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>involved.</head><p>The technique of 3D printing encompasses a range of manufacturing methods (see <ref type="table">Table 1</ref>, Box 1 for an introduction and <ref type="figure">Figure 1</ref> for a generalized workflow), which may be referred to as rapid prototyping, desktop-, additive-, or rapid-manufacturing. Originating with stereolithography (SLA) using a specific photosensitive polymer <ref type="bibr" target="#b93">(Wong &amp; Hernandez, 2012)</ref>, the technology now allows printing with a variety of materials with diverse properties <ref type="bibr" target="#b10">(Berman, 2012</ref>, see <ref type="table">Table 1</ref>), including soft, flexible materials <ref type="bibr" target="#b0">(Abdollahi, Davis, Miller, &amp; Feinberg, 2018)</ref>. Each 3D printing method has its own advantages and disadvantages (see <ref type="table">Table 1</ref>), but overall the technique offers a method of creating objects in a way that is more like organic growth than traditional "subtractive" methods. Rather than removing material to create an object, 3D printing builds layers up by adding material as a series of thin slices <ref type="bibr" target="#b93">(Wong &amp; Hernandez, 2012)</ref>.</p><p>In many fields, 3D printing is an established methodology. In medicine, it has been used for almost 20 years to make surgical guides used to plan surgery <ref type="bibr">(Cohen, Laviv, Berman, Nashef, &amp; Abu-Tair</ref>  <ref type="bibr" target="#b14">(Bristowe et al., 2004)</ref> Examples, from papers cited in the main text are provided to illustrate applications. Layer thicknesses are approximate as specific makes and models of 3D printers will vary. A guide of prices for different technology types can be found in <ref type="table" target="#tab_1">Table 2</ref> 2009; D'Urso, 1999; <ref type="bibr" target="#b31">Gerstle, Ibrahim, Kim, Lee, &amp; Lin, 2014;</ref><ref type="bibr" target="#b76">Rengier et al., 2010)</ref>. Technological developments now allow 3D printing of metals <ref type="bibr" target="#b62">(Murr et al., 2012)</ref>, permitting prosthetics to be custom-made for the patient <ref type="bibr" target="#b77">(Sing, An, Yeong, &amp; Wiria, 2016)</ref>. 3D printing is used in microbiology <ref type="bibr" target="#b19">(Connell, Ritschdorff, Whiteley, &amp; Shear, 2013)</ref>, tissue culture, and the development of replacement <ref type="bibr" target="#b23">(Duan, Hockaday, Kang, &amp; Butcher, 2013)</ref>, and bionic <ref type="bibr" target="#b56">(Mannoor et al., 2013)</ref> organs.</p><p>In all of these areas, the technique has led to the development of new methods <ref type="bibr" target="#b18">(Cohen et al., 2009;</ref><ref type="bibr" target="#b19">Connell et al., 2013;</ref><ref type="bibr" target="#b21">D'Urso et al., 1999;</ref><ref type="bibr" target="#b23">Duan et al., 2013;</ref><ref type="bibr" target="#b24">Ebert et al., 2009;</ref><ref type="bibr" target="#b33">Herbert, Simpson, Spence, &amp; Ion, 2005;</ref><ref type="bibr" target="#b56">Mannoor et al., 2013;</ref><ref type="bibr" target="#b76">Rengier et al., 2010)</ref>.</p><p>With falling costs <ref type="bibr" target="#b36">(Hoy, 2013)</ref>, 3D printing has also become more common in Science and Engineering and, its use is rapidly expanding.</p><p>There are also many instances where standard equipment does not meet the needs of the investigators <ref type="bibr" target="#b53">(Lücking, Sambale, Beutel, &amp; Scheper, 2015)</ref>. However, with some knowledge of CAD software, many bespoke items can be designed and printed in-house.</p><p>Furthermore, the files can be easily sent to collaborators or included with publications. For example, microfluidic devices are commonly used for a range of experiments involving processes such as bacterial chemotaxis <ref type="bibr" target="#b2">(Ahmed, Shimizu, &amp; Stocker, 2010)</ref>, pollution monitoring, clinical diagnosis, drug discovery, and biohazard detection <ref type="bibr" target="#b35">(Holmes &amp; Gawad, 2010;</ref><ref type="bibr" target="#b95">Yazdi et al., 2016)</ref>. Where printing resolution allows, the use of 3D printing to create either molds for Polydimethylsiloxane (PDMS) chambers or to directly print the chambers is becoming increasingly popular <ref type="bibr" target="#b12">(Bonyár et al., 2010;</ref><ref type="bibr" target="#b34">Ho, Ng, Li, &amp; Yoon, 2015;</ref><ref type="bibr" target="#b40">Kamei et al., 2015;</ref><ref type="bibr" target="#b42">Kitson, Rosnes, Sans, Dragone, &amp; Cronin, 2012;</ref><ref type="bibr" target="#b52">Lee et al., 2014;</ref><ref type="bibr" target="#b95">Yazdi et al., 2016)</ref> over the time-consuming and often expensive process of creating a mold using traditional techniques <ref type="bibr" target="#b87">(Waldbaur, Rapp, Länge, &amp; Rapp, 2011)</ref>. The ability to quickly produce and test designs using the 3D printing process is also highly valuable, especially where new devices need to be developed.</p><p>3D printing can also significantly reduce the cost of standard laboratory equipment (e.g., laboratory jacks, retort stands, Eppendorf pipettes, and equipment holders), by up to 97% compared to vendors pricing <ref type="bibr" target="#b96">(Zhang, Anzalone, Faria, &amp; Pearce, 2013)</ref>. Despite the high initial cost of a 3D printer, the cost per unit in materials is low <ref type="bibr" target="#b42">(Kitson et al., 2012;</ref><ref type="bibr" target="#b87">Waldbaur et al., 2011)</ref>. In addition to financial benefits, time savings can be dramatic. Electronic files containing all the information needed to 3D print equipment can be obtained from a number of online sources <ref type="bibr" target="#b5">(Baden et al., 2015;</ref><ref type="bibr" target="#b91">Willermet, 2016, as</ref> used by <ref type="bibr" target="#b13">Brandley, Johnson, &amp; Johnsen, 2016)</ref> and printed immediately. Thus, even with next day shipping from equipment vendors, downloading and 3D printing is far faster <ref type="bibr" target="#b96">(Zhang et al., 2013)</ref>. As hardware reduces in cost 3D printing becomes accessible to individuals and small laboratory groups <ref type="bibr" target="#b36">(Hoy, 2013)</ref>. Additionally, there are now a number of commercial print-on-demand 3D printing companies, allowing researchers with more limited budgets to obtain printed models without the cost of buying hardware (e.g., McDougal &amp; Shepherd, 2015).</p><p>Another blossoming application is the use of 3D models in teaching and learning, a key part of encouraging the next generation of scientists and engaging the public with research. Students with visual impairment, and members of the public can explore both large <ref type="bibr">(Larkin, personal communication)</ref> and microscopic fossils <ref type="bibr" target="#b41">(Kaplan &amp; Pyayt, 2015;</ref><ref type="bibr" target="#b75">Rahman, Adcock, &amp; Garwood, 2012;</ref><ref type="bibr" target="#b84">Teshima et al., 2010)</ref> which can be scaled to be easily held. This approach has been used to enable those with visual impairment to learn about microscopic planktonic organisms <ref type="bibr" target="#b84">(Teshima et al., 2010)</ref>, as well as cells undergoing mitosis, striated muscle cells, and neuromuscular junctions <ref type="bibr" target="#b47">(Kolitsky, 2014)</ref>. Such models could also be used by students who are unable to use microscopes due to motor impairment.</p><p>Furthermore, to make complex microscopic features accessible bacteria, viruses, proteins, enzymes <ref type="bibr" target="#b30">(Gardner &amp; Olson, 2016)</ref>, molecules <ref type="bibr" target="#b7">(Bara, Heath Turner, Zhang, &amp; Hawkins, 2015)</ref> Compared to digital models and textbooks, models of complex anatomical structures, such as the human heart <ref type="bibr" target="#b41">(Kaplan &amp; Pyayt, 2015)</ref> and horses' feet <ref type="bibr" target="#b72">(Preece, Williams, Lam, &amp; Weller, 2013)</ref>, provide the opportunity for the learner to interact with the subject, permitting physical exploration of the structures.</p><p>Box 1 3D printing: an introduction Before 3D printing an object, the technique to be used needs to be chosen. <ref type="table">Table 1</ref> outlines some 3D printing methods and Once the 3D printer has produced the model, there is often a level of postprint processing. The model may need to be cleaned in alcohol to remove excess resin in the case of SLA.</p><p>Most 3D printers need a scaffold of material to support the model during printing, which needs to be removed after printing. In some cases, the support material is different from the final model (e.g., FFD) so can be dissolved, otherwise it needs to be cut (e.g., SLA). Powder based 3D printing technologies use the surrounding powder to support the model during printing.</p><p>This means that the model will need to be removed and dusted, while some powder-based models may need impregnating with binder (glue or similar) to solidify the object completely.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>This review focuses on the advances within Ecology and</head><p>Evolution, and related fields, which have been driven by 3D printing.</p><p>Examples of how 3D printing could be used are provided throughout, with the hope of inspiring the reader.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">| E VOLUTION</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">| Morphology and coloration</head><p>Understanding both the inter-and intra-specific signals organisms convey to one another is a core aim for evolutionary, ecological, and behavioral studies. Unpicking relationships between organisms and the signals that mediate them is often achieved through manipulative experiments <ref type="bibr" target="#b4">(Andersson, 1994;</ref><ref type="bibr" target="#b48">Krebs &amp; Davies, 1993)</ref>. Here, 3D printed objects offer great benefit as they can be produced to specifications not possible with real organisms. An illustrative example is animal coloration. The communication of an individual's fitness through coloration is common, especially in males <ref type="bibr" target="#b4">(Andersson, 1994;</ref><ref type="bibr" target="#b48">Krebs &amp; Davies, 1993;</ref><ref type="bibr" target="#b83">Svensson &amp; Wong, 2011)</ref>. Testing the influence of coloration on mating success or other interactions is normally done through comparison between an individual's brightness and the rest of the population <ref type="bibr" target="#b20">(Crothers &amp; Cummings, 2015)</ref>. However, this process is time consuming and may require the capture, and associated stress, of animals. Being able to produce 3D printed models of animals, that can be colored to account for the species' visual system, allows direct manipulation of a visual signal, while maintaining (and controlling) morphology to encourage responses. This approach has been used to investigate the coloration of the poison frog, Oophaga pumilio,</p><p>where brightness was found to be an indicator of more aggressive males <ref type="bibr" target="#b20">(Crothers &amp; Cummings, 2015)</ref>. Similarly, <ref type="bibr" target="#b13">Brandley et al. (2016)</ref> investigated the evolution of the red "hourglass" mark of the black widow spider (Latrodectus spp.), which is believed to be aposematic (a warning to deter predators). Hand-painted 3D</p><p>printed models of the spiders received fewer predation attempts when models exhibited the red hourglass marking <ref type="bibr" target="#b13">(Brandley et al., 2016)</ref>.</p><p>While bright coloration is often considered an honest sexual signal, the presence of distinctive colors may result in high predation rates, reduced immune response and increased oxidative stress <ref type="bibr" target="#b83">(Svensson &amp; Wong, 2011</ref>), suggesting a trade-off between natural and sexual selection. For example, individuals in low-risk environments are often more brightly colored than those in high-risk environments <ref type="bibr" target="#b25">(Endler, 1982</ref> 3D prints do not always need to be the final model-they can also be used to create a mold. This approach was used by <ref type="bibr" target="#b70">Policha et al. (2016)</ref> to understand the visual and olfactory components of flower attraction. Silicone models from 3D printed molds allowed the separation of visual and olfactory cues in the Dracula orchid F I G U R E 1 A generalized work flow of 3D printing. The digital model can be obtained from a biological specimen. If the model is laboratory equipment or does not need to be an exact replica of the structure of interest (e.g., <ref type="bibr">Campos et al., 2015, see below)</ref> then the model can be generated using Computer Aided Design (CAD). Finally, either type of model (i.e., CAD or scan based) can be downloaded from commercial sites, collaborators, or other researcher's publications (Dracula lafleuri). This species mimics mushrooms to attract flies, which then pollinate the plant. The authors used accurate scent-free silicone models ( <ref type="figure">Figure 2d</ref>) to show that flies are attracted to both visual and olfactory cues, with a synergistic effect suggesting that it is driven by multimodal mimicry of the mushrooms by the plant <ref type="bibr" target="#b70">(Policha et al., 2016)</ref>. Similarly, Campos et al. <ref type="bibr" target="#b15">(Campos, Bradshaw, &amp; Daniel, 2015)</ref> used 3D printed flower analogues to investigate the effect of flower morphology on hawkmoth (Manduca sexta) feeding.</p><p>Using flower mimics from a flat disk to a realistic trumpet shape (see <ref type="figure">Figure 2c</ref>), they found support for the theory that flower trumpets act as a mechanical guide, despite the printed "flowers" lacking the coloration and flexural properties of the real flower <ref type="bibr" target="#b15">(Campos et al., 2015</ref>). Both models produced for these studies would be difficult to fashion using traditional techniques, and the studies show how CAD and 3D printing allow flexibility in design while facilitating the production of multiple identical units.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">| Biomechanics</head><p>Biomechanics allows researchers to link form to function, a key part of evolutionary biology. Here, 3D printing offers an opportunity to produce realistic models of whole or parts of organisms which can be used to test theories about shape and function of structures.</p><p>As demonstrated by <ref type="bibr" target="#b70">Policha et al. (2016)</ref>   Data from www.aniwaa.com, 3D printers with the highest customer rating for each technology were chosen. <ref type="bibr" target="#b61">(Morris &amp; Mason, 1995)</ref>. By changing the material properties of the chamber (photopolymer resin in the 3D model, instead of insect cuticle), <ref type="bibr" target="#b39">Jonsson et al. (2017)</ref> showed that the morphology of the structure alone is responsible for the amplification of sound. Surface texture can also be modeled well by 3D printing. In an examination of ice formation on surfaces, 3D printing was used to replicate surface textures of blue mussels, (Mytilus edulis), Antarctic sea urchin (Sterechinus neumayeri), and sub-polar butterclams (Saxidomas nuttalli) <ref type="figure">(Figure 2a</ref>). MehrabaniRay, Tse, and Evangelista (2014) found that the ridges and bumps present on all tested surfaces reduced F I G U R E 2 Examples of 3D printed objects from the studies described in the text. (a) Top, Butterclam shell (Saxidomas nuttalli), and below textured 3D print replicating surface structure to test ice formation <ref type="bibr" target="#b58">(Mehrabani et al., 2014)</ref>. Reproduced with permissions from PeerJ. (b) Left, a dead female Emerald Ash Borer (Agrilus planipennis) decoy used to bait traps and on the right a 3D printed model. Below, the real decoy and model mounted on a trap <ref type="bibr" target="#b22">(Domingue et al. 2015)</ref>. Reproduced with permissions from Journal of Pest Science. (c) Top, a hawkmoth (Manduca sexta), using its proboscis to probe a flower, and below a CAD model of the 3D printed "flowers" used by <ref type="bibr" target="#b15">Campos et al. (2015)</ref>. Reproduced with permissions from Functional Ecology. (d) Flower of the Dracula Orchid (Dracula lafleuri) and silicone model used to separate visual and olfactory cues <ref type="bibr" target="#b70">(Policha et al., 2016)</ref>. Reproduced with permissions from New Phytologist. (e) Top left, an Environmental Scanning Electron Microscope image of bonnethead shark (Sphyrna tiburo) skin. Scale bar 100 µm. Top right, a digital model of a denticle. Bottom left, SEM images of 3D printed denticles embedded in membrane. Bottom Right, a single 3D printed denticle approximately 1.5 mm in length <ref type="bibr" target="#b90">(Wen et al., 2014)</ref>. Reproduced with permissions from Journal of Experimental Biology. (f) Top, Micro-CT scan images of a seahorse (Hippocampus spp.) tail. Middle, a 3D printed model based on the micro-CT scan. Bottom, a 3D printed hypothetical tail structure. These models were used to assess how the square cross-section of the seahorse tail grips and resists crushing compared to the round cross-section <ref type="bibr" target="#b71">(Porter et al., 2015)</ref>. Reproduced with permissions from Science ice formation at −20°C, but the role of surface texture was limited to approximately 6%. Such 3D models have the advantage of having the same material properties, allowing only the variable under investigation to be modified.</p><p>Another use of 3D printing is to produce low cost, highly accurate objects for calibration. Many studies use cameras to record and facilitate later analysis, and cameras must be calibrated beforehand for measurement data to be meaningful. <ref type="bibr">Koehler, Liang, Gaston, Wan,</ref> and Dong (2012) investigated deformation of dragonfly wings during flight to better understand the aerodynamics, structural dynamics, and control of the wing. By 3D printing their calibration rig (with a resolution of 25 µm), the calibration points could be placed accurately, permitting the exacting calibration required for this study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">| Fluid dynamics</head><p>Biological fluid dynamics is an area that is being changed dramatically with the use of 3D printing. The complex geometries of sponges and corals have been 3D printed to enable investigations of the fluid flow around organisms without the need to culture or remove them from their habitats <ref type="bibr" target="#b49">(Kruszyński &amp; van Liere, 2009)</ref>. 3D printed models could also be used to examine the flow of fluids through organisms, such as the machined steel models of sponges used by <ref type="bibr" target="#b86">Vogel (1974)</ref>, As well as enabling production of scaled models of microscopic structures, 3D printing can be used to recreate small structures while providing the opportunity to manipulate their shape. Shark skin has small tooth-like projections (denticles), which have been studied since the 1970s for applications in industry, as they are thought to reduce drag and have antifouling properties <ref type="bibr" target="#b66">(Oeffner &amp; Lauder, 2012;</ref><ref type="bibr" target="#b73">Pu, Li, &amp; Huang, 2016)</ref>. <ref type="bibr" target="#b90">Wen, Weaver, and Lauder (2014)</ref> used 3D</p><p>printed shark skin <ref type="figure">(Figure 2e</ref>) to examine water flow over denticles, finding that they reduce drag compared to a flat surface, leading to a predicted increase in swimming efficiency under certain conditions.</p><p>In this instance, 3D printing allowed manipulation of the surface (i.e., denticle distribution and flexibility of the "skin") and removed ethical issues of using real skin. Wen et al.'s (2014) findings were echoed by <ref type="bibr" target="#b51">Lauder et al. (2016)</ref>, who also demonstrated the ability of 3D printing to accurately produce objects which are microscopic (10 by 15 µm).</p><p>3D printed models can be used to test or ground-truth computational models and to perform experiments which would not be otherwise possible. An example is the recreation of the airways of Scincus scincus. This species of skink spends its life below the sand, moving in a fish-like manner, hence its common name "sandfish lizard." Despite breathing while under the sand, <ref type="bibr" target="#b80">Stadler et al. (2016)</ref>  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">| PALEOB I OLOGY AND CUR ATI ON</head><p>Reproducing fossil material is traditionally achieved using molds and casts <ref type="bibr" target="#b88">(Waters, 1983)</ref>, which often involves high temperatures <ref type="bibr" target="#b9">(Benton &amp; Walker, 1981)</ref> or chemicals <ref type="bibr" target="#b74">(Purnell, 2003;</ref><ref type="bibr" target="#b79">Spjeldnaes, 1963)</ref>, which can be harmful and may damage delicate specimens <ref type="bibr" target="#b14">(Bristowe, Parrott, Hack, Pencharz, &amp; Raath, 2004;</ref><ref type="bibr" target="#b74">Purnell, 2003)</ref>. In comparison, scanning and 3D printing of fossil material has far fewer risks. In an early example of 3D printing in this field <ref type="bibr" target="#b14">Bristowe et al. (2004)</ref> created models of the thin bones of the dinosaur Coelophysis rhodesiensis to avoid damaging the fragile fossil. However, as the technology available at the time was limited to Fused Filament Deposition (FFD) 3D</p><p>printing <ref type="table">(Table 1)</ref> with paraffin wax, the prints were easily damaged.</p><p>Such delicate paraffin wax bones could now be printed using alternative methods and materials to produce more robust models. In some instances, scanning and 3D printing has allowed nondestructive recreation of remains that only exist as cavities in a stone matrix, such as <ref type="bibr" target="#b17">Clark's , Adams, Lawton, Cruickshank, and Woods (2004)</ref>  broken into many pieces and had undergone taphonomic distortion in the 24,500 years since its burial <ref type="bibr" target="#b3">(Almeida et al., 2007)</ref>. The skull was digitally reconstructed then 3D printed twice; one of the skulls was placed on display and the other used for facial reconstruction <ref type="bibr" target="#b3">(Almeida et al., 2007)</ref>.</p><p>In the past, models have been a major point of interaction with both the public in museums and for teaching. These models are often expensive and can be fragile. 3D printed models are often robust and can be made in-house relatively quickly and cheaply. These models can be printed in color, and dependent on the method a range of colors can be offered and prints can include multiple colors and transparent material <ref type="bibr" target="#b8">(Begolo, Zhukov, Selck, Li, &amp; Ismagilov, 2014;</ref><ref type="bibr" target="#b78">Sitthi-amorn et al., 2015)</ref>, so that internal details can be seen <ref type="bibr" target="#b11">(Blackburn, 2017)</ref>. These accurate models can be interactive, such as a model of a flint axe <ref type="bibr" target="#b29">(Galvin, 2017)</ref>, allowing people to understand more about an object (in this case how it was constructed). <ref type="bibr" target="#b65">Niven, Steele, Finke, Gernat, and Hublin (2009)</ref> envisaged the use of 3D printing as an opportunity for museum collections to expand the number of exhibits they hold by repairing skeletons, or by combining pieces of specimens already present in collections with 3D</p><p>printed pieces. For example, the Quagga (Equus quagga quagga) skeleton on display in the Grant Museum of Zoology (University College London) has a 3D printed left leg replacing a missing limb, created by CT scanning the right leg and mirroring the data <ref type="bibr" target="#b50">(Larkin &amp; Porro, 2016</ref>). This approach is also being used to replace forelimb bones missing from a recently deceased Fin Whale, Balaenoptera physalus <ref type="bibr">(Larkin, personal communication)</ref>. By using a photogrammetric scan of the forelimb of a different specimen it has been possible to appropriately scale and print replacement bones for mounting with the real skeleton <ref type="bibr">(Larkin, personal communication)</ref>. Alternatively, scanned animals from other collections might be printed in a museum so that more locations have copies of specimens. By diversifying their natural history collections, museums can facilitate research and allow visitors to experience more <ref type="bibr" target="#b65">(Niven et al., 2009)</ref>.</p><p>Using 3D printed models reduces damage to fossils by: not requiring climate (temperature and humidity) controlled display cases making them both easier and cheaper to display <ref type="bibr" target="#b3">(Almeida et al., 2007)</ref>; the fossils do not have to be transported to and from mountmaker's studios; and 3D prints prevent over handling of the fossils, while allowing the creation of custom well-fitting support structures <ref type="bibr" target="#b55">(Mallison, 2011)</ref>. Instead of mounting the fossil material, lighter 3D</p><p>printed replicas can be used, which require fewer mounts. As the 3D print can be drilled into, more esthetically pleasing internal support structures can be built. 3D printing can also allow replicas of scientifically important but normally inaccessible parts of specimens such as the palate or inner ear bones to be placed on display <ref type="bibr">(Larkin, personal communication)</ref> and for use in research.</p><p>As <ref type="bibr" target="#b44">Koehl (2003)</ref> suggests, it is often quicker to make a physical model than to develop a computer simulation. The process of making physical models can now be even more accurate, as 3D printing based on CT scans allows increased realism, particularly as the use of models in research has traditionally been something of an art form. For example, physical modeling has been used in the assessment of how suitable feathers seen on preserved fossils of dinosaurs (Microraptor gui) could have been suitable for gliding or flight <ref type="bibr" target="#b45">(Koehl, Evangelista, &amp; Yang, 2011)</ref>. The models of M. gui used were originally made from foam with a wire skeleton, then updated to a steel and aluminum skeleton with polymer clay "flesh," with feathers inserted to the foam or clay. By using 3D printing to create accurate skeletons it should be possible to build more realistic models that allow for more natural placement of feathers.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">| ECO LO GY</head><p>Models of organisms or their parts are an excellent way to disentangle covarying factors <ref type="bibr" target="#b44">(Koehl, 2003)</ref>. In some instances, 3D-printed models need not be biologically accurate. This has been exploited, for example, to isolate the influence of shape, color, odor, and chemical rewards in plant pollination. While flower nectar is an attractant and reward <ref type="bibr" target="#b85">(Thomson, Draguleasa, &amp; Tan, 2015)</ref>, some nectar also contains caffeine, which both a stimulant and toxic to most organisms. While flower nectar is an attractant and reward, many plants produce nectar that is toxic or repellent to some floral visitors <ref type="bibr" target="#b1">(Adler, 2000)</ref>. By measuring the amount of dye transferred, the authors found that the higher the caffeine content of the nectar the more bee visits <ref type="bibr" target="#b85">(Thomson et al., 2015)</ref>, possibly due to the improvement in memory formation provided by caffeine <ref type="bibr" target="#b94">(Wright et al., 2013)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1">| Conservation and monitoring</head><p>As we have shown, realistic models can be used in many areas of research, but they also have great potential for management and conservation. Current methods of capturing Emerald Ash Borers (Agrilus planipennis), an invasive species in North America, commonly use sticky traps baited with a dead female to attract males <ref type="bibr" target="#b22">(Domingue et al., 2015)</ref>. To produce the bait, females must be caught, killed, and mounted with pins. Simplified 3D printed models of a female Ash Borer <ref type="figure">(Figure 2b)</ref> have now been successfully used to bait traps, and have the advantage of being cheaper, longer lasting, and are able to be mass-produced <ref type="bibr" target="#b22">(Domingue et al., 2015)</ref>. While work is still needed to look at the larger-scale efficacy of these traps, we can easily envisage the use of similar models to attract animals, for instance, to camera traps as a method of monitoring populations. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2">| Limitations</head><p>There are limitations of using 3D printed models for research due to their static nature. These problems are no different to the limitations experienced by models made using traditional manufacturing techniques. Some of these problems could be overcome by employing 3D printed shells into which robotics could be mounted. Robots are beginning to be used in studies of animal behavior (see Frohnwieser,</p><p>Murray, Pike, &amp; Wilkinson, 2016 for a review), and this simple adaptation may yield interesting results. Using models in a manipulative experimental approach allows greater control over specific elements such as size of ornamentation, coloration, movement, or removal of olfactory cues (e.g., <ref type="bibr" target="#b32">Heinen-Kay et al., 2015)</ref>, but this is at the potential cost of realism. Therefore, a balance must be struck between absolute realism (which can only be achieved by using an organism), and manipulative control over specific elements important for the study. 3D printing can be of great benefit to such studies allowing models to be created with differences which would not be physically or ethically possible with live animals. There are, though, caveats to using models, including the potential that other factors are involved, for example signals, which are not manipulated through the use of models. As such, the observed responses may not be as "true" as when using an organism. However, by the same token, this method does provide the ability to precisely change only one element, which cannot be guaranteed with treatments or manipulations involving organisms. Observational or correlational studies can be used to address similar questions but rely only on natural variation.</p><p>Observational studies may require more time and can suffer from confounding variables or reverse causation but do allow for testing in a biologically meaningful manner which might be lacking in the laboratory. For observational studies, 3D printing can be used to produce equipment. One practical limitation of 3D printing is the size of the object which can be printed. Most 3D printers have a relatively small print size (see <ref type="table" target="#tab_1">Table 2</ref>). Objects larger than this print size can be made by incorporating joining features (e.g., sockets and pins)</p><p>into the 3D prints or include positions for traditional fasteners (e.g., screws or nuts and bolts) to be used. These features can be added into the CAD drawings of parts, and some software allow for the inclusion of threaded holes to make assembly easier and faster. Large 3D prints often have lower resolution due to limitations of current scanning and printing methods, while smaller models can be printed at higher resolution but may be more expensive as a result.</p><p>Despite the advantages of 3D printing, many of the materials used in this process have not undergone testing for durability or toxicology. Where testing has occurred it often indicates leaching of chemicals from the materials. In one example, leached chemicals had a negative impact on the growth of zebrafish (Danio rerio) embryos <ref type="bibr" target="#b67">(Oskui et al., 2016)</ref>. It seems prudent to suggest that materials likely to be in contact with living organisms need to be well researched first, given the release of chemicals from the 3D print may affect an animal's behavior or even lead to death. Additional concerns center on environmental impact, and while some feedstock used in 3D printing is recyclable (such as thermoplastic polymers used in FFD 3D printing, <ref type="table">Table 1</ref>), others such as photopolymers (used in SLA 3D printing) are not. There are, however, continual developments, for example, the toxicology of some models can be reduced with increased ultraviolet light treatment <ref type="bibr" target="#b67">(Oskui et al., 2016)</ref> and new printable plastics that are recyclable are in development <ref type="bibr" target="#b60">(Mohammed, 2016)</ref>. Additional problems with 3D printed equipment in the laboratory include the lack of guarantee and possibility of a short lifespan, but if costs are low, this can be solved by reprinting the object. With sensible precautions, 3D printing can make many beneficial changes to the way we produce objects.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5">| TAK E HOME ME SSAG E S</head><p>1. 3D printing enables the rapid production of items for low unit cost by commercial suppliers, or if many experimental pieces are to be printed then this can be done in-house.</p><p>Printed items can be models of delicate bones, complex biological structures, microfluidic chambers, labware, or even hypothetical ancestral structures. 3D printed models can remove the reliance on the use of museum-preserved specimens.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2.</head><p>A major limitation to the adoption of 3D printing is the initial cost of the printer, but this is falling. The cost of CT or laser scanning any structure to be modeled can also be high, but with suitable CAD software, many items can be approximated to a reasonable degree and custom items designed.</p><p>3. The impact of 3D printing on the environment is only just being studied. Many materials are not recyclable, and some plastics may release chemicals into the environment. The amount of chemicals released and the effects these may have is unknown.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>4.</head><p>Sharing of 3D models online is creating a large repository of objects that can be downloaded and printed, allowing anyone with a 3D printer to produce them. This can facilitate replication of experiments in a way never before possible.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>5.</head><p>The overarching advantage of 3D printing is the freedom given to researchers, allowing them to print custom objects, quickly and at relatively low cost. The application of 3D printing in Ecology and Evolution has begun but the technique offers many more opportunities for the future.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ACK N OWLED G M ENTS</head><p>We would like to thank Fernando Montealegre-Z, Tatjana</p><p>Hoehfurtner, Tom Pike, Anna Wilkinson and members of the Physical Ecology Lab at the University of Lincoln for reading and providing improvements to an early draft of this paper, and Tatjana Hoehfurtner for help with producing <ref type="figure">Figure 2</ref>. We also thank Nigel Larkin, and Tim Shields for the information on uses of 3D printing in museums and conservation, respectively. This work was funded by a Leverhulme Trust Research Leadership Award (RL-2012-022) to SH.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AUTH O R CO NTR I B UTI O N</head><p>MW designed, researched, and wrote the manuscript. SH aided with writing.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA ACCE SS I B I LIT Y</head><p>There are no novel data presented in this manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>O RCI D</head><p>Matthew Walker https://orcid.org/0000-0002-9865-1375</p><p>Stuart Humphries https://orcid.org/0000-0001-9766-6404</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>, Natural Killer cells (from high-resolution micrographs, Mace, Moon, &amp; Orange, 2015), and neurons (McDougal &amp; Shepherd, 2015) have all been 3D printed.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>with the Dracula orchid, exploring organismal function with models using a reductionist approach, that is examining component parts, is often useful. Porter, Adriaens, Hatton, Meyers, and McKittrick (2015) produced 3D printed models to investigate the functional morphology of the seahorse (Hippocampus spp.) tail. Seahorses have a square cross-section tail, as opposed to the round cross-section tails which might be expected of fish. Hypothetical round cross-section tails were generated using CAD and compared to the square morphology of seahorse tails, which was obtained from CT scan data. To compare possible functional advantages of square cross-section tails Porter et al. (2015) then 3D printed both tail morphologies and subjected them to a series of tests. The authors found that square cross-section prototype tails(Figure 2f) performed better for grasping and are more resistant to crushing than round-section tails. Improved grasping ability of the square cross-section tail was likely an evolutionary advantage for seahorses, which use their tails to hold onto corals, algae, and seagrasses<ref type="bibr" target="#b64">(Neutens, de Dobbelaer, Claes, &amp; Adriaens, 2017;</ref><ref type="bibr" target="#b71">Porter et al., 2015)</ref>. By examining the tail in this way, Porter et al.'s work helps to explain some of the unusual morphology that seahorses have evolved.In the Neotropical buch-cricket (Acanthacara acuta), the sound produced by the wings is amplified by an unusual extension of the pronotum (the dorsal covering of the thorax), which forms a chamber over the wings. To explore the function of this chamber, 3Dprinted models have been used to replicate the chamber<ref type="bibr" target="#b39">(Jonsson et al. 2017)</ref>, which is hypothesized to work as a Helmholtz resonator</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>by offering more realistic and easily modified 3D models. Complex internal structures, for example sponge canals, or vertebrate nasal passages, can be replicated in clear plastics (or resins) for visualization, and Particle Image Velocimetry (PIV,<ref type="bibr" target="#b81">Stamhuis, 2006)</ref> can be used to quantify fluid flows to provide an understanding of form and function for both external and internal structures. In other instances, the size of an organism may present difficulties, both for the production of life-sized models and conducting research. Padisák, Soróczki-Pintér, &amp; Rezner, (2003) used PVC-U and modeling material to create scaled-up models of microscopic planktonic organisms (real size 40-200 µm, model sizes 5-35 cm) to investigate the effect of morphology on sinking rate. These construction methods resulted in greatly simplified models, much like<ref type="bibr" target="#b28">Furbish and Arnold's (1997)</ref> use of beeswax and pins to produce models (2-6 cm) of foraminifera (real size ~150-1200 µm). As suggested by<ref type="bibr" target="#b26">Fraisse et al. (2015)</ref>, studies of microscopic plankton could be improved by using 3D printed, biologically realistic models, based on highly accurate CT or SEM images.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>Investigating this counterintuitive pairing in nature had proved almost impossible and previous studies reported mixed results. However, Thomson et al. (2015) used 3D prints to mimic the function of a flower's anther and stamen in collecting and depositing pollen. They printed small hoppers that deposited dye onto a bee when it brushed under the hopper to reach the nectar. By adding sticky tape, the hopper could also collect previously deposited dyes from the bees. Honeybees (Bombus impatiens) were presented with jars containing nectar with different caffeine concentrations.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>,material Method Layer thickness (µm) Method overview Advantages Disadvantages Example of use in Ecology and Evolution</head><label></label><figDesc>TA B L E 1 A brief overview of 3D printing methods</figDesc><table><row><cell>Thermal ecology model</cell><cell>lizards (Watson &amp;</cell><cell>Francis, 2015)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Ceramic filter holder</cell><cell>(Lücking et al., 2015)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Model Neotropical</cell><cell>bush-cricket (Jonsson</cell><cell>et al., 2017)</cell><cell></cell><cell></cell><cell>Models of black widow</cell><cell>spiders (Brandley et</cell><cell>al., 2016)</cell><cell>Mold for microfluidic</cell><cell>devices (Kamei et al.,</cell><cell>2015)</cell><cell>Replicating delicate</cell><cell>dinosaur bones</cell></row><row><cell>Anisotropic (strength</cell><cell>differs in Z-axis, to</cell><cell>X-Y axis). Stepped</cell><cell>surface, which lacks</cell><cell>fine details</cell><cell>Expensive and slow,</cell><cell>limited metals can</cell><cell>be used, it is not</cell><cell>suitable for reactive</cell><cell>metals</cell><cell>Expensive, slow and</cell><cell>limited metals can</cell><cell>be used</cell><cell>Poor surface finishes</cell><cell>and tolerances are</cell><cell>limited</cell><cell></cell><cell></cell><cell></cell><cell>Produces fragile parts</cell><cell>which need further</cell><cell>treatment.</cell><cell>Poor surface finish</cell><cell>Expensive and</cell><cell>photopolymers are</cell><cell>not stable long-term</cell><cell></cell><cell></cell><cell>Expensive and</cell><cell>photopolymers are</cell><cell>not stable long-term</cell><cell>Slow process that</cell><cell>produces fragile</cell><cell>models</cell></row><row><cell>Common plastics, such as</cell><cell>ABS, can be used.</cell><cell>Chemical properties</cell><cell>retained</cell><cell></cell><cell>&gt;99% of the metal's</cell><cell>density can be achieved,</cell><cell>therefore good</cell><cell>mechanical properties</cell><cell></cell><cell>As for Laser melting.</cell><cell>Reactive metals (e.g.,</cell><cell>Titanium) can be used</cell><cell>Common plastics can be</cell><cell>used.</cell><cell>Cheap for small number</cell><cell>of objects. Chemical</cell><cell>properties of material</cell><cell>are retained</cell><cell>Any powdered material</cell><cell>can be used. Relatively</cell><cell>fast and cheap. Color</cell><cell>models are possible</cell><cell>Accurate with good</cell><cell>surface finish that can</cell><cell>capture fine details</cell><cell></cell><cell></cell><cell>Multiple materials can be</cell><cell>used. Can be high</cell><cell>precision</cell><cell>Accurate with good</cell><cell>surface finish. Suitable</cell><cell>for lost wax casting</cell></row><row><cell>Plastic filament is melted and</cell><cell>placed in layers by the print</cell><cell>head</cell><cell></cell><cell></cell><cell>Thin layers of powder are</cell><cell>spread over a bed which the</cell><cell>laser selectively melts. Once</cell><cell>solidified, a new layer of</cell><cell>powder is spread</cell><cell>Powdered metals are</cell><cell>selectively melted by</cell><cell>electron beam in a vacuum</cell><cell>The laser selectively melts</cell><cell>powdered plastics and the</cell><cell>model is made in the powder</cell><cell>bed</cell><cell></cell><cell></cell><cell>Powdered material is placed in</cell><cell>layers over the build area and</cell><cell>then glued together with a</cell><cell>binding agent</cell><cell>A laser selectively solidifies</cell><cell>thin layers of photopolymer.</cell><cell>The print bed moves down to</cell><cell>allow a new layer of polymer</cell><cell>to form</cell><cell>Thin layers of photopolymer</cell><cell>are jetted on to the build</cell><cell>area. They are cured with</cell><cell>ultraviolet light straight away</cell><cell>Inkjet printer heads drop hot</cell><cell>wax on a bed, which cools</cell><cell>and forms layers</cell></row><row><cell>300-</cell><cell>1,000</cell><cell></cell><cell></cell><cell></cell><cell>20-100</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>0.3-100</cell><cell></cell><cell></cell><cell>100-300</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>90-200</cell><cell></cell><cell></cell><cell></cell><cell>16-150</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>16-500</cell><cell></cell><cell></cell><cell>13-50</cell></row><row><cell>Fused Filament</cell><cell>Deposition (FFD)</cell><cell></cell><cell></cell><cell></cell><cell>Laser melting</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Electron beam</cell><cell></cell><cell></cell><cell>Laser sintering</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Binder jetting</cell><cell></cell><cell></cell><cell></cell><cell>Stereolithography (SLA)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Photopolymer jetting</cell><cell></cell><cell></cell><cell>Material jetting</cell></row><row><cell>Plastic filament</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Metal</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Plastic Metal</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Any powder</cell><cell></cell><cell></cell><cell></cell><cell>Photo-polymer</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Wax</cell></row><row><cell>Starting Solid</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Powder</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Liquid</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>outlines some costs and features of 3D printers.</figDesc><table><row><cell>Important considerations include the layer thickness; whether,</cell></row><row><cell>if the object has cavities; and the minimum feature size re-</cell></row><row><cell>quired. For example, FFD 3D printers can print objects with</cell></row><row><cell>cavities, but produce relatively thick layers and so the model</cell></row><row><cell>will likely have a stepped appearance, especially on curved sur-</cell></row><row><cell>faces. SLA 3D printers have thinner layer thickness so curved</cell></row><row><cell>surfaces are smoother, but they cannot create cavities.</cell></row><row><cell>The first step of 3D printing is obtaining a digital model, this</cell></row><row><cell>can be based on CT-scan, laser scan data, or it could be de-</cell></row><row><cell>signed using a computer (Computer Aided Design, CAD). This</cell></row><row><cell>model is digitally sectioned into thin layers, by the 3D printer</cell></row><row><cell>software and these layers dictate the printer head's path. In</cell></row><row><cell>the case of SLA, the "head" is a laser while for FFD it is a nozzle</cell></row><row><cell>extruding molten plastic filament.</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>By using 3D printed models of males with and without coloration, the potential trade-off could be easily examined, and results indicated that signal diversity can be driven by the interaction of natural and sexual selection (Heinen-Kay et al., 2015).Another example is the coloration of brood-parasite eggs. Igic et al., (2015) used 3D printing to separate the effects of coloration on the rejection of brown-headed cowbird (Molothrus ater) eggs, by American robins (Turdus migratius).<ref type="bibr" target="#b37">Igic et al. (2015)</ref> demonstrate how 3D printing can be used to remove human error when reproducing models that would otherwise have to be made by hand, while also allowing the flexibility for each batch of eggs to have a unique shape.</figDesc><table /><note>). Heinen-Kay et al. (2015) used 3D printing to investigate risk-moderated coloration in the Bahamas Mosquitofish (Gambusia hubbsi). In blue holes (large landlocked sinkholes) lacking predatory fish, male G. hubbsi have evolved a brighter orange color- ation on their dorsal fin, compared to those in blue holes with pred- ators. On the face of it, the simplest method to investigate potential trade-offs would have been to translocate fish between blue holes, to observe the effect of coloration on mating success and predation. However, this is not only logistically challenging, but also ethically questionable.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc>TA B L E 2 A range of different 3D printers, their cost (as of February 2019) and features</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Maximum</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Build volume</cell><cell>resolution</cell><cell></cell></row><row><cell>Technology</cell><cell>Type</cell><cell>Manufacturer</cell><cell>Printer</cell><cell>Cost (USD)</cell><cell>(mm)</cell><cell>(µm)</cell><cell>Connectivity</cell></row><row><cell>FFD</cell><cell>Desktop</cell><cell>Prusa</cell><cell>Original Prusa</cell><cell>$999</cell><cell>250 × 210 × 200</cell><cell>50</cell><cell>USB</cell></row><row><cell></cell><cell></cell><cell>Research</cell><cell>i3 MK3</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>DIY/kit</cell><cell>Creality</cell><cell>Ender 5</cell><cell>$329</cell><cell>220 × 220 × 300</cell><cell>50</cell><cell>USB, SD card</cell></row><row><cell></cell><cell>Desktop</cell><cell>Sindoh</cell><cell>3DWOX 1</cell><cell>$1,499</cell><cell>210 × 200 × 195</cell><cell>50</cell><cell>USB,</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Ethernet,</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Wi-Fi</cell></row><row><cell></cell><cell>Desktop</cell><cell>Qidi Tech</cell><cell>X-ONE 2</cell><cell>$279</cell><cell>140 × 140 × 140</cell><cell>50</cell><cell>NS</cell></row><row><cell>SLA</cell><cell>Desktop</cell><cell>ELEGOO</cell><cell>Mars</cell><cell>$349</cell><cell>120 × 68 × 155</cell><cell>50</cell><cell>USB</cell></row><row><cell></cell><cell>Desktop</cell><cell>Photon</cell><cell>ANYCUBIC</cell><cell>$519</cell><cell>115 × 65 × 155</cell><cell>30</cell><cell>USB, SD card</cell></row><row><cell></cell><cell>Professional</cell><cell>B9Creations</cell><cell>B9Creator v1.2</cell><cell>$4,595</cell><cell>104 × 75 × 203</cell><cell>30</cell><cell>USB</cell></row><row><cell></cell><cell>Professional</cell><cell>Formlabs</cell><cell>Form 2</cell><cell>$3,499</cell><cell>145 × 145 × 175</cell><cell>30</cell><cell>USB,</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Ethernet,</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Wi-Fi</cell></row><row><cell>Binder Jetting</cell><cell>Industrial</cell><cell>3D systems</cell><cell>ProJet CJP</cell><cell>$50,000-$100,000</cell><cell>× 381 × 203</cell><cell>10</cell><cell>Ethernet,</cell></row><row><cell></cell><cell></cell><cell></cell><cell>660Pro</cell><cell></cell><cell></cell><cell></cell><cell>Wi-Fi</cell></row><row><cell>Material</cell><cell>Industrial</cell><cell>Stratasys</cell><cell>Object</cell><cell>$50,000-$100,000</cell><cell>255 × 252 × 200</cell><cell>20</cell><cell>Ethernet</cell></row><row><cell>Jetting</cell><cell></cell><cell></cell><cell>Eden260VS</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>Industrial</cell><cell>3D systems</cell><cell>ProJet</cell><cell>$50,000-$100,000</cell><cell>298 × 185 × 203</cell><cell>20</cell><cell>Ethernet,</cell></row><row><cell></cell><cell></cell><cell></cell><cell>3500HD MAX</cell><cell></cell><cell></cell><cell></cell><cell>Wi-Fi</cell></row><row><cell>Powder</cell><cell>Industrial</cell><cell>EOS</cell><cell>P396</cell><cell>&gt;$250,000</cell><cell>340 × 340 × 600</cell><cell>60</cell><cell>Ethernet</cell></row><row><cell>binding</cell><cell>Industrial</cell><cell>EOS</cell><cell>Formiga P110</cell><cell>$100,000-$250,000</cell><cell>200 × 250 × 330</cell><cell>60</cell><cell>Ethernet</cell></row></table><note>Notes. NS: not stated.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head></head><label></label><figDesc><ref type="bibr" target="#b89">Watson and Francis (2015)</ref> trialled the use of 3D printed ABS (Acrylonitrile Butadiene Styrene), a commonly used plastic, to produce models for studies of thermal ecology. Models are used to establish the distribution of environmental temperatures experienced by an organism, if it experiences no thermal regulation. Copper models are often used for this, but they are often poorly detailed, and are time consuming and difficult to construct. Copper models are produced</figDesc><table><row><cell>using a paraffin wax mold of the animal, which is then electroplated,</cell></row><row><cell>and the wax melted and drained. Copper tubing is often substituted</cell></row><row><cell>for a detailed model but makes a poor substitute (Bakken &amp; Angilletta,</cell></row><row><cell>2014). With reduced costs per model (albeit initial setup is more</cell></row><row><cell>expensive), higher biological accuracy, reduced production times</cell></row><row><cell>(1.55 hr compared to 29.83 hr for copper models) and robust nature of</cell></row><row><cell>the models, Watson and Francis (2015) suggest that 3D printed mod-</cell></row><row><cell>els for thermal studies have considerable advantages over traditional</cell></row><row><cell>copper models, especially as the performance of both models is equal.</cell></row><row><cell>As of 2016, there has been a population explosion of ravens</cell></row><row><cell>(Corvus corax) in the Mojave Desert. The increased numbers of</cell></row><row><cell>predatory ravens are negatively impacting the populations of newly</cell></row><row><cell>hatched Desert tortoises (Gopherus agassizii), a vulnerable species</cell></row><row><cell>(IUCN, 2016). 3D-printed model tortoises that emit aerosol ir-</cell></row><row><cell>ritants when attacked are being used to condition the ravens not</cell></row><row><cell>to eat the tortoises, thereby reducing predation (Shields, Personal</cell></row><row><cell>Communication), this is a ground-breaking use of 3D printing in a</cell></row><row><cell>conservation effort. 3D printing has also been used to help recreate</cell></row><row><cell>coral reefs. The Great Barrier Reef is experiencing widespread coral</cell></row><row><cell>bleaching and coral death (Wolff, Mumby, Devlin, &amp; Anthony, 2018),</cell></row><row><cell>but advances in 3D printing are enabling the production of coral</cell></row><row><cell>shaped objects, 1 m in height (Sustainable Oceans International,</cell></row><row><cell>2012). These large-scale 3D printed forms replicate the complexity</cell></row><row><cell>of natural coral, providing organisms such as fish with suitable habi-</cell></row><row><cell>tats while corals colonize the external surfaces.</cell></row><row><cell>In addition to producing items used directly in research or for</cell></row><row><cell>teaching, 3D printing can also be used to create mock-ups of ex-</cell></row><row><cell>pensive or delicate equipment to test positioning or attachment</cell></row><row><cell>methods. Chan et al. (2016), used 3D printed ABS models of GPS</cell></row><row><cell>tags to test methods of attachment to Red Knots (Calidirs canutus).</cell></row><row><cell>This allowed the authors to test attachment methods without the</cell></row><row><cell>risk of losing expensive GPS tags. While traditional methods can be</cell></row><row><cell>used for mock-ups, 3D printing uses less material (due to the additive</cell></row><row><cell>method, Gardner &amp; Olson, 2016) and can produce accurate replicas</cell></row><row><cell>quickly and easily.</cell></row></table><note></note></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Expertguided optimization for 3D printing of soft and liquid materials</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Abdollahi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">H</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">W</forename><surname>Feinberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0194890</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0194890" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Abdollahi, S., Davis, A., Miller, J. H., &amp; Feinberg, A. W. (2018). Expert- guided optimization for 3D printing of soft and liquid materials. PLoS ONE, 13(4), e0194890. https://doi.org/10.1371/journal. pone.0194890</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The ecological significance of toxic nectar</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">S</forename><surname>Adler</surname></persName>
+		</author>
+		<idno type="DOI">10.1034/j.1600-0706.2000.910301.x</idno>
+		<ptr target="https://doi.org/10.1034/j.1600-0706.2000.910301.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Oikos</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="409" to="420" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Adler, L. S. (2000). The ecological significance of toxic nectar. Oikos, 91(3), 409-420. https://doi.org/10.1034/j.1600-0706.2000.910301.x</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Microfluidics for bacterial chemotaxis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Ahmed</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">S</forename><surname>Shimizu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Stocker</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c0ib00049c</idno>
+		<ptr target="https://doi.org/10.1039/c0ib00049c" />
+	</analytic>
+	<monogr>
+		<title level="j">Integrative Biology</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">604</biblScope>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ahmed, T., Shimizu, T. S., &amp; Stocker, R. (2010). Microfluidics for bac- terial chemotaxis. Integrative Biology, 2(11-12), 604. https://doi. org/10.1039/c0ib00049c</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The Lapedo child reborn: contributions of CT scanning and rapid prototyping for an Upper Paleolithic infant burial and face reconstruction. The case of Lagar Velho Interpretation Centre</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Almeida</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Bártolo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Alves</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Almeida</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Ponce De Léon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Zollikofer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>…zilhão</surname></persName>
+		</author>
+		<ptr target="www.bristol.ac.uk/archanth/staff/zilhao/vast2007.pdf" />
+	</analytic>
+	<monogr>
+		<title level="m">The 8th International Symposium on Virtual Reality, Archaeology and Cultural Heritage VAST</title>
+		<meeting><address><addrLine>Leiria, Portugal</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2007" />
+			<biblScope unit="page" from="69" to="73" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Almeida, F., Bártolo, P., Alves, N., Almeida, H., Ponce de Léon, M., Zollikofer, C., …Zilhão, J. (2007). The Lapedo child reborn: con- tributions of CT scanning and rapid prototyping for an Upper Paleolithic infant burial and face reconstruction. The case of Lagar Velho Interpretation Centre, Leiria, Portugal. The 8th International Symposium on Virtual Reality, Archaeology and Cultural Heritage VAST, pp. 69-73. www.bristol.ac.uk/archanth/staff/zilhao/ vast2007.pdf</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Andersson</surname></persName>
+		</author>
+		<title level="m">Sexual Selection</title>
+		<meeting><address><addrLine>Princeton, NJ</addrLine></address></meeting>
+		<imprint>
+			<publisher>Princeton University Press</publisher>
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+	<note>1st ed.</note>
+	<note type="raw_reference">Andersson, C. (1994). Sexual Selection (1st ed.). Princeton, NJ: Princeton University Press.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Open Labware: 3-D printing your own lab equipment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Baden</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Chagas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">J</forename><surname>Gage</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C</forename><surname>Marzullo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">L</forename><surname>Prieto-Godino</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Euler</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pbio.1002086</idno>
+		<ptr target="https://doi.org/10.1371/jour-nal.pbio.1002086" />
+	</analytic>
+	<monogr>
+		<title level="j">PLOS Biology</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baden, T., Chagas, A. M., Gage, G. J., Marzullo, T. C., Prieto-Godino, L. L., &amp; Euler, T. (2015). Open Labware: 3-D printing your own lab equip- ment. PLOS Biology, 13(3), e1002086. https://doi.org/10.1371/jour- nal.pbio.1002086</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">How to avoid errors when quantifying thermal environments</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">S</forename><surname>Bakken</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Angilletta</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1365-2435.12149</idno>
+		<ptr target="https://doi.org/10.1111/1365-2435.12149" />
+	</analytic>
+	<monogr>
+		<title level="j">Functional Ecology</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="96" to="107" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bakken, G. S., &amp; Angilletta, M. J. (2014). How to avoid errors when quan- tifying thermal environments. Functional Ecology, 28(1), 96-107. https://doi.org/10.1111/1365-2435.12149</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Tangible visualization of molecular dynamics simulations using 3-D printing. Education for Chemical Engineers</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Bara</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Heath Turner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">I</forename><surname>Hawkins</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ece.2015.07.001</idno>
+		<ptr target="https://doi.org/10.1016/j.ece.2015.07.001" />
+		<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="9" to="16" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bara, J. E., Heath Turner, C., Zhang, Z., &amp; Hawkins, C. I. (2015). Tangible visualization of molecular dynamics simulations using 3-D printing. Education for Chemical Engineers, 13, 9-16. https://doi.org/10.1016/j. ece.2015.07.001</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The pumping lid: Investigating multi-material 3D printing for equipment-free, programmable generation of positive and negative pressures for microfluidic applications</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Begolo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">V</forename><surname>Zhukov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Selck</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">F</forename><surname>Ismagilov</surname></persName>
+		</author>
+		<idno type="DOI">4616-4628.10.1039/c4lc00910j</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lab on a Chip</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Begolo, S., Zhukov, D. V., Selck, D. A., Li, L., &amp; Ismagilov, R. F. (2014). The pumping lid: Investigating multi-material 3D printing for equip- ment-free, programmable generation of positive and negative pres- sures for microfluidic applications. Lab on a Chip, 14(24), 4616-4628. 10.1039/c4lc00910j</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">The use of flexible synthetic rubbers for casts of complex fossils from natural moulds</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Benton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">D</forename><surname>Walker</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/S0016756800032921</idno>
+		<ptr target="https://doi.org/10.1017/S00167568000" />
+	</analytic>
+	<monogr>
+		<title level="j">Geological Magazine</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="issue">05</biblScope>
+			<biblScope unit="page">551</biblScope>
+			<date type="published" when="1981" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Benton, M. J., &amp; Walker, A. D. (1981). The use of flexible synthetic rubbers for casts of complex fossils from natural moulds. Geological Magazine, 118(05), 551. https://doi.org/10.1017/S00167568000</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">3-D printing: The new industrial revolution</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Berman</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bushor.2011.11.003</idno>
+		<ptr target="https://doi.org/10.1016/j.bushor.2011.11.003" />
+	</analytic>
+	<monogr>
+		<title level="j">Business Horizons</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="155" to="162" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Berman, B. (2012). 3-D printing: The new industrial revolution. Business Horizons, 55(2), 155-162. https://doi.org/10.1016/j.bushor.2011. 11.003</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Check out the next generation of 3D printing of museum specimens. Thanks to the @Stratasys team for the demo and @DrScanley for the. CT work! Twitter</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">C</forename><surname>Blackburn</surname></persName>
+		</author>
+		<ptr target="https://twitter.com/davidcblackburn/status/858042278035718145" />
+		<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Blackburn, D. C. (2017). Check out the next generation of 3D printing of museum specimens. Thanks to the @Stratasys team for the demo and @DrScanley for the. CT work! Twitter. Retrieved from https:// twitter.com/davidcblackburn/status/858042278035718145</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Bonyár</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Sántha</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Ring</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Varga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">G</forename><surname>Kovács</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Harsányi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.proeng.2010.09.105</idno>
+		<ptr target="https://doi.org/10.1016/j.proeng.2010.09.105" />
+		<title level="m">3D Rapid Prototyping Technology (RPT) as a powerful tool in microfluidic development. Procedia Engineering</title>
+		<imprint>
+			<date type="published" when="2010" />
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="291" to="294" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bonyár, A., Sántha, H., Ring, B., Varga, M., Kovács, J. G., &amp; Harsányi, G. (2010). 3D Rapid Prototyping Technology (RPT) as a powerful tool in microfluidic development. Procedia Engineering, 5, 291-294. https:// doi.org/10.1016/j.proeng.2010.09.105</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Aposematic signals in North American black widows are more conspicuous to predators than to prey</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Brandley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Johnsen</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/beheco/arw014</idno>
+		<ptr target="https://doi.org/10.1093/beheco/arw014" />
+	</analytic>
+	<monogr>
+		<title level="j">Behavioral Ecology</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1104" to="1112" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brandley, N., Johnson, M., &amp; Johnsen, S. (2016). Aposematic signals in North American black widows are more conspicuous to predators than to prey. Behavioral Ecology, 27(4), 1104-1112. https://doi. org/10.1093/beheco/arw014</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">A non-destructive investigation of the skull of the small theropod dinosaur, Ceolophysis rhodesiensis, using CT scans and rapid prototyping. BT -Palaeontologia Africana</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Bristowe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Parrott</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Hack</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Pencharz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Raath</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Palaeontologica Africana</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="31" to="36" />
+			<date type="published" when="2004-12" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bristowe, A., Parrott, A., Hack, J., Pencharz, M., &amp; Raath, M. (2004). A non-destructive investigation of the skull of the small theropod dinosaur, Ceolophysis rhodesiensis, using CT scans and rapid pro- totyping. BT -Palaeontologia Africana. Palaeontologica Africana, 40(December), 31-36.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Shape matters: Corolla curvature improves nectar discovery in the hawkmoth Manduca sexta</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">O</forename><surname>Campos</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">D</forename><surname>Bradshaw</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">L</forename><surname>Daniel</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1365-2435.12378</idno>
+		<ptr target="https://doi.org/10.1111/1365-2435.12378" />
+	</analytic>
+	<monogr>
+		<title level="j">Functional Ecology</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="462" to="468" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Campos, E. O., Bradshaw, H. D., &amp; Daniel, T. L. (2015). Shape matters: Corolla curvature improves nectar discovery in the hawkmoth Manduca sexta. Functional Ecology, 29(4), 462-468. https://doi. org/10.1111/1365-2435.12378</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Testing an attachment method for solarpowered tracking devices on a long-distance migrating shorebird</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y.-C</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">L</forename><surname>Maarten Brugge</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Tibbitts</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Dekinga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">H G</forename><surname>Porter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">P</forename><surname>Klaassen</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10336-015-1276-4</idno>
+		<ptr target="https://doi.org/10.1007/s10336-015-1276-4" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Ornithology</title>
+		<imprint>
+			<biblScope unit="volume">157</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="277" to="287" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chan, Y.-C., Maarten Brugge, T. L., Tibbitts, A., Dekinga, R., Porter, R. H. G., &amp; Klaassen, T. P. (2016). Testing an attachment method for solar- powered tracking devices on a long-distance migrating shorebird. Journal of Ornithology, 157(1), 277-287. https://doi.org/10.1007/ s10336-015-1276-4</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The Elgin marvel: Using magnetic resonance imaging to look at a moldic fossil from the Permian of Elgin</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">D</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Lawton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">R</forename><surname>Cruickshank</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Woods</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.mri.2003.09.006</idno>
+		<ptr target="https://doi.org/10.1016/j.mri.2003.09.006" />
+	</analytic>
+	<monogr>
+		<title level="j">Magnetic Resonance Imaging</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="269" to="273" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Clark, N. D., Adams, C., Lawton, T., Cruickshank, A. R., &amp; Woods, K. (2004). The Elgin marvel: Using magnetic resonance imaging to look at a moldic fossil from the Permian of Elgin, Scotland, UK. Magnetic Resonance Imaging, 22(2), 269-273. https://doi.org/10.1016/j. mri.2003.09.006</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Mandibular reconstruction using stereolithographic 3-dimensional printing modeling technology. Oral Surgery, Oral Medicine, Oral Pathology, Oral Radiology, and Endodontology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Laviv</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Berman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Nashef</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Abu-Tair</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tripleo.2009.05.023</idno>
+		<ptr target="https://doi.org/10.1016/j.tripleo.2009.05.023" />
+		<imprint>
+			<date type="published" when="2009" />
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="661" to="666" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cohen, A., Laviv, A., Berman, P., Nashef, R., &amp; Abu-Tair, J. (2009). Mandibular reconstruction using stereolithographic 3-dimen- sional printing modeling technology. Oral Surgery, Oral Medicine, Oral Pathology, Oral Radiology, and Endodontology, 108(5), 661-666. https://doi.org/10.1016/j.tripleo.2009.05.023</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">3D printing of microscopic bacterial communities</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Connell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">T</forename><surname>Ritschdorff</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Whiteley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">B</forename><surname>Shear</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1309729110</idno>
+		<ptr target="https://doi.org/10.1073/pnas.1309729110" />
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="issue">46</biblScope>
+			<biblScope unit="page" from="18380" to="18385" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Connell, J. L., Ritschdorff, E. T., Whiteley, M., &amp; Shear, J. B. (2013). 3D printing of microscopic bacterial communities. Proceedings of the National Academy of Sciences, 110(46), 18380-18385. https://doi. org/10.1073/pnas.1309729110</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">A multifunctional warning signal behaves as an agonistic status signal in a poison frog</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">R</forename><surname>Crothers</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E</forename><surname>Cummings</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/beheco/aru231</idno>
+		<ptr target="https://doi.org/10.1093/beheco/aru231" />
+	</analytic>
+	<monogr>
+		<title level="j">Behavioral Ecology</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="560" to="568" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Crothers, L. R., &amp; Cummings, M. E. (2015). A multifunctional warning sig- nal behaves as an agonistic status signal in a poison frog. Behavioral Ecology, 26(2), 560-568. https://doi.org/10.1093/beheco/aru231</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Biomodelling of skull base tumours</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>D'urso</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0967-5868(99)90599-4</idno>
+		<ptr target="https://doi.org/10.1016/S0967-5868" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Clinical Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="90599" to="90603" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D&apos;Urso, P., et al. (1999). Biomodelling of skull base tumours. Journal of Clinical Neuroscience, 6(1), 31-35. https://doi.org/10.1016/ S0967-5868(99)90599-4</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Detecting emerald ash borers (Agrilus planipennis) using branch traps baited with 3D-printed beetle decoys</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Domingue</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">P</forename><surname>Pulsifer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Lakhtakia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Berkebile</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">C</forename><surname>Steiner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">P</forename><surname>Lelito</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C</forename><surname>Baker</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10340-014-0598-y</idno>
+		<ptr target="https://doi.org/10.1007/s10340-014-0598-y" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Pest Science</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="267" to="279" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Domingue, M. J., Pulsifer, D. P., Lakhtakia, A., Berkebile, J., Steiner, K. C., Lelito, J. P., … Baker, T. C. (2015). Detecting emerald ash bor- ers (Agrilus planipennis) using branch traps baited with 3D-printed beetle decoys. Journal of Pest Science, 88(2), 267-279. https://doi. org/10.1007/s10340-014-0598-y</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">3D Bioprinting of heterogeneous aortic valve conduits with alginate/ gelatin hydrogels</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Duan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">A</forename><surname>Hockaday</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">H</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">T</forename><surname>Butcher</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jbm.a.34420</idno>
+		<ptr target="https://doi.org/10.1002/jbm.a.34420" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biomedical Materials Research Part A</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1255" to="1264" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Duan, B., Hockaday, L. A., Kang, K. H., &amp; Butcher, J. T. (2013). 3D Bioprinting of heterogeneous aortic valve conduits with alginate/ gelatin hydrogels. Journal of Biomedical Materials Research Part A, 101A(5), 1255-1264. https://doi.org/10.1002/jbm.a.34420</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Direct Inkjet printing of dental prostheses made of zirconia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Ebert</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Ozkol</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Zeichner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Uibel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Weiss</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Koops</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Fischer</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0022034509339988</idno>
+		<ptr target="https://doi.org/10.1177/0022034509339988" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Dental Research</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="673" to="676" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ebert, J., Ozkol, E., Zeichner, A., Uibel, K., Weiss, O., Koops, U., … Fischer, H. (2009). Direct Inkjet printing of dental prostheses made of zirconia. Journal of Dental Research, 88(7), 673-676. https://doi. org/10.1177/0022034509339988</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Convergent and divergent effects of natural selection on color patterns in two fish faunas</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Endler</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1558-5646.1982.tb05022.x</idno>
+		<ptr target="https://doi.org/10.1111/j.1558-5646.1982.tb05022.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Evolution</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="1982" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Endler, J. A. (1982). Convergent and divergent effects of natural selection on color patterns in two fish faunas. Evolution, 36(1), 178. https://doi. org/10.1111/j.1558-5646.1982.tb05022.x</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Turbulence effects on phytoplankton morphofunctional traits selection</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Fraisse</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Bormans</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Lagadeuc</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/lno.10066</idno>
+		<ptr target="https://doi.org/10.1002/lno.10066" />
+	</analytic>
+	<monogr>
+		<title level="j">Limnology and Oceanography</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="872" to="884" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fraisse, S., Bormans, M., &amp; Lagadeuc, Y. (2015). Turbulence effects on phytoplankton morphofunctional traits selection. Limnology and Oceanography, 60(3), 872-884. https://doi.org/10.1002/lno.10066</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Using robots to understand animal cognition</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Frohnwieser</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Murray</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">W</forename><surname>Pike</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Wilkinson</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jeab.193</idno>
+		<ptr target="https://doi.org/10.1002/jeab.193" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Experimental Analysis of Behavior</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="14" to="22" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Frohnwieser, A., Murray, J. C., Pike, T. W., &amp; Wilkinson, A. (2016). Using robots to understand animal cognition. Journal of the Experimental Analysis of Behavior, 105(1), 14-22. https://doi.org/10.1002/jeab.193</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Hydrodynamic strategies in the morphological evolution of spinose planktonic foraminifera</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Furbish</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename><surname>Arnold</surname></persName>
+		</author>
+		<idno type="DOI">10.1130/0016-7606(1997)109&lt;1055:HSITME&gt;2.3.CO;2</idno>
+		<idno>1130/0016-7606(1997)109&lt;1055:HSITME&gt;2.3.CO;2</idno>
+		<ptr target="https://doi.org/10" />
+	</analytic>
+	<monogr>
+		<title level="j">Bulletin of the Geological Society of America</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1055" to="1072" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Furbish, D. J., &amp; Arnold, A. J. (1997). Hydrodynamic strategies in the mor- phological evolution of spinose planktonic foraminifera. Bulletin of the Geological Society of America, 109(8), 1055-1072. https://doi.org/ 10.1130/0016-7606(1997)109&lt;1055:HSITME&gt;2.3.CO;2</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main">3D scan &amp; printed Acheulean handaxe shows the flakes and knapping with magnets to make the stone tool #CAAAtlanta. Available: Twitter</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Galvin</surname></persName>
+		</author>
+		<ptr target="https://twitter.com/LisaGalvin_/status/841722935232589824" />
+		<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Galvin, E. (2017). 3D scan &amp; printed Acheulean handaxe shows the flakes and knapping with magnets to make the stone tool #CAAAtlanta. Available: Twitter. at: https://twitter.com/LisaGalvin_/status/8417 22935232589824.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">3D printing of molecular models</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Olson</surname></persName>
+		</author>
+		<idno type="DOI">10.5210/jbc.v40i1.6626</idno>
+		<ptr target="https://doi.org/10.5210/jbc.v40i1.6626" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biocommunication</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="15" to="21" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gardner, A., &amp; Olson, A. (2016). 3D printing of molecular models. Journal of Biocommunication, 40(1), 15-21. https://doi.org/10.5210/jbc. v40i1.6626</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">A plastic surgery application in evolution</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">L</forename><surname>Gerstle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Ibrahim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">T</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/01.prs.0000436844.92623.d3</idno>
+		<ptr target="https://doi.org/10.1097/01.prs.0000436844.92623.d3" />
+	</analytic>
+	<monogr>
+		<title level="j">Plastic and Reconstructive Surgery</title>
+		<imprint>
+			<biblScope unit="volume">133</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="446" to="451" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gerstle, T. L., Ibrahim, A. M., Kim, P. S., Lee, B. T., &amp; Lin, S. J. (2014). A plas- tic surgery application in evolution. Plastic and Reconstructive Surgery, 133(2), 446-451. https://doi.org/10.1097/01.prs.0000436844. 92623.d3</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">A trade-off between natural and sexual selection underlies diversification of a sexual signal</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Heinen-Kay</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">E</forename><surname>Morris</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">A</forename><surname>Ryan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">L</forename><surname>Byerley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">E</forename><surname>Venezia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Nils Peterson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">R</forename><surname>Langerhans</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/beheco/aru228</idno>
+		<ptr target="https://doi.org/10.1093/beheco/aru228" />
+	</analytic>
+	<monogr>
+		<title level="j">Behavioral Ecology</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="533" to="542" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Heinen-Kay, J. L., Morris, K. E., Ryan, N. A., Byerley, S. L., Venezia, R. E., Nils Peterson, M., &amp; Langerhans, B. R. (2015). A trade-off between natural and sexual selection underlies diversification of a sexual signal. Behavioral Ecology, 26(2), 533-542. https://doi.org/10.1093/ beheco/aru228</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">A preliminary investigation into the development of 3-D printing of prosthetic sockets</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Herbert</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Simpson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">D</forename><surname>Spence</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Ion</surname></persName>
+		</author>
+		<idno type="DOI">10.1682/jrrd.2004.08.0134</idno>
+		<ptr target="https://doi.org/10.1682/jrrd.2004.08.0134" />
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Rehabilitation Research and Development</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">141</biblScope>
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Herbert, N., Simpson, D., Spence, W. D., &amp; Ion, W. (2005). A preliminary investigation into the development of 3-D printing of prosthetic sockets. The Journal of Rehabilitation Research and Development, 42(2), 141. https://doi.org/10.1682/jrrd.2004.08.0134</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">3D printed microfluidics for biological applications</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">M B</forename><surname>Ho</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">H</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">H H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y.-J</forename><surname>Yoon</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c5lc00685f</idno>
+		<ptr target="https://doi.org/10.1039/c5lc00685f" />
+	</analytic>
+	<monogr>
+		<title level="j">Lab on a Chip</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page" from="3627" to="3637" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ho, C. M. B., Ng, S. H., Li, K. H. H., &amp; Yoon, Y.-J. (2015). 3D printed micro- fluidics for biological applications. Lab on a Chip, 15(18), 3627-3637. https://doi.org/10.1039/c5lc00685f</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Microengineering in Biotechnology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Holmes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Gawad</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Microengineering in Biotechnology. Methods in Molecular Biology</title>
+		<editor>M. P. Hughes, &amp; K. F. Hoettges</editor>
+		<meeting><address><addrLine>Totowa, NJ, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Humana Press</publisher>
+			<date type="published" when="2010" />
+			<biblScope unit="page" from="55" to="80" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Holmes, D., &amp; Gawad, S. (2010). Microengineering in Biotechnology. In M. P. Hughes, &amp; K. F. Hoettges (Eds.), Microengineering in Biotechnology. Methods in Molecular Biology (pp. 55-80). Totowa, NJ, USA: Humana Press.</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">3D printing: Making things at the library</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">B</forename><surname>Hoy</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02763869.2013.749139</idno>
+		<ptr target="https://doi.org/10.1080/02763869.2013.749139" />
+	</analytic>
+	<monogr>
+		<title level="j">Medical Reference Services Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="93" to="99" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hoy, M. B. (2013). 3D printing: Making things at the library. Medical Reference Services Quarterly, 32(1), 93-99. https://doi.org/10.1080/ 02763869.2013.749139</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Using 3D printed eggs to examine the egg-rejection behaviour of wild birds</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Igic</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Nunez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">U</forename><surname>Voss</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Croston</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Aidala</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">V</forename><surname>López</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E</forename><surname>Hauber</surname></persName>
+		</author>
+		<idno type="DOI">10.7717/peerj.965</idno>
+		<ptr target="https://doi.org/10.7717/peerj.965" />
+	</analytic>
+	<monogr>
+		<title level="j">PeerJ</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Igic, B., Nunez, V., Voss, H. U., Croston, R., Aidala, Z., López, A. V., … Hauber, M. E. (2015). Using 3D printed eggs to examine the egg-rejec- tion behaviour of wild birds. PeerJ, 3, e965. https://doi.org/10.7717/ peerj.965</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title level="m" type="main">The IUCN Red List of Threatened Species</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Iucn</surname></persName>
+		</author>
+		<ptr target="https://www.iucnredlist.org/search" />
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">IUCN, 2016. The IUCN Red List of Threatened Species. Version 2016-3. https://www.iucnredlist.org/search</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Chamber music: An unusual Helmholtz resonator for song amplification in a Neotropical bush-cricket (Orthoptera, Tettigoniidae)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Jonsson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">D</forename><surname>Chivers</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Robson Brown</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">A</forename><surname>Sarria-S</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Montealegre-Z</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/jeb.160234</idno>
+		<ptr target="https://doi.org/10.1242/jeb.160234" />
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Experimental Biology</title>
+		<imprint>
+			<biblScope unit="volume">220</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<biblScope unit="page" from="2900" to="2907" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jonsson, T., Chivers, B. D., Robson Brown, K., Sarria-S, F. A., Walker, M., &amp; Montealegre-Z, F. (2017). Chamber music: An unusual Helmholtz resonator for song amplification in a Neotropical bush-cricket (Orthoptera, Tettigoniidae). The Journal of Experimental Biology, 220(16), 2900-2907. https://doi.org/10.1242/jeb.160234</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">3D printing of soft lithography mold for rapid production of polydimethylsiloxane-based microfluidic devices for cell stimulation with concentration gradients</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Kamei</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Mashimo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Koyama</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Fockenberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Nakashima</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Nakajima</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10544-015-9928-y</idno>
+		<ptr target="https://doi.org/10.1007/s10544-015-9928-y" />
+	</analytic>
+	<monogr>
+		<title level="j">Biomedical Microdevices</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">36</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kamei, K., Mashimo, Y., Koyama, Y., Fockenberg, C., Nakashima, M., Nakajima, M., … Chen, Y. (2015). 3D printing of soft lithography mold for rapid production of polydimethylsiloxane-based mi- crofluidic devices for cell stimulation with concentration gradi- ents. Biomedical Microdevices, 17(2), 36. https://doi.org/10.1007/ s10544-015-9928-y</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+		<title level="m" type="main">Tactile visualization and 3D printing for education. Encyclopedia of Computer Graphics and Games</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Kaplan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Pyayt</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-319-08234-9_57-1</idno>
+		<ptr target="https://doi.org/10.1007/978-3-319-08234-9_57-1" />
+		<imprint>
+			<date type="published" when="2015" />
+			<publisher>Springer International Publishing</publisher>
+			<biblScope unit="page" from="1" to="8" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kaplan, H., &amp; Pyayt, A. (2015). Tactile visualization and 3D print- ing for education. Encyclopedia of Computer Graphics and Games (pp. 1-8). Cham: Springer International Publishing. https://doi. org/10.1007/978-3-319-08234-9_57-1</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">J</forename><surname>Kitson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">H</forename><surname>Rosnes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Sans</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Dragone</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Cronin</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kitson, P. J., Rosnes, M. H., Sans, V., Dragone, V., &amp; Cronin, L. (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<idno type="DOI">10.1039/c2lc40761b</idno>
+		<ptr target="https://doi.org/10.1039/c2lc40761b" />
+	</analytic>
+	<monogr>
+		<title level="m">Configurable 3D-printed millifluidic and microfluidic &apos;lab on a chip&apos; reactionware devices</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">3267</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Configurable 3D-printed millifluidic and microfluidic &apos;lab on a chip&apos; reactionware devices. Lab on a Chip, 12(18), 3267. https://doi. org/10.1039/c2lc40761b</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Physical modelling in biomechanics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A R</forename><surname>Koehl</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rstb.2003.1350</idno>
+		<ptr target="https://doi.org/10.1098/rstb.2003.1350" />
+	</analytic>
+	<monogr>
+		<title level="j">Philosophical Transactions of the Royal Society B: Biological Sciences</title>
+		<imprint>
+			<biblScope unit="volume">358</biblScope>
+			<biblScope unit="page" from="1589" to="1596" />
+			<date type="published" when="1437" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Koehl, M. A. R. (2003). Physical modelling in biomechanics. Philosophical Transactions of the Royal Society B: Biological Sciences, 358(1437), 1589-1596. https://doi.org/10.1098/rstb.2003.1350</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Using physical models to study the gliding performance of extinct animals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A R</forename><surname>Koehl</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Evangelista</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Yang</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/icb/icr112</idno>
+		<ptr target="https://doi.org/10.1093/icb/icr112" />
+	</analytic>
+	<monogr>
+		<title level="j">Integrative and Comparative Biology</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1002" to="1018" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Koehl, M. A. R., Evangelista, D., &amp; Yang, K. (2011). Using physical models to study the gliding performance of extinct animals. Integrative and Comparative Biology, 51(6), 1002-1018. https://doi.org/10.1093/icb/ icr112</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">3D reconstruction and analysis of wing deformation in free-flying dragonflies</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Koehler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Gaston</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Wan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Dong</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/jeb.069005</idno>
+		<ptr target="https://doi.org/10.1242/jeb.069005" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Biology</title>
+		<imprint>
+			<biblScope unit="volume">215</biblScope>
+			<biblScope unit="issue">17</biblScope>
+			<biblScope unit="page" from="3018" to="3027" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Koehler, C., Liang, Z., Gaston, Z., Wan, H., &amp; Dong, H. (2012). 3D re- construction and analysis of wing deformation in free-flying dragon- flies. Journal of Experimental Biology, 215(17), 3018-3027. https://doi. org/10.1242/jeb.069005</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">3D printed tactile learning objects: Proof of concept</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Kolitsky</surname></persName>
+		</author>
+		<idno type="DOI">10.5241/4-51</idno>
+		<ptr target="https://doi.org/10.5241/4-51" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Blindness Innovation and Research</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kolitsky, M. A. (2014). 3D printed tactile learning objects: Proof of con- cept. Journal of Blindness Innovation and Research, 4(1), https://doi. org/10.5241/4-51.</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<monogr>
+		<title level="m" type="main">An Introduction to Behaviour Ecology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Krebs</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">B</forename><surname>Davies</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1993" />
+			<publisher>Blackwell Science Ltd</publisher>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+	<note>3rd ed</note>
+	<note type="raw_reference">Krebs, J. R., &amp; Davies, N. B. (1993). An Introduction to Behaviour Ecology, 3rd ed. London: Blackwell Science Ltd.</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Tangible props for scientific visualization: Concept, requirements, application</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">J</forename><surname>Kruszyński</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Van Liere</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10055-009-0126-1</idno>
+		<ptr target="https://doi.org/10.1007/s10055-009-0126-1" />
+	</analytic>
+	<monogr>
+		<title level="j">Virtual Reality</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="235" to="244" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kruszyński, K. J., &amp; van Liere, R. (2009). Tangible props for scientific vi- sualization: Concept, requirements, application. Virtual Reality, 13(4), 235-244. https://doi.org/10.1007/s10055-009-0126-1</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+		<title level="m" type="main">Three legs good, four legs better: Making a quagga whole again with 3D printing. Collection Forum</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">R</forename><surname>Larkin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">B</forename><surname>Porro</surname></persName>
+		</author>
+		<idno type="DOI">10.14351/2015.08.15</idno>
+		<ptr target="https://doi.org/10.14351/2015.08.15" />
+		<imprint>
+			<date type="published" when="2016" />
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="73" to="84" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Larkin, N. R., &amp; Porro, L. B. (2016). Three legs good, four legs better: Making a quagga whole again with 3D printing. Collection Forum, 30(1-2), 73-84. https://doi.org/10.14351/2015.08.15</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Structure, biomimetics, and fluid dynamics of fish skin surfaces</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">V</forename><surname>Lauder</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">K</forename><surname>Wainwright</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">G</forename><surname>Domel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Weaver</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Bertoldi</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevfluids.1.060502</idno>
+		<ptr target="https://doi.org/10.1103/physrevfluids.1.060502" />
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Fluids</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">60502</biblScope>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lauder, G. V., Wainwright, D. K., Domel, A. G., Weaver, J. C., Wen, L., &amp; Bertoldi, K. (2016). Structure, biomimetics, and fluid dynamics of fish skin surfaces. Physical Review Fluids, 1(6), 060502. https://doi. org/10.1103/physrevfluids.1.060502</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<monogr>
+		<title level="m" type="main">3D printed modules for integrated microfluidic devices</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">G</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">J</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Seok</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">Y</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">J</forename><surname>Lee</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c4ra05072j</idno>
+		<ptr target="https://doi.org/10.1039/c4ra05072j" />
+		<imprint>
+			<date type="published" when="2014" />
+			<publisher>RSC Advances</publisher>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="32876" to="32880" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lee, K. G., Park, K. J., Seok, S., Shin, S., Kim, D. H., Park, J. Y., … Lee, T. J. (2014). 3D printed modules for integrated microfluidic de- vices. RSC Advances, 4(62), 32876-32880. https://doi.org/10.1039/ c4ra05072j</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">3D-printed individual labware in biosciences by rapid prototyping: A proof of principle</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">H</forename><surname>Lücking</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Sambale</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Beutel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Scheper</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/elsc.201400093</idno>
+		<ptr target="https://doi.org/10.1002/elsc.201400093" />
+	</analytic>
+	<monogr>
+		<title level="j">Engineering in Life Sciences</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="51" to="56" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lücking, T. H., Sambale, F., Beutel, S., &amp; Scheper, T. (2015). 3D-printed individual labware in biosciences by rapid prototyping: A proof of principle. Engineering in Life Sciences, 15(1), 51-56. https://doi. org/10.1002/elsc.201400093</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Three-dimensional printing of super-resolution microscopy images</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">M</forename><surname>Mace</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Moon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">S</forename><surname>Orange</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/s1551929515000607</idno>
+		<ptr target="https://doi.org/10.1017/s1551929515000607" />
+	</analytic>
+	<monogr>
+		<title level="j">Microscopy Today</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">04</biblScope>
+			<biblScope unit="page" from="26" to="29" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mace, E. M., Moon, J., &amp; Orange, J. S. (2015). Three-dimensional print- ing of super-resolution microscopy images. Microscopy Today, 23(04), 26-29. https://doi.org/10.1017/s1551929515000607</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<monogr>
+		<title level="m" type="main">Digitizing Methods for Paleontology: Applications, Benefits and Limitations</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Mallison</surname></persName>
+		</author>
+		<editor>A. M. T. Elewa ed. Computational Paleontology</editor>
+		<imprint>
+			<date type="published" when="2011" />
+			<publisher>Springer</publisher>
+			<biblScope unit="page" from="7" to="43" />
+			<pubPlace>Berlin, Heidelberg</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mallison, H. (2011). Digitizing Methods for Paleontology: Applications, Benefits and Limitations. In A. M. T. Elewa ed. Computational Paleontology (pp. 7-43). Berlin, Heidelberg: Springer.</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">3D printed bionic ears</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">S</forename><surname>Mannoor</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>James</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">L</forename><surname>Kong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">A</forename><surname>Malatesta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">O</forename><surname>Soboyejo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">C</forename><surname>Mcalpine</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/nl4007744</idno>
+		<ptr target="https://doi.org/10.1021/nl4007744" />
+	</analytic>
+	<monogr>
+		<title level="j">Nano Letters</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="2634" to="2639" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mannoor, M. S., Jiang, Z., James, T., Kong, Y. L., Malatesta, K. A., Soboyejo, W. O., … McAlpine, M. C. (2013). 3D printed bionic ears. Nano Letters, 13(6), 2634-2639. https://doi.org/10.1021/nl4007744</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">3D-printer visualization of neuron models</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">A</forename><surname>Mcdougal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">M</forename><surname>Shepherd</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fninf.2015.00018</idno>
+		<ptr target="https://doi.org/10.3389/fninf.2015.00018" />
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Neuroinformatics</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McDougal, R. A., &amp; Shepherd, G. M. (2015). 3D-printer visualization of neuron models. Frontiers in Neuroinformatics, 9, 1-9. https://doi. org/10.3389/fninf.2015.00018</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Bio-inspired design of ice-retardant devices based on benthic marine invertebrates: The effect of surface texture</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Mehrabani</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Ray</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Tse</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Evangelista</surname></persName>
+		</author>
+		<idno type="DOI">10.7717/peerj.588</idno>
+		<ptr target="https://doi.org/10.7717/peerj.588" />
+	</analytic>
+	<monogr>
+		<title level="j">PeerJ</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mehrabani, H., Ray, N., Tse, K., &amp; Evangelista, D. (2014). Bio-inspired design of ice-retardant devices based on benthic marine inverte- brates: The effect of surface texture. PeerJ, 2, e588. https://doi. org/10.7717/peerj.588</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Digitizing, modelling and 3D printing of skeletal digital models of Palaeoloxodon tiliensis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Mitsopoulou</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Michailidis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Theodorou</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Isidorou</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Roussiakis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Vasilopoulos</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Theodorou</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.quaint.2015.06.068</idno>
+		<ptr target="https://doi.org/10.1016/j.quaint.2015.06.068" />
+	</analytic>
+	<monogr>
+		<title level="j">Quaternary International</title>
+		<imprint>
+			<biblScope unit="volume">379</biblScope>
+			<biblScope unit="page" from="4" to="13" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mitsopoulou, V., Michailidis, D., Theodorou, E., Isidorou, S., Roussiakis, S., Vasilopoulos, T., … Theodorou, G. (2015). Digitizing, modelling and 3D printing of skeletal digital models of Palaeoloxodon tiliensis (Tilos, Dodecanese, Greece). Quaternary International, 379, 4-13. https:// doi.org/10.1016/j.quaint.2015.06.068</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Applications of 3D printing technologies in oceanography</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">S</forename><surname>Mohammed</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.mio.2016.08.001</idno>
+		<ptr target="https://doi.org/10.1016/j.mio.2016.08.001" />
+	</analytic>
+	<monogr>
+		<title level="j">Methods in Oceanography</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="97" to="117" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mohammed, J. S. (2016). Applications of 3D printing technologies in oceanography. Methods in Oceanography, 17, 97-117. https://doi. org/10.1016/j.mio.2016.08.001</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Covert stridulation: Novel sound generation by a South American Katydid</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">K</forename><surname>Morris</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Mason</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s001140050150</idno>
+		<ptr target="https://doi.org/10.1007/s001140050150" />
+	</analytic>
+	<monogr>
+		<title level="j">Naturwissenschaften</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="96" to="98" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Morris, G. K., &amp; Mason, A. C. (1995). Covert stridulation: Novel sound generation by a South American Katydid. Naturwissenschaften, 82(2), 96-98. https://doi.org/10.1007/s001140050150</note>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Fabrication of metal and alloy components by additive manufacturing: Examples of 3D materials science</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">E</forename><surname>Murr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Martinez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">N</forename><surname>Amato</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">M</forename><surname>Gaytan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Hernandez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Ramirez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">B</forename><surname>Wicker</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s2238-7854(12)70009-1</idno>
+		<ptr target="https://doi.org/10.1016/s2238-7854(12)70009-1" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Materials Research and Technology</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="42" to="54" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Murr, L. E., Martinez, E., Amato, K. N., Gaytan, S. M., Hernandez, J., Ramirez, D. A., … Wicker, R. B. (2012). Fabrication of metal and alloy components by additive manufacturing: Examples of 3D materials science. Journal of Materials Research and Technology, 1(1), 42-54. https://doi.org/10.1016/s2238-7854(12)70009-1</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">The four-flipper swimming method of plesiosaurs enabled efficient and effective locomotion</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">E</forename><surname>Muscutt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Dyke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">D</forename><surname>Weymouth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Naish</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Palmer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Ganapathisubramani</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rspb.2017.0951</idno>
+		<ptr target="https://doi.org/10.1098/rspb.2017.0951" />
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the Royal Society B: Biological Sciences</title>
+		<imprint>
+			<biblScope unit="volume">284</biblScope>
+			<date type="published" when="1861" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Muscutt, L. E., Dyke, G., Weymouth, G. D., Naish, D., Palmer, C., &amp; Ganapathisubramani, B. (2017). The four-flipper swimming method of plesiosaurs enabled efficient and effective locomotion. Proceedings of the Royal Society B: Biological Sciences, 284(1861), 20170951. https://doi.org/10.1098/rspb.2017.0951</note>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Prehensile and non-prehensile tails among syngnathid fishes: What&apos;s the difference?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Neutens</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>De Dobbelaer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Claes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Adriaens</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.zool.2016.11.002</idno>
+		<ptr target="https://doi.org/10.1016/j.zool.2016.11.002" />
+	</analytic>
+	<monogr>
+		<title level="j">Zoology</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page" from="62" to="72" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Neutens, C., de Dobbelaer, B., Claes, P., &amp; Adriaens, D. (2017). Prehensile and non-prehensile tails among syngnathid fishes: What&apos;s the difference? Zoology, 120, 62-72. https://doi.org/10.1016/j. zool.2016.11.002</note>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Virtual skeletons: Using a structured light scanner to create a 3D faunal comparative collection</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Niven</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">E</forename><surname>Steele</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Finke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Gernat</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J.-J</forename><surname>Hublin</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jas.2009.05.021</idno>
+		<ptr target="https://doi.org/10.1016/j.jas.2009.05.021" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Archaeological Science</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2018" to="2023" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Niven, L., Steele, T. E., Finke, H., Gernat, T., &amp; Hublin, J.-J. (2009). Virtual skeletons: Using a structured light scanner to create a 3D faunal comparative collection. Journal of Archaeological Science, 36(9), 2018-2023. https://doi.org/10.1016/j.jas.2009.05.021</note>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">The hydrodynamic function of shark skin and two biomimetic applications</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Oeffner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">V</forename><surname>Lauder</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/jeb.063040</idno>
+		<ptr target="https://doi.org/10.1242/jeb.063040" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Biology</title>
+		<imprint>
+			<biblScope unit="volume">215</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="785" to="795" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Oeffner, J., &amp; Lauder, G. V. (2012). The hydrodynamic function of shark skin and two biomimetic applications. Journal of Experimental Biology, 215(5), 785-795. https://doi.org/10.1242/jeb.063040</note>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Assessing and reducing the toxicity of 3D-printed parts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">M</forename><surname>Oskui</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Diamante</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Schlenk</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">H</forename><surname>Grover</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.estlett.5b00249</idno>
+		<ptr target="https://doi.org/10.1021/acs.estlett.5b00249" />
+	</analytic>
+	<monogr>
+		<title level="j">Environmental Science &amp; Technology Letters</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="6" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Oskui, S. M., Diamante, G., Liao, C., Shi, W., Gan, J., Schlenk, D., &amp; Grover, W. H. (2016). Assessing and reducing the toxicity of 3D-printed parts. Environmental Science &amp; Technology Letters, 3(1), 1-6. https:// doi.org/10.1021/acs.estlett.5b00249</note>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Sinking properties of some phytoplankton shapes and the relation of form resistance to morphological diversity of planktonan experimental study</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Padisák</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">É</forename><surname>Soróczki-Pintér</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Rezner</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-94-007-1084-9_18</idno>
+		<ptr target="https://doi.org/10.1007/978-94-007-1084-9_18" />
+	</analytic>
+	<monogr>
+		<title level="j">Hydrobiologia</title>
+		<imprint>
+			<biblScope unit="volume">500</biblScope>
+			<biblScope unit="issue">1-3</biblScope>
+			<biblScope unit="page" from="243" to="257" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Padisák, J., Soróczki-Pintér, É., &amp; Rezner, Z. (2003). Sinking properties of some phytoplankton shapes and the relation of form resistance to morphological diversity of plankton - an experimental study. Hydrobiologia, 500(1-3), 243-257. https://doi. org/10.1007/978-94-007-1084-9_18</note>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<monogr>
+		<title level="m" type="main">Introduction to Open-Source Hardware for Science</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Pearce</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014" />
+			<publisher>Elsevier</publisher>
+			<pubPlace>Oxford, UK</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pearce, J. M. (2014). Introduction to Open-Source Hardware for Science. Oxford, UK: Elsevier.</note>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Disentangling visual and olfactory signals in mushroom-mimicking Dracula orchids using realistic three-dimensional printed flowers</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Policha</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Barnadas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">T M</forename><surname>Dentinger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">A</forename><surname>Raguso</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">A</forename><surname>Roy</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/nph.13855</idno>
+		<ptr target="https://doi.org/10.1111/nph.13855" />
+	</analytic>
+	<monogr>
+		<title level="j">New Phytologist</title>
+		<imprint>
+			<biblScope unit="volume">210</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1058" to="1071" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Policha, T., Davis, A., Barnadas, M., Dentinger, B. T. M., Raguso, R. A., &amp; Roy, B. A. (2016). Disentangling visual and olfactory signals in mush- room-mimicking Dracula orchids using realistic three-dimensional printed flowers. New Phytologist, 210(3), 1058-1071. https://doi. org/10.1111/nph.13855</note>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Why the seahorse tail is square</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">M</forename><surname>Porter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Adriaens</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">L</forename><surname>Hatton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Meyers</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Mckittrick</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aaa6683</idno>
+		<ptr target="https://doi.org/10.1126/science.aaa6683" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">349</biblScope>
+			<biblScope unit="issue">6243</biblScope>
+			<biblScope unit="page" from="6683" to="6683" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Porter, M. M., Adriaens, D., Hatton, R. L., Meyers, M. A., &amp; McKittrick, J. (2015). Why the seahorse tail is square. Science, 349(6243), aaa6683-aaa6683. https://doi.org/10.1126/science.aaa6683</note>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Let&apos;s Get Physical&quot;: Advantages of a physical model over 3D computer models and textbooks in learning imaging anatomy</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Preece</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">B</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Lam</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Weller</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/ase.1345</idno>
+		<ptr target="https://doi.org/10.1002/ase.1345" />
+	</analytic>
+	<monogr>
+		<title level="j">Anatomical Sciences Education</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="216" to="224" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Preece, D., Williams, S. B., Lam, R., &amp; Weller, R. (2013). &quot;Let&apos;s Get Physical&quot;: Advantages of a physical model over 3D computer mod- els and textbooks in learning imaging anatomy. Anatomical Sciences Education, 6(4), 216-224. https://doi.org/10.1002/ase.1345</note>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Preparation, anti-biofouling and dragreduction properties of a biomimetic shark skin surface</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Pu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Huang</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/bio.016899</idno>
+		<ptr target="https://doi.org/10.1242/bio.016899" />
+	</analytic>
+	<monogr>
+		<title level="j">Biology Open</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="389" to="396" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pu, X., Li, G., &amp; Huang, H. (2016). Preparation, anti-biofouling and drag- reduction properties of a biomimetic shark skin surface. Biology Open, 5(4), 389-396. https://doi.org/10.1242/bio.016899</note>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Casting, replication, and anaglyph stereo imaging of microscopic detail in fossils, with examples from conodonts and other jawless vertebrates</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Purnell</surname></persName>
+		</author>
+		<ptr target="http://palaeo-electronica.org/paleo/2003_2/rubber/issue2_03.htm" />
+	</analytic>
+	<monogr>
+		<title level="j">Palaeontologia Electronica</title>
+		<imprint>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+			<date type="published" when="2003-12" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Purnell, M. A. (2003). Casting, replication, and anaglyph stereo imaging of microscopic detail in fossils, with examples from conodonts and other jawless vertebrates. Palaeontologia Electronica, 6 (December 2003), 1-11. http://palaeo-electronica.org/paleo/2003_2/rubber/ issue2_03.htm</note>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Virtual fossils: A new resource for science communication in paleontology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><forename type="middle">A</forename><surname>Rahman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Adcock</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">J</forename><surname>Garwood</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s12052-012-0458-2</idno>
+		<ptr target="https://doi.org/10.1007/s12052-012-0458-2" />
+	</analytic>
+	<monogr>
+		<title level="j">Evolution: Education and Outreach</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="635" to="641" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rahman, I. A., Adcock, K., &amp; Garwood, R. J. (2012). Virtual fossils: A new resource for science communication in paleontology. Evolution: Education and Outreach, 5(4), 635-641. https://doi.org/10.1007/ s12052-012-0458-2</note>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">3D printing based on imaging data: Review of medical applications</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Rengier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Mehndiratta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Vontengg-Kobligk</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">M</forename><surname>Zechmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Unterhinninghofen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H.-U</forename><surname>Kauczor</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">L</forename><surname>Giesel</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11548-010-0476-x</idno>
+		<ptr target="https://doi.org/10.1007/s11548-010-0476-x" />
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Computer Assisted Radiology and Surgery</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="335" to="341" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rengier, F., Mehndiratta, A., vonTengg-Kobligk, H., Zechmann, C. M., Unterhinninghofen, R., Kauczor, H.-U., &amp; Giesel, F. L. (2010). 3D printing based on imaging data: Review of medical applications. International Journal of Computer Assisted Radiology and Surgery, 5(4), 335-341. https://doi.org/10.1007/s11548-010-0476-x</note>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Laser and electronbeam powder-bed additive manufacturing of metallic implants: A review on processes, materials and designs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">L</forename><surname>Sing</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>An</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">Y</forename><surname>Yeong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">E</forename><surname>Wiria</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jor.23075</idno>
+		<ptr target="https://doi.org/10.1002/jor.23075" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Orthopaedic Research</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="369" to="385" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sing, S. L., An, J., Yeong, W. Y., &amp; Wiria, F. E. (2016). Laser and electron- beam powder-bed additive manufacturing of metallic implants: A review on processes, materials and designs. Journal of Orthopaedic Research, 34(3), 369-385. https://doi.org/10.1002/jor.23075</note>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">MultiFab: A machine vision assisted plaform for multi-material 3D printing</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Sitthi-Amorn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Ramos</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Wangy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Kwan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Lan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Matusik</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2766962</idno>
+		<idno>129:1-129:11</idno>
+		<ptr target="https://doi.org/10.1145/2766962" />
+	</analytic>
+	<monogr>
+		<title level="j">ACM Transactions on Graphics</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sitthi-Amorn, P., Ramos, J. E., Wangy, Y., Kwan, J., Lan, J., Wang, W., &amp; Matusik, W. (2015). MultiFab: A machine vision assisted plaform for multi-material 3D printing. ACM Transactions on Graphics, 34(4), 129:1-129:11. https://doi.org/10.1145/2766962</note>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Some Upper Tremadocian graptolites from Norway</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Spjeldnaes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Palaeontology</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="121" to="131" />
+			<date type="published" when="1963" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Spjeldnaes, N. (1963). Some Upper Tremadocian graptolites from Norway. Palaeontology, 6(1), 121-131.</note>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Adaptation to life in aeolian sand: How the sandfish lizard, Scincus scincus, prevents sand particles from entering its lungs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">T</forename><surname>Stadler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Vihar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Günther</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">…</forename><forename type="middle">W</forename></persName>
+		</author>
+		<idno type="DOI">10.1242/jeb.138107</idno>
+		<ptr target="https://doi.org/10.1242/jeb.138107" />
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Experimental Biology</title>
+		<imprint>
+			<biblScope unit="volume">219</biblScope>
+			<biblScope unit="issue">22</biblScope>
+			<biblScope unit="page" from="3597" to="3604" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stadler, A. T., Vihar, B., Günther, M., … W. (2016). Adaptation to life in aeolian sand: How the sandfish lizard, Scincus scincus, prevents sand particles from entering its lungs. The Journal of Experimental Biology, 219(22), 3597-3604. https://doi.org/10.1242/jeb.138107</note>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Basics and principles of particle image velocimetry (PIV) for mapping biogenic and biologically relevant flows</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">J</forename><surname>Stamhuis</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10452-005-6567-z</idno>
+		<ptr target="https://doi.org/10.1007/s10452-005-6567-z" />
+	</analytic>
+	<monogr>
+		<title level="j">Aquatic Ecology</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="463" to="479" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stamhuis, E. J. (2006). Basics and principles of particle image ve- locimetry (PIV) for mapping biogenic and biologically relevant flows. Aquatic Ecology, 40(4), 463-479. https://doi.org/10.1007/ s10452-005-6567-z</note>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">Worlds First 3D Printed Reef</title>
+	</analytic>
+	<monogr>
+		<title level="m">Sustainable Oceans International</title>
+		<imprint>
+			<date type="published" when="2012" />
+			<biblScope unit="page" from="1" to="2" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sustainable Oceans International, (2012). Worlds First 3D Printed Reef., pp. 1-2.</note>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Carotenoid-based signals in behavioural ecology: A review</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">A</forename><surname>Svensson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">B M</forename><surname>Wong</surname></persName>
+		</author>
+		<idno type="DOI">10.1163/000579510X548673</idno>
+		<ptr target="https://doi.org/10.1163/000579510X548673" />
+	</analytic>
+	<monogr>
+		<title level="j">Behaviour</title>
+		<imprint>
+			<biblScope unit="volume">148</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="131" to="189" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Svensson, P. A., &amp; Wong, B. B. M. (2011). Carotenoid-based signals in behavioural ecology: A review. Behaviour, 148(2), 131-189. https:// doi.org/10.1163/000579510X548673</note>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">Enlarged Skeleton Models of Plankton for Tactile Teaching</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Teshima</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Matsuoka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Fujiyoshi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Ikegami</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Kaneko</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Oouchi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>…yamazawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Computers Helping People with Special Needs: 12th International Conference, ICCHP 2010</title>
+		<editor>K. Miesenberger et al.</editor>
+		<meeting><address><addrLine>Vienna, Austria; Berlin, Heidelberg, Heidelberg; Berlin Heidelberg</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2010" />
+			<biblScope unit="page" from="523" to="526" />
+		</imprint>
+	</monogr>
+	<note>Proceedings, Part II</note>
+	<note type="raw_reference">Teshima, Y., Matsuoka, A., Fujiyoshi, M., Ikegami, Y., Kaneko, T., Oouchi, S., …Yamazawa, K. (2010). Enlarged Skeleton Models of Plankton for Tactile Teaching. In K. Miesenberger et al., eds. Computers Helping People with Special Needs: 12th International Conference, ICCHP 2010, Vienna, Austria, July14-16, 2010, Proceedings, Part II. Berlin, Heidelberg, Heidelberg: Springer Berlin Heidelberg, pp. 523-526.</note>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">Flowers with caffeinated nectar receive more pollination</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">D</forename><surname>Thomson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Draguleasa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">G</forename><surname>Tan</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11829-014-9350-z</idno>
+		<ptr target="https://doi.org/10.1007/s11829-014-9350-z" />
+	</analytic>
+	<monogr>
+		<title level="j">Arthropod-Plant Interactions</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Thomson, J. D., Draguleasa, M. A., &amp; Tan, M. G. (2015). Flowers with caf- feinated nectar receive more pollination. Arthropod-Plant Interactions, 9(1), 1-7. https://doi.org/10.1007/s11829-014-9350-z</note>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main">Current-induced flow through the sponge</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Vogel</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/1540461</idno>
+		<ptr target="https://doi.org/10.2307/1540461" />
+	</analytic>
+	<monogr>
+		<title level="j">Halichondria. The Biological Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">147</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="443" to="456" />
+			<date type="published" when="1974" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vogel, S. (1974). Current-induced flow through the sponge, Halichondria. The Biological Bulletin, 147(2), 443-456. https://doi. org/10.2307/1540461</note>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title level="a" type="main">Let there be chip-towards rapid prototyping of microfluidic devices: One-step manufacturing processes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Waldbaur</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Rapp</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Länge</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">E</forename><surname>Rapp</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c1ay05253e</idno>
+		<ptr target="https://doi.org/10.1039/c1ay05253e" />
+	</analytic>
+	<monogr>
+		<title level="j">Analytical Methods</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Waldbaur, A., Rapp, H., Länge, K., &amp; Rapp, B. E. (2011). Let there be chip-towards rapid prototyping of microfluidic devices: One-step manufacturing processes. Analytical Methods, 3(12), 2681. https:// doi.org/10.1039/c1ay05253e</note>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<monogr>
+		<title level="m" type="main">A review of the moulding and casting materials and techniques in use at the palaeontology laboratory, British museum (natural history). The Conservator</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">H</forename><surname>Waters</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/01410096.1983.9994977</idno>
+		<ptr target="https://doi.org/10.1080/01410096.1983.9994977" />
+		<imprint>
+			<date type="published" when="1983" />
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="37" to="43" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Waters, P. H. (1983). A review of the moulding and casting materials and techniques in use at the palaeontology laboratory, British museum (natural history). The Conservator, 7(1), 37-43. https://doi.org/10.108 0/01410096.1983.9994977</note>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title level="a" type="main">Three dimensional printing as an effective method of producing anatomically accurate models for studies in thermal ecology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">M</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">R</forename><surname>Francis</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jtherbio.2015.03.004</idno>
+		<ptr target="https://doi.org/10.1016/j.jtherbio.2015.03.004" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Thermal Biology</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="42" to="46" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Watson, C. M., &amp; Francis, G. R. (2015). Three dimensional printing as an effective method of producing anatomically accurate models for studies in thermal ecology. Journal of Thermal Biology, 51, 42-46. https://doi.org/10.1016/j.jtherbio.2015.03.004</note>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<analytic>
+		<title level="a" type="main">Biomimetic shark skin: Design, fabrication and hydrodynamic function</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Weaver</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">V</forename><surname>Lauder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Biology</title>
+		<imprint>
+			<biblScope unit="volume">217</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1656" to="1666" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wen, L., Weaver, J. C., &amp; Lauder, G. V. (2014). Biomimetic shark skin: Design, fabrication and hydrodynamic function. Journal of Experimental Biology, 217(10), 1656-1666.</note>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<analytic>
+		<title level="a" type="main">Biological Anthropology in 2015: Open Access, Biocultural Interactions, and Social Change</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Willermet</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/jeb.097097</idno>
+		<ptr target="https://doi.org/10.1242/jeb.097097" />
+	</analytic>
+	<monogr>
+		<title level="j">American Anthropologist</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="317" to="329" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Willermet, C. (2016). Biological Anthropology in 2015: Open Access, Biocultural Interactions, and Social Change. American Anthropologist, 118(2), 317-329. https://doi.org/10.1242/jeb.097097</note>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<analytic>
+		<title level="a" type="main">Vulnerability of the Great Barrier Reef to climate change and local pressures</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">H</forename><surname>Wolff</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">J</forename><surname>Mumby</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Devlin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">R N</forename><surname>Anthony</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/gcb.14043</idno>
+		<ptr target="https://doi.org/10.1111/gcb.14043" />
+	</analytic>
+	<monogr>
+		<title level="j">Global Change Biology</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1978" to="1991" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wolff, N. H., Mumby, P. J., Devlin, M., &amp; Anthony, K. R. N. (2018). Vulnerability of the Great Barrier Reef to climate change and local pressures. Global Change Biology, 24(5), 1978-1991. https://doi. org/10.1111/gcb.14043</note>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<analytic>
+		<title level="a" type="main">A review of additive manufacturing</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">V</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Hernandez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ISRN Mechanical Engineering</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="10" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wong, K. V., &amp; Hernandez, A. (2012). A review of additive manufacturing. ISRN Mechanical Engineering, 2012, 1-10.</note>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<analytic>
+		<title level="a" type="main">Caffeine in floral nectar enhances a pollinator&apos;s memory of reward</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">A</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">D</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Palmer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Stabler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Mustard</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">F</forename><surname>Power</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">C</forename><surname>Stevenson</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1228806</idno>
+		<ptr target="https://doi.org/10.1126/science.1228806" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">339</biblScope>
+			<biblScope unit="issue">6124</biblScope>
+			<biblScope unit="page" from="1202" to="1204" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wright, G. A., Baker, D. D., Palmer, M. J., Stabler, D., Mustard, J. A., Power, E. F., … Stevenson, P. C. (2013). Caffeine in floral nectar enhances a pollinator&apos;s memory of reward. Science, 339(6124), 1202-1204. https://doi.org/10.1126/science.1228806</note>
+</biblStruct>
+
+<biblStruct xml:id="b95">
+	<analytic>
+		<title level="a" type="main">3D printing: An emerging tool for novel microfluidics and lab-on-a-chip applications</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">A</forename><surname>Yazdi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Popma</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Xu</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10404-016-1715-4</idno>
+		<ptr target="https://doi.org/10.1007/s10404-016-1715-4" />
+	</analytic>
+	<monogr>
+		<title level="j">Microfluidics and Nanofluidics</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yazdi, A. A., Popma, A., Wong, W., Nguyen, T., Pan, Y., &amp; Xu, J. (2016). 3D printing: An emerging tool for novel microfluidics and lab-on-a-chip applications. Microfluidics and Nanofluidics, 20(3), 50. https://doi. org/10.1007/s10404-016-1715-4</note>
+</biblStruct>
+
+<biblStruct xml:id="b96">
+	<analytic>
+		<title level="a" type="main">Opensource 3D-printable optics equipment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">C</forename><surname>Anzalone</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">P</forename><surname>Faria</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Pearce</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0059840</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0059840" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang, C., Anzalone, N. C., Faria, R. P., &amp; Pearce, J. M. (2013). Open- source 3D-printable optics equipment. PLoS ONE, 8(3), e59840. https://doi.org/10.1371/journal.pone.0059840</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

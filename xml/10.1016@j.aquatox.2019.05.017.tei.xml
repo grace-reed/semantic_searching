@@ -1,0 +1,1818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/grace/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Metabolite profiling of Breviolum minutum in response to acidification</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jiaoyun</forename><surname>Jiang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">College of Oceanology</orgName>
+								<orgName type="laboratory">State Key Laboratory of Marine Resource Utilization in South China Sea</orgName>
+								<orgName type="institution">Hainan University</orgName>
+								<address>
+									<postCode>570228</postCode>
+									<settlement>Haikou, Hainan</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">College of Life Sciences</orgName>
+								<orgName type="institution">Guangxi Normal University</orgName>
+								<address>
+									<postCode>541004</postCode>
+									<settlement>Guilin, Guangxi</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yandu</forename><surname>Lu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">College of Oceanology</orgName>
+								<orgName type="laboratory">State Key Laboratory of Marine Resource Utilization in South China Sea</orgName>
+								<orgName type="institution">Hainan University</orgName>
+								<address>
+									<postCode>570228</postCode>
+									<settlement>Haikou, Hainan</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Metabolite profiling of Breviolum minutum in response to acidification</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.aquatox.2019.05.017</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-09-14T02:29+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Breviolum minutum Acidification Metabolomics LC-MS Photophysiology Acclimation</keywords>
+			</textClass>
+			<abstract>
+				<p>Coral reefs are in significant decline globally due to climate change and environmental pollution. The ocean is becoming more acidic due to rising atmospheric pCO 2 , and ocean acidification is considered a major threat to coral reefs. However, little is known about the exact mechanism by which acidification impacts coral symbiosis. As an important component of the symbiotic association, to explore the responses of symbionts could greatly enhance our understanding of this issue. The present work aimed to identify metabolomic changes of Breviolum minutum in acidification (low pH) condition, and investigate the underlying mechanisms responsible. Liquid chromatography-tandem mass spectrometry (LC-MS/MS) was applied to determine metabolite profiles after exposure to ambient and acidic conditions. We analysed the resulting metabolite data, and acidification appeared to have little effect on photosynthetic parameters, but it inhibited growth. Marked alterations in metabolite pools were observed in response to acidification that may be important in acclimation to climate change. Acidification may affect the biosynthesis of amino acids and proteins, and thereby inhibit the growth of B. minutum. Metabolites identified using this approach provide targets for future analyses aimed at understanding the responses of Symbiodiniaceae to environmental disturbance.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Tropical shallow-water reef-building corals underpin the extraordinary biodiversity of marine ecosystems. In these ecosystems, corals build the calcium carbonate skeletons that create the habitats, spawning and nursery grounds sustaining the broad diversity of marine flora and fauna. It is estimated that 35% of marine species inhabit coral reefs <ref type="bibr" target="#b46">(Reaka-Kudla, 2005)</ref>. Although corals have significant societal and economic value, they are in significant decline globally due, in part, to rapid climatic changes <ref type="bibr" target="#b4">(Bernhardt and Leslie, 2013)</ref>, and the situation is being aggravated due to increasing human perturbations <ref type="bibr" target="#b48">(Roth, 2014;</ref><ref type="bibr" target="#b57">Wolff et al., 2018)</ref>.</p><p>Since the onset of the industrial revolution, the oceans have taken up about a third of all CO 2 emitted by anthropogenic activities, and become warmer and more acidic as a result of rising atmospheric pCO 2 . The surface water pH of oceans is predicted to further decline by 0.3 units by the end of the century <ref type="bibr">(IPCC, 2013)</ref>. Stony corals build hard skeletons of calcium carbonate (CaCO ) by combining calcium with carbonate ions derived, ultimately, from seawater <ref type="bibr" target="#b3">(Barnes, 1970)</ref>. Previous studies have shown that increased CO concentrations reduce the calcification rates of reefs <ref type="bibr" target="#b7">(Comeau et al., 2013)</ref> and cause bleaching and productivity loss <ref type="bibr" target="#b0">(Anthony et al., 2008)</ref>. Corals contain Symbiodiniaceae within endodermal cells that fix CO 2 and transfer more than 90% of their fixed carbon to meet the host's daily carbon requirements <ref type="bibr" target="#b42">(Muscatine et al., 1981;</ref><ref type="bibr" target="#b10">Davies, 1991)</ref>. In return, the host supplies Symbiodiniaceae with HCO 3 − as a major metabolic substrate <ref type="bibr" target="#b15">(Furla et al., 2005)</ref>. As CO 2 emissions rise, the concentration of HCO 3 − (most abundant dissolved inorganic carbon (DIC) species) and dissolved CO 2 will be significantly higher, while the concentration of carbonate ions (CO 3 2-) will be lower <ref type="bibr" target="#b12">(Doney et al., 2009)</ref>. Indeed, the balance of carbon transfer between hosts and symbionts is broken, and eventually leading to bleaching of corals <ref type="bibr" target="#b0">(Anthony et al., 2008)</ref>. However, little is known about that how acidification impacts coral symbiosis <ref type="bibr" target="#b51">Sogin et al., 2016)</ref>. Therefore, there is an urgent need to develop monitoring methods that can measure changes in coral performance, and be used to investigate the mechanisms underlying coral responses to ocean acidification. Investigations at the level of gene expression (genomics, transcriptomics) <ref type="bibr" target="#b1">(Aranda et al., 2016;</ref><ref type="bibr" target="#b19">Gierz et al., 2017;</ref><ref type="bibr" target="#b31">Levin et al., 2016;</ref><ref type="bibr" target="#b32">Liew et al., 2017;</ref><ref type="bibr" target="#b33">Lin et al., 2015;</ref><ref type="bibr" target="#b49">Shoguchi et al., 2013</ref><ref type="bibr" target="#b50">Shoguchi et al., , 2018</ref> and protein translation (proteomics) <ref type="bibr" target="#b38">(Mayfield et al., 2018a</ref><ref type="bibr" target="#b39">(Mayfield et al., , 2018b</ref><ref type="bibr" target="#b43">Oakley et al., 2016</ref><ref type="bibr" target="#b44">Oakley et al., , 2017</ref><ref type="bibr" target="#b58">Zhang et al., 2018)</ref> can advance our understanding of Symbiodiniaceae responses to environmental disturbance. However E-mail addresses: jiangjiaoyun007@163.com (J. Jiang), ydlu@hainu.edu.cn (Y. Lu). T scarce and somewhat disconnected from physiological considerations <ref type="bibr" target="#b8">(Cziesielski et al., 2018;</ref><ref type="bibr" target="#b37">Mayfield et al., 2016)</ref>, which raises the question of whether gene expression is an accurate proxy for phenotype. Metabolomics, the newest of the 'omics' disciplines, can report on the actual functional status of an organism, which can then be related to its phenotype, and this approach is becoming a popular tool in the field of coral research <ref type="bibr" target="#b23">(Hillyer et al., 2016</ref><ref type="bibr" target="#b24">(Hillyer et al., , 2017</ref><ref type="bibr" target="#b25">(Hillyer et al., , 2018</ref><ref type="bibr" target="#b36">Matthews et al., 2017)</ref>.</p><p>As the Symbiodiniaceae are rapid to grow and more easy to culture for lots of biomass, exploring the responses of Symbiodiniaceae on culture to acidification could greatly enhance our understanding of coral symbiosis. In the present study, we employed B. minutum (formerly S. minutum) (LaJeunesse et al., 2018) as experimental objects, and performed metabolite profiling using liquid chromatographytandem mass spectrometry (LC-MS/MS). We determined the metabolite composition and physiological changes in response to acidification stress. The findings expand our understanding of cellular responses to acidification stress.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Materials and methods</head><p>2.1. Strains, growth conditions and physiological measurements B. minutum strain NIES-3808 was obtained from the National Institute for Environmental Studies (Japan) and cultured in conical flasks with trace metal defined medium modified from the Li medium recipe (https://ncma.bigelow.org/algal-recipes) containing ampicillin (100 mg/L), kanamycin (100 mg/L) and streptomycin (50 mg/L) to minimise the growth of bacteria. The temperature was maintained at 25°C with a light intensity of˜50 μmol photons m −2 s -1 and a 16:8 light:dark cycle.</p><p>Growth was determined using a 0.1-mm-deep Improved Neubauer Hemocytometer (Fisher Scientific) by measuring the cell number at defined intervals. The phenotypic characteristics were determined by optical microscopy (LEICA, Germany) at the end of the experiment. Mid-logarithmic phase algal cells were centrifuged at 8,000g × 2 min and equal number of cells were re-inoculated in fresh medium under the indicated stress regimens. Control B. minutum cells were cultured in medium with a pH of 8.2 ( ± 0.1) at 25°C, and 50 μmol photons m −2 s -1 light. A shift in pH to 7.6 ( ± 0.1) was applied to induce acidification stress. Cell aliquots were collected for metabolite profiling at 24 h based on the results of growth analysis <ref type="figure" target="#fig_3">(Fig. 1a)</ref>. Three replicate biological algal cultures were established for each treatment. The maximum quantum yield of PS II (Fv/Fm) was measured using a chlorophyll fluorimeter (WALZ, Germany), with a Measuring Intensity of four, Saturating Intensity of seven, and Gain and Damping of two. Pigment extraction and measurement were performed refer to the methods <ref type="bibr" target="#b53">Strychar and Sammarco (2011)</ref>. Briefly, 2 ml of each algal culture were collected by centrifugation. Methanol was used as the extraction solvent (1 ml for each sample), at 60℃ in dark for 30 min. Extracts were then centrifuged at 5000 rpm for 15 min to remove the algal debris. Pigment absorbances were read on a spectrophotometer (GeneQuant 1300, USA); Using light wavelengths of 664 nm and 630 nm for chl a, and 480 nm and 510 nm for Carotenoid concentrations, corrected by subtracting the absorbance value at 750 nm. Equations used for pig- </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Metabolite extraction</head><p>Metabolomic extraction was conducted as described previously with some modification <ref type="bibr" target="#b11">(De Vos et al., 2007)</ref>. Samples were slowly thawed at 4°C, 1 ml pre-cooling methanol/acetonitrile/water (2:2:1, v/v) was added, and samples were vortexed. After ultrasonic decomposition at low temperature for 30 min, samples were incubated for 1 h at −20°C to precipitate proteins, then centrifuged (13,000 g 4°C, 15 min).</p><p>Supernatants were collected and dried under vacuum, and stored at −80°C. Samples were redissolved in 100 μL acetonitrile/water (1:1, v/ v) and vortexed, centrifuged (14,000 × g, 4°C, 15 min), and supernatants were collected for LC-MS/MS analysis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">LC-MS/MS analysis</head><p>Sample separation was performed using an Infinity 1290 ultra-highperformance liquid chromatography (UHPLC) instrument (Agilent Technologies, Santa Clara, CA, USA) equipped with Hydrophilic Interaction Liquid Chromatography (HILIC) and Reversed-Phase Liquid Chromatography (RPLC) columns. The column temperature was 25°C and the flow rate was 300 μL/min. Samples (2 μL) were placed in an autosampler at 4°C, and to avoid influence caused by the instrument detecting signal fluctuation, samples were analysed randomly. Quality control (QC) samples consisting of aliquots from all samples were included to evaluate system stability and data reliability during the entire experimental process.</p><p>The mobile phase was composed of solvent A (consisted of 25 mM ammonium acetate &amp; 25 mM ammonium hydroxide in water) and solvent B (acetonitrile). The linear gradient elutes consisted of 95% solvent B for 1 min, followed by a linear reduction from 95% to 65% B (1-7) min, a reduction to 40% B (7-8) min, maintaining at 40% B (8-9) min, followed by an increase to 95% (9-9.1) min, and 95% B (9.1-12) min. Samples were detected in both electrospray ionisation (ESI) positive and negative modes. Analyses were performed using an UHPLC instrument coupled to an AB SCIEX Triple-time of flight (TOF) 5600 quadrupole instrument (AB SCIEX, Foster city, CA, USA).</p><p>The ESI source conditions following HILIC separation were as follows: ion source gas 1 (Gas 1) = 60, Gas 2 = 60, curtain gas (CUR) = 30, source temperature =600°C, ion spray voltage floating (ISVF) = 5500 V in positive mode, and -5500 V in negative mode. In MS-only acquisition, the instrument was set to acquire over m/z range 60-1000 Da and product ion scan m/z range 25-1000 Da, with a TOF MS scan accumulation rate of 0.20 s per spectra, and a product ion scan accumulation time of 0.05 s per spectra. Product ion scans were acquired using information-dependent acquisition (IDA) with high sensitivity mode selected. The collision energy (CE) was fixed at 35 ± 15 eV. The declustering potential (DP) was ± 60 V. IDA excluded isotopes within 4 Da, and monitored six candidate ions per cycle.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Statistical analysis</head><p>Raw MS data (wiff.scan files) were converted to MzXML files using ProteoWizard (version 3.0.4146) MS Convert and processed using XCMS (Version 1.41.0) for data baseline filtering, feature detection, retention time correction, and alignment. A three-dimensional matrix containing arbitrarily assigned peak retention time-m/z pairs, sample names and ion intensity information was generated. The matrix was reduced by deleting metabolites with more than 50% missing values, and peaks with relative standard deviation (RSD) higher than 30% in QC samples were removed to reduce noise in the data. Half of the minimum value was used to simulate the missing value of the LC-MS data. The resulting matrix was further normalized by the total integral area and for statistical analyses.</p><p>SIMCA-P (version 14.1) was used for principal component analysis (PCA) and orthogonal partial least squares discriminant analysis (OPLS-DA). Single dimensional statistical analysis included Student's t-tests and fold change. A volcano plot was obtained using R software (version 3.2.4). Metabolites were identified by accuracy mass (&lt; 25 ppm) and MS/MS spectral and retention time matching using an in-house MS/MS library with MS/MS spectra of metabolite standards that were acquired using the same LC-MS/MS conditions of samples described previously. Identified metabolites were compared to the Kyoto Encyclopedia of Genes and Genomes (KEGG) database to annotate metabolite functions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Physiological responses of B. minutum to acidification</head><p>The results showed that acidification had no apparent effect on the photochemical efficiency of photosystem II (PSII; <ref type="figure" target="#fig_3">Fig. 1b, e</ref>). Furthermore, there were no significant differences in the levels of chlorophyll a or total carotenoids between the two groups <ref type="figure" target="#fig_3">(Fig. 1c, d</ref>). However, acidification significantly inhibited the growth of B. minutum <ref type="figure" target="#fig_3">(Fig. 1a,  e</ref>). There was no pigment bleaching occurred at the end of the experiment, but it was clear that the acidification group had fewer cells than the control group <ref type="figure" target="#fig_3">(Fig. 1e)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Metabolite profiling of B. minutum</head><p>PCA was carried out on all datasets to evaluate sample variability. The results showed that acidification caused a marked shift in metabolite profile, as indicated by a clear separation in PCA plots relative to those under ambient conditions, which explained 58% of the total variation (R 2 X [cum] = 0.58; <ref type="figure" target="#fig_3">Fig. S1</ref>; <ref type="table" target="#tab_0">Table S1</ref>). These patterns were also determined by OPLS-DA models which indicated that the metabolite profiles can accurately predict Symbiodiniaceae exposed to ambient or stress treatments (positive ion mode, R X = 0.442, R 2 Y = 0.997, Q 2 = 0.695; negative ion mode, R 2 X = 0.549, R 2 Y = 0.998, Q 2 = 0.726; <ref type="figure" target="#fig_4">Fig. S2</ref>; <ref type="table" target="#tab_0">Table S1</ref>). A volcano plot was used for univariate analysis (differences were considered significant at p &lt; 0.05, fold change &gt; 2 or &lt; 0.5), and the results are shown in <ref type="figure">Fig. S3</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Acidification alters the metabolite profiles of B. minutum</head><p>Marked alterations in B. minutum metabolite pools were observed in response to acidification. In total, 37 and 33 metabolites were detected in positive and negative ion modes. Among them, 20 and 16 metabolites exhibited significant differences in accumulation (VIP &gt; 1, pvalue &lt; 0.05) between ambient and stress groups. Major differences included complex mixtures of amino acids (dipeptides), fatty acids, carbohydrates, organic acids (derivatives) and metabolic intermediates. Metabolite profiles are summarised in <ref type="table" target="#tab_0">Table 1 and Table 2</ref>. Notably, most saturated fatty acids, including capric acid, myristic acid, pentadecanoic acid and palmitic acid, were elevated following acidification. By contrast, most amino acids (peptides), including L-proline, L-glutamate, L-pyroglutamic acid, Ile-Glu, His-Glu, Phe-Asn, and N-acetyl-Ltyrosine, were decreased under low pH condition. Unsurprisingly, two carbohydrates were up-regulated by acidification; consistent with the above conclusion that acidification (pH 7.6) had little or no effect on photosynthetic efficiency <ref type="figure" target="#fig_3">(Fig. 1b)</ref>. To further search for marker metabolites, we conducted hierarchical clustering <ref type="figure" target="#fig_4">(Fig. 2)</ref>.</p><p>Identified metabolites were compared with KEGG database to determine the metabolic pathways that they might be involved, and to predict the potential functions of metabolites. Metabolic pathways potentially affected by acidification and the potential roles of the identified metabolites are summarised in <ref type="table" target="#tab_1">Table S2</ref>. Interestingly, most altered metabolites were associated with central metabolism, cell structure, biosynthesis, and signalling. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>Functional cnidarian-dinoflagellate symbiosis is dependent on the bidirectional exchange of nutrients. Photosynthates are primarily composed of glycerol, glucose, amino acids, organic acids, and free fatty acids <ref type="bibr" target="#b6">(Burriesci et al., 2012;</ref><ref type="bibr" target="#b16">Gates et al., 1995;</ref><ref type="bibr" target="#b40">Molina et al., 2017;</ref><ref type="bibr" target="#b41">Muscatine and Hand, 1958)</ref>. Previous studies found that alterations in the metabolite profiles of symbionts are critical in acclimation to climate change <ref type="bibr" target="#b23">(Hillyer et al., 2016</ref><ref type="bibr" target="#b24">(Hillyer et al., , 2017</ref><ref type="bibr" target="#b25">(Hillyer et al., , 2018</ref><ref type="bibr" target="#b51">Sogin et al., 2016)</ref>. More importantly, integration of metabolite and physiological data highlights the predictive power of metabolomics in defining organism performance, and provides biomarkers for future studies <ref type="bibr" target="#b51">(Sogin et al., 2016)</ref>. Chronic exposure to ocean acidification negatively impacts the health of many marine organisms <ref type="bibr" target="#b28">(Kroeker et al., 2010)</ref> and is a major threat to coral reefs <ref type="bibr" target="#b0">(Anthony et al., 2008;</ref><ref type="bibr" target="#b51">Sogin et al., 2016)</ref>. However, exactly how acidification impacts coral symbiosis remains largely unexplored. In the present study, the physiological characteristics and metabolites of B. minutum were compared between ambient and acidstressed groups.</p><p>In the present study, acidification appears to have little effect on the photosynthetic parameters of Symbiodiniaceae, as indicated by the unchanged maximum quantum yield of PS II (Fv/Fm), and no significant differences in the levels of photosynthetic pigments <ref type="figure" target="#fig_3">(Fig. 1b, c,  d</ref>). However, interestingly, acidification significantly inhibited the growth rate of B. minutum <ref type="figure" target="#fig_3">(Fig. 1a,e</ref>). This suggests that the diminished growth under acidification stress is uncoupled from photosynthetic efficiency (Baghdasarian et al., 2017). These results are consistent with a recent study that investigated the impact of high pCO 2 on the temperate sea anemone Anemonia viridis, and also found that short-term exposure to high pCO 2 induced a significant reduction in Symbiodiniaceae density, but did not alter net photosynthesis <ref type="bibr" target="#b55">(Ventura et al., 2016)</ref>. In order to compensate for the low level of dissolved CO 2 in the ocean, many marine photoautotrophs have evolved carbon-concentrating mechanisms (CCMs) to support photosynthesis. In particular, Symbiodiniaceae possess a type II Rubisco protein with significantly lower specificity for CO 2 than type I Rubisco found in other phytoplankton taxa <ref type="bibr" target="#b5">(Brading et al., 2013;</ref><ref type="bibr" target="#b20">Giordano et al., 2005)</ref>. Furthermore, the activity of carbonic anhydrase (CA), an enzyme involved in the energy-demanding CCMs, is significantly lower under high pCO 2 <ref type="bibr" target="#b21">(Graham et al., 2015;</ref><ref type="bibr" target="#b55">Ventura et al., 2016)</ref>, and changes in CA activity may affect photosynthetic outputs, and thus reduce the growth of Symbiodiniaceae.</p><p>Fatty acids (lipids) are important components of all living organisms that play essential roles in energy storage, membrane structure fluidity, and cell signalling <ref type="bibr" target="#b14">(Dunn et al., 2012;</ref><ref type="bibr" target="#b27">Kopp et al., 2015;</ref><ref type="bibr" target="#b54">Tchernov et al., 2004;</ref><ref type="bibr" target="#b56">Wang et al., 2013)</ref>. Changes in lipid profiles following environmental stimuli, such as temperature fluctuations, can have indirect implications for reef health <ref type="bibr" target="#b23">(Hillyer et al., 2016</ref><ref type="bibr" target="#b24">(Hillyer et al., , 2017</ref><ref type="bibr" target="#b47">Revel et al., 2016;</ref><ref type="bibr" target="#b51">Sogin et al., 2016)</ref>. In the present study, we detected an increase in saturated fatty acid (SFA) pools for C10_0, C14_0, C15_0 and C16_0 SFAs <ref type="table" target="#tab_0">(Table 1</ref> and 2) in the acidification group. Increased in the saturation of the lipid bilayer may be an important mechanism in protecting against damage by reactive oxygen species (ROS) <ref type="bibr" target="#b54">(Tchernov et al., 2004)</ref>. Under acidification ROS were found to elevate in Symbiodiniaceae (Soriano-Santiago et al., 2013), although we did not evaluate it in the present study. Therefore, we speculate that increased saturation of cell membrane is also an important strategy in adaptation to acidification stress.</p><p>Consistent with the observed minimal impact on photosystems, we detected an increase in the abundance of two important  oligosaccharides (trehalose and stachyose) in the metabolite pool.</p><p>Trehalose is a nonreducing disaccharide of glucose that protects plant proteins and cellular membranes against inactivation or denaturation caused by a variety of stresses, including temperature fluctuations, oxidative stress, hypoxia, salt stress, and drought (review in <ref type="bibr" target="#b35">Lunn et al., 2014)</ref>. In Cnidaria, trehalose is released by symbionts and acts as a chemoattractant for coral hosts to establish Coral-Symbiodiniaceae relationships <ref type="bibr" target="#b22">(Hagedorn et al., 2015)</ref>. Thus, we propose that trehalose may not only serve as a signalling molecule, but may also play an important role in the responses to acidification stress. In plants, stachyose is member of the raffinose family of oligosaccharides (RFOs), and levels of these solutes are elevated to minimise the deleterious effects caused by abiotic stresses (dos <ref type="bibr" target="#b13">Santos et al., 2005;</ref><ref type="bibr" target="#b34">Lu et al., 2017)</ref>. Both trehalose and stachyose were accumulated under acidification stress in the present work, implying roles in adaptation to environmental stress in Symbiodiniaceae. Acidification also induced multiple changes in amino acids (peptides) in B. minutum. Amino acids (in the form of proteins) are crucial to almost all life processes in all organisms, including biosynthesis and growth. Glutamate is an important component in the glutamine synthetase/glutamine: 2-oxoglutarate aminotransferase (GS/GOGAT) cycle, which is a vital process in Symbiodiniaceae for assimilating ammonia <ref type="bibr" target="#b45">(Pernice et al., 2012;</ref><ref type="bibr" target="#b9">Dagenais-Bellefeuille and Morse, 2013)</ref>. However, we detected a decrease in glutamate levels in the present study. Whether this reduction would lead to a decrease in ammonia assimilation, and ultimately affect the synthesis of amino acids and proteins requires further study. But consistent with these changes, we observed decreased levels of amino acids and dipeptide <ref type="table" target="#tab_0">(Table 1</ref> and 2). Also of note was the accumulation of ellipticine, a cytotoxic plant alkaloid known to inhibit the growth of cells <ref type="bibr" target="#b29">(Kuo et al., 2005)</ref>. To our knowledge this is the first report of this metabolite in Symbiodiniaceae. Whether the accumulation of this molecule is associated with growth inhibition requires further investigation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusion</head><p>Acidification appears to have a negligible effect on photosynthetic parameters of Symbiodiniaceae, but it inhibited growth rate. Symbiodiniaceae alter their metabolic profiles to maintain cellular homeostasis during exposure to acidification. Accumulation of saturated fatty acids and some oligosaccharides may be important strategies in adaptation to environmental stress. Acidification may affect the biosynthesis of amino acids and proteins, and in turn, inhibit the growth of B. minutum.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>, transcriptome-proteome correlations in cnidarian model organisms are https://doi.org/10.1016/j.aquatox.2019.05.017 Received 6 April 2019; Received in revised form 28 May 2019; Accepted 28 May 2019 ⁎ Corresponding author.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>/ © 2019 Elsevier B.V. All rights reserved.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>ments are: chl a = 11.85 × [(Abs 664 nm -Abs 750 nm) -0.08 × (Abs 630 nm -Abs 750 nm)]; Carotenoid concentrations = 7.6 × [(Abs 480 nm -Abs 750 nm) -(1.49 × {Abs 510 nm -Abs750 nm})].</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 1 .</head><label>1</label><figDesc>Consequences of acidification stress on the photosynthetic activity and apparatus of Breviolum minutum. (a) Growth curve of B. minutum; (b) Maximum quantum yield of photosystem II (PSII); (c) Chlorophyll a (chl a) content; (d) Total carotenoid content; (e) Phenotypic changes in B. minutum in response to acidification. Asterisks (*) indicate p-values &lt; 0.05.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 2 .</head><label>2</label><figDesc>Hierarchical clustering of significantly differentially abundant metabolites. (a) Results from positive ion mode; (b) Results from negative ion mode. C, control group; T, acidification group.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Metabolites identified in Breviolum minutum in positive ion mode.</figDesc><table><row><cell>Metabolites</cell><cell>VIP</cell><cell>FC (log 2)</cell><cell>P value</cell></row><row><cell>3-Phosphoserine</cell><cell>6.958</cell><cell>3.590</cell><cell>0.049</cell></row><row><cell>Ile-Ser</cell><cell>2.231</cell><cell>1.525</cell><cell>0.004</cell></row><row><cell>Primidone</cell><cell>2.316</cell><cell>1.481</cell><cell>0.024</cell></row><row><cell>D-4-Hydroxyphenylglycine</cell><cell>1.449</cell><cell>1.338</cell><cell>0.018</cell></row><row><cell>Picolinic acid</cell><cell>2.295</cell><cell>1.321</cell><cell>0.049</cell></row><row><cell>Serotonin</cell><cell>1.375</cell><cell>1.304</cell><cell>0.044</cell></row><row><cell>Ellipticine</cell><cell>2.825</cell><cell>1.257</cell><cell>0.041</cell></row><row><cell>Betaine aldehyde</cell><cell>1.081</cell><cell>1.234</cell><cell>0.042</cell></row><row><cell>L-Citrulline</cell><cell>1.881</cell><cell>1.206</cell><cell>0.011</cell></row><row><cell>L-Pyroglutamic acid</cell><cell>2.613</cell><cell>0.847</cell><cell>0.049</cell></row><row><cell>2-Octenoic acid</cell><cell>15.819</cell><cell>0.820</cell><cell>0.014</cell></row><row><cell>S-Methyl-5'-thioadenosine</cell><cell>1.356</cell><cell>0.794</cell><cell>0.018</cell></row><row><cell>His-Glu</cell><cell>1.532</cell><cell>0.755</cell><cell>0.003</cell></row><row><cell>Felbamate</cell><cell>1.124</cell><cell>0.748</cell><cell>0.037</cell></row><row><cell>1-O-Octadecyl-sn-glyceryl-3-phosphorylcholine</cell><cell>1.147</cell><cell>0.708</cell><cell>0.019</cell></row><row><cell>Maltopentaose</cell><cell>1.472</cell><cell>0.687</cell><cell>0.027</cell></row><row><cell>N-Acetyl-L-tyrosine</cell><cell>4.484</cell><cell>0.615</cell><cell>0.010</cell></row><row><cell>Ile-Glu</cell><cell>3.471</cell><cell>0.604</cell><cell>0.011</cell></row><row><cell>Hydroxyurea</cell><cell>3.994</cell><cell>0.564</cell><cell>0.022</cell></row><row><cell>Phe-Asn</cell><cell>2.750</cell><cell>0.503</cell><cell>0.048</cell></row><row><cell>3,4-Dihydroxybenzoate (Protocatechuic acid)</cell><cell>1.171</cell><cell>2.498</cell><cell>0.085</cell></row><row><cell>5-Methoxyindoleacetate</cell><cell>1.649</cell><cell>1.655</cell><cell>0.088</cell></row><row><cell>Val-Thr</cell><cell>1.752</cell><cell>1.451</cell><cell>0.058</cell></row><row><cell>L-Histidine</cell><cell>6.205</cell><cell>1.277</cell><cell>0.075</cell></row><row><cell>L-Leucine</cell><cell>3.652</cell><cell>1.157</cell><cell>0.050</cell></row><row><cell>Desipramine</cell><cell>1.574</cell><cell>1.151</cell><cell>0.054</cell></row><row><cell>L-2-Aminobutyric acid</cell><cell>2.100</cell><cell>1.088</cell><cell>0.075</cell></row><row><cell>Lys-Ser</cell><cell>1.253</cell><cell>0.895</cell><cell>0.075</cell></row><row><cell>L-Glutamate</cell><cell>3.322</cell><cell>0.877</cell><cell>0.094</cell></row><row><cell>Nicotinamide ribotide</cell><cell>5.810</cell><cell>0.845</cell><cell>0.075</cell></row><row><cell>Galanthamine</cell><cell>1.206</cell><cell>0.845</cell><cell>0.078</cell></row><row><cell>3'-O-methylcytidine</cell><cell>1.060</cell><cell>0.825</cell><cell>0.080</cell></row><row><cell>Altretamine</cell><cell>1.640</cell><cell>0.816</cell><cell>0.091</cell></row><row><cell>Methyl acetoacetate</cell><cell>4.158</cell><cell>0.767</cell><cell>0.067</cell></row><row><cell>Pro-Phe</cell><cell>1.278</cell><cell>0.718</cell><cell>0.094</cell></row><row><cell>Itaconic acid</cell><cell>3.141</cell><cell>0.515</cell><cell>0.055</cell></row><row><cell>L-Arginine</cell><cell>10.193</cell><cell>0.117</cell><cell>0.097</cell></row><row><cell cols="4">Significantly differentially abundant metabolites are italicsised. VIP, variable</cell></row><row><cell>importance of the projection; FC, fold change.</cell><cell></cell><cell></cell><cell></cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>Metabolites identified in B. minutum in negative mode.</figDesc><table><row><cell>Metabolites</cell><cell>VIP</cell><cell>FC (log 2)</cell><cell>P value</cell></row><row><cell>Cyclic adenosine diphosphate ribose</cell><cell>1.048</cell><cell>1.953</cell><cell>0.034</cell></row><row><cell>gamma-L-Glutamyl-L-glutamic acid</cell><cell>3.346</cell><cell>1.938</cell><cell>0.040</cell></row><row><cell>Trehalose</cell><cell>4.006</cell><cell>1.551</cell><cell>0.021</cell></row><row><cell>L-Malic acid</cell><cell>1.611</cell><cell>1.522</cell><cell>0.041</cell></row><row><cell>Palmitic acid</cell><cell>15.051</cell><cell>1.452</cell><cell>0.005</cell></row><row><cell>Pentadecanoic Acid</cell><cell>2.346</cell><cell>1.355</cell><cell>0.013</cell></row><row><cell>Myristic acid</cell><cell>6.044</cell><cell>1.328</cell><cell>0.013</cell></row><row><cell>Stachyose</cell><cell>2.045</cell><cell>1.297</cell><cell>0.005</cell></row><row><cell>Glyceric acid</cell><cell>1.154</cell><cell>1.195</cell><cell>0.017</cell></row><row><cell>Capric acid</cell><cell>1.362</cell><cell>1.150</cell><cell>0.016</cell></row><row><cell>L-Proline</cell><cell>1.171</cell><cell>0.861</cell><cell>0.037</cell></row><row><cell>D-Glucuronate</cell><cell>1.464</cell><cell>0.840</cell><cell>0.044</cell></row><row><cell>L-Pyroglutamic acid</cell><cell>1.628</cell><cell>0.830</cell><cell>0.008</cell></row><row><cell>Cytidine 5'-monophosphate (CMP)</cell><cell>1.413</cell><cell>0.729</cell><cell>0.008</cell></row><row><cell>Isocitrate</cell><cell>2.459</cell><cell>0.770</cell><cell>0.000</cell></row><row><cell>L-Glutamate</cell><cell>3.025</cell><cell>0.659</cell><cell>0.020</cell></row><row><cell>beta-Nicotinamide D-ribonucleotide</cell><cell>1.765</cell><cell>3.078</cell><cell>0.070</cell></row><row><cell>2,3-Dihydroxy-3-methylbutyric acid</cell><cell>15.036</cell><cell>1.716</cell><cell>0.084</cell></row><row><cell>Raffinose</cell><cell>3.071</cell><cell>1.643</cell><cell>0.060</cell></row><row><cell>Isomaltose</cell><cell>2.657</cell><cell>1.543</cell><cell>0.051</cell></row><row><cell>Dodecanoic acid</cell><cell>2.764</cell><cell>1.365</cell><cell>0.065</cell></row><row><cell>Linoleic acid</cell><cell>2.475</cell><cell>1.298</cell><cell>0.087</cell></row><row><cell>Succinate</cell><cell>2.537</cell><cell>0.910</cell><cell>0.095</cell></row><row><cell>O-Phosphoethanolamine</cell><cell>1.808</cell><cell>0.856</cell><cell>0.086</cell></row><row><cell>D-Biotin</cell><cell>2.261</cell><cell>0.849</cell><cell>0.064</cell></row><row><cell>D-Quinovose</cell><cell>2.371</cell><cell>0.843</cell><cell>0.054</cell></row><row><cell>D-gluconate</cell><cell>2.606</cell><cell>0.837</cell><cell>0.089</cell></row><row><cell>Pioglitazone</cell><cell>1.439</cell><cell>0.817</cell><cell>0.097</cell></row><row><cell>D-Ribulose 5-phosphate</cell><cell>1.913</cell><cell>0.813</cell><cell>0.079</cell></row><row><cell>Citrate</cell><cell>3.251</cell><cell>0.789</cell><cell>0.064</cell></row><row><cell>gamma-L-Glutamyl-L-valine</cell><cell>1.500</cell><cell>0.779</cell><cell>0.059</cell></row><row><cell>3-Methyluridine</cell><cell>2.018</cell><cell>0.758</cell><cell>0.068</cell></row><row><cell>N-Acetylaspartate</cell><cell>2.190</cell><cell>0.599</cell><cell>0.054</cell></row><row><cell cols="4">Significantly differentially abundant metabolites are italicsised. VIP, variable</cell></row><row><cell cols="2">importance of the projection; FC, fold change.</cell><cell></cell><cell></cell></row></table><note></note></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgements</head><p>We would like to thank all participants in this work, including staff ; at the College of Oceanology, Hainan University, China. This work was funded by a Project of the State Key Laboratory of Marine Resource Utilization in South China Sea (2018004 and 2016005).</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>All authors declare to have no conflict of interest.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix A. Supplementary data</head><p>Supplementary material related to this article can be found, in the online version, at doi:https://doi.org/10.1016/j.aquatox.2019.05.017.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Ocean acidification causes bleaching and productivity loss in coral reef builders</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">R N</forename><surname>Anthony</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">I</forename><surname>Kline</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Diaz-Pulido</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Dove</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Hoeghguldberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="17442" to="17446" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Anthony, K.R.N., Kline, D.I., Diaz-Pulido, G., Dove, S., HoeghGuldberg, O., 2008. Ocean acidification causes bleaching and productivity loss in coral reef builders. Proc. Natl. Acad. Sci. U.S.A. 105, 17442-17446.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Genomes of coral dinoflagellate symbionts highlight evolutionary adaptations conducive to a symbiotic lifestyle</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Aranda</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">J</forename><surname>Liew</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Baumgarten</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Simakov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">C</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">39734</biblScope>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Aranda, M., Li, Y., Liew, Y.J., Baumgarten, S., Simakov, O., Wilson, M.C., et al., 2016. Genomes of coral dinoflagellate symbionts highlight evolutionary adaptations con- ducive to a symbiotic lifestyle. Sci. Rep. 6, 39734.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Effects of temperature and pCO2 on population regulation of Symbiodinium spp. In a tropical reef coral</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Baghdasarian</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Osberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Mihora</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Putnam</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">D</forename><surname>Gates</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">J</forename><surname>Edmunds</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Bull</title>
+		<imprint>
+			<biblScope unit="volume">232</biblScope>
+			<biblScope unit="page">123139</biblScope>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baghdasarian, G., Osberg, A., Mihora, D., Putnam, H., Gates, R.D., Edmunds, P.J., 2017. Effects of temperature and pCO2 on population regulation of Symbiodinium spp. In a tropical reef coral. Biol. Bull. 232, 123139.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Coral skeletons: an explanation of their growth and structure</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Barnes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">170</biblScope>
+			<biblScope unit="issue">3964</biblScope>
+			<biblScope unit="page" from="1305" to="1308" />
+			<date type="published" when="1970" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Barnes, D.J., 1970. Coral skeletons: an explanation of their growth and structure. Science 170 (3964), 1305-1308.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Resilience to climate change in soastal marine ecosystems</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Bernhardt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">M</forename><surname>Leslie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Rev. Mar. Sci</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="371" to="392" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bernhardt, J.R., Leslie, H.M., 2013. Resilience to climate change in soastal marine eco- systems. Ann. Rev. Mar. Sci. 5, 371-392.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Contrasting modes of inorganic carbon acquisition amongst Symbiodinium (Dinophyceae) phylotypes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Brading</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">K</forename><surname>Warner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Suggett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">New Phytol</title>
+		<imprint>
+			<biblScope unit="volume">200</biblScope>
+			<biblScope unit="page" from="432" to="442" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brading, P., Warner, M.K., Smith, D.J., Suggett, D.J., 2013. Contrasting modes of in- organic carbon acquisition amongst Symbiodinium (Dinophyceae) phylotypes. New Phytol. 200, 432-442.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Evidence that glucose is the major transferred metabolite in dinoflagellate-cnidarians symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">S</forename><surname>Burriesci</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">K</forename><surname>Raab</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Pringle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Biol</title>
+		<imprint>
+			<biblScope unit="volume">215</biblScope>
+			<biblScope unit="page" from="3467" to="3477" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Burriesci, M.S., Raab, T.K., Pringle, J.R., 2012. Evidence that glucose is the major transferred metabolite in dinoflagellate-cnidarians symbiosis. J. Exp. Biol. 215, 3467-3477.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The responses of eight coral reef calcifers to increasing partial pressure of CO 2 do not exhibit a tipping point</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Comeau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">J</forename><surname>Edmunds</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">B</forename><surname>Spindel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">C</forename><surname>Carpenter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Limnol. Oceanogr</title>
+		<imprint>
+			<biblScope unit="volume">589</biblScope>
+			<biblScope unit="page" from="388" to="398" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Comeau, S., Edmunds, P.J., Spindel, N.B., Carpenter, R.C., 2013. The responses of eight coral reef calcifers to increasing partial pressure of CO 2 do not exhibit a tipping point. Limnol. Oceanogr. 589, 388-398.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Multi-omics analysis of thermal stress response in a zooxanthellate cnidarian reveals the importance of associating with thermotolerant symbionts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Cziesielski</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">J</forename><surname>Liew</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Cui</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Schmidt-Roach</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Campana</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Marondedze</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Aranda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings Biology Sciences</title>
+		<imprint>
+			<biblScope unit="volume">285</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cziesielski, M.J., Liew, Y.J., Cui, G., Schmidt-Roach, S., Campana, S., Marondedze, C., Aranda, M., 2018. Multi-omics analysis of thermal stress response in a zooxanthellate cnidarian reveals the importance of associating with thermotolerant symbionts. Proceedings Biology Sciences 285, 20172654.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Putting the N in dinoflagellates</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Dagenais-Bellefeuille</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Morse</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013" />
+			<biblScope unit="page">369</biblScope>
+		</imprint>
+	</monogr>
+	<note type="report_type">Front. Microbiol. 4</note>
+	<note type="raw_reference">Dagenais-Bellefeuille, S., Morse, D., 2013. Putting the N in dinoflagellates. Front. Microbiol. 4, 369.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Effect of daylight variations on the energy budgets of shallow-water corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">S</forename><surname>Davies</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Biol</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="137" to="144" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Davies, P.S., 1991. Effect of daylight variations on the energy budgets of shallow-water corals. Mar. Biol. 108, 137-144.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Untargeted large-scale plant metabolomics using liquid chromatography coupled to mass spectrometry</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">C</forename><surname>De Vos</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Moco</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Lommen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename><surname>Keurentjes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">J</forename><surname>Bino</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">D</forename><surname>Hall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Protoc</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="778" to="791" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">De Vos, R.C., Moco, S., Lommen, A., Keurentjes, J.J., Bino, R.J., Hall, R.D., 2007. Untargeted large-scale plant metabolomics using liquid chromatography coupled to mass spectrometry. Nat. Protoc. 2 (4), 778-791.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Ocean acidification: the other CO 2 problem</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">C</forename><surname>Doney</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">J</forename><surname>Fabry</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">A</forename><surname>Feely</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Kleypas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Rev. Mar. Sci</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="169" to="192" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Doney, S.C., Fabry, V.J., Feely, R.A., Kleypas, J.A., 2009. Ocean acidification: the other CO 2 problem. Ann. Rev. Mar. Sci. 1, 169-192.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Expression of three galactinol synthase isoforms inCoffea arabica L. and accumulation of raffinose and stachyose in response to abiotic stresses</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">B</forename><surname>Santos</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><forename type="middle">G</forename><surname>Budzinski</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">J</forename><surname>Marur</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">L</forename><surname>Petkowicz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">F</forename><surname>Pereira</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">G</forename><surname>Vieira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Physiol. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="441" to="448" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">dos Santos, T.B., Budzinski, I.G., Marur, C.J., Petkowicz, C.L., Pereira, L.F., Vieira, L.G., 2005. Expression of three galactinol synthase isoforms inCoffea arabica L. and ac- cumulation of raffinose and stachyose in response to abiotic stresses. Plant Physiol. Biochem. 49, 441-448.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">A lipidomic approach to understanding free fatty acid lipogenesis derived from dissolved inorganic carbon within cnidarian-dinoflagellate symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Dunn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">C</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">W</forename><surname>Nette</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">G</forename><surname>Dove</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">46801</biblScope>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dunn, S.R., Thomas, M.C., Nette, G.W., Dove, S.G., 2012. A lipidomic approach to un- derstanding free fatty acid lipogenesis derived from dissolved inorganic carbon within cnidarian-dinoflagellate symbiosis. PLoS One 7, e46801.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">The symbiotic anthozoan: a physiological chimera between alga and animal</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Furla</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Allemand</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Shick</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Ferrier-Pages</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Rishier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Plantivaux</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Integr. Comp. Biol</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="595" to="604" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Furla, P., Allemand, D., Shick, M., Ferrier-Pages, C., Rishier, S., Plantivaux, A., et al., 2005. The symbiotic anthozoan: a physiological chimera between alga and animal. Integr. Comp. Biol. 45, 595-604.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Free amino acids exhibit anthozoan &quot;host factor&quot; activity: they induce the release of photosynthate from symbiotic dinoflagellates in vitro</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">D</forename><surname>Gates</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Hoegh-Guldberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Mcfall-Ngai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">Y</forename><surname>Bil</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Muscatine</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="7430" to="7434" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gates, R.D., Hoegh-Guldberg, O., McFall-Ngai, M.J., Bil, K.Y., Muscatine, L., 1995. Free amino acids exhibit anthozoan &quot;host factor&quot; activity: they induce the release of photosynthate from symbiotic dinoflagellates in vitro. Proc. Natl. Acad. Sci. 92, 7430-7434.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The photo-physiological response of a model cnidarian-dinoflagellate symbiosis to CO 2 -induced acidification at the cellular level</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">M</forename><surname>Gibbin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Davy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Mar. Biol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">457</biblScope>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gibbin, E.M., Davy, S.K., 2014. The photo-physiological response of a model cnidar- ian-dinoflagellate symbiosis to CO 2 -induced acidification at the cellular level. J. Exp. Mar. Biol. Ecol. 457, 1-7.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Intracellular pH and its response to CO 2 -driven seawater acidification in symbiotic versus non-symbiotic coral cells</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">M</forename><surname>Gibbin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">M</forename><surname>Putnam</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Davy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">D</forename><surname>Gates</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Biol</title>
+		<imprint>
+			<biblScope unit="volume">217</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1963" to="1969" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gibbin, E.M., Putnam, H.M., Davy, S.K., Gates, R.D., 2014. Intracellular pH and its re- sponse to CO 2 -driven seawater acidification in symbiotic versus non-symbiotic coral cells. J. Exp. Biol. 217 (11), 1963-1969.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Transcriptomic analysis of thermally stressed Symbiodinium reveals differential expression of stress and metabolism genes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">L</forename><surname>Gierz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Foret</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Leggat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Plant Sci</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">271</biblScope>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gierz, S.L., Foret, S., Leggat, W., 2017. Transcriptomic analysis of thermally stressed Symbiodinium reveals differential expression of stress and metabolism genes. Front. Plant Sci. 8, 271.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">CO 2 concentrating mechanisms in algae: mechanisms, environmental modulation, and evolution</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Giordano</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Beardall</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Raven</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Plant Biol</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="99" to="131" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Giordano, M., Beardall, J., Raven, J., 2005. CO 2 concentrating mechanisms in algae: mechanisms, environmental modulation, and evolution. Annu. Rev. Plant Biol. 56, 99-131.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Carbonic anhydrase activity changes in response to increased temperature and pCO2 in Symbiodinium-zoanthid associations</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">R</forename><surname>Graham</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Parekh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">K</forename><surname>Devassy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">W</forename><surname>Sanders</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Mar. Biol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">473</biblScope>
+			<biblScope unit="page" from="218" to="226" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Graham, E.R., Parekh, A., Devassy, R.K., Sanders, R.W., 2015. Carbonic anhydrase ac- tivity changes in response to increased temperature and pCO2 in Symbiodinium-zoanthid associations. J. Exp. Mar. Biol. Ecol. 473, 218-226.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Trehalose is a chemical attractant in the establishment of coral symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Hagedorn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Carter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Zuchowicz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Penfield</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Shamenek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hagedorn, M., Carter, V., Zuchowicz, N., Phillips, M., Penfield, C., Shamenek, B., et al., 2015. Trehalose is a chemical attractant in the establishment of coral symbiosis. PLoS One 10, e0117087.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Metabolite profiling of symbiont and host during thermal stress and bleaching in a model cnidarian-dinoflagellate symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">E</forename><surname>Hillyer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Tumanov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Villas-Boas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Davy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Biol</title>
+		<imprint>
+			<biblScope unit="volume">219</biblScope>
+			<biblScope unit="page" from="516" to="527" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hillyer, K.E., Tumanov, S., Villas-Boas, S., Davy, S.K., 2016. Metabolite profiling of symbiont and host during thermal stress and bleaching in a model cnidarian-dino- flagellate symbiosis. J. Exp. Biol. 219, 516-527.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Metabolite profiling of symbiont and host during thermal stress and bleaching in the coral Acropora aspera</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">E</forename><surname>Hillyer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Dias</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Lutz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">P</forename><surname>Wilkinson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Roessner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Davy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Coral Reefs</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="105" to="118" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hillyer, K.E., Dias, D.A., Lutz, A., Wilkinson, S.P., Roessner, U., Davy, S.K., 2017. Metabolite profiling of symbiont and host during thermal stress and bleaching in the coral Acropora aspera. Coral Reefs 36, 105-118.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">13 C metabolomics reveals widespread change in carbon fate during coral bleaching</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">E</forename><surname>Hillyer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Dias</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Lutz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Roessner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Davy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metabolomics</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">12</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hillyer, K.E., Dias, D., Lutz, A., Roessner, U., Davy, S.K., 2018. 13 C metabolomics reveals widespread change in carbon fate during coral bleaching. Metabolomics 14, 12.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Climate Change 2013: The Physical Science Basis. Contribution of Working Group I to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">F</forename><surname>Stocker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Qin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">K</forename><surname>Plattner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Tignor</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Boschung</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Nauels</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Xia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Bex</surname></persName>
+		</author>
+		<editor>Midgley, P.M.</editor>
+		<imprint>
+			<date type="published" when="2013" />
+			<publisher>Cambridge University Press</publisher>
+			<biblScope unit="page" from="1" to="28" />
+			<pubPlace>Cambridge, UK and New York, NY, USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Summary for policymakers</note>
+	<note type="raw_reference">IPCC, 2013. Summary for policymakers. In: Stocker, T.F., Qin, D., Plattner, G.K., Tignor, M., Allen, S.K., Boschung, J., Nauels, A., Xia, Y., Bex, V., Midgley, P.M. (Eds.), Climate Change 2013: The Physical Science Basis. Contribution of Working Group I to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change. Cambridge University Press, Cambridge, UK and New York, NY, USA, pp. 1-28.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Subcellular investigation of photosynthesis-driven carbon assimilation in the symbiotic reef coral Pocillopora damicornis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Kopp</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Domart-Coulon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Escrig</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">M</forename><surname>Humbel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Hignette</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Meibom</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note>Bbio 6</note>
+	<note type="raw_reference">Kopp, C., Domart-Coulon, I., Escrig, S., Humbel, B.M., Hignette, M., Meibom, A., 2015. Subcellular investigation of photosynthesis-driven carbon assimilation in the sym- biotic reef coral Pocillopora damicornis. Bbio 6.</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Metaanalysis reveals negative yet variable effects of ocean acidification on marine organisms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">J</forename><surname>Kroeker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">L</forename><surname>Kordas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">N</forename><surname>Crim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">G</forename><surname>Singh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecol. Lett</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1419" to="1434" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kroeker, K.J., Kordas, R.L., Crim, R.N., Singh, G.G., 2010. Metaanalysis reveals negative yet variable effects of ocean acidification on marine organisms. Ecol. Lett. 13, 1419-1434.</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">The mechanism of ellipticine-induced apoptosis and cell cycle arrest in human breast MCF-7 cancer cells</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">L</forename><surname>Kuo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">L</forename><surname>Hsu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">H</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">C</forename><surname>Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cancer Lett</title>
+		<imprint>
+			<biblScope unit="volume">223</biblScope>
+			<biblScope unit="page" from="293" to="301" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kuo, P.L., Hsu, Y.L., Chang, C.H., Lin, C.C., 2005. The mechanism of ellipticine-induced apoptosis and cell cycle arrest in human breast MCF-7 cancer cells. Cancer Lett. 223, 293-301.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Systematic revision of Symbiodiniaceae highlights the antiquity and diversity of coral endosymbionts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C</forename><surname>Lajeunesse</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Parkinson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">W</forename><surname>Gabrielson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">J</forename><surname>Jeong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">D</forename><surname>Reimer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">R</forename><surname>Voolstra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Santos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Biol</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">LaJeunesse, T.C., Parkinson, J.E., Gabrielson, P.W., Jeong, H.J., Reimer, J.D., Voolstra, C.R., Santos, S.R., 2018. Systematic revision of Symbiodiniaceae highlights the an- tiquity and diversity of coral endosymbionts. Curr. Biol. 28, 1-11.</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Sex, scavengers, and chaperones: transcriptome secrets of divergent Symbiodinium thermal tolerances</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">A</forename><surname>Levin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">H</forename><surname>Beltran</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Hill</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Kjelleberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Mcdougald</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">D</forename><surname>Steinberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J H</forename><surname>Van Oppen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Biol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="2201" to="2215" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Levin, R.A., Beltran, V.H., Hill, R., Kjelleberg, S., Mcdougald, D., Steinberg, P.D., Van Oppen, M.J.H., 2016. Sex, scavengers, and chaperones: transcriptome secrets of di- vergent Symbiodinium thermal tolerances. Mol. Biol. Evol. 33, 2201-2215.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Condition-specific RNA editing in the coral symbiont Symbiodinium microadriaticum</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">J</forename><surname>Liew</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Baumgarten</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">R</forename><surname>Voolstra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Aranda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Genet</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">1006619</biblScope>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liew, Y.J., Li, Y., Baumgarten, S., Voolstra, C.R., Aranda, M., 2017. Condition-specific RNA editing in the coral symbiont Symbiodinium microadriaticum. PLoS Genet. 13, e1006619.</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">The Symbiodinium kawagutii genome illuminates dinoflagellate gene expression and coral symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Zhong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">350</biblScope>
+			<biblScope unit="page" from="691" to="694" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lin, S., Cheng, S., Song, B., Zhong, X., Lin, X., Li, W., et al., 2015. The Symbiodinium kawagutii genome illuminates dinoflagellate gene expression and coral symbiosis. Science 350, 691-694.</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Suppression of cucumber stachyose synthase gene (CsSTS) inhibits phloem loading and reduces low temperature stress tolerance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Sui</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page" from="1" to="15" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lu, J., Sui, X., Ma, S., Li, X., Liu, H., Zhang, Z., 2017. Suppression of cucumber stachyose synthase gene (CsSTS) inhibits phloem loading and reduces low temperature stress tolerance. Plant Mol. Biol. 95, 1-15.</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Trehalose metabolism in plants</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Lunn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Delorge</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">M</forename><surname>Figueroa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Van Dijck</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Stitt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant J</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="544" to="567" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lunn, J.E., Delorge, J., Figueroa, C.M., Van Dijck, P., Stitt, M., 2014. Trehalose meta- bolism in plants. Plant J. 79, 544-567.</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Optimal nutrient exchange and immune responses operate in partner specificity in the cnidarian-dinoflagellate symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Matthews</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">M</forename><surname>Crowder</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Oakley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Lutz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Roessner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Meyer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences of the USA</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="13194" to="13199" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Matthews, J.L., Crowder, C.M., Oakley, C.A., Lutz, A., Roessner, U., Meyer, E., et al., 2017. Optimal nutrient exchange and immune responses operate in partner specifi- city in the cnidarian-dinoflagellate symbiosis. Proceedings of the National Academy of Sciences of the USA 114, 13194-13199.</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Dual-compartmental transcriptomic+proteomic analysis of a marine endosymbiosis exposed to environmental change</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">B</forename><surname>Mayfield</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">B</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">S</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">Y</forename><surname>Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="5944" to="5958" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mayfield, A.B., Wang, Y.B., Chen, C.S., Chen, S.H., Lin, C.Y., 2016. Dual-compartmental transcriptomic+proteomic analysis of a marine endosymbiosis exposed to environ- mental change. Mol. Ecol. 25, 5944-5958.</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Exploring the environmental physiology of the Indo-Pacific reef coral Seriatopora hystrix with differential proteomics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">B</forename><surname>Mayfield</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">Y</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">S</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Open J. Mar. Sci</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="223" to="252" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mayfield, A.B., Chen, Y.J., Lu, C.Y., Chen, C.S., 2018a. Exploring the environmental physiology of the Indo-Pacific reef coral Seriatopora hystrix with differential pro- teomics. Open J. Mar. Sci. 8, 223-252.</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">The proteomic response of the reef coral Pocillopora acuta to experimentally elevated temperatures</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">B</forename><surname>Mayfield</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">Y</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">S</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mayfield, A.B., Chen, Y.J., Lu, C.Y., Chen, C.S., 2018b. The proteomic response of the reef coral Pocillopora acuta to experimentally elevated temperatures. PLoS One 13, e0192001.</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Experimentally induced bleaching in the sea anemone exaiptasia supports glucose as a main metabolite associated with its symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">H</forename><surname>Molina</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">E</forename><surname>Castillo-Medina</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">E</forename><surname>Thome</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mar. Biol</title>
+		<imprint>
+			<biblScope unit="volume">2017</biblScope>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Molina, V.H., Castillo-Medina, R.E., Thome, P.E., 2017. Experimentally induced bleaching in the sea anemone exaiptasia supports glucose as a main metabolite as- sociated with its symbiosis. J. Mar. Biol. 2017, 1-7.</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Direct evidence for the transfer of materials from symbiotic algae to the tissues of a coelenterate</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Muscatine</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Hand</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences of the USA</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="1259" to="1263" />
+			<date type="published" when="1958" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Muscatine, L., Hand, C., 1958. Direct evidence for the transfer of materials from symbiotic algae to the tissues of a coelenterate. Proceedings of the National Academy of Sciences of the USA 44, 1259-1263.</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Estimating the daily contribution of carbon from zooxanthellae to coral animal respiration</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Muscatine</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">R</forename><surname>Mcclockey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">E</forename><surname>Marian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Limonology And Oceanography</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="601" to="611" />
+			<date type="published" when="1981" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Muscatine, L., Mcclockey, L.R., Marian, R.E., 1981. Estimating the daily contribution of carbon from zooxanthellae to coral animal respiration. Limonology And Oceanography 26, 601-611.</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Symbiosis induces widespread changes in the proteome of the model cnidarian Aiptasia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Oakley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">F</forename><surname>Ameismeier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">M</forename><surname>Weis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">R</forename><surname>Grossman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Davy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1009" to="1023" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Oakley, C.A., Ameismeier, M.F., Peng, L., Weis, V.M., Grossman, A.R., Davy, S.K., 2016. Symbiosis induces widespread changes in the proteome of the model cnidarian Aiptasia. Cell. Microbiol. 18, 1009-1023.</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Thermal shock induces host proteostasis disruption and endoplasmic reticulum stress in the model symbiotic Cnidarian Aiptasia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Oakley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Durand</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">P</forename><surname>Wilkinson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">M</forename><surname>Weis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">R</forename><surname>Grossman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Davy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Proteome Res</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="2121" to="2134" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Oakley, C.A., Durand, E., Wilkinson, S.P., Peng, L., Weis, V.M., Grossman, A.R., Davy, S.K., 2017. Thermal shock induces host proteostasis disruption and endoplasmic re- ticulum stress in the model symbiotic Cnidarian Aiptasia. J. Proteome Res. 16, 2121-2134.</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">A single-cell view of ammonium assimilation in coraldinoflagellate symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Pernice</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Meibom</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Van Den Heuvel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Kopp</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Domart-Coulon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Hoegh-Guldberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Dove</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ISME J</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1314" to="1324" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pernice, M., Meibom, A., Van Den Heuvel, A., Kopp, C., Domart-Coulon, I., Hoegh- Guldberg, O., Dove, S., 2012. A single-cell view of ammonium assimilation in coral- dinoflagellate symbiosis. ISME J. 6, 1314-1324.</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Biodiversity of Caribbean Coral Reefs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">L</forename><surname>Reaka-Kudla</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Caribbean Marine Biodiversity: the Known and the Unknown</title>
+		<meeting><address><addrLine>Lancaster, Pennsylvania</addrLine></address></meeting>
+		<imprint>
+			<publisher>DEStech Publications</publisher>
+			<date type="published" when="2005" />
+			<biblScope unit="page" from="259" to="276" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Reaka-Kudla, M.L., 2005. Biodiversity of Caribbean Coral Reefs. in: Caribbean Marine Biodiversity: the Known and the Unknown. DEStech Publications, Lancaster, Pennsylvania, pp. 259-276.</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Differential distribution of lipids in epidermis, gastrodermis and hosted Symbiodinium in the sea anemone Anemonia viridis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Revel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Massi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Mehiri</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Boutoute</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Mayzaud</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Capron</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Sabourault</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comp. Biochem. Physiol., Part A Mol. Integr. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">191</biblScope>
+			<biblScope unit="page" from="140" to="151" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Revel, J., Massi, L., Mehiri, M., Boutoute, M., Mayzaud, P., Capron, L., Sabourault, C., 2016. Differential distribution of lipids in epidermis, gastrodermis and hosted Symbiodinium in the sea anemone Anemonia viridis. Comp. Biochem. Physiol., Part A Mol. Integr. Physiol. 191, 140-151.</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">The engine of the reef: photobiology of the coral-algal symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">S</forename><surname>Roth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">422</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Roth, M.S., 2014. The engine of the reef: photobiology of the coral-algal symbiosis. Front. Microbiol. 5, 422.</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Draft assembly of the Symbiodinium minutum nuclear genome reveals dinoflagellate gene structure</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Shoguchi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Shinzato</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Kawashima</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Gyoja</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Mungpakdee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Kayanagi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Biol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="1399" to="1408" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shoguchi, E., Shinzato, C., Kawashima, T., Gyoja, F., Mungpakdee, S., Kayanagi, R., et al., 2013. Draft assembly of the Symbiodinium minutum nuclear genome reveals dino- flagellate gene structure. Curr. Biol. 23, 1399-1408.</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Two divergent Symbiodinium genomes reveal conservation of a gene cluster for sunscreen biosynthesis and recently lost genes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Shoguchi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Beedessee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Tada</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Hisata</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Kawashima</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Takeuchi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genomics</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">458</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shoguchi, E., Beedessee, G., Tada, I., Hisata, K., Kawashima, T., Takeuchi, T., et al., 2018. Two divergent Symbiodinium genomes reveal conservation of a gene cluster for sunscreen biosynthesis and recently lost genes. BMC Genomics 19, 458.</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Metabolomic signatures of increases in temperature and ocean acidification from the reef-building coral</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">M</forename><surname>Sogin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">M</forename><surname>Putnam</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">E</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">D</forename><surname>Gates</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pocillopora damicornis. Metabolomics</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">71</biblScope>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sogin, E.M., Putnam, H.M., Anderson, P.E., Gates, R.D., 2016. Metabolomic signatures of increases in temperature and ocean acidification from the reef-building coral, Pocillopora damicornis. Metabolomics 12, 71.</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Physiological responses to oxidative stress associated with pH variations in host tissue and zooxanthellae of hermatypic coral Pocillopora capitata</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><forename type="middle">S</forename><surname>Soriano-Santiago</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Linan-Cabello</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Delgadillo-Nuno</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Ortega-Ortiz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Cuevas-Venegas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Freshw. Behav. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="275" to="286" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Soriano-Santiago, O.S., Linan-Cabello, M.A., Delgadillo-Nuno, M.A., Ortega-Ortiz, C., Cuevas-Venegas, S., 2013. Physiological responses to oxidative stress associated with pH variations in host tissue and zooxanthellae of hermatypic coral Pocillopora capi- tata. Mar. Freshw. Behav. Physiol. 46 (5), 275-286.</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Effects of heat stress on phytopigments of zooxanthellae (Symbiodinium spp.) symbiotic with the corals Acropora hyacinthus, Porites solida, and Favites complanata</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">B</forename><surname>Strychar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">W</forename><surname>Sammarco</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Biol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="3" to="19" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Strychar, K.B., Sammarco, P.W., 2011. Effects of heat stress on phytopigments of zoox- anthellae (Symbiodinium spp.) symbiotic with the corals Acropora hyacinthus, Porites solida, and Favites complanata. Int. J. Biol. 4 (1), 3-19.</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Membrane lipids of symbiotic algae are diagnostic of sensitivity to thermal bleaching in corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Tchernov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">Y</forename><surname>Gorbunov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>De Vargas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Narayan Yadav</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename><surname>Milligan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Haggblom</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">G</forename><surname>Falkowski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences of the USA</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="13531" to="13535" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tchernov, D., Gorbunov, M.Y., de Vargas, C., Narayan Yadav, S., Milligan, A.J., Haggblom, M., Falkowski, P.G., 2004. Membrane lipids of symbiotic algae are di- agnostic of sensitivity to thermal bleaching in corals. Proceedings of the National Academy of Sciences of the USA 101, 13531-13535.</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Resilience to ocean acidification: decreased carbonic anhydrase activity in sea anemones under high pCO 2 conditions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Ventura</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">D</forename><surname>Jarrold</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">L</forename><surname>Merle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Barnay-Verdier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Zamoum</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Rodolfo-Metalpa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Ecol. Prog. Ser</title>
+		<imprint>
+			<biblScope unit="volume">559</biblScope>
+			<biblScope unit="page" from="257" to="263" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ventura, P., Jarrold, M.D., Merle, P.L., Barnay-Verdier, S., Zamoum, T., Rodolfo-Metalpa, R., et al., 2016. Resilience to ocean acidification: decreased carbonic anhydrase ac- tivity in sea anemones under high pCO 2 conditions. Mar. Ecol. Prog. Ser. 559, 257-263.</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Fatty acid and phospholipid syntheses are prerequisites for the cell cycle of Symbiodinium and their endosymbiosis within sea anemones</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">S</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">B</forename><surname>Mayfield</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">S</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, L.H., Lee, H.H., Fang, L.S., Mayfield, A.B., Chen, C.S., 2013. Fatty acid and phospholipid syntheses are prerequisites for the cell cycle of Symbiodinium and their endosymbiosis within sea anemones. PLoS One 8, e72486.</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Vulnerability of the Great Barrier Reef to climate change and local pressures</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">H</forename><surname>Wolff</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">J</forename><surname>Mumby</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Devlin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">R N</forename><surname>Anthony</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Glob. Chang. Biol</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1978" to="1991" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wolff, N.H., Mumby, P.J., Devlin, M., Anthony, K.R.N., 2018. Vulnerability of the Great Barrier Reef to climate change and local pressures. Glob. Chang. Biol. 24 (5), 1978-1991.</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Transcriptome, expression, and activity analyses reveal a vital heat shock protein 70 in the stress response of stony coral Pocillopora damicornis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Stress Chaperones</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="711" to="721" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang, Y., Zhou, Z., Wang, L., Huang, B., 2018. Transcriptome, expression, and activity analyses reveal a vital heat shock protein 70 in the stress response of stony coral Pocillopora damicornis. Cell Stress Chaperones 23, 711-721.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
