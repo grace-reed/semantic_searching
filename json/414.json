@@ -1,0 +1,3292 @@
+{
+    "paper_id": "414",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-09-13T19:37:47.528680Z"
+    },
+    "title": "Mechanical properties of Chamelea gallina shells",
+    "authors": [
+        {
+            "first": "Roberto",
+            "middle": [],
+            "last": "Guarino",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "Laboratory of Bio-Inspired & Graphene Nanomechanics",
+                "institution": "University of Trento",
+                "location": {
+                    "addrLine": "Via Mesiano 77",
+                    "postCode": "38123",
+                    "settlement": "Trento",
+                    "country": "Italy"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Stefano",
+            "middle": [],
+            "last": "Goffredo",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "Marine Science Group",
+                "institution": "University of Bologna",
+                "location": {
+                    "addrLine": "Via F. Selmi 3",
+                    "postCode": "40126",
+                    "settlement": "Bologna",
+                    "country": "Italy"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Giuseppe",
+            "middle": [],
+            "last": "Falini",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Bologna",
+                "location": {
+                    "addrLine": "Via F. Selmi 2",
+                    "postCode": "40126",
+                    "settlement": "Bologna",
+                    "country": "Italy"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Nicola",
+            "middle": [
+                "Maria"
+            ],
+            "last": "Pugno",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "Laboratory of Bio-Inspired & Graphene Nanomechanics",
+                "institution": "University of Trento",
+                "location": {
+                    "addrLine": "Via Mesiano 77",
+                    "postCode": "38123",
+                    "settlement": "Trento",
+                    "country": "Italy"
+                }
+            },
+            "email": "nicola.pugno@unitn.it"
+        }
+    ],
+    "year": "",
+    "venue": null,
+    "identifiers": {},
+    "abstract": "In this work we evaluate the mechanical properties of Chamelea gallina shells, collected at various locations in the Adriatic Sea, through compression tests. We present an analytical model for the extraction of the material Young's modulus and ultimate strength, based on the approximation of the valves with a simpler geometry. The effect of porosity and the computation of the energy dissipated at fracture are also discussed. Results show a dependence of the mechanical performance on the location at which the samples were collected, i.e. latitude, and thus the environmental factors can affect the rigidity and strength of the shells. These findings confirm and integrate preliminary results published in a previous work.",
+    "pdf_parse": {
+        "paper_id": "414",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "In this work we evaluate the mechanical properties of Chamelea gallina shells, collected at various locations in the Adriatic Sea, through compression tests. We present an analytical model for the extraction of the material Young's modulus and ultimate strength, based on the approximation of the valves with a simpler geometry. The effect of porosity and the computation of the energy dissipated at fracture are also discussed. Results show a dependence of the mechanical performance on the location at which the samples were collected, i.e. latitude, and thus the environmental factors can affect the rigidity and strength of the shells. These findings confirm and integrate preliminary results published in a previous work.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "It is well known that organisms are able to modify their development and their gene-expression patterns in response to environmental parameters, such as temperature, or to biotic factors, such as food availability or density of predators (Gilbert, 2001) . Specifically, the adaptation or acclimation to changing environmental conditions is of extreme interest in developmental biology, also considering the alarming climatic changes of the last decades. Phenotype plasticity is the ability of organisms to produce a range of relatively fit phenotypes, by altering morphology, behaviour or rate of biological activity in response to variations in environmental conditions (DeWitt and Scheiner, 2004) .",
+                "cite_spans": [
+                    {
+                        "start": 238,
+                        "end": 253,
+                        "text": "(Gilbert, 2001)",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 671,
+                        "end": 698,
+                        "text": "(DeWitt and Scheiner, 2004)",
+                        "ref_id": "BIBREF5"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "Calcifying marine organisms, such as corals and molluscs, are among the most susceptible species to changing abiotic factors, since they usually show morphological variations in their skeleton or shell in response to changes in external environmental conditions, e.g. temperature and pH (Watson et al., 2012; Melatunan et al., 2013) . These organisms usually employ calcium carbonate (CaCO 3 ) as structural material, which is synthetized through a cascade of biochemical processes referred as biomineralization. In mollusc shells, CaCO 3 is found in the form of aragonite and/or calcite, which represent the basic microstructural constituents and are generally assembled within an organic matrix. When co-present, these two polymorphs are differently localized and never mixed in a solid solution (Lowenstan and Weiner, 1989) .",
+                "cite_spans": [
+                    {
+                        "start": 287,
+                        "end": 308,
+                        "text": "(Watson et al., 2012;",
+                        "ref_id": "BIBREF47"
+                    },
+                    {
+                        "start": 309,
+                        "end": 332,
+                        "text": "Melatunan et al., 2013)",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 798,
+                        "end": 826,
+                        "text": "(Lowenstan and Weiner, 1989)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "The commercial clam Chamelea gallina is a common bivalve of the Mediterranean Sea and has a great importance for the fishery in several countries. For instance, the annual yield in Italy is currently about 20,000 metric tons (Romanelli et al., 2008) , but it has reached 100,000 metric tons in the late 1970s. The over-exploitation of the resource, therefore, has posed recently growing concerns for the survival of these bivalve communities. In fact, unexpected annual fluctuations in stock abundance, periodic recruitment failures and irregular mortality events can threaten the biological and economic sustainability of this fishery.",
+                "cite_spans": [
+                    {
+                        "start": 225,
+                        "end": 249,
+                        "text": "(Romanelli et al., 2008)",
+                        "ref_id": "BIBREF42"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "The study of the effects of the changing environmental factors on C. gallina growth and characteristics, therefore, is of increasing interest also from an economic point of view. In a previous work, samples of C. gallina shells were collected at different latitudes in the Adriatic Sea, with the objective to evaluate the effects of solar radiation and sea temperature on the physical properties (e.g. geometry) of the shells. The authors found that the variation of the shell properties along the latitudinal gradient \"could be the outcome of phenotypic plasticity, or a genetic adaptation of the populations subjected to different environmental parameters\" (Gizzi et al., 2016) . These parameters could directly affect the shell morphology and growth (Ram\u00f3n and Richardson, 1992; Moschino and Marin, 2006; Matozzo and Marin, 2011) , or indirectly, e.g. impacting the nutrient concentration and/or predator density.",
+                "cite_spans": [
+                    {
+                        "start": 659,
+                        "end": 679,
+                        "text": "(Gizzi et al., 2016)",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 753,
+                        "end": 781,
+                        "text": "(Ram\u00f3n and Richardson, 1992;",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 782,
+                        "end": 807,
+                        "text": "Moschino and Marin, 2006;",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 808,
+                        "end": 832,
+                        "text": "Matozzo and Marin, 2011)",
+                        "ref_id": "BIBREF30"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "The present paper is focused on a systematic investigation of the mechanical properties of C. gallina shells through compression tests. Starting from the classical theory of shallow spherical shells loaded at the centre, we consider an equivalent spherical geometry and extract the Young's modulus and the ultimate strength of the valves. The effect of the geometry, and specifically the thickness of the shells, on the macroscopic properties is discussed, as well as the influence of porosity. The toughness modulus and the fracture energy of the shells is also quantified from the experimental load-displacement curves. Additionally, we present some Scanning Electron Microscopy (SEM) and X-Ray Diffraction (XRD) analyses of the shells, in order to present an overview of their main composition and microstructural morphology.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "The clam Chamelea gallina (Linnaeus 1758) is a common infaunal bivalve in the family Veneridae of the Mediterranean Sea, where it inhabits well-sorted fine sand biocoenosis at 3-7 m depth (Ram\u00f3n and Richardson, 1992) .",
+                "cite_spans": [
+                    {
+                        "start": 188,
+                        "end": 216,
+                        "text": "(Ram\u00f3n and Richardson, 1992)",
+                        "ref_id": "BIBREF39"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Description of the shells and locations",
+                "sec_num": "2.1"
+            },
+            {
+                "text": "A valve of the C. gallina shell appears as a hemi-ellipsoid object, as shown in Figure 1 . Its external surface shows a roughness generated by the growth rings, while the internal surface is smooth. In general, the shell thickness, intended as the average distance between the internal and the external surface of the valve, is not constant and increases from the umbo to the periphery. In addition, the shell has usually a constant chemical composition and is made of calcium carbonate in the form of aragonite. ",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 80,
+                        "end": 88,
+                        "text": "Figure 1",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Description of the shells and locations",
+                "sec_num": "2.1"
+            },
+            {
+                "text": "Adriatic Sea (see Supplementary Figure 1 ). In Table 1 we list the two main environmental parameters of the selected locations, i.e. the mean annual solar radiation level and the sea surface temperature, which have been demonstrated to have an impact on the shell biometry and growth, together with the main geometrical parameters used later. The number of samples denotes the number of investigated clams, thus every data reported later is related to the average between the left and the right valve of each clam. The biometric parameters of dry valves have been measured with a pair of calipers (\u00b10.05 mm), while the volume and average porosity of each valve have been extracted by means of the buoyant weight technique, through a density determination kit Ohaus Explorer Pro balance (\u00b10.1 mg; Ohaus Corp., Pine Brook -NJ, USA).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 18,
+                        "end": 40,
+                        "text": "Supplementary Figure 1",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 47,
+                        "end": 54,
+                        "text": "Table 1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "C. gallina samples have been collected at various locations with different latitudes in the",
+                "sec_num": null
+            },
+            {
+                "text": "For all the other details concerning abiotic environmental factors and the measurement of biometric parameters, the reader is referred to the previous work on C. gallina shells (Gizzi et al., 2016) . Table 1 Location characteristics with average value and standard deviation of the annual solar radiation and sea surface temperature, average value and standard deviation of the main geometrical parameters and number of the investigated samples, ordered by decreasing latitudes. Adapted from (Gizzi et al., 2016 ",
+                "cite_spans": [
+                    {
+                        "start": 177,
+                        "end": 197,
+                        "text": "(Gizzi et al., 2016)",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 492,
+                        "end": 511,
+                        "text": "(Gizzi et al., 2016",
+                        "ref_id": "BIBREF10"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 200,
+                        "end": 207,
+                        "text": "Table 1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "C. gallina samples have been collected at various locations with different latitudes in the",
+                "sec_num": null
+            },
+            {
+                "text": "SEM observations were carried on the transversal valve sections obtained using a steel saw. Each section was etched with an acetic acid solution (1% v/v) for 1 minute to remove debris and artefacts from cutting. Samples were coated with a gold layer (5 nm) and analysed with a SEM Hitachi S4000.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Scanning Electron Microscopy (SEM)",
+                "sec_num": "2.2"
+            },
+            {
+                "text": "As highlighted in Figure 2 , the SEM observations showed that the microstructure of C. gallina shell contains two main layers, according to what observed in most Venerids (Popov, 1986) . The boundary region between the two layers ( Figure 2a layer is homogeneous and is formed of compact granules which give a spherulitic appearance (Figure 2d ,e). Among these grains, having a size around 1 \u03bcm, layers of organic material are dispersed. The boundary region between the two layers, when observed at high magnifications (Figure 2g ,h) shows a low regularity in the weaving of the particles that show larger dimensions than those observed in the external and internal state.",
+                "cite_spans": [
+                    {
+                        "start": 171,
+                        "end": 184,
+                        "text": "(Popov, 1986)",
+                        "ref_id": "BIBREF37"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 18,
+                        "end": 26,
+                        "text": "Figure 2",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 232,
+                        "end": 241,
+                        "text": "Figure 2a",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 333,
+                        "end": 343,
+                        "text": "(Figure 2d",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 519,
+                        "end": 529,
+                        "text": "(Figure 2g",
+                        "ref_id": "FIGREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Scanning Electron Microscopy (SEM)",
+                "sec_num": "2.2"
+            },
+            {
+                "text": "The lamellar multiscale structure present in C. gallina shells is commonly found in nacre (see, e.g., Sun and Bhushan, 2012) and in other seashells Li et al., 2013) . Also the shells of Pectinidae present a complex fracture surface, in which it is possible to identify different layers (Li and Nardi, 2004) , namely an inner and an outer part as in our case.",
+                "cite_spans": [
+                    {
+                        "start": 102,
+                        "end": 124,
+                        "text": "Sun and Bhushan, 2012)",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 148,
+                        "end": 164,
+                        "text": "Li et al., 2013)",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 286,
+                        "end": 306,
+                        "text": "(Li and Nardi, 2004)",
+                        "ref_id": "BIBREF23"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Scanning Electron Microscopy (SEM)",
+                "sec_num": "2.2"
+            },
+            {
+                "text": "Interestingly, the observed spherulitic microstructure (Figure 2d ,e), in addition, is found very similar in nacre and conch shells treated at high temperature, where the platelets essentially assume a quasi-spherical shape (Huang and Li, 2009; Li et al., 2015) .The macroscopic mechanical performance of the valves are believed to be strongly dependent on the size of the largest microstructural units (Taylor and Layman, 1972) , while the organic matrix content essentially influences the Young's modulus and the fracture properties. Specifically, the organic matrix is essentially made of biopolymers that have the capabilities to strengthen themselves during deformation, as demonstrated experimentally (Xu and Li, 2011) . Thus the macroscopic mechanical behaviour derives from a complex interplay of several factors, including platelets/lamellae dimensions and shapes, biopolymer content and thus the shear strength of the interfaces. The extensibility of the interfaces, i.e. their ability to sustain deformation, is fundamental for the extreme toughness observed in nacre-like materials (Barthelat et al., 2016) .",
+                "cite_spans": [
+                    {
+                        "start": 224,
+                        "end": 244,
+                        "text": "(Huang and Li, 2009;",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 245,
+                        "end": 261,
+                        "text": "Li et al., 2015)",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 403,
+                        "end": 428,
+                        "text": "(Taylor and Layman, 1972)",
+                        "ref_id": "BIBREF45"
+                    },
+                    {
+                        "start": 707,
+                        "end": 724,
+                        "text": "(Xu and Li, 2011)",
+                        "ref_id": "BIBREF48"
+                    },
+                    {
+                        "start": 1094,
+                        "end": 1118,
+                        "text": "(Barthelat et al., 2016)",
+                        "ref_id": "BIBREF3"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 55,
+                        "end": 65,
+                        "text": "(Figure 2d",
+                        "ref_id": "FIGREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Scanning Electron Microscopy (SEM)",
+                "sec_num": "2.2"
+            },
+            {
+                "text": "The presence of two different layers confers to the shell anisotropic mechanical properties, as determined experimentally in previous works (Bignardi et al., 2010 ) and as we are going to quantify later in terms of toughness modulus and fracture energy. ",
+                "cite_spans": [
+                    {
+                        "start": 140,
+                        "end": 162,
+                        "text": "(Bignardi et al., 2010",
+                        "ref_id": "BIBREF4"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Scanning Electron Microscopy (SEM)",
+                "sec_num": "2.2"
+            },
+            {
+                "text": "XRD analysis was performed after preparing a compact layer of powdered sample in a silica background signal free holder. Diffraction patterns for each sample were collected using an X'Celerator detector fitted on a PANalytical X'Pert Pro diffractometer, using Cu-K\u03b1 radiation generated at 40 kV and 40 mA. Data were collected within the 2\u03b8 range from 15\u00b0 to 60\u00b0 with a step size of 0.02\u00b0 and a counting time of 1200 s. Fixed anti-scatter and divergence slits of 1/16\u00b0",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "X-Ray Diffraction (XRD)",
+                "sec_num": "2.3"
+            },
+            {
+                "text": "were used with a 10 mm beam mask and all scans were carried out in \"continuous\" mode.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "X-Ray Diffraction (XRD)",
+                "sec_num": "2.3"
+            },
+            {
+                "text": "The diffraction pattern is shown in Figure 3 , where all the diffraction peaks are indexed according to the structure of aragonite (Pilati et al., 1998) .",
+                "cite_spans": [
+                    {
+                        "start": 131,
+                        "end": 152,
+                        "text": "(Pilati et al., 1998)",
+                        "ref_id": "BIBREF35"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 36,
+                        "end": 44,
+                        "text": "Figure 3",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "X-Ray Diffraction (XRD)",
+                "sec_num": "2.3"
+            },
+            {
+                "text": "Figure 3 XRD pattern of a sample of ground shell. The diffraction peaks were indexed according to the reference JCPDS card 41-1475 (Keller et al., 1989) .",
+                "cite_spans": [
+                    {
+                        "start": 131,
+                        "end": 152,
+                        "text": "(Keller et al., 1989)",
+                        "ref_id": "BIBREF18"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "X-Ray Diffraction (XRD)",
+                "sec_num": "2.3"
+            },
+            {
+                "text": "The compression tests for the evaluation of the mechanical properties of the C. gallina shells were carried out in displacement control using an Instron universal testing machine equipped with a 1 kN load cell, as shown in Figure 4 . The load using a 3 cm diameter compression platen moved at a constant downward speed of 0.5 mm min \u22121 . Each valve was treated with a 5% sodium hypochlorite solution for three days, in order to completely remove any trace of external organic tissue, and with a 1 M sodium hydroxide solution for one day, for the hydrolyzation of the residual proteic materials from the shell surface. Samples were then rinsed with distilled water and dried at room temperature for one day. We test dry samples because the mechanical response of the shells could be influenced also by their water content, which is believed to be responsible for the viscoelastic behaviour (Mohanty et al., 2006) , but this investigation is beyond the scope of the present work. A typical experimental load-displacement curve is plotted in Figure 5 , where it is possible to distinguish two main parts: the first quasi-linear elastic segment, until the maximum load P max is reached, and the subsequent fracture, characterised by irregular rises and drops of the load as the crack grows.",
+                "cite_spans": [
+                    {
+                        "start": 889,
+                        "end": 911,
+                        "text": "(Mohanty et al., 2006)",
+                        "ref_id": "BIBREF33"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 223,
+                        "end": 231,
+                        "text": "Figure 4",
+                        "ref_id": "FIGREF3"
+                    },
+                    {
+                        "start": 1039,
+                        "end": 1047,
+                        "text": "Figure 5",
+                        "ref_id": "FIGREF4"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Compression tests",
+                "sec_num": "2.4"
+            },
+            {
+                "text": "This mechanical behaviour has already been observed and widely studied in the literature (see, e.g., Refs. (Barthelat et al., 2009; Mayer, 2017) ) and is typical of natural and artificial laminate composite materials. As anticipated above, the complex fracture behaviour of C. gallina shells, emerging from Figure 5 , can be attributed to their multiscale architecture, which allow different energy-dissipating mechanisms. As observed also in other seashells (Espinosa et al., 2011; Ji et al., 2017) and nacre-like materials (Kakisawa and Sumitomo, 2011; Huang and Li, 2013; Yuan et al., 2016) , on one side one of the core mechanisms is the deformation of the aragonite microplatelets and their sliding, closely related to the shear strength of the interfaces; while on the other side, the crack propagation between the lamellae (and inside the lamellae at higher loads), which drive the crack path towards the regions with larger stress intensities. ",
+                "cite_spans": [
+                    {
+                        "start": 107,
+                        "end": 131,
+                        "text": "(Barthelat et al., 2009;",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 132,
+                        "end": 144,
+                        "text": "Mayer, 2017)",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 459,
+                        "end": 482,
+                        "text": "(Espinosa et al., 2011;",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 483,
+                        "end": 499,
+                        "text": "Ji et al., 2017)",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 525,
+                        "end": 554,
+                        "text": "(Kakisawa and Sumitomo, 2011;",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 555,
+                        "end": 574,
+                        "text": "Huang and Li, 2013;",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 575,
+                        "end": 593,
+                        "text": "Yuan et al., 2016)",
+                        "ref_id": "BIBREF49"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 307,
+                        "end": 315,
+                        "text": "Figure 5",
+                        "ref_id": "FIGREF4"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Compression tests",
+                "sec_num": "2.4"
+            },
+            {
+                "text": "The valves present a very complex shape that can be described by four main quantities, as shown in Supplementary Figure 2 :",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 99,
+                        "end": 121,
+                        "text": "Supplementary Figure 2",
+                        "ref_id": "FIGREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Description of the shell geometry",
+                "sec_num": "3.1"
+            },
+            {
+                "text": "\uf0b7 the maximum Feret diameter f max , i.e. the greatest lateral dimension;",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Description of the shell geometry",
+                "sec_num": "3.1"
+            },
+            {
+                "text": "\uf0b7 the minimum Feret diameter f min , i.e. the smallest lateral dimension;",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Description of the shell geometry",
+                "sec_num": "3.1"
+            },
+            {
+                "text": "\uf0b7 the thickness h;",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Description of the shell geometry",
+                "sec_num": "3.1"
+            },
+            {
+                "text": "\uf0b7 the height of the centre of the shell z 0 from a horizontal plane.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Description of the shell geometry",
+                "sec_num": "3.1"
+            },
+            {
+                "text": "For the purpose of the analytical model introduced later, it is convenient to reduce the geometry described by the quantities above to an equivalent spherical cap. As schematised in Supplementary Figure 3 , the equivalent spherical cap can be considered as having the same height and thickness of the shell (i.e., z 0 and h, respectively) and a base radius R, which can be assumed to be:",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 182,
+                        "end": 204,
+                        "text": "Supplementary Figure 3",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Description of the shell geometry",
+                "sec_num": "3.1"
+            },
+            {
+                "text": "The radius a of the equivalent sphere can be obtained from simple geometric considerations, i.e.:",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Description of the shell geometry",
+                "sec_num": "3.1"
+            },
+            {
+                "text": "Considering the experimental setup shown in Figure 4 and the description of the geometry discussed above, we make approximate the system as a shallow spherical shell loaded over a small circular area of radius c, with centre at the apex and with no edge restraint (Reissner, 1946b; Timoshenko and Woinowsky-Krieger, 1959) . The shallowness approximation consists in assuming that \u2044 (Reissner, 1946a) . Strictly speaking, in our case this approximation is not perfectly fulfilled, because we have simply (and not as required) for almost all the samples, but we believe to obtain anyway a good description of the mechanical properties of the shells.",
+                "cite_spans": [
+                    {
+                        "start": 264,
+                        "end": 281,
+                        "text": "(Reissner, 1946b;",
+                        "ref_id": "BIBREF41"
+                    },
+                    {
+                        "start": 282,
+                        "end": 321,
+                        "text": "Timoshenko and Woinowsky-Krieger, 1959)",
+                        "ref_id": "BIBREF46"
+                    },
+                    {
+                        "start": 382,
+                        "end": 399,
+                        "text": "(Reissner, 1946a)",
+                        "ref_id": "BIBREF40"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 44,
+                        "end": 52,
+                        "text": "Figure 4",
+                        "ref_id": "FIGREF3"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Extraction of the Young's modulus",
+                "sec_num": "3.2"
+            },
+            {
+                "text": "Let us consider the displacement at the centre of the loaded area, which is given by (Timoshenko and Woinowsky-Krieger, 1959) :",
+                "cite_spans": [
+                    {
+                        "start": 85,
+                        "end": 125,
+                        "text": "(Timoshenko and Woinowsky-Krieger, 1959)",
+                        "ref_id": "BIBREF46"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Extraction of the Young's modulus",
+                "sec_num": "3.2"
+            },
+            {
+                "text": "\u221a ( ) [ ( )]",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Extraction of the Young's modulus",
+                "sec_num": "3.2"
+            },
+            {
+                "text": "where \u03bd is the Poisson's ratio, E the Young's modulus, a tabulated function and \u03bc the dimensionless coordinate:",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Extraction of the Young's modulus",
+                "sec_num": "3.2"
+            },
+            {
+                "text": "(1)",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Extraction of the Young's modulus",
+                "sec_num": "3.2"
+            },
+            {
+                "text": "(3)",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Extraction of the Young's modulus",
+                "sec_num": "3.2"
+            },
+            {
+                "text": "\u221a ( ) \u221a (4)",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Extraction of the Young's modulus",
+                "sec_num": "3.2"
+            },
+            {
+                "text": "The radius c of the area of application of load can be derived from the Hertz theory of contact.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Extraction of the Young's modulus",
+                "sec_num": "3.2"
+            },
+            {
+                "text": "Considering the experimental setup and the shell geometry, we are in the case of a solid of revolution (i.e., the shell approximated by a spherical cap) in contact with a half-space (i.e., the steel platen through which the compressive load is applied). Thus, according to (Johnson, 1985) :",
+                "cite_spans": [
+                    {
+                        "start": 273,
+                        "end": 288,
+                        "text": "(Johnson, 1985)",
+                        "ref_id": "BIBREF15"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Extraction of the Young's modulus",
+                "sec_num": "3.2"
+            },
+            {
+                "text": "( )",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Extraction of the Young's modulus",
+                "sec_num": "3.2"
+            },
+            {
+                "text": "where and we can take and , given that the steel platen can be assumed to be rigid with respect to the shell. Strictly speaking, the Young's modulus to employ in the Hertz contact theory is that of a solid sphere, but the theory is still valid during the approach of the two solids, because the indentation depth is negligible with respect to the shell",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Extraction of the Young's modulus",
+                "sec_num": "3.2"
+            },
+            {
+                "text": "thickness. An analogous reasoning has already been applied in the literature (see, e.g., Ref.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Extraction of the Young's modulus",
+                "sec_num": "3.2"
+            },
+            {
+                "text": "(MansoorBaghaei and Sadegh, 2011) where the authors separate the elastic deformation of a spherical shell from the bending deflection).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Extraction of the Young's modulus",
+                "sec_num": "3.2"
+            },
+            {
+                "text": "By taking two reference points ( ) and ( ) on the linear segment of the experimental load-displacement curve, as shown in Figure 5 , the Young's modulus of the shell can be derived from Equation (3) as:",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 122,
+                        "end": 130,
+                        "text": "Figure 5",
+                        "ref_id": "FIGREF4"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Extraction of the Young's modulus",
+                "sec_num": "3.2"
+            },
+            {
+                "text": "\u221a ( ) [ ( )]",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Extraction of the Young's modulus",
+                "sec_num": "3.2"
+            },
+            {
+                "text": "where we can assume for aragonite (Barthelat et al., 2006) and as the expected value for the computation of c through Equation (5) (see Supplementary Note 1 for details). Table 2 reports the values of the Young's modulus, which falls in the order of 6 GPa, with the greatest E measured for the \"CE\" location. The only exception is the \"MO\" location, whose shells present the biggest size and their load-displacement curves have a smaller stiffness and thus a smaller Young's modulus. In Figure 6 we plot the values of the Young's modulus for all the samples as function of the shell thickness: the general trend is that E diminishes for an increasing h. In addition, it is possible to identify a limiting curve that divides the plane in two parts. All the values are located below the curve, i.e., there are no shells with high thickness and simultaneously high Young's modulus.",
+                "cite_spans": [
+                    {
+                        "start": 34,
+                        "end": 58,
+                        "text": "(Barthelat et al., 2006)",
+                        "ref_id": "BIBREF1"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 171,
+                        "end": 178,
+                        "text": "Table 2",
+                        "ref_id": "TABREF1"
+                    },
+                    {
+                        "start": 487,
+                        "end": 495,
+                        "text": "Figure 6",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Extraction of the Young's modulus",
+                "sec_num": "3.2"
+            },
+            {
+                "text": "The limiting curve can be described by a best-fit of the type:",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Extraction of the Young's modulus",
+                "sec_num": "3.2"
+            },
+            {
+                "text": "( )",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Extraction of the Young's modulus",
+                "sec_num": "3.2"
+            },
+            {
+                "text": "By taking the largest value of E for each thickness (see Supplementary Note 2), we find and , with R 2 -value 0.9185.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Extraction of the Young's modulus",
+                "sec_num": "3.2"
+            },
+            {
+                "text": "Figure 6 Young's modulus as function of the shell thickness, computed through Equation 6, of the investigated samples divided by location. The solid line represents the curve described by Equation (7).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "(7)",
+                "sec_num": null
+            },
+            {
+                "text": "Within the approximation of shallow spherical shells, the maximum bending stress can be computed as (Timoshenko and Woinowsky-Krieger, 1959) :",
+                "cite_spans": [
+                    {
+                        "start": 100,
+                        "end": 140,
+                        "text": "(Timoshenko and Woinowsky-Krieger, 1959)",
+                        "ref_id": "BIBREF46"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Extraction of the ultimate strength",
+                "sec_num": "3.3"
+            },
+            {
+                "text": "( ) ( )",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Extraction of the ultimate strength",
+                "sec_num": "3.3"
+            },
+            {
+                "text": "where \u03c8' 3 is another tabulated function, depending on the dimensionless coordinate introduced through Equation 4, and is negative in the considered range of \u03bc. Thus, in Equation (8) we take the negative sign in order to have a positive maximum bending stress. The maximum membrane stress arising in the compressed shell, instead, is given by (Timoshenko and Woinowsky-Krieger, 1959) :",
+                "cite_spans": [
+                    {
+                        "start": 343,
+                        "end": 383,
+                        "text": "(Timoshenko and Woinowsky-Krieger, 1959)",
+                        "ref_id": "BIBREF46"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Extraction of the ultimate strength",
+                "sec_num": "3.3"
+            },
+            {
+                "text": "\u221a ( ) [ ( )]",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Extraction of the ultimate strength",
+                "sec_num": "3.3"
+            },
+            {
+                "text": "and we take it as positive in the case of compression.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Extraction of the ultimate strength",
+                "sec_num": "3.3"
+            },
+            {
+                "text": "Finally, the ultimate strength of the shell \u03c3 u is given by the sum of Equations (8) and (9), i.e.:",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Extraction of the ultimate strength",
+                "sec_num": "3.3"
+            },
+            {
+                "text": "(8) (9) ( ) ( ) \u221a ( ) [ ( )]",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Extraction of the ultimate strength",
+                "sec_num": "3.3"
+            },
+            {
+                "text": "where, according to signs assumed above, the (positive) compressive membrane stress has been added to the (positive) bending stress. Note that we get for all the samples, thus we can assume .",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Extraction of the ultimate strength",
+                "sec_num": "3.3"
+            },
+            {
+                "text": "In the same Table 2 , we list the ultimate strengths of all the tested shells computed through Equation 10, obtaining a value in the order of 30 MPa. As observed for the Young's modulus, also the ultimate strength depends slightly on the location, with the shells with a smaller E presenting also a smaller value of \u03c3 u (i.e., \"MO\"). The relation among the Young's moduli of the shells from the different considered locations, is almost verified also for the ultimate strength, despite a larger scattering of the experimental data does not allow a precise discrimination.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 12,
+                        "end": 19,
+                        "text": "Table 2",
+                        "ref_id": "TABREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Extraction of the ultimate strength",
+                "sec_num": "3.3"
+            },
+            {
+                "text": "As done before for the Young's modulus, in Figure 7 we plot the computed ultimate strengths as function of the shell thickness, showing a similar decreasing trend of \u03c3 u for increasing h. Again, we can divide the plane through a curve of equation:",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 43,
+                        "end": 51,
+                        "text": "Figure 7",
+                        "ref_id": "FIGREF5"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Extraction of the ultimate strength",
+                "sec_num": "3.3"
+            },
+            {
+                "text": "( )",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Extraction of the ultimate strength",
+                "sec_num": "3.3"
+            },
+            {
+                "text": "being A 2 and B 2 fitting parameters. By taking the largest value of \u03c3 u for each thickness (see Supplementary Note 2), we find and , with R 2 -value 0.9090. The impossibility to have a simultaneous large thickness and large strength is typical of brittle materials, e.g. ceramics, as in the case of aragonite. For larger h, there is a larger probability to have defects (for instance, larger pores), which degrade the mechanical strength of the shells. The values of the Young's modulus and the ultimate strength, computed through Equations (6) and (10) respectively, can be plotted on the two axes of a single graph, as we attempt to do in Figure 8 . In the obtained Ashby plot (Ashby, 1992) it is evident the large scattering of the experimental data, with the shells collected at the \"MO\" location occupying the bottom left corner, because of their small values of E and \u03c3 u . and , respectively. The subscripts \"m\" and \"std\" denote the average value and the standard deviation, respectively, of the considered quantity as reported in Table 2 .",
+                "cite_spans": [
+                    {
+                        "start": 680,
+                        "end": 693,
+                        "text": "(Ashby, 1992)",
+                        "ref_id": "BIBREF0"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 642,
+                        "end": 650,
+                        "text": "Figure 8",
+                        "ref_id": "FIGREF6"
+                    },
+                    {
+                        "start": 1039,
+                        "end": 1046,
+                        "text": "Table 2",
+                        "ref_id": "TABREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Extraction of the ultimate strength",
+                "sec_num": "3.3"
+            },
+            {
+                "text": "As already observed in biological structural materials (Seto et al., 2012; Fantazzini et al., 2015) , also C. gallina shells presents a certain amount of porosity, which can affect the mechanical response and the fracture properties. In order to take into account the shell porosity, here denoted by the volume fraction \u03c6, it is possible to rescale the computed values of E and \u03c3 u according to the rules of mixtures employed for the mechanics composite materials (Jones, 1999) , respectively:",
+                "cite_spans": [
+                    {
+                        "start": 55,
+                        "end": 74,
+                        "text": "(Seto et al., 2012;",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 75,
+                        "end": 99,
+                        "text": "Fantazzini et al., 2015)",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 464,
+                        "end": 477,
+                        "text": "(Jones, 1999)",
+                        "ref_id": "BIBREF16"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Effect of the shell porosity",
+                "sec_num": "3.4"
+            },
+            {
+                "text": "mat ( ) por mat ( ) por",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Effect of the shell porosity",
+                "sec_num": "3.4"
+            },
+            {
+                "text": "where E mat and \u03c3 u,mat are the properties of the matrix, E por and \u03c3 u,por the properties of the pores, and E and \u03c3 u the macroscopic properties of the shell computed before. By assuming",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Effect of the shell porosity",
+                "sec_num": "3.4"
+            },
+            {
+                "text": "EQUATION",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [
+                    {
+                        "start": 0,
+                        "end": 8,
+                        "text": "EQUATION",
+                        "ref_id": "EQREF",
+                        "raw_str": "(12b)",
+                        "eq_num": "(12a)"
+                    }
+                ],
+                "section": "Effect of the shell porosity",
+                "sec_num": "3.4"
+            },
+            {
+                "text": "and (i.e., there is no material in the pores), we can extract the actual properties of the matrix, i.e. the microscopic properties of the shells, as:",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Effect of the shell porosity",
+                "sec_num": "3.4"
+            },
+            {
+                "text": "mat ( ) mat ( )",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Effect of the shell porosity",
+                "sec_num": "3.4"
+            },
+            {
+                "text": "The values of E mat and \u03c3 u,mat for all the samples are reported in Table 3 , together with the average shell porosity. In general, we observe a slightly increasing porosity for a decreasing latitude and thus a larger effect on the mechanical properties of the shells. As the latitude decreases, the porosity generally increases and thus the difference between E and E mat , and between \u03c3 u and \u03c3 u,mat , increases. Anyway, being \u03c6 always in the range 2\u00f75%, the difference between the mechanical properties computed through Equations (6,10), and reported in Table 2 , and those obtained by considering the porosity through Equations (13a,13b), is always below 5%. ",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 68,
+                        "end": 75,
+                        "text": "Table 3",
+                        "ref_id": "TABREF2"
+                    },
+                    {
+                        "start": 558,
+                        "end": 565,
+                        "text": "Table 2",
+                        "ref_id": "TABREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Effect of the shell porosity",
+                "sec_num": "3.4"
+            },
+            {
+                "text": "Here we attempt to extract the energy dissipated from the fracture of the C. gallina valves, assuming that each shell breaks into two parts and the fracture involves the entire cross section in Figure 1 . The fracture pattern could be also very complex involving the rupture in multiple (13a)",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 194,
+                        "end": 202,
+                        "text": "Figure 1",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Extraction of the toughness modulus and fracture energy",
+                "sec_num": "3.5"
+            },
+            {
+                "text": "pieces. However, the main objective here is to discriminate between the properties of the inner and outer layer, defining nominal/effective rather than real/complex mechanical properties.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Extraction of the toughness modulus and fracture energy",
+                "sec_num": "3.5"
+            },
+            {
+                "text": "Considering Figure 5 , we define the total dissipated energy as the area below the forcedisplacement curve, i.e.:",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 12,
+                        "end": 20,
+                        "text": "Figure 5",
+                        "ref_id": "FIGREF4"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Extraction of the toughness modulus and fracture energy",
+                "sec_num": "3.5"
+            },
+            {
+                "text": "\u222b ( ) d 0,max \u2211 \u222b ( ) d 0,",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Extraction of the toughness modulus and fracture energy",
+                "sec_num": "3.5"
+            },
+            {
+                "text": "being 0,max the fracture displacement and we have introduced the summation because the overall curve can be approximated by a piecewise function of N continuous functions. Thus, we can define the total toughness modulus as:",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Extraction of the toughness modulus and fracture energy",
+                "sec_num": "3.5"
+            },
+            {
+                "text": "\u222b ( ) d 0,max \u2211 \u222b ( ) d 0,",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Extraction of the toughness modulus and fracture energy",
+                "sec_num": "3.5"
+            },
+            {
+                "text": "where V is the volume of the shell, taken as average between the right and left valve of each sample.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Extraction of the toughness modulus and fracture energy",
+                "sec_num": "3.5"
+            },
+            {
+                "text": "The fracture energy, instead, is defined with reference to the fracture area A, which here we can assume equal to the cross section of the shell (see Figure 1 and Supplementary Figure and 3 ),",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 150,
+                        "end": 158,
+                        "text": "Figure 1",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 163,
+                        "end": 189,
+                        "text": "Supplementary Figure and 3",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Extraction of the toughness modulus and fracture energy",
+                "sec_num": "3.5"
+            },
+            {
+                "text": "i.e.:",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Extraction of the toughness modulus and fracture energy",
+                "sec_num": "3.5"
+            },
+            {
+                "text": "\u222b ( ) d 0,max \u2211 \u222b ( ) d 0,",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Extraction of the toughness modulus and fracture energy",
+                "sec_num": "3.5"
+            },
+            {
+                "text": "As anticipated above, we can assume that the internal layer of the shell is the first one that undergoes fracture, followed by the external layer. Therefore, if from Figure 5 we assume that the peak of the force is reached when the internal layer fails, we can easily compute the toughness modulus of the internal layer (T int ) and that of the external layer (T ext ) of the shell. The integral in Equation (15), consequently, must be divided into two parts:",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 166,
+                        "end": 174,
+                        "text": "Figure 5",
+                        "ref_id": "FIGREF4"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Extraction of the toughness modulus and fracture energy",
+                "sec_num": "3.5"
+            },
+            {
+                "text": "EQUATION",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [
+                    {
+                        "start": 0,
+                        "end": 8,
+                        "text": "EQUATION",
+                        "ref_id": "EQREF",
+                        "raw_str": "\u222b ( ) d 0 | \u222b ( ) d 0,max 0 | (14)",
+                        "eq_num": "(15)"
+                    }
+                ],
+                "section": "Extraction of the toughness modulus and fracture energy",
+                "sec_num": "3.5"
+            },
+            {
+                "text": "EQUATION",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [
+                    {
+                        "start": 0,
+                        "end": 8,
+                        "text": "EQUATION",
+                        "ref_id": "EQREF",
+                        "raw_str": "(17a) (17b)",
+                        "eq_num": "(16)"
+                    }
+                ],
+                "section": "Extraction of the toughness modulus and fracture energy",
+                "sec_num": "3.5"
+            },
+            {
+                "text": "being 0 | the displacement at which the maximum load occurs and V int and V ext the volumes of the internal and the external layers, respectively.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Extraction of the toughness modulus and fracture energy",
+                "sec_num": "3.5"
+            },
+            {
+                "text": "Similarly, we can compute the fracture energy of the internal and the external layer, by dividing the corresponding integral in Equation (16) as done above for the toughness modulus, i.e.:",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Extraction of the toughness modulus and fracture energy",
+                "sec_num": "3.5"
+            },
+            {
+                "text": "\u222b ( ) d 0 | \u222b ( ) d 0,max 0 |",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Extraction of the toughness modulus and fracture energy",
+                "sec_num": "3.5"
+            },
+            {
+                "text": "Given the availability of the actual volume V of the shells, measured experimentally as described before, for the values of V int and V ext we do not make use of the spherical shape approximation introduced earlier for the computation of the mechanical properties. Instead, we notice that V int \u2248 V ext \u2248 V/2, thus we use the experimental value V/2 for the extraction of the toughness moduli in Equations (17) . Note also that we have introduced the fracture areas of the internal and the external layers, A int and A ext respectively, assuming that each layer covers half of the cross section (see Figure 2a ), i.e. the thickness of the internal layer is assumed equal to the thickness of the external layer, and using the spherical shape approximation. See Supplementary Note 3 for the detailed computation of A int , A ext , V int and V ext .",
+                "cite_spans": [
+                    {
+                        "start": 395,
+                        "end": 409,
+                        "text": "Equations (17)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 599,
+                        "end": 608,
+                        "text": "Figure 2a",
+                        "ref_id": "FIGREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Extraction of the toughness modulus and fracture energy",
+                "sec_num": "3.5"
+            },
+            {
+                "text": "In Table 4 we list the computed values of toughness modulus and fracture energy for the internal and external layers of all the samples. It is difficult to observe a clear dependence of these quantities on the location (i.e. latitude) of collection of the samples, but interestingly the sums T int + T ext and G c,int + G c,ext are almost the same for every location. On the other hand, a strong difference between the two layers can be observed: the internal layer presents always a much higher toughness modulus and fracture energy. ",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 3,
+                        "end": 10,
+                        "text": "Table 4",
+                        "ref_id": "TABREF3"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Extraction of the toughness modulus and fracture energy",
+                "sec_num": "3.5"
+            },
+            {
+                "text": "EQUATION",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [
+                    {
+                        "start": 0,
+                        "end": 8,
+                        "text": "EQUATION",
+                        "ref_id": "EQREF",
+                        "raw_str": "(18a)",
+                        "eq_num": "(18b)"
+                    }
+                ],
+                "section": "Extraction of the toughness modulus and fracture energy",
+                "sec_num": "3.5"
+            },
+            {
+                "text": "We have presented an experimental investigations of Chamelea gallina shells, collected at different locations in the Adriatic Sea. Microscopy investigations on the cross section of the shells have highlighted the presence of two main layers of different microstructure, which interact with the propagation of cracks during mechanical loading.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Conclusions",
+                "sec_num": "4."
+            },
+            {
+                "text": "Compression tests have been performed to extract the main mechanical properties of the shells, namely Young's modulus and ultimate strength, which have been derived through an analytical model based on the shallow spherical shell approximation. Results have shown a certain dependency of the mechanical performance on the latitude of collection of the samples, and these findings are essentially preserved when the shell porosity is considered. These results confirm that the preliminary outcomes of a previous work (Gizzi et al., 2016) for a variety of physical properties, are consistent also for the mechanical properties of the shells. The latitudinal gradient has been demonstrated to not affect significantly the internal microstructure of the shells, but only their macroscale morphology. Thus, we can conclude that the values of the Young's modulus and the ultimate strength depend on the latitude due to the change in shell morphology (e.g. thickness).Finally, we have investigated the fracture properties of the considered shells, which present a complex fracture growth as usually observed in natural and artificial composites.",
+                "cite_spans": [
+                    {
+                        "start": 516,
+                        "end": 536,
+                        "text": "(Gizzi et al., 2016)",
+                        "ref_id": "BIBREF10"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Conclusions",
+                "sec_num": "4."
+            },
+            {
+                "text": "We have computed the toughness modulus and the fracture energy for the two layers (i.e. internal and external) that fail progressively under compression: the extracted properties are nearly independent from the latitude, but highlight a different mechanical behaviour of the two layers, with the internal one being able of absorbing more energy at fracture.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Conclusions",
+                "sec_num": "4."
+            },
+            {
+                "text": "Our findings can be of interest for the estimation of the future yield of the clam fisheries in the Adriatic Sea, by correlating the mechanical properties of the shells to e.g. the mortality events.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Conclusions",
+                "sec_num": "4."
+            },
+            {
+                "text": "From the mechanical point of view, instead, the measured properties can be of interest for the design and optimization of new bio-inspired composite materials (Libonati et al., 2016; Gu et al., 2017; Pugno and Valentini, 2019) , e.g. multilayer composites for shell structures.",
+                "cite_spans": [
+                    {
+                        "start": 159,
+                        "end": 182,
+                        "text": "(Libonati et al., 2016;",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 183,
+                        "end": 199,
+                        "text": "Gu et al., 2017;",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 200,
+                        "end": 226,
+                        "text": "Pugno and Valentini, 2019)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Conclusions",
+                "sec_num": "4."
+            }
+        ],
+        "back_matter": [],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "Materials Selection in Mechanical Design",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Ashby",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1992,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ashby, M.F., 1992. Materials Selection in Mechanical Design. Pergamon Press, Oxford.",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "Mechanical properties of nacre constituents and their impact on the mechanical performance",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Barthelat",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Li",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Comi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Espinosa",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1977,
+                "venue": "J. Mater. Res",
+                "volume": "21",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1557/jmr.2006.0239"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Barthelat, F., Li, C.M., Comi, C., Espinosa, H.D., 2006. Mechanical properties of nacre constituents and their impact on the mechanical performance. J. Mater. Res. 21, 1977- 1986. https://doi.org/10.1557/jmr.2006.0239.",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "A review on the mechanical properties of mollusk shells -Perspectives on synthetic biomimetic materials",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Barthelat",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Rim",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Espinosa",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Applied Scanning Probe Methods XIII: Biomimetics and Industrial Applications",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Barthelat, F., Rim, J., Espinosa, H.D., 2009. A review on the mechanical properties of mollusk shells -Perspectives on synthetic biomimetic materials, in: Bhushan, B., Fuchs, H. (Eds.), Applied Scanning Probe Methods XIII: Biomimetics and Industrial Applications. Springer-Verlag, Berlin.",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "Structure and mechanics of interfaces in biological materials",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Barthelat",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Yin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Buehler",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Nat. Rev. Mat",
+                "volume": "1",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/natrevmats.2016.7/"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Barthelat, F., Yin, Z., Buehler, M.J., 2016. Structure and mechanics of interfaces in biological materials. Nat. Rev. Mat. 1, 16007. https://doi.org/10.1038/natrevmats.2016.7/.",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Nanoindentations on conch shells of gastropoda and bivalvia molluscs reveal anisotropic evolution against external attacks",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Bignardi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Petraroli",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Pugno",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "J. Nanosci. Nanotechno",
+                "volume": "10",
+                "issue": "",
+                "pages": "6453--6460",
+                "other_ids": {
+                    "DOI": [
+                        "10.1166/jnn.2010.2626"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Bignardi, C., Petraroli, M., Pugno, N.M., 2010. Nanoindentations on conch shells of gastropoda and bivalvia molluscs reveal anisotropic evolution against external attacks. J. Nanosci. Nanotechno. 10, 6453-6460. https://doi.org/10.1166/jnn.2010.2626.",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "Phenotypic Plasticity: Functional and Conceptual Approaches",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Dewitt",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Scheiner",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "DeWitt, T.J., Scheiner, S.M., 2004. Phenotypic Plasticity: Functional and Conceptual Approaches. Oxford University Press, Oxford.",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "Tablet-level origin of toughening in abalone shells and translation to synthetic composite materials",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Espinosa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Juster",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Latourte",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [
+                            "Y"
+                        ],
+                        "last": "Loh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Gregoire",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Zavattieri",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Nat. Commun",
+                "volume": "2",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/ncomms1172"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Espinosa, H.D., Juster, A.L., Latourte, F.J., Loh, O.Y., Gregoire, D., Zavattieri, P.D., 2011. Tablet-level origin of toughening in abalone shells and translation to synthetic composite materials. Nat. Commun. 2, 173. https://doi.org/10.1038/ncomms1172.",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "Gains and losses of coral skeletal porosity changes with ocean acidification acclimation",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Fantazzini",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Mengoli",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Pasquini",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "Bortolotti",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Brizi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Mariani",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Di Giosia",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Fermani",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Capaccioni",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Caroselli",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Prada",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Zaccanti",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Levy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Dubinsky",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Kaandorp",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Konglerd",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "U"
+                        ],
+                        "last": "Hammel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Dauphin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Cuif",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Weaver",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Fabricius",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Wagermeier",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Fratzl",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Falini",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Goffredo",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Fantazzini, P., Mengoli, S., Pasquini, L., Bortolotti, V., Brizi, L., Mariani, M., Di Giosia, M., Fermani, S., Capaccioni, B., Caroselli, E., Prada, F., Zaccanti, F., Levy, O., Dubinsky, Z., Kaandorp, J.A., Konglerd, P., Hammel, J.U., Dauphin, Y., Cuif, J.P., Weaver, J.C., Fabricius, K.E., Wagermeier, W., Fratzl, P., Falini, G., Goffredo, S., 2015. Gains and losses of coral skeletal porosity changes with ocean acidification acclimation. Nat.",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "Ecological developmental biology: Developmental biology meets the real world",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Gilbert",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Dev. Biol",
+                "volume": "233",
+                "issue": "",
+                "pages": "1--12",
+                "other_ids": {
+                    "DOI": [
+                        "10.1006/dbio.2001.0210"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Gilbert, S.F., 2001. Ecological developmental biology: Developmental biology meets the real world. Dev. Biol. 233, 1-12. https://doi.org/10.1006/dbio.2001.0210.",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Shell properties of commercial clam Chamelea gallina are influenced by temperature and solar radiation along a wide latitudinal gradient",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Gizzi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Caccia",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Simoncini",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Mancuso",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Reggi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Fermani",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Brizi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Fantazzini",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Stagioni",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Falini",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Piccinetti",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Goffredo",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Sci. Rep",
+                "volume": "6",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/srep36420"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Gizzi, F., Caccia, M.G., Simoncini, G.A., Mancuso, A., Reggi, M., Fermani, S., Brizi, L., Fantazzini, P., Stagioni, M., Falini, G., Piccinetti, C., Goffredo, S., 2016. Shell properties of commercial clam Chamelea gallina are influenced by temperature and solar radiation along a wide latitudinal gradient. Sci. Rep. 6, 36420. https://doi.org/10.1038/srep36420.",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "Hierarchically Enhanced Impact Resistance of Bioinspired Composites",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "X"
+                        ],
+                        "last": "Gu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Takaffoli",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Buehler",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Adv. Mater",
+                "volume": "29",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Gu, G.X., Takaffoli, M., Buehler, M.J., 2017. Hierarchically Enhanced Impact Resistance of Bioinspired Composites. Adv. Mater. 29, 1700060. .",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "Nanoscale structural and mechanical characterization of heat treated nacre",
+                "authors": [
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Huang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "X",
+                        "middle": [],
+                        "last": "Li",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Mat. Sci. Eng. C",
+                "volume": "29",
+                "issue": "",
+                "pages": "1803--1807",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/j.msec.2009.02.007"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Huang, Z., Li, X., 2009. Nanoscale structural and mechanical characterization of heat treated nacre. Mat. Sci. Eng. C 29, 1803-1807. https://doi.org/10.1016/j.msec.2009.02.007.",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "Origin of flaw-tolerance in nacre",
+                "authors": [
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Huang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "X",
+                        "middle": [],
+                        "last": "Li",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/srep01693"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Huang, Z., Li, X., 2013. Origin of flaw-tolerance in nacre. Sci. Rep. 3, 1693. https://doi.org/10.1038/srep01693.",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "Cymbiola nobilis shell: Toughening mechanisms in a crossedlamellar structure",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Ji",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "X",
+                        "middle": [],
+                        "last": "Li",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Chen",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Sci. Rep",
+                "volume": "7",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/srep40043"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Ji, H., Li, X., Chen, D., 2017. Cymbiola nobilis shell: Toughening mechanisms in a crossed- lamellar structure. Sci. Rep. 7, 40043. https://doi.org/10.1038/srep40043.",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Contact Mechanics",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Johnson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1985,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Johnson, K.L., 1985. Contact Mechanics. Cambridge University Press, Cambridge.",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Mechanics of Composite Materials",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Jones",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jones, R.M., 1999. Mechanics of Composite Materials. Taylor & Francis, London.",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "The toughening mechanism of nacre and structural materials inspired by nacre",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Kakisawa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Sumitomo",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Sci. Technol. Adv. Mater",
+                "volume": "12",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1088/1468-"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Kakisawa, H., Sumitomo, T., 2011. The toughening mechanism of nacre and structural materials inspired by nacre. Sci. Technol. Adv. Mater. 12, 064710. https://doi.org/10.1088/1468-",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "JCPDS card no. 41-1475",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Keller",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Rask",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Buseck",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1989,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Keller, L., Rask, J., Buseck, P., 1989. JCPDS card no. 41-1475, Arizona State Univ., Tempe, AZ, USA., ICDD Grant-in-Aid.",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "Structural and mechanical characterization of thermally treated conch shells",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Li",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Jin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Li",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "X",
+                        "middle": [],
+                        "last": "Li",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "JOM",
+                "volume": "67",
+                "issue": "",
+                "pages": "720--725",
+                "other_ids": {
+                    "DOI": [
+                        "10.1007/s11837-015-1330-y"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Li, H., Jin, D., Li, R., Li, X., 2015. Structural and mechanical characterization of thermally treated conch shells. JOM 67, 720-725. https://doi.org/10.1007/s11837-015-1330-y.",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "Multiscale hierarchical assembly strategy and mechanical prowess in conch shells (Busycon carica)",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Li",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Z",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Xu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "X",
+                        "middle": [],
+                        "last": "Li",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "J. Struct. Biol",
+                "volume": "184",
+                "issue": "",
+                "pages": "409--416",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Li, H., Xu, Z.H., Li, X., 2013. Multiscale hierarchical assembly strategy and mechanical prowess in conch shells (Busycon carica). J. Struct. Biol. 184, 409-416.",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "Nanoscale structural and mechanical characterization of a natural nanocomposite material: the shell of red abalone",
+                "authors": [
+                    {
+                        "first": "X",
+                        "middle": [],
+                        "last": "Li",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Chang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Chao",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Wang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Chang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Nano Lett",
+                "volume": "4",
+                "issue": "",
+                "pages": "613--617",
+                "other_ids": {
+                    "DOI": [
+                        "10.1021/nl049962k"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Li, X., Chang, W.C., Chao, Y.J., Wang, R., Chang, M., 2004. Nanoscale structural and mechanical characterization of a natural nanocomposite material: the shell of red abalone. Nano Lett. 4, 613-617. https://doi.org/10.1021/nl049962k.",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "Micro/nanomechanical characterization of a natural nanocomposite material the shell of Pectinidae",
+                "authors": [
+                    {
+                        "first": "X",
+                        "middle": [],
+                        "last": "Li",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Nardi",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Nanotechnology",
+                "volume": "15",
+                "issue": "",
+                "pages": "211--217",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Li, X., Nardi, P., 2004. Micro/nanomechanical characterization of a natural nanocomposite material - the shell of Pectinidae. Nanotechnology 15, 211-217.",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "Bone-inspired materials by design: toughness amplification observed using 3D printing and testing",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Libonati",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "X"
+                        ],
+                        "last": "Gu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Q",
+                        "middle": [],
+                        "last": "Zhao",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Vergani",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Buehler",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Adv. Eng. Mater",
+                "volume": "18",
+                "issue": "",
+                "pages": "1354--1363",
+                "other_ids": {
+                    "DOI": [
+                        "10.1002/adem.201600143"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Libonati, F., Gu, G.X., Zhao, Q., Vergani, L., Buehler, M.J., 2016. Bone-inspired materials by design: toughness amplification observed using 3D printing and testing. Adv. Eng. Mater. 18, 1354-1363. https://doi.org/10.1002/adem.201600143.",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "On biomineralization",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Lowenstam",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Weiner",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1989,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lowenstam, H.A., Weiner, S., 1989. On biomineralization. Oxford University Press, Oxford.",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "Elastic spherical shell impacted with an elastic barrier: A closed form solution",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Mansoorbaghaei",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Sadegh",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Int. J. Solids Struct",
+                "volume": "48",
+                "issue": "",
+                "pages": "3257--3266",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "MansoorBaghaei, S., Sadegh, A.M., 2011. Elastic spherical shell impacted with an elastic barrier: A closed form solution. Int. J. Solids Struct. 48, 3257-3266.",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "Mechanical energy dissipation in natural ceramic composites",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Mayer",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "J. Mech. Behav.Biomed",
+                "volume": "76",
+                "issue": "",
+                "pages": "21--29",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/j.jmbbm.2017.06.019"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Mayer, G., 2017. Mechanical energy dissipation in natural ceramic composites. J. Mech. Behav.Biomed. 76, 21-29. https://doi.org/10.1016/j.jmbbm.2017.06.019.",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "Bivalve immune responses and climate changes: Is there a relationship?",
+                "authors": [
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "Matozzo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Marin",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Invertebr. Survival J",
+                "volume": "8",
+                "issue": "",
+                "pages": "70--77",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Matozzo, V., Marin, M.G., 2011. Bivalve immune responses and climate changes: Is there a relationship? Invertebr. Survival J. 8, 70-77.",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "Effects of ocean acidification and elevated temperature on shell plasticity and its energetic basis in an intertidal gastropod",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Melatunan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Calosi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Rundle",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Widdicombe",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Moody",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Mar. Ecol. Prog. Ser",
+                "volume": "472",
+                "issue": "",
+                "pages": "155--168",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Melatunan, S., Calosi, P., Rundle, S.D., Widdicombe, S., Moody, A.J., 2013. Effects of ocean acidification and elevated temperature on shell plasticity and its energetic basis in an intertidal gastropod. Mar. Ecol. Prog. Ser. 472, 155-168.",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "Dynamic nanomechanical response of nacre",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Mohanty",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Katti",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Katti",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Verma",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "J. Mater. Res",
+                "volume": "21",
+                "issue": "",
+                "pages": "2045--2051",
+                "other_ids": {
+                    "DOI": [
+                        "10.1557/jmr.2006.0247"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Mohanty, B., Katti, K.S., Katti, D.R., Verma, D., 2006. Dynamic nanomechanical response of nacre. J. Mater. Res. 21, 2045-2051. https://doi.org/10.1557/jmr.2006.0247.",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "Seasonal changes in physiological responses and evaluation of \"well-being\" in the Venus clam Chamelea gallina from the Northern Adriatic Sea",
+                "authors": [
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "Moschino",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Marin",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Comp. Biochem. Phys. A",
+                "volume": "145",
+                "issue": "",
+                "pages": "433--440",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/j.cbpa.2006.07.021"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Moschino, V, Marin, M.G., 2006. Seasonal changes in physiological responses and evaluation of \"well-being\" in the Venus clam Chamelea gallina from the Northern Adriatic Sea. Comp. Biochem. Phys. A. 145, 433-440. https://doi.org/10.1016/j.cbpa.2006.07.021.",
+                "links": null
+            },
+            "BIBREF35": {
+                "ref_id": "b35",
+                "title": "Lattice-dynamical estimation of atomic displacement parameters in carbonates: Calcite and aragonite CaCO 3 , dolomite CaMg(CO 3 ) 2 and magnesite MgCO 3",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Pilati",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Demartin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Gramaccioli",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Acta Crystallogr. B",
+                "volume": "54",
+                "issue": "",
+                "pages": "515--523",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pilati, T., Demartin, F., Gramaccioli, C.M., 1998. Lattice-dynamical estimation of atomic displacement parameters in carbonates: Calcite and aragonite CaCO 3 , dolomite CaMg(CO 3 ) 2 and magnesite MgCO 3 . Acta Crystallogr. B. 54, 515-523.",
+                "links": null
+            },
+            "BIBREF37": {
+                "ref_id": "b37",
+                "title": "Composite prismatic structure in bivalve shells",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Popov",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1986,
+                "venue": "Acta Palaeontol. Pol",
+                "volume": "31",
+                "issue": "",
+                "pages": "3--26",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Popov, S.V., 1986. Composite prismatic structure in bivalve shells. Acta Palaeontol. Pol. 31, 3- 26.",
+                "links": null
+            },
+            "BIBREF39": {
+                "ref_id": "b39",
+                "title": "Age determination and shell growth of Chamelea gallina (Bivalvia: Veneridae) in the western Mediterranean",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Ram\u00f3n",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Richardson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1992,
+                "venue": "Mar. Ecol. Progr. Ser",
+                "volume": "89",
+                "issue": "",
+                "pages": "15--23",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ram\u00f3n, M., Richardson, C.A., 1992. Age determination and shell growth of Chamelea gallina (Bivalvia: Veneridae) in the western Mediterranean. Mar. Ecol. Progr. Ser. 89, 15-23.",
+                "links": null
+            },
+            "BIBREF40": {
+                "ref_id": "b40",
+                "title": "Stresses and small displacements of shallow spherical shells. I",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Reissner",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1946,
+                "venue": "J. Math. Phys. Camb",
+                "volume": "25",
+                "issue": "",
+                "pages": "80--85",
+                "other_ids": {
+                    "DOI": [
+                        "10.1002/sapm194625180"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Reissner, E., 1946a. Stresses and small displacements of shallow spherical shells. I. J. Math. Phys. Camb. 25, 80-85. https://doi.org/10.1002/sapm194625180.",
+                "links": null
+            },
+            "BIBREF41": {
+                "ref_id": "b41",
+                "title": "Stresses and small displacements of shallow spherical shells. II",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Reissner",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1946,
+                "venue": "J. Math. Phys. Camb",
+                "volume": "25",
+                "issue": "",
+                "pages": "279--300",
+                "other_ids": {
+                    "DOI": [
+                        "10.1002/sapm1946251279"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Reissner, E., 1946b. Stresses and small displacements of shallow spherical shells. II. J. Math. Phys. Camb. 25, 279-300. https://doi.org/10.1002/sapm1946251279.",
+                "links": null
+            },
+            "BIBREF42": {
+                "ref_id": "b42",
+                "title": "The long term decline of the Chamelea gallina L. (Bivalvia: Veneridae) clam fishery in the Adriatic Sea: Is a synthesis possible?",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Romanelli",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Cordisco",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Giovanardi",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Acta Adriat",
+                "volume": "50",
+                "issue": "",
+                "pages": "171--205",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Romanelli, M., Cordisco, C.A., Giovanardi, O., 2008. The long term decline of the Chamelea gallina L. (Bivalvia: Veneridae) clam fishery in the Adriatic Sea: Is a synthesis possible? Acta Adriat. 50, 171-205.",
+                "links": null
+            },
+            "BIBREF43": {
+                "ref_id": "b43",
+                "title": "Structure-property relationships of a biological mesocrystal in the adult sea urchin spine",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Seto",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Ma",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Davis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Meldrum",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Gourrier",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [
+                            "Y"
+                        ],
+                        "last": "Kim",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "U",
+                        "middle": [],
+                        "last": "Schilde",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Sztucki",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Burghammer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Maltsev",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "J\u00e4ger",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "P. Natl. Acad. Sci. USA",
+                "volume": "109",
+                "issue": "",
+                "pages": "3699--3704",
+                "other_ids": {
+                    "DOI": [
+                        "10.1073/pnas.1109243109"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Seto, J., Ma, Y., Davis, S.A., Meldrum, F., Gourrier, A., Kim, Y.Y., Schilde, U., Sztucki, M., Burghammer, M., Maltsev, S., J\u00e4ger, C., 2012. Structure-property relationships of a biological mesocrystal in the adult sea urchin spine. P. Natl. Acad. Sci. USA. 109, 3699- 3704. https://doi.org/10.1073/pnas.1109243109.",
+                "links": null
+            },
+            "BIBREF44": {
+                "ref_id": "b44",
+                "title": "Hierarchical structure and mechanical properties of nacre: a review",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Sun",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Bhushan",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "RSC Adv",
+                "volume": "2",
+                "issue": "",
+                "pages": "7617--7632",
+                "other_ids": {
+                    "DOI": [
+                        "10.1039/C2RA20218B"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Sun, J., Bhushan, B., 2012. Hierarchical structure and mechanical properties of nacre: a review. RSC Adv. 2, 7617-7632. https://doi.org/10.1039/C2RA20218B.",
+                "links": null
+            },
+            "BIBREF45": {
+                "ref_id": "b45",
+                "title": "The mechanical properties of bivalve (Mollusca) shell structures",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Taylor",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Layman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1972,
+                "venue": "Palaeontology",
+                "volume": "15",
+                "issue": "",
+                "pages": "73--87",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Taylor, J.D., Layman, M., 1972. The mechanical properties of bivalve (Mollusca) shell structures. Palaeontology 15, 73-87.",
+                "links": null
+            },
+            "BIBREF46": {
+                "ref_id": "b46",
+                "title": "Theory of Plates and Shells",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Timoshenko",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Woinowsky-Krieger",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1959,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Timoshenko, S., Woinowsky-Krieger, S., 1959. Theory of Plates and Shells. McGraw-Hill, New York.",
+                "links": null
+            },
+            "BIBREF47": {
+                "ref_id": "b47",
+                "title": "Marine invertebrate skeleton size varies with latitude, temperature and carbonate saturation: Implications for global change and ocean acidification",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Watson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Peck",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Tyler",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Southgate",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Tan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Day",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Morley",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Glob. Change Biol",
+                "volume": "18",
+                "issue": "",
+                "pages": "3026--3038",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1365-2486.2012.02755.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Watson, S.A., Peck, L.S., Tyler, P.A., Southgate, P.C., Tan, K.S., Day, R.W., Morley, S.A., 2012. Marine invertebrate skeleton size varies with latitude, temperature and carbonate saturation: Implications for global change and ocean acidification. Glob. Change Biol. 18, 3026-3038. https://doi.org/10.1111/j.1365-2486.2012.02755.x.",
+                "links": null
+            },
+            "BIBREF48": {
+                "ref_id": "b48",
+                "title": "Deformation strengthening of biopolymer in nacre",
+                "authors": [
+                    {
+                        "first": "Z",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Xu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "X",
+                        "middle": [],
+                        "last": "Li",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Adv. Funct. Mater",
+                "volume": "21",
+                "issue": "",
+                "pages": "3883--3888",
+                "other_ids": {
+                    "DOI": [
+                        "10.1002/adfm.201100167"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Xu, Z.H., Li, X., 2011. Deformation strengthening of biopolymer in nacre. Adv. Funct. Mater. 21, 3883-3888. https://doi.org/10.1002/adfm.201100167.",
+                "links": null
+            },
+            "BIBREF49": {
+                "ref_id": "b49",
+                "title": "New insight into the toughening mechanisms of seashell: from arch shape to multilayer structure",
+                "authors": [
+                    {
+                        "first": "Q",
+                        "middle": [],
+                        "last": "Yuan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Chen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Chen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Wang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "J. Nanomater",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1155/2016/3817985"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Yuan, Q., Chen, B., Chen, B., Wang, Z., 2016. New insight into the toughening mechanisms of seashell: from arch shape to multilayer structure. J. Nanomater. 2016, 3817985. http://dx.doi.org/10.1155/2016/3817985. Highlights: \uf0b7 Clam shells collected at various latitudes are tested under compression.",
+                "links": null
+            },
+            "BIBREF50": {
+                "ref_id": "b50",
+                "title": "An analytical model is employed to extract the Young's modulus and the strength. \uf0b7 The fracture energy and toughness of two microstructural layers is estimated. \uf0b7 The main mechanical properties depend on the latitude of collection of the samples",
+                "authors": [],
+                "year": null,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "\uf0b7 An analytical model is employed to extract the Young's modulus and the strength. \uf0b7 The fracture energy and toughness of two microstructural layers is estimated. \uf0b7 The main mechanical properties depend on the latitude of collection of the samples.",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "num": null,
+                "uris": null,
+                "type_str": "figure",
+                "text": "External and internal view (left) and cross section (right) of a valve of C. gallina."
+            },
+            "FIGREF1": {
+                "num": null,
+                "uris": null,
+                "type_str": "figure",
+                "text": ") shows fractures given by the compression tests. These fractures originate from the inner layer, while the outer layer remains nearly unaltered. The pristine sample, instead, shows a continuity of bond between the two layers. In the external layer (Figure 2b) compound prisms are observed. They are formed by an open aggregation of grains having irregular shapes and highly interconnected (Figure 2c). The inner"
+            },
+            "FIGREF2": {
+                "num": null,
+                "uris": null,
+                "type_str": "figure",
+                "text": "SEM images of the cross section of a valve of C. gallina. (a) A low-magnification image of a region close to the umbo from a valve that was compressed without fracture. The outer (Ext.) and inner (Int.) layers are observable. The arrows indicate the region were fractures were observed. Inset: cross section of a pristine sample. (b,c) Images of the outer layer at low and high magnification, respectively. (d,e) Images of the inner layer at low and high magnification, respectively. (f,g) Images of the outer-inner junction region at low and high magnification, respectively."
+            },
+            "FIGREF3": {
+                "num": null,
+                "uris": null,
+                "type_str": "figure",
+                "text": "Picture of the machine and setup used for the compression tests."
+            },
+            "FIGREF4": {
+                "num": null,
+                "uris": null,
+                "type_str": "figure",
+                "text": "Typical experimental load-displacement curve, with P the total load and w 0 the displacement of the centre of the shell from its natural position. (The two reference points on the linear segment will be used in Section 3 for the extraction of the Young's modulus.)"
+            },
+            "FIGREF5": {
+                "num": null,
+                "uris": null,
+                "type_str": "figure",
+                "text": "Ultimate strength as function of the shell thickness, computed through Equation(10), of the investigated samples divided by location. The solid line represents the curve described by Equation (11)."
+            },
+            "FIGREF6": {
+                "num": null,
+                "uris": null,
+                "type_str": "figure",
+                "text": "Ashby plot of the Young's modulus and the ultimate strength of the investigated samples divided by location. Each ellipse has centre in ( ) and horizontal and vertical semi-axes"
+            },
+            "TABREF1": {
+                "content": "<table><tr><td>location acronym</td><td>E (GPa)</td><td>\u03c3 u (MPa)</td></tr><tr><td>\"MO\"</td><td>2.44 \u00b1 1.58</td><td>20.61 \u00b1 3.74</td></tr><tr><td>\"CH\"</td><td>6.93 \u00b1 1.57</td><td>33.41 \u00b1 6.65</td></tr><tr><td>\"GR\"</td><td>6.18 \u00b1 1.77</td><td>28.19 \u00b1 5.77</td></tr><tr><td>\"CE\"</td><td>7.19 \u00b1 2.19</td><td>34.38 \u00b1 6.43</td></tr><tr><td>\"SB\"</td><td>6.94 \u00b1 2.30</td><td>32.25 \u00b1 8.65</td></tr><tr><td>\"CA\"</td><td>6.01 \u00b1 3.88</td><td>28.68 \u00b1 8.32</td></tr></table>",
+                "num": null,
+                "type_str": "table",
+                "text": "Average value and standard deviation of the Young's modulus, from Equation (6), and the ultimate strength, from Equation (10), of the investigated samples ordered by decreasing latitudes."
+            },
+            "TABREF2": {
+                "content": "<table><tr><td>location</td><td>\u03c6</td><td>E mat</td><td>\u03c3 u,mat</td></tr><tr><td>acronym</td><td>(%)</td><td>(GPa)</td><td>(MPa)</td></tr><tr><td>\"MO\"</td><td>2.97 \u00b1 0.48</td><td>2.51 \u00b1 1.63</td><td>21.24 \u00b1 3.86</td></tr><tr><td>\"CH\"</td><td>2.97 \u00b1 0.69</td><td>7.15 \u00b1 1.62</td><td>34.42 \u00b1 6.76</td></tr><tr><td>\"GR\"</td><td>3.85 \u00b1 0.79</td><td>6.43 \u00b1 1.83</td><td>29.32 \u00b1 6.00</td></tr><tr><td>\"CE\"</td><td>3.97 \u00b1 1.01</td><td>7.48 \u00b1 2.27</td><td>34.75 \u00b1 6.35</td></tr><tr><td>\"SB\"</td><td>3.71 \u00b1 0.88</td><td>7.20 \u00b1 2.38</td><td>33.51 \u00b1 9.04</td></tr><tr><td>\"CA\"</td><td>4.03 \u00b1 0.90</td><td>6.26 \u00b1 4.04</td><td>29.88 \u00b1 8.61</td></tr></table>",
+                "num": null,
+                "type_str": "table",
+                "text": "Average value and standard deviation of the Young's modulus, from Equation(13a), and the ultimate strength, from Equation (13b), of the investigated samples ordered by decreasing latitudes, considering the shell porosity."
+            },
+            "TABREF3": {
+                "content": "<table><tr><td>location</td><td colspan=\"2\">internal layer</td><td colspan=\"2\">external layer</td></tr><tr><td>acronym</td><td>T int (kJ/m 3 )</td><td>G c,int (kJ/m 2 )</td><td>T ext (kJ/m 3 )</td><td>G c,ext (kJ/m 3 )</td></tr><tr><td>\"MO\"</td><td>12.32 \u00b1 2.92</td><td>0.20 \u00b1 0.05</td><td>8.34 \u00b1 4.26</td><td>0.13 \u00b1 0.07</td></tr><tr><td>\"CH\"</td><td>16.30 \u00b1 6.14</td><td>0.27 \u00b1 0.10</td><td>6.98 \u00b1 3.78</td><td>0.11 \u00b1 0.06</td></tr><tr><td>\"GR\"</td><td>11.06 \u00b1 4.54</td><td>0.18 \u00b1 0.07</td><td>8.86 \u00b1 3.92</td><td>0.14 \u00b1 0.06</td></tr><tr><td>\"CE\"</td><td>14.96 \u00b1 4.28</td><td>0.26 \u00b1 0.08</td><td>7.32 \u00b1 4.44</td><td>0.12 \u00b1 0.08</td></tr><tr><td>\"SB\"</td><td>13.44 \u00b1 6.38</td><td>0.23 \u00b1 0.12</td><td>10.52 \u00b1 6.10</td><td>0.17 \u00b1 0.10</td></tr><tr><td>\"CA\"</td><td>11.64 \u00b1 4.54</td><td>0.19 \u00b1 0.07</td><td>9.80 \u00b1 7.38</td><td>0.16 \u00b1 0.12</td></tr></table>",
+                "num": null,
+                "type_str": "table",
+                "text": "Average value and standard deviation of the toughness modulus and the fracture energy of the internal and the external layers of the investigated samples ordered by decreasing latitudes."
+            }
+        }
+    }
+}

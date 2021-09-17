@@ -1,0 +1,3393 @@
+{
+    "paper_id": "1387",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-09-13T19:34:34.730866Z"
+    },
+    "title": "Genomic basis for coral resilience to climate change",
+    "authors": [
+        {
+            "first": "Daniel",
+            "middle": [
+                "J"
+            ],
+            "last": "Barshis",
+            "suffix": "",
+            "affiliation": {},
+            "email": "barshis@gmail.com"
+        },
+        {
+            "first": "Jason",
+            "middle": [
+                "T"
+            ],
+            "last": "Ladner",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Thomas",
+            "middle": [
+                "A"
+            ],
+            "last": "Oliver",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Fran\u00e7ois",
+            "middle": [
+                "O"
+            ],
+            "last": "Seneca",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Nikki",
+            "middle": [],
+            "last": "Traylor-Knowles",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Stephen",
+            "middle": [
+                "R"
+            ],
+            "last": "Palumbi",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "David",
+            "middle": [
+                "M"
+            ],
+            "last": "Hillis",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        }
+    ],
+    "year": "",
+    "venue": null,
+    "identifiers": {},
+    "abstract": "Data deposition: The sequences reported in this paper have been deposited in the Transcriptome Shotgun Assembly database, www.ncbi.nlm.nih.gov/genbank/tsa (BioProject PRJNA177515), and the Dryad data repository (dx.doi.org/10.5061/dryad.bc0v0).",
+    "pdf_parse": {
+        "paper_id": "1387",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "Data deposition: The sequences reported in this paper have been deposited in the Transcriptome Shotgun Assembly database, www.ncbi.nlm.nih.gov/genbank/tsa (BioProject PRJNA177515), and the Dryad data repository (dx.doi.org/10.5061/dryad.bc0v0).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "Recent advances in DNA-sequencing technologies now allow for in-depth characterization of the genomic stress responses of many organisms beyond model taxa. They are especially appropriate for organisms such as reef-building corals, for which dramatic declines in abundance are expected to worsen as anthropogenic climate change intensifies. Different corals differ substantially in physiological resilience to environmental stress, but the molecular mechanisms behind enhanced coral resilience remain unclear. Here, we compare transcriptome-wide gene expression (via RNA-Seq using Illumina sequencing) among conspecific thermally sensitive and thermally resilient corals to identify the molecular pathways contributing to coral resilience. Under simulated bleaching stress, sensitive and resilient corals change expression of hundreds of genes, but the resilient corals had higher expression under control conditions across 60 of these genes. These \"frontloaded\" transcripts were less up-regulated in resilient corals during heat stress and included thermal tolerance genes such as heat shock proteins and antioxidant enzymes, as well as a broad array of genes involved in apoptosis regulation, tumor suppression, innate immune response, and cell adhesion. We propose that constitutive frontloading enables an individual to maintain physiological resilience during frequently encountered environmental stress, an idea that has strong parallels in model systems such as yeast. Our study provides broad insight into the fundamental cellular processes responsible for enhanced stress tolerances that may enable some organisms to better persist into the future in an era of global climate change.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "acquired stress tolerance | Acropora hyacinthus | thermal stress | transcriptomics | Cnidarian M any species have evolved to tolerate a multitude of stressful environmental changes (1) . Comparisons across plants (2) and animals (3) (4) (5) have shown some species and populations to be far more resilient than others, with marked influences on growth, survival, disease resistance, and ultimately evolutionary fitness (4, 6, 7) . At the species level, physiological stress regimes are known to set biogeographic limits, determine microhabitat preferences, and generate ecological patterns such as intertidal zonation (3, (8) (9) (10) . The advent of climate change has heightened the need to understand stress responses (10, 11) , especially for species such as terrestrial plants and many sedentary marine taxa that cannot easily migrate to new environmental optima (12) (13) (14) .",
+                "cite_spans": [
+                    {
+                        "start": 181,
+                        "end": 184,
+                        "text": "(1)",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 213,
+                        "end": 216,
+                        "text": "(2)",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 229,
+                        "end": 232,
+                        "text": "(3)",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 233,
+                        "end": 236,
+                        "text": "(4)",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 237,
+                        "end": 240,
+                        "text": "(5)",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 419,
+                        "end": 422,
+                        "text": "(4,",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 423,
+                        "end": 425,
+                        "text": "6,",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 426,
+                        "end": 428,
+                        "text": "7)",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 618,
+                        "end": 621,
+                        "text": "(3,",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 622,
+                        "end": 625,
+                        "text": "(8)",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 626,
+                        "end": 629,
+                        "text": "(9)",
+                        "ref_id": "BIBREF8"
+                    },
+                    {
+                        "start": 630,
+                        "end": 634,
+                        "text": "(10)",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 721,
+                        "end": 725,
+                        "text": "(10,",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 726,
+                        "end": 729,
+                        "text": "11)",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 868,
+                        "end": 872,
+                        "text": "(12)",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 873,
+                        "end": 877,
+                        "text": "(13)",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 878,
+                        "end": 882,
+                        "text": "(14)",
+                        "ref_id": "BIBREF13"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "At the genomic scale, some species show a rapid, widespread stress response across thousands of genes. In cells of the budding yeast Saccharomyces cerevisiae, this environmental stress response (ESR) is broadly consistent across a profusion of external stressors (15) . In nonmodel organisms in natural habitats, such as reefbuilding corals, the genome-wide responses to environmental stress are only just beginning to be described (16) . However, in the current era of a rapidly changing climate, it is imperative to understand the mechanisms of the stress response, particularly those that may confer enhanced tolerance of changing environmental conditions (10, 11, 14) .",
+                "cite_spans": [
+                    {
+                        "start": 263,
+                        "end": 267,
+                        "text": "(15)",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 432,
+                        "end": 436,
+                        "text": "(16)",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 659,
+                        "end": 663,
+                        "text": "(10,",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 664,
+                        "end": 667,
+                        "text": "11,",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 668,
+                        "end": 671,
+                        "text": "14)",
+                        "ref_id": "BIBREF13"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Reef-building corals, the foundation of tropical coastal marine resources, are exceptionally vulnerable to climate change (e.g., refs. 17 and 18) . In recent decades, the increasing frequency and severity of catastrophic coral bleaching (the dissociation of the coral host and its endosymbiotic algae Symbiodinium sp.) and bleaching-induced mortality (19) (20) (21) (22) has called into question whether corals have the capacity to acclimatize or adapt to global climate change (19, 20) . However, during mass coral bleaching events, survival of scattered coral colonies suggests that some groups of corals may possess inherent physiological tolerance to environmental stress (23, 24) . In addition, some high-temperature environments naturally retain healthy, growing coral populations (25) (26) (27) , and these corals can show elevated bleaching tolerances (e.g., refs. 18 and 28). These thermotolerant corals are among the most likely to cope with future climate change (sensu ref. 24 ) and, thus, represent an essential source of information about mechanisms underlying observed differences in coral physiological resilience (defined here as the capacity for an organism to experience relative environmental extremes and either resist cellular stress or rapidly recover from it; sensu ref. 29) .",
+                "cite_spans": [
+                    {
+                        "start": 135,
+                        "end": 145,
+                        "text": "17 and 18)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 351,
+                        "end": 355,
+                        "text": "(19)",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 356,
+                        "end": 360,
+                        "text": "(20)",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 361,
+                        "end": 365,
+                        "text": "(21)",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 366,
+                        "end": 370,
+                        "text": "(22)",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 478,
+                        "end": 482,
+                        "text": "(19,",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 483,
+                        "end": 486,
+                        "text": "20)",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 676,
+                        "end": 680,
+                        "text": "(23,",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 681,
+                        "end": 684,
+                        "text": "24)",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 787,
+                        "end": 791,
+                        "text": "(25)",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 792,
+                        "end": 796,
+                        "text": "(26)",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 797,
+                        "end": 801,
+                        "text": "(27)",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 986,
+                        "end": 988,
+                        "text": "24",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 1295,
+                        "end": 1298,
+                        "text": "29)",
+                        "ref_id": "BIBREF28"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "At the molecular level, recent evidence suggests that differential regulation of apoptosis (i.e., programmed cell death) may be essential to postbleaching survival of resilient corals (30) . Alternatively, enhanced thermotolerance in other marine organisms (e.g., intertidal limpets, mussels, sea cucumbers, and amphipods) has been linked to higher constitutive expression of heat shock proteins (Hsps) (31) (32) (33) (34) . A growing number of studies find that the basic coral heat stress response involves a wide array of cellular processes, akin to the ESR in yeast (15) . These include induction of molecular chaperones (e.g., Hsps) and antioxidant enzymes but also involve Ca 2+ homeostasis disruption, cytoskeletal reorganization, and altered cell signaling and transcriptional regulation (e.g., refs. [35] [36] [37] . As a result, differences in physiological resilience could be caused by regulation of many molecular processes.",
+                "cite_spans": [
+                    {
+                        "start": 184,
+                        "end": 188,
+                        "text": "(30)",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 403,
+                        "end": 407,
+                        "text": "(31)",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 408,
+                        "end": 412,
+                        "text": "(32)",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 413,
+                        "end": 417,
+                        "text": "(33)",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 418,
+                        "end": 422,
+                        "text": "(34)",
+                        "ref_id": "BIBREF33"
+                    },
+                    {
+                        "start": 570,
+                        "end": 574,
+                        "text": "(15)",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 809,
+                        "end": 813,
+                        "text": "[35]",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 814,
+                        "end": 818,
+                        "text": "[36]",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 819,
+                        "end": 823,
+                        "text": "[37]",
+                        "ref_id": "BIBREF36"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "In this study, we report transcriptome-wide gene expression patterns underlying marked differences in thermal resilience between two populations of the common reef-building coral Acropora hyacinthus on Ofu Island, American Samoa. The backreef environment in Ofu is composed of distinct pools that experience variable levels of temperature, pH, and oxygen driven by tidal fluctuations (26, 38) . The most variable of these pools reach \u226534\u00b0C during summer low tides and exhibits daily thermal fluctuations up to 6\u00b0C (26, 38) . Corals in the more variable pools show higher stress protein biomarker levels (39), more heattolerant Symbiodinium genotypes (27) , faster growth rates (38, 40) , and enhanced thermal tolerance (28) . These studies demonstrate that more physically challenging areas of the back reef harbor some of the most thermotolerant corals in the region, but the key molecular mechanisms involved are entirely unknown.",
+                "cite_spans": [
+                    {
+                        "start": 384,
+                        "end": 388,
+                        "text": "(26,",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 389,
+                        "end": 392,
+                        "text": "38)",
+                        "ref_id": "BIBREF37"
+                    },
+                    {
+                        "start": 514,
+                        "end": 518,
+                        "text": "(26,",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 519,
+                        "end": 522,
+                        "text": "38)",
+                        "ref_id": "BIBREF37"
+                    },
+                    {
+                        "start": 650,
+                        "end": 654,
+                        "text": "(27)",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 677,
+                        "end": 681,
+                        "text": "(38,",
+                        "ref_id": "BIBREF37"
+                    },
+                    {
+                        "start": 682,
+                        "end": 685,
+                        "text": "40)",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 719,
+                        "end": 723,
+                        "text": "(28)",
+                        "ref_id": "BIBREF27"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "To identify potential mechanisms behind physiological resilience, we conducted a simulated bleaching experiment on A. hyacinthus from a previously characterized thermally tolerant coral population [highly variable (HV) pool] and a more sensitive neighboring population [moderately variable (MV) pool] (pools 300 and 400, respectively, from ref. 28) . Replicate fragments of A. hyacinthus were sampled from the two populations (n = 6 individuals from the HV pool and n = 5 individuals from the MV pool). Samples of each colony were exposed to control/ ambient (mean, 29.2\u00b0C) and heated (mean, 32.9\u00b0C) temperatures in outdoor, flow-through aquaria for 72 h. We used the RNA-Seq method [Illumina platform (41) ] to measure gene expression differences between heated corals and corals under normal conditions from both pools (see Materials and Methods for further details). To control for tank and transplant effects, our experiments compared gene expression profiles of heated corals to genetically identical fragments exposed to normal temperature conditions. Overall, we identified hundreds of transcripts that respond to heat stress; however, heat-tolerant and heat-sensitive corals showed different patterns of gene expression. In particular, 60 of the genes up-regulated in response to heat stress in the sensitive coral population show a reduced response and a higher constitutive level of expression in tolerant corals (i.e., they are already up-regulated under control conditions in tolerant corals). We hypothesize that this transcriptional \"frontloading\" of stress-related genes may be a primary mechanism of thermal tolerance of high temperatures in reef-building corals. The largest numbers of differentially expressed genes were found in the comparisons of control and heated treatments [484, 247, and 159 for all, MV, and HV samples, respectively; 5% false-discovery rate (FDR) correction; Fig. 2 ]. Among these three comparisons, 574 unique contigs were identified comprising 404 unique Uniprot matches (Table S1 ). These genes had an average fold change of 3.58 (range, 1.73-14.02) for up-regulated and \u22123.61 (range, \u22122.01 to \u221227.24) for down-regulated contigs (Dataset S1A).",
+                "cite_spans": [
+                    {
+                        "start": 345,
+                        "end": 348,
+                        "text": "28)",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 702,
+                        "end": 706,
+                        "text": "(41)",
+                        "ref_id": "BIBREF40"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 1901,
+                        "end": 1907,
+                        "text": "Fig. 2",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2015,
+                        "end": 2024,
+                        "text": "(Table S1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "There were 78 genes that responded identically to heat stress in the HV and MV groups: 59 were up-regulated and 19 downregulated ( Fig. 2) . However, the MV corals showed 55% more differentially expressed genes than the HV corals (247 vs. 159; Fig. 2 ). The most highly up-regulated of the 78 genes found in both the MV and HV control vs. heated comparisons was a tumor necrosis factor receptor-associated factor 3 homolog (TRAF3) (contig180146_147773; Dataset S1 B and C), which can play roles in apoptosis, negative regulation of NF-\u03baB/Nfkb1 transcription factor activity, and immune regulation (42, 43) . Another member of the tumor necrosis factor family (TNF receptor superfamily member 27; contig147815) was also significantly upregulated in heated corals (Dataset S1 A-C). Conspicuously absent in these shared-response genes are other common coral stress response transcripts such as Hsps, other molecular chaperones, and antioxidants.",
+                "cite_spans": [
+                    {
+                        "start": 597,
+                        "end": 601,
+                        "text": "(42,",
+                        "ref_id": "BIBREF41"
+                    },
+                    {
+                        "start": 602,
+                        "end": 605,
+                        "text": "43)",
+                        "ref_id": "BIBREF42"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 131,
+                        "end": 138,
+                        "text": "Fig. 2)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 244,
+                        "end": 250,
+                        "text": "Fig. 2",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "The most highly down-regulated gene in control-heated colony comparisons (27.2 fold reduction) was a mannose-binding lectin (contig600050; Dataset S1 A and C), with putative roles in positive immune regulation, positive regulation of nitric-oxide synthase activity, and positive regulation of nitric oxide synthase biosynthetic process.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Categorical classification of genes with altered expression during heat stress identified the highest number of genes relating to (i) the components of membranes (168 contigs), (ii) maintenance of calcium ion homeostasis (64 contigs), and (iii) involvement in transcription and DNA replication (61 and 54 contigs, respectively; Table S1 ). Cell-cell adhesion proteins (37 contigs) and genes involved in apoptosis and apoptosis regulation (24 contigs) were also numerous and showed mixed up-and downregulation responses. Four out of five genes associated with coral calcification were down-regulated under heat stress (Table S1 ). fold change, 12.15); Fig. 2 and Dataset S1E]. Three of these genes were shared with the set of 12 differentially expressed genes among control samples. HV heated corals remained significantly up-regulated in collagen and extracellular matrix proteins compared with MV heateds (Dataset S2E). By contrast, MV heateds up-regulated a number of cytochrome P450 family members, which are preliminarily annotated as iron or tetrapyrrole binding (Dataset S2E).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 328,
+                        "end": 336,
+                        "text": "Table S1",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 617,
+                        "end": 626,
+                        "text": "(Table S1",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 651,
+                        "end": 657,
+                        "text": "Fig. 2",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Population-Specific Response to Temperature. Thermally resilient (HV) corals showed strikingly different transcriptomic response to heat exposure than more sensitive (MV) corals in several important ways. In HV corals, 81 genes reacted significantly to heat stress but did not significantly change in the MV corals (Fig.  2 ). Further inspection of the data showed that in MV corals, these 81 genes exhibited similar mean fold changes across MV and HV groups (Fig. S3 ). However, 64 of these 81 (79%) genes did not pass our standard deviation filter in the MV comparison because of high intercolony variability in MV corals. Thus, most genes that responded significantly in HV corals also responded in a similar fashion in MV corals, although significance was precluded by more variable responses among individuals. By contrast, we found 169 genes that reacted to heat stress in MV corals but not in HV corals. All but one of these 169 genes showed the same direction of change in HV and MV corals. In most of these cases (87%), however, lack of significant change in HV corals is a result of a reduced magnitude of response (i.e., lower fold change) of these genes in HV corals, not higher variance; all 169 genes passed the SD filter in the HV analysis. This pattern (Fig. 3) was apparent for down-regulated contigs (30 out of 33 showed greater decrease in MV corals; \u03c7 2 test; P < 2.2e \u221216 ), as well as up-regulated contigs (117 out of 136 genes showed greater increase in MV corals; \u03c7 2 test; P < 2.6e \u22126 ).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 315,
+                        "end": 323,
+                        "text": "(Fig.  2",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 459,
+                        "end": 467,
+                        "text": "(Fig. S3",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 1269,
+                        "end": 1277,
+                        "text": "(Fig. 3)",
+                        "ref_id": "FIGREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Across all 117 genes with reduced up-regulation in HV corals, many showed higher expression in HV versus MV controls (60 of 117). Furthermore, reduced up-regulation in HV (measured as each gene's ratio of HV to MV fold change upon heat stress) is associated with higher constitutive expression in HV (measured as each gene's ratio of HV to MV control expression; Fig. 4 ). This relationship shows that genes reacting less during heat stress in HV corals may start off with a higher level of expression before heat stress. A similar pattern, although reversed, is true for down-regulated genes: most genes with reduced down-regulation in HV corals show lower expression levels of these genes in HV controls (21 of 30) . In other words, these data show that many up-regulated genes in the thermally sensitive MV corals are already expressed at higher levels in thermally tolerant HV corals and that many down-regulated genes are at lower constitutive levels (i.e., turned off under control conditions) in HV corals.",
+                "cite_spans": [
+                    {
+                        "start": 706,
+                        "end": 716,
+                        "text": "(21 of 30)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 363,
+                        "end": 369,
+                        "text": "Fig. 4",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Transcripts at higher constitutive expression under ambient conditions and lower reactivity to heat stress in HV corals include canonical heat stress genes such as Hsp70, TNF, peroxidasin, and zinc metalloproteases (Dataset S3). Genes with lower constitutive expression and lower response to heat stress in HV corals include a carbonic anhydrase, multiple lectins, and a suite of transcription factors (Dataset S3). These genes represent candidates potentially playing key roles in coral resilience to increased environmental temperatures.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Coral Analog to the Yeast ESR? Elevated temperature exposure elicited a significant change in gene expression profiles among corals ( Figs. 1 and 2) . Many of the differences we identified correspond to specific genes or functional categories reported previously to respond to thermal stress in corals, including Hsps, antioxidants/oxidative stress enzymes, cell-cell adhesion molecules, apoptosis regulators, and proteins involved in calcium ion homeostasis (Table S1 and Dataset S1; e.g., refs. 36, 37, and 44-46). These previous studies were conducted across a range of life stages, coral species, exposure conditions, and durations, suggesting that many aspects of the coral heat-stress response may be highly conserved.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 134,
+                        "end": 148,
+                        "text": "Figs. 1 and 2)",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 459,
+                        "end": 468,
+                        "text": "(Table S1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Conceptually, this multigene response in corals is similar to the genomic ESR in yeast (15) , wherein a broad suite of genes and molecular processes respond in a coordinated fashion to a multitude of exogenous stressors (47) . Thermal stress has received the most attention in corals, although substantial conservation in the pathways responding to stress has also been shown following darkness (48) and low pH (49) exposures. Although additional studies, standardization in technologies, and testing of various stress exposures are required to match the breadth of experimentation for model systems such as yeasts, evidence to date supports a potential coral analog to the yeast ESR.",
+                "cite_spans": [
+                    {
+                        "start": 87,
+                        "end": 91,
+                        "text": "(15)",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 220,
+                        "end": 224,
+                        "text": "(47)",
+                        "ref_id": "BIBREF46"
+                    },
+                    {
+                        "start": 395,
+                        "end": 399,
+                        "text": "(48)",
+                        "ref_id": "BIBREF47"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Reduced Reaction in Physiologically Resilient Corals. Although components of the coral stress response are conserved, PCA and differential gene expression analysis also revealed substantial differences between the tolerant and sensitive corals in their reaction to heat (Figs. 2-4 ) and in baseline expression under control conditions (Figs. 1 and 4 and Figs. S1 and S2). Many of the genes that respond differently to heat stress in our two populations show a striking pattern of consistently reduced response in corals from the more resilient HV population (Fig. 3) . Up-regulated genes are less up-regulated in 117 of 136 cases, whereas down-regulated genes are less down-regulated in 30 of 33 cases (Fig. 3) .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 270,
+                        "end": 280,
+                        "text": "(Figs. 2-4",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 335,
+                        "end": 349,
+                        "text": "(Figs. 1 and 4",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 558,
+                        "end": 566,
+                        "text": "(Fig. 3)",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 702,
+                        "end": 710,
+                        "text": "(Fig. 3)",
+                        "ref_id": "FIGREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "A reduced heat stress reaction in the more tolerant coral population may result from two potential gene regulatory phenomena. First, some of these genes could have reduced reaction because they begin at a higher constitutive level in resilient corals under control conditions. These \"frontloaded\" genes may confer resilience through faster reaction at the protein level during Alternatively, a reduced response may be a result of resilience, rather than a cause. The more heat-tolerant HV corals may have experienced lower levels of physiological stress during our experiment and, therefore, may exhibit smaller expression changes in these \"stress-indicator\" genes as a result. We present these categories of frontloaded and stress-indicator genes as a useful conceptual framework from which to explore the potential mechanisms that may distinguish reactions among stress tolerant and stress sensitive populations.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Frontloaded Genes. We find 60 genes that are potentially frontloaded in heat-tolerant corals (Fig. 4 , Upper Left, light shading). One well-known gene in this frontloaded subset is Hsp70 (con-tig81180 matches Hsp70/HSPA5; Dataset S3A). Much of the early work on gene expression and environmental tolerances focused on relative levels of Hsp expression (see refs. 50 and 51 for reviews). Hsp70 often has higher constitutive gene expression levels in more thermally tolerant populations or populations from more thermally extreme habitats, as has been shown in a diversity of metazoan taxa including crustaceans, insects, echinoderms, and molluscs (e.g., refs. 32-34 and 52). Our expression results broaden the scope of this phenomenon beyond Hsps and suggest that a number of genes in the more physiologically resilient HV corals follow a similar pattern of frontloading.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 93,
+                        "end": 100,
+                        "text": "(Fig. 4",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Beyond the Hsps, a set of genes involved in cell death signaling and/or immunity also shows a clear pattern of frontloading. Seven of the 12 most strongly frontloaded genes (>70% higher expression in HV vs. MV controls) fall in these categories, including a TNF receptor, two hemicentins in the immunoglobin superfamily, a serine protease precursor (plasminogen), a serine/threonine protein kinase, and two zinc metalloproteinases (Dataset S3A). These genes may play a role in shifting the set points at which apoptosis or immune system activation occur in the presence of environmental stress and change the way coral cells commit to apoptosis, immune response, or cell repair (53) .",
+                "cite_spans": [
+                    {
+                        "start": 678,
+                        "end": 682,
+                        "text": "(53)",
+                        "ref_id": "BIBREF52"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "A different sort of frontloading may occur among down-regulated genes. We find that a majority (21 of 30; 70%; Dataset S3B) of the down-regulated, reduced reaction genes exhibit lower constitutive expression in HV than MV controls. The role of reduced expression of these genes in thermal resilience is unclear but reduced expression of some of these genes [e.g., transcription factors HES1, SP5 (54) ] could have direct effects on expression of other coral genes.",
+                "cite_spans": [
+                    {
+                        "start": 396,
+                        "end": 400,
+                        "text": "(54)",
+                        "ref_id": "BIBREF53"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Mild stress exposures are known to elicit subsequent increases in stress tolerance in a broad suite of organisms [e.g., humans (55) , plants (56) , bacteria (57) , fungi (58) , corals (59) , fish (60) ]. In yeast, such acquired stress resistance is strongest when the mild or primary stress is the same as the more severe or secondary stress [e.g., mild heat stress, followed by severe heat shock (58) ]. In intertidal sculpins, fish survived an osmotic or hypoxic shock better if they had had pre-exposure to a moderate heat stress 8-48 h prior (60) . These examples are analogous to the increased stress tolerance seen in HV corals, except that in our case, the acquired stress resistance appears to be a result of natural exposure to the extremes of temperature, flow, pH, or other conditions in the HV pool (26, 28, 38) , rather than exposure to a single mild primary stress in the laboratory.",
+                "cite_spans": [
+                    {
+                        "start": 127,
+                        "end": 131,
+                        "text": "(55)",
+                        "ref_id": "BIBREF54"
+                    },
+                    {
+                        "start": 141,
+                        "end": 145,
+                        "text": "(56)",
+                        "ref_id": "BIBREF55"
+                    },
+                    {
+                        "start": 157,
+                        "end": 161,
+                        "text": "(57)",
+                        "ref_id": "BIBREF56"
+                    },
+                    {
+                        "start": 170,
+                        "end": 174,
+                        "text": "(58)",
+                        "ref_id": "BIBREF57"
+                    },
+                    {
+                        "start": 184,
+                        "end": 188,
+                        "text": "(59)",
+                        "ref_id": "BIBREF58"
+                    },
+                    {
+                        "start": 196,
+                        "end": 200,
+                        "text": "(60)",
+                        "ref_id": "BIBREF59"
+                    },
+                    {
+                        "start": 397,
+                        "end": 401,
+                        "text": "(58)",
+                        "ref_id": "BIBREF57"
+                    },
+                    {
+                        "start": 546,
+                        "end": 550,
+                        "text": "(60)",
+                        "ref_id": "BIBREF59"
+                    },
+                    {
+                        "start": 811,
+                        "end": 815,
+                        "text": "(26,",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 816,
+                        "end": 819,
+                        "text": "28,",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 820,
+                        "end": 823,
+                        "text": "38)",
+                        "ref_id": "BIBREF37"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Yeast cells that had acquired stress resistance showed smaller changes in gene expression across a large subset of ESR genes in subsequent stress treatments (58) . Similarly, the genes that show a reduced reaction to heat stress in the tolerant corals are comprised of many genes and molecular pathways previously shown to change in expression during heat stress exposure (35) (36) (37) (44) (45) (46) . However, our analysis goes a step further to reveal that many of these genes are frontloaded under control conditions in HV corals, suggesting that constitutive transcriptional activity may be altered by natural environmental exposures in the more tolerant population. Additional research into the temporal nature of the frontloading response, as well as the direct role of exposure to environmental variability in acquired stress tolerance in corals, could provide further insight into the mechanistic link between frontloading and the enhanced resilience of the HV coral population.",
+                "cite_spans": [
+                    {
+                        "start": 157,
+                        "end": 161,
+                        "text": "(58)",
+                        "ref_id": "BIBREF57"
+                    },
+                    {
+                        "start": 372,
+                        "end": 376,
+                        "text": "(35)",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 377,
+                        "end": 381,
+                        "text": "(36)",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 382,
+                        "end": 386,
+                        "text": "(37)",
+                        "ref_id": "BIBREF36"
+                    },
+                    {
+                        "start": 387,
+                        "end": 391,
+                        "text": "(44)",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 392,
+                        "end": 396,
+                        "text": "(45)",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 397,
+                        "end": 401,
+                        "text": "(46)",
+                        "ref_id": "BIBREF45"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Linked Cell Death and Immune Response. Included among the frontloaded genes are the TNF receptors (TNFRs). Members of this gene family, along with the similar TNF receptor-associated factors (TRAFs) also show significantly increased expression under heat stress in all comparisons (Datasets S1 A-C and S3). The TNFRs and TRAFs are important regulators of the apoptosis cascade because they initiate signal transduction pathways that can result in caspase activation and apoptosis (e.g., ref. 43) . Several recent studies have focused on the role of apoptosis regulation in coral bleaching and differential bleaching tolerance (30, 53) . Additionally, four other frontloaded genes have functional annotations as oncogenes or protooncogenes (e.g., oncoprotein induced transcript 3, RET protooncogene; Dataset S3). Although implicated in a diversity of functions such as uric acid reabsorption and extracellular signaling, each of these can play an important role in regulating apoptosis/cell death (61, 62) .",
+                "cite_spans": [
+                    {
+                        "start": 492,
+                        "end": 495,
+                        "text": "43)",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 626,
+                        "end": 630,
+                        "text": "(30,",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 631,
+                        "end": 634,
+                        "text": "53)",
+                        "ref_id": "BIBREF52"
+                    },
+                    {
+                        "start": 996,
+                        "end": 1000,
+                        "text": "(61,",
+                        "ref_id": "BIBREF60"
+                    },
+                    {
+                        "start": 1001,
+                        "end": 1004,
+                        "text": "62)",
+                        "ref_id": "BIBREF61"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "However, the role of the TNFRs and TRAFs goes beyond apoptosis in other organisms and their reaction to heat stress and frontloading may signify a very different cellular cascade. These genes are also involved in the regulation of the immune system through activation of nuclear factor-\u03baB (NF-\u03baB/Nfkb1) and c-Jun N-terminal kinase (JNK/MAPK8) (43) . Thus, the differential expression of these genes, combined with the implication of apoptosis regulation in enhanced coral stress tolerance and the role of innate immunity in coral disease resistance (e.g., ref. 63), makes this particular protein family a prime candidate for Fig. 4 . Scatterplot comparing the relative ratio of heat-to-control fold changes in expression between HV and MV corals (on the x axis) to the HV to MV control expression ratio (on the y axis) across the 135 up-regulated genes unique to the MV comparison set to examine whether HV controls show higher constitutive expression (points that are >1 on y axis) relative to MV controls for those genes with reduced response to heat stress in HV corals (points that are <1 on x axis). The lighter and darker portions of the graph represent the genes that are potentially frontloaded or stress indicators in expression, respectively. The trend line was calculated using a logarithmic regression, and associated R 2 and P values are shown in the plot. involvement in multiple pathways related to coral health and stress tolerance.",
+                "cite_spans": [
+                    {
+                        "start": 343,
+                        "end": 347,
+                        "text": "(43)",
+                        "ref_id": "BIBREF42"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 625,
+                        "end": 631,
+                        "text": "Fig. 4",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Stress-Indicator Genes. The second category of genes that respond less to heat stress in HV corals may contain those that are less up-or down-regulated because of lower levels of intracellular stress in more heat-tolerant colonies. In yeast, reduced transcription during secondary stress was partly attributed to the increased availability of stress-reducing proteins generated during a primary stress (58) . In our dataset, these genes would show equal or lower expression in HV controls compared with MV controls and reduced reaction (i.e., lower fold change) during heat stress in tolerant corals (Fig. 4 , Lower Left, dark shading). Approximately 39% (57 up-regulated and 9 down-regulated) of the 169 reduced-reaction genes fall into this category. These include two genes with blast matches to small Hsps (contig214198 and contig182527 matching Hsp23/HSPB1 and Hsp16.2, respectively), one gene with a match to the cell-cell adhesion protein Sushi, von Willebrand factor (CSMD1; contig77844), and one gene with a match to the antioxidant Cu-Zn superoxide dismutase (Cu-Zn SOD) (contig212121_178489; Dataset S3). Cu-Zn SOD is involved in reducing damage from oxygen radicals thought to be produced by heat-stressed symbionts (64) , and the reduced expression changes in this case may signify less need for this process in tolerant corals.",
+                "cite_spans": [
+                    {
+                        "start": 402,
+                        "end": 406,
+                        "text": "(58)",
+                        "ref_id": "BIBREF57"
+                    },
+                    {
+                        "start": 1228,
+                        "end": 1232,
+                        "text": "(64)",
+                        "ref_id": "BIBREF63"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 600,
+                        "end": 607,
+                        "text": "(Fig. 4",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Symbiodinium and Stress. An additional layer of complexity in the coral stress response is the contribution of different Symbiodinium types to coral stress resistance. In particular, association with Symbiodinium clade D leads to reduced levels of bleaching and greater maintenance of photosynthetic efficiency during heat stress in multiple species including A. hyacinthus (28, 65) . However, the molecular linkages between clade D and enhanced coral tolerance limits are almost completely unknown. In our experiments, all corals from the more thermally tolerant HV population hosted >94% clade D ( Fig. S4 and SI Materials and Methods), whereas MV corals were largely clade C (only two of five individuals hosting 19% and 23% clade D in control fragments; Fig. S4 ). Thus, the expression patterns observed here potentially represent insight into the machinery behind Symbiodinium influence on differential coral thermal tolerance limits.",
+                "cite_spans": [
+                    {
+                        "start": 374,
+                        "end": 378,
+                        "text": "(28,",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 379,
+                        "end": 382,
+                        "text": "65)",
+                        "ref_id": "BIBREF64"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 600,
+                        "end": 607,
+                        "text": "Fig. S4",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 758,
+                        "end": 765,
+                        "text": "Fig. S4",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Prior research has shown only a subtle effect of Symbiodinium genotype on coral gene expression patterns (66) . The mixed corals (76-81% clade C and 19-23% clade D; Fig. S4 ) in our dataset show slightly different position in PCAs (Fig. 1B and  Fig. S1 ), but they are not intermediate between the two groups. Along principal component axis 2, the major axis distinguishing MV and HV corals, mixed corals are more distant from corals with clade D Symbiodinium than are corals with predominantly clade C (Fig. 1B) . These data suggest that corals with different Symbiodinium types might express stress genes slightly differently but that the major transcription differences in MV and HV corals may not be attributable to symbiont-type. However, this trend is not conclusive and future studies might focus on clades C and D in a common garden or common host (sensu ref. 67) to fully characterize the potential linkages between Symbiodinium type, host gene expression patterns, and enhanced coral bleaching resilience.",
+                "cite_spans": [
+                    {
+                        "start": 105,
+                        "end": 109,
+                        "text": "(66)",
+                        "ref_id": "BIBREF65"
+                    },
+                    {
+                        "start": 868,
+                        "end": 871,
+                        "text": "67)",
+                        "ref_id": "BIBREF66"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 165,
+                        "end": 172,
+                        "text": "Fig. S4",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 231,
+                        "end": 252,
+                        "text": "(Fig. 1B and  Fig. S1",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 503,
+                        "end": 512,
+                        "text": "(Fig. 1B)",
+                        "ref_id": "FIGREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Corals respond to their environment in a complex fashion, as befits a long-lived organism with little isolation between external physical and internal cellular environments. Our transcriptome data focus on conspecific corals with differing degrees of bleaching resilience and suggest that, in addition to the large number of genes involved in acute heat stress, coral resilience may involve the constitutive, frontloaded expression of several genes that are important in the reaction to environmental stress. Other genes that are different between resilient and sensitive corals may be stress indicators and reflect lower states of physiological stress in corals with cellular mechanics tuned for high temperatures. These concepts parallel emerging data from model systems, and yet represent further insight into what genomic mechanisms may be responsible for naturally occurring elevated resilience in organisms that are consistently exposed to variable environmental conditions. Additional research will be required to elucidate which frontloaded genes are absolutely required for enhanced thermotolerance, what long-term costs frontloading may have, and whether this phenomenon is acclimatory or adaptive.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Conclusions",
+                "sec_num": null
+            },
+            {
+                "text": "Our division of genes into frontloaded and stress-indicator categories represents a mechanistic hypothesis about the way corals respond to temperature, which might serve to explain other differences in coral bleaching thresholds such as latitudinal variation (18) . Such mechanistic information about the links between climate and coral health is critical for predicting future impacts of global climate change.",
+                "cite_spans": [
+                    {
+                        "start": 259,
+                        "end": 263,
+                        "text": "(18)",
+                        "ref_id": "BIBREF17"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Conclusions",
+                "sec_num": null
+            },
+            {
+                "text": "Sample Collection and Stress Exposure. Small branchlets (\u223c2 cm 3 ) of A. hyacinthus were collected from 16 different coral colonies from two back reef pools on the south side of Ofu Island, American Samoa (14\u00b011\u2032S, 169\u00b036\u2032W). Ten colonies of A. hyacinthus were sampled from a larger MV pool, and six colonies were sampled from a smaller HV pool (pools 400 and 300, respectively; for temperature profiles, see ref. 28) . Replicate samples (n = 2) of the same colony were randomly placed in one of two experimental tanks per condition. The ambient/control condition ranged from 26.8-34.5\u00b0C (mean = 29.2\u00b0C, n = 2 tanks), whereas the heat stress condition was elevated by \u223c2.7\u00b0C over ambient conditions (27-37.6\u00b0C ; mean, 31.9\u00b0C; n = 2 tanks). Coral health was monitored every 6-12 h, and samples were taken at 1200 hours after 72 h of exposure to the experimental conditions. The 72-h time point was chosen based on our previous study: a 72-h exposure to elevated temperatures induced initial mortality in the MV samples, whereas HV samples remained alive and appeared resilient (figure 5 from ref. 28 ). All samples were preserved in RNAlater (Life Technologies) and stored at \u221280\u00b0C until subsequent analysis.",
+                "cite_spans": [
+                    {
+                        "start": 414,
+                        "end": 417,
+                        "text": "28)",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 699,
+                        "end": 709,
+                        "text": "(27-37.6\u00b0C",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1096,
+                        "end": 1098,
+                        "text": "28",
+                        "ref_id": "BIBREF27"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Materials and Methods",
+                "sec_num": null
+            },
+            {
+                "text": "RNA Isolation and mRNA Sequencing. Total RNA was extracted from each sample using a modified TRIzol (GibcoBRL/Invitrogen) protocol (SI Materials and Methods). A total of 31 libraries were constructed and sequenced using the Illumina Genome Analyzer II (Illumina) at three different sequencing facilities (for full details, see SI Materials and Methods). One of the elevated temperature samples from the HV pool (colony 3) was not sequenced because of poor RNA extraction. The reference transcriptome [33,496 contigs; National Center for Biotechnology Information (NCBI) Transcriptome Shotgun Assembly database under BioProject PRJNA177515 and the Dryad data repository (dx.doi.org/10.5061/dryad.bc0v0)] was generated using CLC Genomics Workbench (Version 4; CLC Bio) incorporating all high-quality reads (Table S2; for full details, see SI Materials and Methods).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 804,
+                        "end": 814,
+                        "text": "(Table S2;",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Materials and Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Illumina lanes were aligned to the reference transcriptome (Table S2 and SI Materials and Methods). After quality check (SI Materials and Methods), a total of 11 lanes (6 control and 5 heated; n = 6 individuals) from the HV population and 9 lanes (5 control and 4 heated; n = 5 individuals) from the MV population were used for gene expression analyses. Read counts were analyzed using the package DESeq (68) in the statistical environment R (www.CRAN.R-project.org). Low-expression (average normalized expression, <5) contiguous sequences (i.e., \"contigs\") were excluded from analyses to avoid potential artifact caused by assembly and/or sequencing errors, and high-interindividual variability contigs (within group mean, <1 SD) were also excluded, so that statistical comparisons would not be overly influenced by outlier individuals. The FDR was controlled at 5% according to the method of Benjamini and Hochberg (ref. 69 ; p.adjust in R). A total of six pairwise comparisons were performed on the dataset to investigate differences in gene expression patterns in response to temperature and based on locations: (i) all controls vs. all heateds; (ii) all HV vs. all MV corals; (iii) HV controls vs. HV heateds; (iv) MV controls vs. MV heateds; (v) HV controls vs. MV controls; and (vi) HV heateds vs. MV heateds.",
+                "cite_spans": [
+                    {
+                        "start": 923,
+                        "end": 925,
+                        "text": "69",
+                        "ref_id": "BIBREF68"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 59,
+                        "end": 68,
+                        "text": "(Table S2",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Gene Expression Analysis. A total of 31 libraries representing 35 individual",
+                "sec_num": null
+            },
+            {
+                "text": "ACKNOWLEDGMENTS. We thank P. Craig, T. Clark, C. Caruso, and the rest of the staff at the National Park of American Samoa for access to field sites and logistical help; T. Waterson and C.S. McKeon for valuable field assistance;",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Gene Expression Analysis. A total of 31 libraries representing 35 individual",
+                "sec_num": null
+            },
+            {
+                "text": "| www.pnas.org/cgi/doi/10.1073/pnas.1210224110 Barshis et al. Downloaded by guest on August 25, 2021",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Downloaded by guest on August 25, 2021",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "| www.pnas.org/cgi/doi/10.1073/pnas.1210224110 Barshis et al.Downloaded by guest on August 25, 2021",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "HV to MV foldChange ratio HV to MV control ratioand two anonymous reviewers and the editor for providing comments that improved the manuscript. This work was supported by Conservation International, BioX Stanford, the Schmidt Ocean Institute, and the Gordon and Betty Moore Foundation.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "annex",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "Controlling gene expression in response to stress",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "De Nadal",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Ammerer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Posas",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Nat Rev Genet",
+                "volume": "12",
+                "issue": "12",
+                "pages": "833--845",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "de Nadal E, Ammerer G, Posas F (2011) Controlling gene expression in response to stress. Nat Rev Genet 12(12):833-845.",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "The molecular basis of dehydration tolerance in plants",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Ingram",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Bartels",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1996,
+                "venue": "Annu Rev Plant Physiol Plant Mol Biol",
+                "volume": "47",
+                "issue": "",
+                "pages": "377--403",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ingram J, Bartels D (1996) The molecular basis of dehydration tolerance in plants. Annu Rev Plant Physiol Plant Mol Biol 47:377-403.",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "Thermal physiology and vertical zonation of intertidal animals: Optima, limits, and costs of living",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "N"
+                        ],
+                        "last": "Somero",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Integr Comp Biol",
+                "volume": "42",
+                "issue": "4",
+                "pages": "780--789",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Somero GN (2002) Thermal physiology and vertical zonation of intertidal animals: Optima, limits, and costs of living. Integr Comp Biol 42(4):780-789.",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "Biochemical Adaptation: Mechanism and Process in Physiological Evolution",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Hochachka",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "N"
+                        ],
+                        "last": "Somero",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hochachka PW, Somero GN (2002) Biochemical Adaptation: Mechanism and Process in Physiological Evolution (Oxford Univ. Press, New York).",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Evolution of resistance to high-temperatures in ectotherms",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Huey",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Kingsolver",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "Am Nat",
+                "volume": "142",
+                "issue": "",
+                "pages": "21--46",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Huey RB, Kingsolver JG (1993) Evolution of resistance to high-temperatures in ecto- therms. Am Nat 142(Suppl):S21-S46.",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "Environments and evolution: Interactions between stress, resource inadequacy and energetic efficiency",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Parsons",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Biol Rev Camb Philos Soc",
+                "volume": "80",
+                "issue": "4",
+                "pages": "589--610",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Parsons PA (2005) Environments and evolution: Interactions between stress, resource inadequacy and energetic efficiency. Biol Rev Camb Philos Soc 80(4):589-610.",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "Evolution of genome-phenome diversity under environmental stress",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Nevo",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Proc Natl Acad Sci",
+                "volume": "98",
+                "issue": "11",
+                "pages": "6233--6240",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Nevo E (2001) Evolution of genome-phenome diversity under environmental stress. Proc Natl Acad Sci USA 98(11):6233-6240.",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "Temperature ecotypes in seaweeds -adaptive significance and biogeographic implications",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Breeman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Pakker",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Bot Mar",
+                "volume": "37",
+                "issue": "3",
+                "pages": "171--180",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Breeman AM, Pakker H (1994) Temperature ecotypes in seaweeds -adaptive signifi- cance and biogeographic implications. Bot Mar 37(3):171-180.",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "Evolutionary and acclimation-induced variation in the heat-shock responses of congeneric marine snails (genus Tegula) from different thermal habitats: Implications for limits of thermotolerance and biogeography",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Tomanek",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "N"
+                        ],
+                        "last": "Somero",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "J Exp Biol",
+                "volume": "202",
+                "issue": "",
+                "pages": "2925--2936",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Tomanek L, Somero GN (1999) Evolutionary and acclimation-induced variation in the heat-shock responses of congeneric marine snails (genus Tegula) from different thermal habitats: Implications for limits of thermotolerance and biogeography. J Exp Biol 202(Pt 21):2925-2936.",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "The physiology of global change: Linking patterns to mechanisms",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "N"
+                        ],
+                        "last": "Somero",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Ann Rev Mar Sci",
+                "volume": "4",
+                "issue": "",
+                "pages": "39--61",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Somero GN (2012) The physiology of global change: Linking patterns to mechanisms. Ann Rev Mar Sci 4:39-61.",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "The physiology of climate change: How potentials for acclimatization and genetic adaptation will determine 'winners' and 'losers",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "N"
+                        ],
+                        "last": "Somero",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "J Exp Biol",
+                "volume": "213",
+                "issue": "6",
+                "pages": "912--920",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Somero GN (2010) The physiology of climate change: How potentials for acclimati- zation and genetic adaptation will determine 'winners' and 'losers' J Exp Biol 213(6): 912-920.",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "Climate change impacts on marine ecosystems",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Doney",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Annu Rev Mar Sci",
+                "volume": "4",
+                "issue": "",
+                "pages": "11--37",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Doney SC, et al. (2012) Climate change impacts on marine ecosystems. Annu Rev Mar Sci 4:11-37.",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "Ecological responses to recent climate change",
+                "authors": [
+                    {
+                        "first": "G-R",
+                        "middle": [],
+                        "last": "Walther",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Nature",
+                "volume": "416",
+                "issue": "6879",
+                "pages": "389--395",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Walther G-R, et al. (2002) Ecological responses to recent climate change. Nature 416(6879):389-395.",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "Molecular ecology of global change",
+                "authors": [
+                    {
+                        "first": "Tbh",
+                        "middle": [],
+                        "last": "Reusch",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Wood",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Mol Ecol",
+                "volume": "16",
+                "issue": "19",
+                "pages": "3973--3992",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Reusch TBH, Wood TE (2007) Molecular ecology of global change. Mol Ecol 16(19): 3973-3992.",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "Genomic expression programs in the response of yeast cells to environmental changes",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Gasch",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Mol Biol Cell",
+                "volume": "11",
+                "issue": "12",
+                "pages": "4241--4257",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Gasch AP, et al. (2000) Genomic expression programs in the response of yeast cells to environmental changes. Mol Biol Cell 11(12):4241-4257.",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Cell biology of cnidarian-dinoflagellate symbiosis",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Davy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Allemand",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Weis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Microbiol Mol Biol Rev",
+                "volume": "76",
+                "issue": "2",
+                "pages": "229--261",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Davy SK, Allemand D, Weis VM (2012) Cell biology of cnidarian-dinoflagellate sym- biosis. Microbiol Mol Biol Rev 76(2):229-261.",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Climate change, coral bleaching and the future of the world's coral reefs",
+                "authors": [
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Hoegh-Guldberg",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "Mar Freshw Res",
+                "volume": "50",
+                "issue": "8",
+                "pages": "839--866",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hoegh-Guldberg O (1999) Climate change, coral bleaching and the future of the world's coral reefs. Mar Freshw Res 50(8):839-866.",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "Response of Hawaiian and other Indo-Pacific reef corals to elevated temperature",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Jokiel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Coles",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1990,
+                "venue": "Coral Reefs",
+                "volume": "8",
+                "issue": "4",
+                "pages": "155--162",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jokiel PL, Coles SL (1990) Response of Hawaiian and other Indo-Pacific reef corals to elevated temperature. Coral Reefs 8(4):155-162.",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "Coral reefs under rapid climate change and ocean acidification",
+                "authors": [
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Hoegh-Guldberg",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Science",
+                "volume": "318",
+                "issue": "5857",
+                "pages": "1737--1742",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hoegh-Guldberg O, et al. (2007) Coral reefs under rapid climate change and ocean acidification. Science 318(5857):1737-1742.",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "Climate change, human impacts, and the resilience of coral reefs",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Hughes",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Science",
+                "volume": "301",
+                "issue": "5635",
+                "pages": "929--933",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hughes TP, et al. (2003) Climate change, human impacts, and the resilience of coral reefs. Science 301(5635):929-933.",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "Projecting coral reef futures under global warming and ocean acidification",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Pandolfi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Connolly",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Marshall",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Cohen",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Science",
+                "volume": "333",
+                "issue": "6041",
+                "pages": "418--422",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pandolfi JM, Connolly SR, Marshall DJ, Cohen AL (2011) Projecting coral reef futures under global warming and ocean acidification. Science 333(6041):418-422.",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "Coral reef bleaching: Ecological perspectives",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Glynn",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "Coral Reefs",
+                "volume": "12",
+                "issue": "1",
+                "pages": "1--17",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Glynn PW (1993) Coral reef bleaching: Ecological perspectives. Coral Reefs 12(1):1-17.",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "Bleaching of corals on the Great Barrier Reef: Differential susceptibilities among taxa",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Marshall",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Baird",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Coral Reefs",
+                "volume": "19",
+                "issue": "2",
+                "pages": "155--163",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Marshall PA, Baird AH (2000) Bleaching of corals on the Great Barrier Reef: Differ- ential susceptibilities among taxa. Coral Reefs 19(2):155-163.",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "Resistance and resilience to coral bleaching: Implications for coral reef conservation and management",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "West",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Salm",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Conserv Biol",
+                "volume": "17",
+                "issue": "4",
+                "pages": "956--967",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "West JM, Salm RV (2003) Resistance and resilience to coral bleaching: Implications for coral reef conservation and management. Conserv Biol 17(4):956-967.",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "Reef corals occurring in a highly fluctuating temperature environment at Fahal Island, Gulf of Oman (Indian Ocean)",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Coles",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Coral Reefs",
+                "volume": "16",
+                "issue": "4",
+                "pages": "269--272",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Coles S (1997) Reef corals occurring in a highly fluctuating temperature environment at Fahal Island, Gulf of Oman (Indian Ocean). Coral Reefs 16(4):269-272.",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "High temperatures tolerated by a diverse assemblage of shallow-water corals in American Samoa",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Craig",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Birkeland",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Belliveau",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Coral Reefs",
+                "volume": "20",
+                "issue": "2",
+                "pages": "185--189",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Craig P, Birkeland C, Belliveau S (2001) High temperatures tolerated by a diverse assemblage of shallow-water corals in American Samoa. Coral Reefs 20(2):185-189.",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "Many corals host thermally resistant symbionts in hightemperature habitat",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Oliver",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Palumbi",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Coral Reefs",
+                "volume": "30",
+                "issue": "1",
+                "pages": "241--250",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Oliver TA, Palumbi SR (2011) Many corals host thermally resistant symbionts in high- temperature habitat. Coral Reefs 30(1):241-250.",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "Do fluctuating temperature environments elevate coral thermal tolerance?",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Oliver",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Palumbi",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Coral Reefs",
+                "volume": "30",
+                "issue": "2",
+                "pages": "429--440",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Oliver TA, Palumbi SR (2011) Do fluctuating temperature environments elevate coral thermal tolerance? Coral Reefs 30(2):429-440.",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "Ecosystems in action: Lessons from marine ecology about recovery, resistance, and reversibility",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Palumbi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Mcleod",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Grunbaum",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Bioscience",
+                "volume": "58",
+                "issue": "1",
+                "pages": "33--42",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Palumbi SR, McLeod K, Grunbaum D (2008) Ecosystems in action: Lessons from marine ecology about recovery, resistance, and reversibility. Bioscience 58(1):33-42.",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "Apoptosis and the selective survival of host animals following thermal bleaching in zooxanthellate corals",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Tchernov",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Proc Natl Acad Sci",
+                "volume": "108",
+                "issue": "24",
+                "pages": "9905--9909",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Tchernov D, et al. (2011) Apoptosis and the selective survival of host animals fol- lowing thermal bleaching in zooxanthellate corals. Proc Natl Acad Sci USA 108(24): 9905-9909.",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "Physiological response of the blue mussel Mytilus edulis to differences in food and temperature in the Gulf of Maine",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Lesser",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Bailey",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Merselis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Morrison",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Comp Biochem Physiol A Mol Integr Physiol",
+                "volume": "156",
+                "issue": "4",
+                "pages": "541--551",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lesser MP, Bailey MA, Merselis DG, Morrison JR (2010) Physiological response of the blue mussel Mytilus edulis to differences in food and temperature in the Gulf of Maine. Comp Biochem Physiol A Mol Integr Physiol 156(4):541-551.",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "Sub-littoral and supra-littoral amphipods respond differently to acute thermal stress",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Bedulina",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Zimmer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Timofeyev",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Comp Biochem Physiol B Biochem Mol Biol",
+                "volume": "155",
+                "issue": "4",
+                "pages": "413--418",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bedulina DS, Zimmer M, Timofeyev MA (2010) Sub-littoral and supra-littoral amphi- pods respond differently to acute thermal stress. Comp Biochem Physiol B Biochem Mol Biol 155(4):413-418.",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "Difference in thermotolerance between green and red color variants of the Japanese sea cucumber, Apostichopus japonicus Selenka: Hsp70 and heat-hardening effect",
+                "authors": [
+                    {
+                        "first": "Y",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Dong",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Ji",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "X",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Meng",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Dong",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Sun",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Biol Bull",
+                "volume": "218",
+                "issue": "1",
+                "pages": "87--94",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Dong YW, Ji TT, Meng XL, Dong SL, Sun WM (2010) Difference in thermotolerance between green and red color variants of the Japanese sea cucumber, Apostichopus japonicus Selenka: Hsp70 and heat-hardening effect. Biol Bull 218(1):87-94.",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "Heat-shock protein 70 (Hsp70) expression in four limpets of the genus Lottia: Interspecific variation in constitutive and inducible synthesis correlates with in situ exposure to heat stress",
+                "authors": [
+                    {
+                        "first": "Y",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Dong",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Miller",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Sanders",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "N"
+                        ],
+                        "last": "Somero",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Biol Bull",
+                "volume": "215",
+                "issue": "2",
+                "pages": "173--181",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Dong YW, Miller LP, Sanders JG, Somero GN (2008) Heat-shock protein 70 (Hsp70) expression in four limpets of the genus Lottia: Interspecific variation in constitutive and inducible synthesis correlates with in situ exposure to heat stress. Biol Bull 215(2): 173-181.",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "Transcriptomic responses to heat stress and bleaching in the elkhorn coral Acropora palmata",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Desalvo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Sunagawa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Voolstra",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Medina",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Mar Ecol Prog Ser",
+                "volume": "402",
+                "issue": "",
+                "pages": "97--113",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "DeSalvo MK, Sunagawa S, Voolstra CR, Medina M (2010) Transcriptomic responses to heat stress and bleaching in the elkhorn coral Acropora palmata. Mar Ecol Prog Ser 402:97-113.",
+                "links": null
+            },
+            "BIBREF35": {
+                "ref_id": "b35",
+                "title": "Profiling gene expression responses of coral larvae (Acropora millepora) to elevated temperature and settlement inducers using a novel RNA-Seq procedure",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Meyer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Aglyamova",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Matz",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Mol Ecol",
+                "volume": "20",
+                "issue": "17",
+                "pages": "3599--3616",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Meyer E, Aglyamova GV, Matz MV (2011) Profiling gene expression responses of coral larvae (Acropora millepora) to elevated temperature and settlement inducers using a novel RNA-Seq procedure. Mol Ecol 20(17):3599-3616.",
+                "links": null
+            },
+            "BIBREF36": {
+                "ref_id": "b36",
+                "title": "Differential gene expression during thermal stress and bleaching in the Caribbean coral Montastraea faveolata",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Desalvo",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Mol Ecol",
+                "volume": "17",
+                "issue": "17",
+                "pages": "3952--3971",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "DeSalvo MK, et al. (2008) Differential gene expression during thermal stress and bleaching in the Caribbean coral Montastraea faveolata. Mol Ecol 17(17):3952-3971.",
+                "links": null
+            },
+            "BIBREF37": {
+                "ref_id": "b37",
+                "title": "Environmental versus Genetic Influences on Growth Rates of the Corals Pocillopora eydouxi and Porites lobata (Anthozoa: Scleractinia)",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Smith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Wirshing",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Baker",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Birkeland",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Pac Sci",
+                "volume": "62",
+                "issue": "1",
+                "pages": "57--69",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Smith LW, Wirshing H, Baker AC, Birkeland C (2008) Environmental versus Genetic Influences on Growth Rates of the Corals Pocillopora eydouxi and Porites lobata (Anthozoa: Scleractinia). Pac Sci 62(1):57-69.",
+                "links": null
+            },
+            "BIBREF38": {
+                "ref_id": "b38",
+                "title": "Protein expression and genetic structure of the coral Porites lobata in an environmentally extreme Samoan back reef: Does host genotype limit phenotypic plasticity?",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Barshis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Mol Ecol",
+                "volume": "19",
+                "issue": "8",
+                "pages": "1705--1720",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Barshis DJ, et al. (2010) Protein expression and genetic structure of the coral Porites lobata in an environmentally extreme Samoan back reef: Does host genotype limit phenotypic plasticity? Mol Ecol 19(8):1705-1720.",
+                "links": null
+            },
+            "BIBREF39": {
+                "ref_id": "b39",
+                "title": "Phenotypic plasticity for skeletal growth, density and calcification of Porites lobata in response to habitat type",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Smith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Barshis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Birkeland",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Coral Reefs",
+                "volume": "26",
+                "issue": "3",
+                "pages": "559--567",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Smith LW, Barshis DJ, Birkeland C (2007) Phenotypic plasticity for skeletal growth, density and calcification of Porites lobata in response to habitat type. Coral Reefs 26(3):559-567.",
+                "links": null
+            },
+            "BIBREF40": {
+                "ref_id": "b40",
+                "title": "The simple fool's guide to population genomics via RNA-Seq: An introduction to high-throughput sequencing data analysis",
+                "authors": [
+                    {
+                        "first": "De",
+                        "middle": [],
+                        "last": "Wit",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Mol Ecol Resour",
+                "volume": "12",
+                "issue": "6",
+                "pages": "1058--1067",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "De Wit P, et al. (2012) The simple fool's guide to population genomics via RNA-Seq: An introduction to high-throughput sequencing data analysis. Mol Ecol Resour 12(6): 1058-1067.",
+                "links": null
+            },
+            "BIBREF41": {
+                "ref_id": "b41",
+                "title": "Tumor necrosis factor receptor-associated factors (TRAFs)-a family of adapter proteins that regulates life and death",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Arch",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Gedrich",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Thompson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Genes Dev",
+                "volume": "12",
+                "issue": "18",
+                "pages": "2821--2830",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Arch RH, Gedrich RW, Thompson CB (1998) Tumor necrosis factor receptor-associated factors (TRAFs)-a family of adapter proteins that regulates life and death. Genes Dev 12(18):2821-2830.",
+                "links": null
+            },
+            "BIBREF42": {
+                "ref_id": "b42",
+                "title": "TNF receptor superfamily-induced cell death: Redox-dependent execution",
+                "authors": [
+                    {
+                        "first": "H-M",
+                        "middle": [],
+                        "last": "Shen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Pervaiz",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "FASEB J",
+                "volume": "20",
+                "issue": "10",
+                "pages": "1589--1598",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Shen H-M, Pervaiz S (2006) TNF receptor superfamily-induced cell death: Redox-de- pendent execution. FASEB J 20(10):1589-1598.",
+                "links": null
+            },
+            "BIBREF43": {
+                "ref_id": "b43",
+                "title": "Location-specific responses to thermal stress in larvae of the reef-building coral Montastraea faveolata",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Polato",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "PLoS ONE",
+                "volume": "5",
+                "issue": "6",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Polato NR, et al. (2010) Location-specific responses to thermal stress in larvae of the reef-building coral Montastraea faveolata. PLoS ONE 5(6):e11221.",
+                "links": null
+            },
+            "BIBREF44": {
+                "ref_id": "b44",
+                "title": "Early molecular responses of coral larvae to hyperthermal stress",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Rodriguez-Lanetty",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Harii",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Hoegh-Guldberg",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Mol Ecol",
+                "volume": "18",
+                "issue": "24",
+                "pages": "5101--5114",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rodriguez-Lanetty M, Harii S, Hoegh-Guldberg O (2009) Early molecular responses of coral larvae to hyperthermal stress. Mol Ecol 18(24):5101-5114.",
+                "links": null
+            },
+            "BIBREF45": {
+                "ref_id": "b45",
+                "title": "Effects of temperature on gene expression in embryos of the coral Montastraea faveolata",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Voolstra",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "BMC Genomics",
+                "volume": "10",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Voolstra CR, et al. (2009) Effects of temperature on gene expression in embryos of the coral Montastraea faveolata. BMC Genomics 10:627.",
+                "links": null
+            },
+            "BIBREF46": {
+                "ref_id": "b46",
+                "title": "Comparative genomics of the environmental stress response in ascomycete fungi",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Gasch",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Yeast",
+                "volume": "24",
+                "issue": "11",
+                "pages": "961--976",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Gasch AP (2007) Comparative genomics of the environmental stress response in as- comycete fungi. Yeast 24(11):961-976.",
+                "links": null
+            },
+            "BIBREF47": {
+                "ref_id": "b47",
+                "title": "Transcriptomic responses to darkness stress point to common coral bleaching mechanisms",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Desalvo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Estrada",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Sunagawa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Medina",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Coral Reefs",
+                "volume": "31",
+                "issue": "1",
+                "pages": "215--228",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "DeSalvo M, Estrada A, Sunagawa S, Medina M (2011) Transcriptomic responses to darkness stress point to common coral bleaching mechanisms. Coral Reefs 31(1): 215-228.",
+                "links": null
+            },
+            "BIBREF48": {
+                "ref_id": "b48",
+                "title": "Whole transcriptome analysis of the coral Acropora millepora reveals complex responses to CO2-driven acidification during the inititation of calcification",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Moya",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Mol Ecol",
+                "volume": "21",
+                "issue": "10",
+                "pages": "2440--2454",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Moya A, et al. (2012) Whole transcriptome analysis of the coral Acropora millepora reveals complex responses to CO2-driven acidification during the inititation of calci- fication. Mol Ecol 21(10):2440-2454.",
+                "links": null
+            },
+            "BIBREF49": {
+                "ref_id": "b49",
+                "title": "Heat-shock proteins, molecular chaperones, and the stress response: Evolutionary and ecological physiology",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Feder",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Hofmann",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "Annu Rev Physiol",
+                "volume": "61",
+                "issue": "",
+                "pages": "243--282",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Feder ME, Hofmann GE (1999) Heat-shock proteins, molecular chaperones, and the stress response: Evolutionary and ecological physiology. Annu Rev Physiol 61:243-282.",
+                "links": null
+            },
+            "BIBREF50": {
+                "ref_id": "b50",
+                "title": "The evolutionary and ecological role of heat shock proteins",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Sorensen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "N"
+                        ],
+                        "last": "Kristensen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "Loeschcke",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Ecol Lett",
+                "volume": "6",
+                "issue": "11",
+                "pages": "1025--1037",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sorensen JG, Kristensen TN, Loeschcke V (2003) The evolutionary and ecological role of heat shock proteins. Ecol Lett 6(11):1025-1037.",
+                "links": null
+            },
+            "BIBREF51": {
+                "ref_id": "b51",
+                "title": "Heat shock protein synthesis and thermotolerance in Cataglyphis, an ant from the Sahara desert",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Gehring",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Wehner",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "Proc Natl Acad Sci",
+                "volume": "92",
+                "issue": "7",
+                "pages": "2994--2998",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Gehring WJ, Wehner R (1995) Heat shock protein synthesis and thermotolerance in Cataglyphis, an ant from the Sahara desert. Proc Natl Acad Sci USA 92(7):2994-2998.",
+                "links": null
+            },
+            "BIBREF52": {
+                "ref_id": "b52",
+                "title": "Defining the tipping point. A complex cellular life/death balance in corals in response to stress",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Ainsworth",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Scientific Reports",
+                "volume": "1",
+                "issue": "160",
+                "pages": "1--9",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ainsworth TD, et al. (2011) Defining the tipping point. A complex cellular life/death balance in corals in response to stress. Scientific Reports 1(160):1-9.",
+                "links": null
+            },
+            "BIBREF53": {
+                "ref_id": "b53",
+                "title": "The Sp1-related transcription factors sp5 and sp5-like act downstream of Wnt/\u03b2-catenin signaling in mesoderm and neuroectoderm patterning",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Weidinger",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Thorpe",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Wuennenberg-Stapleton",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Ngai",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Moon",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Curr Biol",
+                "volume": "15",
+                "issue": "6",
+                "pages": "489--500",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Weidinger G, Thorpe CJ, Wuennenberg-Stapleton K, Ngai J, Moon RT (2005) The Sp1- related transcription factors sp5 and sp5-like act downstream of Wnt/\u03b2-catenin sig- naling in mesoderm and neuroectoderm patterning. Curr Biol 15(6):489-500.",
+                "links": null
+            },
+            "BIBREF54": {
+                "ref_id": "b54",
+                "title": "A comparison of thermal responses of human and rodent cells",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Hahn",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Ning",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Elizaga",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Kapp",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Anderson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1989,
+                "venue": "Int J Radiat Biol",
+                "volume": "56",
+                "issue": "5",
+                "pages": "817--825",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hahn GM, Ning SC, Elizaga M, Kapp DS, Anderson RL (1989) A comparison of thermal responses of human and rodent cells. Int J Radiat Biol 56(5):817-825.",
+                "links": null
+            },
+            "BIBREF55": {
+                "ref_id": "b55",
+                "title": "Systemic acquired resistance",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Durrant",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "X",
+                        "middle": [],
+                        "last": "Dong",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Annu Rev Phytopathol",
+                "volume": "42",
+                "issue": "",
+                "pages": "185--209",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Durrant WE, Dong X (2004) Systemic acquired resistance. Annu Rev Phytopathol 42: 185-209.",
+                "links": null
+            },
+            "BIBREF56": {
+                "ref_id": "b56",
+                "title": "SigB-dependent general stress response in Bacillus subtilis and related gram-positive bacteria",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Hecker",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Pan\u00e9-Farr\u00e9",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "U",
+                        "middle": [],
+                        "last": "V\u00f6lker",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Annu Rev Microbiol",
+                "volume": "61",
+                "issue": "",
+                "pages": "215--236",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hecker M, Pan\u00e9-Farr\u00e9 J, V\u00f6lker U (2007) SigB-dependent general stress response in Bacillus subtilis and related gram-positive bacteria. Annu Rev Microbiol 61:215-236.",
+                "links": null
+            },
+            "BIBREF57": {
+                "ref_id": "b57",
+                "title": "Stress-activated genomic expression changes serve a preparative role for impending stress in yeast",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Berry",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Gasch",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Mol Biol Cell",
+                "volume": "19",
+                "issue": "11",
+                "pages": "4580--4587",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Berry DB, Gasch AP (2008) Stress-activated genomic expression changes serve a pre- parative role for impending stress in yeast. Mol Biol Cell 19(11):4580-4587.",
+                "links": null
+            },
+            "BIBREF58": {
+                "ref_id": "b58",
+                "title": "Resistance to thermal stress in corals without changes in symbiont composition",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Bellantuono",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Hoegh-Guldberg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Rodriguez-Lanetty",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "Proc Biol Sci",
+                "volume": "279",
+                "issue": "",
+                "pages": "1100--1107",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bellantuono AJ, Hoegh-Guldberg O, Rodriguez-Lanetty M (2011) Resistance to ther- mal stress in corals without changes in symbiont composition. Proc Biol Sci 279(1731): 1100-1107.",
+                "links": null
+            },
+            "BIBREF59": {
+                "ref_id": "b59",
+                "title": "Cross-tolerance in the tidepool sculpin: The role of heat shock proteins",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Todgham",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Schulte",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Iwama",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Physiol Biochem Zool",
+                "volume": "78",
+                "issue": "2",
+                "pages": "133--144",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Todgham AE, Schulte PM, Iwama GK (2005) Cross-tolerance in the tidepool sculpin: The role of heat shock proteins. Physiol Biochem Zool 78(2):133-144.",
+                "links": null
+            },
+            "BIBREF60": {
+                "ref_id": "b60",
+                "title": "OIT3 deficiency impairs uric acid reabsorption in renal tubule",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Yan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Z-Z",
+                        "middle": [],
+                        "last": "Zhang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L-Y",
+                        "middle": [],
+                        "last": "Huang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H-L",
+                        "middle": [],
+                        "last": "Shen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Z-G",
+                        "middle": [],
+                        "last": "Han",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "FEBS Lett",
+                "volume": "586",
+                "issue": "6",
+                "pages": "760--765",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Yan B, Zhang Z-Z, Huang L-Y, Shen H-L, Han Z-G (2012) OIT3 deficiency impairs uric acid reabsorption in renal tubule. FEBS Lett 586(6):760-765.",
+                "links": null
+            },
+            "BIBREF61": {
+                "ref_id": "b61",
+                "title": "The RET proto-oncogene in human cancers",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Jhiang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Oncogene",
+                "volume": "19",
+                "issue": "49",
+                "pages": "5590--5597",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jhiang SM (2000) The RET proto-oncogene in human cancers. Oncogene 19(49): 5590-5597.",
+                "links": null
+            },
+            "BIBREF62": {
+                "ref_id": "b62",
+                "title": "Coral immunology and resistance to disease",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Reed",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Muller",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Van Woesik",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Dis Aquat Organ",
+                "volume": "90",
+                "issue": "2",
+                "pages": "85--92",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Reed KC, Muller EM, van Woesik R (2010) Coral immunology and resistance to disease. Dis Aquat Organ 90(2):85-92.",
+                "links": null
+            },
+            "BIBREF63": {
+                "ref_id": "b63",
+                "title": "Oxidative stress causes coral bleaching during exposure to elevated temperatures",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Lesser",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Coral Reefs",
+                "volume": "16",
+                "issue": "3",
+                "pages": "187--192",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lesser M (1997) Oxidative stress causes coral bleaching during exposure to elevated temperatures. Coral Reefs 16(3):187-192.",
+                "links": null
+            },
+            "BIBREF64": {
+                "ref_id": "b64",
+                "title": "The role of zooxanthellae in the thermal tolerance of corals: A 'nugget of hope' for coral reefs in an era of climate change",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Berkelmans",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Mjh",
+                        "middle": [],
+                        "last": "Van Oppen",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "Proc Biol Sci",
+                "volume": "273",
+                "issue": "",
+                "pages": "2305--2312",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Berkelmans R, van Oppen MJH (2006) The role of zooxanthellae in the thermal tol- erance of corals: A 'nugget of hope' for coral reefs in an era of climate change. Proc Biol Sci 273(1599):2305-2312.",
+                "links": null
+            },
+            "BIBREF65": {
+                "ref_id": "b65",
+                "title": "Coral host transcriptomic states are correlated with Symbiodinium genotypes",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Desalvo",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Mol Ecol",
+                "volume": "19",
+                "issue": "6",
+                "pages": "1174--1186",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "DeSalvo MK, et al. (2010) Coral host transcriptomic states are correlated with Sym- biodinium genotypes. Mol Ecol 19(6):1174-1186.",
+                "links": null
+            },
+            "BIBREF66": {
+                "ref_id": "b66",
+                "title": "Coral thermal tolerance shaped by local adaptation of photosymbionts",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Howells",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Nat Clim Chang",
+                "volume": "2",
+                "issue": "",
+                "pages": "116--120",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Howells EJ, et al. (2011) Coral thermal tolerance shaped by local adaptation of pho- tosymbionts. Nat Clim Chang 2:116-120.",
+                "links": null
+            },
+            "BIBREF67": {
+                "ref_id": "b67",
+                "title": "Differential expression analysis for sequence count data",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Anders",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Huber",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Genome Biol",
+                "volume": "11",
+                "issue": "10",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Anders S, Huber W (2010) Differential expression analysis for sequence count data. Genome Biol 11(10):R106.",
+                "links": null
+            },
+            "BIBREF68": {
+                "ref_id": "b68",
+                "title": "Controlling the false discovery rate: A practical and powerful approach to multiple testing",
+                "authors": [
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Benjamini",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Hochberg",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "J R Stat Soc, B",
+                "volume": "57",
+                "issue": "1",
+                "pages": "289--300",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Benjamini Y, Hochberg Y (1995) Controlling the false discovery rate: A practical and powerful approach to multiple testing. J R Stat Soc, B 57(1):289-300.",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "text": "ResultsShared Response to Thermal Exposure. At the onset of bleaching (after 72 h), expression across 33,496 reference contigs (i.e., contiguous gene sequences) showed heat-related differences in both the tolerant (HV) and susceptible (MV) populations [principal components analysis (PCA) and hierarchical clustering of gene expression;Fig. 1and Figs. S1 and S2].",
+                "num": null,
+                "type_str": "figure",
+                "uris": null
+            },
+            "FIGREF1": {
+                "text": "Population-Specific Gene Expression Within-Treatment. Even without heat stress, control corals from the HV and MV pools differed significantly in gene expression across 12 genes [9 higher in HV corals (mean fold change, 8.12); and 3 higher in MV corals (mean fold change, 6.92);Fig. 2and Dataset S1E]. HV controls up-regulated genes in 19 gene ontology (GO) categories comprised primarily of genes related to collagen and extracellular matrix components (Dataset S2E). After heat treatment, HV and MV corals differed at 20 genes [10 higher in HV corals (mean fold change, 21.50); and 10 higher in MV corals (mean PCA components 1 and 2 (x and y axis, respectively) of expression values for all 33,496 contigs in the reference assembly for all samples (A) and control coral samples (B). The numbers in parentheses represent the proportion of variance explained by that principal component. Specific colors reflect treatments and shapes reflect sample populations as shown in each legend (mixSym represents those colonies where <95% of a single Symbiodinium clade type was found). PCA was computed in R using the princomp function and a correlation matrix.",
+                "num": null,
+                "type_str": "figure",
+                "uris": null
+            },
+            "FIGREF2": {
+                "text": "Scatterplot of the log2 fold changes in gene expression in response to heat stress in the MV corals vs. the HV corals for the 169 genes that were unique to the MV control vs. heated comparison. Each open circle represents an individual contig, the dashed line is a 1:1 line, ** denotes a highly significant departure (P < 1e \u221215 and 1e \u22125 for up-and down-regulated contigs, respectively) from a 50/50 null expectation of distribution around the 1:1 line (\u03c7 2 test for goodness of fit). transient heat stress. As a result, frontloading may prepare an individual for frequently encountered stress.",
+                "num": null,
+                "type_str": "figure",
+                "uris": null
+            },
+            "TABREF0": {
+                "text": "Venn diagram showing the number of differentially expressed genes detected during analysis based on temperature, location, within-location temperature response, and within-treatment location differences. Bold numbers in parentheses represent totals and respective shades of gray denote up-vs. down-regulated or higher in HV vs. MV, respectively.",
+                "num": null,
+                "type_str": "table",
+                "content": "<table><tr><td/><td/><td/><td/><td>Temperature</td><td>Location</td><td/><td/></tr><tr><td/><td colspan=\"2\">All Control</td><td/><td/><td colspan=\"3\">All HighVar.</td></tr><tr><td/><td/><td>vs.</td><td/><td>(482)</td><td>(2) (39)</td><td>vs.</td><td/></tr><tr><td/><td colspan=\"2\">All Heated</td><td/><td/><td colspan=\"3\">All Med.Var.</td></tr><tr><td/><td>HighVar.</td><td/><td colspan=\"2\">Med.Var.</td><td>Control</td><td/><td colspan=\"2\">Heated</td></tr><tr><td>Control</td><td>44</td><td>59</td><td colspan=\"2\">136</td><td>7</td><td>2</td><td>8</td><td>HighVar.</td></tr><tr><td>vs.</td><td colspan=\"4\">(81) (78) (169)</td><td colspan=\"2\">(9) (3)</td><td>(17)</td><td>vs.</td></tr><tr><td>Heated</td><td>37</td><td>19</td><td colspan=\"2\">33</td><td>2</td><td>1</td><td>9</td><td>Med.Var.</td></tr><tr><td/><td/><td/><td/><td>Up</td><td/><td/><td colspan=\"2\">HighVar.</td></tr><tr><td colspan=\"4\">Response to temperature:</td><td>(Total)</td><td colspan=\"3\">Higher expression in:</td><td>(Total)</td></tr><tr><td/><td/><td/><td/><td>Down</td><td/><td/><td colspan=\"2\">Med.Var.</td></tr><tr><td>Fig. 2.</td><td/><td/><td/><td/><td/><td/><td/></tr></table>"
+            }
+        }
+    }
+}

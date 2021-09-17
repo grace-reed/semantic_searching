@@ -1,0 +1,3827 @@
+{
+    "paper_id": "10",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-09-13T19:32:08.485541Z"
+    },
+    "title": "Genome-Wide Comparative Analysis of HIF Binding Sites in Cyprinus Carpio for In Silico Identification of Functional Hypoxia Response Elements",
+    "authors": [
+        {
+            "first": "Madhuchhanda",
+            "middle": [],
+            "last": "Bhattacharjee",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Yucheng",
+            "middle": [],
+            "last": "Yang",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Yuriy",
+            "middle": [
+                "L"
+            ],
+            "last": "Orlov",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Ravindra",
+            "middle": [],
+            "last": "Kumar",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Pathak",
+            "middle": [],
+            "last": "Ak",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Iliyas",
+            "middle": [],
+            "last": "Rashid",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Ajey",
+            "middle": [
+                "Kumar"
+            ],
+            "last": "Pathak",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Prachi",
+            "middle": [],
+            "last": "Srivastava",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "AMITY University Uttar Pradesh",
+                "location": {
+                    "settlement": "Lucknow",
+                    "country": "India"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Mahender",
+            "middle": [],
+            "last": "Singh",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "S",
+            "middle": [],
+            "last": "Murali",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Basdeo",
+            "middle": [],
+            "last": "Kushwaha",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Kushwaha",
+            "middle": [],
+            "last": "Rashid",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        }
+    ],
+    "year": "",
+    "venue": null,
+    "identifiers": {},
+    "abstract": "Cyprinus carpio is world's most widely distributed freshwater species highly used in aquaculture. It is a hypoxia-tolerant species as it lives in oxygen-deficient environment for a long period. The tolerance potential of an animal against hypoxia relates it to induced gene expression, where a hypoxia-inducible factor (HIF) binds to a transcriptionally active site, hypoxia response element (HRE), a 5-base short motif that lies within the promoter/ enhancer region of a certain gene, for inducing gene expression and preventing/minimizing hypoxia effects. HRE is functionally active when it contains another motif, the hypoxia ancillary sequence (HAS), which is typically adjacent to downstream of HRE within 7-to 15-nt space. Here, an attempt was made for mining HRE and identifying functional HIF binding sites (HBS) in a genome-wide analysis of C. carpio. For this, gene information along with the 5,000-nt upstream (\u22124,900 to +100) sequences of 31,466 protein coding genes was downloaded from \"Gene\" and \"RefSeq\" databases. Analysis was performed after filtration of the impracticable genes. A total of 116,148 HRE consensus sequences were mined from 29,545 genes in different promoter regions. HRE with HAS consensus motifs were found in the promoter region of 9,589 genes. Further, the already reported genes for hypoxia response in humans and zebrafish were reanalyzed for detecting HRE sites in their promoters and used for comparative analysis with gene promoters of C. carpio for providing support to identify functional HBS in the gene promoter of C. carpio. An interactive user interface HREExplorer was developed for presenting the results on the World Wide Web and visualizing possible HBS in protein coding genes in C. carpio and displaying the comparative results along with the reported hypoxia-responsive genes of zebrafish and reported hypoxia-inducible genes in humans. In this study, a set of Perl program was written for the compilation and analysis of information that might be used for a similar study in other species. This novel work may provide a workbench for analyzing the promoter regions of hypoxia-responsive genes.",
+    "pdf_parse": {
+        "paper_id": "10",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "Cyprinus carpio is world's most widely distributed freshwater species highly used in aquaculture. It is a hypoxia-tolerant species as it lives in oxygen-deficient environment for a long period. The tolerance potential of an animal against hypoxia relates it to induced gene expression, where a hypoxia-inducible factor (HIF) binds to a transcriptionally active site, hypoxia response element (HRE), a 5-base short motif that lies within the promoter/ enhancer region of a certain gene, for inducing gene expression and preventing/minimizing hypoxia effects. HRE is functionally active when it contains another motif, the hypoxia ancillary sequence (HAS), which is typically adjacent to downstream of HRE within 7-to 15-nt space. Here, an attempt was made for mining HRE and identifying functional HIF binding sites (HBS) in a genome-wide analysis of C. carpio. For this, gene information along with the 5,000-nt upstream (\u22124,900 to +100) sequences of 31,466 protein coding genes was downloaded from \"Gene\" and \"RefSeq\" databases. Analysis was performed after filtration of the impracticable genes. A total of 116,148 HRE consensus sequences were mined from 29,545 genes in different promoter regions. HRE with HAS consensus motifs were found in the promoter region of 9,589 genes. Further, the already reported genes for hypoxia response in humans and zebrafish were reanalyzed for detecting HRE sites in their promoters and used for comparative analysis with gene promoters of C. carpio for providing support to identify functional HBS in the gene promoter of C. carpio. An interactive user interface HREExplorer was developed for presenting the results on the World Wide Web and visualizing possible HBS in protein coding genes in C. carpio and displaying the comparative results along with the reported hypoxia-responsive genes of zebrafish and reported hypoxia-inducible genes in humans. In this study, a set of Perl program was written for the compilation and analysis of information that might be used for a similar study in other species. This novel work may provide a workbench for analyzing the promoter regions of hypoxia-responsive genes.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "Cyprinus carpio, commonly known as common carp, is a worldwide distributed freshwater carp fish of Family Cyprinidae, having vulnerable conservation status, and is a widely cultivated aquaculture species contributing about 10% to the total freshwater aquaculture production. It is a hypoxiatolerant species that lives for a prolonged period in oxygendepleted environment and reported for different physiologic and metabolic adaptations under hypoxia, including renal (Kakuta et al., 1992) , cardiorespiratory (Stecyk and Farrell, 2002) , and cellular and molecular (Tasaki et al., 2017) responses.",
+                "cite_spans": [
+                    {
+                        "start": 467,
+                        "end": 488,
+                        "text": "(Kakuta et al., 1992)",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 509,
+                        "end": 535,
+                        "text": "(Stecyk and Farrell, 2002)",
+                        "ref_id": "BIBREF60"
+                    },
+                    {
+                        "start": 565,
+                        "end": 586,
+                        "text": "(Tasaki et al., 2017)",
+                        "ref_id": "BIBREF62"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "INTRODUCTION",
+                "sec_num": null
+            },
+            {
+                "text": "Hypoxia is a condition of oxygen deficiency in the body tissues, which affects proper metabolic activity, alters the expression of several genes, and causes various abnormalities in different animals, ranging from invertebrates to mammals (Guillemin and Krasnow, 1997) . Environmental hypoxia is common in fishes due to the increase in water temperature, presence of organic pollutants, aquatic flora that consume ambient oxygen, depth of water column, water flow, and other physical factors that create heterogeneous aquatic environment with imbalanced oxygen concentration in aquatic ecosystems (Nilsson and Ostlund-Nilsson, 2004) . Fishes encounter hypoxia more frequently than the air-breathing animal and can adopt tolerability potential through natural selection to preserve oxygen contents and cellular energy for hypoxia survival. Their adaptation is associated with behavioral responses, inducing higher hematocrit and altering/ reducing metabolic activity to preserve more oxygen for survival during hypoxia and maintenance of oxygen homeostasis (Perry et al., 2009; Vornanen et al., 2009; Richards, 2011) . Evolutionary adaptation is not uniform in fishes and the physiology and the metabolic processes are altered significantly under hypoxic conditions in several species (Thetmeyer et al., 1999; Padmavathy et al., 2009) . Hypoxia-sensitive fish attempt to meet high metabolic demands with insufficient ATP during hypoxia without any further change in the behavioral and physiologic responses that can consequently lead to even mortality.",
+                "cite_spans": [
+                    {
+                        "start": 239,
+                        "end": 268,
+                        "text": "(Guillemin and Krasnow, 1997)",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 597,
+                        "end": 632,
+                        "text": "(Nilsson and Ostlund-Nilsson, 2004)",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 1056,
+                        "end": 1076,
+                        "text": "(Perry et al., 2009;",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 1077,
+                        "end": 1099,
+                        "text": "Vornanen et al., 2009;",
+                        "ref_id": "BIBREF64"
+                    },
+                    {
+                        "start": 1100,
+                        "end": 1115,
+                        "text": "Richards, 2011)",
+                        "ref_id": "BIBREF49"
+                    },
+                    {
+                        "start": 1284,
+                        "end": 1308,
+                        "text": "(Thetmeyer et al., 1999;",
+                        "ref_id": "BIBREF63"
+                    },
+                    {
+                        "start": 1309,
+                        "end": 1333,
+                        "text": "Padmavathy et al., 2009)",
+                        "ref_id": "BIBREF38"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "INTRODUCTION",
+                "sec_num": null
+            },
+            {
+                "text": "Organs, tissues, and cells of the tolerant species may cope up with the low ambient oxygen in the medium to maintain homeostasis for adaptation to the conditions. Several oxygendependent genes produce essential proteins with induced expression mechanism during hypoxia in many fishes for maintaining metabolic and physiologic activities (Semenza, 2009) . The upstream region of a gene creates a basal transcriptional machinery of the genes in eukaryotes, which includes promoter. A promoter region is started immediately to the upstream from the transcription start site (TSS) categorized as core, proximal, and distal regions and the diverse gene uses a distinct promoter type (Riethoven, 2010) . The core promoter elements, located near the TSS, are the most important regions to initiate gene expression (Smale and Kadonaga, 2003; Carninci et al., 2006) . The proximal promoter region in a gene, located next to the core promoter toward upstream and typically composed of CpG islands and several motifs, each with a distinct pattern for binding with a specific transcription factor (TF), is involved in the regulation process for gene expression (Butler and Kadonaga, 2002, Sarda et al., 2017) . The distal promoter may be located many kilobases far from the TSS of a gene and is composed of several regulatory elements, including enhancers (up-regulation), silencers (downregulation), and insulators (protective regulation), which possess protein binding sites or TF binding site (TFB) for TF (Roeder, 1991) . Earlier studies revealed that a nuclear transcriptional factor or hypoxia-inducible factor (HIF) binds at TFB in the gene promoter for transcriptional activation of the human EPO gene (Semenza and Wang, 1992) . Rainbow trout is the leading fish in which the expression and function of HIF-1\u03b1 are studied (Soitamo et al., 2001) .",
+                "cite_spans": [
+                    {
+                        "start": 337,
+                        "end": 352,
+                        "text": "(Semenza, 2009)",
+                        "ref_id": "BIBREF56"
+                    },
+                    {
+                        "start": 678,
+                        "end": 695,
+                        "text": "(Riethoven, 2010)",
+                        "ref_id": "BIBREF50"
+                    },
+                    {
+                        "start": 807,
+                        "end": 833,
+                        "text": "(Smale and Kadonaga, 2003;",
+                        "ref_id": "BIBREF58"
+                    },
+                    {
+                        "start": 834,
+                        "end": 856,
+                        "text": "Carninci et al., 2006)",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 1149,
+                        "end": 1160,
+                        "text": "(Butler and",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 1161,
+                        "end": 1196,
+                        "text": "Kadonaga, 2002, Sarda et al., 2017)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1497,
+                        "end": 1511,
+                        "text": "(Roeder, 1991)",
+                        "ref_id": "BIBREF51"
+                    },
+                    {
+                        "start": 1698,
+                        "end": 1722,
+                        "text": "(Semenza and Wang, 1992)",
+                        "ref_id": "BIBREF57"
+                    },
+                    {
+                        "start": 1818,
+                        "end": 1840,
+                        "text": "(Soitamo et al., 2001)",
+                        "ref_id": "BIBREF59"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "INTRODUCTION",
+                "sec_num": null
+            },
+            {
+                "text": "HIF recognizes hypoxia response elements (HREs), a TFB within the promoters of a large number of genes, and binds to it after hypoxic induction and enhances the expression of the gene (Wenger et al., 2005) . HREs are normally distributed in the genome (Dengler et al., 2014) and their frequent occurrences were reported in the enhancer/promoter and 3\u2032 untranslated regions of a gene (Fordel et al., 2004) . Functional HREs have been reported in several mammalian genes (Kimura et al., 2001) , whereas few studies have proposed functional HREs in fishes (Rees et al., 2001 , Rees et al., 2009 . The lists of confirmed HIF target genes is expanding gradually. The functionally active HREs have been observed in the promoter region of more than 100 mammalian genes involved in different biological processes (Manalo et al., 2005) . Frequently distributed HREs are functionally activated when its downstream region contains an adjacent hypoxia ancillary sequence (HAS) in the space of 7 to 15 nt (Kajimura et al., 2006; Liu et al., 1995) . HRE (5\u2032-RCGTG-3\u2032) and HAS [5\u2032-CA(G|C)(A|G)(T|G|C)-3\u2032] are 5-nt motifs whose regular expression pattern from the 5\u2032 end are described as follows: in the first and second places, two bases, C and A, are conserved; the third place is G or C; the fourth place is any purine base; and fifth place is one base from T or G or C. The consensus HRE elements with a preceding C on 5\u2032, like 5\u2032-CRCGTG-3\u2032, form the enhancer box (E-box) binding sites of TFs of other basic helix-loop-helix (bHLH) protein families, and HIF rarely recognizes to bind this site similar to HRE. The HAS consensus patterns have been reported in several hypoxiainducible genes (HIGs) in mammals and IGFBP1 and EPO genes in fish (Kimura et al., 2001; Kajimura et al., 2006; Kulkarni et al., 2010) . Numerous HIGs, existing with hypoxia-binding sites, were identified in humans and zebrafish using genome-wide analysis approaches (Ortiz-Barahona et al., 2010; Greenald et al., 2015) . This information can be used to identify HIG in other related species using computational approaches (Benita et al., 2009) .",
+                "cite_spans": [
+                    {
+                        "start": 184,
+                        "end": 205,
+                        "text": "(Wenger et al., 2005)",
+                        "ref_id": "BIBREF66"
+                    },
+                    {
+                        "start": 252,
+                        "end": 274,
+                        "text": "(Dengler et al., 2014)",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 383,
+                        "end": 404,
+                        "text": "(Fordel et al., 2004)",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 469,
+                        "end": 490,
+                        "text": "(Kimura et al., 2001)",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 553,
+                        "end": 571,
+                        "text": "(Rees et al., 2001",
+                        "ref_id": "BIBREF47"
+                    },
+                    {
+                        "start": 572,
+                        "end": 591,
+                        "text": ", Rees et al., 2009",
+                        "ref_id": "BIBREF48"
+                    },
+                    {
+                        "start": 805,
+                        "end": 826,
+                        "text": "(Manalo et al., 2005)",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 992,
+                        "end": 1015,
+                        "text": "(Kajimura et al., 2006;",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 1016,
+                        "end": 1033,
+                        "text": "Liu et al., 1995)",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 1729,
+                        "end": 1750,
+                        "text": "(Kimura et al., 2001;",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 1751,
+                        "end": 1773,
+                        "text": "Kajimura et al., 2006;",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 1774,
+                        "end": 1796,
+                        "text": "Kulkarni et al., 2010)",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 1929,
+                        "end": 1958,
+                        "text": "(Ortiz-Barahona et al., 2010;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1959,
+                        "end": 1981,
+                        "text": "Greenald et al., 2015)",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 2085,
+                        "end": 2106,
+                        "text": "(Benita et al., 2009)",
+                        "ref_id": "BIBREF10"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "INTRODUCTION",
+                "sec_num": null
+            },
+            {
+                "text": "In the present study, a genome-wide analysis of C. carpio was carried out for i) mining of HIF binding site (HBS) in the 5 kb upstream sequences of protein coding genes reported in C. carpio, ii) predicting the functional site in the promoter regions of protein coding genes, iii) identifying HRE along with HAS elements, iv) obtaining HRE frequency with the E-box promoter binding site, and v) performing comparative analysis for validating the findings using information on identified HIGs in zebrafish, a model fish belonging to the same Cyprinidae family and having well-annotated genome assembly with 52,610 protein coding genes (Xu et al., 2014) , and in humans. An information browser called HREExplorer was developed using Linux, Apache, MySQL, PHP, and Perl (LAMPP) to visualize the information on each HRE located in the promoter region of the protein coding genes of C. carpio, and a hyperlink was given to the GenBank database for obtaining the sequences of a particular region. The frequency of HRE distribution and location was identified in the core, proximal, and distal regions of the upstream sequences. This study may provide insights into the molecular events that link reduced oxygenation to HIF activation and may serve as a platform for analyzing genes in hypoxia susceptible fishes of aquaculture importance. Additionally, it will be helpful in evaluating HIGs in phylogenetically relative species.",
+                "cite_spans": [
+                    {
+                        "start": 634,
+                        "end": 651,
+                        "text": "(Xu et al., 2014)",
+                        "ref_id": "BIBREF69"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "INTRODUCTION",
+                "sec_num": null
+            },
+            {
+                "text": "Gene database (Brown et al., 2015) and genomes of C. carpio and zebrafish were downloaded from GenBank and FASTA file formats from the latest release of the National Center for Biotechnology Institute (NCBI) FTP site (NCBI Resource Coordinators, 2017) using \"wget\" utility under Linux environment. A total of 69,131 summarized gene information, including gene and placed coordinates with plus/minus orientation, of C. carpio (NCBI Taxon ID: 7962) were extracted from the downloaded gene database using an in-house Perl script. The methodology of genome-wide HRE mining and analysis in C. carpio is illustrated in a data flow diagram presented in Figure 1 . HREs were mined only in the 5 kb upstream of gene localized strands and the complementary strands were not used for the analysis.",
+                "cite_spans": [
+                    {
+                        "start": 14,
+                        "end": 34,
+                        "text": "(Brown et al., 2015)",
+                        "ref_id": "BIBREF12"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 646,
+                        "end": 654,
+                        "text": "Figure 1",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Data Collection",
+                "sec_num": null
+            },
+            {
+                "text": "A large number of C. carpio genes were extracted from the gene database named here as \"extracted genes (EG). \" The EG without defining a location on a chromosome (genomic sequence) was represented as unplaced in the gene database. The upstream sequences of such genes could not be parsed for this study and thus were discarded from the EG. Mitochondrial genes were also discarded as they were beyond the scope of this study. The housekeeping genes (HKGs) were also filtered out from the EG of C. carpio using the downloaded reference of HKGs in humans (Eisenberg and Levanon, 2013) . In this process, the reference human HKGs contained 3,804 gene symbols (https://m.tau. ac.il/~elieis/HKG/) that were matched with the gene symbol of C. carpio using an in-house developed Perl program. It was found that 890 gene symbols of HKGs were exactly the same in the EG that were removed. Further, the remaining HKGs did not match with the gene symbol for most of the genes because many genes are defined with LOC+gene ID in C. carpio. To remove the remaining HKGs from the EG, the HKG symbols of humans were first compared to the gene symbols of zebrafish annotated genome to obtain the mRNA IDs of those genes in zebrafish. The mRNA IDs of zebrafish HKGs were used to download mRNA sequence from the Batch Entrez. The formatdb of Blast package (Altschul et al., 1990; Mount, 2007) was used to create Blast-compatible database \"HKdb\" for the downloaded mRNA sequences of zebrafish. Further, all the mRNA sequences from the EG of C. carpio were mapped onto HKdb using the BlastN program and significantly aligned gene sequences were removed from the EG list of C. carpio.",
+                "cite_spans": [
+                    {
+                        "start": 552,
+                        "end": 581,
+                        "text": "(Eisenberg and Levanon, 2013)",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 1336,
+                        "end": 1359,
+                        "text": "(Altschul et al., 1990;",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 1360,
+                        "end": 1372,
+                        "text": "Mount, 2007)",
+                        "ref_id": "BIBREF32"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Gene Filtration",
+                "sec_num": null
+            },
+            {
+                "text": "After filtration of unplaced, mitochondrial, and HKGs, 31,466 genes remained in the EG that included 15,635 plus and 15,831 minus genomic orientations along with the localization coordinates on the chromosome. Further, gene orientation information was used to parse upstream sequences from the respective chromosome (genomic sequences) using the methodology applied for parsing the upstream of all genes localized either in forward or reverse strand in genomic DNA (Rashid et al., 2017a , Rashid et al., 2017b . The upstream parsing program included reverse complement mechanism in methodology for parsing of genes localized on the minus strand of the DNA helix. This has prepared a dataset of all uniformly parsed sequences in the 5\u2032 to 3\u2032 direction. In this process, a collection of 5,000 nt (\u22124,900 to +100) upstream sequence of each gene was obtained.",
+                "cite_spans": [
+                    {
+                        "start": 465,
+                        "end": 486,
+                        "text": "(Rashid et al., 2017a",
+                        "ref_id": "BIBREF45"
+                    },
+                    {
+                        "start": 487,
+                        "end": 509,
+                        "text": ", Rashid et al., 2017b",
+                        "ref_id": "BIBREF46"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Dataset Preparation",
+                "sec_num": null
+            },
+            {
+                "text": "A list of 737 genes differentially expressed (442 down-regulated and 295 up-regulated) under hypoxia exposure was reported in Supplementary file 1 in the genome-wide mapping of HIF1\u03b1 binding sites in zebrafish by Greenald et al. (2015) . The list of reported genes is available with the manuscript in the form of a data sheet composed of different fields, including UniGene ID as sequence identifiers. However, the information on the sequences and the HRE positions in the upstream regions of these reported genes were lacking; thus, the available information on reported genes delimited to use the data for comparative analysis with HRE contained promoters of C. carpio. The given UniGene ID in the above study was only a gene identifier for HIG in zebrafish. To overcome this, an extensive meta-analyses was performed for the reported genes of zebrafish, which included i) identifying the sequence accession number and gene ID from UniGene ID, ii) downloading and parsing of upstream sequences, iii) mining of HRE element and their localized orientation in different promoter regions, and iv) computing the total number of HRE with HAS in those upstream sequences. Thus, the gene IDs of all 737 genes were obtained from the UniGene dataset of zebrafish using the reference of UniGene ID given in the data sheet. Further, gene location on the chromosome, genomic accessions, and the gene orientation along with the other gene details were obtained from the gene database for those reported genes. Finally, 5 kb upstream sequences for all the 737 genes were parsed from the corresponding genomic sequences using information of gene location and orientation. HRE and HRE with HAS were mined and their genomic localization was computed along with the orientation in the promoter region of those genes. After this reanalysis of the reported hypoxia response genes (RHRG) of zebrafish, a dataset was prepared to perform a comparative analysis of the predicted HBS in the promoter region of C. carpio.",
+                "cite_spans": [
+                    {
+                        "start": 213,
+                        "end": 235,
+                        "text": "Greenald et al. (2015)",
+                        "ref_id": "BIBREF20"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Comparative Data Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "Similarly, a list of 30 HIG genes in humans was collected from a literature survey for performing comparative analysis of promoter regions with genes of C. carpio. The gene information and genomic sequences were downloaded from the NCBI. Upstream sequences were parsed using the gene localization and orientation information. HREFinder was used to mine HRE consensus within upstream sequences.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Comparative Data Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "Finding homologous genes in C. carpio against the RHRG of zebrafish was a big challenge for performing comparative analysis between the promoters of the same genes in both species. The methodology for matching the exact gene symbol is not an appropriate practice for the identification of homologous genes, as there are so many orthologous genes reported for both species but with different gene symbols, e.g. the gene symbol for vascular endothelial growth factor is \"vegfab\" in zebrafish and \"LOC109065938\" in C. carpio; similarly, the gene symbol for the gene acot11 acyl-CoA thioesterase 11 is \"acot11a\" in zebrafish but \"acot11\" in C. carpio. Further, a close examination of the data obtained from zebrafish used in the comparative study revealed numerous genes without published gene symbols. Apart from authentic gene symbols, there are also many sets of alphanumeric temporary gene symbols started with LOC, Si, zgc, and znrf followed by numbers. The exact symbol-matching algorithm failed here for recognizing those varying patterns of gene symbol. A homology-based comparison (Pearson, 2013) was performed between the mRNA sequences of RHRG of zebrafish and all the mRNA sequences of C. carpio genes taken in the study with 80% identity. In this homology search, an identity threshold cutoff was considered because mRNA sequences on 80% identity with conserved functional sites generally share the same function.",
+                "cite_spans": [
+                    {
+                        "start": 1086,
+                        "end": 1101,
+                        "text": "(Pearson, 2013)",
+                        "ref_id": "BIBREF42"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Orthologous Gene Identification",
+                "sec_num": null
+            },
+            {
+                "text": "Several in-house scripts were written in Perl for the preparation, manipulation, and compilation of datasets for analysis ( Table 1) . HREFinder (http://mail.nbfgr.res.in/HRGFish/download/), a tool for discovering regular expression-based consensus motifs, was used here for the mining consensus pattern of HRE in the upstream region of the genes. An extensive analysis of the mined HRE was done in different ways. A data file was generated using an in-house Perl program \"MemeAnalysisDataset.pl\" for the functional analysis of the HRE motifs through MEME-ChIP, a position weight matrixbased tool for motif identification (Machanick and Bailey, 2011) having the ability of short TFB identification with high accuracy rate (Tanaka et al., 2014) . This in-house program used the position of the HRE in the upstream and parsed 40-nt sequences, which included 10 nt upstream and 30 nt downstream from the HRE end position. A list of sequences with uniform length containing HRE was generated as a query for MEME-ChIP. The VENNY tool (Oliveros, 2007 (Oliveros, -2015 was employed for depicting the HRE mining results in a Venn diagram. LAMPP package was used for storing information about genes, chromosomes, upstream, and HRE related data using the InnoDB storage engine in the back-end and the user interfaces were designed for viewing and browsing information in the front-end.",
+                "cite_spans": [
+                    {
+                        "start": 622,
+                        "end": 650,
+                        "text": "(Machanick and Bailey, 2011)",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 722,
+                        "end": 743,
+                        "text": "(Tanaka et al., 2014)",
+                        "ref_id": "BIBREF61"
+                    },
+                    {
+                        "start": 1029,
+                        "end": 1044,
+                        "text": "(Oliveros, 2007",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1045,
+                        "end": 1061,
+                        "text": "(Oliveros, -2015",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 124,
+                        "end": 132,
+                        "text": "Table 1)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Tools and Techniques",
+                "sec_num": null
+            },
+            {
+                "text": "The HRE motif (5\u2032-RCGTG-3\u2032) pattern in 29,545 (94%) genes was found using the HREFinder tool that was distributed in different promoters in 5 kb (\u22124,900 to +100) upstream sequences of 31,466 EGs of C. carpio. A total of 116,148 HRE consensus were examined, as there were several genes that had more than one HRE in their upstream. The distribution frequency of the HREs in the upstream regions was found almost uniform, except in the core promoters, particularly near the TSS, where it was higher. The identified motif in different promoter regions included 43% distal (2,000 nt), 38% proximal (2,000 nt), and 19% core (1,000 nt), respectively, as presented in Figure 2A . Higher numbers of HRE distribution were found near the TSS in the region \u2212400;+100 and Figure 2B presents the zoomed-in image of the HRE distribution in this region. A total of 9,589 genes were found that contained HREs with HAS consensus motif located within 15 bases of their downstream.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 661,
+                        "end": 670,
+                        "text": "Figure 2A",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 760,
+                        "end": 769,
+                        "text": "Figure 2B",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "HRE Mining in the Promoter Region",
+                "sec_num": null
+            },
+            {
+                "text": "MEME-ChIP results revealed that the HREFinder identified motifs in the upstream sequence were true HRE with HAS motifs, but several HRE motifs were identified as E-box (5\u2032-CACGTG-3\u2032) elements, i.e., binding site of class bHLH TF. HIF also belongs to bHLH TF but does not bind with the E-box motif for inducing gene expression (Benita et al., 2009; Sch\u00f6del et al., 2011) . The results of the MEME analysis suite for motif validation is presented in Figures 3A-C . Different motifs in various combination were found in the analysis that included HRE, HRE with HAS, HRE with E-box, E-box, and E-box with HAS.",
+                "cite_spans": [
+                    {
+                        "start": 326,
+                        "end": 347,
+                        "text": "(Benita et al., 2009;",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 348,
+                        "end": 369,
+                        "text": "Sch\u00f6del et al., 2011)",
+                        "ref_id": "BIBREF55"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 448,
+                        "end": 460,
+                        "text": "Figures 3A-C",
+                        "ref_id": "FIGREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Meta-Analyses for Genome-Wide HRE",
+                "sec_num": null
+            },
+            {
+                "text": "Again, a Perl program \"MotifClust.pl\" was designed for preparing a suitable dataset for clustering different motifs with their cumulative frequency distribution for presenting them in a Venn diagram ( Figure 3D) . The program generated four datasets: TABLE 1 | List of in-house Perl programs designed and implemented for genome-wide hypoxia response element (HRE) mining in C. carpio and comparative study with human and zebrafish.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 201,
+                        "end": 211,
+                        "text": "Figure 3D)",
+                        "ref_id": "FIGREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Meta-Analyses for Genome-Wide HRE",
+                "sec_num": null
+            },
+            {
+                "text": "i) all genes taken under this study, ii) all genes containing HRE, iii) all genes containing HAS, and iv) all genes containing E-box. These datasets were submitted into Venny tool, and a Venn diagram, presenting clusters of different motifs, was generated.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "S.N. Program Description",
+                "sec_num": null
+            },
+            {
+                "text": "In the analysis, upstream of 28,706 genes containing HRE motifs were identified, where 4,615 genes in upstream had HRE with HAS. Additionally, the E-box was obtained in the upstream sequences of 12,518 genes, in which 11,679 sequences contained both HRE and E-box motifs.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "S.N. Program Description",
+                "sec_num": null
+            },
+            {
+                "text": "HREExplorer is a web-based platform developed using LAMPP and JavaScript for displaying information obtained on HRE mining and meta-analysis in the genome of C. carpio. This data delivering system has the ability to display comparative analysis of findings with previously identified hypoxia-responsive genes of zebrafish and humans. HRE information browser: The content of the prepared GFF file was managed into tables of the database for browsing the information on Web. The complete result of HRE mining and their analytical views are available at URL: http://mail.nbfgr.res. in/HREExplorer. The homepage of HREExplorer provided a selection list of all C. carpio chromosomes as well as user-friendly browsing facilities for visualizing HRE and HRE with HAS motifs in particular promoter region within a selected chromosome ( Figure 4A) . The displayed information is hyperlink and leads to the respective pages of the NCBI database for cross-validation of the information and viewing the sequences of a particular region.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 828,
+                        "end": 838,
+                        "text": "Figure 4A)",
+                        "ref_id": "FIGREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "HREExplorer: An Information Browser and Data Analyzing Facility",
+                "sec_num": null
+            },
+            {
+                "text": "The 5 kb upstream sequences of 737 differentially expressed genes of zebrafish were used for mining HRE and HRE with HAS. The HRE sites were obtained in 679 genes with high frequencies in core promoters, especially near the TSS of genes, in zebrafish. There were 270 up-regulated genes among those 679 genes and 91 genes among them were HRE with HAS. A total of 298 HREs with HAS elements within 30 nt stretch in downstream region were obtained in 237 distinct genes. Further, a comparative analysis between the orthologous genes of zebrafish and C. carpio was done. HREExplorer presents a button \"View genes of zebrafish\" for generating and exporting comparative analysis information on RHRG of zebrafish along with homologous genes of C. carpio. This page displays a selection list of RHRG in zebrafish and displayed information on selected gene along with same gene information on C. carpio, which includes homology search summary, sequence alignment, information on chromosome, localization strand, gene upstream and HRE and HAS motifs with promoter location (Figure 4B) . The homepage also displays a button \"Compare genes of chromosome\" which leads on another page displaying matching gene information on C. carpio with HRG in zebrafish on homology based. This page is different form \"View genes of zebrafish\" because it provides information on homologous genes to zebrafish on a selected chromosome of C. carpio. A similarity search was also performed in the comparative analysis, where the conserved sequence in an orthologous gene of both species might be validated as a bonafide HRE binding site in the gene of C. carpio.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 1063,
+                        "end": 1074,
+                        "text": "(Figure 4B)",
+                        "ref_id": "FIGREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Comparative Analysis With Hypoxia-Responsive Genes of Zebrafish",
+                "sec_num": null
+            },
+            {
+                "text": "The upstream sequences of human HIG genes were parsed from human genome (Assembly: GCF_000001405.38) and HRE sites in each upstream sequence were mined. The information about genes, PubMed ID of relevant article in which those genes reported as HIG in humans and localization of upstream along with total number of HRE in different promoters were reported, which are presented in Table 2 . This information were used for performing comparative analysis between homologous genes of humans and C. carpio. HREExplorer also facilitates the user for comparative analysis between the HRE localized regions in C. carpio and the HRE containing region of the orthologous gene reported for hypoxia response in humans. The homepage displays a button \"Comparative analysis of human HIG,\" which leads to another page displaying matching gene information on C. carpio with HIG in humans on homology. This page presents a selection list of HIGs in humans and displays information on selected genes along with same gene information on C. carpio, which includes homology search summary, sequence alignment, and PubMed ID of the research article in which these genes reported as HIG in humans. Information on chromosome, localization strand, gene upstream, HRE, and HAS motifs with promoter location are displayed ( Figure 4C) .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 380,
+                        "end": 387,
+                        "text": "Table 2",
+                        "ref_id": "TABREF0"
+                    },
+                    {
+                        "start": 1298,
+                        "end": 1308,
+                        "text": "Figure 4C)",
+                        "ref_id": "FIGREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Comparative Analysis With HIF Targeted Genes of Humans",
+                "sec_num": null
+            },
+            {
+                "text": "The present study incorporated a set of in-house Perl program ( Table 1) , which might be used either to add new species in this comparative analysis with C. carpio or to perform genome-wide comparative analysis between two species of the same family. Those in-house programs have been uploaded to GitHub (https:// github.com/iliyasrashid/GWHREAnalysis) along with \"readme\" and publicly available for researchers.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 64,
+                        "end": 72,
+                        "text": "Table 1)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "GitHub Resource",
+                "sec_num": null
+            },
+            {
+                "text": "There are several reports on the in silico identification and prediction of HBS in the genome-wide analysis of mammals and fish (Benita et al., 2009; Ortiz-Barahona et al., 2010; Sch\u00f6del et al., 2011; Greenald et al., 2015) . Adapting those approaches, C. carpio was selected for the genome-wide mining and analysis of HIF-1 binding sites due to its tolerability against hypoxia, availability of complete genome sequence, and wide distribution of the species. This type of studies provides many functional binding sites in the promoter regions of the protein coding genes, which might also be helpful in the comparative gene analysis with hypoxiasensitive species. The core promoter element, located in the upstream region of the gene adjacent to TSS and forming a platform for transcription initiation, is essential to initiate gene expression (Juven-Gershon and Kadonaga, 2010). High (>40%) frequency of HBS was observed in the core promoter region of the genes responsible to hypoxia (Sch\u00f6del et al., 2011) . However, HBS was not found in the core promoter in a well-recognized HIG EPO due to its distant location from TSS in the promoter region (Benita et al., 2009) . HBS was identified as 5 kb far upstream of TSS in a mammalian HIF-1 targeted gene \"eNOS\" (Coulet et al., 2003) . Hence, it might be concluded that the core promoter region is enriched with HIF-1 binding site, but some HIF-1 targeted genes also contain HIF-1 binding site in their proximal and distal promoter regions. Fragments of 3 to 5 kb far upstream from TSS, including a few hundred bases of downstream, were used for the analysis of the upstream region to detect the promoter and TFB of a gene (Ortiz-Barahona et al., 2010; Greenald et al., 2015) . In this study, a set of 5 kb upstream sequences were taken for the mapping of hypoxiabinding sites in all protein coding genes of C. carpio. All mined HREs in those sequences were categorized by their frequency distribution in different regions, like core (0-1,000 nt), proximal (1,000-3,000 nt), and distal (3,000-5,000 nt) promoters. The method applied here for parsing 5 kb upstream sequences is not without limitations because there might be some genes whose intergenic region could be a few hundred or thousand but less than 5 kb. The methodology for parsing 5 kb upstream sequences uniformly of protein coding genes can cover a full or partial part of an adjacent gene located on its 5\u2032 end.",
+                "cite_spans": [
+                    {
+                        "start": 128,
+                        "end": 149,
+                        "text": "(Benita et al., 2009;",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 150,
+                        "end": 178,
+                        "text": "Ortiz-Barahona et al., 2010;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 179,
+                        "end": 200,
+                        "text": "Sch\u00f6del et al., 2011;",
+                        "ref_id": "BIBREF55"
+                    },
+                    {
+                        "start": 201,
+                        "end": 223,
+                        "text": "Greenald et al., 2015)",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 987,
+                        "end": 1009,
+                        "text": "(Sch\u00f6del et al., 2011)",
+                        "ref_id": "BIBREF55"
+                    },
+                    {
+                        "start": 1149,
+                        "end": 1170,
+                        "text": "(Benita et al., 2009)",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 1262,
+                        "end": 1283,
+                        "text": "(Coulet et al., 2003)",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 1673,
+                        "end": 1702,
+                        "text": "(Ortiz-Barahona et al., 2010;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1703,
+                        "end": 1725,
+                        "text": "Greenald et al., 2015)",
+                        "ref_id": "BIBREF20"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DISCUSSION",
+                "sec_num": null
+            },
+            {
+                "text": "In the promoter analysis of genes, the 500-nt consecutive fragments covering the entire length of the upstream were observed with almost uniform HRE distribution, but the higher frequency in the core promoter, especially near the TSS, justifies previous observation for HBS localization near the TSS (Sch\u00f6del et al., 2011) . In this, the de novo motif analysis, another motif, E-box, was observed along with HRE and HAS in the set of more or less 40-nt sequence fragment derived from the HRE location. An E-box consensus begins with a preceding C (5\u2032-CACGTG-3\u2032) in the HRE consensus (5-\u2032ACGTG-3\u2032) that serves as a TFB for the bHLH TF family. HIF-1 also belongs to the same transcription family, but it rarely binds with the E-box motif for inducing gene expression (Benita et al., 2009) . There were 2.3% such genes identified from the total dataset, which contained only E-box, and were not used for further analysis.",
+                "cite_spans": [
+                    {
+                        "start": 300,
+                        "end": 322,
+                        "text": "(Sch\u00f6del et al., 2011)",
+                        "ref_id": "BIBREF55"
+                    },
+                    {
+                        "start": 765,
+                        "end": 786,
+                        "text": "(Benita et al., 2009)",
+                        "ref_id": "BIBREF10"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DISCUSSION",
+                "sec_num": null
+            },
+            {
+                "text": "C. carpio genes containing HRE were used in the comparative analysis with differentially expressed genes under hypoxia in zebrafish reported in the Supplementary file 1 of Greenald et al. (2015) . The comparative study was performed for the further validation of our findings because <1% of the total HRE distributed in genomes is functionally active HRE only (Sch\u00f6del et al., 2011) ; additionally, HIF also induces several genes having no HRE or any distinct HBS (Benita et al., 2009) . In this way, a comparative study with experimental dataset provides a significant potential to validate the findings of the study. Zebrafish was used here as a reference species for comparative analysis because i) it is a model fish and close relative to C. carpio in evolution (Betancur-R et al., 2013) , ii) the evolutionary lineage of genes shares a common ancestor in both species (Pasquier et al., 2016) , iii) it has a wellcharacterized genome information available publically (Ruzicka et al., 2015; Faber-Hammond et al., 2016) , iv) a vast collection of reported hypoxia-responsive genes is available in zebrafish (Greenald et al., 2015) , and v) the information on zebrafish is used in the comparative analysis of C. carpio genome with significant findings (Henkel et al., 2012) . Thus, based on the high degree of similarity and compactness of genome, the reported genes of zebrafish were further analyzed for mining of HRE and HRE with HAS, Thereafter, a comparative analysis between the same genes of C. carpio and zebrafish was performed. The HRE mining work was carried out in the already published data of differentially expressed genes of zebrafish because there was no information about motif localization and HBS in the downloaded file. A comparative analysis of our result with the dataset of zebrafish is not possible without HRE information in the upstream region of those genes. The HRE mining and analysis in the dataset of zebrafish revealed that 58 genes, reported in the list without any HRE elements in their 5 kb upstream sequences, were mostly down-regulated. The lack of HIF-1 binding site in 5 kb upstream sequences clarified that the down-regulated genes have no HIF-1 binding site for inducing gene expression during hypoxia, which supports the results about those down-regulated genes reported in zebrafish under hypoxia. Many up-regulated genes without any HRE elements in their promoter regions were also reported in zebrafish. A gene without HRE elements in their upstream sequence up-regulated during hypoxia strongly indicates that there might be another kind of motif to serve as an HIF-1 binding site. A unique HIF-1 binding site was previously identified in the lactate dehydrogenase B gene in killifish (Rees et al., 2009) . In the analysis of zebrafish data, HRE elements were obtained in many genes reported for down-regulation. Many genes were identified with an obvious HBS in their promoters but reported for downregulation. This might be due to the involvement of repressor proteins that bind and inactivate HIF-1 TF. HIF-repressing protein was reported that interacts with HIF-1 and put it off for inducing gene expression during hypoxia (Mahon et al., 2001 ). Hypoxia-tolerant fishes reduce their metabolic and physiologic activities during hypoxia to maintain homeostasis for coping with the conditions (Nikinmaa and Rees, 2005) .",
+                "cite_spans": [
+                    {
+                        "start": 172,
+                        "end": 194,
+                        "text": "Greenald et al. (2015)",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 360,
+                        "end": 382,
+                        "text": "(Sch\u00f6del et al., 2011)",
+                        "ref_id": "BIBREF55"
+                    },
+                    {
+                        "start": 464,
+                        "end": 485,
+                        "text": "(Benita et al., 2009)",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 766,
+                        "end": 791,
+                        "text": "(Betancur-R et al., 2013)",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 873,
+                        "end": 896,
+                        "text": "(Pasquier et al., 2016)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 971,
+                        "end": 993,
+                        "text": "(Ruzicka et al., 2015;",
+                        "ref_id": "BIBREF53"
+                    },
+                    {
+                        "start": 994,
+                        "end": 1021,
+                        "text": "Faber-Hammond et al., 2016)",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 1109,
+                        "end": 1132,
+                        "text": "(Greenald et al., 2015)",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 1253,
+                        "end": 1274,
+                        "text": "(Henkel et al., 2012)",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 2733,
+                        "end": 2752,
+                        "text": "(Rees et al., 2009)",
+                        "ref_id": "BIBREF48"
+                    },
+                    {
+                        "start": 3175,
+                        "end": 3194,
+                        "text": "(Mahon et al., 2001",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 3342,
+                        "end": 3367,
+                        "text": "(Nikinmaa and Rees, 2005)",
+                        "ref_id": "BIBREF33"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DISCUSSION",
+                "sec_num": null
+            },
+            {
+                "text": "Zebrafish is reported as a hypoxia-tolerant species where several genes undergo down-regulation during hypoxic condition, which provides strong evidence in favor of the tolerance potential of this species. Earlier reports revealed that on, an average, 70% HIGs did not contain any recognized HBS in their core, proximal, and distal promoters (Mole et al., 2009; Xia et al., 2009) . The analysis of up-regulated genes without any detectable binding sites in their upstream region also supports and verifies previous reports. The reports on the mined HRE and predicted HBS in the upstream sequences of protein coding genes strongly indicate that all HBS are not functionally active, which need robust analyses. The set of HRE elements along with few bases long upstream and downstream flanking regions were used for the optimization of HRE elements on a threshold score (Benita et al., 2009) . This approach was applied here for the comparative analysis to find conserved sequences across a set of sequence fragments containing HRE with flanking regions. The comparative analysis confirmed that the HRE region in the genes, as reported in zebrafish, was found conserved with the HRE region of the same genes of C. carpio.",
+                "cite_spans": [
+                    {
+                        "start": 342,
+                        "end": 361,
+                        "text": "(Mole et al., 2009;",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 362,
+                        "end": 379,
+                        "text": "Xia et al., 2009)",
+                        "ref_id": "BIBREF68"
+                    },
+                    {
+                        "start": 868,
+                        "end": 889,
+                        "text": "(Benita et al., 2009)",
+                        "ref_id": "BIBREF10"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DISCUSSION",
+                "sec_num": null
+            },
+            {
+                "text": "The method presented here for the comparative study is not without limitation, as several well-recognized genes, responding to hypoxia (like EPO, IGFBP1, etc.), could not be obtained in comparative analysis. Only the list of differentially expressed genes reported in zebrafish was used for the comparative analysis. However, genes such as EPO were missing in the reported list and were not obtained in the results but were earlier reported in the same species (Paffett-Lugassy et al., 2007) . The selection of the tissue types for the study of the differential profiling expression of a gene or set of genes also plays a big role. Highly induced expression of EPO genes under hypoxia was previously reported in kidney tissue (Westenfelder et al., 1999) . Moreover, few hypoxia-responsive genes, including Phd3, contain a hypoxiabinding site very far, about 12 kb, from the TSS toward upstream (Pescador et al., 2005) . Some genes that contain a hypoxiabinding site far away from the TSS will not be present in results due to constraints in methodology of parsing only 5 kb upstream sequences. If the size of parsing the upstream is increased, then several genes are screened out because C. carpio genome contains many such genes whose upstream sequences (intergenic regions) are not >5 kb. Further, extensive analysis of the already reported genes for down-regulation in zebrafish during hypoxia revealed that either having HRE motifs apart from core region or lacking HAS element in the core promoter might be a clear evidence of down-regulation of those genes. However, HBS of 30 HIG in humans was also used additionally for comparative analysis with C. carpio, but an mRNA-based homology search did not show significant Blast hits due to distant relation between the two vertebrates (Roest Crollius and Weissenbach, 2005) . The mRNA sequences of only 20 of 30 genes of human HIG showed hits with mRNA sequences of C. carpio and considered those for the comparative analysis in this study.",
+                "cite_spans": [
+                    {
+                        "start": 461,
+                        "end": 491,
+                        "text": "(Paffett-Lugassy et al., 2007)",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 726,
+                        "end": 753,
+                        "text": "(Westenfelder et al., 1999)",
+                        "ref_id": "BIBREF67"
+                    },
+                    {
+                        "start": 894,
+                        "end": 917,
+                        "text": "(Pescador et al., 2005)",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 1787,
+                        "end": 1825,
+                        "text": "(Roest Crollius and Weissenbach, 2005)",
+                        "ref_id": "BIBREF52"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DISCUSSION",
+                "sec_num": null
+            },
+            {
+                "text": "An information browser, HREExplorer, was developed for viewing information on genes with analytical ability to facilitate a comparative view of the genes' promoter of C. carpio along with promoters of hypoxia-responsive genes of zebrafish and humans. HREExplorer enriched with an interactive user interface that displays information such as chromosome and a specific fragmentlike gene, upstream and HRE regions, is hyperlinked to the primary source of data for cross-validation of information and sequences.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DISCUSSION",
+                "sec_num": null
+            },
+            {
+                "text": "A genome-wide analysis of hypoxia-binding sites in protein coding genes in the hypoxia-tolerant species C. carpio was performed. All mined HRE and HRE with HAS were analyzed with Position Weight Matrices (PMW-based) tool for motif validation. Further, the results were compared with differentially expressed genes under hypoxia in zebrafish and reported HIG of humans for the identification of bonafide HBS. Additionally, the localization of possible HBS in different core, proximal and distal promoter regions was also explored in the comparative analysis. The results of analysis are available on the web server that can be seen using HREExplorer for each chromosome. The web browser also facilitates a comparative analysis of HRE regions between orthologous genes of C. carpio versus zebrafish and C. carpio versus human. The outcome of the genome-wide analysis and HRE identification of the possible HBS in 5 kb upstream sequences of protein coding genes in C. carpio are useful for performing comparative analysis and validating the findings in other fishes. More hypoxia-responsive genes reported in zebrafish and human might be included in the future for comparative analysis and validating HBS in more genes of C. carpio. The information generated in undertaken species will help in evaluation of HIF targeted genes in the close relative species of the carp family, especially in Indian major carps. The functionality of the randomly distributed HRE site in the genome is not much explored in previous studies, but their distribution in the core and proximal promoters along with HAS might be functional sites in hypoxic gene regulation. The potential discovery of canonical HRE demonstrated under the context of genome-wide analysis would provide a foundation toward a better analysis for identifying hypoxia-responsive elements and their active involvement in hypoxia regulation.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "CONCLUSION",
+                "sec_num": null
+            },
+            {
+                "text": "IR, RK, and PS conceived the study and the conceptual design of the work. IR collected and compiled the data programmed for data mining and integration, designed the interface, and developed the database and application modules for browsing and analyzing the data. AKP tested the workflow model and application modules. RK, BK, MS, and MS supported for fish biology information. IR, AKP, and PS drafted the manuscript. All authors have read and approved the manuscript.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "AUTHOR CONTRIBUTIONS",
+                "sec_num": null
+            },
+            {
+                "text": "July 2019 | Volume 10 | Article 659 Frontiers in Genetics | www.frontiersin.org",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "July | Volume 10 | Article 659 Frontiers in Genetics | www.frontiersin.org",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "The authors are thankful to the Director of ICAR-NBFGR (Lucknow) for providing necessary facilities to carry out this work. The authors are also thankful to the CABin Scheme of ICAR and CABin, ICAR-IASRI (New Delhi) for financial assistance and guidance. The authors are indebted to Dr. Naresh S. Nagpure, Principal Scientist, ICAR-CIFE (Mumbai) for his support, guidance, and suggestions during the accomplishment of the work. The authors are grateful to Drs. Satarudra Prakash Singh and Vineet Awasthi (Amity University Uttar Pradesh, Lucknow) for their continued suggestions. The authors are also thankful to Mrs. Reeta Chaturvedi and Mr. Ravi Kumar (ICAR-NBFGR) for hosting the HREExplorer on the server at ICAR-NBFGR, Lucknow.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "ACKNOWLEDGMENTS",
+                "sec_num": null
+            },
+            {
+                "text": "The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Conflict of Interest Statement:",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "Mapping program that uses a list of human HKGs to match identical gene symbols with C. carpio and zebrafish. The results of this program produces the matched gene symbol list of C. carpio and zebrafish",
+                "authors": [
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Hkgenemapper",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "HKgeneMapper.pl Mapping program that uses a list of human HKGs to match identical gene symbols with C. carpio and zebrafish. The results of this program produces the matched gene symbol list of C. carpio and zebrafish (HKG).",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "pl Collects mRNA IDs of listed genes",
+                "authors": [
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Spmrnaidscollect",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "SpmRNAIDsCollect.pl Collects mRNA IDs of listed genes.",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "pl Performs alignment of all mRNA of C. carpio with \"DrHKdb,\" a Blast dataset of mRNA of HKGs of zebrafish. It generates a list of HKG ID of C",
+                "authors": [
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Blastparse",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "BlastParse.pl Performs alignment of all mRNA of C. carpio with \"DrHKdb,\" a Blast dataset of mRNA of HKGs of zebrafish. It generates a list of HKG ID of C. carpio on significant Blast hits.",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "pl Generates lists of \"GeneIDs\" and genomic accession IDs",
+                "authors": [
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Genomicacclist",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "GenomicAccList.pl Generates lists of \"GeneIDs\" and genomic accession IDs.",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Splits the downloaded genomic files into individual genomic sequences in.fasta and.gb format 6. UpstreamParse.pl Parses upstream sequences of genes using reverse complement method for minus strand",
+                "authors": [
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Parsegenomicfilegbnfasta",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "ParseGenomicFileGBnFASTA.pl Splits the downloaded genomic files into individual genomic sequences in.fasta and.gb format 6. UpstreamParse.pl Parses upstream sequences of genes using reverse complement method for minus strand.",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "Counts the nucleotide bases and computes CG percentage of one or multiple.fasta format sequences given in a single file. 8. HREFinder.pl Computes the motifs HRE and HRE with HAS along with their localized information in different promoter regions in a set of promoter (upstream) sequences",
+                "authors": [
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Basecount",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "BaseCount.pl Counts the nucleotide bases and computes CG percentage of one or multiple.fasta format sequences given in a single file. 8. HREFinder.pl Computes the motifs HRE and HRE with HAS along with their localized information in different promoter regions in a set of promoter (upstream) sequences.",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "Uses output file of HREFinder.pl to evaluate localization coordinates of gene, upstream, 30 nt HRE sub-string, HRE motif, HAS motif, and E-box motif on chromosome",
+                "authors": [
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Positionevaluate",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "PositionEvaluate.pl Uses output file of HREFinder.pl to evaluate localization coordinates of gene, upstream, 30 nt HRE sub-string, HRE motif, HAS motif, and E-box motif on chromosome.",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "GFFFileHREandHAS.pl Generates.gff file for HRE motifs and HRE with HAS in the upstream of genes. 12. MotifClust.pl Generates separate input files for Venny to cluster results in a Venn diagram. 13. MemeAnalysisDataset.pl Generates a homologous dataset with 100 nt of either side of HRE from different upstream sequences for MEME analysis. 14. DatabaseCreation.pl Creates a different table of \"carphre\" database for storing the record",
+                "authors": [
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Gfffilegeneupstrm",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Generates",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "UniGene2geneid.pl Uses UniGene dataset of zebrafish to extract gene ID and record",
+                "volume": "11",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "GFFFileGeneUpstrm.pl Generates.gff file of gene and upstream in the genome. 11. GFFFileHREandHAS.pl Generates.gff file for HRE motifs and HRE with HAS in the upstream of genes. 12. MotifClust.pl Generates separate input files for Venny to cluster results in a Venn diagram. 13. MemeAnalysisDataset.pl Generates a homologous dataset with 100 nt of either side of HRE from different upstream sequences for MEME analysis. 14. DatabaseCreation.pl Creates a different table of \"carphre\" database for storing the record. 15. UniGene2geneid.pl Uses UniGene dataset of zebrafish to extract gene ID and record.",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "pl Generates a list of mRNA IDs, including all variants of gene. 17. ParsemRNAFileGBnFASTA.pl Splits each mRNA file into separate GB and.fasta file. 18. mRNAID2GeneID.pl Uses mRNA accession from alignment file and generates their gene list. 19. HsCc_ComparativeAnalysis.pl Performs comparative analysis between mRNA of HIG of human and mRNA of all protein coding genes of C",
+                "authors": [
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Geneid2mrnaid",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "GeneID2mRNAID.pl Generates a list of mRNA IDs, including all variants of gene. 17. ParsemRNAFileGBnFASTA.pl Splits each mRNA file into separate GB and.fasta file. 18. mRNAID2GeneID.pl Uses mRNA accession from alignment file and generates their gene list. 19. HsCc_ComparativeAnalysis.pl Performs comparative analysis between mRNA of HIG of human and mRNA of all protein coding genes of C. carpio. 20. GeneratesHumanHIGinfotable.pl Generates HIG information along with computed information on upstream and HRE site.",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "FIGURE 2 | Bar diagram showing HRE distribution pattern of (A) all canonical HREs in different promoter regions (B) zoomed in -400;+100 region",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "References Altschul",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Gish",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Miller",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Myers",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Lipman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1990,
+                "venue": "J. Mol. Biol",
+                "volume": "215",
+                "issue": "",
+                "pages": "80360--80362",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/S0022-2836(05)80360-2"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "FIGURE 2 | Bar diagram showing HRE distribution pattern of (A) all canonical HREs in different promoter regions (B) zoomed in -400;+100 region. REFERENCES Altschul, S. F., Gish, W., Miller, W., Myers, E. W., and Lipman, D. J. (1990). Basic local alignment search tool. J. Mol. Biol. 215, 403-410. doi: 10.1016/ S0022-2836(05)80360-2",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "An integrative genomics approach identifies hypoxia inducible factor-1 (HIF-1)-target genes that form the core response to hypoxia",
+                "authors": [
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Benita",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Kikuchi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Smith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "Q"
+                        ],
+                        "last": "Zhang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Chung",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Xavier",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Nucleic Acids Res",
+                "volume": "37",
+                "issue": "",
+                "pages": "4587--4602",
+                "other_ids": {
+                    "DOI": [
+                        "10.1093/nar/gkp425"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Benita, Y., Kikuchi, H., Smith, A. D., Zhang, M. Q., Chung, D. C., and Xavier, R. J. (2009). An integrative genomics approach identifies hypoxia inducible factor-1 (HIF-1)-target genes that form the core response to hypoxia. Nucleic Acids Res. 37, 4587-4602. doi: 10.1093/nar/gkp425",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "The tree of life and a new classification of bony fishes",
+                "authors": [
+                    {
+                        "first": "-",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Betancur",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Broughton",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Wiley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "O"
+                        ],
+                        "last": "Carpenter",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "L\u00f3pez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Li",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "PLoS Curr",
+                "volume": "5",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1371/currents.tol.53ba26640df0ccaee75bb165c8c26288"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Betancur-R., R., Broughton, R. E., Wiley, E. O., Carpenter, K., L\u00f3pez, J. A., Li, C., et al. (2013). The tree of life and a new classification of bony fishes. PLoS Curr. 5. doi: 10.1371/currents.tol.53ba26640df0ccaee75bb165c8c26288",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "Gene: a gene-centered information resource at NCBI",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Brown",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "Hem",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Katz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Ovetsky",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Wallin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Ermolaeva",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Nucleic Acids Res",
+                "volume": "43",
+                "issue": "",
+                "pages": "36--42",
+                "other_ids": {
+                    "DOI": [
+                        "10.1093/nar/gku1055"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Brown, G. R., Hem, V., Katz, K. S., Ovetsky, M., Wallin, C., Ermolaeva, O., et al. (2015). Gene: a gene-centered information resource at NCBI. Nucleic Acids Res. 43, D36-42. doi: 10.1093/nar/gku1055",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "The RNA polymerase II core promoter: a key component in the regulation of gene expression",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Butler",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Kadonaga",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Genes Dev",
+                "volume": "16",
+                "issue": "",
+                "pages": "2583--2592",
+                "other_ids": {
+                    "DOI": [
+                        "10.1101/gad.1026202"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Butler, J. E., and Kadonaga, J. T. (2002). The RNA polymerase II core promoter: a key component in the regulation of gene expression. Genes Dev. 16, 2583-2592. doi: 10.1101/gad.1026202",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "Genome-wide analysis of mammalian promoter architecture and evolution",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Carninci",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Sandelin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Lenhard",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Katayama",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Shimokawa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Ponjavic",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Nat Genet",
+                "volume": "38",
+                "issue": "",
+                "pages": "626--635",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/ng1789"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Carninci, P., Sandelin, A., Lenhard, B., Katayama, S., Shimokawa, K., Ponjavic, J., et al. (2006). Genome-wide analysis of mammalian promoter architecture and evolution. Nat Genet. 38, 626-635. doi: 10.1038/ng1789",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Identification of hypoxia-response element in the human endothelial nitric-oxide synthase gene promoter",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Coulet",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Nadaud",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Agrapart",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Soubrier",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "J. Biol. Chem",
+                "volume": "278",
+                "issue": "",
+                "pages": "46230--46240",
+                "other_ids": {
+                    "DOI": [
+                        "10.1074/jbc.M305420200"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Coulet, F., Nadaud, S., Agrapart, M., and Soubrier, F. (2003). Identification of hypoxia-response element in the human endothelial nitric-oxide synthase gene promoter. J. Biol. Chem. 278, 46230-46240. doi: 10.1074/jbc.M305420200",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Transcriptional regulation by hypoxia inducible factors",
+                "authors": [
+                    {
+                        "first": "V",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Dengler",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Galbraith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Espinosa",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Crit Rev Biochem Mol Biol",
+                "volume": "49",
+                "issue": "",
+                "pages": "1--15",
+                "other_ids": {
+                    "DOI": [
+                        "10.3109/10409238.2013.838205"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Dengler, V. L., Galbraith, M., and Espinosa, J. M. (2014). Transcriptional regulation by hypoxia inducible factors. Crit Rev Biochem Mol Biol. 49, 1-15. doi: 10.3109/10409238.2013.838205",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "Human housekeeping genes, revisited",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Eisenberg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "Y"
+                        ],
+                        "last": "Levanon",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Trends Genet",
+                "volume": "29",
+                "issue": "",
+                "pages": "569--574",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/j.tig.2013.05.010"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Eisenberg, E., and Levanon, E. Y. (2013). Human housekeeping genes, revisited. Trends Genet. 29, 569-574. doi: 10.1016/j.tig.2013.05.010",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "Pseudo-de novo assembly and analysis of unmapped genome sequence reads in wild zebrafish reveal novel gene content",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Faber-Hammond",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Brown",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Zebrafish",
+                "volume": "13",
+                "issue": "",
+                "pages": "95--102",
+                "other_ids": {
+                    "DOI": [
+                        "10.1089/zeb.2015.1154"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Faber-Hammond, J. J., and Brown, K. H. (2016). Pseudo-de novo assembly and analysis of unmapped genome sequence reads in wild zebrafish reveal novel gene content. Zebrafish 13, 95-102. doi: 10.1089/zeb.2015.1154",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "Hypoxia/ ischemia and the regulation of neuroglobin and cytoglobin expression",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Fordel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Geuens",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Dewilde",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "De Coen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Moens",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "IUBMB Life",
+                "volume": "56",
+                "issue": "",
+                "pages": "681--687",
+                "other_ids": {
+                    "DOI": [
+                        "10.1080/15216540500037406"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Fordel, E., Geuens, E., Dewilde, S., De Coen, W., and Moens, L. (2004). Hypoxia/ ischemia and the regulation of neuroglobin and cytoglobin expression. IUBMB Life 56, 681-687. doi: 10.1080/15216540500037406",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "Genome-wide mapping of Hif-1\u03b1 binding sites in zebrafish",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Greenald",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Jeyakani",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Pelster",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Sealy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Mathavan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Van Eeden",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "BMC Genomics",
+                "volume": "16",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1186/s12864-015-2169-x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Greenald, D., Jeyakani, J., Pelster, B., Sealy, I., Mathavan, S., and van Eeden, F. J. (2015). Genome-wide mapping of Hif-1\u03b1 binding sites in zebrafish. BMC Genomics 16, 923. doi: 10.1186/s12864-015-2169-x",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "The hypoxic response: huffing and HIFing",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Guillemin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Krasnow",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Cell",
+                "volume": "89",
+                "issue": "",
+                "pages": "9--12",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/S0092-8674(00)80176-2"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Guillemin, K., and Krasnow, M. A. (1997). The hypoxic response: huffing and HIFing. Cell 89, 9-12. doi: 10.1016/S0092-8674(00)80176-2",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "Comparison of the exomes of common carp (Cyprinus carpio) and zebrafish (Danio rerio)",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Henkel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Dirks",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Jansen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Forlenza",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Wiegertjes",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Howe",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Zebrafish",
+                "volume": "9",
+                "issue": "",
+                "pages": "59--67",
+                "other_ids": {
+                    "DOI": [
+                        "10.1089/zeb.2012.0773"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Henkel, C. V., Dirks, R. P., Jansen, H. J., Forlenza, M., Wiegertjes, G. F., Howe, K., et al. (2012). Comparison of the exomes of common carp (Cyprinus carpio) and zebrafish (Danio rerio). Zebrafish 9, 59-67. doi: 10.1089/zeb.2012.0773",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "Regulation of gene expression via the core promoter and the basal transcriptional machinery",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Juven-Gershon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Kadonaga",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Dev Biol",
+                "volume": "339",
+                "issue": "",
+                "pages": "225--229",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/j.ydbio.2009.08.009"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Juven-Gershon, T., and Kadonaga, J. T. (2010). Regulation of gene expression via the core promoter and the basal transcriptional machinery. Dev Biol. 339, 225- 229. doi: 10.1016/j.ydbio.2009.08.009",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "Understanding hypoxia-induced gene expression in early development: in vitro and in vivo analysis of hypoxiainducible factor 1-regulated zebra fish insulin-like growth factor binding protein 1 gene expression",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Kajimura",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Aida",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Duan",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Mol. Cell Biol",
+                "volume": "26",
+                "issue": "",
+                "pages": "1142--1155",
+                "other_ids": {
+                    "DOI": [
+                        "10.1128/MCB.26.3.1142-1155.2006"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Kajimura, S., Aida, K., and Duan, C. (2006). Understanding hypoxia-induced gene expression in early development: in vitro and in vivo analysis of hypoxia- inducible factor 1-regulated zebra fish insulin-like growth factor binding protein 1 gene expression. Mol. Cell Biol. 26, 1142-1155. doi: 10.1128/ MCB.26.3.1142-1155.2006",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "Identification of hypoxia-inducible factor 1 ancillary sequence and its function in vascular endothelial growth factor gene induction by hypoxia and nitric oxide",
+                "authors": [
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Kakuta",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Namba",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Uematsu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Murachi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "; -U Kimura",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Weisz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Ogura",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Hitomi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Kurashima",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Hashimoto",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1992,
+                "venue": "Cyprinus carpio. Comp. Biochem. Physiol. Comp. Physiol",
+                "volume": "101",
+                "issue": "",
+                "pages": "2292--2298",
+                "other_ids": {
+                    "DOI": [
+                        "10.1074/jbc.M008398200"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Kakuta, I., Namba, K., Uematsu, K., and Murachi, S. (1992). Effects of hypoxia on renal function in carp, Cyprinus carpio. Comp. Biochem. Physiol. Comp. Physiol. 101, 769-74. doi: 10.1016/0300-9629(92)90356-U Kimura, H., Weisz, A., Ogura, T., Hitomi, Y., Kurashima, Y., Hashimoto, K., et al. (2001). Identification of hypoxia-inducible factor 1 ancillary sequence and its function in vascular endothelial growth factor gene induction by hypoxia and nitric oxide. J. Biol Chem. 276, 2292-2298. doi: 10.1074/jbc.M008398200",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "Characterization of a hypoxia-response element in the Epo locus of the pufferfish, Takifugu rubripes",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Kulkarni",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Tohari",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Ho",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Brenner",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Venkatesh",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Mar. Genomics",
+                "volume": "3",
+                "issue": "",
+                "pages": "63--70",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/j.margen.2010.05.001"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Kulkarni, R. P., Tohari, S., Ho, A., Brenner, S., and Venkatesh, B. (2010). Characterization of a hypoxia-response element in the Epo locus of the pufferfish, Takifugu rubripes. Mar. Genomics 3, 63-70. doi: 10.1016/j.margen. 2010.05.001",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "Hypoxia regulates vascular endothelial growth factor gene expression in endothelial cells. Identification of a 5\u2032 enhancer",
+                "authors": [
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Liu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Cox",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Morita",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Kourembanas",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "Circ. Res",
+                "volume": "77",
+                "issue": "",
+                "pages": "638--643",
+                "other_ids": {
+                    "DOI": [
+                        "10.1161/01.RES.77.3.638"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Liu, Y., Cox, S. R., Morita, T., and Kourembanas, S. (1995). Hypoxia regulates vascular endothelial growth factor gene expression in endothelial cells. Identification of a 5\u2032 enhancer. Circ. Res. 77, 638-643. doi: 10.1161/01. RES.77.3.638",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "MEME-ChIP: motif analysis of large DNA datasets",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Machanick",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Bailey",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Bioinformatics",
+                "volume": "27",
+                "issue": "",
+                "pages": "1696--1697",
+                "other_ids": {
+                    "DOI": [
+                        "10.1093/bioinformatics/btr189"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Machanick, P., and Bailey, T. L. (2011). MEME-ChIP: motif analysis of large DNA datasets. Bioinformatics 27, 1696-1697. doi: 10.1093/bioinformatics/btr189",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "FIH-1: a novel protein that interacts with HIF-1alpha and VHL to mediate repression of HIF-1 transcriptional activity",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Mahon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Hirota",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Semenza",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Genes Dev",
+                "volume": "15",
+                "issue": "",
+                "pages": "2675--2686",
+                "other_ids": {
+                    "DOI": [
+                        "10.1101/gad.924501"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Mahon, P. C., Hirota, K., and Semenza, G. L. (2001). FIH-1: a novel protein that interacts with HIF-1alpha and VHL to mediate repression of HIF-1 transcriptional activity. Genes Dev. 15, 2675-2686. doi: 10.1101/gad.924501",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "Transcriptional regulation of vascular endothelial cell responses to hypoxia by HIF-1",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Manalo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Rowan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Lavoie",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Natarajan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Kelly",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "Q"
+                        ],
+                        "last": "Ye",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Blood",
+                "volume": "105",
+                "issue": "",
+                "pages": "659--669",
+                "other_ids": {
+                    "DOI": [
+                        "10.1182/blood-2004-07-2958"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Manalo, D. J., Rowan, A., Lavoie, T., Natarajan, L., Kelly, B. D., Ye, S. Q., et al. (2005). Transcriptional regulation of vascular endothelial cell responses to hypoxia by HIF-1. Blood 105, 659-669. doi: 10.1182/blood-2004-07-2958",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "Genome-wide association of hypoxia-inducible factor (HIF)-1alpha and HIF-2alpha DNA binding with expression profiling of hypoxia-inducible transcripts",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Mole",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Blancher",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Copley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Pollard",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Gleadle",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Ragoussis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "J. Biol. Chem",
+                "volume": "284",
+                "issue": "",
+                "pages": "16767--16775",
+                "other_ids": {
+                    "DOI": [
+                        "10.1074/jbc.M901790200"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Mole, D. R., Blancher, C., Copley, R. R., Pollard, P. J., Gleadle, J. M., Ragoussis, J., et al. (2009). Genome-wide association of hypoxia-inducible factor (HIF)-1alpha and HIF-2alpha DNA binding with expression profiling of hypoxia-inducible transcripts. J. Biol. Chem. 284, 16767-16775. doi: 10.1074/jbc.M901790200",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "Database resources of the National Center for Biotechnology Information",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Mount",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Nucleic Acids Res",
+                "volume": "45",
+                "issue": "D1",
+                "pages": "12--17",
+                "other_ids": {
+                    "DOI": [
+                        "10.1093/nar/gkw1071"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Mount, D. W. (2007). Using the Basic Local Alignment Search Tool (BLAST). CSH Protoc. 2007, pdb.top17. doi: 10.1101/pdb.top17 NCBI Resource Coordinators (2017). Database resources of the National Center for Biotechnology Information. Nucleic Acids Res. 45 (D1), D12-D17. doi: 10.1093/nar/gkw1071",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "Oxygen-dependent gene expression in fishes",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Nikinmaa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Rees",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Am. J. Physiol. Regul. Integr. Comp. Physiol",
+                "volume": "288",
+                "issue": "",
+                "pages": "1079--1090",
+                "other_ids": {
+                    "DOI": [
+                        "10.1152/ajpregu.00626.2004"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Nikinmaa, M., and Rees, B. B. (2005). Oxygen-dependent gene expression in fishes. Am. J. Physiol. Regul. Integr. Comp. Physiol. 288, R1079-1090. doi: 10.1152/ajpregu.00626.2004",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "Hypoxia in paradise: widespread hypoxia tolerance in coral reef fishes",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Nilsson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Ostlund-Nilsson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Proc. R. Soc. London B-Biol. Sci",
+                "volume": "271",
+                "issue": "",
+                "pages": "30--33",
+                "other_ids": {
+                    "DOI": [
+                        "10.1098/rsbl.2003.0087"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Nilsson, G. E., and Ostlund-Nilsson, S. (2004). Hypoxia in paradise: widespread hypoxia tolerance in coral reef fishes. Proc. R. Soc. London B-Biol. Sci. 271, S30- S33. doi: 10.1098/rsbl.2003.0087",
+                "links": null
+            },
+            "BIBREF35": {
+                "ref_id": "b35",
+                "title": "Venny. An interactive tool for comparing lists with Venn's diagrams",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Oliveros",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Oliveros, J. C. (2007-2015). Venny. An interactive tool for comparing lists with Venn's diagrams. http://bioinfogp.cnb.csic.es/tools/venny/index.html.",
+                "links": null
+            },
+            "BIBREF37": {
+                "ref_id": "b37",
+                "title": "Genome-wide identification of hypoxia-inducible factor binding sites and target genes by a probabilistic model integrating transcription-profiling data and in silico binding site prediction",
+                "authors": [],
+                "year": null,
+                "venue": "Nucleic Acids Res",
+                "volume": "38",
+                "issue": "",
+                "pages": "2332--2345",
+                "other_ids": {
+                    "DOI": [
+                        "10.1093/nar/gkp1205"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Genome-wide identification of hypoxia-inducible factor binding sites and target genes by a probabilistic model integrating transcription-profiling data and in silico binding site prediction. Nucleic Acids Res. 38, 2332-2345. doi: 10.1093/nar/gkp1205",
+                "links": null
+            },
+            "BIBREF38": {
+                "ref_id": "b38",
+                "title": "Glucose, lactate and pyruvate metabolism in Labeo rohita with reference to ambient oxygen",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Padmavathy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Ramanathan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Francis",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Asian Fisheries Sci",
+                "volume": "16",
+                "issue": "",
+                "pages": "51--58",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Padmavathy, P., Ramanathan, N., and Francis, T. (2009). Glucose, lactate and pyruvate metabolism in Labeo rohita with reference to ambient oxygen. Asian Fisheries Sci. 16, 51-58.",
+                "links": null
+            },
+            "BIBREF39": {
+                "ref_id": "b39",
+                "title": "Functional conservation of erythropoietin signaling in zebrafish",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Paffett-Lugassy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Hsia",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Fraenkel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Paw",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Leshinsky",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Barut",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Blood",
+                "volume": "110",
+                "issue": "",
+                "pages": "2718--2726",
+                "other_ids": {
+                    "DOI": [
+                        "10.1182/blood-2006-04-016535"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Paffett-Lugassy, N., Hsia, N., Fraenkel, P. G., Paw, B., Leshinsky, I., Barut, B., et al. (2007). Functional conservation of erythropoietin signaling in zebrafish. Blood 110, 2718-2726. doi: 10.1182/blood-2006-04-016535",
+                "links": null
+            },
+            "BIBREF41": {
+                "ref_id": "b41",
+                "title": "Gene evolution and gene expression after whole genome duplication in fish: the PhyloFish database",
+                "authors": [],
+                "year": null,
+                "venue": "BMC Genomics",
+                "volume": "17",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1186/s12864-016-2709-z"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Gene evolution and gene expression after whole genome duplication in fish: the PhyloFish database. BMC Genomics 17, 368. doi: 10.1186/s12864-016-2709-z",
+                "links": null
+            },
+            "BIBREF42": {
+                "ref_id": "b42",
+                "title": "An introduction to sequence similarity (\"homology\") searching",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Pearson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Curr Protoc. Bioinformatics",
+                "volume": "42",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1002/0471250953.bi0301s42"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Pearson, W. R. (2013). An introduction to sequence similarity (\"homology\") searching. Curr Protoc. Bioinformatics 42, 3.1.1-3.1.8. doi: 10.1002/0471250953. bi0301s42",
+                "links": null
+            },
+            "BIBREF43": {
+                "ref_id": "b43",
+                "title": "Gas transport and gill function in water breathing fish",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Perry",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Esbaugh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Braun",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Gilmour",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Cardio-respiratory control in vertebrates",
+                "volume": "",
+                "issue": "",
+                "pages": "5--35",
+                "other_ids": {
+                    "DOI": [
+                        "10.1007/978-3-540-93985-6_2"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Perry, S. F., Esbaugh, A., Braun, M., and Gilmour, K. M. (2009). \"Gas transport and gill function in water breathing fish, \" in Cardio-respiratory control in vertebrates. Eds. M. L. Glass and S. C. Wood (Berlin: Springer-Verlag), 5-35. doi: 10.1007/978-3-540-93985-6_2",
+                "links": null
+            },
+            "BIBREF44": {
+                "ref_id": "b44",
+                "title": "Identification of a functional hypoxia-responsive element that regulates the expression of the egl nine homologue 3 (egln3/phd3) gene",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Pescador",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Cuevas",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Naranjo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Alcaide",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Villar",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "O"
+                        ],
+                        "last": "Land\u00e1zuri",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Biochem J",
+                "volume": "390",
+                "issue": "",
+                "pages": "189--197",
+                "other_ids": {
+                    "DOI": [
+                        "10.1042/BJ20042121"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Pescador, N., Cuevas, Y., Naranjo, S., Alcaide, M., Villar, D., Land\u00e1zuri, M. O., et al. (2005). Identification of a functional hypoxia-responsive element that regulates the expression of the egl nine homologue 3 (egln3/phd3) gene. Biochem J. 390, 189-197. doi: 10.1042/BJ20042121",
+                "links": null
+            },
+            "BIBREF45": {
+                "ref_id": "b45",
+                "title": "HRGFish: a database of hypoxia responsive genes in fishes",
+                "authors": [
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Rashid",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Nagpure",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Srivastava",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Kumar",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Pathak",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Singh",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Sci. Rep",
+                "volume": "137",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/srep42346"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Rashid, I., Nagpure, N. S., Srivastava, P., Kumar, R., Pathak, A. K., Singh, M., et al. (2017a). HRGFish: a database of hypoxia responsive genes in fishes. Sci. Rep. 137, 42346. doi: 10.1038/srep42346",
+                "links": null
+            },
+            "BIBREF46": {
+                "ref_id": "b46",
+                "title": "HREFinder: a tool for quarrying hypoxia-response element in genomic sequences",
+                "authors": [
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Rashid",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Nagpure",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Srivastava",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Pathak",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Kumar",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Baisvar",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Int. J. Curr. Microbiol. App. Sci",
+                "volume": "6",
+                "issue": "",
+                "pages": "1580--1586",
+                "other_ids": {
+                    "DOI": [
+                        "10.20546/ijcmas.2017.607.190"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Rashid, I., Nagpure, N. S., Srivastava, P., Pathak, A. K., Kumar, R., Baisvar, V. S., et al. (2017b). HREFinder: a tool for quarrying hypoxia-response element in genomic sequences. Int. J. Curr. Microbiol. App. Sci. 6, 1580-1586. doi: 10.20546/ijcmas.2017.607.190",
+                "links": null
+            },
+            "BIBREF47": {
+                "ref_id": "b47",
+                "title": "Structure and sequence conservation of a putative hypoxia response element in the lactate dehydrogenase-B gene of Fundulus",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Rees",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Bowman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Schulte",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Biol. Bull",
+                "volume": "200",
+                "issue": "",
+                "pages": "247--251",
+                "other_ids": {
+                    "DOI": [
+                        "10.2307/1543505"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Rees, B. B., Bowman, J. A., and Schulte, P. M. (2001). Structure and sequence conservation of a putative hypoxia response element in the lactate dehydrogenase-B gene of Fundulus. Biol. Bull. 200, 247-251. doi: 10.2307/ 1543505",
+                "links": null
+            },
+            "BIBREF48": {
+                "ref_id": "b48",
+                "title": "A novel hypoxia-response element in the lactate dehydrogenase-B gene of the killifish Fundulus heteroclitus",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Rees",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Figueroa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Wiese",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Beckman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Schulte",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Comp. Biochem. Physiol. A Mol. Integr. Physiol",
+                "volume": "154",
+                "issue": "",
+                "pages": "70--77",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/j.cbpa.2009.05.001"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Rees, B. B., Figueroa, Y. G., Wiese, T. E., Beckman, B. S., and Schulte, P. M. (2009). A novel hypoxia-response element in the lactate dehydrogenase-B gene of the killifish Fundulus heteroclitus. Comp. Biochem. Physiol. A Mol. Integr. Physiol. 154, 70-77. doi: 10.1016/j.cbpa.2009.05.001",
+                "links": null
+            },
+            "BIBREF49": {
+                "ref_id": "b49",
+                "title": "Physiological, behavioral and biochemical adaptations of intertidal fishes to hypoxia",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Richards",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "J. Exp. Biol",
+                "volume": "214",
+                "issue": "",
+                "pages": "191--199",
+                "other_ids": {
+                    "DOI": [
+                        "10.1242/jeb.047951"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Richards, J. G. (2011). Physiological, behavioral and biochemical adaptations of intertidal fishes to hypoxia. J. Exp. Biol. 214, 191-199. doi: 10.1242/jeb.047951",
+                "links": null
+            },
+            "BIBREF50": {
+                "ref_id": "b50",
+                "title": "Regulatory regions in DNA: promoters, enhancers, silencers, and insulators",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Riethoven",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Methods Mol. Biol",
+                "volume": "674",
+                "issue": "",
+                "pages": "33--42",
+                "other_ids": {
+                    "DOI": [
+                        "10.1007/978-1-60761-854-6_3"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Riethoven, J. J. (2010). Regulatory regions in DNA: promoters, enhancers, silencers, and insulators. Methods Mol. Biol. 674, 33-42. doi: 10.1007/978-1-60761- 854-6_3",
+                "links": null
+            },
+            "BIBREF51": {
+                "ref_id": "b51",
+                "title": "The complexities of eukaryotic transcription initiation: regulation of preinitiation complex assembly",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Roeder",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1991,
+                "venue": "Trends Biochem. Sci",
+                "volume": "16",
+                "issue": "",
+                "pages": "402--408",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/0968-0004(91)90164-Q"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Roeder, R. G. (1991). The complexities of eukaryotic transcription initiation: regulation of preinitiation complex assembly. Trends Biochem. Sci. 16, 402-408. doi: 10.1016/0968-0004(91)90164-Q",
+                "links": null
+            },
+            "BIBREF52": {
+                "ref_id": "b52",
+                "title": "Fish genomics and biology",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Roest Crollius",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Weissenbach",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Genome Res",
+                "volume": "15",
+                "issue": "",
+                "pages": "1675--1682",
+                "other_ids": {
+                    "DOI": [
+                        "10.1101/gr.3735805"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Roest Crollius, H., and Weissenbach, J. (2005). Fish genomics and biology. Genome Res. 15, 1675-1682. doi: 10.1101/gr.3735805",
+                "links": null
+            },
+            "BIBREF53": {
+                "ref_id": "b53",
+                "title": "ZFIN, The zebrafish model organism database: updates and new directions",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Ruzicka",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Bradford",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Frazer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Howe",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Paddock",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Ramachandran",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Genesis",
+                "volume": "53",
+                "issue": "",
+                "pages": "498--509",
+                "other_ids": {
+                    "DOI": [
+                        "10.1002/dvg.22868"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Ruzicka, L., Bradford, Y. M., Frazer, K., Howe, D. G., Paddock, H., Ramachandran, S., et al. (2015). ZFIN, The zebrafish model organism database: updates and new directions. Genesis 53, 498-509. doi: 10.1002/dvg.22868",
+                "links": null
+            },
+            "BIBREF54": {
+                "ref_id": "b54",
+                "title": "Distal CpG islands can serve as alternative promoters to transcribe genes with silenced proximal promoters",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Sarda",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Das",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Vinson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Hannenhalli",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Genome Res",
+                "volume": "27",
+                "issue": "",
+                "pages": "553--566",
+                "other_ids": {
+                    "DOI": [
+                        "10.1101/gr.212050.116"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Sarda, S., Das, A., Vinson, C., and Hannenhalli, S. (2017). Distal CpG islands can serve as alternative promoters to transcribe genes with silenced proximal promoters. Genome Res. 27, 553-566. doi: 10.1101/gr.212050.116",
+                "links": null
+            },
+            "BIBREF55": {
+                "ref_id": "b55",
+                "title": "HIGh-resolution genome-wide mapping of HIF-binding sites by ChIP-seq",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Sch\u00f6del",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Oikonomopoulos",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Ragoussis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Pugh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Ratcliffe",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Mole",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Blood",
+                "volume": "117",
+                "issue": "",
+                "pages": "207--217",
+                "other_ids": {
+                    "DOI": [
+                        "10.1182/blood-2010-10-314427"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Sch\u00f6del, J., Oikonomopoulos, S., Ragoussis, J., Pugh, C. W., Ratcliffe, P. J., and Mole, D. R. (2011). HIGh-resolution genome-wide mapping of HIF-binding sites by ChIP-seq. Blood 117, e207-217. doi: 10.1182/blood-2010-10-314427",
+                "links": null
+            },
+            "BIBREF56": {
+                "ref_id": "b56",
+                "title": "Regulation of oxygen homeostasis by hypoxia-inducible factor 1",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Semenza",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Physiology (Bethesda)",
+                "volume": "24",
+                "issue": "",
+                "pages": "97--106",
+                "other_ids": {
+                    "DOI": [
+                        "10.1152/physiol.00045.2008"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Semenza, G. L. (2009). Regulation of oxygen homeostasis by hypoxia-inducible factor 1. Physiology (Bethesda) 24, 97-106. doi: 10.1152/physiol.00045.2008",
+                "links": null
+            },
+            "BIBREF57": {
+                "ref_id": "b57",
+                "title": "A nuclear factor induced by hypoxia via de novo protein-synthesis binds to the human erythropoietin gene enhancer at a site required for transcriptional activation",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Semenza",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Wang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1992,
+                "venue": "Mol. Cell Biol",
+                "volume": "12",
+                "issue": "",
+                "pages": "5447--5454",
+                "other_ids": {
+                    "DOI": [
+                        "10.1128/MCB.12.12.5447"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Semenza, G. L., and Wang, G. L. (1992). A nuclear factor induced by hypoxia via de novo protein-synthesis binds to the human erythropoietin gene enhancer at a site required for transcriptional activation. Mol. Cell Biol. 12, 5447-5454. doi: 10.1128/MCB.12.12.5447",
+                "links": null
+            },
+            "BIBREF58": {
+                "ref_id": "b58",
+                "title": "The RNA polymerase II core promoter",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Smale",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Kadonaga",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Annu. Rev. Biochem",
+                "volume": "72",
+                "issue": "",
+                "pages": "449--479",
+                "other_ids": {
+                    "DOI": [
+                        "10.1146/annurev.biochem.72.121801.161520"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Smale, S. T., and Kadonaga, J. T. (2003). The RNA polymerase II core promoter. Annu. Rev. Biochem. 72, 449-479. doi: 10.1146/annurev.biochem.72.121801.161520",
+                "links": null
+            },
+            "BIBREF59": {
+                "ref_id": "b59",
+                "title": "Characterization of a hypoxia-inducible factor (HIF-1alpha) from rainbow trout. Accumulation of protein occurs at normal venous oxygen tension",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Soitamo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Rabergh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Gassmann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Sistonen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Nikinmaa",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "J. Biol. Chem",
+                "volume": "276",
+                "issue": "",
+                "pages": "19699--19705",
+                "other_ids": {
+                    "DOI": [
+                        "10.1074/jbc.M009057200"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Soitamo, A. J., Rabergh, C. M., Gassmann, M., Sistonen, L., and Nikinmaa, M. (2001). Characterization of a hypoxia-inducible factor (HIF-1alpha) from rainbow trout. Accumulation of protein occurs at normal venous oxygen tension. J. Biol. Chem. 276, 19699-19705. doi: 10.1074/jbc.M009057200",
+                "links": null
+            },
+            "BIBREF60": {
+                "ref_id": "b60",
+                "title": "Cardiorespiratory responses of the common carp (Cyprinus carpio) to severe hypoxia at three acclimation temperatures",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Stecyk",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Farrell",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "J. Exp. Biol",
+                "volume": "205",
+                "issue": "",
+                "pages": "759--768",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Stecyk, J. A., and Farrell, A. P. (2002). Cardiorespiratory responses of the common carp (Cyprinus carpio) to severe hypoxia at three acclimation temperatures. J. Exp. Biol. 205, 759-768.",
+                "links": null
+            },
+            "BIBREF61": {
+                "ref_id": "b61",
+                "title": "Improving MEME via a twotiered significance analysis",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Tanaka",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Bailey",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "U",
+                        "middle": [],
+                        "last": "Keich",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Bioinformatics",
+                "volume": "30",
+                "issue": "",
+                "pages": "1965--1973",
+                "other_ids": {
+                    "DOI": [
+                        "10.1093/bioinformatics/btu163"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Tanaka, E., Bailey, T. L., and Keich, U. (2014). Improving MEME via a two- tiered significance analysis. Bioinformatics 30, 1965-1973. doi: 10.1093/ bioinformatics/btu163",
+                "links": null
+            },
+            "BIBREF62": {
+                "ref_id": "b62",
+                "title": "Cellular and molecular hypoxic response in common carp (Cyprinus carpio) exposed to linear alkylbenzene sulfonate at sublethal concentrations",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Tasaki",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Nakayama",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Shimizu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Yamada",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Suzuki",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Nishiyama",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Environ. Toxicol",
+                "volume": "32",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1002/tox.22217"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Tasaki, J., Nakayama, K., Shimizu, I., Yamada, H., Suzuki, T., Nishiyama, N., et al. (2017). Cellular and molecular hypoxic response in common carp (Cyprinus carpio) exposed to linear alkylbenzene sulfonate at sublethal concentrations. Environ. Toxicol. 32, 122-130. doi: 10.1002/tox.22217",
+                "links": null
+            },
+            "BIBREF63": {
+                "ref_id": "b63",
+                "title": "Growth of European sea bass (Dicentrarchus labrax L). under hypoxic and oscillating oxygen conditions",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Thetmeyer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "U",
+                        "middle": [],
+                        "last": "Waller",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Black",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Inselmann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Rosenthal",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "Aquaculture",
+                "volume": "174",
+                "issue": "99",
+                "pages": "28--37",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/S0044-8486(99)00028-9"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Thetmeyer, H., Waller, U., Black, K. D., Inselmann, S., and Rosenthal, H. (1999). Growth of European sea bass (Dicentrarchus labrax L). under hypoxic and oscillating oxygen conditions. Aquaculture 174, 355-367. doi: 10.1016/S0044- 8486(99) 00028-9",
+                "links": null
+            },
+            "BIBREF64": {
+                "ref_id": "b64",
+                "title": "The anoxia-tolerant Crucian carp (Carassius carassius L), \" in Hypoxia",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Vornanen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A W"
+                        ],
+                        "last": "Stecyk",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Nilsson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Vornanen, M., Stecyk, J. A. W., and Nilsson, G. (2009). \"The anoxia-tolerant Crucian carp (Carassius carassius L), \" in Hypoxia. Eds. J. G. Richards, A. P.",
+                "links": null
+            },
+            "BIBREF66": {
+                "ref_id": "b66",
+                "title": "Integration of oxygen signalling at the consensus HRE",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Wenger",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Stiehl",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Camenisch",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Sci STKE",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1126/stke.3062005re12"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Wenger, R. H., Stiehl, D. P., and Camenisch, G. (2005). Integration of oxygen signalling at the consensus HRE. Sci STKE 2005, re12. doi: 10.1126/stke.3062005re12",
+                "links": null
+            },
+            "BIBREF67": {
+                "ref_id": "b67",
+                "title": "Human, rat and mouse kidney cells express functional erythropoietin receptors",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Westenfelder",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Biddle",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Baranowski",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "Kidney Int",
+                "volume": "55",
+                "issue": "",
+                "pages": "808--820",
+                "other_ids": {
+                    "DOI": [
+                        "10.1046/j.1523-1755.1999.055003808.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Westenfelder, C., Biddle, D. L., and Baranowski, R. L. (1999). Human, rat and mouse kidney cells express functional erythropoietin receptors. Kidney Int. 55, 808-820. doi: 10.1046/j.1523-1755.1999.055003808.x",
+                "links": null
+            },
+            "BIBREF68": {
+                "ref_id": "b68",
+                "title": "Integrative analysis of HIF binding and transactivation reveals its role in maintaining histone methylation homeostasis",
+                "authors": [
+                    {
+                        "first": "X",
+                        "middle": [],
+                        "last": "Xia",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Lemieux",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Li",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Carroll",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Brown",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "X",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Liu",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Proc. Natl. Acad. Sci. U.S.A",
+                "volume": "106",
+                "issue": "",
+                "pages": "4260--4265",
+                "other_ids": {
+                    "DOI": [
+                        "10.1073/pnas.0810067106"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Xia, X., Lemieux, M. E., Li, W., Carroll, J. S., Brown, M., Liu, X. S., et al., et al. (2009). Integrative analysis of HIF binding and transactivation reveals its role in maintaining histone methylation homeostasis. Proc. Natl. Acad. Sci. U.S.A. 106, 4260-4265. doi: 10.1073/pnas.0810067106",
+                "links": null
+            },
+            "BIBREF69": {
+                "ref_id": "b69",
+                "title": "Genome sequence and genetic diversity of the common carp, Cyprinus carpio",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Xu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "X",
+                        "middle": [],
+                        "last": "Zhang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "X",
+                        "middle": [],
+                        "last": "Wang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Li",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Liu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Kuang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Nat Genet",
+                "volume": "46",
+                "issue": "",
+                "pages": "1212--1219",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/ng.3098"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Xu, P., Zhang, X., Wang, X., Li, J., Liu, G., Kuang, Y., et al. (2014). Genome sequence and genetic diversity of the common carp, Cyprinus carpio. Nat Genet. 46, 1212-1219. doi: 10.1038/ng.3098",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "text": "Data flow diagram of genome-wide hypoxia response element (HRE) analysis in C. carpio.",
+                "type_str": "figure",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF1": {
+                "text": "MEME-ChIP program categorized the obtained motifs into (A) HRE, (B) hypoxia ancillary sequence (HAS), and (C) E-box. (D) Clustered information on HRE, HRE with HAS, E-box, and E-box with HAS presented in the Venn diagram.",
+                "type_str": "figure",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF2": {
+                "text": "HREExplorer. (A) Genome-wide analysis of HRE in the promoter region of C. carpio. (B) Screenshot showing a comparative view of possible HIF binding sites (HBS) in the promoter of homologous gene in zebrafish and C. carpio. (C) Screenshot showing comparative view of possible HBS in the promoter of the homologous gene in humans and C. carpio.",
+                "type_str": "figure",
+                "num": null,
+                "uris": null
+            },
+            "TABREF0": {
+                "text": "List of hypoxia-inducible genes (HIGs) reported in humans.",
+                "type_str": "table",
+                "content": "<table><tr><td>S.N.</td><td>PubMed ID</td><td>Gene ID (symbol)</td><td>Chromosome</td><td>Upstream location</td><td>Total HRE</td></tr><tr><td/><td/><td/><td>(strand)</td><td/><td>sites</td></tr><tr><td>1.</td><td>8955077, 28610954, 27793029</td><td>226 (ALDOA)</td><td>16 (+)</td><td>30048190..30053190</td><td>8</td></tr><tr><td>2.</td><td>10777486, 15741220, 15031665</td><td>1356 (CP)</td><td>3 (\u2212)</td><td>149221945..149226945</td><td>5</td></tr><tr><td>3.</td><td>11278891, 10594042, 15615775</td><td>1387 (CREBBP)</td><td>16 (\u2212)</td><td>3880627..3885627</td><td>9</td></tr><tr><td>4.</td><td>23530034, 28478800, 18292194</td><td>1490 (CCN2)</td><td>6 (\u2212)</td><td>131951278..131956278</td><td>1</td></tr><tr><td>5.</td><td>11278891</td><td>1906 (EDN1)</td><td>6 (+)</td><td>12251563..12256563</td><td>4</td></tr><tr><td>6.</td><td>8955077, 26882120, 27765905</td><td>2023 (ENO1)</td><td>1 (\u2212)</td><td>8878586..8883586</td><td>11</td></tr><tr><td>7.</td><td>30781443, 17002676, 12239177</td><td>2056 (EPO)</td><td>7 (+)</td><td>100715900..100720900</td><td>4</td></tr><tr><td>8.</td><td>21382012, 24610033, 22866201</td><td>2321 (FLT1)</td><td>13 (\u2212)</td><td>28495028..28500028</td><td>8</td></tr><tr><td>9.</td><td>27765905</td><td>3099 (HK2)</td><td>2 (+)</td><td>74827755..74832755</td><td>1</td></tr><tr><td>10.</td><td>17887916, 27582105, 10814519</td><td>3162 (HMOX1)</td><td>22 (+)</td><td>35376167..35381167</td><td/></tr><tr><td>11.</td><td>21224490</td><td>3240 (HP)</td><td>16 (+)</td><td>72049692..72054692</td><td>3</td></tr><tr><td>12.</td><td>23844025, 7499259</td><td>3263 (HPX)</td><td>11 (\u2212)</td><td>6440924..6445924</td><td>2</td></tr><tr><td>13.</td><td>17509524, 27560636, 27487118</td><td>3479 (IGF1)</td><td>12 (\u2212)</td><td>102481739..102486739</td><td>3</td></tr><tr><td>14.</td><td>23363253</td><td>3638 (INSIG1)</td><td>7 (+)</td><td>155292872..155297872</td><td>11</td></tr><tr><td>15.</td><td>26269128, 26212717, 28193910</td><td>3939 (LDHA)</td><td>11 (+)</td><td>18389489..18394489</td><td>4</td></tr><tr><td>16.</td><td>8955077, 23437403, 25807933</td><td>3945 (LDHB)</td><td>12 (\u2212)</td><td>21657871..21662871</td><td>2</td></tr><tr><td>17.</td><td>30547064, 25684657, 21450070</td><td>(LEP)</td><td>7 (+)</td><td>128236301..128241301</td><td>7</td></tr><tr><td>18.</td><td>19307731, 21930697, 24026678</td><td>4151 (MB)</td><td>22 (\u2212)</td><td>35623254..35628254</td><td>5</td></tr><tr><td>19.</td><td>18206644</td><td>4504 (MT3)</td><td>16 (+)</td><td>56584437..56589437</td><td>5</td></tr><tr><td>20.</td><td>27765905</td><td>5230 (PGK1)</td><td>X (+)</td><td>78099269..78104269</td><td>8</td></tr><tr><td>21.</td><td>23363253</td><td>6236 (RRAD)</td><td>16 (\u2212)</td><td>66925436..66930436</td><td>5</td></tr><tr><td>22.</td><td>17442736, 15525582, 10401038</td><td>6513 (SLC2A1)</td><td>1 (\u2212)</td><td>42959076..42964076</td><td>4</td></tr><tr><td>23.</td><td>9242677, 26183475</td><td>7018 (TF)</td><td>3 (+)</td><td>133657086..133662086</td><td>4</td></tr><tr><td>24.</td><td>10446188</td><td>7037 (TFRC)</td><td>3 (\u2212)</td><td>196082061..196087061</td><td>7</td></tr><tr><td>25.</td><td>11056166, 10607702, 30781443</td><td>7422 (VEGFA)</td><td>6 (+)</td><td>43765309..43770309</td><td>5</td></tr><tr><td>26.</td><td>24037094, 19920186, 23363253</td><td>8660 (IRS2)</td><td>13 (\u2212)</td><td>109786467..109791467</td><td>2</td></tr><tr><td>27.</td><td>23363253</td><td>10458 (BAIAP2)</td><td>17 (+)</td><td>81030231..81035231</td><td>2</td></tr><tr><td>28.</td><td>27765905, 28760743</td><td>29923 (HILPDA)</td><td>7 (+)</td><td>128450930..128455930</td><td>9</td></tr><tr><td>29.</td><td>27765905</td><td>51537 (MTFP1)</td><td>22 (+)</td><td>30420723..30425723</td><td>7</td></tr><tr><td>30.</td><td>27765905</td><td>79001 (VKORC1)</td><td>16 (\u2212)</td><td>31094899..31099899</td><td>5</td></tr></table>",
+                "num": null
+            }
+        }
+    }
+}
