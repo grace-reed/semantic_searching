@@ -1,0 +1,2559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/grace/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Developmental and Comparative Immunology</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2020-04-26">26 April 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">T</forename><surname>Connelly</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Marine Biology and Ecology</orgName>
+								<orgName type="department" key="dep2">Rosenstiel School of Marine and Atmospheric Science</orgName>
+								<orgName type="institution">University of Miami</orgName>
+								<address>
+									<postCode>33145</postCode>
+									<settlement>Miami</settlement>
+									<region>FL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Crystal</forename><forename type="middle">J</forename><surname>Mcrae</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Biological Sciences</orgName>
+								<orgName type="institution">Simon Fraser University</orgName>
+								<address>
+									<postCode>V5A 1S6</postCode>
+									<settlement>Burnaby</settlement>
+									<region>British Columbia</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Natural Resources and Environmental Studies</orgName>
+								<orgName type="institution">National Dong Hwa University</orgName>
+								<address>
+									<postCode>974</postCode>
+									<settlement>Hualien</settlement>
+									<country key="TW">Taiwan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pi-Jen</forename><surname>Liu</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Graduate Institute of Marine Biology</orgName>
+								<orgName type="institution">National Dong Hwa University</orgName>
+								<address>
+									<postCode>944</postCode>
+									<settlement>Pingtung</settlement>
+									<country key="TW">Taiwan</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="institution">National Museum of Marine Biology and Aquarium</orgName>
+								<address>
+									<postCode>944</postCode>
+									<settlement>Pingtung</settlement>
+									<country key="TW">Taiwan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nikki</forename><surname>Traylor-Knowles</surname></persName>
+							<email>ntraylorknowles@rsmas.miami.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Marine Biology and Ecology</orgName>
+								<orgName type="department" key="dep2">Rosenstiel School of Marine and Atmospheric Science</orgName>
+								<orgName type="institution">University of Miami</orgName>
+								<address>
+									<postCode>33145</postCode>
+									<settlement>Miami</settlement>
+									<region>FL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Developmental and Comparative Immunology</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-04-26">26 April 2020</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.dci.2020.103717</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-09-14T06:07+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Coral Innate immunity Bacteria Microbiome Lipopolysaccharide</keywords>
+			</textClass>
+			<abstract>
+				<p>Corals are comprised of a coral host and associated microbes whose interactions are mediated by the coral innate immune system. The diversity of immune factors identified in the Pocillopora damicornis genome suggests that immunity is linked to maintaining microbial symbioses while also being able to detect pathogens. However, it is unclear which immune factors respond to specific microbe-associated molecular patterns and how these immune reactions simultaneously affect coral-associated bacteria. To investigate this, fragments of P. damicornis and P. acuta colonies from Taiwan were subjected to lipopolysaccharide (LPS) treatment to stimulate immune responses and measure bacteria community shifts. RNA-seq revealed genotype-specific immune responses to LPS involving the upregulation of immune receptors, transcription factors, and pore-forming toxins. Bacteria 16S sequencing revealed significantly different bacteria communities between coral genotypes but no differences in bacteria communities were caused by LPS. Our findings confirm that Pocillopora corals activate conserved immune factors in response to LPS and identify transcription factors coordinating Pocillopora corals&apos; immune responses. Additionally, the strong effect of coral genotype on gene expression and bacteria communities highlights the importance of coral genotype in the investigation of coral host-microbe interactions.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Interactions between animal hosts and their associated microbiomes are fundamental processes that influence host traits, ecology, and evolution <ref type="bibr" target="#b58">(Wilkins et al., 2019)</ref>. The innate immune system maintains homeostasis between the animal host and associated microbes by relying on pattern recognition receptors (PRRs) to detect microbe-associated molecular patterns (MAMPs) and activate downstream signaling cascades and effector responses <ref type="bibr" target="#b18">(Eberl, 2010;</ref><ref type="bibr" target="#b43">Nyholm and Graf, 2012)</ref>. Stony corals (Family Scleractinia) are ideal for the study of invertebrate host-microbe interactions, because of the diversity of associated symbiotic microbes, and because of the complex coral innate immune system <ref type="bibr" target="#b45">(Palmer and Traylor-Knowles, 2012;</ref><ref type="bibr" target="#b53">Thompson et al., 2015)</ref>. Corals associate with numerous microorganisms including endosymbiotic algae (Symbiodiniaceae), bacteria, viruses, and micro-eukaryotes <ref type="bibr" target="#b53">(Thompson et al., 2015)</ref>. One of the biggest outstanding questions in coral biology is how the coral innate immune system interacts with these symbiotic microorganisms when confronted with pathogens.</p><p>Scleractinian corals possess a complex innate immune system with numerous PRRs, signaling pathways and defense mechanisms activated in response to various MAMPs <ref type="bibr" target="#b45">(Palmer and Traylor-Knowles, 2012)</ref>. Pocillopora damicornis, a weedy Indo-Pacific coral, is a valuable model for investigation into coral innate immunity. The P. damicornis genome possesses a diversification of innate immunity genes <ref type="bibr" target="#b15">(Cunning et al., 2018)</ref>, and several P. damicornis transcriptomic studies have found an upregulation of innate immune genes such as Toll-like receptors (TLRs) in response to the coral pathogen Vibrio coralliilyticus <ref type="bibr" target="#b55">(Vidal-Dupiol et al., 2014</ref><ref type="bibr" target="#b61">Zhou et al., 2019)</ref>. This extensive diversification of innate immune genes is thought to be linked to the maintenance of specific coral-microbe symbioses <ref type="bibr" target="#b7">(Bhattacharya et al., 2016;</ref><ref type="bibr" target="#b15">Cunning et al., 2018;</ref><ref type="bibr" target="#b46">Poole and Weis, 2014;</ref><ref type="bibr" target="#b51">Shinzato et al., 2011)</ref>, however it is still not well understood how the immune system responds to other MAMPs beyond Vibrio coralliilyticus, or how these immune reactions may affect corals' native microbial community.</p><p>To examine how MAMP exposure can affect coral gene expression https://doi.org/10.1016/j.dci.2020.103717 Received 9 January 2020; Received in revised form 17 April 2020; Accepted 17 April 2020 T and native bacterial communities, the immune stimulant lipopolysaccharide (LPS) can be used. LPS is a potent endotoxin found in the cell walls of gram-negative bacteria <ref type="bibr" target="#b1">(Alexander and Rietschel, 2001;</ref><ref type="bibr" target="#b25">Gilmore, 2006)</ref>. Previously, LPS has been used to induce an innate immune response involving the activation of TLRs, lectins, and the NF-κB pathway in Indo-Pacific and Caribbean coral species <ref type="bibr" target="#b23">(Fuess et al., 2017</ref><ref type="bibr" target="#b22">(Fuess et al., , 2016</ref><ref type="bibr" target="#b34">Kvennefors et al., 2010;</ref><ref type="bibr" target="#b59">Williams et al., 2017)</ref>. However, these studies did not account for coral genotype-specific responses and did not examine the effects on coral-associated bacteria communities. To build on these previous studies, we examined the effects of LPS exposure on coral gene expression and bacteria community composition of four genotypes of Pocillopora from southern Taiwan. We found that LPS activates a common set of transcription factors, and that LPS exposure does not change the overall composition of the coral-associated bacteria. Additionally, we found evidence for genotype-specific immune responses and coral-associated bacterial communities, despite the common set of transcription factors. Overall, our results emphasize the importance of genotypic variation in coral immune responses and highlight the differences in bacteria communities associated with different coral genotypes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Coral study site, collection, fragmentation and acclimation</head><p>Pocillopora spp. coral colonies were collected from two reefs within Kenting National Park in southern Taiwan, Houwan (2 colonies: HW1, HW2) and Wanglitung (2 colonies: WT1, WT2) ( <ref type="figure">Supplementary Fig. 1</ref>). Colonies were brought to flow-through seawater systems under ambient sunlight at the National Museum of Marine Biology and Aquarium (NMMBA) and acclimated for a two-week period before fragmentation. Colonies were then split into 2 cm 2 fragments and allowed to recover for another three weeks.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Experimental LPS exposure</head><p>Triplicate fragments of each genotype were placed into individual autoclaved 400 mL glass jars filled with 1 μm-filtered seawater and randomly assigned to either the LPS exposure or seawater control treatments (24 fragments total). Blue and white LED lights were operated on a 12h:12h day/night cycle and temperature was maintained at 28°C for the 72-h duration of the experiment and was recorded at 1min intervals with HOBO® data loggers (Onset, MA, USA). Corals were exposed to 10 μg/mL LPS (E. coli O127:B8 LPS purified by phenol extraction, Sigma-Aldrich) over 4 h ( <ref type="figure">Supplementary Fig. 2</ref>), as in other studies that have used LPS to stimulate coral immunity <ref type="bibr" target="#b23">(Fuess et al., 2017</ref><ref type="bibr" target="#b22">(Fuess et al., , 2016</ref>. To attain a final concentration of 10 μg/mL, 1.6 mL of 2.5 mg/mL LPS stock solution was administered with a micropipette directly into the filtered seawater in each 400 mL jar. After LPS exposure fragments were sampled using stainless steel cutters that were cleaned in 70% ethanol between samples. Fragments were then preserved in RNA stabilization solution at room temperature for 30 min and then frozen at −80°C. Frozen samples were transported to the University of Miami Rosenstiel School of Marine and Atmospheric Science in coolers on dry ice for further processing.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">RNA extraction, cDNA library preparation and sequencing</head><p>Total mRNA was isolated from the coral fragments using the Qiagen RNeasy Kit. RNA concentration and purity were quantified using a NanoDrop 2000 spectrophotometer (ThermoFisher). cDNA was created using the Illumina TruSeq RNA Library Prep Kit v2 (Illumina) according to the manufacturer's protocol and quantified using the Qubit dsDNA BR kit (ThermoFisher Q32853). cDNA was then shipped overnight on dry ice to the University of Utah's Huntsman Cancer Center for 50-bp single-end sequencing on the Illumina HiSeq 2000 platform. A second sequencing batch was completed for 7 low-depth samples to obtain a minimum depth of 8 million reads, after which 23 samples (control treatment n = 11, LPS treatment n = 12) were analyzed.</p><p>2.4. RNAseq quality control, sequence alignment, and statistical analyses FASTQ files were checked for base pair quality using FASTQC, trimming of adapters and poor quality bases were done using Trimmomatic v0.36 <ref type="bibr" target="#b9">(Bolger et al., 2014)</ref>. Trimmed reads were aligned against the P. damicornis genome using STAR v2.5.3a in two-pass mode <ref type="bibr" target="#b15">(Cunning et al., 2018;</ref><ref type="bibr" target="#b17">Dobin et al., 2013)</ref>. Unsorted binary alignment map (BAM) files containing the aligned transcripts were quantified using the featureCounts command in the Subread program <ref type="bibr" target="#b37">(Liao et al., 2014)</ref>. Statistical analysis of differential gene expression was carried out in R version 3.5.2 using DESeq2 according to the de-sign~Batch + Genotype + Treatment <ref type="bibr" target="#b38">(Love et al., 2014)</ref>. Average log2-fold change (LFC) for each gene was estimated by comparing normalized gene expression counts between treatments. Significantly differentially expressed genes (DEGs) were identified based on a false discovery rate-adjusted p-value (FDR p adj ) cutoff of &lt; 0.01. Coral genotype-specific effects were examined with additional DESeq2 models:~Batch + Treatment.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">Pocillopora spp. mtORF haplotype identification</head><p>Pocillopora mitochondrial open reading frame (mtORF) sequences were extracted from coordinate-sorted BAM files for each genotype. A 904-bp consensus mtORF sequence was extracted for each genotype, and multiple sequence alignment was performed to identify the closest mtORF haplotype in GenBank ( <ref type="figure">Supplementary Fig. 3</ref>) <ref type="bibr" target="#b21">(Flot and Tillier, 2007;</ref><ref type="bibr" target="#b24">Gélin et al., 2017)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6.">Gene ontology functional enrichment analysis</head><p>Gene ontology (GO) enrichment was completed using topGO <ref type="bibr" target="#b0">(Alexa et al., 2006)</ref>. GO terms corresponding to the "Biological Process" (BP) were annotated to genes in the P. damicornis genome and tested for enrichment using the "weight01" algorithm in topGO, with significant enrichment determined using Fisher's exact tests and a significance threshold of p &lt; 0.05.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.7.">Bacteria DNA extraction and 16S rDNA amplicon sequencing</head><p>Total DNA was extracted using the Qiagen DNeasy PowerSoil kit from all fragments <ref type="bibr" target="#b57">(Weber et al., 2017)</ref>. PCR amplification of the V4 region of bacterial 16S gene using primers 515F and 806RB with singleindexed Illumina adapters according to the Earth Microbiome Project protocols <ref type="bibr" target="#b5">(Apprill et al., 2015)</ref>. PCR amplicons were checked on a 1.5% TE-agarose gel, and PCR amplicon concentration was determined using a Qubit dsDNA BR kit (ThermoFisher Q32853). All amplicons were purified using AMPure XP beads and 80% ethanol washes, then normalized to 4 nM and pooled for submission to the University of Miami Center for Genome Technology for 300 bp paired-end sequencing on the Illumina MiSeq.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.8.">Bacteria community 16S rRNA sequence assembly, quality control and taxonomic assignment</head><p>Raw 16S sequence reads were processed using the QIIME2 pipeline version 2020.2 and the plugin DADA2 <ref type="bibr" target="#b12">(Callahan et al., 2016)</ref> was used to remove primer sequences, trim poor-quality bases, dereplicate reads, identify chimeric sequences and merge paired-end reads. Bacterial 16S rRNA sequences were taxonomically classified using the plugin q2feature-classifier <ref type="bibr" target="#b8">(Bokulich et al., 2018</ref>) and a Naïve Bayes Classifier previously trained on the SILVA 16S rRNA database (Quast et al., 2013) QIIME2 release based on the 515F/806RB primer pair at the 99% level (available at https://docs.qiime2.org/2020.2/data-resources/). The plugin q2-taxa was used to remove all mitochondria and chloroplast sequences from the dataset, and the BIOM tables containing bacteria taxa counts, phylogenetic trees and sample metadata were exported from QIIME2 and imported into R for statistical analyses.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.9.">Bacteria community 16S rRNA statistical analyses</head><p>All bacteria community statistical analyses were conducted using R version 3.6.3 packages phyloseq, ggplot2, vegan, and ALDeX2 <ref type="bibr" target="#b20">(Fernandes et al., 2014;</ref><ref type="bibr" target="#b40">Mcmurdie and Holmes, 2013;</ref><ref type="bibr">Oksanen et al., 2019)</ref>. Bacteria community analyses were conducted at the amplicon sequence variant (ASV) level <ref type="bibr" target="#b11">(Callahan et al., 2017)</ref>, and raw sequences were not rarefied (McMurdie and Holmes, 2014). Alpha diversity was calculated using the Chao1 richness, Simpson evenness and Shannon diversity indices. Nonparametric Kruskal-Wallis tests were used to test for significant differences between treatments, reef sites, and coral genotypes <ref type="bibr" target="#b60">(Xia and Sun, 2017)</ref>. Beta diversity was calculated using Bray-Curtis dissimilarity matrices and visualized using Principal Coordinates Analysis (PCoA). Tests for homogeneity of multivariate dispersions (PERMDISP) <ref type="bibr" target="#b4">(Anderson et al., 2006)</ref> confirmed homogeneity of variances, and permutational analysis of molecular variance (PER-MANOVA) <ref type="bibr" target="#b2">(Anderson, 2017)</ref> was used to test for significant differences in beta diversity between treatments, reef sites and coral genotypes. Welch's t-tests implemented in ALDeX2 were used to test for differentially abundant bacterial ASVs between treatments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.10.">Sequence availability and analysis code</head><p>Raw mRNA and 16S amplicon sequence reads were deposited into the NCBI Sequence Read Archive (SRA) under accession PRJNA587509. All of the scripts written in bash and R programming languages used in the RNAseq and 16S data analysis are available on GitHub.</p><p>(https://github.com/michaeltconnelly/EAPSI_Pocillopora_LPS).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Differential gene expression analysis reveals LPS-responsive immune genes</head><p>cDNA library sequencing of the 24 Pocillopora spp. tissue samples yielded 328.3 million raw reads, additional sequencing read depth and mtORF haplotype results can be found in supplemental data (Supplementary <ref type="table">Table 1</ref>, <ref type="figure">Supplementary Fig. 3</ref>). In the overall comparison between LPS treatment and control treatment samples, there were 167 differentially expressed genes (DEGs) with a false-discoveryrate adjusted p-value less than 0.01. Of these 167 DEGs, 95 were upregulated (LFC &gt; 0, p adj &lt; 0.01) and 72 were down-regulated (LFC &lt; 0, p adj &lt; 0.01) <ref type="figure">(Fig. 1A)</ref>. Several upregulated DEGs were identified as immune genes, and could be classified as being involved in recognition, signaling, or effector responses (Supplementary <ref type="table">Table 2</ref>).</p><p>Five immune recognition genes were differentially expressed in response to LPS, including two TLRs, two Deleted-in Malignant Brain Tumors-1 (DMBT-1) and fibrinogen C-domain containing protein (FIBCD1) <ref type="bibr" target="#b54">(Thomsen et al., 2011)</ref>. Signaling intermediates and transcription factors were also significantly differentially expressed, including hepatic leukemia factor (HLF) and hairy/enhancer-of-split with YPRW motif (HEY), ETS-related transcription factors ELF-4 and ELK-1, phosphoinositide 3-kinase adapter protein 1 (PIK3AP1), and poly [ADPribose] polymerase (PARP-14). Additionally, several enzymatic effectors including laccase-4 enzyme (LCC4), heme-binding protein 2 (HEBP-2), membrane attack complex pore-forming (MACPF) domaincontaining proteins perforin-2 (MPEG-1) and DELTA-alicitoxin Pse2b (PsTX-60B) were differentially expressed in response to LPS.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Pocillopora spp. genotype differences are the primary source of variance in coral gene expression</head><p>A principal component analysis (PCA) of overall gene expression showed that the effect of Pocillopora spp. genotype was stronger than the effect of LPS exposure <ref type="figure">(Fig. 1B</ref>). HW1 and HW2 cluster separately from WT1 and WT2, with PC1 separating HW1 (P. damicornis type 8a) from the WT1 and WT2 and explaining 41% of the total variance and PC2 separating the HW2 (P. damicornis type 4a) samples and explaining 23% of the total variance. Both HW1 and HW2 appear to be more different than WT1 and WT2 (P. acuta type 5).</p><p>Genotype-specific DESeq2 models generated separate clusters from control and LPS, indicating a clear effect of LPS treatment on gene expression ( <ref type="figure">Supplementary Fig. 4</ref>). HW1 had 53 DEGs, and HW2 had 61 DEGs and only 8 DEGs were shared. WT1 had 69 DEGs and WT2 had 74 DEGs and only 14 DEGs were shared ( <ref type="figure">Fig. 2A)</ref>. In total 213 DEGs were detected in at least one genotype-specific DESeq2 model, and 322 DEGs were detected across the general LPS response model and the genotypespecific models ( <ref type="figure">Supplementary Fig. 5, Supplementary Table 3</ref>). Only 6 genes were consensus DEGs across four genotypes <ref type="figure">(Fig. 2B)</ref>.</p><p>Further analysis of the Venn diagram intersections of DEGs in each of the genotype specific DESeq2 models ( <ref type="figure">Fig. 2A</ref>) revealed remarkably unique DEG sets for each genotype in response to LPS. HW1 had 41 unique DEGs, and the HW2 had 41 unique DEGs. WT1 had 51 unique DEGs, and WT2 had 53 unique DEGs. Many of the unique genotypicspecific DEGs were identified as immune related including several Gprotein coupled receptors (GPCRs) only differentially expressed in HW2 or WT2, and ETS-like transcription factors only differentially expressed in HW1 (ELF-2) or WT2 (ELK-1) ( <ref type="figure">Supplementary Fig. 5</ref>, <ref type="figure">Supplementary  Table 3</ref>). <ref type="figure">Fig. 1</ref>. DESeq2 results reveal genotype-specific gene expression patterns and upregulation of coral innate immunity genes during LPS exposure. A. Volcano plot depicting differential gene expression between the control and LPS treatment. Log 2 fold-change (LFC) is on the x-axis, and the significance value (-log 10 p adj ) is on the y-axis. Significant DEGs (p adj &lt; 0.01) are colored red or blue, and all other non-DEGs are dark grey. B. PCA of control and LPS treatment samples reveals that the effect of genotype explains the majority of the variance in gene expression. Point shape represents the genotype, and color represents the treatment, with blue = control treatment and pink = LPS treatment. (For interpretation of the references to color in this figure legend, the reader is referred to the Web version of this article.)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Gene ontology enrichment analysis reveals activation of transcriptional regulation processes</head><p>In the list of upregulated DEGs, the significantly enriched Biological Process GO terms included regulation of transcription <ref type="table">(Table 1)</ref>, and GO terms associated with downregulated DEGs included ammonium transport, serine family amino acid metabolic process, alpha-amino acid biosynthetic process, cation transmembrane transport, oxidationreduction process, purine ribonucleoside biosynthetic process, pteridine-containing compound biosynthetic process, and dicarboxylic acid metabolic process <ref type="table">(Table 1)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Bacteria community results demonstrate no significant differences due to LPS exposure</head><p>A total of 1,668,806 demultiplexed reads from all 24 samples were obtained, with an average sequence length of 300 bp. 1391 amplicon sequence variants (ASVs) were detected after filtering. The topmost abundant bacterial phyla identified were Proteobacteria, Bacteroidetes and Cyanobacteria <ref type="figure">(Fig. 3)</ref>. Within Proteobacteria, the relative abundance was dominated by Gammaproteobacteria (75%), Alphaproteobacteria (23%) and Deltaproteobacteria (2%) ( <ref type="figure">Supplementary Fig. 7</ref>). Within Gammaproteobacteria, relative abundance was dominated by Oceanospirillales (62%), Alteromonadales (22%), and Cellvibrionales (2%) ( <ref type="figure">Supplementary Fig. 7</ref>). Within Oceanospirillales, ASVs belonging to the genus Endozoicomonas were present in all colonies with overall prevalence of 83% in 20 of 24 samples ( <ref type="figure">Supplementary Fig. 7)</ref>.</p><p>Despite the hypothesis that shifts in the coral-associated bacteria community might be detected after LPS exposure due to the observed induction of coral innate immunity, there were no significant differences in bacteria communities between treatments detected by PERM-ANOVA (Treatment: F = 0.88, df = 23, p = 0.551). However, reefspecific and genotype-specific differences were identified (Reef: F = 2.67, df = 23, p = 0.005; genotype: F = 4.05, df = 23, p &lt; 0.001). PCoA of sample Bray-Curtis dissimilarities confirm these differences ( <ref type="figure">Supplementary Fig. 7</ref>). Additionally, nonparametric Kruskal-Wallis tests revealed no significant effects of treatments on Chao1 richness, Simpson evenness and Shannon diversity indices. Furthermore, no ASVs were differentially abundant between treatments according to ALDeX2 tests ( <ref type="figure">Supplementary Fig. 8</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">LPS treatment activates an evolutionarily conserved immune response</head><p>Previous studies using LPS have collectively found differential expression of PRRs, signaling pathways, and effector mechanisms in response LPS, indicating that corals activate evolutionarily conserved immune responses <ref type="bibr" target="#b23">(Fuess et al., 2017</ref><ref type="bibr" target="#b22">(Fuess et al., , 2016</ref><ref type="bibr" target="#b34">Kvennefors et al., 2010)</ref>. In this study, we observed a similar pattern, where LPS caused upregulation of immune including TLRs, ETS-related transcription factors, and perforin-2 ( <ref type="figure">Fig. 1, Supplementary Table 2</ref>). Additionally, despite the upregulation of immune gene expression, no changes in coral-associated bacteria community were observed, indicating that LPS is suitable for studying corals' immune responses without interfering with the native coral-associated bacteria community.</p><p>Additionally, we found that the upregulation of TLRs and DMBT-1 in response to LPS corroborates previous reports of coral immune factors responding to bacterial MAMPs (Supplementary <ref type="table">Table 2</ref>) <ref type="bibr" target="#b23">(Fuess et al., 2017</ref><ref type="bibr" target="#b22">(Fuess et al., , 2016</ref><ref type="bibr" target="#b59">Williams et al., 2017)</ref>. Human DMBT-1 contains scavenger-receptor cysteine-rich domains and can exist as a membranebound PRR or as a secreted glycoprotein capable of agglutinating bacteria and activating the complement system <ref type="bibr" target="#b36">(Leito et al., 2011)</ref>. Due to this broad utility and activation in response to LPS, DMBT-1 may have a role in maintaining coral mucosal immunity and microbial homeostasis.</p><p>We also identified multiple upregulated transcription factors including ELF-4, ELK-1, HEY and HLF. ELF-4 plays regulates perforin <ref type="figure">Fig. 2</ref>. Consensus effects of LPS on gene expression. A. Venn diagram of the 6 consensus DEGs shared among all the genotype specific DESeq2 models and upregulated in response to LPS exposure. B. Heatmap of the 6 consensus DEGs that depicts the rlog transformed expression values for each gene, with color scaled from red for overexpression to blue for underexpression relative to the mean expression level. (For interpretation of the references to color in this figure legend, the reader is referred to the Web version of this article.) <ref type="table">Table 1</ref> Significantly enriched GO terms for sets of differentially expressed genes. expression and lymphocyte generation <ref type="bibr" target="#b35">(Lacorazza et al., 2002;</ref><ref type="bibr" target="#b52">Suico et al., 2017)</ref> while ELK-1 regulates inflammatory gene expression (Supplementary <ref type="table">Table 2</ref>) <ref type="bibr" target="#b26">(Guha et al., 2001</ref>). HEY and HLF were both upregulated in the overall DESeq2 model and in the genotype-specific model, indicating their potential as central, conserved transcriptional immune regulators <ref type="figure">(Fig. 2B</ref>) <ref type="bibr" target="#b27">(Hu et al., 2017;</ref><ref type="bibr" target="#b33">Komorowska et al., 2017)</ref>. These observations suggest Pocillopora corals possess a broad transcriptional repertoire that regulates immune functions such as inflammation. Future studies identifying transcription factor binding sites will help in our understanding of the regulation of immune factors in corals <ref type="bibr" target="#b16">(Dimos et al., 2019)</ref>. Multiple effector genes were also upregulated including PIK3AP1, PARP-14, MPEG-1 and PsTX-60B (Supplementary <ref type="table">Table 2</ref>). PIK3AP1 links TLR signaling to PI3K activation, a process that prevents excess cytokine production <ref type="bibr" target="#b39">(Maruoka et al., 2005)</ref>. PARP-14 is similarly involved in the modulation of the extrinsic coagulation cascade, macrophage activation and protection of lymphocytes against apoptosis <ref type="bibr" target="#b14">(Cho et al., 2009;</ref><ref type="bibr" target="#b30">Iwata et al., 2016)</ref>. These two genes may function in corals to prevent excessive inflammation and ensure cell survival following immune challenge. MPEG-1 and PsTX-60B are pore forming proteins with MACPF domains that can initiate bacterial lysis <ref type="bibr" target="#b6">(Benard et al., 2015)</ref>. This is the first evidence in corals of LPS-induced upregulation of pore-forming proteins, which likely have critical roles in bacterial lysis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Pocillopora corals demonstrate genotype-specific immune responses to LPS treatment</head><p>Taxonomic classification within Pocillopora remain the subject of debate <ref type="bibr" target="#b47">(Poquita-Du et al., 2017)</ref>, but intra-generic and genotype-specific differences in gene expression have been previously documented <ref type="bibr" target="#b48">(Poquita-Du et al., 2019)</ref>. In this experiment genotype was the main driver of gene expression, with different coral genotypes exhibiting different immune gene expression patterns in response to LPS. For example, the ETS-like transcription factors were uniquely differentially expressed among genotypes and this may affect downstream function like the onset of inflammation, apoptosis, and/or autophagy <ref type="bibr" target="#b22">(Fuess et al., 2016)</ref>. These genotypic differences may also reflect adaptation of different coral genotypes to different environmental conditions and microbial associations. Future studies of Pocillopora coral gene expression should aim to include the maximum number of genotypes possible and ensure correct species identification by using, at minimum, the mtORF marker to differentiate genotypes <ref type="bibr" target="#b32">(Johnston et al., 2017)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">The six consensus Pocillopora LPS-responsive DEGs include transcription factors and immune signaling intermediates</head><p>Only consensus six genes were differentially expressed in all of the genotype specific DESeq models and upregulated overall in response to LPS treatment. Three were transcription factors (HEY, HLF, and BHLHE40) involved in immune regulation and cell differentiation, one was a circadian rhythm protein cryptochrome, and the other two had no annotation <ref type="bibr" target="#b27">(Hu et al., 2017;</ref><ref type="bibr" target="#b31">Jarjour et al., 2019;</ref><ref type="bibr" target="#b33">Komorowska et al., 2017)</ref>. In corals, HEY has been shown to be upregulated in response to Vibrio coralliilyticus and Oceanospirillales bacteria challenge in Montipora aequituberculata, leading to the hypothesis that HEY is an important modulator for coral immune cell differentiation <ref type="bibr">(van de Water et al., 2018)</ref>. HLF maintains mammalian quiescent hematopoietic stem cells during LPS treatment and <ref type="bibr" target="#b33">(Komorowska et al., 2017)</ref> BHLHE40 is involved the mediation of macrophage proliferation and repression of inflammatory cytokines <ref type="bibr" target="#b31">(Jarjour et al., 2019)</ref>. Collectively the upregulation of these transcription factors indicates a tight immune transcriptional network that is responding to LPS. Coral cryptochromes are responsive to light, and have a circadian rhythm involved in the timing of spawning. In other model systems, cryptochromes have been implicated in immunity through their indirect modulation of cytokine expression <ref type="bibr" target="#b13">(Cao et al., 2017;</ref><ref type="bibr" target="#b42">Narasimamurthy et al., 2012)</ref>. While this interaction is not understood within Pocillopora, it may reflect a connection between circadian rhythm and immune response <ref type="bibr">(van de Water et al., 2018)</ref>. Future investigation into these genes, in particular the transcription factors, will tell us more about the mechanisms underlying immune response, and subsequent downstream targets.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4.">Pocillopora coral genotype affects the bacteria community composition</head><p>Our results on bacteria community composition were similar to previous studies of Taiwan Pocillopora corals <ref type="bibr" target="#b10">(Brener-Raffalli et al., 2018)</ref>, however with coral genotype being the primary driver of differences. Considering the strong genotype effects on both gene expression and bacteria community composition, it is likely that coral host immunity-microbiome interactions may exert control over the structuring of their bacteria communities <ref type="bibr" target="#b19">(Epstein et al., 2019;</ref><ref type="bibr">van de Water et al., 2018;</ref><ref type="bibr" target="#b62">Ziegler et al., 2019)</ref>. Coral immune systems can distinguish between pathogenic versus commensal bacteria <ref type="bibr">(van de Water et al., 2018)</ref> and possess a large diversity of PRRs that enable specificity in MAMP recognition (Cunning et al., 2018; Poole and Weis, 2014). Furthermore, P. damicornis and their bacterial communities were <ref type="figure">Fig. 3</ref>. LPS exposure has negligible effects on the coral bacteria community. A stacked barplot of relative abundances of bacteria phyla, including Proteobacteria, Bacteroidetes, and Cyanobacteria. These are the dominant communities in all samples.</p><p>shown to be locally adapted different environments, with immune genes identified as outlier loci contributing to the observed genetic differentiation between habitats <ref type="bibr" target="#b54">(van Oppen et al., 2018)</ref>. In future experiments, the selection of alternate LPS variants from different bacteria strains may produce different immune reactions and reveal alternate immune receptors and pathways. 4.5. Pocillopora spp. bacteria community is not directly altered by shortterm LPS exposure There were no significant differences in coral-associated bacteria community alpha and beta-diversity between fragments in the control versus LPS exposure treatments, and also no differentially abundant ASVs between treatments. This suggests that acute exposure to LPS does not induce shifts in the overall coral-associated bacteria community composition or the relative abundance of bacterial taxa. In the microbiota of the mouse lung, differences in the bacteria community composition were observed following the intratracheal injection of LPS, however, these differences were only observed after three days post injection <ref type="bibr" target="#b49">(Poroyko et al., 2015)</ref>. In this experiment the lack of significant differences in the coral-associated bacteria community between control and LPS treatment samples could be due to the short duration LPS exposure. In the future, sampling at later time points may yield detectable shifts in the coral-associated bacteria community.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusion</head><p>This study demonstrates the conserved immune pathway response to LPS while highlighting the role of coral genotype in driving both gene expression and bacteria community abundances. We hypothesize that different coral genotypes have specific immune responses that are regulating their bacterial microbiomes and involved in resilience against pathogens. Altogether, our results are consistent with previous studies of other corals and provide the basis for future investigation into the influences of coral genotype and bacteria community composition on the dose-response, timing, and cell-specificity of corals' innate immune responses to bacterial MAMPs and infectious pathogens.</p></div>		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgments</head><p>The authors would like to thank the scientists and research support staff at the National Museum of Marine Biology and Aquarium, especially Ray Tan for field assistance and site environmental data collection. Additional thanks to Dr. Anderson Mayfield for sharing laboratory space at the NMMBA, and to Dr. Stephanie Rosales and Dr. Ross Cunning for bioinformatics assistance. Funding was provided by the National Science Foundation (NSF) East Asia and Pacific Summer Institute (EAPSI) Program, award #1713962 to Michael T. Connelly.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix A. Supplementary data</head><p>Supplementary data to this article can be found online at https:// doi.org/10.1016/j.dci.2020.103717.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Improved scoring of functional groups from gene expression data by decorrelating GO graph structure</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alexa</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Rahnenführer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Lengauer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btl140</idno>
+		<ptr target="https://doi.org/10.1093/bioinformatics/btl140" />
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="1600" to="1607" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Alexa, A., Rahnenführer, J., Lengauer, T., 2006. Improved scoring of functional groups from gene expression data by decorrelating GO graph structure. Bioinformatics 22, 1600-1607. https://doi.org/10.1093/bioinformatics/btl140.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Invited review: bacterial lipopolysaccharides and innate immunity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Alexander</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">T</forename><surname>Rietschel</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/09680519010070030101</idno>
+		<ptr target="https://doi.org/10.1177/09680519010070030101" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Endotoxin Res</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="167" to="202" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Alexander, C., Rietschel, E.T., 2001. Invited review: bacterial lipopolysaccharides and innate immunity. J. Endotoxin Res. 7, 167-202. https://doi.org/10.1177/ 09680519010070030101.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Permutational multivariate analysis of variance (PERMANOVA)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Anderson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Anderson, M.J., 2017. Permutational multivariate analysis of variance (PERMANOVA).</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1002/9781118445112.stat07841</idno>
+		<ptr target="https://doi.org/10.1002/9781118445112.stat07841" />
+		<imprint/>
+		<respStmt>
+			<orgName>Wiley StatsRef Stat</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">Wiley StatsRef Stat 1-15. https://doi.org/10.1002/9781118445112.stat07841.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Multivariate dispersion as a measure of beta diversity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">E</forename><surname>Ellingsen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">H</forename><surname>Mcardle</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1461-0248.2006.00926.x</idno>
+		<ptr target="https://doi.org/10.1111/j.1461-0248.2006.00926.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Ecol. Lett</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="683" to="693" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Anderson, M.J., Ellingsen, K.E., McArdle, B.H., 2006. Multivariate dispersion as a mea- sure of beta diversity. Ecol. Lett. 9, 683-693. https://doi.org/10.1111/j.1461-0248. 2006.00926.x.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Minor revision to V4 region SSU rRNA 806R gene primer greatly increases detection of SAR11 bacterioplankton</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Apprill</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Mcnally</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Parsons</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Weber</surname></persName>
+		</author>
+		<idno type="DOI">10.3354/ame01753</idno>
+		<ptr target="https://doi.org/10.3354/ame01753" />
+	</analytic>
+	<monogr>
+		<title level="j">Aquat. Microb. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="129" to="137" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Apprill, A., Mcnally, S., Parsons, R., Weber, L., 2015. Minor revision to V4 region SSU rRNA 806R gene primer greatly increases detection of SAR11 bacterioplankton. Aquat. Microb. Ecol. 75, 129-137. https://doi.org/10.3354/ame01753.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Macrophage-expressed perforins Mpeg1 and Mpeg1.2 have an anti-bacterial function in zebrafish</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">L</forename><surname>Benard</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">I</forename><surname>Racz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Rougeot</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Nezhinsky</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">J</forename><surname>Verbeek</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">P</forename><surname>Spaink</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">H</forename><surname>Meijer</surname></persName>
+		</author>
+		<idno type="DOI">10.1159/000366103</idno>
+		<ptr target="https://doi.org/10.1159/000366103" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Innate Immun</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="136" to="152" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Benard, E.L., Racz, P.I., Rougeot, J., Nezhinsky, A.E., Verbeek, F.J., Spaink, H.P., Meijer, A.H., 2015. Macrophage-expressed perforins Mpeg1 and Mpeg1.2 have an anti-bac- terial function in zebrafish. J. Innate Immun. 7, 136-152. https://doi.org/10.1159/ 000366103.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Comparative genomics explains the evolutionary success of reef-forming corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Bhattacharya</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Agrawal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Aranda</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Baumgarten</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Belcaid</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Drake</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Erwin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Foret</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">D</forename><surname>Gates</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">F</forename><surname>Gruber</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Kamel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">P</forename><surname>Lesser</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Levy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">J</forename><surname>Liew</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Macmanes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Mass</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Medina</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Mehr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">C</forename><surname>Price</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">M</forename><surname>Putnam</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Shinzato</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Shoguchi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename><surname>Stokes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Tambutté</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Tchernov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">R</forename><surname>Voolstra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">W</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">P</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Weis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Zelzion</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Zoccola</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">G</forename><surname>Falkowski</surname></persName>
+		</author>
+		<idno type="DOI">10.7554/eLife.13288</idno>
+		<ptr target="https://doi.org/10.7554/eLife.13288" />
+		<imprint>
+			<date type="published" when="2016" />
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1" to="26" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bhattacharya, D., Agrawal, S., Aranda, M., Baumgarten, S., Belcaid, M., Drake, J.L., Erwin, D., Foret, S., Gates, R.D., Gruber, D.F., Kamel, B., Lesser, M.P., Levy, O., Liew, Y.J., MacManes, M., Mass, T., Medina, M., Mehr, S., Meyer, E., Price, D.C., Putnam, H.M., Qiu, H., Shinzato, C., Shoguchi, E., Stokes, A.J., Tambutté, S., Tchernov, D., Voolstra, C.R., Wagner, N., Walker, C.W., Weber, A.P., Weis, V., Zelzion, E., Zoccola, D., Falkowski, P.G., 2016. Comparative genomics explains the evolutionary success of reef-forming corals. Elife 5, 1-26. https://doi.org/10.7554/eLife.13288.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Optimizing taxonomic classification of marker-gene amplicon sequences with QIIME 2&apos;s q2-feature-classifier plugin</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">A</forename><surname>Bokulich</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">D</forename><surname>Kaehler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Rideout</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Dillon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Bolyen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Knight</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">A</forename><surname>Huttley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">G</forename><surname>Caporaso</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s40168-018-0470-z</idno>
+		<ptr target="https://doi.org/10.1186/s40168-018-0470-z.https://search.crossref.org/?q=Optimizing+taxonomic+classification+of+marker-gene+amplicon+sequences+with+QIIME+2%27s+q2-feature-classifier+plugin.+Microbiome" />
+		<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1" to="17" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bokulich, N.A., Kaehler, B.D., Rideout, J.R., Dillon, M., Bolyen, E., Knight, R., Huttley, G.A., Caporaso, J.G., 2018. Optimizing taxonomic classification of marker-gene amplicon sequences with QIIME 2&apos;s q2-feature-classifier plugin. Microbiome 6, 1-17. https://doi.org/10.1186/s40168-018-0470-z. https://search.crossref.org/?q= Optimizing+taxonomic+classification+of+marker-gene+amplicon+sequences +with+QIIME+2%27s+q2-feature-classifier+plugin.+Microbiome.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Trimmomatic : a flexible trimmer for Illumina sequence data</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Bolger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Lohse</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Usadel</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btu170a</idno>
+		<ptr target="https://doi.org/10.1093/bioinformatics/btu170a" />
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="2114" to="2120" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bolger, A.M., Lohse, M., Usadel, B., 2014. Trimmomatic : a flexible trimmer for Illumina sequence data. Bioinformatics 30, 2114-2120. https://doi.org/10.1093/ bioinformatics/btu170a.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Thermal regime and host clade, rather than geography, drive Symbiodinium and bacterial assemblages in the scleractinian coral Pocillopora damicornis sensu lato</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Brener-Raffalli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Clerissi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Vidal-Dupiol</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Adjeroud</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Bonhomme</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Pratlong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Aurelle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Mitta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Toulza</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s40168-018-0423-6</idno>
+		<ptr target="https://doi.org/10.1186/s40168-018-0423-6" />
+		<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">39</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brener-Raffalli, K., Clerissi, C., Vidal-Dupiol, J., Adjeroud, M., Bonhomme, F., Pratlong, M., Aurelle, D., Mitta, G., Toulza, E., 2018. Thermal regime and host clade, rather than geography, drive Symbiodinium and bacterial assemblages in the scleractinian coral Pocillopora damicornis sensu lato. Microbiome 6, 39. https://doi.org/10.1186/ s40168-018-0423-6.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Exact sequence variants should replace operational taxonomic units in marker-gene data analysis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">J</forename><surname>Callahan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">J</forename><surname>Mcmurdie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">P</forename><surname>Holmes</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ismej.2017.119</idno>
+		<ptr target="https://doi.org/10.1038/ismej.2017.119" />
+	</analytic>
+	<monogr>
+		<title level="j">ISME J</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="2639" to="2643" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Callahan, B.J., McMurdie, P.J., Holmes, S.P., 2017. Exact sequence variants should re- place operational taxonomic units in marker-gene data analysis. ISME J. 11, 2639-2643. https://doi.org/10.1038/ismej.2017.119.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">DADA2: high resolution sample inference from Illumina amplicon data</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">J</forename><surname>Callahan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">J</forename><surname>Mcmurdie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Rosen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">W</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename></persName>
+		</author>
+		<idno type="DOI">10.1038/nmeth.3869</idno>
+		<ptr target="https://doi.org/10.1038/nmeth.3869" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="581" to="583" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Callahan, B.J., Mcmurdie, P.J., Rosen, M.J., Han, A.W., A, A.J., 2016. DADA2: high re- solution sample inference from Illumina amplicon data. Nat. Methods 13, 581-583. https://doi.org/10.1038/nmeth.3869.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Circadian clock cryptochrome proteins regulate autoimmunity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Q</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Gery</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">C</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Q</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Mack</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">W</forename><surname>Chong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Q</forename><forename type="middle">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Müschen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">R</forename><surname>Atkins</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Liddle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">T</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Alkan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">W</forename><surname>Said</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Downes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">P</forename><surname>Koeffler</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1619119114</idno>
+		<ptr target="https://doi.org/10.1073/pnas.1619119114" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="12548" to="12553" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cao, Q., Zhao, X., Bai, J., Gery, S., Sun, H., Lin, D.C., Chen, Q., Chen, Z., Mack, L., Yang, H., Deng, R., Shi, X., Chong, L.W., Cho, H., Xie, J., Li, Q.Z., Müschen, M., Atkins, A.R., Liddle, C., Yu, R.T., Alkan, S., Said, J.W., Zheng, Y., Downes, M., Evans, R.M., Koeffler, H.P., 2017. Circadian clock cryptochrome proteins regulate autoimmunity. Proc. Natl. Acad. Sci. U.S.A. 114, 12548-12553. https://doi.org/10.1073/pnas. 1619119114.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">PARP-14, a member of the B aggressive lymphoma family, transduces survival signals in primary B cells</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">H</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Goenka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Henttinen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Gudapati</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Reinikainen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">M</forename><surname>Eischen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Lahesmaa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Boothby</surname></persName>
+		</author>
+		<idno type="DOI">10.1182/blood-2008-03-144121</idno>
+		<ptr target="https://doi.org/10.1182/blood-2008-03-144121" />
+	</analytic>
+	<monogr>
+		<title level="j">Blood</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="2416" to="2425" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cho, S.H., Goenka, S., Henttinen, T., Gudapati, P., Reinikainen, A., Eischen, C.M., Lahesmaa, R., Boothby, M., 2009. PARP-14, a member of the B aggressive lymphoma family, transduces survival signals in primary B cells. Blood 113, 2416-2425. https:// doi.org/10.1182/blood-2008-03-144121.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Comparative analysis of the Pocillopora damicornis genome highlights role of immune system in coral evolution</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Cunning</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">A</forename><surname>Bay</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Gillette</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Traylor-Knowles</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-018-34459-8</idno>
+		<ptr target="8https://doi.org/10.1038/s41598-018-34459-8.16134" />
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cunning, R., Bay, R.A., Gillette, P., Baker, A.C., Traylor-Knowles, N., 2018. Comparative analysis of the Pocillopora damicornis genome highlights role of immune system in coral evolution. Sci. Rep. 8https://doi.org/10.1038/s41598-018-34459-8. 16134.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Uncovering a mitochondrial unfolded protein response in corals and its role in adapting to a changing world</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">A</forename><surname>Dimos</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Mahmud</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">E</forename><surname>Fuess</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">D</forename><surname>Mydlarz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">W</forename><surname>Pellegrino</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rspb.2019.0470</idno>
+		<ptr target="//doi.org/10.1098/rspb.2019.0470" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc. R. Soc. B</title>
+		<imprint>
+			<biblScope unit="volume">286</biblScope>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dimos, B.A., Mahmud, S.A., Fuess, L.E., Mydlarz, L.D., Pellegrino, M.W., 2019. Uncovering a mitochondrial unfolded protein response in corals and its role in adapting to a changing world. Proc. R. Soc. B 286https://doi.org/10.1098/rspb. 2019.0470. 20190470.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">STAR: ultrafast universal RNA-seq aligner</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Dobin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Schlesinger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Drenkow</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Zaleski</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Jha</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Batut</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Chaisson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">R</forename><surname>Gingeras</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/bts635</idno>
+		<ptr target="https://doi.org/10.1093/bioinformatics/bts635" />
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="15" to="21" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dobin, A., Davis, C.A., Schlesinger, F., Drenkow, J., Zaleski, C., Jha, S., Batut, P., Chaisson, M., Gingeras, T.R., 2013. STAR: ultrafast universal RNA-seq aligner. Bioinformatics 29, 15-21. https://doi.org/10.1093/bioinformatics/bts635.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">A new vision of immunity: homeostasis of the superorganism</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Eberl</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/mi.2010.20</idno>
+		<ptr target="https://doi.org/10.1038/mi.2010.20" />
+	</analytic>
+	<monogr>
+		<title level="j">Mucosal Immunol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="450" to="460" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Eberl, G., 2010. A new vision of immunity: homeostasis of the superorganism. Mucosal Immunol. 3, 450-460. https://doi.org/10.1038/mi.2010.20.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Parental and early life stage environments drive establishment of bacterial and dinoflagellate communities in a common coral</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">E</forename><surname>Epstein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Torda</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">L</forename><surname>Munday</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J H</forename><surname>Van Oppen</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41396-019-0358-3</idno>
+		<ptr target="https://doi.org/10.1038/s41396-019-0358-3" />
+	</analytic>
+	<monogr>
+		<title level="j">ISME J</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="1635" to="1638" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Epstein, H.E., Torda, G., Munday, P.L., van Oppen, M.J.H., 2019. Parental and early life stage environments drive establishment of bacterial and dinoflagellate communities in a common coral. ISME J. 13 (2), 1635-1638. https://doi.org/10.1038/s41396- 019-0358-3.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Unifying the analysis of high-throughput sequencing datasets: characterizing RNA-seq, 16S rRNA gene sequencing and selective growth experiments by compositional data analysis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">D</forename><surname>Fernandes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">N S</forename><surname>Reid</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Macklaim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">A</forename><surname>Mcmurrough</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">R</forename><surname>Edgell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">B</forename><surname>Gloor</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/2049-2618-2-15</idno>
+		<ptr target="https://doi.org/10.1186/2049-2618-2-15" />
+		<imprint>
+			<date type="published" when="2014" />
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1" to="13" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fernandes, A.D., Reid, J.N.S., Macklaim, J.M., McMurrough, T.A., Edgell, D.R., Gloor, G.B., 2014. Unifying the analysis of high-throughput sequencing datasets: char- acterizing RNA-seq, 16S rRNA gene sequencing and selective growth experiments by compositional data analysis. Microbiome 2, 1-13. https://doi.org/10.1186/2049- 2618-2-15.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The mitochondrial genome of Pocillopora (Cnidaria: Scleractinia) contains two variable regions: the putative D-loop and a novel ORF of unknown function</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">F</forename><surname>Flot</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Tillier</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.gene.2007.07.006</idno>
+		<ptr target="https://doi.org/10.1016/j.gene.2007.07.006" />
+	</analytic>
+	<monogr>
+		<title level="j">Gene</title>
+		<imprint>
+			<biblScope unit="volume">401</biblScope>
+			<biblScope unit="page" from="80" to="87" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Flot, J.F., Tillier, S., 2007. The mitochondrial genome of Pocillopora (Cnidaria: Scleractinia) contains two variable regions: the putative D-loop and a novel ORF of unknown function. Gene 401, 80-87. https://doi.org/10.1016/j.gene.2007.07.006.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Associations between transcriptional changes and protein phenotypes provide insights into immune regulation in corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">E</forename><surname>Fuess</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">H</forename><surname>Pinz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Weil</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">D</forename><surname>Mydlarz</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.dci.2016.04.017</idno>
+		<ptr target="https://doi.org/10.1016/j.dci.2016.04.017" />
+	</analytic>
+	<monogr>
+		<title level="j">Dev. Comp. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="17" to="28" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fuess, L.E., Pinz, J.H., Weil, E., Mydlarz, L.D., 2016. Associations between transcriptional changes and protein phenotypes provide insights into immune regulation in corals. Dev. Comp. Immunol. 62, 17-28. https://doi.org/10.1016/j.dci.2016.04.017.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Life or death: disease-tolerant coral species activate autophagy following immune challenge</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">E</forename><surname>Fuess</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">H</forename><surname>Pinzon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Weil</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">D</forename><surname>Grinshpon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">D</forename><surname>Mydlarz</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rspb.2017.0771</idno>
+		<ptr target="https://doi.org/10.1098/rspb.2017.0771" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc. R. Soc. B Biol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">284</biblScope>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fuess, L.E., Pinzon, J.H., Weil, E., Grinshpon, R.D., Mydlarz, L.D., 2017. Life or death: disease-tolerant coral species activate autophagy following immune challenge. Proc. R. Soc. B Biol. Sci. 284. https://doi.org/10.1098/rspb.2017.0771.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Reevaluating species number, distribution and endemism of the coral genus Pocillopora Lamarck, 1816 using species delimitation methods and microsatellites</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Gélin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Postaire</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Fauvelot</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Magalon</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ympev.2017.01.018</idno>
+		<ptr target="https://doi.org/10.1016/j.ympev.2017.01.018" />
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Phylogenet. Evol</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page" from="430" to="446" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gélin, P., Postaire, B., Fauvelot, C., Magalon, H., 2017. Reevaluating species number, distribution and endemism of the coral genus Pocillopora Lamarck, 1816 using species delimitation methods and microsatellites. Mol. Phylogenet. Evol. 109, 430-446. https://doi.org/10.1016/j.ympev.2017.01.018.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Introduction to NF-κB: players, pathways, perspectives</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">D</forename><surname>Gilmore</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/sj.onc.1209954</idno>
+		<ptr target="https://doi.org/10.1038/sj.onc.1209954" />
+	</analytic>
+	<monogr>
+		<title level="j">Oncogene</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="6680" to="6684" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gilmore, T.D., 2006. Introduction to NF-κB: players, pathways, perspectives. Oncogene 25, 6680-6684. https://doi.org/10.1038/sj.onc.1209954.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Lipopolysaccharide activation ofthe MEK-ERK1/2 pathway in human monocytic cells mediates tissue factor and tumor necrosis factor α expression by inducing Elk-1 phosphorylation and Egr-1 expression</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Guha</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A O</forename><surname>Connell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Pawlinski</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Hollis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Mcgovern</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S.-F</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Stern</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Mackman</surname></persName>
+		</author>
+		<idno type="DOI">10.1182/blood.V98.5.1429</idno>
+		<ptr target="https://doi.org/10.1182/blood.V98.5.1429" />
+	</analytic>
+	<monogr>
+		<title level="j">Blood</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="1429" to="1439" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Guha, M., Connell, M.A.O., Pawlinski, R., Hollis, A., McGovern, P., Yan, S.-F., Stern, D., Mackman, N., 2001. Lipopolysaccharide activation ofthe MEK-ERK1/2 pathway in human monocytic cells mediates tissue factor and tumor necrosis factor α expression by inducing Elk-1 phosphorylation and Egr-1 expression. Blood 98, 1429-1439. https://doi.org/10.1182/blood.V98.5.1429.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Integrated regulation of toll-like receptor responses by notch and interferon-γ pathways</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">Y</forename><surname>Chung</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Foldi</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0178059</idno>
+		<ptr target="https://doi" />
+	</analytic>
+	<monogr>
+		<title level="j">PloS One</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="736" to="740" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hu, X., Chung, A.Y., Wu, I., Foldi, J., 2017. Integrated regulation of toll-like receptor responses by notch and interferon-γ pathways. PloS One 32, 736-740. https://doi.</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">T</forename><surname>Connelly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Developmental and Comparative Immunology</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page">103717</biblScope>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M.T. Connelly, et al. Developmental and Comparative Immunology 109 (2020) 103717</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1371/journal.pone.0178059</idno>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">org/10.1371/journal.pone.0178059.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">PARP9 and PARP14 cross-regulate macrophage activation via STAT1 ADP-ribosylation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Iwata</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Goettsch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Ricchiuto</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">W</forename><surname>Goh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Bin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Halu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Yamada</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Yoshida</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Hara</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Inoue</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Fukuda</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Mojcher</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">C</forename><surname>Mattson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">L</forename><surname>Barabási</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Boothby</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Aikawa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Aikawa</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ncomms12849</idno>
+		<ptr target="https://doi.org/10.1038/ncomms12849" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Iwata, H., Goettsch, C., Sharma, A., Ricchiuto, P., Goh, W.W. Bin, Halu, A., Yamada, I., Yoshida, H., Hara, T., Wei, M., Inoue, N., Fukuda, D., Mojcher, A., Mattson, P.C., Barabási, A.L., Boothby, M., Aikawa, E., Singh, S.A., Aikawa, M., 2016. PARP9 and PARP14 cross-regulate macrophage activation via STAT1 ADP-ribosylation. Nat. Commun. 7. https://doi.org/10.1038/ncomms12849.</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Bhlhe40 mediates tissue-specific control of macrophage proliferation in homeostasis and type 2 immunity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">N</forename><surname>Jarjour</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">A</forename><surname>Schwarzkopf</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">R</forename><surname>Bradstreet</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Shchukina</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">C</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">C C</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">W</forename><surname>Lai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E</forename><surname>Cook</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Taneja</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">S</forename><surname>Stappenbeck</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">J</forename><surname>Randolph</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">N</forename><surname>Artyomov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">F</forename><surname>Urban</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41590-019-0382-5</idno>
+		<ptr target="https://doi.org/10.1038/s41590-019-0382-5" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="687" to="700" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jarjour, N.N., Schwarzkopf, E.A., Bradstreet, T.R., Shchukina, I., Lin, C.C., Huang, S.C.C., Lai, C.W., Cook, M.E., Taneja, R., Stappenbeck, T.S., Randolph, G.J., Artyomov, M.N., Urban, J.F., Edelson, B.T., 2019. Bhlhe40 mediates tissue-specific control of macro- phage proliferation in homeostasis and type 2 immunity. Nat. Immunol. 20, 687-700. https://doi.org/10.1038/s41590-019-0382-5.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">A genomic glance through the fog of plasticity and diversification in Pocillopora</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">C</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><forename type="middle">H</forename><surname>Forsman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J.-F</forename><surname>Flot</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Schmidt-Roach</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">H</forename><surname>Pinzón</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><forename type="middle">S S</forename><surname>Knapp</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">J</forename><surname>Toonen</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-017-06085-3</idno>
+		<ptr target="https://doi.org/10.1038/s41598-017-06085-3" />
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Johnston, E.C., Forsman, Z.H., Flot, J.-F., Schmidt-Roach, S., Pinzón, J.H., Knapp, I.S.S., Toonen, R.J., 2017. A genomic glance through the fog of plasticity and diversification in Pocillopora. Sci. Rep. 7, 1-11. https://doi.org/10.1038/s41598-017-06085-3.</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Hepatic leukemia factor maintains quiescence of hematopoietic stem cells and protects the stem cell pool during regeneration</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Komorowska</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Doyle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Wahlestedt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Subramaniam</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Debnath</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Soneji</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Van Handel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">K A</forename><surname>Mikkola</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Miharada</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Bryder</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Larsson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Magnusson</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.celrep.2017.11.084</idno>
+		<ptr target="https://doi.org/10.1016/j.celrep.2017.11.084" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell Rep</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="3514" to="3523" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Komorowska, K., Doyle, A., Wahlestedt, M., Subramaniam, A., Debnath, S., Chen, J., Soneji, S., Van Handel, B., Mikkola, H.K.A., Miharada, K., Bryder, D., Larsson, J., Magnusson, M., 2017. Hepatic leukemia factor maintains quiescence of hemato- poietic stem cells and protects the stem cell pool during regeneration. Cell Rep. 21, 3514-3523. https://doi.org/10.1016/j.celrep.2017.11.084.</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Analysis of evolutionarily conserved innate immune components in coral links immunity and symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">C E</forename><surname>Kvennefors</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Leggat</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">C</forename><surname>Kerr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">D</forename><surname>Ainsworth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Hoegh-Guldberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Barnes</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.dci.2010.06.016</idno>
+		<ptr target="https://doi.org/10.1016/j.dci.2010.06.016" />
+	</analytic>
+	<monogr>
+		<title level="j">Dev. Comp. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="1219" to="1229" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kvennefors, E.C.E., Leggat, W., Kerr, C.C., Ainsworth, T.D., Hoegh-Guldberg, O., Barnes, A.C., 2010. Analysis of evolutionarily conserved innate immune components in coral links immunity and symbiosis. Dev. Comp. Immunol. 34, 1219-1229. https://doi. org/10.1016/j.dci.2010.06.016.</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">The ETS protein MEF plays a critical role in perforin gene expression and the development of natural killer and NK-T cells</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">D</forename><surname>Lacorazza</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Miyazaki</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Di Cristofano</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Hedvat</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Cordon-Cardo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">P</forename><surname>Pandolfi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">D</forename><surname>Nimer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s1074-7613(02)00422-3</idno>
+		<ptr target="https://doi.org/10.1016/s1074-7613(02" />
+	</analytic>
+	<monogr>
+		<title level="j">Immunity</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="422" to="425" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lacorazza, H.D., Miyazaki, Y., Di Cristofano, A., Hedvat, C., Zhang, J., Cordon-Cardo, C., Mao, S., Pandolfi, P.P., Nimer, S.D., 2002. The ETS protein MEF plays a critical role in perforin gene expression and the development of natural killer and NK-T cells. Immunity 17, 437-449. https://doi.org/10.1016/s1074-7613(02)00422-3.</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">The bacteria binding glycoprotein salivary agglutinin (SAG/gp340) activates complement via the lectin pathway</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">T D</forename><surname>Leito</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J M</forename><surname>Ligtenberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Van Houdt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">K</forename><surname>Van Den Berg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Wouters</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.molimm.2011.08.010</idno>
+		<ptr target="https://doi.org/10.1016/j.molimm.2011.08.010" />
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="185" to="190" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Leito, J.T.D., Ligtenberg, A.J.M., van Houdt, M., van den Berg, T.K., Wouters, D., 2011. The bacteria binding glycoprotein salivary agglutinin (SAG/gp340) activates com- plement via the lectin pathway. Mol. Immunol. 49, 185-190. https://doi.org/10. 1016/j.molimm.2011.08.010.</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">FeatureCounts: an efficient general purpose program for assigning sequence reads to genomic features</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">K</forename><surname>Smyth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Shi</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btt656</idno>
+		<ptr target="https://doi.org/10.1093/bioinformatics/btt656" />
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="923" to="930" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liao, Y., Smyth, G.K., Shi, W., 2014. FeatureCounts: an efficient general purpose program for assigning sequence reads to genomic features. Bioinformatics 30, 923-930. https://doi.org/10.1093/bioinformatics/btt656.</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">I</forename><surname>Love</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Huber</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Anders</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s13059-014-0550-8</idno>
+		<ptr target="https://doi.org/10.1186/s13059-014-0550-8" />
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Love, M.I., Huber, W., Anders, S., 2014. Moderated estimation of fold change and dis- persion for RNA-seq data with DESeq2. Genome Biol. 15, 550. https://doi.org/10. 1186/s13059-014-0550-8.</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Identification of B cell adaptor for PI3-kinase (BCAP) as an Abl interactor 1-regulated substrate of Abl kinases</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Maruoka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Suzuki</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Kawata</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Yoshida</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Hirao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Sato</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">P</forename><surname>Goff</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Takeya</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Tani</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Shishido</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.febslet.2005.04.052</idno>
+		<ptr target="https://doi.org/10.1016/j.febslet.2005.04.052" />
+	</analytic>
+	<monogr>
+		<title level="j">FEBS Lett</title>
+		<imprint>
+			<biblScope unit="volume">579</biblScope>
+			<biblScope unit="page" from="2986" to="2990" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maruoka, M., Suzuki, J., Kawata, S., Yoshida, K., Hirao, N., Sato, S., Goff, S.P., Takeya, T., Tani, K., Shishido, T., 2005. Identification of B cell adaptor for PI3-kinase (BCAP) as an Abl interactor 1-regulated substrate of Abl kinases. FEBS Lett. 579, 2986-2990. https://doi.org/10.1016/j.febslet.2005.04.052.</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<title level="m" type="main">Phyloseq : an R Package for Reproducible Interactive Analysis and Graphics of Microbiome Census Data</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">J</forename><surname>Mcmurdie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Holmes</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0061217</idno>
+		<ptr target="//doi.org/10.1371/journal.pone.0061217" />
+		<imprint>
+			<date type="published" when="2013" />
+			<biblScope unit="volume">8</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mcmurdie, P.J., Holmes, S., 2013. Phyloseq : an R Package for Reproducible Interactive Analysis and Graphics of Microbiome Census Data, vol. 8https://doi.org/10.1371/ journal.pone.0061217.</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Waste not, want not: why rarefying microbiome data is inadmissible</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">J</forename><surname>Mcmurdie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Holmes</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pcbi.1003531</idno>
+		<ptr target="https://doi.org/10.1371/journal.pcbi.1003531" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Comput. Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McMurdie, P.J., Holmes, S., 2014. Waste not, want not: why rarefying microbiome data is inadmissible. PLoS Comput. Biol. 10. https://doi.org/10.1371/journal.pcbi.1003531.</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Circadian clock protein cryptochrome regulates the expression of proinflammatory cytokines</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Narasimamurthy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Hatori</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Nayak</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Panda</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><forename type="middle">M</forename><surname>Verma</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1209965109</idno>
+		<ptr target="https://doi.org/10.1073/pnas.1209965109" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. Unit. States Am</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page" from="12662" to="12667" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Narasimamurthy, R., Hatori, M., Nayak, S.K., Liu, F., Panda, S., Verma, I.M., 2012. Circadian clock protein cryptochrome regulates the expression of proinflammatory cytokines. Proc. Natl. Acad. Sci. Unit. States Am. 109, 12662-12667. https://doi.org/ 10.1073/pnas.1209965109.</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Knowing your friends: invertebrate innate immunity fosters beneficial bacterial symbioses</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">V</forename><surname>Nyholm</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Graf</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nrmicro2894</idno>
+		<ptr target="https://doi.org/10.1038/nrmicro2894" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="815" to="827" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nyholm, S.V., Graf, J., 2012. Knowing your friends: invertebrate innate immunity fosters beneficial bacterial symbioses. Nat. Rev. Microbiol. 10, 815-827. https://doi.org/10. 1038/nrmicro2894.</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">vegan: community Ecology Package. R package version 2.5-6</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Oksanen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">G</forename><surname>Blanchet</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Friendly</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Kindt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Legendre</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Mcglinn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">R</forename><surname>Minchin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">B</forename><surname>O'hara</surname></persName>
+		</author>
+		<ptr target="https://CRAN.R-project.org/package=vegan" />
+	</analytic>
+	<monogr>
+		<title level="j">Vegan Community Ecol. Packag. R</title>
+		<imprint>
+			<biblScope unit="page" from="17" to="18" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note>Packag 1-296 version 1.8-8</note>
+	<note type="raw_reference">Oksanen, J., Blanchet, F.G., Friendly, M., Kindt, R., Legendre, P., McGlinn, D., Minchin, P.R., O&apos;Hara, R.B., et al., 2007. vegan: community Ecology Package. R package version 2.5-6. Vegan Community Ecol. Packag. R Packag 1-296 version 1.8-8. pp. 17-18. https://CRAN.R-project.org/package=vegan.</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Towards an integrated network of coral immune mechanisms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">V</forename><surname>Palmer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Traylor-Knowles</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rspb.2012.1477</idno>
+		<ptr target="https://doi.org/10.1098/rspb.2012.1477" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Biol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">279</biblScope>
+			<biblScope unit="page" from="4106" to="4114" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Palmer, C.V., Traylor-Knowles, N., 2012. Towards an integrated network of coral immune mechanisms. Proc. Biol. Sci. 279, 4106-4114. https://doi.org/10.1098/rspb.2012. 1477.</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">TIR-domain-containing protein repertoire of nine anthozoan species reveals coral-specific expansions and uncharacterized proteins</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">Z</forename><surname>Poole</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">M</forename><surname>Weis</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.dci.2014.06.002</idno>
+		<ptr target="https://doi.org/10.1016/j.dci.2014.06.002" />
+	</analytic>
+	<monogr>
+		<title level="j">Dev. Comp. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="480" to="488" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Poole, A.Z., Weis, V.M., 2014. TIR-domain-containing protein repertoire of nine an- thozoan species reveals coral-specific expansions and uncharacterized proteins. Dev. Comp. Immunol. 46, 480-488. https://doi.org/10.1016/j.dci.2014.06.002.</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">New evidence shows that Pocillopora &apos;damicornis-like&apos; corals in Singapore are actually Pocillopora acuta (Scleractinia: pocilloporidae)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Poquita-Du</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">S L</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Loo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Bin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Afiq-Rosli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">C</forename><surname>Tay</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Todd</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">M</forename><surname>Chou</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Huang</surname></persName>
+		</author>
+		<idno type="DOI">10.3897/BDJ.5.e11407</idno>
+		<ptr target="https://doi.org/10.3897/BDJ.5.e11407" />
+	</analytic>
+	<monogr>
+		<title level="j">Biodivers. Data J</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Poquita-Du, R., Ng, C.S.L., Loo, J. Bin, Afiq-Rosli, L., Tay, Y.C., Todd, P., Chou, L.M., Huang, D., 2017. New evidence shows that Pocillopora &apos;damicornis-like&apos; corals in Singapore are actually Pocillopora acuta (Scleractinia: pocilloporidae). Biodivers. Data J. 5, e11407. https://doi.org/10.3897/BDJ.5.e11407.</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Short term exposure to heat and sediment triggers changes in coral gene expression and photophysiological performance. Front</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">C</forename><surname>Poquita-Du</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">M</forename><surname>Chou</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Mrinalini</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">A</forename><surname>Todd</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fmars.2019.00121</idno>
+		<ptr target="https://doi.org/10.3389/fmars.2019.00121" />
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Sci</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1" to="15" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Poquita-Du, R.C., Huang, D., Chou, L.M., Mrinalini, Todd, P.A., 2019. Short term ex- posure to heat and sediment triggers changes in coral gene expression and photo- physiological performance. Front. Mar. Sci. 6, 1-15. https://doi.org/10.3389/fmars. 2019.00121.</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Alterations of lung microbiota in a mouse model of LPS-induced lung injury</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Poroyko</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Meliton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Afonyushkin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Ulanov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Semenyuk</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Latif</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Tesic</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">A</forename><surname>Birukova</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">G</forename><surname>Birukov</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/ajplung.00061.2014</idno>
+		<ptr target="https://doi.org/10.1152/ajplung.00061.2014" />
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Physiol. Lung Cell Mol. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">309</biblScope>
+			<biblScope unit="page" from="76" to="83" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Poroyko, V., Meng, F., Meliton, A., Afonyushkin, T., Ulanov, A., Semenyuk, E., Latif, O., Tesic, V., Birukova, A.A., Birukov, K.G., 2015. Alterations of lung microbiota in a mouse model of LPS-induced lung injury. Am. J. Physiol. Lung Cell Mol. Physiol. 309, L76-L83. https://doi.org/10.1152/ajplung.00061.2014.</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">The SILVA ribosomal RNA gene database project: improved data processing and web-based tools</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Quast</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Pruesse</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Yilmaz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Gerken</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Schweer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Yarza</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Peplies</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">O</forename><surname>Glöckner</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gks1219</idno>
+		<ptr target="https://doi.org/10.1093/nar/gks1219" />
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="590" to="596" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Quast, C., Pruesse, E., Yilmaz, P., Gerken, J., Schweer, T., Yarza, P., Peplies, J., Glöckner, F.O., 2013. The SILVA ribosomal RNA gene database project: improved data pro- cessing and web-based tools. Nucleic Acids Res. 41, 590-596. https://doi.org/10. 1093/nar/gks1219.</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Using the Acropora digitifera genome to understand coral responses to environmental change</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Shinzato</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Shoguchi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Kawashima</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Hamada</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Hisata</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Tanaka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Fujie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Fujiwara</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Koyanagi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Ikuta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Fujiyama</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Satoh</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature10249</idno>
+		<ptr target="https://doi.org/10.1038/nature10249" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">476</biblScope>
+			<biblScope unit="page" from="320" to="323" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shinzato, C., Shoguchi, E., Kawashima, T., Hamada, M., Hisata, K., Tanaka, M., Fujie, M., Fujiwara, M., Koyanagi, R., Ikuta, T., Fujiyama, A., Miller, D.J., Satoh, N., 2011. Using the Acropora digitifera genome to understand coral responses to environmental change. Nature 476, 320-323. https://doi.org/10.1038/nature10249.</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Roles and regulations of the ETS transcription factor ELF4/MEF</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Suico</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Shuto</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Kai</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/jmcb/mjw051</idno>
+		<ptr target="https://doi.org/10.1093/jmcb/mjw051" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="168" to="177" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Suico, M.A., Shuto, T., Kai, H., 2017. Roles and regulations of the ETS transcription factor ELF4/MEF. J. Mol. Cell Biol. 9, 168-177. https://doi.org/10.1093/jmcb/mjw051.</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Microbes in the coral holobiont: partners through evolution, development, and ecological interactions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">E</forename><surname>Rivera</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">J</forename><surname>Closek</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Medina</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fcimb.2014.00176</idno>
+		<ptr target="https://doi.org/10.3389/fcimb.2014.00176" />
+	</analytic>
+	<monogr>
+		<title level="j">Front. Cell. Infect. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Thompson, J.R., Rivera, H.E., Closek, C.J., Medina, M., 2015. Microbes in the coral ho- lobiont: partners through evolution, development, and ecological interactions. Front. Cell. Infect. Microbiol. 4, 176. https://doi.org/10.3389/fcimb.2014.00176.</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Antimicrobial and stress responses to increased temperature and bacterial pathogen challenge in the holobiont of a reef-building coral</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Thomsen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Schlosser</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Holmskov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">L J A J M</forename><surname>Sorensen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Chaib De Mares</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">B</forename><surname>Dixon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">B</forename><surname>Raina</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">L</forename><surname>Willis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">G</forename><surname>Bourne</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J H</forename><surname>Van Oppen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J H</forename><surname>Van Oppen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Bongaerts</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Frade</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">M</forename><surname>Peplow</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">E</forename><surname>Boyd</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">T</forename><surname>Nim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">K</forename><surname>Bay</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/mec.14763</idno>
+		<ptr target="https://doi.org/10.1111/mec.14763" />
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="2956" to="2971" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note>Mol. Ecol.</note>
+	<note type="raw_reference">Thomsen, T., Schlosser, A., Holmskov, U., Sorensen, G.L., 2011. Ficolins and FIBCD1: soluble and membrane bound pattern recognition molecules with acetyl group se- lectivity. Mol. Immunol. 48, 369-381. https://doi.org/10.1016/j.molimm.2010.09. 019. van de Water, J.A.J.M., Chaib De Mares, M., Dixon, G.B., Raina, J.B., Willis, B.L., Bourne, D.G., van Oppen, M.J.H., 2018. Antimicrobial and stress responses to increased temperature and bacterial pathogen challenge in the holobiont of a reef-building coral. Mol. Ecol. 27, 1065-1080. https://doi.org/10.1111/mec.14489. van Oppen, M.J.H., Bongaerts, P., Frade, P., Peplow, L.M., Boyd, S.E., Nim, H.T., Bay, L.K., 2018. Adaptation to reef habitats through selection on the coral animal and its associated microbiome. Mol. Ecol. 27, 2956-2971. https://doi.org/10.1111/mec. 14763.</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Thermal stress triggers broad Pocillopora damicornis transcriptomic remodeling, while Vibrio coralliilyticus infection induces a more targeted immuno-suppression response</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Vidal-Dupiol</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">M</forename><surname>Dheilly</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Rondon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Grunau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Cosseau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">M</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Freitag</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Adjeroud</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Mitta</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0107672</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0107672" />
+	</analytic>
+	<monogr>
+		<title level="j">PloS One</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vidal-Dupiol, J., Dheilly, N.M., Rondon, R., Grunau, C., Cosseau, C., Smith, K.M., Freitag, M., Adjeroud, M., Mitta, G., 2014. Thermal stress triggers broad Pocillopora dami- cornis transcriptomic remodeling, while Vibrio coralliilyticus infection induces a more targeted immuno-suppression response. PloS One 9, e107672. https://doi.org/ 10.1371/journal.pone.0107672.</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Innate immune responses of a scleractinian coral to vibriosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Vidal-Dupiol</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Ladrière</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Destoumieux-Garzón</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P.-E</forename><surname>Sautière</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A.-L</forename><surname>Meistertzheim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Tambutté</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Tambutté</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Duval</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Fouré</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Adjeroud</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Mitta</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M110.216358</idno>
+		<ptr target="https://doi.org/10.1074/jbc.M110.216358" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">286</biblScope>
+			<biblScope unit="page" from="22688" to="22698" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vidal-Dupiol, J., Ladrière, O., Destoumieux-Garzón, D., Sautière, P.-E., Meistertzheim, A.- L., Tambutté, E., Tambutté, S., Duval, D., Fouré, L., Adjeroud, M., Mitta, G., 2011. Innate immune responses of a scleractinian coral to vibriosis. J. Biol. Chem. 286, 22688-22698. https://doi.org/10.1074/jbc.M110.216358.</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<monogr>
+		<title level="m" type="main">Optimization of DNA extraction for advancing coral microbiota investigations</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Deforce</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Apprill</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s40168-017-0229-y</idno>
+		<ptr target="https://doi.org/10.1186/s40168-017-0229-y" />
+		<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Weber, L., DeForce, E., Apprill, A., 2017. Optimization of DNA extraction for advancing coral microbiota investigations. Microbiome 5. https://doi.org/10.1186/s40168- 017-0229-y.</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Host-associated microbiomes drive structure and function of marine ecosystems</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">G E</forename><surname>Wilkins</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Leray</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">O</forename><surname>Dea</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Yuen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Peixoto</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">J</forename><surname>Pereira</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">M</forename><surname>Bik</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Coil</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Duffy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">A</forename><surname>Herre</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Lessios</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">M</forename><surname>Lucey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">C</forename><surname>Mejia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Rasher</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Sharp</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">M</forename><surname>Sogin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">W</forename><surname>Thacker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Vega Thurber</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">T</forename><surname>Wcislo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">G</forename><surname>Wilbanks</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Eisen</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pbio.3000533</idno>
+		<ptr target="https://doi.org/10.1371/journal.pbio.3000533.https://search.crossref.org/?q=Host-associated+microbiomes+drive+structure+and+function+of+marine+ecosystems.+PLoS+Biol" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Biol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="1" to="15" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wilkins, L.G.E., Leray, M., Dea, A.O., Yuen, B., Peixoto, R., Pereira, T.J., Bik, H.M., Coil, D.A., Duffy, J.E., Herre, E.A., Lessios, H., Lucey, N.M., Mejia, L.C., Rasher, B., Sharp, K., Sogin, E.M., Thacker, R.W., Vega Thurber, R., Wcislo, W.T., Wilbanks, E.G., Eisen, J.A., 2019. Host-associated microbiomes drive structure and function of marine ecosystems. PLoS Biol. 17, 1-15. https://doi.org/10.1371/journal.pbio.3000533. https://search.crossref.org/?q=Host-associated+microbiomes+drive+structure +and+function+of+marine+ecosystems.+PLoS+Biol.</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">A conserved toll-like receptor-to-NF-κB signaling pathway in the endangered coral Orbicella faveolata</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">M</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">E</forename><surname>Fuess</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename><surname>Brennan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">M</forename><surname>Mansfield</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Salas-Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Welsh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Awtry</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Banic</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Chacko</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Chezian</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Dowers</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Estrada</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y.-H</forename><surname>Hsieh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Malchiodi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Malinowski</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Matuszak</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Mctigue</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Mueller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Njoku</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Pellegrini</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Pliakas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Qadir</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Ryan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Schiffer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Thiel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Yunes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">E</forename><surname>Spilios</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Pinzón</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">H</forename><surname>Mydlarz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">D</forename><surname>Gilmore</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">D</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.dci.2017.10.016</idno>
+		<ptr target="https://doi.org/10.1016/j.dci.2017.10.016" />
+	</analytic>
+	<monogr>
+		<title level="j">Dev. Comp. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="128" to="136" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Williams, L.M., Fuess, L.E., Brennan, J.J., Mansfield, K.M., Salas-Rodriguez, E., Welsh, J., Awtry, J., Banic, S., Chacko, C., Chezian, A., Dowers, D., Estrada, F., Hsieh, Y.-H., Kang, J., Li, W., Malchiodi, Z., Malinowski, J., Matuszak, S., McTigue, T., Mueller, D., Nguyen, B., Nguyen, M., Nguyen, P., Nguyen, S., Njoku, N., Patel, K., Pellegrini, W., Pliakas, T., Qadir, D., Ryan, E., Schiffer, A., Thiel, A., Yunes, S.A., Spilios, K.E., Pinzón C, J.H., Mydlarz, L.D., Gilmore, T.D., 2017. A conserved toll-like receptor-to-NF-κB signaling pathway in the endangered coral Orbicella faveolata. Dev. Comp. Immunol. 79, 128-136. https://doi.org/10.1016/j.dci.2017.10.016.</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Hypothesis testing and statistical analysis of microbiome</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Xia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Sun</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.gendis.2017.06.001</idno>
+		<ptr target="https://doi.org/10.1016/j.gendis.2017.06.001" />
+	</analytic>
+	<monogr>
+		<title level="j">Genes Dis</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="138" to="148" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Xia, Y., Sun, J., 2017. Hypothesis testing and statistical analysis of microbiome. Genes Dis 4, 138-148. https://doi.org/10.1016/j.gendis.2017.06.001.</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Altered immune landscape and disrupted coral-symbiodinium symbiosis in the scleractinian coral Pocillopora damicornis by Vibrio coralliilyticus challenge</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Lin</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fphys.2019.00366</idno>
+		<ptr target="https://doi.org/10.3389/fphys.2019.00366" />
+	</analytic>
+	<monogr>
+		<title level="j">Front. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1" to="12" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhou, Z., Zhao, S., Tang, J., Liu, Z., Wu, Y., Wang, Y., Lin, S., 2019. Altered immune landscape and disrupted coral-symbiodinium symbiosis in the scleractinian coral Pocillopora damicornis by Vibrio coralliilyticus challenge. Front. Physiol. 10, 1-12. https://doi.org/10.3389/fphys.2019.00366.</note>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Coral bacterial community structure responds to environmental change in a host-specific manner</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Ziegler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">G B</forename><surname>Grupstra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">M</forename><surname>Barreto</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Eaton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Baomar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Zubier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Al-Sofyani</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename><surname>Turki</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Ormond</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">R</forename><surname>Voolstra</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-019-10969-5</idno>
+		<ptr target="https://doi.org/10.1038/s41467-019-10969-5" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ziegler, M., Grupstra, C.G.B., Barreto, M.M., Eaton, M., BaOmar, J., Zubier, K., Al-Sofyani, A., Turki, A.J., Ormond, R., Voolstra, C.R., 2019. Coral bacterial community structure responds to environmental change in a host-specific manner. Nat. Commun. 10, 3092. https://doi.org/10.1038/s41467-019-10969-5.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

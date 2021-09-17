@@ -1,0 +1,1901 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/grace/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Analysis of Pacific oyster larval proteome and its response to high-CO 2</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Dineshram</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">The Swire Institute of Marine Science and School of Biological Sciences</orgName>
+								<orgName type="institution">The University of Hong Kong</orgName>
+								<address>
+									<settlement>Hong Kong</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kelvin</forename><forename type="middle">K W</forename><surname>Wong</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">The Swire Institute of Marine Science and School of Biological Sciences</orgName>
+								<orgName type="institution">The University of Hong Kong</orgName>
+								<address>
+									<settlement>Hong Kong</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shu</forename><surname>Xiao</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">South China Sea Institute of Oceanology</orgName>
+								<orgName type="institution">Chinese Academy of Sciences</orgName>
+								<address>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ziniu</forename><surname>Yu</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">South China Sea Institute of Oceanology</orgName>
+								<orgName type="institution">Chinese Academy of Sciences</orgName>
+								<address>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pei</forename><surname>Yuan Qian</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Division of Life Science</orgName>
+								<orgName type="institution" key="instit1">The Hong Kong University of Science and Technology</orgName>
+								<orgName type="institution" key="instit2">The University of Hong Kong</orgName>
+								<address>
+									<settlement>Hong Kong</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vengatesen</forename><surname>Thiyagarajan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">The Swire Institute of Marine Science and School of Biological Sciences</orgName>
+								<orgName type="institution">The University of Hong Kong</orgName>
+								<address>
+									<settlement>Hong Kong</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Analysis of Pacific oyster larval proteome and its response to high-CO 2</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.marpolbul.2012.07.043</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-09-14T02:18+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Environmental proteomics High-CO 2 Larval proteome Ocean acidification Pacific oyster Veliger</keywords>
+			</textClass>
+			<abstract>
+				<p>Most calcifying organisms show depressed metabolic, growth and calcification rates as symptoms to high-CO 2 due to ocean acidification (OA) process. Analysis of the global expression pattern of proteins (proteome analysis) represents a powerful tool to examine these physiological symptoms at molecular level, but its applications are inadequate. To address this knowledge gap, 2-DE coupled with mass spectrophotometer was used to compare the global protein expression pattern of oyster larvae exposed to ambient and to high-CO 2. Exposure to OA resulted in marked reduction of global protein expression with a decrease or loss of 71 proteins (18% of the expressed proteins in control), indicating a widespread depression of metabolic genes expression in larvae reared under OA. This is, to our knowledge, the first proteome analysis that provides insights into the link between physiological suppression and protein down-regulation under OA in oyster larvae.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>The absorbed one-third of anthropogenic CO 2 by the oceans has started altering seawater carbonate chemistry equilibrium through the process known as ''ocean acidification'' (OA) <ref type="bibr" target="#b8">(Doney et al., 2009)</ref>. More data on OA impacts on calcium carbonate (CaCO 3 ) shell forming organisms (called ''calcifiers'') are urgently needed because OA could exert deleterious effects not only on organism's ability to make their shells but also on their metabolism and physiology <ref type="bibr" target="#b12">(Fabry et al., 2008)</ref>. Global mean ocean pH has already decreased 0.1 units because of OA, and is predicted to drop by 0.7 units before 2300 under the IPCC's worst case scenario for CO 2 emissions <ref type="bibr" target="#b64">(Zeebe et al., 2008)</ref>. This excess H <ref type="bibr">[+]</ref> combines with carbonate ions to form bicarbonates. The carbonate ions that are in depletion this way concurrently reduces the saturation state of all forms of CaCO 3 minerals, which makes marine organisms harder to form their shells and/or even trigger their shells to dissolve <ref type="bibr" target="#b14">(Feely et al., 2009)</ref>. Due to OA, southern oceans are already corrosive to shells of many invertebrates, making them harder to form their shells or even have their shell dissolved <ref type="bibr" target="#b13">(Fabry et al., 2009)</ref>. This OA effect is gradually spreading into tropical seas <ref type="bibr" target="#b25">(Kleypas et al., 1999)</ref>.</p><p>The majority of calcifying shellfishes (e.g. edible oysters) have complex life cycles, during which the externally fertilized eggs produce the pelagic larval stage, called ''D-shaped'' veliger. This newly hatched larva feeds on micro-algae, develops into advanced larval stage, called pediveliger, and finally enters into benthic life by attaching on hard substrates <ref type="bibr" target="#b3">(Collet et al., 1999)</ref>. Although this pelagic life aids them to disperse and colonize diverse habitats, it is achieved only at an extremely high cost <ref type="bibr" target="#b50">(Thiyagarajan, 2010)</ref>. Generally, &gt;90% of larvae dies before they reach attachment stage due to predation and environmental stress <ref type="bibr" target="#b24">(Jessopp, 2007)</ref>. Thus early larval life stages are not only highly susceptible to stressors; their physiological fitness would also determine the success of pre-and post-larval life <ref type="bibr" target="#b39">(Pechenik, 1999)</ref>. When analyzing the effects of OA on shellfishes, it is thus critical to study their effects not only on adult stage but also on larval stages <ref type="bibr" target="#b9">(Dupont et al., 2008;</ref><ref type="bibr" target="#b17">Gazeau et al., 2010;</ref><ref type="bibr" target="#b26">Kurihara et al., 2007;</ref><ref type="bibr" target="#b49">Talmage and Gobler, 2010)</ref>. The larvae of oysters are particularly at risk because they use aragonite (MgCO 3 ) in their shell, which is 30 times more sensitive to OA than normal calcite (CaCO ) based adult shells <ref type="bibr" target="#b32">(Medakovié et al., 1989)</ref>.</p><p>Reduced shell calcification rate (and thus growth rate), and metabolic depression are common symptoms of OA in early life stages <ref type="bibr" target="#b11">(Dupont and Thorndyke, 2009;</ref><ref type="bibr" target="#b49">Talmage and Gobler, 2010)</ref>. These symptoms could most probably be due to the down-regulation of genes responsible for calcification, and energy metabolism <ref type="bibr" target="#b52">(Todgham and Hofmann, 2009)</ref>. Expression of gene (s) does not always correlate with their product (protein) (s) <ref type="bibr" target="#b15">(Görg et al., 2004)</ref>. Therefore, knowledge of protein expression pattern is necessary to understand the direct link between OA stress and larval physiological response <ref type="bibr" target="#b21">(Hofmann et al., 2008)</ref>. However, differential expression of proteins (proteome plasticity), especially in early larval life stages, in response to OA has not yet been well explored <ref type="bibr" target="#b60">(Wong et al., 2011)</ref>. Recently, two-dimensional electrophoresis (2-DE) based proteomics has emerged to be a highly useful tool to study global protein expression pattern in a variety of non-model larval species <ref type="bibr" target="#b51">(Thiyagarajan and Qian, 2008;</ref><ref type="bibr" target="#b60">Wong et al., 2011)</ref>. Using similar larval proteomic approach, in this study, we have tested the hypothesis that the negative effects of OA on early larval stage (e.g. decreased shell growth) are mediated through differential expression of proteins associated with calcification, metabolism, and stress tolerance. We also explored the role of protein expression variation in acclimation to OA. To accomplish our objectives, (1) embryos of the Pacific oyster (Crassostrea gigas) were cultured at high (OA) and ambient CO (control) conditions for 6 days, and (2) larvae of similar physiological age and shell size (on Day 4) from the OA and the control groups were analyzed by 2dimentional electrophoresis (2-DE), and selected (differentially expressed) proteins were identified by matrix-assisted laser desorption/ionization-time of flight mass spectrometry (MALDI-TOF MS).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Materials and methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Study organism</head><p>The experiment was conducted at the South China Sea Institute of Oceanology (Chinese Academy of Science, China)'s oyster hatchery cum research station located at Zhanjiang (Guangdong province, China) in September 2010. Sperms and eggs were obtained by ''strip spawning'' from 6 males and 12 females <ref type="bibr" target="#b42">(Rico-Villa et al., 2006)</ref> of the wild Pacific oyster, C. gigas (Thunberg, 1793). About 4-5 sperms were added per egg for fertilization, and after 30 min prefertilized embryos were used for the following ocean acidification (OA) experiment.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Experimental design and sample collection</head><p>Embryos were cultured in filtered (1 lm) seawater bubbled with ambient air (control) and CO 2 -enriched air (OA treatment). Through air and CO 2 gas flow adjustment system, a steady-state carbonate system was reached and maintained, i.e. pH $8.0 for control and pH $7.5 for OA treatment using gas flow rotameters (Cole-Parmer, USA). This decreased pH 7.5 and concomitant increase in the partial pressure of CO 2 (pCO 2 ) $2275 latm ultimately resulted in under saturation of aragonite in OA treatment tanks. This high amount of pCO 2 was required in our system to reduce pH from 8.0 to 7.5 because of relatively high total alkalinity (TA) in ambient water <ref type="bibr">(1977 ± 29)</ref>. Two of the carbonate system parameters, pH (NBS scale) and total alkalinity, were measured according to the standard protocols <ref type="bibr" target="#b7">(Dickson et al., 2007)</ref>. Titration alkalinity measured data were verified using measurements obtained from seawater reference materials (Batch 103, A.G. Dickson, Scripps Institution of Oceanography). Then, the whole carbonate system was calculated using the program co2sys.xls spreadsheet <ref type="bibr" target="#b40">(Pelletier et al., 2005)</ref> by inputting pH, alkalinity, temperature and salinity and by using standard dissociation constants <ref type="bibr" target="#b6">(Dickson and Millero, 1987)</ref>.</p><p>Embryos were divided into 6 randomly assigned tanks of 450 L of volume with three replicates per treatment. As opposed to conventional small scale laboratory cultures (&lt;10 L capacity), a typical oyster hatchery's black polycarbonate larval culture tanks (500 L capacity) were used. Cohorts of embryos were counted and introduced into each of the 6 culture tanks with a density of $15-20 embryo ml À1 . Except seawater pH (a proxy for the changes in seawater carbonate system in response to the increasing pCO 2 ), both treatment and control culture tanks were maintained at optimal temperature (28 ± 2°C), salinity (25 ppt), and larval microalgae food concentration (10 5 cells of Chlorella sp. ml À1 ).</p><p>Embryos were not fed during the first 24 h of their development. Under these culture conditions, &gt;70% of embryos developed into D-shaped veliger larvae in 24 h, after which, water was changed and larvae were cultured for 6 days (including embryo development time). Larval samples with more or less similar physiological age and shell size between the control and the OA treatment were used for comparative proteome analysis using two-dimensional electrophoresis (2-DE). Samples collected on Day 4 fulfilled with those similar larval size and age requirement for proteome analysis. Unfortunately, samples were not collected for proteome analysis before termination of the experiment on Day 6.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Sample preparation for 2-DE</head><p>Actively swimming larvae from each culture tank was filtered (80 lm mesh size) out, washed in double-distilled water and then immediately frozen in liquid nitrogen until further analysis. During analysis, samples were lyzed in 2-DE buffer consisting of 7 M urea, 2 M thiourea, 4% CHAPS, 40 mM DTT, 1X protease inhibitor and 2% Bio-Lyte 3/10 ampholyte <ref type="bibr" target="#b15">(Görg et al., 2004)</ref>. Larval proteins were solubilized with the aid of a sonicator (Branson Sonifier 150) using setting 3 (6 rounds of 1 min, with 2 min pause-interval) on ice to prevent protein denaturing and centrifuged for 20 min at 14,000 rpm <ref type="bibr" target="#b51">(Thiyagarajan and Qian, 2008)</ref>. The soluble proteins in the supernatant was quantified by the modified Bradford method <ref type="bibr" target="#b41">(Ramagli, 1999)</ref> and used for 2-DE analysis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">2-DE analysis</head><p>The 2-DE separation of larval proteins was performed according to the optimized larval proteomic protocols <ref type="bibr" target="#b51">(Thiyagarajan and Qian, 2008)</ref>. 100 lg of proteins dissolved in the rehydration buffer (7 M urea, 2 M thiourea, 2% CHAPS, 40 mM DTT, 0.2% Bio-Lyte, 3/10 ampholyte, and 1% Bromophenol blue) and applied to 17 cm ReadyStrip IPG strips (Bio-rad), pH 3-10 (linear), for overnight active rehydration at 50 V and then subjected to isoelectric focusing (IEF) using a Protean IEF Cell (BIO-RAD Laboratories Inc.). Focusing conditions were as follows: 250 V for 20 min, 1000 V for 2.5 h with a gradient of 10,000 V for a total of 40,000 Vh. After IEF, the IPG strips were equilibrated for 15 min in equilibration buffer 1 (6 M urea, 2% SDS, 0.05 M Tris-HCl (pH 8.8), 50% glycerol, and 2% w/v 1,4-DTT) followed by 15 min in buffer 2 (same as buffer 1 but had 2.5% iodoacetamide instead of DTT). For second dimension, the equilibrated IPG strips were inserted on top of 12.5% SDS-polyacrylamide gels (18.5 cm Â 18.5 cm) and sealed with 0.5% w/v agarose. The gel running buffer was the standard Laemmli buffer for SDS-PAGE. The gels were run at 20°C at a maximum of 24 mA per gel for approximately 6.5 h until the bromophenol blue front reached the bottom of the gel. Gels were then stained using the mass spectrophotometer compatible Vorum silver staining method <ref type="bibr" target="#b35">(Mortz et al., 2001</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">Larval proteome (2-DE gel) analysis</head><p>The gels were scanned at an optical resolution of 400 dpi using the GS-800 densitometer (Bio-Rad, Hercules, CA, USA). Then, the gels were compared using the PD Quest software (ver. 8.0; Biorad), which models protein spots mathematically as a threedimensional Gaussian distribution and determines the maximum absorption after correction of the raw image correction and background subtraction. Automatic spot detection in each gel was verified by visual inspection in order to ensure spots were all properly detected. Spot intensities were normalized using total density values, and then spot analysis was performed using both qualitative and quantitative modes using Student's t-test. Spots that displayed significant statistical difference (p &lt; 0.05) and with 2-fold or greater change in mean volume with respect to the control were considered differentially expressed in the OA treatment. Besides, hierarchial clustering with TMEV heat map showing all the treatments and normalized spot volumes for each spots across the gels was constructed using pearson's correlation coefficient <ref type="bibr" target="#b45">(Saeed et al., 2006)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6.">Protein identification using MALDI-TOF/TOF mass spectrophotometer</head><p>Fifteen abundant spots that were differentially expressed were excised for mass spectrometric identification according to the standard protocol <ref type="bibr" target="#b46">(Shevchenko et al., 1996)</ref>. The gel pieces (protein spots) were washed twice for 15 min each with water and twice with H 2 O/ACN (1:1 v/v) and were then placed in 100% ACN. The gel pieces were dried in a Speed Vac centrifuge before adding 10 ll of 20 ng/ll sequencing grade trypsin (Promega) in 20 mM NH 4 HCO 3 buffer. After rehydration with the enzyme solution, the gel pieces were covered with the buffer solution and digestion was allowed to proceed overnight at 37°C. The peptides were extracted using several volumes of an H 2 O/ACN/trifluoroacetic acid mixture (80:20:1), after clean up with ZipTip (Millipore), peptides subjected to mass/charge ratio analysis using MALDI-TOF/TOF mass spectrometer (ABI 4800 Proteomics Analyzer, Applied Biosystems). Combined PMF and MS/MS information obtained from the MS process was subjected to searching against the NCBI non-redundant and EST invertebrate database with entities restricted to other-metazoan sequences using the GPS Explorer algorithm, ver. 3.6 (Applied Biosystems) and in-house MASCOT database ver. 2.2 (Matrix Science). Mass spectrum searches were performed using mass tolerance settings of ±75 ppm for PMF and ±0.2 Da for the MS/MS spectra. MASCOT scores greater than 69 (p &lt; 0.05) and ion score of minimum one peptide greater than 50 (p &lt; 0.05) or three peptides greater than 20 (p &lt; 0.05) were considered significant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Oyster larval growth response to OA</head><p>To examine the impact of OA on marine organisms, researchers have developed standard protocols to mimic and measure carbonate system parameters in a controlled laboratory conditions <ref type="bibr" target="#b44">(Riebesell et al., 2010)</ref>. By using these standard protocols, carbonate system variables such as pH, pCO 2 , CO 2À 3 ion concentration, and CaCO 3 mineral saturation levels were maintained at significantly different levels between the control and the OA treatment. In this study, when the pH reduced from 7.92 (±0.02, control) to 7.48 (±0.01, OA treatment) by bubbling with high-CO air, the pCO 2 increased 3 times (to 2273 ± 349) and CaCO minerals became under saturated (X aragonite = 0.6 ± 0.02; X calcite = 0.9 ± 0.03). There was no significant change in total alkalinity between the control and the OA treatment. Although the pH or pCO levels chosen in this study are expected only in the year 2300 or beyond <ref type="bibr" target="#b2">(Caldeira and Wickett, 2003)</ref>, this slightly extreme perturbation level is invaluable to understand OA effects at both physiological and molecular levels <ref type="bibr" target="#b19">(Hale et al., 2011;</ref><ref type="bibr" target="#b33">Melzner et al., 2009;</ref><ref type="bibr" target="#b59">Widdicombe and Spicer, 2008)</ref>. Nevertheless, the perturbated carbonate system in a 450 L OA treatment tanks allowed us (1) to maintain a highly stable carbonate system (compared to small-scale culture containers, authors unpublished data), (2) to perform the OA experiment using typical oyster hatchery procedures such as water change and larval filtration and feeding strategies as described in typical hatchery manual <ref type="bibr" target="#b1">(Breese and Malouf, 1975)</ref>, (3) to obtain enough larval samples for proteomics analysis and finally, (4) to extrapo-late obtained results to commercial oyster hatchery conditions. To our knowledge this is the first study to use such large volume cultures to examine OA effect on oyster larvae (but see <ref type="bibr" target="#b17">(Gazeau et al., 2010)</ref>. However, this experimental design and scale was not suitable and not aimed to determine the effects of OA on embryo or larval developmental and success rates.</p><p>In this study, large proportion of embryos of the Pacific oyster in OA treatment (pH 7.5) developed as fast as control group and attained a statistically similar total shell size on Day 4 from fertilization ( <ref type="figure" target="#fig_0">Fig. 1)</ref>. However, there were significant difference in shell size between the control and the OA treatment groups on Day 6. It appears that larval physiology that is required for normal shell growth (e.g. calcification) seem to be hindered by OA only from Day 4. Therefore, the Day 4 larvae with similar shell size or developmental stage between the control and the OA treatment were used for proteomic analysis. This similarly sized sample between the control and treatment groups were necessary for us to determine the potential impact of OA on larval proteome without interference of other co-variables such as delayed growth due to OA effect (Sam Dupont, personal communication). On Day 6, for example, larvae from OA group were significantly smaller in shell size though they were at same age of control group. This issue of larval age and size in molecular OA studies has recently been discussed as ''virtual age'' <ref type="bibr" target="#b10">(Dupont et al., 2010)</ref>.</p><p>A pioneering study that examined OA impacts on embryo and early larval development of the Pacific oyster, at pH 7.4, has clearly showed a detrimental effect of reduced calcification and early development <ref type="bibr" target="#b26">(Kurihara et al., 2007)</ref>. It appears that OA effects are highly species-specific in oysters. For instance, a slight drop in pH (0.3 units from ambient level) hindered larval shell growth in the Suminoe oyster (Crassostrea ariakensis) but not in the Eastern oyster (Crassostrea virginica) <ref type="bibr" target="#b34">(Miller et al., 2009)</ref>. Among various carbonate system (OA) parameters, only the carbonate ion concentration appears to be detrimental to early larval life stages of oysters <ref type="bibr" target="#b16">(Gazeau et al., 2011)</ref>. Oyster embryos and early life stages of some species do not appear to have an efficient calcification compensatory mechanism to overcome OA effects especially when the carbonate ion concentration goes below the saturation level. This might explain the observed negative effects of OA on Pacific oyster early life stages. The negative effects of a delayed and/ or impaired early larval development under OA conditions on oyster production at hatchery and fishery scale have been highlighted in various recent literatures <ref type="bibr" target="#b20">(Havenhand and Schlegel, 2009;</ref><ref type="bibr" target="#b34">Miller et al., 2009;</ref><ref type="bibr" target="#b38">Parker et al., 2009;</ref><ref type="bibr" target="#b48">Talmage and Gobler, 2009;</ref><ref type="bibr" target="#b56">Waldbusser et al., 2011;</ref><ref type="bibr" target="#b57">Watson et al., 2009)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Oyster larval proteome response to OA</head><p>In control, there were 379 ± 1 (n = 3) proteins in the proteome of 4 day old ''D-shaped'' veliger larva ( <ref type="figure" target="#fig_1">Fig. 2A)</ref>. To our knowledge, this is the first analysis of oyster larval proteome using 2-DE approach. Generally marine invertebrate larvae tend to have this range of numbers of soluble (in lysis buffer) proteins that can be resolved using conventional 2-DE approach, i.e. there were about 350 in corals <ref type="bibr" target="#b5">(Deboer et al., 2007)</ref>, 250-500 in polychaete tubeworm <ref type="bibr" target="#b65">(Zhang et al., 2010)</ref>, 400 in barnacles <ref type="bibr" target="#b51">(Thiyagarajan and Qian, 2008)</ref> and 450 in mussels <ref type="bibr" target="#b28">(López et al., 2005)</ref>. However, larval proteome structure (i.e. distribution of proteins according to their pI and MW) is highly species specific. For instance, majority of proteins in the larvae of tube-worm, Hydroides elegans, was visualized in acidic region of the gel (pI 3-6) and were of low-molecular weight (ranged between 50 and 10 kDa) <ref type="bibr" target="#b65">(Zhang et al., 2010)</ref>. On the other hand, results from the current study showed that oyster larval proteins lie between pI 4-8 and spread between MW 100 and 10 kDa <ref type="figure" target="#fig_1">(Fig. 2)</ref>.</p><p>Larval proteome analysis using traditional 2-DE has been a very popular proteomic approach, especially for non-model (organisms without genome sequence data) species, because it can display differentially expressed proteins between a treatment and a control group <ref type="bibr" target="#b27">(López, 2007;</ref><ref type="bibr" target="#b36">Nunn and Timperman, 2007;</ref><ref type="bibr" target="#b50">Thiyagarajan, 2010;</ref><ref type="bibr" target="#b53">Tomanek, 2006</ref><ref type="bibr" target="#b54">Tomanek, , 2011</ref>. A similar approach was used in this study to understand the impact of OA on global protein expression pattern in oyster larvae. Additionally, differential expressed proteins that may be responsive to OA stress tolerance or part of OA compensatory response proteins were identified using PD-Quest software and MALDI-TOF/TOF MS analysis.</p><p>In contrast to control, there were only 308 ± 1 (n = 3) proteins in OA exposed larvae. Similarities in the global expression pattern of replicate gels in both groups were estimated with a TMEV heat map that resulted from hierarchical clustering analysis of normalized protein spot volume data of all the 6 samples. The proteome or samples were clearly grouped in two well-differentiated clusters, the control and the OA treatment <ref type="figure" target="#fig_2">(Fig. 3)</ref>. Subsequent statistical analysis also revealed dramatic OA dependent changes in several protein spots. Surprisingly, large numbers of low-MW proteins (&lt;40 kDa) completely down-regulated after OA exposure (see <ref type="figure" target="#fig_1">Fig. 2B</ref> in comparison with <ref type="figure" target="#fig_1">Fig. 2A</ref>). Such massive down-regulation may be associated with larval metabolic depression in response to OA. There are many strategies that marine organism may employ to tolerate OA stress, and one of which could involve metabolic depression <ref type="bibr" target="#b22">(Hofmann and Todgham, 2010)</ref>. For instance, oysters tend to reduce their overall metabolic activity and energy metabolism in response to OA stress <ref type="bibr" target="#b30">(Lannig et al., 2010)</ref>. In larval sea urchin, expression of many genes in the biomineralization, metabolic, cellular stress and apoptotic pathways were down-regulated in response to OA <ref type="bibr" target="#b37">(O'Donnell et al., 2010;</ref><ref type="bibr" target="#b52">Todgham and Hofmann, 2009)</ref>. Therefore one would expect a down-regulation of a large numbers of proteins in response to OA to conserve energy as part of one of the compensatory responses <ref type="bibr" target="#b61">(Wood et al., 2008)</ref>. Our results provide preliminary evidence to support the above hypothesis.</p><p>Global expression pattern of proteins in response to OA has been analyzed only in couple of instances. In the mantle tissues of an eastern oyster, expressions of only 12% of their total 456 proteins have been altered by OA <ref type="bibr" target="#b55">(Tomanek et al., 2011)</ref>. Similarly, only 9 of the total 566 proteins in the intertidal barnacle larvae (Balanus amphitrite) have been altered by OA <ref type="bibr" target="#b60">(Wong et al., 2011)</ref>. Thus, in contrast to oyster larval proteome, proteome of oyster mantle tissue and the barnacle larvae appear to be robust to OA stress. Such species specific response to OA at proteome level was not surprising because the sensitivity of OA was not uniform across animal groups <ref type="bibr" target="#b8">(Doney et al., 2009)</ref>, i.e. some species are robust to OA (e.g. barnacle larvae) than do other species (e.g. oyster larvae) even at pH 7.4 <ref type="bibr" target="#b58">(Whiteley, 2011)</ref>. Altogether, our global protein expression analysis demonstrates the presence of a compensatory response to OA stress at the level of protein expression. Representative gel image of larval proteome analyzed by 2-DE are shown. There were three biologically independent gels per treatment. The 1st dimension was performed on pH 3-10 linear IPG strips; the 2nd dimension was run on home made 12.5% T acrylamide gel. Gels were stained with silver nitrate solution. Sample amount of protein loaded was 100 lg for each sample. Proteins identified are marked, and spot numbers refer to <ref type="table">Table 1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Differential expression of proteins to OA</head><p>In our proteome analysis, 46 proteins were differentially expressed, according to the cut-off value used (2-fold level). Among them, 17 were down-regulated and 29 were up-regulated. Fifteen of these high abundance OA-responsive proteins were excised from the control gels and analyzed through matrix-assisted laser desorption/ionization time of flight (MALDI-TOF/TOF) mass spectrometry <ref type="figure">(Fig. 4)</ref>. Among them, 4 were down-regulated and 11 were up-regulated. In accordance with our stringent identification criteria, 11 of the 15 differentially expressed proteins were identified. Proteins that were successfully identified by MS/MS are shown in <ref type="table">Table 1</ref>. These 11 OA responsive proteins can be treated as part of ''protein expression signatures'' (PES) for OA in oyster larvae <ref type="bibr" target="#b0">(Bradley et al., 2002)</ref>. Identity of these proteins has not been validated in this study but they could serve us to understand the molecular mechanisms that evoke compensatory physiological responses to OA in oyster larvae.</p><p>Calcification is one of the most vulnerable physiological processes to OA stress <ref type="bibr" target="#b8">(Doney et al., 2009)</ref>. In this study, 3 calcium metabolism related proteins (two calmodulin and a troponin C protein) have been identified with high confidence using MS/MS evidence alone, which were significantly down-regulated in response to OA stress <ref type="table">(Table 1)</ref>. During CaCO 3 shell formation process, the uptake, transport and assimilation of calcium ion are key steps which are governed by action of calmodulin and a potential calcium binding proteins such as troponin C <ref type="bibr" target="#b63">(Yan et al., 2007;</ref><ref type="bibr" target="#b62">Yamamoto et al., 1987)</ref>. Their down regulation, as observed in this study, is likely to slow down calcification process in OA exposed larvae. It should be noted that, oyster larvae used in this study have started to grow at slower rate in OA treatment soon after the Day 4. Repression of these calcification-related proteins by OA in Day 4 larvae could be a preparatory phase or machinery for subsequent slow calcification growth phase. However, only future investigations will confirm and determine the nature of this hypothetical correlation between low production of calcium metabolism proteins and slow larval shell growth as a compensatory response to OA. Along with these calcification-related proteins, expression of cytoskeleton proteins was decreased substantially in response to OA (Beta-tubulin and tektin in <ref type="table">Table 1</ref>). Relative spot intensity <ref type="figure">Fig. 4</ref>. Relative changes in expression levels of identified proteins that were 2-fold differentially expressed between the ambient CO 2 (pH 8.0, control) and the high-CO 2 (pH 7.5, ocean acidification) treatment. The successfully identified (using MS/MS analysis) spots are listed in <ref type="table">Table 1</ref>. Each bar represents mean value of three biologically independent replicates.</p><p>In addition, energy related protein cytochrome c oxidase was also found to be down-regulated that are responsible for oxidative metabolism. In oyster, oxidative stress occurs in response to OA which in turn suppress cytoskeleton production <ref type="bibr" target="#b37">(O'Donnell et al., 2010;</ref><ref type="bibr" target="#b55">Tomanek et al., 2011)</ref>. Overall, these results suggest that both calcification and cytoskeleton related proteins were highly suppressed by OA. Vacuolar H <ref type="bibr">[+]</ref> -ATPase was seen up-regulated indicating that oyster larvae respond to the changes in the acidic environment, by altering its cellular proton transportation at the expense of ATP. Up-regulation of this pump possibly increases the rate of proton exchange maintaining normal intracellular functions <ref type="bibr" target="#b29">(Lopez-Martinez et al., 2009)</ref>. Other OA studies demonstrated that down-regulation of ion transporters <ref type="bibr" target="#b52">(Todgham and Hofmann, 2009)</ref> or unchanged activity in long term exposure <ref type="bibr" target="#b30">(Lannig et al., 2010)</ref> and their up-regulation in early stages of exposure <ref type="bibr" target="#b23">(Hu et al., 2011;</ref><ref type="bibr" target="#b47">Stumpp et al., 2011)</ref>. One of the larval responses to OA stress is the induced expression of a large number of genes whose products (proteins) are assumed to be involved in various adaptive functions under stress conditions such as heat-shock proteins <ref type="bibr" target="#b4">(Cummings et al., 2011)</ref>. Unfortunately, heat shock proteins (hsp) have not been identified that were differentially expressed in OA treatment. Alternatively, annexin -a stress related protein similar to hsp's was found to be increased within such a short exposure period in OA treated larvae <ref type="bibr" target="#b18">(Gerke and Moss, 2002;</ref><ref type="bibr" target="#b43">Rhee et al., 2000)</ref>. Probably, hsp's might have been differentially expressed but not expressed in abundance to enable us to identify them using our 2-DE approach. Most studies on molecular plasticity to OA to date have only focused on the changes in gene expression, whereas there is no information available on their functional products, proteins <ref type="bibr" target="#b22">(Hofmann and Todgham, 2010;</ref><ref type="bibr" target="#b54">Tomanek, 2011)</ref>. Genes exhibiting a plastic expression pattern with respect to OA stress have been identified as candidates with putative roles in OA stress tolerance compensatory mechanisms <ref type="bibr" target="#b31">(Martin et al., 2011)</ref>. In this study, plasticity of the oyster larval proteome was revealed, and about 18% of the protein spots were affected by OA stress (see <ref type="figure" target="#fig_1">Fig. 2</ref>). We believe that these differentially expressed proteins or proteome plasticity might allow oyster larval to survive in OA but with delayed shell growth <ref type="figure" target="#fig_0">(Fig. 1)</ref>. However, for firm conclusion and to prove this hypothesis, future studies should confirm functional role of the identified OA stress responsive proteins in stress tolerance using chemical inhibition and gene knock procedures. Rapid advances <ref type="table">Table 1</ref> Identification of selected proteins that are abundantly and differentially expressed in the Pacific oyster (Crassostrea gigas) veliger larvae in response to high-CO (ocean acidifcation) treatment after 4 days of expsoure from fertilization.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Spot a Putative identification b</head><p>MASCOT protein score (C.I.) c in genomic and proteomics studies in non-model marine organisms have just begun to uncover the proteins that are plastic and are responsible for stress tolerance. This study is just a beginning of our global attempt to find molecular mechanisms of action of OA, pollution and environmental stressors in various marine nonmodel but economically important invertebrate species.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Conclusion</head><p>Here, we reported the first study where oyster larvae exposed to ambient and high-CO 2 at aquaculture hatchery scale to reveal global expression pattern of proteins that respond to ocean acidification (OA) stress. A simple and a reproducible 2-DE based proteomic approach have been described to examine proteome level changes to high-CO 2 . Surprisingly, the expression of 71 out of 379 proteins was either decreased or completely lost or expressed below the detection limit after exposure to OA just for 4 days from fertilization. Importantly, expression of proteins related to calcification and cytoskeleton production appears to be severally suppressed by OA; however, further in vitro tests should be performed to confirm this hypothesis. Nevertheless, demonstrated altered expression pattern of proteins appears to be a part of biochemical compensatory mechanisms (a short-term adaptive response) in oyster larvae to OA stress. Thus, the application of recent advances in mass spectrometers and bioinformatics tool for protein identification, proteome maps generated using conventional 2-DE technique provides new insights into the effects of OA on organisms at molecular level.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Shell length of 4 d old (from fertilization) ''D-shaped'' veliger larvae of Crassostrea gigas cultured in 450 L (15-20 larvae per ml) seawater contained ambient CO 2 (pH 8.0, control) or high-CO 2 (pH 7.5, ocean acidification treatment). Each bar represents mean value of three replicate culture tanks. There were 50-100 larval size measurements per replicate tank. ⁄ Significantly (p &lt; 0.05) different from control.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>The Pacific oyster (Crassostrea gigas) larval proteome response to high-CO 2 or ocean acidification. (A) 2-DE image of 4 days old larvae cultured in ambient CO 2 conditions (pH 8.0), (B) 2-DE image of the 4 day old larvae cultured in high-CO 2 (pH 7.5).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Hierarchical clustering analysis with the TMEV heat map showing the cluster constructed using Pearson's correlation coefficient for all protein spots in 6 samples (2 treatments Â 3 biologically independent replicates). CON, control (ambient CO 2 level, pH 8); OA, ocean acidification (high-CO 2 level, pH 7.5); R, replicates. Each horizontal axis shows the measured normalized spot volumes for each spot from all the treatments. The protein expression volumes are graded based on the color density showing black for higher, grey for medium and white for lower spot expression volumes.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>The in-house MASCOT protein score obtained through searching against the NCBI non-redundant and invertebrate EST database (MASCOT score &gt;69 is considered significant). The ion score(s) of the peptide(s) identified by MS/MS; ion score of min. 1 peptide &gt;50 (p &lt; 0.05) or 3 peptides &gt;20 (p &lt; 0.05) are considered significant. The theoretical MW and pI value of the matched protein.</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell>Peptide</cell><cell>MASCOT</cell><cell>MASCOT peptides</cell><cell>Homology to protein</cell><cell>Theo.</cell><cell>Expt.</cell><cell>Functions</cell></row><row><cell></cell><cell></cell><cell></cell><cell>count d</cell><cell>MS/MS</cell><cell>identified by MS/MS f</cell><cell>(Genbank) g</cell><cell>Mw/pI h</cell><cell>Mw/pI i</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>score (C.I.) e</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>2</cell><cell>Calmodulin</cell><cell>298 (100)</cell><cell>5</cell><cell>75 (100)</cell><cell>DSDSEEELREAFR</cell><cell>156915032</cell><cell>15.7/4.20</cell><cell cols="2">18.0/3.50 Calcium binding</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>71 (100)</cell><cell>DGNGFISAAELR</cell><cell>Crassostrea gigas</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>110 (100)</cell><cell>VFDKDGNGFISAAELR</cell><cell></cell><cell></cell><cell></cell></row><row><cell>101</cell><cell>Calmodulin</cell><cell>359 (100)</cell><cell>6</cell><cell>72 (100)</cell><cell>DGNGFISAAELR</cell><cell>2832598</cell><cell>15.1/4.11</cell><cell cols="2">20.0/3.50 Calcium binding</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>88 (100)</cell><cell>DTDSEEEIREAFR</cell><cell>Branchiostoma</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>150 (100)</cell><cell>VFDKDGNGFISAAELR</cell><cell>lanceolatum</cell><cell></cell><cell></cell></row><row><cell>201</cell><cell>Troponin C</cell><cell>222 (100)</cell><cell>3</cell><cell>57 (100)</cell><cell>GTIPVEDLR</cell><cell>HS112685Crassostrea</cell><cell>29.7/5.16</cell><cell cols="2">32.0/4.20 Calcium binding</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>67 (100)</cell><cell>GNKGTIPVEDLR</cell><cell>gigas</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>97 (100)</cell><cell>QLTDAHNTFNLFDK</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">5506 Annexin</cell><cell>161 (100)</cell><cell>3</cell><cell>45 (100)</cell><cell>AIIDVLAHR</cell><cell>HS201028Crassostrea</cell><cell>26.7/5.47</cell><cell cols="2">50.0/6.70 Calcium</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>75 (100)</cell><cell>DIESDTSGHFKR</cell><cell>gigas</cell><cell></cell><cell></cell><cell>regulated</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>41 (100)</cell><cell>AVFDAYQK</cell><cell></cell><cell></cell><cell></cell><cell>phospholipid</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>binding</cell></row><row><cell cols="2">1303 Beta-tubulin</cell><cell>142 (100)</cell><cell>5</cell><cell>87 (100)</cell><cell>INVYYNEATGGK</cell><cell>226471718</cell><cell>37.4/5.29</cell><cell cols="2">48.0/5.00 Cytoskeletal</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Schistosoma</cell><cell></cell><cell></cell><cell>functions</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>japonicum</cell><cell></cell><cell></cell></row><row><cell cols="2">5801 Tektin</cell><cell>169 (100)</cell><cell>10</cell><cell>82 (100)</cell><cell>TLEQTTEQIR</cell><cell>194068377 Saccostrea</cell><cell>42.1/6.27</cell><cell cols="2">95.0/6.50 Cytoskeletal</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>kegaki</cell><cell></cell><cell></cell><cell>functions</cell></row><row><cell cols="2">5305 Nucleoside</cell><cell>83 (100)</cell><cell>2</cell><cell>71 (100)</cell><cell>SEEIEDIILR</cell><cell>HS241176Crassostrea</cell><cell>20.8/8.03</cell><cell cols="2">59.0/7.10 Cellular</cell></row><row><cell></cell><cell>diphosphate</cell><cell></cell><cell></cell><cell>(100)</cell><cell>RVHLTPEQASDFYAEHYGK</cell><cell>gigas</cell><cell></cell><cell></cell><cell>metabolism</cell></row><row><cell></cell><cell>kinase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">3602 Serine/</cell><cell>103 (100)</cell><cell>3</cell><cell>19(100)</cell><cell>SPDTNYLFMGDYVDR</cell><cell>FQ017914Spodoptera</cell><cell cols="3">51.3 /8.97 83.0/5.70 Cellular</cell></row><row><cell></cell><cell>threonine-</cell><cell></cell><cell></cell><cell>41 (100)</cell><cell>QITQVYGFYDECLR</cell><cell>littoralis</cell><cell></cell><cell></cell><cell>metabolism</cell></row><row><cell></cell><cell>protein</cell><cell></cell><cell></cell><cell>43 (100)</cell><cell>YSFLQFDPAPR</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>phosphatase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">6401 Fascilin</cell><cell>86 (100)</cell><cell>2</cell><cell>38 (100)</cell><cell>LSELGTLVK</cell><cell>HS121174Crassostrea</cell><cell>26.1/7.96</cell><cell cols="2">56.0/6.40 Cell adhesion</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>48 (100)</cell><cell>SVNIVVGQGVK</cell><cell>gigas</cell><cell></cell><cell></cell></row><row><cell cols="2">4401 Vacuolar H [+] -</cell><cell>108 (100)</cell><cell>2</cell><cell>53 (99.1)</cell><cell>IQSSNLLNQSR</cell><cell>FQ660948Crassostrea</cell><cell>30.2/6.3</cell><cell cols="2">53.0/8.80 Cellular transport</cell></row><row><cell></cell><cell>ATPase</cell><cell></cell><cell></cell><cell>55 (99.8)</cell><cell>TILYGANPNR</cell><cell>gigas</cell><cell></cell><cell></cell></row><row><cell>3</cell><cell>Cytochrome c</cell><cell>154 (100)</cell><cell>2</cell><cell>69 (100)</cell><cell>NNYAQFDGWELR</cell><cell>FP004182Crassostrea</cell><cell>24.3/7.83</cell><cell cols="2">83.0/5.70 Cellular</cell></row><row><cell></cell><cell>oxidase</cell><cell></cell><cell></cell><cell>(100)</cell><cell>NNNDYALATR</cell><cell>gigas</cell><cell></cell><cell></cell><cell>respiration</cell></row></table><note>a The assigned spot number.b Name of the putatively identified protein.cd Number of matched peptides.ef The peptide(s) identified by MS/MS.g Genbank accession number.hi The experimental MW and pI values estimated from the 2D gel pattern</note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">R. Dineshram et al. / Marine Pollution Bulletin 64 (2012) 2160-2167</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgments</head><p>We thank A. Ishimatsu (Nagasaki University, Japan), J.M. Hall-Spencer (University of Plymouth, UK), Sam Dupont (EPOCA, Sweden), Richard Zeebe (University of Hawaii, USA), Gray Williams and Kenneth Leung (The University of Hong Kong, Hong Kong) for their valuable discussions and for their support in setting up the ocean acidification facilities. We thank Mr. Fu (in oyster hatchery) for his support on oyster larval culture. This study was primarily supported by a Grant from the HKSAR-RGC (No. 778309M) and partially from the Area of Excellency Project grant (No. AoE/P-04/ 2004) to VT. The oyster larval culture facilities located in Zhanjiang (China) hatchery was partially funded by the 973 program to ZY. The proteomic part of this study was partially supported by KAUST-HKUST project funded to PYQ.</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Protein expression signatures: an application of proteomics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">P</forename><surname>Bradley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">A</forename><surname>Shrader</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">G</forename><surname>Kimmel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Meiller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marine Environmental Research</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="373" to="377" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bradley, B.P., Shrader, E.A., Kimmel, D.G., Meiller, J.C., 2002. Protein expression signatures: an application of proteomics. Marine Environmental Research 54, 373-377.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Hatchery manual for the Pacific oyster ORESU-H-75-002</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">P</forename><surname>Breese</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">E</forename><surname>Malouf</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1975" />
+			<pubPlace>Corvallis</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Oregon State University Sea Grant College Program</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">Breese, W.P., Malouf, R.E., 1975. Hatchery manual for the Pacific oyster ORESU-H- 75-002. Oregon State University Sea Grant College Program, Corvallis.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Anthropogenic carbon and ocean pH</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Caldeira</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E</forename><surname>Wickett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">425</biblScope>
+			<biblScope unit="page">365</biblScope>
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Caldeira, K., Wickett, M.E., 2003. Anthropogenic carbon and ocean pH. Nature 425, 365.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Relationship between pre-and post-metamorphic growth in the Pacific oyster Crassostrea gigas (Thunberg)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Collet</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Boudry</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Thebault</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Heurtebise</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Morand</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Gérard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aquaculture</title>
+		<imprint>
+			<biblScope unit="volume">175</biblScope>
+			<biblScope unit="page" from="215" to="226" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Collet, B., Boudry, P., Thebault, A., Heurtebise, S., Morand, B., Gérard, A., 1999. Relationship between pre-and post-metamorphic growth in the Pacific oyster Crassostrea gigas (Thunberg). Aquaculture 175, 215-226.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Ocean acidification at high latitudes: potential effects on functioning of the Antarctic Bivalve Laternula elliptica</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Cummings</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Hewitt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Van Rooyen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Currie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Beard</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Thrush</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Norkko</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Barr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Heath</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">J</forename><surname>Halliday</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">16069</biblScope>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cummings, V., Hewitt, J., van Rooyen, A., Currie, K., Beard, S., Thrush, S., Norkko, J., Barr, N., Heath, P., Halliday, N.J., 2011. Ocean acidification at high latitudes: potential effects on functioning of the Antarctic Bivalve Laternula elliptica. PLoS ONE 6, e16069.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Proteomic and transcriptional analyses of coral larvae newly engaged in symbiosis with dinoflagellates</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">L</forename><surname>Deboer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Krupp</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">M</forename><surname>Weis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comparative Biochemistry and Physiology Part D: Genomics and Proteomics</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="63" to="73" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Deboer, M.L., Krupp, D.A., Weis, V.M., 2007. Proteomic and transcriptional analyses of coral larvae newly engaged in symbiosis with dinoflagellates. Comparative Biochemistry and Physiology Part D: Genomics and Proteomics 2, 63-73.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">A comparison of the equilibrium constants for the dissociation of carbonic acid in seawater media</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Dickson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Millero</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Deep Sea Research Part A. Oceanographic Research Papers</title>
+		<imprint>
+			<date type="published" when="1987" />
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="1733" to="1743" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dickson, A., Millero, F., 1987. A comparison of the equilibrium constants for the dissociation of carbonic acid in seawater media. Deep Sea Research Part A. Oceanographic Research Papers 34, 1733-1743.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Guide to best practices for ocean CO 2 measurements</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">G</forename><surname>Dickson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">L</forename><surname>Sabine</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Christian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PICES Special Publication</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="191" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dickson, A.G., Sabine, C.L., Christian, J.R., 2007. Guide to best practices for ocean CO 2 measurements. PICES Special Publication, 1-191.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Ocean acidification: the other CO 2 problem</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">C</forename><surname>Doney</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">J</forename><surname>Fabry</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">A</forename><surname>Feely</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Kleypas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Marine Science</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="169" to="192" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Doney, S.C., Fabry, V.J., Feely, R.A., Kleypas, J.A., 2009. Ocean acidification: the other CO 2 problem. Annual Review of Marine Science 1, 169-192.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Near-future level of CO 2 -driven ocean acidification radically affects larval survival and development in the brittle star Ophiothrix fragilis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Dupont</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Havenhand</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Thorndyke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Peck</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Thorndyke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marine Ecology Progress Series</title>
+		<imprint>
+			<biblScope unit="volume">373</biblScope>
+			<biblScope unit="page" from="285" to="294" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dupont, S., Havenhand, J., Thorndyke, W., Peck, L., Thorndyke, M., 2008. Near-future level of CO 2 -driven ocean acidification radically affects larval survival and development in the brittle star Ophiothrix fragilis. Marine Ecology Progress Series 373, 285-294.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Near-future ocean acidification increases growth rate of the lecithotrophic larvae and juveniles of the sea star Crossaster papposus</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Dupont</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Lundve</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Thorndyke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Zoology Part B: Molecular and Developmental Evolution</title>
+		<imprint>
+			<biblScope unit="volume">314</biblScope>
+			<biblScope unit="page" from="382" to="389" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dupont, S., Lundve, B., Thorndyke, M., 2010. Near-future ocean acidification increases growth rate of the lecithotrophic larvae and juveniles of the sea star Crossaster papposus. Journal of Experimental Zoology Part B: Molecular and Developmental Evolution 314B, 382-389.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Impact of CO 2 -driven ocean acidification on invertebrates&apos; early life-history: what we know, what we need to know and what we can do</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Dupont</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">C</forename><surname>Thorndyke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biogeosciences Discussions</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="3109" to="3131" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dupont, S., Thorndyke, M.C., 2009. Impact of CO 2 -driven ocean acidification on invertebrates&apos; early life-history: what we know, what we need to know and what we can do. Biogeosciences Discussions 6, 3109-3131.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Impacts of ocean acidification on marine fauna and ecosystem processes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">J</forename><surname>Fabry</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">A</forename><surname>Seibel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">A</forename><surname>Feely</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Orr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marine Science</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="414" to="432" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fabry, V.J., Seibel, B.A., Feely, R.A., Orr, J.C., 2008. Impacts of ocean acidification on marine fauna and ecosystem processes. Journal of Marine Science 65, 414- 432.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Ocean acidification at high latitudes: the bellwether</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">O J</forename><surname>Fabry</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">B</forename><surname>Mcclintock</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">T</forename><surname>Mathis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Grebmeier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oceanography</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="160" to="171" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fabry, V.O.J., McClintock, J.B., Mathis, J.T., Grebmeier, J.M., 2009. Ocean acidification at high latitudes: the bellwether. Oceanography 22, 160-171.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Present and future changes in seawater chemistry due to ocean acidification</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">A</forename><surname>Feely</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Orr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">J</forename><surname>Fabry</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Kleypas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">L</forename><surname>Sabine</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Langdon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geophysical monograph</title>
+		<imprint>
+			<biblScope unit="volume">183</biblScope>
+			<biblScope unit="page" from="175" to="188" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Feely, R.A., Orr, J., Fabry, V.J., Kleypas, J.A., Sabine, C.L., Langdon, C., 2009. Present and future changes in seawater chemistry due to ocean acidification. Geophysical monograph 183, 175-188.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Current two-dimensional electrophoresis technology for proteomics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Görg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Weiss</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Dunn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proteomics</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="3665" to="3685" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Görg, A., Weiss, W., Dunn, M.J., 2004. Current two-dimensional electrophoresis technology for proteomics. Proteomics 4, 3665-3685.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Effect of carbonate chemistry alteration on the early embryonic development of the Pacific oyster Crassostrea gigas</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Gazeau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J.-P</forename><surname>Gattuso</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Greaves</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Elderfield</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Peene</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">H R</forename><surname>Heip</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename><surname>Middelburg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gazeau, F., Gattuso, J.-P., Greaves, M., Elderfield, H., Peene, J., Heip, C.H.R., Middelburg, J.J., 2011. Effect of carbonate chemistry alteration on the early embryonic development of the Pacific oyster Crassostrea gigas. PLoS ONE 6, e23010.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Effect of ocean acidification on the early life stages of the blue mussel</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Gazeau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">P</forename><surname>Gattuso</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Dawber</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Pronker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Peene</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Peene</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">H R</forename><surname>Heip</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename><surname>Middelburg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biogeosciences Discussions</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="2927" to="2947" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note>Mytilus edulis</note>
+	<note type="raw_reference">Gazeau, F., Gattuso, J.P., Dawber, C., Pronker, A.E., Peene, F., Peene, J., Heip, C.H.R., Middelburg, J.J., 2010. Effect of ocean acidification on the early life stages of the blue mussel (Mytilus edulis). Biogeosciences Discussions 7, 2927-2947.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Annexins: from structure to function</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Gerke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">E</forename><surname>Moss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiological reviews</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="331" to="371" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gerke, V., Moss, S.E., 2002. Annexins: from structure to function. Physiological reviews 82, 331-371.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Predicted levels of future ocean acidification and temperature rise could alter community structure and biodiversity in marine benthic communities</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Hale</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Calosi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Mcneill</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Mieszkowska</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Widdicombe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oikos</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page" from="661" to="674" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hale, R., Calosi, P., McNeill, L., Mieszkowska, N., Widdicombe, S., 2011. Predicted levels of future ocean acidification and temperature rise could alter community structure and biodiversity in marine benthic communities. Oikos 120, 661-674.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Near-future levels of ocean acidification do not affect sperm motility and fertilization kinetics in the oyster Crassostrea gigas</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">N</forename><surname>Havenhand</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Schlegel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biogeosciences</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="3009" to="3015" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Havenhand, J.N., Schlegel, P., 2009. Near-future levels of ocean acidification do not affect sperm motility and fertilization kinetics in the oyster Crassostrea gigas. Biogeosciences 6, 3009-3015.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Using functional genomics to explore the effects of ocean acidification on calcifying marine organisms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">E</forename><surname>Hofmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>O'donnell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Todgham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marine Ecology Progress Series</title>
+		<imprint>
+			<biblScope unit="volume">373</biblScope>
+			<biblScope unit="page" from="219" to="225" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hofmann, G.E., O&apos;Donnell, M.J., Todgham, A.E., 2008. Using functional genomics to explore the effects of ocean acidification on calcifying marine organisms. Marine Ecology Progress Series 373, 219-225.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Living in the now: physiological mechanisms to tolerate a rapidly changing environment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">E</forename><surname>Hofmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Todgham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Physiology</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="127" to="145" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hofmann, G.E., Todgham, A.E., 2010. Living in the now: physiological mechanisms to tolerate a rapidly changing environment. Annual Review of Physiology 72, 127-145.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Elevated seawater pCO differentially affects branchial acid-base transporters over the course of development in the cephalopod Sepia officinalis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">Y</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">C</forename><surname>Tseng</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Stumpp</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Gutowska</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Kiko</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Lucassen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Melzner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Physiology-Regulatory, Integrative and Comparative Physiology</title>
+		<imprint>
+			<biblScope unit="volume">300</biblScope>
+			<biblScope unit="page" from="1100" to="1114" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hu, M.Y., Tseng, Y.C., Stumpp, M., Gutowska, M.A., Kiko, R., Lucassen, M., Melzner, F., 2011. Elevated seawater pCO differentially affects branchial acid-base transporters over the course of development in the cephalopod Sepia officinalis. American Journal of Physiology-Regulatory, Integrative and Comparative Physiology 300, R1100-R1114.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The quick and the dead: larval mortality due to turbulent tidal transport</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Jessopp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Marine Biological Association of the United Kingdom</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="675" to="680" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jessopp, M.J., 2007. The quick and the dead: larval mortality due to turbulent tidal transport. Journal of the Marine Biological Association of the United Kingdom 87, 675-680.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Geochemical consequences of increased atmospheric carbon dioxide on coral reefs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Kleypas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">W</forename><surname>Buddemeier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Archer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">P</forename><surname>Gattuso</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Langdon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">N</forename><surname>Opdyke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">284</biblScope>
+			<biblScope unit="page" from="118" to="120" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kleypas, J.A., Buddemeier, R.W., Archer, D., Gattuso, J.P., Langdon, C., Opdyke, B.N., 1999. Geochemical consequences of increased atmospheric carbon dioxide on coral reefs. Science 284, 118-120.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Effects of increased seawater pCO 2 on early development of the oyster Crassostrea gigas</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Kurihara</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Kato</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Ishimatsu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aquatic Biology</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="91" to="98" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kurihara, H., Kato, S., Ishimatsu, A., 2007. Effects of increased seawater pCO 2 on early development of the oyster Crassostrea gigas. Aquatic Biology 1, 91-98.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Applications of proteomics in marine ecology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>López</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marine Ecology Progress Series</title>
+		<imprint>
+			<biblScope unit="volume">332</biblScope>
+			<biblScope unit="page" from="275" to="279" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">López, J.L., 2007. Applications of proteomics in marine ecology. Marine Ecology Progress Series 332, 275-279.</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Proteomic approach to probe for larval proteins of the mussel Mytilus galloprovincialis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>López</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">L</forename><surname>Abalde</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Fuentes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marine Biotechnology</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="396" to="404" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">López, J.L., Abalde, S.L., Fuentes, J., 2005. Proteomic approach to probe for larval proteins of the mussel Mytilus galloprovincialis. Marine Biotechnology 7, 396- 404.</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Dehydration, rehydration, and over hydration alter patterns of gene expression in the Antarctic midge</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Lopez-Martinez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">B</forename><surname>Benoit</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">P</forename><surname>Rinehart</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Elnitsky</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">E</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">L</forename><surname>Denlinger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Belgica Antarctica. Journal of Comparative Physiology B: Biochemical, Systemic, and Environmental Physiology</title>
+		<imprint>
+			<biblScope unit="volume">179</biblScope>
+			<biblScope unit="page" from="481" to="491" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lopez-Martinez, G., Benoit, J.B., Rinehart, J.P., Elnitsky, M.A., Lee, R.E., Denlinger, D.L., 2009. Dehydration, rehydration, and over hydration alter patterns of gene expression in the Antarctic midge, Belgica Antarctica. Journal of Comparative Physiology B: Biochemical, Systemic, and Environmental Physiology 179, 481- 491.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Impact of ocean acidification on energy metabolism of oyster, Crassostrea gigas changes in metabolic pathways and thermal response</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Lannig</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Eilers</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">O</forename><surname>Pörtner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><forename type="middle">M</forename><surname>Sokolova</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Bock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marine Drugs</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="2318" to="2339" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lannig, G., Eilers, S., Pörtner, H.O., Sokolova, I.M., Bock, C., 2010. Impact of ocean acidification on energy metabolism of oyster, Crassostrea gigas changes in metabolic pathways and thermal response. Marine Drugs 8, 2318-2339.</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Early development and molecular plasticity in the Mediterranean Sea urchin Paracentrotus lividus exposed to CO 2 -driven acidification</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Richier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M.-L</forename><surname>Pedrotti</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Dupont</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Castejon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Gerakis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M.-E</forename><surname>Kerros</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Oberhänsli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J.-L</forename><surname>Teyssié</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Jeffree</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J.-P</forename><surname>Gattuso</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Biology</title>
+		<imprint>
+			<biblScope unit="volume">214</biblScope>
+			<biblScope unit="page" from="1357" to="1368" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Martin, S., Richier, S., Pedrotti, M.-L., Dupont, S., Castejon, C., Gerakis, Y., Kerros, M.- E., Oberhänsli, F., Teyssié, J.-L., Jeffree, R., Gattuso, J.-P., 2011. Early development and molecular plasticity in the Mediterranean Sea urchin Paracentrotus lividus exposed to CO 2 -driven acidification. Journal of Experimental Biology 214, 1357- 1368.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">X-ray diffraction study of the first larval shell of Ostrea edulis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Medakovié</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Hrs-Brenko</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Popovié</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Gržeta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marine Biology</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="205" to="209" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Medakovié, D., Hrs-Brenko, M., Popovié, S., Gržeta, B., 1989. X-ray diffraction study of the first larval shell of Ostrea edulis. Marine Biology 101, 205-209.</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Physiological basis for high CO 2 tolerance in marine ectothermic animals: pre-adaptation through lifestyle and ontogeny</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Melzner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Gutowska</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Langenbuch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Dupont</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Lucassen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">C</forename><surname>Thorndyke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Bleich</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">O</forename><surname>Pörtner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biogeosciences</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="2313" to="2331" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Melzner, F., Gutowska, M.A., Langenbuch, M., Dupont, S., Lucassen, M., Thorndyke, M.C., Bleich, M., Pörtner, H.O., 2009. Physiological basis for high CO 2 tolerance in marine ectothermic animals: pre-adaptation through lifestyle and ontogeny? Biogeosciences 6, 2313-2331.</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Shellfish face uncertain future in high CO 2 world: influence of acidification on oyster larvae calcification and growth in estuaries</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">W</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Reynolds</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Sobrino</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">F</forename><surname>Riedel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Miller, A.W., Reynolds, A.C., Sobrino, C., Riedel, G.F., 2009. Shellfish face uncertain future in high CO 2 world: influence of acidification on oyster larvae calcification and growth in estuaries. PLoS ONE 4, 1-8.</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Improved silver staining protocols for high sensitivity protein identification using matrix-assisted laser desorption/ionization-time of flight analysis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Mortz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">N</forename><surname>Krogh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Vorum</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Görg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proteomics</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="1359" to="1363" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mortz, E., Krogh, T.N., Vorum, H., Görg, A., 2001. Improved silver staining protocols for high sensitivity protein identification using matrix-assisted laser desorption/ionization-time of flight analysis. Proteomics 1, 1359-1363.</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">Marine proteomics. Introducing genomics, proteomics and metabolomics in marine ecology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">L</forename><surname>Nunn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">T</forename><surname>Timperman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+			<biblScope unit="volume">332</biblScope>
+			<biblScope unit="page" from="281" to="289" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nunn, B.L., Timperman, A.T., 2007. Marine proteomics. Introducing genomics, proteomics and metabolomics in marine ecology 332, 281-289.</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Ocean acidification alters skeletogenesis and gene expression in larval sea urchins</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>O'donnell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Todgham</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Sewell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">T M</forename><surname>Hammond</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Ruggiero</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">A</forename><surname>Fangue</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">L</forename><surname>Zippay</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">E</forename><surname>Hofmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marine Ecology Progress Series</title>
+		<imprint>
+			<biblScope unit="volume">398</biblScope>
+			<biblScope unit="page" from="157" to="171" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">O&apos;Donnell, M.J., Todgham, A.E., Sewell, M.A., Hammond, L.T.M., Ruggiero, K., Fangue, N.A., Zippay, M.L., Hofmann, G.E., 2010. Ocean acidification alters skeletogenesis and gene expression in larval sea urchins. Marine Ecology Progress Series 398, 157-171.</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">The effect of ocean acidification and temperature on the fertilization and embryonic development of the Sydney rock oyster Saccostrea glomerata (Gould 1850)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">M</forename><surname>Parker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">M</forename><surname>Ross</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">A</forename><surname>O'connor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Global Change Biology</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="2123" to="2136" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Parker, L.M., Ross, P.M., O&apos;Connor, W.A., 2009. The effect of ocean acidification and temperature on the fertilization and embryonic development of the Sydney rock oyster Saccostrea glomerata (Gould 1850). Global Change Biology 15, 2123- 2136.</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">On the advantages and disadvantages of larval stages in benthic marine invertebrates life cycles</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Pechenik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marine Ecology Progress Series</title>
+		<imprint>
+			<biblScope unit="volume">177</biblScope>
+			<biblScope unit="page" from="269" to="297" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pechenik, J.A., 1999. On the advantages and disadvantages of larval stages in benthic marine invertebrates life cycles. Marine Ecology Progress Series 177, 269-297.</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<title level="m" type="main">A calculator for the CO 2 system in seawater for microsoft Excel/VBA. Washington State Department of Ecology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Pelletier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Wallace</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+			<pubPlace>Olympia, WA, Brookhaven National Laboratory; Upton, NY</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pelletier, G., Lewis, E., Wallace, D., 2005. A calculator for the CO 2 system in seawater for microsoft Excel/VBA. Washington State Department of Ecology, Olympia, WA, Brookhaven National Laboratory, Upton, NY.</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Quantifying protein in 2D PAGE solubilization buffers</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">S</forename><surname>Ramagli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods in Molecular Biology</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="99" to="104" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ramagli, L.S., 1999. Quantifying protein in 2D PAGE solubilization buffers. Methods in Molecular Biology 112, 99-104.</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Influence of phytoplankton diet mixtures on microalgae consumption, larval development and settlement of the Pacific oyster Crassostrea gigas (Thunberg)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Rico-Villa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Le Coz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Mingant</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Robert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aquaculture</title>
+		<imprint>
+			<biblScope unit="volume">256</biblScope>
+			<biblScope unit="page" from="377" to="388" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rico-Villa, B., Le Coz, J.R., Mingant, C., Robert, R., 2006. Influence of phytoplankton diet mixtures on microalgae consumption, larval development and settlement of the Pacific oyster Crassostrea gigas (Thunberg). Aquaculture 256, 377-388.</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Annexin I is a stress protein induced by heat, oxidative stress and a sulfhydryl-reactive agent</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">J</forename><surname>Rhee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">Y</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">W</forename><surname>Huh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">W</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">S</forename><surname>Na</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">267</biblScope>
+			<biblScope unit="page" from="3220" to="3225" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rhee, H.J., Kim, G.Y., Huh, J.W., Kim, S.W., Na, D.S., 2000. Annexin I is a stress protein induced by heat, oxidative stress and a sulfhydryl-reactive agent. European Journal of Biochemistry 267, 3220-3225.</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title level="m" type="main">Guide to best practices for ocean acidification research and data reporting. Publications Office of the European Union</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Riebesell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">J</forename><surname>Fabry</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Hansson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">P</forename><surname>Gattuso</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010" />
+			<pubPlace>Luxembourg</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Riebesell, U., Fabry, V.J., Hansson, L., Gattuso, J.P., 2010. Guide to best practices for ocean acidification research and data reporting. Publications Office of the European Union, Luxembourg.</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">TM4 microarray software suite</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">I</forename><surname>Saeed</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">K</forename><surname>Bhagabati</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Braisted</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Sharov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">A</forename><surname>Howe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Thiagarajan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Quackenbush</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods in enzymology</title>
+		<imprint>
+			<biblScope unit="volume">411</biblScope>
+			<biblScope unit="page" from="134" to="193" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Saeed, A.I., Bhagabati, N.K., Braisted, J.C., Liang, W., Sharov, V., Howe, E.A., Li, J., Thiagarajan, M., White, J.A., Quackenbush, J., 2006. TM4 microarray software suite. Methods in enzymology 411, 134-193.</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Mass spectrometric sequencing of proteins from silver-stained polyacrylamide gels</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Shevchenko</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Wilm</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Vorm</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Mann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Analytical Chemistry</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="850" to="858" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shevchenko, A., Wilm, M., Vorm, O., Mann, M., 1996. Mass spectrometric sequencing of proteins from silver-stained polyacrylamide gels. Analytical Chemistry 68, 850-858.</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">CO 2 induced seawater acidification impacts sea urchin larval development II: Gene expression patterns in pluteus larvae</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Stumpp</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Dupont</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">C</forename><surname>Thorndyke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Melzner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comparative Biochemistry and Physiology -Part A: Molecular and Integrative Physiology</title>
+		<imprint>
+			<biblScope unit="volume">160</biblScope>
+			<biblScope unit="page" from="320" to="330" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stumpp, M., Dupont, S., Thorndyke, M.C., Melzner, F., 2011. CO 2 induced seawater acidification impacts sea urchin larval development II: Gene expression patterns in pluteus larvae. Comparative Biochemistry and Physiology -Part A: Molecular and Integrative Physiology 160, 320-330.</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">The effects of elevated carbon dioxide concentrations on the metamorphosis, size, and survival of larval hard clams (Mercenaria mercenaria), bay scallops (Argopecten irradians), and Eastern oysters (Crassostrea virginica)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">C</forename><surname>Talmage</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">J</forename><surname>Gobler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Limnology and Oceanography</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="2072" to="2080" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Talmage, S.C., Gobler, C.J., 2009. The effects of elevated carbon dioxide concentrations on the metamorphosis, size, and survival of larval hard clams (Mercenaria mercenaria), bay scallops (Argopecten irradians), and Eastern oysters (Crassostrea virginica). Limnology and Oceanography 54, 2072-2080.</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Effects of past, present and future ocean carbon dioxide concentrations on the growth and survival of larval shellfish</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">C</forename><surname>Talmage</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">J</forename><surname>Gobler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="17246" to="17251" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Talmage, S.C., Gobler, C.J., 2010. Effects of past, present and future ocean carbon dioxide concentrations on the growth and survival of larval shellfish. Proceedings of the National Academy of Sciences 107, 17246-17251.</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">A review on the role of chemical cues in habitat selection by barnacles: new insights from larval proteomics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Thiyagarajan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Marine Biology and Ecology</title>
+		<imprint>
+			<biblScope unit="volume">392</biblScope>
+			<biblScope unit="page" from="22" to="36" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Thiyagarajan, V., 2010. A review on the role of chemical cues in habitat selection by barnacles: new insights from larval proteomics. Journal of Experimental Marine Biology and Ecology 392, 22-36.</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Proteomic analysis of larvae during development, settlement, and metamorphosis in the fouling barnacle, Balanus amphitrite</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Thiyagarajan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">Y</forename><surname>Qian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proteomics</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="3164" to="3172" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Thiyagarajan, V., Qian, P.Y., 2008. Proteomic analysis of larvae during development, settlement, and metamorphosis in the fouling barnacle, Balanus amphitrite. Proteomics 8, 3164-3172.</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Transcriptomic response of sea urchin larvae Strongylocentrotus purpuratus to CO 2 -driven seawater acidification</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Todgham</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">E</forename><surname>Hofmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Biology</title>
+		<imprint>
+			<biblScope unit="volume">212</biblScope>
+			<biblScope unit="page" from="2579" to="2594" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Todgham, A.E., Hofmann, G.E., 2009. Transcriptomic response of sea urchin larvae Strongylocentrotus purpuratus to CO 2 -driven seawater acidification. Journal of Experimental Biology 212, 2579-2594.</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Pitfall or promise: proteomics for non-model organisms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Tomanek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Biology</title>
+		<imprint>
+			<biblScope unit="volume">209</biblScope>
+			<biblScope unit="page">3</biblScope>
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tomanek, L., 2006. Pitfall or promise: proteomics for non-model organisms. Journal of Experimental Biology 209, 3.</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Environmental proteomics: changes in the proteome of marine organisms in response to environmental stress, pollutants, infection, symbiosis, and development</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Tomanek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Marine Science</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="373" to="399" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tomanek, L., 2011. Environmental proteomics: changes in the proteome of marine organisms in response to environmental stress, pollutants, infection, symbiosis, and development. Annual Review of Marine Science 3, 373-399.</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Proteomic response to elevated pCO 2 level in eastern oysters, Crassostrea virginica: evidence for oxidative stress</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Tomanek</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Zuzow</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">V</forename><surname>Ivanina</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Beniash</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><forename type="middle">M</forename><surname>Sokolova</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Experimental Biology</title>
+		<imprint>
+			<biblScope unit="volume">214</biblScope>
+			<biblScope unit="page" from="1836" to="1844" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tomanek, L., Zuzow, M.J., Ivanina, A.V., Beniash, E., Sokolova, I.M., 2011. Proteomic response to elevated pCO 2 level in eastern oysters, Crassostrea virginica: evidence for oxidative stress. The Journal of Experimental Biology 214, 1836- 1844.</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Biocalcification in the eastern oyster (Crassostrea virginica) in relation to longterm trends in Chesapeake Bay pH</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Waldbusser</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Voigt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Bergschneider</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Newell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Estuaries and Coasts</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="221" to="231" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Waldbusser, G., Voigt, E., Bergschneider, H., Green, M., Newell, R., 2011. Biocalcification in the eastern oyster (Crassostrea virginica) in relation to long- term trends in Chesapeake Bay pH. Estuaries and Coasts 34, 221-231.</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Early larval development of the Sydney rock oyster Saccostrea glomerata under near-future predictions of CO 2 -driven ocean acidification</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">C</forename><surname>Southgate</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">A</forename><surname>Tyler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">S</forename><surname>Peck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Shellfish Research</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="431" to="437" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Watson, S.A., Southgate, P.C., Tyler, P.A., Peck, L.S., 2009. Early larval development of the Sydney rock oyster Saccostrea glomerata under near-future predictions of CO 2 -driven ocean acidification. Journal of Shellfish Research 28, 431- 437.</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Physiological and ecological responses of crustaceans to ocean acidification</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Whiteley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marine Ecology Progress Serine</title>
+		<imprint>
+			<biblScope unit="volume">430</biblScope>
+			<biblScope unit="page" from="257" to="271" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Whiteley, N., 2011. Physiological and ecological responses of crustaceans to ocean acidification. Marine Ecology Progress Serine 430, 257-271.</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Predicting the impact of ocean acidification on benthic biodiversity: what can animal physiology tell us</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Widdicombe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">I</forename><surname>Spicer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Marine Biology and Ecology</title>
+		<imprint>
+			<biblScope unit="volume">366</biblScope>
+			<biblScope unit="page" from="187" to="197" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Widdicombe, S., Spicer, J.I., 2008. Predicting the impact of ocean acidification on benthic biodiversity: what can animal physiology tell us? Journal of Experimental Marine Biology and Ecology 366, 187-197.</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Response of larval barnacle proteome to CO 2 -driven seawater acidification</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">K W</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Lane</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">T Y</forename><surname>Leung</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Thiyagarajan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comparative Biochemistry and Physiology Part D: Genomics and Proteomics</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="310" to="321" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wong, K.K.W., Lane, A.C., Leung, P.T.Y., Thiyagarajan, V., 2011. Response of larval barnacle proteome to CO 2 -driven seawater acidification. Comparative Biochemistry and Physiology Part D: Genomics and Proteomics 6, 310- 321.</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Ocean acidification may increase calcification rates, but at a cost</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">L</forename><surname>Wood</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">I</forename><surname>Spicer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Widdicombe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the Royal Society B: Biological Sciences</title>
+		<imprint>
+			<biblScope unit="volume">275</biblScope>
+			<biblScope unit="page">1767</biblScope>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wood, H.L., Spicer, J.I., Widdicombe, S., 2008. Ocean acidification may increase calcification rates, but at a cost. Proceedings of the Royal Society B: Biological Sciences 275, 1767.</note>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Interaction of calmodulin with troponin I and the troponin-tropomyosin-actin complex. Effect of Ca 2+ and Sr 2+ ions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Yamamoto</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Nakayama</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Nunoi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Fujishima</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemical Journal</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="905" to="909" />
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yamamoto, K., Nakayama, H., Nunoi, K., Fujishima, M., 1987. Interaction of calmodulin with troponin I and the troponin-tropomyosin-actin complex. Effect of Ca 2+ and Sr 2+ ions. Biochemical Journal 24, 905-909.</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Biomineralization: functions of calmodulin-like protein in the shell formation of pearl oyster</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochimica et Biophysica Acta</title>
+		<imprint>
+			<biblScope unit="volume">1770</biblScope>
+			<biblScope unit="page" from="1338" to="1344" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yan, Z., Fang, Z., Ma, Z., Deng, J., Li, S., Xie, L., Zhang, R., 2007. Biomineralization: functions of calmodulin-like protein in the shell formation of pearl oyster. Biochimica et Biophysica Acta 1770, 1338-1344.</note>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Oceans: carbon emissions and acidification</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">E</forename><surname>Zeebe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Zachos</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Caldeira</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Tyrrell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">321</biblScope>
+			<biblScope unit="page" from="51" to="52" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zeebe, R.E., Zachos, J.C., Caldeira, K., Tyrrell, T., 2008. Oceans: carbon emissions and acidification. Science 321, 51-52.</note>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">2D Gelbased multiplexed proteomic analysis during larval development and metamorphosis of the biofouling polychaete tubeworm Hydroides elegans</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">M</forename><surname>Arellano</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Thiyagarajan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">Y</forename><surname>Qian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Proteome Research</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="4851" to="4860" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang, Y., Sun, J., Xiao, K., Arellano, S.M., Thiyagarajan, V., Qian, P.Y., 2010. 2D Gel- based multiplexed proteomic analysis during larval development and metamorphosis of the biofouling polychaete tubeworm Hydroides elegans. Journal of Proteome Research 9, 4851-4860.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
