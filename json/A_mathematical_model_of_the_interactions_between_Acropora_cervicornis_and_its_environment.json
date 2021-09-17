@@ -1,0 +1,3111 @@
+{
+    "paper_id": "A_mathematical_model_of_the_interactions_between_Acropora_cervicornis_and_its_environment",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-09-13T19:41:50.388198Z"
+    },
+    "title": "A mathematical model of the interactions between Acropora cervicornis and its environment",
+    "authors": [
+        {
+            "first": "Aniel",
+            "middle": [],
+            "last": "Nieves-Gonz\u00e1lez",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Puerto Rico",
+                "location": {
+                    "addrLine": "R\u00edo Piedras",
+                    "settlement": "Puerto Rico"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Claudia",
+            "middle": [
+                "P"
+            ],
+            "last": "Ruiz-Diaz",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Puerto Rico",
+                "location": {
+                    "addrLine": "R\u00edo Piedras"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Carlos",
+            "middle": [],
+            "last": "Toledo-Hern\u00e1ndez",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Juan",
+            "middle": [
+                "S"
+            ],
+            "last": "Ram\u00edrez-Lugo",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Puerto Rico",
+                "location": {
+                    "addrLine": "R\u00edo Piedras",
+                    "settlement": "Puerto Rico"
+                }
+            },
+            "email": ""
+        }
+    ],
+    "year": "",
+    "venue": null,
+    "identifiers": {},
+    "abstract": "Environmental factors associated with climate change such as increasing sea surface temperature (SST) and solar radiation (SR) have negatively impacted corals throughout their geographic ranges. One such coral, which has been seriously impacted by these stressors, is the staghorn coral Acropora cervicornis. To reduce the effects of such stressors, this coral utilizes fluorescent proteins (FPs) and melanin (M). These constitutive immune components quench reactive oxygen species (ROS) produced during thermal stress and absorb or reflect potentially damaging light. The synthesis of these components are, nonetheless, energetically costly. Hence, production of these protective compounds may be traded-off against other vital functions such as growth. In this study we develop a mathematical model, viz., a system of ordinary differential equations that simulates the growth of A. cervicornis branches under different regimes and combinations of SST and SR. The model assumes that polyps are the functional unit of the coral and that the concentration of FPs and M are inversely proportional to SST and SR intensity. To develop the model we use empirical (birth and mortality rate of polyps and the maximum number of polyps per unit area) and theoretical parameters (concentration of FPs, M produced, and trade-offs with growth). The model simulates how changes in FPs and M due to environmental changes affect the growth capacity of A. cervicornis. The model as well as its stability analysis show that polyp growth is affected by SR and SST. Hence, the model will help in understanding how corals will respond to future changes in climate.",
+    "pdf_parse": {
+        "paper_id": "A_mathematical_model_of_the_interactions_between_Acropora_cervicornis_and_its_environment",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "Environmental factors associated with climate change such as increasing sea surface temperature (SST) and solar radiation (SR) have negatively impacted corals throughout their geographic ranges. One such coral, which has been seriously impacted by these stressors, is the staghorn coral Acropora cervicornis. To reduce the effects of such stressors, this coral utilizes fluorescent proteins (FPs) and melanin (M). These constitutive immune components quench reactive oxygen species (ROS) produced during thermal stress and absorb or reflect potentially damaging light. The synthesis of these components are, nonetheless, energetically costly. Hence, production of these protective compounds may be traded-off against other vital functions such as growth. In this study we develop a mathematical model, viz., a system of ordinary differential equations that simulates the growth of A. cervicornis branches under different regimes and combinations of SST and SR. The model assumes that polyps are the functional unit of the coral and that the concentration of FPs and M are inversely proportional to SST and SR intensity. To develop the model we use empirical (birth and mortality rate of polyps and the maximum number of polyps per unit area) and theoretical parameters (concentration of FPs, M produced, and trade-offs with growth). The model simulates how changes in FPs and M due to environmental changes affect the growth capacity of A. cervicornis. The model as well as its stability analysis show that polyp growth is affected by SR and SST. Hence, the model will help in understanding how corals will respond to future changes in climate.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "Global climate change is having a profound and potentially devastating effect on many marine environments including coral reef ecosystems. Climate change is primarily associated to the atmospheric deposition of carbon dioxide (CO 2 ) among others greenhouse gases. A direct consequence of this accumulation of greenhouse gases in the atmosphere is the increase of sea surface temperature (SST). There is compelling evidence that points towards an increase of 0.4-0.74\u00b0C in the mean global SST during the past century (Hoegh-Guldberg et al., 2007) . Likewise, solar radiation (SR) reaching the Earth's surface in its different wavelengths, e.g. ultraviolet radiation (UV) and photosynthetic active radiation (PAR), has also increased, partly as a result of ozone layer depletion (H\u00e4der et al., 2007) . Rising SST and increased SR are physiological stressors to marine organisms; such stressors, when severe, might jeopardize vital functions such as growth, reproduction, and the capacity to fight diseases, thereby threatening the viability of coral reef populations.",
+                "cite_spans": [
+                    {
+                        "start": 517,
+                        "end": 546,
+                        "text": "(Hoegh-Guldberg et al., 2007)",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 778,
+                        "end": 798,
+                        "text": "(H\u00e4der et al., 2007)",
+                        "ref_id": "BIBREF7"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "Reef building corals are particularly vulnerable to SST and SR. Slight increments in temperature (\u22481\u00b0C, over the average summer temperature), in conjunction with elevated radiation, have caused large-scale coral bleaching (Hoegh-Guldberg et al., 2007; Lesser et al., 1990) . Coral bleaching is the phenomenon by which corals lose their algal endosymbionts or the algal pigments degrade (Iglesias-Prieto et al., 1992) . Moreover, the aforementioned environmental stressors may also promote coral diseases, which also reduce the corals's capacity to growth, reproduce, and survive.",
+                "cite_spans": [
+                    {
+                        "start": 222,
+                        "end": 251,
+                        "text": "(Hoegh-Guldberg et al., 2007;",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 252,
+                        "end": 272,
+                        "text": "Lesser et al., 1990)",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 386,
+                        "end": 416,
+                        "text": "(Iglesias-Prieto et al., 1992)",
+                        "ref_id": "BIBREF13"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "To minimize or at least reduce the negative impact of SST and SR, corals have developed a suite of immune mechanisms, including the syntheses of pigments such as fluorescent proteins (FPs) and melanin (M). FPs and M are ubiquitous to corals; thus, they are primary constituents of coral's innate immune system (Roth et al., 2010) . In general, these immune constitutive pigments possess multiple functions within corals. These chemical compounds have photoprotective properties as they scatter light and absorb potentially harmful high-energy radiation (Salih et al., 2000; Palmer et al., 2010; Mydlarz and Harvell, 2007) , and also have the capacity to quench reactive oxygen species (ROS), which dramatically increase under high levels of abiotic stressors, leading to coral bleaching.",
+                "cite_spans": [
+                    {
+                        "start": 310,
+                        "end": 329,
+                        "text": "(Roth et al., 2010)",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 553,
+                        "end": 573,
+                        "text": "(Salih et al., 2000;",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 574,
+                        "end": 594,
+                        "text": "Palmer et al., 2010;",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 595,
+                        "end": 621,
+                        "text": "Mydlarz and Harvell, 2007)",
+                        "ref_id": "BIBREF20"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "As is in the case of other living organisms, corals have a finite amount of resources to be allocated into a multitude of vital functions, e.g., immune defense and growth among others. Given these resource constraints, the allocation of resources into a vital function such as immune defense will be traded-off against other vital functions such as growth. Several studies conducted on corals support this paradigm. For instance, Palmer et al. (2010) compared the activity of phenoloxidase (PO), an enzyme involved in M biosynthesis, with the number of amoebocyte-containing M granules (melanocytes) of two scleractian corals, Porites sp. and Acropora millepora. That study revealed that Porites sp. invests considerably more resources into the aforementioned immune constituent than A. millepora, as it exhibited higher numbers of melanocytes than A. millepora. This investment of resources into immunity provides Porites with higher disease and bleaching resistance. By contrast, acroporids allocate more resources into growth, when compared to Porites, as acroporid corals may growth several cm in length per month, whereas porites corals may growth several cm per year (Palmer et al., 2010) . However, for acroporids the rather rapid growth is traded-off at a cost in reduced immunity, as acroporids are among the corals most susceptible to bleaching and disease.",
+                "cite_spans": [
+                    {
+                        "start": 430,
+                        "end": 450,
+                        "text": "Palmer et al. (2010)",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 1173,
+                        "end": 1194,
+                        "text": "(Palmer et al., 2010)",
+                        "ref_id": "BIBREF22"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "Corals rely on a suite of immune constituents, including pigments such FPs and M, to protect against the threat of bleaching. FPs and M are ubiquitous to corals and serve as primary constituents of corals's innate immune system due to their multiple functions (Roth et al., 2010) . FPs, for instance, have photoprotective properties as they scatter light and absorb potentially harmful high-energy radiation (Salih et al., 2000) . FPs also have the capacity to quench reactive oxygen species (ROS), which dramatically increase under high levels of abiotic stressors, leading to coral bleaching. As in the case of FPs, M provides corals with photoprotection as well as it scatters and absorbs over 50-70% of harmful radiation such as UV radiation. M is commonly found in a corals epithelial cells, creating a physical barrier to prevent and/or reduce harmful impact of radiation. In addition, M plays an important role in the inflammatory responses such as wound healing processes and the response to pathogens (Palmer et al., 2010) . As both FP and M are components of the response to the same environmental stressor, i.e., SR and SST, we infer that the degree of each response is proportional to the insult.",
+                "cite_spans": [
+                    {
+                        "start": 260,
+                        "end": 279,
+                        "text": "(Roth et al., 2010)",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 408,
+                        "end": 428,
+                        "text": "(Salih et al., 2000)",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 1010,
+                        "end": 1031,
+                        "text": "(Palmer et al., 2010)",
+                        "ref_id": "BIBREF22"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "The objective of this study is to present and analyze a mathematical model which consists of a system of ordinary differential equations (ODE), that simulates the immune response of A. cervicornis under a finite resource budget scenario and different SST and SR regimes. The mathematical model embodies a set of assumptions and hypotheses. Such assumptions and hypotheses can be examined by comparing the model results (simulations) with the observed behavior of the system that is simulated. Furthermore, although the model is an abstraction of the biological system under consideration, this model sufficiently captures the interaction between the coral and its environment; so, it helps to better understand the impact of environmental challenges within the coral. Thereby, the model could be used to design better conservation policies or strategies to preserve corals, i.e., it could be used as a conservation tool.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "We have chosen A. cervicornis coral as our biological model for two reasons:",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "1 Throughout their geographical extent, A. cervicornis populations have suffered unprecedented population declines. These declines have motivated the implementation of several local and regional protection initiatives such as the inclusion of this coral species onto the US Endangered Species Act (ESA) and the Red List of Critically Threatened Species (RLCT). 2 Being in such precarious population state, have motivate us to study the effect of SST and SR on the syntheses of FPs and M, and on its growth rate. Thus, some of the parameters described on this model have been empirically estimated.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "This paper is organized in the following way: In Section 2, we state the model assumptions, describe the mathematical model, and the model parameters. Section 3 is about the asymptotic stability analysis of the model, thus, we focus on how the model behaves as time increases to infinity. In that section we also compute the equilibrium points analytically and assess their stability using different methods such as linearization of the ODE system and Lyapunov function. In Section 4 we present simulations results under different environmental conditions determined by the model parameters and initial conditions. Results regarding the structural stability of model are also presented in Section 4. We discuss the results in Section 5. For completeness' sake, we provide, in the Appendix, details about the mathematical concepts that were used for the analysis of the model.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "The following set of assumptions allow us to construct a model that simulates changes in A. cervircornis's growth and immune system elements as a function of environmental changes.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Model assumptions",
+                "sec_num": "2.1."
+            },
+            {
+                "text": "1 A. cervircornis corals, as all living organisms, have a finite amount of resources (including energy) to be allocated into several vital functions such as somatic growth (the increase in number of polyps), or immune defenses. Given these resource constraints, the allocation of resources into any given life history trade, will be traded-off against others live history traits. 2 The syntheses of M and FP require the same amount of resources; for both, M and FP, the behavior in terms of synthesis is similar. 3 FP and M are synthesized within the polyps, which are the basic units of coral. 4 Corals have a logistic somatic growth. 5 SST and SR exert a similar stress to the coral and these affect both immune system constituents (M and FP) in a similar way, i.e., as SST and SR increases, the synthesis of M and FP decreases. 6 SST and SR vary at the same rate with respect to water depth (Lee et al., 2005) . 7 The effects of the two environmental variables, SST and SR, on coral polyps are embodied in the functions F d (\u02dc)'s, where d represents normalized water depth. Normalized depth is defined as the ratio of depth to maximum depth where A. cervicornis grows, i.e.,",
+                "cite_spans": [
+                    {
+                        "start": 894,
+                        "end": 912,
+                        "text": "(Lee et al., 2005)",
+                        "ref_id": "BIBREF17"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Model assumptions",
+                "sec_num": "2.1."
+            },
+            {
+                "text": "= d d d / max .",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Model assumptions",
+                "sec_num": "2.1."
+            },
+            {
+                "text": "The maximum depth is 30 m according to the work of Pang (1973) . 8 Based on the limiting resource theory, F d",
+                "cite_spans": [
+                    {
+                        "start": 51,
+                        "end": 62,
+                        "text": "Pang (1973)",
+                        "ref_id": "BIBREF24"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Model assumptions",
+                "sec_num": "2.1."
+            },
+            {
+                "text": "1 affect the number of polyps. As depth increases the number of polyps decreases.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Model assumptions",
+                "sec_num": "2.1."
+            },
+            {
+                "text": "Likewise, F d (\u02dc) 2 and F d (\u02dc) 3",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Model assumptions",
+                "sec_num": "2.1."
+            },
+            {
+                "text": "affect the syntheses of FP and M respectively. As depth increases the syntheses of FP and M concentration increases. 9 F d",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Model assumptions",
+                "sec_num": "2.1."
+            },
+            {
+                "text": "1 must be a positive, decreasing, and continuous functions of d.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Model assumptions",
+                "sec_num": "2.1."
+            },
+            {
+                "text": "i i = 2, 3 must be positive, increasing, and continuous functions of d. 10 Based on how SST and SR vary with depth (SR according to Lee et al. (2005) ) we defined the environmental functions as",
+                "cite_spans": [
+                    {
+                        "start": 132,
+                        "end": 149,
+                        "text": "Lee et al. (2005)",
+                        "ref_id": "BIBREF17"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "F d (\u02dc)",
+                "sec_num": null
+            },
+            {
+                "text": "= F d c e ( ) = F d e (\u02dc) f d 2\u02dc(1b) = F d e (\u02dc) m d 3\u02dc(1c)",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "F d (\u02dc)",
+                "sec_num": null
+            },
+            {
+                "text": "where c 1 , c 2 , \u03b2 f , and \u03b2 m are constants. 11 Changes in FP and M concentration are the main responses of the coral's immune system to environmental stress. Albeit other responses could possibly change the concentration of FP and M, these immune constituents are sufficient to describe the coral's reaction to environmental stress.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "F d (\u02dc)",
+                "sec_num": null
+            },
+            {
+                "text": "Based on these assumptions we constructed a mathematical model that consists of a system of ordinary differential equations (ODE). Fig. 1 shows a schematic diagram of the model. Observe in the figure that given a finite energy budget, at greater depth -depth being a proxy for SST and SR-less resources are dedicated to polyp growth. Ergo polyp growth is reduced whereas FP and M concentration is increased.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 131,
+                        "end": 137,
+                        "text": "Fig. 1",
+                        "ref_id": "FIGREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "F d (\u02dc)",
+                "sec_num": null
+            },
+            {
+                "text": "We constructed a model that simulates the growth of A. cervicornis coral with SST and SR changing accordingly to the depth profile as follows:",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Model equations",
+                "sec_num": "2.2."
+            },
+            {
+                "text": "= + x t F d x x x x x x ( ) ( ) (1 ) ( ) a a af am 1 1 1 1 1 2 3 1 (2a) = + x t F d x x x x x x ( ) ( ) ( ) f f m 2 2 2 1 2 1 3 2 (2b) = + x t F d x x x x x x ( ) ( ) ( ) m mf 3 3 3 1 3 1 2 3 (2c)",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Model equations",
+                "sec_num": "2.2."
+            },
+            {
+                "text": "where x represents the growth of A. cervicornis coral (in units of polyps per cm 3 ), x 2 and x 3 represent FP and M concentrations in mmoles/cm 3 . The parameters are: act as modifiers of the synthesis rate of FP and M, respectively. Moreover, for the stability and bifurcation analysis, the exact form of the functions is unimportant as long as they satisfy model Assumption 9 (Section 2.1). The values for the c i in Eq. 1were determined by fitting the functions to polyp's birth rate data, as explained in Section 2.3. Furthermore, the c i s must be positive, because of the conditions that the environmental functions must satisfy (see Section 2.1). \u03b2 f and \u03b2 m represent the syntheses rate of FP and M respectively; their values are in Table 1 .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 742,
+                        "end": 749,
+                        "text": "Table 1",
+                        "ref_id": "TABREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Model equations",
+                "sec_num": "2.2."
+            },
+            {
+                "text": "d, \u03b4 a , \u03ba a , \u03b4 f , \u03b4 m , \u03b4 af , \u03b4",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Model equations",
+                "sec_num": "2.2."
+            },
+            {
+                "text": "In order to facilitate the process of numerically solving the model equations (Eq. (2)) and their interpretation we normalize the model by letting y",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Normalized model equations",
+                "sec_num": "2.2.1."
+            },
+            {
+                "text": "1 (t) = x 1 (t)/\u03ba a , = y t x t x ( ) ( )/ 2 2 2 max , and = y t x t x ( ) ( )/ 3 3 3",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Normalized model equations",
+                "sec_num": "2.2.1."
+            },
+            {
+                "text": "max where x 2 max and x 3 max are the maximum (saturation) concentration of fluorescent protein and melanin respectively. Thereby the model becomes The empirical values are reported as 95% confidence interval (i.e., arithmetic mean plus-minus margin of error using t distribution). b Some simulations required that we had to change these values (see Section 4).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Normalized model equations",
+                "sec_num": "2.2.1."
+            },
+            {
+                "text": "= + y t F d y y y y y y ( ) ( ) (1 ) ( * * ) a af am 1 1 1 1 1 2 3 1 (3a) = + y t F d y y y y y y ( ) * ( ) ( * * ) f f m 2 2 2 1 2 1 3 2 (3b) = + y t F d y y y y y y ( ) * ( ) ( * * ) m mf 3 3 3 1 3 1 2 3 (3c) where = x * af a f max , = x * am am 3 max , = = F d F d e * (\u02dc) (\u02dc) a a f d 2 2\u02dc, = * f f a , = x * f m f m 3 max , = = F d F d e * (\u02dc) (\u02dc)",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Normalized model equations",
+                "sec_num": "2.2.1."
+            },
+            {
+                "text": "The model has two parameters sets: those that were estimated empirically and the theoretical parameters. The empirical parameters are: \u03b2 a , \u03b4 a , and \u03ba a . We emphasize that the values of \u03b2 a are used to fit the parameters for the environmental function, i.e., c 1 and c 2 . The theoretical normalized parameters are: * f , * f , * m , * m , and d. Table 1 presents the baseline parameter values used in the simulations. The empirical parameters were measured at two depths: 4.572 and 12.19 m. Henceforth, we define the 4.572 m group of measurements as shallow group, and the 12.12 m group of measurements as deep group.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 350,
+                        "end": 357,
+                        "text": "Table 1",
+                        "ref_id": "TABREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Parameters",
+                "sec_num": "2.3."
+            },
+            {
+                "text": "2.3.1. Empirical parameters 2.3.1.1. Estimation of fluorescent proteins (FPs) concentration. To estimate FP we collected fragments from 20 colonies which were raised in nursery farms located at two depths (10 fragments per depth). Once collected each fragment was frozen and stored for further FPs analyses through the spectral emission of these proteins following Palmer et al. (2009) , with slight modification. Each frozen coral fragment (e.g., the growing tips of the fragments) was airbrushed individually to separate soft tissue from skeleton using a phosphate extraction buffer (50 mM phosphate buffer, pH 7.8 with 0.05 mM dithiotheitol) and individually collected into sterile tubes. The crude extract was subsequently homogenized using a Fisher Scientific PowerGen 125 Tissue Homogenizer with a medium saw tooth tip for 30 s at low power. The homogenized tissue slurry was then centrifuged at 4\u00b0C at 1900 \u00d7 g for 5 min. The supernatant was aliquoted and stored at \u221220\u00b0C. To measure FPs concentration, 30 \u03bcL of the extracted samples was placed in a black 96-well plate, along with a control sample (buffer-only well). Triplicates of each sample were excited using a Infinite 200 Pro Multimode Microplate Reader at 410, 470 and 520 nm and the emission spectra measured from 400 nm to 850 nm at 5 nm intervals. Relative fluorescence and absorbance of each sample was normalized to total protein concentration determined using Bradford Reagent and measuring absorbance at 595 nm.",
+                "cite_spans": [
+                    {
+                        "start": 365,
+                        "end": 385,
+                        "text": "Palmer et al. (2009)",
+                        "ref_id": "BIBREF23"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Parameters",
+                "sec_num": "2.3."
+            },
+            {
+                "text": "PO enzymatic activity was quantified as PO. PO is an enzymatic precursor of melanin (Palmer et al., 2011) . We used the stored tissue portion obtained for FPs biochemical analysis, and we processed it as explained by Palmer et al. (2011) with slight the modifications described above. PO activity was determined by adding 20 \u03bcL of the extracted coral sample to a 96-well plate, in addition to 40 \u03bcL of 50 mmol\u2022L \u22121 phosphate buffer, pH 7.8 and 25 \u03bcL of double distilled water (ddH 2 O). After incubating at room temperature for 20 min 30 \u03bcL of a 10 mmol\u2022L \u22121 dopamine hydrochloride solution was added as a substrate and the change in absorbance of the reaction was monitored every 5 min for 45 min using a BioTek ELx808 Absorbance Microplate Reader at 490 nm. The change in absorbance for the linear portion of the reaction curve was used to determine PO activity. Control reactions under the same condition but with 70 \u03bcL of 50 mmol\u2022L \u22121 phosphate buffer, pH 7.8, and no substrate was run in parallel. PO activity was normalized to total protein concentration in each sample. Total protein concentration of the extracted coral sample was determined using Bradford Reagent and measuring absorbance at 595 nm utilizing the same protocol described above.",
+                "cite_spans": [
+                    {
+                        "start": 84,
+                        "end": 105,
+                        "text": "(Palmer et al., 2011)",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 217,
+                        "end": 237,
+                        "text": "Palmer et al. (2011)",
+                        "ref_id": "BIBREF21"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Estimation of PO as a proxy for melanin (M) concentration.",
+                "sec_num": "2.3.1.2."
+            },
+            {
+                "text": ". A. cervicornis branches are cylindrical in shape and relatively uniform in diameter at the base of each individual branch within the same colony. Furthermore, across all branches, the polyp corallite (the skeletal cup in which each independent polyp sits) is highly visible to the unassisted vision. Taking into consideration these branch features, we mapped the number of polyps within a cylinder-like branch to a volume of 1 cm . To accomplish this we first fitted a paraffin ribbon of 1 cm in height around the branch and counted the number of marks left on the ribbon by the corallites in the branches. Thereafter, we measured the diameter of the branch were the ribbon was fitted with a caliper to estimate the volume of the cylinder-like branches with a height 1 cm. Afterward, we divided the number of corallite marks (the equivalent to the number of polyps counted in 18 genetically distinct branches) by the cylinder volume of that branch to estimate the number of polyps per cm 3 . Finally, we calculated the maximum capacity of polyps in one cm (\u03ba a ) by averaging all the estimated number of polyps within 1 cm 3 of tissue.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Maximum growth capacity of polyps (\u03ba a )",
+                "sec_num": "2.3.1.3."
+            },
+            {
+                "text": ". Inasmuch as in our model (Eqs. 1",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Birth rate of polyps (\u03b2 a )",
+                "sec_num": "2.3.1.4."
+            },
+            {
+                "text": "-(2)) the environmental function F d (\u02dc) 1",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Birth rate of polyps (\u03b2 a )",
+                "sec_num": "2.3.1.4."
+            },
+            {
+                "text": "acts as a modifier of \u03b2 a , then is crucial to estimate \u03b2 a at different depths. To estimate \u03b2 a we tracked the changes in length of 245 A. cervicornis colonies located at water depths shallow and deep throughout a year; then we determined the number of new polyps occurring within each length increment to estimate the maximum capacity of polyps within 1 cm 3 of tissue. The growth rate of each colony was estimated by taking high-resolution digital images of each colony at monthly intervals for one year. Besides, in the laboratory, we used the software program Coral Point Counter Excel (CPCe Kohler and Gill, 2006) to estimate the total length (in cm) of each fragment. The total length was further used to estimate the volumes of each of the colonies at the start (V i ) and at the end (V f ) of the study using the expression for the volume of a cylinder with constant radius r and length (height) L k :",
+                "cite_spans": [
+                    {
+                        "start": 597,
+                        "end": 619,
+                        "text": "Kohler and Gill, 2006)",
+                        "ref_id": "BIBREF14"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Birth rate of polyps (\u03b2 a )",
+                "sec_num": "2.3.1.4."
+            },
+            {
+                "text": "= = V r L k i f , . k k 2 (4)",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Birth rate of polyps (\u03b2 a )",
+                "sec_num": "2.3.1.4."
+            },
+            {
+                "text": "The subscript in L k and V k , denote the total length and volume of the fragment at the start (i, initial) and at the end of the study (f, final). The radius r was estimated by measuring with a caliper the fragment diameter of the 18 colonies previously used to estimate \u03ba a , L i , and L f . Finally, we used the volumes of each fragment to compute \u03b2 a in units of days \u22121 per fragment using the following equation:",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Birth rate of polyps (\u03b2 a )",
+                "sec_num": "2.3.1.4."
+            },
+            {
+                "text": "EQUATION",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [
+                    {
+                        "start": 0,
+                        "end": 8,
+                        "text": "EQUATION",
+                        "ref_id": "EQREF",
+                        "raw_str": "= V V 364 , a f i",
+                        "eq_num": "(5)"
+                    }
+                ],
+                "section": "Birth rate of polyps (\u03b2 a )",
+                "sec_num": "2.3.1.4."
+            },
+            {
+                "text": "where \u03b1 = 1 is a constant in units of cm \u22123 , V i and V f are the estimated volumes (vide supra) and 364 is the elapsed time (in days) between the start and end of the study. Observe that Eq. (5) is the average growth rate over the time interval [0, 364] . After estimating \u03b2 a at different depths (shallow and deep), we proceeded to test the assumption that, indeed, \u03b2 a changes with depth. Furthermore, we also needed to statistically test the claim, embodied by",
+                "cite_spans": [
+                    {
+                        "start": 246,
+                        "end": 249,
+                        "text": "[0,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 250,
+                        "end": 254,
+                        "text": "364]",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Birth rate of polyps (\u03b2 a )",
+                "sec_num": "2.3.1.4."
+            },
+            {
+                "text": "F d (\u02dc) 1",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Birth rate of polyps (\u03b2 a )",
+                "sec_num": "2.3.1.4."
+            },
+            {
+                "text": "(Eq. (1a)), that \u03b2 a decreases with depth. Such claim is crux to the idea that SST and SR affect polyp's growth. A t-test was used to test for equality of mean \u03b2 a for the two depth groups. The normality assumption was verified by conducting a normal quantile plot. The equal variance assumption was shown to be false by conducting Bartlett's test. The t-test for equality of means (assuming unequal variances) yielded a P-value = 3.145 \u00d7 10 \u22125 , statistically showing that \u03b2 a decreases as depth increases.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Birth rate of polyps (\u03b2 a )",
+                "sec_num": "2.3.1.4."
+            },
+            {
+                "text": "To estimate death rate of polyps we selected 223 colonies that exhibited negative growth (shrinking) in at least one month during a one year monitoring period. We identified the shrinking month and estimated the amount of life tissue lost by subtracting the estimated length of that colony during the month prior to shrinking to the estimated growth during the month of shrinking. Then, we followed the same protocol used in the birth rate estimation, to calculate the number of polyps lost in one cubic centimeter. Similar to birth rate of polyps we tested the data for equality of means using a Wilcoxon test. Yet, in this case analysis yielded no statistical differences (P-value= 0.9535) suggesting that \u03b4 a does not changes with depth. The estimated value is in Table 1 . to birth rates measured at shallow and deep depths. The fitting algorithm that we used was the Levenberg-Marquardt as implemented in the MATLAB\u00ae computing platform. We ran algorithm for a set of 10000 randomly generated (uniformly) initial guesses. The values obtained as solutions of the curve fitting problem are: c 1 = 1.1571 (unitless) and c 2 = 0.1532 (in units of day \u22121 ). We reiterate that, strictly speaking, ocean depth is another model parameter that acts as a proxy for SR and SST.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 767,
+                        "end": 774,
+                        "text": "Table 1",
+                        "ref_id": "TABREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Death rate of polyps (\u03b4 a ).",
+                "sec_num": "2.3.1.5."
+            },
+            {
+                "text": "Different initial conditions for the ODE system (2) were chosen to conduct different simulations (see Section 4). The overall rationale was to take initial values from a set of typically observed values for number of polyps, FP and M concentrations.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Initial conditions",
+                "sec_num": "2.4."
+            },
+            {
+                "text": "The goal in this section is to elucidate the behavior of the model as t \u2192 \u221e, i.e., how the model equations behave in the \"long run\". To accomplish this we calculated the nullclines and the equilibria of system (2), and study the Lyapunov or asymptotic stability of such equilibria.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Stability analysis (asymptotic)",
+                "sec_num": "3."
+            },
+            {
+                "text": "Let g(x(t), \u03bc) be the right-hand side (RHS) of the ODE system 2where \u03bc is a tuple with the 12 model parameters. Thereby, system (2) can be written as",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Equilibrium points",
+                "sec_num": "3.1."
+            },
+            {
+                "text": "= \u00b5 t t x g x ( ) ( ( ), )",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Equilibrium points",
+                "sec_num": "3.1."
+            },
+            {
+                "text": ", and the equilibrium points are defined as the solutions of g(x(t), \u03bc) = 0. It is important to mention that the results given below do not assume the exact form of the environmental functions in Eq. 1, but rather that the functions satisfy the assumptions in Section 2.1. Moreover, for simplicity's sake, we omit the arguments of the environmental functions, i.e., F i denotes F d (\u02dc) i for i = 1, 2, 3. Also, in order to simplify the algebra we define",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Equilibrium points",
+                "sec_num": "3.1."
+            },
+            {
+                "text": "= = = p F p F p F , ,",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Equilibrium points",
+                "sec_num": "3.1."
+            },
+            {
+                "text": "and .",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Equilibrium points",
+                "sec_num": "3.1."
+            },
+            {
+                "text": "EQUATION",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [
+                    {
+                        "start": 0,
+                        "end": 8,
+                        "text": "EQUATION",
+                        "ref_id": "EQREF",
+                        "raw_str": "a f m 1 1 2 2 3 3",
+                        "eq_num": "(6)"
+                    }
+                ],
+                "section": "Equilibrium points",
+                "sec_num": "3.1."
+            },
+            {
+                "text": "3.1.1. Equilibrium points The equilibria of the ODE system (2) are obtained by setting its RHS side to zero, i.e., g(x(t), \u03bc) = 0 and solving the nonlinear system by considering different cases. The expressions for the nullclines (the details are on Appendix A) embodied those cases. Hence, the equilibrium points of Eq. (2) are: (8) and the p i , i = 1, 2, 3 are defined in Eq. (6). The origin, i.e., Eq. (7a), is trivially obtained whenever x 1 = 0. Eq. (7b) is obtained when x 1 \u2260 0 and x 2 = x 3 = 0 (see expression in (A.3)). The expression in Eq. (7c) is obtained by setting x 1 \u2260 0, x 2 \u2260 0, and x 3 \u2260 0 and substituting expressions in Eqs. (A.2) and (A.1) into expression in Eq. (A.3).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Equilibrium points",
+                "sec_num": "3.1."
+            },
+            {
+                "text": "EQUATION",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [
+                    {
+                        "start": 0,
+                        "end": 8,
+                        "text": "EQUATION",
+                        "ref_id": "EQREF",
+                        "raw_str": "= x * (0, 0, 0) T 1 (7a) = F p x * , 0, 0 a T 1 1 2 (7b) = p p p x * ( , , ) a f m mf f m mf T 1 3 2 3 (7c) = C C C x * (0, 0, ) T 4 (7d) = B B B x * (0, , 0) T 5",
+                        "eq_num": "(7e)"
+                    }
+                ],
+                "section": "Equilibrium points",
+                "sec_num": "3.1."
+            },
+            {
+                "text": "An equilibrium point is biologically feasible when all of its entries are nonnegative, i.e., whenever it is in the first octant. Observe that x *1 is biologically feasible. x *2 (Eq. (7b)) is biologically feasible whenever p 1 \u2265 0. Owing to the complexity of the algebraic expression that constitute x *3 (Eq. (7c)), then the biological feasibility of x *3 must be assessed with caution. Hence, we consider the following cases:",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Equilibrium points",
+                "sec_num": "3.1."
+            },
+            {
+                "text": "1 If p 1 \u2265 0, p 2 \u2265 0, and p 3 \u2265 0, then x *3 is biologically feasible. 2 If p 1 < 0 or p 2 < 0, or p 3 < 0, then we have the following subcases: (a) If p 1 < 0, then \u0394 < 0 in order to obtain a positive first component of x *3 which in turns implies p 3 > 0, and p 2 > 0 in order to obtain positive second and third components of x *3 . But observe that this leads to a contradiction because if p 3 > 0, and p 2 > 0 then by definition of \u0394 (Eq. (8)), \u0394 > 0. (b) If p 2 < 0, then p 1 \u0394 \u22121 < 0. But this leads to a biologically unrealistic solution because the first component in Eq. (7c) must be nonnegative. (c) Similarly, if p 3 < 0, then p 1 \u0394 \u22121 < 0. But this leads to an biologically unrealistic solution because the first component in Eq. (7c) must be nonnegative. (d) All other possible subcases also lead to biological unrealistic solutions.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Equilibrium points",
+                "sec_num": "3.1."
+            },
+            {
+                "text": "Thereby, components of solution x *3 are nonnegative only if p 1 \u2265 0, p 2 \u2265 0, and p 3 \u2265 0.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Equilibrium points",
+                "sec_num": "3.1."
+            },
+            {
+                "text": "Moreover, observe that since the first entry of x *3 and x *4 is zero (see Eqs. (7d)-(7e)) we regard them as biologically unrealistic.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Equilibrium points",
+                "sec_num": "3.1."
+            },
+            {
+                "text": "Here, we elucidate the stability of the equilibria computed in Section 3.1. To do so we calculate the Jacobian matrix of Eq. 2and determine whether each of the equilibrium points are hyperbolic . This analysis is local because it focus in trajectories (solutions of Eq. 2 ",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Local stability analysis",
+                "sec_num": "3.2."
+            },
+            {
+                "text": "= + + Dg F x x x (1 ) ( ) a a af am 11 1 1 2 3 (10a) = Dg p x x f m 22 2 1 3 (10b) = Dg p x x . mf 33 3 1 2 (10c)",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Local stability analysis",
+                "sec_num": "3.2."
+            },
+            {
+                "text": "3.2.1. Stability of x *1 (the origin) At x *1 the Jacobian matrix becomes upper triangular and its eigenvalues are p 1 and 0 (with two zero eigenvalues). Ergo, we conclude that the origin is a nonhyperbolic equilibrium and its stability cannot be assessed with the linearization of Eq. (2) (i.e., Hartmann-Grobman theorem does not apply (Meiss, 2008) ).",
+                "cite_spans": [
+                    {
+                        "start": 337,
+                        "end": 350,
+                        "text": "(Meiss, 2008)",
+                        "ref_id": "BIBREF19"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Local stability analysis",
+                "sec_num": "3.2."
+            },
+            {
+                "text": "Thus, we proceed to study its stability by constructing a Lyapunov function and applying the LaSalle invariance principle (LaSalle, 1960) . A similar approach has been used by other investigators to assess the stability of other ecological models (Hsu, 1978; Hsu and Huang, 1995) . For completeness' sake we explain in Appendix D the concept of Lyapunov function and LaSalle invariance principle.",
+                "cite_spans": [
+                    {
+                        "start": 122,
+                        "end": 137,
+                        "text": "(LaSalle, 1960)",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 247,
+                        "end": 258,
+                        "text": "(Hsu, 1978;",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 259,
+                        "end": 279,
+                        "text": "Hsu and Huang, 1995)",
+                        "ref_id": "BIBREF12"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Local stability analysis",
+                "sec_num": "3.2."
+            },
+            {
+                "text": "Now, we state that x *1 is an asymptotically stable equilibrium whenever p 1 < 0, p 2 < 0, and p 3 < 0. These conditions on the parameters are the main assumptions of Proposition 3.1 (vide infra). ",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Local stability analysis",
+                "sec_num": "3.2."
+            },
+            {
+                "text": "x *2 is given by Eq. (7b). The Jacobian matrix evaluated at x *2 is upper triangular and its eigenvalues are: \u2212p 1 , p p (p i s are defined in Eq. (6)). Observe that x *2 is hyperbolic if p 1 \u2260 0 and p 2 \u2260 0 and p 3 \u2260 0. In such case, then the stability of x *2 is established as follows:",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Stability of x *2",
+                "sec_num": "3.2.2."
+            },
+            {
+                "text": "1 If p 1 > 0, p 2 < 0, and p 3 < 0, then x *2 is asymptotically stable (an attractor or sink). In this case the real part of all eigenvalues is negative. 2 If p 1 < 0, p 2 < 0, and p 3 < 0, then x *2 is a repulsor (source). In this case the real part of all eigenvalues is positive. 3 x *2 is a saddle point if it is still hyperbolic but none of the previous conditions hold.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Stability of x *2",
+                "sec_num": "3.2.2."
+            },
+            {
+                "text": "In the case of x *2 being nonhyperbolic, the stability of x *2 must be assessed through the Lyapunov function technique used to study the stability of x *1 .",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Stability of x *2",
+                "sec_num": "3.2.2."
+            },
+            {
+                "text": "x *3 is given in Eqs. (7c)-(8). The Jacobian matrix evaluated at",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Stability of x *3",
+                "sec_num": "3.2.3."
+            },
+            {
+                "text": "EQUATION",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [
+                    {
+                        "start": 0,
+                        "end": 8,
+                        "text": "EQUATION",
+                        "ref_id": "EQREF",
+                        "raw_str": "x *3 is = D A g x ( * ) x p a 3 1 , where = A F p p p p p p 1 0 0 . a f m mf af f m mf am f m mf f m f m mf mf 1 2 3 2 3 2 3 2 2",
+                        "eq_num": "(11)"
+                    }
+                ],
+                "section": "Stability of x *3",
+                "sec_num": "3.2.3."
+            },
+            {
+                "text": "Moreover, the eigenvalues of D x g(x *3 ) are 1 . Also, the coefficients of the characteristic polynomial in Eq. (12) satisfy the following conditions: 1 b > 0 because all the parameters and the environmental functions are positive. 2 The expression p 2 p 3 \u03b4 mf \u03b4 fm > 0 because the \u03b4s are always positive and in order for x 3 to be biologically feasible, p 2 > 0 and p 3 > 0. Ergo, the sign of c is determined by the expression \u03b4 mf \u03b4 fm \u2212 \u03b4 af \u03b4 fm \u2212 \u03b4 am \u03b4 mf . 3 d < 0 since the \u03b4s are positive and in order to have a biologically feasible x *3 then p 2 > 0, p 3 > 0, and \u0394 > 0.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Stability of x *3",
+                "sec_num": "3.2.3."
+            },
+            {
+                "text": "The solutions of Eq. (12) are given by Cardano and Tartaglia's formulae; if we take b > 0 and d < 0 the formulae simplify (we used Mathematica \u00ae to obtain the simplified expressions) to expressions for which are difficult to assess the signs of the real part of such solutions to study the stability of x *3 . In Appendix C we state a list of remarks from which we infer Proposition 3.2. The proof of the proposition is also in Appendix C. The assumptions on that proposition comprise the stability conditions of x *3 . Proposition 3.2 can be modified by adding the assumption that inequality (C.2) holds true. In that case, x *3 is a saddle equilibrium point. The reason for this is that according to the Gershgorin disc theorem (Quateroni et al., 2007; Ger\u0161gorin, 1931) the union of the Gershgorin discs (Eq. (C.1)) contains the eigenvalues of A. Furthermore, inequality (C.2) ensures that R 1 and R 2 \u222a R 3 are disjoint, ergo R 1 must contain a real negative eigenvalue. Thus, by the Descartes's rule of signs, one of other two remaining eigenvalues must be a negative real number and the other a positive one. Therefore, x *3 is a saddle equilibrium point. It is noteworthy that if any of the eigenvalues (solutions of Eq. (12)) is zero or have a zero real part, then the stability of x *3 cannot be assessed by inspecting the eigenvalues of the Jacobian matrix at x *3 , but rather by constructing a Lyapunov function.",
+                "cite_spans": [
+                    {
+                        "start": 730,
+                        "end": 754,
+                        "text": "(Quateroni et al., 2007;",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 755,
+                        "end": 771,
+                        "text": "Ger\u0161gorin, 1931)",
+                        "ref_id": "BIBREF4"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Stability of x *3",
+                "sec_num": "3.2.3."
+            },
+            {
+                "text": "x *4 is given by Eq. (7d). The Jacobian matrix evaluated at x *4 is a lower triangular matrix with eigenvalues p 1 \u2212 \u03b4 am C, \u2212\u03b4 fm C, and 0 where C . Because of the 0 eigenvalue, we cannot use the linearization of Eq. (2) to assess the stability of x *4 . Two modifications to Proposition 3.1 yield the stability conditions for x *4 . The modifications are: that the Lyapunov function is redefined as",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Stability of x *4 and x *5",
+                "sec_num": "3.2.4."
+            },
+            {
+                "text": "= V x x x ( ) * 1 2 2",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Stability of x *4 and x *5",
+                "sec_num": "3.2.4."
+            },
+            {
+                "text": ", and that it is also assumed that x 3 (0) \u2212 C < 0 where C < l 3 and l 3 is the maximum concentration of M in a fixed volume of coral. This yields another proposition whose proof is analogous to Proposition 3.1. The assumptions of such proposition are indeed the stability conditions. x *5 is given by Eq. (7e), and its stability conditions are analogous to those of x *4 . Table 2 summarizes the stability conditions of the equilibrium points.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 374,
+                        "end": 381,
+                        "text": "Table 2",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Stability of x *4 and x *5",
+                "sec_num": "3.2.4."
+            },
+            {
+                "text": "We numerically solved the model (Eq. (2)) using the numerical differentiation formulas (NDF) as implemented in MATLAB \u00ae . Details about the NDF are in Quateroni et al. (2007) , Shampine and Reichelt (1997) . Figs. 6 and 8 were done using the Mathematica \u00ae platform. The computing resource was a Linux workstation with 40 computing cores and 128 GB of memory.",
+                "cite_spans": [
+                    {
+                        "start": 151,
+                        "end": 174,
+                        "text": "Quateroni et al. (2007)",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 177,
+                        "end": 205,
+                        "text": "Shampine and Reichelt (1997)",
+                        "ref_id": "BIBREF28"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 208,
+                        "end": 221,
+                        "text": "Figs. 6 and 8",
+                        "ref_id": "FIGREF9"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": "4."
+            },
+            {
+                "text": "We show simulations that correspond to different parameter configurations that satisfy the various stability conditions for the equilibria that were obtained in Section 3. The initial condition in this set of simulations was (0.0897, 0.1, 0.1) T (this was with the normalized model).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Results for different parameters configurations",
+                "sec_num": "4.1."
+            },
+            {
+                "text": "In Proposition 3.1 we stated the conditions for asymptotic stability of x *1 (see also Table 2 ). Fig. 2 shows a simulation in that such stability condition is met. In this case we had to set = e 0.9 , and the value given by F 1 was set to 90% of \u03b4 a . Note in Fig. 2 that x *1 , which can be interpreted as total extinction of the polyp's population, is an attractor. Thus, under the mentioned parameter configuration if the IC is \"close\" (in the 2-norm sense) to x *1 , then the polyp's population (solution of Eq. (2)) evolves towards extinction.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 87,
+                        "end": 94,
+                        "text": "Table 2",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 98,
+                        "end": 104,
+                        "text": "Fig. 2",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 261,
+                        "end": 267,
+                        "text": "Fig. 2",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "An asymptotically stable x *1",
+                "sec_num": "4.1.1."
+            },
+            {
+                "text": "In Section 3 and Table 2 we gave the stability conditions x *2 . Fig. 3 2 A saddle equilibrium occurs whenever all the eigenvalues of D x g(x *3 ) have nonzero real part, but they do not have the same sign. This means that there are some trajectories that start \"close\" to x *3 and stay \"close\" to x *3 as t \u2192 \u221e",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 17,
+                        "end": 24,
+                        "text": "Table 2",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 65,
+                        "end": 71,
+                        "text": "Fig. 3",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "An asymptotically stable x *2",
+                "sec_num": "4.1.2."
+            },
+            {
+                "text": "(footnote continued) whereas other trajectories start \"close\" to x *3 but go farther away from x *3 as t \u2192 \u221e.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "An asymptotically stable x *2",
+                "sec_num": "4.1.2."
+            },
+            {
+                "text": "shows a simulation in which such stability condition is satisfied. Hence, we set = e 0.9 f f d , and = e 0.9 m m d (the condition p 1 > 0 is satisfied using the parameters in Table 1 ). Fig. 3 shows that, indeed, x *2 (Eq. (7b)) is an attractor or sink for the parameter configuration given above. Note that x *2 is not biologically realistic because it is expected that some amount of FP and M is going to be present under all circumstances except after polyp's death.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 175,
+                        "end": 182,
+                        "text": "Table 1",
+                        "ref_id": "TABREF1"
+                    },
+                    {
+                        "start": 186,
+                        "end": 192,
+                        "text": "Fig. 3",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "An asymptotically stable x *2",
+                "sec_num": "4.1.2."
+            },
+            {
+                "text": "In Section 3 we concluded that x *3 is either a saddle or an unstable equilibrium whenever the conditions in Proposition 3.2 are satisfied. Fig. 4 shows a simulation that satisfies the stability condition in Proposition 3.2 3 . The parameter values that we used are in Table 1 . The figure shows that in this case the trajectory (solution of Eq. (2) with the given IC) evolves towards x *3 . Thus, we conclude that x *3 is a saddle equilibrium.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 140,
+                        "end": 146,
+                        "text": "Fig. 4",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 269,
+                        "end": 276,
+                        "text": "Table 1",
+                        "ref_id": "TABREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "x *3 is a saddle equilibrium",
+                "sec_num": "4.1.3."
+            },
+            {
+                "text": "We numerically solved the model equation to simulate 2 biologically relevant cases. Each case corresponds to different initial conditions (ICs) with parameter configuration as in Table 1 . The cases are: Case 1, FP concentration is less than M concentration; Case 2, FP concentration is greater than M concentration. Fig. 5 show simulations in which the IC satisfied the constraint that the FP concentration is less than or equal to the M concentration. Each color represents a different simulation (i.e. a solution with a different IC). We took 27 linearly spaced points from the set [0.08971, 0.8971] \u00d7 [0.1, 0.5] \u00d7 [0.5, 1] as ICs.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 179,
+                        "end": 186,
+                        "text": "Table 1",
+                        "ref_id": "TABREF1"
+                    },
+                    {
+                        "start": 317,
+                        "end": 323,
+                        "text": "Fig. 5",
+                        "ref_id": "FIGREF8"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results for different initial conditions",
+                "sec_num": "4.2."
+            },
+            {
+                "text": "Stability conditions for equilibria.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Table 2",
+                "sec_num": null
+            },
+            {
+                "text": "Stability condition a Unstability condition a Biological feasibility condition b",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Equilibrium points",
+                "sec_num": null
+            },
+            {
+                "text": "x *1 (Eq. 7a)",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Equilibrium points",
+                "sec_num": null
+            },
+            {
+                "text": "p 1 < 0, p 2 < 0, p 3 < 0 N/A c unconditional x *2 (Eq. 7b) p 1 > 0, p 2 < 0, p 3 < 0 p 1 < 0, p 2 < 0, p 3 < 0 p 1 \u2265 0 x *3 (Eq. 7c) saddle d N/A p 1 \u2265 0, p 2 \u2265 0, p 3 \u2265 0 x *4 (Eq. 7d) p 1 < 0, p 2 < 0, p 3 < 0, x 3 (0) < l 3 e N/A unfeasible x *5 (Eq. 7e) p 1 < 0, p 2 < 0, p 3 < 0,x 2 (0) < l 2 e",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Equilibrium points",
+                "sec_num": null
+            },
+            {
+                "text": "N/A unfeasible a By stability condition we refer to conditions for the equilibrium point to be either asymptotically stable or Lyapunov Stable Meiss (2008) . By unstability we mean that the equilibrium point is a source. b By biological feasibility we mean that all components of the equilibrium are nonnegative. c Proposition 3.1 established the conditions for x *1 to be stable. d Proposition 3.2 established the conditions for x *3 to be a either a saddle or unstable equilibrium. e l 2 and l 3 are the maximum concentration FP and M that given number of coral polyps can produce. Fig. 2 . Simulation with parameters that satisfy conditions that makes x *1 asymptotically stable.",
+                "cite_spans": [
+                    {
+                        "start": 143,
+                        "end": 155,
+                        "text": "Meiss (2008)",
+                        "ref_id": "BIBREF19"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 584,
+                        "end": 590,
+                        "text": "Fig. 2",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Equilibrium points",
+                "sec_num": null
+            },
+            {
+                "text": "3 That is, p j > 0 for j = 1, 2, 3. The eigenvalues of D x g(x *3 ) are 0.0678, \u22120.0232, and \u22120.0472 for deep and 0.0567, \u22120.0471 \u2212 0.0235i, and \u22120.0471 + 0.0235i for shallow. Fig. 3 . Simulation with parameters that satisfy conditions that makes x *2 asymptotically stable. Fig. 4 . Simulation with parameters that satisfy conditions for x *3 to be a saddle equilibrium.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 176,
+                        "end": 182,
+                        "text": "Fig. 3",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 275,
+                        "end": 281,
+                        "text": "Fig. 4",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Equilibrium points",
+                "sec_num": null
+            },
+            {
+                "text": "In Fig. 5 , panels A, C, and E show simulations for shallow configuration, whereas panels B, D, and F show results for deep configuration. Observe that in some simulations, for both shallow and deep, the solution evolves toward the equilibrium x *4 (Eq. (7d)). But we also noted that other simulations, including the case in which the initial concentrations of FP and M are similar (dashed lines), the ODE system evolves toward x *3 (Eq. (7c)). This confirms numerically that x *3 is a saddle equilibrium. It is important to mention that in Fig. 5E and 5 F although the dashed line seems to reach zero, the value that they actually reach is about 0.5667 and 4.4486 respectively. It is also noteworthy that the proportion of polyps under both configurations have the same order of magnitude throughout the simulation (cf. Fig. 5A and 5 B), but in contrast, for FP and M fraction, the variation (swings in fraction values) under shallow configuration is smaller than under deep configuration (for FP cf. Fig. 5C and 5 D. For M, cf. Fig. 5E and 5 F). Fig. 6 shows the corresponding phase portraits and basins of attraction 4 . Fig. 6 , for shallow and deep, show that the basing of attraction is indeed the first octant. Each black curve corresponds to a solution of the model with IC depicted as a either blue or yellow point. Blue points represent IC randomly (uniformly distributed) chosen from the region defined for Case 1 whereas yellow points were randomly chosen from a neighborhood of x* 3 . The black, green, and red point are x *1 , x *2 , and x *3 respectively. In both phase portraits we observe that some solutions evolve toward x *3 , whereas others evolve away from it. Thus the plots show numerically that x *3 is a saddle equilibrium. Fig. 7 show simulations for which the IC satisfied the constraint that the FP concentration is greater or equal than M concentration. Each color represents a different simulation. In this case we took 27 linearly spaced points from the set [0.08971, 0.8971] \u00d7 [0.5, 1] \u00d7 [0.1, 0.5] as ICs.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 3,
+                        "end": 9,
+                        "text": "Fig. 5",
+                        "ref_id": "FIGREF8"
+                    },
+                    {
+                        "start": 541,
+                        "end": 548,
+                        "text": "Fig. 5E",
+                        "ref_id": "FIGREF8"
+                    },
+                    {
+                        "start": 821,
+                        "end": 828,
+                        "text": "Fig. 5A",
+                        "ref_id": "FIGREF8"
+                    },
+                    {
+                        "start": 1002,
+                        "end": 1009,
+                        "text": "Fig. 5C",
+                        "ref_id": "FIGREF8"
+                    },
+                    {
+                        "start": 1030,
+                        "end": 1037,
+                        "text": "Fig. 5E",
+                        "ref_id": "FIGREF8"
+                    },
+                    {
+                        "start": 1048,
+                        "end": 1054,
+                        "text": "Fig. 6",
+                        "ref_id": "FIGREF9"
+                    },
+                    {
+                        "start": 1124,
+                        "end": 1130,
+                        "text": "Fig. 6",
+                        "ref_id": "FIGREF9"
+                    },
+                    {
+                        "start": 1750,
+                        "end": 1756,
+                        "text": "Fig. 7",
+                        "ref_id": "FIGREF10"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Equilibrium points",
+                "sec_num": null
+            },
+            {
+                "text": "In Fig. 7 , panels A, C, and E show simulations for shallow configuration, whereas panels B, D, and F show results for deep configuration. Observe that in some simulations, for both shallow and deep, the solution evolves toward the equilibrium x *5 (Eq. (7e)). But we also noted that other simulations, including those in which the initial concentrations of FP and M are similar (dashed lines), the ODE system evolves toward x *3 (Eq. (7c)). This confirms numerically that x *3 is a saddle equilibrium. It is important to mention that in Fig. 7C although the dashed line seems to reach zero, the value that it actually reaches is about 0.5665. It is also noteworthy that the proportion of polyps under both configurations have the same order of magnitude throughout the simulation (cf. Fig. 7A and 7 B) , but in contrast, for FP and M fraction, the variation under shallow configuration is smaller than under deep configuration (for FP cf. Fig. 7C and 7 D. For M, cf. Fig. 7E and 7 F. Fig. 8 shows the corresponding phase portraits and basins of attraction. The figure shows that the basing of attraction is the first octant. Analogous to Fig. 6 each black curve corresponds to a trajectory with IC depicted as a either blue or yellow point. Blue points represent IC randomly chosen from the region defined for Case 2 while yellow points were randomly chosen from a neighborhood of x* 3 . The black, green, and red point are x *1 , x *2 , and x *3 respectively. We observe in both phase portraits that some solutions evolve toward x *3 , whereas others evolve away from it. Thus, similar to the case [FP] \u2264 [M], the plots show numerically that x *3 is indeed a saddle equilibrium. ",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 3,
+                        "end": 9,
+                        "text": "Fig. 7",
+                        "ref_id": "FIGREF10"
+                    },
+                    {
+                        "start": 538,
+                        "end": 545,
+                        "text": "Fig. 7C",
+                        "ref_id": "FIGREF10"
+                    },
+                    {
+                        "start": 786,
+                        "end": 802,
+                        "text": "Fig. 7A and 7 B)",
+                        "ref_id": "FIGREF10"
+                    },
+                    {
+                        "start": 940,
+                        "end": 947,
+                        "text": "Fig. 7C",
+                        "ref_id": "FIGREF10"
+                    },
+                    {
+                        "start": 968,
+                        "end": 981,
+                        "text": "Fig. 7E and 7",
+                        "ref_id": "FIGREF10"
+                    },
+                    {
+                        "start": 985,
+                        "end": 991,
+                        "text": "Fig. 8",
+                        "ref_id": "FIGREF11"
+                    },
+                    {
+                        "start": 1139,
+                        "end": 1145,
+                        "text": "Fig. 6",
+                        "ref_id": "FIGREF9"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Case 2: FP greater than M",
+                "sec_num": "4.2.2."
+            },
+            {
+                "text": "We say that our model (Eq. (2)) is structurally stable whenever a \"small\" change in a model parameter do not cause qualitative changes 5 in the solution of the model, i.e., when the model shows no bifurcations. We are focusing in bifurcation of the equilibria found in Section 3.1, therefore this analysis is a local bifurcation analysis. Moreover, this analysis pays attention to codimension 6 1 bifurcations. A detailed discussion about bifurcations is in Meiss (2008) , Wiggins (2000) .",
+                "cite_spans": [
+                    {
+                        "start": 458,
+                        "end": 470,
+                        "text": "Meiss (2008)",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 473,
+                        "end": 487,
+                        "text": "Wiggins (2000)",
+                        "ref_id": "BIBREF30"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Local bifurcation analysis",
+                "sec_num": "4.3."
+            },
+            {
+                "text": "We did the numerical bifurcation analysis using MATCONT. MATCONT is a numerical continuation and bifurcation analysis software package implemented in MATLAB \u00ae . The documentation of such package is found in Dhooge et al., 2003a Dhooge et al., ,b, 2004 . The work of several investigators (Dhooge et al., 2006; Govaerts et al., 2005; Govaerts, 2000) was used as a guide in our analysis, which we summarize as procedure in G.1. Table 3 , summarizes the results of the numerical bifurcation analysis for the equilibria of our model. Before elucidating the results in Table 3 we state the following remarks:",
+                "cite_spans": [
+                    {
+                        "start": 207,
+                        "end": 227,
+                        "text": "Dhooge et al., 2003a",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 228,
+                        "end": 251,
+                        "text": "Dhooge et al., ,b, 2004",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 288,
+                        "end": 309,
+                        "text": "(Dhooge et al., 2006;",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 310,
+                        "end": 332,
+                        "text": "Govaerts et al., 2005;",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 333,
+                        "end": 348,
+                        "text": "Govaerts, 2000)",
+                        "ref_id": "BIBREF5"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 426,
+                        "end": 433,
+                        "text": "Table 3",
+                        "ref_id": "TABREF5"
+                    },
+                    {
+                        "start": 564,
+                        "end": 571,
+                        "text": "Table 3",
+                        "ref_id": "TABREF5"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Local bifurcation analysis",
+                "sec_num": "4.3."
+            },
+            {
+                "text": "\u2022 Equilibria x *1 , x *4 , and x *5 were excluded from the table because their Jacobian matrix is singular regardless of the parameter values. Ergo, is impossible to generate a continuation equilibrium curve starting from those equilibria. Moreover, x *4 and x *5 are uninteresting from the biological standpoint.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Local bifurcation analysis",
+                "sec_num": "4.3."
+            },
+            {
+                "text": "\u2022 The parameters were perturbed in two ways: toward values greater and toward values lesser than the value in Table 1 , viz., the forward (\u27f5) and backward (\u2192) direction respectively.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 110,
+                        "end": 117,
+                        "text": "Table 1",
+                        "ref_id": "TABREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Local bifurcation analysis",
+                "sec_num": "4.3."
+            },
+            {
+                "text": "\u2022 Table 3 only includes results that are biologically relevant (inside first octant).Observe in Table 3 , that under the conditions that x *3 starts as a saddle equilibrium, we only found parameter values that make either x *2 or x *3 a neutral saddle. These results allow us to conclude that because our model does not exhibit codimension 1 bifurcations, ergo it is structurally stable in terms of that type of bifurcation.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 2,
+                        "end": 9,
+                        "text": "Table 3",
+                        "ref_id": "TABREF5"
+                    },
+                    {
+                        "start": 96,
+                        "end": 103,
+                        "text": "Table 3",
+                        "ref_id": "TABREF5"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Local bifurcation analysis",
+                "sec_num": "4.3."
+            },
+            {
+                "text": "The stability analysis (Section 3) and the simulations in Figs. 2-4 showed that under a specific set of conditions for the parameters there are 3 biologically relevant equilibria (Eqs. (7a)-(7c)): x *1 (polyps cease to exist at a certain point in time and consequently there are no FP and M syntheses), x *2 (the number of polyps eventually reaches a certain value, while FP and M syntheses are reduced to their minimum), and x *3 (number of polyps, as well as FP and M syntheses, varied with time until they become nonzero constants with respect of time). Furthermore, we showed that there is another set of conditions that determine the asymptotic stability of the equilibria (see Section 3 and Table 2 ). It is conspicuous that albeit the model has 12 parameters the core feasibility and stability conditions depend on the 3 parameter combinations p 1 , p 2 , and p 3 (defined in Eq. (6)) and on the normalized depth (d). Moreover, the signs of the p i s can be changed by changing d. In biological terms, p can be interpreted as population growth of polyps, as it affects the number of polyps born minus the number of polyps dying. Meanwhile, p 2 and p 3 can be interpreted as a difference of rates. The rates at which FP and M are synthesized minus the rates at which these chemical compounds are degraded.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 58,
+                        "end": 67,
+                        "text": "Figs. 2-4",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 697,
+                        "end": 704,
+                        "text": "Table 2",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "5."
+            },
+            {
+                "text": "Furthermore, in some cases, the stability condition of an equilibrium precludes the other two from being biologically feasible. For example: the stability condition of x *1 , moves x *2 and x *3 outside the first octant (see Table 2 ). In biological terms, once the coral is dying that is, x 1 (t) \u2192 0 as t \u2192 \u221e), there will be no recovery unless some factor, which could be an environmental factor, affects the stability condition of x *1 (vide infra). Similarly, the stability condition of x *2 makes x *3 biologically unfeasible. Regarding the stability of x *3 , the contrapositive statement of Proposition 3.2 says that if x *3 is a sink, then at least one of the following statements is true: at least one p i < 0 for i = 1, 2, 3 or there is a solution of Eq. (12) that is zero or purely imaginary, i.e., x *3 is nonhyperbolic. Hence, in our model (Eq. (2)), if x *3 is an attractor (sink), then it is either biologically unfeasible or nonhyperbolic. Being a nonhyperbolic equilibrium point means that in a neighborhood of x *3 our model is not equivalent to its linearization, thus the nonlinear part of our model determines whether x *3 is stable.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 225,
+                        "end": 232,
+                        "text": "Table 2",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "5."
+            },
+            {
+                "text": "Figs. 3-4 show that at equilibrium the proportion of polyps is greater at shallow depth than at deep depth. Besides, Fig. 4 show that at equilibrium (x *3 ) the amount of FP and M is greater at greater depth. These results are in agreement with our field observations and with the limiting resource theory (model assumption 1), that states: the less resources the coral allocates into immunity, more resources could be allocated into growth.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 117,
+                        "end": 123,
+                        "text": "Fig. 4",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "5."
+            },
+            {
+                "text": "Figs. 5-8 show numerically that x *3 is indeed a saddle equilibrium; thus from some starting values (ICs) the system evolves toward x *3 whereas from other ICs the system evolves away from x *3 . Furthermore, Fig. 6 and 8 show numerically that trajectories (solutions of the ODE system) that start in the first octant remain in the first octant.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 209,
+                        "end": 221,
+                        "text": "Fig. 6 and 8",
+                        "ref_id": "FIGREF9"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "5."
+            },
+            {
+                "text": "Another important issue to elucidate is whether given some initial condition, changes in the environmental variables SST or SR, which are represented in the model by the depth parameter (d) in the environmental functions, make the system evolves toward one equilibrium point versus another. Note that this issue is in essence how a change in a parameter value affects the stability of equilibria, thus is an issue related to bifurcations in our model. Suppose that our model (Eq. (2)) is solved with IC \"close\" to some equilibrium point under the corresponding stability conditions for such point. Now, if we change d, how the solution (trajectory) is affected as t \u2192 \u221e? To answer that, consider the following cases:",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "5."
+            },
+            {
+                "text": "\u2022 Case 1: x *1 stable (sink), i.e. eventual collapse of the coral colony. Suppose that our model is solved with IC \"close\" to x *1 and with p i < 0 \u2200i, i.e., under the conditions that makes x *1 an sink and x *2 a repulsor (see Section 3). As depth decreases 7 ",
+                "cite_spans": [
+                    {
+                        "start": 259,
+                        "end": 260,
+                        "text": "7",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "5."
+            },
+            {
+                "text": "F d (\u02dc) 1 increases whereas F d (\u02dc) 2 and F d (\u02dc) 3",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "5."
+            },
+            {
+                "text": "decreases, thus, there may be a sign change for p (negative to positive) but not for p 2 and p 3 . In that case, we obtain p 1 > 0, p 2 < 0, and p 3 < 0; therefore x *2 becomes an attractor (see 2), and this implies that the trajectory might evolve -depending on the IC-from x *1 to x *2 . Note that under this scenario x *2 flips from source to sink (similar to a transcritical bifurcation) and x *1 stops being a sink. Moreover, in this case, it will not be possible to get p i > 0 \u2200i, thus the conditions for x *3 to be a saddle are not satisfied.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "5."
+            },
+            {
+                "text": "\u2022 Case 2: x *3 stable (sink), i.e. a coral colony with number of polyps and amount of protein that have a nonzero constant value. In this case Proposition 3.2 and its contrapositive (vide supra) establish that the nonlinearities of our model make a biologically feasible x *3 to be asymptotically stable. We hypothesize that changes in one or more model parameters affect the nonlinear part of the model and that determines stability of x *3 .",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "5."
+            },
+            {
+                "text": "\u2022 Case 3: x *3 a saddle, i.e., some trajectories evolve to x *3 and other away from x *3 as t \u2192 \u221e. Suppose that our model is solved with IC \"close\" to x *3 and that all assumptions of Proposition 3.2 are satisfied. In particular, we focus on the assumption p i > 0 \u2200i. As depth de- increases, thus, there can be a sign change for p , but not for p 2 or p 3 . p 1 must remain positive but p 2 or p 3 may become negative. In that case, x *3 becomes biologically unfeasible, but x *2 becomes an attractor if both, p 2 and p 3 are negative. In any case, the nonlinearities of our model must play a role in determining the stability of x *3 .",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "5."
+            },
+            {
+                "text": "\u2022 Case 4: x *2 stable. Suppose that our model is solved with IC \"close\" to",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "5."
+            },
+            {
+                "text": "x *2 and with p 1 > 0, p 2 < 0, and p 3 < 0, that is, under the conditions that makes x *2 an sink. As depth decreases F d",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "5."
+            },
+            {
+                "text": "(\u02dc) 1 increases whereas F d (\u02dc) 2 and F d (\u02dc) 3",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "5."
+            },
+            {
+                "text": "decreases, hence none of the p i i = 1, 2, 3 can change sign and no change in the stability of x *2 occurs. If depth increases, the signs of p i could flip. If all p i become negative, the trajectory may evolve toward x *1 because it would become an attractor; but if not all of the p i become negative, then the trajectory may evolve toward x *1 or elsewhere.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "5."
+            },
+            {
+                "text": "The numerical bifurcation analysis in Section 4.3 showed that our model is structurally stable. It is noteworthy that the reason for not finding a value of depth that produce some change of stability of equilibria is that for the baseline value of the other parameters that comprise p i besides d, a solution of p i = 0 for d lies outside the interval that we looked into. This finding does not preclude the model to exhibit global bifurcations or some codimension 2 or higher codimension bifurcations.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "5."
+            },
+            {
+                "text": "Furthermore, we found conditions that ensure that the point x *3 is a saddle equilibrium. Hence, there are going to be some orbits (solutions of Eq. (2)) that start \"close\" to x *3 and evolve towards it whereas other orbits start \"close\" to x *3 evolve away from x *3 . The mathematical implications of this might be interesting. For instance, note that whenever p 1 > 0, p 2 > 0, and p 3 > 0, which is one of the conditions for x *3 to be a saddle, makes also x *2 to be a saddle. Ergo, a saddle connection or heteroclinic 9 orbit is possible. Such a scenario would be in agreement with the findings of neutral saddle points for these two equilibria in the local bifurcation analysis (see Section 4.3). In biological terms, a saddle point could reflect a change in an environmental condition such as an increase in SST, that makes the growth rate of a colony to decrease to extinction.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "5."
+            },
+            {
+                "text": "Phenomena like the appearance or the disappearance of a saddle connection is associated with global bifurcations. Although the study of the existence of global bifurcations is beyond the scope of this work, if they indeed exist in our model, then this could indicate that the system that the model seeks to represent have different configurations and that parameter changes affect the system as a whole, i.e., more than one equilibrium point at once.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "5."
+            },
+            {
+                "text": "We constructed a mathematical model that simulate the effects of the environment on A. cervicornis. The model captures the essence of how environmental variables, SST and SR, affect the resource allocation between polyp population growth and two of its immune system constituents (FP and M) as a function of time. In that regard, the model succeeds as a predictor of the effect of climate change on the coral population. Yet, we understand that the biology behind this model is far more complicated, as we are beginning to understand the multiple roles of FP and M in corals; thus we could have partially missed the roles of these as immune constituents and their trade-off against other life ",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Conclusions",
+                "sec_num": "6."
+            },
+            {
+                "text": "x *2 \u03b2 m NS \u27f5 shallow \u03b2 f NS \u27f5 shallow \u03ba a NS \u2192 \u27f5 shallow x *3 \u03b2 f NS \u2192 \u27f5 shallow \u03b4 f NS \u2192 \u27f5 shallow \u03ba a NS \u2192 shallow",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Conclusions",
+                "sec_num": "6."
+            },
+            {
+                "text": "a NS stands for neutral saddle. b Forward (\u2192) means that the parameter was increased relative to its baseline value in Table 1 whereas backward (\u27f5) means that the parameter was decreased relative to its baseline value.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 119,
+                        "end": 126,
+                        "text": "Table 1",
+                        "ref_id": "TABREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Conclusions",
+                "sec_num": "6."
+            },
+            {
+                "text": "history traits such as growth. Nonetheless, this model could still be useful as a conservation tool as it fairly simulates the coral reality with the available knowledge. We can modify the model to capture phenomena associated with abrupt seasonal changes. This can be done in at least two ways: First, to make some of the parameters, e.g. birth rate, time dependent. This will make the model a nonautonomous ODE system; thereby making it more difficult to analyze. Second, to change some of the parameters at discrete times (seasons). This will encapsulate our model, which is a continuous time model, into a discrete time model.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Conclusions",
+                "sec_num": "6."
+            },
+            {
+                "text": "A nullcline defines the set of values that makes the corresponding model variable time-independent (i.e., derivative with respect of time is zero). Let g 2 (x, \u03bc) be the RHS of Eq. (2b). By definition of nullcline the x 2 -nullcline is given by the equation g Observe that for x to have a biological meaning p 3 \u2265 0. Finally, let g 1 (x, \u03bc) be the RHS of Eq. (2a) and take g 1 (x, \u03bc) = 0, ergo Likewise, for x to be biologically feasible p 1 \u2212 (\u03b4 af x 2 + \u03b4 am x 3 ) \u2265 0. Therefore, Eqs. (A.1)-(A.3) are the nullclines of the ODE system (2).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Conclusions",
+                "sec_num": "6."
+            },
+            {
+                "text": "EQUATION",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [
+                    {
+                        "start": 0,
+                        "end": 8,
+                        "text": "EQUATION",
+                        "ref_id": "EQREF",
+                        "raw_str": "+ = = = F x x x x x x x x F p x x",
+                        "eq_num": "(1 )"
+                    }
+                ],
+                "section": "Conclusions",
+                "sec_num": "6."
+            },
+            {
+                "text": "(a) Eq. (12) has a maximum and exactly 1 positive real root. (b) Eq. (12) has a maximum of 2 negative real roots. Furthermore, the equation could have 0 or 2 negative real solutions. Note that the rule of signs leads to the conclusion that if all the solutions of Eq. (12) are nonzero real numbers, then 2 of them must be negative and 1 positive. On the other hand, if only one solution is real (the other are a complex conjugate pair), then it must be positive. 3 By Gerschgorin disc theorem (Quateroni et al., 2007; Ger\u0161gorin, 1931) mf Observe that R 's center is at some point in the negative part of the real axis whereas R 2 and R 3 are concentric and their center is the origin. Inasmuch as we seek a stability condition for x *3 we want to impose a condition on the parameters that yield eigenvalues with a negative real part. To achieve that we start by seeking that R 1 is contained in the negative part of the complex plane and disjoint from R 2 \u222a R 3 . Such condition is:",
+                "cite_spans": [
+                    {
+                        "start": 493,
+                        "end": 517,
+                        "text": "(Quateroni et al., 2007;",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 518,
+                        "end": 534,
+                        "text": "Ger\u0161gorin, 1931)",
+                        "ref_id": "BIBREF4"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Conclusions",
+                "sec_num": "6."
+            },
+            {
+                "text": "> + F r r r max{ , } a m f f m 1 1 1 2 3 (C.2)",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Conclusions",
+                "sec_num": "6."
+            },
+            {
+                "text": "This guarantees that the eigenvalue in R 1 , which is one of the solutions of Eq. 12, is a negative real number. Moreover, since matrix A is irreducible 10 , then the eigenvalue in R 1 is not in its boundary.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Conclusions",
+                "sec_num": "6."
+            },
+            {
+                "text": "From the previous list of remarks we infer following proposition (Proposition 3.2). The assumptions on that proposition comprise the stability conditions of x *3 .",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Conclusions",
+                "sec_num": "6."
+            },
+            {
+                "text": "If p 1 > 0, p 2 > 0, p 3 > 0, and none of the solutions (eigenvalues) of Eq. (12) is neither zero nor purely imaginary, then x *3 is either an unstable equilibrium or a saddle equilibrium point 11 .",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Conclusions",
+                "sec_num": "6."
+            },
+            {
+                "text": "Theorem D.2 (LaSalle 2). Let \u03a9 denote the closed region defined by V(x) \u2264 l, and suppose that V(x) has continuous first partials in \u03a9. If, in addition, \u03a9 is bounded and V x ( ) 0 in \u03a9, then every solution starting in \u03a9 approaches M as t \u2192 \u221e, where M is defined as in Theorem D.1.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Conclusions",
+                "sec_num": "6."
+            },
+            {
+                "text": "The proofs of Theorems D.1 and D.2 can be found in LaSalle (1960 LaSalle ( , 1968 .",
+                "cite_spans": [
+                    {
+                        "start": 51,
+                        "end": 64,
+                        "text": "LaSalle (1960",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 65,
+                        "end": 81,
+                        "text": "LaSalle ( , 1968",
+                        "ref_id": "BIBREF16"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Conclusions",
+                "sec_num": "6."
+            },
+            {
+                "text": "We take the following statement of Descartes's rule of signs from Quateroni et al. (2007) .",
+                "cite_spans": [
+                    {
+                        "start": 66,
+                        "end": 89,
+                        "text": "Quateroni et al. (2007)",
+                        "ref_id": "BIBREF25"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Appendix E. Descartes's rule of signs",
+                "sec_num": null
+            },
+            {
+                "text": "Theorem E.3 (Descartes's rule of signs). Let p n be a polynomial of degree n and n \u2265 0. Denote by \u03bd the number of sign changes in the set of coefficients {a j } and by k the number of positive real roots of p n (each counted with its multiplicity). Then, k \u2264 \u03bd and \u03bd \u2212 k is an even number.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Appendix E. Descartes's rule of signs",
+                "sec_num": null
+            },
+            {
+                "text": "The rule can be applied to bound the number of negative real roots by applying the rule to the polynomial p n (\u2212x).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Appendix E. Descartes's rule of signs",
+                "sec_num": null
+            },
+            {
+                "text": "Here we normalize model quations (2). Let y 1 (t) = x 1 (t)/\u03ba a , = y t",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Appendix F. Normalized model",
+                "sec_num": null
+            },
+            {
+                "text": "x t x ( ) ( ",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Appendix F. Normalized model",
+                "sec_num": null
+            },
+            {
+                "text": "An equilibrium point is hyperbolic if all the eigenvalues of the Jacobian matrix of the RHS of the ODE system evaluated at the equilibrium point have nonzero real part.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Informally, the basing of attraction is the maximal trapping region. A trapping region is found, numerically, by computing the vector field and verifying it point inward on the boundary(Meiss, 2008).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "The concept of qualitative change is explained with precision inMeiss (2008),Wiggins (2000). Whenever a change in the model parameters cause the orbits generated by the model to not being equivalent (topologically conjugate) between themselves, we say that a qualitative change in the solutions of the model occurs.6 Loosely speaking, the codimension of a bifurcation is the minimal number of parameters that have to be changed in order to observe the bifurcation.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Informally, an heteroclinic orbit is a trajectory that connects two saddle equilibrium points. An homoclinic orbit is a special case where the two equilibria are the same.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "We thank Mariano Marcano, Loretta Roberson, and Juan Luis Sanchez. We also extend our gratitude to Fundaci\u00f3n Toyota, Ford Motor Company Foundation of Puerto Rico, the University of Puerto Rico Sea Grant College Program (NOAA Grant Number NA14OAR4170068, Project R-102-1-14), University of Puerto Rico, R\u00edo Piedras Campus Office of Research and Graduate Studies Institutional Research Fund (FIPI, 20FIP2550017.00 and 20FIP3490018.00), and Programa de Iniciativas de Investigaci\u00f3n (PII 2017).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Acknowledgments",
+                "sec_num": null
+            },
+            {
+                "text": "The assumptions of Proposition 3.1 are the stability conditions of x *1 . Next, we restate the proposition and give its proof.2 , p 1 < 0, p 2 < 0, and p 3 < 0, then the equilibrium point x *1 is asymptotically stable.Proof. The goal is to apply LaSalle invariance principle (D.1). Thus, we define \u03a9 = [0, l 1 ] \u00d7 [0, l 2 ] \u00d7 [0, l 3 ], where l 1 = \u03ba a , and l 2 , l 3 are the maximum concentrations of FP and M that a fixed volume of coral (polyps in a given volume) can produce. Note that \u03a9 is forward invariant for the following reasons: First, any trajectory (solution of Eq. (2)) that starts in \u03a9 will not escape the first octant because of the zero nullclines (Eqs. (A.1)-(A.3)). Second, neither the number of polyps nor the protein concentrations is unbounded. The number of polyps cannot increase beyond the carrying capacity, and the proteins concentrations must be bounded because the polyps synthesize proteins up to a finite positive concentration. Note also that \u03a9 is a closed and bounded subset of 3 , thus it is compact (Hasser and Sullivan, 1991) . Next we show that V is a Lyapunov function (D). Observe that3 2x 3 and V(x *1 ) = 0. We proceed to establish the nonincreasing property of V along the trajectories given by Eq. (2). Let g(x, \u03bc) be the RHS of Eq. (2). We assume x \u2208 \u03a9 and obtain the following: Observe that because p < 0, p 2 < 0, p 3 < 0, andis a Lyapunov function in \u03a9. We emphasize that to apply LaSalle's principle we only need the nonincreasing property of V to hold true.",
+                "cite_spans": [
+                    {
+                        "start": 1035,
+                        "end": 1062,
+                        "text": "(Hasser and Sullivan, 1991)",
+                        "ref_id": "BIBREF8"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "annex",
+                "sec_num": null
+            },
+            {
+                "text": "The following remarks lead to Proposition 3.2. The proof of the proposition is also shown in this section.Because the degree of the polynomial in Eq. 12is 3, the equation has either 3 real solutions or 1 real solution and 2 complex solutions (a complex conjugate pair). 2 By Descartes's rule of signs (see Appendix E), regardless of the value taken by c we conclude the following:, then all the components of x *3 are positive and the characteristic polynomial of the matrixis given by Eq. 12whose solutions are given by the Cardano and Tartaglia's formulae. Since we assumed that none of the expressions in Cardano and Tartaglia's formulae is purely imaginary or zero, then x *3 is an hyperbolic equilibrium and by Hartman-Grobmann theorem (Meiss, 2008) the linearization of Eq. (2) is sufficient to describe such equation in a neighborhood of x *3 . Owing to the Descartes's rule of signs Eq. (12) has exactly 1 positive real root. Thereby, just one of the following two cases holds:\u2022 Case 1: The discriminant 12 of Eq. (12) is nonnegative. Hence, all the roots are real. Inasmuch as we assumed that they are nonzero, by Descartes's rule of signs, then 1 of them is positive and the other 2 must be negative. Ergo, x *3 must be a saddle equilibrium.\u2022 Case 2: The discriminant of Eq. (12) is negative. Thus, one of the roots is real and the other are a complex conjugate pair. Owing to the Descartes's rule of signs and because we assumed nonzero roots, the real root must be positive. Additionally, we supposed that the real parts of the complex conjugate pair are nonzero. Thus, if the real parts of the complex conjugate pair are positive, then x *3 is an unstable equilibrium whereas if the real parts of the complex conjugate pair are negative, then x *3 is a saddle equilibrium.",
+                "cite_spans": [
+                    {
+                        "start": 741,
+                        "end": 754,
+                        "text": "(Meiss, 2008)",
+                        "ref_id": "BIBREF19"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Appendix C. Proof of Proposition 3.2",
+                "sec_num": null
+            },
+            {
+                "text": "A Lyapunov function is a generalization of the concept of total energy of a physical system. The textbook definition (see Meiss, 2008; Vidyasagar, 2002; Wiggins, 2000) of Lyapunov function is that V: n is a Lyapunov function for equilibrium x * if it is a C 1 function with the following properties:\u2022 V is positive semidefinite, i.e., V(x) \u2265 0, for all x in a neighborhood of x * .\u2022 V is nonincreasing along the trajectories of the ODE system that start in a neighborhood of x * . That is, let g(x) be the RHS of the ODE system andIf one can construct a Lyapunov function for a given equilibrium then the equilibrium is Lyapunov stable. If V is decreasing, i.e. dV/dt < 0, then the equilibrium is asymptotically stable (Meiss, 2008) . The LaSalle invariance principle generalizes even more the concept of Lyapunov function in that only the decreasing property is needed. For completeness' sake we state the LaSalle invariance principle.Theorem D.1 (LaSalle 1). Let \u03a9 be a bounded closed (compact) set with the property that every solution of a system of ordinary differential equations ( = x g x ( )) which begins in \u03a9 remains for all future time in \u03a9. Suppose there is a scalar function V(x) which has continuous first partials in \u03a9 and is such that V x ( ) 0 in \u03a9. Let E be the set of all points in \u03a9 where = V x ( ) 0. Let M be the largest invariant set in E (a set is an invariant if solutions of the ODE system that start in the set remain in the set for all t). Then every solution starting in \u03a9 approaches M as t \u2192 \u221e.10 A matrix is irreducible if its associated directed graph is strongly connected. 11 A saddle equilibrium occurs whenever all the eigenvalues of D x g(x *3 ) have nonzero real part, but they do not have the same sign. This means that there are some trajectories that start \"close\" to x *3 and stay \"close\" to x *3 as t \u2192 \u221e whereas other trajectories start \"close\" to x *3 but go farther away from x *3 as t \u2192 \u221e.12 The discriminant of the cubic Eq. (12) is (bc) 2 \u2212 4db 3 \u2212 27d 2 \u2212 4c 3 + 18bcd.",
+                "cite_spans": [
+                    {
+                        "start": 122,
+                        "end": 134,
+                        "text": "Meiss, 2008;",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 135,
+                        "end": 152,
+                        "text": "Vidyasagar, 2002;",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 153,
+                        "end": 167,
+                        "text": "Wiggins, 2000)",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 719,
+                        "end": 732,
+                        "text": "(Meiss, 2008)",
+                        "ref_id": "BIBREF19"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Appendix D. Lyapunov function and LaSalle invariance Principle",
+                "sec_num": null
+            },
+            {
+                "text": "We did a numerical bifurcation analysis using MATCONT. The analysis involves the construction of an equilibrium curve and the classification of the points that comprise it. The equilibrium curve is a continuation curve. It is constructed starting from an equilibrium point and changing a model parameter. The classification of points in the equilibrium curve involves two things: the computation of the eigenvalues of the Jacobian matrix evaluated at the corresponding point in the equilibrium curve and the evaluation of different test functions. A detailed explanation on how the points are classified and about the meaning of the categories can be found in Dhooge et al. (2006) , Meiss (2008) . The points are classified according to the following categories:\u2022 A fold point, also known as limit point, is an equilibrium point for which the Jacobian matrix evaluated at the equilibrium has an eigenvalue that becomes zero as a parameter crosses certain value (bifurcation value). A limit point indicates that a saddle-node bifurcation might occur.\u2022 A Hopf point is an equilibrium point for which the Jacobian matrix evaluated at the equilibrium has a pair of complex conjugate eigenvalues that cross the imaginary axis as a parameter crosses certain value. A Hopf point indicates either that a Hopf bifurcation (birth of limit cycle) or that a more complex codimension 2 bifurcation might be occurring. That depends on the sign of the first Lyapunov coefficient as well as other factors.\u2022 A neutral saddle point is a point with two real eigenvalues that sum zero. A neutral saddle indicates that a codimension 2 bifurcation or a more complex bifurcation related to an homoclinic 13 or heteroclinic 14 orbit might exist. It is noteworthy that both, neutral saddle and Hopf point, are zeros of one of the test functions that MATCONT uses to detect them.Based on the work of Dhooge et al. (2006) , Govaerts et al. (2005) , Govaerts (2000) we did bifurcation analysis using the following procedure. 13 Loosely speaking an homoclinic orbit is a trajectory that connects a saddle point to itself. 14 Informally, an heteroclinic orbit is a trajectory that connects two saddle equilibrium points. An homoclinic orbit is a special case where the two equilibria are the same.A. Nieves-Gonz\u00e1lez, et al. Ecological Modelling 406 (2019) 7-22 Procedure G.1 (Procedure for local bifurcation analysis).\u2022 Input: The equilibrium points (in section 3.1 we obtained their exact expression in terms of the model parameters).\u2022 Output: Bifurcation points in phase-parameter space, if there are any, and type of bifurcation.",
+                "cite_spans": [
+                    {
+                        "start": 660,
+                        "end": 680,
+                        "text": "Dhooge et al. (2006)",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 683,
+                        "end": 695,
+                        "text": "Meiss (2008)",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 1874,
+                        "end": 1894,
+                        "text": "Dhooge et al. (2006)",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 1897,
+                        "end": 1919,
+                        "text": "Govaerts et al. (2005)",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 1922,
+                        "end": 1937,
+                        "text": "Govaerts (2000)",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 1997,
+                        "end": 1999,
+                        "text": "13",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2270,
+                        "end": 2330,
+                        "text": "Nieves-Gonz\u00e1lez, et al. Ecological Modelling 406 (2019) 7-22",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Appendix G. Remarks on local bifurcation analysis",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "MATCONT: a MATLAB package for numerical bifurcation analysis of ODEs",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Dhooge",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Govaerts",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Kuznetsov",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "ACM Trans. Math. Softw. (TOMS)",
+                "volume": "29",
+                "issue": "",
+                "pages": "141--164",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Dhooge, A., Govaerts, W., Kuznetsov, Y.A., 2003. MATCONT: a MATLAB package for numerical bifurcation analysis of ODEs. ACM Trans. Math. Softw. (TOMS) 29, 141-164.",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "MATCONT: a MATLAB package for numerical bifurcation analysis of ODEs",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Dhooge",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Govaerts",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Kuznetsov",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "ACM SIGSAM Bull",
+                "volume": "38",
+                "issue": "",
+                "pages": "21--22",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Dhooge, A., Govaerts, W., Kuznetsov, Y.A., 2004. MATCONT: a MATLAB package for numerical bifurcation analysis of ODEs. ACM SIGSAM Bull. 38, 21-22.",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "Cl_matcont: a continuation toolbox in Matlab",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Dhooge",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Govaerts",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Kuznetsov",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Mestrom",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Riet",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Proceedings of the 2003 ACM symposium on Applied computing",
+                "volume": "",
+                "issue": "",
+                "pages": "161--166",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Dhooge, A., Govaerts, W., Kuznetsov, Y.A., Mestrom, W., Riet, A., 2003. Cl_matcont: a continuation toolbox in Matlab. in: Proceedings of the 2003 ACM symposium on Applied computing 161-166.",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "MATCONT and CL MATCONT: Continuation toolboxes in MATLAB",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Dhooge",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Govaerts",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Kuznetsov",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Mestrom",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Riet",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Sautois",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Dhooge, A., Govaerts, W., Kuznetsov, Y.A., Mestrom, W., Riet, A., Sautois, B., 2006. MATCONT and CL MATCONT: Continuation toolboxes in MATLAB. Universiteit Gent, Belgium and Utrecht University, The Netherlands.",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Bulletin de l'Acad\u00e9mie des Sciences de l'URSS. Classe des sciences math\u00e9matiques et na",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Ger\u0161gorin",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1931,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "749--754",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ger\u0161gorin, S., 1931. \u00dcber die Abgrenzung der Eigenwerte einer Matrix. In: Bulletin de l'Acad\u00e9mie des Sciences de l'URSS. Classe des sciences math\u00e9matiques et na. pp. 749-754.",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "Numerical bifurcation analysis for ODEs",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Govaerts",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "J. Comput. Appl. Math",
+                "volume": "125",
+                "issue": "",
+                "pages": "57--68",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Govaerts, W., 2000. Numerical bifurcation analysis for ODEs. J. Comput. Appl. Math. 125, 57-68.",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "Numerical continuation of bifurcations of limit cycles in MATLAB",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Govaerts",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Kuznetsov",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Dhooge",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "SIAM J. Sci. Comput",
+                "volume": "27",
+                "issue": "",
+                "pages": "231--252",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Govaerts, W., Kuznetsov, Y.A., Dhooge, A., 2005. Numerical continuation of bifurcations of limit cycles in MATLAB. SIAM J. Sci. Comput. 27, 231-252.",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "Effects of solar UV radiation on aquatic ecosystems and interactions with climate change",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "H\u00e4der",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Kumar",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Smith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Worrest",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Photochem. Photobiol. Sci",
+                "volume": "6",
+                "issue": "",
+                "pages": "267--285",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "H\u00e4der, D., Kumar, H., Smith, R., Worrest, R., 2007. Effects of solar UV radiation on aquatic ecosystems and interactions with climate change. Photochem. Photobiol. Sci. 6, 267-285.",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "Real Analysis",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Hasser",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Sullivan",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1991,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hasser, N.B., Sullivan, J.A., 1991. Real Analysis, 1st edition. Dover, Mineola, New York USA.",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "On the numerical computation of Poincar\u00e9 maps",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Henon",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1982,
+                "venue": "Physica D: Nonlinear Phenomena",
+                "volume": "5",
+                "issue": "",
+                "pages": "412--414",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Henon, M., 1982. On the numerical computation of Poincar\u00e9 maps. Physica D: Nonlinear Phenomena 5, 412-414.",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Coral reefs under rapid climate change and ocean acidification",
+                "authors": [
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Hoegh-Guldberg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Mumby",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Hooten",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Steneck",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Greenfield",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Gomez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Harvell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Sale",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Edwards",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Caldeira",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Science",
+                "volume": "318",
+                "issue": "",
+                "pages": "1737--1742",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hoegh-Guldberg, O., Mumby, P.J., Hooten, A.J., Steneck, R.S., Greenfield, P., Gomez, E., Harvell, C.D., Sale, P.F., Edwards, A.J., Caldeira, K., et al., 2007. Coral reefs under rapid climate change and ocean acidification. Science 318, 1737-1742.",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "On Global Stability of a Predator-Prey System",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Hsu",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1978,
+                "venue": "Math. Biosci",
+                "volume": "39",
+                "issue": "",
+                "pages": "1--10",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hsu, S., 1978. On Global Stability of a Predator-Prey System. Math. Biosci. 39, 1-10.",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "Global stability for a class of predator-prey systems",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Hsu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Huang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "SIAM J. Appl. Math",
+                "volume": "55",
+                "issue": "",
+                "pages": "763--783",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hsu, S.B., Huang, T.W., 1995. Global stability for a class of predator-prey systems. SIAM J. Appl. Math. 55, 763-783.",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "Photosynthetic response to elevated temperature in the symbiotic dinoflagellate symbiodinium microadriaticum in culture",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Iglesias-Prieto",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Matta",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Robins",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Trench",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1992,
+                "venue": "Proc. Natl. Acad. Sci",
+                "volume": "89",
+                "issue": "",
+                "pages": "10302--10305",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Iglesias-Prieto, R., Matta, J.L., Robins, W.A., Trench, R.K., 1992. Photosynthetic response to elevated temperature in the symbiotic dinoflagellate symbiodinium micro- adriaticum in culture. Proc. Natl. Acad. Sci. 89, 10302-10305.",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "Coral Point Count with Excel extensions (cpce): A Visual Basic program for the determination of coral and substrate coverage using random point count methodology",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Kohler",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Gill",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Comput. Geosci",
+                "volume": "32",
+                "issue": "",
+                "pages": "1259--1269",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kohler, K.E., Gill, S.M., 2006. Coral Point Count with Excel extensions (cpce): A Visual Basic program for the determination of coral and substrate coverage using random point count methodology. Comput. Geosci. 32, 1259-1269.",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Some Extensions to Lyapunov's Second method",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Lasalle",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1960,
+                "venue": "IRE Trans. Circuit Theory CT",
+                "volume": "7",
+                "issue": "",
+                "pages": "520--527",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "LaSalle, J., 1960. Some Extensions to Lyapunov's Second method. IRE Trans. Circuit Theory CT-7, 520-527.",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Stability theory for ordinary differential equations",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Lasalle",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1968,
+                "venue": "J. Diff. Eq",
+                "volume": "4",
+                "issue": "",
+                "pages": "57--65",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "LaSalle, J., 1968. Stability theory for ordinary differential equations. J. Diff. Eq. 4, 57-65.",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "Penetration of solar radiation in the upper ocean: A numerical model for oceanic and coastal waters",
+                "authors": [
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Lee",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Du",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Arnone",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Liew",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Penta",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "J. Geophys. Res",
+                "volume": "110",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lee, Z., Du, K., Arnone, R., Liew, S., Penta, B., 2005. Penetration of solar radiation in the upper ocean: A numerical model for oceanic and coastal waters. J. Geophys. Res. 110, C09019.",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "Bleaching in coral reef anthozoans: effects of irradiance, ultraviolet radiation, and temperature on the activities of protective enzymes against active oxygen",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Lesser",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Stochaj",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Tapley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Shick",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1990,
+                "venue": "Coral Reefs",
+                "volume": "8",
+                "issue": "",
+                "pages": "225--232",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lesser, M., Stochaj, W., Tapley, D., Shick, J., 1990. Bleaching in coral reef anthozoans: effects of irradiance, ultraviolet radiation, and temperature on the activities of pro- tective enzymes against active oxygen. Coral Reefs 8, 225-232.",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "Differential Dynamical Systems",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Meiss",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Meiss, J.D., 2008. Differential Dynamical Systems, 1st edition. SIAM, USA.",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "Peroxidase activity and inducibility in the sea fan coral exposed to a fungal pathogen",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Mydlarz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Harvell",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Comparative Biochem. Physiol. Part A: Mol. Integrative Physiol",
+                "volume": "146",
+                "issue": "",
+                "pages": "54--62",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Mydlarz, L.D., Harvell, C.D., 2007. Peroxidase activity and inducibility in the sea fan coral exposed to a fungal pathogen. Comparative Biochem. Physiol. Part A: Mol. Integrative Physiol. 146, 54-62.",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "A comparative study of phenoloxidase activity in diseased and bleached colonies of the coral acropora millepora",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Palmer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Bythell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Willis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Develop. Comparative Immunol",
+                "volume": "35",
+                "issue": "",
+                "pages": "1098--1101",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Palmer, C., Bythell, J., Willis, B., 2011. A comparative study of phenoloxidase activity in diseased and bleached colonies of the coral acropora millepora. Develop. Comparative Immunol. 35, 1098-1101.",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "Levels of immunity parameters underpin bleaching and disease susceptibility of reef corals",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Palmer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Bythell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Willis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "FASEB J",
+                "volume": "24",
+                "issue": "",
+                "pages": "1935--1946",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Palmer, C.V., Bythell, J.C., Willis, B.L., 2010. Levels of immunity parameters underpin bleaching and disease susceptibility of reef corals. FASEB J. 24, 1935-1946.",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "Coral fluorescent proteins as antioxidants",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Palmer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Modi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Mydlarz",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "PLoS ONE",
+                "volume": "4",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Palmer, C.V., Modi, C.K., Mydlarz, L.D., 2009. Coral fluorescent proteins as antioxidants. PLoS ONE 4, e7298.",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "Coral Reef Project-Papers in memory of Dr. Thomas F. Goreau. 9 The Ecology of Some Jamaican Excavating Sponges",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Pang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1973,
+                "venue": "Bull. Marine Sci",
+                "volume": "23",
+                "issue": "",
+                "pages": "227--243",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pang, R.K., 1973. Coral Reef Project-Papers in memory of Dr. Thomas F. Goreau. 9 The Ecology of Some Jamaican Excavating Sponges. Bull. Marine Sci. 23, 227-243.",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "Numerical Mathematics",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Quateroni",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Sacco",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Saleri",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Quateroni, A., Sacco, R., Saleri, F., 2007. Numerical Mathematics, 2nd edition. Springer, Berlin Heidelberg.",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "Green fluorescent protein regulation in the coral acropora yongei during photoacclimation",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Roth",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Latz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Goericke",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Deheyn",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "J. Exp. Biol",
+                "volume": "213",
+                "issue": "",
+                "pages": "3644--3655",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Roth, M.S., Latz, M.I., Goericke, R., Deheyn, D.D., 2010. Green fluorescent protein reg- ulation in the coral acropora yongei during photoacclimation. J. Exp. Biol. 213, 3644-3655.",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "Fluorescent pigments in corals are photoprotective",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Salih",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Larkum",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Cox",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "K\u00fchl",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Hoegh-Guldberg",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Nature",
+                "volume": "408",
+                "issue": "",
+                "pages": "850--853",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Salih, A., Larkum, A., Cox, G., K\u00fchl, M., Hoegh-Guldberg, O., 2000. Fluorescent pigments in corals are photoprotective. Nature 408, 850-853.",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "The matlab ode suite",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Shampine",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Reichelt",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "SIAM J Sci. Comput",
+                "volume": "18",
+                "issue": "",
+                "pages": "1--22",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Shampine, L.F., Reichelt, M.W., 1997. The matlab ode suite. SIAM J Sci. Comput. 18, 1-22.",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "Computing accurate Poincar\u00e9 maps",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Tucker",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Physica D: Nonlinear Phenomena",
+                "volume": "171",
+                "issue": "",
+                "pages": "127--137",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Tucker, W., 2002. Computing accurate Poincar\u00e9 maps. Physica D: Nonlinear Phenomena 171, 127-137.",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "Introduction to Applied Nonlinear Dynamical Systems and Chaos",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            ";"
+                        ],
+                        "last": "Vidyasagar",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Usa",
+                        "middle": [],
+                        "last": "Siam Classics",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Wiggins",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Vidyasagar, M., 2002. Nonlinear Systems Analysis, 2nd edition. SIAM Classics, USA. Wiggins, S., 2000. Introduction to Applied Nonlinear Dynamical Systems and Chaos, 2nd edition. Springer, USA.",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "type_str": "figure",
+                "text": "Note that in system (3) all variables are dimensionless and the parameters are in units of day \u22121 . The details on how the equations are normalized can be seen in Appendix F.",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF1": {
+                "type_str": "figure",
+                "text": "Schematic diagram of the mathematical model. F i , i = 1, \u2026, 3 are the environmental functions. x 1 , x 2 , and x 3 are the number of coral polyps, melanin (M) concentration, and fluorescent protein (FP) concentration, respectively.",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF2": {
+                "type_str": "figure",
+                "text": "2.3.1.6. Parameters of environmental function (F d (\u02dc) 1 ). The parameters for the environmental functions are the c and c 2 in Eq. (1). Their values were obtained by fitting F d (\u02dc) 1",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF3": {
+                "type_str": "figure",
+                "text": ") that start in a neighborhood of each equilibrium point. The Jacobian matrix of the RHS of Eq. (2",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF4": {
+                "type_str": "figure",
+                "text": "Proposition 3.1 Stability of x *1 The proof is in Appendix B and uses the concept of Lyapunov function (explained in Appendix D) and the LaSalle invariance principle (D.1).",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF6": {
+                "type_str": "figure",
+                "text": "multiplied by the roots of the characteristic polynomial of A. The roots of the characteristic polynomial of A are the solutions of p 2 p 3 \u03b4 mf \u03b4 fm (\u03b4 mf \u03b4 fm \u2212 (\u03b4 af \u03b4 fm + \u03b4 am \u03b4 mf )), and = d",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF8": {
+                "type_str": "figure",
+                "text": "Solutions of the model (Eq. (2)) when ICs are taken such that [FP] \u2264 [M]. Each color corresponds to a simulation with a different IC. We took 27 linearly spaced points from the set [0.08971, 0.8971] \u00d7 [0.1, 0.5] \u00d7 [0.5, 1] as ICs. The dotted lines represent the cases where the ICs satisfied [FP] \u2248 [M]. The shallow simulations are in panels A, C, and E; whereas the deep simulations are in panels B, D, and F.",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF9": {
+                "type_str": "figure",
+                "text": "Phase portrait when ICs are taken such that [FP] \u2264 [M]. The black point is x *1 , green point is x *2 , red point is x *3 , and the blue or yellow points are different ICs.",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF10": {
+                "type_str": "figure",
+                "text": "Solutions of the model (Eq. (2)) when ICs are taken such that [FP] \u2265 [M]. Each color corresponds to a simulation with a different IC. We took 27 linearly spaced points from the set [0.08971, 0.8971] \u00d7 [0.5, 1] \u00d7 [0.1, 0.5] as ICs. The dotted lines represent the cases where the ICs satisfied [FP] \u2248 [M]. The shallow simulations are in panels A, C, and E; whereas the deep simulations are in panels B, D, and F.",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF11": {
+                "type_str": "figure",
+                "text": "Phase portrait and basin of attraction when ICs are taken such that [FP] \u2265 [M]. The black point is x *1 , green asterisk is x *2 , red point is x *3 , and the blue point are different ICs.",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF12": {
+                "type_str": "figure",
+                "text": "x 3 to be biologically plausible p 2 \u2265 0. Similarly, let g 3 (x, \u03bc) be the RHS of Eq. (2c) and take g 3 (x, \u03bc) = 0, thus we obtain",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF13": {
+                "type_str": "figure",
+                "text": "all variables are dimensionless and the parameters are in units of day \u22121 .",
+                "num": null,
+                "uris": null
+            },
+            "TABREF0": {
+                "type_str": "table",
+                "text": "am , \u03b4 fm , and \u03b4 mf . The normalized depth, d, was defined in Section 2.1. \u03b4 a and \u03ba a are the natural death rate and maximal growth capacity of the A.",
+                "num": null,
+                "content": "<table><tr><td/><td/><td/><td/><td>cervicornis branches,</td></tr><tr><td colspan=\"5\">respectively; \u03b4 f and \u03b4 m are the breakdown rates of FP and M, respec-</td></tr><tr><td colspan=\"5\">tively; \u03b4 af and \u03b4 am are the death rates of a branch due to the presence of</td></tr><tr><td colspan=\"5\">FP and M, respectively; \u03b4 fm is the breakdown rate of FP due to the</td></tr><tr><td colspan=\"5\">presence of M; \u03b4 mf represents the breakdown rate of M owing to the</td></tr><tr><td colspan=\"2\">presence of FP. F d (\u02dc) 1</td><td>, F d (\u02dc) 2</td><td>, and F d (\u02dc) 3</td><td>represent the environmental</td></tr><tr><td colspan=\"5\">functions. They incarnate the relation between d, SST, SR, and the</td></tr><tr><td colspan=\"5\">growth rate of A. cervicornis or synthesis of FP and M. Observe in Eq.</td></tr><tr><td>(2a) that F d (\u02dc) 1</td><td colspan=\"4\">acts as a birth rate of polyps (\u03b2 a ). Similarly, in Eqs.</td></tr><tr><td>(2b)-(2c), F d (\u02dc) 2</td><td colspan=\"2\">(\u02dc) and F d 3</td><td/></tr></table>"
+            },
+            "TABREF1": {
+                "type_str": "table",
+                "text": "",
+                "num": null,
+                "content": "<table><tr><td colspan=\"3\">Parameter</td><td>Value at 4.572 m</td><td>Sample size</td><td>Value at 12.19 m</td><td>Sample size</td><td>Units</td></tr><tr><td/><td/><td/><td/><td>Empirical a</td><td/></tr><tr><td>\u03ba a \u03b2 a \u03b4 a</td><td/><td/><td>111.5 \u00b1 21.55 0.1339 \u00b1 0.001126 0.07959 \u00b1 0.01974</td><td>16 137 78</td><td>111.5 \u00b1 21.55 0.1006 \u00b1 0.0006750 0.07959 \u00b1 0.01067</td><td>16 146 91</td><td>polyp\u2022cm \u22123 day \u22121 day \u22121</td></tr><tr><td/><td/><td/><td/><td>Theoretical</td><td/></tr><tr><td>* f</td><td colspan=\"2\">b</td><td>0.1672</td><td/><td>1.6720</td><td>day \u22121</td></tr><tr><td colspan=\"2\">* m</td><td>b</td><td>0.1672</td><td/><td>1.6720</td><td>day \u22121</td></tr><tr><td>* f</td><td/><td/><td>5.574\u00d710 \u22124</td><td/><td>5.6\u00d710 \u22123</td><td>day \u22121</td></tr><tr><td colspan=\"2\">* m</td><td/><td>5.574\u00d710 \u22124</td><td/><td>5.6\u00d710 \u22123</td><td>day \u22121</td></tr><tr><td>* af</td><td/><td/><td>10 \u22122</td><td/><td>10 \u22122</td><td>day \u22121</td></tr><tr><td colspan=\"3\">* am</td><td>10 \u22122</td><td/><td>10 \u22122</td><td>day \u22121</td></tr><tr><td colspan=\"3\">* mf</td><td>10 \u22121</td><td/><td>10 \u22121</td><td>day \u22121</td></tr><tr><td colspan=\"3\">* fm</td><td>10 \u22121</td><td/><td>10 \u22121</td><td>day \u22121</td></tr><tr><td colspan=\"3\">d max</td><td>30</td><td/><td>30</td><td>m</td></tr><tr><td>a</td><td/><td/><td/><td/><td/></tr></table>"
+            },
+            "TABREF5": {
+                "type_str": "table",
+                "text": "Summary of the numerical bifurcation analysis.",
+                "num": null,
+                "content": "<table><tr><td>Equilibrium point</td><td>Parameter</td><td>Type a</td><td>Direction b</td><td>depth</td></tr></table>"
+            },
+            "TABREF7": {
+                "type_str": "table",
+                "text": "the eigenvalues of matrix A (recall that",
+                "num": null,
+                "content": "<table><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td>D</td><td>x</td><td>g x ( * ) 3</td><td>=</td><td>a</td><td>p 1</td><td>A</td><td>and that</td><td>p a 1</td><td>&gt; 0</td><td>)</td></tr><tr><td colspan=\"14\">are contained within the discs:</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>R 1</td><td>=</td><td>{</td><td>z</td><td/><td/><td colspan=\"2\">z : |</td><td>(</td><td>F 1</td><td>a</td><td>1</td><td/><td colspan=\"2\">mf fm</td><td colspan=\"2\">)|</td><td>r 1 }</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td colspan=\"4\">where</td><td>r 1</td><td colspan=\"2\">=</td><td colspan=\"3\">( fm mf af</td><td colspan=\"2\">+</td><td>am</td><td>)</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td>(C.1a)</td></tr><tr><td colspan=\"3\">(C.1b)</td><td>R 2</td><td colspan=\"2\">=</td><td>{</td><td>z</td><td colspan=\"2\">z : | |</td><td/><td>r 2</td><td colspan=\"4\">} where</td><td>r 2</td><td>=</td><td>p p ( fm 3 2</td><td>+</td><td>) fm (C.1c)</td><td>R 3</td><td>=</td><td>{</td><td>z</td><td>z : | |</td><td>r 3</td><td>} where</td><td>r 3</td><td>=</td><td>p p ( mf 2 3</td><td>+</td><td>).</td></tr></table>"
+            }
+        }
+    }
+}

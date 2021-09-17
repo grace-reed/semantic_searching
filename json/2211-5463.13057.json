@@ -1,0 +1,3213 @@
+{
+    "paper_id": "2211-5463",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-09-13T19:37:13.209230Z"
+    },
+    "title": "Long noncoding RNAs implicated in embryonic development in Ybx1 knockout zebrafish",
+    "authors": [
+        {
+            "first": "Chen",
+            "middle": [],
+            "last": "Huang",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Bo",
+            "middle": [],
+            "last": "Zhu",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Macau",
+                "location": {
+                    "settlement": "Taipa",
+                    "country": "China"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Dongliang",
+            "middle": [],
+            "last": "Leng",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Macau",
+                "location": {
+                    "settlement": "Taipa",
+                    "country": "China"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Wei",
+            "middle": [],
+            "last": "Ge",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Macau",
+                "location": {
+                    "settlement": "Taipa",
+                    "country": "China"
+                }
+            },
+            "email": "weige@um.edu.mo"
+        },
+        {
+            "first": "Xiaohua",
+            "middle": [
+                "Douglas"
+            ],
+            "last": "Zhang",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        }
+    ],
+    "year": "",
+    "venue": null,
+    "identifiers": {},
+    "abstract": "",
+    "pdf_parse": {
+        "paper_id": "2211-5463",
+        "_pdf_hash": "",
+        "abstract": [],
+        "body_text": [
+            {
+                "text": "Y-box-binding protein 1 (Ybx1, YB-1), also known as Y-box transcription factor, is involved in a variety of biological processes (BPs) and pathways, including embryogenesis, reproduction and development in vertebrates. Several noncoding RNAs regulate Ybx1 signaling. However, the role of long noncoding RNAs (lncRNAs) in embryogenesis remains incompletely understood. Here, we investigated the possible involvement of lncRNAs in Ybx1-mediated regulation of vertebrate development by performing systematic transcriptome analysis of RNA sequencing data derived from ybx1 homozygous mutant zebrafish on day 5 (day5_ybx1 \u00c0/\u00c0 ) and wild-type zebrafish on days 5 and 6 (day5_ybx1 +/+ and day6_ybx1 +/+ ). We identified several lncRNAs affected by ybx1 disruption that may target reduction-oxidation-related genes, such as duox (NADPH oxidase) and noxo1a (NADPH oxidase organizer). Knockdown of three selected lncRNAs led to morphological deformation of larvae, implying an involvement of these lncRNAs in zebrafish embryo development. In summary, our study provides new insights into the lncRNA-mediated mechanisms underlying development in Ybx1-deficient zebrafish larvae. Y-box-binding protein 1 (Ybx1, YB-1), also known as Y-box transcription factor, is a member of a large family of proteins harboring cold shock domain, and it has been proved to have multiple functions involved in a variety of BPs and pathways, including proliferation, differentiation, regulation of apoptosis, translation, stress response, etc. This protein was found in diverse vertebrates and extensively studied in Homo sapiens because of its great clinical values. For instance, overexpression of Ybx1 was found in tumor cells and is associated with tumor phenotype [1] . In addition, Ybx1 is demonstrated to harbor the capacity of preventing oncogenic cell transformation via the phosphatidylinositol 3'-kinase(PI3K)-Akt signaling pathway [2] . In as much as the crucial role of Ybx1 is implicated in tumorigenesis, this protein has been regarded as a well-established biomarker and novel therapeutic target in cancer research [3] [4] [5] [6] .",
+                "cite_spans": [
+                    {
+                        "start": 1739,
+                        "end": 1742,
+                        "text": "[1]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1913,
+                        "end": 1916,
+                        "text": "[2]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2101,
+                        "end": 2104,
+                        "text": "[3]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2105,
+                        "end": 2108,
+                        "text": "[4]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2109,
+                        "end": 2112,
+                        "text": "[5]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2113,
+                        "end": 2116,
+                        "text": "[6]",
+                        "ref_id": "BIBREF5"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "In addition to its medicinal benefits, the multifunctional Ybx1 also has been widely used in the study of vertebrate development because it has been proved to be an essential gene to most vertebrate organisms for growth and development. Typically, many studies showed that ybx1 knockout in mice could result in severe disorders in embryonic development and even death [7, 8] . On the one hand, Ybx1 was regarded as a crucial protein in early embryogenesis because Ybx1deficient mice were found to die at a very early stage of embryogenesis [8] . On the other hand, it was reported that ybx1 \u00c0/\u00c0 embryos exhibit severe growth retardation and progressive mortality after 13.5 embryonic days, which suggests its important role in latestage embryonic development in mice [7] . Moreover, maternal Ybx1 has been demonstrated to play a safeguard to protect oocyte maturation and maternal-tozygotic transition in zebrafish [9] . The similar roles of Ybx1 were found in Kumari et al.'s study [10] . It was shown that Ybx1 is an essential protein to regulate the maternal control of the Nodal signaling pathway, which has been reported to be essential to the axis formation and germ layer specification in zebrafish [10] .",
+                "cite_spans": [
+                    {
+                        "start": 368,
+                        "end": 371,
+                        "text": "[7,",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 372,
+                        "end": 374,
+                        "text": "8]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 540,
+                        "end": 543,
+                        "text": "[8]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 767,
+                        "end": 770,
+                        "text": "[7]",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 915,
+                        "end": 918,
+                        "text": "[9]",
+                        "ref_id": "BIBREF8"
+                    },
+                    {
+                        "start": 983,
+                        "end": 987,
+                        "text": "[10]",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 1206,
+                        "end": 1210,
+                        "text": "[10]",
+                        "ref_id": "BIBREF9"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "In summary, Ybx1 as a key regulator in embryogenesis and reproduction, as well as development, has already been well demonstrated. However, the underlying mechanism of the processes and pathways mediated by Ybx1 still has much room for deep investigation. For example, Ybx1 exerts multiple functions depending on different subcellular localizations; however, what triggers the translocation of Ybx1 from cytoplasm into nucleus has not been fully understood. Moreover, does noncoding transcriptome participate in Ybx1-mediated regulation in embryogenesis and development?",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Noncoding RNA indeed has emerged in recent years as a crucial regulatory layer to participate in and govern diverse BPs and pathways. In particular, long noncoding RNA (lncRNA) becomes a research hotspot in many fields because it has been demonstrated as a multifunctional regulator involved in a range of BPs and pathways and is associated with diverse diseases [11] [12] [13] . However, regarding whether lncRNA is important to vertebrate development is always debatable, particularly in embryogenesis. Goudarzi et al.'s study [14] knocked down 24 specific lncRNAs in zebrafish using CRISPR/Cas9 to investigate their functions in embryo development. The result is not so satisfying because no lncRNAs are found to have overt functions in zebrafish embryogenesis, viability and fertility. Notably, a recent review by Suresh et al. [15] demonstrated that a variety of noncoding RNAs mediate Ybx1 signaling, which provides a new perspective to investigate the role of lncRNA in vertebrate development. Hence Ybx1 might be a good breakthrough to uncover the potential lncRNAs and their possible roles in embryonic development. Our study also might be regarded as complementary research providing clues to support the view that some lncRNAs are important to vertebrate development.",
+                "cite_spans": [
+                    {
+                        "start": 363,
+                        "end": 367,
+                        "text": "[11]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 368,
+                        "end": 372,
+                        "text": "[12]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 373,
+                        "end": 377,
+                        "text": "[13]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 529,
+                        "end": 533,
+                        "text": "[14]",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 832,
+                        "end": 836,
+                        "text": "[15]",
+                        "ref_id": "BIBREF12"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "In short, our study used Ybx1 as a springboard to investigate the relationship of lncRNAs with zebrafish embryonic development, and successfully uncovered several relevant lncRNAs and their possible roles in it. We believe our study provides new insights into the lncRNA-mediated mechanisms underlying development in Ybx1-deficient zebrafish larvae.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "The wild-type zebrafish (Danio rerio) AB strain was used in this study. Zebrafish were maintained in the ZebTEC multilinking rack system (Tecniplast, Buguggiate, Italy) under an artificial photoperiod of 14 h light/10 h dark. The temperature, pH and conductivity of the system were 28 AE 1\u00b0C, 7.5 and 400 \u00b5S\u00c1cm \u00c01 , respectively. The fish were fed twice a day with Otohime fish diet (Marubeni Nisshin Feed, Tokyo, Japan) by the Tritone automatic feeding system (Tecniplast).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Animals",
+                "sec_num": null
+            },
+            {
+                "text": "All experiments were performed under a license from the Government of Macau Special Administrative Region and approved by Animal Experimentation Ethics Committee of the University of Macau.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Animals",
+                "sec_num": null
+            },
+            {
+                "text": "Larvae from wild-type zebrafish of AB strain (day5_ybx1 +/ + , day6_ybx1 +/+ ) and ybx1 homozygous mutants (day5_-ybx1 \u00c0/\u00c0 ), which were established by transcription activatorlike effector nucleases, were collected for larval RNA preparation. Around 15-20 zebrafish larvae of each type were collected and pooled for a sufficient amount of RNA per sample. A total of nine samples of day5_ybx1 +/+ (three duplicates), day6_ybx1 +/+ (three duplicates) and day5_-ybx1 \u00c0/\u00c0 (three duplicates) were included in RNA sequencing (RNA-seq).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Larvae RNA preparation and RNA sequencing",
+                "sec_num": null
+            },
+            {
+                "text": "Total RNA was extracted using Tri-Reagent (Molecular Research Center, Cincinnati, OH) according to the protocol of the manufacturer and our previous report [16] . Total RNA was then treated with DNase for 10 min at 37\u00b0C to remove genomic DNA [10 lg RNA in 100 lL reaction buffer with 2 U DNase I from NEB (Ipswich, MA)] followed by phenol-chloroform extraction and ethanol precipitation.",
+                "cite_spans": [
+                    {
+                        "start": 156,
+                        "end": 160,
+                        "text": "[16]",
+                        "ref_id": "BIBREF13"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Larvae RNA preparation and RNA sequencing",
+                "sec_num": null
+            },
+            {
+                "text": "Initially, the raw data were processed using Trimmomatic v0.36 (ILLUMINACLIP: TruSeq3-PE.fa:2:30:10:8:true SLIDINGWINDOW:4:15 LEADING:3 TRAILING:3 MINLEN:50) to remove low-quality reads and adaptors. Clean reads were aligned against zebrafish genome (Ensembl release 91) [17] using STAR v020201 [18] with two-pass mode. Then, the alignment results were assembled into transcripts using StringTie v1.3.3b [19] with gene annotation reference. Finally, the assembled transcripts from each sample were merged into a consensus of final transcripts. The quality of the assembled transcripts was evaluated using REF-EVAL from DETONATE (v1.11) [20] .",
+                "cite_spans": [
+                    {
+                        "start": 271,
+                        "end": 275,
+                        "text": "[17]",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 295,
+                        "end": 299,
+                        "text": "[18]",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 404,
+                        "end": 408,
+                        "text": "[19]",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 636,
+                        "end": 640,
+                        "text": "[20]",
+                        "ref_id": "BIBREF17"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Basic RNA-seq data analysis",
+                "sec_num": null
+            },
+            {
+                "text": "To identify lncRNAs, we applied a stringent stepwise filtering pipeline, which has been widely used in our previous studies [21, 22] . At first, the assembled transcripts were annotated and excluded by aligning against known protein sequences from National Center for Biotechnology Information (NCBI) nr database, UniProt database [23] , and the mRNA and protein datasets of zebrafish were derived from the Ensembl database using BLAST (v2.6.0+). This step aims at removing protein-coding sequences as much as possible. Then, the remaining unannotated transcripts with length larger than 200 nucleotides (nt) and longest ORF less than 100 residues were retained. In addition, Coding Potential Calculator [24] was used in the second trimming of protein-coding sequences. Finally, the remaining transcripts were translated (stop-to-stop codon) using an inhouse perl script and then subjected to the Pfam database [25] to search for sequences probably encoding protein domains or motifs. The unmatched transcripts were retained as the final high-confidence dataset of lncRNAs.",
+                "cite_spans": [
+                    {
+                        "start": 124,
+                        "end": 128,
+                        "text": "[21,",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 129,
+                        "end": 132,
+                        "text": "22]",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 331,
+                        "end": 335,
+                        "text": "[23]",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 704,
+                        "end": 708,
+                        "text": "[24]",
+                        "ref_id": "BIBREF22"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "lncRNAs identification",
+                "sec_num": null
+            },
+            {
+                "text": "The assembled transcripts in each sample were quantified by featurecounts (v1.5.3) [26] . Then, the expression profile was normalized using a median of ratios method by R package DESEQ2 [27] . Differential expression analysis was also performed using DESEQ2. Differentially expressed (DE) RNAs were obtained by cutoff of adjusted P < 0.05 (Benjamin-Hochberg correction) [27] .",
+                "cite_spans": [
+                    {
+                        "start": 83,
+                        "end": 87,
+                        "text": "[26]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 186,
+                        "end": 190,
+                        "text": "[27]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 370,
+                        "end": 374,
+                        "text": "[27]",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Differential expression analysis",
+                "sec_num": null
+            },
+            {
+                "text": "To investigate the possible functions of lncRNAs implicated in Ybx1 gene knockout, we performed a weighted coexpression network analysis based on the DE lncRNAs and mRNAs using a package WGCNA in R [28] . Before WGCNA analysis, the expression profiles of lncRNAs and mRNAs were normalized using regularized log normalization in DESeq2. To construct the network and detect the modules related to traits (day5_ybx1 \u00c0/\u00c0 and day6_ybx1 +/ + ), we used the function softConnectivity from WGCNA with the 'randomly selected genes' parameter set at 5000 and the power parameter precalculated by pickSoft-Threshold function of WGCNA. Then, the predicted modules of highly correlated RNAs were subjected to Metascape to search for relevant BPs and pathways. The intramodular connectivity of mRNA and lncRNA in trait-related modules was assessed using TOM (Topology Overlap Matrix) similarity, which was calculated by TOMsimilarityFromExpr of WGCNA. TOM similarity reflects the potential interactions between transcripts.",
+                "cite_spans": [
+                    {
+                        "start": 198,
+                        "end": 202,
+                        "text": "[28]",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Functional prediction of lncRNAs based on network analysis",
+                "sec_num": null
+            },
+            {
+                "text": "The lncRNA-protein interactions were predicted using the catRAPID server (catRAPID signature: identification of ribonucleoproteins and RNA-binding regions). catRAPID (http://s.tartaglialab.com/page/catrapid_group) is an algorithm to estimate the binding propensity of protein-RNA pairs, which has been demonstrated as a program to predict protein-RNA associations with great accuracy.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Prediction of lncRNA-protein interactions",
+                "sec_num": null
+            },
+            {
+                "text": "Reverse transcription was performed at 37\u00b0C for 2 h in a total volume of 10 lL reaction solution containing 3 lg RNA, 0.5 lg oligo (dT), 1X moloney murine leukemia virus reverse trancscriptase (MMLV RT) buffer, 0.5 mM each dNTP, 0.1 mM dithiothreitol and 100 U MMLV RT (Invitrogen, Carlsbad, CA, USA). To validate the RNA-seq data, we determined the expression levels of several selected lncRNA transcripts by real-time quantitative PCR in both day5_ybx1 +/+ and day5_ybx1 \u00c0/\u00c0 , including MSTRG12630.1, MSTRG24792.1, ENSDART 00000171757, MSTRG.30533.1 and MSTRG.33365.1. To study the correlation between the selected lncRNA and their targets, including duox (NADPH oxidase), noxo1a (NADPH oxidase organizer) and ybx1, we determined the mRNA expression levels of targets by real-time quantitative PCR after targeted lncRNA morpholino microinjection. The expression levels were normalized to that of the housekeeping gene ef1a. The standard for each gene was prepared by PCR amplification of cDNA fragments with specific primers (Table 1 ). The real-time quantitative PCR assay was performed on the CFX96 Real-time PCR Detection System (Bio-Rad, Hercules, CA, USA) and repeated twice. All values were expressed as the mean AE standard error of the mean (n = 3), and the data were analyzed by ttest using Prism 6 on Macintosh OS X (GraphPad Software, San Diego, CA, USA).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 1027,
+                        "end": 1035,
+                        "text": "(Table 1",
+                        "ref_id": "TABREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Reverse transcription and real-time quantitative PCR",
+                "sec_num": null
+            },
+            {
+                "text": "To investigate the functions of three selected lncRNAs, ENSDART00000171757, MSTRG.30533.1 and MSTRG. 33365.1, we synthesized 300 nmol morpholino and nmol standard morpholino oligo by Gene Tools (Gene Tools, Philomath, OR, USA). The morpholino targeted sequences for synthesis regarding the earlier lncRNA were represented in Table 2 . For morpholino microinjection, three different doses (5, 10 and 20 ng) of morpholino were injected into one cell stage embryos for targeted lncRNA, respectively, within 30 min just after spawning. Equal amounts (5, 10 and 20 ng) of standard morpholino oligo were injected as control. On day 5, the embryo number was counted both with normal and deformed morphology individually for different morpholinos and different dose injections. The morphology of morpholino-injected larvae were photographed by Nikon SMZ18 microscope (Nikon, Tokyo, Japan).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 325,
+                        "end": 332,
+                        "text": "Table 2",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Morpholino knockdown and morphological analysis",
+                "sec_num": null
+            },
+            {
+                "text": "To further study the correlation between lncRNA ENSDART00000171757 and ybx1 expression at protein level, we used western blotting for evaluation of Ybx1 protein expression between morpholino-injected (ENSDART00000171757) and control morpholino-injected groups. The larvae on day 5 with normal morphology were collected for protein sample preparation. The Ybx1 antibodies are from GenScript in Nanjing, China.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Immunoblotting",
+                "sec_num": null
+            },
+            {
+                "text": "In brief, larvae were lysed with 100 \u00b5L 19 SDS sample buffer (62.5 mM Tris-HCl, 1% w/v SDS, 10% glycerol, 5% mercaptoethanol, pH 6.8), and the lysates were heated at 95\u00b0C for 10 min and then centrifuged 17 000 g for 15 min at 4\u00b0C, followed by protein concentration measurement. The samples (total 100 \u00b5g proteins) from ENSDART00000171757_morpholino (MO) and control MO were separated on 12% polyacrylamide gels and transferred to poly(vinylidene difluoride) membranes. The membranes were blocked with 5% nonfat milk in 19 TBST for 1 h at room temperature. After washing three times with 19 TBST, the membranes were incubated with Ybx1 primary antibody (1 : 5000) and beta-actin primary antibody (1 : 2000) in 5 mL of 19 TBST with 5% nonfat milk overnight at 4\u00b0C. They were washed with 19 TBST three times, followed by incubation with the horseradish peroxidase-conjugated secondary antibody (1 : 2000) in mL 19 TBST for 1 h at room temperature. After washing, the membranes were incubated with the SuperSignal West Femto Maximum Sensitivity Substrate (Thermo Scientific, Waltham, MA, USA), and signals were detected on the ChemiDoc MP imaging system (Bio-Rad, Hercules, CA, USA).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Immunoblotting",
+                "sec_num": null
+            },
+            {
+                "text": "To further study the spatial expression pattern for the three target lncRNAs, ENSDART00000171757, MSTRG.30533.1 and MSTRG.33365.1, whole-mount RNA in situ hybridization was undertaken for investigation. All their lncRNA probes were transcribed in vitro and for storage at \u00c080\u00b0C. Embryos were under 0.003% 1-phenyl-2-thiourea treatment to remove pigment until the larvae reached day 5. On day 5, the ybx1 +/+ and ybx1 \u00c0/\u00c0 larvae were fixed in fresh 4% PFA overnight at 4\u00b0C. The larvae were washed with PBST for 5 min at room temperature, and this was repeated four times. For permeabilization, the larvae were immersed with 10 \u00b5g\u00c1mL \u00c01 Protease K in PBST for 15 min at room temperature. The larvae were refixed in 4% PFA for 20 min at room temperature, followed by PBST rinsing for 5 min that was repeated four times. Before mRNA probe hybridization, larvae were immersed in hybridization mix for 2 h at 65\u00b0C. We diluted 100 ng labeled RNA probe in hybridization mix. We removed prehybridization solution and added prewarmed hybridization mix plus probe to the larvae. BSA) for 1 h at room temperature and prepared the first antibody (alkaline-phosphatase-conjugated anti-digoxigenin) by diluting it in blocking solution, 1 : 5000. We incubated in the antibody for shaking overnight at 4\u00b0C and washed 5 9 15 min in PBST. For colorization, we washed 4 9 5 min in coloration buffer. We mixed 200 \u00b5L Nitro Blue tetrazolium/5-bromo-4-chloro-3-indolyl phosphate stock mixture with 10 mL coloration buffer. We added 500 \u00b5L of this mix to larvae and incubated in the dark at room temperature until a blue reaction product was visible. We stopped the reaction by quickly washing larvae three times by stop solution (PBST, pH 5.5), then washed twice in stop solution for 15 min. After glycerol mounting, we photographed immediately by Nikon SMZ18 microscope (Nikon, Tokyo, Japan).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Whole-mount in situ hybridization",
+                "sec_num": null
+            },
+            {
+                "text": "To detect lncRNAs in zebrafish larvae, we conducted a basic bioinformatics analysis. In brief, the RNA-seq yielded an average of 51 879 984 raw pair-end reads with length of 150 nt per sample (Table S1 ). After trimming adaptor sequences and low-quality reads, the remaining average of 49 379 818 clean reads per sample was aligned to zebrafish genome using STAR and assembled into 77 252 transcripts using Stringtie (Table S2 ). Then all the assembled transcripts were subjected to quality assessment using DETONATE.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 192,
+                        "end": 201,
+                        "text": "(Table S1",
+                        "ref_id": "TABREF0"
+                    },
+                    {
+                        "start": 417,
+                        "end": 426,
+                        "text": "(Table S2",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Identification and characterization of lncRNAs",
+                "sec_num": null
+            },
+            {
+                "text": "The results showed that the majority of transcripts have high quality (Table S3 ). In addition, the BLAST search against known zebrafish transcripts in the Ensembl database indicated that 61 926 transcripts (~80.16%) have been well recorded in the Ensembl database. Notably, the remaining 16 316 transcripts for which no hits were found in the Ensembl database were probably novel transcripts representing a new subset of functional mRNAs or lncRNAs. Based on the well-established zebrafish transcriptome, a stringent stepwise filtering pipeline was used to identify a high-confidence lncRNA dataset in this study (Fig. 1) . Two core filtering criteria were applied to screen these lncRNAs according to the general definition of lncRNA: (a) the capability of protein coding, and (b) the length of transcripts. In brief, 73 018 potential protein-coding transcripts obtained by BLAST search against nr, Swiss-Prot database, as well as the known zebrafish mRNAs/ proteins from the Ensembl database, were excluded. The remaining 1555 unannotated transcripts shorter than 200 nt in length and larger than 100 residues in the longest ORF were filtered out. A second protein-coding filtering was performed to further remove the transcripts with potential protein-coding capacity, including those containing functional domains/motifs predicted by Pfam scanning and those with proteincoding potential classified by Coding Potential Calculator. This step filtered out only one transcript. A total of 2678 lncRNAs were finally identified for further study.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 70,
+                        "end": 79,
+                        "text": "(Table S3",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 614,
+                        "end": 622,
+                        "text": "(Fig. 1)",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Identification and characterization of lncRNAs",
+                "sec_num": null
+            },
+            {
+                "text": "We compared those identified lncRNAs with known zebrafish lncRNAs derived from the NONCODE database (v5.0) and ZFLNC database, using BLASTn (evalue was set to 0.1). The results indicate that a total of 1083 lncRNAs (~40.44%) identified in this study could be well compared with known zebrafish lncRNAs, 460 lncRNAs of which have been included in the NONCODE and ZFLNC database. The remaining mapped lncRNAs exhibit high similarity to the known zebrafish lncRNAs in some specific regions. It is not surprising because lncRNAs have been proved to be quite distinct from mRNAs as mRNAs have a more conserved mutational rate. Instead, lncRNAs have less evolutionary constraints, except the selective pressure to strictly conserve the short functional region, e.g., sequence-specific interactions, proteinbinding sites, etc. The rest of the lncRNAs that could not be found in any hit in NONCODE and ZFLNC databases might represent a group of novel zebrafish lncRNAs.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Identification and characterization of lncRNAs",
+                "sec_num": null
+            },
+            {
+                "text": "The expression profile for each sample was initially assessed using featurecounts. To identify the lncRNAs associated with Ybx1 gene knockout, differential expression analysis between day5_ybx1 +/+ and day5_-ybx1 \u00c0/\u00c0 was conducted using DESeq2. The result shows that 44 lncRNAs (22 are up-regulated and 22 are down-regulated) and 1901 mRNAs (849 are upregulated and 1052 are down-regulated) are detected as significantly DE (Figs S1 and S2). Despite no change of the RNA expression level of Ybx1 as observed in day6_ybx1 +/+ compared with that of day5_ybx1 +/+ , we found that the protein expression level of Ybx1 was dramatically decreased in day6_-ybx1 +/+ versus day5_ybx1 +/+ (data not shown). Hence we also compared the expression level of transcripts between day5_ybx1 +/+ and day6_ybx1 +/+ to explore the underlying mechanisms resulting in decline of Ybx1 in day6_ybx1 +/+ at protein level. DE analysis showed that a total of 542 RNAs were DE in day5_-ybx1 +/+ versus day6_ybx1 +/+ , including 2 DE lncRNAs and 540 DE mRNAs (Figs S3 and S4). Then both results of DE analysis were subjected to the DAVID server to search for the possible functions of those DE RNAs. Intriguingly, both functional results indicated that the hormone synthesis-related and oxidative stress-related processes were commonly enriched with an extremely high level of statistical significance, including steroid biosynthesis process, oxidation-reduction process, etc. ( Fig. 2A,B) . This result disclosed a close association of Ybx1 with the processes of hormone synthesis and oxidative stress response in zebrafish.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 1451,
+                        "end": 1461,
+                        "text": "Fig. 2A,B)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "The expression pattern of the DE lncRNAs implicated in Ybx1 gene knockout",
+                "sec_num": null
+            },
+            {
+                "text": "Also, the difference of RNA changes and the corresponding roles caused by two distinct mechanisms resulting in down-regulation of Ybx1 is another focus of attention for us to investigate. Therefore, we conducted a systematic comparison of day5_ybx1 +/+ versus day5_ybx1 \u00c0/\u00c0 and day5_ybx1 +/+ versus day6_ybx1 +/+ (Fig. 2C) . Concretely, 143 transcripts were found to be consistently up/down-regulated in both comparisons. Remarkably, most of them are upregulated, and only five transcripts were observed as down-regulated. Gene Ontology (GO) functional enrichment analysis for those 143 DE transcripts showed that many BP categories involved in hormonerelated and oxidative stress-related processes were significantly enriched, such as steroid biosynthesis, oxidation-reduction process, etc. (Fig. 2D ). Furthermore, we found that 731 transcripts (including 22 lncRNAs) were specifically up-regulated in day5_ybx1 +/+ versus day5_ybx1 \u00c0/\u00c0 but exhibit no changes in day5_ybx1 +/+ versus day6_ybx1 +/+ . Subsequent functional analysis on DAVID indicated that the functions of these specific up-regulated RNAs involved reproduction processes, that is, egg coat formation, binding of sperm to zona pellucida, etc. Notably, the oxidation-reduction process was also significantly enriched ( Fig. 2D) . A total of 1062 transcripts (including 22 lncRNAs) were found to be specifically down-regulated in day5_ybx1 +/ + versus day5_ybx1 \u00c0/\u00c0 , which involve protein transport, glycolytic process, gluconeogenesis, etc. Differential expression analysis between day5_ybx1 +/+ and day5_ybx1 \u00c0/\u00c0 and day6_ybx1 +/+ . GO functional enrichment analysis of DE transcripts achieved on David server: (A) day5_ybx1 +/+ versus day5_ybx1 \u00c0/\u00c0 and (B) day5_ybx1 +/+ versus day6_ybx1 +/+ . The results are summarized only in the category of BP. The y axis indicates functional groups. The x axis indicates -log 10 (P-value). (C) Heatmap of all DE transcripts that were clustered into five subsets, including specific down-regulated in day5_ybx1 \u00c0/\u00c0 , specific up-regulated in day5_ybx1 \u00c0/\u00c0 , specific down-regulated in day6_ybx1 +/+ , specific up-regulated in day6_ybx1 +/+ and consistently dysregulated in day5_ybx1 \u00c0/\u00c0 and day6_ybx1 +/+ . The expression profile was normalized using DESeq2 and then hierarchically clustered using heatmap2. Values have been centered and scaled for each row. Each row represents a single transcript. (D) Functional analysis of subsets using DAVID (FDR < 5%). ( Fig. 2D) . Similarly, we have also detected many transcripts DE in day5_ybx1 +/+ versus day6_ybx1 +/+ , but not present in day5_ybx1 +/+ versus day5_ybx1 \u00c0/\u00c0 (Table 3) . Concretely, 342 transcripts (including two lncRNAs) exhibit up-regulation in day6_ybx1 +/+ , and functional analysis showed that the functions of those DE RNAs might involve the oxidation-reduction process, transmembrane transport, proteolysis, etc. (Fig. 2D ). Forty-eight specific down-regulated RNAs were found in day6_ybx1 +/+ compared with day5_-ybx1 +/+ , and their corresponding functional analysis showed that no BP categories were significantly enriched. These functional analyses based on the different subsets of DE transcripts indicated that reduced expression of ybx1 could trigger up-regulation of oxidative stress-related BPs and pathways (e.g., the oxidation-reduction process was significantly enriched by specific up-regulated transcripts in day5_ybx1 \u00c0/\u00c0 and day6_ybx1 +/+ ). These findings suggest that reduced expression of ybx1, either caused by Ybx1 knockout or by innate autoregulation, exhibits strong correlation with the reduction-oxidation (REDOX) regulation in zebrafish. Notably, many DE lncRNAs are included in those DE RNA datasets (the majority of them are found in the comparison of day5_ybx1 +/+ versus day5_ybx1 \u00c0/\u00c0 ), implying specific lncRNAs are present in REDOX regulation after Ybx1 gene knockout.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 313,
+                        "end": 322,
+                        "text": "(Fig. 2C)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 792,
+                        "end": 800,
+                        "text": "(Fig. 2D",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1285,
+                        "end": 1293,
+                        "text": "Fig. 2D)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2468,
+                        "end": 2476,
+                        "text": "Fig. 2D)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2626,
+                        "end": 2635,
+                        "text": "(Table 3)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2888,
+                        "end": 2896,
+                        "text": "(Fig. 2D",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "The expression pattern of the DE lncRNAs implicated in Ybx1 gene knockout",
+                "sec_num": null
+            },
+            {
+                "text": "To investigate the lncRNAs, as well as their possible roles, implicated in Ybx1 gene knockout, we conducted a systematic coexpression network analysis using WGCNA in R. Initially, the flashClust tools package was used to conduct cluster analysis on these samples to detect outliers; the results showed that all samples are in the clusters and passed the cuts (Fig. S5) . Then a network-topology analysis was conducted for several soft-thresholding powers to have relative balance scale independence and mean connectivity of the WGCNA. The lowest power for the scale-free topology fit index was selected for construction of a hierarchical clustering tree (Fig. S6 ). This analysis colocalizes both correlated lncRNAs and mRNAs into 95 modules (Fig. S7) . Each module contains independent datasets of transcripts (Table 4) . The interactions among those modules were visualized in Fig. S8 . The modules with common expression patterns that were significantly associated with specific traits (day5_ybx1 \u00c0/\u00c0 and day6_ybx1 +/+ ) were detected based on the correlation between module eigengene and traits. Then the function plotEigengeneNetworks of WGCNA was used to identify groups of correlated eigengenes. The results indicated that two modules (yellow and black) were significantly correlated to the traits: day5_ybx1 \u00c0/\u00c0 and day6_ybx1 +/+ , respectively (Fig. 3) . The relationship of transcript significance with module membership was visualized in Fig. S9 . The yellow modules significantly related to day5_-ybx1 \u00c0/\u00c0 include 2394 mRNAs and 352 lncRNAs, whereas black modules correlated to day6_ybx1 +/+ contain 1075 mRNAs and 155 lncRNAs (Table 4) .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 359,
+                        "end": 368,
+                        "text": "(Fig. S5)",
+                        "ref_id": "FIGREF6"
+                    },
+                    {
+                        "start": 654,
+                        "end": 662,
+                        "text": "(Fig. S6",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 742,
+                        "end": 751,
+                        "text": "(Fig. S7)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 811,
+                        "end": 820,
+                        "text": "(Table 4)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 879,
+                        "end": 886,
+                        "text": "Fig. S8",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1353,
+                        "end": 1361,
+                        "text": "(Fig. 3)",
+                        "ref_id": "FIGREF3"
+                    },
+                    {
+                        "start": 1449,
+                        "end": 1456,
+                        "text": "Fig. S9",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1639,
+                        "end": 1648,
+                        "text": "(Table 4)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Network analysis reveals lncRNAs implicated in REDOX regulation",
+                "sec_num": null
+            },
+            {
+                "text": "GO enrichment analyses based on the DAVID server were subsequently performed using the annotated transcripts (mRNAs) derived from two trait-related modules. Unsurprisingly, the results indicated that many REDOX processes were significantly enriched by up-regulated transcripts in two trait-related modules with considerably high significance (highlighted in red text in Fig. 4A,B ), including GO: 0006979 (response to oxidative stress), GO: 0016491 (oxidoreductase activity) and GO: 0055114 (oxidation-reduction process), etc. This finding is consistent with the results of functional enrichment analysis using DE RNAs described in the previous section ( Fig. 2D) , which further suggests that the decline of Ybx1 can enhance up-regulation of REDOX. Indeed, many studies [29] [30] [31] have illustrated the influence of oxidative stress to embryonic development in zebrafish, e.g., oxidative stress condition could change the cellular REDOX state, which further causes oxidation of molecules, such as membrane peroxidation, loss of ions, protein cleavage and DNA strand breakages, and finally leads to cell death. Next, to explore possible roles of lncRNAs in REDOX regulation triggered by decreased ybx1, we used the expression profile of DE lncRNAs and DE mRNAs included in the yellow module related to day5_ybx1 \u00c0/\u00c0 to assess the intramodular connectivity (including mRNA-mRNA and mRNA-lncRNA interactions) using TOM similarity, which was done by the function TOMsimilarityFromExpr of WGCNA package. We did not further investigate the lncRNAs implicated in REDOX in black module related to day6_ybx1 +/+ because our previous DE analysis showed that just two DE lncRNAs were found in the comparison of day5_ybx1 +/+ versus day6_ybx1 +/+ . Regarding the yellow module, we detected a great number of interactions that involved 631 DE mRNAs and 45 DE lncRNAs (Fig. 4C) . Among them, several lncRNAs, as well as mRNAs, were found to interact with two REDOX-related mRNAs, that is, duox and noxo1a (Fig. 4D) . These two genes have been demonstrated to play important roles in response to oxidative stress [32, 33] . Particularly, we observed that several lncRNAs not only exhibit strong correlations to ybx1 but can also interact with two REDOX-related mRNAs: Duox and Noxo1a (Fig. 4E ).",
+                "cite_spans": [
+                    {
+                        "start": 771,
+                        "end": 775,
+                        "text": "[29]",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 776,
+                        "end": 780,
+                        "text": "[30]",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 781,
+                        "end": 785,
+                        "text": "[31]",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 2102,
+                        "end": 2106,
+                        "text": "[32,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2107,
+                        "end": 2110,
+                        "text": "33]",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 370,
+                        "end": 379,
+                        "text": "Fig. 4A,B",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 655,
+                        "end": 663,
+                        "text": "Fig. 2D)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1858,
+                        "end": 1867,
+                        "text": "(Fig. 4C)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1995,
+                        "end": 2004,
+                        "text": "(Fig. 4D)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2273,
+                        "end": 2281,
+                        "text": "(Fig. 4E",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Network analysis reveals lncRNAs implicated in REDOX regulation",
+                "sec_num": null
+            },
+            {
+                "text": "Based on the previous network analysis, several lncRNAs associated with embryonic development, as well as the REDOX process, have been figured out. However, the underlying mechanism is yet unclear. For this purpose, a large-scale screening of lncRNAprotein interactions was conducted based on the Ybx1-related, REDOX-related lncRNAs (displayed in Fig. 4E ) via the catRAPID server. We observed that the lncRNA ENSDART00000171757 exhibited moderate interactions with several regulatory proteins (Table S4) , including transcription factors, RNA-binding protein, etc. Subsequent functional analysis achieved by Metascape indicated that those proteins significantly enriched in diverse development processes (Fig. 5B) , including regionalization, endocrine system development, central nervous system development, embryonic morphogenesis, etc. In addition, through screening their possible targets via a PPI (protein-protein interaction) database STRING, we found that those proteins cooperated with Ybx1, and two key REDOX-related proteins, duox and noxo1a, might participate in a complex regulatory network involved in many developmental processes (Fig. 5A) . Notably, nifk (ranked among top 3 proteins that interacted with lncRNA ENSDART00000171757 in catRAPID) was found to interact with many ribosomal proteins and might act as a bridge to connect duox, noxo1a and ybx1 in the PPI network (Fig. 5B ). Furthermore, it has been shown to play an essential role in early zebrafish embryonic development (insertional mutagenesis in zebrafish rapidly identifies genes essential for early vertebrate development). Our analysis indicated that knockout of ybx1 in zebrafish might affect the expression of p53 and further disrupt the balance of the whole regulatory network and the expression of many key proteins involved in development, as well as lncRNA ENSDART00000171757, which might lead to overexpression of the REDOX-related genes, that is, duox. Overexpression of REDOX-related genes might further generate too much reactive oxygen and reactive Fig. 4 . Coexpression network analysis defined REDOX-related interactome in day5_ybx1 \u00c0/\u00c0 -related module. GO functional enrichment analysis of two trait-related modules: (A) day5_ybx1 \u00c0/\u00c0 -related module and (B) day6_ybx1 +/+ -related module. The colored bar reports the fraction of up-regulated and down-regulated transcripts present in that functional category. All the adjusted statistically significant values of the terms were negative 10-base log transformed. KEGG, Kyoto Encyclopedia of Genes and Genomes; BP, Biological Process; MF, Molecular Function; CC, Cellular Component. (C) Cytoscape map of the interaction (including mRNA-mRNA, mRNA-lncRNA and lncRNA-lncRNA) network defined by DE lncRNAs and mRNAs using the function TOMsimilarityFromExpr of WGCNA package. (D) A zoomed view of a core network displaying interactions (including mRNA-mRNA and mRNA-lncRNA) involved in REDOX-related genes and YBX1. (E) Zoomed in subnetwork view of interactions involved in ybx1 and two key REDOX-related genes: duox, noxo1a.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 347,
+                        "end": 354,
+                        "text": "Fig. 4E",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 494,
+                        "end": 504,
+                        "text": "(Table S4)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 705,
+                        "end": 714,
+                        "text": "(Fig. 5B)",
+                        "ref_id": "FIGREF6"
+                    },
+                    {
+                        "start": 1146,
+                        "end": 1155,
+                        "text": "(Fig. 5A)",
+                        "ref_id": "FIGREF6"
+                    },
+                    {
+                        "start": 1390,
+                        "end": 1398,
+                        "text": "(Fig. 5B",
+                        "ref_id": "FIGREF6"
+                    },
+                    {
+                        "start": 2045,
+                        "end": 2051,
+                        "text": "Fig. 4",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Correlations of lncRNA ENSDART00000171757 with embryonic development",
+                "sec_num": null
+            },
+            {
+                "text": "nitrogen species (ROS/RNS), which result in oxidative stress and cause either cell death or senescence. These processes finally affect the zebrafish embryonic development.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Correlations of lncRNA ENSDART00000171757 with embryonic development",
+                "sec_num": null
+            },
+            {
+                "text": "To test and confirm our findings, we subjected the lncRNA ENSDART00000171757 to an experimental validation study. Meanwhile, another two novel lncRNAs, MSTRG.30533.1 and MSTRG.33365.1, were selected for the same experiments, which also exhibit relatively significant differential expression in day5_ybx1 +/+ compared with day5_ybx1 \u00c0/\u00c0 , and simultaneously have strong correlations with Duox and Noxo1a, as well as Ybx1, in the network (Fig. 4) .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 436,
+                        "end": 444,
+                        "text": "(Fig. 4)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Bioassay validations",
+                "sec_num": null
+            },
+            {
+                "text": "For the real-time quantitative PCR validation, we selected five lncRNAs, including three earlier mentioned lncRNAs, as well as another two lncRNAs, MSTRG.12630.1 and MSTRG.24792.1, which have relatively high fold change in differential analysis between day5_ybx1 +/+ and day5_ybx1 \u00c0/\u00c0 (Fig. S10) . The expressions of MSTRG.12630.1, MSTRG.24792.1, ENSDART00000171757 and MSTRG.30533.1 were all apparently increased in day5_ybx1 \u00c0/\u00c0 larvae (Fig. S10A-D) , and MSTRG33365.1 presented a sharp decrease in day5_ybx1 \u00c0/\u00c0 larvae (Fig. S10E ). All the real-time quantitative PCR results were consistent with the differential expression analysis.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 285,
+                        "end": 295,
+                        "text": "(Fig. S10)",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 438,
+                        "end": 451,
+                        "text": "(Fig. S10A-D)",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 522,
+                        "end": 532,
+                        "text": "(Fig. S10E",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Real-time quantitative PCR validated five DE lncRNAs",
+                "sec_num": null
+            },
+            {
+                "text": "Three REDOX-related lncRNAs tend to be expressed in the gut",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Real-time quantitative PCR validated five DE lncRNAs",
+                "sec_num": null
+            },
+            {
+                "text": "We next tested whether the expression of three lncRNAs (ENSDART00000171757, MSTRG30533.1 and MSTRG.33365.1) has tissue specificity by wholemount in situ hybridization assay. Interestingly, we observed that all three lncRNAs were predominantly expressed in the gut region (Fig. 6A ). Moreover, the expression level of those lncRNAs in day5_ybx1 +/+ and day5_ybx1 \u00c0/\u00c0 larvae was consistent with the realtime quantitative PCR results ( Fig. 6B-D) .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 271,
+                        "end": 279,
+                        "text": "(Fig. 6A",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 433,
+                        "end": 443,
+                        "text": "Fig. 6B-D)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Real-time quantitative PCR validated five DE lncRNAs",
+                "sec_num": null
+            },
+            {
+                "text": "lncRNA knockdown leads to larvae morphological deformation Our network and PPI analysis revealed a lncRNA ENSDART00000171757 might be associated to zebrafish embryonic development. To test it, we targeted the lncRNA ENSDART00000171757, as well as other novel lncRNAs MSTRG.30533.1 and MSTRG.33365.1 (also exhibit strong correlations with Duox and Noxo1a, as well as Ybx1, in the network analysis), for morpholino knockdown, with their specific target sequence for morpholino synthesis. After serial morpholino injection (5, 10 and 20 ng), partial larvae on day 5 with severe morphological deformation were photographed (Fig. 6E) . As a result, a large proportion of deformed larvae was observed for each lncRNA's morpholino, but only a few deformed larvae by control morpholino injection. In particular, the rate of larval deformation after morpholino injection was dose dependent for all three lncRNAs (Fig. 6H) . Our experiments showed that the knockdown of each of the three selected lncRNAs leads to larvae morphological deformation in a dosedependent manner.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 619,
+                        "end": 628,
+                        "text": "(Fig. 6E)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 903,
+                        "end": 912,
+                        "text": "(Fig. 6H)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Real-time quantitative PCR validated five DE lncRNAs",
+                "sec_num": null
+            },
+            {
+                "text": "Our network analysis indicated that the lncRNAs ENSDART00000171757, MSTRG.30533.1 and MSTRG.33365.1 exhibited strong correlations to the REDOX-related genes duox and noxo1a. To validate it, we divided larvae (day 5) injected with 20 ng morpholino for the three lncRNAs into two groups, normal morphology and deformed morphology. We observed that knockdown of ENSDART00000171757 slightly reduced the mRNA expression of duox in both the normal and the deformed groups ( Fig. 6F ) and remarkably reduced the mRNA expression of ybx1 in the normal group (Fig. 6G) . MSTRG.30533.1 knockdown apparently activated noxo1a mRNA expression in the normal group (Fig. 6I ), whereas inhibition of MSTRG.33365.1 led to a sharp decrease of duox mRNA expression in the deformed group (Fig. 6J) . Our experiments demonstrated that both lncRNAs ENSDART00000171757 and MSTRG. 33365.1 might positively regulate the expression of duox, whereas MSTRG30533.1 probably exhibits negative regulation to noxo1a. lncRNA ENSDART00000171757 also exhibited positive regulation to ybx1.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 468,
+                        "end": 475,
+                        "text": "Fig. 6F",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 549,
+                        "end": 558,
+                        "text": "(Fig. 6G)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 649,
+                        "end": 657,
+                        "text": "(Fig. 6I",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 767,
+                        "end": 776,
+                        "text": "(Fig. 6J)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Correlation of lncRNAs with duox, noxo1a and ybx1",
+                "sec_num": null
+            },
+            {
+                "text": "Also, we tested the potential interaction between ENSDART00000171757 and Ybx1 in protein level. Immunoblotting was performed to evaluate Ybx1 protein expression level under ENSDART00000171757 morpholino knockdown, and beta-actin was used as an internal reference. The results showed that the expression of Ybx1 protein was evidently reduced after ENSDART00000171757 knockdown (Fig. S11A) . It was suggested that inhibition of ENSDART 00000171757 would result in significant reduction (approximately 50%) of the relative intensity of Ybx1/ Actin in day 5 larvae (Fig. S11B ).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 376,
+                        "end": 387,
+                        "text": "(Fig. S11A)",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 561,
+                        "end": 571,
+                        "text": "(Fig. S11B",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Correlation of lncRNAs with duox, noxo1a and ybx1",
+                "sec_num": null
+            },
+            {
+                "text": "Given that lncRNAs have been proposed to carry out diverse functions, for instance, regulation of gene expression by acting as signaling, guiding, sequestering or scaffolding molecules, an increasing number of studies focused on the disclosure of the roles of lncRNA in vertebrate development [34] [35] [36] . In some cases, however, similar works on the same lncRNAs come to contradictory conclusions. A typical example is that Lin et al.'s study [37] and Ulitsky et al.'s study [38] showed that knockdown of the lncRNA megamind led to zebrafish embryonic defects, whereas Kok et al.'s study [39] demonstrated that megamind had no influence on embryonic development. These inconsistent results have caused a dispute about whether lncRNA is important to vertebrate development. Notably, Goudarzi et al.'s study [14] used the CRISPR/Cas9 system to knock out 24 specific lncRNAs in zebrafish, which was picked out based on synteny, conservation, expression dynamics and proximity to development-related genes and concluded that individual lncRNAs have no overt functions in zebrafish embryogenesis, viability and fertility. Given these facts, it is likely that lncRNAs exert limited functions in vertebrate development, particularly in zebrafish embryonic development. Ybx1 is an important protein to embryogenesis and development, disclosure of the correlation between ybx1 and lncRNAs transcriptome will shed new insights for unveiling organelle-based mechanisms of lncRNAs implicated in zebrafish embryo development. We believe that our study also might be regarded as complementary research to provide some clues for the issue whether the lncRNAs are important to vertebrate development. Worthy of a special mention is the fact that despite that the RNA library in this study is prepared using oligo-dT to capture sequences with poly-A tail, a great amount of lncRNAs could still be sequenced. The reason is that lncRNAs are structurally similar to mRNAs in some way, that is, the majority of mature lncRNAs are produced by the same RNA polymerase II transcriptional machinery and can be polyadenylated, suggesting some of them are indistinguishable from mRNAs in structure. In this study, we reconstructed the zebrafish transcriptome and identified a high-confidence dataset of lncRNAs using a stringent filtering pipeline. Next, to figure out the lncRNAs implicated in zebrafish embryonic development, we performed a series of systematic transcriptomic analyses.These analyses concluded that decreasing ybx1 by acquired knockout or innate autoregulation exhibits close correlations to REDOX processes that involved several lncRNA regulations. Embryo development is a complicated process that underlies precise regulation and control. The roles of REDOX in embryonic development have been well elucidated so far. Concretely, oxygen can be regarded as a double-edged sword because it is essential to embryogenesis but also acts as a potential hazard via formation of ROS/RNS [40] . Too much ROS leads to oxidative stress and further causes either cell death or senescence by oxidation of cellular molecules [41]. REDOX balance is thus critical to embryonic development. Notably, ROS generated by NADPH oxidases is a crucial REDOX signal to establish homeostasis [32] . This knowledge directs us to narrow down the huge number of mRNA-lncRNA interactions to a relatively small subnetwork exhibiting strong correlation with the two key REDOX-related genes, duox and noxo1a. Among them, analysis of lncRNA-protein interactions next figured out a lncRNA (ENSDART00000171757) might interact with many proteins, which has already been demonstrated to be associated to various zebrafish embryonic development processes. For instance, nifk encodes a protein that is important to early embryonic development. The protein ang2a was found to be involved in the apoptotic process of morphogenesis, cell fate specification and midbrain development. Park7 was shown to play an important role in cell Fig. 6 . lncRNA knockdown led to larvae morphological deformation. (A) Whole-mount in situ hybridization analysis of the three selected lncRNAs (ENSDART00000171757, MSTRG.30533.1 and MSTRG.33365.1) in day 5 ybx1 +/+ and ybx1 \u00c0/\u00c0 larvae. Top: the expression of ENSDART00000171757 lncRNA in day 5 ybx1 +/+ and ybx1 \u00c0/\u00c0 larvae. Middle: the expression of MSTRG.30533.1 lncRNA in day 5 ybx1 +/+ and ybx1 \u00c0/\u00c0 larvae. Bottom: the expression of lncRNA MSTRG.33365.1 in day 5 ybx1 +/+ and ybx1 \u00c0/\u00c0 larvae. Scale bars: 1 mm. (B-D) Relative expression intensity of ENSDART00000171757, MSTRG30533.1 and MSTRG33365.1 in day 5 ybx1 +/+ and ybx1 \u00c0/\u00c0 larvae. (E) Larval morphological analysis after lncRNA morpholino injection on day 5. (a-l) Photographs of deformed larvae injected with different doses (5, 10 and 20 ng) of morpholino for lncRNA (ENSDART00000171757, MSTRG.30533.1 and MSTRG.33365.1), and control morpholino injected larvae were used as reference. Scale bars: 1 mm. (F,G) Relative expression of duox mRNA and ybx1 mRNA in day 5 larvae after injection of ng ENSDART00000171757 morpholino. (H) Larval morphological statistics for different lncRNA morpholino larvae injected with different doses (5, 10 and 20 ng); control morpholino injection was used for reference. Column in brown represents larvae with normal morphology, and purplish blue column stands for deformed morphological larvae. (I) Relative expression of noxo1a mRNA in day 5 larvae after injection of 20 ng MSTRG.30533.1 morpholino. (J) Relative expression of duox mRNA in day 5 larvae after 20 ng MSTRG.33365.1 morpholino injection. 20 ng control morpholino injected larvae was used as reference. On day 5, morpholino-injected larvae were divided into two groups, normal and deformed morphology. Columns in black represent control morpholino (cMO), and gray columns stand for targeted lncRNA morpholino. *P < 0.05, **P < 0.01. Error bars indicate standard deviation. Wilcox test was used to determine significance or lack thereof. The experiments were replicated three times.",
+                "cite_spans": [
+                    {
+                        "start": 293,
+                        "end": 297,
+                        "text": "[34]",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 298,
+                        "end": 302,
+                        "text": "[35]",
+                        "ref_id": "BIBREF33"
+                    },
+                    {
+                        "start": 303,
+                        "end": 307,
+                        "text": "[36]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 448,
+                        "end": 452,
+                        "text": "[37]",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 480,
+                        "end": 484,
+                        "text": "[38]",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 593,
+                        "end": 597,
+                        "text": "[39]",
+                        "ref_id": "BIBREF36"
+                    },
+                    {
+                        "start": 811,
+                        "end": 815,
+                        "text": "[14]",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 2977,
+                        "end": 2981,
+                        "text": "[40]",
+                        "ref_id": "BIBREF37"
+                    },
+                    {
+                        "start": 3264,
+                        "end": 3268,
+                        "text": "[32]",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 3988,
+                        "end": 3994,
+                        "text": "Fig. 6",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "protection against oxidative stress and cell death acting as an oxidative stress sensor and REDOX sensitive. It was implied that the lncRNA might be a key molecule participating in a complex regulatory network involved in those critical proteins, that is, ybx1, noxo1a and duox, etc. Indeed, subsequent validation bioassays support our predictions. Certainly, further studies are needed to clarify more detailed mechanisms.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "In conclusion, our systematic transcriptome analysis successfully disclosed many lncRNAs that might be important to zebrafish embryonic development, particularly in lncRNA ENSDART00000171757. This study provides new insights into a molecular mechanism of zebrafish embryonic development. This could also potentially pave a new way to investigate the functions of lncRNAs for the regulatory elements through binding to their respective partners during the development process.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "41 Tsunoda S, Kimura N and Fujii J (2014) Oxidative stress and redox regulation of gametogenesis, fertilization, and embryonic development. Reprod Med Biol 13, 71-79. 42 Huang C, Zhu B, Leng D, Ge W and Zhang XD (2019)",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "The lncRNAs implicated in Redox regulation in Ybx1 deficient zebrafish larvae. BioRxiv 679167.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Additional supporting information may be found online in the Supporting Information section at the end of the article. Table S1 . Basic statistics of zebrafish RNA-seq data before and after quality trimming. Table S2 . Basic statistics of assembly results of transcriptome in zebrafish. Table S3 . Basic statistics of quality assessment of assembled transcripts achieved by DETONATE. Table S4 . Potential interacted proteins of lncRNA ENSDART00000171757 predicted from catRAPID server. Fig. S1 . Heatmap of DE transcripts detected in comparison between day5_ybx1 +/+ and day5_ybx1 \u00c0/\u00c0 . Fig. S2 . Volcano plot of DE transcripts detected in comparison between day5_ybx1 +/+ and day5_ybx1 \u00c0/\u00c0 . Fig. S3 . Heatmap of DE transcripts detected in comparison between day5_ybx1 +/+ and day6_ybx1 +/+ . Fig. S4 . Volcano plot of differentially expressed transcripts detected in comparison between day5_ybx1 +/+ and day6_ybx1 +/+ . Fig. S5 . Sample clustering to detect outliers. Fig. S6 . Analysis of network topology for various softthresholding powers. Fig. S7 . Clustering dendrograms of transcripts, with dissimilarity based on topological overlap, together with assigned module colors. Fig. S8 . Visualizing the gene network using a heatmap plot. Fig. S9 . Scatterplots of Gene Significance (GS) for recurrence versus Module Membership (MM) in the yellow module (A) and black module (B). Fig. S10 . Reverse transcription and real-time quantitative PCR to validation of DE lncRNA identified by RNA-seq between day 5 ybx1 +/+ and ybx1 \u00c0/\u00c0 larvae. Fig. S11 . Immunoblotting study for validation of the correlation between Ybx1 expression and ENSDART00000171757 lncRNA knockdown.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 119,
+                        "end": 127,
+                        "text": "Table S1",
+                        "ref_id": "TABREF0"
+                    },
+                    {
+                        "start": 208,
+                        "end": 216,
+                        "text": "Table S2",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 287,
+                        "end": 295,
+                        "text": "Table S3",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 384,
+                        "end": 392,
+                        "text": "Table S4",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 486,
+                        "end": 493,
+                        "text": "Fig. S1",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 587,
+                        "end": 594,
+                        "text": "Fig. S2",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 693,
+                        "end": 700,
+                        "text": "Fig. S3",
+                        "ref_id": "FIGREF3"
+                    },
+                    {
+                        "start": 794,
+                        "end": 801,
+                        "text": "Fig. S4",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 922,
+                        "end": 929,
+                        "text": "Fig. S5",
+                        "ref_id": "FIGREF6"
+                    },
+                    {
+                        "start": 970,
+                        "end": 977,
+                        "text": "Fig. S6",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1046,
+                        "end": 1053,
+                        "text": "Fig. S7",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1182,
+                        "end": 1189,
+                        "text": "Fig. S8",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1243,
+                        "end": 1250,
+                        "text": "Fig. S9",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1384,
+                        "end": 1392,
+                        "text": "Fig. S10",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 1541,
+                        "end": 1549,
+                        "text": "Fig. S11",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Supporting information",
+                "sec_num": null
+            },
+            {
+                "text": "FEBS Open Bio 11 (2021) 1259-1276 \u00aa 2020 The Authors. FEBS Open Bio published by John Wiley & Sons Ltd on behalf of Federation of European Biochemical Societies.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "The authors thank Kuan Cheok Lei for the suggestions of manuscript revision. A preprint version of this manuscript has been released at bioRxiv [42]. This work was funded by University of Macau through research grants MYRG2018-00071-FHS, EF005/FHS-ZXH/2018/GSTIC and FHS-CRDA-029-002-2017, and by the Science and Technology Development Fund, Macau SAR (File no. 0004/2019/AFJ and 0011/ 2019/AKP).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Acknowledgements",
+                "sec_num": null
+            },
+            {
+                "text": "The authors declare no conflict of interest.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Conflict of interest",
+                "sec_num": null
+            },
+            {
+                "text": "This Transcriptome Shotgun Assembly (TSA) project was deposited at Gene Expression Omnibus repository under the accession number GSE134334.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Data availability",
+                "sec_num": null
+            },
+            {
+                "text": "CH and BZ designed the research and wrote the manuscript. CH and DL made bioinformatics analysis. BZ validated the experiments. XDZ and WG reviewed the manuscript and supervised the research. All authors read and approved the final manuscript.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Author contributions",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "Y-box-binding protein 1 (YB-1) and its functions",
+                "authors": [
+                    {
+                        "first": "I",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Eliseeva",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Kim",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Guryanov",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Ovchinnikov",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "N"
+                        ],
+                        "last": "Lyabin",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Biochemistry Biokhimiia",
+                "volume": "76",
+                "issue": "",
+                "pages": "1402--1433",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Eliseeva IA, Kim ER, Guryanov SG, Ovchinnikov LP and Lyabin DN (2011) Y-box-binding protein 1 (YB-1) and its functions. Biochemistry Biokhimiia. 76, 1402- 1433.",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "Y-box binding protein-1 is part of a complex molecular network linking DeltaNp63alpha to the PI3K/akt pathway in cutaneous squamous cell carcinoma",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Troiano",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Lomoriello",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Di Martino",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Fusco",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Pollice",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Vivo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "La",
+                        "middle": [],
+                        "last": "Mantia",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Calabro",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "J Cell Physiol",
+                "volume": "230",
+                "issue": "",
+                "pages": "2067--2074",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Troiano A, Lomoriello IS, di Martino O, Fusco S, Pollice A, Vivo M, La Mantia G and Calabro V (2015) Y-box binding protein-1 is part of a complex molecular network linking DeltaNp63alpha to the PI3K/akt pathway in cutaneous squamous cell carcinoma. J Cell Physiol 230, 2067-2074.",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "YB-1 protein: functions and regulation",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "N"
+                        ],
+                        "last": "Lyabin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Eliseeva",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Ovchinnikov",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Wiley Interdiscip Rev RNA",
+                "volume": "5",
+                "issue": "",
+                "pages": "95--110",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lyabin DN, Eliseeva IA and Ovchinnikov LP (2014) YB-1 protein: functions and regulation. Wiley Interdiscip Rev RNA 5, 95-110.",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "Nuclear expression of the Y-box binding protein, YB-1, as a novel marker of disease progression in non-small cell lung cancer",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Shibahara",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Sugio",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Osaki",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Uchiumi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Maehara",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Kohno",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Yasumoto",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Sugimachi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Kuwano",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Clin Cancer Res",
+                "volume": "7",
+                "issue": "",
+                "pages": "3151--3155",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Shibahara K, Sugio K, Osaki T, Uchiumi T, Maehara Y, Kohno K, Yasumoto K, Sugimachi K and Kuwano M (2001) Nuclear expression of the Y-box binding protein, YB-1, as a novel marker of disease progression in non-small cell lung cancer. Clin Cancer Res 7, 3151- 3155.",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Programmed cell death protein 4 down-regulates Y-box binding protein-1 expression via a direct interaction with Twist1 to suppress cancer cell growth",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Shiota",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Izumi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Tanimoto",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Takahashi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Miyamoto",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Kashiwagi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Kidani",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Hirano",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Masubuchi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Fukunaka",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Can Res",
+                "volume": "69",
+                "issue": "",
+                "pages": "3148--3156",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Shiota M, Izumi H, Tanimoto A, Takahashi M, Miyamoto N, Kashiwagi E, Kidani A, Hirano G, Masubuchi D, Fukunaka Y et al, (2009) Programmed cell death protein 4 down-regulates Y-box binding protein-1 expression via a direct interaction with Twist1 to suppress cancer cell growth. Can Res 69, 3148-3156.",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "Y-box binding protein, YB-1, as a marker of tumor aggressiveness and response to adjuvant chemotherapy in breast cancer",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Huang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Tan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Li",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Matsumoto",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Tsujimoto",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Bay",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Int J Oncol",
+                "volume": "26",
+                "issue": "",
+                "pages": "607--613",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Huang J, Tan PH, Li KB, Matsumoto K, Tsujimoto M and Bay BH (2005) Y-box binding protein, YB-1, as a marker of tumor aggressiveness and response to adjuvant chemotherapy in breast cancer. Int J Oncol 26, 607-613.",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "YB-1 is important for late-stage embryonic development, optimal cellular stress responses, and the prevention of premature senescence",
+                "authors": [
+                    {
+                        "first": "Z",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Lu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Books",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Ley",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Mol Cell Biol",
+                "volume": "25",
+                "issue": "",
+                "pages": "4625--4637",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lu ZH, Books JT and Ley TJ (2005) YB-1 is important for late-stage embryonic development, optimal cellular stress responses, and the prevention of premature senescence. Mol Cell Biol 25, 4625-4637.",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "YB-1 is important for an early stage embryonic development: neural tube formation and cell proliferation",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Uchiumi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Fotovati",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Sasaguri",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Shibahara",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Shimada",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Fukuda",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Nakamura",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Izumi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Tsuzuki",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Kuwano",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "J Biol Chem",
+                "volume": "281",
+                "issue": "",
+                "pages": "40440--40449",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Uchiumi T, Fotovati A, Sasaguri T, Shibahara K, Shimada T, Fukuda T, Nakamura T, Izumi H, Tsuzuki T, Kuwano M et al, (2006) YB-1 is important for an early stage embryonic development: neural tube formation and cell proliferation. J Biol Chem 281, 40440-40449.",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "Maternal Ybx1 safeguards zebrafish oocyte maturation and maternal-to-zygotic transition by repressing global translation",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Sun",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Yan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Shen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Meng",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "Development",
+                "volume": "145",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sun J, Yan L, Shen W and Meng A (2018) Maternal Ybx1 safeguards zebrafish oocyte maturation and maternal-to-zygotic transition by repressing global translation. Development 145, dev166587.",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "An essential role for maternal control of Nodal signaling. eLife. 2, e00683. Kung JT, Colognori D and Lee JT (2013) Long noncoding RNAs: past, present, and future",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Kumari",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Gilligan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Lim",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Tran",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Winkler",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Philp",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Sampath",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Genetics",
+                "volume": "193",
+                "issue": "",
+                "pages": "651--669",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kumari P, Gilligan PC, Lim S, Tran LD, Winkler S, Philp R and Sampath K (2013) An essential role for maternal control of Nodal signaling. eLife. 2, e00683. Kung JT, Colognori D and Lee JT (2013) Long noncoding RNAs: past, present, and future. Genetics 193, 651-669.",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "From discovery to function: the expanding roles of long noncoding RNAs in physiology and disease",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Rinn",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [
+                            "Y"
+                        ],
+                        "last": "Chang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Sun M and Kraus WL",
+                "volume": "81",
+                "issue": "",
+                "pages": "25--64",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rinn JL and Chang HY (2012) Genome regulation by long noncoding RNAs. Annu Rev Biochem 81, 145-166. Sun M and Kraus WL (2015) From discovery to function: the expanding roles of long noncoding RNAs in physiology and disease. Endocr Rev 36, 25-64.",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "Individual long non-coding RNAs have no overt functions in zebrafish embryogenesis, viability and fertility",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Goudarzi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Berg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Pieper",
+                        "middle": [],
+                        "last": "Lm",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Schier",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2019,
+                "venue": "",
+                "volume": "8",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Goudarzi M, Berg K, Pieper LM and Schier AF. (2019) Individual long non-coding RNAs have no overt functions in zebrafish embryogenesis, viability and fertility. eLife 8, e40815.",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "YBX1 at the crossroads of non-coding transcriptome, exosomal, and cytoplasmic granular signaling",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Suresh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Tsutsumi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Venkatesh",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "Eur J Cell Biol",
+                "volume": "97",
+                "issue": "",
+                "pages": "163--167",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Suresh PS, Tsutsumi R and Venkatesh T (2018) YBX1 at the crossroads of non-coding transcriptome, exosomal, and cytoplasmic granular signaling. Eur J Cell Biol 97, 163-167.",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "Gonadotropin regulation of follistatin expression in the cultured ovarian follicle cells of zebrafish. Danio rerio",
+                "authors": [
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Wang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Ge",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Gen Comp Endocrinol",
+                "volume": "134",
+                "issue": "",
+                "pages": "308--315",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wang Y and Ge W (2003) Gonadotropin regulation of follistatin expression in the cultured ovarian follicle cells of zebrafish. Danio rerio, Gen Comp Endocrinol. 134, 308-315.",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "Ensembl Genomes 2018: an integrated omics infrastructure for non-vertebrate species",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Kersey",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Allen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Allot",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Barba",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Boddu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Bolt",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Carvalho-Silva",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Christensen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Davis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Grabmueller",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "Nucleic Acids Res",
+                "volume": "46",
+                "issue": "",
+                "pages": "802--808",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kersey PJ, Allen JE, Allot A, Barba M, Boddu S, Bolt BJ, Carvalho-Silva D, Christensen M, Davis P, Grabmueller C et al, (2018) Ensembl Genomes 2018: an integrated omics infrastructure for non-vertebrate species. Nucleic Acids Res 46, D802-D808.",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "STAR: ultrafast universal RNA-seq aligner",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Dobin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Davis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Schlesinger",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Drenkow",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Zaleski",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Jha",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Batut",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Chaisson",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Gingeras",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Bioinformatics",
+                "volume": "29",
+                "issue": "",
+                "pages": "15--21",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Dobin A, Davis CA, Schlesinger F, Drenkow J, Zaleski C, Jha S, Batut P, Chaisson M and Gingeras TR (2013) STAR: ultrafast universal RNA-seq aligner. Bioinformatics 29, 15-21.",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "StringTie enables improved reconstruction of a transcriptome from RNAseq reads",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Pertea",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Pertea",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Antonescu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Chang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Mendell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Salzberg",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Nat Biotechnol",
+                "volume": "33",
+                "issue": "",
+                "pages": "290--295",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pertea M, Pertea GM, Antonescu CM, Chang TC, Mendell JT and Salzberg SL (2015) StringTie enables improved reconstruction of a transcriptome from RNA- seq reads. Nat Biotechnol 33, 290-295.",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "Evaluation of de novo transcriptome assemblies from RNA-Seq data",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Li",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Fillmore",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Bai",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Collins",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Thomson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Stewart",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Dewey",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "N"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Li B, Fillmore N, Bai Y, Collins M, Thomson JA, Stewart R and Dewey CN (2014) Evaluation of de novo transcriptome assemblies from RNA-Seq data.",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "Identification of long non-coding RNAs in two anthozoan species and their possible implications for coral bleaching",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Huang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Jrl",
+                        "middle": [],
+                        "last": "Morlighem",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Cai",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Q",
+                        "middle": [],
+                        "last": "Liao",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Perez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Gomes",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Guo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Radis-Baptista",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Lee",
+                        "middle": [],
+                        "last": "Sm",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Sci Rep",
+                "volume": "7",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Huang C, Morlighem JRL, Cai J, Liao Q, Perez CD, Gomes PB, Guo M, Radis-Baptista G and Lee SM (2017) Identification of long non-coding RNAs in two anthozoan species and their possible implications for coral bleaching. Sci Rep 7, 5333.",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "Reanalysis of the coral Acropora digitifera transcriptome reveals a complex lncRNAs-mRNAs interaction network implicated in Symbiodinium infection",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Huang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Leng",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Sun",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "X",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Zhang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2019,
+                "venue": "BMC Genom",
+                "volume": "20",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Huang C, Leng D, Sun S and Zhang XD (2019) Re- analysis of the coral Acropora digitifera transcriptome reveals a complex lncRNAs-mRNAs interaction network implicated in Symbiodinium infection. BMC Genom 20, 48.",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "UniProt: a worldwide hub of protein knowledge",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Uniprot",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2019,
+                "venue": "Nucleic Acids Res",
+                "volume": "47",
+                "issue": "",
+                "pages": "506--515",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "UniProt C (2019) UniProt: a worldwide hub of protein knowledge. Nucleic Acids Res 47, D506-D515.",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "CPC: assess the protein-coding potential of transcripts using sequence features and support vector machine",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Kong",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Zhang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Z",
+                        "middle": [
+                            "Q"
+                        ],
+                        "last": "Ye",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "X",
+                        "middle": [
+                            "Q"
+                        ],
+                        "last": "Liu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "Q"
+                        ],
+                        "last": "Zhao",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Wei",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Gao",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Nucleic Acids Res",
+                "volume": "35",
+                "issue": "",
+                "pages": "345--349",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kong L, Zhang Y, Ye ZQ, Liu XQ, Zhao SQ, Wei L and Gao G (2007) CPC: assess the protein-coding potential of transcripts using sequence features and support vector machine. Nucleic Acids Res 35, W345- W349.",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "Pfam: the protein families database",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Finn",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Bateman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Clements",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Coggill",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "Y"
+                        ],
+                        "last": "Eberhardt",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Eddy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Heger",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Hetherington",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Holm",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Mistry",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Nucleic Acids Res",
+                "volume": "42",
+                "issue": "",
+                "pages": "222--230",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Finn RD, Bateman A, Clements J, Coggill P, Eberhardt RY, Eddy SR, Heger A, Hetherington K, Holm L, Mistry J et al, (2014) Pfam: the protein families database. Nucleic Acids Res 42, D222-D230.",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "featureCounts: an efficient general purpose program for assigning sequence reads to genomic features",
+                "authors": [
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Liao",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Smyth",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Shi",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Bioinformatics",
+                "volume": "30",
+                "issue": "",
+                "pages": "923--930",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Liao Y, Smyth GK and Shi W (2014) featureCounts: an efficient general purpose program for assigning sequence reads to genomic features. Bioinformatics 30, 923-930.",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Love",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Huber",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Anders",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Genome Biol",
+                "volume": "15",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Love MI, Huber W and Anders S (2014) Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2. Genome Biol 15, 550.",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "WGCNA: an R package for weighted correlation network analysis",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Langfelder",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Horvath",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "BMC Bioinformatics",
+                "volume": "9",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Langfelder P and Horvath S (2008) WGCNA: an R package for weighted correlation network analysis. BMC Bioinformatics 9, 559.",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "Acute ZnO nanoparticles exposure induces developmental toxicity, oxidative stress and DNA damage in embryo-larval zebrafish",
+                "authors": [
+                    {
+                        "first": "X",
+                        "middle": [],
+                        "last": "Zhao",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Wang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Wu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "You",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Lv",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Aquat Toxicol",
+                "volume": "",
+                "issue": "",
+                "pages": "49--59",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Zhao X, Wang S, Wu Y, You H and Lv L (2013) Acute ZnO nanoparticles exposure induces developmental toxicity, oxidative stress and DNA damage in embryo-larval zebrafish. Aquat Toxicol 136- 137, 49-59.",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "Analysis of oxidative stress in zebrafish embryos",
+                "authors": [
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "Mugoni",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Camporeale",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Santoro",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "J Vis Exp",
+                "volume": "17",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Mugoni V, Camporeale A and Santoro MM (2014) Analysis of oxidative stress in zebrafish embryos. J Vis Exp 17, 51328.",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "Oxidative stress in zebrafish embryos induced by shortterm exposure to bisphenol A, nonylphenol, and their mixture",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Wu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Xu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Shen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Qiu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Yang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Environ Toxicol Chem",
+                "volume": "30",
+                "issue": "",
+                "pages": "2335--2341",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wu M, Xu H, Shen Y, Qiu W and Yang M (2011) Oxidative stress in zebrafish embryos induced by short- term exposure to bisphenol A, nonylphenol, and their mixture. Environ Toxicol Chem 30, 2335-2341.",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "Redox signaling of NADPH oxidases regulates oxidative stress responses",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "Y"
+                        ],
+                        "last": "Ewald",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "Immunity and Aging",
+                "volume": "7",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ewald CY (2018) Redox signaling of NADPH oxidases regulates oxidative stress responses. Immunity and Aging, Antioxidants 7.",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "Redox regulation of interleukin-4 signaling",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Sharma",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Chakraborty",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Wang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Min",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Tremblay",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Kawahara",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Lambeth",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Haque",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Immunity",
+                "volume": "29",
+                "issue": "",
+                "pages": "551--564",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sharma P, Chakraborty R, Wang L, Min B, Tremblay ML, Kawahara T, Lambeth JD and Haque SJ (2008) Redox regulation of interleukin-4 signaling. Immunity 29, 551-564.",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "Transcription of the non-coding RNA upperhand controls Hand2 expression and heart development",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Anderson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Anderson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Mcanally",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Shelton",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Bassel-Duby",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "N"
+                        ],
+                        "last": "Olson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Nature",
+                "volume": "539",
+                "issue": "",
+                "pages": "433--436",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Anderson KM, Anderson DM, McAnally JR, Shelton JM, Bassel-Duby R and Olson EN (2016) Transcription of the non-coding RNA upperhand controls Hand2 expression and heart development. Nature 539, 433- 436.",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "Gomafu lncRNA knockout mice exhibit mild hyperactivity with enhanced responsiveness to the psychostimulant methamphetamine",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "Y"
+                        ],
+                        "last": "Ip",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Sone",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Nashiki",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Q",
+                        "middle": [],
+                        "last": "Pan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Kitaichi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Yanaka",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Abe",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Takao",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Miyakawa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Blencowe",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Sci Rep",
+                "volume": "6",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ip JY, Sone M, Nashiki C, Pan Q, Kitaichi K, Yanaka K, Abe T, Takao K, Miyakawa T, Blencowe BJ et al, (2016) Gomafu lncRNA knockout mice exhibit mild hyperactivity with enhanced responsiveness to the psychostimulant methamphetamine. Sci Rep 6, 27204. Bell CC, Amaral PP, Kalsbeek A, Magor GW, Gillinder KR, Tangermann P, di Lisio L, Cheetham SW, Gruhl F, Frith J et al, (2016) The Evx1/Evx1as gene locus regulates anterior-posterior patterning during gastrulation. Sci Rep 6, 26657.",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "An evolutionarily conserved long noncoding RNA TUNA controls pluripotency and neural lineage commitment",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Lin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "Y"
+                        ],
+                        "last": "Chang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Li",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Gates",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Z",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Rana",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Dang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Zhang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Han",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Yang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Cunningham",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Mol Cell",
+                "volume": "53",
+                "issue": "",
+                "pages": "1005--1019",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lin N, Chang KY, Li Z, Gates K, Rana ZA, Dang J, Zhang D, Han T, Yang CS, Cunningham TJ et al, (2014) An evolutionarily conserved long noncoding RNA TUNA controls pluripotency and neural lineage commitment. Mol Cell 53, 1005-1019.",
+                "links": null
+            },
+            "BIBREF35": {
+                "ref_id": "b35",
+                "title": "Conserved function of lincRNAs in vertebrate embryonic development despite rapid sequence evolution",
+                "authors": [
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Ulitsky",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Shkumatava",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Jan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Sive",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Bartel",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Cell",
+                "volume": "147",
+                "issue": "",
+                "pages": "1537--1550",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ulitsky I, Shkumatava A, Jan CH, Sive H and Bartel DP (2011) Conserved function of lincRNAs in vertebrate embryonic development despite rapid sequence evolution. Cell 147, 1537-1550.",
+                "links": null
+            },
+            "BIBREF36": {
+                "ref_id": "b36",
+                "title": "Reverse genetic screening reveals poor correlation between morpholinoinduced and mutant phenotypes in zebrafish",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [
+                            "O"
+                        ],
+                        "last": "Kok",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Shin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Ni",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Gupta",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Grosse",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Van Impel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Kirchmaier",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Peterson-Maduro",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Kourkoulis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Male",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Dev Cell",
+                "volume": "32",
+                "issue": "",
+                "pages": "97--108",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kok FO, Shin M, Ni CW, Gupta A, Grosse AS, van Impel A, Kirchmaier BC, Peterson-Maduro J, Kourkoulis G, Male I et al, (2015) Reverse genetic screening reveals poor correlation between morpholino- induced and mutant phenotypes in zebrafish. Dev Cell 32, 97-108.",
+                "links": null
+            },
+            "BIBREF37": {
+                "ref_id": "b37",
+                "title": "Redox control in mammalian embryo development",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Ufer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Wang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Borchert",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Heydeck",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Kuhn",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Antioxid Redox Signal",
+                "volume": "13",
+                "issue": "",
+                "pages": "833--875",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ufer C, Wang CC, Borchert A, Heydeck D and Kuhn H (2010) Redox control in mammalian embryo development. Antioxid Redox Signal 13, 833-875.",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "text": "The bioinformatics pipeline used for identification of zebrafish lncRNAs in this study. aa, amino acids; CRC, Coding Potential Calculator.",
+                "num": null,
+                "uris": null,
+                "type_str": "figure"
+            },
+            "FIGREF1": {
+                "text": "Fig. 2. Differential expression analysis between day5_ybx1 +/+ and day5_ybx1 \u00c0/\u00c0 and day6_ybx1 +/+ . GO functional enrichment analysis of DE transcripts achieved on David server: (A) day5_ybx1 +/+ versus day5_ybx1 \u00c0/\u00c0 and (B) day5_ybx1 +/+ versus day6_ybx1 +/+ . The results are summarized only in the category of BP. The y axis indicates functional groups. The x axis indicates -log 10 (P-value). (C) Heatmap of all DE transcripts that were clustered into five subsets, including specific down-regulated in day5_ybx1 \u00c0/\u00c0 , specific up-regulated in day5_ybx1 \u00c0/\u00c0 , specific down-regulated in day6_ybx1 +/+ , specific up-regulated in day6_ybx1 +/+ and consistently dysregulated in day5_ybx1 \u00c0/\u00c0 and day6_ybx1 +/+ . The expression profile was normalized using DESeq2 and then hierarchically clustered using heatmap2. Values have been centered and scaled for each row. Each row represents a single transcript. (D) Functional analysis of subsets using DAVID (FDR < 5%).",
+                "num": null,
+                "uris": null,
+                "type_str": "figure"
+            },
+            "FIGREF2": {
+                "text": "Open Bio 11 (2021) 1259-1276 \u00aa 2020 The Authors. FEBS Open Bio published by John Wiley & Sons Ltd on behalf of Federation of European Biochemical Societies.",
+                "num": null,
+                "uris": null,
+                "type_str": "figure"
+            },
+            "FIGREF3": {
+                "text": "Detection of two trait-related modules. (A) Module-trait associations. Each row corresponds to a module eigengene, and each column to a trait. Each cell displays the corresponding correlation and P-value. (B) The eigengene dendrogram and heatmap identify that the yellow module is highly related to day5_ybx1 \u00c0/\u00c0 . (C) The eigengene dendrogram and heatmap identify that the black module is highly related to day6_ybx1 +/+ .",
+                "num": null,
+                "uris": null,
+                "type_str": "figure"
+            },
+            "FIGREF5": {
+                "text": "Open Bio 11 (2021) 1259-1276 \u00aa 2020 The Authors. FEBS Open Bio published by John Wiley & Sons Ltd on behalf of Federation of European Biochemical Societies.",
+                "num": null,
+                "uris": null,
+                "type_str": "figure"
+            },
+            "FIGREF6": {
+                "text": "development and maintenance of the sympathetic and sensory nervous systems Transcription factor that plays a key role in sex determination and differentiation Plays an important role in cell protection against oxidative stress and cell death acting as oxidative stress sensor and redox-sensitive chaperone and protease Transcriptional regulator which may play a role in the differentiation and maintenance of meso-diencephalic dopaminergic (mdDA) neurons Induces growth arrest or apoptosis depending on the physiological circumstances and cell type. Prediction of lncRNA-protein interactions reveals close association of lncRNA ENSDART00000171757 with zebrafish embryonic development. (A) The lncRNA-protein interaction network derived from the STRING database. LSU-rRNA, Large SubUnit (LSU) ribosomal RNA (rRNA). (B) Functional enrichment analysis of the possible interacted proteins in Metascape server.",
+                "num": null,
+                "uris": null,
+                "type_str": "figure"
+            },
+            "FIGREF7": {
+                "text": "Open Bio 11 (2021) 1259-1276 \u00aa 2020 The Authors. FEBS Open Bio published by John Wiley & Sons Ltd on behalf of Federation of European Biochemical Societies.",
+                "num": null,
+                "uris": null,
+                "type_str": "figure"
+            },
+            "TABREF0": {
+                "text": "Sequence information of primers for real-time quantitative PCR.",
+                "content": "<table><tr><td>Gene</td><td>Primer ID</td><td>Strand</td><td>Sequence (5'-3')</td><td>Size (bp)</td></tr><tr><td>MSTRG.12630.1</td><td>4975</td><td>Sense</td><td>TAATATAGTCGCGCGCACAG</td><td/></tr><tr><td>MSTRG.12630.1</td><td>4976</td><td>Antisense</td><td>TAGAGTCCCCCGTTGTTTTG</td><td/></tr><tr><td>MSTRG.24792.1</td><td>4977</td><td>Sense</td><td>CAGCAACAAGTCACACTCAACA</td><td/></tr><tr><td>MSTRG.24792.1</td><td>4978</td><td>Antisense</td><td>CTCTAAACGAGCAAGGTCCAA</td><td/></tr><tr><td>ENSDART00000171757</td><td>4979</td><td>Sense</td><td>ACGAGGTGTCCTCTCACCAG</td><td/></tr><tr><td>ENSDART00000171757</td><td>4980</td><td>Antisense</td><td>CCAGGATGGTCCTTGATAGC</td><td/></tr><tr><td>MSTRG.30533.1</td><td>4981</td><td>Sense</td><td>ACCAAATCAAGCAAGCGTTC</td><td/></tr><tr><td>MSTRG.30533.1</td><td>4982</td><td>Antisense</td><td>TGTAGGACCTCCGCTTTCAC</td><td/></tr><tr><td>MSTRG.33365.1</td><td>5085</td><td>Sense</td><td>CCTCTGTTGAACCGGAAAAG</td><td/></tr><tr><td>MSTRG.33365.1</td><td>5086</td><td>Antisense</td><td>TTTGGAGTTACCTGAAAGGATG</td><td/></tr><tr><td>duox</td><td>4963</td><td>Sense</td><td>CATGGATGGGGTTTATCTGG</td><td/></tr><tr><td>duox</td><td>4964</td><td>Antisense</td><td>TCTGTTCTTGTGGGACAGCA</td><td/></tr><tr><td>noxo1a</td><td>5573</td><td>Sense</td><td>ACACGCAAAAACATGCAGAG</td><td/></tr><tr><td>noxo1a</td><td>5574</td><td>Antisense</td><td>CCGTCTGTCCATTAGCCATT</td><td/></tr><tr><td>ybx1</td><td>1919</td><td>Sense</td><td>TCTGATTGCCTTTGTTTTCTGTC</td><td/></tr><tr><td>ybx1</td><td>1920</td><td>Antisense</td><td>CCCTTCTACCACGTCGAACT</td><td/></tr></table>",
+                "num": null,
+                "type_str": "table"
+            },
+            "TABREF3": {
+                "text": "The number of mRNAs and lncRNAs in the top 10 modules. Basic statistics of DE transcripts in two different comparisons. 5D WT, Wide Type in 5 Days; 5D MT, Mutant Type in 5 Days; 6D WT, Wide Type in 6 Days.",
+                "content": "<table><tr><td>Module</td><td>Size</td><td>lncRNA</td><td>mRNA</td></tr><tr><td>Turquoise</td><td>4731</td><td>318</td><td>4413</td></tr><tr><td>Blue</td><td>4284</td><td>328</td><td>3956</td></tr><tr><td>Brown</td><td>2752</td><td>382</td><td>2370</td></tr><tr><td>Yellow</td><td>2746</td><td>352</td><td>2394</td></tr><tr><td>Green</td><td>2267</td><td>355</td><td>1912</td></tr><tr><td>Red</td><td>1563</td><td>176</td><td>1387</td></tr><tr><td>Black</td><td>1230</td><td>155</td><td>1075</td></tr><tr><td>Pink</td><td>1206</td><td>207</td><td>999</td></tr><tr><td>Magenta</td><td>1109</td><td>98</td><td>1011</td></tr><tr><td>Purple</td><td>970</td><td>201</td><td>769</td></tr></table>",
+                "num": null,
+                "type_str": "table"
+            }
+        }
+    }
+}

@@ -1,0 +1,3465 @@
+{
+    "paper_id": "A_Snapshot_of_a_Coral_\u201cHolobiont\u201d__A_Transcriptome_Assembly_of_the_Scleractinian_Coral,_Porites,_Captures_a_Wide_Variety_of_Genes_from_Both_the_Host_and_Symbiotic_Zooxanthellae",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-09-13T19:40:49.615978Z"
+    },
+    "title": "A Snapshot of a Coral ''Holobiont'': A Transcriptome Assembly of the Scleractinian Coral, Porites, Captures a Wide Variety of Genes from Both the Host and Symbiotic Zooxanthellae",
+    "authors": [
+        {
+            "first": "Chuya",
+            "middle": [],
+            "last": "Shinzato",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "Okinawa Institute of Science and Technology Graduate University",
+                "location": {
+                    "settlement": "Onna",
+                    "region": "Okinawa"
+                }
+            },
+            "email": "c.shinzato@oist.jp"
+        },
+        {
+            "first": "Mayuri",
+            "middle": [],
+            "last": "Inoue",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Makoto",
+            "middle": [],
+            "last": "Kusakabe",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        }
+    ],
+    "year": "",
+    "venue": null,
+    "identifiers": {},
+    "abstract": "Massive scleractinian corals of the genus Porites are important reef builders in the Indo-Pacific, and they are more resistant to thermal stress than other stony corals, such as the genus Acropora. Because coral health and survival largely depend on the interaction between a coral host and its symbionts, it is important to understand the molecular interactions of an entire ''coral holobiont''. We simultaneously sequenced transcriptomes of Porites australiensis and its symbionts using the Illumina Hiseq2000 platform. We obtained 14.3 Gbp of sequencing data and assembled it into 74,997 contigs (average: 1,263 bp, N50 size: 2,037 bp). We successfully distinguished contigs originating from the host (Porites) and the symbiont (Symbiodinium) by aligning nucleotide sequences with the decoded Acropora digitifera and Symbiodinium minutum genomes. In contrast to previous coral transcriptome studies, at least 35% of the sequences were found to have originated from the symbionts, indicating that it is possible to analyze both host and symbiont transcriptomes simultaneously. Conserved protein domain and KEGG analyses showed that the dataset contains broad gene repertoires of both Porites and Symbiodinium. Effective utilization of sequence reads revealed that the polymorphism rate in P. australiensis is 1.0% and identified the major symbiotic Symbiodinium as Type C15. Analyses of amino acid biosynthetic pathways suggested that this Porites holobiont is probably able to synthesize most of the common amino acids and that Symbiodinium is potentially able to provide essential amino acids to its host. We believe this to be the first molecular evidence of complementarity in amino acid metabolism between coral hosts and their symbionts. We successfully assembled genes originating from both the host coral and the symbiotic Symbiodinium to create a snapshot of the coral holobiont transcriptome. This dataset will facilitate a deeper understanding of molecular mechanisms of coral symbioses and stress responses.",
+    "pdf_parse": {
+        "paper_id": "A_Snapshot_of_a_Coral_\u201cHolobiont\u201d__A_Transcriptome_Assembly_of_the_Scleractinian_Coral,_Porites,_Captures_a_Wide_Variety_of_Genes_from_Both_the_Host_and_Symbiotic_Zooxanthellae",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "Massive scleractinian corals of the genus Porites are important reef builders in the Indo-Pacific, and they are more resistant to thermal stress than other stony corals, such as the genus Acropora. Because coral health and survival largely depend on the interaction between a coral host and its symbionts, it is important to understand the molecular interactions of an entire ''coral holobiont''. We simultaneously sequenced transcriptomes of Porites australiensis and its symbionts using the Illumina Hiseq2000 platform. We obtained 14.3 Gbp of sequencing data and assembled it into 74,997 contigs (average: 1,263 bp, N50 size: 2,037 bp). We successfully distinguished contigs originating from the host (Porites) and the symbiont (Symbiodinium) by aligning nucleotide sequences with the decoded Acropora digitifera and Symbiodinium minutum genomes. In contrast to previous coral transcriptome studies, at least 35% of the sequences were found to have originated from the symbionts, indicating that it is possible to analyze both host and symbiont transcriptomes simultaneously. Conserved protein domain and KEGG analyses showed that the dataset contains broad gene repertoires of both Porites and Symbiodinium. Effective utilization of sequence reads revealed that the polymorphism rate in P. australiensis is 1.0% and identified the major symbiotic Symbiodinium as Type C15. Analyses of amino acid biosynthetic pathways suggested that this Porites holobiont is probably able to synthesize most of the common amino acids and that Symbiodinium is potentially able to provide essential amino acids to its host. We believe this to be the first molecular evidence of complementarity in amino acid metabolism between coral hosts and their symbionts. We successfully assembled genes originating from both the host coral and the symbiotic Symbiodinium to create a snapshot of the coral holobiont transcriptome. This dataset will facilitate a deeper understanding of molecular mechanisms of coral symbioses and stress responses.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "Coral reefs are estimated to harbor roughly one-third of all described marine species, and their productivity supports approximately one-quarter of marine fisheries. The major architects of coral reefs, the scleractinian corals, are anthozoan cnidarians that form obligate endosymbioses with photosynthetic dinoflagellates of the genus Symbiodinium. The unicellular symbionts are harbored in the host coral's gastrodermal (endodermal) tissue in intracellular vacuoles known as symbiosomes [1] , which are thought to originate from the plasma membrane of host cells during the initial acquisition of symbionts by a phagocytic process [2] . Although many of the details of the interaction between the host and Symbiodinium remain to be explored, this association enables the massive rates of calcification that distinguish reef-building corals from other anthozoans, such as sea anemones and zoanthids.",
+                "cite_spans": [
+                    {
+                        "start": 489,
+                        "end": 492,
+                        "text": "[1]",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 633,
+                        "end": 636,
+                        "text": "[2]",
+                        "ref_id": "BIBREF1"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "Coral reefs face a range of environmental changes, including ocean acidification, seawater temperature increases, and declines in coral abundance. Extensive loss of reef habitats is one of the most pressing environmental issues of our time [3] [4] [5] . Recently, increasing instances of ''coral bleaching'' have been observed. In most cases, coral bleaching is a breakdown of the mutualism between the coral and the photosynthetic dinoflagellate, resulting from a stress response to environmental perturbation. The integrity of the coral holobiont -a complex symbiosis between the coral animal, its endosymbiotic zooxanthellae, and an associated community of microorganisms is essential for maintaining coral health [6] . The molecular mechanisms underlying the collapse of symbiosis and the bleaching response are complex and are still little understood. Bleaching is currently viewed as a host response to a compromised symbiont that is analogous to the innate immune responses that occur in other host-microbe interactions. Expulsion or elimination of the symbiont from host tissues is thought to involve a variety of mechanisms, including exocytosis, host cell detachment, and host cell apoptosis [7] .",
+                "cite_spans": [
+                    {
+                        "start": 240,
+                        "end": 243,
+                        "text": "[3]",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 244,
+                        "end": 247,
+                        "text": "[4]",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 248,
+                        "end": 251,
+                        "text": "[5]",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 717,
+                        "end": 720,
+                        "text": "[6]",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 1202,
+                        "end": 1205,
+                        "text": "[7]",
+                        "ref_id": "BIBREF6"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "Genomic information for cnidarians has been accumulating; the genomes of two non-symbiotic cnidarians, the anemone Nematostella vectensis (Anthozoa) [8] , and a hydra, Hydra magnipapillata (Hydrozoa) [9] , have been sequenced. The genome of a scleractinian coral, Acropora digitifera, was decoded using nextgeneration sequencing (NGS) technology [10] . The latter genome was estimated to comprise 420 Mbp and contains about 23,700 predicted protein-coding genes. Recently NGS-based transcriptome datasets have become available for several anthozoan cnidarians including several coral species: Acropora millepora [11, 12] , A. palmata [13] and Pocillopora damicornis [14] , and a sea anemone Aiptasia pallida [15] . In addition, transcriptomes of two cultured strains of Symbiodinium have been reported [16] and the nuclear genome of S. minutum was decoded [17] . In order to better understand the molecular interactions, it is worthwhile to simultaneously capture the molecular states of all organisms comprising a coral holobiont.",
+                "cite_spans": [
+                    {
+                        "start": 149,
+                        "end": 152,
+                        "text": "[8]",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 200,
+                        "end": 203,
+                        "text": "[9]",
+                        "ref_id": "BIBREF8"
+                    },
+                    {
+                        "start": 346,
+                        "end": 350,
+                        "text": "[10]",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 612,
+                        "end": 616,
+                        "text": "[11,",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 617,
+                        "end": 620,
+                        "text": "12]",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 634,
+                        "end": 638,
+                        "text": "[13]",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 666,
+                        "end": 670,
+                        "text": "[14]",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 708,
+                        "end": 712,
+                        "text": "[15]",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 802,
+                        "end": 806,
+                        "text": "[16]",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 856,
+                        "end": 860,
+                        "text": "[17]",
+                        "ref_id": "BIBREF17"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "The massive stony corals of the genus Porites are common, important reef builders in the Indo-Pacific Ocean. More than 80 named species and numerous unclassified forms have been identified [18] . In contrast to Acropora species, Porites corals generally transmit their symbionts directly from parents to offspring (vertical transmission) rather than acquiring them anew from the environment (horizontal transmission) in each generation [19] . Porites species have thicker tissues and appear more robust to thermal stress than other corals, such as Acropora, that have thinner tissues [20] . Thus Porites corals have been used for comparative analyses of stress responses [21] . Laboratory studies indicate that acidified seawater reduces calcification of Porites corals [22] [23] [24] . Geochemical tracers, such as oxygen isotope ratios, strontiumcalcium ratios, and heavy metal concentrations in growth rings of the CaCO 3 Porites skeleton have been used to monitor changes in sea surface temperature, salinity, and/or marine pollutants [25] [26] [27] [28] . By such means, Porites taxa have been used to reconstruct past environmental changes so as to better understand tropical climate systems and to predict climate change [29, 30] . Nevertheless, molecular information about Porites corals is still limited. To address this deficiency and to improve the utility of Porites as an environmental indicator, we sequenced the transcriptome of Porites australiensis and its symbiotic algae (Figure\u00f4 1) using next generation technology (Illumina HiSeq2000) and constructed a transcriptome dataset that contains a large proportion of a symbiotic alga.",
+                "cite_spans": [
+                    {
+                        "start": 189,
+                        "end": 193,
+                        "text": "[18]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 436,
+                        "end": 440,
+                        "text": "[19]",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 584,
+                        "end": 588,
+                        "text": "[20]",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 671,
+                        "end": 675,
+                        "text": "[21]",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 770,
+                        "end": 774,
+                        "text": "[22]",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 775,
+                        "end": 779,
+                        "text": "[23]",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 780,
+                        "end": 784,
+                        "text": "[24]",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 1039,
+                        "end": 1043,
+                        "text": "[25]",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 1044,
+                        "end": 1048,
+                        "text": "[26]",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 1049,
+                        "end": 1053,
+                        "text": "[27]",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 1054,
+                        "end": 1058,
+                        "text": "[28]",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 1228,
+                        "end": 1232,
+                        "text": "[29,",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 1233,
+                        "end": 1236,
+                        "text": "30]",
+                        "ref_id": "BIBREF30"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "The coral sample used in this study was collected at Sesoko island, Okinawa, Japan, under the Okinawa prefecture permission (Number: 20-69). A small Porites australiensis colony that has been maintained in the Sesoko research station at the University of the Ryukyus for five years (Figure\u00f4 1) was used in this study. A fragment (2 cm diameter) from the coral was snap frozen in liquid nitrogen and pulverized with an iron mortar and pestle. Total RNA was isolated using an RNeasy RNA extraction kit (QIAGEN). Total RNA was then fragmented into about 200 bp lengths and an RNA-seq library was prepared using a TruSeq RNA Sample Prep Kit v2 (Illumina). cDNA normalization using a duplex-specific nuclease was also performed. The library was sequenced (100 bp paired-end reads) using the Illumina HiSeq 2000 platform. Library preparation, cDNA normalization, and sequencing were outsourced to Hokkaido System Science Corporation, Japan. Low quality bases (Phred quality value, QV$20) were trimmed from the raw data and read pairs of at least 80 bp were retained using SolexaQA [31] . Possible PCR duplicates that originated during library preparation were removed with Con-DeTri [32] . Contamination with TruSeq adapter sequences was removed by ea-utils (http://code.google.com/p/ea-utils). Subsequently high-quality paired end reads were assembled with Velvet/Oases software [33, 34] using different K-mer sizes [35, 45, 55] and merged by K-mer 27 using Oases [34] . For each word size, the longest isoform of each locus was selected. In addition, in order to recover low-expression genes and to produce longer assemblies, different coverage cut-off values (5, 8, 10 and 12) were also applied. Contigs originating from different coverage cutoff values were concatenated and redundant sequences and transcript-variants were removed by CDHIT-EST [35] using default parameters. Contigs over 200 bp length were retained. Additionally, contigs containing translated Open Reading Frames (ORFs) in which 95% of the amino acids were identical were considered duplicates. In such cases, one of the duplicates was removed using CDHIT [35] .",
+                "cite_spans": [
+                    {
+                        "start": 1075,
+                        "end": 1079,
+                        "text": "[31]",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 1177,
+                        "end": 1181,
+                        "text": "[32]",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 1374,
+                        "end": 1378,
+                        "text": "[33,",
+                        "ref_id": "BIBREF33"
+                    },
+                    {
+                        "start": 1379,
+                        "end": 1382,
+                        "text": "34]",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 1411,
+                        "end": 1415,
+                        "text": "[35,",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 1416,
+                        "end": 1419,
+                        "text": "45,",
+                        "ref_id": "BIBREF45"
+                    },
+                    {
+                        "start": 1420,
+                        "end": 1423,
+                        "text": "55]",
+                        "ref_id": "BIBREF55"
+                    },
+                    {
+                        "start": 1459,
+                        "end": 1463,
+                        "text": "[34]",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 1843,
+                        "end": 1847,
+                        "text": "[35]",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 2123,
+                        "end": 2127,
+                        "text": "[35]",
+                        "ref_id": "BIBREF35"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "RNA isolation, Transcriptome sequencing and assembly",
+                "sec_num": null
+            },
+            {
+                "text": "To distinguish whether contig sequences originated from host coral or symbiont Symbiodinium, nucleotide sequences of the assembled contigs were aligned to the genome sequences of both coral A. digitifera [10] and dinoflagellate S. minutum [17] by BLASTN, and contigs that show nucleotide similarities with A. digitifera or S. minutum were identified. Contigs aligned with the both genomes were not annotated in this study. Contigs that aligned only to the A. digitifera genome were annotated as ''Porites contigs'' while those that aligned only to the S. minutum genome were annotated as ''Symbiodinium contigs'', respectively. Different evalue cutoffs (1e 21 , 1e 22 , 1e 23 , 1e 24 , 1e 25 and 1e 210 ) were examined and a cutoff that maximized the number of Porites or Symbiodinium contigs was adopted (Table S3 ). We also applied the same analyses for reported coral transcriptome data from A. millepora [12] , A. palmata [13] , and P. damicornis [14] , in order to investigate proportions of Symbiodinium sequences in each dataset.",
+                "cite_spans": [
+                    {
+                        "start": 204,
+                        "end": 208,
+                        "text": "[10]",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 239,
+                        "end": 243,
+                        "text": "[17]",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 665,
+                        "end": 667,
+                        "text": "22",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 681,
+                        "end": 683,
+                        "text": "24",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 908,
+                        "end": 912,
+                        "text": "[12]",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 926,
+                        "end": 930,
+                        "text": "[13]",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 951,
+                        "end": 955,
+                        "text": "[14]",
+                        "ref_id": "BIBREF14"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 805,
+                        "end": 814,
+                        "text": "(Table S3",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Separation of host or symbiont-originated sequences",
+                "sec_num": null
+            },
+            {
+                "text": "Assembled transcriptome data were annotated as follows: 1) by BLAST homology searches against public protein databases: NCBI non-redundant protein sequences (NR) and Swiss-Prot [36] , 2) by assignment of Gene Ontology (GO) terms [37] , 3) by mapping to pathways using the KEGG annotation service KAAS [38] , and 4) conserved protein domain searches with Pfam [39] . BLASTX homology searches were conducted against the Swiss-Prot and NCBI NR protein databases and an e-value cutoff of 1e 25 was applied. For GO annotation, GO IDs were assigned based on the UniProt IDs of the best matches in the Swiss-Prot database [36] . Then Generic GO slim terms were assigned using map2slim.pl in go-perl (http://search.cpan.org/,cmungall/goperl/). For KAAS pathway annotation and analysis, we used the bi-directional best-hit (BBH) method to query the set of organisms representative for 'eukaryotes' as suggested on the KAAS website, using default settings. To screen and identify conserved protein domains, we used the Pfam database (Pfam-A.hmm, release 24.0; http://pfam.sanger.ac.uk) [39] . Translated amino acid entries matching conserved domains were identified using HMMER searches (hmmer3) [40] . In order to avoid eliminating Symbiodiniumor coral-specific rapidly evolving domains, we used an evalue cutoff of 1e 23 , as proposed by Kawashima et al. [41] . For assessing completeness of the Porites contigs, mutual best-hit blast analyses (TBLAST, BLASTX, 1e 25 ) were performed against the sea anemone Nematostella vectensis proteome [8] in order to identify possible orthologs between Porites and Nematostella. We used Nematostella as a reference proteome in order to compare number of orthologous pairs between A. digitifera [10] and Nematostella with those of Porites and Nematostella. Alignment coverage of each Porites contig across full-length amino acid sequence of its possible Nematostella ortholog were investigated based on the BLAST search. For Symbiodinium contigs, S. minutum proteome dataset [17] was used for identifying orthologous pairs.",
+                "cite_spans": [
+                    {
+                        "start": 177,
+                        "end": 181,
+                        "text": "[36]",
+                        "ref_id": "BIBREF36"
+                    },
+                    {
+                        "start": 229,
+                        "end": 233,
+                        "text": "[37]",
+                        "ref_id": "BIBREF37"
+                    },
+                    {
+                        "start": 301,
+                        "end": 305,
+                        "text": "[38]",
+                        "ref_id": "BIBREF38"
+                    },
+                    {
+                        "start": 359,
+                        "end": 363,
+                        "text": "[39]",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 487,
+                        "end": 489,
+                        "text": "25",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 615,
+                        "end": 619,
+                        "text": "[36]",
+                        "ref_id": "BIBREF36"
+                    },
+                    {
+                        "start": 1076,
+                        "end": 1080,
+                        "text": "[39]",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 1186,
+                        "end": 1190,
+                        "text": "[40]",
+                        "ref_id": "BIBREF40"
+                    },
+                    {
+                        "start": 1310,
+                        "end": 1312,
+                        "text": "23",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 1347,
+                        "end": 1351,
+                        "text": "[41]",
+                        "ref_id": "BIBREF41"
+                    },
+                    {
+                        "start": 1532,
+                        "end": 1535,
+                        "text": "[8]",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 1725,
+                        "end": 1729,
+                        "text": "[10]",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 2005,
+                        "end": 2009,
+                        "text": "[17]",
+                        "ref_id": "BIBREF17"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Annotation of transcriptome assembly",
+                "sec_num": null
+            },
+            {
+                "text": "For estimating the polymorphism rate of P. australiensis, highquality, trimmed Illumina reads (see above) were re-mapped against possible host-originated contigs (Porites contigs) using the Burrows-Wheeler Aligner (BWA) [42] and SNPs (single nucleotide polymorphisms) in each contigs were detected. Because BWA allows gaps in alignments, we set the maximum indel size to 5 bp (bwa aln -n 0.05; since the maximum read length is 100 bp) in order to detect small indels. SNPs and small indels were called using SAMtools software packages [43] . To ensure reliable and high quality variant calling, SNPs and small indels were called only for positions with a minimal mapping quality (-Q) of 25, a coverage value (-d) of 10, and a maximum read depth (-D) of 200 using the varFilter command in the SAMtools package.",
+                "cite_spans": [
+                    {
+                        "start": 220,
+                        "end": 224,
+                        "text": "[42]",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 535,
+                        "end": 539,
+                        "text": "[43]",
+                        "ref_id": "BIBREF43"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Estimation of polymorphism in Porites",
+                "sec_num": null
+            },
+            {
+                "text": "Illumina sequence data that originated from the Symbiodinium internal transcribed spacer 2 (ITS-2) region of the nuclear ribosomal array were identified using DNA sequences of Symbiodinium-specific ITS-2 primers used for genotyping: itsD and ITS-2rev2 [44] . Sequences reads containing these primer sequences were detected using BLAST (BLASTN) and 100% matched sequences were retrieved. Then these were subsequently assembled into a contig using Phrap [45] with default parameters. Sequence variations within the assembled ITS-2 sequence were checked with BWA [42] and SAMtools [43] as mentioned above.",
+                "cite_spans": [
+                    {
+                        "start": 252,
+                        "end": 256,
+                        "text": "[44]",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 452,
+                        "end": 456,
+                        "text": "[45]",
+                        "ref_id": "BIBREF45"
+                    },
+                    {
+                        "start": 560,
+                        "end": 564,
+                        "text": "[42]",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 578,
+                        "end": 582,
+                        "text": "[43]",
+                        "ref_id": "BIBREF43"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Identification of the symbiotic Symbiodinium type",
+                "sec_num": null
+            },
+            {
+                "text": "Total RNA was isolated from a single colony of P. australiensis (Figure\u00f4 1A) , and then a normalized cDNA library was prepared and sequenced with the Illumina HiSeq2000 system. We obtained 71 million paired-end sequences (14.3 Gbp, Table S1 ). Raw sequence data were submitted to the DDBJ Sequence Read Archive (DRA) under accession number DRA000906 (BioProject ID: PRJDB731). Subsequently, 45 million quality-trimmed read pairs (QV$20, both paired read $80 bp and PCR duplicates and TruSeq adapter sequences removed, approximately 9 Gbp, Table  S1 ) were assembled using Velvet/Oases software (Figure\u00f4 2, Table\u00f4 1). Contigs of ,200 bp were discarded because the RNA was fragmented into approximately 200-bp lengths during library preparation (see Material and Methods) and these short contigs were most likely to be truncated. After exclusion of redundant sequences and transcript variants, we obtained 74,997 contigs without ambiguous sequence gaps, totaling 94.73 Mbp (Figure\u00f4 2, Table\u00f4 2). Although the size distribution was weighted toward smaller contigs, there were 31,199 contigs with lengths .1,000 bp, 1,952 contigs .5,000 bp, and 198 contigs .10,000 bp, respectively (Figure\u00f4 3A). The maximum contig length reached 54,796 bp; the average was 1,263 bp, and the N50 size was 2,037 bp (Table\u00f4 2), indicating that the assembly is of comparable or better quality than extant anthozoan transcriptome assemblies using NGS platforms (Table S2 ). Assembled sequences have been submitted to the DDBJ/EMBL-Bank/GenBank Transcriptome Shotgun Assembly (TSA) Database under accession numbers FX435232-FX505330 and FX799345-FX804242.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 64,
+                        "end": 76,
+                        "text": "(Figure\u00f4 1A)",
+                        "ref_id": "TABREF0"
+                    },
+                    {
+                        "start": 232,
+                        "end": 240,
+                        "text": "Table S1",
+                        "ref_id": "TABREF0"
+                    },
+                    {
+                        "start": 539,
+                        "end": 548,
+                        "text": "Table  S1",
+                        "ref_id": "TABREF0"
+                    },
+                    {
+                        "start": 1436,
+                        "end": 1445,
+                        "text": "(Table S2",
+                        "ref_id": "TABREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Sequencing and assembly of the transcriptome",
+                "sec_num": null
+            },
+            {
+                "text": "Because total RNA was isolated from an adult P. australiensis colony (Figure\u00f4 1A), the transcriptome assembly contains genes from both corals and their zooxanthellae symbionts (Figure\u00f4 1B). When the GC content distribution of all contigs in the assembly was analyzed, two clear peaks of approximately 40% and 53% were detected (Figure\u00f4 3B), suggesting that these peaks possibly originated from the host (P. australiensis) and the symbiont (Symbiodinium sp.), respectively. The GC % of A. digitifera exons is about 40% [10] and that of a sea anemone, Nematostella, is similar [8] , suggesting that a GC content of about 40% may be typical for anthozoan cnidarians. Therefore the 40% peak probably reflects P. australiensis genes. Taking into consideration the mean GC % of exons in the Symbiodinium minutum genome is about 50% [17] , the secound peak might corresponds to the contigs from Symbiodinium.",
+                "cite_spans": [
+                    {
+                        "start": 518,
+                        "end": 522,
+                        "text": "[10]",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 575,
+                        "end": 578,
+                        "text": "[8]",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 826,
+                        "end": 830,
+                        "text": "[17]",
+                        "ref_id": "BIBREF17"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Dissecting the ''holobiont'' transcriptome",
+                "sec_num": null
+            },
+            {
+                "text": "Next we tried to identify contigs in the assembly that originated with Porites or Symbiodinium. We found that nucleotide alignment to both the Acropora and Symbiodinium genomes by BLASTN effectively separated them. In this study, we adopted an e-value cutoff 1e 24 (Table S3 ). 30,446 sequences hit against the A. digitifera genome and 30,415 sequences against S. minutum genome (3,788 sequences sequences overlapped) respectively (Table S3) . We subsequently removed overlapping sequences, and annotated 26,658 sequences as ''Porites contigs'' and 26,627 sequences as ''Symbiodinium contigs''. Annotated contigs comprised about 70% of all contigs and GC distributions of Porites and Symbiodinium contigs clearly matched the two peaks detected in the whole assembly (Figure\u00f4 3B), indicating that we effectively separated Porites and Symbiodinium genes in the assembly. These annotated contigs were used for further analyses (Table\u00f4 2, Figure\u00f4 3, 4) . In most transcriptome analyses of anthozoans [12, 13, 15] , aposymbiotic materials were used for sequencing in order to minimize Symbiodinium contamination. Thus, we suspect that Symbiodinium sequences in those transcriptome assemblies have been under-detected. It has also been reported that RNA of adult P. damicornis colonies containing Symbiodinium was extracted, sequenced on a 454 platform and assembled, but that few Symbiodinium sequences had been isolated [14] . In contrast with previous studies, a large proportion of Symbiodinium sequences (at least 26,627 contigs, 35% of total assembled sequences) were in the transcriptome assembly ( Figure\u00f4 3C) . We confirmed that coral transcriptome data reported to date contained very few Symbiodinium-originated sequences (Figure\u00f4 3C). Therefore this study represents the first simultaneous transcriptome profile of both counterparts of coral holobiont.",
+                "cite_spans": [
+                    {
+                        "start": 262,
+                        "end": 264,
+                        "text": "24",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 996,
+                        "end": 1000,
+                        "text": "[12,",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 1001,
+                        "end": 1004,
+                        "text": "13,",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 1005,
+                        "end": 1008,
+                        "text": "15]",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 1416,
+                        "end": 1420,
+                        "text": "[14]",
+                        "ref_id": "BIBREF14"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 265,
+                        "end": 274,
+                        "text": "(Table S3",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 431,
+                        "end": 441,
+                        "text": "(Table S3)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 935,
+                        "end": 948,
+                        "text": "Figure\u00f4 3, 4)",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 1600,
+                        "end": 1611,
+                        "text": "Figure\u00f4 3C)",
+                        "ref_id": "FIGREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Dissecting the ''holobiont'' transcriptome",
+                "sec_num": null
+            },
+            {
+                "text": "For transcriptome annotation, BLAST homology searches against protein databases (NCBI NR and Swiss-Prot) were performed. Among 74,997 contigs, 33,935 (45.2%) have significant similarities (BLASTX, 1e 25 ) with NCBI NR and 25,893 (34.5%) with Swiss-Prot database entries, respectively. As mentioned above, 30,446 sequences showed similarity to the A. digitifera genome and 30,415 sequences to the S. minutum genome, respectively (Table\u00f4 2). Taken together, we were able to annotate 60,516 (80.7%) sequences using public protein databases (NCBI NR and Swiss-Prot) and A. digitifera [10] and S. minutum [17] genomic data. The remaining 14,481 sequences (total 7.12 Mbp) could not be annotated by BLAST and their average length (491.7 bp) was much shorter than that of the total assembly. These may be fragmented regions of other contigs, assembly artifacts, or bacterial contaminants. Some show similarities to coral microsatellite sequences deposited in the NCBI nucleotide (NT) database (data not shown).",
+                "cite_spans": [
+                    {
+                        "start": 580,
+                        "end": 584,
+                        "text": "[10]",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 600,
+                        "end": 604,
+                        "text": "[17]",
+                        "ref_id": "BIBREF17"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Transcriptome annotation",
+                "sec_num": null
+            },
+            {
+                "text": "Conserved protein domains in the contigs were identified with hmmer3 [40] using the Pfam domain database [39] . We identified 6,081 Pfam domains in 30,002 contigs (Table\u00f4 2). We were able to assign 5,001 KEGG ORTHOLOGY (KO) IDs to 7,452 contigs (Table\u00f4 2) using the KAAS BBH method [38] .",
+                "cite_spans": [
+                    {
+                        "start": 69,
+                        "end": 73,
+                        "text": "[40]",
+                        "ref_id": "BIBREF40"
+                    },
+                    {
+                        "start": 105,
+                        "end": 109,
+                        "text": "[39]",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 282,
+                        "end": 286,
+                        "text": "[38]",
+                        "ref_id": "BIBREF38"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Transcriptome annotation",
+                "sec_num": null
+            },
+            {
+                "text": "Based on a BLAST search against the Swiss-Prot database, we were able to assign at least one GO term to the 11,048 Porites and 9,915 Symbiodinium contigs, respectively. These 20,963 contigs were grouped into 101 categories in the second hierarchy of the Generic GO slim. Figures S1, S2, S3 show GO annotation results for three GO sub-ontologies (cellular component, biological process, and molecular function). Since Porites corals are multicellular animals, cell death, neurological system process, cell proliferation, cell adhesion, and cell-cell signaling terms are more heavily represented than in Symbiodinium (26 more, Figure S1 ). DNA binding, enzyme binding, and transcription factor binding activity also seem to be higher in Porites (Figure S2 ). These may reflect the fact that 464 Porites contigs possess transcription factor domains (Table  S4) , whereas only 28 Symbiodinium contigs do (data not shown). On the other hand, transcripts of genes related to photosynthesis, transport, and generation of energy are more abundant among Symbiodinium contigs ( Figure S1 ).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 271,
+                        "end": 289,
+                        "text": "Figures S1, S2, S3",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 625,
+                        "end": 634,
+                        "text": "Figure S1",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 743,
+                        "end": 753,
+                        "text": "(Figure S2",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 846,
+                        "end": 857,
+                        "text": "(Table  S4)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1068,
+                        "end": 1077,
+                        "text": "Figure S1",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Transcriptome annotation",
+                "sec_num": null
+            },
+            {
+                "text": "About 44% of Porites contigs contain conserved protein domains and 4,528 unique Pfam domains were identified (Table\u00f4 2). In the gene models of the A. digitifera genome, unique 3,684 Pfam domains were detected [10] , indicating that the Porites contigs An increasing number of studies have recently identified genes that encode transcription factors and signal transduction molecules in corals and have determined their roles in cnidarian evolution [46] [47] [48] [49] [50] . Therefore, for further assessing the completeness of the Porites transcriptome, the repertoire of transcription factors and signal transduction molecules was compared with those of other cnidarians whose genomes have been decoded (Table S4, [17] , respectively. We also identified 28 Symbiodinium contigs containing transcription factor domains (data not shown). It has been reported that in transcriptome assemblies from two cultured strains of Symbiodinium, 156 and 87 sequences, respectively, contained at least one known transcription factor domain [16] . The S. minutum genome was found to contain 32 transcription factor genes [17] . We detected 15,914 orthologous pairs between the Symbiodinium contigs and S. minutum genome. In S. minutum genome, 23,487 orthologous groups were identified by compared with 150 genomes [17] . This might reflect that not all genes were expressed at the sampling point.",
+                "cite_spans": [
+                    {
+                        "start": 209,
+                        "end": 213,
+                        "text": "[10]",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 448,
+                        "end": 452,
+                        "text": "[46]",
+                        "ref_id": "BIBREF46"
+                    },
+                    {
+                        "start": 453,
+                        "end": 457,
+                        "text": "[47]",
+                        "ref_id": "BIBREF47"
+                    },
+                    {
+                        "start": 458,
+                        "end": 462,
+                        "text": "[48]",
+                        "ref_id": "BIBREF48"
+                    },
+                    {
+                        "start": 463,
+                        "end": 467,
+                        "text": "[49]",
+                        "ref_id": "BIBREF49"
+                    },
+                    {
+                        "start": 468,
+                        "end": 472,
+                        "text": "[50]",
+                        "ref_id": "BIBREF50"
+                    },
+                    {
+                        "start": 716,
+                        "end": 720,
+                        "text": "[17]",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 1028,
+                        "end": 1032,
+                        "text": "[16]",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 1108,
+                        "end": 1112,
+                        "text": "[17]",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 1301,
+                        "end": 1305,
+                        "text": "[17]",
+                        "ref_id": "BIBREF17"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 705,
+                        "end": 715,
+                        "text": "(Table S4,",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Estimating transcriptome completeness",
+                "sec_num": null
+            },
+            {
+                "text": "Since total RNA was extracted from a single Porites colony, it is possible to estimate the polymorphism rate of P. australiensis within an individual. High quality Illumina reads were re-mapped against the reference Porites contigs using BWA software [42] , and high quality SNPs and small indels (,5 bp) within the Porites colony were identified using SAMtools [43] . Among the 44,569,031 nucleotides of the 26,658 Porites contigs, 425,728 SNPs and 11,788 small indels (total 20,213 bp) were detected. Taken together, the polymorphism rate between haplotypes, including small indels (less than 5 bp) and SNPs in the exons of Porites transcripts is estimated to be 1.0%, which is slightly higher than that observed in other cnidarian genomes (A. digitifera ",
+                "cite_spans": [
+                    {
+                        "start": 251,
+                        "end": 255,
+                        "text": "[42]",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 362,
+                        "end": 366,
+                        "text": "[43]",
+                        "ref_id": "BIBREF43"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Polymorphism rate in Porites",
+                "sec_num": null
+            },
+            {
+                "text": "The genus Symbiodinium displays tremendous taxonomic diversity with nine divergent lineages. Clades A-I have been described in Symbiodinium based on nuclear ribosomal DNA (rDNA) and chloroplast 23S rDNA [51] . Each clade contains multiple genetic types, often resolved using the internal transcribed spacer 2 (ITS-2) regions [44, 52] . We failed to detect assembled sequences of nuclear rDNA or chloroplast 23S rDNA in our dataset. Accordingly, the ITS2 region-containing sequence reads were identified and assembled, and then we managed to reconstruct an ITS-2 region (341 bp) of the symbiotic Symbiodinium. BLAST homology searches against the NCBI NT database revealed that this sequence shows high similarity (340/341 bp identity) with clade C Symbiodinium sp. C15 (GenBank: JN558044). We also checked the sequence variation within the ITS2 region by BWA mapping and SAMtools, but no variation was detected (data not shown), indicating that the C15 type, a type common in Porites species across the Pacific [53] , is the major Symbiodinium type in the P. australiensis colony used in this study.",
+                "cite_spans": [
+                    {
+                        "start": 203,
+                        "end": 207,
+                        "text": "[51]",
+                        "ref_id": "BIBREF51"
+                    },
+                    {
+                        "start": 325,
+                        "end": 329,
+                        "text": "[44,",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 330,
+                        "end": 333,
+                        "text": "52]",
+                        "ref_id": "BIBREF52"
+                    },
+                    {
+                        "start": 1010,
+                        "end": 1014,
+                        "text": "[53]",
+                        "ref_id": "BIBREF53"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Symbiont type",
+                "sec_num": null
+            },
+            {
+                "text": "Bacteria, plants, and many fungi are able to synthesize all of the 20 amino acids commonly found in proteins, whereas all animals studied to date either lack the ability to synthesize one or more of these amino acids, or else they are unable to synthesize quantities sufficient to meet their metabolic needs. These amino acids are termed ''essential'' and must be obtained from the diet. For vertebrates, eight or more amino acids are essential; threonine, valine, methionine, leucine, isoleucine, phenylalanine, lysine, and tryptophan are required by all vertebrates, while arginine and/or histidine are also essential in some cases [54] . Although amino acid biosynthesis occurs via conserved pathways and is relatively wellcharacterized [55] , amino acid exchange in cnidarian photoautotrophic symbioses is poorly understood. The issue of amino acid requirements is complicated by the presence of symbiotic algae [56, 57] . For example, examination of the amino acid biosynthetic capacity of the sea anemone Aiptasia pulchella -a facultative host of Symbiodinium sp. -suggested that seven amino acids (histidine, isoleucine, leucine, lysine, phenylalanine, tyrosine, and valine) are synthesized by the symbiotic algae and translocated to the sea anemone, and that methionine and threonine are likely to be synthesized by A. pulchella itself [57] . A genome-wide survey of amino acid biosynthetic pathway components in A. digitifera revealed that Acropora corals may be able to synthesize ten nonessential amino acids, but not cysteine [10] , however amino acid metabolism in coral holobionts is still unclear (Figure\u00f4 4A). We reconstructed the amino acid biosynthetic pathways in the Porites holobiont based on KEGG IDs (Figure\u00f4 4B, C) . In this study we took amino acid biosynthetic pathways missing one or two enzymes into consideration. Most of enzymes involved in amino acid biosynthetic pathways were detected in the transcriptomes of Porites and Symbiodinium, while four enzymes cannot be detected in the lysine anabolic pathway (Figure\u00f4 3C).",
+                "cite_spans": [
+                    {
+                        "start": 634,
+                        "end": 638,
+                        "text": "[54]",
+                        "ref_id": "BIBREF54"
+                    },
+                    {
+                        "start": 740,
+                        "end": 744,
+                        "text": "[55]",
+                        "ref_id": "BIBREF55"
+                    },
+                    {
+                        "start": 916,
+                        "end": 920,
+                        "text": "[56,",
+                        "ref_id": "BIBREF56"
+                    },
+                    {
+                        "start": 921,
+                        "end": 924,
+                        "text": "57]",
+                        "ref_id": "BIBREF57"
+                    },
+                    {
+                        "start": 1344,
+                        "end": 1348,
+                        "text": "[57]",
+                        "ref_id": "BIBREF57"
+                    },
+                    {
+                        "start": 1538,
+                        "end": 1542,
+                        "text": "[10]",
+                        "ref_id": "BIBREF9"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 1723,
+                        "end": 1738,
+                        "text": "(Figure\u00f4 4B, C)",
+                        "ref_id": "FIGREF4"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Amino acid biosynthesis pathways in Porites holobiont",
+                "sec_num": null
+            },
+            {
+                "text": "Interestingly many enzymes involved in essential amino acid biosynthesis are detected only in Symbiodinium contigs (Figure\u00f4 3B, Figure\u00f4 3C left side). Overrepresentation of ''transport'' GO terms in Symbiodinium contigs ( Figure S1 ) implies that Symbiodinium transport essential amino acids to host cells. In contrast, enzymes for non-essential amino acid pathways were detected in both Symbiodinium and Porites ( Figure\u00f4 3B, Figure\u00f4 3C, right side) . Glutamic acid, glutamine, aspartic acid, and alanine are probably produced in both Porites and Symbiodinium. According our prediction, asparagine is synthesized in Symbiodinium while cysteine is synthesized in Porites (Figure\u00f4 3) . We have shown previously that Acropora corals lack an essential enzyme for cysteine biosynthesis, cystatione \u00df-synthase [10] , however, Porites seems to posses it (Figure\u00f4 3C), indicating that it does not depend upon Symbiodinium for cysteine biosynthesis and might account for its greater resilience to environmental stresses. An interesting example is the methionine biosynthesis pathway. Half of the enzymes reside in the Porites and Symbiodinium contigs, respectively, suggesting that methionine might be produced by intimate cooperation between host and symbiont in coral holobionts. While transcriptome sequencing was based upon a single RNA-seq library in this study, we were able to recover a surprisingly large gene repertoire for amino acid biosynthesis. Our data appear to provide the first direct molecular evidence of complementarity and syntrophy between coral hosts and their symbionts in amino acid metabolism.",
+                "cite_spans": [
+                    {
+                        "start": 805,
+                        "end": 809,
+                        "text": "[10]",
+                        "ref_id": "BIBREF9"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 222,
+                        "end": 231,
+                        "text": "Figure S1",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 415,
+                        "end": 450,
+                        "text": "Figure\u00f4 3B, Figure\u00f4 3C, right side)",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 671,
+                        "end": 682,
+                        "text": "(Figure\u00f4 3)",
+                        "ref_id": "FIGREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Amino acid biosynthesis pathways in Porites holobiont",
+                "sec_num": null
+            },
+            {
+                "text": "We sequenced a Porites australiensis holobiont and demonstrated that decoded genomic data of an Acropora coral [10] and a Symbiodinium minutum [17] greatly assisted the characterization of assembled contigs from a mixture of RNAs from different organisms. In this study we were able distinguish about 70% of contigs as host or symbiont. The assembled sequences contain a wide variety of genetic information from both the coral and its symbiont, Symbiodinium, including genes for most enzymes in all amino acid biosynthetic pathways. When genome sequences of P. australiensis and its symbiotic Symbiodinium are available, the annotation could be further improved. The Porites holobiont transcriptome dataset allows us to utilize Porites australiensis, an abundant coral species from the Indo-Pacific, to reveal molecular mechanisms of coral symbiosis and coral stress responses. Our approach provides an opportunity to simultaneously analyze coralsymbiont interactions on transcriptomic level. Furthermore, analyzing the molecular bases of Porites calcification may enable researchers to improve the accuracy of future climate change prediction. File S3 Annotation files for all contigs (tab-separated text; contig name, NCBI accession, Swiss-Prot blast result, Pfam ID, KEGG ID). (ZIP)",
+                "cite_spans": [
+                    {
+                        "start": 111,
+                        "end": 115,
+                        "text": "[10]",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 143,
+                        "end": 147,
+                        "text": "[17]",
+                        "ref_id": "BIBREF17"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Conclusions",
+                "sec_num": null
+            },
+            {
+                "text": "January 2014 | Volume 9 | Issue 1 | e85182",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "PLOS ONE | www.plosone.org",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "We thank members of Marine Genomics Unit, at OIST, for allowing us use their facilities, and Dr. Akira Iguchi (Sesoko Station, University of the Ryukyus) for helping with the preparation of coral samples. We thank Dr. Konstantin Khalturin (OIST) for critical reading of the manuscript. We thank Dr. Steven Aird (OIST) for editing the manuscript.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Acknowledgments",
+                "sec_num": null
+            },
+            {
+                "text": "Conceived and designed the experiments: CS MI MK. Performed the experiments: CS MI MK. Analyzed the data: CS. Contributed reagents/ materials/analysis tools: CS MI MK. Wrote the paper: CS.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Author Contributions",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "Metabolic interactions between algal symbionts and invertebrate hosts",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Yellowlees",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Rees",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Leggat",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Plant Cell Env",
+                "volume": "31",
+                "issue": "",
+                "pages": "679--694",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Yellowlees D, Rees TA, Leggat W (2008) Metabolic interactions between algal symbionts and invertebrate hosts. Plant Cell Env 31: 679-694. Available: http:// www.ncbi.nlm.nih.gov/pubmed/18315536.",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "Phagosome-lysosome fusion inhibited by algal symbionts of Hydra viridis",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Hohman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Mcneil",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Muscatine",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1982,
+                "venue": "J\u00f4 Cell Biol",
+                "volume": "94",
+                "issue": "",
+                "pages": "56--63",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hohman TC, McNeil PL, Muscatine L (1982) Phagosome-lysosome fusion inhibited by algal symbionts of Hydra viridis. J\u00f4 Cell Biol 94: 56-63. Available: http://www.ncbi.nlm.nih.gov/pubmed/7119017.",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "One-third of reef-building corals face elevated extinction risk from climate change and local impacts",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Carpenter",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Abrar",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Aeby",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Aronson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Banks",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Science (80-)",
+                "volume": "321",
+                "issue": "",
+                "pages": "560--563",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Carpenter KE, Abrar M, Aeby G, Aronson RB, Banks S, et al. (2008) One-third of reef-building corals face elevated extinction risk from climate change and local impacts. Science (80-) 321: 560-563. Available: http://www.ncbi.nlm.nih.gov/ entrez/query.fcgi?cmd = Retrieve&db = PubMed&dopt = Citation&list_ uids = 18653892.",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "Coral reefs under rapid climate change and ocean acidification",
+                "authors": [
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Hoegh-Guldberg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Mumby",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Hooten",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Steneck",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Greenfield",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Science (80-)",
+                "volume": "318",
+                "issue": "",
+                "pages": "1737--1742",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hoegh-Guldberg O, Mumby PJ, Hooten AJ, Steneck RS, Greenfield P, et al. (2007) Coral reefs under rapid climate change and ocean acidification. Science (80-) 318: 1737-1742. Available: http://www.ncbi.nlm.nih.gov/pubmed/ 18079392.",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Climate change, human impacts, and the resilience of coral reefs",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Hughes",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Baird",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Bellwood",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Card",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Connolly",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "?cmd = Retrieve&db = PubMed&dopt = Citation&list_uids = 12920289",
+                "volume": "301",
+                "issue": "",
+                "pages": "929--933",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hughes TP, Baird AH, Bellwood DR, Card M, Connolly SR, et al. (2003) Climate change, human impacts, and the resilience of coral reefs. Science (80-) 301: 929-933. Available: http://www.ncbi.nlm.nih.gov/entrez/query. fcgi?cmd = Retrieve&db = PubMed&dopt = Citation&list_uids = 12920289.",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "Microbial disease and the coral holobiont",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Bourne",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Garren",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Work",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Rosenberg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Smith",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Trends Microbiol",
+                "volume": "17",
+                "issue": "",
+                "pages": "554--562",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bourne DG, Garren M, Work TM, Rosenberg E, Smith GW, et al. (2009) Microbial disease and the coral holobiont. Trends Microbiol 17: 554-562. Available: http://www.ncbi.nlm.nih.gov/pubmed/19822428.",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "The susceptibility and resilience of corals to thermal stress: adaptation, acclimatization or both?",
+                "authors": [
+                    {
+                        "first": "V",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Weis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "?cmd = Retrieve&db = PubMed&dopt = Citation&list_uids = 20456235",
+                "volume": "19",
+                "issue": "",
+                "pages": "1515--1517",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Weis VM (2010) The susceptibility and resilience of corals to thermal stress: adaptation, acclimatization or both? Mol Ecol 19: 1515-1517. Available: http:// www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd = Retrieve&db = PubMed&dopt = Citation&list_uids = 20456235.",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "Sea anemone genome reveals ancestral eumetazoan gene repertoire and genomic organization",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Putnam",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Srivastava",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "U",
+                        "middle": [],
+                        "last": "Hellsten",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Dirks",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Chapman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Science (80-)",
+                "volume": "317",
+                "issue": "",
+                "pages": "86--94",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Putnam NH, Srivastava M, Hellsten U, Dirks B, Chapman J, et al. (2007) Sea anemone genome reveals ancestral eumetazoan gene repertoire and genomic organization. Science (80-) 317: 86-94. Available: http://www.ncbi.nlm.nih. gov/entrez/query.fcgi?cmd = Retrieve&db = PubMed&dopt = Citation&list_ uids = 17615350.",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "The dynamic genome of Hydra",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Chapman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Kirkness",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Simakov",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Hampson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Mitros",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "?cmd = Retrieve&db = PubMed&dopt = Citation&list_uids = 20228792",
+                "volume": "464",
+                "issue": "",
+                "pages": "592--596",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Chapman JA, Kirkness EF, Simakov O, Hampson SE, Mitros T, et al. (2010) The dynamic genome of Hydra. Nature 464: 592-596. Available: http://www. ncbi.nlm.nih.gov/entrez/query.fcgi?cmd = Retrieve&db = PubMed&dopt = Citation&list_uids = 20228792.",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "Using the Acropora digitifera genome to understand coral responses to environmental change",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Shinzato",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Shoguchi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Kawashima",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Hamada",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Hisata",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Nature",
+                "volume": "476",
+                "issue": "",
+                "pages": "320--323",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Shinzato C, Shoguchi E, Kawashima T, Hamada M, Hisata K, et al. (2011) Using the Acropora digitifera genome to understand coral responses to environmental change. Nature 476: 320-323. Available: http://www.ncbi. nlm.nih.gov/entrez/query.fcgi?cmd = Retrieve&db = PubMed&dopt = Citation& list_uids = 21785439.",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Sequencing and de novo analysis of a coral larval transcriptome using",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Meyer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G V",
+                        "middle": [],
+                        "last": "Aglyamova",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Wang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Buchanan-Carter",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Abrego",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Meyer E, Aglyamova G V, Wang S, Buchanan-Carter J, Abrego D, et al. (2009) Sequencing and de novo analysis of a coral larval transcriptome using 454",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "Whole transcriptome analysis of the coral Acropora millepora reveals complex responses to CO(2)-driven acidification during the initiation of calcification",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Moya",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Huisman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Ball",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Hayward",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Grasso",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Mol Ecol",
+                "volume": "21",
+                "issue": "",
+                "pages": "2440--2454",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Moya A, Huisman L, Ball EE, Hayward DC, Grasso LC, et al. (2012) Whole transcriptome analysis of the coral Acropora millepora reveals complex responses to CO(2)-driven acidification during the initiation of calcification. Mol Ecol 21: 2440-2454. Available: http://www.ncbi.nlm.nih.gov/entrez/query. fcgi?cmd = Retrieve&db = PubMed&dopt = Citation&list_uids = 22490231.",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "Gene discovery in the threatened elkhorn coral: 454 sequencing of the Acropora palmata transcriptome",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Polato",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Vera",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Baums",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "PLoS One",
+                "volume": "6",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Polato NR, Vera JC, Baums IB (2011) Gene discovery in the threatened elkhorn coral: 454 sequencing of the Acropora palmata transcriptome. PLoS One 6: e28634. Available: http://www.ncbi.nlm.nih.gov/pubmed/22216101.",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "Production of a reference transcriptome and transcriptomic database (PocilloporaBase) for the cauliflower coral, Pocillopora damicornis",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Traylor-Knowles",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Granger",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Lubinski",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Parikh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Garamszegi",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "BMC Genomics",
+                "volume": "12",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Traylor-Knowles N, Granger BR, Lubinski TJ, Parikh JR, Garamszegi S, et al. (2011) Production of a reference transcriptome and transcriptomic database (PocilloporaBase) for the cauliflower coral, Pocillopora damicornis. BMC Genomics 12: 585. Available: http://www.ncbi.nlm.nih.gov/pubmed/22126435.",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Developing the anemone Aiptasia as a tractable model for cnidarian-dinoflagellate symbiosis: the transcriptome of aposymbiotic A. pallida",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Lehnert",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Burriesci",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Pringle",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "BMC Genomics",
+                "volume": "13",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lehnert EM, Burriesci MS, Pringle JR (2012) Developing the anemone Aiptasia as a tractable model for cnidarian-dinoflagellate symbiosis: the transcriptome of aposymbiotic A. pallida. BMC Genomics 13: 271. Available: http://www.ncbi. nlm.nih.gov/pubmed/22726260.",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Symbiodinium transcriptomes: genome insights into the dinoflagellate symbionts of reef-building corals",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Bayer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Aranda",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Sunagawa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Yum",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Desalvo",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "?cmd = Retrieve&db = PubMed&dopt = Citation& list_uids = 22529998. Accessed 29",
+                "volume": "7",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bayer T, Aranda M, Sunagawa S, Yum LK, Desalvo MK, et al. (2012) Symbiodinium transcriptomes: genome insights into the dinoflagellate symbionts of reef-building corals. PLoS One 7: e35269. Available: http://www.ncbi.nlm. nih.gov/entrez/query.fcgi?cmd = Retrieve&db = PubMed&dopt = Citation& list_uids = 22529998. Accessed 29 November 2012.",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "Draft Assembly of the Symbiodinium minutum Nuclear Genome Reveals Dinoflagellate Gene Structure",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Shoguchi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Shinzato",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Kawashima",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Gyoja",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Mungpakdee",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Curr Biol",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Shoguchi E, Shinzato C, Kawashima T, Gyoja F, Mungpakdee S, et al. (2013) Draft Assembly of the Symbiodinium minutum Nuclear Genome Reveals Dinoflagellate Gene Structure. Curr Biol. Available: http://www.ncbi.nlm.nih. gov/pubmed/23850284.",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "High diversity and host specificity observed among symbiotic dinoflagellates in reef coral communities from Hawaii",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Lajeunesse",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Thornhill",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Cox",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Stanton",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Fitt",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Coral Reefs",
+                "volume": "23",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "LaJeunesse TC, Thornhill DJ, Cox EF, Stanton FG, Fitt WK, et al. (2004) High diversity and host specificity observed among symbiotic dinoflagellates in reef coral communities from Hawaii. Coral Reefs 23: 596-603. Available: ,Go to ISI.://000226095100021.",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "Coral bleaching: the winners and the losers",
+                "authors": [
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Loya",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Sakai",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Yamazato",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Nakano",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Sambali",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Ecol Lett",
+                "volume": "4",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Loya Y, Sakai K, Yamazato K, Nakano Y, Sambali H, et al. (2001) Coral bleaching: the winners and the losers. Ecol Lett 4: 122-131. Available: ,Go to ISI.://000167731300005.",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "Response of two species of Indo-Pacific corals, Porites cylindrica and Stylophora pistillata, to short-term thermal stress: The host does matter in determining the tolerance of corals to bleaching",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Fitt",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Gates",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Hoegh-Guldberg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Bythell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Jatkar",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "J\u00f4 Exp Mar Bio Ecol",
+                "volume": "373",
+                "issue": "",
+                "pages": "102--110",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Fitt WK, Gates RD, Hoegh-Guldberg O, Bythell JC, Jatkar A, et al. (2009) Response of two species of Indo-Pacific corals, Porites cylindrica and Stylophora pistillata, to short-term thermal stress: The host does matter in determining the tolerance of corals to bleaching. J\u00f4 Exp Mar Bio Ecol 373: 102-110. Available: ,Go to ISI.://000266897400004.",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "Ocean acidification causes bleaching and productivity loss in coral reef builders",
+                "authors": [
+                    {
+                        "first": "Krn",
+                        "middle": [],
+                        "last": "Anthony",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Kline",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Diaz-Pulido",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Dove",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Hoegh-Guldberg",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Proc Natl Acad Sci U S A",
+                "volume": "105",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Anthony KRN, Kline DI, Diaz-Pulido G, Dove S, Hoegh-Guldberg O (2008) Ocean acidification causes bleaching and productivity loss in coral reef builders. Proc Natl Acad Sci U S A 105: 17442-17446. Available: ,Go to ISI.:// 000260981800051.",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "Effects of acidified seawater on coral calcification and symbiotic algae on the massive coral Porites australiensis",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Iguchi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Ozaki",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Nakamura",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Inoue",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Tanaka",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Mar Environ Res",
+                "volume": "73",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Iguchi A, Ozaki S, Nakamura T, Inoue M, Tanaka Y, et al. (2012) Effects of acidified seawater on coral calcification and symbiotic algae on the massive coral Porites australiensis. Mar Environ Res 73: 32-36. Available: ,Go to ISI.:// 000300818900005.",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "Effect of CaCO3 (aragonite) saturation state of seawater on calcification of Porites coral",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Ohde",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Mmm",
+                        "middle": [],
+                        "last": "Hossain",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Geochem\u00f4 J",
+                "volume": "38",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ohde S, Hossain MMM (2004) Effect of CaCO3 (aragonite) saturation state of seawater on calcification of Porites coral. Geochem\u00f4 J 38: 613-621. Available: , Go to ISI.://000226353600012.",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "Sea-Surface Temperature from Coral Skeletal Strontium Calcium Ratios",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Beck",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Edwards",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Ito",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Taylor",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Recy",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1992,
+                "venue": "/A1992JF85200028",
+                "volume": "257",
+                "issue": "",
+                "pages": "644--647",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Beck JW, Edwards RL, Ito E, Taylor FW, Recy J, et al. (1992) Sea-Surface Temperature from Coral Skeletal Strontium Calcium Ratios. Science (80-) 257: 644-647. Available: ,Go to ISI.://A1992JF85200028.",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "New views of tropical paleoclimates from corals",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Gagan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Ayliffe",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Beck",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Cole",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Erm",
+                        "middle": [],
+                        "last": "Druffel",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Quat Sci Rev",
+                "volume": "19",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Gagan MK, Ayliffe LK, Beck JW, Cole JE, Druffel ERM, et al. (2000) New views of tropical paleoclimates from corals. Quat Sci Rev 19: 45-64. Available: ,Go to ISI.://000084425500006.",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "Anthropogenic lead inputs to the western Pacific during the 20th century",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Inoue",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Tanimizu",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Sci Total Environ",
+                "volume": "406",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Inoue M, Tanimizu M (2008) Anthropogenic lead inputs to the western Pacific during the 20th century. Sci Total Environ 406: 123-130. Available: ,Go to ISI.://000260941400012.",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "Cadmium in Corals as a Tracer of Historical Upwelling and Industrial Fallout",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Shen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Boyle",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Lea",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1987,
+                "venue": "/A1987J762900054",
+                "volume": "328",
+                "issue": "",
+                "pages": "794--796",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Shen GT, Boyle EA, Lea DW (1987) Cadmium in Corals as a Tracer of Historical Upwelling and Industrial Fallout. Nature 328: 794-796. Available: , Go to ISI.://A1987J762900054.",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "El Nino/Southern Oscillation and tropical Pacific climate during the last millennium",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Cobb",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Charles",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Cheng",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Edwards",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Nature",
+                "volume": "424",
+                "issue": "",
+                "pages": "271--276",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Cobb KM, Charles CD, Cheng H, Edwards RL (2003) El Nino/Southern Oscillation and tropical Pacific climate during the last millennium. Nature 424: 271-276. Available: http://www.ncbi.nlm.nih.gov/pubmed/12867972.",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "Working Group I. (2007) Climate change 2007: the physical science basis: contribution of Working Group I to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change. Cambridge",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Solomon",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Solomon S, Intergovernmental Panel on Climate Change., Intergovernmental Panel on Climate Change. Working Group I. (2007) Climate change 2007: the physical science basis: contribution of Working Group I to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change. Cambridge; New York: Cambridge University Press. Available: http://www. loc.gov/catdir/enhancements/fy0806/2007282362-d.html.",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "SolexaQA: At-a-glance quality assessment of Illumina second-generation sequencing data",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Cox",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Peterson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Biggs",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "BMC Bioinformatics",
+                "volume": "11",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Cox MP, Peterson DA, Biggs PJ (2010) SolexaQA: At-a-glance quality assessment of Illumina second-generation sequencing data. BMC Bioinformatics 11: 485. Available: http://www.ncbi.nlm.nih.gov/pubmed/20875133.",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "ConDeTri-a content dependent read trimmer for Illumina data",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Smeds",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Kunstner",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "PLoS One",
+                "volume": "6",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Smeds L, Kunstner A (2011) ConDeTri-a content dependent read trimmer for Illumina data. PLoS One 6: e26314. Available: http://www.ncbi.nlm.nih.gov/ pubmed/22039460.",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "Velvet: algorithms for de novo short read assembly using de Bruijn graphs",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Zerbino",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Birney",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "?cmd = Retrieve&db = PubMed&dopt = Citation& list_uids = 18349386",
+                "volume": "18",
+                "issue": "",
+                "pages": "821--829",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Zerbino DR, Birney E (2008) Velvet: algorithms for de novo short read assembly using de Bruijn graphs. Genome Res 18: 821-829. Available: http://www.ncbi. nlm.nih.gov/entrez/query.fcgi?cmd = Retrieve&db = PubMed&dopt = Citation& list_uids = 18349386.",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "Oases: robust de novo RNA-seq assembly across the dynamic range of expression levels",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Schulz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Zerbino",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Vingron",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Birney",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "?cmd = Retrieve&db = PubMed&dopt = Citation&list_uids = 22368243",
+                "volume": "28",
+                "issue": "",
+                "pages": "1086--1092",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Schulz MH, Zerbino DR, Vingron M, Birney E (2012) Oases: robust de novo RNA-seq assembly across the dynamic range of expression levels. Bioinformatics 28: 1086-1092. Available: http://www.ncbi.nlm.nih.gov/entrez/query. fcgi?cmd = Retrieve&db = PubMed&dopt = Citation&list_uids = 22368243.",
+                "links": null
+            },
+            "BIBREF35": {
+                "ref_id": "b35",
+                "title": "Cd-hit: a fast program for clustering and comparing large sets of protein or nucleotide sequences",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Li",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Godzik",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Bioinformatics",
+                "volume": "22",
+                "issue": "",
+                "pages": "1658--1659",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Li W, Godzik A (2006) Cd-hit: a fast program for clustering and comparing large sets of protein or nucleotide sequences. Bioinformatics 22: 1658-1659. Available: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd = Retrieve&db = PubMed& dopt = Citation&list_uids = 16731699.",
+                "links": null
+            },
+            "BIBREF36": {
+                "ref_id": "b36",
+                "title": "Ongoing and future developments at the Universal Protein Resource",
+                "authors": [
+                    {
+                        "first": "U",
+                        "middle": [],
+                        "last": "Consortium",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Nucleic Acids Res",
+                "volume": "39",
+                "issue": "",
+                "pages": "214--223",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Consortium U (2011) Ongoing and future developments at the Universal Protein Resource. Nucleic Acids Res 39: D214-9. Available: http://www.ncbi.nlm.nih. gov/pubmed/21051339.",
+                "links": null
+            },
+            "BIBREF37": {
+                "ref_id": "b37",
+                "title": "Gene ontology: tool for the unification of biology. The Gene Ontology Consortium",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Ashburner",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Ball",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Blake",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Botstein",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Butler",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Nat Genet",
+                "volume": "25",
+                "issue": "",
+                "pages": "25--29",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ashburner M, Ball CA, Blake JA, Botstein D, Butler H, et al. (2000) Gene ontology: tool for the unification of biology. The Gene Ontology Consortium. Nat Genet 25: 25-29. Available: http://www.ncbi.nlm.nih.gov/pubmed/ 10802651.",
+                "links": null
+            },
+            "BIBREF38": {
+                "ref_id": "b38",
+                "title": "KAAS: an automatic genome annotation and pathway reconstruction server",
+                "authors": [
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Moriya",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Itoh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Okuda",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Yoshizawa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Kanehisa",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Nucleic Acids Res",
+                "volume": "35",
+                "issue": "",
+                "pages": "182--187",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Moriya Y, Itoh M, Okuda S, Yoshizawa AC, Kanehisa M (2007) KAAS: an automatic genome annotation and pathway reconstruction server. Nucleic Acids Res 35: W182-5. Available: http://www.ncbi.nlm.nih.gov/pubmed/17526522.",
+                "links": null
+            },
+            "BIBREF39": {
+                "ref_id": "b39",
+                "title": "Pfam: clans, web tools and services",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Finn",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Mistry",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Schuster-Bockler",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Griffiths-Jones",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "Hollich",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Nucleic Acids Res",
+                "volume": "34",
+                "issue": "",
+                "pages": "247--51",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Finn RD, Mistry J, Schuster-Bockler B, Griffiths-Jones S, Hollich V, et al. (2006) Pfam: clans, web tools and services. Nucleic Acids Res 34: D247-51. Available: http://www.ncbi.nlm.nih.gov/pubmed/16381856.",
+                "links": null
+            },
+            "BIBREF40": {
+                "ref_id": "b40",
+                "title": "Profile hidden Markov models",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Eddy",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Bioinformatics",
+                "volume": "14",
+                "issue": "",
+                "pages": "755--763",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Eddy SR (1998) Profile hidden Markov models. Bioinformatics 14: 755-763. Available: http://www.ncbi.nlm.nih.gov/pubmed/9918945.",
+                "links": null
+            },
+            "BIBREF41": {
+                "ref_id": "b41",
+                "title": "Domain shuffling and the evolution of vertebrates",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Kawashima",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Kawashima",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Tanaka",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Murai",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Yoneda",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Genome Res",
+                "volume": "19",
+                "issue": "",
+                "pages": "1393--1403",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kawashima T, Kawashima S, Tanaka C, Murai M, Yoneda M, et al. (2009) Domain shuffling and the evolution of vertebrates. Genome Res 19: 1393-1403. Available: http://www.ncbi.nlm.nih.gov/pubmed/19443856.",
+                "links": null
+            },
+            "BIBREF42": {
+                "ref_id": "b42",
+                "title": "Fast and accurate short read alignment with Burrows-Wheeler transform",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Li",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Durbin",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Bioinformatics",
+                "volume": "25",
+                "issue": "",
+                "pages": "1754--1760",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Li H, Durbin R (2009) Fast and accurate short read alignment with Burrows- Wheeler transform. Bioinformatics 25: 1754-1760. Available: http://www.ncbi. nlm.nih.gov/pubmed/19451168.",
+                "links": null
+            },
+            "BIBREF43": {
+                "ref_id": "b43",
+                "title": "The Sequence Alignment/Map format and SAMtools",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Li",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Handsaker",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Wysoker",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Fennell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Ruan",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Bioinformatics",
+                "volume": "25",
+                "issue": "",
+                "pages": "2078--2079",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Li H, Handsaker B, Wysoker A, Fennell T, Ruan J, et al. (2009) The Sequence Alignment/Map format and SAMtools. Bioinformatics 25: 2078-2079. Available: http://www.ncbi.nlm.nih.gov/pubmed/19505943.",
+                "links": null
+            },
+            "BIBREF44": {
+                "ref_id": "b44",
+                "title": "One-year survey of a single Micronesian reef reveals extraordinarily rich diversity of Symbiodinium types in soritid foraminifera",
+                "authors": [
+                    {
+                        "first": "X",
+                        "middle": [],
+                        "last": "Pochon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Garcia-Cuetos",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Baker",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Castella",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Pawlowski",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Coral Reefs",
+                "volume": "26",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pochon X, Garcia-Cuetos L, Baker AC, Castella E, Pawlowski J (2007) One-year survey of a single Micronesian reef reveals extraordinarily rich diversity of Symbiodinium types in soritid foraminifera. Coral Reefs 26: 867-882. Available: ,Go to ISI.://000251579300016.",
+                "links": null
+            },
+            "BIBREF45": {
+                "ref_id": "b45",
+                "title": "Consed: a graphical tool for sequence finishing",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Gordon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Abajian",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Green",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Genome Res",
+                "volume": "8",
+                "issue": "",
+                "pages": "195--202",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Gordon D, Abajian C, Green P (1998) Consed: a graphical tool for sequence finishing. Genome Res 8: 195-202. Available: http://www.ncbi.nlm.nih.gov/ pubmed/9521923.",
+                "links": null
+            },
+            "BIBREF46": {
+                "ref_id": "b46",
+                "title": "Sox genes in the coral Acropora millepora: divergent expression patterns reflect differences in developmental mechanisms within the Anthozoa",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Shinzato",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Iguchi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Hayward",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "U",
+                        "middle": [],
+                        "last": "Technau",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Ball",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "?cmd = Retrieve&db = PubMed&dopt = Citation&list_uids =",
+                "volume": "8",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Shinzato C, Iguchi A, Hayward DC, Technau U, Ball EE, et al. (2008) Sox genes in the coral Acropora millepora: divergent expression patterns reflect differences in developmental mechanisms within the Anthozoa. BMC Evol Biol 8: 311. Available: http://www.ncbi.nlm.nih.gov/entrez/query. fcgi?cmd = Retrieve&db = PubMed&dopt = Citation&list_uids = 19014479.",
+                "links": null
+            },
+            "BIBREF47": {
+                "ref_id": "b47",
+                "title": "Components of both major axial patterning systems of the Bilateria are differentially expressed along the primary axis of a ''radiate'' animal, the anthozoan cnidarian Acropora millepora",
+                "authors": [
+                    {
+                        "first": "De",
+                        "middle": [],
+                        "last": "Jong",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Hislop",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Hayward",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Reece-Hoyes",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Pontynen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Dev Biol",
+                "volume": "298",
+                "issue": "",
+                "pages": "632--643",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "De Jong DM, Hislop NR, Hayward DC, Reece-Hoyes JS, Pontynen PC, et al. (2006) Components of both major axial patterning systems of the Bilateria are differentially expressed along the primary axis of a ''radiate'' animal, the anthozoan cnidarian Acropora millepora. Dev Biol 298: 632-643. Available: , Go to ISI.://000241180300024.",
+                "links": null
+            },
+            "BIBREF48": {
+                "ref_id": "b48",
+                "title": "Unexpected complexity of the Wnt gene family in a sea anemone",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Kusserow",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Pang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Sturm",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Hrouda",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Lentfer",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Nature",
+                "volume": "433",
+                "issue": "",
+                "pages": "156--160",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kusserow A, Pang K, Sturm C, Hrouda M, Lentfer J, et al. (2005) Unexpected complexity of the Wnt gene family in a sea anemone. Nature 433: 156-160. Available: http://www.ncbi.nlm.nih.gov/pubmed/15650739.",
+                "links": null
+            },
+            "BIBREF49": {
+                "ref_id": "b49",
+                "title": "Coral Comparative Genomics Reveal Expanded Hox Cluster in the Cnidarian-Bilaterian Ancestor",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "Q"
+                        ],
+                        "last": "Dubuc",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Ryan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Shinzato",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Satoh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "Q"
+                        ],
+                        "last": "Martindale",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Integr Comp Biol",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Dubuc TQ, Ryan JF, Shinzato C, Satoh N, Martindale MQ (2012) Coral Comparative Genomics Reveal Expanded Hox Cluster in the Cnidarian- Bilaterian Ancestor. Integr Comp Biol. Available: http://www.ncbi.nlm.nih. gov/entrez/query.fcgi?cmd = Retrieve&db = PubMed&dopt = Citation&list_ uids = 22767488.",
+                "links": null
+            },
+            "BIBREF50": {
+                "ref_id": "b50",
+                "title": "Origin and diversification of the basic helix-loop-helix gene family in metazoans: insights from comparative genomics",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Simionato",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "Ledent",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Richards",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Thomas-Chollier",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Kerner",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "BMC Evol Biol",
+                "volume": "7",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Simionato E, Ledent V, Richards G, Thomas-Chollier M, Kerner P, et al. (2007) Origin and diversification of the basic helix-loop-helix gene family in metazoans: insights from comparative genomics. BMC Evol Biol 7. Available: ,Go to ISI. ://000244937200001.",
+                "links": null
+            },
+            "BIBREF51": {
+                "ref_id": "b51",
+                "title": "A new Symbiodinium clade (Dinophyceae) from soritid foraminifera in Hawai'i",
+                "authors": [
+                    {
+                        "first": "X",
+                        "middle": [],
+                        "last": "Pochon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Gates",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Mol Phylogenet Evol",
+                "volume": "56",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pochon X, Gates RD (2010) A new Symbiodinium clade (Dinophyceae) from soritid foraminifera in Hawai'i. Mol Phylogenet Evol 56: 492-497. Available: , Go to ISI.://000278589500047.",
+                "links": null
+            },
+            "BIBREF52": {
+                "ref_id": "b52",
+                "title": "Variation in Symbiodinium ITS2 sequence assemblages among coral colonies",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Stat",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Bird",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "X",
+                        "middle": [],
+                        "last": "Pochon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Chasqui",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Chauka",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "PLoS One",
+                "volume": "6",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Stat M, Bird CE, Pochon X, Chasqui L, Chauka LJ, et al. (2011) Variation in Symbiodinium ITS2 sequence assemblages among coral colonies. PLoS One 6: e15854. Available: http://www.ncbi.nlm.nih.gov/pubmed/21246044.",
+                "links": null
+            },
+            "BIBREF53": {
+                "ref_id": "b53",
+                "title": "Low symbiont diversity in southern Great Barrier Reef corals, relative to those of the Caribbean",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Lajeunesse",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Wkw",
+                        "middle": [],
+                        "last": "Loh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Van Woesik",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Hoegh-Guldberg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Schmidt",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Limnol Oceanogr",
+                "volume": "48",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "LaJeunesse TC, Loh WKW, van Woesik R, Hoegh-Guldberg O, Schmidt GW, et al. (2003) Low symbiont diversity in southern Great Barrier Reef corals, relative to those of the Caribbean. Limnol Oceanogr 48: 2046-2054. Available: ,Go to ISI.://000185433700030.",
+                "links": null
+            },
+            "BIBREF54": {
+                "ref_id": "b54",
+                "title": "What are the essential elements needed for the determination of amino acid requirements in humans?",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Furst",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Stehle",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "J\u00f4 Nutr",
+                "volume": "134",
+                "issue": "",
+                "pages": "1558--1565",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Furst P, Stehle P (2004) What are the essential elements needed for the determination of amino acid requirements in humans? J\u00f4 Nutr 134: 1558S- 1565S. Available: http://www.ncbi.nlm.nih.gov/pubmed/15173430.",
+                "links": null
+            },
+            "BIBREF55": {
+                "ref_id": "b55",
+                "title": "Genome sequence of the endocellular bacterial symbiont of aphids Buchnera sp",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Shigenobu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Watanabe",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Hattori",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Sakaki",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Ishikawa",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Nature",
+                "volume": "407",
+                "issue": "",
+                "pages": "81--86",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Shigenobu S, Watanabe H, Hattori M, Sakaki Y, Ishikawa H (2000) Genome sequence of the endocellular bacterial symbiont of aphids Buchnera sp. APS. Nature 407: 81-86. Available: http://www.ncbi.nlm.nih.gov/pubmed/ 10993077.",
+                "links": null
+            },
+            "BIBREF56": {
+                "ref_id": "b56",
+                "title": "Amino acid synthesis in the symbiotic sea anemone Aiptasia pulchella",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Swanson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Hoegh-Guldberg",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Mar Biol",
+                "volume": "131",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Swanson R, Hoegh-Guldberg O (1998) Amino acid synthesis in the symbiotic sea anemone Aiptasia pulchella. Mar Biol 131: 83-93. Available: ,Go to ISI. ://000073613500010.",
+                "links": null
+            },
+            "BIBREF57": {
+                "ref_id": "b57",
+                "title": "Essential amino acid synthesis and nitrogen recycling in an alga-invertebrate symbiosis",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Wang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Douglas",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "Mar Biol",
+                "volume": "135",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wang JT, Douglas AE (1999) Essential amino acid synthesis and nitrogen recycling in an alga-invertebrate symbiosis. Mar Biol 135: 219-222. Available: , Go to ISI.://000083839200002.",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "uris": null,
+                "text": "The scleractinian coral, Porites australiensis. (A) A P. australiensis colony used in this study. The diameter is approximately 20 cm. (B) High magnification photo of the P. australiensis. Dot circle indicates one polyp and tiny brown particles are symbiotic algae, dinoflagellates, Symbiodinium. doi:10.1371/journal.pone.0085182.g001",
+                "num": null,
+                "type_str": "figure"
+            },
+            "FIGREF1": {
+                "uris": null,
+                "text": "Flowchart of transcriptome sequencing, assembly, and separation of host or symbiont sequences. doi:10.1371/journal.pone.0085182.g002",
+                "num": null,
+                "type_str": "figure"
+            },
+            "FIGREF2": {
+                "uris": null,
+                "text": "Analyses of the Porites australiensis ''holobiont'' transcriptome assembly. (A) Length distribution of transcripts in the transcriptome assembly. Yellow boxes indicate all contigs. Blue and brown lines indicate Porites contigs and Symbiodinium contigs, respectively. (B) Distribution of GC percentages of the assembled contigs. Black line: all contigs, blue dot line: Porites contigs, brown dot line: Symbiodinium contigs. (C) Comparison of proportions of Symbiodinium sequences between the scleractinian coral transcriptome assemblies. Each sequence was aligned to A. digitifera and S. minutum genome sequences by BLASTN (1e 25 ). Note that the high percentage of A. digitifera sequences shared with the A. millepora and A. palmata datasets occur because these three corals are congeneric. doi:10.1371/journal.pone.0085182.g003",
+                "num": null,
+                "type_str": "figure"
+            },
+            "FIGREF3": {
+                "uris": null,
+                "text": "[0.4%, Shinzato and Mungpakdee, unpublished data], Nematostella [0.65%, 8], and Hydra [0.69%, 9].",
+                "num": null,
+                "type_str": "figure"
+            },
+            "FIGREF4": {
+                "uris": null,
+                "text": "Amino acid metabolism in Porites holobiont. (A) Schematic drawing of amino acid exchange between a coral polyp and symbiotic Symbiodinium. (B) Summary of amino acid biosynthesic capabilities of Porites (host) and Symbiodinium (symbiont) inferred from KEGG annotation. Numbers indicate how many amino acids can be produced by Porites or Symbiodinium, and numbers in blankets show numbers of essential amino acids. Blue circle indicates Porites and brown circle indicates Symbiodinium, respectively. (C) Detail annotations of amino acid biosynthetic pathways in the Porites holobiont. Arrows indicate enzymes involved in each amino acid biosynthetic pathway. Enzymes that are not annotated as Porites or Symbiodinium are shown with a black line, and those not detected in the transcriptome dataset are shown with dotted lines. Blue indicates enzymes identified in Porites contigs. Brown indicates enzymes detected in Symbiodinium contigs. Brown arrows boxed in blue lines indicate enzymes detected in both Porites and Symbiodinium.Amino acids that can be produced by Symbiodinium are boxed in brown and those that can be produced by Porites are boxed in blue, respectively. Amino acids boxed in dotted lines indicate that biosynthetic capabilities are not clear. doi:10.1371/journal.pone.0085182.g004",
+                "num": null,
+                "type_str": "figure"
+            },
+            "FIGREF5": {
+                "uris": null,
+                "text": "S1 Analysis of GO term enrichment of the ''biological process'' category for Porites and Symbiodinium contigs. GO terms containing at least 100 sequences are shown. The Y-axis represents proportions of contigs in each category of GO-assigned contigs (Porites: 9806, Symbiodinium: 9147). Blue bars indicate Porites contigs. Red bars indicate Symbiodinium contigs. (PDF)Figure S2 Analysis of GO term enrichment of the ''cellular component'' category for Porites and Symbiodinium contigs. GO terms containing at least 100 sequences are shown. The Y-axis represents proportions of contigs in each category of GO-assigned contigs (Porites: 9806, Symbiodinium: 9147). Blue bars indicate Porites contigs. Red bars indicate Symbiodinium contigs. (PDF) Figure S3 Analysis of GO term enrichment of the ''molecular function'' category for Porites and Symbiodinium contigs. GO terms containing at least 100 sequences are shown. The Y-axis represents proportions of contigs in each category of GO-assigned contigs (Porites: 9806, Symbiodinium: 9147). Blue bars indicate Porites contigs. Red bars indicate Symbiodinium contigs. (PDF) Table S1 Summary of the sequencing data. (PDF) Table S2 Summary of published anthozoan transcriptome assemblies. References. 1. Moya A, Huisman L, Ball EE, Hayward DC, Grasso LC, Chua CM, Woo HN, Gattuso JP, Foret S, Miller DJ: Whole transcriptome analysis of the coral Acropora millepora reveals complex responses to CO -driven acidification during the initiation of calcification. Mol Ecol 2012, 21:2440-2454, 2. Polato NR, Vera JC, Baums IB: Gene discovery in the threatened elkhorn coral: 454 sequencing of the Acropora palmata transcriptome. PLoS One 2011, 6:e28634. 3. Traylor-Knowles N, Granger BR, Lubinski TJ, Parikh JR, Garamszegi S, Xia Y, Marto JA, Kaufman L, Finnerty JR: Production of a reference transcriptome and transcriptomic database (PocilloporaBase) for the cauliflower coral, Pocillopora damicornis. BMC Genomics 2011, 12:585. 4. Lehnert EM, Burriesci MS, Pringle JR: Developing the anemone Aiptasia as a tractable model for cnidarian-dinoflagellate symbiosis: the transcriptome of aposymbiotic A. pallida. BMC Genomics 2012, 13:271. (PDF) Table S3 Results of nucleotide sequence alignment of the assembled sequences with different e-value settings of BLASTN against Acropora digitifera and Symbiodinium minutum genome sequences. We selected e-value cutoff as 1e 24 in this study as the number of Porites contigs is the largest. (PDF) Table S4 Comparison of the number of genes with transcription factor-related domains of Porites australiensis, Acropora digitifera, Nematostella vectensis and Hydra magnipapillata. (PDF) Table S5 Comparison of the number of genes with signaling molecule-related domains of Porites australiensis, Acropora digitifera, Nematostella vectensis and Hydra magnipapillata. (PDF) File S1 List of Porites contigs (tab-separated text; contig names and NCBI accessions). (ZIP) File S2 List of Symbiodinium contigs (tab-separated text; contig names and NCBI accessions). (ZIP)",
+                "num": null,
+                "type_str": "figure"
+            },
+            "TABREF0": {
+                "text": "Summary of the Porites australiensis ''holobiont'' transcriptome assembly.",
+                "num": null,
+                "content": "<table><tr><td>Number of unique sequences</td><td>74,997</td></tr><tr><td>Total basepair (Mbp)</td><td>94.73</td></tr><tr><td>Average (bp)</td><td>1,263</td></tr><tr><td>N50 size (bp)</td><td>2,037</td></tr><tr><td>Maximum contig length (bp)</td><td>54,796</td></tr><tr><td>Number of Porites cotigs</td><td>26,658 (35.5%)</td></tr><tr><td>Total basepair (Mbp)</td><td>44.57</td></tr><tr><td>Average (bp)</td><td>1,672</td></tr><tr><td>N50 size (bp)</td><td>2,960</td></tr><tr><td>Maximum contig length (bp)</td><td>44,581</td></tr><tr><td>Number of Symbiodinium contigs</td><td>26,627 (35.5%)</td></tr><tr><td>Total basepair (Mbp)</td><td>32.01</td></tr><tr><td>Average (bp)</td><td>1,202</td></tr><tr><td>N50 size (bp)</td><td>1,571</td></tr><tr><td>Maximum contig length (bp)</td><td>12,901</td></tr></table>",
+                "type_str": "table"
+            },
+            "TABREF1": {
+                "text": "Summary of annotations of the transcriptome assembly. IDs in the A. digitifera proteome using the KAAS BBH method. A comparable number of KO IDs might indicate that, although RNA-seq was performed using a single RNA library, the majority of P. australiensis genes were successfully recovered in the transcriptome assembly. However it could be possible that those numbers in Porites contigs are overestimated due to incomplete clustering of transcript variants in the assembly.",
+                "num": null,
+                "content": "<table><tr><td/><td>Number of annotated</td><td>genes</td><td>7,452 (9.9%)</td><td>4,264 (16%)</td><td>1,854 (15.3%)</td></tr><tr><td>KEGG</td><td/><td>Number of KO</td><td>5,001</td><td>3,633</td><td>1,352</td></tr><tr><td/><td>Number of annotated</td><td>genes</td><td>30,002 (40%)</td><td>11,857 (44.5%)</td><td>13,513 (50.7%)</td></tr><tr><td>Pfam</td><td/><td>Number of domain</td><td>6,081</td><td>4,528</td><td>3,569</td></tr><tr><td>Number of hit genes by BLAST search</td><td>NCBI NR Swiss-Prot</td><td>(BLASTX, 1e25) (BLASTX, 1e25)</td><td>33,935 (45.2%) 25,893 (34.5%)</td><td>14,206 (53.3%) 11,582 (43.4%)</td><td>13,813 (62.4%) 10,240 (38.5%)</td></tr><tr><td>Number of sequence</td><td/><td/><td>All 74,997</td><td>Porites contigs 26,658</td><td>Symbiodinium contigs 26,627</td><td>doi:10.1371/journal.pone.0085182.t002</td></tr></table>",
+                "type_str": "table"
+            },
+            "TABREF2": {
+                "text": "5). We detected comparable numbers of transcription factors and signaling molecules among the Porites contigs to what we previously found in the A. digitifera genome [10], e.g. Porites: 89 homeobox, 24 HMG box and 15 wnt genes; A. digitifera: 97 homeobox, 26 HMG box and 15 wnt genes (Table S4, 5). Next we identified orthologous gene pairs between Porites contigs and Nematostella by mutual-best-hit blast analysis; 7,825 pairs were detected. The similarities of the A. digitifera and Nematostella genomes resulted in 8,416 orthologous pairs, suggesting that Porites contigs represent the majority of the gene repertoire for Porites australiensis. 6,324 orthologous genes out of 7,825 have more than 80% alignment coverage across Nematostella orthologs, suggesting that most of the Porites contigs recover full-length open reading frames. On the other hand, 3,569 Pfam domains and 1,352 KO IDs were detected among Symbiodinium contigs (Table\u00f4 2), while 4,035 Pfam domains and 2,622 KO IDs were detected in the S. minutum gene model",
+                "num": null,
+                "content": "<table/>",
+                "type_str": "table"
+            }
+        }
+    }
+}

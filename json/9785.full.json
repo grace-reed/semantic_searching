@@ -1,0 +1,666 @@
+{
+    "paper_id": "9785",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-09-13T19:38:43.078376Z"
+    },
+    "title": "A genetically encoded fluorescent amino acid",
+    "authors": [
+        {
+            "first": "Daniel",
+            "middle": [],
+            "last": "Summerer",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "The Scripps Research Institute",
+                "location": {
+                    "addrLine": "10550 North Torrey Pines Road, La Jolla",
+                    "postCode": "SR202, 92037",
+                    "region": "CA"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Shuo",
+            "middle": [],
+            "last": "Chen",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "The Scripps Research Institute",
+                "location": {
+                    "addrLine": "10550 North Torrey Pines Road, La Jolla",
+                    "postCode": "SR202, 92037",
+                    "region": "CA"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Ning",
+            "middle": [],
+            "last": "Wu",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "Harvard Medical School",
+                "location": {
+                    "addrLine": "77 Avenue Louis Pasteur",
+                    "postCode": "02115",
+                    "settlement": "Boston",
+                    "region": "MA"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Alexander",
+            "middle": [],
+            "last": "Deiters",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "North Carolina State University",
+                "location": {
+                    "addrLine": "Campus",
+                    "postBox": "Box 8240",
+                    "postCode": "27695",
+                    "settlement": "Raleigh",
+                    "region": "NC"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Jason",
+            "middle": [
+                "W"
+            ],
+            "last": "Chin",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "Division of Protein and Nucleic Acid Chemistry, Medical Research Council Laboratory of Molecular Biology",
+                "institution": "",
+                "location": {
+                    "addrLine": "Hills Road, May 12",
+                    "postCode": "CB2 2QH, 2006",
+                    "settlement": "Cambridge",
+                    "country": "United Kingdom"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Peter",
+            "middle": [
+                "G"
+            ],
+            "last": "Schultz",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "The Scripps Research Institute",
+                "location": {
+                    "addrLine": "10550 North Torrey Pines Road, La Jolla",
+                    "postCode": "SR202, 92037",
+                    "region": "CA"
+                }
+            },
+            "email": "schultz@scripps.edu"
+        }
+    ],
+    "year": "",
+    "venue": null,
+    "identifiers": {},
+    "abstract": "The ability to introduce fluorophores selectively into proteins provides a powerful tool to study protein structure, dynamics, localization, and biomolecular interactions both in vitro and in vivo. Here, we report a strategy for the selective and efficient biosynthetic incorporation of a low-molecular-weight fluorophore into proteins at defined sites. The fluorescent amino acid 2-amino-3-(5-(dimethylamino)naphthalene-1-sulfonamide)propanoic acid (dansylalanine) was genetically encoded in Saccharomyces cerevisiae by using an amber nonsense codon and corresponding orthogonal tRNA\u035eaminoacyl-tRNA synthetase pair. This environmentally sensitive fluorophore was selectively introduced into human superoxide dismutase and used to monitor unfolding of the protein in the presence of guanidinium chloride. The strategy described here should be applicable to a number of different fluorophores in both prokaryotic and eukaryotic organisms, and it should facilitate both biochemical and cellular studies of protein structure and function. molecular evolution \u0349 fluorescent probes \u0349 genetic code expansion \u0349 protein design \u0349 unnatural amino acids Conflict of interest statement: No conflicts declared.",
+    "pdf_parse": {
+        "paper_id": "9785",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "The ability to introduce fluorophores selectively into proteins provides a powerful tool to study protein structure, dynamics, localization, and biomolecular interactions both in vitro and in vivo. Here, we report a strategy for the selective and efficient biosynthetic incorporation of a low-molecular-weight fluorophore into proteins at defined sites. The fluorescent amino acid 2-amino-3-(5-(dimethylamino)naphthalene-1-sulfonamide)propanoic acid (dansylalanine) was genetically encoded in Saccharomyces cerevisiae by using an amber nonsense codon and corresponding orthogonal tRNA\u035eaminoacyl-tRNA synthetase pair. This environmentally sensitive fluorophore was selectively introduced into human superoxide dismutase and used to monitor unfolding of the protein in the presence of guanidinium chloride. The strategy described here should be applicable to a number of different fluorophores in both prokaryotic and eukaryotic organisms, and it should facilitate both biochemical and cellular studies of protein structure and function. molecular evolution \u0349 fluorescent probes \u0349 genetic code expansion \u0349 protein design \u0349 unnatural amino acids Conflict of interest statement: No conflicts declared.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "F luorescently labeled proteins are useful in a large number of bioanalytical applications, including in vivo imaging, highthroughput screening, diagnostics, proteomics, and singlebiomolecule spectroscopy (1) (2) (3) (4) (5) . Such applications have been greatly facilitated by the ability to label the protein of interest genetically with fluorescent proteins from jellyfish or coral (6) (7) (8) . This method overcomes many of the difficulties associated with chemical modification, including yield, selectivity, and the need to modify proteins in vitro (9) . However, the size of naturally occurring fluorescent proteins (\u03fe20 kDa) limits the resolution of distance measurements, and in many cases it represents a significant structural perturbation to the protein under study. Moreover, the fluorophore typically can be introduced only at the C or N terminus of a protein, and it is relatively insensitive to the local environment.",
+                "cite_spans": [
+                    {
+                        "start": 205,
+                        "end": 208,
+                        "text": "(1)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 209,
+                        "end": 212,
+                        "text": "(2)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 213,
+                        "end": 216,
+                        "text": "(3)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 217,
+                        "end": 220,
+                        "text": "(4)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 221,
+                        "end": 224,
+                        "text": "(5)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 385,
+                        "end": 388,
+                        "text": "(6)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 389,
+                        "end": 392,
+                        "text": "(7)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 393,
+                        "end": 396,
+                        "text": "(8)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 556,
+                        "end": 559,
+                        "text": "(9)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "The use of small synthetic dyes allows investigation of local changes in distance or polarity with high precision and without significant structural perturbation of the protein. Nevertheless, most reactive dyes must be introduced into the protein in vitro, they exhibit relatively low chemoselectivity, and they are often limited to accessible positions at the protein surface (9) . Moreover, mutagenesis of the target protein is often required to generate unique sites for derivatization. Recently, strategies have been developed to label proteins with small fluorescent dyes in vivo. One of these methods makes use of cell-permeant, biarsenic dyes that bind to their target protein through two arsenic-dithiol interactions (10) . Another approach exploits a biotin ligase that recognizes a hydrazide-reactive ketone substrate that can be attached to a 15-mer acceptor peptide and subsequently linked to a hydrazide-derivatized fluorophore (11) . It has also been shown that a highly promiscuous O 6alkylguanine-DNA-alkyltransferase, fused to a protein of interest, can be labeled by fluorescent O 6 -benzylguanosine derivatives (12) . However, all of these approaches rely on the introduction of specific dye-acceptor motifs, peptides or proteins that restrict the sites of modification and can introduce undesired structural perturbations into the protein to be analyzed. Finally, in vitro mutagenesis with suppressor tRNAs chemically modified with fluorescent amino acids can be used to label proteins with fluorescent probes site-specifically, but this method is largely limited to in vitro systems affording small quantities of proteins (13) (14) (15) (16) .",
+                "cite_spans": [
+                    {
+                        "start": 377,
+                        "end": 380,
+                        "text": "(9)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 725,
+                        "end": 729,
+                        "text": "(10)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 941,
+                        "end": 945,
+                        "text": "(11)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1130,
+                        "end": 1134,
+                        "text": "(12)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1643,
+                        "end": 1647,
+                        "text": "(13)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1648,
+                        "end": 1652,
+                        "text": "(14)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1653,
+                        "end": 1657,
+                        "text": "(15)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1658,
+                        "end": 1662,
+                        "text": "(16)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Many of the challenges involved in the generation of fluorescently labeled proteins would be overcome if one could genetically encode fluorescent amino acids directly in prokaryotic or eukaryotic organisms. To this end, we report the efficient and selective biosynthetic introduction of a dansyl-containing amino acid into proteins in Saccharomyces cerevisiae in response to the amber nonsense codon, TAG.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Dansylalanine. Dansylalanine (1, Fig. 1A ) was initially chosen by virtue of its small size; relatively large Stokes shift; and the high degree of sensitivity of its emission wavelength and quantum yield to environmental effects such as ligand binding, complex formation, conformational changes, or protein unfolding (14, 17, 18) . To encode this amino acid in yeast genetically, a previously reported Escherichia coli amber suppressor tRNA\u035eleucyl-tRNA synthetase pair (tRNA CUA Leu5 \u035eLeuRS) was used. This pair is orthogonal in yeast, i.e., tRNA CUA Leu5 does not crossreact with any of the endogenous aminoacyl-tRNA synthetases, and LeuRS does not accept any endogenous tRNAs as substrates. This pair has been used to incorporate a number of structurally diverse amino acids into proteins with high fidelities and good efficiencies in yeast (19) .",
+                "cite_spans": [
+                    {
+                        "start": 317,
+                        "end": 321,
+                        "text": "(14,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 322,
+                        "end": 325,
+                        "text": "17,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 326,
+                        "end": 329,
+                        "text": "18)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 843,
+                        "end": 847,
+                        "text": "(19)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 33,
+                        "end": 40,
+                        "text": "Fig. 1A",
+                        "ref_id": "FIGREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Selection of an Aminoacyl-tRNA Synthetase with Activity Toward",
+                "sec_num": null
+            },
+            {
+                "text": "To alter the amino acid specificity of LeuRS, a library of \u03f710 7 mutants was generated by randomizing residues Met-40, Leu-41, Tyr-499, Tyr-527, and His-537 in the leucine-binding site. These amino acids form a hydrophobic pocket around one \u2425-methyl group of leucine in the x-ray crystal structure of the homologous Thermus thermophilus LeuRS (Fig. 1B) (20) . Because this binding pocket largely consists of side-chain atoms, mutations might be expected to accommodate novel amino acid substrates without significant perturbation of the LeuRS polypeptide backbone. To evolve a LeuRS specific for 1, a selection scheme was used in which the codons for Thr-44 and Arg-110 of the gene for the transcriptional activator GAL4 were both converted to amber nonsense codons (TAG) (21) . Suppression of these amber codons in the MaV203:pGADGAL4(2TAG) yeast strain leads to production of functional full-length GAL4, which drives expression of genomic HIS3 and URA3 reporter genes. These genes complement histidine and uracil auxotrophy, allowing clones harboring active synthetase mutants that aminoacylate endogenous amino acids or 1 to be positively selected on synthetic dropout (SD) medium (containing dextrose) supplemented with 1 mM 1. Negative selection of synthetases that accept endogenous amino acids is carried out by growth on SD medium lacking 1 but containing 0.1% 5-fluoroorotic acid, which is converted into a toxic product by the URA3 gene product (21, 22) .",
+                "cite_spans": [
+                    {
+                        "start": 353,
+                        "end": 357,
+                        "text": "(20)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 772,
+                        "end": 776,
+                        "text": "(21)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1456,
+                        "end": 1460,
+                        "text": "(21,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1461,
+                        "end": 1464,
+                        "text": "22)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 343,
+                        "end": 352,
+                        "text": "(Fig. 1B)",
+                        "ref_id": "FIGREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Selection of an Aminoacyl-tRNA Synthetase with Activity Toward",
+                "sec_num": null
+            },
+            {
+                "text": "After three rounds of selection (positive, negative, positive), the growth rates of 96 clones were assayed individually on selective media in the presence or absence of 1. Three different clones were isolated that are dependent on 1 for growth. The ability of these clones to incorporate into proteins selectively was tested by suppression of an amber mutant (Trp-33 TAG) of His 6 -tagged human superoxide dismutase (hSOD-33TAG-His 6 ), and subsequent SDS\u035ePAGE analysis with either GelCode Blue (Pierce) staining or fluorescence imaging. LeuRS mutant B8 in which all five active site residues were mutated (M40A, L41N, Y499I, Y527G, and H537T) afforded the most protein in the presence of 1; however, significant amounts of hSOD-33TAG-His 6 were also produced in the absence of 1. Analysis of hSOD-33TAG-His 6 expressed in the presence of by MALDI-TOF MS indicated that leucine or isoleucine was also being incorporated at position 33.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Selection of an Aminoacyl-tRNA Synthetase with Activity Toward",
+                "sec_num": null
+            },
+            {
+                "text": "E. coli LeuRS has an editing site to enhance selectivity toward structurally similar amino acids, e.g., isoleucine, valine, and methionine. Recent structural and biochemical studies have shown that hydrolysis of a cognate activated or charged leucine at this site is prevented by steric repulsion between one or more active-site amino acids and a \u2425-methyl group of leucine. Mutation of one such residue, Thr-252, to alanine (T252A) results in efficient hydrolysis of aminoacylated tRNA Leu (23, 24) . Consequently, to enhance fidelity of LeuRSB8, the T252A mutation was introduced (LeuRSB8T252A). Analysis of the suppression efficiency with hSOD-33TAG-His revealed relatively low yields of protein in the presence of [0.29 mg\u035eliter hSOD-33TAG-His 6 harboring 1 after nickel-nitrilotriacetic acid (Ni-NTA) purification]. However, the T252A mutation resulted in a marked reduction of hSOD expression in the absence of 1. Previous studies of the suppression efficiency of an amber suppressor E. coli tRNA Tyr \u035eTyrRS pair in yeast indicated that suppressor tRNA levels can limit overall protein yields (S.C., unpublished results). To increase tRNA expression, three copies of tRNA CUA Leu5 with flanking regions from yeast suppressor tRNA SUP4, which are known to contain an RNA polymerase (pol) III promoter, were inserted into the plasmid pLeuRSB8T252A (25, 26) . These multiple tRNA genes were placed under the control of an additional phosphoglycerate kinase 1 (PGK1) promoter, resulting in an \u03f74-fold enhancement (1.11 mg\u035eliter) of expression of hSOD harboring 1 at position 33 ( Fig. 2A) . A high degree of . No peaks corresponding to incorporation of endogenous amino acids were observed. Moreover, no protein was observed in the SDS\u035epolyacrylamide gel in the absence of 1 (Fig. 2 A) .",
+                "cite_spans": [
+                    {
+                        "start": 490,
+                        "end": 494,
+                        "text": "(23,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 495,
+                        "end": 498,
+                        "text": "24)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1351,
+                        "end": 1355,
+                        "text": "(25,",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 1356,
+                        "end": 1359,
+                        "text": "26)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 1581,
+                        "end": 1589,
+                        "text": "Fig. 2A)",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 1776,
+                        "end": 1786,
+                        "text": "(Fig. 2 A)",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Redesign of the Editing Domain and Enhancement of tRNA Expression.",
+                "sec_num": null
+            },
+            {
+                "text": "ing. To demonstrate the utility of dansylamino acid in studies of protein structure and function, it was used as an environmentally sensitive reporter of protein unfolding (13, 17, 18) . hSOD has a Greek-key \u2424-barrel fold with an external loop and short helical regions at one barrel face near the active site, which contains the copper and zinc ions (27) . Loop IV of this region is additionally connected by a disulfide bond (Cys-57 and Cys-146) to \u2424-strand 8 of the barrel (Fig. 3) . Monomeric hSOD has been shown to undergo reversible and complete unfolding in the concentration range 0-3.5 M guanidinium chloride (GdmCl) (28) . To analyze local changes in the barrel core and outer rim regions during unfolding, 1 was incorporated at two different positions, Gln-16 and Trp-33 ( Fig. 3) . Position 33 lies on the barrel at the center of \u2424-strand 3, the first N-terminal strand of Greek-key 1 (27) ; surface residue Gln-16 forms the N-terminal tip of \u2424-strand 2 adjacent to Greek-key \u2424-strand 3. When 1 was incorporated at positions 16 and 33 in hSOD, the fluorescence intensity increased slightly at both positions (11% and 3% for positions 16 and 33, respectively). The max of 1 also blueshifted compared with the free amino acid (\u03f714 nm and 27 nm for positions 16 and 33, respectively). These spectral changes likely reflect partial shielding by surface side chains or dielectric differences between bulk water and the protein hydration shell. GdmCl denaturation only weakly affected the emission intensity and wavelength of the Gln-16 3 1 mutant ( Fig. 4 A, C, and D) . However, increasing the GdmCl concentration from 0 to 5 M caused a significant redshift in the max (528-544 nm) and decrease in the fluorescence intensity of the Trp-33 1 mutant (Fig 4 B-D) . The most striking effects were observed at low GdmCl concentrations (0-1.5 M) followed by moderate changes from 1.5 M to 3.5 M GdmCl and a relatively small change between 3.5 M and 5 M GdmCl (Fig. 4) . These results suggest that relatively large environmental changes occur at position 33 during protein unfolding. Previous NMR studies have revealed transitions from the native state to intermediate states of similar structure at 0-0.5 M GdmCl and a subsequent complete transition to an unfolded state at 3.5 M. At 2 M GdmCl, the intermediate states and the unfolded state are present in a 1:1 ratio, whereas only the unfolded state is present at \u03fe3.5 M GdmCl. Changes in 1 H- 15 N heteronuclear single-quantum correlation NMR spectra indicate that the loop regions and \u2424-strand 3 are the first to be affected at low concentrations (0.5 M), whereas other \u2424-strands are affected only at higher concentrations (28) . The observed spectral response of 1 at position 33 corresponds well with these findings. In contrast, the fluorescence of mutant protein with 1 at position 16 did not show a large response to unfolding, indicating low changes in local dielectric during structural transitions near this side chain. Removal of copper and zinc ions or reduction of the disulfide bridge resulted in similar unfolding behavior at sites 16 and 33. These studies demonstrate that unnatural amino acid 1 provides a useful probe of structural transitions at defined sites in proteins.",
+                "cite_spans": [
+                    {
+                        "start": 172,
+                        "end": 176,
+                        "text": "(13,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 177,
+                        "end": 180,
+                        "text": "17,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 181,
+                        "end": 184,
+                        "text": "18)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 351,
+                        "end": 355,
+                        "text": "(27)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 626,
+                        "end": 630,
+                        "text": "(28)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 897,
+                        "end": 901,
+                        "text": "(27)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2448,
+                        "end": 2450,
+                        "text": "15",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2679,
+                        "end": 2683,
+                        "text": "(28)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 476,
+                        "end": 484,
+                        "text": "(Fig. 3)",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 784,
+                        "end": 791,
+                        "text": "Fig. 3)",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 1556,
+                        "end": 1575,
+                        "text": "Fig. 4 A, C, and D)",
+                        "ref_id": "FIGREF3"
+                    },
+                    {
+                        "start": 1756,
+                        "end": 1767,
+                        "text": "(Fig 4 B-D)",
+                        "ref_id": "FIGREF3"
+                    },
+                    {
+                        "start": 1961,
+                        "end": 1969,
+                        "text": "(Fig. 4)",
+                        "ref_id": "FIGREF3"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Use of Genetically Encoded Dansylalanine as Probe of Protein Unfold-",
+                "sec_num": null
+            },
+            {
+                "text": "In summary, we have shown that a fluorescent amino acid can be incorporated into proteins in yeast at genetically specified sites in good yield and with high fidelity in response to the nonsense codon TAG. This amino acid should be useful for a large range of in vitro studies of protein structure, function, and bimolecular interactions because of its relatively small size and sensitivity to local environment. For example, it should be possible to use 1 to report directly ligand-antibody-binding interactions, protein conformational changes involved in catalysis or regulation, and as a reporter of protein posttranslational modifications. In addition, it may be possible to extend this approach to amino acids with increased fluorescent quantum yields or longer emission wavelengths, as well as apply this methodology to imaging directly in mammalian cells.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Conclusion",
+                "sec_num": null
+            },
+            {
+                "text": ". Dansyl chloride (2.4 g, 8.9 mmol; Sigma-Aldrich) and Et 3 N (2.6 ml; Fluka) were dissolved in CH 2 Cl 2 (50 ml; Fisher). The solution was cooled to 0\u00b0C, Boc-Dap-OH (2.0 g, 9.8 mmol; Bachem) was added in one portion to the stirred solution, and the mixture was allowed to warm to room temperature. After stirring overnight, the volatiles were removed, and the residue was dissolved in CH 2 Cl 2 (30 ml). Trifluoroacetic acid (15 ml; Aldrich) was added, and the reaction mixture was stirred at room temperature for 4 h. The solvent was removed in vacuo, and the residue was dissolved in H 2 O (50 ml). The solution was made basic with solid NaOH and then acidified with concentrated HCl until precipitation occurred. The precipitate was collected, washed with H 2 O and EtOH, and dried in vacuo, yielding dansylalanine (1.75 g, 58% yield) as a slightly yellowish solid. 1 Selection was carried out in the presence of 1 mM as described in ref. 19 . Three different clones whose growth rate depended on the presence of 1 emerged after three rounds of selection (B8: M40A, L41N, Y499I, Y527G, and H537T; C6: M40G, L41N, Y499I, Y527G, and H537G; and D12: M40G, L41L, Y499V, Y527G, and H537E. B8 additionally had an S497C mutation, presumably introduced by PCR during library design. The T252A mutation was introduced by using the QuikChange method (Stratagene) with primers LRST252AFwd (5\u0408-ACA CTA CCC GCC CGG ACG CGT TTA TGG GTT GTA CCT A-3\u0408) and LRST252ARev (5\u0408-TAG GTA CAA CCC ATA AAC GCG TCC GGG CGG GTA GTG T-3\u0408).",
+                "cite_spans": [
+                    {
+                        "start": 870,
+                        "end": 871,
+                        "text": "1",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 943,
+                        "end": 945,
+                        "text": "19",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Synthesis of Dansylalanine (1)",
+                "sec_num": null
+            },
+            {
+                "text": "Vector Construction. Vector pLeuRSB8T252A\u0408 was constructed as follows. E. coli tRNA CUA Leu5 and its flanking sequences were assembled by overlap PCR with the following primers (1Fwd, 5\u0408-ATC CCG ACC GGT AAG CTG CTA GCC TCT TTT TC-3\u0408; 1Rev, 5\u0408-GAA GAA AGA GTA TAC TAC ATA ACA CAT ATA CAA TTG AAA AAG AGG CTA GC-3\u0408; 2Fwd, 5\u0408-GTA TAC TCT TTC TTC AAC AAT TAA ATA GCC CGG ATG GTG GAA TCG GTA GA-3\u0408; 2Rev, 5\u0408-CAG CGC GAA CGC CGA GGG ATT TAG AAT CCC TTG TGT CTA CCG ATT CCA CC-3\u0408; 3Fwd, 5\u0408-TCG GCG TTC GCG CTG TGC GGG TTC AAG TCC CGC TCC GGG TAT TTT TTT GT-3\u0408; 3Rev, 5\u0408-CGG CTC TAG ACA TAA AAA ACA AAA AAA TAC CCG-3\u0408). The 5\u0408 and 3\u0408 sequences are identical to the flanking sequences of yeast suppressor tRNA gene SUP4, which is known to contain a pol III promoter (25, 26) . This combined tRNA CUA Leu5 -SUP4 sequence was digested with AgeI and XbaI and repetitively inserted into the AgeI\u035eNheI sites of vector pLeuRSB8T252A to yield three copies of this gene in one direction in the same vector. Subsequently, a PCR DNA fragment including the 650-bp upstream sequence of yeast PGK1 ORF was inserted into the AgeI\u035eNheI site to introduce an additional pol II promoter for transcription of the tRNA region. Vectors pC1SOD-33TAG-His 6 and pC1SOD-16TAG-His 6 were constructed as follows. S. cerevisiae strain 208708 was obtained from American Type Culture Collection. This strain produces Cu\u035eZn SOD from a 2-m leu2-d plasmid. This plasmid was extracted, and a BamHI restriction fragment of \u03f72 kb containing the SOD gene was gel purified and inserted into the BamHI site of pBKJYRS; the larger BamHI fragment was recircularized to produce plasmid pC1. A gene encoding His -tagged hSOD with or without an amber codon at position 33 was used to replace the NcoI\u035eSalI fragment of SOD in pBKJYRS. The amber mutation 16TAG was introduced by using the QuikChange method with primers Q16TAGF (5\u0408-GAA GGG TGA CGG CCC AGT TTA GGG TAT TAT TAA CTT CGA GCA GAA G-3\u0408) and Q16TAGR (5\u0408-CTT CTG CTC GAA GTT AAT AAT ACC CTA AAC TGG GCC GTC ACC CTT C-3\u0408). The resulting pBKSOD plasmids were digested with BamHI and inserted into pC1 to give pC1SOD-33TAG-His 6 and pC1SOD-16TAG-His 6 . These plasmids were transformed into the MJY125-derived strain SCY4 (MATa, ade2-101, ura3-1, leu2-3,112, trp1, his3-11, \u232cCYB2::kan [cir 0 ]) by a lithium acetate method and plated on SD medium (\u03ealeucine). Plasmids pLeuRSB8, pLeuRSB8T252A, and pLeuRSB8T252A\u0408 were transformed into the obtained strains by using a lithium acetate method and plated on SD medium (\u03ealeucine, \u03eatryptophan).",
+                "cite_spans": [
+                    {
+                        "start": 757,
+                        "end": 761,
+                        "text": "(25,",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 762,
+                        "end": 765,
+                        "text": "26)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Synthesis of Dansylalanine (1)",
+                "sec_num": null
+            },
+            {
+                "text": "Expression was performed with strain SCY4 transformed with the hSOD expression plasmid pC1SOD-33TAG-His or pC1SOD-16TAG-His 6 and the respective tRNA CUA Leu5 \u035eLeuRSencoding plasmid (pLeuRS derivatives). Cultures were grown to saturation at 30\u00b0C in SD medium lacking leucine and tryptophan and diluted 50-fold into SD medium containing dextrose, lacking leucine and tryptophan, and containing 5 mM 1. This culture was incubated for 16 h at 30\u00b0C, and cells were harvested. Cells were lysed with Y-PER lysis reagent (Pierce) containing 1\u03eb complete protease inhibitor mix (\u03eaEDTA; Roche) and centrifuged, and buffer was exchanged with native purification buffer A [50 mM Tris\u2150HCl, pH 7.8\u035e100 mM NaCl\u035e5% (vol/vol) glycerol] by repeated ultrafiltration (Amicon; 10-kDa molecular mass cutoff, Millipore). For 1-liter culture volumes, protein was bound to 500 l of Ni-NTA, washed three times with 1 ml of buffer A containing 25 mM imidazole, eluted three times with 1 ml of buffer A containing 500 mM imidazole, and dialyzed against water by using Slide-A-Lyzer cassettes (Pierce) with 5-kDa cutoff. MALDI-TOF MS measurements were performed by using a Voyager STR 2 spectrometer (Applied Biosystems). Yields were routinely quantified by using a BCA assay (Pierce).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Expression, Purification, and Characterization of hSOD-His6 Mutants.",
+                "sec_num": null
+            },
+            {
+                "text": "Unfolding Experiments. Measurements were performed on a Fluoromax-2 (Instruments SA, Edison, NJ) equipped with a 150-W continuous xenon lamp at 22\u00b0C with excitation at 340 nm and a bandpass of 5 nm for both excitation and emission. Fluorescence of hSOD-His 6 with 1 at position 16 or 33 at a concentration of M was measured in 50 mM sodium phosphate (pH 7.2)\u035e100 mM NaCl\u035e6 M ZnCl 2 \u035e6 M CuSO 4 \u035eGdmCl concentrations of 0, 0.5, 1.5, 2.0, 3.5, and 5.0 M. Samples were incubated for 1 h at 22\u00b0C after the addition of GdmCl before measurements. Demetallated protein was analyzed after the addition of 2.5 mM EDTA; reduced and demetallated protein was analyzed after the addition of 1 mM DTT and 2.5 mM EDTA. Emission was recorded in steps of 1 nm in the range of 500-600 nm, and the results are uncorrected. Blank measurements with buffer at the respective GdmCl concentrations with or without EDTA and\u035eor DTT were subtracted from protein measurements to correct for nonspecific background fluorescence.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Expression, Purification, and Characterization of hSOD-His6 Mutants.",
+                "sec_num": null
+            },
+            {
+                "text": "\u0349 www.pnas.org\u035ecgi\u035edoi\u035e10.1073\u035epnas.0603965103Summerer et al.Downloaded by guest on August 23, 2021",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "PNAS \u0349 June 27, 2006 \u0349 vol. 103 \u0349 no. 26 \u0349 9787 BIOCHEMISTRY Downloaded by guest on August 23, 2021",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "\u0349 www.pnas.org\u035ecgi\u035edoi\u035e10.1073\u035epnas.0603965103 Summerer et al. Downloaded by guest on August 23, 2021",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "PNAS \u0349 June 27, 2006 \u0349 vol. 103 \u0349 no. 26 \u0349 9789 BIOCHEMISTRY Downloaded by guest on August 23, 2021",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "We thank Makkuni Jayaram and Soundarapandian Velmurugan (University of Texas, Austin) for strain MJY125. ",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "acknowledgement",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "Proc. Natl. Acad. Sci. USA",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Goodman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Olson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Hall",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1977,
+                "venue": "",
+                "volume": "74",
+                "issue": "",
+                "pages": "5453--5457",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Goodman, H. M., Olson, M. V. & Hall, B. D. (1977) Proc. Natl. Acad. Sci. USA 74, 5453-5457.",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "text": "Analysis of incorporation efficiency and fidelity of 1 assayed with hSOD-33TAG-His 6. (A) Expression of hSOD-33TAG-His6 in the presence (\u03e9) and absence (\u03ea) of 5 mM 1 with the orthogonal tRNA CUA Leu5 and LeuRSB8T252A mutant. Protein was detected after Ni-NTA affinity purification and SDS\u035ePAGE by using GelCode Blue staining. Left two lanes, expression with tRNA CUA Leu5 \u035e LeuRSB8T252A from the vector pLeuRSB8T252A. Right two lanes, expression with tRNA CUA Leu5 \u035eLeuRSB8T252A from the modified vector pLeuRSB8T252A\u0408 harboring three copies of tRNA CUA Leu5 with flanking regions of yeast suppressor tRNA SUP4 under control of the PGK1 promoter. (B) MALDI-TOF MS analysis of Ni-NTA-purified hSOD-33TAG-His 6 expressed in the presence of 1 and the orthogonal tRNA CUA Leu5 and LeuRSB8T252A. m\u035ez \u03ed mass to charge ratio;(M\u03e9H) \u03e9 \u03ed protonated molecular ion. The peaks with m\u035ez \u03ed 16,575 and m\u035ez \u03ed 16,718 do not correspond to hSOD-33TAG-His 6 with an endogenous amino acid incorporated at position 33.",
+                "type_str": "figure",
+                "uris": null,
+                "num": null
+            },
+            "FIGREF1": {
+                "text": "Structure of hSOD (Protein Data Bank ID code 1PU0). Protein is colored in green, and Greek-key 1 is shown in red. Amino acids Gln-16 and Trp-33 of \u2424-strands 2 and 3 and the disulfide bridge between Cys-57 and Cys-146 are highlighted. Copper and zinc ions at the active site are shown as spheres and are colored in orange and gray, respectively.",
+                "type_str": "figure",
+                "uris": null,
+                "num": null
+            },
+            "FIGREF2": {
+                "text": "Structures of fluorescent amino acid and complex of aminoacyl-tRNA synthetase and natural amino acid used for library design. (A) Structure of dansylalanine (1). (B) Structure of Thermus thermophilus leucyl-tRNA synthetase (LeuRS) active site with the bound inhibitor leucyl-adenylate sulfamoyl analogue (Protein Data Bank ID code 1H3N). Side chains corresponding to the randomized region of E. coli LeuRS are shown as sticks. Protein helices are colored in red, \u2424-strands in yellow, and loops in green. fidelity for incorporation of 1 was confirmed by MALDI-TOF MS {calculated mass, m\u035ez, 16,802; observed mass, 16,802 ([M\u03e9H] \u03e9 ); Fig. 2B}",
+                "type_str": "figure",
+                "uris": null,
+                "num": null
+            },
+            "FIGREF3": {
+                "text": "Fluorescence spectra of different unfolding states of hSOD containing 1 at position 16 or 33. (A) Fluorescence spectra of hSOD with at position 16 in the presence of different concentrations of GdmCl (\u25a0, 0 M; \u1b80, 0.5 M; OE, 1.5 M; \u201a, 2.0 M; F, 3.5 M; E, 5.0 M). Samples were measured in 50 mM sodium phosphate (pH 7.2) and 100 mM NaCl containing 3 M hSOD and 2 eq of ZnCl2 and CuSO4, respectively. Spectra were recorded in 1-nm steps at 22\u00b0C by using excitation at 340 nm and a bandpass of 5 nm for both excitation and emission. (B) Fluorescence spectra of hSOD with at position 33 conducted under conditions identical to those in A. (C) Fluorescence intensity of 1 at positions 16 and 33 of hSOD at unfolding states of the protein present at different GdmCl concentrations. The fluorescence intensity of spectra shown in A (\u1b5c) and B (\u25a0) at the wavelength where maximal fluorescence is observed (max) is plotted against the GdmCl concentration. (D) Wavelength of maximal fluorescence intensity (max) of 1 at positions 16 and 33 of hSOD at unfolding states of the protein present at different GdmCl concentrations. max of spectra shown in A (\u1b5c) and B (\u25a0) is plotted against GdmCl concentration. AU, arbitrary units.",
+                "type_str": "figure",
+                "uris": null,
+                "num": null
+            },
+            "FIGREF4": {
+                "text": "H NMR (400 MHz, DMSO): \u2426 H (ppm) \u03ed 2.81 (6H, s, CH 3 ), 3.0 (1H, dd, J \u03ed 13.2, 3 J \u03ed 8.4, CH 2 a), 3.11 (1H, dd, 2 J \u03ed 13.2, 3 J \u03ed 5.2, CH 2 b), 3.31 (1H, dd, 3 J \u03ed 8.4, 3 J \u03ed 5.2, CH), 7.21 (1H, d, J \u03ed 7.2, Ar), 7.53 (1H, ''t,'' J \u03ed 7.6, Ar), 7.61 (1H, dd, 3 J \u03ed 8.4, 3 J \u03ed 7.2, Ar), 8.12 (1H, dd, J \u03ed 7.2, 4 J \u03ed 1.2, Ar), 8.25 (1H, d, J \u03ed 8.8, Ar), 8.46 (1H, dd, J \u03ed 7.6, Ar). 13 C NMR (100 MHz, DMSO): \u2426 C (ppm) \u03ed 43.6 (CH 2 ), 45.0 (CH 3 ), 53.5 (CH), 115.2, 118.9, 123.5, 128.0, 128.5, 128.9, 129.0, 129.6, 135.0, 151.3 (Ar), 168.3 (COOH). Electrospray ionization MS: m\u035ez \u03ed 338.2 [M\u03e9H] \u03e9 , 675.1 [2M\u03e9H] \u03e9 . Evolution of Aminoacyl-tRNA Synthetases for Incorporation of Dansylalanine.",
+                "type_str": "figure",
+                "uris": null,
+                "num": null
+            }
+        }
+    }
+}

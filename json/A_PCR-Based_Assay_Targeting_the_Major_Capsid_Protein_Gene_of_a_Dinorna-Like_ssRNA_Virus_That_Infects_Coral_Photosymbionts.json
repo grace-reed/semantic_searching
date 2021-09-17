@@ -1,0 +1,3854 @@
+{
+    "paper_id": "A_PCR-Based_Assay_Targeting_the_Major_Capsid_Protein_Gene_of_a_Dinorna-Like_ssRNA_Virus_That_Infects_Coral_Photosymbionts",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-09-13T19:40:33.973754Z"
+    },
+    "title": "A PCR-Based Assay Targeting the Major Capsid Protein Gene of a Dinorna-Like ssRNA Virus That Infects Coral Photosymbionts",
+    "authors": [
+        {
+            "first": "Raquel",
+            "middle": [],
+            "last": "Peixoto",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Rebecca",
+            "middle": [],
+            "last": "Lisette",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Vega",
+            "middle": [],
+            "last": "Thurber",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Rui",
+            "middle": [],
+            "last": "Zhang",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Jose",
+            "middle": [],
+            "last": "Montalvo-Proa\u00f1o",
+            "suffix": "",
+            "affiliation": {},
+            "email": "joseluis.montalvoproano@my.jcu.edu.au"
+        },
+        {
+            "first": "Patrick",
+            "middle": [],
+            "last": "Buerger",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Karen",
+            "middle": [
+                "D"
+            ],
+            "last": "Weynberg",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Madeleine",
+            "middle": [
+                "J H"
+            ],
+            "last": "Van Oppen",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        }
+    ],
+    "year": "",
+    "venue": null,
+    "identifiers": {},
+    "abstract": "The coral-Symbiodinium association is a critical component of coral reefs as it is the main primary producer and builds the reef's 3-dimensional structure. A breakdown of this endosymbiosis causes a loss of the dinoflagellate photosymbiont, Symbiodinium, and/or its photosynthetic pigments from the coral tissues (i.e., coral bleaching), and can lead to coral mortality. Coral bleaching has mostly been attributed to environmental stressors, and in some cases to bacterial infection. Viral lysis of Symbiodinium has been proposed as another possible cause of some instances of coral bleaching, but this hypothesis has not yet been experimentally confirmed. In this study, we used coral virome data to develop a novel PCR-based assay for examining the presence and diversity of a single-stranded RNA (ssRNA) virus by targeting its major capsid protein (MCP) gene. Illumina sequence analysis of amplicons obtained with novel primers showed 99.8% of the reads had the closest taxonomic affinity with the MCP gene of the virus, Heterocapsa circularisquama RNA virus (HcRNAV) known to infect dinoflagellates, indicating that dinorna-like viruses are commonly associated with corals on the Great Barrier Reef. A phylogenetic analysis of MCP gene sequences revealed strong coral species specificity of viral operational taxon units (OTUs). This assay allows a relatively easy and rapid evaluation of the presence and diversity of this particular viral group and will assist in enhancing our understanding of the role of viral lysis in coral bleaching.",
+    "pdf_parse": {
+        "paper_id": "A_PCR-Based_Assay_Targeting_the_Major_Capsid_Protein_Gene_of_a_Dinorna-Like_ssRNA_Virus_That_Infects_Coral_Photosymbionts",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "The coral-Symbiodinium association is a critical component of coral reefs as it is the main primary producer and builds the reef's 3-dimensional structure. A breakdown of this endosymbiosis causes a loss of the dinoflagellate photosymbiont, Symbiodinium, and/or its photosynthetic pigments from the coral tissues (i.e., coral bleaching), and can lead to coral mortality. Coral bleaching has mostly been attributed to environmental stressors, and in some cases to bacterial infection. Viral lysis of Symbiodinium has been proposed as another possible cause of some instances of coral bleaching, but this hypothesis has not yet been experimentally confirmed. In this study, we used coral virome data to develop a novel PCR-based assay for examining the presence and diversity of a single-stranded RNA (ssRNA) virus by targeting its major capsid protein (MCP) gene. Illumina sequence analysis of amplicons obtained with novel primers showed 99.8% of the reads had the closest taxonomic affinity with the MCP gene of the virus, Heterocapsa circularisquama RNA virus (HcRNAV) known to infect dinoflagellates, indicating that dinorna-like viruses are commonly associated with corals on the Great Barrier Reef. A phylogenetic analysis of MCP gene sequences revealed strong coral species specificity of viral operational taxon units (OTUs). This assay allows a relatively easy and rapid evaluation of the presence and diversity of this particular viral group and will assist in enhancing our understanding of the role of viral lysis in coral bleaching.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "A balanced microbiome is essential for the health and functioning of corals (Rohwer et al., 2002; Thompson et al., 2014; Blackall et al., 2015) . Corals associate with a wide diversity of microbial organisms, including dinoflagellate photosymbionts (Symbiodinium spp.), prokaryotes, fungi and viruses. Of these, Symbiodinium spp. form an obligate symbiosis with the coral host and provide up to 95% of its nutritional requirements (Pearse and Muscatine, 1971; Muscatine, 1990) . A breakdown of the coral-Symbiodinium symbiosis (i.e., coral bleaching) is primarily triggered by environmental stressors, such as increased seawater temperature, high light, and low salinity (Glynn, 1996; Brown, 1997; Douglas, 2003; Hoegh-Guldberg et al., 2007) . High temperatures damage the Symbiodinium photosystem II machinery, leading to an increased production of reactive oxygen species (ROS) that leak into the coral host cell causing oxidative stress (Lesser, 1997) . Simultaneous ROS production has been also found in the coral host mitochondria (Lesser, 1997; Downs et al., 2002; Weis, 2008) . Additionally, bleaching can sometimes be caused by bacterial infection of the coral rather than environmental stressors (Kushmaro et al., 1996) . Further, it has been speculated that viral lysis of Symbiodinium may be responsible for some instances of bleaching. The latter hypothesis stems from transmission electron microscopy (TEM) observations of virus-like particles (VLPs) in different tissue layers of healthy and bleached corals (Wilson et al., 2004; Patten et al., 2008; Bettarel et al., 2012; Leruste et al., 2012; Nguyen-Kim et al., 2014; Pollock et al., 2014; Correa et al., 2016) . VLP abundance has been seen to increase under acute stressors, such as elevated temperature (Davy et al., 2006) or to play an important role on the effect of ultraviolet radiation on marine virus-phytoplankton interactions (Jacquet and Bratbak, 2003) . Likewise, abundance of VLPs increased in freshly isolated Symbiodinium under similar stressors (Wilson et al., 2001; Davy et al., 2006; Lohr et al., 2007; Lawrence et al., 2014) . Consistent with these observations, metagenomic studies have revealed an increased abundance of viral sequences in metagenomes obtained from heat stressed corals (Vega Thurber et al., 2008 Littman et al., 2011) and Symbiodinium (Correa et al., 2013; Levin et al., 2016) .",
+                "cite_spans": [
+                    {
+                        "start": 76,
+                        "end": 97,
+                        "text": "(Rohwer et al., 2002;",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 98,
+                        "end": 120,
+                        "text": "Thompson et al., 2014;",
+                        "ref_id": "BIBREF52"
+                    },
+                    {
+                        "start": 121,
+                        "end": 143,
+                        "text": "Blackall et al., 2015)",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 431,
+                        "end": 459,
+                        "text": "(Pearse and Muscatine, 1971;",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 460,
+                        "end": 476,
+                        "text": "Muscatine, 1990)",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 671,
+                        "end": 684,
+                        "text": "(Glynn, 1996;",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 685,
+                        "end": 697,
+                        "text": "Brown, 1997;",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 698,
+                        "end": 712,
+                        "text": "Douglas, 2003;",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 713,
+                        "end": 741,
+                        "text": "Hoegh-Guldberg et al., 2007)",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 940,
+                        "end": 954,
+                        "text": "(Lesser, 1997)",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 1036,
+                        "end": 1050,
+                        "text": "(Lesser, 1997;",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 1051,
+                        "end": 1070,
+                        "text": "Downs et al., 2002;",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 1071,
+                        "end": 1082,
+                        "text": "Weis, 2008)",
+                        "ref_id": "BIBREF59"
+                    },
+                    {
+                        "start": 1205,
+                        "end": 1228,
+                        "text": "(Kushmaro et al., 1996)",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 1522,
+                        "end": 1543,
+                        "text": "(Wilson et al., 2004;",
+                        "ref_id": "BIBREF61"
+                    },
+                    {
+                        "start": 1544,
+                        "end": 1564,
+                        "text": "Patten et al., 2008;",
+                        "ref_id": "BIBREF41"
+                    },
+                    {
+                        "start": 1565,
+                        "end": 1587,
+                        "text": "Bettarel et al., 2012;",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 1588,
+                        "end": 1609,
+                        "text": "Leruste et al., 2012;",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 1610,
+                        "end": 1634,
+                        "text": "Nguyen-Kim et al., 2014;",
+                        "ref_id": "BIBREF40"
+                    },
+                    {
+                        "start": 1635,
+                        "end": 1656,
+                        "text": "Pollock et al., 2014;",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 1657,
+                        "end": 1677,
+                        "text": "Correa et al., 2016)",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 1772,
+                        "end": 1791,
+                        "text": "(Davy et al., 2006)",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 1903,
+                        "end": 1930,
+                        "text": "(Jacquet and Bratbak, 2003)",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 2028,
+                        "end": 2049,
+                        "text": "(Wilson et al., 2001;",
+                        "ref_id": "BIBREF62"
+                    },
+                    {
+                        "start": 2050,
+                        "end": 2068,
+                        "text": "Davy et al., 2006;",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 2069,
+                        "end": 2087,
+                        "text": "Lohr et al., 2007;",
+                        "ref_id": "BIBREF33"
+                    },
+                    {
+                        "start": 2088,
+                        "end": 2110,
+                        "text": "Lawrence et al., 2014)",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 2275,
+                        "end": 2301,
+                        "text": "(Vega Thurber et al., 2008",
+                        "ref_id": "BIBREF56"
+                    },
+                    {
+                        "start": 2302,
+                        "end": 2323,
+                        "text": "Littman et al., 2011)",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 2341,
+                        "end": 2362,
+                        "text": "(Correa et al., 2013;",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 2363,
+                        "end": 2382,
+                        "text": "Levin et al., 2016)",
+                        "ref_id": "BIBREF31"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "INTRODUCTION",
+                "sec_num": null
+            },
+            {
+                "text": "Among the viral groups that infect Symbiodinium is a small (\u223c30 nm diameter) icosahedral single-stranded ssRNA virus related to Heterocapsa circularisquama, HcRNAV (Family: Alvernaviridae; genus: dinornavirus) (Nagasaki et al., 2004 (Nagasaki et al., , 2006 Tomaru et al., 2009; Correa et al., 2013; Weynberg et al., 2014; Levin et al., 2016) and the cricket paralysis virus (Levin et al., 2016) . These observations provide rationale for testing the possible role of dinorna-like viruses in coral bleaching.",
+                "cite_spans": [
+                    {
+                        "start": 210,
+                        "end": 232,
+                        "text": "(Nagasaki et al., 2004",
+                        "ref_id": "BIBREF36"
+                    },
+                    {
+                        "start": 233,
+                        "end": 257,
+                        "text": "(Nagasaki et al., , 2006",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 258,
+                        "end": 278,
+                        "text": "Tomaru et al., 2009;",
+                        "ref_id": "BIBREF54"
+                    },
+                    {
+                        "start": 279,
+                        "end": 299,
+                        "text": "Correa et al., 2013;",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 300,
+                        "end": 322,
+                        "text": "Weynberg et al., 2014;",
+                        "ref_id": "BIBREF60"
+                    },
+                    {
+                        "start": 323,
+                        "end": 342,
+                        "text": "Levin et al., 2016)",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 375,
+                        "end": 395,
+                        "text": "(Levin et al., 2016)",
+                        "ref_id": "BIBREF31"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "INTRODUCTION",
+                "sec_num": null
+            },
+            {
+                "text": "The aim of this study was to develop a PCR-based assay for examining the presence and diversity of the dinorna-like virus targeting Symbiodinium by amplicon sequence analysis on the Illumina platform. Viruses lack a universally conserved gene, such as the 16S and 18S ribosomal RNA genes (Edwards and Rohwer, 2005) , but some genes are shared among certain viral groups and can be amplified using PCR primers that target conserved regions. Such signature genes have been used to study environmental viral ecology and diversity (Chen et al., 1996; Larsen et al., 2008; Adriaenssens and Cowan, 2014) , and include those encoding structural proteins (e.g., portal protein, major capsid protein -MCP, tail sheath protein -TSP), auxiliary metabolism genes (e.g., phoH, psbA, psbB) and polymerase genes. For example, some authors have used algal virus-specific PCR primers to amplify the DNA polymerase gene (pol) in water samples (Chen and Suttle, 1995; Chen et al., 1996) . Similarly, the MCP gene has been used as a marker for assessing phylogenetic diversity in the Phycodnaviridae (Larsen et al., 2008) , for example Emiliana huxleyi viruses (Schroeder et al., 2002; Rowe et al., 2011) . Here, we targeted the MCP gene of dinorna-like virus by interrogating virome data from three Great Barrier Reef (GBR) coral species for MCP reads that matched HcRNAV, and used these data to design PCR primers. We tested primers on samples from six coral families and provide preliminary insights into patterns of diversity of dinorna-like virus partial MCP gene sequences.",
+                "cite_spans": [
+                    {
+                        "start": 288,
+                        "end": 314,
+                        "text": "(Edwards and Rohwer, 2005)",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 527,
+                        "end": 546,
+                        "text": "(Chen et al., 1996;",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 547,
+                        "end": 567,
+                        "text": "Larsen et al., 2008;",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 568,
+                        "end": 597,
+                        "text": "Adriaenssens and Cowan, 2014)",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 925,
+                        "end": 948,
+                        "text": "(Chen and Suttle, 1995;",
+                        "ref_id": "BIBREF8"
+                    },
+                    {
+                        "start": 949,
+                        "end": 967,
+                        "text": "Chen et al., 1996)",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 1080,
+                        "end": 1101,
+                        "text": "(Larsen et al., 2008)",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 1141,
+                        "end": 1165,
+                        "text": "(Schroeder et al., 2002;",
+                        "ref_id": "BIBREF48"
+                    },
+                    {
+                        "start": 1166,
+                        "end": 1184,
+                        "text": "Rowe et al., 2011)",
+                        "ref_id": "BIBREF46"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "INTRODUCTION",
+                "sec_num": null
+            },
+            {
+                "text": "Eight Porites lutea (Poritidae) colonies were collected at Davies Reef (February 2015, 4 m depth, 4 \u00d7 4 cm 2 cores from each colony). In addition, individual colonies of Acropora tenuis (Acroporidae), Acropora hyacinthus (Acroporidae), Acropora millepora (Acroporidae), Fungia fungites (Fungiidae), Galaxea fascicularis (Oculinidae), Goniastrea aspera (Faviidae), Pocillopora damicornis (Pocilloporidae), and Porites cylindrica (Poritidae) were collected from Orpheus Island (August 2014, \u223c5 m depth). Corals from 2014 were air-blasted and snap frozen in liquid nitrogen (LN2) in the field immediately after collection. Corals from 2015 were transported to the National Sea Simulator at AIMS, and placed in flow-through aquaria with artificial lighting and a constant water temperature of 28 \u2022 C; tissues from these colonies were air-blasted \u223c3 days after arrival in the aquarium facility. Colonies were considered healthy (i.e., normal pigmentation, no signs of disease) at the time of collection and tissue processing. Viromes were isolated from coral tissue by mechanical disruption of coral tissue, a series of caesium chloride gradient separations and filtration steps for virome isolation (Weynberg et al., 2014) . Viral RNA was extracted with the QIAamp viral RNA kit (Qiagen, cat. 52904) and a final DNase step to remove DNA contamination (Ambion, cat. AM1907). Amplification of total RNA genomes was performed using a cDNA synthesis step as described in the Manual of Aquatic Viral Ecology (MAVE) (Culley et al., 2010 ) and a Random Priming-mediated Sequence-Independent Single-Primer (RP-SISPA) (Weynberg et al., 2014) .",
+                "cite_spans": [
+                    {
+                        "start": 1195,
+                        "end": 1218,
+                        "text": "(Weynberg et al., 2014)",
+                        "ref_id": "BIBREF60"
+                    },
+                    {
+                        "start": 1506,
+                        "end": 1526,
+                        "text": "(Culley et al., 2010",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 1605,
+                        "end": 1628,
+                        "text": "(Weynberg et al., 2014)",
+                        "ref_id": "BIBREF60"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Sample Collection",
+                "sec_num": null
+            },
+            {
+                "text": "Sequences that matched (i.e., \u223c60% amino acid (aa) identity cut-off) the MCP of HcRNAV (YP_386496.1 NCBI) were extracted from the RNA metaviromes of A. tenuis (Weynberg et al., 2014) , F. fungites and G. fascicularis (SAMN02709832, SAMN04274763, and SAMN04277306) with a BLASTx NCBI viral RefSeq database, and aligned with Sequencher software and MEGA7 (Kumar et al., 2016) to identify conserved regions. Primers were designed in Primer3Plus (i.e., by generating a consensus sequence from the aligned MCP reads as a template for the primer design). Settings were modified to amplify a \u223c500 bp product. Primer sets were selected after assessing their stability (i.e., GC/AT ratio, melting temperature) to avoid non-specific duplex formations (Rychlik, 1995) . Primer binding specificity was checked in a BLASTn search against the nr database at NCBI. Two primer pairs [First: HcUniv-01F (TCCTTGTWTRYWKGATGCKTTTCA) + HcUniv-01R (MGCCAARTCASWCATATTAAAWGGCA); second: HcUniv-02F (YTKCCTCGASCTRYTGGWCC) + HcUniv-01R (MGCCAARTCASWCATATTAAAWGGCA)] were selected after an initial PCR optimization with Orpheus Island SISPA-amplified templates, as these yielded an amplicon size of \u223c500 bp (see below).",
+                "cite_spans": [
+                    {
+                        "start": 159,
+                        "end": 182,
+                        "text": "(Weynberg et al., 2014)",
+                        "ref_id": "BIBREF60"
+                    },
+                    {
+                        "start": 353,
+                        "end": 373,
+                        "text": "(Kumar et al., 2016)",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 741,
+                        "end": 756,
+                        "text": "(Rychlik, 1995)",
+                        "ref_id": "BIBREF47"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Primer Design",
+                "sec_num": null
+            },
+            {
+                "text": "The Qiagen Multiplex Kit was used to generate a \u223c500 bp amplicon by determining the best performing cycling temperatures and cDNA concentrations; annealing temperature was obtained with a PCR run using a gradient of temperatures (60-58-56-54 \u2022 C) and primer dilutions (2-4-6-8-10 \u00b5M). The best performing cycling condition was enhanced by the use of a nested PCR using the following two primer pairs:",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "PCR Optimization",
+                "sec_num": null
+            },
+            {
+                "text": "1. First round: HcUniv-01F + HcUniv-01R:",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "PCR Optimization",
+                "sec_num": null
+            },
+            {
+                "text": "95 \u2022 C 15 min, [94 \u2022 C 30 s, 60 \u2022 C 90 s, 72 \u2022 C 90 s] 30 cycles, 72",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "PCR Optimization",
+                "sec_num": null
+            },
+            {
+                "text": "\u2022 C min and 25 \u2022 Cend; 10 \u00b5M of each primer. 2. Second round: HcUniv-02F + HcUniv-01R; using 1st round profile with 25 cycles only and the same primer dilution. These primers include the corresponding Illumina adaptors for NGS.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "PCR Optimization",
+                "sec_num": null
+            },
+            {
+                "text": "The drawback to the nested PCR is that the bias due to preferential amplification may be greater when two successive PCR reactions are applied (Fan et al., 2009) . However, to date the potential bias of nested PCR combined with next generation sequencing technologies on the interpretation of viral diversity and structure has not been rigorously examined. There is the possibility, therefore, of over-amplifying certain OTUs. PCR products were run against a 100 bp Plus DNA Ladder in a 1% TBE-agarose gel, 90 V for 40 min, to assess amplicon size and quality. Sequencing was carried out on the Illumina MiSeq platform, Nextera-XT, with paired-end 300 bp reads (Ramaciotti Centre, UNSW), to generate high coverage sequencing data for a more in-depth analysis of the diversity of viral sequences.",
+                "cite_spans": [
+                    {
+                        "start": 143,
+                        "end": 161,
+                        "text": "(Fan et al., 2009)",
+                        "ref_id": "BIBREF20"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "PCR Optimization",
+                "sec_num": null
+            },
+            {
+                "text": "MiSeq pair-end reads were merged with PEAR (version 0.9.6) using default parameters (Zhang et al., 2014) , non-overlapping reads and below a phred score of 30 discarded using Fastx version 0.0.14 (http://hannonlab.cshl.edu/fastx_toolkit/). Primer sequences (F: 26 nt, R: 20 nt) and sequences below 100 nt were removed. Sequences were collapsed at 100% nt identity and then used to generate insights in both the taxonomic affiliation and patterns of diversity of the ssRNA viruses associated with corals from the central GBR.",
+                "cite_spans": [
+                    {
+                        "start": 84,
+                        "end": 104,
+                        "text": "(Zhang et al., 2014)",
+                        "ref_id": "BIBREF64"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Sequencing Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "Taxonomic affiliations of virome reads were obtained using the Genome relative Abundance and Average Size GAAS Metagenomic tool (Angly et al., 2009) from MetaVir 2 (Refseq complete viral genomes protein sequences database from NCBI, release of 2015-01-05) (Roux et al., 2014) . Taxonomic identity of reads to the MCP HcRNAV was confirmed by the additional BLASTn comparison against the RefSeq virus database from NCBI (bitscore < 50; e-values < 0.001).",
+                "cite_spans": [
+                    {
+                        "start": 128,
+                        "end": 148,
+                        "text": "(Angly et al., 2009)",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 256,
+                        "end": 275,
+                        "text": "(Roux et al., 2014)",
+                        "ref_id": "BIBREF45"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Taxonomic Affiliations and Diversity-MCP",
+                "sec_num": null
+            },
+            {
+                "text": "Patterns of diversity rely on similarity cut-offs that cluster similar ssRNA virus sequences into operational taxonomic units (OTUs). In this study, patterns of diversity were estimated with two different approaches, each of them with a % similarity threshold. First, patterns of diversity were estimated with a 98% nucleotide similarity (default value Metavir2) cut-off for OTUs. Metavir is an online tool that does not allow modification of these parameters (that is why 98% was used instead of 97%).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Taxonomic Affiliations and Diversity-MCP",
+                "sec_num": null
+            },
+            {
+                "text": "The resulting clustering distribution matrices from the Metavir2 pipeline were visualized in R (R Core Team, 2016) in a rarefaction scheme plot for the comparison of coral colonies and analyzed with a one-way PERMANOVA to evaluate OTU distribution. A high similarity threshold was selected to allow a visualization of rarefaction curves at the highest level of OTU diversity. If enough sequencing depth was obtained at high similarity threshold, then the same sequencing depth can be assumed from a lower diversity cut-off. Second, a complementary analysis used Quantitative Insights Into Microbial Ecology (QIIME Version 2.7.9) (Caporaso et al., 2010) and generated new OTUs with USEARCH (pick_otus.py) at a 65% similarity threshold. Although 97% nt similarity is the accepted cut-off for species level OTUs in bacterial communities based on the 16S rRNA marker gene (Vetrovsky and Baldrian, 2013) , the recommended specieslevel cut-off is not known for the target sequence of the MCP HcRNAV. RNA viruses have fast rates of evolution (Holland et al., 1982; Duffy et al., 2008) , therefore a conservative similarity cutoff of e.g., 65% may generate a glimpse into appropriate OTU diversity and community composition. OTU counts (i.e., relative abundance) were transformed into percentage values.",
+                "cite_spans": [
+                    {
+                        "start": 629,
+                        "end": 652,
+                        "text": "(Caporaso et al., 2010)",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 868,
+                        "end": 898,
+                        "text": "(Vetrovsky and Baldrian, 2013)",
+                        "ref_id": "BIBREF58"
+                    },
+                    {
+                        "start": 1035,
+                        "end": 1057,
+                        "text": "(Holland et al., 1982;",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 1058,
+                        "end": 1077,
+                        "text": "Duffy et al., 2008)",
+                        "ref_id": "BIBREF16"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Taxonomic Affiliations and Diversity-MCP",
+                "sec_num": null
+            },
+            {
+                "text": "To further confirm taxonomic affiliations, a phylogenetic analysis was performed using the consensus nucleotide sequences from the main five largest OTUs (Supplementary Material: Table S1 ).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 179,
+                        "end": 187,
+                        "text": "Table S1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Taxonomic Affiliations and Diversity-MCP",
+                "sec_num": null
+            },
+            {
+                "text": "The sequences were aligned with ClustalW algorithm (Thompson et al., 1994) together with published data of relevant studies that obtained transcripts of ssRNA dinorna-like virus-like MCP reads from viromes of the coral Montastraea cavernosa and expressed sequence tag (EST) libraries from Symbiodinium cultures (SRA05206|GAIR4WKO3F1XL6) (Correa et al., 2013) , an RNA viral metagenome from A. tenuis (gnl|SRA|SRR1210580.847558.2) (Weynberg et al., 2014) , and cultured Symbiodinium RNAseq data (TR74740|c13_g1_i1) (Levin et al., 2016) . The resulting alignment was used to construct a maximum likelihood tree (substitution model based on lowest Bayesian Information Criterion (BIC): kimura 2-parameter with gamma distributed rate variation), with 1,000 bootstrap replication steps using MEGA7 default parameters (Kumar et al., 2016) .",
+                "cite_spans": [
+                    {
+                        "start": 51,
+                        "end": 74,
+                        "text": "(Thompson et al., 1994)",
+                        "ref_id": "BIBREF51"
+                    },
+                    {
+                        "start": 337,
+                        "end": 358,
+                        "text": "(Correa et al., 2013)",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 430,
+                        "end": 453,
+                        "text": "(Weynberg et al., 2014)",
+                        "ref_id": "BIBREF60"
+                    },
+                    {
+                        "start": 514,
+                        "end": 534,
+                        "text": "(Levin et al., 2016)",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 812,
+                        "end": 832,
+                        "text": "(Kumar et al., 2016)",
+                        "ref_id": "BIBREF25"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Taxonomic Affiliations and Diversity-MCP",
+                "sec_num": null
+            },
+            {
+                "text": "To examine a possible link between Symbiodinium identity and ssRNA virus communities, Symbiodinium diversity was assessed for P. lutea colonies via high-throughput sequencing of the internal transcribed spacer 2 (ITS2) region (Arif et al., 2014) . Material for analysis was not available for the coral samples from Orpheus Island. Merged reads were clustered into OTUs at 97% sequence similarity (\"cluster_fast\" algorithm) using USEARCH Version 8.1.1812 (Edgar, 2010) with default parameters. Taxonomic affiliations of OTUs were acquired through a BLASTn search against the NCBI 'nr' database. For all respective samples, the top three most abundant OTUs within every Symbiodinium sp. clade were aligned with ClustalW and analyzed for phylogenetic relation using a maximum likelihood tree with 1,000 bootstrap replication steps and a substitution model kimura 2-parameter with gamma distributed rate variation, based on lowest Bayesian Information Criterion (BIC).",
+                "cite_spans": [
+                    {
+                        "start": 226,
+                        "end": 245,
+                        "text": "(Arif et al., 2014)",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 454,
+                        "end": 467,
+                        "text": "(Edgar, 2010)",
+                        "ref_id": "BIBREF17"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Symbiodinium Genotyping",
+                "sec_num": null
+            },
+            {
+                "text": "Although SISPA-amplified DNA and the MCP amplicon were successfully synthesized for A. tenuis, F. fungites, G. fascicularis, P. cylindrical, and P. damicornis from Orpheus Island, PCR amplication failed for A. hyacinthus, G. aspera and A. millepora. Similarly, SISPA-amplified DNA and the corresponding \u223c500 bp amplicon were obtained from only six (A, B, C, D, G, H) of the eight colonies of P. lutea. Of the 354,795 unique sequences obtained from 11 coral colonies, 99.8% showed closest taxonomic affiliation with the ssRNA dinorna-like virus, HcRNAV (GenBank: LC120626.1) based on a BLASTx search to viral RefSeq NCBI (bitscore = 50 using MetaVir2 in December). The small number of other detected taxa (i.e., dsDNA viruses: Iridoviridae, Phycodnaviridae), likely reflects non-specific amplification due to the presence of several ambiguous positions in the primers used. These results confirm the high level of specificity of the PCR primers to dinorna-like virus and the efficacy of this PCR-based assay to assess presence and diversity of this viral group in corals.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Taxonomic Affiliations and Diversity-MCP",
+                "sec_num": null
+            },
+            {
+                "text": "The level of sequence diversity we observed was high, with amino acid sequence similarities of 26-52% to the HcRNAV MCP gene (genome NC_007518; length = 4375 bp; type = linear) when comparing against a NCBI Refseqvirus database using the default recruitment plot algorithm from MetaVir2 (Figure 1) . Sequences available through NCBI ref: (SRS2350274: SRX2999352, SRX2999353, SRX2999350, SRX2999355, SRX2999348, SRX2999349, SRX2999357, SRX2999351, SRX2999356, SRX2999358, SRX2999354). This scatter plot presents each read similar to the genome (MCP gene) as a dot, and displays the BLAST bitscore associated with the similarity detected.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 287,
+                        "end": 297,
+                        "text": "(Figure 1)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Taxonomic Affiliations and Diversity-MCP",
+                "sec_num": null
+            },
+            {
+                "text": "Rarefaction plots using OTUs with 98% similarity cut-off showed the appropriateness of sequencing depth (i.e., plateau effect) for the majority of samples (Figure 2) , which is important to avoid underestimation of similarities within and between samples (Sims et al., 2014) . The exceptions were P. lutea colonies A and G from Davies Reef, and also A. tenuis and P. damicornis samples from Orpheus Island. A 98% threshold resulted in fewer than 1,000 OTUs in four of the six colonies of P. lutea and 2,000-3,000 OTUs for the remaining two colonies (A, G). The species, F. fungites and G. fascicularis had similar diversity levels of \u223c100 OTUs, while P. cylindrica showed a higher diversity with \u223c200 OTUs. A higher level of diversity was found for P. damicornis (\u223c500 OTUs) and A. tenuis (\u223c700 OTUs).",
+                "cite_spans": [
+                    {
+                        "start": 255,
+                        "end": 274,
+                        "text": "(Sims et al., 2014)",
+                        "ref_id": "BIBREF49"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 155,
+                        "end": 165,
+                        "text": "(Figure 2)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Taxonomic Affiliations and Diversity-MCP",
+                "sec_num": null
+            },
+            {
+                "text": "The alternative OTU community composition based on a 65% clustering cut-off (total: 417 OTUs) revealed that the majority of samples have most of their MiSeq reads grouped into a small number of abundant OTUs (Figure 3) , providing insight into the evenness (or lack thereof) of the ssRNA virus communities in the coral samples analyzed here. All of the P. lutea colonies from Davies Reef revealed a similar main OTU that included \u223c75% of FIGURE 1 | Major capsid protein (MCP) recruitment plot. Individual nt similarities from each read of each sample (colony) with its particular mean distribution along the MCP gene (X-axis), plotted against a % of identity to that specific region (Y-axis). Distribution displays in which region the amplified sequences are and how similar they are to the HcRNAV: MCP gene.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 208,
+                        "end": 218,
+                        "text": "(Figure 3)",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Taxonomic Affiliations and Diversity-MCP",
+                "sec_num": null
+            },
+            {
+                "text": "FIGURE 2 | Diversity analysis of MiSeq MCP reads. Rarefaction plots were generated through MetaVir 2 to illustrate the variation of OTUs within the coral colonies analyzed. Using a similarity threshold of 98% within colonies of P. lutea (top) and among a colony of different corals (bottom).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Taxonomic Affiliations and Diversity-MCP",
+                "sec_num": null
+            },
+            {
+                "text": "the sequences, while the remaining sequences were clustered in several small OTUs.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Taxonomic Affiliations and Diversity-MCP",
+                "sec_num": null
+            },
+            {
+                "text": "The ssRNA virus community composition in the colonies used in this study was significantly different between locations based on the evaluation of score matrices with the Bray-Curtis index method (one-way PERMANOVA F = 0.061; df = 1; p = 0.0044). Colonies from Orpheus Island showed an OTU distribution represented by one large OTU (\u223c75% of reads) with the remaining 25% of reads being distributed across several small OTUs. Sequences from F. fungites, G. fascicularis, and P. damicornis revealed a similar relative abundance of the same main OTU (the blue OTU in Figure 3 ), suggesting they may harbor similar Symbiodinium communities; Symbiodinium types C1 and C3 have been reported as the dominant Symbiodinium types for these corals (Tonk et al., 2013) . Acropora tenuis and P. cylindrica harbored a different main OTU (however, the literature suggests C3 as the dominant Symbiodinium clade for A. tenuis and C15 and C1 for P. cylindrica) (Tonk et al., 2013) . The virus community composition was significantly different among these five colonies (Figure 3 ; one-way PERMANOVA F = 0.036; df = 5; p = 0.0202).",
+                "cite_spans": [
+                    {
+                        "start": 736,
+                        "end": 755,
+                        "text": "(Tonk et al., 2013)",
+                        "ref_id": "BIBREF55"
+                    },
+                    {
+                        "start": 942,
+                        "end": 961,
+                        "text": "(Tonk et al., 2013)",
+                        "ref_id": "BIBREF55"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 563,
+                        "end": 571,
+                        "text": "Figure 3",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 1050,
+                        "end": 1059,
+                        "text": "(Figure 3",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Taxonomic Affiliations and Diversity-MCP",
+                "sec_num": null
+            },
+            {
+                "text": "The phylogenetic analysis of sequences from the most representative OTUs at 97% similarity cut-off, revealed a strong pattern of congruence between viral relatedness and coral host taxonomy (Figure 4 ), suggesting coral host taxonomy reflects Symbiodinium identity as the virus targets Symbiodinium and not the coral. This species-specific clustering pattern was observed for the majority of the most representative OTUs (i.e., relative abundance of sequences per OTU over the total number of OTUs). Despite this, the multi-colony analysis of P. lutea illustrated how different OTU composition can be among also conspecific colonies (e.g., colonies A, B, C, and H). In some cases, all OTUs obtained from a coral species fell within a single lineage (e.g., F. fungites), and additional OTUs were found to deviate from the coral host species-specific pattern. This analysis takes into account only the largest OTUs (i.e., the top five most representative OTUs) under a restrictive and more specific 97% cut-off, therefore allowing a comparison of OTU distribution among linages (Supplementary Material: Table S1 ). The bootstrap values on the basal nodes in the phylogenetic tree were below 80%, therefore, caution should be taken in drawing any conclusions on relatedness among terminal clades. The comparison of our data with publicly available dinorna-like virus MCP sequences from coral and Symbiodinium, showed these were generally more distantly related, which is unsurprising given these came from other regions in the world. The exceptions were the sequences from Weynberg et al. (2014) and Levin et al. (2016) . The former are derived from the same A. tenuis samples used in our study and further confirm the success and specificity of our PCR assay, while the latter were obtained from a Symbiodinium C1 culture obtained from an A. tenuis colony collected from an inshore reef in the central GBR. The lack of colony replication for the coral species from Orpheus Island prevents a comparative analysis between locations. However, OTUs from the corresponding samples were allocated into separated clusters based on their collection location (i.e., supported by high bootstrap values) and no overlap was found for the majority of comparisons. Interestingly, OTUs obtained from G. fascicularis (Orpheus Island) and P. lutea colony D (Davies Reef) clustered with a 99% bootstrap value, which provides insights into the presence of similar viral communities present in different species and locations.",
+                "cite_spans": [
+                    {
+                        "start": 1570,
+                        "end": 1592,
+                        "text": "Weynberg et al. (2014)",
+                        "ref_id": "BIBREF60"
+                    },
+                    {
+                        "start": 1597,
+                        "end": 1616,
+                        "text": "Levin et al. (2016)",
+                        "ref_id": "BIBREF31"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 190,
+                        "end": 199,
+                        "text": "(Figure 4",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1101,
+                        "end": 1109,
+                        "text": "Table S1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Taxonomic Affiliations and Diversity-MCP",
+                "sec_num": null
+            },
+            {
+                "text": "Symbiodinium type C15 is the most common endosymbiont of P. lutea and other Poritidae (e.g., P. cylindrical; http:// www.SymbioGBR.org, Tonk et al., 2013) . Our ITS2 sequence analysis demonstrates that all P. lutea colonies examined here were dominated by Symbiodinium C15, suggesting that the abundance of a single, dominant ssRNA virus OTU matches the Symbiodinium host diversity (Supplementary Material: Table  S2 ). The presence/absence of background types (i.e., relative abundance < 1%) did not have an influence on the dinorna-like virus diversity. In addition, since all Porites colonies harbored the same dominant Symbiodinium type (Supplementary Material: Table S2, Figure S1 ), the failure of PCR amplication in Porites colonies E and F indicates that not all Symbiodinium communities harbored by the corals we sampled were infected with this virus. The latter notion is supported by the observation that dinorna-like virus MCP transcript was among the most highly expressed genes in a Symbiodinium C1 population isolated from the coral, A. tenuis, from the Whitsundays, while it was only just detectable in the transcriptome of another Symbiodinium C1 population from Magnetic Island (Levin et al., 2016) . Further studies of corals associated with a wider diversity of Symbiodinium types are required to confirm these findings.",
+                "cite_spans": [
+                    {
+                        "start": 136,
+                        "end": 154,
+                        "text": "Tonk et al., 2013)",
+                        "ref_id": "BIBREF55"
+                    },
+                    {
+                        "start": 1196,
+                        "end": 1216,
+                        "text": "(Levin et al., 2016)",
+                        "ref_id": "BIBREF31"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 407,
+                        "end": 416,
+                        "text": "Table  S2",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 676,
+                        "end": 685,
+                        "text": "Figure S1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Taxonomic Affiliations and Diversity-MCP",
+                "sec_num": null
+            },
+            {
+                "text": "Unfortunately no control samples from seawater and other organisms were included to test the specificity of the primers to viruses of the coral holobiont (i.e., the coral and all of its associated symbionts). However, the primers were designed specifically to viruses isolated from corals and amplified sequences that were divergent from HcRNAV sequences in public databases. While it is likely that the primers are specific to viruses that reside in the coral holobiont and that target Symbiodinium, it FIGURE 4 | Unrooted maximum likelihood tree displaying major capsid protein phylogenetics. Phylogenetic relationships are shown for major OTUs based on dinorna-like virus MCP sequences obtained in this study and from publicly available relevant coral and Symbiodinium viromes. Bootstrap values are shown next to the branches and 'size' represents the number of sequences found for each OTU. Highlighted are OTU clusters with well-supported bootstrap values (>85%) with their sampling location; light-gray for Orpheus Is, dark-gray for Davies Reef and light-blue for viral communities that were found in hosts from both locations.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Primer Specificity",
+                "sec_num": null
+            },
+            {
+                "text": "is possible that these primers work on other organisms that live in symbiosis with Symbiodinium, such as clams, Foraminifera and sponges. Further studies are required to determine the specificity of these primers.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Primer Specificity",
+                "sec_num": null
+            },
+            {
+                "text": "Previous genomic evidence indicates that ssRNA viruses are part of the viral assemblages associated with corals and their dinoflagellate endosymbionts (Correa et al., 2013; Weynberg et al., 2014; Wood-Charlson et al., 2015; Levin et al., 2016) . Our results confirm that ssRNA viruses with dinorna-like MCP genes are commonly associated with corals on the GBR, and suggest that some level of location-and host-specificity exists.",
+                "cite_spans": [
+                    {
+                        "start": 151,
+                        "end": 172,
+                        "text": "(Correa et al., 2013;",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 173,
+                        "end": 195,
+                        "text": "Weynberg et al., 2014;",
+                        "ref_id": "BIBREF60"
+                    },
+                    {
+                        "start": 196,
+                        "end": 223,
+                        "text": "Wood-Charlson et al., 2015;",
+                        "ref_id": "BIBREF63"
+                    },
+                    {
+                        "start": 224,
+                        "end": 243,
+                        "text": "Levin et al., 2016)",
+                        "ref_id": "BIBREF31"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "BIOLOGICAL IMPLICATIONS AND CONCLUSIONS",
+                "sec_num": null
+            },
+            {
+                "text": "Early coral virus studies have shown that virus consortia are highly diverse at the whole community level (Angly et al., 2006; Marhaver et al., 2008) , but no previous studies have examined the level of diversity of populations of a single virus that is associated with corals and targets the endosymbiotic Symbiodinium. Our results show such populations can be highly diverse, as indicated by the many OTUs identified here within colonies. Although, the methodology present in this study unveils the diversity of a particular type of ssRNA virus in corals, it does not allow its abundance to be assessed. We recommend that further studies focus on the development of digital or quantitative PCR to evaluate absolute virus abundance.",
+                "cite_spans": [
+                    {
+                        "start": 106,
+                        "end": 126,
+                        "text": "(Angly et al., 2006;",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 127,
+                        "end": 149,
+                        "text": "Marhaver et al., 2008)",
+                        "ref_id": "BIBREF34"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "BIOLOGICAL IMPLICATIONS AND CONCLUSIONS",
+                "sec_num": null
+            },
+            {
+                "text": "The main rationale behind this research was the hypothesis that algal viruses may play a role in coral health by targeting the algal endosymbionts and may therefore be linked to coral bleaching events (Sutherland et al., 2004; Thurber and Correa, 2011) . Neighboring conspecific coral colonies exposed to the same conditions can differ markedly in their bleaching responses (Edmunds, 1994) . This patchy spatial distribution can be caused by different Symbiodinium communities hosted by the coral (Blackall et al., 2015) , but may also reflect the fact that not all colonies are infected by the ssRNA virus targeting Symbiodinium. The novel and relatively easy-to-use assay presented here, which can be further developed into a quantitative PCR assay to assess abundance in space and time, will facilitate an examination of the hypothesis that coral bleaching occurs in response to a combination of environmental stressors and viral infection of Symbiodinium.",
+                "cite_spans": [
+                    {
+                        "start": 201,
+                        "end": 226,
+                        "text": "(Sutherland et al., 2004;",
+                        "ref_id": "BIBREF50"
+                    },
+                    {
+                        "start": 227,
+                        "end": 252,
+                        "text": "Thurber and Correa, 2011)",
+                        "ref_id": "BIBREF53"
+                    },
+                    {
+                        "start": 374,
+                        "end": 389,
+                        "text": "(Edmunds, 1994)",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 497,
+                        "end": 520,
+                        "text": "(Blackall et al., 2015)",
+                        "ref_id": "BIBREF5"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "BIOLOGICAL IMPLICATIONS AND CONCLUSIONS",
+                "sec_num": null
+            },
+            {
+                "text": "JM conducted the experiments and laboratory analysis. JM and PB performed the bioinformatic analysis. JM wrote the first draft and all authors contributed substantially to revisions and interpretation of data of the work. MJHvO and KDW conceived the study.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "AUTHOR CONTRIBUTIONS",
+                "sec_num": null
+            },
+            {
+                "text": "Frontiers in Microbiology | www.frontiersin.org September 2017 | Volume 8 | Article 1665",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Frontiers in Microbiology | www.frontiersin.org",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "September 2017 | Volume 8 | Article 1665",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "This research was supported by the Australian Research Council (ARC) through a Future Fellowship #FT100100088 MJHvO, a Super Science Fellowship #FS110200034 KDW. We thank Prof. Bette Willis for fruitful discussions on this study.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "ACKNOWLEDGMENTS",
+                "sec_num": null
+            },
+            {
+                "text": "The Supplementary Material for this article can be found online at: http://journal.frontiersin.org/article/10.3389/fmicb.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "SUPPLEMENTARY MATERIAL",
+                "sec_num": null
+            },
+            {
+                "text": "Conflict of Interest Statement: The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.Copyright \u00a9 2017 Montalvo-Proa\u00f1o, Buerger, Weynberg and van Oppen. This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) or licensor are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "2017.01665/full#supplementary-material",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "Using signature genes as tools to assess environmental viral ecology and diversity",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Adriaenssens",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Cowan",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Appl. Environ. Microbiol",
+                "volume": "80",
+                "issue": "",
+                "pages": "4470--4480",
+                "other_ids": {
+                    "DOI": [
+                        "10.1128/AEM.00878-14"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Adriaenssens, E. M., and Cowan, D. A. (2014). Using signature genes as tools to assess environmental viral ecology and diversity. Appl. Environ. Microbiol. 80, 4470-4480. doi: 10.1128/AEM.00878-14",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "The marine viromes of four oceanic regions",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Angly",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Felts",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Breitbart",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Salamon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Edwards",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Carlson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "PLoS Biol",
+                "volume": "4",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1371/journal.pbio.0040368"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Angly, F. E., Felts, B., Breitbart, M., Salamon, P., Edwards, R. A., Carlson, C., et al. (2006). The marine viromes of four oceanic regions. PLoS Biol. 4:e368. doi: 10.1371/journal.pbio.0040368",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "The GAAS metagenomic tool and its estimations of viral and microbial average genome size in four major biomes",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Angly",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Willner",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Prieto-Davo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Edwards",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Schmieder",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Vega-Thurber",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "PLoS Comput. Biol",
+                "volume": "5",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1371/journal.pcbi.1000593"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Angly, F. E., Willner, D., Prieto-Davo, A., Edwards, R. A., Schmieder, R., Vega- Thurber, R., et al. (2009). The GAAS metagenomic tool and its estimations of viral and microbial average genome size in four major biomes. PLoS Comput. Biol. 5:e1000593. doi: 10.1371/journal.pcbi.1000593",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "Assessing symbiodinium diversity in scleractinian corals via nextgeneration sequencing-based genotyping of the ITS2 rDNA region",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Arif",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Daniels",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Bayer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Banguera-Hinestroza",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Barbrook",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Howe",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Mol. Ecol",
+                "volume": "23",
+                "issue": "",
+                "pages": "4418--4433",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/mec.12869"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Arif, C., Daniels, C., Bayer, T., Banguera-Hinestroza, E., Barbrook, A., Howe, C. J., et al. (2014). Assessing symbiodinium diversity in scleractinian corals via next- generation sequencing-based genotyping of the ITS2 rDNA region. Mol. Ecol. 23, 4418-4433. doi: 10.1111/mec.12869",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Observation of virus-like particles in thin sections of the bleaching scleractinian coral Acropora cytherea",
+                "authors": [
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Bettarel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Thuy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "Q"
+                        ],
+                        "last": "Huy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Hoang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Bouvier",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "J. Marine Biol. Association. U.K",
+                "volume": "93",
+                "issue": "",
+                "pages": "909--912",
+                "other_ids": {
+                    "DOI": [
+                        "10.1017/S0025315411002062"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Bettarel, Y., Thuy, N. T., Huy, T. Q., Hoang, P. K., and Bouvier, T. (2012). Observation of virus-like particles in thin sections of the bleaching scleractinian coral Acropora cytherea. J. Marine Biol. Association. U.K. 93, 909-912. doi: 10.1017/S0025315411002062",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "Coral-the world's most diverse symbiotic ecosystem",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Blackall",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Wilson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Van Oppen",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Mol. Ecol",
+                "volume": "24",
+                "issue": "",
+                "pages": "5330--5347",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/mec.13400"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Blackall, L. L., Wilson, B., and Van Oppen, M. J. (2015). Coral-the world's most diverse symbiotic ecosystem. Mol. Ecol. 24, 5330-5347. doi: 10.1111/mec.13400",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "Coral bleaching: causes and consequences",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Brown",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Coral Reefs",
+                "volume": "16",
+                "issue": "",
+                "pages": "129--138",
+                "other_ids": {
+                    "DOI": [
+                        "10.1007/s003380050249"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Brown, B. E. (1997). Coral bleaching: causes and consequences. Coral Reefs 16, S129-S138. doi: 10.1007/s003380050249",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "QIIME allows analysis of highthroughput community sequencing data",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Caporaso",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Kuczynski",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Stombaugh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Bittinger",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Bushman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Costello",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Nat. Methods",
+                "volume": "7",
+                "issue": "",
+                "pages": "335--336",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/nmeth.f.303"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Caporaso, J. G., Kuczynski, J., Stombaugh, J., Bittinger, K., Bushman, F. D., Costello, E. K., et al. (2010). QIIME allows analysis of high- throughput community sequencing data. Nat. Methods 7, 335-336. doi: 10.1038/nmeth.f.303",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "Amplification of DNA polymerase gene fragments from viruses infecting microalgae",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Chen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Suttle",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "Appl. Environ. Microbiol",
+                "volume": "61",
+                "issue": "",
+                "pages": "1274--1278",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Chen, F., and Suttle, C. A. (1995). Amplification of DNA polymerase gene fragments from viruses infecting microalgae. Appl. Environ. Microbiol. 61, 1274-1278.",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "Genetic diversity in marine algal virus communities as revealed by sequence analysis of DNA polymerase genes",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Chen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Suttle",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Short",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1996,
+                "venue": "Appl. Environ. Microbiol",
+                "volume": "62",
+                "issue": "",
+                "pages": "2869--2874",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Chen, F., Suttle, C. A., and Short, S. M. (1996). Genetic diversity in marine algal virus communities as revealed by sequence analysis of DNA polymerase genes. Appl. Environ. Microbiol. 62, 2869-2874.",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Viral outbreak in corals associated with an in situ bleaching event: a typical herpes-like viruses and a new megavirus infecting symbiodinium",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Correa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Ainsworth",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Rosales",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Thurber",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Butler",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Vega Thurber",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Front. Microbiol",
+                "volume": "7",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.3389/fmicb.2016.00127"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Correa, A. M., Ainsworth, T. D., Rosales, S. M., Thurber, A. R., Butler, C. R., and Vega Thurber, R. L. (2016). Viral outbreak in corals associated with an in situ bleaching event: a typical herpes-like viruses and a new megavirus infecting symbiodinium. Front. Microbiol. 7:127. doi: 10.3389/fmicb.2016. 00127",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "Unique nucleocytoplasmic dsDNA and +ssRNA viruses are associated with the dinoflagellate endosymbionts of corals",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Correa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Welsh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Vega Thurber",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "ISME J",
+                "volume": "7",
+                "issue": "",
+                "pages": "13--27",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/ismej.2012.75"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Correa, A. M., Welsh, R. M., and Vega Thurber, R. L. (2013). Unique nucleocytoplasmic dsDNA and +ssRNA viruses are associated with the dinoflagellate endosymbionts of corals. ISME J. 7, 13-27. doi: 10.1038/ismej.2012.75",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "Characterization of the diversity of marine RNA viruses",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Culley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Suttle",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Steward",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Man. Aqu. Viral. Ecol",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.4319/mave.2010.978-0-9845591-0-7.193"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Culley, A. I., Suttle, C. A., and Steward, G. F. (2010). Characterization of the diversity of marine RNA viruses. Man. Aqu. Viral. Ecol. 193-201. doi: 10.4319/mave.2010.978-0-9845591-0-7.193",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "Viruses: agents of coral disease?",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Davy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Burchett",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Dale",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Davies",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Davy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Muncke",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Dis. Aquat. Org",
+                "volume": "69",
+                "issue": "",
+                "pages": "101--110",
+                "other_ids": {
+                    "DOI": [
+                        "10.3354/dao069101"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Davy, S. K., Burchett, S. G., Dale, A. L., Davies, P., Davy, J. E., Muncke, C., et al. (2006). Viruses: agents of coral disease? Dis. Aquat. Org. 69, 101-110. doi: 10.3354/dao069101",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "Coral Bleaching--How and Why",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Douglas",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Douglas, A. E. (2003). Coral Bleaching--How and Why? York, UK: Elsevier Ltd.",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Oxidative stress and seasonal coral bleaching. Free Radic",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Downs",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Fauth",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Halas",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Dustan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Bemiss",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Woodley",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Biol. Med",
+                "volume": "33",
+                "issue": "",
+                "pages": "533--543",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/S0891-5849(02)00907-3"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Downs, C. A., Fauth, J. E., Halas, J. C., Dustan, P., Bemiss, J., and Woodley, C. M. (2002). Oxidative stress and seasonal coral bleaching. Free Radic. Biol. Med. 33, 533-543. doi: 10.1016/S0891-5849(02)00907-3",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Rates of evolutionary change in viruses: patterns and determinants",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Duffy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Shackelton",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Holmes",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Nat. Rev. Genet",
+                "volume": "9",
+                "issue": "",
+                "pages": "267--276",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/nrg2323"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Duffy, S., Shackelton, L. A., and Holmes, E. C. (2008). Rates of evolutionary change in viruses: patterns and determinants. Nat. Rev. Genet. 9, 267-276. doi: 10.1038/nrg2323",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "Search and clustering orders of magnitude faster than BLAST",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Edgar",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Bioinformatics",
+                "volume": "26",
+                "issue": "",
+                "pages": "2460--2461",
+                "other_ids": {
+                    "DOI": [
+                        "10.1093/bioinformatics/btq461"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Edgar, R. C. (2010). Search and clustering orders of magnitude faster than BLAST. Bioinformatics 26, 2460--2461. doi: 10.1093/bioinformatics/btq461",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "Evidence that reef-wide patterns of coral bleaching may be the result of the distribution of bleaching susceptible clones",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Edmunds",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Mar. Biol",
+                "volume": "121",
+                "issue": "",
+                "pages": "137--142",
+                "other_ids": {
+                    "DOI": [
+                        "10.1007/BF00349482"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Edmunds, P. J. (1994). Evidence that reef-wide patterns of coral bleaching may be the result of the distribution of bleaching susceptible clones. Mar. Biol. 121, 137-142. doi: 10.1007/BF00349482",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "Viral metagenomics",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Edwards",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Rohwer",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Nat. Rev. Microbiol",
+                "volume": "3",
+                "issue": "",
+                "pages": "504--510",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/nrmicro1163"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Edwards, R. A., and Rohwer, F. (2005). Viral metagenomics. Nat. Rev. Microbiol. 3, 504-510. doi: 10.1038/nrmicro1163",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "Could nested PCR be applicable for the study of microbial diversity?",
+                "authors": [
+                    {
+                        "first": "Z.-Y",
+                        "middle": [],
+                        "last": "Fan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "X.-R",
+                        "middle": [],
+                        "last": "Li",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D.-P",
+                        "middle": [],
+                        "last": "Mao",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G.-F",
+                        "middle": [],
+                        "last": "Zhu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S.-Y",
+                        "middle": [],
+                        "last": "Wang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Z.-X",
+                        "middle": [],
+                        "last": "Quan",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "World J. Microbiol. Biotechnology",
+                "volume": "25",
+                "issue": "",
+                "pages": "1447--1452",
+                "other_ids": {
+                    "DOI": [
+                        "10.1007/s11274-009-0033-3"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Fan, Z.-Y., Li, X.-R., Mao, D.-P., Zhu, G.-F., Wang, S.-Y., and Quan, Z.-X. (2009). Could nested PCR be applicable for the study of microbial diversity? World J. Microbiol. Biotechnology 25, 1447-1452. doi: 10.1007/s11274-009-0033-3",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "Coral reef bleaching: facts, hypotheses and implications",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Glynn",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1996,
+                "venue": "Glob. Chang. Biol",
+                "volume": "2",
+                "issue": "",
+                "pages": "495--509",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1365-2486.1996.tb00063.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Glynn, P. W. (1996). Coral reef bleaching: facts, hypotheses and implications. Glob. Chang. Biol. 2, 495-509. doi: 10.1111/j.1365-2486.1996.tb 00063.x",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "Coral reefs under rapid climate change and ocean acidification",
+                "authors": [
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Hoegh-Guldberg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Mumby",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Hooten",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Steneck",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Greenfield",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Gomez",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Science",
+                "volume": "318",
+                "issue": "",
+                "pages": "1737--1742",
+                "other_ids": {
+                    "DOI": [
+                        "10.1126/science.1152509"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Hoegh-Guldberg, O., Mumby, P. J., Hooten, A. J., Steneck, R. S., Greenfield, P., Gomez, E., et al. (2007). Coral reefs under rapid climate change and ocean acidification. Science 318, 1737-1742. doi: 10.1126/science.1152509",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "Rapid evolution of RNA genomes",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Holland",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Spindler",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Horodyski",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Grabau",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Nichol",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Vandepol",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1982,
+                "venue": "Science",
+                "volume": "215",
+                "issue": "",
+                "pages": "1577--1585",
+                "other_ids": {
+                    "DOI": [
+                        "10.1126/science.7041255"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Holland, J., Spindler, K., Horodyski, F., Grabau, E., Nichol, S., and Vandepol, S. (1982). Rapid evolution of RNA genomes. Science 215, 1577-1585. doi: 10.1126/science.7041255",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "Effects of ultraviolet radiation on marine virus-phytoplankton interactions",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Jacquet",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Bratbak",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "FEMS Microbiol. Ecol",
+                "volume": "44",
+                "issue": "",
+                "pages": "279--289",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/S0168-6496(03)00075-8"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Jacquet, S., and Bratbak, G. (2003). Effects of ultraviolet radiation on marine virus-phytoplankton interactions. FEMS Microbiol. Ecol. 44, 279-289. doi: 10.1016/S0168-6496(03)00075-8",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "MEGA7: molecular evolutionary genetics analysis version 7.0 for bigger datasets",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Kumar",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Stecher",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Tamura",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Mol. Biol. Evol",
+                "volume": "33",
+                "issue": "",
+                "pages": "1870--1874",
+                "other_ids": {
+                    "DOI": [
+                        "10.1093/molbev/msw054"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Kumar, S., Stecher, G., and Tamura, K. (2016). MEGA7: molecular evolutionary genetics analysis version 7.0 for bigger datasets. Mol. Biol. Evol. 33, 1870-1874. doi: 10.1093/molbev/msw054",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "Bacterial infection and coral bleaching",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Kushmaro",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Loya",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Fine",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Rosenberg",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1996,
+                "venue": "Nature",
+                "volume": "380",
+                "issue": "",
+                "pages": "396--396",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/380396a0"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Kushmaro, A., Loya, Y., Fine, M., and Rosenberg, E. (1996). Bacterial infection and coral bleaching. Nature 380, 396-396. doi: 10.1038/380396a0",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "Phylogenetic analysis of members of the Phycodnaviridae virus family, using amplified fragments of the major capsid protein gene",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Larsen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Larsen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Bratbak",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Sandaa",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Appl. Environ. Microbiol",
+                "volume": "74",
+                "issue": "",
+                "pages": "3048--3057",
+                "other_ids": {
+                    "DOI": [
+                        "10.1128/AEM.02548-07"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Larsen, J. B., Larsen, A., Bratbak, G., and Sandaa, R. A. (2008). Phylogenetic analysis of members of the Phycodnaviridae virus family, using amplified fragments of the major capsid protein gene. Appl. Environ. Microbiol. 74, 3048-3057. doi: 10.1128/AEM.02548-07",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "Latent virus-like infections are present in a diverse range of symbiodinium spp. (Dinophyta)",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Lawrence",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Wilson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Davy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Davy",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "J. Phycol",
+                "volume": "50",
+                "issue": "",
+                "pages": "984--997",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/jpy.12242"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Lawrence, S. A., Wilson, W. H., Davy, J. E., and Davy, S. K. (2014). Latent virus-like infections are present in a diverse range of symbiodinium spp. (Dinophyta). J. Phycol. 50, 984-997. doi: 10.1111/jpy.12242",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "Enumerating viruses in coral mucus",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Leruste",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Bouvier",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Bettarel",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Appl. Environ. Microbiol",
+                "volume": "78",
+                "issue": "",
+                "pages": "6377--6379",
+                "other_ids": {
+                    "DOI": [
+                        "10.1128/AEM.01141-12"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Leruste, A., Bouvier, T., and Bettarel, Y. (2012). Enumerating viruses in coral mucus. Appl. Environ. Microbiol. 78, 6377-6379. doi: 10.1128/AEM.01141-12",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "Oxidative stress causes coral bleaching during exposure to elevated temperatures",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Lesser",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Coral Reefs",
+                "volume": "16",
+                "issue": "",
+                "pages": "187--192",
+                "other_ids": {
+                    "DOI": [
+                        "10.1007/s003380050073"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Lesser, M. P. (1997). Oxidative stress causes coral bleaching during exposure to elevated temperatures. Coral Reefs, 16, 187-192. doi: 10.1007/s003380050073",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "Evidence for a role of viruses in the thermal sensitivity of coral photosymbionts",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Levin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Voolstra",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Weynberg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Van Oppen",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "ISME J",
+                "volume": "11",
+                "issue": "",
+                "pages": "808--812",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/ismej.2016.154"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Levin, R. A., Voolstra, C. R., Weynberg, K. D., and Van Oppen, M. J. (2016). Evidence for a role of viruses in the thermal sensitivity of coral photosymbionts. ISME J. 11, 808-812. doi: 10.1038/ismej.201 6.154",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "Metagenomic analysis of the coral holobiont during a natural bleaching event on the great barrier reef",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Littman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Willis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Bourne",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Environ. Microbiol. Rep",
+                "volume": "3",
+                "issue": "",
+                "pages": "651--660",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1758-2229.2010.00234.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Littman, R., Willis, B. L., and Bourne, D. G. (2011). Metagenomic analysis of the coral holobiont during a natural bleaching event on the great barrier reef. Environ. Microbiol. Rep. 3, 651-660. doi: 10.1111/j.1758-2229.2010.00234.x",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "Characterization of a latent virus-like infection of symbiotic zooxanthellae",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Lohr",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Munn",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Wilson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Appl. Environ. Microbiol",
+                "volume": "73",
+                "issue": "",
+                "pages": "2976--2981",
+                "other_ids": {
+                    "DOI": [
+                        "10.1128/AEM.02449-06"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Lohr, J., Munn, C. B., and Wilson, W. H. (2007). Characterization of a latent virus-like infection of symbiotic zooxanthellae. Appl. Environ. Microbiol. 73, 2976-2981. doi: 10.1128/AEM.02449-06",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "Viral communities associated with healthy and bleaching corals",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Marhaver",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Edwards",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Rohwer",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Environ. Microbiol",
+                "volume": "10",
+                "issue": "",
+                "pages": "2277--2286",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1462-2920.2008.01652.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Marhaver, K. L., Edwards, R. A., and Rohwer, F. (2008). Viral communities associated with healthy and bleaching corals. Environ. Microbiol. 10, 2277-2286. doi: 10.1111/j.1462-2920.2008.01652.x",
+                "links": null
+            },
+            "BIBREF35": {
+                "ref_id": "b35",
+                "title": "The role of symbiotic algae in carbon and energy flux in reef corals",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Muscatine",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1990,
+                "venue": "Ecosystems. World",
+                "volume": "25",
+                "issue": "",
+                "pages": "75--87",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Muscatine, L. (1990). The role of symbiotic algae in carbon and energy flux in reef corals. Ecosystems. World 25, 75-87.",
+                "links": null
+            },
+            "BIBREF36": {
+                "ref_id": "b36",
+                "title": "Isolation and characterization of a novel single-stranded RNA virus infecting the bloom-forming diatom Rhizosolenia setigera",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Nagasaki",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Tomaru",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Katanozaka",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Shirai",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Nishida",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Itakura",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Nagasaki, K., Tomaru, Y., Katanozaka, N., Shirai, Y., Nishida, K., Itakura, S., et al. (2004). Isolation and characterization of a novel single-stranded RNA virus infecting the bloom-forming diatom Rhizosolenia setigera.",
+                "links": null
+            },
+            "BIBREF39": {
+                "ref_id": "b39",
+                "title": "Dinoflagellate-infecting viruses",
+                "authors": [],
+                "year": null,
+                "venue": "J. Marine Biol. Association U.K",
+                "volume": "86",
+                "issue": "",
+                "pages": "469--474",
+                "other_ids": {
+                    "DOI": [
+                        "10.1017/S0025315406013361"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Dinoflagellate-infecting viruses. J. Marine Biol. Association U.K. 86, 469-474. doi: 10.1017/S0025315406013361",
+                "links": null
+            },
+            "BIBREF40": {
+                "ref_id": "b40",
+                "title": "High occurrence of viruses in the mucus layer of scleractinian corals",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Nguyen-Kim",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Bouvier",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Bouvier",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Doan-Nhu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Nguyen-Ngoc",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Rochelle-Newall",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Environ. Microbiol. Rep",
+                "volume": "6",
+                "issue": "",
+                "pages": "675--682",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/1758-2229.12185"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Nguyen-Kim, H., Bouvier, T., Bouvier, C., Doan-Nhu, H., Nguyen-Ngoc, L., Rochelle-Newall, E., et al. (2014). High occurrence of viruses in the mucus layer of scleractinian corals. Environ. Microbiol. Rep. 6, 675-682. doi: 10.1111/1758-2229.12185",
+                "links": null
+            },
+            "BIBREF41": {
+                "ref_id": "b41",
+                "title": "Prevalence of virus-like particles within a staghorn scleractinian coral (Acropora muricata) from the Great Barrier Reef",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Patten",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Harrison",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Mitchell",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Coral Reefs",
+                "volume": "27",
+                "issue": "",
+                "pages": "569--580",
+                "other_ids": {
+                    "DOI": [
+                        "10.1007/s00338-008-0356-9"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Patten, N. L., Harrison, P. L., and Mitchell, J. G. (2008). Prevalence of virus-like particles within a staghorn scleractinian coral (Acropora muricata) from the Great Barrier Reef. Coral Reefs 27, 569-580. doi: 10.1007/s00338-008-0356-9",
+                "links": null
+            },
+            "BIBREF42": {
+                "ref_id": "b42",
+                "title": "Role of symbiotic algae (Zooxanthellae) in coral calcification",
+                "authors": [
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "Pearse",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Muscatine",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1971,
+                "venue": "Biol. Bull",
+                "volume": "141",
+                "issue": "",
+                "pages": "350--363",
+                "other_ids": {
+                    "DOI": [
+                        "10.2307/1540123"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Pearse, V., and Muscatine, L. (1971). Role of symbiotic algae (Zooxanthellae) in coral calcification. Biol. Bull. 141, 350-363. doi: 10.2307/1540123",
+                "links": null
+            },
+            "BIBREF43": {
+                "ref_id": "b43",
+                "title": "Abundance and morphology of virus-like particles associated with the coral Acropora hyacinthus differ between healthy and white syndrome-infected states",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Pollock",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Wood-Charlson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J H"
+                        ],
+                        "last": "Van Oppen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Bourne",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Willis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Weynberg",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "MEPS",
+                "volume": "510",
+                "issue": "",
+                "pages": "39--43",
+                "other_ids": {
+                    "DOI": [
+                        "10.3354/meps10927"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Pollock, F. J., Wood-Charlson, E. M., Van Oppen, M. J. H., Bourne, D. G., Willis, B. L., and Weynberg, K. D. (2014). Abundance and morphology of virus-like particles associated with the coral Acropora hyacinthus differ between healthy and white syndrome-infected states. MEPS 510, 39-43. doi: 10.3354/meps10927",
+                "links": null
+            },
+            "BIBREF44": {
+                "ref_id": "b44",
+                "title": "R: A Language and Environment for Statistical Computing. R Foundation for Statistical Computing",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "R Core Team ; Rohwer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "Seguritan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Azam",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Knowlton",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Mar. Ecol. Prog. Ser",
+                "volume": "243",
+                "issue": "",
+                "pages": "1--10",
+                "other_ids": {
+                    "DOI": [
+                        "10.3354/meps243001"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "R Core Team (2016). R: A Language and Environment for Statistical Computing. R Foundation for Statistical Computing. Available online at: https://www.R- project.org/ Rohwer, F., Seguritan, V., Azam, F., and Knowlton, N. (2002). Diversity and distribution of coral-associated bacteria. Mar. Ecol. Prog. Ser. 243, 1-10. doi: 10.3354/meps243001",
+                "links": null
+            },
+            "BIBREF45": {
+                "ref_id": "b45",
+                "title": "Metavir 2: new tools for viral metagenome comparison and assembled virome analysis",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Roux",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Tournayre",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Mahul",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Debroas",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Enault",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "BMC Bioinform",
+                "volume": "15",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1186/1471-2105-15-76"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Roux, S., Tournayre, J., Mahul, A., Debroas, D., and Enault, F. (2014). Metavir 2: new tools for viral metagenome comparison and assembled virome analysis. BMC Bioinform. 15:76. doi: 10.1186/1471-2105-15-76",
+                "links": null
+            },
+            "BIBREF46": {
+                "ref_id": "b46",
+                "title": "Application of the major capsid protein as a marker of the phylogenetic diversity of Emiliania huxleyi viruses",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Rowe",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Fabre",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Gobena",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Wilson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Wilhelm",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "FEMS Microbiol. Ecol",
+                "volume": "76",
+                "issue": "",
+                "pages": "373--380",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1574-6941.2011.01055.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Rowe, J. M., Fabre, M. F., Gobena, D., Wilson, W. H., and Wilhelm, S. W. (2011). Application of the major capsid protein as a marker of the phylogenetic diversity of Emiliania huxleyi viruses. FEMS Microbiol. Ecol. 76, 373-380. doi: 10.1111/j.1574-6941.2011.01055.x",
+                "links": null
+            },
+            "BIBREF47": {
+                "ref_id": "b47",
+                "title": "Selection of primers for polymerase chain reaction",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Rychlik",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "Mol. Biotechnol",
+                "volume": "3",
+                "issue": "",
+                "pages": "129--134",
+                "other_ids": {
+                    "DOI": [
+                        "10.1007/BF02789108"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Rychlik, W. (1995). Selection of primers for polymerase chain reaction. Mol. Biotechnol. 3, 129-134. doi: 10.1007/BF02789108",
+                "links": null
+            },
+            "BIBREF48": {
+                "ref_id": "b48",
+                "title": "Coccolithovirus (Phycodnaviridae): characterisation of a new large dsDNA algal virus that infects Emiliana huxleyi",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Schroeder",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Oke",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Malin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Wilson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Arch. Virol",
+                "volume": "147",
+                "issue": "",
+                "pages": "1685--1698",
+                "other_ids": {
+                    "DOI": [
+                        "10.1007/s00705-002-0841-3"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Schroeder, D. C., Oke, J., Malin, G., and Wilson, W. H. (2002). Coccolithovirus (Phycodnaviridae): characterisation of a new large dsDNA algal virus that infects Emiliana huxleyi. Arch. Virol. 147, 1685-1698. doi: 10.1007/s00705-002-0841-3",
+                "links": null
+            },
+            "BIBREF49": {
+                "ref_id": "b49",
+                "title": "Sequencing depth and coverage: key considerations in genomic analyses",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Sims",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Sudbery",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Ilott",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Heger",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Ponting",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Nat. Rev. Genet",
+                "volume": "15",
+                "issue": "",
+                "pages": "121--132",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/nrg3642"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Sims, D., Sudbery, I., Ilott, N. E., Heger, A., and Ponting, C. P. (2014). Sequencing depth and coverage: key considerations in genomic analyses. Nat. Rev. Genet. 15, 121-132. doi: 10.1038/nrg3642",
+                "links": null
+            },
+            "BIBREF50": {
+                "ref_id": "b50",
+                "title": "Disease and immunity in Caribbean and Indo-Pacific zooxanthellate corals",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Sutherland",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Porter",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Torres",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Mar. Ecol. Prog. Ser",
+                "volume": "266",
+                "issue": "",
+                "pages": "273--302",
+                "other_ids": {
+                    "DOI": [
+                        "10.3354/meps266273"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Sutherland, K. P., Porter, J. W., and Torres, C. (2004). Disease and immunity in Caribbean and Indo-Pacific zooxanthellate corals. Mar. Ecol. Prog. Ser. 266, 273-302. doi: 10.3354/meps266273",
+                "links": null
+            },
+            "BIBREF51": {
+                "ref_id": "b51",
+                "title": "CLUSTAL W: improving the sensitivity of progressive multiple sequence alignment through sequence weighting, position-specific gap penalties and weight matrix choice",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Thompson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Higgins",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Gibson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Nucleic Acids Res",
+                "volume": "22",
+                "issue": "",
+                "pages": "4673--4680",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Thompson, J. D., Higgins, D. G., and Gibson, T. J. (1994). CLUSTAL W: improving the sensitivity of progressive multiple sequence alignment through sequence weighting, position-specific gap penalties and weight matrix choice. Nucleic Acids Res. 22, 4673-4680.",
+                "links": null
+            },
+            "BIBREF52": {
+                "ref_id": "b52",
+                "title": "Microbes in the coral holobiont: partners through evolution, development, and ecological interactions",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Thompson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Rivera",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Closek",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Medina",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Front. Cell. Infect. Microbiol",
+                "volume": "4",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.3389/fcimb.2014.00176"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Thompson, J. R., Rivera, H. E., Closek, C. J., and Medina, M. (2014). Microbes in the coral holobiont: partners through evolution, development, and ecological interactions. Front. Cell. Infect. Microbiol. 4:176. doi: 10.3389/fcimb.2014.00176",
+                "links": null
+            },
+            "BIBREF53": {
+                "ref_id": "b53",
+                "title": "Viruses of reef-building scleractinian corals",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "L V"
+                        ],
+                        "last": "Thurber",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "M S"
+                        ],
+                        "last": "Correa",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "J. Exp. Mar. Biol. Ecol",
+                "volume": "408",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/j.jembe.2011.07.030"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Thurber, R. L. V., and Correa, A. M. S. (2011). Viruses of reef-building scleractinian corals. J. Exp. Mar. Biol. Ecol. 408:102. doi: 10.1016/j.jembe.2011.07.030",
+                "links": null
+            },
+            "BIBREF54": {
+                "ref_id": "b54",
+                "title": "Isolation and characterization of a single-stranded RNA virus infecting the bloomforming diatom Chaetoceros socialis",
+                "authors": [
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Tomaru",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Takao",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Suzuki",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Nagumo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Nagasaki",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Appl. Environ. Microbiol",
+                "volume": "75",
+                "issue": "",
+                "pages": "2375--2381",
+                "other_ids": {
+                    "DOI": [
+                        "10.1128/AEM.02580-08"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Tomaru, Y., Takao, Y., Suzuki, H., Nagumo, T., and Nagasaki, K. (2009). Isolation and characterization of a single-stranded RNA virus infecting the bloom- forming diatom Chaetoceros socialis. Appl. Environ. Microbiol. 75, 2375-2381. doi: 10.1128/AEM.02580-08",
+                "links": null
+            },
+            "BIBREF55": {
+                "ref_id": "b55",
+                "title": "Host-specific interactions with environmental factors shape the distribution of symbiodinium across the Great Barrier Reef",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Tonk",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Sampayo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Weeks",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Magno-Canto",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Hoegh-Guldberg",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "PLoS ONE",
+                "volume": "8",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1371/journal.pone.0068533"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Tonk, L., Sampayo, E. M., Weeks, S., Magno-Canto, M., and Hoegh-Guldberg, O. (2013). Host-specific interactions with environmental factors shape the distribution of symbiodinium across the Great Barrier Reef. PLoS ONE 8:e68533. doi: 10.1371/journal.pone.0068533",
+                "links": null
+            },
+            "BIBREF56": {
+                "ref_id": "b56",
+                "title": "Metagenomic analysis indicates that stressors induce production of herpes-like viruses in the coral Porites compressa",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Vega Thurber",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Barott",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Hall",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Liu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Rodriguez-Mueller",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Desnues",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Proc. Natl. Acad. Sci. U.S.A",
+                "volume": "105",
+                "issue": "",
+                "pages": "18413--18418",
+                "other_ids": {
+                    "DOI": [
+                        "10.1073/pnas.0808985105"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Vega Thurber, R. L., Barott, K. L., Hall, D., Liu, H., Rodriguez-Mueller, B., Desnues, C., et al. (2008). Metagenomic analysis indicates that stressors induce production of herpes-like viruses in the coral Porites compressa. Proc. Natl. Acad. Sci. U.S.A. 105, 18413-18418. doi: 10.1073/pnas.0808985105",
+                "links": null
+            },
+            "BIBREF57": {
+                "ref_id": "b57",
+                "title": "Metagenomic analysis of stressed coral holobionts",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Vega Thurber",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Willner-Hall",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Rodriguez-Mueller",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Desnues",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Edwards",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Angly",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Environ. Microbiol",
+                "volume": "11",
+                "issue": "",
+                "pages": "2148--2163",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1462-2920.2009.01935.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Vega Thurber, R., Willner-Hall, D., Rodriguez-Mueller, B., Desnues, C., Edwards, R. A., Angly, F., et al. (2009). Metagenomic analysis of stressed coral holobionts. Environ. Microbiol. 11, 2148-2163. doi: 10.1111/j.1462-2920.2009.01935.x",
+                "links": null
+            },
+            "BIBREF58": {
+                "ref_id": "b58",
+                "title": "The variability of the 16S rRNA gene in bacterial genomes and its consequences for bacterial community analyses",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Vetrovsky",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Baldrian",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "PLoS ONE",
+                "volume": "8",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1371/journal.pone.0057923"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Vetrovsky, T., and Baldrian, P. (2013). The variability of the 16S rRNA gene in bacterial genomes and its consequences for bacterial community analyses. PLoS ONE 8:e57923. doi: 10.1371/journal.pone.0057923",
+                "links": null
+            },
+            "BIBREF59": {
+                "ref_id": "b59",
+                "title": "Cellular mechanisms of Cnidarian bleaching: stress causes the collapse of symbiosis",
+                "authors": [
+                    {
+                        "first": "V",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Weis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "J. Exp. Biol",
+                "volume": "211",
+                "issue": "",
+                "pages": "3059--3066",
+                "other_ids": {
+                    "DOI": [
+                        "10.1242/jeb.009597"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Weis, V. M. (2008). Cellular mechanisms of Cnidarian bleaching: stress causes the collapse of symbiosis. J. Exp. Biol. 211, 3059-3066. doi: 10.1242/jeb.009597",
+                "links": null
+            },
+            "BIBREF60": {
+                "ref_id": "b60",
+                "title": "Generating viral metagenomes from the coral holobiont",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Weynberg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Wood-Charlson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Suttle",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Van Oppen",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Front. Microbiol",
+                "volume": "5",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.3389/fmicb.2014.00206"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Weynberg, K. D., Wood-Charlson, E. M., Suttle, C. A., and Van Oppen, M. J. (2014). Generating viral metagenomes from the coral holobiont. Front. Microbiol. 5:206. doi: 10.3389/fmicb.2014.00206",
+                "links": null
+            },
+            "BIBREF61": {
+                "ref_id": "b61",
+                "title": "An enemy within? Observations of virus-like particles in reef corals",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Wilson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Dale",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Davy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Davy",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Coral Reefs",
+                "volume": "24",
+                "issue": "",
+                "pages": "145--148",
+                "other_ids": {
+                    "DOI": [
+                        "10.1007/s00338-004-0448-0"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Wilson, W. H., Dale, A. L., Davy, J. E., and Davy, S. K. (2004). An enemy within? Observations of virus-like particles in reef corals. Coral Reefs 24, 145-148. doi: 10.1007/s00338-004-0448-0",
+                "links": null
+            },
+            "BIBREF62": {
+                "ref_id": "b62",
+                "title": "Temperature induction of viruses in symbiotic dinoflagellates",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Wilson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Francis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Ryan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Davy",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Aqu. Microbial. Ecol",
+                "volume": "25",
+                "issue": "",
+                "pages": "99--102",
+                "other_ids": {
+                    "DOI": [
+                        "10.3354/ame025099"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Wilson, W. H., Francis, I., Ryan, K., and Davy, S. K. (2001). Temperature induction of viruses in symbiotic dinoflagellates. Aqu. Microbial. Ecol. 25, 99-102. doi: 10.3354/ame025099",
+                "links": null
+            },
+            "BIBREF63": {
+                "ref_id": "b63",
+                "title": "Metagenomic characterization of viral communities in corals: mining biological signal from methodological noise",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Wood-Charlson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Weynberg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Suttle",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Roux",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Van Oppen",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Environ. Microbiol",
+                "volume": "17",
+                "issue": "",
+                "pages": "3440--3449",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/1462-2920.12803"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Wood-Charlson, E. M., Weynberg, K. D., Suttle, C. A., Roux, S., and Van Oppen, M. J. (2015). Metagenomic characterization of viral communities in corals: mining biological signal from methodological noise. Environ. Microbiol. 17, 3440-3449. doi: 10.1111/1462-2920.12803",
+                "links": null
+            },
+            "BIBREF64": {
+                "ref_id": "b64",
+                "title": "PEAR: a fast and accurate Illumina Paired-End reAd mergeR",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Zhang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Kobert",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Flouri",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Stamatakis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Bioinformatics",
+                "volume": "30",
+                "issue": "",
+                "pages": "614--620",
+                "other_ids": {
+                    "DOI": [
+                        "10.1093/bioinformatics/btt593"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Zhang, J., Kobert, K., Flouri, T., and Stamatakis, A. (2014). PEAR: a fast and accurate Illumina Paired-End reAd mergeR. Bioinformatics 30, 614-620. doi: 10.1093/bioinformatics/btt593",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "uris": null,
+                "type_str": "figure",
+                "text": "MCP sequence OTU composition using a 65% similarity cut-off. Total number of OTUs = 417. The same color in different samples represents the same OTU. (Left) P. lutea colonies from Davies Reef; (Right) colonies of different species from Orpheus Island.",
+                "num": null
+            }
+        }
+    }
+}
