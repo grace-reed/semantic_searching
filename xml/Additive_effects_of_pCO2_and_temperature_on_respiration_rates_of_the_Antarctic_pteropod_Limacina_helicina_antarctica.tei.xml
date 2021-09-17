@@ -1,0 +1,2712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/grace/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Additive effects of pCO 2 and temperature on respiration rates of the Antarctic pteropod Limacina helicina antarctica</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2019-08-28">28 August 2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Umihiko</forename><surname>Hoshijima</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Juliet</forename><forename type="middle">M</forename><surname>Wong</surname></persName>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gretchen</forename><forename type="middle">E</forename><surname>Hofmann</surname></persName>
+							<email>gretchen.hofmann@lifesci.ucsb.edu</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Ecology, Evolution, and Marine Biology</orgName>
+								<orgName type="institution">University of California Santa Barbara</orgName>
+								<address>
+									<postCode>93106-9620</postCode>
+									<settlement>Santa Barbara</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Ecology, Evolution, and Marine Biology</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<addrLine>Santa Barbara</addrLine>
+									<postCode>93106-9620</postCode>
+									<settlement>Santa Barbara</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Additive effects of pCO 2 and temperature on respiration rates of the Antarctic pteropod Limacina helicina antarctica</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2019-08-28">28 August 2019</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1093/conphys/cox064</idno>
+					<note type="submission">Received 14 July 2017; Revised 9 October 2017; Editorial Decision 26 October 2017; accepted 4 November 2017</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-09-14T02:44+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Limacina helicina</term>
+					<term>metabolic rate</term>
+					<term>ocean acidification</term>
+					<term>pH</term>
+					<term>pteropods</term>
+					<term>temperature</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>The Antarctic pteropod, Limacina helicina antarctica, is a dominant member of the zooplankton in the Ross Sea and supports the vast diversity of marine megafauna that designates this region as an internationally protected area. Here, we observed the response of respiration rate to abiotic stressors associated with global change-environmentally relevant temperature treatments (−0.8°C, 4°C) and pH treatments reflecting current-day and future modeled extremes (8.2, 7.95 and 7.7 pH at −0.8°C; 8.11, 7.95 and 7.7 pH at 4°C). Sampling repeatedly over a 14-day period in laboratory experiments and using microplate respirometry techniques, we found that the metabolic rate of juvenile pteropods increased in response to low-pH exposure (pH 7.7) at −0.8°C, a near-ambient temperature. Similarly, metabolic rate increased when pteropods were exposed simultaneously to multiple stressors: lowered pH conditions (pH 7.7) and a high temperature (4°C). Overall, the results showed that pCO 2 and temperature interact additively to affect metabolic rates in pteropods. Furthermore, we found that L. h. antarctica can tolerate acute exposure to temperatures far beyond its maximal habitat temperature. Overall, L. h. antarctica appears to be susceptible to pH and temperature stress, two abiotic stressors which are expected to be especially deleterious for ectothermic marine metazoans in polar seas.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Organismal responses to singular abiotic stressors have long been utilized to investigate the role of physiological tolerance in shaping ecosystems and communities <ref type="bibr" target="#b81">(Somero, 2002)</ref>. However, assessing physiological conditions in response to multiple environmental stressors has recently become recognized as a critical step towards predicting how populations will persist in the future in response to anthropogenic environmental change <ref type="bibr" target="#b90">(Todgham and Stillman, 2013;</ref><ref type="bibr" target="#b9">Boyd et al., 2015;</ref><ref type="bibr" target="#b31">Gunderson et al., 2016)</ref>. As climate change will involve complex physical factors changing together <ref type="bibr" target="#b31">(Gunderson et al., 2016)</ref>, experiments investigating environmentally relevant multistressor exposures are quickly becoming a critical component of global change biology.</p><p>In line with the process of global climate change (GCC), there is an emergent need to find species which can be used to assess ecosystem health. These organisms, often referred to as indicator species, can allow for a better understanding of global ocean conditions, especially in remote locations, as long as the species is well-studied in the context of these global stressors <ref type="bibr" target="#b49">(Landres et al., 1988)</ref>. Certain animals may also act as valuable sentinel organisms, helping to indicate the first signs of GCC impacts on ecosystems <ref type="bibr" target="#b1">(Bednaršek et al., 2014;</ref><ref type="bibr" target="#b43">Johnson and Hofmann, 2017;</ref><ref type="bibr" target="#b57">Manno et al., 2017)</ref>. For instance, thecosome pteropods possess a very fragile shell composed primarily of aragonite <ref type="bibr" target="#b68">(Orr et al., 2005;</ref><ref type="bibr" target="#b15">Comeau et al., 2010)</ref>, a more soluble form of CaCO 3 that is particularly vulnerable to ocean acidification (OA) <ref type="bibr" target="#b66">(Mucci, 1983;</ref><ref type="bibr" target="#b15">Comeau et al., 2010)</ref>. Previous studies have shown evidence of shell dissolution and malformations under future pCO 2 levels <ref type="bibr" target="#b68">(Orr et al., 2005;</ref><ref type="bibr" target="#b52">Lischka et al., 2010)</ref>, which may adversely impact the shell's protective capacity against predators or infection, or the shell's ballast ability, which aids in vertical migration <ref type="bibr" target="#b15">(Comeau et al., 2010)</ref>. Through this lens, the overarching goal of this study was to examine the response of an important member of the zooplankton in the Southern Ocean, the pteropod Limacina helicina antarctica, to temperature changes and simulated OA.</p><p>Although it is well understood that GCC and OA are drastically increasing global sea surface temperatures and reducing the mean surface ocean pH levels at an accelerated rate (0.6-2.0°C increase and a 0.3-0.32 pH units decrease by the year 2100) (IPCC, 2013), changes in ocean conditions are predicted to be particularly dramatic in polar seas <ref type="bibr" target="#b85">(Steinacher et al., 2009)</ref> with marine communities in the Arctic and Southern Ocean expected to experience significant changes in physiochemical conditions in this century <ref type="bibr" target="#b34">(Hauri et al., 2016)</ref>. In particular, the Southern Ocean has already warmed at a rate almost double that of the global trend in the upper 1000 m of ocean waters (0.17°C in the Southern Ocean between the 1950s and the 1980s) <ref type="bibr" target="#b51">(Levitus et al., 2000;</ref><ref type="bibr" target="#b28">Gille, 2002;</ref><ref type="bibr" target="#b26">Fyfe, 2006)</ref>. Additionally, the surface waters of the Southern Ocean are inherently susceptible to OA due to the high solubility of gases in cold waters, with surface ocean undersaturation of aragonite (Ω arag &lt; 1) expected to develop by the year 2030 <ref type="bibr" target="#b60">(McNeil and Matear, 2008;</ref><ref type="bibr" target="#b34">Hauri et al., 2016)</ref>. Considering these observed trends, understanding how Antarctic marine organisms respond to the combined impacts of warming and acidification is of paramount importance for predicting how these factors will impact the unique ecosystem that persists in the Southern Ocean <ref type="bibr" target="#b8">(Boyd et al., 2016)</ref>.</p><p>In the context of future ocean change, organisms that inhabit the Southern Ocean may be limited in their ability to adapt or migrate. Polar ectotherms often possess slow growth rates and long generation times, which generally result in a lower capacity for adaptation <ref type="bibr" target="#b69">(Peck, 2005;</ref><ref type="bibr" target="#b73">Pörtner et al., 2007)</ref>. Furthermore, unlike some temperate and tropical species that have been observed to migrate poleward with increasing oceanic temperatures <ref type="bibr" target="#b83">(Sorte et al., 2010;</ref><ref type="bibr" target="#b88">Sunday et al., 2012;</ref><ref type="bibr" target="#b72">Poloczanska et al., 2013)</ref>, polar species are already restricted to high latitudes and will more likely undergo range contractions with continuing GCC <ref type="bibr" target="#b92">(Whiteley, 2011)</ref>. In addition to being stenothermal, possessing a narrow range of thermal tolerance from adapting under very stable conditions for millions of years <ref type="bibr" target="#b69">(Peck, 2005;</ref><ref type="bibr" target="#b83">Sorte et al., 2010;</ref><ref type="bibr" target="#b82">Somero, 2012)</ref>, these organisms may potentially be living at or near their thermal tolerance maxima <ref type="bibr" target="#b92">(Whiteley, 2011)</ref>.</p><p>In contrast, seasonal pH variation in the Ross Sea <ref type="bibr" target="#b46">(Kapsenberg et al., 2015)</ref> indicates that Antarctic species may have more physiological tolerance and potential for adaptation to OA stress than expected. Indeed, larvae of the sea urchin, Sterechinus neumayeri, were found to be remarkably tolerant to OA and warming <ref type="bibr" target="#b45">(Kapsenberg and Hofmann, 2014)</ref>, although other studies have shown sensitivity of calcification processes in early stages . Stress responses, however, can vary greatly by species <ref type="bibr" target="#b12">(Byrne and Przeslawski, 2013;</ref><ref type="bibr" target="#b10">Breitburg et al., 2015;</ref><ref type="bibr" target="#b74">Przeslawski et al., 2015;</ref><ref type="bibr" target="#b86">Stillman and Armstrong, 2015)</ref>. Additionally, although variability in pH has been characterized across a variety of spatiotemporal scales <ref type="bibr" target="#b38">(Hofmann et al., 2011)</ref>, the high seasonality of pH in Antarctic surface waters indicates the potential for spawning phenology of polar organisms to be a critical factor in assessing the exposure of early life stages to near-future OA <ref type="bibr" target="#b46">(Kapsenberg et al., 2015)</ref>.</p><p>In the Southern Ocean, L. h. antarctica is a dominant member of the zooplankton <ref type="bibr" target="#b40">(Hunt et al., 2008)</ref>. Thecosome pteropods are a key study organism in polar regions, holding an essential role in food web dynamics and energy transfer <ref type="bibr" target="#b93">(Willette et al., 2001;</ref><ref type="bibr" target="#b40">Hunt et al., 2008;</ref><ref type="bibr" target="#b4">Bednaršek et al., 2012)</ref> by acting as major consumers of phytoplankton <ref type="bibr" target="#b71">(Perissinotto, 1991;</ref><ref type="bibr" target="#b5">Bernard and Froneman, 2009)</ref> while serving as prey for a variety of organisms, including gymnosome pteropods, euphausids, salps, and a multitude of pelagic and demersal fish species <ref type="bibr" target="#b47">(Lancraft et al., 1991;</ref><ref type="bibr" target="#b40">Hunt et al., 2008)</ref>. As such, L. h. antarctica is a key player in the simple, yet fragile Antarctic food web and directly impacts the food sources of higher trophic levels, including predatory birds and mammals, such as penguins, whales and seals <ref type="bibr" target="#b17">(Davis et al., 1999;</ref><ref type="bibr" target="#b77">Seibel and Dierssen, 2003;</ref><ref type="bibr" target="#b59">McClintock et al., 2008)</ref>. Thecosome pteropods also play a sizeable role in geochemical cycling of both organic and inorganic carbon, producing fecal pellets and calcium carbonate (CaCO ) shells that sink to deeper waters <ref type="bibr" target="#b6">(Berner and Honjo, 1981;</ref><ref type="bibr" target="#b21">Fabry, 1990;</ref><ref type="bibr" target="#b29">Gilmer and Harbison, 1991;</ref><ref type="bibr" target="#b14">Collier et al., 2000;</ref><ref type="bibr" target="#b91">Tsurumi et al., 2005;</ref><ref type="bibr" target="#b58">Manno et al., 2009)</ref>. <ref type="bibr" target="#b58">Manno et al. (2009)</ref> estimated that L. h. antarctica could contribute as much as 72% of the total organic carbon export in the Ross Sea, and <ref type="bibr" target="#b39">Honjo (2004)</ref> found that south of the Polar Front, pteropods were the main contributor to an inorganic CaCO flux of 110 mmol C m −2 yr −1 . Overall, L. h. antarctica holds a key role in Southern Ocean ecosystems, but unfortunately, changing ocean temperatures and pH levels may adversely impact this species. Due to this considerable abundance and ecological importance of L. h. antarctica in the Southern Ocean, as well as its potential vulnerabilities to elevated temperatures and pCO 2 levels, it is critical to investigate how this species copes with multiple abiotic stressors and consequently, the capacity of these populations to withstand dynamic environmental change.</p><p>To complicate matters, the interaction effect between pCO 2 and temperature stress can vary drastically, and can have key physiological consequences <ref type="bibr" target="#b90">(Todgham and Stillman, 2013)</ref>. An additive interactive effect may occur if each individual stressor does not interact with one another, or if one or more of the stressors has no significant effect-as pCO 2 and temperature have been observed in certain mollusk species <ref type="bibr" target="#b89">(Talmage and Gobler, 2011)</ref>. However, other organisms, such as sea urchin larvae, have been shown to respond to these same two stressors antagonistically when the negative effects of one stressor are offset by the other <ref type="bibr" target="#b79">(Sheppard Brennand et al., 2010)</ref>. Lastly, the two stressors may exacerbate one another, resulting in a synergistic interaction effect between stressors as has been observed in the Arctic pteropod <ref type="bibr" target="#b53">(Lischka and Riebesell, 2012)</ref>. Understanding the interaction of environmentally co-occurring stressors in sentinel species, especially in areas of the world's oceans potentially most vulnerable to global change, is thus a key research priority in global change biology.</p><p>Here, we examined the nature of two key multistressors, pCO 2 and temperature, on the respiration rates of the Antarctic pteropod L. h. antarctica. Interrogating metabolic rate as a proxy for organismal energy dynamics is a useful strategy in global change studies and can provide valuable insight into physiological state <ref type="bibr" target="#b80">(Sokolova, 2013)</ref>. Hypothetically, under OA stress alone, pteropods may increase their metabolism to support shell repair, or to maintain calcification under elevated pCO 2 conditions. In addition to shell effects, elevated pCO 2 levels can also alter physiology by interacting with internal and external body fluids, causing acid-base imbalances and reduced capacity for oxygen transport <ref type="bibr" target="#b22">(Fabry et al., 2008;</ref><ref type="bibr" target="#b61">Melzner et al., 2009;</ref><ref type="bibr" target="#b67">O'Donnell et al., 2010)</ref>. Metabolic suppression has been identified as an adaptive mechanism by which some organisms cope with hypercapnia, but prolonged metabolic suppression will have consequences on growth and survival <ref type="bibr" target="#b22">(Fabry et al., 2008;</ref><ref type="bibr" target="#b20">Dymowska et al., 2012)</ref>. In contrast, some species appear to respond to OA by increasing their metabolic rates, although this comes at an energetic cost <ref type="bibr" target="#b94">(Wood et al., 2008;</ref><ref type="bibr" target="#b87">Stumpp et al., 2011)</ref>. Increased temperatures will also increase metabolic rates due to enzyme kinetics based on the Boltzmann-Arrhenius model <ref type="bibr" target="#b18">(Dell et al., 2011)</ref>, which may interact with the consequences of a high pCO 2 environment <ref type="bibr" target="#b31">(Gunderson et al., 2016)</ref>.</p><p>In nature, individuals of L. h. antarctica may modify their metabolic rate as a result of seasonal and developmental changes. L. h. antarctica have a lifespan of 1-3 or more years <ref type="bibr" target="#b40">(Hunt et al., 2008;</ref><ref type="bibr" target="#b4">Bednaršek et al., 2012)</ref> in which juveniles overwinter before maturing into adults in the early summer <ref type="bibr" target="#b27">(Gannefors et al., 2005;</ref><ref type="bibr" target="#b40">Hunt et al., 2008)</ref>. Overwintering juveniles may be especially susceptible to elevated pCO 2 levels and temperatures because, during the wintertime when algal food supplies are limited, polar organisms are known to lower their metabolism as a means of conserving energy <ref type="bibr" target="#b36">(Hirche, 1996;</ref><ref type="bibr" target="#b32">Hagen and Auel, 2001</ref>), possibly decreasing their resistance to abiotic stressors <ref type="bibr" target="#b52">(Lischka et al., 2010)</ref>. <ref type="bibr" target="#b56">Maas et al. (2011)</ref> demonstrated that L. h. antarctica lowered its metabolic rate, measured by a decrease in oxygen consumption, under conditions of reduced food availability. Over the winter, the Arctic pteropod subspecies, L. helicina helicina, temporarily stops growing, perhaps lowering its activity and calcification processes while relying on internal lipid stores <ref type="bibr" target="#b53">(Lischka and Riebesell, 2012)</ref>. Metabolic suppression may decrease an organism's ability to cope with OA and/or warming, or else metabolism must be increased in order to respond, effectively forcing the use of energy reserves at a time when conserving energy is a necessity <ref type="bibr" target="#b53">(Lischka and Riebesell, 2012)</ref>. Thus, research on juvenile L. h. antarctica provides valuable information on what is potentially its most vulnerable life history stage <ref type="bibr" target="#b57">(Manno et al., 2017)</ref>.</p><p>Here, we examined the response of juvenile Antarctic pteropods, L. h. antarctica, to abiotic stressors related to both temperature and pH by measuring their metabolic rate under laboratory treatments reflective of current and future Southern Ocean abiotic conditions. We also describe an experimental setup designed to maintain pteropods under controlled pCO 2 and temperature conditions. Using a microplate respirometry system, oxygen consumption measurements were recorded during 2-week exposures to a combination of three pCO 2 levels and two temperatures chosen to reflect current and predicted future ocean conditions during both winter and summer seasons in this region. Additionally, oxygen consumption rates were measured along a range of elevated temperatures to determine the critical thermal maxima (CT max ). Due to their reliance on their relatively vulnerable aragonitic shell, our goal was to examine the impacts of differential pCO 2 and temperature conditions on juvenile L. h. antarctica by assessing degrees of metabolic change.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Field collection of pteropods</head><p>Pteropods were collected~1 km from shore near McMurdo Station, Antarctica at a research hut site on first-year fast ice (77°50′54″ S, 166°35′55″ E) with a maximum water depth of 170 m. Collections were made using a fixed-frame bongo net (two 50 cm diameter × 150 cm length nets with 333 μm mesh and cod ends with 200 and 333 μm mesh) deployed to a depth of 50 m through a 1.3 m diameter hole drilled in the sea ice. Floats attached to each cod end minimized pinching of the net, while a swiveling double shackle allowed the net to rotate and tilt along with the water currents. The duration of each bongo net deployment was approximately 24 h.</p><p>Collections were performed throughout the 2015 austral spring and summer, and selected tows supported three experiments described in this study: (i) an experiment run at ambient temperature, (ii) an experiment run at an elevated temperature, 4°C and (iii) an experiment to determine the thermal tolerance of L. h. antarctica (referred to as E1, E2 and E3, respectively). E1 pteropods were collected on the 21st and 22nd of October, E2 pteropods on the 11th of November, and E3 pteropods on the 30th of November. Following collection, pteropods were immediately transported to the Crary Lab aquarium facilities at McMurdo Station, where they were held in 500 mL polycarbonate Nalgene containers filled with seawater at~−0.8°C for no longer than 1 day until the start of each experiment.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental design</head><p>For CO 2 exposure experiments (E1 and E2), pteropods were held in a flow-through zooplankton culturing system with controlled levels of pCO 2 while maintaining sufficient flow for long-term experiments. The reservoir mixing system that generated the target experimental pCO 2 levels was constructed following <ref type="bibr" target="#b23">Fangue et al. (2010)</ref></p><formula xml:id="formula_0">. Briefly, filtered, CO 2 -scrubbed (Sodasorb, Smith's Medical, St. Paul, MN, USA), dried (W.A.</formula><p>Hammond Drierite Co, Stock no. 23 001, Xenia, OH, USA) air was mixed with pure CO 2 using SmartTrak™ 100L Series Mass Flow Controllers and MicroTrak™ Series Mass Flow Controllers (Sierra Instruments, Monterey, CA, USA), respectively. These reservoirs were held in a sea table that kept the treated seawater at the desired experimental temperature (~−0.8°C for E1 and~4°C for E2) to represent the current average temperature and an elevated temperature based on the Representative Concentration Pathway (RCP) 8.5, the scenario that represents the highest greenhouse gas emissions <ref type="bibr">(IPCC, 2013</ref><ref type="bibr" target="#b62">, Moss et al., 2010</ref><ref type="bibr" target="#b75">, Riahi et al., 2011</ref>. The pCO 2 treated seawater was then pumped into the zooplankton flow-through culturing system. Acidification treatments were chosen to represent the range of current monthly means of pH in McMurdo Sound (measured 2 km away from the pteropod collection site), as well as modeled end-of-century pH based on an equilibrium model <ref type="bibr" target="#b46">(Kapsenberg et al., 2015)</ref>. Target pH values for E1 were 8.2 (a low pCO 2 treatment of~264 μatm, representing the average pH of the current highest-pH month), 7.95 (a mid pCO treatment of~500 μatm, representing both the average pH of the current lowest-pH month, as well as the average pH of the future highest-pH month) and 7.7 (a high pCO 2 treatment of~920 μatm, representing the average pH of the future lowest-pH month) ( <ref type="table" target="#tab_0">Table 1)</ref>. Target pH values for E2 were equivalent to those of E1 for the mid and high pCO 2 treatments; however, the low treatment was set at 8.11 pH units (~337 μatm) because the 8.2 pH value from E1 at 4°C resulted in an environmentally improbable pCO 2 value (~265 μatm).</p><p>The zooplankton culture system used for E1 and E2 consisted of 3 culture vessels per treatment (9 culture vessels total) submerged in seawater held at the experimental temperature (either −0.8°C or 4°C). Culture vessels were created by modifying clear 1-liter polycarbonate plastic tanks, accompanying lids and 400 μm mesh baffles that are often used in zebrafish research (Model AHLT3, Pentair Aquatic Ecosystems, Cary, NC, USA). To ensure that the animals were exposed to a continuous flow of pCO 2 treated seawater, water input was regulated using irrigation button drippers (W221B, DIG Irrigation Products, Vista, CA, USA), at a flow rate of 2 liters per hour. The volume of one vessel was replaced on a 20-min basis. As a result, the pCO 2 levels in the replicate culture vessels were highly similar within a treatment and tracked the reservoir pCO 2 concentrations closely (see Results, <ref type="figure" target="#fig_0">Fig. 1</ref>). For each experiment, approximately 400 pteropods were randomly selected and added to each of the culture vessels. Only actively swimming individuals were taken for experiments. Individuals were not fed during these experiments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Carbonate chemistry analysis</head><p>Seawater chemistry was analyzed for the culturing tanks as previously described by <ref type="bibr" target="#b44">Johnson et al. (2016)</ref>. Water samples were fixed with 0.02% mercuric chloride and stored at 4°C until analyzed <ref type="bibr" target="#b19">(Dickson et al., 2007)</ref>. Total alkalinity measurements were performed using an open-cell titration method (Mettler Toledo T50, Columbus, OH, USA) and pH readings were conducted using a m-Cresol spectrophotometric assay <ref type="bibr" target="#b13">(Clayton and Byrne, 1993)</ref> conducted on a Shimadzu spectrometer (Model UV2501PC, Kyoto, Japan). Carbonate chemistry parameters were calculated using CO2calc (Robbins et al., 2010) using constants from <ref type="bibr" target="#b55">Lueker et al. (2000)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sampling</head><p>For E1 and E2, respirometry measurements were made at the start of each experiment (T 0 ), and following mesocosm exposures of 24 h (T 1 ), 48 h (T ), 4 days (T 4 ), 7 days (T 7 ) and 14 days <ref type="table" target="#tab_0">(T 14 )</ref>. At each timepoint, 18 individuals were randomly selected from culture vessels of each treatment and pooled for respirometry measurements. Individuals were not returned to the culturing tanks after respirometry was conducted, and thus each respirometry trial was conducted with different remaining individuals.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Respirometry</head><p>Oxygen consumption rates were measured using a microplate system (Model SY1000, Loligo Systems, Viborg, Denmark). Each respirometry plate contained 24 closed-cell glass chambers with a 200 μL capacity, with a PreSens oxygen spot (PreSens, Regensburg, Germany) at the base of each chamber. Each plate was calibrated at two oxygen concentrations: 100% (aerated seawater) and 0% (1% Na 2 SO 3 in milli-Q) at 2°C. All measured oxygen values were temperature-corrected to this calibration. At each timepoint, each plate was submerged in seawater (pCO 2 -treated water for E1 and E2, ambient seawater for E3), and a plastic transfer pipet was used to remove any visible air bubbles from the plate chambers. A single, visibly swimming pteropod was carefully added to a chamber using a transfer pipet, and the chamber was quickly sealed with a screw-on plastic cap lined with a PTFE seal. Care was taken to eliminate air bubbles from the plastic caps during the capping process. Six chambers per plate, spread across multiple rows and columns, were filled with only treatment seawater and were used as blanks to account for any background respiration due to microbial activity. In E1 and E2, the three plates were randomly assigned to a treatment in each timepoint to avoid any potential differences between plate calibrations (i.e. plate effects). Once every respirometry chamber was filled and sealed, each plate was then submerged in a flow-through acrylic water bath (Model CH10505, Loligo Systems) connected to a larger, temperature-controlled tank via a pump (Model MD7, Danner Manufacturing Inc, Islandia, NY, USA) that was held at the desired experiment temperature with a heat pump (IsoTemp 730, Fisher, Waltham, MA, USA). Although the temperatures were held as accurately as possible, the heat in the laboratory limited the lowest temperature of the respirometry system to −0.6°C for E1. Thus, for E1, respirometry was conducted 0.2°C higher than the experimental exposure temperature.</p><p>Each water bath was nested above an array of 24 optodes corresponding to the oxygen-sensitive spots in the respirometry chambers, which recorded optode phase values for each chamber every minute for approximately 6 h, or until oxygen concentrations fell below 60% saturation. Optode phase values were converted into oxygen concentrations using spreadsheets provided by PreSens. Following the oxygen measurements, pteropods were carefully removed and stored at −1°C until they were weighed. All individuals were visually inspected for mortality after the respirometry measurements were complete. Wet weight values were obtained by gently blotting individuals dry on a KimWipe (Sigma-Aldrich, St Louis, MO, USA) before transferring them to a microbalance (Cahn C-31; Thermo-Fisher, Waltham, MA, USA). Pteropods were then placed in a freeze dryer overnight (LabConco FreeZone, Kansas City, MO, USA) and reweighed to obtain dry weight values.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Thermal tolerance</head><p>For E3, pteropods were kept at −0.8°C until the start of each respirometry run. Oxygen measurements were collected using the microplate respirometry system (described above) at several different temperatures: −0.8°C (approximate ambient temperature), 2°C, 4°C, 6°C, 8°C, 10°C, 12°C and 14°C. For each temperature, one plate was filled with pteropods (n = 18) and run for 6 h, or until oxygen concentrations fell below 60% saturation. Pteropods were then </p><formula xml:id="formula_1">..............................................................................................................................................................</formula><p>visually assessed for mortality and wet and dry weights were obtained (similar methods to E1 and E2).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data analysis</head><p>All statistical analyses were run in R (v.3.2.4). For each chamber, the rate of oxygen consumption over time was quantified by linear regression. For each microplate, the oxygen consumption rate of the six blank chambers were averaged and subtracted from the oxygen consumption rate of the sample chambers to account for any microbial respiration. There was a significantly different scaling coefficient between timepoints (ANCOVA, P = 0.003), but not between treatments (ANCOVA, P = 0.321), likely due to a change in dry weight over time. Thus, different scaling coefficients were derived for each timepoint in each experiment (E1 and E2), and used to correct pteropod respiration rates separately for each respective timepoint and treatment. Pteropod respiration rates were mass-corrected using the mean mass in each experiment (145.76 mg in E1, 142.21 µg in E2) using masscorrection equations from <ref type="bibr" target="#b84">Steffensen et al. (1994)</ref>. As the mass of organisms remained constant over E3, they were mass-corrected using a common scaling coefficient (α = 0.585), to a mean common mass (152.78 µg).</p><p>Oxygen consumption values were compared between treatments using two-way ANOVAs after testing for significance against a mixed-effect model (R package lmerTest v-.2.0-32) which included individual glass chambers as a random effect to account for any sensor variation between each oxygen-sensitive spot. Post-hoc Tukey HSD tests were conducted to resolve pairwise differences between treatments and timepoints.</p><p>Q 10 values were also calculated to compare metabolic rates (R 1 , R 2 ) measured at different temperatures (T 1 , T 2 ) as:</p><formula xml:id="formula_2">Q 10 = (R 2 /R 1 ) 10°/(T2-T1) .</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>At a survivorship level, time in the culturing system tanks did not affect the juvenile pteropods during the experiment. We observed a very low percentage of mortality throughout the duration of E1. During E2 &lt; 1% total mortality was observed during the first 8 days of the experiment, after which there was a~4.4% daily mortality rate observed for all treatments until the termination of the experiment (Day 14). This E2 mortality rate was not significantly different between treatments (Cox proportional hazards regression model, P = 0.57).</p><p>Throughout the exposures of E1 and E2, carbonate chemistry remained highly stable <ref type="figure" target="#fig_0">(Fig. 1, Table 1</ref>). Seawater temperature also remained stable, with an average temperature of −0.97 ± 0.07°C during E1 and 3.97 ± 0.08°C during E2 (mean ± s.d.). Salinity was also maintained at stable levels: 35.9‰ for E1 and 35.5‰ for E2.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Oxygen consumption (E1 and E2)</head><p>Oxygen depletion in the respirometry chambers occurred at very consistent rates, with samples being eliminated from the analysis a priori only if they exhibited an r 2 &lt; 0.8 when plotting oxygen consumption over time. Here, only 7 out of 611, or 1.1%, combined for E1 and E2 were eliminated from the analysis. As expected from the results of elevated temperature, average respiration rates for E2 were higher than those of E1 (Q 10 , averaging across all treatments and timepoints = 1.7; Q 10 values will be further explored in E3 results).</p><p>Oxygen consumption was mass-corrected using different scaling coefficients for each timepoint and experiment <ref type="figure" target="#fig_3">(Fig. 2)</ref>. These scaling coefficients decreased significantly over time in E2 (−0.04 day −1 , P = 0.031), but did not show a significant directional trend over time in E1 (P = 0.417). All further respirometry results were conducted on masscorrected values where these coefficients were used to correct individuals from each timepoint to that experiment's mean body mass (145.76 mg for E1, 142.21 µg for E2). Analyses replicated using a common mean scaling coefficient for each experiment yielded similarly significant end results.</p><p>In E1, timepoint (F(4, 250) = 4.577, P = 0.001), treatment (F(2, 250) = 7.863, P &lt; 0.001) and their interaction effect (F(8, 250) = 2.413, P = 0.016) were statistically significant. For the effect of treatment, a post-hoc Tukey test concluded that respiration rates in the high pCO 2 treatment were significantly higher than the other two treatments. Respiration rates generally increased over time <ref type="figure" target="#fig_3">(Fig. 2)</ref>. The interaction term likely refers to the emerging effect of treatment over time ( <ref type="figure" target="#fig_0">Supplementary Fig. 1</ref>).</p><p>Similarly, in E2, timepoint (F(4, 251) = 4.636, P = 0.001), treatment (F(2, 251) = 4.782, P = 0.009) and their interaction effect (F(8, 251) = 4.059, P &lt; 0.001) were significant. For the effect of treatment, a post-hoc Tukey test concluded that the respiration rates in the high pCO 2 treatment were significantly higher than both that of the mid and low pCO 2 treatment. The pattern of increasing respiration rates over time observed in E1 were not as apparent as in E2 <ref type="figure" target="#fig_3">(Fig. 2)</ref>, and appeared to become more heterogeneous between timepoints over time. Similarly, the interaction term likely refers to the emerging effect of treatment over time ( <ref type="figure" target="#fig_0">Supplementary Fig. 1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Oxygen consumption during acute high temperature exposures (E3)</head><p>Mortality was not observed during the 6-h acute temperature exposures and respirometry measurements conducted in E3. Across the observed temperature range (−0.8°C to 14°C), oxygen consumption increased predictably with temperature ( <ref type="figure" target="#fig_2">Fig. 3</ref>) and was heterogeneous between tested temperatures (F(7, 135) = 35.47, P &lt; 0.001). Although the mean respiration rate measured at 14°C was slightly lower than the mean respiration rate measured at 12°C, this difference was not significant (Tukey's HSD, p adj = 0.779), and thus there was no discernible critical temperature threshold. Similarly, a segmented linear regression conducted on an Arrhenius plot of the data (inverse of temperature (Kelvin) plotted against log 10 (respiration rate)) could not discern a breakpoint (R package 'segmented', v.0.5-1.4). The Q 10 value calculated over the temperature extremes (−0.8 to 14°C) was 3.0 <ref type="table" target="#tab_1">(Table 2)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Weight</head><p>Generally, dry weights of pteropods agreed well with their respective wet weights for E1 and E2 <ref type="figure" target="#fig_4">(Fig. 4</ref>, r 2 = 0.67). In E1, although there was no significant change in pteropod wet weight, dry weight of pteropods was heterogenous over time ( <ref type="figure" target="#fig_5">Fig. 5</ref>) (F(5, 287) = 9.254, P &lt; 0.001).</p><p>In E2, although there was a small significant effect of treatment on dry weight (F(2, 284) = 3.49, P = 0.03), there was a more significant effect of treatment on wet weight (F(2, 284) = 13.488, P &lt; 0.001). For both dry and wet weight in E2, pteropods from the high pCO 2 treatment had a lower average mass than the other treatments. At the same time, the interaction term between treatment and timepoint was only significant for wet weight (F(8, 284) = 2.69, P = 0.007), which fluctuated to a further degree during the experiment.</p><p>Mean dry and wet weights of pteropods in E3 were 0.152 mg and 0.452 mg, respectively, and there were no significant changes to either of these factors between temperature runs in E3 (ANOVAs, P = 0.39 and P = 0.46, respectively). The entirety of E3 used the same cohort of pteropods and all temperature exposures were completed within three days of collection from the field.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Multiple stressors can have complex interacting effects on physiological processes in ectothermic animals <ref type="bibr" target="#b31">(Gunderson et al., 2016)</ref>.  Characterizing these organismal responses is critical to estimating the potential vulnerability of species to global change <ref type="bibr" target="#b7">(Boyd, 2011;</ref><ref type="bibr" target="#b90">Todgham and Stillman, 2013;</ref><ref type="bibr" target="#b31">Gunderson et al., 2016)</ref>. In this study, we examined the metabolic rate of juvenile-stage pteropods in response to the interacting effects of pCO 2 and temperature. We found that metabolic rate was increased by elevated pCO 2 at both experimental temperatures. Our results show that the interaction of temperature and pCO 2 elicited an additive response in juvenile pteropods <ref type="figure" target="#fig_6">(Fig. 6</ref>).</p><p>Specifically, at ambient temperature (−0.8°C, E1), pteropods exposed to the high pCO 2 treatment exhibited elevated respiration rates relative to those exposed to low pCO 2 conditions. This increase in metabolic rate is consistent with a bioenergetic outcome with increased costs of maintenance <ref type="bibr" target="#b80">(Sokolova, 2013)</ref>, possibly due to L. h. antarctica's ability to self-repair its shell from the inside by secreting aragonite in response to physical scarring caused by undersaturation <ref type="bibr" target="#b70">(Peck et al., 2016)</ref>. As the shell's function is to protect the pteropods, as well as to help regulate their buoyancy, its repair is a critical component of their energy budget under future undersaturated conditions of OA, and evidence of dissolution on shells has been documented on Antarctic pteropods collected from the wild <ref type="bibr" target="#b44">(Johnson et al., 2016)</ref>. The increase in metabolic rate as a response to high pCO 2 may also be due to increased energetic demand for acid-base balance <ref type="bibr" target="#b80">(Sokolova, 2013)</ref>, which may be critical in providing an internal environment for this critical aragonite shell repair.</p><p>An effect of pCO 2 exposure on metabolic rate was also observed in E2, where pteropods exposed to the high pCO 2 treatment exhibited elevated respiration rates relative to those exposed to low and mid pCO 2 conditions. The effect of temperature alone resulted in 1.29-fold higher respiration rates in E2 than E1 (over a 4.6°C temperature change, or Q 10 = 1.752). Although E1 and E2 cannot be directly compared because the animals used were from different collection days, incorporating respirometry results into a model shows that there is no significant interaction term between pCO 2 treatment and temperature (P = 0.309). The effect of elevated CO 2 did not change drastically between temperature treatments (high pCO 2 treated organisms had 1.112-fold higher respiration rates in E1, and 1.081-fold higher respiration rates in E2 when compared to low pCO 2 -treated organisms). These trends designate the observed interaction as additive-where the sum effect of two stressors is equal to the sum of the effects of the individual stressors. In contrast, antagonistic effects yield an effect less than the sum of the individual stressors, while synergistic effects yield an effect greater than the sum of the individual stressors <ref type="figure" target="#fig_6">(Fig. 6)</ref>. In this case, neither pCO 2 or temperature are the key driverthey act on similar scales and do not exhibit an interaction term.</p><p>We also observed that the variance in metabolic rate increased over time in every treatment in E2 <ref type="figure" target="#fig_3">(Fig. 2b)</ref>. This does introduce some moderate heteroskedasticity into the analysis (Breush Pagan test, R package lmTest v.0.9-35, P &lt; 0.0001) which cannot fully be corrected by a Box-Cox transformation and yielded similarly significant results when run through the same model. Thus, we present the data as uncorrected. This increase in variation could be due to a variation in response to high pCO 2 emerging through time, or to different degrees of starvation over the experimental period that interacted with the pCO 2 response and manifested itself as an increase in variance.</p><p>Due to the large range of body sizes in E1 and E2, these analyses were conducted after accounting for the contribution of mass to metabolic rate. This was done by decreasing per-individual respiration rates of larger pteropods, and increasing per-individual respiration rates of smaller pteropods following a calculated scaling coefficient to eliminate  the mass-dependency of respiration rate <ref type="bibr" target="#b84">(Steffensen et al., 1994)</ref>. However, pteropod mass decreased throughout the experiments, and especially began to deviate between treatments in E2 <ref type="figure" target="#fig_5">(Fig. 5)</ref>. The general weight decrease is most likely due to the starvation of the pteropods during our two-</p><p>week long incubations, as the tanks in our culturing system were fed from a filtered seawater intake. It was not logistically feasible to account for a feeding regimen in our limited season length in the Antarctic. The difference in mass between treatments by the end of the experiment mirrors our expectations based on our measurement of respiration rate; that is, the individuals for the high pCO 2 treatment had a decreased body mass over time, possibly due to their increased metabolic demand in a low-pH environment causing them to burn through energy reserves. Although dry weights of sampled pteropods were significantly different between treatments by the end of E2, as there was no difference in the scaling coefficient (ANCOVA, P = 0.321) between treatments, scaling coefficients were calculated discretely for each timepoint of each experiment, then applied to correct the respiration rate to an average body mass for each experiment.</p><p>Logistically, it was necessary to conduct sequential plankton tows to collect animals for the respirometry trials. Thus, it is important to note that pteropods from E1 and E2 were collected 23 days apart and represent different cohorts of field-collected individuals. Although water chemistry at the collection site remained fairly stable during this time <ref type="bibr" target="#b44">(Johnson et al., 2016)</ref> and initial body mass was similar between collections, austral spring bridges winter dormancy and summer time growth, and pteropods could undergo drastic transcriptomic changes during this season <ref type="bibr" target="#b42">(Johnson, 2017)</ref>.  Overall, conducting E1 and E2 concurrently with the same cohort of collected individuals was not logistically feasible due to field collection and laboratory tank space constraints in a remote field location.</p><p>In general, studies that have examined the temperature/ pCO 2 multistressor scenario in marine metazoans have found that antagonistic effects, along with additive effects, are far more common than synergistic effects in adult marine invertebrates <ref type="bibr" target="#b12">(Byrne and Przeslawski, 2013)</ref> and are also relatively common in early life history stages <ref type="bibr" target="#b74">(Przeslawski et al., 2015)</ref>. Indeed, it is becoming increasingly clear that there is no unifying theory regarding multistressor effects on a physiological level, and that species-to-species variation can affect these interactions significantly <ref type="bibr" target="#b50">(Lefevre, 2016)</ref>.</p><p>In this additive interaction, we found that temperature and pCO 2 stress operated on a similar scale-a result which contrasts research on other Antarctic ectothermic species. In studies on early stage Antarctic dragonfish, Gymnodraco acuticeps, increased temperature significantly increased development rates and embryonic metabolic rate <ref type="bibr" target="#b24">(Flynn et al., 2015)</ref>. However, although pCO 2 stress alone did not negatively affect embryo physiology, there was a synergistic interaction when embryos were exposed to both high pCO 2 and high temperature. Similarly, a study rearing larvae of the sea urchin, Sterechinus neumayeri, in pCO 2 and temperature treatments found that there was no effect of either individual stressor on the ability to withstand acute larval heat stress <ref type="bibr" target="#b45">(Kapsenberg and Hofmann, 2014)</ref>. However, rearing urchin larvae at both high pCO 2 and high temperature resulted in a decreased ability to tolerate acute heat stress at certain early developmental stages. Overall, studies seem to indicate that multistressor relationships in the Antarctic can vary between species, and that this interaction can occasionally make certain species less vulnerable to experimental conditions of ocean change than previous studies have suggested <ref type="bibr" target="#b69">(Peck, 2005)</ref>.</p><p>Although metabolic rates of polar pteropod species are highly understudied, there have been three other studies that have observed the effects of lab-manipulated pCO 2 on Limacina spp., only one of which was conducted in the Antarctic. In the northern hemisphere, studies collecting pteropods from Kongsfjord, Spitsbergen have found varying effects of pCO 2 and temperature based on collection time, species and acclimation duration. Specifically, Lischka and colleagues generally found an increase in MO with increasing temperature and pCO 2 in acute exposures of L. h. helicina collected in January and February, with the exception of the highest-temperature (6.8°C), where an intermediate pCO 2 (650, out of a range of 180-880) caused the highest increase in metabolism <ref type="bibr" target="#b54">(Lischka and Riebesell, 2017)</ref>. This 'hormesis-type' effect, where an intermediate treatment yielded the highest metabolic increase, was prominent at all temperatures during the paired 9-day acclimation experiment. In contrast, L. h. helicina collected from the same site in May-June showed no metabolic response to pCO 2 manipulation at ambient temperature (0°C), but there was an observed increase in respiration rate when increasing pCO 2 at high temperature (4°C) after a 24-h incubation <ref type="bibr" target="#b15">(Comeau et al., 2010)</ref>. The hormesis-type effect described in <ref type="bibr" target="#b54">Lischka and Riebesell (2017)</ref> was not observed in our study in either experiment. However, <ref type="bibr" target="#b54">Lischka and Riebesell (2017)</ref> also observed different multistressor effects in the congener L. retroversa collected at the same site, which did not exhibit any interaction between temperature and pCO 2 effects. Altogether, these studies in the Arctic show marked differences in pteropod response to these multistressor conditions at different acclimation durations and collection times-even in closely related species. Specifically, the seasonal differences are likely a situation that, while not unique to polar ecosystems, may be strengthened there due to the strong seasonality experienced at high latitudes compounded by the collection of different life history stages at different times of the year.</p><p>In contrast, Seibel and colleagues resolved a metabolic suppression under high CO 2 at concentrations analogous to the 'low' and 'high' treatments utilized in E1 <ref type="bibr" target="#b78">(Seibel et al., 2012)</ref>. While Seibel and colleagues collected L. h. antarctica near our collection site (the three sites are 25 km, 35 km and 75 km north), they were collected far later in the austral summer. This is reflected in the pteropod mass-the pteropods collected for E1 and E2 in October and November 2015 (0.05-0.95 mg) for our study were less than 10% of the mass of those collected by . Although seasonal development of pteropods in the Antarctic is poorly documented, this growth spurt coincides with phytoplankton blooms in the Ross Sea region <ref type="bibr" target="#b30">(Goffart et al., 1999)</ref>. This corroborates previous studies that suggest L. h. antarctica potentially exhibit a 1year life cycle, spawning and senescing in late summer <ref type="bibr" target="#b40">(Hunt et al., 2008)</ref>. The fact that this phytoplankton bloom plays a large part in pteropod phenology, growth and development is supported by Seibel et al.'s disparate results between replicate experiments conducted in consecutive years, which is hypothesized to be a function of low ocean chlorophyll abundance already suppressing metabolism in the second year of trials. Given that phenology and interactions with seasonality have been seen as key factors in governing the Arctic pteropod's response to pCO 2 and temperature, we posit that these factors drove the differences between the results in this study and that of Seibel and colleagues.</p><p>In the case of seasonality, observations of pH in McMurdo Sound show austral summer (January and February) as the least acidic period, with a strong seasonal shift towards most acidic conditions in the austral winter <ref type="bibr" target="#b46">(Kapsenberg et al., 2015)</ref>. This is most likely caused by the stark seasonal day/ night cycles at high latitudes, which result in 24-h darkness during the winter and 24-h daylight during the summer. Considering the high pH seasonality in the Ross Sea region, it is probable that pteropods at different life stages during a different time of year will exhibit a disparate response to pCO stress. Furthermore, different life stages will experience different magnitudes and duration of pCO 2 stress, both of which have been seen as critical factors in determining calcification capacity in pteropods collected from the wild in the U.S. Pacific Northwest <ref type="bibr" target="#b3">(Bednarsěk et al., 2017)</ref>. This highlights the importance of considering life stage, phenology and currentday seasonal variation of abiotic stressors when studying global change biology, as impacts during juvenile stages may also be difficult to recover from <ref type="bibr" target="#b35">(Hettinger et al., 2012</ref><ref type="bibr" target="#b57">, Manno et al., 2017</ref>. If hypercapnia elicits a different response at different life stages, the seasonal trend of pH in McMurdo Sound may play an integral part in this organism's future viability under environmental change.</p><p>To contextualize our high-temperature experiment (E2) in the scope of L. h. antarctica's thermal tolerance, we measured respiration rates at ambient pCO 2 levels at increased temperatures (E3) to find that individuals tolerate temperatures far higher than their current, natural environment. The McMurdo Sound region does not see surface temperatures above 0°C <ref type="bibr" target="#b16">(Cziko et al., 2014</ref>), yet respiration rates of L. h. antarctica increased predictably with temperature following the Arrhenius equation <ref type="bibr" target="#b0">(Alcaraz et al., 2013)</ref> up through 14°C. However, it is the case that these acute temperature exposures do not account for every aspect of animal physiology, such as acclimation, and it is possible that growth, energetics and reproduction cannot keep pace at these higher temperatures. Although the experimental temperature exposures of 4°in E2 is well within the acute thermal tolerance of L. helicina antarctica, it is possible that, especially in conjunction with the additive stressor of OA, pteropod populations in the Southern Ocean may be negatively impacted in the near future.</p><p>Changes in resting metabolic rate can play a critical role in an organism's energy budget, potentially drawing resources away from other energetically costly processes, such as growth and reproduction. In this light, any changes in respiration rate in response to multiple environmental stressors may be critical for the fate of marine organisms in the near future. Additive responses, such as those seen here <ref type="figure" target="#fig_6">(Fig. 6</ref>), reflect the results of individual stressor experiments in a multistressor scenario. Other species may exhibit a more or less extreme response. While it is clearly unfeasible, in many regions or taxa, to design experiments that will fully simulate all parameters of future oceans, focusing on a multitude of potentially harmful or co-occurring stressors may be necessary to fully tease apart the fate of future oceans.</p><p>Globally, marine ecosystems are projected to face multiple, concurrently changing variables in the future, with abiotic factors that are unique to a particular habitat type and region, of which OA is just one stressor <ref type="bibr" target="#b10">(Breitburg et al., 2015)</ref>. Emergent examples of this are scenarios of OA and thermal stress in coral reef ecosystems <ref type="bibr" target="#b37">(Hoegh-Guldberg et al., 2007)</ref> or persistently covarying stressors like OA and hypoxia in temperate kelp forest ecosystems <ref type="bibr" target="#b25">(Frieder et al., 2012)</ref>. Further study of the energetics of marine organisms in response to potentially interacting abiotic factors may lend additional insight into understanding the vulnerability of species to future ocean change. Eventually, investigating the root cause and patterns that lead to certain species exhibiting additive effects may not only allow for a better understanding of stress physiology, but may also allow for a critical, more accurate glimpse of future community dynamics in a changing world.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary material</head><p>Supplementary material is available at Conservation Physiology online.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Seawater chemistry conditions throughout the 2-week experiments of E1 (left, −0.8°C) and E2 (right, 4°C). The average pCO 2 , as well as the Ω arag values, are calculated from spectrophotometrically derived pH measured daily and total alkalinity collected every other day (data not shown). All error bars represent standard deviation over the three replicate tanks for each treatment.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>..............................................................................................................................................................</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 :</head><label>3</label><figDesc>Respiration rate as a function of temperature (E3), plotted as an Arrehnius plot (inverse Kelvin temperature on the x-axis, log of respiration rate on the y-axis) with error bars indicating standard error. Respiration rate is expressed as nM h −1 indiv -1 , and is masscorrected to the average mass of the pteropods in E3.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 2 :</head><label>2</label><figDesc>Oxygen consumption over time for each pCO 2 treatment (low, mid, high), and temperature (E1, acclimated to −0.8°C and measured at −0.6°C; E2, 4°C). a denotes the scaling relationship used to mass-correct each respective timepoint, while letters indicate the Tukey post-hoc groupings between timepoints (P &lt; 0.05), conducted separately for each experiment. Respiration rates are normalized to the mean mass for each experiment (45.76 µg in E1, 142.21 µg in E2)...............................................................................................................................................................</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 4 :</head><label>4</label><figDesc>Correlation between pteropod wet weight and dry weight (each expressed in milligrams), with histograms along each axis. This correlation is linear (r 2 = 0.69, P &lt; 0.001)...............................................................................................................................................................</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 5 :</head><label>5</label><figDesc>Pteropod dry and wet weights (mg) over time, for each pCO 2 treatment (low, mid, high), and temperature (E1, −0.8°C; E2, 4°C). Letters represent post-hoc Tukey test groupings (P &lt; 0.05) conducted separately for each weight type and experiment.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 6 :</head><label>6</label><figDesc>A conceptual diagram of multistressor interactions (A) in comparison with multistressor results for L. h. antarctica's metabolic response to simulated OA and temperature stress (B). Dotted bars indicate the additive response. Antagonistic responses are lower than the additive response, while synergistic responses are higher than the additive response. Conceptual portion of the figure was adapted from Todgham and Stillman (2013). ..............................................................................................................................................................</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head></head><label></label><figDesc>2 ..............................................................................................................................................................</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 :</head><label>1</label><figDesc>Average seawater chemistry conditions during the 2-week experiments of E1 (−0.8°C) and E2 (4°C) .............................................................................................................................................................</figDesc><table><row><cell>Treatment</cell><cell>pCO 2 (μatm)</cell><cell>pH</cell><cell>Ω arag</cell><cell>Rationale for pH conditions</cell></row><row><cell cols="2">E1 (ambient temperature)</cell><cell></cell><cell></cell><cell></cell></row><row><cell>low</cell><cell>315 ± 14</cell><cell>8.13 ± 0.02</cell><cell>1.71 ± 0.06</cell><cell>Present-Day Summer</cell></row><row><cell>mid</cell><cell>427 ± 11</cell><cell>8.00 ± 0.01</cell><cell>1.33 ± 0.02</cell><cell>Present-Day Winter/Future Summer</cell></row><row><cell>high</cell><cell>901 ± 34</cell><cell>7.71 ± 0.01</cell><cell>0.70 ± 0.02</cell><cell>Future Winter</cell></row><row><cell cols="2">E2 (elevated temperature)</cell><cell></cell><cell></cell><cell></cell></row><row><cell>low</cell><cell>379 ± 16</cell><cell>8.07 ± 0.02</cell><cell>1.77 ± 0.06</cell><cell>Present-Day Summer</cell></row><row><cell>mid</cell><cell>513 ± 10</cell><cell>7.95 ± 0.01</cell><cell>1.39 ± 0.02</cell><cell>Future Summer</cell></row><row><cell>high</cell><cell>961 ±</cell><cell>7.69 ± 0.06</cell><cell>0.81 ± 0.01</cell><cell>Future Winter</cell></row></table><note>Values are expressed at mean ± s.d. The rationale for pH conditions is based on environmental data and local modeling based on Kapsenberg et al. (2015)..</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 :</head><label>2</label><figDesc>Calculated Q 10 values determined for several ranges of temperatures</figDesc><table><row><cell>Temp</cell><cell>−0.8 to 2°C</cell><cell>−0.8°C to 4°C</cell><cell>−0.8°C to 6°C</cell><cell>−0.8°C to 8°C</cell><cell>−0.8°C to 10°C</cell><cell>−0.8°C to 12°C</cell><cell>−0.8°C to 14°C</cell></row><row><cell>Q 10</cell><cell>2.5</cell><cell>3.5</cell><cell>2.0</cell><cell>3.3</cell><cell>3.1</cell><cell>3.9</cell><cell>3.0</cell></row></table><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">Downloaded from https://academic.oup.com/conphys/article-abstract/5/1/cox064/4670933 by guest on 28 August 2019</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgements</head><p>The authors would like to thank members of the U.S. </p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Funding</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p>The data package for this study is available on Dryad at the following: doi:10.5061/dryad.dh078.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Effects of temperature on the metabolic stoichiometry of Arctic zooplankton</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Alcaraz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Almeda</forename><forename type="middle">R</forename><surname>Saiz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Calbet</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Duarte</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">M</forename><surname>Agusti</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Santiago</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Alonso</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biogeosciences</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="689" to="697" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Alcaraz M, Almeda R, Saiz E, Calbet A, Duarte CM, Agusti S, Santiago R, Alonso A (2013) Effects of temperature on the metabolic stoichi- ometry of Arctic zooplankton. Biogeosciences 10:689-697.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Limacina helicina shell dissolution as an indicator of</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Bednaršek</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">.............................................................................................................................................................. 11 ..............................................................................................................................................................</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">A</forename><surname>Feely</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">.............................................................................................................................................................. 11 ..............................................................................................................................................................</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Reum</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">.............................................................................................................................................................. 11 ..............................................................................................................................................................</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Peterson</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">.............................................................................................................................................................. 11 ..............................................................................................................................................................</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Menkel</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">.............................................................................................................................................................. 11 ..............................................................................................................................................................</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Alin</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">.............................................................................................................................................................. 11 ..............................................................................................................................................................</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Hales</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">.............................................................................................................................................................. 11 ..............................................................................................................................................................</orgName>
+			</affiliation>
+		</author>
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bednaršek N, Feely RA, Reum JC, Peterson B, Menkel J, Alin SR, Hales B (2014) Limacina helicina shell dissolution as an indicator of .............................................................................................................................................................. 11 ..............................................................................................................................................................</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">declining habitat suitability owing to ocean acidification in the California Current Ecosystem</title>
+		<ptr target="https://academic.oup.com/conphys/article-abstract/5/1/cox064/4670933bygueston28" />
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Physiology •</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<date type="published" when="2014-01-23" />
+		</imprint>
+	</monogr>
+	<note>Proc Biol Sci</note>
+	<note type="raw_reference">Conservation Physiology • Volume 5 2017 Research article Downloaded from https://academic.oup.com/conphys/article-abstract/5/1/cox064/4670933 by guest on 28 August 2019 declining habitat suitability owing to ocean acidification in the California Current Ecosystem. Proc Biol Sci 281:20140123.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Exposure history determines pteropod vulnerability to ocean acidification along the</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Bednarsěk</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">A</forename><surname>Feely</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Tolimieri</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename><surname>Hermann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Siedlecki</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">G</forename><surname>Waldbusser</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Mcelhany</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Alin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Klinger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Moore-Maley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">US West Coast. Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">4526</biblScope>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bednarsěk N, Feely RA, Tolimieri N, Hermann AJ, Siedlecki SA, Waldbusser GG, McElhany P, Alin SR, Klinger T, Moore-Maley B, et al (2017) Exposure history determines pteropod vulnerability to ocean acidification along the US West Coast. Sci Rep 7:4526.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Population dynamics and biogeochemical significance of Limacina helicina antarctica in the Scotia Sea (Southern Ocean)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Bednaršek</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">A</forename><surname>Tarling</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Fielding</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dce</forename><surname>Bakker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Deep Sea Res II: Top Stud Oceanogr 59</title>
+		<imprint>
+			<date type="published" when="2012" />
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="105" to="116" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bednaršek N, Tarling GA, Fielding S, Bakker DCE (2012) Population dynamics and biogeochemical significance of Limacina helicina antarctica in the Scotia Sea (Southern Ocean). Deep Sea Res II: Top Stud Oceanogr 59-60:105-116.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The sub-Antarctic euthecosome pteropod, Limacina retroversa: Distribution patterns and trophic role</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">S</forename><surname>Bernard</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">W</forename><surname>Froneman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Deep-Sea Res I-Oceanogr Res Pap</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="582" to="598" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bernard KS, Froneman PW (2009) The sub-Antarctic euthecosome pteropod, Limacina retroversa: Distribution patterns and trophic role. Deep-Sea Res I-Oceanogr Res Pap 56:582-598.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Pelagic sedimentation of aragonite: its geochemical significance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">A</forename><surname>Berner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Honjo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">211</biblScope>
+			<biblScope unit="page" from="940" to="942" />
+			<date type="published" when="1981" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Berner RA, Honjo S (1981) Pelagic sedimentation of aragonite: its geo- chemical significance. Science 211:940-942.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Beyond ocean acidification</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">W</forename><surname>Boyd</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Geosci</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="273" to="274" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Boyd PW (2011) Beyond ocean acidification. Nat Geosci 4:273-274.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Physiological responses of a Southern Ocean diatom to complex future ocean conditions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">W</forename><surname>Boyd</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">W</forename><surname>Dillingham</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">M</forename><surname>Mcgraw</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">A</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">E</forename><surname>Cornwall</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">Y</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">L</forename><surname>Hurd</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Gault-Ringold</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">Y</forename><surname>Roleda</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Timmins-Schiffman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Clim Change</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="207" to="213" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Boyd PW, Dillingham PW, McGraw CM, Armstrong EA, Cornwall CE, Feng YY, Hurd CL, Gault-Ringold M, Roleda MY, Timmins-Schiffman E, et al (2016) Physiological responses of a Southern Ocean diatom to complex future ocean conditions. Nat Clim Change 6:207-213.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Biological ramifications of climate-change-mediated oceanic multi-stressors</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">W</forename><surname>Boyd</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">T</forename><surname>Lennartz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">M</forename><surname>Glover</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">C</forename><surname>Doney</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Clim Change</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="71" to="79" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Boyd PW, Lennartz ST, Glover DM, Doney SC (2015) Biological ramifi- cations of climate-change-mediated oceanic multi-stressors. Nat Clim Change 5:71-79.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Coping with ocean acidification in the midst of many stressors</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Breitburg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Salisbury</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Bernhard</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W-J</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Dupont</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Doney</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Kroeker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Levin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Milke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oceanography</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="48" to="61" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note>And on top of all that</note>
+	<note type="raw_reference">Breitburg D, Salisbury J, Bernhard J, Cai W-J, Dupont S, Doney S, Kroeker K, Levin L, Long W, Milke L, et al (2015) And on top of all that... Coping with ocean acidification in the midst of many stres- sors. Oceanography 28:48-61.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Vulnerability of the calcifying larval stage of the Antarctic sea urchin Sterechinus neumayeri to near-future ocean acidification and warming</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Byrne</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Ho</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Koleits</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Price</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">K</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Virtue</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Tilbrook</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Lamare</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Glob Chang Biol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="2264" to="2275" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Byrne M, Ho MA, Koleits L, Price C, King CK, Virtue P, Tilbrook B, Lamare M (2013) Vulnerability of the calcifying larval stage of the Antarctic sea urchin Sterechinus neumayeri to near-future ocean acidification and warming. Glob Chang Biol 19:2264-2275.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Multistressor impacts of warming and acidification of the ocean on marine invertebrates&apos; life histories</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Byrne</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Przeslawski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Integr Comp Biol</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="582" to="596" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Byrne M, Przeslawski R (2013) Multistressor impacts of warming and acidification of the ocean on marine invertebrates&apos; life histories. Integr Comp Biol 53:582-596.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Spectrophotometric seawater pH measurments: total hydrogen ion concentration scale calibration of mcresol purple and at-sea results</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">D</forename><surname>Clayton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">H</forename><surname>Byrne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Deep-Sea Res I</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="2115" to="2129" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Clayton TD, Byrne RH (1993) Spectrophotometric seawater pH mea- surments: total hydrogen ion concentration scale calibration of m- cresol purple and at-sea results. Deep-Sea Res I 40:2115-2129.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The vertical flux of biogenic and lithogenic material in the Ross Sea: moored sediment trap observations 1996-1998</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Collier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Dymond</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Honjo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Manganini</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Francois</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Dunbar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Deep-Sea Res II-Top Stud Oceanogr</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="3491" to="3520" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Collier R, Dymond J, Honjo S, Manganini S, Francois R, Dunbar R (2000) The vertical flux of biogenic and lithogenic material in the Ross Sea: moored sediment trap observations 1996-1998. Deep- Sea Res II-Top Stud Oceanogr 47:3491-3520.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Response of the Arctic pteropod Limacina helicina to projected future environmental conditions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Comeau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Jeffree</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Teyssie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">P</forename><surname>Gattuso</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">11362</biblScope>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Comeau S, Jeffree R, Teyssie JL, Gattuso JP (2010) Response of the Arctic pteropod Limacina helicina to projected future environmen- tal conditions. PLoS One 5:e11362.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">High-resolution benthic seawater temperature record 1999-2012 (25-40 m depth) from near intake jetty at McMurdo Station, Antarctica</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Cziko</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Devries</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C-H</forename><surname>Cheng</surname></persName>
+		</author>
+		<editor>Cziko P</editor>
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note>Integrated Earth Data Applications</note>
+	<note type="raw_reference">Cziko P, Devries A, Cheng C-H (2014). High-resolution benthic sea- water temperature record 1999-2012 (25-40 m depth) from near intake jetty at McMurdo Station, Antarctica. In Cziko P ed, Integrated Earth Data Applications.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Hunting behavior of a marine mammal beneath the Antarctic fast ice</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">W</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">A</forename><surname>Fuiman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">M</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">O</forename><surname>Collier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">P</forename><surname>Hagey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">B</forename><surname>Kanatous</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Kohin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Horning</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">283</biblScope>
+			<biblScope unit="page" from="993" to="996" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Davis RW, Fuiman LA, Williams TM, Collier SO, Hagey WP, Kanatous SB, Kohin S, Horning M (1999) Hunting behavior of a marine mam- mal beneath the Antarctic fast ice. Science 283:993-996.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Systematic variation in the temperature dependence of physiological and ecological traits</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">I</forename><surname>Dell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Pawar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">M</forename><surname>Savage</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="10591" to="10596" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dell AI, Pawar S, Savage VM (2011) Systematic variation in the tem- perature dependence of physiological and ecological traits. Proc Natl Acad Sci USA 108:10591-10596.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Guide to best practices for ocean CO 2 measurements</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">G</forename><surname>Dickson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">L</forename><surname>Sabine</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Christian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PICES Spec Pub</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">199</biblScope>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dickson AG, Sabine CL, Christian JR (2007) Guide to best practices for ocean CO 2 measurements. PICES Spec Pub 3:199.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Temperature compensation of aerobic capacity and performance in the Antarctic pteropod, Clione antarctica, compared with its northern congener, C. limacina</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">K</forename><surname>Dymowska</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Manfredi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename><surname>Rosenthal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">A</forename><surname>Seibel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Biol</title>
+		<imprint>
+			<biblScope unit="volume">215</biblScope>
+			<biblScope unit="page" from="3370" to="3378" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dymowska AK, Manfredi T, Rosenthal JJ, Seibel BA (2012) Temperature compensation of aerobic capacity and performance in the Antarctic pteropod, Clione antarctica, compared with its nor- thern congener, C. limacina. J Exp Biol 215:3370-3378.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Shell growth-rates of pteropod and heteropod mollusks and aragonite production in the open ocean-implications for the marine carbonate system</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">J</forename><surname>Fabry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mar Res</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="209" to="222" />
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fabry VJ (1990) Shell growth-rates of pteropod and heteropod mol- lusks and aragonite production in the open ocean-implications for the marine carbonate system. J Mar Res 48:209-222.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Impacts of ocean acidification on marine fauna and ecosystem processes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">J</forename><surname>Fabry</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">A</forename><surname>Seibel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">A</forename><surname>Feely</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Orr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Council Explor Sea</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="414" to="532" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fabry VJ, Seibel BA, Feely RA, Orr JC (2008) Impacts of ocean acidifica- tion on marine fauna and ecosystem processes. Int Council Explor Sea 65:414-532.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">A laboratory-based, experimental system for the study of ocean acidification effects on marine invertebrate larvae</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">A</forename><surname>Fangue</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Donnell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Sewell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">G</forename><surname>Matson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Macpherson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">E</forename><surname>Hofmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Limnol Oceanogr Methods</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="441" to="452" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fangue NA, O&apos;Donnell MJ, Sewell MA, Matson PG, MacPherson AC, Hofmann GE (2010) A laboratory-based, experimental system for the study of ocean acidification effects on marine invertebrate lar- vae. Limnol Oceanogr Methods 8:441-452.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Ocean acidification exerts negative effects during warming conditions in a developing Antarctic fish</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">E</forename><surname>Flynn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">E</forename><surname>Bjelde</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">A</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Todgham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Physiol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">33</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Flynn EE, Bjelde BE, Miller NA, Todgham AE (2015) Ocean acidification exerts negative effects during warming conditions in a developing Antarctic fish. Conserv Physiol 3:cov033.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">High temporal and spatial variability of dissolved oxygen and pH in a nearshore California kelp forest</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Frieder</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">H</forename><surname>Nam</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">R</forename><surname>Martz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">A</forename><surname>Levin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biogeosciences</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="3917" to="3930" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Frieder CA, Nam SH, Martz TR, Levin LA (2012) High temporal and spa- tial variability of dissolved oxygen and pH in a nearshore California kelp forest. Biogeosciences 9:3917-3930.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Southern Ocean warming due to human influence</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Fyfe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geophys Res Lett</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page">19701</biblScope>
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fyfe JC (2006) Southern Ocean warming due to human influence. Geophys Res Lett 33:L19701.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">The Arctic sea butterfly Limacina helicina: lipids and life strategy</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Gannefors</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Böer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Kattner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Graeve</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Eiane</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Gulliksen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Hop</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Falk-Petersen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar Biol</title>
+		<imprint>
+			<biblScope unit="volume">147</biblScope>
+			<biblScope unit="page" from="169" to="177" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gannefors C, Böer M, Kattner G, Graeve M, Eiane K, Gulliksen B, Hop H, Falk-Petersen S (2005) The Arctic sea butterfly Limacina helicina: lipids and life strategy. Mar Biol 147:169-177.</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Warming of the Southern Ocean since the 1950s</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">T</forename><surname>Gille</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">295</biblScope>
+			<biblScope unit="page" from="1275" to="1277" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gille ST (2002) Warming of the Southern Ocean since the 1950s. Science 295:1275-1277.</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Diet of Limacina helicina (Gastropoda Thecosomata) in Arctic Waters in Midsummer</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">W</forename><surname>Gilmer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">R</forename><surname>Harbison</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar Ecol Prog Ser</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="125" to="134" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gilmer RW, Harbison GR (1991) Diet of Limacina helicina (Gastropoda Thecosomata) in Arctic Waters in Midsummer. Mar Ecol Prog Ser 77:125-134.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Factors controlling the distribution of diatoms and Phaeocystis in the Ross Sea</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Goffart</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Catalano</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">H</forename><surname>Hecq</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mar Syst</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="161" to="175" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Goffart A, Catalano G, Hecq JH (1999) Factors controlling the distribu- tion of diatoms and Phaeocystis in the Ross Sea. J Mar Syst 27: 161-175.</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Multiple stressors in a changing world: the need for an improved perspective on physiological responses to the dynamic marine environment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">R</forename><surname>Gunderson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">J</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">H</forename><surname>Stillman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rev Mar Sci</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="357" to="378" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gunderson AR, Armstrong EJ, Stillman JH (2016) Multiple stressors in a changing world: the need for an improved perspective on physiological responses to the dynamic marine environment. Ann Rev Mar Sci 8:357-378.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Seasonal adaptations and the role of lipids in oceanic zooplankton</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Hagen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Auel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Zoology (Jena)</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="313" to="326" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hagen W, Auel H (2001) Seasonal adaptations and the role of lipids in oceanic zooplankton. Zoology (Jena) 104:313-326.</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="middle">........... .</forename></persName>
+			<affiliation>
+				<orgName type="collaboration">..............................................................................................................................................</orgName>
+			</affiliation>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">.............................................................................................................................................................</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Abrupt onset and prolongation of aragonite undersaturation events in the Southern Ocean</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Hauri</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Friedrich</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Timmermann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Clim Change</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="172" to="176" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hauri C, Friedrich T, Timmermann A (2016) Abrupt onset and pro- longation of aragonite undersaturation events in the Southern Ocean. Nat Clim Change 6:172-176.</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Persistent carry-over effects of planktonic exposure to ocean acidification in the Olympia oyster</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Hettinger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Sanford</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">M</forename><surname>Hill</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">D</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">N</forename><surname>Sato</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Hoey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Forsch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">N</forename><surname>Page</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Gaylord</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="2758" to="2768" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hettinger A, Sanford E, Hill TM, Russell AD, Sato KN, Hoey J, Forsch M, Page HN, Gaylord B (2012) Persistent carry-over effects of plank- tonic exposure to ocean acidification in the Olympia oyster. Ecology 93:2758-2768.</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Diapause in the marine copepod, Calanus finmarchicus-a review</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H-J</forename><surname>Hirche</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ophelia</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="129" to="143" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hirche H-J (1996) Diapause in the marine copepod, Calanus finmarchi- cus-a review. Ophelia 44:129-143.</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Coral reefs under rapid climate change and ocean acidification</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Hoegh-Guldberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">J</forename><surname>Mumby</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename><surname>Hooten</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">S</forename><surname>Steneck</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Greenfield</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Gomez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">D</forename><surname>Harvell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">F</forename><surname>Sale</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Caldeira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">318</biblScope>
+			<biblScope unit="page" from="1737" to="1742" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hoegh-Guldberg O, Mumby PJ, Hooten AJ, Steneck RS, Greenfield P, Gomez E, Harvell CD, Sale PF, Edwards AJ, Caldeira K, et al (2007) Coral reefs under rapid climate change and ocean acidification. Science 318:1737-1742.</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Highfrequency dynamics of ocean pH: a multi-ecosystem comparison</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">E</forename><surname>Hofmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">S</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Send</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">A</forename><surname>Levin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Micheli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Paytan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">N</forename><surname>Price</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Peterson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Takeshita</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">28983</biblScope>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hofmann GE, Smith JE, Johnson KS, Send U, Levin LA, Micheli F, Paytan A, Price NN, Peterson B, Takeshita Y, et al (2011) High- frequency dynamics of ocean pH: a multi-ecosystem comparison. PLoS One 6:e28983.</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Particle export and the biological pump in the Southern Ocean</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Honjo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Antarctic Sci</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="501" to="516" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Honjo S (2004) Particle export and the biological pump in the Southern Ocean. Antarctic Sci 16:501-516.</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Pteropods in Southern Ocean ecosystems</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bpv</forename><surname>Hunt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">A</forename><surname>Pakhomov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">W</forename><surname>Hosie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Siegel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Bernard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prog Oceanogr</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="193" to="221" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hunt BPV, Pakhomov EA, Hosie GW, Siegel V, Ward P, Bernard K (2008) Pteropods in Southern Ocean ecosystems. Prog Oceanogr 78:193-221.</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Climate change 2013: the physical science basis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">F</forename><surname>Stocker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Qin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G-K</forename><surname>Plattner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Tignor</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Boschung</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Nauels</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Xia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Contribution of Working Group I to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change</title>
+		<meeting><address><addrLine>Bex V, Midgley PM; Cambridge; New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">IPCC (2013) Climate change 2013: the physical science basis. In Stocker TF, Qin D, Plattner G-K, Tignor M, Allen SK, Boschung J, Nauels A, Xia Y, Bex V, Midgley PM (eds). Contribution of Working Group I to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change. Cambridge University Press, Cambridge, United Kindom and New York, NY, USA.</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Investigating the Molecular Response of the Marine Calcifying Pteropod, Limacina helicina, to Ocean acidification and Ocean Warming</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">M</forename><surname>Johnson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ph.D. Doctoral Dissertation</title>
+		<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+		<respStmt>
+			<orgName>University of California</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">Johnson KM (2017) Investigating the Molecular Response of the Marine Calcifying Pteropod, Limacina helicina, to Ocean acidifica- tion and Ocean Warming. Ph.D. Doctoral Dissertation, University of California, Santa Barbara.</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Transcriptomic response of the Antarctic pteropod Limacina helicina antarctica to ocean acidification</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">M</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">E</forename><surname>Hofmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genom</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">812</biblScope>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Johnson KM, Hofmann GE (2017) Transcriptomic response of the Antarctic pteropod Limacina helicina antarctica to ocean acidifica- tion. BMC Genom 18:812.</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Shell dissolution observed in Limacina helicina antarctica from the Ross Sea, Antarctica: paired shell characteristics and in situ seawater chemistry</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">M</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Hoshijima</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">S</forename><surname>Sugano</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">T</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">E</forename><surname>Hofmann</surname></persName>
+		</author>
+		<idno type="DOI">10.5194/bg-2016-467</idno>
+		<ptr target="doi.org/10.5194/bg-2016-467" />
+	</analytic>
+	<monogr>
+		<title level="j">Biogeosci Discuss</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="25" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Johnson KM, Hoshijima U, Sugano CS, Nguyen AT, Hofmann GE (2016) Shell dissolution observed in Limacina helicina antarctica from the Ross Sea, Antarctica: paired shell characteristics and in situ seawater chemistry. Biogeosci Discuss:1-25. doi.org/10.5194/bg-2016-467.</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Signals of resilience to ocean change: high thermal tolerance of early stage Antarctic sea urchins (Sterechinus neumayeri) reared under present-day and future pCO and temperature</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Kapsenberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">E</forename><surname>Hofmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Polar Biol</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="967" to="980" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kapsenberg L, Hofmann GE (2014) Signals of resilience to ocean change: high thermal tolerance of early stage Antarctic sea urchins (Sterechinus neumayeri) reared under present-day and future pCO and temperature. Polar Biol 37:967-980.</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Nearshore Antarctic pH variability has implications for the design of ocean acidification experiments</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Kapsenberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">L</forename><surname>Kelley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">C</forename><surname>Shaw</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">R</forename><surname>Martz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">E</forename><surname>Hofmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">9638</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kapsenberg L, Kelley AL, Shaw EC, Martz TR, Hofmann GE (2015) Near- shore Antarctic pH variability has implications for the design of ocean acidification experiments. Sci Rep 5:9638.</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+		<title level="m" type="main">Oceanic micronektonic macrozooplanktonic community sructure and feeding in ice covered antarctic waters during the winter</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">M</forename><surname>Lancraft</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">L</forename><surname>Hopkins</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename><surname>Torres</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Donnelly</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1988" />
+			<publisher>Ameriez</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lancraft TM, Hopkins TL, Torres JJ, Donnelly J (1991) Oceanic micro- nektonic macrozooplanktonic community sructure and feeding in ice covered antarctic waters during the winter (Ameriez 1988).</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Polar Biol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="157" to="167" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Polar Biol 11:157-167.</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Ecological uses of vertebrate indicator species: a critique</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">B</forename><surname>Landres</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Verner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">W</forename><surname>Thomas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Biol</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="316" to="328" />
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Landres PB, Verner J, Thomas JW (1988) Ecological uses of vertebrate indicator species: a critique. Conserv Biol 2:316-328.</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Are global warming and ocean acidification conspiring against marine ectotherms? A meta-analysis of the respiratory effects of elevated temperature, high CO 2 and their interaction</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Lefevre</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Physiol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">9</biblScope>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lefevre S (2016) Are global warming and ocean acidification conspir- ing against marine ectotherms? A meta-analysis of the respiratory effects of elevated temperature, high CO 2 and their interaction. Conserv Physiol 4:cow009.</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Warming of the world ocean</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Levitus</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">I</forename><surname>Antonov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">P</forename><surname>Boyer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Stephens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">287</biblScope>
+			<biblScope unit="page" from="2225" to="2229" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Levitus S, Antonov JI, Boyer TP, Stephens C (2000) Warming of the world ocean. Science 287:2225-2229.</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Impact of ocean acidification and elevated temperatures on early juveniles of the polar shelled pteropod Limacina helicina: mortality, shell degradation, and shell growth</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Lischka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Büdenbender</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Boxhammer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Riebesell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biogeosci Discuss</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="8177" to="8214" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lischka S, Büdenbender J, Boxhammer T, Riebesell U (2010) Impact of ocean acidification and elevated temperatures on early juveniles of the polar shelled pteropod Limacina helicina: mortality, shell degradation, and shell growth. Biogeosci Discuss 7:8177-8214.</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Synergistic effects of ocean acidification and warming on overwintering pteropods in the Arctic</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Lischka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Riebesell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Global Change Biol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="3517" to="3528" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lischka S, Riebesell U (2012) Synergistic effects of ocean acidification and warming on overwintering pteropods in the Arctic. Global Change Biol 18:3517-3528.</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Metabolic response of Arctic pteropods to ocean acidification and warming during the polar night/twilight phase in Kongsfjord (Spitsbergen)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Lischka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Riebesell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Polar Biol</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="1211" to="1227" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lischka S, Riebesell U (2017) Metabolic response of Arctic pteropods to ocean acidification and warming during the polar night/twilight phase in Kongsfjord (Spitsbergen). Polar Biol 40:1211-1227.</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Ocean pCO 2 calculated from dissolved inorganic carbon, alkalinity, and equations for K1 and K2: validation based on laboratory measurements of CO 2 in gas and seawater at equilibrium</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">J</forename><surname>Lueker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">G</forename><surname>Dickson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">D</forename><surname>Keeling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar Chem</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="105" to="119" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lueker TJ, Dickson AG, Keeling CD (2000) Ocean pCO 2 calculated from dissolved inorganic carbon, alkalinity, and equations for K1 and K2: validation based on laboratory measurements of CO 2 in gas and seawater at equilibrium. Mar Chem 70:105-119.</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Metabolic response of Antarctic pteropods (Mollusca: Gastropoda) to food deprivation and regional productivity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Maas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">E</forename><surname>Elder</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">M</forename><surname>Dierssen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">A</forename><surname>Seibel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar Ecol Prog Ser</title>
+		<imprint>
+			<biblScope unit="volume">441</biblScope>
+			<biblScope unit="page" from="129" to="139" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maas AE, Elder LE, Dierssen HM, Seibel BA (2011) Metabolic response of Antarctic pteropods (Mollusca: Gastropoda) to food deprivation and regional productivity. Mar Ecol Prog Ser 441:129-139.</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Shelled pteropods in peril: assessing vulnerability in a high CO ocean</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Manno</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Bednaršek</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">A</forename><surname>Tarling</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">L</forename><surname>Peck</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Comeau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Adhikari</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dce</forename><surname>Bakker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Bauerfeind</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename><surname>Bergan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">I</forename><surname>Berning</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth-Sci Rev</title>
+		<imprint>
+			<biblScope unit="volume">169</biblScope>
+			<biblScope unit="page" from="132" to="145" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Manno C, Bednaršek N, Tarling GA, Peck VL, Comeau S, Adhikari D, Bakker DCE, Bauerfeind E, Bergan AJ, Berning MI, et al (2017) Shelled pteropods in peril: assessing vulnerability in a high CO ocean. Earth-Sci Rev 169:132-145.</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Importance of the contribution of Limacina helicina faecal pellets to the carbon pump in Terra Nova Bay (Antarctica)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Manno</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Tirelli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Accornero</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Fonda</forename><surname>Umani</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Plankt Res</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="145" to="152" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Manno C, Tirelli V, Accornero A, Fonda Umani S (2009) Importance of the contribution of Limacina helicina faecal pellets to the carbon pump in Terra Nova Bay (Antarctica). J Plankt Res 32:145-152.</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Ecological responses to climate change on the Antarctic peninsula</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Mcclintock</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Ducklow</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Fraser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am Sci</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="302" to="310" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McClintock J, Ducklow H, Fraser W (2008) Ecological responses to cli- mate change on the Antarctic peninsula. Am Sci 96:302-310.</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Southern Ocean acidification: a tipping point at 450-ppm atmospheric CO</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">I</forename><surname>Mcneil</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">J</forename><surname>Matear</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="18860" to="18864" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McNeil BI, Matear RJ (2008) Southern Ocean acidification: a tipping point at 450-ppm atmospheric CO . Proc Natl Acad Sci USA 105: 18860-18864.</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Physiological basis for high CO 2 tolerance in marine ectothermic animals: pre-adaptation through lifestyle and ontogeny</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Melzner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Gutowska</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Langenbuch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Dupont</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Lucassen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Thorndyke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Bleich</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H-O</forename><surname>Pörtner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biogeosciences</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="2313" to="2331" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Melzner F, Gutowska M, Langenbuch M, Dupont S, Lucassen M, Thorndyke M, Bleich M, Pörtner H-O (2009) Physiological basis for high CO 2 tolerance in marine ectothermic animals: pre-adaptation through lifestyle and ontogeny? Biogeosciences 6:2313-2331.</note>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">The next generation of scenarios for climate change research and assessment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">H</forename><surname>Moss</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Edmonds</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">A</forename><surname>Hibbard</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">R</forename><surname>Manning</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Rose</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">P</forename><surname>Van Vuuren</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">R</forename><surname>Carter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Emori</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Kainuma</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Kram</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">463</biblScope>
+			<biblScope unit="page" from="747" to="756" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Moss RH, Edmonds JA, Hibbard KA, Manning MR, Rose SK, van Vuuren DP, Carter TR, Emori S, Kainuma M, Kram T, et al (2010) The next generation of scenarios for climate change research and assess- ment. Nature 463:747-756.</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="middle">........... .</forename></persName>
+			<affiliation>
+				<orgName type="collaboration">..............................................................................................................................................</orgName>
+			</affiliation>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">.............................................................................................................................................................</note>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="middle">........... .</forename></persName>
+			<affiliation>
+				<orgName type="collaboration">...............................................................................................................................................</orgName>
+			</affiliation>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">..............................................................................................................................................................</note>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title/>
+		<ptr target="https://academic.oup.com/conphys/article-abstract/5/1/cox064/4670933bygueston" />
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Physiology •</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<date type="published" when="2017-08-28" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Conservation Physiology • Volume 5 2017 Research article Downloaded from https://academic.oup.com/conphys/article-abstract/5/1/cox064/4670933 by guest on 28 August 2019</note>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">The solubility of calcite and aragonite in seawater at various salinities, temperatures, and one atmosphere total pressure</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Mucci</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sci</title>
+		<imprint>
+			<biblScope unit="volume">283</biblScope>
+			<biblScope unit="page" from="780" to="799" />
+			<date type="published" when="1983" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mucci A (1983) The solubility of calcite and aragonite in seawater at various salinities, temperatures, and one atmosphere total pres- sure. Am J Sci 283:780-799.</note>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Ocean acidification alters skeletogenesis and gene expression in larval sea urchins</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>O'donnell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Todgham</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Sewell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">M</forename><surname>Hammond</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Ruggiero</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">A</forename><surname>Fangue</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">L</forename><surname>Zippay</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">E</forename><surname>Hofmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar Ecol Prog Ser</title>
+		<imprint>
+			<biblScope unit="volume">398</biblScope>
+			<biblScope unit="page" from="157" to="171" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">O&apos;Donnell MJ, Todgham AE, Sewell MA, Hammond LM, Ruggiero K, Fangue NA, Zippay ML, Hofmann GE (2010) Ocean acidification alters skeletogenesis and gene expression in larval sea urchins. Mar Ecol Prog Ser 398:157-171.</note>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Anthropogenic ocean acidification over the twenty-first century and its impact on calcifying organisms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Orr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">J</forename><surname>Fabry</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Aumont</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Bopp</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">C</forename><surname>Doney</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">A</forename><surname>Feely</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Gnanadesikan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Gruber</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Ishida</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Joos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">437</biblScope>
+			<biblScope unit="page" from="681" to="686" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Orr JC, Fabry VJ, Aumont O, Bopp L, Doney SC, Feely RA, Gnanadesikan A, Gruber N, Ishida A, Joos F, et al (2005) Anthropogenic ocean acidification over the twenty-first century and its impact on calcifying organisms. Nature 437:681-686.</note>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Prospects for surviving climate change in Antarctic aquatic species</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">S</forename><surname>Peck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Zool</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">9</biblScope>
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Peck LS (2005) Prospects for surviving climate change in Antarctic aquatic species. Front Zool 2:9.</note>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Outer organic layer and internal repair mechanism protects pteropod Limacina helicina from ocean acidification</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">L</forename><surname>Peck</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">A</forename><surname>Tarling</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Manno</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">M</forename><surname>Harper</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Tynan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Deep Sea Res II Top Stud Oceanogr</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="page" from="41" to="52" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Peck VL, Tarling GA, Manno C, Harper EM, Tynan E (2016) Outer organic layer and internal repair mechanism protects pteropod Limacina helicina from ocean acidification. Deep Sea Res II Top Stud Oceanogr 127:41-52.</note>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Mesozooplankton size-selectivity and grazing impact on the phytoplankton community of the Prince Edward Archipelago (Southern Ocean)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Perissinotto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar Ecol Prog Ser</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="243" to="258" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Perissinotto R (1991) Mesozooplankton size-selectivity and grazing impact on the phytoplankton community of the Prince Edward Archipelago (Southern Ocean). Mar Ecol Prog Ser 79:243-258.</note>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Global imprint of climate change on marine life</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">S</forename><surname>Poloczanska</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">J</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">J</forename><surname>Sydeman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Kiessling</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">S</forename><surname>Schoeman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">J</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Brander</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">F</forename><surname>Bruno</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">B</forename><surname>Buckley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">T</forename><surname>Burrows</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Clim Change</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="919" to="925" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Poloczanska ES, Brown CJ, Sydeman WJ, Kiessling W, Schoeman DS, Moore PJ, Brander K, Bruno JF, Buckley LB, Burrows MT, et al (2013) Global imprint of climate change on marine life. Nat Clim Change 3:919-925.</note>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Thermal limits and adaptation in marine Antarctic ectotherms: an integrative view</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">O</forename><surname>Pörtner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Peck</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Somero</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Philos Trans R Soc Lond B Biol Sci</title>
+		<imprint>
+			<biblScope unit="volume">362</biblScope>
+			<biblScope unit="page" from="2233" to="2258" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pörtner HO, Peck L, Somero G (2007) Thermal limits and adaptation in marine Antarctic ectotherms: an integrative view. Philos Trans R Soc Lond B Biol Sci 362:2233-2258.</note>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">A review and meta-analysis of the effects of multiple abiotic stressors on marine embryos and larvae</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Przeslawski</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Byrne</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Mellin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Glob Chang Biol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="2122" to="2140" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Przeslawski R, Byrne M, Mellin C (2015) A review and meta-analysis of the effects of multiple abiotic stressors on marine embryos and larvae. Glob Chang Biol 21:2122-2140.</note>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">RCP 8.5-A scenario of comparatively high greenhouse gas emissions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Riahi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Rao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Krey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">H</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Chirkov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Fischer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Kindermann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Nakicenovic</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Rafaj</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clim Change</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page" from="33" to="57" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Riahi K, Rao S, Krey V, Cho CH, Chirkov V, Fischer G, Kindermann G, Nakicenovic N, Rafaj P (2011)) RCP 8.5-A scenario of comparatively high greenhouse gas emissions. Clim Change 109:33-57.</note>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<monogr>
+		<title level="m" type="main">CO2calc-a user-friendly seawater carbon calculator for Windows, Mac OS X, and iOS (iPhone). U.S. Geological Survey Open-File Report</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">L</forename><surname>Robbins</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Kleypas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">C</forename><surname>Meylan</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1280" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Robbins LL, Hansen ME, Kleypas JA, Meylan SC (2010) CO2calc-a user-friendly seawater carbon calculator for Windows, Mac OS X, and iOS (iPhone). U.S. Geological Survey Open-File Report 2010 −1280.</note>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Cascading trophic impacts of reduced biomass in the Ross Sea, Antarctica: Just the tip of the iceberg?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">A</forename><surname>Seibel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">M</forename><surname>Dierssen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol Bull Mar Biol Lab Woods Hole</title>
+		<imprint>
+			<biblScope unit="volume">205</biblScope>
+			<biblScope unit="page" from="93" to="97" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Seibel BA, Dierssen HM (2003) Cascading trophic impacts of reduced biomass in the Ross Sea, Antarctica: Just the tip of the iceberg? Biol Bull Mar Biol Lab Woods Hole 205:93-97.</note>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Energetic plasticity underlies a variable response to ocean acidification in the pteropod, Limacina helicina antarctica</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">A</forename><surname>Seibel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Maas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">M</forename><surname>Dierssen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">30464</biblScope>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Seibel BA, Maas AE, Dierssen HM (2012) Energetic plasticity underlies a variable response to ocean acidification in the pteropod, Limacina helicina antarctica. PLoS One 7:e30464.</note>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Impact of ocean warming and ocean acidification on larval development and calcification in the sea urchin Tripneustes gratilla</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sheppard</forename><surname>Brennand</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Soars</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Dworjanyn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">R</forename><surname>Byrne</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">11372</biblScope>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sheppard Brennand H, Soars N, Dworjanyn SA, Davis AR, Byrne M (2010) Impact of ocean warming and ocean acidification on larval development and calcification in the sea urchin Tripneustes gratilla. PLoS One 5:e11372.</note>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Energy-limited tolerance to stress as a conceptual framework to integrate the effects of multiple stressors</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><forename type="middle">M</forename><surname>Sokolova</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Integr Comp Biol</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="597" to="608" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sokolova IM (2013) Energy-limited tolerance to stress as a conceptual framework to integrate the effects of multiple stressors. Integr Comp Biol 53:597-608.</note>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Thermal physiology and vertical zonation of intertidal animals: optima, limits, and costs of living</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">N</forename><surname>Somero</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Integr Comp Biol</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="780" to="789" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Somero GN (2002) Thermal physiology and vertical zonation of inter- tidal animals: optima, limits, and costs of living. Integr Comp Biol 42:780-789.</note>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">The physiology of global change: linking patterns to mechanisms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">N</forename><surname>Somero</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rev Mar Sci</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="39" to="61" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Somero GN (2012) The physiology of global change: linking patterns to mechanisms. Ann Rev Mar Sci 4:39-61.</note>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Marine range shifts and species introductions: comparative spread rates and community impacts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cjb</forename><surname>Sorte</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">L</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">T</forename><surname>Carlton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Glob Ecol Biogeogr</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="303" to="316" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sorte CJB, Williams SL, Carlton JT (2010) Marine range shifts and spe- cies introductions: comparative spread rates and community impacts. Glob Ecol Biogeogr 19:303-316.</note>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">Oxygen consumption in four species of teleosts from Greenland: no evidence of metabolic cold adaptation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">F</forename><surname>Steffensen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">G</forename><surname>Bushnell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Schurmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Polar Biol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="49" to="54" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Steffensen JF, Bushnell PG, Schurmann H (1994) Oxygen consumption in four species of teleosts from Greenland: no evidence of meta- bolic cold adaptation. Polar Biol 14:49-54.</note>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">Imminent ocean acidification in the Arctic projected with the NCAR global coupled carbon cycle-climate model</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Steinacher</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Joos</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">L</forename><surname>Frolicher</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">K</forename><surname>Plattner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">C</forename><surname>Doney</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biogeosciences</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="515" to="533" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Steinacher M, Joos F, Frolicher TL, Plattner GK, Doney SC (2009) Imminent ocean acidification in the Arctic projected with the NCAR global coupled carbon cycle-climate model. Biogeosciences 6:515-533.</note>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main">Genomics are transforming our understanding of responses to climate change</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">H</forename><surname>Stillman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Armstrong</forename><forename type="middle">E</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BioScience</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="237" to="246" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stillman JH, Armstrong E (2015) Genomics are transforming our understanding of responses to climate change. BioScience 65: 237-246.</note>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title level="a" type="main">CO induced seawater acidification impacts sea urchin larval development I: elevated metabolic rates decrease scope for growth and induce developmental delay</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Stumpp</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Wren</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Melzner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">C</forename><surname>Thorndyke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">T</forename><surname>Dupont</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comp Biochem Physiol A Mol Integr Physiol</title>
+		<imprint>
+			<biblScope unit="volume">160</biblScope>
+			<biblScope unit="page" from="331" to="340" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stumpp M, Wren J, Melzner F, Thorndyke MC, Dupont ST (2011) CO induced seawater acidification impacts sea urchin larval develop- ment I: elevated metabolic rates decrease scope for growth and induce developmental delay. Comp Biochem Physiol A Mol Integr Physiol 160:331-340.</note>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Thermal tolerance and the global redistribution of animals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Sunday</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Bates</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">K</forename><surname>Dulvy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Clim Change</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="686" to="690" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sunday JM, Bates AE, Dulvy NK (2012) Thermal tolerance and the glo- bal redistribution of animals. Nat Clim Change 2:686-690.</note>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title level="a" type="main">Effects of elevated temperature and carbon dioxide on the growth and survival of larvae and juveniles of three species of northwest Atlantic bivalves</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">C</forename><surname>Talmage</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">J</forename><surname>Gobler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">26941</biblScope>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Talmage SC, Gobler CJ (2011) Effects of elevated temperature and car- bon dioxide on the growth and survival of larvae and juveniles of three species of northwest Atlantic bivalves. PLoS One 6:e26941.</note>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<analytic>
+		<title level="a" type="main">Physiological responses to shifts in multiple environmental stressors: relevance in a changing world</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Todgham</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">H</forename><surname>Stillman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Integr Comp Biol</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="539" to="544" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Todgham AE, Stillman JH (2013) Physiological responses to shifts in multiple environmental stressors: relevance in a changing world. Integr Comp Biol 53:539-544.</note>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<analytic>
+		<title level="a" type="main">Pteropods, eddies, carbon flux, and climate variability in the Alaska Gyre</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Tsurumi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">L</forename><surname>Mackas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">A</forename><surname>Whitney</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Dibacco</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">D</forename><surname>Galbraith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">S</forename><surname>Wong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Deep-Sea Res II-Top Stud Oceanogr</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="1037" to="1053" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tsurumi M, Mackas DL, Whitney FA, DiBacco C, Galbraith MD, Wong CS (2005) Pteropods, eddies, carbon flux, and climate variability in the Alaska Gyre. Deep-Sea Res II-Top Stud Oceanogr 52:1037-1053.</note>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<analytic>
+		<title level="a" type="main">Physiological and ecological responses of crustaceans to ocean acidification</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">M</forename><surname>Whiteley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar Ecol Prog Ser</title>
+		<imprint>
+			<biblScope unit="volume">430</biblScope>
+			<biblScope unit="page" from="257" to="271" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Whiteley NM (2011) Physiological and ecological responses of crusta- ceans to ocean acidification. Mar Ecol Prog Ser 430:257-271.</note>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<analytic>
+		<title level="a" type="main">Ecological processes influencing mortality of juvenile pink salmon (Oncorhynchus gorbuscha) in Prince William Sound</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">M</forename><surname>Willette</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">T</forename><surname>Cooney</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Patric</forename><forename type="middle">V</forename><surname>Mason</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">M</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">L</forename><surname>Scheel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Alaska. Fisher Oceanogr</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="14" to="41" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Willette TM, Cooney RT, Patric V, Mason DM, Thomas GL, Scheel D (2001) Ecological processes influencing mortality of juvenile pink salmon (Oncorhynchus gorbuscha) in Prince William Sound, Alaska. Fisher Oceanogr 10:14-41.</note>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<analytic>
+		<title level="a" type="main">Ocean acidification may increase calcification rates, but at a cost</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">L</forename><surname>Wood</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">I</forename><surname>Spicer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Widdicombe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Biol Sci</title>
+		<imprint>
+			<biblScope unit="volume">275</biblScope>
+			<biblScope unit="page" from="1767" to="1773" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wood HL, Spicer JI, Widdicombe S (2008) Ocean acidification may increase calcification rates, but at a cost. Proc Biol Sci 275: 1767-1773.</note>
+</biblStruct>
+
+<biblStruct xml:id="b95">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="middle">........... .</forename></persName>
+			<affiliation>
+				<orgName type="collaboration">..............................................................................................................................................</orgName>
+			</affiliation>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">.............................................................................................................................................................</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

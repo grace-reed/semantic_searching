@@ -1,0 +1,2372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/grace/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Antimicrobial peptides and cell processes tracking endosymbiont dynamics</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Abdelaziz</forename><surname>Heddi</surname></persName>
+							<email>abdelaziz.heddi@insa-lyon.fr</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">UMR0203</orgName>
+								<orgName type="institution" key="instit1">Université de Lyon</orgName>
+								<orgName type="institution" key="instit2">INSA-Lyon</orgName>
+								<orgName type="institution" key="instit3">INRA</orgName>
+								<address>
+									<postCode>BF2I, 69621</postCode>
+									<settlement>Villeurbanne</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="laboratory">UMR0203</orgName>
+								<orgName type="institution" key="instit1">Université de Lyon</orgName>
+								<orgName type="institution" key="instit2">INSA-Lyon</orgName>
+								<orgName type="institution" key="instit3">INRA</orgName>
+								<address>
+									<postCode>BF2I, 69621</postCode>
+									<settlement>Villeurbanne</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Florent</forename><surname>Masson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">UMR0203</orgName>
+								<orgName type="institution" key="instit1">Université de Lyon</orgName>
+								<orgName type="institution" key="instit2">INSA-Lyon</orgName>
+								<orgName type="institution" key="instit3">INRA</orgName>
+								<address>
+									<postCode>BF2I, 69621</postCode>
+									<settlement>Villeurbanne</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anna</forename><surname>Zaidman-Rémy</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">UMR0203</orgName>
+								<orgName type="institution" key="instit1">Université de Lyon</orgName>
+								<orgName type="institution" key="instit2">INSA-Lyon</orgName>
+								<orgName type="institution" key="instit3">INRA</orgName>
+								<address>
+									<postCode>BF2I, 69621</postCode>
+									<settlement>Villeurbanne</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Antimicrobial peptides and cell processes tracking endosymbiont dynamics</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1098/rstb.2015.0298</idno>
+					<note type="submission">Accepted: 4 January 2016</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-09-14T02:47+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>evolution</term>
+					<term>immunology endosymbiosis</term>
+					<term>antimicrobial peptide</term>
+					<term>Coleoptericin</term>
+					<term>Sitophilus</term>
+					<term>bacteriocyte</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>One contribution of 13 to a theme issue &apos;Evolutionary ecology of arthropod antimicrobial peptides&apos;.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Among the striking attributes of insects is their ability to share long-term relationships with intracellular symbiotic bacteria (endosymbionts) <ref type="bibr" target="#b0">[1]</ref>. Particularly frequent in species thriving on nutritionally unbalanced environments, such endosymbioses are believed to impact several aspects of host biology, including physiology, immunity and reproduction <ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref>. They ensure a nutritional complementation of the host diet by providing vitamins and essential amino acids <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b9">10]</ref>, thus greatly improving host fitness <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b11">12]</ref>. Early on during insect embryogenesis, endosymbionts are housed within specific host cells, the bacteriocytes, which group together to form the bacteriome organ in some insect species. They also infect permanently the host germ cells, from which they are transmitted to progeny. While insect bacteriomes have been thoroughly investigated in terms of physiology and metabolism, little is known about the cellular functions and immune regulatory mechanisms operating within the bacteriocytes, which allow the tolerance of bacteria and the control of their density and location through the host life cycle.</p><p>Long-term host-symbiont relationships often lead to a complete interdependence of both partners over evolutionary time <ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref>. Once established within the host, endosymbionts generally experience severe genome size reduction due to relaxed evolutionary pressures on genes that are redundant with host functions <ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref> or become unnecessary for the new association <ref type="bibr" target="#b19">[20]</ref>. Among the latter, virulence genes and genes involved in the biosynthesis of cell wall components, are prone to deletion <ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b22">[22]</ref>. As these elements constitute microbe-associated molecular patterns (MAMPs) that are central for bacterial perception by insect immune pattern recognition receptors (PRRs), the molecular cross-talk used by partners to 'manage' their coexistence may vary according to the age of the association, and hence to the level of bacterial genome reduction. In this evolutionary context, the study of recently established symbiotic associations involving endosymbionts presenting MAMPs on their cell wall may provide relevant insights into the mechanisms operating in insect endosymbiogenesis. Comparison of such recently established associations with ancient associations involving genome-reduced endosymbionts with degenerated MAMPs may help in understanding how the mechanisms of symbiont perception and control have evolved in relation to increased symbiont integration and dependence on the host.</p><p>Weevils from the Curculionoidea superfamily share a trophic endosymbiosis with g-proteobacteria that have been integrating insect hosts at different evolutionary periods <ref type="bibr">[23 -25]</ref>. Candidatus Nardonella would be the ancestral symbiont (125 million years (Myr) of this superfamily and occurs in at least eight studied genera <ref type="bibr" target="#b24">[24]</ref>. Candidatus Sodalis pierantonius symbiosis with the cereal weevils of the genus Sitophilus spp. is hypothesized to have been established recently (less than 1 Myr) <ref type="bibr" target="#b26">[26]</ref>, probably following Candidatus Nardonella's displacement <ref type="bibr" target="#b24">[24,</ref><ref type="bibr" target="#b26">26,</ref><ref type="bibr" target="#b27">27]</ref>. Owing to its recent association as a symbiont, S. pierantonius is a valuable model for studying the early steps of insect endosymbiogenesis, in that its genome has not suffered any drastic size reduction <ref type="bibr">[28 -30]</ref>. In addition to the high prevalence of pseudogenes and transposable elements <ref type="bibr" target="#b29">[29]</ref>, which are thought to favour gene rearrangements and deletions, S. pierantonius genome encodes a functional type 3 secretion system (T3SS) <ref type="bibr" target="#b20">[21]</ref>, as well as the enzymes required to synthetize the cell wall peptidoglycan, a potent inducer of the insect immune response <ref type="bibr" target="#b30">[30]</ref>. An injection of S. pierantonius bacteria into the weevil haemolymph results in the systemic induction of antimicrobial peptide (AMP) encoding gene expression <ref type="bibr" target="#b31">[31]</ref>, attesting that the host immune system has retained the ability to mount an immune defence against its bacterial partner, and that the seclusion of endosymbionts within the bacteriome protects them from the insect's humoral and cellular responses. Remarkably, this spatial symbiont compartmentalization seems to be a convergent evolutionary strategy for the maintenance and the regulation of mutualistic bacteria in both animals and plants. Examples include the trophosome of the giant tube worms Riftia pachyptila <ref type="bibr" target="#b32">[32]</ref>, root nodules in plants <ref type="bibr" target="#b33">[33]</ref>, the stratification and regionalization of the mammalian gut <ref type="bibr" target="#b34">[34]</ref> and the development of the light organ in the squid Euprymna scolopes <ref type="bibr" target="#b36">[35]</ref>. Symbiont compartmentalization could thus be considered as a 'biological strategy' that allows organisms to manage beneficial symbionts within a limited space, while host defences are maintained in the remaining host tissues where they prevent pathogenic infections.</p><p>While this compartmentalization protects the symbionts from direct exposure to the systemic immune response, it raises the question of the functional adaptation of the host immune system inside the bacteria-bearing compartment. Indeed, bacteriocytes must ensure: (i) the control of endosymbionts, i.e. ensuring they do not break free from these specialized housing cells; (ii) the maintenance of endosymbionts, i.e. their tolerance in high number; and (iii) the modulation of the endosymbiotic load according to the host developmental stages, which has been observed to different extents in many species. Here, we will review recent data on immune responses operating within the cereal weevil bacteriome organ, and their coordination with host cellular processes, including apoptosis and autophagy, ensuring symbiosis homeostasis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">The antimicrobial peptide Coleoptericin A keeps endosymbionts within the bacteriome organ</head><p>The weevil bacteriome was shown to mount a limited immune response, with few immune genes being expressed under physiological conditions <ref type="bibr" target="#b31">[31,</ref><ref type="bibr" target="#b37">36]</ref>. Remarkably, this organ notably expresses only one AMP coding gene, coleoptericin A (colA) <ref type="bibr" target="#b31">[31,</ref><ref type="bibr" target="#b38">37]</ref>, while other AMP coding genes are slightly or not expressed, which presumably helps the endosymbionts to survive within this symbiotic tissue.</p><p>Coleoptericins have been found only in coleopteran insects so far; in cereal weevils, two peptides, ColA and ColB, were identified from transcriptomic data <ref type="bibr" target="#b31">[31,</ref><ref type="bibr" target="#b37">36]</ref>. Coleoptericins display a bacteriostatic activity on a broad spectrum of bacteria, including both Gram-positive and Gram-negative bacteria <ref type="bibr" target="#b39">[38]</ref><ref type="bibr" target="#b41">[39]</ref><ref type="bibr" target="#b42">[40]</ref>. In vitro incubation of Escherichia coli with weevil ColA impairs bacterial cell division and leads to cell gigantism <ref type="bibr" target="#b41">[39,</ref><ref type="bibr" target="#b42">40]</ref>. It is noteworthy that endosymbiotic bacteria have been observed as long and filamentous cells in cereal weevils and other coleopteran symbiotic species <ref type="bibr" target="#b27">[27,</ref><ref type="bibr" target="#b44">41]</ref>. Bacterial cell elongation was also described in plant systems, raising the question of whether plants and animals use a similar strategy to interact with their symbionts. In 2010, Van de Velde et al. demonstrated that the factors inhibiting Rhizobium division in legumes are the nodule-specific cysteine-rich peptides (NCRs) <ref type="bibr" target="#b45">[42]</ref>. NCRs govern rhizobia differentiation, which results in the gigantism of the bacterial cells and their inability to multiply in vitro. Size elongation has been interpreted as a terminal maturation stage of the bacterium, which results in repeated chromosome DNA replication without cell cytokinesis <ref type="bibr" target="#b46">[43]</ref>. To determine whether ColA AMP is responsible for endosymbiont gigantism in Sitophilus weevils, and whether this process is also irreversible, RNA interference (RNAi) has been used to suppress colA expression in vivo <ref type="bibr" target="#b42">[40]</ref>. Unlike what has been observed with the NCR-induced gigantism of Rhizobium in plants, which is irreversible, alteration of colA gene expression induced a significant size reduction of S. pierantonius. More importantly, colA extinction resulted in a loss of spatial control of endosymbionts, which gained the ability to exit the bacteriocytes and invade surrounding tissues <ref type="bibr" target="#b42">[40]</ref>. These results, along with the relatively high amount of ColA peptide observed at the border of symbiotic tissues, led to the conclusion that ColA acts as a 'border patrol agent' that prevents endosymbionts from leaving the bacteriome, ensuring bacteriocyte homeostasis.</p><p>Moreover, ColA specifically targets weevil endosymbiont cytokinesis and does not inhibit DNA replication, thus leading to the production of giant polyploid bacterial cells. Both S. pierantonius and Nardonella, the ancestral endosymbiont of weevils, exhibit high polyploidy that correlates with bacterial size <ref type="bibr" target="#b42">[40]</ref>. For example, Nardonella cells from the palm weevil Rhynchophorus ferrugineus can reach 200 mm and contain 120 chromosomes <ref type="bibr" target="#b42">[40]</ref>. This endosymbiont polyploidy may be beneficial for the host, as it rstb.royalsocietypublishing.org Phil. Trans. R. Soc. B 371: 20150298 would ensure a high level of bacterial protein synthesis and metabolic capacity. It is likely one of the adaptive features generated by host -symbiont coevolution: ColA spatially restricts endosymbionts to bacteriocytes and inhibits their cytokinesis without impairing their metabolic activity and their ability to supply the host with nutritional components, highlighting the concept of 'endosymbiont domestication' <ref type="bibr" target="#b42">[40,</ref><ref type="bibr" target="#b47">44]</ref>.</p><p>To get insights into how the Sitophilus colA gene may have evolved towards these symbiotic functions, the weevil colB paralogue was analysed. Although ColB presents strong sequence similarity with ColA, both peptides have distinct functions. ColB has a low basal expression in bacteriocytes <ref type="bibr" target="#b31">[31]</ref>, and it does not generate any bacterial gigantism phenotype when incubated in vitro with E. coli. Furthermore, far-Western experiments showed interactions of ColA with the E. coli membrane proteins OmpA and OmpC, RpL2 and EF-Ts elongation factors, as well as with the chaperonin GroEL <ref type="bibr" target="#b42">[40]</ref>. groEL deficient E. coli mutants display a filamentous bacterial phenotype resembling that of S. pierantonius, hinting that ColA-GroEL interaction may mediate the observed bacterial cytokinesis inhibition in E. coli and S. pierantonius. Interestingly, ColB was shown to interact with OmpC and elongation factors but not with the chaperonin GroEL <ref type="bibr" target="#b42">[40]</ref>, suggesting that the affinity of ColA for this protein may have been acquired during divergent evolution of these coleoptericins. Furthermore, ColA does not interact with HSP60, the eukaryotic homologue protein of GroEL, indicating that ColA strictly targets prokaryotic proteins <ref type="bibr" target="#b42">[40]</ref>.</p><p>Another interesting question with regard to colA relates to how the expression of this gene is regulated in the bacteriome. In Drosophila melanogaster, AMP synthesis relies on the activation of the Toll and Imd signalling pathways, the two main controls in the immune-related activation of NF-kB transcription factors <ref type="bibr" target="#b48">[45]</ref><ref type="bibr" target="#b49">[46]</ref><ref type="bibr" target="#b50">[47]</ref>. NF-kB-independent expression has also been described for the local expression of some AMPs in specific regions of Drosophila epithelia <ref type="bibr" target="#b50">[47,</ref><ref type="bibr" target="#b51">48]</ref>. On an evolutionary perspective, it would be interesting to figure out whether colA expression involves a NF-kB-dependent or -independent mechanism under physiological conditions. Moreover, we have recently noticed that colA transcript levels are highly correlated with S. pierantonius population dynamics in adult weevils (see §4). This suggests that colA gene regulation is adjusted to endosymbiont load, which could involve either the direct sensing of bacteria, e.g. through the recognition of bacterial MAMPs, or the indirect perception of their activity, e.g. through the detection of bacterial metabolites.</p><p>Lastly, the expression of colA in the bacteriome is also modulated by systemic challenges of insects by exogenous bacteria <ref type="bibr" target="#b52">[49]</ref>. An injection of Gram-negative or Gram-positive bacteria into the weevil's haemolymph triggers an immune response of the bacteriome, attested by the induction of several AMP coding genes, including colB and colA <ref type="bibr" target="#b52">[49]</ref>. We have qualified this response as 'external', since it is triggered by exogenous bacteria, in contrast to the 'internal' immune response that is directed towards endosymbionts (figure 1). Although it remains to be confirmed that induced AMPs are secreted outside the bacteriome to cope with systemic infections, these findings show that both ColA and ColB AMPs have conserved a host defence function upon infection, in addition to their divergent functions under physiological conditions in the bacteriome organ. Remarkably, colA induction in the bacteriome by systemic infection does not interfere with the endosymbiont load, implying another level of regulation that remains to be explored.</p><p>Taken together, these findings provide an insight into how some innate immune system components, originally involved in fighting pathogens, can evolve adaptively and participate in isolating cooperative bacteria from the systemic immune responses, hence allowing the maintenance of mutualistic associations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Endosymbiont tolerance would require antimicrobial peptide expression to stay low</head><p>Apart from colA, the bacteriome immune response is marked by a low expression of the other AMP genes studied so far, despite the massive presence of bacteria inside bacteriocytes <ref type="bibr" target="#b31">[31,</ref><ref type="bibr" target="#b38">37]</ref>. This restrained local immune response in bacteriocytes, or 'tolerance' towards the bacterial partner, is likely to be essential for endosymbiont maintenance. Such a modulated immune response was also noticed in carpenter ants Camponotus floridanus, the bacteriocyte-bearing midgut of which displays a low expression of genes coding for hymenoptaecin and defensin-1 AMPs and for lysozymes <ref type="bibr" target="#b53">[50]</ref>. In this insect model, genes coding for the PRR peptidoglycan recognition protein 2 (PGRP-2) and Gram-negative binding protein (GNBP), i.e. proteins involved in the recognition of bacteria upstream of the immune response, are less expressed in the midgut when compared with other tissues <ref type="bibr" target="#b53">[50]</ref>. Furthermore, genes coding for the enzymatic PGRPs, PGRP-LB and PGRP-SC2, display a high expression level in the midguts of late pupae when endosymbiont population expands. PGRP-LB and -SC2 may degrade endosymbiont immunogenic peptidoglycan, highlighting a possible mechanism of tolerance that would rely on a low detection of endosymbionts by the immune system <ref type="bibr" target="#b53">[50]</ref>. In cereal weevils, the findings that an immune response is activated in the bacteriome following larval challenge with exogenous free-living bacteria <ref type="bibr" target="#b52">[49]</ref> indicate that immune pathways are functional in this organ, supporting the idea of an active mechanism of AMP gene repression under physiological conditions, a repression that would be cancelled in case of infections, allowing the defence of the bacteriome and its associated endosymbionts. Genetic negative regulations of local immune responses in tissues in contact with beneficial bacterial communities, such as the gut epithelium, are well described in insects. As mentioned above, elicitation of immune pathways can be reduced by secreted PGRPs with amidase activity, which degrade immunogenic peptidoglycans <ref type="bibr" target="#b54">[51]</ref><ref type="bibr" target="#b55">[52]</ref><ref type="bibr" target="#b56">[53]</ref>. Signal transduction can also be decreased by intracellular regulators such as Pirk, which binds to the IMD pathway membrane receptor and causes its internalization <ref type="bibr" target="#b57">[54,</ref><ref type="bibr" target="#b58">55]</ref>, or by the products of genes such as caudal, which represses the NF-kB-dependent AMP gene expression in the gut, therefore allowing the tolerance of gut microbiota in Drosophila <ref type="bibr" target="#b59">[56]</ref>. However, no orthologues of known negative immune regulators have been shown to be highly expressed in the S. oryzae bacteriome. As an example, pirk and caudal basal expression levels are, respectively, two and three times lower in the bacteriome than in other weevil tissues ( <ref type="bibr" target="#b52">[49]</ref> and unpublished RNAseq data).</p><p>An alternative hypothesis to explain AMP gene repression in the bacteriome organ would involve epigenetic mechanisms. Recently, Goto et al. <ref type="bibr" target="#b60">[57]</ref> have provided evidence of an epigenetic control on insect immunity by the DNA methyltransferase 1 associated protein 1 (DMAP1). This protein has been identified in Drosophila as an immune regulator that interferes downstream of NF-kB factors, probably acting on chromatin remodelling and increasing the intensity of immune response upon infection <ref type="bibr" target="#b60">[57]</ref>. DNA methylation has been one of the first broadly described mechanisms of epigenetic regulation of gene expression in several models <ref type="bibr" target="#b61">[58]</ref><ref type="bibr" target="#b62">[59]</ref><ref type="bibr" target="#b63">[60]</ref>, including the coleopteran Tribolium castaneum <ref type="bibr" target="#b64">[61]</ref>, but the degree of methylation of insect genomes appears low compared with that observed in mammals, suggesting a lesser impact of DNA methylation on insects. On the other hand, histone methylation has been described in Drosophila and in Planococcus mealybugs as a significant regulatory mechanism for gene expression <ref type="bibr" target="#b65">[62]</ref><ref type="bibr" target="#b66">[63]</ref><ref type="bibr" target="#b67">[64]</ref>. Such a highly conserved mechanism could be at work in the S. oryzae bacteriome, and would allow a rapid switch on or off in gene expression depending on environmental and physiological conditions, i.e. AMP gene repression under physiological conditions and induction upon infection.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Cellular processes take the lead over antimicrobial peptides during endosymbiont recycling</head><p>In addition to endosymbiont protection against humoral and cellular immune responses, the compartmentalization of endosymbionts is also reminiscent of an organization in units of production of metabolic compounds essential for the host. We recently have demonstrated that symbiont compartmentalization in the adult stage allows the insect to modulate the symbiont load according to its physiological needs, and to promptly eliminate these 'factory units' when they are no longer beneficial <ref type="bibr" target="#b68">[65]</ref>. At metamorphosis, the weevil larval bacteriome dissociates and multiple small bacteriomes are formed at the apex of the adult mesenteric caeca <ref type="bibr" target="#b69">[66]</ref> (figure 2). During the first week following the adult moulting, these mesenteric bacteriomes grow drastically in size and the endosymbiont population quickly expands (more than 10-fold during the first 5 days). Strikingly, bacteriomes then regress rapidly during the second week until the symbiotic bacteria are completely eliminated by <ref type="figure" target="#fig_0">day 15 (figure 3)</ref>. It is noteworthy that the population of endosymbionts associated with the ovaries is not dislodged, indicating that different regulatory mechanisms are operating according to host tissues. Modulations of the endosymbiotic load during progression from one insect life stage to another have been reported in several insect models. In the pea aphid Acyrthosiphon pisum and in the ant C. floridanus, the endosymbiont population also varies during host development, although symbiont dynamics are weaker than in S. oryzae <ref type="bibr">[68 -70]</ref>. In mealybugs of the genus Planococcus, co-primary symbionts (i.e. two coexisting species of obligate endosymbionts) each undergo their own dynamics, indicating that each symbiont population may be controlled by separate mechanisms <ref type="bibr" target="#b74">[71]</ref>.</p><p>rstb.royalsocietypublishing.org Phil. Trans. R. Soc. B 371: 20150298</p><p>In cereal weevils, we have shown that the symbiotic burst in the first days of adulthood matches host need for the amino acids tyrosine and phenylalanine which are produced by the endosymbiont and transformed by the insect into 3,4-dihydroxyphenylalanine (DOPA), which is required for strengthening and stabilizing the newly synthesized cuticle <ref type="bibr" target="#b68">[65]</ref>. Once the formation and stabilization of the new adult cuticle has been finished, endosymbionts are rapidly eliminated. The importance of endosymbiosis in the process of cuticle synthesis can be appreciated through the analysis of aposymbiotic weevils (i.e. insects that have been experimentally deprived of their endosymbionts), whose adults carry a much thinner cuticle than symbiotic weevils <ref type="bibr" target="#b68">[65]</ref>. The ability of weevils to maintain a stable symbiotic state in the larval stage, and to manipulate the endosymbiont population and adjust its load to the insect's physiological needs in the adult stage suggests complex control mechanisms that probably involve the bacteriome local immune response. The rapid proliferation of symbionts in the period after metamorphosis, followed by their rapid and total elimination, raises different questions depending on the phase being considered: which mechanisms allow endosymbiont maintenance during the growing phase? Is immunity involved in symbiont clearance? Are any other mechanisms entailed?</p><p>Recent data have shown that colA expression in the gut of symbiotic insects is correlated with symbiont density (figure 3, <ref type="bibr" target="#b70">[67]</ref>) and that bacteria remain intracellular during the whole elimination process, avoiding thereby tissue inflammation and systemic immune activation <ref type="bibr" target="#b70">[67]</ref>. These findings suggest that, similar to the larval stage, ColA continues to target and regulate endosymbiont cell division as long as bacteria are present in adults. Remarkably, the other AMP coding genes, including colB, are not transcriptionally activated during bacterial dynamics <ref type="bibr" target="#b70">[67]</ref>. This, in addition to the high expression of the negative immune regulator pirk gene during the whole dynamics, suggests an active clamping of the immune pathways that may be relevant not only for endosymbiont tolerance, but also for permitting their rapid growth at the initial phase of the adult stage <ref type="bibr" target="#b70">[67]</ref>. Taking into consideration the downregulation of AMP encoding genes during the elimination phase, AMPs are unlikely to be involved in this endosymbiont dynamics process. Symbiont elimination was instead shown to involve two cellular processes: these are   <ref type="figure">Figure 3</ref>. colA gene expression in S. oryzae young adult is correlated wtih endosymbiont dynamics. colA expression was monitored by real-time quantitative PCR and normalized with the expression of housekeeping genes rpl29 and gapdh as described by Masson et al. <ref type="bibr" target="#b70">[67]</ref>. Sodalis pierantonius density was assessed by quantitative PCR as described by Vigneron et al. <ref type="bibr" target="#b68">[65]</ref>. apoptosis, or programmed cell death, and autophagy, which is a conserved cellular mechanism allowing eukaryotic cells to recycle cell components and organelles and to preserve cellular homeostasis <ref type="bibr" target="#b75">[72,</ref><ref type="bibr" target="#b77">73]</ref>. These cell processes may allow the host to minimize the cost inherent to symbiont growth in the initial adult phase. The recycling of endosymbiont cell components, which is highlighted by the accumulation of massive lamellar bodies in the cells <ref type="bibr" target="#b68">[65]</ref>, would enable the host to recover a part of the energy invested in endosymbiont growth, control and maintenance. Autophagy is classically activated in response to organelle damage and nutritional deficiency. This process is also involved in many host -bacterial interactions, notably in the clearance of the intracellular pathogen Listeria monocytogenes in Drosophila <ref type="bibr" target="#b78">[74]</ref>, and in the regulation of Wolbachia populations in nematodes, crustaceans and insects <ref type="bibr" target="#b79">[75,</ref><ref type="bibr" target="#b80">76]</ref>. It also plays a critical role in the elimination of dinoflagellate symbionts in the sea anemone Aiptasia pallida <ref type="bibr" target="#b81">[77,</ref><ref type="bibr" target="#b82">78]</ref>. In this cnidarian model, endosymbiont autophagy is triggered during the bleaching phenomenon as a response to thermal stress, the precise function of which remains poorly understood. The common thread in these examples is that autophagy is activated upon stress generated either by bacteria or by the environment. In cereal weevils, symbiont recycling appears to be a programmed process that is set up during insect development. Nevertheless, and similar to the aforementioned models, the rapid bacterial multiplication in emerging weevil adults could be considered as a bacterial or metabolic stress that could trigger the transcription of autophagy effector genes. In line with this hypothesis, we have shown recently that genes from the autophagy-related gene (ATG) family [79] are induced during the symbiotic burst, several days before the effective autophagic digestion of endosymbionts <ref type="bibr" target="#b70">[67]</ref>. This also raises the question of which signals link endosymbiont perception by the host to the effector processes. More accurately, two signals could be expected: one triggering ATG expression around the third day of adult life, and the other triggering the activation of recycling through autophagy. The latter has been proposed as DOPA by Vigneron et al. <ref type="bibr" target="#b68">[65]</ref>. DOPA, which is produced from tyrosine and phenylalanine, is critical for the sclerotization and melanization of the cuticle <ref type="bibr" target="#b83">[80]</ref>. Once cuticle formation has been completed, around the sixth day of adult weevil life, DOPA has been shown to accumulate in insect tissues and may act as a signal to trigger symbiont recycling. Further research may unravel the nature of the signals activating ATG transcription, as well as the pathways involved in DOPA-signal integration.</p><p>Beyond the signalling mechanisms, these findings show that an adapted cross-talk between metabolic and cellular functions has been selected through host-symbiont coevolution. This cross-talk participates in optimizing the cost of symbiosis and in speeding up completion of a protective exoskeleton during the critical phase when insects emerge from the cereal grains and face new environmental challenges.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusion</head><p>The serial integration of intracellular mutualistic bacteria from free-living potentially pathogenic bacteria remains a puzzling phenomenon. As early as 1933, the insect pathologist André Paillot reported that 'Symbiosis can originally be considered as a pathogenic bacterial infection. The long adaptation of these bacteria to the same organism progressively decreased their virulence until they became harmless to the host' <ref type="bibr" target="#b84">[81]</ref>. This visionary theory, which was postulated when symbiosis was viewed as a biological curiosity, is now being supported by accumulating findings on endosymbiont comparative genomics. Among these findings there are: the identification of secretion systems and virulence-encoding genes in recently established mutualistic bacteria, the deletions of genes encoding MAMPs in long-established endosymbionts, and the complete metabolic dependence between associated partners. However, what still remains to be determined is whether and how the host genome evolves in parallel with bacterial genome shrinkage during host-symbiont coevolution, and how the host immune system is involved in the tolerance and control of the bacterial partners in number and localization. Recent research on S. oryzae and C. floridanus has revealed that the host immune system is a central player in endosymbiont control. In S. oryzae in particular, studies on ColA have highlighted the constrained adaptive evolution of host AMP structure and activity, which participate in endosymbiont seclusion within the bacteriocytes. In spite of the functionality of immune pathways in the bacteriome, endosymbiont massive presence does not trigger the activation of immune effectors in this tissue, indicating that not only the sequence of ColA may have been shaped through host-symbiont coevolution, but also the regulatory mechanisms of the other AMPs. Furthermore, the contrast between colA and other AMP gene expression profiles in the bacteriome reinforces the assumption that AMP expression is a critical player in endosymbiont tolerance and maintenance. Nevertheless, findings on young adult weevils attest that AMP-based immunity is not the only player in endosymbiosis control and homeostasis. Cellular processes such as autophagy and apoptosis are indeed major effectors in the regulation of endosymbiont dynamics, especially adjusting the endosymbiont population to the host's physiological needs, which in fine improves the cost/benefit ratio of endosymbiosis. This illustrates the concept of symbiotic trade-off: the insect offers 'board and lodging' to the endosymbionts as long as it relies on their metabolic supply, but when the cost of symbiont maintenance overcomes the benefit provided, the insect cellular machinery specifically recycles endosymbionts from the gut bacteriocytes, while preserving ovary-associated endosymbionts involved in the reproductive physiology of the host and symbiont transmission.</p><p>In conclusion, recent data provide evidence that at least three mechanisms have been selected along with hostsymbiont coevolution to ensure a fine-tuned regulation of endosymbiosis homeostasis and dynamics: (i) the compartmentalization of symbionts, which isolates them from the host systemic immune response, (ii) the use of AMPs as 'symbiont shepherds' and (iii) the activation of two cell-autonomous processes, autophagy and apoptosis, which allow rapid and tissue-specific adjustment of the symbiont load at a given stage of physiological maturation. Deciphering how these mechanisms are interconnected and integrated with the host metabolism may open up a new avenue for the understanding of holobiont function and evolution.</p><p>Competing interests. We have no competing interests. Funding. This work was supported by the French ANR-10 BSV7-170101-545 03 (ImmunSymbArt) and ANR-13-BSV7-0016-01 (IMet-Sym). F.M. was also funded by a doctoral grant from the French Ministry of Higher Education and Research.</p><p>rstb.royalsocietypublishing.org Phil. Trans. R. Soc. B 371: 20150298</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Internal and external immune responses of S. oryzae bacteriocytes. The internal immune response (solid arrows) consists of the intracellular activity of ColA on endosymbionts. Endosymbiont density is sensed by a still unknown mechanism, and ColA is produced accordingly, which ensures bacterial intracellular seclusion. The external immune response (dotted arrows) consists of the induction of AMP coding gene expression, including colA expression, after recognition of exogenous bacteria. This response is likely to involve an IMD-like pathway. In case of an infection, both responses coexist and do not seem to interfere with each other. rstb.royalsocietypublishing.org Phil. Trans. R. Soc. B 371: 20150298</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Sitophilus spp. endosymbiont localization. (a) Fourth instar larva and (a') cartoon larva illustration. The shape and localization of the bacteriome of Sitophilus vary with insect development. In the larva, which develops inside a cereal grain, a bilobular bacteriome is attached to the junction between the foregut and the midgut. (b) Adult and (b') cartoon adult illustration. The endosymbionts are housed in multiple bacteriomes located at the end of midgut mesenteric caeca, and in the female reproductive tract. Adapted from Vigneron et al.<ref type="bibr" target="#b68">[65]</ref>.</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">&amp; 2016 The Author(s) Published by the Royal Society. All rights reserved.on May 10, 2016 http://rstb.royalsocietypublishing.org/ Downloaded from</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">on May 10, 2016 http://rstb.royalsocietypublishing.org/ Downloaded from</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">on May 10, http://rstb.royalsocietypublishing.org/ Downloaded from</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Acknowledgements. We sincerely thank our collaborators Carole Vincent-Monégat, Agnès Vallier, Séverine Balmand, Nicolas Parisot, Aurélien Vigneron and Justin Maire, who participated in putting data on S. oryzae together and who allowed the emergence of new ideas through their constructive discussion. We acknowledge Jens Rolff, Paul Schmid-Hempel and the editorial team of Philosophical Transactions of Royal Society B for their kind invitation to participate in this volume. We also deeply thank Stuart Reynolds for his constructive critical reading of the manuscript.</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Endosymbiosis of animals with plant microorganisms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Buchner</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1965" />
+			<publisher>Interscience</publisher>
+			<pubPlace>New York, NY</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Buchner P. 1965 Endosymbiosis of animals with plant microorganisms. New York, NY: Interscience.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Effect of endocytobiotic bacteria on mitochondrial enzymatic activities in the weevil Sitophilus oryzae (Coleoptera: Curculionidae)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Heddi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Lefebvre</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Nardon</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0965-1748(93)90024-m</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Insect Biochem. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">93</biblScope>
+			<biblScope unit="page">90024</biblScope>
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Heddi A, Lefebvre F, Nardon P. 1993 Effect of endocytobiotic bacteria on mitochondrial enzymatic activities in the weevil Sitophilus oryzae (Coleoptera: Curculionidae). Insect Biochem. Mol. Biol. 23, 403-411. (doi:10.1016/0965-1748(93) 90024-m)</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Four intracellular genomes direct weevil biology: nuclear, mitochondrial, principal endosymbiont, and Wolbachia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Heddi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Grenier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Khatchadourian</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Charles</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Nardon</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.96.12.6814</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="6814" to="6819" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Heddi A, Grenier AM, Khatchadourian C, Charles H, Nardon P. 1999 Four intracellular genomes direct weevil biology: nuclear, mitochondrial, principal endosymbiont, and Wolbachia. Proc. Natl Acad. Sci. USA 96, 6814-6819. (doi:10.1073/pnas. 96.12.6814)</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Host benefit and the evolution of specialization in symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Douglas</surname></persName>
+		</author>
+		<idno type="DOI">10.1046/j.1365-2540.1998.00455.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Heredity (Edinb)</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="599" to="603" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Douglas P. 1998 Host benefit and the evolution of specialization in symbiosis. Heredity (Edinb). 81, 599-603. (doi:10.1046/j.1365-2540.1998.00455.x)</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The obligate mutualist Wigglesworthia glossinidia influences reproduction, digestion, and immunity processes of its host, the tsetse fly</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Pais</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Lohs</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Aksoy</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/AEM.00741-08</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="5965" to="5974" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pais R, Lohs C, Wu Y, Wang J, Aksoy S. 2008 The obligate mutualist Wigglesworthia glossinidia influences reproduction, digestion, and immunity processes of its host, the tsetse fly. Appl. Environ. Microbiol. 74, 5965-5974. (doi:10.1128/AEM. 00741-08)</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Tsetse immune system maturation requires the presence of obligate symbionts in larvae</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">L</forename><surname>Weiss</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Aksoy</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pbio.1000619</idno>
+		<idno>doi:10. 1371/journal.pbio.1000619</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Biol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">1000619</biblScope>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Weiss BL, Wang J, Aksoy S. 2011 Tsetse immune system maturation requires the presence of obligate symbionts in larvae. PLoS Biol. 9, e1000619. (doi:10. 1371/journal.pbio.1000619)</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Vitamin B6 generated by obligate symbionts is critical for maintaining proline homeostasis and fecundity in tsetse flies</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Michalkova</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">B</forename><surname>Benoit</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">L</forename><surname>Weiss</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">M</forename><surname>Attardo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Aksoy</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/AEM.01150-14</idno>
+		<idno>doi:10.1128/ AEM.01150-14</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="5844" to="5853" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Michalkova V, Benoit JB, Weiss BL, Attardo GM, Aksoy S. 2014 Vitamin B6 generated by obligate symbionts is critical for maintaining proline homeostasis and fecundity in tsetse flies. Appl. Environ. Microbiol. 80, 5844-5853. (doi:10.1128/ AEM.01150-14)</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Obligate symbionts activate immune system development in the tsetse fly</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Weiss</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Maltz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Aksoy</surname></persName>
+		</author>
+		<idno type="DOI">10.4049/jimmunol.1103691.Obligate</idno>
+		<idno>doi:10.4049/ jimmunol.1103691</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">188</biblScope>
+			<biblScope unit="page" from="3395" to="3403" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note>Obligate)</note>
+	<note type="raw_reference">Weiss B, Maltz M, Aksoy S. 2012 Obligate symbionts activate immune system development in the tsetse fly. J. Immunol. 188, 3395 -3403. (doi:10.4049/ jimmunol.1103691.Obligate)</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Differential vitamin and choline requirements of symbiotic and aposymbiotic Sitophilus oryzae (Coleoptera: Curculionidae)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Wicker</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0300-9629(83)90311-0</idno>
+		<idno>doi:10.1016/ 0300-9629</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Comp. Biochem. Physiol. A</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="issue">83</biblScope>
+			<biblScope unit="page" from="90311" to="90311" />
+			<date type="published" when="1983" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wicker C. 1983 Differential vitamin and choline requirements of symbiotic and aposymbiotic Sitophilus oryzae (Coleoptera: Curculionidae). Comp. Biochem. Physiol. A 76, 177-182. (doi:10.1016/ 0300-9629(83)90311-0)</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Symbiotic bacteria enable insect to use a nutritionally inadequate diet</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Akman</forename><surname>Gunduz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Douglas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename></persName>
+		</author>
+		<idno type="DOI">10.1098/rspb.2008.1476</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. R. Soc. B</title>
+		<imprint>
+			<biblScope unit="volume">276</biblScope>
+			<biblScope unit="page" from="987" to="991" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Akman Gunduz E, Douglas AE. 2009 Symbiotic bacteria enable insect to use a nutritionally inadequate diet. Proc. R. Soc. B 276, 987-991. (doi:10.1098/rspb.2008.1476)</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Serial endosymbiosis theory and weevil evolution: the role of symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Nardon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Grenier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Symbiosis as a source of evolutionary innovation: speciation and morphogenesis</title>
+		<meeting><address><addrLine>Cambridge, MA</addrLine></address></meeting>
+		<imprint>
+			<publisher>MIT Press</publisher>
+			<date type="published" when="1991" />
+			<biblScope unit="page" from="153" to="168" />
+		</imprint>
+	</monogr>
+	<note>L Margulis, R Fester)</note>
+	<note type="raw_reference">Nardon P, Grenier AM. 1991 Serial endosymbiosis theory and weevil evolution: the role of symbiosis. In Symbiosis as a source of evolutionary innovation: speciation and morphogenesis (eds L Margulis, R Fester), pp. 153-168. Cambridge, MA: MIT Press.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Synthesis of the essential amino acid tryptophan in the pea aphid (Acyrthosiphon pisum) symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Douglas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">A</forename><surname>Prosser</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0022-1910(92)90107-O</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Insect Physiol</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="565" to="568" />
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Douglas AE, Prosser WA. 1992 Synthesis of the essential amino acid tryptophan in the pea aphid (Acyrthosiphon pisum) symbiosis. J. Insect Physiol. 38, 565-568. (doi:10.1016/0022-1910(92)90107-O)</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Host -symbiont stability and fast evolutionary rates in an ant-bacterium association: cospeciation of Camponotus species and their endosymbionts, Candidatus blochmannia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">H</forename><surname>Degnan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">B</forename><surname>Lazarus</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">D</forename><surname>Brock</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename><surname>Wernegreen</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/10635150490264842</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Syst. Biol</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="95" to="110" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Degnan PH, Lazarus AB, Brock CD, Wernegreen JJ. 2004 Host -symbiont stability and fast evolutionary rates in an ant-bacterium association: cospeciation of Camponotus species and their endosymbionts, Candidatus blochmannia. Syst. Biol. 53, 95 -110. (doi:10.1080/10635150490264842)</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Cospeciation between the primary endosymbionts of mealybugs and their hosts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Baumann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Baumann</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00284-004-4437-x</idno>
+		<idno>doi:10. 1007/s00284-004-4437-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="84" to="87" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baumann L, Baumann P. 2005 Cospeciation between the primary endosymbionts of mealybugs and their hosts. Curr. Microbiol. 50, 84 -87. (doi:10. 1007/s00284-004-4437-x)</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Phylogenetic relationships between flies of the Tephritinae subfamily (Diptera, Tephritidae) and their symbiotic bacteria</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Mazzon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Martinez-Sañudo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Simonato</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Squartini</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Savio</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Girolami</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ympev.2010.02.016</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Phylogenet. Evol</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="312" to="326" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mazzon L, Martinez-Sañudo I, Simonato M, Squartini A, Savio C, Girolami V. 2010 Phylogenetic relationships between flies of the Tephritinae subfamily (Diptera, Tephritidae) and their symbiotic bacteria. Mol. Phylogenet. Evol. 56, 312-326. (doi:10.1016/j.ympev.2010.02.016)</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Reductive genome evolution, host -symbiont co-speciation and uterine transmission of endosymbiotic bacteria in bat flies</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Hosokawa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Nikoh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Koga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Sato</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Tanahashi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><forename type="middle">Y</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Fukatsu</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ismej.2011.125</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ISME J</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="577" to="587" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hosokawa T, Nikoh N, Koga R, Sato M, Tanahashi M, Meng XY, Fukatsu T. 2012 Reductive genome evolution, host -symbiont co-speciation and uterine transmission of endosymbiotic bacteria in bat flies. ISME J. 6, 577-587. (doi:10.1038/ismej.2011.125)</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Genome sequence of the endocellular bacterial symbiont of aphids Buchnera sp</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Shigenobu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Watanabe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Hattori</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Sakaki</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Ishikawa</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/35024074</idno>
+		<idno>doi:10.1038/ 35024074</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">407</biblScope>
+			<biblScope unit="page" from="81" to="86" />
+			<date type="published" when="2000" />
+			<publisher>APS</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shigenobu S, Watanabe H, Hattori M, Sakaki Y, Ishikawa H. 2000 Genome sequence of the endocellular bacterial symbiont of aphids Buchnera sp. APS. Nature 407, 81 -86. (doi:10.1038/ 35024074)</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Chromosomal stasis versus plasmid plasticity in aphid endosymbiont Buchnera aphidicola</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Latorre</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Gil</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">J</forename><surname>Silva</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Moya</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/sj.hdy.6800716</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Heredity (Edinb)</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page" from="339" to="347" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Latorre A, Gil R, Silva FJ, Moya A. 2005 Chromosomal stasis versus plasmid plasticity in aphid endosymbiont Buchnera aphidicola. Heredity (Edinb). 95, 339-347. (doi:10.1038/sj.hdy. 6800716)</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Shared metabolic pathways in a coevolved insect-bacterial symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">W</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Bouvaine</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">D</forename><surname>Newell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Douglas</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/AEM.01543-13</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="6117" to="6123" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Russell CW, Bouvaine S, Newell PD, Douglas AE. 2013 Shared metabolic pathways in a coevolved insect-bacterial symbiosis. Appl. Environ. Microbiol. 79, 6117 -6123. (doi:10.1128/AEM.01543-13)</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The evolutionary fate of nonfunctional DNA in the bacterial endosymbiont Buchnera aphidicola</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Gomez-Valero</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/molbev/msh232</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Biol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="2172" to="2181" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gomez-Valero L. 2004 The evolutionary fate of nonfunctional DNA in the bacterial endosymbiont Buchnera aphidicola. Mol. Biol. Evol. 21, 2172-2181. (doi:10.1093/molbev/msh232)</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Dale</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">R</forename><surname>Plague</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Ochman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">A</forename><surname>Moran</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Dale C, Plague GR, Wang B, Ochman H, Moran NA.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Type III secretion systems and the evolution of mutualistic endosymbiosis</title>
+		<idno type="DOI">10.1073/pnas.182213299</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="397" to="409" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Type III secretion systems and the evolution of mutualistic endosymbiosis. Proc. Natl Acad. Sci. USA 99, 12 397-12 402. (doi:10.1073/pnas.182213299)</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Degenerative evolution and functional diversification of type-III secretion systems in the insect endosymbiont Sodalis glossinidius</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Dale</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Pontes</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/molbev/msi061</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Biol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="758" to="766" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dale C, Jones T, Pontes M. 2005 Degenerative evolution and functional diversification of type-III secretion systems in the insect endosymbiont Sodalis glossinidius. Mol. Biol. Evol. 22, 758-766. (doi:10.1093/molbev/msi061)</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Molecular characterization of the principal symbiotic bacteria of the weevil Sitophilus oryzae: a peculiar GþC content of an endocytobiotic DNA</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Heddi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Charles</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Khatchadourian</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Bonnot</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Nardon</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/PL00006362</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="52" to="61" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Heddi A, Charles H, Khatchadourian C, Bonnot G, Nardon P. 1998 Molecular characterization of the principal symbiotic bacteria of the weevil Sitophilus oryzae: a peculiar GþC content of an endocytobiotic DNA. J. Mol. Evol. 47, 52 -61. (doi:10.1007/PL00006362)</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Endosymbiont phylogenesis in the Dryophthoridae weevils: evidence for bacterial replacement</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Lefèvre</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Charles</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Vallier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Delobel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Farrell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Heddi</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/molbev/msh063</idno>
+		<idno>doi:10. 1093/molbev/msh063</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Biol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="965" to="973" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lefèvre C, Charles H, Vallier A, Delobel B, Farrell B, Heddi A. 2004 Endosymbiont phylogenesis in the Dryophthoridae weevils: evidence for bacterial replacement. Mol. Biol. Evol. 21, 965-973. (doi:10. 1093/molbev/msh063)</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Candidatus Curculioniphilus buchneri&apos;, a novel clade of bacterial endocellular symbionts from weevils of the genus Curculio</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Toju</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Hosokawa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Koga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Nikoh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><forename type="middle">Y</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Kimura</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Fukatsu</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/AEM.02154-09</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="275" to="282" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Toju H, Hosokawa T, Koga R, Nikoh N, Meng XY, Kimura N, Fukatsu T. 2010 &apos;Candidatus Curculioniphilus buchneri&apos;, a novel clade of bacterial endocellular symbionts from weevils of the genus Curculio. Appl. Environ. Microbiol. 76, 275 -282. (doi:10.1128/AEM.02154-09)</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">A novel human-infection-derived bacterium provides insights into the evolutionary origins of mutualistic insect-bacterial symbioses</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">L</forename><surname>Clayton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">F</forename><surname>Oakeson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Gutin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Pontes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">M</forename><surname>Dunn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Von Niederhausern</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">B</forename><surname>Weiss</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Fisher</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Dale</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pgen.1002990</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Genet</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Clayton AL, Oakeson KF, Gutin M, Pontes A, Dunn DM, von Niederhausern AC, Weiss RB, Fisher M, Dale C. 2012 A novel human-infection-derived bacterium provides insights into the evolutionary origins of mutualistic insect-bacterial symbioses. PLoS Genet. 8, e1002990. (doi:10.1371/journal.pgen.1002990)</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Long-term evolutionary stability of bacterial endosymbiosis in Curculionoidea: additional evidence of symbiont replacement in the Dryophthoridae family</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Conord</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Despres</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Vallier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Balmand</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Miquel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Zundel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Lemperiere</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Heddi</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/molbev/msn027</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Biol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="859" to="868" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Conord C, Despres L, Vallier A, Balmand S, Miquel C, Zundel S, Lemperiere G, Heddi A. 2008 Long-term evolutionary stability of bacterial endosymbiosis in Curculionoidea: additional evidence of symbiont replacement in the Dryophthoridae family. Mol. Biol. Evol. 25, 859-868. (doi:10.1093/molbev/msn027)</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">A molecular aspect of symbiotic interactions between the weevil Sitophilus oryzae and its endosymbiotic bacteria: over-expression of a chaperonin</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Charles</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Heddi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Guillaud</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Nardon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Nardon</surname></persName>
+		</author>
+		<idno type="DOI">10.1006/bbrc.1997.7552</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Biophys. Res. Commun</title>
+		<imprint>
+			<biblScope unit="volume">239</biblScope>
+			<biblScope unit="page" from="769" to="774" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Charles H, Heddi A, Guillaud J, Nardon C, Nardon P. 1997 A molecular aspect of symbiotic interactions between the weevil Sitophilus oryzae and its endosymbiotic bacteria: over-expression of a chaperonin. Biochem. Biophys. Res. Commun. 239, 769-774. (doi:10.1006/bbrc.1997.7552)</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Massive presence of insertion sequences in the genome of SOPE, the primary endosymbiont of the rice weevil Sitophilus oryzae</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Gil</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="41" to="48" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gil R et al. 2008 Massive presence of insertion sequences in the genome of SOPE, the primary endosymbiont of the rice weevil Sitophilus oryzae. Int. Microbiol. 11, 41-48.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Genome degeneration and adaptation in a nascent stage of symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">F</forename><surname>Oakeson</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/gbe/evt210</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="76" to="93" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Oakeson KF et al. 2014 Genome degeneration and adaptation in a nascent stage of symbiosis. Genome Biol. Evol. 6, 76 -93. (doi:10.1093/gbe/evt210)</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Identification of the weevil immune genes and their expression in the bacteriome tissue</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Anselme</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Perez-Brocal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Vallier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Vincent-Monegat</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Charif</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Latorre</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Moya</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Heddi</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1741-7007-6-43</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Biol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Anselme C, Perez-Brocal V, Vallier A, Vincent- Monegat C, Charif D, Latorre A, Moya A, Heddi A. Identification of the weevil immune genes and their expression in the bacteriome tissue. BMC Biol. 6, 43. (doi:10.1186/1741-7007-6-43)</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Giant tubeworms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Bright</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Klose</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">D</forename><surname>Nussbaumer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cub.2013.01.039</idno>
+		<idno>R224 -R225. (doi:10. 1016/j.cub.2013.01.039</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Biol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bright M, Klose J, Nussbaumer AD. 2013 Giant tubeworms. Curr. Biol. 23, R224 -R225. (doi:10. 1016/j.cub.2013.01.039)</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Does plant immunity play a critical role during initiation of the legumerhizobium symbiosis? Front</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Tóth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Stacey</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fpls.2015.00401</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Sci</title>
+		<imprint>
+			<biblScope unit="volume">06</biblScope>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tóth K, Stacey G. 2015 Does plant immunity play a critical role during initiation of the legume- rhizobium symbiosis? Front. Plant Sci. 06, 1-7. (doi:10.3389/fpls.2015.00401)</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Interactions between the microbiota and the immune system</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">V</forename><surname>Hooper</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">R</forename><surname>Littman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename><surname>Macpherson</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1223490</idno>
+		<idno>doi:10. 1126/science.1223490</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">336</biblScope>
+			<biblScope unit="page" from="1268" to="1273" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hooper LV, Littman DR, Macpherson AJ. 2012 Interactions between the microbiota and the immune system. Science 336, 1268-1273. (doi:10. 1126/science.1223490)</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">rstb.royalsocietypublishing.org Phil. Trans. R. Soc. B</title>
+		<imprint>
+			<biblScope unit="volume">371</biblScope>
+			<biblScope unit="page">20150298</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">rstb.royalsocietypublishing.org Phil. Trans. R. Soc. B 371: 20150298</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Divining the essence of symbiosis: insights from the squid-vibrio model</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Mcfall-Ngai</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pbio.1001783</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Biol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McFall-Ngai M. 2014 Divining the essence of symbiosis: insights from the squid-vibrio model. PLoS Biol. 12, e1001783. (doi:10.1371/journal.pbio. 1001783)</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Molecular and cellular profiles of insect bacteriocytes: mutualism and harm at the initial evolutionary step of symbiogenesis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Heddi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Vallier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Anselme</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Xin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Rahbe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Wackers</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1462-5822.2004.00461.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="293" to="305" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Heddi A, Vallier A, Anselme C, Xin H, Rahbe Y, Wackers F. 2005 Molecular and cellular profiles of insect bacteriocytes: mutualism and harm at the initial evolutionary step of symbiogenesis. Cell Microbiol. 7, 293 -305. (doi:10.1111/j.1462-5822. 2004.00461.x)</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Host gene response to endosymbiont and pathogen in the cereal weevil Sitophilus oryzae</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Vigneron</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Charif</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Vincent-Monegat</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Vallier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Gavory</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Wincker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Heddi</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1471-2180-12-S1-S14</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note>Suppl. 1), S14.</note>
+	<note type="raw_reference">Vigneron A, Charif D, Vincent-Monegat C, Vallier A, Gavory F, Wincker P, Heddi A. 2012 Host gene response to endosymbiont and pathogen in the cereal weevil Sitophilus oryzae. BMC Microbiol. 12(Suppl. 1), S14. (doi:10.1186/1471-2180-12-S1-S14)</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Bulet</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Cociancich</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Dimarcq</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Lambert</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Reichhart</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Hetru</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+	<note>insect defensin family</note>
+	<note type="raw_reference">Bulet P, Cociancich S, Dimarcq JL, Lambert J, Reichhart JM, Hoffmann D, Hetru C, Hoffmann JA. 1991 Insect immunity: isolation from a coleopteran insect of a novel inducible antibacterial peptide and of new members of the insect defensin family.</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title/>
+		<idno type="DOI">10.1016/j.chom.2009.07.008</idno>
+		<idno>doi:10.1016/j. chom.2009.07.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">266</biblScope>
+			<biblScope unit="page" from="520" to="544" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Biol. Chem. 266, 24 520-24 525. (doi:10.1016/j. chom.2009.07.008)</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Purification, characterization and gene expression of a glycine and proline-rich antibacterial protein family from larvae of a beetle, Allomyrina dichotoma</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Sagisaka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Miyanoshita</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Ishibashi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Yamakawa</surname></persName>
+		</author>
+		<idno type="DOI">10.1046/j.0962-1075.2001.00261.x</idno>
+		<idno>doi:10. 1046/j.0962-1075.2001.00261</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Insect Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="293" to="302" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sagisaka A, Miyanoshita A, Ishibashi J, Yamakawa M. 2001 Purification, characterization and gene expression of a glycine and proline-rich antibacterial protein family from larvae of a beetle, Allomyrina dichotoma. Insect Mol. Biol. 10, 293-302. (doi:10. 1046/j.0962-1075.2001.00261.x)</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">H</forename><surname>Login</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Balmand</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Vallier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Vincent-Monégat</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Vigneron</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Weiss-Gayet</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Rochat</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Heddi</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Login FH, Balmand S, Vallier A, Vincent-Monégat C, Vigneron A, Weiss-Gayet M, Rochat D, Heddi A.</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title/>
+		<idno type="DOI">10.1126/science.1209728</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Antimicrobial peptides keep insect endosymbionts under control. Science</title>
+		<imprint>
+			<biblScope unit="volume">334</biblScope>
+			<biblScope unit="page" from="362" to="365" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Antimicrobial peptides keep insect endosymbionts under control. Science 334, 362-365. (doi:10.1126/science.1209728)</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Endocytobiote control by the host in the weevil Sitophilus oryzae</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Nardon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Nardon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Coleoptera, Curculionidae. Symbiosis</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="237" to="250" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nardon P, Nardon C. 1998 Endocytobiote control by the host in the weevil Sitophilus oryzae, Coleoptera, Curculionidae. Symbiosis 25, 237-250.</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Plant peptides govern terminal differentiation of bacteria in symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Van De Velde</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1184057</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">327</biblScope>
+			<biblScope unit="page" from="1122" to="1126" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Van de Velde W et al. 2010 Plant peptides govern terminal differentiation of bacteria in symbiosis. Science 327, 1122-1126. (doi:10.1126/science. 1184057)</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Eukaryotic control on bacterial cell cycle and differentiation in the Rhizobium-legume symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Mergaert</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0600912103</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page" from="5230" to="5235" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mergaert P et al. 2006 Eukaryotic control on bacterial cell cycle and differentiation in the Rhizobium-legume symbiosis. Proc. Natl Acad. Sci. USA 103, 5230-5235. (doi:10.1073/pnas. 0600912103)</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Insect immune system maintains long-term resident bacteria through a local response</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">H</forename><surname>Login</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Heddi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jinsphys.2012.06.015</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Insect Physiol</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="232" to="239" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Login FH, Heddi A. 2013 Insect immune system maintains long-term resident bacteria through a local response. J. Insect Physiol. 59, 232 -239. (doi:10.1016/j.jinsphys.2012.06.015)</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">A recessive mutation, immune deficiency (imd), defines two distinct control pathways in the Drosophila host defense</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Lemaitre</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Kromer-Metzger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Michaut</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nicolas</forename><forename type="middle">E</forename><surname>Meister</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Georgel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Reichhart</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.92.21.9465</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="9465" to="9469" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lemaitre B, Kromer-Metzger E, Michaut L, Nicolas E, Meister M, Georgel P, Reichhart JM, Hoffmann JA. 1995 A recessive mutation, immune deficiency (imd), defines two distinct control pathways in the Drosophila host defense. Proc. Natl Acad. Sci. USA 92, 9465-9469. (doi:10.1073/pnas.92. 21.9465)</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">The dorsoventral regulatory gene cassette spatzle/Toll/cactus controls the potent antifungal response in Drosophila adults</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Lemaitre</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nicolas</forename><forename type="middle">E</forename><surname>Michaut</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Reichhart</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/S0092-8674(00)80172-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="973" to="983" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lemaitre B, Nicolas E, Michaut L, Reichhart JM, Hoffmann JA. 1996 The dorsoventral regulatory gene cassette spatzle/Toll/cactus controls the potent antifungal response in Drosophila adults. Cell 86, 973-983. (doi:10.1016/S0092-8674(00)80172-5)</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">The host defense of Drosophila melanogaster</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Lemaitre</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev.immunol.25.022106.141615</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="697" to="743" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lemaitre B, Hoffmann J. 2007 The host defense of Drosophila melanogaster. Annu. Rev. Immunol. 25, 697 -743. (doi:10.1146/annurev.immunol.25. 022106.141615)</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Tissue-specific inducible expression of antimicrobial peptide genes in Drosophila surface epithelia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Tzou</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Ohresser</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Ferrandon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Capovilla</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Reichhart</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Lemaitre</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Imler</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S1074-7613(00)00072-8</idno>
+		<idno>doi:10.1016/ S1074-7613(00</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Immunity</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="72" to="80" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tzou P, Ohresser S, Ferrandon D, Capovilla M, Reichhart JM, Lemaitre B, Hoffmann JA, Imler JL. 2000 Tissue-specific inducible expression of antimicrobial peptide genes in Drosophila surface epithelia. Immunity 13, 737 -748. (doi:10.1016/ S1074-7613(00)00072-8)</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Systemic infection generates a local-like immune response of the bacteriome organ in insect symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Masson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Vallier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Vigneron</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Balmand</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Vincent-Monégat</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Zaidman-Rémy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Heddi</surname></persName>
+		</author>
+		<idno type="DOI">10.1159/000368928</idno>
+		<idno>doi:10. 1159/000368928</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Innate Immun</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="290" to="301" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Masson F, Vallier A, Vigneron A, Balmand S, Vincent-Monégat C, Zaidman-Rémy A, Heddi A. 2015 Systemic infection generates a local-like immune response of the bacteriome organ in insect symbiosis. J. Innate Immun. 7, 290-301. (doi:10. 1159/000368928)</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Gene expression analysis of the endosymbiont-bearing midgut tissue during ontogeny of the carpenter ant Camponotus floridanus</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Ratzka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Gross</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Feldhaar</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jinsphys.2013.03.011</idno>
+		<idno>doi:10. 1016/j.jinsphys.2013.03.011</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Insect Physiol</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="611" to="623" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ratzka C, Gross R, Feldhaar H. 2013 Gene expression analysis of the endosymbiont-bearing midgut tissue during ontogeny of the carpenter ant Camponotus floridanus. J. Insect Physiol. 59, 611 -623. (doi:10. 1016/j.jinsphys.2013.03.011)</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">The Drosophila amidase PGRP-LB modulates the immune response to bacterial infection</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Zaidman-Rémy</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.immuni.2006.02.012</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Immunity</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="463" to="473" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zaidman-Rémy A et al. 2006 The Drosophila amidase PGRP-LB modulates the immune response to bacterial infection. Immunity 24, 463 -473. (doi:10.1016/j.immuni.2006.02.012)</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Downregulation of the Drosophila immune response by peptidoglycan-recognition proteins SC1 and SC2</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Bischoff</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Vignal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Duvic</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><forename type="middle">G</forename><surname>Boneca</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Royet</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.ppat.0020014</idno>
+		<idno>doi:10. 1371/journal.ppat.0020014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Pathog</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">14</biblScope>
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bischoff V, Vignal C, Duvic B, Boneca IG, Hoffmann JA, Royet J. 2006 Downregulation of the Drosophila immune response by peptidoglycan-recognition proteins SC1 and SC2. PLoS Pathog. 2, e14. (doi:10. 1371/journal.ppat.0020014)</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Negative regulation by amidase PGRPs shapes the Drosophila antibacterial response and protects the fly from innocuous infection</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Paredes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">P</forename><surname>Welchman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Poidevin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Lemaitre</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.immuni.2011.09.018</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Immunity</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="770" to="779" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Paredes JC, Welchman DP, Poidevin M, Lemaitre B. 2011 Negative regulation by amidase PGRPs shapes the Drosophila antibacterial response and protects the fly from innocuous infection. Immunity 35, 770 -779. (doi:10.1016/j.immuni.2011.09.018)</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Pirk is a negative regulator of the Drosophila Imd pathway</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Kleino</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Myllymaki</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Kallio</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">M</forename><surname>Vanha-Aho</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Oksanen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Ulvila</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Hultmark</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Valanne</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Ramet</surname></persName>
+		</author>
+		<idno type="DOI">10.4049/jimmunol.180.8.5413</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">180</biblScope>
+			<biblScope unit="page" from="5413" to="5422" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kleino A, Myllymaki H, Kallio J, Vanha-aho LM, Oksanen K, Ulvila J, Hultmark D, Valanne S, Ramet M. 2008 Pirk is a negative regulator of the Drosophila Imd pathway. J. Immunol. 180, 5413 -5422. (doi:10.4049/jimmunol.180.8.5413)</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">PIMS modulates immune tolerance by negatively regulating Drosophila innate immune signaling</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Lhocine</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.chom.2008.07.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Host Microbe</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="147" to="158" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lhocine N et al. 2008 PIMS modulates immune tolerance by negatively regulating Drosophila innate immune signaling. Cell Host Microbe 4, 147-158. (doi:10.1016/j.chom.2008.07.004)</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Innate immune homeostasis by the homeobox gene caudal and commensal-gut mutualism in Drosophila</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">H</forename><surname>Ryu</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1149357</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">319</biblScope>
+			<biblScope unit="page" from="777" to="782" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ryu JH et al. 2008 Innate immune homeostasis by the homeobox gene caudal and commensal-gut mutualism in Drosophila. Science 319, 777-782. (doi:10.1126/science.1149357)</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">The chromatin regulator DMAP1 modulates activity of the nuclear factor kB (NF-kB) transcription factor relish in the Drosophila innate immune response</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Goto</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Fukuyama</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J-L</forename><surname>Imler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.C114.553719</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">289</biblScope>
+			<biblScope unit="page" from="470" to="490" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Goto A, Fukuyama H, Imler J-L, Hoffmann JA. 2014 The chromatin regulator DMAP1 modulates activity of the nuclear factor kB (NF-kB) transcription factor relish in the Drosophila innate immune response. J. Biol. Chem. 289, 470-20 476. (doi:10.1074/jbc.C114.553719)</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Variable patterns of total DNA and rDNA methylation in animals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">P</forename><surname>Bird</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">H</forename><surname>Taggart</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/8.7.1485</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1485" to="1497" />
+			<date type="published" when="1980" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bird AP, Taggart MH. 1980 Variable patterns of total DNA and rDNA methylation in animals. Nucleic Acids Res. 8, 1485-1497. (doi:10.1093/nar/8.7.1485)</note>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Role for DNA methylation in genomic imprinting</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Beard</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Jaenisch</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/366362a0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">366</biblScope>
+			<biblScope unit="page" from="362" to="365" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li E, Beard C, Jaenisch R. 1993 Role for DNA methylation in genomic imprinting. Nature 366, 362 -365. (doi:10.1038/366362a0)</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Evidence for widespread genomic methylation in the migratory locust, Locusta migratoria (Orthoptera: Acrididae)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">L</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Tohidi-Esfahani</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Lo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">J</forename><surname>Simpson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">A</forename><surname>Sword</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0028167</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Robinson KL, Tohidi-Esfahani D, Lo N, Simpson SJ, Sword GA. 2011 Evidence for widespread genomic methylation in the migratory locust, Locusta migratoria (Orthoptera: Acrididae). PLoS ONE 6, e28167. (doi:10.1371/journal.pone.0028167)</note>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">First evidence of DNA methylation in insect Tribolium castaneum: environmental regulation of DNA methylation within heterochromatin</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Feliciello</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Parazajder</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Akrap</surname></persName>
+		</author>
+		<idno type="DOI">10.4161/epi.24507</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Epigenetics</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="534" to="541" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Feliciello I, Parazajder J, Akrap I. 2013 First evidence of DNA methylation in insect Tribolium castaneum: environmental regulation of DNA methylation within heterochromatin. Epigenetics 8, 534 -541. (doi:10.4161/epi.24507)</note>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Chromatin modifications and their function</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Kouzarides</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cell.2007.02.005</idno>
+		<idno>doi:10.1016/j. cell.2007.02.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="page" from="693" to="705" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kouzarides T. 2007 Chromatin modifications and their function. Cell 128, 693 -705. (doi:10.1016/j. cell.2007.02.005)</note>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Cellular mechanism for targeting heterochromatin formation in Drosophila</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Eissenberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Reuter</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S1937-6448(08)01801-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. Rev. Cell Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">273</biblScope>
+			<biblScope unit="page" from="1" to="47" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Eissenberg JC, Reuter G. 2009 Cellular mechanism for targeting heterochromatin formation in Drosophila. Int. Rev. Cell Mol. Biol. 273, 1 -47. (doi:10.1016/S1937-6448(08)01801-7)</note>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Epigenetic marks for chromosome imprinting during spermatogenesis in coccids</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Bongiorni</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Pugnali</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Volpi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Bizzaro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">B</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Prantera</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00412-009-0214-8</idno>
+		<idno>doi:10.1007/ s00412-009-0214-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chromosoma</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="501" to="512" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bongiorni S, Pugnali M, Volpi S, Bizzaro D, Singh PB, Prantera G. 2009 Epigenetic marks for chromosome imprinting during spermatogenesis in coccids. Chromosoma 118, 501-512. (doi:10.1007/ s00412-009-0214-8)</note>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Insects recycle endosymbionts when the benefit is over</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Vigneron</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cub.2014.07.065</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Biol</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="2267" to="2273" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vigneron A et al. 2014 Insects recycle endosymbionts when the benefit is over. Curr. Biol. 24, 2267-2273. (doi:10.1016/j.cub.2014. 07.065)</note>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">La symbiose chez le genre Sitophilus (Coléoptère, Curculionidae)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Nardon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Wicker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Biol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="327" to="373" />
+			<date type="published" when="1981" />
+		</imprint>
+	</monogr>
+	<note>Principaux aspects morphologiques, physiologiques et génétiques</note>
+	<note type="raw_reference">Nardon P, Wicker C. 1981 La symbiose chez le genre Sitophilus (Coléoptère, Curculionidae). Principaux aspects morphologiques, physiologiques et génétiques. Ann. Biol. 20, 327 -373.</note>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Weevil endosymbiont dynamics is associated with a clamping of immunity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Masson</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12864-015-2048-5</idno>
+		<idno>doi:10.1186/ s12864-015-2048-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genomics</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Masson F et al. 2015 Weevil endosymbiont dynamics is associated with a clamping of immunity. BMC Genomics 16, 819. (doi:10.1186/ s12864-015-2048-5)</note>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Changing partners in an obligate symbiosis: a facultative endosymbiont can compensate for loss of the essential endosymbiont Buchnera in an aphid</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Koga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Tsuchida</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Fukatsu</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rspb.2003.2537</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. R. Soc. B</title>
+		<imprint>
+			<biblScope unit="volume">270</biblScope>
+			<biblScope unit="page" from="2543" to="2550" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Koga R, Tsuchida T, Fukatsu T. 2003 Changing partners in an obligate symbiosis: a facultative endosymbiont can compensate for loss of the essential endosymbiont Buchnera in an aphid. Proc. R. Soc. B 270, 2543-2550. (doi:10.1098/rspb. 2003.2537)</note>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Rickettsia symbiont in the pea aphid Acyrthosiphon pisum: novel cellular tropism, effect on host fitness, and interaction with the essential symbiont Buchnera</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Sakurai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Koga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Tsuchida</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><forename type="middle">Y</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Fukatsu</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/AEM.71.7.4069-4075.2005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="4069" to="4075" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sakurai M, Koga R, Tsuchida T, Meng XY, Fukatsu T. Rickettsia symbiont in the pea aphid Acyrthosiphon pisum: novel cellular tropism, effect on host fitness, and interaction with the essential symbiont Buchnera. Appl. Environ. Microbiol. 71, 4069-4075. (doi:10.1128/AEM.71.7.4069- 4075.2005)</note>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Bacteriocyte dynamics during development of a holometabolous insect, the carpenter ant Camponotus floridanus</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Stoll</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Feldhaar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Fraunholz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Gross</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1471-2180-10-308</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stoll S, Feldhaar H, Fraunholz MJ, Gross R. 2010 Bacteriocyte dynamics during development of a holometabolous insect, the carpenter ant Camponotus floridanus. BMC Microbiol. 10, 308. (doi:10.1186/1471-2180-10-308)</note>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Infection dynamics of coexisting beta-and gammaproteobacteria in the nested endosymbiotic system of mealybugs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Kono</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Koga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Shimada</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Fukatsu</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/AEM.00250-08</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="4175" to="4184" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kono M, Koga R, Shimada M, Fukatsu T. 2008 Infection dynamics of coexisting beta-and gammaproteobacteria in the nested endosymbiotic system of mealybugs. Appl. Environ. Microbiol. 74, 4175-4184. (doi:10.1128/AEM.00250-08)</note>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Levine</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Mizushima</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">W</forename><surname>Virgin</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Levine B, Mizushima N, Virgin HW. 2011</note>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Autophagy in immunity and inflammation</title>
+		<idno type="DOI">10.1038/nature09782</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">469</biblScope>
+			<biblScope unit="page" from="323" to="335" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Autophagy in immunity and inflammation. Nature 469, 323-335. (doi:10.1038/nature09782)</note>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Autophagy: molecular machinery for self-eating</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Yorimitsu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Klionsky</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/sj.cdd.4401765</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Death Differ</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1542" to="1552" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note>Suppl. 2</note>
+	<note type="raw_reference">Yorimitsu T, Klionsky DJ. 2005 Autophagy: molecular machinery for self-eating. Cell Death Differ. 12(Suppl. 2), 1542-1552. (doi:10.1038/sj. cdd.4401765)</note>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Autophagic control of Listeria through intracellular innate immune recognition in Drosophila</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Yano</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ni.1634</idno>
+		<idno>doi:10. 1038/ni.1634</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="908" to="916" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yano T et al. 2008 Autophagic control of Listeria through intracellular innate immune recognition in Drosophila. Nat. Immunol. 9, 908-916. (doi:10. 1038/ni.1634)</note>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">High virulence of Wolbachia after host switching: when autophagy hurts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Le</forename><surname>Clec</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">'</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Braquart-Varnier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Raimond</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Ferdy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J-B</forename><surname>Bouchon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Sicard</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.ppat.1002844</idno>
+		<idno>doi:10.1371/ journal.ppat.1002844</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Pathog</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Le Clec&apos;h W, Braquart-Varnier C, Raimond M, Ferdy J-B, Bouchon D, Sicard M. 2012 High virulence of Wolbachia after host switching: when autophagy hurts. PLoS Pathog. 8, e1002844. (doi:10.1371/ journal.ppat.1002844)</note>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Autophagy regulates Wolbachia populations across diverse symbiotic associations</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Voronin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dan</forename><surname>Cook</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Steven</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Taylor</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1203519109</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page" from="1638" to="1646" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Voronin D, Cook DAN, Steven A, Taylor MJ. 2012 Autophagy regulates Wolbachia populations across diverse symbiotic associations. Proc. Natl Acad. Sci. USA 109, E1638-E1646. (doi:10.1073/pnas.1203519109)</note>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Apoptosis and autophagy as mechanisms of dinoflagellate symbiont release during cnidarian bleaching: every which way you lose</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Dunn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">E</forename><surname>Schnitzler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">M</forename><surname>Weis</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rspb.2007.0711</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. R. Soc. B</title>
+		<imprint>
+			<biblScope unit="volume">274</biblScope>
+			<biblScope unit="page" from="3079" to="3085" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dunn SR, Schnitzler CE, Weis VM. Apoptosis and autophagy as mechanisms of dinoflagellate symbiont release during cnidarian bleaching: every which way you lose. Proc. R. Soc. B 274, 3079-3085. (doi:10.1098/rspb.2007.0711)</note>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">Apoptosis as a postphagocytic winnowing mechanism in a coraldinoflagellate mutualism</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Dunn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">M</forename><surname>Weis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Klionsky</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S1534-5807(03)00296-X</idno>
+		<idno>doi:10.1016/S1534-5807(03</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">296</biblScope>
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note>Dev. Cell</note>
+	<note type="raw_reference">Dunn SR, Weis VM. 2009 Apoptosis as a post- phagocytic winnowing mechanism in a coral- dinoflagellate mutualism. Environ. Microbiol. 11, 268 -276. (doi:10.1111/j.1462-2920.2008.01774.x) 79. Klionsky DJ et al. 2003 A unified nomenclature for yeast autophagy-related genes. Dev. Cell 5, 539 -545. (doi:10.1016/S1534-5807(03) 00296-X)</note>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Insect cuticular sclerotization: a review</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">O</forename><surname>Andersen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ibmb.2009.10.007</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Insect Biochem. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="166" to="178" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Andersen SO. 2010 Insect cuticular sclerotization: a review. Insect Biochem. Mol. Biol. 40, 166-178. (doi:10.1016/j.ibmb.2009.10.007)</note>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">L&apos;infection chez les insectes: immunité et symbiose</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Paillot</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Patissier. rstb.royalsocietypublishing.org Phil. Trans. R. Soc. B</title>
+		<imprint>
+			<biblScope unit="volume">371</biblScope>
+			<biblScope unit="page">20150298</biblScope>
+			<date type="published" when="1933" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Paillot A. 1933 L&apos;infection chez les insectes: immunité et symbiose. Paris, France: Patissier. rstb.royalsocietypublishing.org Phil. Trans. R. Soc. B 371: 20150298</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

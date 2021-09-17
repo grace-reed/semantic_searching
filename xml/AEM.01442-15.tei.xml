@@ -1,0 +1,1812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/grace/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Host as the Driver of the Microbiota in the Gut and External Environment of Drosophila melanogaster</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">-N</forename><surname>Wong</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yuan</forename><surname>Luo</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xiangfeng</forename><surname>Jing</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Soeren</forename><surname>Franzenburg</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alyssa</forename><surname>Bost</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Angela</forename><forename type="middle">E</forename><surname>Douglas</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Cornell University</orgName>
+								<address>
+									<settlement>Ithaca</settlement>
+									<region>New York</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Entomology a and Department of Molecular Biology and Genetics</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Division of Infectious Diseases, Boston Children&apos;s Hospital</orgName>
+								<orgName type="department" key="dep2">Harvard Medical School</orgName>
+								<address>
+									<settlement>Boston</settlement>
+									<region>Massachusetts</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The Host as the Driver of the Microbiota in the Gut and External Environment of Drosophila melanogaster</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1128/AEM.01442-15</idno>
+					<note type="submission">Received 1 May 2015 Accepted 26 June 2015 Accepted manuscript posted online 6 July 2015</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-09-14T02:39+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>Most associations between animals and their gut microbiota are dynamic, involving sustained transfer of food-associated microbial cells into the gut and shedding of microorganisms into the external environment with feces, but the interacting effects of host and microbial factors on the composition of the internal and external microbial communities are poorly understood. This study on laboratory cultures of the fruit fly Drosophila melanogaster reared in continuous contact with their food revealed timedependent changes of the microbial communities in the food that were strongly influenced by the presence and abundance of Drosophila. When germfree Drosophila eggs were aseptically added to nonsterile food, the microbiota in the food and flies converged to a composition dramatically different from that in fly-free food, showing that Drosophila has microbiota-independent effects on the food microbiota. The microbiota in both the flies that developed from unmanipulated eggs (bearing microorganisms) and the associated food was dominated by the bacteria most abundant on the eggs, demonstrating effective vertical transmission via surface contamination of eggs. Food coinoculated with a four-species defined bacterial community of Acetobacter and Lactobacillus species revealed the progressive elimination of Lactobacillus from the food bearing few or no Drosophila, indicating the presence of antagonistic interactions between Acetobacter and Lactobacillus. Drosophila at high densities ameliorated the Acetobacter/Lactobacillus antagonism, enabling Lactobacillus to persist. This study with Drosophila demonstrates how animals can have major, coordinated effects on the composition of microbial communities in the gut and immediate environment.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>F rom a microbiological perspective, an animal is a transient, nutrient-rich patch. The capacity of various microorganisms to exploit the animal habitat involves multiple traits, including mechanisms that evade or modulate the animal immune system <ref type="bibr" target="#b0">(1)</ref><ref type="bibr" target="#b1">(2)</ref><ref type="bibr" target="#b2">(3)</ref> and metabolic adaptations to utilize host resources <ref type="bibr" target="#b3">(4,</ref><ref type="bibr" target="#b4">5)</ref>. Animal-associated microorganisms include pathogens, whose fitness is coupled to host disease and debility, and beneficial forms that variously contribute nutrients, confer protection, and deliver effectors that promote host performance <ref type="bibr" target="#b5">(6)</ref>. Consequently, the composition of animal-associated microorganisms is an important determinant of animal fitness.</p><p>Many animal-microbe associations are open systems, meaning that external microorganisms have access to the host habitat and members of the host microbiota are released back to the external environment via feces, sloughed skin, fluid secretions, etc. <ref type="bibr" target="#b6">(7)</ref>. Open symbioses can be invaded by external microorganisms that are compatible with the host and are competitive with resident microbiota. As a result, the host is potentially more exposed to parasites and cheats than in a closed system but also has an enhanced capacity to modify the composition of its microbiota adaptively to changes in environmental circumstances <ref type="bibr" target="#b7">(8,</ref><ref type="bibr" target="#b8">9)</ref>. The shedding of microbial cells from hosts can alter the composition and functional traits of the microbial communities in the immediate environment, provide a source of compatible microbial inocula for other host individuals, including progeny, and promote dispersal of animal-associated microorganisms <ref type="bibr" target="#b9">(10)</ref><ref type="bibr" target="#b10">(11)</ref><ref type="bibr" target="#b11">(12)</ref><ref type="bibr" target="#b12">(13)</ref>. These multiple studies indicate that the microbial communities in the external environment can both influence, and be influenced by, the microbiota in animals, but the scale of these reciprocal effects is largely unknown.</p><p>The purpose of this study was to identify the driver(s) of the microbial community composition in the linked host and external environment of an open symbiosis. The experiments were conducted on the association between Drosophila melanogaster fruit flies and their gut microbiota. Natural populations of D. melanogaster consume microorganisms associated with rotting fruit, including various yeasts and bacteria of the Acetobacteraceae and Lactobacillales taxa, and the flies mediate the dispersal of the bacteria via their feces <ref type="bibr" target="#b13">(14)</ref><ref type="bibr" target="#b14">(15)</ref><ref type="bibr" target="#b15">(16)</ref><ref type="bibr" target="#b16">(17)</ref>. In laboratory culture, all life stages of Drosophila (eggs, larvae, pupae, and adults) are cohoused in vials of agar-based food, enabling precise quantification and manipulation of the microorganisms that cycle between the food and the Drosophila hosts <ref type="bibr" target="#b17">(18)</ref><ref type="bibr" target="#b18">(19)</ref><ref type="bibr" target="#b20">(20)</ref><ref type="bibr" target="#b21">(21)</ref>.</p><p>The specific goal of this study was to determine how the abundance and composition of the microbiota are influenced by, first, microbial interactions with the food and with Drosophila and, second, microbe-microbe interactions. Our experiments compared the composition of the bacterial communities in the two habitats (flies and food) over the course of fly development and used Drosophila organisms colonized with defined sets of bacteria to investigate the processes by which the microbial community in one habitat can alter the community composition of the other habitat.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MATERIALS AND METHODS</head><p>Flies and bacteria. Wolbachia-free Drosophila melanogaster strain Canton S was maintained at 25°C under a 12-h:12-h light:dark cycle on yeastglucose food obtained from the Cornell Drosophila Media Kitchen, comprising 100 g glucose liter Ϫ1 (Sigma, St. Louis, MO, USA), 100 g liter Ϫ1 inactive yeast (MP Biomedicals, Santa Ana, CA, USA), 12 g agar liter Ϫ1 (MP Biomedicals), and preservatives (0.04% phosphoric acid, 0.42% propionic acid; Sigma).</p><p>Experiments were initiated with eggs deposited overnight by mated females. Conventional Drosophila flies were derived from unmanipulated eggs rinsed briefly in sterile water. Axenic Drosophila flies were obtained by dechorionating eggs in 0.6% sodium hypochlorite, as described previously <ref type="bibr" target="#b22">(22)</ref>; the bacteria-free condition of dechorionated eggs was confirmed by negative results of PCR amplification with general bacterial primers and the absence of bacterial growth from eggs transferred to standard medium (methods described below). Gnotobiotic Drosophila flies were generated by adding dechorionated eggs to each vial of food, followed by 50 l bacterial suspension at 10 8 cells ml Ϫ1 (5 ϫ 10 6 cells per vial). The administered bacteria were clonal isolates of Acetobacter pomorum DmelCS_004, Acetobater tropicalis DmelCS_006, Lactobacillus brevis DmelCS_003, and Lactobacillus plantarum DmelCS_001, derived originally from guts of D. melanogaster Canton S flies <ref type="bibr" target="#b21">(21)</ref> and grown overnight at 30°C in liquid modified MRS (MMRS) medium containing the following ingredients (from Sigma, unless stated otherwise): 1.25% vegetable peptone (Becton Dickinson), 0.75% yeast extract, 2% glucose, 0.5% sodium acetate, 0.2% dipotassium hydrogen phosphate, 0.2% triammonium citrate, 0.02% magnesium sulfate heptahydrate, 0.005% manganese sulfate tetrahydrate, 1.2% agar (Apex). The bacteria were administered to the dechorionated eggs either individually at 5 ϫ 10 6 cells per vial or as a four-species inoculum, with each bacterial species provided at 1.25 ϫ 10 6 cells per vial.</p><p>The experiments that included food sampling were conducted using flat-bottomed vials (2-cm internal diameter by 9-cm height) containing 7.5 g of food. Each food sample was collected into a sterile 1-ml pipette tip and then expelled into a previously weighed, sterile 1.5-ml centrifuge tube, which was then reweighed to obtain the weight of the food sample. A single sample was taken per vial: either a "surface sample" taken across the top 1 to 2 mm of the food or a "core sample" obtained by inserting the tip vertically to the bottom of the vial. All fly samples used for bacterial quantification by pyrosequencing, quantitative PCR (qPCR), and CFU counts were rinsed with sterile phosphate-buffered saline (PBS) prior to analysis.</p><p>Pyrosequencing analyses. DNA was extracted from each Drosophila fly, food sample, and environmental sample (swabs of fly incubator), along with a reagent-only control, by the salting-out method <ref type="bibr" target="#b23">(23,</ref><ref type="bibr" target="#b24">24)</ref>. 16S rRNA gene amplicons were prepared using the general primer pair 27F-338R tagged with different multiplex identifiers (MIDs) ( <ref type="table" target="#tab_1">Table 1)</ref>, as previously described <ref type="bibr" target="#b21">(21,</ref><ref type="bibr" target="#b24">24)</ref>. Equal amounts (in nanogram quantities) of triplicate PCR products were mixed and purified using the QIAquick PCR purification kit (Qiagen, Valencia, CA, USA), followed by quantification using PicoGreen. Emulsion PCR was conducted at 1.5 copies per bead using only the "A" beads for unidirectional 454 GS-FLX pyrosequencing with standard titanium chemistry.</p><p>Pyrosequencing flowgrams were analyzed using QIIME 1.7.0 virtualbox software, as described in reference 21, with default parameters <ref type="bibr" target="#b25">(25)</ref>, except the denoising cutoff was set to remove singletons. Taxonomy assignment of the operational taxonomic units (OTUs) clustered at 97% identity was conducted based on phylum-to-genus identities obtained by using the RDP classifier in QIIME trained on the Greengene reference database (May 2013), with additional information on species identities of the OTUs derived from NCBI StandAlone BLAST (the megaBLAST program is available at www.ncbi.nlm.nih.gov/blast/html/megablast.html), using the 16S rRNA gene microbial database (March 2015), which also provides the percent sequence identity to the top hit, confidence bit score, and E value. Supplementary manual curation was applied that removed a single OTU annotated as chloroplasts and to correct species identities of a few OTUs guided by data obtained from full-length 16S rRNA gene sequences in previous studies (see footnotes for <ref type="table" target="#tab_1">Table S1</ref> in the supplemental material). OTUs with fewer reads than in the reagent-only control were excluded. To minimize inflation of diversity due to sequencing errors, the presence of artifactual OTUs that can be explained by sequencing errors was assessed by a modified version of the Poisson probability method used previously <ref type="bibr" target="#b26">(26)</ref>. Briefly, the Poisson probabilities (PPois) for the occurrence of a single artifactual read at different sequence percent identities were calculated for each biological sample, based on a sequencing error rate of 1.07% <ref type="bibr" target="#b27">(27)</ref>. The probability of a minor OTU arising from sequencing errors was determined by normalizing the PPois to the power of the read number of that OTU in a given biological sample (PPois read number of the OTU in the sample). OTUs classified as artifacts were pooled with major OTUs with the same BLAST top hit. Principal coordinates analysis (PCoA) plots of the bacterial communities were created with jackknifing (rarified to the lowest number of sequences) to avoid bias due to uneven read numbers across samples.The pyrosequence reads have been submitted to the NCBI Short Read Archive under accession number SRP049034.</p><p>qPCR analysis. For estimation of the 16S rRNA gene abundance in the pyrosequenced samples, amplifications of each sample of extracted DNA were performed with general bacterial primers ( <ref type="table" target="#tab_2">Table 2</ref>). The reaction mix comprised 10 l Power SYBR green PCR master mix (Applied Biosystems), 2 l 10 M primers, and precisely 25 ng DNA template in a 20-l volume, with reagent-only samples as negative controls. Amplifications were conducted in a C1000 thermal cycler (Bio-Rad) with the following thermal profile: 95°C for 5 min, <ref type="bibr" target="#b40">40</ref>  The same qPCR protocol was used to quantify the abundance of individual bacteria in the gnotobiotic flies, but species-specific 16S rRNA gene bacterial primers were used and the Drosophila gapdh gene was used for normalization to the host <ref type="table" target="#tab_2">(Table 2)</ref>; modification of the thermal cycle to include a 54°C-to-57°C gradient (see melting temperature [T m ] data in <ref type="table" target="#tab_2">Table 2</ref>) for 30 s in the amplification step. The dissociation curve confirmed that every reaction mixture yielded a single PCR product with the predicted T m . To determine the relative abundance of each bacterial species, we first corrected for primer efficiencies by using the following formula:</p><formula xml:id="formula_0">C T(corrected) ϭ C T(measured) ϫ [log(E measured )/log(E optimum )]</formula><p>, where E denotes the primer efficiency (optimum ϭ 2). The mean C T values of technical duplicates were determined and used to obtain log 2 fold differences, as follows: ⌬C T ϭ C T(bacterium-specific primer) Ϫ C T(reference gene) . Values were transformed to the linear scale, and relative abundances of bacterial species were calculated.</p><p>Enumeration of CFU. Samples of food and Drosophila (for details of the methods used for sampling, see the supplemental material) were homogenized in MMRS medium and plated onto duplicate plates of MMRS agar with a WASP-2 instrument (Microbiology International). The plates were either supplemented with 10 g ampicillin ml Ϫ1 or incubated in a CO 2 atmosphere, for the selective growth of Acetobacter and Lactobacillus, respectively <ref type="bibr" target="#b20">(20)</ref>. CFU were counted with the Protocol 3 colony counter (Microbiology International). Any plates that bore colonies which did not conform to the morphology of Acetobacter or Lactobacillus (small, tan colonies and white colonies, respectively, as described previously <ref type="bibr" target="#b22">[22]</ref>) were discarded.</p><p>Experimental designs. To investigate the relationship between the composition of the microbiota associated with Drosophila flies and their food, two replicate vials of nonsterile food were inoculated with 20 unmanipulated eggs or 20 dechorionated eggs, with two egg-free vials as control, and maintained in the fly chamber to day 16, when the Drosophila were 5-to 6-day-old adults. The following samples were collected for pyrosequencing: one sample of unmanipulated eggs on day 0, one surface sample of food from each vial on both day 0 (pre-egg inoculation) and day 16, one sample of adult flies from each vial previously inoculated with eggs on day 16 (pools of 3 males and 3 females), and two environmental samples (swabs of the incubator in which the flies were raised) placed in PBS buffer on day 16. The data are displayed for a single experiment because the composition of the bacteria in nonsterile food and flies varies over the time scale of months <ref type="bibr">(16, 21;</ref> unpublished data), confounding attempts to combine results from experiments conducted on different occasions.</p><p>Subsequent experiments used gnotobiotic flies raised on medium containing cultured bacteria (Acetobacter pomorum, A. tropicalis, Lactobacillus brevis, and L. plantarum) previously isolated from Drosophila guts <ref type="bibr" target="#b22">(22)</ref> to investigate the bacterial abundance and community composition in the food and Drosophila flies. An additional bacterium, L. fructivorans, used in our previous research (20), was not included because its low growth rate precluded quantification of CFU in the presence of the other bacteria <ref type="bibr" target="#b20">(20,</ref><ref type="bibr" target="#b22">22)</ref>.</p><p>To determine the density of bacteria in the surface and core samples of the food, 10 vials of sterile food were seeded with the four-species inoculum, and 30 dechorionated eggs were aseptically added to half of these vials. A surface sample and core sample were taken from 5 vials with Drosophila (ϩD) and 5 Drosophila-free (no-D) vials at day 16 (5-to 6-day-old adult flies).</p><p>To quantify the impact of Drosophila density on bacterial communities in the food, 10 replicate vials were inoculated with 0, 10, 30, or 60 dechorionated eggs, and the CFU of Acetobacter and Lactobacillus in surface food samples were determined on day <ref type="bibr" target="#b15">16</ref>. In parallel, one sample of 5 male flies was collected from each of the 10 vials in which 30 eggs had been administered, for parallel quantification of bacteria by CFU and qPCR analysis.</p><p>The final experiment determined the impact of Drosophila and Aceto- </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head><p>The source of bacteria in Drosophila. The food vial is the habitat for laboratory cultures of Drosophila. To elucidate the contribution of microorganisms to the fly microbiota from the food, the environment (i.e., the fly incubator), and the eggshell, we determined the bacterial communities in 6 replicate vials of food by pyrosequencing 16S rRNA gene amplicons and then added either unmanipulated or dechorionated (i.e., germfree) eggs to two of the vials, leaving two vials Drosophila-free. Sixteen days later, we redetermined the bacteria in the 6 vials. We also assayed unmanipulated eggs on day 0 and environmental samples and the Drosophila flies at 5 to 6 days posteclosion, i.e., on day 16.</p><p>The three sources of bacteria (food, environment, and unmanipulated Drosophila eggshells) yielded 535 OTUs, but only 11 were detected in all three sources ( <ref type="figure" target="#fig_0">Fig. 1A</ref>; see also Tables S1 and S2 in the supplemental material). Acetobacter and Lactobacillus species accounted for the majority of the Drosophila egg microbiota (Ͼ89% of reads) but Ͻ1% of the reads in the fly-free food samples prior to adding the Drosophila eggs (i.e., vials 1 to 4 on day 0) and 7 to 8% of the environmental samples. The fly-free food samples were dominated by various Bacilli (but not Lactobacillus) and Moraxellaceae (Gammaproteobacteria). The environmental samples comprised mainly Gammaproteobacteria, most notably Xanthomonadales, which constituted Ͼ50% of the reads, as well as Burkholderiales (see <ref type="table" target="#tab_1">Table S1</ref>).</p><p>The microbiota of flies from unmanipulated eggs was dominated by three species of Acetobacter (A.aceti, A. malorum/tropicalis, and A. pomorum/pasteurianus), which accounted for Ͼ95% of the reads <ref type="figure" target="#fig_0">(Fig. 1B)</ref>. As illustrated in the weighted principal coordinates plot <ref type="figure" target="#fig_0">(Fig. 1C)</ref>, the microbiota in flies from the unmanipulated eggs generally resembled the egg microbiota. Although these flies also possessed some OTUs also present in the fly-free food on day 0 (99/244 OTUs), the environment (4/244 OTUs), or both (19/244 OTUs), these taxa collectively accounted for Ͻ6% of the total reads in the fly samples. Overall, the mean weighted UniFrac distance between the bacterial communities in these flies and the eggs was 0.09, and that between the flies and food on day 0 was 0.32 (see <ref type="table">Table S3</ref> in the supplemental material). These findings indicate that the microbiota of Drosophila is derived predominantly from the microbiota associated with eggs in our laboratory system. Reinforcing this conclusion, we have consistently failed to isolate Acetobacter from food vials that have not been exposed to Drosophila (unpublished data). Furthermore, the bacterial communities in the food bearing these flies shifted, between day 0 and day 16, to closely match the bacterial composition in the flies (UniFrac distance 0.02 to 0.03) (see <ref type="table">Table S3</ref>).</p><p>The results for the vials administered unmanipulated eggs demonstrated the transmission of bacteria associated with the eggs to the next generation of flies, but they did not discriminate whether or how microbiota-independent traits of Drosophila may contribute to the change in microbiota composition in the food between day 0 and day 16. This issue was addressed by the other treatments: if the composition of the microbiota were influenced by the Drosophila, the microbiota would be predicted to differ between Drosophila-free vials and vials administered dechorionated eggs (i.e., Drosophila but no microorganisms). The Drosophila reared from dechorionated eggs bore a microbiota of higher diversity than those from unmanipulated eggs (see <ref type="table" target="#tab_2">Table S2</ref> in the supplemental material) that included various bacterial taxa, e.g.,  Actinobacteria, Sphingomonas, and Burkholderia <ref type="figure" target="#fig_0">(Fig. 1)</ref>, of low abundance in the fly-free food. Furthermore, the microbiota in the food differed between the Drosophila-free vials and the vials bearing Drosophila flies from dechorionated eggs. Specifically, the relative abundance of reads assigned to Bacilli in the food at day 0 (52 to 73% abundance) was sustained with the no-egg treatment at day 16, but much diminished (6% and 26%) in the presence of Drosophila flies from dechorionated eggs, being replaced by bacterial communities similar to that in the flies <ref type="figure" target="#fig_0">(Fig. 1B)</ref>. Overall, the composition of the food microbiota at day 16 containing flies raised from dechorionated eggs was similar to that of the flies in these vials, whereas the bacterial communities in the Drosophilafree vials underwent little change (the UniFrac distance between the food on day 0 and day 16 was 0.29 and 0.33 in vials administered dechorionated eggs and 0.13 and 0.16 in the Drosophila-free vials).</p><p>The pyrosequence analysis was conducted on 16S rRNA gene amplicons generated with total DNA as the template, and consequently the absolute abundance of the bacteria identified in the various samples is unknown. As a complementary analysis, the abundance of the bacterial 16S rRNA gene in the samples was quantified by qPCR using general 16S rRNA gene primers with the same amount of template DNA per sample (see <ref type="table">Table S4</ref> in the supplemental material). The C T values for fly samples from dechorionated eggs and unmanipulated eggs (mean values of 17.04 and 16.21, respectively) differed by less than one unit, confirming that the flies in the two treatments support bacterial communities of broadly equivalent magnitudes.</p><p>The two key conclusions from these experiments are that the composition of the microbiota associated with food is altered by the presence of Drosophila, and that the bacterial communities in the food supporting a Drosophila culture are very similar in composition to the communities in the flies. However, pyrosequence data provided no information on the traits of the various bacteria contributing amplicons (e.g., viability, capacity for population growth, etc.). To investigate the processes by which Drosophila influence the bacterial content of the food, we used flies colonized with a standardized community of four bacterial species, Acetobacter pomorum, A. tropicalis, Lactobacillus brevis, and L. plantarum. This approach enabled absolute quantification of the population size of living bacterial cells (as CFU) and excluded among-experiment variation caused by stochastic variation in microbiota composition.</p><p>The relationship between bacteria in the food and Drosophila. Flies were raised from dechorionated eggs aseptically transferred to autoclaved food that had been administered the standardized community of Acetobacter and Lactobacillus. Contrary to our previous research, in which Drosophila eggs incubated with these bacteria yielded adult flies containing similar densities of Acetobacter and Lactobacillus <ref type="bibr" target="#b20">(20)</ref>, the bacteria associated with the resultant 5-to 6-day-old flies were dominated by Acetobacter. In an analysis of flies from 10 replicate vials, the median number of Acetobacter CFU per fly was 6 ϫ 10 3 for males and 16.9 ϫ 10 3 for females, 2 orders of magnitude greater than the equivalent values for Lactobacillus (0.08 ϫ 10 3 and 0.16 ϫ 10 3 per fly, respectively). Based on parallel quantification of male fly samples from 10 replicate vials by qPCR of 16S rRNA gene sequence using speciesspecific primers, the median percent contribution of the four bacterial species (ranges in parentheses) were as follows: A. pomorum, 29.9% (9.2 to 46.2%); A. tropicalis, 69.9% (53.7 to 90.3%); L. bre-vis, 2.2% (1.2 to 3.6%); L. plantarum, 0.15% (0.05 to 0.6%), providing confirmation that Acetobacter and Lactobacillus differed in abundance in the flies and not in culturability. These results provided the opportunity to establish the processes by which the different fates of Acetobacter and Lactobacillus species are determined, as well as to investigate possible reasons for the discrepancy with our previously published results.</p><p>First, we investigated the impact of Drosophila on the bacterial populations in the food ( <ref type="figure" target="#fig_1">Fig. 2A)</ref>. At day 16, all the bacterial colonies derived from both core samples (representative of the total bacterial content of the food) and surface samples (representative of the food consumed by adult flies) could be assigned to Acetobacter, confirming the link between bacteria in the flies and food and demonstrating that the dominance of Acetobacter was not Drosophila dependent. The abundance of Acetobacter at day 16 was depressed in vials containing Drosophila (F 1,16 ϭ 10.53, P ϭ 0.005). For the core samples, which provided an estimate of the total Acetobacter content of the food in the vials, the mean Acetobacter density was significantly elevated relative to the starting inoculum (t 4 ϭ 7.23 and 4.02 for vials with and without Drosophila, respectively; P Ͻ 0.025). Supplementary analyses to determine the timing of the different fates of Acetobacter and Lactobacillus showed that Acetobacter persisted at least 15 days, but that no Lactobacillus CFU were recovered by day 10 for any vial containing Drosophila and day 11 for the Drosophila-free vials (see <ref type="figure" target="#fig_0">Fig. S1 in the supplemental material)</ref>.</p><p>Turning to the discrepancy between the abundance of Lactobacillus in this study and our previous research, we noted one difference in the protocol: this study added 30 eggs to each vial, but more eggs were used in our previous research (although the numbers were not quantified precisely). Pilot experiments with different numbers of eggs (0 to Ͼ100) recovered Lactobacillus from the food in vials administered at least 50 eggs, but not fewer eggs, suggesting that high Drosophila densities promote Lactobacillus. As a definitive test of this hypothesis, we quantified the effect of egg number (0, 10, 30, and 60 sterile eggs in 10 replicate vials) on the bacterial complement of the food. Fly survivorship did not vary with egg density, with all treatments yielding ca. 70% live flies from the eggs (Kruskall Wallis analysis, H2 ϭ 0.23, P ϭ 0.89) <ref type="figure" target="#fig_1">(Fig.  2B)</ref>. The abundance of Acetobacter in surface samples of the food varied significantly across the four classes of administered egg number (F 3,36 ϭ 20.42, P Ͻ 0.001) and was significantly depressed in vials containing Drosophila relative to vials without Drosophila <ref type="figure" target="#fig_1">(Fig. 2B)</ref>. Lactobacillus was absent from all vials administered 0, 10, or 30 eggs. Exceptionally, the vials with 60 Drosophila eggs (mean of 41 flies) supported Lactobacillus, at a mean density of 539 CFU mg of food Ϫ1 , representing 1.6% of the 32,200 CFU of Acetobacter mg Ϫ1 in the same vials (values back-transformed from logarithmic means). Supplementary experiments demonstrated that this effect was highly repeatable.</p><p>To investigate the basis of the positive effect of high Drosophila densities on Lactobacillus abundance in the food, the food was inoculated with Lactobacillus in the presence/absence of Acetobacter and Drosophila eggs at densities that yielded 43.2 Ϯ 2.90 (mean Ϯ standard error; n ϭ 10) adult flies on day 16. Lactobacillus was detected in vials coinoculated with Acetobacter only when Drosophila flies were also present, and Lactobacillus attained a mean density of 4.8 ϫ 10 3 CFU mg of food Ϫ1 (back-transformed from logarithmic mean in <ref type="figure" target="#fig_1">Fig. 2C</ref>). This result is consistent with the data in <ref type="figure" target="#fig_1">Fig. 2B</ref>, although the Lactobacillus abundance in the ϩDrosophila treatment differed by an order of magnitude between the two experiments. (The reasons for the among-experiment variation in Lactobacillus abundance in vials bearing Ն40 Drosophila have not been investigated.) For the Acetobacter-free treatments, Lactobacillus was recovered from all vials, with a 10fold-greater mean density in vials with Drosophila (1.23 ϫ 10 4 CFU mg of food Ϫ1 ) than without Drosophila (1.0 ϫ 10 3 CFU mg of food Ϫ1 ) (mean values back-transformed from logarithmic values in <ref type="figure" target="#fig_1">Fig. 2C</ref>), and this effect was statistically significant (log-transformed data: t 18 ϭ 2.24, P Ͻ 0.05). These results indi-cated that Lactobacillus proliferation is supported by the food and promoted further by Drosophila. The significantly lower abundance of Lactobacillus in ϩDrosophila vials containing Acetobacter than without Acetobacter (t 18 ϭ 2.28, P Ͻ 0.05) indicates that Drosophila flies did not fully overcome the negative effect of the Lactobacillus/Acetobacter antagonism on Lactobacillus.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>A key finding of our pyrosequencing analysis is that the bacterial communities in the flies and the food in laboratory cultures of Drosophila are closely matched. The difference between the bacterial community in Drosophila-free vials and vials administered bacteria-free Drosophila <ref type="figure" target="#fig_0">(Fig. 1)</ref> suggests that the Drosophila play a key role in this pattern; it is not readily compatible with the alternative scenario, that the microbiota in the gut is a passive readout of the microbiota in the fly-free food to which the Drosophila are introduced. The nature of the microbiota-independent effects of Drosophila on the bacterial populations in the food remains to be determined but may include changes to the physical structure of the food by feeding activity and larval tunneling, or alterations to the chemical constitution of the food by release of enzymes and other bioactive compounds in regurgitant, saliva, and fecal material. Our study additionally shows that alternative Drosophila-dependent bacterial communities can be assembled on a single diet formulation <ref type="figure" target="#fig_0">(Fig. 1</ref>), confirming evidence from other studies that Drosophila can associate with many different bacteria <ref type="bibr" target="#b15">(16,</ref><ref type="bibr" target="#b21">21,</ref><ref type="bibr" target="#b28">28)</ref>. These conclusions should, however, be tempered by the widelyrecognized limitations of amplicon analysis of microbial communities, including variation in the extraction and amplification efficiencies of different bacterial taxa, the inability of this method to discriminate between DNA from live and dead bacterial cells, and the artifactual inclusion of contaminating sequences, especially from reagents <ref type="bibr" target="#b29">(29)</ref><ref type="bibr" target="#b30">(30)</ref><ref type="bibr" target="#b31">(31)</ref>. In our experiments, we made every attempt to minimize the limitations brought by these caveats, including the use of an optimized DNA extraction protocol and correction for sequences recovered from reagent-only controls (see Materials and Methods).</p><p>Multiple factors can shape the composition of the matching bacterial communities in the Drosophila flies and the food. One significant factor is the compatibility of the bacteria with both the Drosophila gut and the food; this factor likely contributes to the variation in the gut microbiota composition with diet in Drosophila <ref type="bibr" target="#b15">(16,</ref><ref type="bibr" target="#b16">17)</ref> and other animals with open symbioses <ref type="bibr" target="#b32">(32)</ref><ref type="bibr" target="#b33">(33)</ref><ref type="bibr" target="#b34">(34)</ref>. Bacteria-bacteria interactions are also important, as illustrated by the replacement of the bacterial communities in fly-free food by bacteria of the genus Acetobacter introduced with the Drosophila eggs ( <ref type="figure" target="#fig_0">Fig. 1</ref>) and the suppression of Lactobacillus by Acetobacter in food bearing few or no Drosophila <ref type="figure" target="#fig_1">(Fig. 2)</ref>. However, Drosophila can influence the outcome of these among-bacterial interactions, as illustrated by the recovery of Lactobacillus in vials coinoculated with Acetobacter at high densities of Drosophila. The basis of the density-dependent suppression by Drosophila of the negative effect of the Acetobacter/Lactobacillus antagonism on Lactobacillus abundance may be multifaceted. For example, Drosophila feces or other products may provide nutrients utilizable by Lactobacillus but not Acetobacter, and the feeding activity and movement of Drosophila may disrupt the otherwise-coherent biofilm formed by Acetobacter on the surface of the food (unpublished observations), potentially reducing Acetobacter competitiveness.</p><p>The relationship between the bacterial populations in the Dro-sophila gut and the food cannot be understood fully without considering the costs and benefits of the association with the animal and microbial partners. The natural diet of Drosophila is rotting fruit and the microorganisms (yeasts and bacteria) that contribute to fruit degradation. Available evidence suggests that Drosophila benefits from the relationship by gaining access to nutrients, especially amino-N, lipids, and B vitamins, from the microorganisms <ref type="bibr" target="#b35">(35)</ref><ref type="bibr" target="#b36">(36)</ref><ref type="bibr" target="#b37">(37)</ref><ref type="bibr" target="#b38">(38)</ref><ref type="bibr" target="#b39">(39)</ref>. This study reveals that the association can be costly to the bacterial partner. Specifically, the total abundance of Acetobacter in vials bearing Drosophila was depressed relative to that in fly-free vials ( <ref type="figure" target="#fig_1">Fig. 2A)</ref>. Potentially outweighing this cost is the likely benefit to the microbiota of host-mediated dispersal, achieved by the voiding of viable microbial cells in the feces <ref type="bibr" target="#b13">(14,</ref><ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b40">40)</ref>. The magnitude of the costs and benefits to the bacteria of associating with Drosophila is expected to vary with conditions and traits of the different bacteria. For example, bacteria with relatively long retention times in the Drosophila gut are likely to be more favored in wild Drosophila populations than in laboratory cultures, where the continual access of flies to food is predicted to result in relaxed selection on the bacteria to persist for extended periods in the gut. The crucial outstanding question is the extent of coevolutionary interactions between the partners in open systems, as exemplified by the relationship between Drosophila and its gut microbiota. For example, the digestive and immunological functions of the insect gut may be calibrated for bacterial survival and shedding rates that optimize dispersal of beneficial microorganisms to microsites utilized by the insect host and its progeny, while the living cells of beneficial microorganisms may display adaptations that promote the release of nutrients valuable to the host (B vitamins and amino-N) and mediate putrefaction of fruit at rates appropriate to preadult development rates of the insect. The apparent absence of a taxonomically defined core microbiota in Drosophila <ref type="bibr" target="#b21">(21)</ref> suggests that such coevolutionary interactions would be diffuse, involving guilds of microorganisms interacting with multiple animal taxa associated with a diversity of fruits. In addition, Drosophila-associated yeasts have been proposed to modify the fruit habitat to the benefit of Drosophila, a process interpreted as niche construction, and release volatiles that are utilized as foraging and oviposition cues by the insect host <ref type="bibr" target="#b41">(41)</ref>. Bacterial partners may also contribute to these effects.</p><p>In conclusion, multiple instances are known of animals that control the composition of microbial communities in the external environment, but these systems predominantly involve external habitats created and managed by complex behavioral traits of the animal. Examples include the fungal nests maintained by attine ants and macrotermitine termites and the microbes that line the galleries of ambrosia beetles and brood chambers of crabronid wasps <ref type="bibr" target="#b42">(42)</ref><ref type="bibr" target="#b43">(43)</ref><ref type="bibr" target="#b45">(44)</ref>, as well as the production of alcohol, bread, yogurts, and fermented vegetables, etc., by humans. This study on the relationship between Drosophila and its gut microbiota demonstrates that relatively nonspecific associations that apparently lack sophisticated behavioral mechanisms for controls over the microbiota can similarly play a role in shaping microbiota communities in the wider environment. Priorities for future research include quantitative analysis of the dynamics of bacterial transfer between the host and external environment <ref type="bibr" target="#b46">(45)</ref> and investigation of how the principles of these interactions, identified under defined conditions on standardized food substrates, apply to the spatiotemporally complex habitat of a rotting fruit under natural conditions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ACKNOWLEDGMENTS</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>FIG 1</head><label>1</label><figDesc>Bacterial communities in Drosophila and food. (A) Shared and unique OTUs among the sources: unmanipulated eggs, food on day 0, and environmental samples (swabs from the fly incubator). (B) Relative abundance of the major genera and phyla, displayed as pie charts of proportional abundances of bacterial taxa in food, flies, and environmental samples. (C) Relationship between bacterial community composition, displayed as a weighted Unifrac PCoA, among the food samples (day 0 and day 16) from vials administered eggs on day 0 (with no-egg vials as negative controls), fly samples (day 16) derived from unmanipulated or dechorionated eggs, and environmental samples (described above).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>FIG 2</head><label>2</label><figDesc>Impact of Drosophila on the abundance of bacteria in food. Vials were inoculated on day 0 with four bacterial species (A. pomorum, A. tropicalis, L. brevis, and L. plantarum) in all treatment groups except for "noAce" (no Acetobacter [panel C]), which were inoculated with L. brevis and L. plantarum only. Treatment "noD" consisted of Drosophila-free vials, and the "ϩD" group consisted of dechorionated Drosophila eggs added at day 0. (A) Density of Acetobacter spp. in core samples and surface samples taken at day 16 (ϩD vials bore 30 eggs). Values are means Ϯ SE; data from 4 replicate experiments are shown. (B) Density of Acetobacter spp. and Lactobacillus spp. after 16 days on food supplemented with different numbers of dechorionated Drosophila eggs (means Ϯ SE of 10 replicates are shown). The mean number of live flies on day 16 is indicated. Mean values of Acetobacter with different superscript numbers (1 to 3) differed significantly based on Tukey's post hoc test. (C) Density of Lactobacillus spp. after 16 days on food, following inoculation without (noA) or with (ϩA) Acetobacter spp. in noD and ϩD vials. Means Ϯ SE for 10 replicate vials are shown.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>TABLE 1</head><label>1</label><figDesc>Primers used for pyrosequencing a The general primers PrimerA_MID_27F and PrimerB_338R were tagged with different MIDs to produce the indicated primers.bacter on the fate of Lactobacillus in the food by a two-by-two factorial design (with/without Drosophila and Acetobacter) with 10 replicate vials per treatment. Thirty dechorionated eggs were added to 20 vials, leaving the other 20 vials Drosophila-free. Ten vials in each of the two Drosophila treatments were then inoculated with the two Lactobacillus species, and the other 10 vials were inoculated with both Lactobacillus and Acetobacter species (4 species in total). The food was sampled 16 days later for Lactobacillus CFU.Statistical analysis. Parametric statistical tests were applied to normally distributed data sets with equal variance, as assessed by the Anderson-Darling test and Bartlett's test, respectively. The CFU data set for Lactobacillus in vials containing 60 Drosophila eggs and all Acetobacter data sets met these criteria after logarithmic transformation. The Drosophila survival data and all other Lactobacillus data sets were analyzed by nonparametric tests. Tukey's test was used for post hoc testing after an analysis of variance.</figDesc><table><row><cell>Source</cell><cell cols="2">Sample no. Forward primer</cell><cell>Reverse primer</cell></row><row><cell>Food, day 0</cell><cell>Vial 1</cell><cell>CGTATCGCCTCCCTCGCGCCATCAGCGTGTCTCTAAGAGTTT</cell><cell>CTATGCGCCTTGCCAGCCCGCTCAGTGC</cell></row><row><cell></cell><cell></cell><cell>GATCMTGGCTCAG</cell><cell>TGCCTCCCGTAGGAGT</cell></row><row><cell></cell><cell>Vial 2</cell><cell>CGTATCGCCTCCCTCGCGCCATCAGCTCGCGTGTCAGAGTTT</cell><cell></cell></row><row><cell></cell><cell></cell><cell>GATCMTGGCTCAG</cell><cell></cell></row><row><cell></cell><cell>Vial 3</cell><cell>CGTATCGCCTCCCTCGCGCCATCAGACGAGTGCGTAGAGTTT</cell><cell></cell></row><row><cell></cell><cell></cell><cell>GATCMTGGCTCAG</cell><cell></cell></row><row><cell></cell><cell>Vial 4</cell><cell>CGTATCGCCTCCCTCGCGCCATCAGAGACGCACTCAGAGTTT</cell><cell></cell></row><row><cell></cell><cell></cell><cell>GATCMTGGCTCAG</cell><cell></cell></row><row><cell></cell><cell>Vial 5</cell><cell>CGTATCGCCTCCCTCGCGCCATCAGTGTACTACTCAGAGTTT</cell><cell></cell></row><row><cell></cell><cell></cell><cell>GATCMTGGCTCAG</cell><cell></cell></row><row><cell></cell><cell>Vial 6</cell><cell>CGTATCGCCTCCCTCGCGCCATCAGACGACTACAGAGAGTTT</cell><cell></cell></row><row><cell></cell><cell></cell><cell>GATCMTGGCTCAG</cell><cell></cell></row><row><cell>Food, day 16</cell><cell>Vial 1</cell><cell>CGTATCGCCTCCCTCGCGCCATCAGTCTCTATGCGAGAGTTT</cell><cell></cell></row><row><cell></cell><cell></cell><cell>GATCMTGGCTCAG</cell><cell></cell></row><row><cell></cell><cell>Vial 2</cell><cell>CGTATCGCCTCCCTCGCGCCATCAGTGATACGTCTAGAGTTT</cell><cell></cell></row><row><cell></cell><cell></cell><cell>GATCMTGGCTCAG</cell><cell></cell></row><row><cell></cell><cell>Vial 3</cell><cell>CGTATCGCCTCCCTCGCGCCATCAGAGCACTGTAGAGAGTTT</cell><cell></cell></row><row><cell></cell><cell></cell><cell>GATCMTGGCTCAG</cell><cell></cell></row><row><cell></cell><cell>Vial 4</cell><cell>CGTATCGCCTCCCTCGCGCCATCAGATATCGCGAGAGAGTTT</cell><cell></cell></row><row><cell></cell><cell></cell><cell>GATCMTGGCTCAG</cell><cell></cell></row><row><cell></cell><cell>Vial 5</cell><cell>CGTATCGCCTCCCTCGCGCCATCAGTACGAGTATGAGAGTTT</cell><cell></cell></row><row><cell></cell><cell></cell><cell>GATCMTGGCTCAG</cell><cell></cell></row><row><cell></cell><cell>Vial 6</cell><cell>CGTATCGCCTCCCTCGCGCCATCAGTACTCTCGTGAGAGTTT</cell><cell></cell></row><row><cell></cell><cell></cell><cell>GATCMTGGCTCAG</cell><cell></cell></row><row><cell>Drosophila</cell><cell>Eggs</cell><cell>CGTATCGCCTCCCTCGCGCCATCAGTCGTCGCTCGAGAGTTT</cell><cell></cell></row><row><cell></cell><cell></cell><cell>GATCMTGGCTCAG</cell><cell></cell></row><row><cell></cell><cell>Vial 1</cell><cell>CGTATCGCCTCCCTCGCGCCATCAGTCACGTACTAAGAGTTT</cell><cell></cell></row><row><cell></cell><cell></cell><cell>GATCMTGGCTCAG</cell><cell></cell></row><row><cell></cell><cell>Vial 2</cell><cell>CGTATCGCCTCCCTCGCGCCATCAGCGTCTAGTACAGAGTTT</cell><cell></cell></row><row><cell></cell><cell></cell><cell>GATCMTGGCTCAG</cell><cell></cell></row><row><cell></cell><cell>Vial 3</cell><cell>CGTATCGCCTCCCTCGCGCCATCAGCATAGTAGTGAGAGTTT</cell><cell></cell></row><row><cell></cell><cell></cell><cell>GATCMTGGCTCAG</cell><cell></cell></row><row><cell></cell><cell>Vial 4</cell><cell>CGTATCGCCTCCCTCGCGCCATCAGATACGACGTAAGAGTTT</cell><cell></cell></row><row><cell></cell><cell></cell><cell>GATCMTGGCTCAG</cell><cell></cell></row><row><cell>Environment</cell><cell>Sample 1</cell><cell>CGTATCGCCTCCCTCGCGCCATCAGACTACTATGTAGAGTTT</cell><cell></cell></row><row><cell></cell><cell></cell><cell>GATCMTGGCTCAG</cell><cell></cell></row><row><cell></cell><cell>Sample 2</cell><cell>CGTATCGCCTCCCTCGCGCCATCAGACGCGAGTATAGAGTTT</cell><cell></cell></row><row><cell></cell><cell></cell><cell>GATCMTGGCTCAG</cell><cell></cell></row><row><cell>Reagent-only control</cell><cell></cell><cell>CGTATCGCCTCCCTCGCGCCATCAGACATACGCGTAGAGTTT</cell><cell></cell></row><row><cell></cell><cell></cell><cell>GATCMTGGCTCAG</cell><cell></cell></row></table><note>a</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>TABLE 2</head><label>2</label><figDesc>Primers used for qPCR Downloaded from https://journals.asm.org/journal/aem on 08 August 2021 by 157.131.115.176.</figDesc><table><row><cell>Target</cell><cell>Orientation</cell><cell>Primer sequence (5=-3=)</cell><cell>Efficiency</cell><cell>T m a</cell></row><row><cell>Acetobacter pomorum b</cell><cell>Forward</cell><cell>CTAGATGTTGGGTGACTTAGTCA</cell><cell>1.79</cell><cell>54.6</cell></row><row><cell></cell><cell>Reverse</cell><cell>CGGGAAACAAACATCTCTGCTTG</cell><cell></cell><cell></cell></row><row><cell>Acetobacter tropicalis</cell><cell>Forward</cell><cell>GGACAACTTAGTTGTTCAGTGTC</cell><cell>1.83</cell><cell>55.9</cell></row><row><cell></cell><cell>Reverse</cell><cell>GGACACAGCCTACACATACAAG</cell><cell></cell><cell></cell></row><row><cell>Lactobacillus brevis</cell><cell>Forward</cell><cell>GACGTGCTTGCACTGATTTC</cell><cell>1.98</cell><cell>54.2</cell></row><row><cell></cell><cell>Reverse</cell><cell>CCGAAGCCACCTTTCAAAC</cell><cell></cell><cell></cell></row><row><cell>Lactobacillus plantarum b</cell><cell>Forward</cell><cell>CGAACGAACTCTGGTATTGATTG</cell><cell>1.93</cell><cell>56.8</cell></row><row><cell></cell><cell>Reverse</cell><cell>ACCATGCGGTCCAAGTTG</cell><cell></cell><cell></cell></row><row><cell>D. melanogaster GAPDH</cell><cell>Forward</cell><cell>TAAATTCGACTCGACTCACGGT</cell><cell>1.92</cell><cell>57.0</cell></row><row><cell></cell><cell>Reverse</cell><cell>CTCCACCACATACTCGGCTC</cell><cell></cell><cell></cell></row><row><cell>General 16S rRNA (341F ϩ 534R)</cell><cell>Forward</cell><cell>CCTACGGGAGGCAGCAG</cell><cell>1.96</cell><cell>55.2</cell></row><row><cell></cell><cell>Reverse</cell><cell>ATTACCGCGGCTGCTGG</cell><cell></cell><cell></cell></row></table><note>a The optimal annealing temperature was determined via gradient qPCR in order to achieve the highest primer efficiency.b The Ribosomal Database Project (46) probe match indicated that the A. pomorum primers may also amplify strains of the closely related species A. pasteurianus and the L. plantarum primers may also amplify strains of the closely related L. pentosus. Microbiology of Drosophila Food September 2015 Volume 81 Number 18 aem.asm.org 6235 Applied and Environmental Microbiology</note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">Microbiology of Drosophila Food September 2015 Volume 81 Number 18 aem.asm.org 6233 Applied and Environmental Microbiology Downloaded from https://journals.asm.org/journal/aem on 08 August 2021 by 157.131.115.176.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">September 2015 Volume 81 Number 18 Applied and Environmental Microbiology Downloaded from https://journals.asm.org/journal/aem on 08 August 2021 by 157.131.115.176.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">Microbiology of Drosophila Food September 2015 Volume 81 Number 18 aem.asm.org 6237 Applied and Environmental Microbiology Downloaded from https://journals.asm.org/journal/aem on 08 August 2021 by 157.131.115.176.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">Microbiology of Drosophila Food September 2015 Volume 81 Number 18 aem.asm.org 6239 Applied and Environmental Microbiology Downloaded from https://journals.asm.org/journal/aem on 08 August 2021 by 157.131.115.176.</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This research was supported by grants from NIH (1R01GM095372) and NSF (BIO 1241099) to A.E.D. and from the Sarkaria Institute for Insect Physiology and Toxicology.</p><p>All authors contributed to the design of the experiments. A.C.-N.W. and X.J. conducted the pyrosequencing experiment, and Y.L. conducted the qPCR validation of the pyrosequencing study. Y.L. conducted and analyzed the experiments on the bacteria in the food, and S.F. and A.B. analyzed the bacteria in the gnotobiotic flies. A.C.-N.W., Y.L., and A.E.D. wrote the first draft of the manuscript. All authors contributed to amending the manuscript prior to submission.</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">A model symbiosis reveals a role for sheathedflagellum rotation in the release of immunogenic lipopolysaccharide</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Brennan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Hunt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Kremer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">C</forename><surname>Krasity</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Apicella</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Mcfall-Ngai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">G</forename><surname>Ruby</surname></persName>
+		</author>
+		<idno type="DOI">10.7554/eLife.01579</idno>
+		<ptr target="http://dx.doi.org/10.7554/eLife.01579" />
+		<imprint>
+			<date type="published" when="2014" />
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">1579</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brennan CA, Hunt JR, Kremer N, Krasity BC, Apicella MA, McFall- Ngai MJ, Ruby EG. 2014. A model symbiosis reveals a role for sheathed- flagellum rotation in the release of immunogenic lipopolysaccharide. eLife 3:e01579. http://dx.doi.org/10.7554/eLife.01579.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Bacterial-derived uracil as a modulator of mucosal immunity and gut-microbe homeostasis in Drosophila</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">A</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">K</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">M</forename><surname>Ha</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>You</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Kwon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">H</forename><surname>Ryu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">J</forename><surname>Lee</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cell.2013.04.009</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.cell.2013.04.009" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">153</biblScope>
+			<biblScope unit="page" from="797" to="811" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lee KA, Kim SH, Kim EK, Ha EM, You H, Kim B, Kim MJ, Kwon Y, Ryu JH, Lee WJ. 2013. Bacterial-derived uracil as a modulator of mucosal immunity and gut-microbe homeostasis in Drosophila. Cell 153:797-811. http://dx.doi.org/10.1016/j.cell.2013.04.009.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The Toll-like receptor 2 pathway establishes colonization by a commensal of the human microbiota</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Round</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">M</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Tran</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Jabri</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">A</forename><surname>Chatila</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Mazmanian</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1206095</idno>
+		<ptr target="http://dx.doi.org/10.1126/science.1206095" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">332</biblScope>
+			<biblScope unit="page" from="974" to="977" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Round JL, Lee SM, Li J, Tran G, Jabri B, Chatila TA, Mazmanian SK. 2011. The Toll-like receptor 2 pathway establishes colonization by a com- mensal of the human microbiota. Science 332:974 -977. http://dx.doi.org /10.1126/science.1206095.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Multifunctional nutrient-binding proteins adapt human symbiotic bacteria for glycan competition in the gut by separately promoting enhanced sensing and catalysis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">A</forename><surname>Cameron</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">J</forename><surname>Kwiatkowski</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">R</forename><surname>Hamaker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">M</forename><surname>Koropatkin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">C</forename><surname>Martens</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/mBio.01441-14</idno>
+		<ptr target="http://dx.doi.org/10.1128/mBio.01441-14" />
+	</analytic>
+	<monogr>
+		<title level="j">mBio</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1441" to="1455" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cameron EA, Kwiatkowski KJ, Lee BH, Hamaker BR, Koropatkin NM, Martens EC. 2014. Multifunctional nutrient-binding proteins adapt hu- man symbiotic bacteria for glycan competition in the gut by separately promoting enhanced sensing and catalysis. mBio 5(5):e01441-14. http: //dx.doi.org/10.1128/mBio.01441-14.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Bacteroides in the infant gut consume milk oligosaccharides via mucus-utilization pathways</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Marcobal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Barboza</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">D</forename><surname>Sonnenburg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Pudlo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">C</forename><surname>Martens</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Desai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">B</forename><surname>Lebrilla</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">C</forename><surname>Weimer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Mills</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">B</forename><surname>German</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Sonnenburg</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.chom.2011.10.007</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.chom.2011.10.007" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell Host Microbe</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="507" to="514" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Marcobal A, Barboza M, Sonnenburg ED, Pudlo N, Martens EC, Desai P, Lebrilla CB, Weimer BC, Mills DA, German JB, Sonnenburg JL. 2011. Bacteroides in the infant gut consume milk oligosaccharides via mu- cus-utilization pathways. Cell Host Microbe 10:507-514. http://dx.doi .org/10.1016/j.chom.2011.10.007.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Animals in a bacterial world, a new imperative for the life sciences</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Mcfall-Ngai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">G</forename><surname>Hadfield</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C</forename><surname>Bosch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">V</forename><surname>Carey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Domazet-Loso</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Douglas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Dubilier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Eberl</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Fukami</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">F</forename><surname>Gilbert</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Hentschel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Kjelleberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">H</forename><surname>Knoll</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Kremer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Mazmanian</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Metcalf</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nealson</forename><forename type="middle">K</forename><surname>Pierce</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">E</forename><surname>Rawls</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">F</forename><surname>Reid</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Ruby</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">G</forename><surname>Rumpho</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Sanders</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">G</forename><surname>Tautz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Wernegreen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1218525110</idno>
+		<ptr target="http://dx.doi.org/10.1073/pnas.1218525110" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="3229" to="3236" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McFall-Ngai M, Hadfield MG, Bosch TC, Carey HV, Domazet-Loso T, Douglas AE, Dubilier N, Eberl G, Fukami T, Gilbert SF, Hentschel U, King N, Kjelleberg S, Knoll AH, Kremer N, Mazmanian SK, Metcalf JL, Nealson K, Pierce NE, Rawls JF, Reid A, Ruby EG, Rumpho M, Sanders JG, Tautz D, Wernegreen JJ. 2013. Animals in a bacterial world, a new imperative for the life sciences. Proc Natl Acad Sci U S A 110:3229 -3236. http://dx.doi.org/10.1073/pnas.1218525110.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The application of ecological theory toward an understanding of the human microbiome</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">K</forename><surname>Costello</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Stagaman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Dethlefsen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">J</forename><surname>Bohannan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Relman</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1224203</idno>
+		<ptr target="http://dx.doi.org/10.1126/science.1224203" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">336</biblScope>
+			<biblScope unit="page" from="1255" to="1262" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Costello EK, Stagaman K, Dethlefsen L, Bohannan BJ, Relman DA. 2012. The application of ecological theory toward an understanding of the human microbiome. Science 336:1255-1262. http://dx.doi.org/10.1126 /science.1224203.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Life histories of symbiotic rhizobia and mycorrhizal fungi</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">F</forename><surname>Denison</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">T</forename><surname>Kiers</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cub.2011.06.018</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.cub.2011.06.018" />
+	</analytic>
+	<monogr>
+		<title level="j">Curr Biol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="775" to="785" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Denison RF, Kiers ET. 2011. Life histories of symbiotic rhizobia and mycorrhizal fungi. Curr Biol 21:R775-R785. http://dx.doi.org/10.1016/j .cub.2011.06.018.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Coral bleaching: thermal adaptation in reef coral symbionts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Rowan</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/430742a</idno>
+		<ptr target="http://dx.doi.org/10.1038/430742a" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">430</biblScope>
+			<biblScope unit="page">742</biblScope>
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rowan R. 2004. Coral bleaching: thermal adaptation in reef coral symbi- onts. Nature 430:742. http://dx.doi.org/10.1038/430742a.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Dispersal of Symbiodinium by the stoplight parrotfish Sparisoma viride</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Castro-Sanguino</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Sanchez</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rsbl.2011.0836</idno>
+		<ptr target="http://dx.doi.org/10.1098/rsbl.2011.0836" />
+	</analytic>
+	<monogr>
+		<title level="j">Biol Lett</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="282" to="286" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Castro-Sanguino C, Sanchez JA. 2012. Dispersal of Symbiodinium by the stoplight parrotfish Sparisoma viride. Biol Lett 8:282-286. http://dx.doi .org/10.1098/rsbl.2011.0836.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Mom knows best: the universality of maternal microbial transmission</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">J</forename><surname>Funkhouser</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Bordenstein</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pbio.1001631</idno>
+		<ptr target="http://dx.doi.org/10.1371/journal.pbio.1001631" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Biol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Funkhouser LJ, Bordenstein SR. 2013. Mom knows best: the universality of maternal microbial transmission. PLoS Biol 11:e1001631. http://dx.doi .org/10.1371/journal.pbio.1001631.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Effect of the squid host on the abundance and distribution of symbiotic Vibrio fischeri in nature</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">G</forename><surname>Ruby</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="1565" to="1571" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lee KH, Ruby EG. 1994. Effect of the squid host on the abundance and distribution of symbiotic Vibrio fischeri in nature. Appl Environ Microbiol 60:1565-1571.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Symbiodinium diversity within Acropora muricata and the surrounding environment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Sweet</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/maec.12092</idno>
+		<ptr target="http://dx.doi.org/10.1111/maec.12092" />
+	</analytic>
+	<monogr>
+		<title level="j">Mar Ecol</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="343" to="353" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sweet MJ. 2013. Symbiodinium diversity within Acropora muricata and the surrounding environment. Mar Ecol 35:343-353. http://dx.doi.org/10 .1111/maec.12092.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">New insights into the ecological interaction between grape berry microorganisms and Drosophila flies during the development of sour rot</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Barata</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">C</forename><surname>Santos</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Malfeito-Ferreira</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Loureiro</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00248-012-0041-y</idno>
+		<ptr target="http://dx.doi.org/10.1007/s00248-012-0041-y" />
+	</analytic>
+	<monogr>
+		<title level="j">Microb Ecol</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="416" to="430" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Barata A, Santos SC, Malfeito-Ferreira M, Loureiro V. 2012. New insights into the ecological interaction between grape berry microorgan- isms and Drosophila flies during the development of sour rot. Microb Ecol 64:416 -430. http://dx.doi.org/10.1007/s00248-012-0041-y.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Yeast, not fruit volatiles mediate Drosophila melanogaster attraction, oviposition and development</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">G</forename><surname>Becher</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Flick</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Rozpędowska</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Hagman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Lebreton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">C</forename><surname>Larsson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">S</forename><surname>Hansson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Piskur</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Witzgall</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Bengtsson</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-2435.2012.02006.x</idno>
+		<ptr target="http://dx.doi.org/10.1111/j.1365-2435.2012.02006.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Funct Ecol</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="822" to="828" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Becher PG, Flick G, Rozpędowska E, Schmidt A, Hagman A, Lebreton S, Larsson MC, Hansson BS, Piskur J, Witzgall P, Bengtsson M. 2012. Yeast, not fruit volatiles mediate Drosophila melanogaster attraction, ovi- position and development. Funct Ecol 26:822-828. http://dx.doi.org/10 .1111/j.1365-2435.2012.02006.x.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Bacterial communities of diverse Drosophila species: ecological context of a hostmicrobe model system</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Chandler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Lang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Bhatnagar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Eisen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Kopp</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pgen.1002272</idno>
+		<ptr target="http://dx.doi.org/10.1371/journal.pgen.1002272" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Genet</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chandler JA, Lang JM, Bhatnagar S, Eisen JA, Kopp A. 2011. Bacterial communities of diverse Drosophila species: ecological context of a host- microbe model system. PLoS Genet 7:e1002272. http://dx.doi.org/10 .1371/journal.pgen.1002272.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Host species and environmental effects on bacterial communities associated with Drosophila in the laboratory and in the natural environment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Staubach</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">F</forename><surname>Baines</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Kunzel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">M</forename><surname>Bik</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Petrov</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0070749</idno>
+		<ptr target="http://dx.doi.org/10.1371/journal.pone.0070749" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">70749</biblScope>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Staubach F, Baines JF, Kunzel S, Bik EM, Petrov DA. 2013. Host species and environmental effects on bacterial communities associated with Dro- sophila in the laboratory and in the natural environment. PLoS One 8:e70749. http://dx.doi.org/10.1371/journal.pone.0070749.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Frequent replenishment sustains the beneficial microbiome of Drosophila melanogaster</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Blum</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">N</forename><surname>Fischer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Miles</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Handelsman</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/mBio.00860-13</idno>
+		<ptr target="http://dx.doi.org/10.1128/mBio.00860-13" />
+	</analytic>
+	<monogr>
+		<title level="j">mBio</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="860" to="873" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Blum JE, Fischer CN, Miles J, Handelsman J. 2013. Frequent replenish- ment sustains the beneficial microbiome of Drosophila melanogaster. mBio 4(6):e00860-13. http://dx.doi.org/10.1128/mBio.00860-13.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Noninvasive analysis of microbiome dynamics in the fruit fly Drosophila melanogaster</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Fink</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Staubach</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Kuenzel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">F</forename><surname>Baines</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Roeder</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fink C, Staubach F, Kuenzel S, Baines JF, Roeder T. 2013. Noninvasive analysis of microbiome dynamics in the fruit fly Drosophila melanogaster.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<idno type="DOI">10.1128/AEM.01903-13</idno>
+		<ptr target="http://dx.doi.org/10.1128/AEM" />
+	</analytic>
+	<monogr>
+		<title level="j">Appl Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="1903" to="1916" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Appl Environ Microbiol 79:6984 -6988. http://dx.doi.org/10.1128/AEM .01903-13.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Interspecies interactions determine the impact of the gut microbiota on nutrient allocation in Drosophila melanogaster</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">D</forename><surname>Newell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Douglas</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/AEM.02742-13</idno>
+		<ptr target="http://dx.doi.org/10.1128/AEM.02742-13" />
+	</analytic>
+	<monogr>
+		<title level="j">Appl Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="788" to="796" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Newell PD, Douglas AE. 2014. Interspecies interactions determine the impact of the gut microbiota on nutrient allocation in Drosophila melano- gaster. Appl Environ Microbiol 80:788 -796. http://dx.doi.org/10.1128 /AEM.02742-13.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The inconstant gut microbiota of Drosophila species revealed by 16S rRNA gene analysis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Chaston</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Douglas</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ismej.2013.86</idno>
+		<ptr target="http://dx.doi.org/10.1038/ismej.2013.86" />
+	</analytic>
+	<monogr>
+		<title level="j">ISME J</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1922" to="1932" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wong AC, Chaston JM, Douglas AE. 2013. The inconstant gut micro- biota of Drosophila species revealed by 16S rRNA gene analysis. ISME J 7:1922-1932. http://dx.doi.org/10.1038/ismej.2013.86.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">In vivo function and comparative genomic analyses of the Drosophila gut microbiota identify candidate symbiosis factors</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">D</forename><surname>Newell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Chaston</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">J</forename><surname>Winans</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">R</forename><surname>Sannino</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">N</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename><surname>Dobson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Kagle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Douglas</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fmicb.2014.00576</idno>
+		<ptr target="http://dx.doi.org/10.3389/fmicb.2014.00576" />
+	</analytic>
+	<monogr>
+		<title level="j">Front Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">576</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Newell PD, Chaston JM, Wang Y, Winans NJ, Sannino DR, Wong CN, Dobson AJ, Kagle J, Douglas AE. 2014. In vivo function and comparative genomic analyses of the Drosophila gut microbiota identify candidate symbiosis factors. Front Microbiol 5:576. http://dx.doi.org/10.3389/fmicb .2014.00576.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Identification of aphid (Homoptera, Aphididae) species and clones by random amplified polymorphic DNA</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Cenis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Perez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Fereres</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Entomol Soc Am</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="45" to="550" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cenis JL, Perez P, Fereres A. 1993. Identification of aphid (Homoptera, Aphididae) species and clones by random amplified polymorphic DNA. Ann Entomol Soc Am 86:45-550.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Low-diversity bacterial community in the gut of the fruitfly Drosophila melanogaster</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Douglas</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1462-2920.2011.02511.x</idno>
+		<ptr target="http://dx.doi.org/10.1111/j.1462-2920.2011.02511.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1889" to="1900" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wong AC, Ng P, Douglas AE. 2011. Low-diversity bacterial community in the gut of the fruitfly Drosophila melanogaster. Environ Microbiol 13: 1889 -1900. http://dx.doi.org/10.1111/j.1462-2920.2011.02511.x.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">QIIME allows analysis of high-throughput community sequencing data</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">G</forename><surname>Caporaso</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Kuczynski</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Stombaugh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Bittinger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">D</forename><surname>Bushman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">K</forename><surname>Costello</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Fierer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">G</forename><surname>Pena</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">K</forename><surname>Goodrich</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">I</forename><surname>Gordon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">A</forename><surname>Huttley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">T</forename><surname>Kelley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Knights</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Koenig</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">E</forename><surname>Ley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Lozupone</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Mcdonald</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">D</forename><surname>Muegge</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Pirrung</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Reeder</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Sevinsky</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">J</forename><surname>Turnbaugh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">A</forename><surname>Walters</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Widmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Yatsunenko</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Zaneveld</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Knight</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmeth.f.303</idno>
+		<ptr target="http://dx.doi.org/10.1038/nmeth.f.303" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat Methods</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="335" to="336" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Caporaso JG, Kuczynski J, Stombaugh J, Bittinger K, Bushman FD, Costello EK, Fierer N, Pena AG, Goodrich JK, Gordon JI, Huttley GA, Kelley ST, Knights D, Koenig JE, Ley RE, Lozupone CA, McDonald D, Muegge BD, Pirrung M, Reeder J, Sevinsky JR, Turnbaugh PJ, Walters WA, Widmann J, Yatsunenko T, Zaneveld J, Knight R. 2010. QIIME allows analysis of high-throughput community sequencing data. Nat Methods 7:335-336. http://dx.doi.org/10.1038/nmeth.f.303.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">The bacterial communities in plant phloem-sap-feeding insects</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Jing</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Chaston</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Colvin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">L</forename><surname>Mckenzie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Douglas</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/mec.12637</idno>
+		<ptr target="http://dx.doi.org/10.1111/mec.12637" />
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="1433" to="1444" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jing X, Wong AC, Chaston JM, Colvin J, McKenzie CL, Douglas AE. 2014. The bacterial communities in plant phloem-sap-feeding insects. Mol Ecol 23:1433-1444. http://dx.doi.org/10.1111/mec.12637.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Gut microbiota from twins discordant for obesity modulate metabolism in mice</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">K</forename><surname>Ridaura</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename><surname>Faith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">E</forename><surname>Rey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Duncan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">L</forename><surname>Kau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">W</forename><surname>Griffin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Lombard</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Henrissat</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Bain</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Muehlbauer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Ilkayeva</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">F</forename><surname>Semenkovich</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Funai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">K</forename><surname>Hayashi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">J</forename><surname>Lyle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">C</forename><surname>Martini</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">K</forename><surname>Ursell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Clemente</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Van Treuren</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">A</forename><surname>Walters</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Knight</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">B</forename><surname>Newgard</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Heath</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">I</forename><surname>Gordon</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1241214</idno>
+		<ptr target="http://dx.doi.org/10.1126/science.1241214" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">341</biblScope>
+			<biblScope unit="page">1241214</biblScope>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ridaura VK, Faith JJ, Rey FE, Cheng J, Duncan AE, Kau AL, Griffin NW, Lombard V, Henrissat B, Bain JR, Muehlbauer MJ, Ilkayeva O, Semenkovich CF, Funai K, Hayashi DK, Lyle BJ, Martini MC, Ursell LK, Clemente JC, Van Treuren W, Walters WA, Knight R, Newgard CB, Heath AC, Gordon JI. 2013. Gut microbiota from twins discordant for obesity modulate metabolism in mice. Science 341:1241214. http://dx .doi.org/10.1126/science.1241214.</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Metagenome-wide association of microbial determinants of host phenotype in Drosophila melanogaster</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Chaston</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">D</forename><surname>Newell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Douglas</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/mBio.01631-14</idno>
+		<ptr target="http://dx.doi.org/10.1128/mBio.01631-14" />
+	</analytic>
+	<monogr>
+		<title level="j">mBio</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1631" to="1645" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chaston JM, Newell PD, Douglas AE. 2014. Metagenome-wide associ- ation of microbial determinants of host phenotype in Drosophila melano- gaster. mBio 5(5):e01631-14. http://dx.doi.org/10.1128/mBio.01631-14.</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Dead or alive: molecular assessment of microbial viability</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">A</forename><surname>Cangelosi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">S</forename><surname>Meschke</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/AEM.01763-14</idno>
+		<ptr target="http://dx.doi.org/10.1128/AEM.01763-14" />
+	</analytic>
+	<monogr>
+		<title level="j">Appl Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="5884" to="5891" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cangelosi GA, Meschke JS. 2014. Dead or alive: molecular assessment of microbial viability. Appl Environ Microbiol 80:5884 -5891. http://dx.doi .org/10.1128/AEM.01763-14.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">DNA extraction method affects microbial community profiles from soils and sediment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Carrigg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Rice</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Kavanagh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Collins</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>O'flaherty</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00253-007-1219-y</idno>
+		<ptr target="http://dx.doi.org/10.1007/s00253-007-1219-y" />
+	</analytic>
+	<monogr>
+		<title level="j">Appl Microbiol Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="955" to="964" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Carrigg C, Rice O, Kavanagh S, Collins G, O&apos;Flaherty V. 2007. DNA extraction method affects microbial community profiles from soils and sediment. Appl Microbiol Biotechnol 77:955-964. http://dx.doi.org/10 .1007/s00253-007-1219-y.</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Reagent and laboratory contamination can critically impact sequence-based microbiome analyses</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">J</forename><surname>Salter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Cox</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">M</forename><surname>Turek</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">T</forename><surname>Calus</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">O</forename><surname>Cookson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">F</forename><surname>Moffatt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Parkhill</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">J</forename><surname>Loman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">W</forename><surname>Walker</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12915-014-0087-z</idno>
+		<ptr target="http://dx.doi.org/10.1186/s12915-014-0087-z" />
+	</analytic>
+	<monogr>
+		<title level="j">BMC Biol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">87</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Salter SJ, Cox MJ, Turek EM, Calus ST, Cookson WO, Moffatt MF, Turner P, Parkhill J, Loman NJ, Walker AW. 2014. Reagent and labo- ratory contamination can critically impact sequence-based microbiome analyses. BMC Biol 12:87. http://dx.doi.org/10.1186/s12915-014-0087-z.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Individuals&apos; diet diversity influences gut microbial diversity in two freshwater fish (threespine stickleback and Eurasian perch)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">I</forename><surname>Bolnick</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">K</forename><surname>Snowberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">E</forename><surname>Hirsch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">L</forename><surname>Lauber</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Knight</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">G</forename><surname>Caporaso</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Svanback</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/ele.12301</idno>
+		<ptr target="http://dx.doi.org/10.1111/ele.12301" />
+	</analytic>
+	<monogr>
+		<title level="j">Ecol Lett</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="979" to="987" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bolnick DI, Snowberg LK, Hirsch PE, Lauber CL, Knight R, Caporaso JG, Svanback R. 2014. Individuals&apos; diet diversity influences gut microbial diversity in two freshwater fish (threespine stickleback and Eurasian perch). Ecol Lett 17:979 -987. http://dx.doi.org/10.1111/ele.12301.</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Diet rapidly and reproducibly alters the human gut microbiome</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">A</forename><surname>David</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">F</forename><surname>Maurice</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">N</forename><surname>Carmody</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">B</forename><surname>Gootenberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Button</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">E</forename><surname>Wolfe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">V</forename><surname>Ling</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">S</forename><surname>Devlin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Varma</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Fischbach</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">B</forename><surname>Biddinger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">J</forename><surname>Dutton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">J</forename><surname>Turnbaugh</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature12820</idno>
+		<ptr target="http://dx.doi.org/10.1038/nature12820" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">505</biblScope>
+			<biblScope unit="page" from="559" to="563" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">David LA, Maurice CF, Carmody RN, Gootenberg DB, Button JE, Wolfe BE, Ling AV, Devlin AS, Varma Y, Fischbach MA, Biddinger SB, Dutton RJ, Turnbaugh PJ. 2014. Diet rapidly and reproducibly alters the human gut microbiome. Nature 505:559 -563. http://dx.doi.org/10.1038 /nature12820.</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Characterizing the avian gut microbiota: membership, driving influences, and potential function</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">W</forename><surname>Waite</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">W</forename><surname>Taylor</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/2014.00223</idno>
+		<ptr target="http://dx.doi.org/10.3389/2014.00223" />
+	</analytic>
+	<monogr>
+		<title level="j">Front Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">223</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Waite DW, Taylor MW. 2014. Characterizing the avian gut microbiota: membership, driving influences, and potential function. Front Microbiol 5:223. http://dx.doi.org/10.3389/2014.00223.</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Effects of dietary folic acid level and symbiotic folate production on fitness and development in the fruit fly Drosophila melanogaster</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Blatch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">W</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">F</forename><surname>Harrison</surname></persName>
+		</author>
+		<idno type="DOI">10.4161/fly.4.4.13258</idno>
+		<ptr target="http://dx.doi.org/10.4161/fly.4.4.13258" />
+	</analytic>
+	<monogr>
+		<title level="j">Fly</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="312" to="319" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Blatch SA, Meyer KW, Harrison JF. 2010. Effects of dietary folic acid level and symbiotic folate production on fitness and development in the fruit fly Drosophila melanogaster. Fly 4:312-319. http://dx.doi.org/10.4161/fly.4.4 .13258.</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Development of Drosophila on sterol mutants of the yeast Saccharomyces cerevisiae</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Bos</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Burnet</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Farrow</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">A</forename><surname>Woods</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/S0016672300016840</idno>
+		<ptr target="http://dx.doi.org/10.1017/S0016672300016840" />
+	</analytic>
+	<monogr>
+		<title level="j">Genet Res</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="163" to="176" />
+			<date type="published" when="1976" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bos M, Burnet B, Farrow R, Woods RA. 1976. Development of Drosoph- ila on sterol mutants of the yeast Saccharomyces cerevisiae. Genet Res 28: 163-176. http://dx.doi.org/10.1017/S0016672300016840.</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">A holidic medium for Drosophila melanogaster</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">D</forename><surname>Piper</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Blanc</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Leitao-Goncalves</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yang</forename><forename type="middle">M</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Linford</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">J</forename><surname>Hoddinott</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">P</forename><surname>Hopfen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Soultoukis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">A</forename><surname>Niemeyer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Kerr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Pletcher</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">D</forename><surname>Ribeiro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Partridge</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename></persName>
+		</author>
+		<idno type="DOI">10.1038/nmeth.2731</idno>
+		<ptr target="http://dx.doi.org/10.1038/nmeth.2731" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat Methods</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="100" to="105" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Piper MD, Blanc E, Leitao-Goncalves R, Yang M, He X, Linford NJ, Hoddinott MP, Hopfen C, Soultoukis GA, Niemeyer C, Kerr F, Pletcher SD, Ribeiro C, Partridge L. 2014. A holidic medium for Drosophila melanogaster. Nat Methods 11:100 -105. http://dx.doi.org/10.1038/nmeth .2731.</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Lactobacillus plantarum promotes Drosophila systemic growth by modulating hormonal signals through TOR-dependent nutrient sensing</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Storelli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Defaye</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Erkosar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Hols</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Royet</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cmet.2011.07.012</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.cmet.2011.07.012" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell Metab</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="403" to="414" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Storelli G, Defaye A, Erkosar B, Hols P, Royet J. 2011. Lactobacillus plantarum promotes Drosophila systemic growth by modulating hor- monal signals through TOR-dependent nutrient sensing. Cell Metab 14: 403-414. http://dx.doi.org/10.1016/j.cmet.2011.07.012.</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Gut microbiota dictates the metabolic response of Drosophila to diet</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename><surname>Dobson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Douglas</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/jeb.101725</idno>
+		<ptr target="http://dx.doi.org/10.1242/jeb.101725" />
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Biol</title>
+		<imprint>
+			<biblScope unit="volume">217</biblScope>
+			<biblScope unit="page" from="1894" to="1901" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wong AC, Dobson AJ, Douglas AE. 2014. Gut microbiota dictates the metabolic response of Drosophila to diet. J Exp Biol 217:1894 -1901. http: //dx.doi.org/10.1242/jeb.101725.</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Production and biological function of volatile esters in Saccharomyces cerevisiae</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">M</forename><surname>Saerens</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">R</forename><surname>Delvaux</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">J</forename><surname>Verstrepen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Thevelein</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1751-7915.2009.00106.x</idno>
+		<ptr target="http://dx.doi.org/10.1111/j.1751-7915.2009.00106.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Microb Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="165" to="177" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Saerens SM, Delvaux FR, Verstrepen KJ, Thevelein JM. 2010. Produc- tion and biological function of volatile esters in Saccharomyces cerevisiae. Microb Biotechnol 3:165-177. http://dx.doi.org/10.1111/j.1751-7915 .2009.00106.x.</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Niche construction initiates the evolution of mutualistic interactions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">C</forename><surname>Buser</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">D</forename><surname>Newcomb</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Gaskett</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">R</forename><surname>Goddard</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/ele.12331</idno>
+		<ptr target="http://dx.doi.org/10.1111/ele.12331" />
+	</analytic>
+	<monogr>
+		<title level="j">Ecol Lett</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="1257" to="1264" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Buser CC, Newcomb RD, Gaskett AC, Goddard MR. 2014. Niche construction initiates the evolution of mutualistic interactions. Ecol Lett 17:1257-1264. http://dx.doi.org/10.1111/ele.12331.</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">The multi-organismal insect: diversity and function of resident microorganisms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Douglas</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev-ento-01814-020822</idno>
+		<ptr target="http://dx.doi.org/10.1146/annurev-ento-01814-020822" />
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Entomol</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="17" to="34" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Douglas AE. 2015. The multi-organismal insect: diversity and function of resident microorganisms. Annu Rev Entomol 60:17-34. http://dx.doi.org /10.1146/annurev-ento-01814-020822.</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Kaltenpoth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Roeser-Mueller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Koehler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Peterson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">Y</forename><surname>Nechitaylo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">W</forename><surname>Stubblefield</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Herzner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Seger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Strohm</surname></persName>
+		</author>
+		<title level="m">Partner choice and fidelity stabilize coevolution in a Cretaceous-age defensive symbiosis</title>
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kaltenpoth M, Roeser-Mueller K, Koehler S, Peterson A, Nechitaylo TY, Stubblefield JW, Herzner G, Seger J, Strohm E. 2014. Partner choice and fidelity stabilize coevolution in a Cretaceous-age defensive symbiosis.</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title/>
+		<idno type="DOI">10.1073/pnas.1400457111</idno>
+		<ptr target="http://dx.doi.org/10.1073/pnas.1400457111" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="6359" to="6364" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Proc Natl Acad Sci U S A 111:6359 -6364. http://dx.doi.org/10.1073/pnas .1400457111.</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">The evolution of agriculture in insects</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><forename type="middle">G</forename><surname>Mueller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">M</forename><surname>Gerardo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">K</forename><surname>Aanen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">L</forename><surname>Six</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">R</forename><surname>Schultz</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev.ecolsys.36.102003.152626</idno>
+		<ptr target="http://dx.doi.org/10.1146/annurev.ecolsys.36.102003.152626" />
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Ecol Syst</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="563" to="595" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mueller UG, Gerardo NM, Aanen DK, Six DL, Schultz TR. 2005. The evolution of agriculture in insects. Annu Rev Ecol Syst 36:563-595. http: //dx.doi.org/10.1146/annurev.ecolsys.36.102003.152626.</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Identifying strains that contribute to complex diseases through the study of microbial inheritance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename><surname>Faith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J-F</forename><surname>Colombel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">I</forename><surname>Gordon</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1418781112</idno>
+		<ptr target="http://dx.doi.org/10.1073/pnas.1418781112" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="633" to="640" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Faith JJ, Colombel J-F, Gordon JI. 2015. Identifying strains that contrib- ute to complex diseases through the study of microbial inheritance. Proc Natl Acad Sci U S A 112:633-640. http://dx.doi.org/10.1073/pnas .1418781112.</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Ribosomal Database Project: data and tools for high throughput rRNA analysis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Cole</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Fish</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Chai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">M</forename><surname>Mcgarrell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">T</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Porras-Alfaro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">R</forename><surname>Kuske</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Tiedje</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkt1244</idno>
+		<ptr target="http://dx.doi.org/10.1093/nar/gkt1244" />
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="633" to="642" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cole JR, Wang Q, Fish JA, Chai B, McGarrell DM, Sun Y, Brown CT, Porras-Alfaro A, Kuske CR, Tiedje JM. 2014. Ribosomal Database Proj- ect: data and tools for high throughput rRNA analysis. Nucleic Acids Res 42:D633-D642. http://dx.doi.org/10.1093/nar/gkt1244.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
