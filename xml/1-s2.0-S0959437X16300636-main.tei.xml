@@ -1,0 +1,3045 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/grace/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Genomics and development of Nematostella vectensis and other anthozoans</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2016-06-16">16th June 2016</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Fabian</forename><surname>Rentzsch</surname></persName>
+							<email>fabian.rentzsch@uib.no</email>
+							<affiliation key="aff0">
+								<orgName type="department">Sars International Centre for Marine Molecular Biology</orgName>
+								<orgName type="institution">University of Bergen</orgName>
+								<address>
+									<addrLine>Thormøhlensgt 55</addrLine>
+									<postCode>5008</postCode>
+									<settlement>Bergen</settlement>
+									<country key="NO">Norway</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ulrich</forename><surname>Technau</surname></persName>
+							<email>ulrich.technau@univie.ac.at</email>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Molecular Evolution and Development</orgName>
+								<orgName type="department" key="dep2">Faculty of Life Sciences</orgName>
+								<orgName type="institution">University of Vienna</orgName>
+								<address>
+									<addrLine>Althanstrasse 14</addrLine>
+									<postCode>1090</postCode>
+									<settlement>Vienna</settlement>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Detlev</forename><surname>Arendt</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cassandra</forename><surname>Extavour</surname></persName>
+						</author>
+						<title level="a" type="main">Genomics and development of Nematostella vectensis and other anthozoans</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2016-06-16">16th June 2016</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.gde.2016.05.024</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-09-14T02:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>Due to their rather simple body plan with only few organs and a low number of cell types, cnidarians have long been recognized as an important animal group for evolutionary comparisons of animal body plans. Recent studies have shown, however, that the genomes of cnidarians and their epigenetic and posttranscriptional regulation are more complex than their morphology might suggest. How these complex genomes are deployed during embryonic development is an open question. With a focus on the sea anemone Nematostella vectensis we describe new findings about the development of the nervous system from neural progenitor cells and how Wnt and BMP signalling control axial patterning. These studies show that beyond evolutionary comparisons, cnidarian model organisms can provide new insights into generic questions in developmental biology.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>As the sister group to bilaterians, cnidarians occupy a phylogenetically informative position for understanding the evolutionary origin of features of bilaterian genomes and developmental processes <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2]</ref>. The development and the body plan of cnidarian polyps differ from bilaterians in some key aspects: they develop from only two germ layers, lack a morphologically centralized nervous system and they have (except for some species) only one externally visible body axis. Cnidarians can be subdivided into two major groups, the anthozoans and the medusozoans. While most cnidarians develop via a planula larva into sessile polyps, the large group of medusozoans possesses an additional life stage, the free-swimming medusa, which develops from the polyp by a budding process or by strobilation <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b3">4 ]</ref> (see article by Leclè re and Houliston, in this issue). Despite these clear developmental and morphological differences, cnidarians possess a repertoire of developmental genes that is remarkably similar to that of bilaterians <ref type="bibr" target="#b5">[5,</ref><ref type="bibr" target="#b6">6]</ref>. This combination of genomic similarity and morphological dissimilarity can be exploited to understand how changes in the deployment of conserved developmental regulators may have contributed to the evolution of bilaterian body plans.</p><p>Here we describe recent advances in the understanding of the genome biology and the embryonic development of anthozoans with particular focus on Nematostella vectensis, a sea anemone, which is currently the most thoroughly studied anthozoan model system and for which a welldeveloped experimental toolkit is available.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The experimental toolkits and resources for anthozoan model systems</head><p>While genomic and transcriptomic resources are available for many anthozoans (e.g. <ref type="bibr" target="#b5">[5,</ref><ref type="bibr" target="#b7">[7]</ref><ref type="bibr" target="#b8">[8]</ref><ref type="bibr" target="#b9">[9]</ref><ref type="bibr" target="#b10">[10]</ref><ref type="bibr" target="#b11">[11]</ref><ref type="bibr" target="#b12">[12]</ref><ref type="bibr" target="#b13">[13]</ref><ref type="bibr" target="#b14">[14]</ref><ref type="bibr" target="#b15">15 ]</ref>), access to embryonic material can be a bottleneck for experimental work on their development. Nematostella can be maintained in the lab over its full life cycle, with a generation time of about four months and simple protocols for the induction of gametogenesis throughout the year <ref type="bibr" target="#b17">[16,</ref><ref type="bibr" target="#b18">17]</ref>. This has facilitated the adoption of many molecular techniques, including in situ hybridization, gene knockdown, stable transgenesis and CRISPR/Cas9-mediated genome editing <ref type="bibr">[18-20,21 ,22,23]</ref>. Aiptasia sp. is a sea anemone that is becoming a model for the cell biology and genetics of cnidarian-dinoflagellate symbiosis ( <ref type="bibr" target="#b25">[24,</ref><ref type="bibr" target="#b26">25]</ref> and see the following section). In the wild, Aiptasia can spawn throughout the year <ref type="bibr" target="#b27">[26]</ref> and recently, a protocol for the induction of spawning in the laboratory, based on simulation of the lunar cycle, has been introduced <ref type="bibr" target="#b28">[27]</ref>. While the maintenance of Aiptasia throughout the full life cycle has not been reported yet, the facilitated access to embryos will likely lead to the expansion of the available molecular methodology that is required for in-depth analyses of developmental processes (e.g. <ref type="bibr" target="#b29">[28]</ref>). In contrast to Nematostella and Aiptasia, Acropora coral species can be used as models for calcification (e.g. <ref type="bibr" target="#b30">[29]</ref><ref type="bibr" target="#b31">[30]</ref><ref type="bibr" target="#b32">[31]</ref><ref type="bibr" target="#b33">[32]</ref>), which is of general interest for our understanding of how coral reefs are built. Many Acropora species spawn only once or twice per year and there is currently no published protocol for the induction of gametogenesis. Despite this limitation, gene expression studies in Acropora millepora have been important for delimiting the degree of conservation of developmental programs within hexacorallian anthozoans (e.g. <ref type="bibr" target="#b34">[33]</ref><ref type="bibr" target="#b35">[34]</ref><ref type="bibr" target="#b36">[35]</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Content and organization of anthozoan genomes</head><p>Nematostella was the first non-bilaterian animal whose genome was sequenced <ref type="bibr" target="#b5">[5]</ref>. This revealed a surprisingly conserved genetic architecture, reflecting an unanticipated genome complexity ancestral for cnidarians and bilaterians. For instance, Nematostella has preserved 11 out of 12 known subfamilies of Wnt signalling molecules <ref type="bibr" target="#b37">[36]</ref>, many of which were lost in Drosophila and Caenorhabditis. It also possesses virtually all known bone morphogenetic protein (BMP) and Wnt antagonists, while the ecdysozoan model organisms have a very restricted set of these antagonists. During the last few years the genomes of several other cnidarian species have been sequenced and revealed striking patterns of conservation, but also significant lineage-specific gains as well as losses. Among the anthozoans, the genomes of the sea anemone Aiptasia pallida <ref type="bibr" target="#b15">[15 ]</ref> and the reef-building coral Acropora digitifera <ref type="bibr" target="#b13">[13 ]</ref> have been sequenced. Both contain (in contrast to Nematostella) the dinoflagellate Symbiodinium sp. as symbiotic algae and their genomes might offer insights into selection, uptake, maintenance and dependence of the symbiont <ref type="bibr" target="#b38">[37]</ref>. For instance, the lack of an enzyme for cysteine synthesis, Cystathionine-b-synthase, in the coral, but not the sea anemone genome might reflect the less strict dependency of the sea anemone on the symbiont <ref type="bibr">[13 ,15 ]</ref>. Host-symbiont interactions are crucial for symbiogenesis and may rely on components related to the innate immune system. Interestingly, both Aiptasia and some corals, but not Nematostella, have independently expanded the repertoire of cnidarian-specific Ficolin-like proteins (CnFL), which have similarity to pattern recognition receptors and may play a role in host-symbiont and/ or host-microbe interactions <ref type="bibr" target="#b15">[15 ]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The regulation of the Nematostella genome and transcriptome</head><p>The stunning complexity of the gene repertoire of anthozoan genomes is in apparent contradiction to the relative simplicity of the body plan of corals and sea anemones. To address whether the cis-regulatory landscape of cnidarians is simpler or similar to that of bilaterians, several histone modifications characteristic of enhancers and promoters have been mapped by ChIPseq on the genome-wide level in Nematostella <ref type="bibr">[38 ,39]</ref>. The results showed that the 'grammar' of histone codes is preserved in cnidarians and therefore must predate the origin of eumetazoans. Distinct subsets of enhancers are deployed at gastrula and planula stages, respectively, suggesting a developmental regulation of enhancer activity. Like in bilaterians, developmental genes tend to have more enhancers than house-keeping genes. Thus, the general logic of cis-regulation is conserved and predates the origin of Eumetazoa.</p><p>Besides cis-regulation, post-transcriptional regulation by miRNAs has been a major focus of research during the last decade <ref type="bibr" target="#b42">[40]</ref>. In a pioneering study assessing the miRNA content in basal metazoans as well as choanoflagellates, 40 miRNAs were discovered in Nematostella <ref type="bibr" target="#b43">[41]</ref>. Recently, this number was expanded to 87 by sequencing 8 developmental stages <ref type="bibr" target="#b44">[42 ]</ref>. This is in line with the 126 miRNA loci detected in Hydra <ref type="bibr" target="#b46">[43]</ref>. Surprisingly, cnidarian miRNAs predominantly bind to their targets not only with the seven nucleotide long seed region, but with almost perfect 22-24 nucleotide complementarity. This leads -through Argonaute protein -to slicing of the target mRNA at position 10/11 of the binding site of the miRNA <ref type="bibr" target="#b44">[42 ]</ref>. This is fundamentally different than the predominant 'seed-matching' mechanism in bilaterians, but very similar to the mechanism of plant miRNAs, which are thought to have evolved independently <ref type="bibr" target="#b47">[44]</ref>. Notably, all non-bilaterians (Ctenophora, Cnidaria, Porifera, Placozoa) possess a biogenesis factor, HYL-1 that was considered to be plant-specific <ref type="bibr" target="#b48">[45]</ref>. Although it remains to be shown, whether plants and cnidarians really use the same miRNA biogenesis pathway, these observations raise the possibility that plant and animal miRNAs have a common origin, derived from a more ancient siRNA-like mechanism.</p><p>Significant advances have also been made recently on the proteomics of specific developmental stages and cell types of Nematostella and other cnidarians (e.g. <ref type="bibr" target="#b49">[46]</ref><ref type="bibr" target="#b50">[47]</ref><ref type="bibr" target="#b51">[48]</ref><ref type="bibr" target="#b52">[49]</ref><ref type="bibr" target="#b53">[50]</ref><ref type="bibr" target="#b54">[51]</ref>). Parallel studies of transcriptomes and proteomes under various physiological and developmental conditions are now feasible and will become more important in the future <ref type="bibr">[52 ,53]</ref>. They will likely also foster more detailed investigations of the function and impact of miRNAs on the protein network.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Patterning of the body axes</head><p>In bilaterians, the patterning of the anterior-posterior (A-P) axis is a key determinant of the orderly formation of many body structures like organs and appendages and changes in A-P patterning can contribute to the evolution of body plans. Cnidarian polyps, in contrast, lack organs and display only few morphologically distinguishable features along their primary body axis (termed the oral-aboral axis). Anthozoans also have a secondary body axis (termed the directive axis and running orthogonal to the oral-aboral axis), which manifests in rather subtle asymmetries of the mesenteries and a longitudinal ciliated groove, the syphonoglyph and which can be visible by the shape of the oral opening. Whether the comparably low morphological complexity along the cnidarian body axes is due to different or less elaborate patterning systems has been a central question for cnidarian developmental biology over the last decades.</p><p>It is now clear that in Nematostella (and other cnidarians) Wnt/b-catenin signalling is a key determinant for the development of the oral domain. Wnt genes are expressed in staggered domains in the oral half of the embryo <ref type="bibr" target="#b37">[36]</ref>, a b-catenin-GFP fusion construct is preferentially stabilized in the oral territory <ref type="bibr" target="#b57">[54]</ref><ref type="bibr" target="#b58">[55]</ref><ref type="bibr" target="#b60">[56]</ref>, pharmacological overactivation of the pathway expands the expression of oral marker genes at the expense of aboral markers <ref type="bibr">[55 ,57]</ref>, inhibition of the b-catenin co-factor NvTcf has the opposite effect <ref type="bibr" target="#b58">[55 ]</ref> and NvWnt1 and NvWnt3 synergistically can induce a secondary body axis, when ectopically expressed in the aboral domain <ref type="bibr" target="#b62">[58]</ref>. Already at blastula stage, the oral domain is subdivided into at least four subdomains that can be distinguished by gene expression <ref type="bibr" target="#b58">[55 ]</ref>. Interestingly, despite the importance of Wnt/bcatenin signalling for oral development, a number of the genes in the oral-most domain (termed the central domain) are upregulated upon inhibition of NvTcf and Nvb-catenin, suggesting additional factor(s) that are required for the formation of the oral pole <ref type="bibr">[55 ,59]</ref>. The development of the aboral half of the embryo is also controlled by conserved patterning genes, with the transcription factor NvSix3/6 playing a key role <ref type="bibr" target="#b64">[60 ]</ref>. However, the initial formation of the NvSix3/6-expressing aboral domain is strictly dependent on Nvb-catenin <ref type="bibr" target="#b63">[59]</ref>, showing that Nvb-catenin activity is essential for the first steps in the patterning of the entire oral-aboral axis. This is in line with the early localization of Dishevelled at the oral pole and the observation that upon bisection of 8-cell stage embryos, only the oral half is able to restore the normal pattern and form a primary polyp <ref type="bibr" target="#b66">[61,</ref><ref type="bibr" target="#b67">62]</ref>.</p><p>The patterning of the directive axis in Nematostella is controlled by BMP signalling <ref type="bibr" target="#b68">[63]</ref>. This pathway is important for the patterning of the dorsal-ventral axis in bilaterians, but it is currently not clear whether these axes are homologous. Although the components of this pathway are well conserved, there are significant differences in their deployment in Nematostella. In contrast to bilaterians, NvBMP2/4 and NvBMP5-8 are co-expressed with the BMP-binding protein NvChordin. Initially, the three genes are expressed around the blastopore, but soon become restricted to one side <ref type="bibr" target="#b69">[64,</ref><ref type="bibr" target="#b70">65]</ref>. Labelling of the active form of the intracellular signal transducer (pSmad1/ 5/8), however, revealed that the pathway is active on the opposite side <ref type="bibr">[66 ,67 ]</ref>. This suggests that NvChordin functions to block NvBMP signalling locally and to transport it away from its source. This is different from the situation in Drosophila and vertebrates, where Chordin is expressed away from the main site of BMP expression and is involved in concentrating BMPs at the site of their production. Perhaps the more interesting difference to bilaterians is, however, the negative, instead of positive, autoregulation of BMPs. The differences in the transcriptional control are likely to be of importance to understand the evolution of BMP signalling networks in which the same players are used at different positions within the network, as is the case also for Nematostella <ref type="bibr" target="#b68">[63]</ref>.</p><p>There has been considerable progress in the work on axial patterning in Nematostella, but many key questions remain to be addressed ( <ref type="figure" target="#fig_0">Figure 1)</ref>: what is the mechanism of the initial symmetry break along the directive axis? How are b-catenin signalling components localized to the animal pole of the zygote in cnidarians (in contrast to being vegetally localized in bilaterians)? What is the role of individual Wnt ligands in the patterning of the oralaboral axis and what is it actually, that becomes patterned? Interestingly, two developmental regulators of axial patterning, NvSix3/6 and NvHoxD are targeted by specific miRNAs, yet the impact of this post-transcriptional regulation is unknown <ref type="figure" target="#fig_1">(Figure 2, [42 ]</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Development of the nervous system</head><p>The nervous system of cnidarians comprises sensory cells, sensory-motor cells, interneurons (termed ganglion cells in cnidarians) and nematocytes, the highly specialized stinging cells, each consisting of several subgroups <ref type="bibr" target="#b74">[68]</ref><ref type="bibr" target="#b75">[69]</ref><ref type="bibr" target="#b76">[70]</ref>. There seem to be no stereotypic positions of specific neurons in different specimens.</p><p>Besides condensations in certain parts of the body, the nervous system of anthozoans is organized mainly as a nerve net formed both in the endoderm and ectoderm <ref type="bibr" target="#b74">[68]</ref><ref type="bibr" target="#b75">[69]</ref><ref type="bibr" target="#b76">[70]</ref><ref type="bibr" target="#b77">[71]</ref><ref type="bibr" target="#b78">[72]</ref>. Unlike in vertebrates and insects (and possibly many other bilaterians), the gradient of BMP signalling does not determine the site of neurogenesis or modulate neuronal differentiation <ref type="bibr">[63,66 ,67 ]</ref>. One subpopulation of GLWamide + neurons, however, shows an early larval axial asymmetry and is affected by manipulation of Wnt and BMP signalling <ref type="bibr" target="#b79">[73 ]</ref>. Neurons are -at least partially -generated by dedicated neural progenitor cells (NPCs) which express the transcription factor NvSoxB(2) [74 ] and whose number is negatively regulated by Notch signalling <ref type="bibr">[75 ,76,77]</ref>. Basic helix-loop-helix (bHLH) genes of the atonal (ath) and achaete scute (ash) families act as additional positive regulators of neurogenesis, with NvAth-like acting at the level of the NPCs and NvAshA acting mainly downstream of the other two genes in the development of a more restricted set of neurons <ref type="bibr" target="#b81">[77,</ref><ref type="bibr" target="#b82">78]</ref>. These studies revealed significant similarities between anthozoan and bilaterian neurogenesis. The origin and development of NPCs in Nematostella is still poorly understood, but may serve as a paradigm for comparative studies on stem cell differentiation and the generation of cell type diversity.</p><p>The nerve net-like organization has for a long time attracted interest in the processing of information and the generation of behaviour in cnidarian nervous systems. The availability of stable transgenesis and the possibility to manipulate gene function now provides exciting opportunities to obtain new insights in these areas <ref type="bibr" target="#b21">[20,</ref><ref type="bibr" target="#b83">79]</ref>. In a developmental perspective, the formation of neural connectivity via neurite guidance and synaptogenesis will likely be an important topic, in particular because of the unusual distributed origin of neurons. For analyses of neural circuits, optogenetic tools like calcium sensors for neural activity and light controlled ion channels can be expected to become important. Data acquired with these tools can be integrated with recent studies on the physiological properties of several classes of neuronal ion channels to learn about the molecular basis of conduction and transmission in cnidarian nerve nets <ref type="bibr" target="#b84">[80]</ref><ref type="bibr" target="#b85">[81]</ref><ref type="bibr" target="#b86">[82]</ref><ref type="bibr" target="#b87">[83]</ref>. Eventually, this would provide essential knowledge for understanding the evolution of centralized nervous systems in bilaterians.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Future prospects in technique and resource development</head><p>The availability of stable transgenesis and genome editing technology in Nematostella allows the adoption of the wide repertoire of tools developed in bilaterian model systems. For example, inducible and cell-type specific manipulation of gene function, targeted changes in histone modifications and ablation of specific cell populations are all in reach. The increasing number of fluorescent reporter lines will enable the generation of cell type specific transcriptome and proteome resources as a tool to test hypotheses about cell type evolution. Shortening of the generation time by modified culture conditions, the ease of genome sequencing and a growing research community interested in using Nematostella represent the opportunity to conduct mutagenesis screens, which could be an informative approach to better understand the roles of non-conserved genes. An important technology that is still missing is long-time live imaging, which will be essential for exploiting the potential of reporter transgenes. For the other promising anthozoan models, improved culture conditions and inducible year-round spawning will be the key for further development of the experimental toolkit. An important addition for understanding the diversity of anthozoan developmental biology would be the establishment of an octocorallian model system with accessible embryogenesis. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>Nematostella has become a model organism not only for comparative studies, but also to address generic questions in developmental biology. In addition to the areas discussed here, the expanding resources and experimental toolkit will benefit research that takes advantage of specific aspects of the biology of Nematostella, as for example the high tolerance to varying environmental conditions and the high regenerative capacity <ref type="bibr" target="#b88">[84]</ref><ref type="bibr" target="#b89">[85]</ref><ref type="bibr" target="#b90">[86]</ref><ref type="bibr" target="#b91">[87]</ref><ref type="bibr" target="#b92">[88]</ref>. Importantly, the advancement of anthozoan model systems for symbiosis, calcification and stress biology is imperative for attempts to counteract the global decline of coral reefs (e.g. <ref type="bibr" target="#b25">[24,</ref><ref type="bibr" target="#b28">27,</ref><ref type="bibr" target="#b93">[89]</ref><ref type="bibr" target="#b94">[90]</ref><ref type="bibr" target="#b95">[91]</ref><ref type="bibr" target="#b96">[92]</ref>). </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 -</head><label>1</label><figDesc>Genetics &amp; Development Wnt and BMP signalling in Nematostella axial patterning. (a) b-Catenin signalling components (indicated in orange) are localized to the animal pole in cnidarians, but to the vegetal pole in bilaterians. Nematostella Wnt genes are expressed in distinct domains along the oral-aboral axis, but it is unclear whether their expression domains correspond to specific domains of the nervous system. (b) The expression NvBMPs is radialized upon BMP knockdown and suppressed upon NvChordin knockdown, revealing an unusual negative autoregulation. (c) Activation of Smad1/5/8 (shown in magenta) starts in a small domain along the directive axis of the Nematostella gastrula. (b and c) are oral views. Images in (a) from [60 ], in (b) and (c) from [67 ].</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2</head><label>2</label><figDesc>Opinion in Genetics &amp; Development miRNAs as regulators of embryonic development in Nematostella. (a) pri-miRNA-2026 is co-expressed with its target NvHoxD in the endoderm of the planula. (b) miRNA-2025 is expressed in the same aboral domain as its target NvSix3/6, however, while NvSix3/6 is expressed in the ectoderm, miRNA-2025 is expressed in the endoderm. The roles of the two miRNAs in axial patterning have not been tested. Lateral views with the aboral pole to the left are shown. Images from [42 ].</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">Current Opinion in Genetics &amp; Development 2016, 39:63-70www.sciencedirect.com</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">www.sciencedirect.com Current Opinion in Genetics &amp; Development 2016, 39:63-70</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgements</head><p>Work in FRs lab is funded by the Sars Centre core budget provided by the University of Bergen and the Research Council of Norway (NFR). UT receives funding from the Austrian Science Foundation (FWF, P24858, P27353 and P25993).</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This study provides the first example of a neuron population that is asymetrically localized along the directive axis and shows that its development is regulated by BMP signalling. Wnt/b-catenin signalling and orally expressed sox and bHLH genes are required for the proper neurogenesis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>74.</head><p>Richards GS, Rentzsch F: Transgenic analysis of a SoxB gene reveals neural progenitor cells in the cnidarian Nematostella vectensis. Development 2014, 141:4681-4689. A transgenic line identifies a population of mitotically active cells that give rise to the major neural cell types in Nematostella. A soxB gene is shown to be essential for neurogenesis, revealing an ancient role of the gene family in neural development.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>75.</head><p>Layden MJ, Martindale MQ: Non-canonical Notch signaling represents an ancestral mechanism to regulate neural differentiation. Evodevo 2014, 5:30. This paper shows that the achaete scute gene NvAshA acts downstream of NvNotch signalling and provides evidence that NvNotch acts via a noncanonical, SuH and hes-independent pathway.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Animal phylogeny and its evolutionary implications</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">W</forename><surname>Dunn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Giribet</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">D</forename><surname>Edgecombe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Hejnol</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Ecol Evol Syst</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="371" to="395" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dunn CW, Giribet G, Edgecombe GD, Hejnol A: Animal phylogeny and its evolutionary implications. Annu Rev Ecol Evol Syst 2014, 45:371-395.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Technau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Genikhovich</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Je:</forename><surname>Kraus</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Cnidaria</surname></persName>
+		</author>
+		<title level="m">Evolutionary Developmental Biology of Invertebrates</title>
+		<editor>Wanninger A. Springer</editor>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="115" to="163" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Technau U, Genikhovich G, Kraus JE: Cnidaria. In Evolutionary Developmental Biology of Invertebrates, vol. 1. Edited by Wanninger A. Springer; 2015:115-163.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Adoption of conserved developmental genes in development and origin of the medusa body plan</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Kraus</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Fredman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Khalturin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Technau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Evodevo</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">23</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kraus JE, Fredman D, Wang W, Khalturin K, Technau U: Adoption of conserved developmental genes in development and origin of the medusa body plan. Evodevo 2015, 6:23.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Regulation of polyp-to-jellyfish transition in Aurelia aurita</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Fuchs</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Graspeuntner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Insua</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">M</forename><surname>Herbst</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Dirksen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Bohm</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Hemmrich</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Sommer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Biol</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="263" to="273" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fuchs B, Wang W, Graspeuntner S, Li Y, Insua S, Herbst EM, Dirksen P, Bohm AM, Hemmrich G, Sommer F et al.: Regulation of polyp-to-jellyfish transition in Aurelia aurita. Curr Biol 2014, 24:263-273.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">This study shows a time-dependent increase of the non-conserved transcript CL390 upon exposure to strobilation-inducing cold water. Gain-of-function and loss-of-function experiments identify a positive role for CL390 and for a retinoic acid receptor in strobilation, thus revealing conserved and taxon-specific aspects of this life cycle transition</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">This study shows a time-dependent increase of the non-conserved transcript CL390 upon exposure to strobilation-inducing cold water. Gain-of-function and loss-of-function experiments identify a positive role for CL390 and for a retinoic acid receptor in strobilation, thus revealing conserved and taxon-specific aspects of this life cycle transition.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Sea anemone genome reveals ancestral eumetazoan gene repertoire and genomic organization</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">H</forename><surname>Putnam</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Srivastava</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Hellsten</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Dirks</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Chapman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Salamov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Terry</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Shapiro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Lindquist</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">V</forename><surname>Kapitonov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">317</biblScope>
+			<biblScope unit="page" from="86" to="94" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Putnam NH, Srivastava M, Hellsten U, Dirks B, Chapman J, Salamov A, Terry A, Shapiro H, Lindquist E, Kapitonov VV et al.: Sea anemone genome reveals ancestral eumetazoan gene repertoire and genomic organization. Science 2007, 317:86-94.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Maintenance of ancestral complexity and non-metazoan genes in two basal cnidarians</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Technau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Rudd</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Maxwell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">M</forename><surname>Gordon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Saina</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">C</forename><surname>Grasso</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">C</forename><surname>Hayward</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">W</forename><surname>Sensen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Saint</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">W</forename><surname>Holstein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Genet</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="633" to="639" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Technau U, Rudd S, Maxwell P, Gordon PM, Saina M, Grasso LC, Hayward DC, Sensen CW, Saint R, Holstein TW et al.: Maintenance of ancestral complexity and non-metazoan genes in two basal cnidarians. Trends Genet 2005, 21:633-639.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Transcriptome deepsequencing and clustering of expressed isoforms from Favia corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pooyaei</forename><surname>Mehr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">F</forename><surname>Desalle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Kao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">T</forename><surname>Narechania</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Tchernov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Pieribone</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Gruber</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">F</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genomics</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">546</biblScope>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pooyaei Mehr SF, DeSalle R, Kao HT, Narechania A, Han Z, Tchernov D, Pieribone V, Gruber DF: Transcriptome deep- sequencing and clustering of expressed isoforms from Favia corals. BMC Genomics 2013, 14:546.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Production of a reference transcriptome and transcriptomic database (EdwardsiellaBase) for the lined sea anemone, Edwardsiella lineata, a parasitic cnidarian</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Stefanik</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">J</forename><surname>Lubinski</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">R</forename><surname>Granger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">L</forename><surname>Byrd</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Reitzel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Defilippo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Lorenc</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Finnerty</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genomics</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">71</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stefanik DJ, Lubinski TJ, Granger BR, Byrd AL, Reitzel AM, DeFilippo L, Lorenc A, Finnerty JR: Production of a reference transcriptome and transcriptomic database (EdwardsiellaBase) for the lined sea anemone, Edwardsiella lineata, a parasitic cnidarian. BMC Genomics 2014, 15:71.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Transcriptome analysis of the scleractinian coral Stylophora pistillata</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Karako-Lampert</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Zoccola</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Salmon-Divon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Katzenellenbogen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Tambutte</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Bertucci</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Hoegh-Guldberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Deleury</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Allemand</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Levy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLOS ONE</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">88615</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Karako-Lampert S, Zoccola D, Salmon-Divon M, Katzenellenbogen M, Tambutte S, Bertucci A, Hoegh-Guldberg O, Deleury E, Allemand D, Levy O: Transcriptome analysis of the scleractinian coral Stylophora pistillata. PLOS ONE 2014, 9:e88615.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Compartment-specific transcriptomics in a reef-building coral exposed to elevated temperatures</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">B</forename><surname>Mayfield</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">B</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">S</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">Y</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">H</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="5816" to="5830" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mayfield AB, Wang YB, Chen CS, Lin CY, Chen SH: Compartment-specific transcriptomics in a reef-building coral exposed to elevated temperatures. Mol Ecol 2014, 23:5816-5830.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Diurnal and nocturnal transcriptomic variation in the Caribbean staghorn coral, Acropora cervicornis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">M</forename><surname>Hemond</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">V</forename><surname>Vollmer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="4460" to="4473" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hemond EM, Vollmer SV: Diurnal and nocturnal transcriptomic variation in the Caribbean staghorn coral, Acropora cervicornis. Mol Ecol 2015, 24:4460-4473.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Zapata</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">E</forename><surname>Goetz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Howison</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Siebert</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">H</forename><surname>Church</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">M</forename><surname>Sanders</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">L</forename><surname>Ames</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">S</forename><surname>Mcfadden</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">C</forename><surname>France</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Phylogenomic analyses support traditional relationships within cnidaria</title>
+		<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">139068</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zapata F, Goetz FE, Smith SA, Howison M, Siebert S, Church SH, Sanders SM, Ames CL, McFadden CS, France SC et al.: Phylogenomic analyses support traditional relationships within cnidaria. PLoS ONE 2015, 10:e0139068.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The first sequenced coral genome provides insights into anthozoan genome evolution and allows together with Refs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Shinzato</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Shoguchi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Kawashima</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Hamada</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Hisata</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Tanaka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Fujie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Fujiwara</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Koyanagi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Ikuta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">476</biblScope>
+			<biblScope unit="page" from="320" to="323" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note>Using the Acropora digitifera genome to understand coral responses to environmental change. 4,13] the identification of candidate genes for ecologically important coral-specific processes like calcification</note>
+	<note type="raw_reference">Shinzato C, Shoguchi E, Kawashima T, Hamada M, Hisata K, Tanaka M, Fujie M, Fujiwara M, Koyanagi R, Ikuta T et al.: Using the Acropora digitifera genome to understand coral responses to environmental change. Nature 2011, 476:320-323. The first sequenced coral genome provides insights into anthozoan genome evolution and allows together with Refs. [4,13] the identification of candidate genes for ecologically important coral-specific processes like calcification.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The dynamic genome of Hydra</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Chapman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">F</forename><surname>Kirkness</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Simakov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">E</forename><surname>Hampson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Mitros</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Weinmaier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Rattei</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">G</forename><surname>Balasubramanian</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Borman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Busam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">464</biblScope>
+			<biblScope unit="page" from="592" to="596" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chapman JA, Kirkness EF, Simakov O, Hampson SE, Mitros T, Weinmaier T, Rattei T, Balasubramanian PG, Borman J, Busam D: The dynamic genome of Hydra. Nature 2010, 464:592-596.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">The genome of Aiptasia, a sea anemone model for coral symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Baumgarten</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Simakov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">Y</forename><surname>Esherick</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">J</forename><surname>Liew</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">M</forename><surname>Lehnert</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">T</forename><surname>Michell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">A</forename><surname>Hambleton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Guse</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E</forename><surname>Oates</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="11893" to="11898" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baumgarten S, Simakov O, Esherick LY, Liew YJ, Lehnert EM, Michell CT, Li Y, Hambleton EA, Guse A, Oates ME et al.: The genome of Aiptasia, a sea anemone model for coral symbiosis. Proc Natl Acad Sci U S A 2015, 112:11893-11898.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">An important resource for studies on the genetic and cellular basis of the uptake and maintenance of dinoflagellate symbionts in this model sea anemone. Genome comparisons identify expansions of candidate genes involved in host-symbiont interaction</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">An important resource for studies on the genetic and cellular basis of the uptake and maintenance of dinoflagellate symbionts in this model sea anemone. Genome comparisons identify expansions of candidate genes involved in host-symbiont interaction.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The culture, sexual and asexual reproduction, and growth of the sea anemone Nematostella vectensis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Hand</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Uhlinger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol Bull</title>
+		<imprint>
+			<biblScope unit="volume">182</biblScope>
+			<biblScope unit="page" from="169" to="176" />
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hand C, Uhlinger K: The culture, sexual and asexual reproduction, and growth of the sea anemone Nematostella vectensis. Biol Bull 1992, 182:169-176.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Induction of gametogenesis in the basal cnidarian Nematostella vectensis (Anthozoa)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">H</forename><surname>Fritzenwanker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Technau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dev Genes Evol</title>
+		<imprint>
+			<biblScope unit="volume">212</biblScope>
+			<biblScope unit="page" from="99" to="103" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fritzenwanker JH, Technau U: Induction of gametogenesis in the basal cnidarian Nematostella vectensis (Anthozoa). Dev Genes Evol 2002, 212:99-103.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Gastrulation in the cnidarian Nematostella vectensis occurs via invagination not ingression</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">R</forename><surname>Magie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Daly</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">Q</forename><surname>Martindale</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dev Biol</title>
+		<imprint>
+			<biblScope unit="volume">305</biblScope>
+			<biblScope unit="page" from="483" to="497" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Magie CR, Daly M, Martindale MQ: Gastrulation in the cnidarian Nematostella vectensis occurs via invagination not ingression. Dev Biol 2007, 305:483-497.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Technau U: FGF signalling controls formation of the apical sensory organ in the cnidarian Nematostella vectensis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Rentzsch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">H</forename><surname>Fritzenwanker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">B</forename><surname>Scholz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Development</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="page" from="1761" to="1769" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rentzsch F, Fritzenwanker JH, Scholz CB, Technau U: FGF signalling controls formation of the apical sensory organ in the cnidarian Nematostella vectensis. Development 2008, 135:1761-1769.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Technau U: A muscle-specific transgenic reporter line of the sea anemone Nematostella vectensis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Renfer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Amon-Hassenzahl</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">R</forename><surname>Steinmetz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="104" to="108" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Renfer E, Amon-Hassenzahl A, Steinmetz PR, Technau U: A muscle-specific transgenic reporter line of the sea anemone Nematostella vectensis. Proc Natl Acad Sci U S A 2009, 107: 104-108.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">TALEN and CRISPR/Cas9-mediated genome editing in the earlybranching metazoan Nematostella vectensis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Ikmi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Mckinney</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">M</forename><surname>Delventhal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">C</forename><surname>Gibson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">5486. By implementaing TALENs and the CRIPR/Cas9 system for genome editing in Nematostella, Ikmi et al. open a broad spectrum of possibilities for descriptive and functional studies</title>
+		<imprint>
+			<date type="published" when="2014" />
+			<biblScope unit="volume">5</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ikmi A, McKinney SA, Delventhal KM, Gibson MC: TALEN and CRISPR/Cas9-mediated genome editing in the early- branching metazoan Nematostella vectensis. Nat Commun 2014, 5:5486. By implementaing TALENs and the CRIPR/Cas9 system for genome editing in Nematostella, Ikmi et al. open a broad spectrum of possibilities for descriptive and functional studies.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The rise of the starlet sea anemone Nematostella vectensis as a model system to investigate development and regeneration</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Layden</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Rentzsch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Rottinger</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/wdev.222</idno>
+		<ptr target="http://dx.doi.org/10.1002/wdev.222" />
+	</analytic>
+	<monogr>
+		<title level="j">Wiley Interdiscip Rev Dev Biol</title>
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Layden MJ, Rentzsch F, Rottinger E: The rise of the starlet sea anemone Nematostella vectensis as a model system to investigate development and regeneration. Wiley Interdiscip Rev Dev Biol 2016 http://dx.doi.org/10.1002/wdev.222.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">Molecular insights into the origin of the Hox-TALE patterning system</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Hudry</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Thomas-Chollier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Volovik</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Duffraisse</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Dard</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Frank</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Technau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Merabet</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014" />
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">1939</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hudry B, Thomas-Chollier M, Volovik Y, Duffraisse M, Dard A, Frank D, Technau U, Merabet S: Molecular insights into the origin of the Hox-TALE patterning system. eLife 2014, 3:e01939.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Cell biology in model systems as the key to understanding corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">M</forename><surname>Weis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Davy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Hoegh-Guldberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Rodriguez-Lanetty</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Pringle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Ecol Evol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="369" to="376" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Weis VM, Davy SK, Hoegh-Guldberg O, Rodriguez-Lanetty M, Pringle JR: Cell biology in model systems as the key to understanding corals. Trends Ecol Evol 2008, 23:369-376.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Cell biology of cnidariandinoflagellate symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Davy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Allemand</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">M</forename><surname>Weis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiol Mol Biol Rev</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="229" to="261" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Davy SK, Allemand D, Weis VM: Cell biology of cnidarian- dinoflagellate symbiosis. Microbiol Mol Biol Rev 2012, 76: 229-261.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">The smallest oocytes among broadcast-spawning actiniarians and a unique lunar reproductive cycle in a unisexual population of the sea anemone, Aiptasia pulchella (Anthozoa: Actiniaria)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Soong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Zool Stud</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="37" to="45" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen C, Soong K, Chen CA: The smallest oocytes among broadcast-spawning actiniarians and a unique lunar reproductive cycle in a unisexual population of the sea anemone, Aiptasia pulchella (Anthozoa: Actiniaria). Zool Stud 2008, 47:37-45.</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Induction of gametogenesis in the cnidarian endosymbiosis model Aiptasia sp</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Grawunder</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">A</forename><surname>Hambleton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Bucher</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Wolfowicz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Bechtoldt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Guse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">15677</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Grawunder D, Hambleton EA, Bucher M, Wolfowicz I, Bechtoldt N, Guse A: Induction of gametogenesis in the cnidarian endosymbiosis model Aiptasia sp.. Sci Rep 2015, 5:15677.</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Development and symbiosis establishment in the cnidarian endosymbiosis model Aiptasia sp</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Bucher</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Wolfowicz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">A</forename><surname>Voss</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">A</forename><surname>Hambleton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Guse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bucher M, Wolfowicz I, Voss PA, Hambleton EA, Guse A: Development and symbiosis establishment in the cnidarian endosymbiosis model Aiptasia sp.. Sci Rep 2016, 6:19867.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Evidence for rhythmicity pacemaker in the calcification process of scleractinian coral</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Gutner-Hoch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Stolarski</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Domart-Coulon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Yam</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Meibom</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Shemesh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Levy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gutner-Hoch E, Schneider K, Stolarski J, Domart-Coulon I, Yam R, Meibom A, Shemesh A, Levy O: Evidence for rhythmicity pacemaker in the calcification process of scleractinian coral. Sci Rep 2016, 6:20191.</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">The skeletal proteome of the coral Acropora millepora: the evolution of calcification by cooption and domain shuffling</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Ramos-Silva</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Kaandorp</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Huisman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Marie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Zanella-Cleon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Guichard</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Marin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Biol Evol</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="2099" to="2112" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ramos-Silva P, Kaandorp J, Huisman L, Marie B, Zanella-Cleon I, Guichard N, Miller DJ, Marin F: The skeletal proteome of the coral Acropora millepora: the evolution of calcification by co- option and domain shuffling. Mol Biol Evol 2013, 30:2099-2112.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title level="m" type="main">Expression of calcification and metabolism-related genes in response to elevated pCO 2 and temperature in the reefbuilding coral Acropora millepora</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">M</forename><surname>Rocker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Noonan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Humphrey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Moya</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">L</forename><surname>Willis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">K</forename><surname>Bay</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="313" to="318" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rocker MM, Noonan S, Humphrey C, Moya A, Willis BL, Bay LK: Expression of calcification and metabolism-related genes in response to elevated pCO 2 and temperature in the reef- building coral Acropora millepora. Mar Genomics 2015, 24(Pt3):313-318.</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Transcriptomic differences between day and night in Acropora millepora provide new insights into metabolite exchange and lightenhanced calcification in corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Bertucci</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Foret</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">E</forename><surname>Ball</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Miller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="4489" to="4504" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bertucci A, Foret S, Ball EE, Miller DJ: Transcriptomic differences between day and night in Acropora millepora provide new insights into metabolite exchange and light- enhanced calcification in corals. Mol Ecol 2015, 24:4489-4504.</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Localized expression of a dpp/BMP2/4 ortholog in a coral embryo</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">C</forename><surname>Hayward</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Samuel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">C</forename><surname>Pontynen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Catmull</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Saint</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">E</forename><surname>Ball</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="8106" to="8111" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hayward DC, Samuel G, Pontynen PC, Catmull J, Saint R, Miller DJ, Ball EE: Localized expression of a dpp/BMP2/4 ortholog in a coral embryo. Proc Natl Acad Sci U S A 2002, 99:8106-8111.</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Sox genes in the coral Acropora millepora: divergent expression patterns reflect differences in developmental mechanisms within the Anthozoa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Shinzato</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Iguchi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">C</forename><surname>Hayward</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Technau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">E</forename><surname>Ball</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Miller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Evol Biol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">311</biblScope>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shinzato C, Iguchi A, Hayward DC, Technau U, Ball EE, Miller DJ: Sox genes in the coral Acropora millepora: divergent expression patterns reflect differences in developmental mechanisms within the Anthozoa. BMC Evol Biol 2008, 8:311.</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Components of both major axial patterning systems of the Bilateria are differentially expressed along the primary axis of a &apos;radiate&apos; animal, the anthozoan cnidarian Acropora millepora</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">M</forename><surname>De Jong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">R</forename><surname>Hislop</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">C</forename><surname>Hayward</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">S</forename><surname>Reece-Hoyes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">C</forename><surname>Pontynen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">E</forename><surname>Ball</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Miller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dev Biol</title>
+		<imprint>
+			<biblScope unit="volume">298</biblScope>
+			<biblScope unit="page" from="632" to="643" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">de Jong DM, Hislop NR, Hayward DC, Reece-Hoyes JS, Pontynen PC, Ball EE, Miller DJ: Components of both major axial patterning systems of the Bilateria are differentially expressed along the primary axis of a &apos;radiate&apos; animal, the anthozoan cnidarian Acropora millepora. Dev Biol 2006, 298:632-643.</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Unexpected complexity of the Wnt gene family in a sea anemone</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Kusserow</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Pang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Sturm</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Hrouda</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Lentfer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">A</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Technau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Von Haeseler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Hobmayer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">Q</forename><surname>Martindale</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">433</biblScope>
+			<biblScope unit="page" from="156" to="160" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kusserow A, Pang K, Sturm C, Hrouda M, Lentfer J, Schmidt HA, Technau U, von Haeseler A, Hobmayer B, Martindale MQ et al.: Unexpected complexity of the Wnt gene family in a sea anemone. Nature 2005, 433:156-160.</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Study of cnidarian-algal symbiosis in the &apos;&apos;omics&apos;&apos; age</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">M</forename><surname>Weis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol Bull</title>
+		<imprint>
+			<biblScope unit="volume">223</biblScope>
+			<biblScope unit="page" from="44" to="65" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Meyer E, Weis VM: Study of cnidarian-algal symbiosis in the &apos;&apos;omics&apos;&apos; age. Biol Bull 2012, 223:44-65.</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Evolutionary conservation of the eumetazoan gene regulatory landscape</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Schwaiger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Schonauer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">F</forename><surname>Rendeiro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Pribitzer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Schauer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">F</forename><surname>Gilles</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">B</forename><surname>Schinko</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Renfer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Fredman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Technau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="639" to="650" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schwaiger M, Schonauer A, Rendeiro AF, Pribitzer C, Schauer A, Gilles AF, Schinko JB, Renfer E, Fredman D, Technau U: Evolutionary conservation of the eumetazoan gene regulatory landscape. Genome Res 2014, 24:639-650.</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<title level="m" type="main">The genome-wide mapping of several histone modifications, RNA polymerase II and p300 binding sites in Nematostella characterizes regulatory elements which are validated by transgenic reporter assays. The study shows that the principles of gene regulation are conserved between Nematostella and bilaterians</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">The genome-wide mapping of several histone modifications, RNA poly- merase II and p300 binding sites in Nematostella characterizes regulatory elements which are validated by transgenic reporter assays. The study shows that the principles of gene regulation are conserved between Nematostella and bilaterians.</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Recent advances in genomics and transcriptomics of cnidarians</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Technau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Schwaiger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar Genomics</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="131" to="138" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Technau U, Schwaiger M: Recent advances in genomics and transcriptomics of cnidarians. Mar Genomics 2015, 24:131-138.</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">MicroRNAs: genomics, biogenesis, mechanism, and function</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">P</forename><surname>Bartel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="page" from="281" to="297" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bartel DP: MicroRNAs: genomics, biogenesis, mechanism, and function. Cell 2004, 116:281-297.</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Early origins and evolution of microRNAs and Piwi-interacting RNAs in animals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Grimson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Srivastava</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Fahey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">J</forename><surname>Woodcroft</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">R</forename><surname>Chiang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">M</forename><surname>Degnan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">S</forename><surname>Rokhsar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">P</forename><surname>Bartel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">455</biblScope>
+			<biblScope unit="page" from="1193" to="1197" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Grimson A, Srivastava M, Fahey B, Woodcroft BJ, Chiang HR, King N, Degnan BM, Rokhsar DS, Bartel DP: Early origins and evolution of microRNAs and Piwi-interacting RNAs in animals. Nature 2008, 455:1193-1197.</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Cnidarian microRNAs frequently regulate targets by cleavage</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Moran</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Fredman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Praher</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><forename type="middle">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">M</forename><surname>Wee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Rentzsch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">D</forename><surname>Zamore</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Technau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Seitz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="651" to="663" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Moran Y, Fredman D, Praher D, Li XZ, Wee LM, Rentzsch F, Zamore PD, Technau U, Seitz H: Cnidarian microRNAs frequently regulate targets by cleavage. Genome Res 2014, 24:651-663.</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<title level="m" type="main">use high throughput sequencing to analyse the developmental stage specific expression of Nematostella miRNAs and show that many of them are fully complementary to their target transcripts. Degradome sequencing and RLM-RACE show that slicing is a prominent mode of miRNA function</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Moran</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>which is different from bilaterians but similar to plants</note>
+	<note type="raw_reference">Moran et al. use high throughput sequencing to analyse the develop- mental stage specific expression of Nematostella miRNAs and show that many of them are fully complementary to their target transcripts. Degra- dome sequencing and RLM-RACE show that slicing is a prominent mode of miRNA function, which is different from bilaterians but similar to plants.</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Deep sequencing reveals unique small RNA repertoire that is regulated during head regeneration in Hydra magnipapillata</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Krishna</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Nair</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Cheedipudi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Poduval</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Dhawan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Palakodeti</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Ghanekar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="599" to="616" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Krishna S, Nair A, Cheedipudi S, Poduval D, Dhawan J, Palakodeti D, Ghanekar Y: Deep sequencing reveals unique small RNA repertoire that is regulated during head regeneration in Hydra magnipapillata. Nucleic Acids Res 2013, 41:599-616.</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Vive la difference: biogenesis and evolution of microRNAs in plants and animals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Axtell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">O</forename><surname>Westholm</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">C</forename><surname>Lai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">221</biblScope>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Axtell MJ, Westholm JO, Lai EC: Vive la difference: biogenesis and evolution of microRNAs in plants and animals. Genome Biol 2011, 12:221.</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">The evolution of microRNA pathway protein components in Cnidaria</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Moran</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Praher</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Fredman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Technau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Biol Evol</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="2541" to="2552" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Moran Y, Praher D, Fredman D, Technau U: The evolution of microRNA pathway protein components in Cnidaria. Mol Biol Evol 2013, 30:2541-2552.</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">The making of an embryo in a basal metazoan: proteomic analysis in the sea anemone Nematostella vectensis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Levitan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Sher</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Brekhman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Ziv</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Lubzens</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Lotan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proteomics</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="4096" to="4104" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Levitan S, Sher N, Brekhman V, Ziv T, Lubzens E, Lotan T: The making of an embryo in a basal metazoan: proteomic analysis in the sea anemone Nematostella vectensis. Proteomics 2015, 15:4096-4104.</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Proteome of Hydra nematocyst</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">G</forename><surname>Balasubramanian</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Beckmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Warnken</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Schnolzer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Schuler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Bornberg-Bauer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">W</forename><surname>Holstein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Ozbek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">287</biblScope>
+			<biblScope unit="page" from="9672" to="9681" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Balasubramanian PG, Beckmann A, Warnken U, Schnolzer M, Schuler A, Bornberg-Bauer E, Holstein TW, Ozbek S: Proteome of Hydra nematocyst. J Biol Chem 2012, 287:9672-9681.</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Analysis of soluble protein contents from the nematocysts of a model sea anemone sheds light on venom evolution</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Moran</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Praher</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Schlesinger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Ayalon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Tal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Technau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar Biotechnol (NY)</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="329" to="339" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Moran Y, Praher D, Schlesinger A, Ayalon A, Tal Y, Technau U: Analysis of soluble protein contents from the nematocysts of a model sea anemone sheds light on venom evolution. Mar Biotechnol (NY) 2013, 15:329-339.</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Gene duplications are extensive and contribute significantly to the toxic proteome of nematocysts isolated from Acropora digitifera (Cnidaria: Anthozoa: Scleractinia)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Gacesa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Chung</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Dunn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename><surname>Weston</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Jaimes-Becerra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Marques</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Morandini</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Hranueli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Starcevic</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Ward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genomics</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">774</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gacesa R, Chung R, Dunn SR, Weston AJ, Jaimes-Becerra A, Marques AC, Morandini AC, Hranueli D, Starcevic A, Ward M et al.: Gene duplications are extensive and contribute significantly to the toxic proteome of nematocysts isolated from Acropora digitifera (Cnidaria: Anthozoa: Scleractinia). BMC Genomics 2015, 16:774.</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Firing the sting: chemically induced discharge of cnidae reveals novel proteins and peptides from box jellyfish (Chironex fleckeri) venom</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Jouiaei</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">R</forename><surname>Casewell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">A</forename><surname>Yanagihara</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Nouwens</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">W</forename><surname>Cribb</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Whitehead</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">N</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Ali</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">C</forename><surname>Wagstaff</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Koludarov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Toxins (Basel)</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="936" to="950" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jouiaei M, Casewell NR, Yanagihara AA, Nouwens A, Cribb BW, Whitehead D, Jackson TN, Ali SA, Wagstaff SC, Koludarov I et al.: Firing the sting: chemically induced discharge of cnidae reveals novel proteins and peptides from box jellyfish (Chironex fleckeri) venom. Toxins (Basel) 2015, 7:936-950.</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">The dynamically evolving nematocyst content of an anthozoan, a scyphozoan, and a hydrozoan</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Rachamim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Morgenstern</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Aharonovich</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Brekhman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Lotan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Sher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Biol Evol</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="740" to="753" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rachamim T, Morgenstern D, Aharonovich D, Brekhman V, Lotan T, Sher D: The dynamically evolving nematocyst content of an anthozoan, a scyphozoan, and a hydrozoan. Mol Biol Evol 2015, 32:740-753.</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">The authors compare transcriptome and proteome of specific stages of head regeneration in Hydra and surprisingly find only modest overlap between the two approaches, suggesting an uncoupling of transcriptional and translational regulation. They also show that early response genes of regeneration tend to be evolutionarily novel</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">O</forename><surname>Petersen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Hoger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Looso</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Lengfeld</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Kuhn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Warnken</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Nishimiya-Fujisawa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Schnolzer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Kruger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Ozbek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Biol Evol</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="1928" to="1947" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note>A comprehensive transcriptomic and proteomic analysis of Hydra head regeneration. while later genes are more conserved</note>
+	<note type="raw_reference">Petersen HO, Hoger SK, Looso M, Lengfeld T, Kuhn A, Warnken U, Nishimiya-Fujisawa C, Schnolzer M, Kruger M, Ozbek S et al.: A comprehensive transcriptomic and proteomic analysis of Hydra head regeneration. Mol Biol Evol 2015, 32:1928-1947. The authors compare transcriptome and proteome of specific stages of head regeneration in Hydra and surprisingly find only modest overlap between the two approaches, suggesting an uncoupling of transcriptional and translational regulation. They also show that early response genes of regeneration tend to be evolutionarily novel, while later genes are more conserved.</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">On the relationship of protein and mRNA dynamics in vertebrate embryonic development</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Peshkin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Wuhr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Pearl</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Haas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Freeman</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Gerhart</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Klein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Horb</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">P</forename><surname>Gygi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">W</forename><surname>Kirschner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dev Cell</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="383" to="394" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Peshkin L, Wuhr M, Pearl E, Haas W, Freeman RM Jr, Gerhart JC, Klein AM, Horb M, Gygi SP, Kirschner MW: On the relationship of protein and mRNA dynamics in vertebrate embryonic development. Dev Cell 2015, 35:383-394.</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">An ancient role for nuclear betacatenin in the evolution of axial polarity and germ layer segregation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">H</forename><surname>Wikramanayake</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">N</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Pang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Byrum</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Bince</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">Q</forename><surname>Martindale</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">426</biblScope>
+			<biblScope unit="page" from="446" to="450" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wikramanayake AH, Hong M, Lee PN, Pang K, Byrum CA, Bince JM, Xu R, Martindale MQ: An ancient role for nuclear beta- catenin in the evolution of axial polarity and germ layer segregation. Nature 2003, 426:446-450.</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">A framework for the establishment of a cnidarian gene regulatory network for &apos;&apos;endomesoderm&apos;&apos; specification: the inputs of ss-catenin/TCF signaling</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Rottinger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Dahlin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">Q</forename><surname>Martindale</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Genet</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">1003164</biblScope>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rottinger E, Dahlin P, Martindale MQ: A framework for the establishment of a cnidarian gene regulatory network for &apos;&apos;endomesoderm&apos;&apos; specification: the inputs of ss-catenin/TCF signaling. PLoS Genet 2012, 8:e1003164.</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<monogr>
+		<title level="m" type="main">A microarray study that identifies candidate regulators of endomesoderm formation via differential expression upon activation of b-catenin signalling. The animal/oral domain of the Nematostella blastula is shown to consist of at least four subdomains</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">A microarray study that identifies candidate regulators of endomesoderm formation via differential expression upon activation of b-catenin signal- ling. The animal/oral domain of the Nematostella blastula is shown to consist of at least four subdomains.</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Strabismus-mediated primary archenteron invagination is uncoupled from Wnt/beta-catenin-dependent endoderm cell fate specification in Nematostella vectensis (Anthozoa, Cnidaria): implications for the evolution of gastrulation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Kumburegama</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Wijesena</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">H</forename><surname>Wikramanayake</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Evodevo</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kumburegama S, Wijesena N, Xu R, Wikramanayake AH: Strabismus-mediated primary archenteron invagination is uncoupled from Wnt/beta-catenin-dependent endoderm cell fate specification in Nematostella vectensis (Anthozoa, Cnidaria): implications for the evolution of gastrulation. Evodevo 2011, 2:2.</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Ectopic activation of the canonical wnt signaling pathway affects ectodermal patterning along the primary axis during larval development in the anthozoan Nematostella vectensis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Marlow</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">Q</forename><surname>Matus</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">Q</forename><surname>Martindale</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dev Biol</title>
+		<imprint>
+			<biblScope unit="volume">380</biblScope>
+			<biblScope unit="page" from="324" to="334" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Marlow H, Matus DQ, Martindale MQ: Ectopic activation of the canonical wnt signaling pathway affects ectodermal patterning along the primary axis during larval development in the anthozoan Nematostella vectensis. Dev Biol 2013, 380:324-334.</note>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Pre-bilaterian origin of the blastoporal axial organizer</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Kraus</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Aman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Technau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Genikhovich</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ncomms11694</idno>
+		<ptr target="http://dx.doi.org/10.1038/ncomms11694" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kraus Y, Aman A, Technau U, Genikhovich G: Pre-bilaterian origin of the blastoporal axial organizer. Nat Commun 2016, 7 http://dx.doi.org/10.1038/ncomms11694.</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<monogr>
+		<title level="m" type="main">Development of the aboral domain in Nematostella requires bcatenin and the opposing activities of six3/6 and frizzled5/8</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Leclé Re</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Bause</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Sinigaglia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Steger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Rentzsch</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/dev.120931</idno>
+		<ptr target="http://dx.doi.org/10.1242/dev.120931" />
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Leclé re L, Bause M, Sinigaglia C, Steger J, Rentzsch F: Development of the aboral domain in Nematostella requires b- catenin and the opposing activities of six3/6 and frizzled5/8. Development 2016 http://dx.doi.org/10.1242/dev.120931.</note>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">The bilaterian head patterning gene six3/6 controls aboral domain development in a cnidarian</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Sinigaglia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Busengdal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Leclé Re</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Technau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Rentzsch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Biol</title>
+		<imprint>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note>11:e1001488. A subset of genes that control anterior development in bilaterians is shown to regulate the development of the aboral domain in Nematostella</note>
+	<note type="raw_reference">Sinigaglia C, Busengdal H, Leclé re L, Technau U, Rentzsch F: The bilaterian head patterning gene six3/6 controls aboral domain development in a cnidarian. PLoS Biol 2013, 11:e1001488. A subset of genes that control anterior development in bilaterians is shown to regulate the development of the aboral domain in Nematostella.</note>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<monogr>
+		<title level="m" type="main">NvSix3/6 acts upstream of NvFoxQ2a and FGF signalling in the patterning of this domain</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">NvSix3/6 acts upstream of NvFoxQ2a and FGF signalling in the patterning of this domain.</note>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Asymmetric developmental potential along the animal-vegetal axis in the anthozoan cnidarian, Nematostella vectensis, is mediated by Dishevelled</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">N</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Kumburegama</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">Q</forename><surname>Marlow</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">Q</forename><surname>Martindale</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">H</forename><surname>Wikramanayake</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dev Biol</title>
+		<imprint>
+			<biblScope unit="volume">310</biblScope>
+			<biblScope unit="page" from="169" to="186" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lee PN, Kumburegama S, Marlow HQ, Martindale MQ, Wikramanayake AH: Asymmetric developmental potential along the animal-vegetal axis in the anthozoan cnidarian, Nematostella vectensis, is mediated by Dishevelled. Dev Biol 2007, 310:169-186.</note>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Early development and axis specification in the sea anemone Nematostella vectensis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">H</forename><surname>Fritzenwanker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Genikhovich</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Kraus</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Technau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dev Biol</title>
+		<imprint>
+			<biblScope unit="volume">310</biblScope>
+			<biblScope unit="page" from="264" to="279" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fritzenwanker JH, Genikhovich G, Kraus Y, Technau U: Early development and axis specification in the sea anemone Nematostella vectensis. Dev Biol 2007, 310:264-279.</note>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">BMPs and chordin regulate patterning of the directive axis in a sea anemone</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Saina</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Genikhovich</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Renfer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Technau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="18592" to="18597" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Saina M, Genikhovich G, Renfer E, Technau U: BMPs and chordin regulate patterning of the directive axis in a sea anemone. Proc Natl Acad Sci U S A 2009, 106:18592-18597.</note>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Asymmetric expression of the BMP antagonists chordin and gremlin in the sea anemone Nematostella vectensis: implications for the evolution of axial patterning</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Rentzsch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anton</forename><forename type="middle">R</forename><surname>Saina</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Hammerschmidt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Holstein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">W</forename><surname>Technau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dev Biol</title>
+		<imprint>
+			<biblScope unit="volume">296</biblScope>
+			<biblScope unit="page" from="375" to="387" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rentzsch F, Anton R, Saina M, Hammerschmidt M, Holstein TW, Technau U: Asymmetric expression of the BMP antagonists chordin and gremlin in the sea anemone Nematostella vectensis: implications for the evolution of axial patterning. Dev Biol 2006, 296:375-387.</note>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Dorso/ventral genes are asymmetrically expressed and involved in germ-layer demarcation during cnidarian gastrulation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">Q</forename><surname>Matus</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">H</forename><surname>Thomsen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">Q</forename><surname>Martindale</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Biol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="499" to="505" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Matus DQ, Thomsen GH, Martindale MQ: Dorso/ventral genes are asymmetrically expressed and involved in germ-layer demarcation during cnidarian gastrulation. Curr Biol 2006, 16:499-505.</note>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Axis patterning by BMPs: cnidarian network reveals evolutionary constraints</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Genikhovich</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Fried</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">M</forename><surname>Prunster</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">B</forename><surname>Schinko</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">F</forename><surname>Gilles</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Fredman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Meier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Iber</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Technau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Rep</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1646" to="1654" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Genikhovich G, Fried P, Prunster MM, Schinko JB, Gilles AF, Fredman D, Meier K, Iber D, Technau U: Axis patterning by BMPs: cnidarian network reveals evolutionary constraints. Cell Rep 2015, 10:1646-1654.</note>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">The BMP signalling network that maintains the patterning of the directive axis is shown to consist of signalling centers on both ends of the axis. While the genes of this network are conserved their positions within the network are not, pointing at constraints for the evolution of this patterning system. 67. Leclé re L, Rentzsch F: RGM regulates BMP-mediated secondary axis formation in the sea anemone Nematostella vectensis</title>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Rep</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1921" to="1930" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">The BMP signalling network that maintains the patterning of the directive axis is shown to consist of signalling centers on both ends of the axis. While the genes of this network are conserved their positions within the network are not, pointing at constraints for the evolution of this patterning system. 67. Leclé re L, Rentzsch F: RGM regulates BMP-mediated secondary axis formation in the sea anemone Nematostella vectensis. Cell Rep 2014, 9:1921-1930.</note>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<monogr>
+		<title level="m" type="main">Provides a detailed description of the development of the directive axis which first becomes apparent by the asymmetric development of the first two mesenteries. Repulsive guidance molecule is characterized as a new regulator of directive axis formation that promotes BMP signalling at low BMP concentrations</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Provides a detailed description of the development of the directive axis which first becomes apparent by the asymmetric development of the first two mesenteries. Repulsive guidance molecule is characterized as a new regulator of directive axis formation that promotes BMP signalling at low BMP concentrations.</note>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Origins of neurogenesis, a cnidarian view</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Galliot</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Quiquand</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Ghila</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>De Rosa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Miljkovic-Licina</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Chera</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dev Biol</title>
+		<imprint>
+			<biblScope unit="volume">332</biblScope>
+			<biblScope unit="page" from="2" to="24" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Galliot B, Quiquand M, Ghila L, de Rosa R, Miljkovic-Licina M, Chera S: Origins of neurogenesis, a cnidarian view. Dev Biol 2009, 332:2-24.</note>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Cnidarians and the evolutionary origin of the nervous system</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Watanabe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Fujisawa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">W</forename><surname>Holstein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dev Growth Differ</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="167" to="183" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Watanabe H, Fujisawa T, Holstein TW: Cnidarians and the evolutionary origin of the nervous system. Dev Growth Differ 2009, 51:167-183.</note>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Evolution of eumetazoan nervous systems: insights from cnidarians</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Kelava</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Rentzsch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Technau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Philos Trans R Soc Lond B Biol Sci</title>
+		<imprint>
+			<biblScope unit="page">370</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kelava I, Rentzsch F, Technau U: Evolution of eumetazoan nervous systems: insights from cnidarians. Philos Trans R Soc Lond B Biol Sci 2015:370.</note>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Nervous systems of the sea anemone Nematostella vectensis are generated by ectoderm and endoderm and shaped by distinct mechanisms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Nakanishi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Renfer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Technau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Rentzsch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Development</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="page" from="347" to="357" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nakanishi N, Renfer E, Technau U, Rentzsch F: Nervous systems of the sea anemone Nematostella vectensis are generated by ectoderm and endoderm and shaped by distinct mechanisms. Development 2012, 139:347-357.</note>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Anatomy and development of the nervous system of Nematostella vectensis, an anthozoan cnidarian</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">Q</forename><surname>Marlow</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Srivastava</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">Q</forename><surname>Matus</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Rokhsar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">Q</forename><surname>Martindale</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dev Neurobiol</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="235" to="254" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Marlow HQ, Srivastava M, Matus DQ, Rokhsar D, Martindale MQ: Anatomy and development of the nervous system of Nematostella vectensis, an anthozoan cnidarian. Dev Neurobiol 2009, 69:235-254.</note>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Sequential actions of beta-catenin and Bmp pattern the oral nerve net in Nematostella vectensis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Watanabe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Kuhn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Fushiki</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Agata</forename><forename type="middle">K</forename><surname>Ozbek</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Fujisawa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Holstein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">W</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">5536</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Watanabe H, Kuhn A, Fushiki M, Agata K, Ozbek S, Fujisawa T, Holstein TW: Sequential actions of beta-catenin and Bmp pattern the oral nerve net in Nematostella vectensis. Nat Commun 2014, 5:5536.</note>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Functional roles of Notch signaling in the cnidarian Nematostella vectensis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Marlow</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Roettinger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Boekhout</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">Q</forename><surname>Martindale</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dev Biol</title>
+		<imprint>
+			<biblScope unit="volume">362</biblScope>
+			<biblScope unit="page" from="295" to="308" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Marlow H, Roettinger E, Boekhout M, Martindale MQ: Functional roles of Notch signaling in the cnidarian Nematostella vectensis. Dev Biol 2012, 362:295-308.</note>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Regulation of Nematostella neural progenitors by SoxB, Notch and bHLH genes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">S</forename><surname>Richards</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Rentzsch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Development</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page" from="3332" to="3342" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Richards GS, Rentzsch F: Regulation of Nematostella neural progenitors by SoxB, Notch and bHLH genes. Development 2015, 142:3332-3342.</note>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">Nematostella vectensis achaete-scute homolog NvashA regulates embryonic ectodermal neurogenesis and represents an ancient component of the metazoan neural specification pathway</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Layden</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Boekhout</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">Q</forename><surname>Martindale</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Development</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="page" from="1013" to="1022" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Layden MJ, Boekhout M, Martindale MQ: Nematostella vectensis achaete-scute homolog NvashA regulates embryonic ectodermal neurogenesis and represents an ancient component of the metazoan neural specification pathway. Development 2012, 139:1013-1022.</note>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<monogr>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Technau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">E</forename><surname>Steele</surname></persName>
+		</author>
+		<title level="m">Evolutionary crossroads in developmental biology: cnidaria. Development</title>
+		<imprint>
+			<date type="published" when="2011" />
+			<biblScope unit="volume">138</biblScope>
+			<biblScope unit="page" from="1447" to="1458" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Technau U, Steele RE: Evolutionary crossroads in developmental biology: cnidaria. Development 2011, 138: 1447-1458.</note>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">Ether-a-go-go family voltage-gated K+ channels evolved in an ancestral metazoan and functionally diversified in a cnidarian-bilaterian ancestor</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">S</forename><surname>Martinson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Layden</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">H</forename><surname>Diatta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">P</forename><surname>Sberna</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">K</forename><surname>Simmons</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">Q</forename><surname>Martindale</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">J</forename><surname>Jegla</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Biol</title>
+		<imprint>
+			<biblScope unit="volume">218</biblScope>
+			<biblScope unit="page" from="526" to="536" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li X, Martinson AS, Layden MJ, Diatta FH, Sberna AP, Simmons DK, Martindale MQ, Jegla TJ: Ether-a-go-go family voltage-gated K+ channels evolved in an ancestral metazoan and functionally diversified in a cnidarian-bilaterian ancestor. J Exp Biol 2015, 218:526-536.</note>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">Functional evolution of Erg potassium channel gating reveals an ancient origin for IKr</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">S</forename><surname>Martinson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">B</forename><surname>Van Rossum</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">H</forename><surname>Diatta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Layden</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Rhodes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">Q</forename><surname>Martindale</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Jegla</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="5712" to="5717" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Martinson AS, van Rossum DB, Diatta FH, Layden MJ, Rhodes SA, Martindale MQ, Jegla T: Functional evolution of Erg potassium channel gating reveals an ancient origin for IKr. Proc Natl Acad Sci U S A 2014, 111:5712-5717.</note>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main">Evolution of voltage-gated ion channels at the emergence of metazoa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Moran</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">G</forename><surname>Barzilai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">J</forename><surname>Liebeskind</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">H</forename><surname>Zakon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Biol</title>
+		<imprint>
+			<biblScope unit="volume">218</biblScope>
+			<biblScope unit="page" from="515" to="525" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Moran Y, Barzilai MG, Liebeskind BJ, Zakon HH: Evolution of voltage-gated ion channels at the emergence of metazoa. J Exp Biol 2015, 218:515-525.</note>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title level="a" type="main">Convergent evolution of sodium ion selectivity in metazoan neuronal signaling</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gur</forename><surname>Barzilai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Reitzel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Kraus</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Gordon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Technau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Gurevitz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Moran</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Rep</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="242" to="248" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gur Barzilai M, Reitzel AM, Kraus JE, Gordon D, Technau U, Gurevitz M, Moran Y: Convergent evolution of sodium ion selectivity in metazoan neuronal signaling. Cell Rep 2012, 2:242-248.</note>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Genomic survey of candidate stress-response genes in the estuarine anemone Nematostella vectensis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Reitzel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Sullivan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Traylor-Knowles</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Finnerty</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol Bull</title>
+		<imprint>
+			<biblScope unit="volume">214</biblScope>
+			<biblScope unit="page" from="233" to="254" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Reitzel AM, Sullivan JC, Traylor-Knowles N, Finnerty JR: Genomic survey of candidate stress-response genes in the estuarine anemone Nematostella vectensis. Biol Bull 2008, 214:233-254.</note>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title level="a" type="main">Activation of the cnidarian oxidative stress response by ultraviolet radiation, polycyclic aromatic hydrocarbons and crude oil</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Tarrant</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Reitzel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">K</forename><surname>Kwok</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Jenny</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Biol</title>
+		<imprint>
+			<biblScope unit="volume">217</biblScope>
+			<biblScope unit="page" from="1444" to="1453" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tarrant AM, Reitzel AM, Kwok CK, Jenny MJ: Activation of the cnidarian oxidative stress response by ultraviolet radiation, polycyclic aromatic hydrocarbons and crude oil. J Exp Biol 2014, 217:1444-1453.</note>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<analytic>
+		<title level="a" type="main">Characterization of morphological and cellular events underlying oral regeneration in the sea anemone, Nematostella vectensis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">R</forename><surname>Amiel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">T</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Nedoncelle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">F</forename><surname>Warner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Ferreira</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Rottinger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Mol Sci</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="28449" to="28471" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Amiel AR, Johnston HT, Nedoncelle K, Warner JF, Ferreira S, Rottinger E: Characterization of morphological and cellular events underlying oral regeneration in the sea anemone, Nematostella vectensis. Int J Mol Sci 2015, 16:28449-28471.</note>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<analytic>
+		<title level="a" type="main">Cell proliferation is necessary for the regeneration of oral structures in the anthozoan cnidarian Nematostella vectensis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">J</forename><surname>Passamaneck</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">Q</forename><surname>Martindale</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Dev Biol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">34</biblScope>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Passamaneck YJ, Martindale MQ: Cell proliferation is necessary for the regeneration of oral structures in the anthozoan cnidarian Nematostella vectensis. BMC Dev Biol 2012, 12:34.</note>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<analytic>
+		<title level="a" type="main">A staging system for the regeneration of a polyp from the aboral physa of the anthozoan cnidarian Nematostella vectensis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">E</forename><surname>Bossert</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">P</forename><surname>Dunn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">H</forename><surname>Thomsen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dev Dyn</title>
+		<imprint>
+			<biblScope unit="volume">242</biblScope>
+			<biblScope unit="page" from="1320" to="1331" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bossert PE, Dunn MP, Thomsen GH: A staging system for the regeneration of a polyp from the aboral physa of the anthozoan cnidarian Nematostella vectensis. Dev Dyn 2013, 242:1320-1331.</note>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<analytic>
+		<title level="a" type="main">Symbiosis induces widespread changes in the proteome of the model cnidarian Aiptasia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Oakley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">F</forename><surname>Ameismeier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">M</forename><surname>Weis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">R</forename><surname>Grossman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Davy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Microbiol</title>
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Oakley CA, Ameismeier MF, Peng L, Weis VM, Grossman AR, Davy SK: Symbiosis induces widespread changes in the proteome of the model cnidarian Aiptasia. Cell Microbiol 2015.</note>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<analytic>
+		<title level="a" type="main">Whole transcriptome analysis of the coral Acropora millepora reveals complex responses to CO(2)-driven acidification during the initiation of calcification</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Moya</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Huisman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">E</forename><surname>Ball</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">C</forename><surname>Hayward</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">C</forename><surname>Grasso</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">M</forename><surname>Chua</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">N</forename><surname>Woo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">P</forename><surname>Gattuso</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Foret</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Miller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="2440" to="2454" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Moya A, Huisman L, Ball EE, Hayward DC, Grasso LC, Chua CM, Woo HN, Gattuso JP, Foret S, Miller DJ: Whole transcriptome analysis of the coral Acropora millepora reveals complex responses to CO(2)-driven acidification during the initiation of calcification. Mol Ecol 2012, 21:2440-2454.</note>
+</biblStruct>
+
+<biblStruct xml:id="b95">
+	<analytic>
+		<title level="a" type="main">Rapid acclimation of juvenile corals to CO 2 -mediated acidification by upregulation of heat shock protein and Bcl-2 genes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Moya</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Huisman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Foret</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">P</forename><surname>Gattuso</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">C</forename><surname>Hayward</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">E</forename><surname>Ball</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Miller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="438" to="452" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Moya A, Huisman L, Foret S, Gattuso JP, Hayward DC, Ball EE, Miller DJ: Rapid acclimation of juvenile corals to CO 2 -mediated acidification by upregulation of heat shock protein and Bcl-2 genes. Mol Ecol 2015, 24:438-452.</note>
+</biblStruct>
+
+<biblStruct xml:id="b96">
+	<analytic>
+		<title level="a" type="main">Morphological plasticity of the coral skeleton under CO 2 -driven seawater acidification</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Tambutte</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">A</forename><surname>Venn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Holcomb</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Segonds</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Techer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Zoccola</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Allemand</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Tambutte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">7368</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tambutte E, Venn AA, Holcomb M, Segonds N, Techer N, Zoccola D, Allemand D, Tambutte S: Morphological plasticity of the coral skeleton under CO 2 -driven seawater acidification. Nat Commun 2015, 6:7368.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

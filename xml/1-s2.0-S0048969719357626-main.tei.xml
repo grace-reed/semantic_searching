@@ -1,0 +1,1755 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/grace/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">RNA-seq profiling of Fugacium kawagutii reveals strong responses in metabolic processes and symbiosis potential to deficiencies of iron and other trace metals</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2019-11-26">26 November 2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tangcheng</forename><surname>Li</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">State Key Laboratory of Marine Environmental Science</orgName>
+								<address>
+									<settlement>Xiamen</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Key Laboratory of Urban Sea Ecological Conservation and Restoration (USER)</orgName>
+								<orgName type="institution">Xiamen University</orgName>
+								<address>
+									<postCode>361000</postCode>
+									<settlement>Xiamen</settlement>
+									<country>Fujian，China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xin</forename><surname>Lin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">State Key Laboratory of Marine Environmental Science</orgName>
+								<address>
+									<settlement>Xiamen</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Key Laboratory of Urban Sea Ecological Conservation and Restoration (USER)</orgName>
+								<orgName type="institution">Xiamen University</orgName>
+								<address>
+									<postCode>361000</postCode>
+									<settlement>Xiamen</settlement>
+									<country>Fujian，China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Liying</forename><surname>Yu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">State Key Laboratory of Marine Environmental Science</orgName>
+								<address>
+									<settlement>Xiamen</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Key Laboratory of Urban Sea Ecological Conservation and Restoration (USER)</orgName>
+								<orgName type="institution">Xiamen University</orgName>
+								<address>
+									<postCode>361000</postCode>
+									<settlement>Xiamen</settlement>
+									<country>Fujian，China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Senjie</forename><surname>Lin</surname></persName>
+							<email>senjie.lin@uconn.edu</email>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Marine Sciences</orgName>
+								<orgName type="institution">University of Connecticut</orgName>
+								<address>
+									<postCode>06340</postCode>
+									<settlement>Groton</settlement>
+									<region>CT</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Irene</forename><forename type="middle">B</forename><surname>Rodriguez</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">State Key Laboratory of Marine Environmental Science</orgName>
+								<address>
+									<settlement>Xiamen</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Key Laboratory of Urban Sea Ecological Conservation and Restoration (USER)</orgName>
+								<orgName type="institution">Xiamen University</orgName>
+								<address>
+									<postCode>361000</postCode>
+									<settlement>Xiamen</settlement>
+									<country>Fujian，China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Research Center for Environmental Changes</orgName>
+								<orgName type="institution">Academia Sinica</orgName>
+								<address>
+									<settlement>Taipei</settlement>
+									<country key="TW">Taiwan</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Institute of Oceanography</orgName>
+								<orgName type="institution">National Taiwan University</orgName>
+								<address>
+									<settlement>Taipei</settlement>
+									<country key="TW">Taiwan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tung-Yuan</forename><surname>Ho</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Research Center for Environmental Changes</orgName>
+								<orgName type="institution">Academia Sinica</orgName>
+								<address>
+									<settlement>Taipei</settlement>
+									<country key="TW">Taiwan</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Institute of Oceanography</orgName>
+								<orgName type="institution">National Taiwan University</orgName>
+								<address>
+									<settlement>Taipei</settlement>
+									<country key="TW">Taiwan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Marine Sciences, Groton</orgName>
+								<orgName type="institution">University of Connecticut</orgName>
+								<address>
+									<postCode>06340</postCode>
+									<region>CT</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<orgName type="department" key="dep1">Marine Science Institute</orgName>
+								<orgName type="department" key="dep2">Philippines-Diliman</orgName>
+								<orgName type="institution">University</orgName>
+								<address>
+									<settlement>Quezon City</settlement>
+									<country key="PH">Philippines</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">RNA-seq profiling of Fugacium kawagutii reveals strong responses in metabolic processes and symbiosis potential to deficiencies of iron and other trace metals</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2019-11-26">26 November 2019</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.scitotenv.2019.135767</idno>
+					<note type="submission">Received 13 August 2019 Received in revised form 9 October 2019 Accepted 24 November 2019</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-09-14T02:19+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Fugacium kawagutii RNA-seq Trace metals Deficiency ROS scavenging Metabolism</keywords>
+			</textClass>
+			<abstract>
+				<p>The influence of Fugacium kawagutii for trace metal in transcriptomic level exhibits the following order: Fe N Mn N Zn N Cu N Ni. • Genes associated with extracellular matrix (ECM), cell surface structure and cell adhesion were up-regulated by trace metal deficiencies. • Deficiency of trace metal (especially Fe deficiency) seems to repress growth and ability of ROS scavenging. • While deficiency of trace metal seems to elevatuate energy metabolism, innate immunity, and cell adhesion.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Mutualistic nutritional symbioses between coral animals and photosynthetic dinoflagellates of Symbiodiniaceae are the foundation of the highly biodiverse and productive coral reef ecosystem <ref type="bibr" target="#b34">(Peixoto et al., 2017)</ref>. A symbiotic Symbiodiniaceae provides its coral host with vital photosynthesis products that can meet up to 95% of the coral's energy requirements; in exchange, the coral host provides inorganic nutrients and serves as shelter <ref type="bibr" target="#b29">(Muscatine and Porter, 1977)</ref> for the symbiont. This mutualistic relationship, however, is delicate and susceptible to the environment factors including thermal stress, high light and extreme salinity <ref type="bibr" target="#b5">(Davy et al., 2012;</ref><ref type="bibr" target="#b15">Kuanui et al., 2015;</ref><ref type="bibr" target="#b30">Nielsen et al., 2018;</ref><ref type="bibr" target="#b44">Skirving et al., 2019)</ref>. These stress conditions often lead to the expulsion, death, or pigment loss of the Symbiodiniaceae from the host, known as coral bleaching. Global warming and anthropogenic activities have been responsible for massive bleaching and coral degradation, and posed major threats to the precious coral reef ecosystem around the world <ref type="bibr" target="#b12">(Hughes et al., 2017)</ref>.</p><p>Reef corals live in tropical nutrient-poor waters, and they can experience limitation of nutrients, including trace metals <ref type="bibr" target="#b27">(Measures and Vink, 2000;</ref><ref type="bibr" target="#b31">Obata et al., 2008)</ref>. It has been shown that trace metal deficiency can also induce coral bleaching <ref type="bibr" target="#b8">(Ferrier-Pages et al., 2018)</ref>. Trace metals are essential components of electron transport chains or important cofactors for enzymes involved in various biological processes, such as chlorophyll synthesis, nitrate reduction, and photoprotection or photorepair <ref type="bibr" target="#b47">(Twining and Baines, 2013;</ref><ref type="bibr" target="#b1">Andresen et al., 2018)</ref>. Marine microalgae acquire trace metals from their ambient environment through the action of metal transporters and in some species by releasing chelating compounds like siderophores or similar machineries to facilitate the uptake <ref type="bibr" target="#b28">(Morel and Price, 2003)</ref>. The influence of trace metal availability on phytoplankton is well documented (e.g. <ref type="bibr" target="#b45">Sunda, 2012;</ref><ref type="bibr" target="#b11">Hong et al., 2017)</ref>, but its effects on Symbiodiniaceae is rarely investigated, especially at the molecular level. We recently reported that the growth of Fugacium kawagutii was limited by deficiency of antioxidant-associated trace metals in the following order of significance: Fe N Zn N Mn N Cu N Ni <ref type="bibr" target="#b37">(Rodriguez and Ho, 2018)</ref>, but the underlying cell metabolism remain undetermined.</p><p>In this study, we conducted transcriptome profiling for F. kawagutii grown under metal-replete and Fe-, Zn-, Cu-, Mn-, and Ni-deficient conditions to gain understanding on what metabolic pathways are significantly regulated by these metals and which of these metals is most influential in this species. Our results provide insights into the relative importance of these trace metals and the impact of Fe limitation on F. kawagutii in the context of symbiosis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Materials and methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Algal culture and trace metal treatments</head><p>Fugacium kawagutii (strain CCMP2468) was obtained from the National Center for Marine Algae and Microbiota, and was cultured in 500 mL polycarbonate (PC) bottles at 26°C under a square-wave 12 h:12 h light: dark regime with 680 μmol quanta m −2 s −1 photon flux. The trace metal-defined medium was modified from the original L1 medium recipe <ref type="bibr" target="#b10">(Guillard and Hargraves, 1993)</ref>. Surface seawater collected from Taiwanese South East Asia Time Series Station (SEATS, 18 o N 116°E) was passed through a column packed with Chelex® 100 resin to remove background trace metal contents and filter-sterilized using 0.22 μm pore size filters to remove bacterial contamination prior to use. All culture vessels and other materials used for culturing were carefully washed with 2% Micro-90® solution, rinsed, soaked with 10% hydrochloric acid solution, and rinsed thoroughly with ultrapure water prepared using a Milli-Q system.</p><p>In this experiment, we designed five treatment groups and a control group to investigate the influence of availability of Cu, Zn, Mn, Ni, and Fe on the genes expression of F. kawagutii <ref type="table" target="#tab_0">(Table S1</ref>). The control cultures were supplied with total dissolved metal concentrations of 250 nM for Fe and 10 nM for Cu, Mn, Ni, and Zn. These resulted in expected inorganic concentrations of 1.25 nM Fe', 0.5 pM Cu', 4.2 nM Mn', 6.7 pM Ni', and 12.5 pM Zn' upon addition of 20 μM ethylenediaminetetraacetic acid (EDTA). The five treatment groups consisted of three treatments in which no Cu, Mn or Ni was provided (denoted as\ \Cu,\ \Mn, and\ \Ni, respectively) and two treatments in which either Zn or Fe was provided at 1/5 of its normal concentration (denoted as +1/5 Zn and + 1/5 Fe, respectively). The differential treatments were designed because our prior physiological study indicated that total omission of Zn and Fe in the medium completely inhibited growth, but for convenience, all these conditions are described as deficiency conditions. All batch cultures were carried out in triplicates.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">RNA extraction</head><p>When the cultures entered the mid-exponential growth phase, cells were harvested and total RNA was isolated as previously reported <ref type="bibr" target="#b53">(Zhang et al., 2007)</ref>. Briefly, cells were homogenized by using the Fastprep®-24 Sample Preparation System (MP Biomedicals, USA) with bead-beating (~3:1 mixture of 0.5 mm and 0.1 mm diameter ceramic beads) until sample was thoroughly homogenized (speed of 6 M/S for homogenized, 1 min/cycle for 3 cycles, chilled on ice for 1 min in between cycles) as confirmed microscopically. Then total RNA was extracted using Trizol reagent (Molecular Research Center, Inc., USA) coupled with further purification using Direct-Zol RNA Miniprep (Zymo Research, Orange, CA, USA). The concentration and the quality of extracted RNA were determined on NanoDrop (ND-2000 spectrophotometer; Thermo Scientific, Wilmington, DE, USA) and Agilent 2100 Bioanalyzer (Agilent, Santa Clara, CA, USA).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Differential gene expression (DGE) profiling</head><p>The extracted RNA, with Integrity Number N 7.0, was then subjected to the RNA-seq sequencing (BGI Genomics Co., Ltd). Briefly, 1 μg total RNA from each sample was used for poly (A) + − based selection using OligodT magnetic beads to enrich mRNA. After fragmenting the mRNA molecules using fragmentation buffer, random N6 primer was used in cDNA synthesis. Then double-stranded cDNA (dscDNA) was subjected to end-repair and 3'adenylated. The ligation products were purified and PCR amplified. Lastly the PCR products were denatured by heat and the single strand DNA is cyclized before sequencing on BGISEQ-500 platform. From the raw data, clean reads were obtained by removing low quality reads, reads containing only adapter, and reads containing poly-N in all the experimental samples. Rarefaction curve analysis was conducted to examine if depth of sequencing data was sufficient for genome-wide gene expression profile analysis.</p><p>We used F. kawagutii genome <ref type="bibr" target="#b23">(Lin et al., 2015;</ref><ref type="bibr" target="#b25">Liu et al., 2018)</ref> and our updated reference gene database (http://web.malab.cn/symka_ new/index.jsp) and NCBI GenBank resource (accession number: SRA148697) as the reference database. To optimize the analysis outcome, we amended the existing genome data to yield F. kawagutii reference gene database V3 (to be published elsewhere). Data mapping and functional annotation of the transcriptomic data were based on this new reference gene set.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">DEG analysis</head><p>The clean transcriptomic reads were mapped to reference gene database V3 using Bowtie <ref type="bibr" target="#b17">(Langmead and Salzberg, 2012)</ref>. The gene expression levels were calculated for each sample using RSEM <ref type="bibr" target="#b19">(Li and Dewey, 2011)</ref> and gene with folds changes N2 and P value b.05 were accepted as DEGs between different samples. Significant DEGs were used to perform KEGG functional enrichment analyses with ClusterProfiler package <ref type="bibr" target="#b52">(Yu et al., 2012)</ref>. Go annotation results were visualized by WEGO 2.0 (http://wego.genomics.org.cn).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">RT-qPCR</head><p>Totally, 15 genes were selected for expression quantification using reverse-transcription quantitative PCR (RT-qPCR) to verify RNA-seq results. For each sample, 400 ng total RNA was used in cDNA synthesis using PrimeScript™ RT reagent Kit (Takara, Clontech, Japan) that contained the genomic erase buffer. Specific primers were designed <ref type="table">(Table S2</ref>) based on the gene sequences and synthesized by BGI Genomics Co., Ltd. RT-qPCR was performed using iTaq™ Universal SYBR® Green Supermix on a CFX96 Real-time PCR System (Bio-Rad Laboratories, Hercules, USA). The reaction was carried out in a total volume of μL containing 6 μL Supermix, cDNA equivalent to 5 ng of total RNA and 2.5 μM of each primer <ref type="bibr" target="#b20">(Li et al., 2018)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6.">Statistic analysis</head><p>In order to evaluate the statistical significance of the differences observed between control and trace metal deficient groups, analysis of variance was carried out using SPSS statistics software package. All data presented are means with standard deviation calculated from the triplicated cultures in each trace metal deficient group or the control group.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.7.">Accession number</head><p>All raw sequencing data from this study have been deposited in the GenBank's Sequence Read Archive (SRA) database (http://www.ncbi. nlm.nih.gov/) under the accession number PRJNA550184.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Differential gene expression profiles under metal deficiencies</head><p>RNA-seq yielded 22 M clean reads for each of the six triplicated (totally 18) cultures. Approximately 61% of the RNA-seq reads found matches in reference gene database V3 <ref type="table">(Table S3</ref>). From our RNA-seq data, peridinin chlorophyll-a binding protein (PCP), high-affinity nitrate transporter, nitrate transporter, ribulose bisphosphate carboxylase/oxygenase (Rubisco), and fucoxanthin-chlorophyll a-c binding protein B were highly and commonly expressed genes across all the trace metal culture conditions. And 685 to 2805 differentially expressed genes (DEGs) were identified for the trace metal deficient conditions, which accounted for 1.2% to 4.7% of total detected genes <ref type="table" target="#tab_0">(Table 1</ref>). Of these, 372 DEGs <ref type="table">(Table S4)</ref> were shared in five trace metal deficient conditions and significantly enriched (P b .05) in seven KEGG pathways including fatty acid biosynthesis, fatty acid metabolism, pyruvate metabolism, propanoate metabolism, nitrogen metabolism, glutamate metabolism and biosynthesis of amino acids <ref type="figure" target="#fig_0">(Fig. 1A, B)</ref>.</p><p>When all the KEGG pathways that were enriched by DEGs found in any of the five trace metal deficient conditions were considered together, 27 pathways were identified, 18 of which were specific for the Fe-deficient condition <ref type="figure" target="#fig_0">(Fig. 1C)</ref>. For instance, MAPK signaling pathway, autophagy, long-term depression, circadian entrainment and nucleotide excision repair were specifically regulated by the Fe deficiency, while RNA degradation pathway was only enriched in the Cu-deficient condition <ref type="figure" target="#fig_0">(Fig. 1C)</ref>. Interestingly, no significantly enriched KEGG pathway was found specifically from Zn-, Mn-or Ni-deficient conditions. The exception was the up-regulation of mRNA surveillance pathway, which was significantly enriched by DEGs under deficiencies of Zn, Mn, and Fe. GO analysis, on the other hand, showed that the Fe-deficient group uniquely exhibited enrichment of rhythmic process, development process and virion, and the Mn-deficient group was uniquely enriched in molecular function regulator <ref type="figure" target="#fig_0">(Fig. 1D</ref>). This is despite the fact that the generally low GO annotation rate (14% -17%) caused the GO enrichment profiles to be not significant (P N .05) for any of the metal deficient conditions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Transporter of trace metals and other nutrients</head><p>Totally, 42 transport related genes were identified from our transcriptomic data. Among these genes, 31 showed differential expression under Fe deficiency, 11 under Mn deficiency, 9 under Zn deficiency, 6 under Cu deficiency and 6 under Ni deficiency ( <ref type="figure" target="#fig_0">Fig. S1</ref>, <ref type="table">Table S5</ref>). For example, iron permease, ABC transporter A/F/G families, ammonium transporter 1/3, ammonia channel, amino acid permease and ureaproton symporter were up-regulated under Fe deficiency. In contrast, zinc transporter 5, magnesium transporter, nitrate transporter 2.5, ABC transporter B family and sulfate permease were down-regulated under Fe deficiency. Under deficiency of the other four metals, most of these transporter genes were not regulated except for ABC transporter A family that was regulated under all five trace metal deficiencies.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Molecular components dependent on trace metal</head><p>Trace metals are essential cofactors of many enzymes. Here we found 43 genes specifying Fe-dependent enzymes that were regulated under Fe deficiency, 17 Mn-requiring enzyme genes that were regulated under Mn deficiency and 48 Zn-requiring genes that were regulated under Zn deficiency <ref type="figure" target="#fig_1">(Fig. 2</ref>, <ref type="table">Table S6</ref>). However, no Cu-or Nidependent enzymes, even Cu-SOD and urease, showed regulation under Cu or Ni deficiencies respectively, suggesting possible replacement by functionally equivalent enzymes not requiring these trace metals. Interestingly, we found that most of the genes requiring iron cation or 4Fe\ \4S cluster as cofactors were down-regulated but genes requiring 2Fe\ \2S cluster or 3Fe\ \3S cluster were up-regulated under Fe-deficient condition, indicating an adaptive strategy to reduce Fe demand ( <ref type="figure" target="#fig_1">Fig. 2A</ref>). All Mn-or Zn-dependent genes were up-regulated under Zn or Mn deficiencies ( <ref type="figure" target="#fig_1">Fig. 2B</ref>), respectively, suggesting that these two metals were probably functionally interchangeable as cofactors.</p><p>Nitrate is the only N source in our culture, so nitrite reductase requiring 4Fe\ \4S cluster as cofactor plays important roles in nitrate metabolism. Down-regulated nitrite reductase and nitrate transporter mentioned above, indicating nitrate assimilation was depressed under Fe deficiency <ref type="figure" target="#fig_1">(Fig. 2)</ref>. Furthermore, ammonia channel, ammonium transporter 1/3, urea-proton symporter and glutamate synthase [NADH] were up-regulated, clearly a metabolic response by shifting to use ammonium or urea that do not require the Fe-dependent nitrite reductase ( <ref type="figure" target="#fig_0">Fig. S1, Fig. 2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Electron transport chain (ETC) and energy metabolism</head><p>The ferredoxin and cytochrome b6-f complex iron-sulfur subunit ( <ref type="figure" target="#fig_1">Fig. 2A</ref>) are main components of the ETC in the chloroplast, where Mn 2+ is a cofactor of water-oxidizing complex (WOC) of photosystem II and Cu 2+ is a cofactor of plastocyanin. In search for DEGs involved in photosynthetic electron transfer chain, we found photosystem I reaction center (PSI), ATP synthase (chloroplastic), and ferredoxin were down-regulated under Fe-deficient condition, while cytochrome b 6 f complex, fucoxanthin-chlorophyll a-c binding protein A/F, photosystem II reaction center (PSII) and Rubisco were up-regulated under Fedeficient condition <ref type="figure" target="#fig_2">(Fig. 3)</ref>. For the cell respiratory system, cytochrome b2 and ATP synthase mitochondrial F1 complex assembly factor 2 were significantly down-regulated (fold change N2, P b .05, as defined earlier in the paper), and cytochrome c-type heme lyase and ATP synthase (mitochondria) showed less dramatic down-regulation (fold change between 1.5 and 2, P b .05) under Fe-deficient condition <ref type="figure" target="#fig_2">(Fig. 3)</ref>. Most of these chloroplastic and mitochondrial ETC genes showed no changes in expression under deficiency of one of the other four trace metals, suggesting that ETC was influenced only by iron among the five trace metals examined.</p><p>The regulation of genes involved in ETCs and significant enrichment of fatty acid biosynthesis in KEGG pathways was indicative of Fe dependency of energy metabolism <ref type="figure" target="#fig_0">(Fig. 1)</ref>. Further analysis revealed upregulation of most genes involved in glycolysis and fatty acid biosynthesis under Fe deficiency, e.g. pyruvate kinase, pyruvate dehydrogenase, acetyl-CoA carboxylase, fatty acid desaturase, erythronolide synthase and NADP-dependent malic enzyme <ref type="figure" target="#fig_2">(Fig. 3)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5.">ROS scavenging ability, immunity, stress responses</head><p>PSII and ferredoxin are reactive oxygen species (ROS) source site in photosynthetic organisms <ref type="bibr" target="#b13">(Karuppanapandian et al., 2011;</ref><ref type="bibr" target="#b36">Pospíšil, 2017)</ref>. A complex interplay between the host and the symbiont in a symbiotic entity is evident in response to oxidative stress <ref type="bibr" target="#b18">(Lesser, 1997;</ref><ref type="bibr" target="#b3">Baird et al., 2009)</ref>. We searched for ROS scavenging genes and found 30 genes that showed strong regulation (8; fold change N2, P b .05, as defined earlier in the paper) or moderate regulation (22, fold change between 1.5 and 2, P b .05) under trace metal deficiencies, especially under Fe deficiency <ref type="table">(Table S7</ref>). Among the up-regulated genes, catalase-peroxidase (katG) was strongly up-regulated under Fe deficiency and moderately up-regulated under other four trace metaldeficient conditions, while zeta-carotene-forming phytoene desaturase (zcfpd) was strongly up-regulated under Mn deficiency and moderately up-regulated under other four trace metal-deficient conditions. Among the down-regulated genes, glutathione S-transferase L1 (gstl), thioredoxin (trx), peroxiredoxin (prx) and cytochrome P450 were strongly down-regulated under Fe deficiency, while glutathione peroxidase (gpx), glutathione reductase, glutathione S-transferase (gst), ascorbate peroxidase (apx), peroxidase (px), and prolycopene isomerase (pi) were moderately down-regulated under Fe deficiency and no regulation was observed under deficiencies of other four trace metals ( <ref type="figure" target="#fig_3">Fig. 4A</ref>). Of these, zcfpd, katG, pi, gpx, gst and gstl were selected for further validation using RT-qPCR ( <ref type="figure" target="#fig_3">Fig. 4B</ref>). F. kawagutii contains a diverse  set of superoxide dismutase (SOD; Cu/Zn-, Mn/Fe-, and Ni-dependent) encoding genes <ref type="bibr" target="#b23">(Lin et al., 2015</ref>). Here we identified 9 SODs, including 1 Fe/Mn-dependent, 7 Mn-dependent and 1 Cu/Zn-dependent SODs, but they displayed no differential expression under any of the five trace metal deficiencies relative to the control.</p><p>The innate immunity in scleractinian corals is important in regulating coral-Symbiodiniaceae symbiosis <ref type="bibr" target="#b16">(Kvennefors et al., 2010;</ref><ref type="bibr" target="#b55">Zhou et al., 2017)</ref>. It follows that molecules in the symbiont that have influence on the innate immunity may have impacts on the maintenance of the symbiosis. In this study, we found 31 immune associated genes, such as protein NLRC3 (NLRC3-1 and NLRC3-2), nudix hydrolase 8 (nudt8), Cathepsin E (catE), calcium/calmodulin-dependent protein kinase type IV (CaMKIV), leucine-rich repeat receptor-like protein kinas (LRR-RLK) and ankyrin repeat domain-containing protein 17, that were regulated under trace metal deficiencies <ref type="figure" target="#fig_3">(Fig. 4C</ref>). Among them, 8 genes annotated as protein NLRC3, which is a negative regulator of the innate immune response, were down-regulated under Fe deficiency <ref type="table">(Table S8)</ref>. No down-regulated (fold change b2) immunity associated gene was found in other four metal deficient conditions. Of these, NLRC3-1, NLRC3-2, nudt8, catE, CaMKIV and LRR-RLK were selected for further validation by RT-qPCR <ref type="figure" target="#fig_3">(Fig. 4D)</ref>.</p><p>In addition, we found that 18 stress resistance genes, 22 apoptosis genes and 10 autophagy or programmed cell death associated genes were regulated under five trace metal deficient conditions <ref type="figure" target="#fig_4">(Fig. 5A</ref>, Tables S9, S10, S11). Of these, multidrug resistance-associated protein 1, protein FAM3B, mitogen-activated protein kinase kinase A, mitogen-activated protein kinase kinase 3, poly [ADP-ribose] polymerase 11 and autophagy protein 2 were up-regulated under deficiencies of five trace metals and no gene was down-regulated. In response to Fe deficiency, heat shock protein sti1-like, beta-glucosidase 42, chaperone protein DnaJ 2, zeaxanthin epoxidase, DnaJ-like subfamily C member 7, protein N-lysine methyltransferase METTL21A were upregulated and heat shock protein-like pss1, Hsp90 co-chaperone Cdc37, WW domain-containing oxidoreductase, general stress protein  13, WD40 repeat-containing protein and bifunctional apoptosis regulator were down-regulated.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.6.">Extracellular matrix (ECM), cell wall, and cell adhesion</head><p>The extracellular matrix (ECM) probably contains both proteins and polysaccharides, which play important roles in cell adhesion, cell-cell interaction and cell communication between symbiodiniaceae and host. In this study, 57 genes encoding extracellular proteins (e.g. extracellular matrix protein FRAS1, heparanase, outer membrane protein PmpB, fibroin heavy chain-like and SCO-spondin) and 56 cell adhesion or cell-cell recognition associated genes (e.g. adhesive plaque matrix protein, P-selectin, tenascin-X, classical arabinogalactan protein 9-like and fibronectin type-III domain-containing protein 3A) were found to significantly change expression under trace metal deficient conditions, especially under Fe deficiency <ref type="figure" target="#fig_4">(Fig. 5B</ref>, <ref type="table" target="#tab_0">Table S12</ref>). Most of these were up-regulated except for outer membrane protein pmp6, integral membrane protein, reticulocyte-binding protein 2-like a, phosphatidylinositol 4-phosphate 5-kinase 4 and endoglucanase EG-1, which were down-regulated, under Fe deficiency. Among these cell adhesive or cell-cell recognition associated genes, 35 genes were responsive to Fe deficiency (27 up-regulated), 37 genes to Mn deficiency (34 up-regulated), 34 genes to Zn deficiency (32 up-regulated), 32 genes to Cu deficiency (32 up-regulated), and 20 genes to Ni deficiency (19 up-regulated). Six genes annotated as Svep1 (Sushi, von Willebrand factor type A, EGF and pentraxin domain-containing protein 1), a novel cell adhesion molecule <ref type="bibr" target="#b41">(Shefer and Benayahu, 2010)</ref>, were also identified and found to be up-regulated by trace metal deficiencies <ref type="figure" target="#fig_4">(Fig. 5B</ref>, <ref type="table" target="#tab_0">Table S13</ref>).</p><p>In addition, we found 34 genes encoding cell wall synthase or cell wall structure protein genes that were responsive to trace metal deficient conditions <ref type="figure" target="#fig_4">(Fig. 5B</ref>). Of these, genes encoding cell wall alpha-1,3glucan synthase mok12, D-xylulose reductase, Callose synthase 7, Dalanine:D-alanine ligase, glucuronoxylan glucuronosyltransferase IRX7, glycine-rich cell wall structural protein-like and vegetative cell wall protein gp1-like were up-regulated under five trace metal deficiencies <ref type="table" target="#tab_0">(Table S14</ref>). Together these results suggest that ECM and cell wall are sensitive to ambient stress rendering cell adhesion ability changeable as a result. Comparative analysis of total DEGs number revealed the influence by trace metal availability in the following order of significance, Fe N Mn N Zn N Cu N Ni.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.7.">Cell cycle genes</head><p>Under Fe deficiency condition, cyclin-dependent kinase 7 (CDK7), cyclin-L1-1, mitogen-activated protein kinase 4 (MAPK4) and cell division control protein 2 (CDC2) were down-regulated <ref type="figure" target="#fig_2">(Figs. 3, 6</ref>), consistent with the decrease in cell growth rate under Fe deficiency <ref type="bibr" target="#b37">(Rodriguez and Ho, 2018)</ref>. CDK7 is a regulator of the G1 to S phase transition of the cell cycle <ref type="bibr" target="#b6">(Devos et al., 2015)</ref>, and its down-regulation suggests that the cell cycle may be arrested in G1 phase under Fe deficiency. Interestingly, all these cell cycle genes showed no changes in expression level under deficiencies of other four trace metals.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.8.">Validation of RNA-seq results using RT-qPCR</head><p>We first developed reference genes by testing the expression stability of the candidate genes gapdh, tubulin and actin. These genes were <ref type="figure">Fig. 6</ref>. Schematic representation of biological pathways in F. kawagutii under Fe-deficient condition. Photosystem II 12 kDa extrinsic protein (PSII), Rubisco (RbcL), cytochrome b6-f complex (CytB), photosystem I reaction center (PSI), ferredoxin (Fd); ATP synthase (ATPs), light harvest protein (LHC), pyruvate kinase (PK), pyruvate dehydrogenase (PD), citrate synthase (CS), isocitrate dehydrogenase (IDH), cytochrome b2 (III), cytochrome c-type heme lyase (Cytc), gamma carbonic anhydrase(GCA), zeta-carotene-forming phytoene desaturase (ZCFPD), superoxide dismutase (SOD), catalase-peroxidase (KatG), glutathione peroxidase (GPX), glutathione reductase (GR), glutathione S-transferase (GST), ascorbate peroxidase (APX), peroxidase (PX), thioredoxin (TRX), peroxiredoxin (PRX), cyclin-dependent kinase 7 (CDK7), cyclin-L1-1 (Cyclin), cell division control protein 2 (CDC2), mitogen-activated protein kinase 4 (MAPK4), isociatrate lyase (ICL), citrate lyase (CL), acetyl-CoA carboxylase (ACC), S-acyl fatty acid synthase thioesterase (SFAST), NADPH oxidase (NOX), NADP-dependent malic enzyme (NDME), nitrite reductase (NR), glutamine synthase (GSN), α-ketoglutarate dehydrogenase complex(α-KDC), isocitrate dehydrogenase (IDH).</p><p>selected as candidates because they showed no significant changes in expression between replete and depleted conditions of the five trace metals in RNA-seq. RT-qPCR and geNorm <ref type="bibr" target="#b49">(Vandesompele et al., 2002)</ref> were performed for these genes, and results showed that the gapdh and tubulin were stable in expression and we used them as reference genes for normalizing target gene expression ( <ref type="figure" target="#fig_1">Fig. S2</ref>). Then we selected 6 genes associated with ROS scavenging (zcfpd, katG, pi, gpx, gst and gstl) and 6 gene associated with innate immunity (NLRC3-1, NLRC3-2, nudt8, catE, CaMKIV and LRR-RLK) for RT-qPCR. Results showed that these 12 genes all showed consistent expression patterns between the RT-qPCR and the RNA-seq results <ref type="figure" target="#fig_3">(Fig. 4B, D)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>The symbiosis between corals and Symbiodiniaceae relies on compatible host-symbiont recognition and nutrient exchange, which are vulnerable to external environmental stressors including seawater warming, excess light, and eutrophication or nutrient deficiency <ref type="bibr" target="#b8">(Ferrier-Pages et al., 2018;</ref><ref type="bibr" target="#b44">Skirving et al., 2019)</ref>. Corals in tropical seas characteristically experience low levels of major inorganic nutrients such as nitrogen and phosphorus <ref type="bibr" target="#b29">(Muscatine and Porter, 1977)</ref> and low concentration of essential trace metals <ref type="bibr" target="#b27">(Measures and Vink, 2000;</ref><ref type="bibr" target="#b31">Obata et al., 2008)</ref>. Recent studies indicated that trace metal deficiency could lead to coral bleaching <ref type="bibr" target="#b8">(Ferrier-Pages et al., 2018)</ref> and bleaching increased under Fe deficiency <ref type="bibr" target="#b43">(Shick et al., 2011)</ref>, demonstrating that Fe and perhaps other trace metals as well are essential to maintaining the mutualistic relationship between corals and symbiodinicean symbionts. In response to the dearth of information on molecular responses of Symbiodiniaceae to trace metal deficiency, we used F. kawagutii as a model and examined its responses to deficiency of five trace metals.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Overall response under trace metal deficiencies</head><p>The slower growth rates of F. kawagutii under trace metal deficient conditions <ref type="bibr" target="#b37">(Rodriguez and Ho, 2018)</ref> and the elevated expression of many stress genes under trace metal deficient conditions found in the present study together clearly indicated that the cultures were under trace metal stress. Under the deficiencies of the five trace metals examined in this study, 372 shared DEGs were regulated and significantly enriched in seven KEEG pathways <ref type="figure" target="#fig_0">(Fig. 1A)</ref>, indicating that these are likely common response to trace metal stress, some of which might even be general stress response. The present study further indicated that the number of DEGs identified by comparing trace metal deficient cultures and control cultures was the greatest in Fe deficiency, then decreasing in the following order, Fe N Mn N Zn N Cu N Ni <ref type="table" target="#tab_0">(Table 1)</ref>. This result is broadly in line with previous report that the demand of F. kawagutii for the trace metals is also the highest for Fe, and decreases in the following order: Fe N Zn N Mn N Cu N Ni <ref type="bibr" target="#b37">(Rodriguez and Ho, 2018)</ref>. Thus, the DEG numbers generally reflect the relative importance of individual trace metal to F. kawagutii growth. However, it is of interest to note that Mn was ranked higher than Zn with respect to DEG numbers but lower than Zn with respect to growth demand. This discrepancy suggests that Zn is needed in greater amount but probably can be replaced by other metals whereas Mn is needed in smaller amount but its deficiency induced broader metabolic modification.</p><p>In dinoflagellates, b30% of genes have been shown to exhibit transcriptional changes, and the changes are relatively small, in response to environmental fluctuations or stresses <ref type="bibr" target="#b22">(Lin, 2011;</ref><ref type="bibr" target="#b4">Barshis et al., 2014)</ref>. Despite the general low expected transcriptional regulation, the finding that only 1.2% to 4.5% of detected genes were regulated under deficiencies of the 5 trace metals examined was surprising. There are two possibilities. First, the majority of genes in F. kawagutii may be regulated translationally or post-translationally. Second, the influence of deficiencies of the 5 trace metals is restricted to a small number of genes and pathways. Based on general dinoflagellate peculiar characteristics, the first possibility is more likely, underscoring the importance of proteomic approach to address complete molecular regulation of stress response in this dinoflagellate in the future.</p><p>A small number of genes are highly represented in the EST datasets in dinoflagellate, e.g. K. brevis <ref type="bibr" target="#b21">(Lidie et al., 2005)</ref> and A. catenella <ref type="bibr" target="#b48">(Uribe et al., 2008)</ref>. In F. kawagutii, PCP, high affinity nitrate transporter, nitrate transporter, Rubisco, fucoxanthin-chlorophyll a-c binding protein were highly and commonly expressed genes in nutrient replete and trace metal deficient conditions. These genes are important in light harvesting and nitrate utilization. And among these genes, PCP has been reported to be highly expressed in at least three dinoflagellate cultures, e.g. Symbiodinium Clade C3, Lingulodinium polyedrum strain 70 and Alexandrium tamarense-EST1 <ref type="bibr" target="#b22">(Lin, 2011)</ref>, indicating that dinoflagellates commonly have a high ability of light harvesting and photoprotection. The higher expression of nitrate transporters than ammonium transporter is particularly interesting, because in the genome of this species, NH 4 transporter gene is more abundantly duplicated than NO 3 − transporter gene <ref type="bibr" target="#b23">(Lin et al., 2015)</ref>. The inconsistence suggests that while the species has a high potential of utilizing NH 4 (perhaps when living in symbiotic association with a host), when grown free of host and with NO 3 − medium, gene expression strongly favors NO 3 − transporter over NH 4 transporter.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Lipid metabolism and cell surface features</head><p>Fatty acid content has previously been documented in Symbiodiniacea in attempts to link thermal tolerance to thylakoid membrane lipid composition <ref type="bibr" target="#b46">(Tchernov et al., 2004)</ref> and to develop lipid biomarker for stress <ref type="bibr" target="#b14">(Kneeland et al., 2013)</ref>. A recent transcriptome analysis of Symbiodiniacea also revealed differences in expression of fatty acid metabolism and biosynthesis pathway genes potentially related to membrane composition and energy storage <ref type="bibr" target="#b33">(Parkinson et al., 2016)</ref>. In this study, we found fatty acid synthesis and metabolism was significantly enriched under trace metal deficiencies. And it is worth noting that 3 genes encoding delta fatty acid desaturase enzyme previously reported under thermal stress in Fugacium <ref type="bibr" target="#b9">(Gierz et al., 2017)</ref> were found to be up-regulated under trace metal deficiencies <ref type="figure" target="#fig_2">(Fig. 3)</ref>. Fatty acid desaturases are involved in synthesis of polyunsaturated fatty acid (PUFA), which are important in the acclimation of microorganisms to various ambient temperatures <ref type="bibr" target="#b26">(Los and Murata, 1998)</ref>. This implies the trace metal deficiencies may have similar influence as thermal stress on PUFA synthesis and changing membrane lipid composition may be a common response to ambient stress of Symbiodiniaceae. Most genes associated with membrane composition were regulated by deficiency of trace metals, further confirming the membrane composition was sensitive to change under metal deficiencies. Transmembrane protein 65 and outer membrane protein PmpB, for instance, were found to be up-regulated, and integral membrane protein transmembrane and coiled-coil domain-containing protein 4 were down-regulated. Thus, fatty acid biosynthesis and metabolism was significantly regulated by trace metal deficiencies, thermal stress <ref type="bibr" target="#b9">(Gierz et al., 2017;</ref><ref type="bibr" target="#b24">Lin et al., 2019)</ref> and light intensity changes <ref type="bibr" target="#b50">(Xiang et al., 2015)</ref>, suggesting in concert that the membrane lipid composition of Symbiodiniaceae (even the thermal-resistant strains such as F. kawagutii) is sensitive to environmental stress.</p><p>For Symbiodiniaceae as endosymbionts, the ECM, which probably contains both proteins and polusaccharides, plays important roles in cell adhesion, cell-cell interaction and cell communication between symbionts and their hosts. It has been known that a novel cell adhesion molecule Svep1 <ref type="bibr" target="#b41">(Shefer and Benayahu, 2010)</ref> is significantly reduced by increasing or decreasing light density in Symbiodiniaceae SSB01 cells, and this was implicated in influencing the potential of symbiosis <ref type="bibr" target="#b50">(Xiang et al., 2015)</ref>. While in the present study, we found that six genes encoding Svep1 were up-regulated under trace metal deficiencies in F. kawagutii. We also found 23 genes encoding the ECM protein, 3 genes encoding cell adhesive plaque matrix protein, 10 genes encoding trophinin and 1 gene encoding P-selectin were up-regulated under trace metal deficiencies. One gene annotated as classical arabinogalactan protein 9-like, which is implicated in diverse developmental roles such as differentiation, cell-cell recognition, cell signaling and programmed cell death <ref type="bibr" target="#b39">(Schultz et al., 2000)</ref>, was also upregulated under trace metal deficiencies. In addition, cell wall structure of Symbiodiniaceae was sensitive to light density <ref type="bibr" target="#b50">(Xiang et al., 2015)</ref>, exogenous glucose <ref type="bibr" target="#b51">(Xiang et al., 2017)</ref>, heat stress <ref type="bibr" target="#b24">(Lin et al., 2019)</ref>. In present study, glycine-rich cell wall structural protein-like, cell wall alpha-1,3-glucan synthase mok11/12, vegetative cell wall protein, pollen-specific leucine-rich repeat extensin-like protein 1 and Dalanine:D-alanine ligase (DDI) involved in cell-wall biosynthesis were up-regulated under deficiency of trace metals, suggesting that the cell wall structure can also be influenced by trace metals. Taken together, our data along with the previous data of others suggest that the ability of recognition and cell adhesion in F. kawagutii may be changed by trace metal deficiencies, especially in Fe deficiency. These have implications in the symbiotic relationships of F. kawagutii with corals or other organisms.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Molecular components dependent on trace metals</head><p>Trace metals are required for many processes, including nitrate and nitrite reduction, chlorophyll synthesis, and the ETC of respiration and photosynthesis <ref type="bibr" target="#b47">(Twining and Baines, 2013)</ref>. Iron is involved in photosynthetic components of PSII, PSI, Cytochrome b 6 f complex and ferredoxin <ref type="bibr" target="#b42">(Shi et al., 2007)</ref> and hence is a limiting nutrient for primary production on coral reefs <ref type="bibr" target="#b38">(Sakka et al., 1999;</ref><ref type="bibr" target="#b31">Obata et al., 2008)</ref>. Molecular studies have revealed that iron limitation in phytoplankton upregulates PSII protein abundance <ref type="bibr" target="#b11">(Hong et al., 2017)</ref> and impairs the electron transport capacity of PSII <ref type="bibr" target="#b35">(Petrou et al., 2014)</ref>. In our study, most DEGs identified in the photosystem were down-regulated under Fe deficiency, indicative of depressed photosynthetic capacity. It has been known that the ferredoxins and other carriers on the reducing side of PSI have sufficiently negative electrochemical potentials to donate electrons to oxygen resulting in the formation of ROS <ref type="bibr" target="#b2">(Arora et al., 2002)</ref>. The PSII, Cytochrome b 6 f complex and Cytochrome c-550 were up-regulated, indicating elevation of light harvesting and electron transport, which can potentially promote photorespiration and ROS production, especially given that PSI, ferredoxin and ATP synthase genes were down-regulated. The Mn and Cu are also involved in ETC, but the DEGs associated with ETC were only identified from the Fe-deficient group. And most Mn-or Zn-dependent components were upregulated on Mn-and Zn-deficient group, suggesting that these components probably can use other elements as cofactors when the primary cofactors are deficient <ref type="figure" target="#fig_1">(Fig. 2)</ref>, making them less essential than Fe.</p><p>The iron-containing ferredoxin can be replaced by the non-iron protein flavodoxin in the photosynthesis electron transfer chain of algae <ref type="bibr" target="#b32">(Pankowski and Mcminn, 2008)</ref>. We found that ferredoxin gene was down-regulated under iron deficiency as expected, but observed no change in flavodoxin transcription. One possibility is that flavodoxin expression is regulated at translational level rather than transcriptional level, as are many genes in dinoflagellates <ref type="bibr" target="#b22">(Lin, 2011)</ref>. Another possibility is that the decrease in ferredoxin expression is compensated by another functional analog, which is unknown. In addition, F. kawagutii has been shown to maintain growth at low iron availability when other trace metals such as manganese, copper or zinc is available <ref type="bibr" target="#b37">(Rodriguez and Ho, 2018)</ref>. From the transcriptomic we found the zinc and manganese transporter were down-regulated, while iron permease and ABC transporter A/G/F families were up-regulated under Fe deficiency. This suggests that F. kawagutii is more likely to reduce Fe requirement and enhance Fe uptake to cope with Fe deficiency and maintain growth than replacing Fe with Zn and Mn, unless transporters of these two trace metals are regulated at the post-transcriptional level.</p><p>In algae, the assimilation of nitrate relies on iron-containing nitrite reductase (NiR) <ref type="bibr" target="#b7">(Esen and Ürek, 2015)</ref>. It is no surprise, therefore, that Fe deficiency caused down-regulation of nir and high affinity nitrate transporter, as accumulated NO 3 − inside the cells as a result of nir down-regulation would trigger feedback response of the transport system. However, it is interesting to note that ammonia channel, ammonium transporter and urea-proton symporter were up-regulated in the Fe-deficient group. This is evidence that F. kawagutii might be sensing N stress (even though nitrate was supplied at an excess level) as a result of disabled nitrite reduction and that the dinoflagellate species possesses a strategy to shift toward ammonium or urea utilization to reduce Fe requirement and energy cost in N-nutrient assimilation under Fe-deficient condition.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4.">Defense response against the low trace metal concentration in F. kawagutii</head><p>Indirect and direct measurements have shown that oxidative damage and oxidative load within corals and their symbiotic dinoflagellates play a significant role in thermal and solar radiation bleaching <ref type="bibr" target="#b18">(Lesser, 1997;</ref><ref type="bibr" target="#b3">Baird et al., 2009)</ref>. In plants, ROS are formed by the inevitable leakage of electrons onto O from the electron transport activities of chloroplasts, mitochondria, and plasma membranes or as a byproduct of various metabolic pathways localized in different cellular compartments <ref type="bibr" target="#b40">(Sharma et al., 2012)</ref>. Potentially toxic ROS are removed by antioxidant systems including most enzymatic antioxidants such as SOD and metal ions such as ferrous ion. As long as scavenging mechanisms are functional, ROS will not accumulate. Our transcriptomic data indicated that gpx, gst, apx, prx, trx and pi were all down-regulated in Fe-deficient group <ref type="figure" target="#fig_3">(Fig. 4)</ref>. To make the matter worse, under the iron deficiency, NADP oxidase, cytochrome P450 and citrate synthase, enzymes that can potentially promote ROS production, were upregulated ( <ref type="figure" target="#fig_2">Fig. 3)</ref>. Thus, Fe deficiency can potentially be a serious oxidative threat to F. kawagutii, in which case oxidative damage will occur, leading to metabolic dysfunction, cell destruction or mutation. None of these ROS scavenging genes was down-regulated under other four trace metal deficiencies, indicating the cell can hold a stable ability of ROS scavenging. In addition, the Fe/Mn-, Mn-and Cu/Zn-dependent SODs showed no differential expression in five metal deficiencies relative to the control. This apparently stable SOD antioxidant enzyme, if verified to be so at protein and activity levels, may serve as rescue mechanism in F. kawagutii cope with oxidative stress caused by Fe limitation and other types of stress. Together, these results suggest that F. kawagutii invests heavily in SOD production, and would have to reallocate Fe toward SOD by reducing synthesis of other Fe-dependent proteins.</p><p>In vertebrates, important components of immunity include tolerance of and resistance to microbes. Innate immunity in scleractinian corals plays an important role in the maintenance of coral-Symbiodiniaceae symbiosis <ref type="bibr" target="#b16">(Kvennefors et al., 2010;</ref><ref type="bibr" target="#b55">Zhou et al., 2017)</ref>. It is generally assumed that Symbiodiniaceae actively suppress the coral immune response to allow infection by the symbiont cells and symbiosis establishment. Little literature has described the counter-immunity mechanism of Symbiodiniaceae to sustain healthy symbiosis with corals. In our F. kawagutii transcriptomic data, we found genes putatively involved in immunity and found that most of them was up-regulated under deficiencies of the five trace metals examined here. No gene was found down-regulated under trace metal deficiencies except for Fe deficiency. Among these, 8 genes encoding protein NLRC3, an intracellular sensor that negatively affected innate immune responses <ref type="bibr" target="#b0">(Allen et al., 2012;</ref><ref type="bibr" target="#b54">Zhang et al., 2014)</ref>, were downregulated under Fe deficiency. The uptick change of their innate immune under trace metal deficiencies, especially under Fe deficiency, suggests that the deficiency may lead to strengthening of host immunity, and imaginably to the disruption of symbiosis and bleaching. However, this requires further experimental study using coral-Symbiodiniaceae holobionts as the subject.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusions</head><p>By transcriptomic profiling, most trace metal dependent genes were affected under trace metal deficiencies, especially under Fe deficiency. DEGs encoding ECM, cell surface structure and cell adhesion protein were up-regulated in five trace metal deficiencies, suggesting that the ability of recognition and adhesion in F. kawagutii may be changed when the trace metal was not available in situ. Comparison of the number of DEGs detected in every treatment group indicated that iron was the most influential metal in F. kawagutii. Under iron deficiency, antioxidant machinery seemed to be weakened and ROS production enhanced, suggesting that oxidative damage will likely occur, leading to metabolic dysfunction, cell destruction or mutation. In addition, our data revealed up-regulation of innate immunity in F. kawagutii, implying a heightened potential of symbiont expulsion and symbiosis breakdown under trace metal deficient conditions, a perspective warranting further experimental inquiry. In summary, trace metal deficiency seems to promote energy metabolism, innate immunity, and cell adhesion and depress growth and the capacity of ROS scavenging, which when occurring to coral symbionts may induce coral bleaching.</p><p>Supplementary data to this article can be found online at https://doi. org/10.1016/j.scitotenv.2019.135767.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Overall differential gene expression profile. (A) KEGG enrichment of 372 DEGs common regulated by five trace metal deficiencies. Red fonts depict significant enriched pathways (P b .05) and the color strength represents the Q-value. (B) Venn diagram of DEGs in five low trace metal deficiencies. (C) Significant KEGG enrichment of DEGs from each trace metal deficiency (P b .05), the color strength represents the adjusted p-value. (D) Relative abundance of GO terms (%) found in deficiency of each trace metal.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Heatmaps showing changes in the expression levels of molecular components in response to deficiencies of trace metals. (A) Molecular components responding to iron deficiency. (B) Molecular components responding to deficiencies in manganese or zinc. The heatmap color strength represents homogenized gene expression (FPKM), from green (lowest), dark, red (highest). Con, control.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Heatmap showing changes in expression levels of genes involved in five functional categories. The heatmap color strength represents homogenized gene expression (FPKM), increasing from green (lowest), dark, to red (highest). Every cluster (left) represents one functional category. Con, control.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc>Expression fold changes of selected genes under deficiencies of trace metals. Horizontal lines depict no change in expression, above line are genes up-regulated and below the line are genes down-regulated under trace metal deficiencies. (A) Genes involved in ROS scavenging under five trace metal deficiencies. Yellow color indicates fold change N1.5 and gray color indicated fold change b1.5. (B) RT-qPCR validation of six genes involved in ROS scavenging. Zcfpd: zeta-carotene-forming phytoene desaturase; katG: catalase-peroxidase; pi: prolycopene isomerase; gst: glutathione S-transferase; gpx: glutathione peroxidase; gstl: glutathione S-transferase L1. (C) Genes involved in immune response under five trace metal deficiencies. Light blue means fold change N2. (D) RT-qPCR validation of six genes involved in innate immunity. LRR-RLK: leucine-rich repeat receptor-like protein kinas; catE: cathepsin E; CaMKIV: calcium/ calmodulin-dependent protein kinase type IV; nudt8: nudix hydrolase 8; NLRC3-1 and NLRC3-2: protein NLRC3. Note: qPCR-1 means gapdh as reference gene and qPCR-2 means tubulin as reference gene; *P b .05, **P b .01.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc>Expression fold changes of selected genes regulated by trace metals. (A) Summary of genes involved in stress response under trace metal deficiencies. (B) Summary of genes involved in extracellular protein, cell wall synthesis or reconstruction and cell adhesive. N indicates gene number. Detailed information is available in tables S9 to S11.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Number of DEGs under trace metal deficiencies.</figDesc><table><row><cell cols="4">Samples for comparison Up regulated Down regulated Total regulated (% a )</cell></row><row><cell>Control vs. +1/5Fe</cell><cell>1, 435</cell><cell>1370</cell><cell>2, 805 (4.7%)</cell></row><row><cell>Control vs. −Mn</cell><cell>1, 468</cell><cell>36</cell><cell>1, 504 (2.5%)</cell></row><row><cell>Control vs. +1/5Zn</cell><cell>1, 402</cell><cell>49</cell><cell>1, 451 (2.5%)</cell></row><row><cell>Control vs. −Cu</cell><cell>1205</cell><cell>39</cell><cell>1, 244 (2.1%)</cell></row><row><cell>Control vs. −Ni</cell><cell>653</cell><cell>32</cell><cell>685 (1.2%)</cell></row></table><note>a DEG account for total detected genes.</note></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgement</head><p>We wish to thank Ling Li, Chentao Guo and Xiaohong Yang of Marine EcoGenomics Laboratory of Xiamen University, China for technical assistance in selecting reference genes. We also thank Jianwei Chen, Guilin Liu, Bin Geng of BGI Genomics Co., Ltd. for assistance with bioinformatics analysis of the RNA-seq data. This work was supported by Natural Science Foundation of China [grant numbers 31661143029,41776116   ] and Fundamental Research Funds for the Central Universities of China [grant numbers20720180101 (XL)].</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author contribution</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of competing interest</head><p>All the authors declare that there are no conflicts of interests regarding this article.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">NLRP12 suppresses colon inflammation and tumorigenesis through the negative regulation of noncanonical NF-κB signaling</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><forename type="middle">C</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">D</forename><surname>Lich</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">A</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Arthur</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Immunity</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="742" to="754" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Allen, I.C., Wilson, J.E., Schneider, M., Lich, J.D., Roberts, R.A., Arthur, J.C., et al., 2012. NLRP12 suppresses colon inflammation and tumorigenesis through the negative reg- ulation of noncanonical NF-κB signaling. Immunity 36, 742-754.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Trace metal metabolism in plants</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Andresen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Peiter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Kupper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Bot</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="909" to="954" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Andresen, E., Peiter, E., Kupper, H., 2018. Trace metal metabolism in plants. J. Exp. Bot. 69, 909-954.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Oxidative stress and antioxidative system in plants</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Arora</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">K</forename><surname>Sairam</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">C</forename><surname>Srivastava</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Sci</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="1227" to="1238" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arora, A., Sairam, R.K., Srivastava, G.C., 2002. Oxidative stress and antioxidative system in plants. Curr. Sci. 82, 1227-1238.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Coral bleaching: the role of the host</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Baird</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Bhagooli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">J</forename><surname>Ralph</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Takahashi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Ecol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="16" to="20" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baird, A., Bhagooli, R., Ralph, P.J., Takahashi, S., 2009. Coral bleaching: the role of the host. Trends Ecol. Evol. 24, 16-20.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Lineage-specific transcriptional profiles of Symbiodinium spp. unaltered by heat stress in a coral host</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Barshis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">T</forename><surname>Ladner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">A</forename><surname>Oliver</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Palumbi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Biol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="1343" to="1352" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Barshis, D.J., Ladner, J.T., Oliver, T.A., Palumbi, S.R., 2014. Lineage-specific transcriptional profiles of Symbiodinium spp. unaltered by heat stress in a coral host. Mol. Biol. Evol. 31, 1343-1352.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Cell biology of cnidarian-dinoflagellate symbiosis. Microbiol</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Davy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Allemand</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">M</forename><surname>Weis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Biol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="229" to="261" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Davy, S.K., Allemand, D., Weis, V.M., 2012. Cell biology of cnidarian-dinoflagellate symbi- osis. Microbiol. Mol. Biol. Rev. 76, 229-261.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Fission yeast Cdk7 controls gene expression through both its CAK and C-terminal domain kinase activities</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Devos</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Mommaerts</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Migeot</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Van Bakel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Hermand</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell. Biol</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="1480" to="1490" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Devos, M., Mommaerts, E., Migeot, V., Van Bakel, H., Hermand, D., 2015. Fission yeast Cdk7 controls gene expression through both its CAK and C-terminal domain kinase activi- ties. Mol. Cell. Biol. 35, 1480-1490.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Ammonium nitrate and iron nutrition effects on some nitrogen assimilation enzymes and metabolites in Spirulina platensis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Esen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">O</forename><surname>Ürek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="275" to="286" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Esen, M., Ürek, R.O., 2015. Ammonium nitrate and iron nutrition effects on some nitrogen assimilation enzymes and metabolites in Spirulina platensis. Appl. Biochem. 62, 275-286.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Coral bleaching is linked to the capacity of the animal host to supply essential metals to the symbionts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Ferrier-Pages</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Sauzeat</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Balter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Glob. Chang. Biol</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="3145" to="3157" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ferrier-Pages, C., Sauzeat, L., Balter, V., 2018. Coral bleaching is linked to the capacity of the animal host to supply essential metals to the symbionts. Glob. Chang. Biol. 24, 3145-3157.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Transcriptomic analysis of thermally stressed Symbiodinium reveals differential expression of stress and metabolism genes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">L</forename><surname>Gierz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Foret</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Leggat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Plant Sci</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gierz, S.L., Foret, S., Leggat, W., 2017. Transcriptomic analysis of thermally stressed Symbiodinium reveals differential expression of stress and metabolism genes. Front. Plant Sci. 8.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Stichochrysis immobilis is a diatom, not a chrysophyte</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">R</forename><surname>Guillard</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">E</forename><surname>Hargraves</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phycologia</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="234" to="236" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Guillard, R.R., Hargraves, P.E., 1993. Stichochrysis immobilis is a diatom, not a chrysophyte. Phycologia 32, 234-236.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">The complex effects of ocean acidification on the prominent N -fixing cyanobacterium Trichodesmium</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">356</biblScope>
+			<biblScope unit="page" from="527" to="531" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hong, H., Shen, R., Zhang, F., Wen, Z., Chang, S., Lin, W., et al., 2017. The complex effects of ocean acidification on the prominent N -fixing cyanobacterium Trichodesmium. Sci- ence 356, 527-531.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Global warming and recurrent mass bleaching of corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">P</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">T</forename><surname>Kerry</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Alvareznoriega</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">G</forename><surname>Alvarezromero</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">D</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Baird</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">543</biblScope>
+			<biblScope unit="page" from="373" to="377" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hughes, T.P., Kerry, J.T., Alvareznoriega, M., Alvarezromero, J.G., Anderson, K.D., Baird, A., et al., 2017. Global warming and recurrent mass bleaching of corals. Nature 543, 373-377.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Reactive oxygen species in plants: their generation, signal transduction, and scavenging mechanisms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Karuppanapandian</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Moon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Manoharan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Aust crop Sci</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="709" to="725" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Karuppanapandian, T., Moon, J.C., Kim, C., Manoharan, K., Kim, W., 2011. Reactive oxygen species in plants: their generation, signal transduction, and scavenging mechanisms. J. Aust crop Sci 5, 709-725.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Lipid biomarkers in Symbiodinium dinoflagellates: new indicators of thermal stress</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Kneeland</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Hughen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Cervino</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Hau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Eglinton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Coral Reefs</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="923" to="934" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kneeland, J., Hughen, K., Cervino, J., Hau, B., Eglinton, T., 2013. Lipid biomarkers in Symbiodinium dinoflagellates: new indicators of thermal stress. Coral Reefs 32, 923-934.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Effects of temperature and salinity on survival rate of cultured of cultured corals and photosynthetic efficiency of Zooxanthellae in coral tissues</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Kuanui</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Chavanich</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Viyakarn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Omori</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ocean Sci. J</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="263" to="268" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kuanui, P., Chavanich, S., Viyakarn, V., Omori, M., Lin, C., 2015. Effects of temperature and salinity on survival rate of cultured of cultured corals and photosynthetic efficiency of Zooxanthellae in coral tissues. Ocean Sci. J. 50, 263-268.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Analysis of evolutionarily conserved innate immune components in coral links immunity and symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">C</forename><surname>Kvennefors</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Leggat</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Kerr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">D</forename><surname>Ainsworth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Hoeghguldberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Barnes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dev. Comp. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="1219" to="1229" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kvennefors, E.C., Leggat, W., Kerr, C., Ainsworth, T.D., Hoeghguldberg, O., Barnes, A.C., 2010. Analysis of evolutionarily conserved innate immune components in coral links immunity and symbiosis. Dev. Comp. Immunol. 34, 1219-1229.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Fast gapped-read alignment with Bowtie 2</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Langmead</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">L</forename><surname>Salzberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="357" to="359" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Langmead, B., Salzberg, S.L., 2012. Fast gapped-read alignment with Bowtie 2. Nat. Methods 9, 357-359.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Oxidative stress causes coral bleaching during exposure to elevated temperatures</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">P</forename><surname>Lesser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Coral Reefs</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="187" to="192" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lesser, M.P., 1997. Oxidative stress causes coral bleaching during exposure to elevated temperatures. Coral Reefs 16, 187-192.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">RSEM: accurate transcript quantification from RNA-Seq data with or without a reference genome</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">N</forename><surname>Dewey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Bioinf</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">323</biblScope>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li, B., Dewey, C.N., 2011. RSEM: accurate transcript quantification from RNA-Seq data with or without a reference genome. BMC Bioinf. 12, 323.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Identification and expression analysis of an atypical alkaline phosphatase in Emiliania huxleyi</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li, T., Guo, C., Zhang, Y., Wang, C., Lin, X., Lin, S., 2018. Identification and expression anal- ysis of an atypical alkaline phosphatase in Emiliania huxleyi. Front. Microbiol. 9.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Gene expression in Florida red tide dinoflagellate Karenia brevis: analysis of an expressed sequence tag library and development of DNA microarray</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">B</forename><surname>Lidie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Ryan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Barbier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">M</forename><surname>Van Dolah</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="481" to="493" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lidie, K.B., Ryan, J.C., Barbier, M., Van Dolah, F.M., 2005. Gene expression in Florida red tide dinoflagellate Karenia brevis: analysis of an expressed sequence tag library and devel- opment of DNA microarray. Mar. Biotechnol. 7, 481-493.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Genomic understanding of dinoflagellates</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Res. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">162</biblScope>
+			<biblScope unit="page" from="551" to="569" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lin, S., 2011. Genomic understanding of dinoflagellates. Res. Microbiol. 162, 551-569.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The Symbiodinium kawagutii genome illuminates dinoflagellate gene expression and coral symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Zhong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">350</biblScope>
+			<biblScope unit="page" from="691" to="694" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lin, S., Cheng, S., Song, B., Zhong, X., Lin, X., Li, W., et al., 2015. The Symbiodinium kawagutii genome illuminates dinoflagellate gene expression and coral symbiosis. Science 350, 691-694.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">Transcriptomic responses to thermal stress and varied 3 phosphorus conditions in Fugacium kawagutii</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019" />
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">96</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lin, S., Yu, L., Zhang, H., 2019. Transcriptomic responses to thermal stress and varied 3 phosphorus conditions in Fugacium kawagutii. Microorg 7, 96.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Symbiodinium genomes reveal adaptive evolution of functions related to symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">G</forename><surname>Stephens</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">A</forename><surname>Gonzalezpech</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">H</forename><surname>Beltran</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Lapeyre</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Bongaerts</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Commun. Biol</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">95</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liu, H., Stephens, T.G., Gonzalezpech, R.A., Beltran, V.H., Lapeyre, B., Bongaerts, P., et al., 2018. Symbiodinium genomes reveal adaptive evolution of functions related to sym- biosis. Commun. Biol. 1, 95.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Structure and expression of fatty acid desaturases</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Los</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Murata</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta</title>
+		<imprint>
+			<biblScope unit="volume">1394</biblScope>
+			<biblScope unit="page" from="3" to="15" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Los, D.A., Murata, N., 1998. Structure and expression of fatty acid desaturases. Biochim. Biophys. Acta 1394, 3-15.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">On the use of dissolved aluminum in surface waters to estimate dust deposition to the ocean</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">I</forename><surname>Measures</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Vink</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Glob. Biogeochem. Cycles</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="317" to="327" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Measures, C.I., Vink, S., 2000. On the use of dissolved aluminum in surface waters to esti- mate dust deposition to the ocean. Glob. Biogeochem. Cycles 14, 317-327.</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">The biogeochemical cycles of trace metals in the oceans</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">M</forename><surname>Morel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">M</forename><surname>Price</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">300</biblScope>
+			<biblScope unit="page" from="944" to="947" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Morel, F.M., Price, N.M., 2003. The biogeochemical cycles of trace metals in the oceans. Science 300, 944-947.</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Reef corals: mutualistic symbioses adapted to nutrientpoor environments</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Muscatine</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">W</forename><surname>Porter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biosci</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="454" to="460" />
+			<date type="published" when="1977" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Muscatine, L., Porter, J.W., 1977. Reef corals: mutualistic symbioses adapted to nutrient- poor environments. Biosci 27, 454-460.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Coral bleaching from a single cell perspective</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Nielsen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Petrou</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">D</forename><surname>Gates</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ISME J</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1558" to="1567" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nielsen, D.A., Petrou, K., Gates, R.D., 2018. Coral bleaching from a single cell perspective. ISME J. 2, 1558-1567.</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Iron, manganese and aluminum in upper waters of the western South Pacific Ocean and its adjacent seas</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Obata</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Shitashima</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Isshiki</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Nakayama</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Oceanogr</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="233" to="245" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Obata, H., Shitashima, K., Isshiki, K., Nakayama, E., 2008. Iron, manganese and aluminum in upper waters of the western South Pacific Ocean and its adjacent seas. J. Oceanogr. 64, 233-245.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Ferredoxin and flavodoxin in eastern Antarctica pack ice</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Pankowski</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Mcminn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Polar Biol</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="1153" to="1165" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pankowski, A., Mcminn, A., 2008. Ferredoxin and flavodoxin in eastern Antarctica pack ice. Polar Biol. 31, 1153-1165.</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Gene expression variation resolves species and individual strains among coral-associated dinoflagellates within the genus Symbiodinium</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Parkinson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Baumgarten</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">T</forename><surname>Michell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><forename type="middle">B</forename><surname>Baums</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C</forename><surname>Lajeunesse</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">R</forename><surname>Voolstra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="665" to="680" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Parkinson, J.E., Baumgarten, S., Michell, C.T., Baums, I.B., LaJeunesse, T.C., Voolstra, C.R., 2016. Gene expression variation resolves species and individual strains among coral-associated dinoflagellates within the genus Symbiodinium. Genome Biol. Evol. 8, 665-680.</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Beneficial microorganisms for corals (BMC): proposed mechanisms for coral health and resilience</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">S</forename><surname>Peixoto</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">M</forename><surname>Rosado</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">C</forename><surname>Leite</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">S</forename><surname>Rosado</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">G</forename><surname>Bourne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Peixoto, R.S., Rosado, P.M., Leite, D.C., Rosado, A.S., Bourne, D.G., 2017. Beneficial microor- ganisms for corals (BMC): proposed mechanisms for coral health and resilience. Front. Microbiol. 8.</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">The impact of iron limitation on the physiology of the Antarctic diatom Chaetoceros simplex</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Petrou</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Thimborn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Rost</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">J</forename><surname>Ralph</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">S</forename><surname>Hassler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Biol</title>
+		<imprint>
+			<biblScope unit="volume">161</biblScope>
+			<biblScope unit="page" from="925" to="937" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Petrou, K., Thimborn, S., Rost, B., Ralph, P.J., Hassler, C.S., 2014. The impact of iron limita- tion on the physiology of the Antarctic diatom Chaetoceros simplex. Mar. Biol. 161, 925-937.</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Production of reactive oxygen species by photosystem II as a response to light and temperature stress</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Pospíšil</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Plant Sci</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pospíšil, P., 2017. Production of reactive oxygen species by photosystem II as a response to light and temperature stress. Front. Plant Sci. 7.</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Trace metal requirements and interactions in Symbiodinium kawagutii</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><forename type="middle">B</forename><surname>Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Ho</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rodriguez, I.B., Ho, T., 2018. Trace metal requirements and interactions in Symbiodinium kawagutii. Front. Microbiol. 9.</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Nitrate, phosphate, and iron limitation of the phytoplankton assemblage in the lagoon of Takapoto Atoll (Tuamotu Archipelago, French Polynesia)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Sakka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Legendre</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Gosselin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Leblanc</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Delesalle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">M</forename><surname>Price</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aquat. Microb. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="149" to="161" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sakka, A., Legendre, L., Gosselin, M., Leblanc, B., Delesalle, B., Price, N.M., 1999. Nitrate, phosphate, and iron limitation of the phytoplankton assemblage in the lagoon of Takapoto Atoll (Tuamotu Archipelago, French Polynesia). Aquat. Microb. Ecol. 19, 149-161.</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">The classical arabinogalactan protein gene family of Arabidopsis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">J</forename><surname>Schultz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">L</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Currie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Bacic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Cell</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1751" to="1767" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schultz, C.J., Johnson, K.L., Currie, G., Bacic, A., 2000. The classical arabinogalactan protein gene family of Arabidopsis. Plant Cell 12, 1751-1767.</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Reactive oxygen species, oxidative damage, and antioxidative defense mechanism in plants under stressful conditions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">B</forename><surname>Jha</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">S</forename><surname>Dubey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Pessarakli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Bot</title>
+		<imprint>
+			<biblScope unit="volume">2012</biblScope>
+			<biblScope unit="page" from="1" to="26" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sharma, P., Jha, A.B., Dubey, R.S., Pessarakli, M., 2012. Reactive oxygen species, oxidative damage, and antioxidative defense mechanism in plants under stressful conditions. J. Bot. 2012, 1-26.</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">SVEP1 is a novel marker of activated pre-determined skeletal muscle satellite cells</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Shefer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Benayahu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Stem Cell Rev. Rep</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="42" to="49" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shefer, G., Benayahu, D., 2010. SVEP1 is a novel marker of activated pre-determined skel- etal muscle satellite cells. Stem Cell Rev. Rep. 6, 42-49.</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Effects of iron limitation on the expression of metabolic genes in the marine cyanobacterium Trichodesmium erythraeum IMS101</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">G</forename><surname>Falkowski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="2945" to="2956" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shi, T., Sun, Y., Falkowski, P.G., 2007. Effects of iron limitation on the expression of meta- bolic genes in the marine cyanobacterium Trichodesmium erythraeum IMS101. Envi- ron. Microbiol. 9, 2945-2956.</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Responses to iron limitation in two colonies of Stylophora pistillata exposed to high temperature: implications for coral bleaching</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Shick</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Iglic</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">L</forename><surname>Wells</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">G</forename><surname>Trick</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Doyle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">C</forename><surname>Dunlap</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Limnol. Oceanogr</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="813" to="828" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shick, J.M., Iglic, K., Wells, M.L., Trick, C.G., Doyle, J., Dunlap, W.C., 2011. Responses to iron limitation in two colonies of Stylophora pistillata exposed to high temperature: impli- cations for coral bleaching. Limnol. Oceanogr. 56, 813-828.</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">The relentless march of mass coral bleaching: a global perspective of changing heat stress</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">J</forename><surname>Skirving</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">F</forename><surname>Heron</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Marsh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>De La Cour</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">F</forename><surname>Geiger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Coral reef</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="547" to="557" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Skirving, W.J., Heron, S.F., Marsh, G., Liu, G., De La Cour, J.L., Geiger, E.F., et al., 2019. The relentless march of mass coral bleaching: a global perspective of changing heat stress. Coral reef 38, 547-557.</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Feedback interactions between trace metal nutrients and phytoplankton in the ocean</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">G</forename><surname>Sunda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">204</biblScope>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sunda, W.G., 2012. Feedback interactions between trace metal nutrients and phytoplank- ton in the ocean. Front. Microbiol. 3, 204.</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Membrane lipids of symbiotic algae are diagnostic of sensitivity to thermal bleaching in corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Tchernov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">Y</forename><surname>Gorbunov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>De Vargas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">N</forename><surname>Yadav</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename><surname>Milligan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Haggblom</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">G</forename><surname>Falkowski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U. S. A</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="13531" to="13535" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tchernov, D., Gorbunov, M.Y., de Vargas, C., Yadav, S.N., Milligan, A.J., Haggblom, M., Falkowski, P.G., 2004. Membrane lipids of symbiotic algae are diagnostic of sensitivity to thermal bleaching in corals. Proc. Natl. Acad. Sci. U. S. A. 101, 13531-13535.</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">The trace metal composition of marine phytoplankton</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">S</forename><surname>Twining</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">B</forename><surname>Baines</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Mar. Sci</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="191" to="215" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Twining, B.S., Baines, S.B., 2013. The trace metal composition of marine phytoplankton. Annu. Rev. Mar. Sci. 5, 191-215.</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Preparation and analysis of an expressed sequence tag library from the toxic dinoflagellate Alexandrium catenella</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Uribe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Fuentes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Valdes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Shmaryahu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Zuniga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">S</forename><surname>Holmes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Valenzuela</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="692" to="700" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Uribe, P., Fuentes, D., Valdes, J., Shmaryahu, A., Zuniga, A., Holmes, D.S., Valenzuela, P., 2008. Preparation and analysis of an expressed sequence tag library from the toxic di- noflagellate Alexandrium catenella. Mar. Biotechnol. 10, 692-700.</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Accurate normalization of real-time quantitative RT-PCR data by geometric averaging of multiple internal control genes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Vandesompele</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>De Preter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Pattyn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Poppe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Van Roy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>De Paepe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Speleman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vandesompele, J., De Preter, K., Pattyn, F., Poppe, B., Van Roy, N., De Paepe, A., Speleman, F., 2002. Accurate normalization of real-time quantitative RT-PCR data by geometric averaging of multiple internal control genes. Genome Biol. 3.</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Symbiodinium transcriptome and global responses of cells to immediate changes in light intensity when grown under autotrophic or mixotrophic conditions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Xiang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Tolleter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">R</forename><surname>Grossman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant J</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="67" to="80" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Xiang, T., Nelson, W., Rodriguez, J.M., Tolleter, D., Grossman, A.R., 2015. Symbiodinium transcriptome and global responses of cells to immediate changes in light intensity when grown under autotrophic or mixotrophic conditions. Plant J. 82, 67-80.</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Glucose-induced trophic shift in an endosymbiont dinoflagellate with physiological and molecular consequences</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Xiang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">E</forename><surname>Jinkerson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Clowez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Tran</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">J</forename><surname>Krediet</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Onishi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">R</forename><surname>Grossman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Physiol</title>
+		<imprint>
+			<biblScope unit="volume">176</biblScope>
+			<biblScope unit="page" from="1793" to="1807" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Xiang, T., Jinkerson, R.E., Clowez, S., Tran, C., Krediet, C.J., Onishi, M., Grossman, A.R., 2017. Glucose-induced trophic shift in an endosymbiont dinoflagellate with physiological and molecular consequences. Plant Physiol. 176, 1793-1807.</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">clusterProfiler: an R package for comparing biological themes among gene clusters</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Q</forename><surname>He</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Omics J Integr Biol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="284" to="287" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yu, G., Wang, L., Han, Y., He, Q., 2012. clusterProfiler: an R package for comparing biolog- ical themes among gene clusters. Omics J Integr Biol 16, 284-287.</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Spliced leader RNA trans-splicing in dinoflagellates</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Hou</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Miranda</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">R</forename><surname>Sturm</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Gaasterland</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="4618" to="4623" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang, H., Hou, Y., Miranda, L., Campbell, D.A., Sturm, N.R., Gaasterland, T., Lin, S., 2007. Spliced leader RNA trans-splicing in dinoflagellates. Proc. Natl. Acad. Sci. 104, 4618-4623.</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">NLRC3, a member of the NLR family of proteins, is a negative regulator of innate immune signaling induced by the DNA sensor STING</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Mo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">V</forename><surname>Swanson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Petrucelli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">M</forename><surname>Gregory</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Immunity</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="329" to="341" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang, L., Mo, J., Swanson, K.V., Wen, H., Petrucelli, A., Gregory, S.M., et al., 2014. NLRC3, a member of the NLR family of proteins, is a negative regulator of innate immune sig- naling induced by the DNA sensor STING. Immunity 40, 329-341.</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Dual recognition activity of a rhamnose-binding lectin to pathogenic bacteria and zooxanthellae in stony coral Pocillopora damicornis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Guo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dev. Comp. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="88" to="93" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhou, Z., Yu, X., Tang, J., Zhu, Y., Chen, G., Guo, L., 2017. Dual recognition activity of a rhamnose-binding lectin to pathogenic bacteria and zooxanthellae in stony coral Pocillopora damicornis. Dev. Comp. Immunol. 70, 88-93.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
