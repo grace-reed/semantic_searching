@@ -1,0 +1,4067 @@
+{
+    "paper_id": "1-s2",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-09-13T19:18:12.551073Z"
+    },
+    "title": "Proteomic analysis of bleached and unbleached Acropora palmata, a threatened coral species of the Caribbean",
+    "authors": [
+        {
+            "first": "Martha",
+            "middle": [],
+            "last": "Ricaurte",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Puerto Rico",
+                "location": {
+                    "postBox": "Box 9000",
+                    "postCode": "00681",
+                    "settlement": "Mayag\u00fcez, Mayag\u00fcez",
+                    "region": "Call",
+                    "country": "Puerto Rico"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Nikolaos",
+            "middle": [
+                "V"
+            ],
+            "last": "Schizas",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Puerto Rico",
+                "location": {
+                    "postBox": "Box 9000",
+                    "postCode": "00681",
+                    "settlement": "Mayag\u00fcez, Mayag\u00fcez",
+                    "region": "Call",
+                    "country": "Puerto Rico"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Pawel",
+            "middle": [],
+            "last": "Ciborowski",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "Mass Spectrometry and Proteomics Core Facility",
+                "institution": "University of Nebraska Medical Center (UNMC)",
+                "location": {
+                    "postCode": "3048, 985800, 68198-5800",
+                    "settlement": "Room, Omaha",
+                    "region": "NE",
+                    "country": "USA"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Nawal",
+            "middle": [
+                "M"
+            ],
+            "last": "Boukli",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "Universidad Central del Caribe",
+                "location": {
+                    "postCode": "00960",
+                    "settlement": "Bayam\u00f3n, Puerto Rico"
+                }
+            },
+            "email": "nawal.boukli@uccaribe.edu"
+        }
+    ],
+    "year": "",
+    "venue": null,
+    "identifiers": {},
+    "abstract": "There has been an increase in the scale and frequency of coral bleaching around the world due mainly to changes in sea temperature. This may occur at large scales, often resulting in significant decline in coral coverage. In order to understand the molecular and cellular basis of the ever-increasing incidence of coral bleaching, we have undertaken a comparative proteomic approach with the endangered Caribbean coral Acropora palmata. Using a proteomic tandem mass spectrometry approach, we identified 285 and 321 expressed protein signatures in bleached and unbleached A. palmata colonies, respectively, in southwestern Puerto Rico. Overall the expression level of 38 key proteins was significantly different between bleached and unbleached corals. A wide range of proteins was detected and categorized, including transcription factors involved mainly in heat stress/UV responses, immunity, apoptosis, biomineralization, the cytoskeleton, and endo-exophagocytosis. The results suggest that for bleached A. palmata, there was an induced differential protein expression response compared with those colonies that did not bleach under the same environmental conditions.",
+    "pdf_parse": {
+        "paper_id": "1-s2",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "There has been an increase in the scale and frequency of coral bleaching around the world due mainly to changes in sea temperature. This may occur at large scales, often resulting in significant decline in coral coverage. In order to understand the molecular and cellular basis of the ever-increasing incidence of coral bleaching, we have undertaken a comparative proteomic approach with the endangered Caribbean coral Acropora palmata. Using a proteomic tandem mass spectrometry approach, we identified 285 and 321 expressed protein signatures in bleached and unbleached A. palmata colonies, respectively, in southwestern Puerto Rico. Overall the expression level of 38 key proteins was significantly different between bleached and unbleached corals. A wide range of proteins was detected and categorized, including transcription factors involved mainly in heat stress/UV responses, immunity, apoptosis, biomineralization, the cytoskeleton, and endo-exophagocytosis. The results suggest that for bleached A. palmata, there was an induced differential protein expression response compared with those colonies that did not bleach under the same environmental conditions.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "Bleaching, the partial or complete loss of photosynthetic zooxanthellae from coral tissues, occurs mainly when corals are stressed after exposure to elevated sea water temperatures (Aronson and Precht, 2006; Hoegh-Guldberg, 1999; Hoegh-Guldberg et al., 2007; Hughes et al., 2003) . Increments of one or two degrees Celsius are sufficient to initiate expulsion of zooxanthellae by the host (DeSalvo et al., 2008; Lesser, 2007; Wilkinson, 1998) . Depending on the degree of temperature elevation and the time that it remains above normal, coral bleaching can be a reversible phenomenon without major consequences for many coral communities (Baker et al., 2008; Graham et al., 2015) , or can result in mass mortality with substantial ecological consequences (Goreau et al., 2000; Pratchett et al., 2008) .",
+                "cite_spans": [
+                    {
+                        "start": 181,
+                        "end": 207,
+                        "text": "(Aronson and Precht, 2006;",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 208,
+                        "end": 229,
+                        "text": "Hoegh-Guldberg, 1999;",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 230,
+                        "end": 258,
+                        "text": "Hoegh-Guldberg et al., 2007;",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 259,
+                        "end": 279,
+                        "text": "Hughes et al., 2003)",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 389,
+                        "end": 411,
+                        "text": "(DeSalvo et al., 2008;",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 412,
+                        "end": 425,
+                        "text": "Lesser, 2007;",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 426,
+                        "end": 442,
+                        "text": "Wilkinson, 1998)",
+                        "ref_id": "BIBREF49"
+                    },
+                    {
+                        "start": 638,
+                        "end": 658,
+                        "text": "(Baker et al., 2008;",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 659,
+                        "end": 679,
+                        "text": "Graham et al., 2015)",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 755,
+                        "end": 776,
+                        "text": "(Goreau et al., 2000;",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 777,
+                        "end": 800,
+                        "text": "Pratchett et al., 2008)",
+                        "ref_id": "BIBREF38"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "Based on sporadic observations, geographically restricted coral bleaching events have occurred since the 1950s. An increase in the severity, frequency, and geographical extent of these events, began approximately in 1982 (Lesser, 2007) . All tropical regions are affected by bleaching but one of the most affected is the Caribbean that has suffered several recent and well-documented mass-bleaching events in 1987, 1998, 2003, 2005, and 2010 (Alemu and Clement, 2014; Aronson and Precht, 2006; Ananko et al., 2005; Eakin et al., 2010; Glynn, 1991; Hoegh-Guldberg, 1999; Hughes et al., 2003; Weil, 2004; Weil et al., 2006) . During 2015-2016, a third global bleaching event threatened many reef areas in the tropical Pacific, Indian, and Atlantic Oceans (Witze, 2015) . Environmental models predict that bleaching events will increase in frequency and intensity (Hoegh-Guldberg, 1999) due to rising tropical sea surface temperatures. As a consequence of consecutive bleaching events in combination with disease outbreaks (Bruno et al., 2007; Eakin et al., 2010; Weil, 2004) the dominant reefbuilding corals of the Caribbean (Acropora palmata, Acropora cervicornis, Orbicella annularis, and Orbicella faveolata), have been disappearing rapidly. The rapid decline of A. palmata, perhaps the most iconic scleractinian coral of the Caribbean, has been so alarming that the species was listed as \"threatened\" under the US Endangered Species Act in 2006 (Miller et al., 2009; Precht et al., 2004) . In December 2012, the National Marine Fisheries Service (NMFS) proposed reclassifying A. palmata as an endangered species (77 FR 73219) but decided against the reclassification in August, 2014.",
+                "cite_spans": [
+                    {
+                        "start": 221,
+                        "end": 235,
+                        "text": "(Lesser, 2007)",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 406,
+                        "end": 441,
+                        "text": "in 1987, 1998, 2003, 2005, and 2010",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 442,
+                        "end": 467,
+                        "text": "(Alemu and Clement, 2014;",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 468,
+                        "end": 493,
+                        "text": "Aronson and Precht, 2006;",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 494,
+                        "end": 514,
+                        "text": "Ananko et al., 2005;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 515,
+                        "end": 534,
+                        "text": "Eakin et al., 2010;",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 535,
+                        "end": 547,
+                        "text": "Glynn, 1991;",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 548,
+                        "end": 569,
+                        "text": "Hoegh-Guldberg, 1999;",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 570,
+                        "end": 590,
+                        "text": "Hughes et al., 2003;",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 591,
+                        "end": 602,
+                        "text": "Weil, 2004;",
+                        "ref_id": "BIBREF47"
+                    },
+                    {
+                        "start": 603,
+                        "end": 621,
+                        "text": "Weil et al., 2006)",
+                        "ref_id": "BIBREF48"
+                    },
+                    {
+                        "start": 753,
+                        "end": 766,
+                        "text": "(Witze, 2015)",
+                        "ref_id": "BIBREF50"
+                    },
+                    {
+                        "start": 861,
+                        "end": 883,
+                        "text": "(Hoegh-Guldberg, 1999)",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 1020,
+                        "end": 1040,
+                        "text": "(Bruno et al., 2007;",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 1041,
+                        "end": 1060,
+                        "text": "Eakin et al., 2010;",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 1061,
+                        "end": 1072,
+                        "text": "Weil, 2004)",
+                        "ref_id": "BIBREF47"
+                    },
+                    {
+                        "start": 1447,
+                        "end": 1468,
+                        "text": "(Miller et al., 2009;",
+                        "ref_id": "BIBREF33"
+                    },
+                    {
+                        "start": 1469,
+                        "end": 1489,
+                        "text": "Precht et al., 2004)",
+                        "ref_id": "BIBREF40"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "Proteomics is one of the modern tools to evaluate the effects of environmental stress at the posttranslational levels of proteins in marine organisms (Tomanek, 2011) . Bleaching is a response to thermal stress (Brown et al., 1996; Douglas, 2003; Gates et al., 1992; Hoegh-Guldberg, 1999; Hughes et al., 2003; Pratchett et al., 2013) and has been studied by monitoring changes in gene expression (DeSalvo et al., 2010 , DeSalvo et al., 2008 Pinzon et al., 2015; Smith-Keune and Dove, 2008; Voolstra et al., 2009; Yuyama et al., 2012) and western blotting of specific proteins.",
+                "cite_spans": [
+                    {
+                        "start": 150,
+                        "end": 165,
+                        "text": "(Tomanek, 2011)",
+                        "ref_id": "BIBREF45"
+                    },
+                    {
+                        "start": 210,
+                        "end": 230,
+                        "text": "(Brown et al., 1996;",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 231,
+                        "end": 245,
+                        "text": "Douglas, 2003;",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 246,
+                        "end": 265,
+                        "text": "Gates et al., 1992;",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 266,
+                        "end": 287,
+                        "text": "Hoegh-Guldberg, 1999;",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 288,
+                        "end": 308,
+                        "text": "Hughes et al., 2003;",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 309,
+                        "end": 332,
+                        "text": "Pratchett et al., 2013)",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 395,
+                        "end": 416,
+                        "text": "(DeSalvo et al., 2010",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 417,
+                        "end": 439,
+                        "text": ", DeSalvo et al., 2008",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 440,
+                        "end": 460,
+                        "text": "Pinzon et al., 2015;",
+                        "ref_id": "BIBREF36"
+                    },
+                    {
+                        "start": 461,
+                        "end": 488,
+                        "text": "Smith-Keune and Dove, 2008;",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 489,
+                        "end": 511,
+                        "text": "Voolstra et al., 2009;",
+                        "ref_id": "BIBREF46"
+                    },
+                    {
+                        "start": 512,
+                        "end": 532,
+                        "text": "Yuyama et al., 2012)",
+                        "ref_id": "BIBREF51"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "To gain further insight into the molecular and cellular basis of coral bleaching, we performed a comparative proteomic analysis between unbleached and bleached colonies in the endangered Caribbean coral A. palmata during the mass-bleaching event of August/September 2010. We validated the protein expression of A. palmata tissue collected from southwestern Puerto Rico using western blots for a selected set of differentially expressed proteins.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "After the massive bleaching in 2005, in which over 80% of Caribbean corals became bleached and over 40% died at many locations (Eakin et al., 2012) , another severe event followed during 2010. The latter event persisted for more than 3 months, with the highest water temperatures ( Fig. 1 ) registered with the moored autonomous pCO 2 system (MAPCO 2 ) of NOAA Pacific Marine Environmental Laboratory (http://pmel.noaa.gov/co2/story/La+Parguera). During 2010, tissues from A. palmata colonies were collected for protein extraction from the fore reef of Collado Cay (17\u00b057\u20329.06\u2033N, 67\u00b04\u203243.35\u2033W), La Parguera, located on the southwest coast of Puerto Rico. The ecology of coral reefs in La Parguera, a marine reserve, has been the subject of numerous studies (Ballantine et al., 2008; Morelock et al., 2001 ). All coral tissues were collected under permit No. O-VS-PVS15-SJ-00668-22042014 issued to the first author by the Puerto Rico Department of Natural and Environmental Resources.",
+                "cite_spans": [
+                    {
+                        "start": 127,
+                        "end": 147,
+                        "text": "(Eakin et al., 2012)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 757,
+                        "end": 782,
+                        "text": "(Ballantine et al., 2008;",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 783,
+                        "end": 804,
+                        "text": "Morelock et al., 2001",
+                        "ref_id": "BIBREF34"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 282,
+                        "end": 288,
+                        "text": "Fig. 1",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Sampling location",
+                "sec_num": "2.1."
+            },
+            {
+                "text": "Small coral fragments were removed from three unbleached and three bleached A. palmata colonies with a hammer and chisel. The tissues were collected at a depth of 1 to 2 m and at least 3 m apart to reduce the possibility of sampling genetic clones. The samples were immediately placed in plastic bags underwater and were transported back to the laboratory in a cooler with ice. Immediately upon return, the corals were broken into 2-cm 2 pieces and placed in a mortar for grinding in 1 mL \u22121 of Rehydration Buffer (9.5 M Urea, 2% CHAPS, 1% DTT). The homogenized tissue was placed in a 1.5 mL \u2212 1 tube and lysed by sonication on ice, three times every 30 s, followed by slow shaking in a Bio-Rad laboratory shaker, at room temperature for 1 h. Samples were centrifuged in a refrigerated centrifuge (Eppendorf 5810R) at 12,000 rpm for 30 min at 4\u00b0C, and the supernatant was placed in a new sterile 1.5 mL \u22121 Eppendorf tube. The protein concentration was estimated by the Bradford method (Bradford, 1976) .",
+                "cite_spans": [
+                    {
+                        "start": 985,
+                        "end": 1001,
+                        "text": "(Bradford, 1976)",
+                        "ref_id": "BIBREF8"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Protein collection and extraction",
+                "sec_num": "2.2."
+            },
+            {
+                "text": "Two hundred micrograms of protein from unbleached and bleached A. palmata were mixed in rehydration buffer (Bio-Rad) overnight on immobilized pH gradient (IPG) strips (pH 3-10), which were then subjected to first-dimension Isoelectric Focusing (IEF) in a Bio-Rad protein IEF cell (50 \u03bcA/strip) for a total of 20,000 Vh, as previously described in (Boukli et al., 2011 (Boukli et al., , 2012 .",
+                "cite_spans": [
+                    {
+                        "start": 347,
+                        "end": 367,
+                        "text": "(Boukli et al., 2011",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 368,
+                        "end": 390,
+                        "text": "(Boukli et al., , 2012",
+                        "ref_id": "BIBREF7"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "First-dimension step, isoelectric focusing (IEF)",
+                "sec_num": "2.3."
+            },
+            {
+                "text": "After completion of the run, strips were reduced and alkylated for 2 \u00d7 15 min each in equilibration buffer I (6 mol L \u22121 urea, 2% SDS, 0.05 mol L \u22121 Tris-HCl, pH 8.8, 50% glycerol, and 2% [w/v] dithiothreitol [DTT]) followed by equilibration buffer II (6 mol L \u22121 urea, 2% SDS 0.05 mol L \u2212 1 , Tris-HCl, pH 8.8, 50% glycerol and 2.5% [w/v] Iodoacetamide). The second-dimension separation was performed with a 4-20% gradient SDS-polyacrylamide gel, to increase the range of molecular weights and sharpening bands (15 mA/gel for 15 min, then 30 mA/gel). Gels with unbleached and bleached A. palmata were stained with BioSafe Coomassie blue G-250 dye (Bio-Rad).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "High-resolution two-dimensional gel electrophoresis (2D-GE)",
+                "sec_num": "2.4."
+            },
+            {
+                "text": "The images of the stained gels were taken, in a Bio-Rad Versa Doc Model 1000 imaging system at 200 dpi resolution. All images were analyzed for spot detection and matching with Bio-Rad PD-Quest\u2122 software, version 7.4.0. The software calculated individual spot \"volumes\" by density/area integration; then, to eliminate gel-to-gel variation, individual spot volumes for each gel were normalized relative to the total spot volume of that gel. Normalized spot volume data from each experimental set were exported to Microsoft Excel, where differences in expression of spots between the unbleached and bleached coral groups were analyzed using analysis of variance (ANOVA), with p b 0.05 as the criterion for statistical significance. Protein spots determined to be significantly different in abundance \u22652 fold between the two cell lysates bleached and unbleached A. palmata were calculated in corresponding fold number by PD Quest software. These significantly differentially expressed 2D spots were selected and marked for excision. All experiments were performed in biological and technical triplicates.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Image analyses",
+                "sec_num": "2.5."
+            },
+            {
+                "text": "Spots of interest were manually excised from Coomassie bluestained gels using a sterile scalpel and kept in sterile microcentrifuge tubes for destaining with 40% methanol/10% acetic acid, reduced with 10 mmol L \u22121 DTT in 50 mmol L \u22121 ammonium bicarbonate (AB), then alkylated with 55 mmol L \u22121 iodoacetamide in 50 mmol L \u22121 AB. The resulting gel fragments were rinsed with 50 mmol L \u22121 AB and 50% acetonitrile (ACN) and dried under a stream of nitrogen. Samples were digested with 5% trypsin proteomics grade (w/w) (Sigma-Aldrich) overnight at 37\u00b0C and combined with an equal volume of saturated cyano-4-hydroxycinnamic acid in 50% ACN/0.1% trifluoracetic acid. Half the mixture from each spot was applied to a MALDI target plate. MALDI TOF-MS/MS was performed at the University of Texas, Medical Branch, Proteomics Facility (Galveston, Texas). Following MALDI MS analysis, Applied Biosystems GPS Explorer\u2122 software (version 3.6) was used in conjunction with MASCOT software to search the NCBInr databases to identify proteins differing in abundance between unbleached and bleached A. palmata. Protein match probabilities were determined by using expectation values and/or the MASCOT search engine (Matrix Science). The proteins were identified by searching the raw tandem MS data in the International Protein Index (IPI) database with a Sequest search algorithm and by using the Proteome Discoverer 1.1 (Thermo Electron, San Jose, CA). The database search parameters were the following: database, UniProt KB; mass-type, monoisotopic precursor and fragment; enzyme, trypsin; threshold, 100; peptide tolerance, 1.5 Da; and fragment ion tolerance, 1.0. The modifications considered in these analyses were the following: Moxidation, C-carbamidomethylation, and N/Q-deamidation. The search results were filtered with cross-correlation (XCorr) via charge states (+ 1, 1.5; + 2, 2.0; + 3, 2.5; + 4, 3.0), delta correlation (\u0394Cn N 0.1), molecular weight (m/z 500-2000 Da), and peptide mass accuracy (\u03941.5 Da) parameters. The criteria involved in the selection of proteins in each gel spot were the comparison of experimental isoelectric point (pI), molecular weight, and sequence coverage of proteins with that of the theoretical pI and molecular weight of the proteins detected on 2D-GE gels. However, proteins identified with a single peptide were also selected in view of their high XCorr numbers and high-quality MS/MS spectra with b and y ion series. All the tandem MS/MS data were further verified manually to identify proteins with high confidence.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Protein in-gel digestion and data analysis",
+                "sec_num": "2.6."
+            },
+            {
+                "text": "Protein lysates (200 \u03bcg) from unbleached and bleached A. palmata were resolved by 2D-PAGE and subsequently transferred to nitrocellulose membranes for western blot analysis by electrophoresis at 100 V for 1 h in a Criterion\u2122 blotter (Bio-Rad) according to the manufacturer's instructions. Each gel was electroblotted for 3.5 h to supported nitrocellulose. Membranes were blocked and incubated overnight in 5% non-fat dried milk in Tris-buffered saline with each of the five antibodies (1:1000 dilution, Sigma-Aldrich). The antibodies selected correspond to key proteins identified by peptide mass fingerprinting (myosin, actin, CD63 antigen, calmodulin, and collagen, Fig. 4 ), which were selected according to their functions. After thorough washing, the membranes were incubated for another 60 min with their corresponding secondary antibodies (1:10,000 dilution, Sigma-Aldrich) in 5% nonfat dried milk and washed three additional times with TBS-T. Immunoreactive 2D spots were visualized by chemiluminescence using a SuperSignal\u00ae West Femto Substrate (Pierce, Thermo-Scientific) and the blot images were captured on Gel Doc\u2122 XR + and ChemiDoc\u2122 XRS+ gel documentation systems using Image Lab\u2122 software version 4.2 (Bio-Rad). Following western blot analyses, immunogenic proteins were matched to the corresponding proteins in Coomassie bluestained gels.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 668,
+                        "end": 674,
+                        "text": "Fig. 4",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "2D-PAGE western blot analyses",
+                "sec_num": "2.7."
+            },
+            {
+                "text": "Proteomic analysis revealed that the majority of differences in protein expression were located at molecular weights in the range of 10-55 kDa and pH 3-10 ( Fig. 2) . Because it was not feasible to sequence all the resolved proteins, the selection criteria for sequencing was based on gel image quantitative analysis of the 2D-GE (Fig. 2) , with the goal of obtaining a broad sampling of the proteins downregulated and upregulated during bleaching in A. palmata. Differentially expressed protein spots were analyzed using PD-Quest\u2122 software, selected for subsequent mass spectrometry analysis, and excised from the gel for protein identification by tandem MS (MS/MS). Thirty-eight proteins were significantly differentially expressed, based on the selection criterion of a \u22652 fold difference at p b 0.05 and were selected from two categories: (i) bleaching-induced up-regulation (13 spots) and (ii) bleachinginduced down-regulation (25 spots; Fig. 2, Table 1 ). To confirm protein identifications, BLASTP analysis was performed and the amino acid sequences were matched to the corresponding available A. palmata sequences. Proteins analyzed by peptide mass fingerprinting were grouped according to 12 categories and their functions were linked in the model proposed in Fig. 3 . Most of the downregulated proteins (66%) in unbleached colonies were involved in biomineralization, immunity, transcription and endo-exophagocytosis. About 5% of the proteins were attributed to apoptosis after upregulation with bleaching. Other downregulated proteins were related to immune and metabolic dysfunctions, such as ATP synthase subunit 8 (\u2193 2.29 fold), toll-like receptor 2 protein (\u2193 2.25 fold), integrin beta (\u2193 2.34 fold) and galaxin proteins (\u2193 2.18 fold). On the other hand, upregulated proteins (34.21%) were related to stress, UV response, apoptosis, the cytoskeleton, and cell cycle functions (Table 1) . Actin increased 2.6 fold and calmodulin was uniquely expressed in bleached A. palmata. Both proteins play an important role in coordinating cytoskeletal and cell cycle functions, as highlighted in the model in Fig. 3 . Other proteins were related to transcription factors, oxidative phosphorylation and cytoskeletal functions, with downregulation of proteins such as PaxC, ectonucleoside triphosphate diphosphohydrolase 1, gelsolin, and myosin (Table 1 ). All exhibited higher expression levels (4.35-, 2.33-, 2.3-, and 2.26-fold greater, respectively) in unbleached colonies than bleached colonies. It should be emphasized that all A. palmata colonies studied in this project affected by the 2010 bleaching event recovered and appeared to remain healthy during the next three months (October-December of 2010). Interestingly, photosystem I P700 chlorophyll-a apoprotein A1 was found to have a dual function (stress response and endo-exophagocytosis), indicating that this protein is a good candidate marker to signal coral stress when the temperature changes.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 157,
+                        "end": 164,
+                        "text": "Fig. 2)",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 330,
+                        "end": 338,
+                        "text": "(Fig. 2)",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 943,
+                        "end": 958,
+                        "text": "Fig. 2, Table 1",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 1269,
+                        "end": 1275,
+                        "text": "Fig. 3",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 1891,
+                        "end": 1900,
+                        "text": "(Table 1)",
+                        "ref_id": "TABREF0"
+                    },
+                    {
+                        "start": 2113,
+                        "end": 2119,
+                        "text": "Fig. 3",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 2347,
+                        "end": 2355,
+                        "text": "(Table 1",
+                        "ref_id": "TABREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Bleaching-induced changes in A. palmata proteome",
+                "sec_num": "3.1."
+            },
+            {
+                "text": "The standard deviation of a 2D spot was estimated by the PD-Quest\u2122 software at a \u2265 2.0-fold change. Each protein was analyzed in technical and biological triplicates. Data were tested for normality with a Shapiro-Wilk test at a significance level of p N 0.05, and the criteria for normality were met in all the proteins expressed for unbleached and bleached A. palmata. The homogeneity of the variance among samples was evaluated with Levene's test. The resulting p-value for Levene's test was b 0.05, indicating that there was a difference between the variances in unbleached and bleached A. palmata. The normality and equal variances within time points and the significance of differences between time points was assessed using two-way ANOVA and pairwise post-hoc testing via the Shapiro-Wilks test, with a significance level of p N 0.05. This analysis revealed that the differences in protein expression level of the 38 proteins differentially expressed between bleached and unbleached corals were significant. ",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Statistical analysis",
+                "sec_num": "3.2."
+            },
+            {
+                "text": "The 2D-GE western blot analysis confirmed the differential expression of five key proteins: myosin, collagen, CD63, calmodulin, and actin (Fig. 4) . These protein functions were related to the cytoskeleton, the cell cycle, and endo-exophagocytosis cellular responses and contained proteins that were uniquely expressed in bleached A. palmata, such as calmodulin and actin ( Fig. 4 ), suggesting that the physiological functions of the bleached corals were affected during stress (Fig. 3) . Fig. 4 . 2D-GE western blot of five key differentially expressed proteins (myosin, collagen, CD63, calmodulin, and actin) in Acropora palmata.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 138,
+                        "end": 146,
+                        "text": "(Fig. 4)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 374,
+                        "end": 380,
+                        "text": "Fig. 4",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 479,
+                        "end": 487,
+                        "text": "(Fig. 3)",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 490,
+                        "end": 496,
+                        "text": "Fig. 4",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "2D-GE western blot of five selected differentially expressed proteins",
+                "sec_num": "3.3."
+            },
+            {
+                "text": "Proteomic studies are increasingly used to study the effects of marine environmental stressors (e.g. Anthony et al., 2009; DeSalvo et al., 2008; Tomanek, 2010) . Previous studies employing gene expression analysis were undertaken for the mustard hill coral Porites astreoides in different thermally stressed environments (Hayward et al., 2011) and for O. faveolata, in which the transcriptome before and after bleaching was compared (Pinzon et al., 2015) . Although, there are no published studies on the whole proteome of the endangered species A. palmata that reveal the protein expression profile before, during, and after bleaching in situ. We are bridging this knowledge gap by identifying the proteins differentially expressed in A. palmata in response to a temperature stress in the fore reef of Collado Cay, La Parguera, Puerto Rico. This heat stress is the result of an increase in temperatures from 27.5\u00b0C to 30.8\u00b0C in 2010, with a sustained temperature of 29.5\u00b0C, during the months of July, August, September, and October of 2010 (Fig. 1) . These high temperatures lasted long enough to cause bleaching (Glynn, 1993) . A large scale mass-bleaching event occurred in 2005. The second and most recent mass-bleaching event of the first decade of the new millennium occurred in 2010 throughout the Caribbean (DeSalvo et al., 2008; Doneyk et al., 2009; Eakin et al., 2010; Fitt et al., 2009; Miller et al., 2009; Palmer et al., 2011; Prada et al., 2010) .",
+                "cite_spans": [
+                    {
+                        "start": 101,
+                        "end": 122,
+                        "text": "Anthony et al., 2009;",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 123,
+                        "end": 144,
+                        "text": "DeSalvo et al., 2008;",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 145,
+                        "end": 159,
+                        "text": "Tomanek, 2010)",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 321,
+                        "end": 343,
+                        "text": "(Hayward et al., 2011)",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 433,
+                        "end": 454,
+                        "text": "(Pinzon et al., 2015)",
+                        "ref_id": "BIBREF36"
+                    },
+                    {
+                        "start": 1114,
+                        "end": 1127,
+                        "text": "(Glynn, 1993)",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 1315,
+                        "end": 1337,
+                        "text": "(DeSalvo et al., 2008;",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 1338,
+                        "end": 1358,
+                        "text": "Doneyk et al., 2009;",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 1359,
+                        "end": 1378,
+                        "text": "Eakin et al., 2010;",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 1379,
+                        "end": 1397,
+                        "text": "Fitt et al., 2009;",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 1398,
+                        "end": 1418,
+                        "text": "Miller et al., 2009;",
+                        "ref_id": "BIBREF33"
+                    },
+                    {
+                        "start": 1419,
+                        "end": 1439,
+                        "text": "Palmer et al., 2011;",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 1440,
+                        "end": 1459,
+                        "text": "Prada et al., 2010)",
+                        "ref_id": "BIBREF37"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 1041,
+                        "end": 1049,
+                        "text": "(Fig. 1)",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "4."
+            },
+            {
+                "text": "The effect of heat stress on A. palmata induced a higher number of differentially expressed proteins (25 spots) in unbleached colonies than in bleached colonies (13 spots) as revealed by the proteomic results (Table 1) . More than 66% of the differentially expressed proteins were downregulated, such as the cytoskeletal proteins gelsolin and myosin under the skeletal surface organic-matrix, suggesting that the cytoskeleton underwent rearrangement of its adhesion properties during bleaching, as observed by others (DeSalvo et al., 2008; Douglas, 2003; Jones et al., 1998) . We believe that downregulation of the expressed proteins (56.78%) in bleached A. palmata compromised the innate coral immune system under heat stress. Proteins such as apextrin (\u2193 2.54 fold), ATP synthase subunit 8 (\u2193 2.29 fold), ectonucleoside triphosphate diphosphohydrolase 1 (\u2193 2.33 fold), and toll-like receptor (\u2193 2.25 fold) are key proteins in the immunity cascade that occur in the ancestral cnidarian (Miller et al., 2007) . The heat stress induced upregulation of protein functions affecting UV responses, apoptosis, the cytoskeleton, the cell cycle, and stress responses. The upregulated proteins correspond to heat shock transcription factor proteins (\u2191 2.4 fold), green fluorescent protein (\u2191 2.32 fold), NADH-ubiquinone oxidoreductase chain 5 (\u2191 2.43 fold), histone H2B (\u2191 2.4 fold), activin 1 (\u2191 2.2 fold), and photosystem I P700 chlorophyll-a apoprotein A1 (\u2191 2.47 fold). This suggests, that these proteins are upregulated with a high metabolic cost for A. palmata during bleaching. Based on these findings, the comparative proteomic analysis between unbleached and bleached A. palmata suggests that heat stress is activated via a metabolic route in response to high temperature and UV radiation (Fig. 3) . Due to heat stress-induced bleaching, a defense mechanism is activated, leading to differential protein expression. Among key upregulated proteins, there are several reactive oxygen species (ROS) markers, such as NADH-ubiquinone oxidoreductase, activin 1 and cytochrome oxidase. We suspect that the ROS response overwhelmed the antioxidant defenses, leading to various manifestations of oxidative stress highlighted by upregulation of heat shock proteins, activin 1, cytochrome oxidase, cytochrome b, cytochrome P450, and thioredoxin reductase, with respective fold changes of 2.40, 2.20, 2.43, 2.25, and 2.67. Entry of the coral into oxidative stress causes metabolic dysfunctions (Jones et al., 1998) , such as lipid peroxidation, protein oxidation, damage to the coral cell cycle, inhibition of enzymes, damage to nucleic acids, and activation of the apoptosis pathway (DeSalvo et al., 2008; K\u00fcltz, 2005; Voolstra et al., 2009) , ultimately leading to coral death. Some of the upregulated proteins revealed by peptide mass fingerprinting (Table 1) are proapoptotic markers (Danial et al., 2010; DeSalvo et al., 2008) , such as apextrin and ectonucleoside triphosphate diphosphohydrolase 1 (with 2.54-and 2.33-fold changes, respectively). Another key proapoptotic protein identified in this study is caspase 8. This protein released by the mitochondria appeared to be uniquely expressed in A. palmata during bleaching (see Fig. 2 and Table 1) , and it is known to be one of the key upregulated proapoptotic markers, indicating that corals are under stress (DeSalvo et al., 2008; Li et al., 1998; Richier et al., 2008) . Green fluorescent protein (GFP) and heat shock proteins (HSPs), known to respond during photoacclimation (Chalfie et al., 1994) and during short thermal stress (Fitt et al., 2009) , respectively, were two differentially overexpressed proteins (Table 1 ) that are potential candidate markers for assessing the physiological state of the coral, during bleaching due to thermal stress. Their respective upregulation is believed to trigger an immune response through the photoinhibition of A. palmata (Fig. 3) . Moreover, HSP proteins bind to denatured proteins stabilizing new proteins to ensure that cells prevent/limit photodamage and therefore might prevent photoinhibitiondependent A. palmata bleaching.",
+                "cite_spans": [
+                    {
+                        "start": 517,
+                        "end": 539,
+                        "text": "(DeSalvo et al., 2008;",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 540,
+                        "end": 554,
+                        "text": "Douglas, 2003;",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 555,
+                        "end": 574,
+                        "text": "Jones et al., 1998)",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 987,
+                        "end": 1008,
+                        "text": "(Miller et al., 2007)",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 2482,
+                        "end": 2502,
+                        "text": "(Jones et al., 1998)",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 2672,
+                        "end": 2694,
+                        "text": "(DeSalvo et al., 2008;",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 2695,
+                        "end": 2707,
+                        "text": "K\u00fcltz, 2005;",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 2708,
+                        "end": 2730,
+                        "text": "Voolstra et al., 2009)",
+                        "ref_id": "BIBREF46"
+                    },
+                    {
+                        "start": 2876,
+                        "end": 2897,
+                        "text": "(Danial et al., 2010;",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 2898,
+                        "end": 2919,
+                        "text": "DeSalvo et al., 2008)",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 3358,
+                        "end": 3380,
+                        "text": "(DeSalvo et al., 2008;",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 3381,
+                        "end": 3397,
+                        "text": "Li et al., 1998;",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 3398,
+                        "end": 3419,
+                        "text": "Richier et al., 2008)",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 3527,
+                        "end": 3549,
+                        "text": "(Chalfie et al., 1994)",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 3582,
+                        "end": 3601,
+                        "text": "(Fitt et al., 2009)",
+                        "ref_id": "BIBREF18"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 209,
+                        "end": 218,
+                        "text": "(Table 1)",
+                        "ref_id": "TABREF0"
+                    },
+                    {
+                        "start": 1789,
+                        "end": 1797,
+                        "text": "(Fig. 3)",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 2841,
+                        "end": 2850,
+                        "text": "(Table 1)",
+                        "ref_id": "TABREF0"
+                    },
+                    {
+                        "start": 3225,
+                        "end": 3231,
+                        "text": "Fig. 2",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 3236,
+                        "end": 3244,
+                        "text": "Table 1)",
+                        "ref_id": "TABREF0"
+                    },
+                    {
+                        "start": 3665,
+                        "end": 3673,
+                        "text": "(Table 1",
+                        "ref_id": "TABREF0"
+                    },
+                    {
+                        "start": 3919,
+                        "end": 3927,
+                        "text": "(Fig. 3)",
+                        "ref_id": "FIGREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "4."
+            },
+            {
+                "text": "In addition, cytoskeletal proteins important for the cell cycle, such as gelsolin, actin, and myosin, were differentially expressed in this study. These proteins are known to be activated during thermal stress at the intracellular and extracellular level by activating the immune response (Palmer et al., 2011) . Among other proteins that were uniquely expressed are cyclin and calmodulin. Both proteins are known to play a key role in endo-exophagocytosis processes (Tomanek, 2010) . Also, the significant overexpression of calmodulin in A. palmata is believed to be instrumental to biomineralization and other calcium-dependent processes through its interaction with several proteins during the development of corals (DeSalvo et al., 2008; Reyes-Bermudez et al., 2012) .",
+                "cite_spans": [
+                    {
+                        "start": 289,
+                        "end": 310,
+                        "text": "(Palmer et al., 2011)",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 467,
+                        "end": 482,
+                        "text": "(Tomanek, 2010)",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 719,
+                        "end": 741,
+                        "text": "(DeSalvo et al., 2008;",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 742,
+                        "end": 770,
+                        "text": "Reyes-Bermudez et al., 2012)",
+                        "ref_id": "BIBREF41"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "4."
+            },
+            {
+                "text": "In the proposed metabolic model (Fig. 3) , we speculate that during elevated temperature, the intracellular calcium concentration activates caspase 8 in the proteolytic processes, affecting mitochondria internally. This leads to an overload of Ca + 2 ions, increasing oxidative stress. Other crucial proteins that are released from the mitochondria are the cytochrome oxidase subunits, cytochrome b, and cytochrome P450, all components of the mitochondrial electron transport chain and known to be pro-apoptotic markers. The three forms of cytochromes were found to be differentially expressed, as they trigger caspases, which in turn induce bleaching and finally lead to apoptosis in A. palmata tissue.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 32,
+                        "end": 40,
+                        "text": "(Fig. 3)",
+                        "ref_id": "FIGREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "4."
+            },
+            {
+                "text": "Our findings predict that the extracellular matrix of bleached A. palmata is changing physiologically when calcium carbonate is forming, reducing the biomineralization capacity (DeSalvo et al., 2008) , eventually leading to either apoptosis (Fig. 3) or to recovery if the stressor temperature is removed. During the process of biomineralization, important proteins involved in calcification (Wirshing and Baker, 2014), such as galaxin and minicollagen were highly and uniquely expressed in bleached corals.",
+                "cite_spans": [
+                    {
+                        "start": 177,
+                        "end": 199,
+                        "text": "(DeSalvo et al., 2008)",
+                        "ref_id": "BIBREF13"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 241,
+                        "end": 249,
+                        "text": "(Fig. 3)",
+                        "ref_id": "FIGREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "4."
+            },
+            {
+                "text": "The comparative proteomic analysis undertaken in this study confirmed that a differential protein expression profile occurs in bleached compared with unbleached A. palmata. Proteins related to thermal heat stress were highly overexpressed in the bleached colonies as well as protein signatures related to stress, UV response, apoptosis and cell cycle functions. Based on our criteria of a two-fold or greater change in expression, the results indicated that temperature significantly regulated key components of the stress induced apoptotic response. We speculate that major metabolic functions are altered during the processes of ROS production, amino acid synthesis, and endo-exophagocytosis (Fig. 3) . The latter two processes are involved in transport function during skeletal coral growth, indicating that bleaching seems to affect A. palmata growth. We feel it is noteworthy that we found eight uniquely expressed proteins including minicollagen, and proteins related to growth, detoxification, endo-exophagocytosis, and catabolic processes under bleaching conditions. This study allowed the identification of key changes in protein expression due to bleaching of A. palmata. Among the potential marker candidates for bleaching stress are green fluorescent proteins (GFP), heat shock proteins, and caspase 8. This latter protein, which is uniquely present and expressed only in bleached A. palmata, is a pro-apoptotic marker that may signal the beginning of coral death. Other uniquely expressed proteins during coral colony bleaching include cyclin and calmodulin. These two proteins, which play a key role in coral defense, represent potentially useful markers to disentangle the molecular mechanisms underlying bleaching.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 694,
+                        "end": 702,
+                        "text": "(Fig. 3)",
+                        "ref_id": "FIGREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Conclusions",
+                "sec_num": "5."
+            },
+            {
+                "text": "We propose a network model of protein-protein interactions to identify and prioritize candidate biomarkers when studying bleaching as a defense mechanism triggered in A. palmata during changes in sea temperatures. It is worth emphasizing that this is the first proteomic study conducted on the endangered coral species A. palmata during a bleaching event in the Caribbean.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Conclusions",
+                "sec_num": "5."
+            },
+            {
+                "text": "Finally, the comparative proteomic analysis used in this present project may open new avenues in the study of coral gene expression and the interactions with the environment. Since climate change can potentially affect all reef organisms, comparative proteomic approaches can also be applied to other marine invertebrates under stress.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Conclusions",
+                "sec_num": "5."
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "The authors wish to thank Nery Rivera, Gloriene Gonz\u00e1lez, Emmanuel Garc\u00eda, and Kathy Trujillo for their technical assistance and Cristina L\u00f3pez for her assistance in statistical procedures used in the manuscript. We thank David Ballantine for improving the language of the manuscript. The proteomics studies were supported by the National Institutes ",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Acknowledgments",
+                "sec_num": null
+            },
+            {
+                "text": "Supplementary data to this article can be found online at http://dx. doi.org/10.1016/j.marpolbul.2016.03.068.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Appendix A. Supplementary data",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "Mass coral bleaching in 2010 in the southern Caribbean",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Alemu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Clement",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "PLoS One",
+                "volume": "9",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1371/journal.pone.0083829"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Alemu, J.B., Clement, Y., 2014. Mass coral bleaching in 2010 in the southern Caribbean. PLoS One 9, e83829. http://dx.doi.org/10.1371/journal.pone.0083829.",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "Energetics approach to predicting mortality risk from environmental stress: a case study of coral bleaching",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "R N"
+                        ],
+                        "last": "Anthony",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "O"
+                        ],
+                        "last": "Hoogenboom",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Maynard",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Grottoli",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Middlebrook",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Funct. Ecol",
+                "volume": "23",
+                "issue": "",
+                "pages": "539--550",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1365-2435.2008.01531.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Anthony, K.R.N., Hoogenboom, M.O., Maynard, J.A., Grottoli, A.G., Middlebrook, R., 2009. Energetics approach to predicting mortality risk from environmental stress: a case study of coral bleaching. Funct. Ecol. 23, 539-550. http://dx.doi.org/10.1111/j.1365- 2435.2008.01531.x.",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "Conservation, precaution, and Caribbean reefs",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Aronson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Precht",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Coral Reefs",
+                "volume": "25",
+                "issue": "",
+                "pages": "441--450",
+                "other_ids": {
+                    "DOI": [
+                        "10.1007/s00338-006-0122-9"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Aronson, R.B., Precht, W.F., 2006. Conservation, precaution, and Caribbean reefs. Coral Reefs 25, 441-450. http://dx.doi.org/10.1007/s00338-006-0122-9.",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Climate change and coral reef bleaching: an ecological assessment of long-term impacts, recovery trends and future outlook",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Baker",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Glynn",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Riegl",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Estuar. Coast. Shelf Sci",
+                "volume": "80",
+                "issue": "",
+                "pages": "435--471",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Baker, A.C., Glynn, P.W., Riegl, B., 2008. Climate change and coral reef bleaching: an eco- logical assessment of long-term impacts, recovery trends and future outlook. Estuar. Coast. Shelf Sci. 80, 435-471.",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "Biology and ecology of Puerto Rican coral reefs",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Ballantine",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Appeldoorn",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Yoshioka",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Weil",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Armstrong",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Garcia",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Otero",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Pagan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Sherman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Hernandez-Delgado",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Bruckner",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Lilyestrom",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Coral Reefs of the USA Coral Reefs of the World",
+                "volume": "",
+                "issue": "",
+                "pages": "375--406",
+                "other_ids": {
+                    "DOI": [
+                        "10.1007/978-1-4020-6847-8_9"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Ballantine, D., Appeldoorn, R., Yoshioka, P., Weil, E., Armstrong, R., Garcia, J., Otero, E., Pagan, F., Sherman, C., Hernandez-Delgado, E., Bruckner, A., Lilyestrom, C., 2008. Biol- ogy and ecology of Puerto Rican coral reefs. Coral Reefs of the USA Coral Reefs of the World, pp. 375-406 http://dx.doi.org/10.1007/978-1-4020-6847-8_9.",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "Fasciola hepatica and Schistosoma mansoni: identification of common proteins by comparative proteomic analysis",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Boukli",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Delgado",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Ricaurte",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Espino",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "J. Parasitol",
+                "volume": "97",
+                "issue": "",
+                "pages": "852--861",
+                "other_ids": {
+                    "DOI": [
+                        "10.1645/GE-2495.1"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Boukli, N.M., Delgado, B., Ricaurte, M., Espino, A.M., 2011. Fasciola hepatica and Schistosoma mansoni: identification of common proteins by comparative proteomic analysis. J. Parasitol. 97, 852-861. http://dx.doi.org/10.1645/GE-2495.1.",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "Unique and differential protein signatures within the mononuclear cells of HIV-1 and HCV mono-infected and co-infected patients",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Boukli",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "Shetty",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Cubano",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Ricaurte",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Coelho-Dos-Reis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Nickens",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Shah",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Talal",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Philip",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Jain",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Clin. Proteomics",
+                "volume": "9",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1186/1559-0275-9-11"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Boukli, N., Shetty, V., Cubano, L., Ricaurte, M., Coelho-Dos-Reis, J., Nickens, Z., Shah, P., Talal, A.H., Philip, R., Jain, P., 2012. Unique and differential protein signatures within the mononuclear cells of HIV-1 and HCV mono-infected and co-infected patients. Clin. Proteomics 9, 11. http://dx.doi.org/10.1186/1559-0275-9-11.",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "A rapid and sensitive method for the quantitation of microgram quantities of protein utilizing the principle of protein-dye binding",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Bradford",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1976,
+                "venue": "Anal. Biochem",
+                "volume": "72",
+                "issue": "",
+                "pages": "90527--90530",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/0003-2697(76"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Bradford, M.M., 1976. A rapid and sensitive method for the quantitation of microgram quantities of protein utilizing the principle of protein-dye binding. Anal. Biochem. 72, 248-254. http://dx.doi.org/10.1016/0003-2697(76)90527-3.",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "Coral bleaching relative to elevated seawater temperature in the Andaman Sea (Indian Ocean) over the last 50 years",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Brown",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Dunne",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Chansang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1996,
+                "venue": "Coral Reefs",
+                "volume": "15",
+                "issue": "",
+                "pages": "151--152",
+                "other_ids": {
+                    "DOI": [
+                        "10.1007/s003380050036"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Brown, B.E., Dunne, R.P., Chansang, H., 1996. Coral bleaching relative to elevated seawater temperature in the Andaman Sea (Indian Ocean) over the last 50 years. Coral Reefs 15, 151-152. http://dx.doi.org/10.1007/s003380050036.",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Thermal stress and coral cover as drivers of coral disease outbreaks",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Bruno",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Selig",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Casey",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Page",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Willis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Harvell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Sweatman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Melendy",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "PLoS Biol",
+                "volume": "5",
+                "issue": "6",
+                "pages": "1220--1227",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bruno, J.F., Selig, E.R., Casey, K.S., Page, C.A., Willis, B.L., Harvell, C.D., Sweatman, H., Melendy, A.M., 2007. Thermal stress and coral cover as drivers of coral disease out- breaks. PLoS Biol. 5 (6), 1220-1227.",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "Green fluorescent protein as a marker for gene expression",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Chalfie",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Tu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Euskirchen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Ward",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Prasher",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Science",
+                "volume": "263",
+                "issue": "",
+                "pages": "802--805",
+                "other_ids": {
+                    "DOI": [
+                        "10.1126/science.830329"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Chalfie, M., Tu, Y., Euskirchen, G., Ward, W.W., Prasher, D.C., 1994. Green fluorescent pro- tein as a marker for gene expression. Science 263, 802-805. http://dx.doi.org/10. 1126/science.830329.",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "Homeostatic functions of BCL-2 proteins beyond apoptosis",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [
+                            "N"
+                        ],
+                        "last": "Danial",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Gimenez-Cassina",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Tondera",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Advances in Experimental Medicine and Biology",
+                "volume": "",
+                "issue": "",
+                "pages": "1--32",
+                "other_ids": {
+                    "DOI": [
+                        "10.1007/978-1-4419-6706-0_1"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Danial, N.N., Gimenez-Cassina, A., Tondera, D., 2010. Homeostatic functions of BCL-2 pro- teins beyond apoptosis. Advances in Experimental Medicine and Biology, pp. 1-32 http://dx.doi.org/10.1007/978-1-4419-6706-0_1.",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "Differential gene expression during thermal stress and bleaching in the Caribbean coral Montastraea faveolata",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Desalvo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Voolstra",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Sunagawa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Schwarz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Stillman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Coffroth",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Szmant",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Medina",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Mol. Ecol",
+                "volume": "17",
+                "issue": "",
+                "pages": "3952--3971",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1365-294X.2008.03879.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "DeSalvo, M.K., Voolstra, C.R., Sunagawa, S., Schwarz, J.A., Stillman, J.H., Coffroth, M.A., Szmant, A.M., Medina, M., 2008. Differential gene expression during thermal stress and bleaching in the Caribbean coral Montastraea faveolata. Mol. Ecol. 17, 3952-3971. http://dx.doi.org/10.1111/j.1365-294X.2008.03879.x.",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "Transcriptomic responses to heat stress and bleaching in the elkhorn coral Acropora palmata",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Desalvo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Sunagawa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Voolstra",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Medina",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Mar. Ecol. Progr. Ser",
+                "volume": "402",
+                "issue": "",
+                "pages": "97--113",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "DeSalvo, M.K., Sunagawa, S., Voolstra, C.R., Medina, M., 2010. Transcriptomic responses to heat stress and bleaching in the elkhorn coral Acropora palmata. Mar. Ecol. Progr. Ser. 402, 97-113.",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Ocean acidification: the other CO 2 problem",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Doneyk",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Fabry",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Feely",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Kleypas",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Ann. Rev. Mar. Sci",
+                "volume": "1",
+                "issue": "",
+                "pages": "169--192",
+                "other_ids": {
+                    "DOI": [
+                        "10.1146/annurev.marine.010908.163834"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Doneyk, S.C., Fabry, V.J., Feely, R.A., Kleypas, J.A., 2009. Ocean acidification: the other CO 2 problem. Ann. Rev. Mar. Sci. 1, 169-192. http://dx.doi.org/10.1146/annurev.marine. 010908.163834.",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Coral bleaching-how and why?",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Douglas",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Mar. Pollut. Bull",
+                "volume": "46",
+                "issue": "03",
+                "pages": "37--44",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/S0025-326X"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Douglas, A.E., 2003. Coral bleaching-how and why? Mar. Pollut. Bull. 46, 385-392. http:// dx.doi.org/10.1016/S0025-326X(03)00037-7.",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "Caribbean corals in crisis: record thermal stress, bleaching, and mortality in 2005",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Eakin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Morgan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Heron",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Smith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Liu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Alvarez-Filip",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Baca",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Bartels",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Bastidas",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Bouchon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Brandt",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Bruckner",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Bunkley-Williams",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Cameron",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Causey",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Chiappone",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Christensen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Crabbe",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Day",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "De La Guardia",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "D\u00edaz-Pulido",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Diresta",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Gil-Agudelo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Gilliam",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "N"
+                        ],
+                        "last": "Ginsburg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Gore",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Guzm\u00e1n",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Hendee",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Hern\u00e1ndez-Delgado",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Husain",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Jeffrey",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Jones",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Jord\u00e1n-Dahlgren",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Kaufman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Kline",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Kramer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Lang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Lirman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Mallela",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Manfrino",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Mar\u00e9chal",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Marks",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Mihaly",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Miller",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Mueller",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Muller",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Orozco Toro",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Oxenford",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Ponce-Taylor",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Quinn",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Ritchie",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Rodr\u00edguez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Ram\u00edrez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Romano",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Samhouri",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "S\u00e1nchez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Schmahl",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Shank",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Skirving",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Steiner",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Villamizar",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Walsh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Walter",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Weil",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Williams",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Roberson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Yusuf",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "",
+                "volume": "5",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1371/journal.pone.0013969"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Eakin, C.M., Morgan, J.A., Heron, S.F., Smith, T.B., Liu, G., Alvarez-Filip, L., Baca, B., Bartels, E., Bastidas, C., Bouchon, C., Brandt, M., Bruckner, A.W., Bunkley-Williams, L., Cameron, A., Causey, B.D., Chiappone, M., Christensen, T.R., Crabbe, M.J., Day, O., de la Guardia, E., D\u00edaz-Pulido, G., DiResta, D., Gil-Agudelo, D.L., Gilliam, D.S., Ginsburg, R.N., Gore, S., Guzm\u00e1n, H.M., Hendee, J.C., Hern\u00e1ndez-Delgado, E.A., Husain, E., Jeffrey, C.F., Jones, R.J., Jord\u00e1n-Dahlgren, E., Kaufman, L.S., Kline, D.I., Kramer, P.A., Lang, J.C., Lirman, D., Mallela, J., Manfrino, C., Mar\u00e9chal, J.P., Marks, K., Mihaly, J., Miller, W.J., Mueller, E.M., Muller, E.M., Orozco Toro, C.A., Oxenford, H.A., Ponce-Taylor, D., Quinn, N., Ritchie, K.B., Rodr\u00edguez, S., Ram\u00edrez, A.R., Romano, S., Samhouri, J.F., S\u00e1nchez, J.A., Schmahl, G.P., Shank, B.V., Skirving, W.J., Steiner, S.C., Villamizar, E., Walsh, S.M., Walter, C., Weil, E., Williams, E.H., Roberson, K.W., Yusuf, Y., 2010. Carib- bean corals in crisis: record thermal stress, bleaching, and mortality in 2005. PLoS One 5 (11), e13969. http://dx.doi.org/10.1371/journal.pone.0013969.",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "Response of two species of Indo-Pacific corals, Porites cylindrica and Stylophora pistillata, to short-term thermal stress: the host does matter in determining the tolerance of corals to bleaching",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Fitt",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Gates",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Hoegh-Guldberg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Bythell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Jatkar",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Grottolie",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Gomez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Fisherc",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Lajuenessef",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Pantosc",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Iglesias-Prietog",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Franklinh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Rodriguesi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Torregianik",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Van Woesikj",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Lesserk",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "J. Exp. Mar. Biol. Ecol",
+                "volume": "373",
+                "issue": "",
+                "pages": "102--110",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/j.jembe.2009.03.011"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Fitt, W.K., Gates, R.D., Hoegh-Guldberg, O., Bythell, J.C., Jatkar, A., Grottolie, A.G., Gomez, M., Fisherc, P., Lajuenessef, T.C., Pantosc, O., Iglesias-Prietog, R., Franklinh, D.J., Rodriguesi, L.J., Torregianik, J.M., van Woesikj, R., Lesserk, M.P., 2009. Response of two species of Indo-Pacific corals, Porites cylindrica and Stylophora pistillata, to short-term thermal stress: the host does matter in determining the tolerance of corals to bleaching. J. Exp. Mar. Biol. Ecol. 373, 102-110. http://dx.doi.org/10.1016/j. jembe.2009.03.011.",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "Temperature stress causes host cell detachment in symbiotic Cnidarians: implications for coral bleaching",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Gates",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Baghdasarian",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Muscatine",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1992,
+                "venue": "Biol. Bull",
+                "volume": "182",
+                "issue": "",
+                "pages": "324--332",
+                "other_ids": {
+                    "DOI": [
+                        "10.2307/1542252"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Gates, R.D., Baghdasarian, G., Muscatine, L., 1992. Temperature stress causes host cell de- tachment in symbiotic Cnidarians: implications for coral bleaching. Biol. Bull. 182, 324-332. http://dx.doi.org/10.2307/1542252.",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "Coral reef bleaching in the 1980s and possible connections with global warming",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Glynn",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1991,
+                "venue": "Trends Ecol. Evol",
+                "volume": "6",
+                "issue": "",
+                "pages": "175--179",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Glynn, P.W., 1991. Coral reef bleaching in the 1980s and possible connections with global warming. Trends Ecol. Evol. 6, 175-179.",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "Coral reef bleaching: ecological perspectives",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Glynn",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "Coral Reefs",
+                "volume": "12",
+                "issue": "",
+                "pages": "1--17",
+                "other_ids": {
+                    "DOI": [
+                        "10.1007/BF00303779"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Glynn, P.W., 1993. Coral reef bleaching: ecological perspectives. Coral Reefs 12, 1-17. http://dx.doi.org/10.1007/BF00303779.",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "Conservation of coral reefs after the 1998 global bleaching event",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Goreau",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Mcclanahan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Hayes",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Strong",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Conserv. Biol",
+                "volume": "14",
+                "issue": "",
+                "pages": "5--15",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Goreau, T., McClanahan, T., Hayes, R., Strong, A., 2000. Conservation of coral reefs after the 1998 global bleaching event. Conserv. Biol. 14, 5-15.",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "Predicting climatedriven regime shifts versus rebound potential in coral reefs",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [
+                            "A J"
+                        ],
+                        "last": "Graham",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Jennings",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Macneil",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Mouillot",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Wilson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Nature",
+                "volume": "518",
+                "issue": "",
+                "pages": "94--97",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Graham, N.A.J., Jennings, S., MacNeil, M.A., Mouillot, D., Wilson, S.K., 2015. Predicting climate- driven regime shifts versus rebound potential in coral reefs. Nature 518, 94-97.",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "Differential gene expression at coral settlement and metamorphosis-a subtractive hybridization study",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Hayward",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Hetherington",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Behm",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Grasso",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "For\u00eat",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Miller",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Ball",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "PLoS One",
+                "volume": "6",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1371/journal.pone.0026411"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Hayward, D.C., Hetherington, S., Behm, C.A., Grasso, L.C., For\u00eat, S., Miller, D.J., Ball, E.E., 2011. Differential gene expression at coral settlement and metamorphosis-a sub- tractive hybridization study. PLoS One 6, e26411. http://dx.doi.org/10.1371/journal. pone.0026411.",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "Climate change, coral bleaching and the future of the world's coral reefs",
+                "authors": [
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Hoegh-Guldberg",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "Mar. Freshw. Res",
+                "volume": "50",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1071/MF99078"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Hoegh-Guldberg, O., 1999. Climate change, coral bleaching and the future of the world's coral reefs. Mar. Freshw. Res. 50, 839. http://dx.doi.org/10.1071/MF99078.",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "Coral reefs under rapid climate change and ocean acidification",
+                "authors": [
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Hoegh-Guldberg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Mumby",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Hooten",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Steneck",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Greenfield",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Gomez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Harvell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Sale",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Edwards",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Caldeira",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Knowlton",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Eakin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Iglesias-Prieto",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Muthiga",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Bradbury",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Dubi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Hatziolos",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Science",
+                "volume": "318",
+                "issue": "",
+                "pages": "1737--1742",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hoegh-Guldberg, O., Mumby, P.J., Hooten, A.J., Steneck, R.S., Greenfield, P., Gomez, E., Harvell, C.D., Sale, P.F., Edwards, A.J., Caldeira, K., Knowlton, N., Eakin, C.M., Iglesias- Prieto, R., Muthiga, N., Bradbury, R.H., Dubi, A., Hatziolos, M.E., 2007. Coral reefs under rapid climate change and ocean acidification. Science 318, 1737-1742.",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "Climate change, human impacts, and the resilience of coral reefs",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Hughes",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Baird",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Bellwood",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Card",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Connolly",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Folke",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Grosberg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Hoegh-Guldberg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "B C"
+                        ],
+                        "last": "Jackson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Kleypas",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Lough",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Marshall",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Nystr\u00f6m",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Palumbi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Pandolfi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Rosen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Roughgarden",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Science",
+                "volume": "301",
+                "issue": "",
+                "pages": "929--933",
+                "other_ids": {
+                    "DOI": [
+                        "10.1126/science.1085046"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Hughes, T.P., Baird, A.H., Bellwood, D.R., Card, M., Connolly, S.R., Folke, C., Grosberg, R., Hoegh-Guldberg, O., Jackson, J.B.C., Kleypas, J., Lough, J.M., Marshall, P., Nystr\u00f6m, M., Palumbi, S.R., Pandolfi, J.M., Rosen, B., Roughgarden, J., 2003. Climate change, human impacts, and the resilience of coral reefs. Science 301, 929-933. http://dx. doi.org/10.1126/science.1085046.",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "Temperature-induced bleaching of corals begins with impairment of the CO 2 fixation mechanism in zooxanthellae",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Jones",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Hoegh-Guldberg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "W D"
+                        ],
+                        "last": "Larkum",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "U",
+                        "middle": [],
+                        "last": "Schreiber",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Plant Cell Environ",
+                "volume": "21",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1046/j.1365-3040.1998.00345.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Jones, R.J., Hoegh-Guldberg, O., Larkum, A.W.D., Schreiber, U., 1998. Temperature-induced bleaching of corals begins with impairment of the CO 2 fixation mechanism in zoo- xanthellae. Plant Cell Environ. 21, 1219-1230. http://dx.doi.org/10.1046/j.1365- 3040.1998.00345.x.",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "Molecular and evolutionary basis of the cellular stress response",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "K\u00fcltz",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Annu. Rev. Physiol",
+                "volume": "67",
+                "issue": "",
+                "pages": "225--257",
+                "other_ids": {
+                    "DOI": [
+                        "10.1146/annurev.physiol.67.040403.103635"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "K\u00fcltz, D., 2005. Molecular and evolutionary basis of the cellular stress response. Annu. Rev. Physiol. 67, 225-257. http://dx.doi.org/10.1146/annurev.physiol.67.040403. 103635.",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "Coral reef bleaching and global climate change: can corals survive the next century?",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Lesser",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Proc. Natl. Acad. Sci. U. S. A",
+                "volume": "104",
+                "issue": "",
+                "pages": "5259--5260",
+                "other_ids": {
+                    "DOI": [
+                        "10.1073/pnas.0700910104"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Lesser, M.P., 2007. Coral reef bleaching and global climate change: can corals survive the next century? Proc. Natl. Acad. Sci. U. S. A. 104, 5259-5260. http://dx.doi.org/10. 1073/pnas.0700910104.",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "Cleavage of BID by caspase 8 mediates the mitochondrial damage in the Fas pathway of apoptosis",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Li",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Zhu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Xu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Yuan",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Cell",
+                "volume": "94",
+                "issue": "",
+                "pages": "81590--81591",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Li, H., Zhu, H., Xu, C., Yuan, J., 1998. Cleavage of BID by caspase 8 mediates the mitochon- drial damage in the Fas pathway of apoptosis. Cell 94, 491-501. http://dx.doi.org/10. 1016/S0092-8674(00)81590-1.",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "The innate immune repertoire in Cnidaria-ancestral complexity and stochastic gene loss",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Miller",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Hemmrich",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Ball",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Hayward",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Khalturin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Funayama",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Agata",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "C G"
+                        ],
+                        "last": "Bosch",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "R59",
+                "volume": "8",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1186/gb-2007-8-4-r59"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Miller, D.J., Hemmrich, G., Ball, E.E., Hayward, D.C., Khalturin, K., Funayama, N., Agata, K., Bosch, T.C.G., 2007. The innate immune repertoire in Cnidaria-ancestral complexity and stochastic gene loss. Genome Biol. 8, R59. http://dx.doi.org/10.1186/gb-2007-8- 4-r59.",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "Coral disease following massive bleaching in 2005 causes 60% decline in coral cover on reefs in the US Virgin Islands",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Miller",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Muller",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Rogers",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Waara",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Atkinson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "R T"
+                        ],
+                        "last": "Whelan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Patterson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Witcher",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Coral Reefs",
+                "volume": "28",
+                "issue": "",
+                "pages": "925--937",
+                "other_ids": {
+                    "DOI": [
+                        "10.1007/s00338-009-0531-7"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Miller, J., Muller, E., Rogers, C., Waara, R., Atkinson, A., Whelan, K.R.T., Patterson, M., Witcher, B., 2009. Coral disease following massive bleaching in 2005 causes 60% de- cline in coral cover on reefs in the US Virgin Islands. Coral Reefs 28, 925-937. http:// dx.doi.org/10.1007/s00338-009-0531-7.",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "Status of coral reefs southwest Puerto Rico",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Morelock",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Ram\u00edrez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Bruckner",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Carlo",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Caribb. J. Sci. Spec",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Morelock, J., Ram\u00edrez, W.R., Bruckner, A.W., Carlo, M., 2001. Status of coral reefs southwest Puerto Rico. Caribb. J. Sci. Spec. Publ. 4.",
+                "links": null
+            },
+            "BIBREF35": {
+                "ref_id": "b35",
+                "title": "Patterns of coral ecological immunology: variation in the responses of Caribbean corals to elevated temperature and a pathogen elicitor",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Palmer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Mcginty",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Cummings",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Smith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Bartels",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Mydlarz",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "J. Exp. Biol",
+                "volume": "214",
+                "issue": "",
+                "pages": "4240--4249",
+                "other_ids": {
+                    "DOI": [
+                        "10.1242/jeb.061267"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Palmer, C.V., McGinty, E.S., Cummings, D.J., Smith, S.M., Bartels, E., Mydlarz, L.D., 2011. Pat- terns of coral ecological immunology: variation in the responses of Caribbean corals to elevated temperature and a pathogen elicitor. J. Exp. Biol. 214, 4240-4249. http://dx.doi.org/10.1242/jeb.061267.",
+                "links": null
+            },
+            "BIBREF36": {
+                "ref_id": "b36",
+                "title": "Whole transcriptome analysis reveals changes in expression of immune-related genes during and after bleaching in a reef-building coral",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Pinzon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Kamel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Burge",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Harvell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Medina",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Weil",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Mydlarz",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "R. Soc. Open Sci",
+                "volume": "2",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1098/rsos.140214"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Pinzon, J.H., Kamel, B., Burge, C.A., Harvell, C.D., Medina, M., Weil, E., Mydlarz, L.D., 2015. Whole transcriptome analysis reveals changes in expression of immune-related genes during and after bleaching in a reef-building coral. R. Soc. Open Sci. 2, 140214. http://dx.doi.org/10.1098/rsos.140214.",
+                "links": null
+            },
+            "BIBREF37": {
+                "ref_id": "b37",
+                "title": "Octocoral bleaching during unusual thermal stress",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Prada",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Weil",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Yoshioka",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Coral Reefs",
+                "volume": "29",
+                "issue": "",
+                "pages": "41--45",
+                "other_ids": {
+                    "DOI": [
+                        "10.1007/s00338-009-0547-z"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Prada, C., Weil, E., Yoshioka, P.M., 2010. Octocoral bleaching during unusual thermal stress. Coral Reefs 29, 41-45. http://dx.doi.org/10.1007/s00338-009-0547-z.",
+                "links": null
+            },
+            "BIBREF38": {
+                "ref_id": "b38",
+                "title": "Effects of climate-induced coral bleaching on coral-reef fishes -ecological and economic consequences",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Pratchett",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Munday",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Wilson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Graham",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Cinner",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Bellwood",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Jones",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Polunin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Mcclanahan",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Oceanogr. Mar. Biol. Annu. Rev",
+                "volume": "46",
+                "issue": "",
+                "pages": "251--296",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pratchett, M., Munday, P., Wilson, S., Graham, N., Cinner, J., Bellwood, D., Jones, G., Polunin, N., Mcclanahan, T., 2008. Effects of climate-induced coral bleaching on coral-reef fish- es -ecological and economic consequences. Oceanogr. Mar. Biol. Annu. Rev. 46, 251-296.",
+                "links": null
+            },
+            "BIBREF39": {
+                "ref_id": "b39",
+                "title": "Changes in bleaching susceptibility among corals subject to ocean warming and recurrent bleaching in Moorea, French Polynesia",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Pratchett",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Mccowan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Maynard",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Heron",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "PLoS One",
+                "volume": "8",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1371/journal.pone.0070443"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Pratchett, M.S., McCowan, D., Maynard, J.A., Heron, S.F., 2013. Changes in bleaching sus- ceptibility among corals subject to ocean warming and recurrent bleaching in Moorea, French Polynesia. PLoS One 8, e70443. http://dx.doi.org/10.1371/journal. pone.0070443.",
+                "links": null
+            },
+            "BIBREF40": {
+                "ref_id": "b40",
+                "title": "The potential listing of Acropora species under the US endangered species act",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Precht",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Robbart",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Aronson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Mar. Pollut. Bull",
+                "volume": "49",
+                "issue": "",
+                "pages": "534--536",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/j.marpolbul.2004.08.017"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Precht, W.F., Robbart, M.L., Aronson, R.B., 2004. The potential listing of Acropora species under the US endangered species act. Mar. Pollut. Bull. 49, 534-536. http://dx.doi. org/10.1016/j.marpolbul.2004.08.017.",
+                "links": null
+            },
+            "BIBREF41": {
+                "ref_id": "b41",
+                "title": "The neuronal calcium sensor protein acrocalcin: a potential target of calmodulin regulation during development in the coral Acropora millepora",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Reyes-Bermudez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Miller",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Sprungala",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "PLoS One",
+                "volume": "7",
+                "issue": "12",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1371/journal.pone.0051689"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Reyes-Bermudez, A., Miller, D.J., Sprungala, S., 2012. The neuronal calcium sensor protein acrocalcin: a potential target of calmodulin regulation during development in the coral Acropora millepora. PLoS One 7 (12), e51689. http://dx.doi.org/10.1371/ journal.pone.0051689.",
+                "links": null
+            },
+            "BIBREF42": {
+                "ref_id": "b42",
+                "title": "Response of the symbiotic cnidarian Anthopleura elegantissima transcriptome to temperature and UV increase",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Richier",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Rodriguez-Lanetty",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Schnitzler",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Weis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Comp. Biochem. Physiol. D Genomics Proteomics",
+                "volume": "3",
+                "issue": "",
+                "pages": "283--289",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/j.cbd.2008.08.001"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Richier, S., Rodriguez-Lanetty, M., Schnitzler, C.E., Weis, V.M., 2008. Response of the sym- biotic cnidarian Anthopleura elegantissima transcriptome to temperature and UV in- crease. Comp. Biochem. Physiol. D Genomics Proteomics 3, 283-289. http://dx.doi. org/10.1016/j.cbd.2008.08.001.",
+                "links": null
+            },
+            "BIBREF43": {
+                "ref_id": "b43",
+                "title": "Gene expression of a green fluorescent protein homolog as a host-specific biomarker of heat stress within a reef-building coral",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Smith-Keune",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Dove",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Mar. Biotechnol",
+                "volume": "10",
+                "issue": "",
+                "pages": "166--180",
+                "other_ids": {
+                    "DOI": [
+                        "10.1007/s10126-007-9049-6"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Smith-Keune, C., Dove, S., 2008. Gene expression of a green fluorescent protein homolog as a host-specific biomarker of heat stress within a reef-building coral. Mar. Biotechnol. 10, 166-180. http://dx.doi.org/10.1007/s10126-007-9049-6.",
+                "links": null
+            },
+            "BIBREF44": {
+                "ref_id": "b44",
+                "title": "Variation in the heat shock response and its implication for predicting the effect of global climate change on species' biogeographical distribution ranges and metabolic costs",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Tomanek",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "J. Exp. Biol",
+                "volume": "213",
+                "issue": "",
+                "pages": "971--979",
+                "other_ids": {
+                    "DOI": [
+                        "10.1242/jeb.038034"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Tomanek, L., 2010. Variation in the heat shock response and its implication for predicting the effect of global climate change on species' biogeographical distribution ranges and metabolic costs. J. Exp. Biol. 213, 971-979. http://dx.doi.org/10.1242/jeb.038034.",
+                "links": null
+            },
+            "BIBREF45": {
+                "ref_id": "b45",
+                "title": "Environmental proteomics: changes in the proteome of marine organisms in response to environmental stress, pollutants, infection, symbiosis, and development",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Tomanek",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Ann. Rev. Mar. Sci",
+                "volume": "3",
+                "issue": "",
+                "pages": "373--399",
+                "other_ids": {
+                    "DOI": [
+                        "10.1146/annurev-marine-120709-142729"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Tomanek, L., 2011. Environmental proteomics: changes in the proteome of marine organ- isms in response to environmental stress, pollutants, infection, symbiosis, and devel- opment. Ann. Rev. Mar. Sci. 3, 373-399. http://dx.doi.org/10.1146/annurev-marine- 120709-142729.",
+                "links": null
+            },
+            "BIBREF46": {
+                "ref_id": "b46",
+                "title": "Effects of temperature on gene expression in embryos of the coral Montastraea faveolata",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Voolstra",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Schnetzer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Peshkin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Randall",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Szmant",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Medina",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "BMC Genomics",
+                "volume": "10",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1186/1471-2164-10-627"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Voolstra, C.R., Schnetzer, J., Peshkin, L., Randall, C.J., Szmant, A.M., Medina, M., 2009. Ef- fects of temperature on gene expression in embryos of the coral Montastraea faveolata. BMC Genomics 10, 627. http://dx.doi.org/10.1186/1471-2164-10-627.",
+                "links": null
+            },
+            "BIBREF47": {
+                "ref_id": "b47",
+                "title": "Coral reef diseases in the wider Caribbean",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Weil",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Coral Health and Disease",
+                "volume": "",
+                "issue": "",
+                "pages": "35--68",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Weil, E., 2004. Coral reef diseases in the wider Caribbean. In: Rosenberg, E., Loya, Y. (Eds.), Coral Health and Disease. Springer-Verlag, Berlin, pp. 35-68.",
+                "links": null
+            },
+            "BIBREF48": {
+                "ref_id": "b48",
+                "title": "Status and progress in coral reef disease research",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Weil",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Smith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Gil-Agudelo",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Dis. Aquat. Org",
+                "volume": "69",
+                "issue": "",
+                "pages": "1--7",
+                "other_ids": {
+                    "DOI": [
+                        "10.3354/dao069001"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Weil, E., Smith, G., Gil-Agudelo, D.L., 2006. Status and progress in coral reef disease re- search. Dis. Aquat. Org. 69, 1-7. http://dx.doi.org/10.3354/dao069001.",
+                "links": null
+            },
+            "BIBREF49": {
+                "ref_id": "b49",
+                "title": "Molecular evolution of calcification genes in morphologically similar but phylogenetically unrelated scleractinian corals",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "; H H"
+                        ],
+                        "last": "Wilkinson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Baker",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Status of coral reefs of the world: 1998. Aust. Inst. Mar. Sci. Wirshing",
+                "volume": "77",
+                "issue": "",
+                "pages": "281--295",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/j.ympev.2014.04.015"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Wilkinson, C., 1998. Status of coral reefs of the world: 1998. Aust. Inst. Mar. Sci. Wirshing, H.H., Baker, A.C., 2014. Molecular evolution of calcification genes in morpholog- ically similar but phylogenetically unrelated scleractinian corals. Mol. Phylogenet. Evol. 77, 281-295. http://dx.doi.org/10.1016/j.ympev.2014.04.015.",
+                "links": null
+            },
+            "BIBREF50": {
+                "ref_id": "b50",
+                "title": "Corals worldwide hit by bleaching",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Witze",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Nature",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/nature.2015.18527"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Witze, A., 2015. Corals worldwide hit by bleaching. Nature http://dx.doi.org/10.1038/ nature.2015.18527.",
+                "links": null
+            },
+            "BIBREF51": {
+                "ref_id": "b51",
+                "title": "Algal symbiont type affects gene expression in juveniles of the coral Acropora tenuis exposed to thermal stress",
+                "authors": [
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Yuyama",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Harii",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Hidaka",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Mar. Environ. Res",
+                "volume": "76",
+                "issue": "",
+                "pages": "41--47",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/j.marenvres.2011.09.004"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Yuyama, I., Harii, S., Hidaka, M., 2012. Algal symbiont type affects gene expression in ju- veniles of the coral Acropora tenuis exposed to thermal stress. Mar. Environ. Res. 76, 41-47. http://dx.doi.org/10.1016/j.marenvres.2011.09.004.",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "text": "Mean sea surface temperatures at depths 0 m and 3 m depth registered during the mass-bleaching event of 2010 in La Parguera, Puerto Rico. Light blue bar represents the maximum temperature registered on August and September.",
+                "num": null,
+                "uris": null,
+                "type_str": "figure"
+            },
+            "FIGREF1": {
+                "text": "Two-dimensional gels showing differentially expressed proteins in Acropora palmata. (A) Unbleached A. palmata, (B) Bleached A. palmata. The red circles on the 2D gels display the differentially expressed protein spots (fold change \u22652, p \u2264 0.05). Downregulated and upregulated proteins are indicated with downward and upward arrows, respectively. Examples of common proteins compared between bleached and unbleached A. palmata are indicated with yellow squares and capital letters.",
+                "num": null,
+                "uris": null,
+                "type_str": "figure"
+            },
+            "FIGREF2": {
+                "text": "Proposed model highlighting the bleaching response pathways highlighting key protein signatures with differences in abundance in bleached Acropora palmata compared with unbleached A. palmata. Downregulated proteins are indicated with downward arrows and upregulated proteins are indicated with upward arrows.",
+                "num": null,
+                "uris": null,
+                "type_str": "figure"
+            },
+            "TABREF0": {
+                "text": "Acropora palmata proteins identified by MS/MS/Mascot search engine (Matrix Science) and BLAST analysis. The reported proteins have a 100% homology match with the peptides identified by mass spectrometry.",
+                "num": null,
+                "content": "<table><tr><td>Spot</td><td>Protein name</td><td>Accession no.</td><td>Molecular activity</td><td>pI a</td><td>Mw b</td><td>P c</td><td colspan=\"5\">MS d E e SDNB f SDB g Fold</td><td>H i</td></tr><tr><td>no.</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td>change h</td></tr><tr><td colspan=\"2\">Stress response</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>1</td><td>Heat shock transcription factor</td><td>ACH53605.1</td><td>Proteins respond to oxidative</td><td>6.38</td><td colspan=\"3\">8.96 11 85</td><td>\u2191</td><td>0.15</td><td>0.21</td><td>2.40</td></tr><tr><td/><td/><td/><td>damage, metal toxicity.</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>2</td><td>Green fluorescent protein FP512</td><td>ACH89428</td><td>Light-harvesting complex</td><td colspan=\"4\">8.61 25.92 13 85</td><td>\u2191</td><td>0.31</td><td>0.41</td><td>2.32</td></tr><tr><td>3</td><td>NADH-ubiquinone</td><td>Q8SJB8</td><td>ATP binding</td><td colspan=\"3\">9.06 67.57 2</td><td>68</td><td>\u2191</td><td>0.32</td><td>0.46</td><td>2.43</td></tr><tr><td/><td>oxidoreductase chain 5</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>4</td><td>RecName: Full = Histone H2B</td><td>P35067.1</td><td>Choline dehydrogenase activity</td><td colspan=\"2\">10.43 13.8</td><td>8</td><td>71</td><td>\u2191</td><td>0.15</td><td>0.21</td><td>2.40</td></tr><tr><td/><td>Activin 1 protein [Acropora</td><td>BAQ19091.1</td><td>Transferase activity, oxidative stress</td><td colspan=\"4\">8.71 48.39 11 70</td><td>\u2191</td><td>0.49</td><td>0.59</td><td>2.20</td></tr><tr><td/><td>digitifera]</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td>Photosystem I P700 chlorophyll A</td><td>AAN39416.1</td><td>Photosynthesis</td><td colspan=\"3\">6.38 51.37 6</td><td>69</td><td>\u2191</td><td>0.23</td><td>0.34</td><td>2.47</td></tr><tr><td/><td>apoprotein A1</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>7</td><td>Heat Shock protein Hsp-16.2</td><td>KJD18266.1</td><td>Refolding of denatured proteins</td><td colspan=\"3\">5.06 17.93 7</td><td>67</td><td>\u2191</td><td>0.12</td><td>0.16</td><td>2.36</td></tr><tr><td colspan=\"2\">UV response</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>8</td><td>TPA: fluorescent protein 5, partial</td><td>FAA00742.1</td><td>TPA: fluorescent protein 5, partial</td><td colspan=\"3\">7.75 21.18 5</td><td>83</td><td>\u2191</td><td>0.13</td><td>0.29</td><td>2.90</td></tr><tr><td/><td>[A. digitifera]</td><td/><td>[A. digitifera]</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>9</td><td>ATPase subunit 6 (ATP synthase</td><td>Q9TBW1</td><td>ATPase subunit 6 (ATP synthase</td><td colspan=\"4\">7.92 25.37 11 87</td><td>\u2191</td><td>0.41</td><td>0.62</td><td>2.08</td></tr><tr><td/><td>subunit 6)</td><td/><td>subunit 6)</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td colspan=\"2\">Amino acid synthesis</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>10</td><td>Adi-cysteine synthase</td><td>F2Z9Y4</td><td>Amino acid synthesis related genes</td><td>8.04</td><td colspan=\"2\">7.36 9</td><td>92</td><td>\u2193</td><td>0.47</td><td>0.38</td><td>2.17</td></tr><tr><td colspan=\"2\">Transcription factors</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>11</td><td>PaxC homeodomain protein</td><td>Q9NBX3</td><td>Sequence-specific DNA binding</td><td>4.56</td><td colspan=\"2\">4.79 3</td><td>90</td><td>\u2193</td><td>0.87</td><td>0.20</td><td>2.50</td></tr><tr><td/><td>[A. palmata]</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>12</td><td>PaxC [A. palmata]</td><td>B6DC09</td><td>DNA binding domains</td><td>5.01</td><td colspan=\"3\">2.99 10 529</td><td>\u2193</td><td>0.79</td><td>0.56</td><td>2.40</td></tr><tr><td>13</td><td>Mannose-binding lectin, partial</td><td>B3V952</td><td>Carbohydrate binding</td><td colspan=\"3\">4.64 22.41 2</td><td>118</td><td>\u2193</td><td>0.32</td><td>0.19</td><td>2.25</td></tr><tr><td/><td>[A. millepora]</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td colspan=\"2\">Immunity-related</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td>Apextrin</td><td>A0T3F5</td><td>Innate immune response</td><td colspan=\"4\">5.08 96.08 10 455</td><td>\u2193</td><td>0.34</td><td>0.22</td><td>2.09</td></tr><tr><td>15</td><td>Ectonucleoside triphosphate</td><td>ABD97868.1</td><td>G-protein coupled receptor signaling</td><td colspan=\"4\">6.85 65.06 13 317</td><td>\u2193</td><td>0.40</td><td>0.30</td><td>2.33</td></tr><tr><td/><td>diphosphohydrolase 1</td><td/><td>pathway</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td>ATP synthase subunit 8</td><td>NP_612827.1</td><td>Hydrogen ion transmembrane</td><td>9.51</td><td colspan=\"2\">8.52 6</td><td>396</td><td>\u2193</td><td>0.70</td><td>0.54</td><td>2.29</td></tr><tr><td/><td/><td/><td>transporter activity</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>17</td><td>Toll-like receptor 2</td><td>KJD20730.1</td><td>Transmembrane signaling receptor</td><td colspan=\"3\">8.69 25.92 6</td><td>408</td><td>\u2193</td><td>0.44</td><td>0.35</td><td>2.25</td></tr><tr><td/><td/><td/><td>activity</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td colspan=\"2\">Apoptosis</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>18</td><td>Caspase 8 [A. palmata]</td><td>ADG23096.1</td><td>Cysteine-type endopeptidase activity</td><td colspan=\"4\">5.94 50.79 10 72</td><td>\u2191</td><td>0.0</td><td>0.19</td><td>UE j</td></tr><tr><td/><td/><td/><td>and apoptotic processes</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>19</td><td>Galaxin</td><td>ADI50285.1</td><td>Soluble protein of the organic matrix,</td><td colspan=\"3\">5.45 35.12 6</td><td>66</td><td>\u2193</td><td>1.00</td><td>0.55</td><td>2.07</td></tr><tr><td/><td/><td/><td>pro-apoptotic</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td colspan=\"2\">Biomineralization</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>20</td><td>Galaxin-like 2</td><td>ADI50285.1</td><td>Biomineralization related genes. Rich</td><td colspan=\"4\">4.82 64.32 11 573</td><td>\u2193</td><td>0.84</td><td>0.71</td><td>2.18</td></tr><tr><td/><td/><td/><td>acidic amino acids containing genes</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>21</td><td>Integrin beta</td><td>AAB66910.1</td><td>Cell-matrix adhesion</td><td colspan=\"3\">6.41 87.64 7</td><td>254</td><td>\u2193</td><td>0.39</td><td>0.29</td><td>2.34</td></tr><tr><td colspan=\"2\">Cytoskeletal</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td>Gelsolin</td><td colspan=\"2\">XP_012559373.1 Phagocytosis, engulfment</td><td colspan=\"3\">5.83 40.51 1</td><td>91</td><td>\u2193</td><td>0.69</td><td>0.53</td><td>2.30</td></tr><tr><td/><td>Myosin</td><td colspan=\"2\">XP_001637809.1 Calcium-regulated, actin-modulating</td><td>6.82</td><td colspan=\"2\">3.27 2</td><td>75</td><td>\u2193</td><td>0.43</td><td>0.34</td><td>2.26</td></tr><tr><td/><td/><td/><td>protein</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td>Actin</td><td>ABY40470.1</td><td>Calcium-regulated, actin-severing</td><td colspan=\"3\">5.26 17.33 1</td><td>76</td><td>\u2191</td><td>0.05</td><td>0.13</td><td>2.60</td></tr><tr><td/><td/><td/><td>protein</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td colspan=\"2\">Cell cycle</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>25</td><td>Cyclin dependent kinase like 2</td><td>BAG71255.1</td><td>Cell cycle related genes</td><td colspan=\"3\">5.54 21.89 9</td><td>439</td><td>\u2191</td><td>0.0</td><td>0.73</td><td>UE j</td></tr><tr><td/><td>Calmodulin-like protein</td><td>ACY07618.1</td><td>Genes for signal transduction</td><td colspan=\"3\">4.74 19.66 5</td><td>344</td><td>\u2191</td><td>0.0</td><td>0.66</td><td>UE j</td></tr><tr><td/><td>[A. millepora]</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td colspan=\"2\">Oxidative phosphorylation</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>27</td><td>Cytochrome oxidase subunit 1</td><td>BAG71255.1</td><td>Component of the respiratory chain</td><td colspan=\"3\">5.54 21.89 2</td><td>118</td><td>\u2193</td><td>0.78</td><td>0.32</td><td>2.43</td></tr><tr><td/><td>[A. palmata]</td><td/><td>that catalyzes the reduction of</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td>oxygen to water</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>28</td><td>Cytochrome b [A. palmata]</td><td>AAD20279.1</td><td>Respiratory electron transport chain</td><td colspan=\"3\">8.41 36.55 2</td><td>115</td><td>\u2193</td><td>0.60</td><td>0.48</td><td>2.25</td></tr><tr><td>29</td><td>Cytochrome P450 74A</td><td>B4YFB4</td><td>Electron carrier activity</td><td colspan=\"3\">8.99 49.80 2</td><td>114</td><td>\u2193</td><td>0.57</td><td>0.34</td><td>2.67</td></tr><tr><td/><td>[A. palmata]</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr></table>",
+                "type_str": "table"
+            },
+            "TABREF1": {
+                "text": "",
+                "num": null,
+                "content": "<table><tr><td/><td>continued)</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>Spot</td><td>Protein name</td><td>Accession no.</td><td>Molecular activity</td><td>pI a</td><td>Mw b</td><td>P c</td><td colspan=\"5\">MS d E e SDNB f SDB g Fold</td><td>H i</td></tr><tr><td>no.</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td>change h</td></tr><tr><td colspan=\"2\">Anti-oxidant proteins</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>30</td><td>Thioredoxin reductase</td><td>AFI99106.2</td><td>Oxidoreductase</td><td colspan=\"3\">6.37 74.30 5</td><td>77</td><td>\u2193</td><td>0.21</td><td>0.19</td><td>2.09</td></tr><tr><td/><td>[A. millepora]</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td colspan=\"2\">Endo-exo phagocytosis-related</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>31</td><td>CD 63 antigen</td><td>O96961</td><td>Growth regulation</td><td colspan=\"3\">4.34 26.71 7</td><td>254</td><td>\u2193</td><td>0.26</td><td>0.0</td><td>UE j</td></tr><tr><td>32</td><td>Light-harvesting protein</td><td>CBI83412.1</td><td>Hydrolase activity</td><td colspan=\"3\">8.01 28.97 6</td><td>249</td><td>\u2193</td><td>0.12</td><td>0.0</td><td>UE j</td></tr><tr><td>33</td><td>Forkhead box J1 protein</td><td>BAQ19128.1</td><td>DNA binding domains</td><td colspan=\"3\">5.04 45.13 6</td><td>245</td><td>\u2193</td><td>0.59</td><td>0.0</td><td>UE j</td></tr><tr><td/><td>[A. digitifera]</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>34</td><td>RecName: Full = CUB</td><td>B3EX01.1</td><td>Cellular membrane function</td><td colspan=\"3\">4.99 44.77 6</td><td>244</td><td>\u2193</td><td>0.50</td><td>0.0</td><td>UE j</td></tr><tr><td/><td>domain-containing protein;</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td>Flags: Precursor</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>35</td><td>Calmodulin (CaM)</td><td>DR987178</td><td>Ca 2+ binding, adaptation of</td><td colspan=\"3\">5.21 39.39 9</td><td>243</td><td>\u2193</td><td>0.46</td><td>0.0</td><td>UE j</td></tr><tr><td/><td/><td/><td>rhodopsin-mediated signaling</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td>Peridinin chlorophyll-a binding</td><td>AAN39416.1</td><td>Protein-chromophore linkage</td><td colspan=\"3\">8.90 21.12 9</td><td>242</td><td>\u2193</td><td>0.68</td><td>0.0</td><td>UE j</td></tr><tr><td/><td>protein apoprotein precursor</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td>Chain B, Refined 1.8 Angstroms</td><td>B3EWZ4.1</td><td>Extracellular region</td><td colspan=\"3\">3.28 18.79 9</td><td>241</td><td>\u2193</td><td>0.49</td><td>0.0</td><td>UE j</td></tr><tr><td/><td>Resolution Crystal</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>38</td><td>Mini-collagen</td><td>Q8MUZ4</td><td>Collagen</td><td>6.18</td><td colspan=\"2\">5.61 9</td><td>241</td><td>\u2193</td><td>0.42</td><td>0.0</td><td>UE j</td></tr><tr><td colspan=\"2\">a Isoelectric point.</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr></table>",
+                "type_str": "table"
+            }
+        }
+    }
+}
