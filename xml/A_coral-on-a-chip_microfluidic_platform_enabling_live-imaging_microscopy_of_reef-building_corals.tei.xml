@@ -1,0 +1,1651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/grace/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A coral-on-a-chip microfluidic platform enabling live-imaging microscopy of reef-building corals</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2016-03-04">4 Mar 2016</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Orr</forename><forename type="middle">H</forename><surname>Shapiro</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Esti</forename><surname>Kramarsky-Winter</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Biotechnology Engineering</orgName>
+								<orgName type="institution">Ben-Gurion University of the Negev</orgName>
+								<address>
+									<postCode>84105</postCode>
+									<settlement>Beer-Sheva</settlement>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Assaf</forename><forename type="middle">R</forename><surname>Gavish</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Roman</forename><surname>Stocker</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Civil and Environmental Engineering</orgName>
+								<orgName type="institution">Massachusetts Institute of Technology</orgName>
+								<address>
+									<postCode>02139</postCode>
+									<settlement>Cambridge</settlement>
+									<region>Massachusetts</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Department of Civil</orgName>
+								<orgName type="department" key="dep2">Environmental and Geomatic Engineering</orgName>
+								<orgName type="institution">ETH Zurich</orgName>
+								<address>
+									<postCode>8093</postCode>
+									<settlement>Zurich</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Assaf</forename><surname>Vardi</surname></persName>
+							<email>assaf.vardi@weizmann.ac.il</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Plant and Environmental Sciences</orgName>
+								<orgName type="institution">Weizmann Institute of Science</orgName>
+								<address>
+									<postCode>76100</postCode>
+									<settlement>Rehovot</settlement>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Food Quality and Safety</orgName>
+								<address>
+									<addrLine>ARO, The Volcani Center</addrLine>
+									<postCode>50250</postCode>
+									<settlement>Beth-Dagan</settlement>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A coral-on-a-chip microfluidic platform enabling live-imaging microscopy of reef-building corals</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2016-03-04">4 Mar 2016</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1038/ncomms10860</idno>
+					<note type="submission">Received 24 Dec 2015 | Accepted 27 Jan 2016 |</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-09-14T02:41+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>Coral reefs, and the unique ecosystems they support, are facing severe threats by human activities and climate change. Our understanding of these threats is hampered by the lack of robust approaches for studying the micro-scale interactions between corals and their environment. Here we present an experimental platform, coral-on-a-chip, combining micropropagation and microfluidics to allow direct microscopic study of live coral polyps. The small and transparent coral micropropagates are ideally suited for live-imaging microscopy, while the microfluidic platform facilitates long-term visualization under controlled environmental conditions. We demonstrate the usefulness of this approach by imaging coral micropropagates at previously unattainable spatio-temporal resolutions, providing new insights into several micro-scale processes including coral calcification, coral-pathogen interaction and the loss of algal symbionts (coral bleaching). Coral-on-a-chip thus provides a powerful method for studying coral physiology in vivo at the micro-scale, opening new vistas in coral biology.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>R</head><p>eef-building corals (order Scleractinia) harbour a complex network of interactions between the coral animal, photosynthetic algal symbionts and a complex bacterial community <ref type="bibr" target="#b0">1</ref> . This partnership allows corals to proliferate in tropical, nutrient-poor waters, where they form the backbone of the coralreef ecosystem and its associated biodiversity . Further, while covering less than 0.1% of the ocean surface, the activity of coral reefs has a significant impact on global climate, as coral calcification is estimated to sequester 70-90 million tons of carbon per year <ref type="bibr" target="#b2">3</ref> , exceeding 10% of marine calcium carbonate mineralization. Over the past several decades, concomitant with global rise in sea-surface temperatures, coral reefs have undergone continual decline due to disease outbreaks, including mass bleaching events <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b4">5</ref> , leading to a large increase in research efforts into the physical and biological processes governing coral-reef health and proliferation under changing environmental conditions <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref> .</p><p>Reef corals typically form structures on the order of centimetres to metres, yet the majority of biological activity takes place at a thin layer of living tissue, 0.1-5 mm depending on species, enveloping the coral skeleton <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b9">10</ref> . Studying corals at the colony scale therefore fails to capture biological processes occurring at the tissue or cellular levels, and how these processes are affected by environmental stress. Tissue or cellular level coral physiology has been studied extensively using microscopic methods including histology, electron microscopy and more recently nanoscale secondary ion mass spectrometry <ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref> . While these methods provide a wealth of information regarding cellular and subcellular structures, they require fixation of tissues prior to imaging and so are limited in their ability to follow dynamic processes in vivo at relevant time scales. An alternative approach is the generation of miniaturized model systems in the form of cell or tissue cultures that could be studied in vitro in real time. Such miniaturized model systems have yielded valuable insights into the physiological processes involved in symbiosis and calcification <ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref> . However, the process of disrupting the coral tissue to generate cell or tissue cultures necessarily results in loss of the tissue organization and hence the organismal context of resulting observations. Moreover, as all coral cell or tissue cultures reported to date have limited lifespans of up to 3 weeks <ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b17">18</ref> , the cells or tissues in such cultures are in a state of declining health, likely stressed and thus may not represent the full spectrum of coral physiological and metabolic processes.</p><p>Model system miniaturization can be achieved through micropropagation, the production of tissue clones that ultimately develop into whole organisms <ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b20">21</ref> . Unlike cell or tissue cultures, micropropagation preserves much of the organization of the whole organism, enabling the study of cells or tissues in their uncompromised physiological state. Furthermore, micropropagation enables the rapid production of a large number of clonal organisms with highly similar life histories, thus reducing complexity and simplifying experimental design. Such systems have been particularly useful in the plant sciences, where they are routinely used for comparative analysis of tissues or whole organisms, plant crop production, and conservation and restoration <ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref> . A number of, micropropagation systems have been developed for cnidarian species, most notably the freshwater Hydra polyp <ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b26">27</ref> , the sea anemones Aiptasia and Nematostella <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b27">28,</ref><ref type="bibr" target="#b28">29</ref> and more recently the solitary scleractinian coral Fungia granulosa <ref type="bibr" target="#b20">21,</ref><ref type="bibr" target="#b29">30</ref> .</p><p>Combining micropropagates with recently developed microfluidic techniques offers a particularly powerful tool for studying live organisms at the tissue or cellular level. The development of microfluidic flow systems, where environmental parameters can be precisely controlled and monitored, together with advances in microscopic imaging techniques have opened new frontiers in the study of cellular and microbial systems <ref type="bibr" target="#b30">[31]</ref><ref type="bibr" target="#b31">[32]</ref><ref type="bibr" target="#b32">[33]</ref> , organs <ref type="bibr" target="#b33">34</ref> , and whole organisms <ref type="bibr" target="#b34">35</ref> . Recently, we demonstrated the use of microfluidics in studying the chemotactic response of a bacterial pathogen towards coral mucus , as well as the dynamic microenvironment generated by ciliary vortices at the surface of reef-building corals <ref type="bibr" target="#b36">37</ref> . Introducing coral micropropagates into a microfluidic setting has the potential to provide a powerful new platform for in vivo visualization of coral physiological processes at microscopic resolution, under controlled conditions and over extended time periods. To this end, we developed a robust method for the micropropagation of the reef-building coral Pocillopora damicornis, and two additional coral species, and for the integration of resulting micropropagates into a microfluidic flow system. We demonstrate the strength of this novel system, which we term coral-on-a-chip, by performing live-imaging microscopy of eco-physiological processes in reef-building corals, providing a new and powerful experimental approach to study the biology and ecology of reef corals.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Micropropagation of coral polyps.</head><p>A schematic representation of the coral-on-a-chip system is shown in <ref type="figure" target="#fig_1">Fig. 1</ref>. Coral micropropagates are generated by polyp explantation induced by a natural stress response previously termed 'polyp-bail-out' <ref type="bibr" target="#b37">38</ref> . We induce this type of response in a controlled manner by subjecting coral fragments to a gradual increase in salinity, to which P. damicronis corals ( <ref type="figure" target="#fig_2">Fig. 2a</ref>) used in our experiments respond in a highly predictable manner ( <ref type="figure" target="#fig_2">Fig. 2b</ref>; Supplementary Movie 1). Polyp retraction is typically observed at salinities of 42-45 p.p.t., followed by stretching and thinning of the coenosarc (the tissue connecting adjacent polyps) at B50 p.p.t. Severing of the coenosarc occurs at 52-54 p.p.t., rapidly followed by separation of the polyp tissue from the skeleton. It should be noted that the precise salinity for each stage of the explantation process varies, depending on colony health and possibly also on its origin. Nevertheless the occurrence of polyp-bail-out on salinity increase and the sequence of steps described above are  robust and lead to the expulsion of over 90% of the polyps from each fragment.</p><p>Using a similar approach, we induce polyp explantation in two additional coral species within the family Pocilloporidae ( <ref type="figure" target="#fig_1">Supplementary Fig. 1</ref>). Explantation in the bird-nest coral Seriatopora hystrix is induced through a more gradual increase in salinity compared with P. damicronis, going from 39 to 52 p.p.t. over a period of 44-48 h. In Stylophora pistillata, stretching and thinning of the coenosarc tissue is induced in a similar manner to P. damicornis, but is not followed by polyp expulsion. This final step is induced by exposing of the salinity-stressed coral (52-54 p.p.t.) to air for a period of 30 min before continuing incubation under the same high-salinity conditions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Resettlement of micropropagated coral polyps.</head><p>Explanted polyps from all three coral species can be induced to settle onto glass surfaces such as petri dishes, microscope slides or coverslips. Gross polyp morphology, including polyp mouth (stomodaeum) and tentacles, is retained throughout the micropropagation and settlement process. To induce settlement, micropropagates are placed in small microwells (3 mm diameter Â 1 mm depth) fabricated on a microscope slide. Slides with micropropagates are incubated in a custom raceway system under controlled light, temperature and flow conditions ( <ref type="figure" target="#fig_2">Supplementary Fig. 2</ref>). Initial attachment to the glass surface is observed within 12 h of polyp explantation, followed by flattening of the polyp base against the glass surface and extension of tentacles over a period of 24-48 h ( <ref type="figure" target="#fig_2">Fig. 2c</ref>). Calcification (Figs 2g; 3) is observed within 2-4 days of settlement. Settled micropropagates can be maintained for periods of weeks to months, either in the raceway system or in aquaria. Under the experimental conditions used here, up to 90% of micropropagates from a single P. damicornis fragment could be induced to settle onto glass microscope slides. However, this rate of success depends on colony health and water quality, with settlement rates in some of our experiments dropping below 10% when conditions in the aquarium deteriorated.</p><p>The coral-on-a-chip microfluidic system. The small size and transparency of the micropropagates make them ideally suited for live-imaging microscopy. Epifluorescence microscopy of settled micropropagates is facilitated by the strong autofluorescence of both the coral's native green fluorescent protein (GFP) and the algal chlorophyll, without the need for fluorescent probes ( <ref type="figure" target="#fig_2">Fig. 2e</ref>; <ref type="figure" target="#fig_1">Supplementary Fig. 1</ref>). The use of transmitted light microscopy reveals additional micro-scale features of the coral micropropagates such as vortical flows driven by the coral's epidermal cilia <ref type="bibr" target="#b36">37</ref>  <ref type="figure" target="#fig_2">(Fig. 2f</ref>). High-magnification microscopy ( Â 60 or higher) if facilitated by settling coral micropropagates on glass coverslips. The use of differential interference contrast (DIC) allows the observation of fine details such as the daily growth rings within newly deposited skeletal features ( <ref type="figure" target="#fig_2">Fig. 2g</ref>), as well as coral cell boundaries or bacterial microcolonies forming in or around the coral polyp ( <ref type="figure" target="#fig_2">Fig. 2h</ref>; <ref type="figure" target="#fig_3">Supplementary Fig. 3</ref>).</p><p>To enable long-term microscopic observation under controlled environmental conditions, we settle micropropagates inside a simple microfluidic device consisting of a shallow channel etched in polydimethylsiloxane (PDMS), with inlet and outlet ports and an open microwell <ref type="figure" target="#fig_1">(Figs 1; 2d</ref>). Micropropagates are induced to settle in the microwell as described above. Prolonged microscopic observation under constant conditions is facilitated by reversibly sealing the microwell and the introduction of flow via the inlet and outlet ports. This prevents unwanted changes in the coral's microenvironment due to evaporation or accumulation of waste materials during the observation period. Maintaining a constant flow further enables the precise and continuous control over water chemistry in the microchannel, as well as the introduction of biological or chemical agents as part of the experimental design.</p><p>In vivo imaging of calcification and skeletogenesis. Coral calcification and skeletogenesis forms the backbone of the coral-reef ecosystem. By adding the fluorescent dye calcein, which is incorporated into growing calcium carbonate crystals <ref type="bibr" target="#b38">39,</ref><ref type="bibr" target="#b39">40</ref> , to the channel inflow, we were able to visualize patterns of calcium carbonate deposition within a settled coral micropropagate <ref type="figure" target="#fig_3">(Fig. 3a,b</ref>). Calcein incorporation was subsequently correlated to skeletal morphology imaged using scanning electron microscopy (SEM) ( <ref type="figure" target="#fig_3">Fig. 3c,d</ref>). Using this approach, we demonstrate the preferential incorporation of calcein by a settled miropropagate into protruding skeletal elements resembling the septa and spinules found in mature coral skeletons.</p><p>Using the coral-on-a-chip platform, we can follow the growth of specific crystal bundles using time lapse microscopy at high magnification over periods of hours to days. We present results from a 12-h experiment, where skeleton deposition by a newly settled S. pistillata micropropagate is imaged every 10 min at Â 40 magnification using DIC microscopy ( <ref type="figure" target="#fig_3">Fig. 3e</ref>; Supplementary Movie 2). We observed intermittent crystal growth, with periods of rapid elongation (42 mm h À 1 ) interspersed by periods of no measurable growth. Growth is highly heterogeneous, with crystals separated by as little as 10 mm showing substantially different growth rates and patterns.</p><p>Micro-scale study of coral bleaching and disease. The coral-ona-chip platform allows us to follow bleaching and disease processes in live coral polyps at the single-cell level <ref type="figure" target="#fig_4">(Fig. 4</ref>). Using our system, we can introduce fluorescently tagged pathogens into the microchannel, and to follow their interaction with the coral micropropagate by live-imaging microscopy. To overcome the autofluorescent background of the coral host, we transformed the established coral pathogen Vibrio coralliilyticus strain YB2 (ref. <ref type="bibr" target="#b40">41</ref>) with a plasmid encoding for the DsRed.T3 fluorescent protein <ref type="figure" target="#fig_4">(Fig. 4a,b)</ref>. The emission wavelength of this protein, together with its high quantum yield, makes it readily distinguishable from the strong autofluorescence of both the coral's native GFP and the chlorophyll of its algal symbionts. By adding these transformed pathogens to the microfluidic channel we were able to follow the infection process in real time, including the accumulation V. coralliilyticus cells within the polyp's gastrovascular cavity <ref type="figure" target="#fig_4">(Fig. 4a,b</ref>, blue dots). By exposing settled micropropagates to high light intensities we can induce the coral to lose its algal symbionts, thus bringing the process of coral bleaching into our microfluidic channel. By this method, we can observe and measure the bleaching process at high spatio-temporal resolution. This is demonstrated here for a micropropagate consisting of three coral polyps, where exposure to high light intensity (2,500 mmol photons per m 2 per s) over a period of 8 h results in the near-complete loss of its zooxanthellae ( <ref type="figure" target="#fig_3">Fig. 4c; Supplementary Movie 3)</ref>. Bleaching is not uniform, but appears to progress from the coenosarc tissue towards the polyps' centre. Using simple image analysis we extracted quantitative measurements of chlorophyll autofluorescence for the entire micropropagate, revealing a doubling in fluorescence intensity <ref type="figure" target="#fig_4">(Fig. 4e)</ref>. These results were further validated by studying the bleaching process at single-cell resolution, providing additional insights into the micro-scale dynamics of coral bleaching. Specifically, our results demonstrate different response kinetics for neighbouring individual symbionts <ref type="figure" target="#fig_4">(Fig. 4d,f)</ref>. One striking result is that the loss of an algal cell is often preceded by elevated fluorescence intensity of its chlorophyll. In the example given here, the chlorophyll autofluorescence of the alga marked by a red arrow (red curve in 4f) is first seen to intensify at 0915 hours. It then remains high for the next hour, after which the algal cell disappears. A neighbouring symbiont, which appears to be physically linked to the affected cell (blue arrow; blue curve in 4f), is relatively unaffected during the capture period.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>The coral-on-a-chip microfluidic platform presented here allows direct microscopic observation and measurement of fundamental behaviours and physiological phenomena in live corals at previously unattainable spatio-temporal resolutions. The ability to tightly control the physical and chemical parameters within the microfluidic chamber further provides us with the ability to study coral responses to various external effectors and environmental insults at the micro-scale.</p><p>The use of micropropagation preserves much of the complexity of both the coral holobiont and its microenvironment. Coral micropropagates are generated through a natural stress response described previously as 'polyp-bail-out' <ref type="bibr" target="#b37">38</ref> . When exposed to sub-lethal stress, coral polyps are expelled from the mother colony, possibly as a means to escape adverse local conditions <ref type="bibr" target="#b37">38,</ref><ref type="bibr" target="#b41">42,</ref><ref type="bibr" target="#b42">43</ref> . Micropropagated polyps remain viable and have the potential to settle onto a solid surface to form microcolonies. Here we demonstrate the applicability of this approach to three coral species. We expect further efforts to add additional species to this list, facilitating the establishment of one or several coral model systems.</p><p>Our work describes the first use of micropropagated coral polyps as a micro-scale experimental platform. The scale of observation, the minute amount of tissue and the small working volume differ substantially from conventional experimental macro-scale approaches in coral studies, where the unit of observation is usually a small colony or branch, either in situ or in aquaria. This system also differs from the use of dissociated coral cells or cell aggregates, previously suggested as a possible alternative for micro-scale studies of coral physiology <ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref> . Cell dissociation inevitably results in loss of tissue spatial organization, altering the physical and chemical microenvironment experienced by the studied sample. The unique microscopic view of settled coral micropropagates thus opens a new window into coral physiology at resolutions down to the single-cell level. The clonality of multiple micropropagates derived from a single mother colony simplifies experimental design by reducing genetic variability, allowing to reliably compare the effects of different treatments. The ability to integrate coral micropropagates into a microfluidic device allows, for the first time in coral studies, the use of ong-term microscopic observation, and opens the use of a whole suite of analytical tools developed for similar microfluidic platforms <ref type="bibr" target="#b43">44,</ref><ref type="bibr" target="#b44">45</ref> .</p><p>To demonstrate the applicability of our coral-on-a-chip system, we focus on three questions that are currently at the heart of coralreef research, that is, calcification, the breakdown of symbiosis under environmental stress (coral bleaching) and coral disease. Calcification and skeletogenesis, processes that underlie the development of coral reefs <ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b45">46,</ref><ref type="bibr" target="#b46">47</ref> , are among the most studied aspects of coral physiology. These subjects have received increased attention in light of global environmental changes, particularly ocean acidification <ref type="bibr" target="#b42">43,</ref><ref type="bibr" target="#b47">48,</ref><ref type="bibr" target="#b48">49</ref> . Nevertheless, the underlying micro-scale processes of calcification remain poorly understood, largely because of the difficulty in observing the calcifying layer in the live coral without disturbing the calcification process <ref type="bibr" target="#b46">47,</ref><ref type="bibr" target="#b49">50,</ref><ref type="bibr" target="#b50">51</ref> . In light of the importance of the calcification process, and the research attention it receives, it was imperative to first verify that calcification in coral micropropagates is representative of that in intact colonies. To do so, we used the fluorescent dye calcein, which is incorporated into calcium carbonate crystals <ref type="bibr" target="#b38">39,</ref><ref type="bibr" target="#b39">40</ref> during skeletal growth ( <ref type="figure" target="#fig_3">Fig. 3a-d)</ref>. Calcein is known to be preferentially incorporated at specific sites within the coral skeleton, designated centres of calcification <ref type="bibr" target="#b46">47,</ref><ref type="bibr" target="#b49">50</ref> , typically associated with protruding skeletal elements such as spinules and septa. Our results indeed demonstrate localized calcein incorporation <ref type="figure" target="#fig_3">(Fig. 3b)</ref> at protruding elements subsequently shown to resemble spinules and septa by SEM imaging <ref type="figure" target="#fig_3">(Fig. 3c,d</ref>). These results indicate that coral micropropagates indeed retain the basic calcification and skeleton morphology properties of the mother colony, and are thus a promising experimental system for the microscopic study of these important processes.</p><p>The high spatial resolution afforded by the coral-on-a-chip platform enables the use of polarized or DIC microscopy for real-time visualization of de novo calcification. This allows us to record and quantify the deposition of aragonite crystals under highly controlled environmental conditions. We demonstrate this ability using the coral S. pistillata ( <ref type="figure" target="#fig_2">Fig. 3e; Supplementary Movie  2)</ref>, which is among the most used model species for the study of coral calcification <ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b39">40,</ref><ref type="bibr" target="#b51">52</ref> . The ability to precisely control and manipulate the environmental parameters experienced by the coral micropropagate will enable future studies into the effects of different environmental stresses on the deposition of specific skeletal elements. Only one system to date, the lateral skeleton preparative (LSP) assay <ref type="bibr" target="#b51">52</ref> , provides comparable spatial resolution when studying in vivo coral calcification. Using the LSP essay, the expanding edge of a small coral fragment attached to a glass slide can be imaged microscopically. Our system offers several advantages over LSP preparations, including improved clonality, shortened generation times (from several weeks to just a few days), and most importantly, flexible experimental design due to the ability to precisely control the environmental parameters during microscopic imaging. Thus, coral-on-a-chip provides a unique platform for studying the micro-scale processes underlying coral calcification.</p><p>Coral-on-a-chip provides an additional advantage in that it allows the long-term observation of specific components of the coral holobiont during bacterial infection and coral bleaching. Coral disease is increasingly threatening coral reefs, exacerbated by a rise in both global seawater temperatures and anthropogenic disturbances <ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b52">53,</ref><ref type="bibr" target="#b53">54</ref> . Here we demonstrate the use of the coral-on-achip platform to study the infection of a P. damicornis micropropagate with its well-established pathogen, V. coralliilyticus <ref type="bibr" target="#b40">41,</ref><ref type="bibr" target="#b54">55</ref> , a major cause of coral disease. By fluorescently tagging the bacterial pathogens, we were able to show how, during the infection process, V. coralliilyticus enters the gastrovascular cavity via the polyp's stomadeum <ref type="figure" target="#fig_4">(Fig. 4a,b)</ref>. This result suggests a hitherto underexplored route to coral infection, while representing a first in vivo observation of a bacterial pathogen inside a coral polyp.</p><p>To induce coral bleaching we exposed micropropagates settled within our coral-on-a-chip system to high light levels. This resulted in a rapid and repeatable breakdown of the coral-algae symbiosis, which allowed us to track and measure the loss of algal symbionts in real time at both the polyp and single-cell levels ( <ref type="figure" target="#fig_4">Fig. 4c-f</ref>; <ref type="figure" target="#fig_3">Supplementary Movies 3 and 4</ref>). We observed a sharp increase in the autofluorescence of algal chlorophyll as part of the bleaching process, suggesting breakdown of the photosynthetic process <ref type="bibr" target="#b55">56</ref> . Our results indicate that susceptibility of the algal symbionts to high light conditions is affected by their localization within the coral polyp, and possibly by some degree of innate variability. Moreover, the loss of symbionts is shown to be highly selective, with cells separated by only a few micrometres showing different bleaching kinetics. This suggests specific signalling between coral and algae, possibly mediated by the induction of reactive oxygen species <ref type="bibr" target="#b56">[57]</ref><ref type="bibr" target="#b57">[58]</ref><ref type="bibr" target="#b58">[59]</ref> , which needs to be further explored.</p><p>The rapid generation of multiple, clonal coral micropropagates, combined with a microfluidic platform for their long-term microscopic study, provides a substantial advancement for coral studies. The coral-on-a-chip platform brings the power of animalon-a-chip systems, along with their unique range of microscopic, biochemical and analytical tools <ref type="bibr" target="#b34">35,</ref><ref type="bibr" target="#b57">58,</ref><ref type="bibr" target="#b58">59</ref> , to the study of coral biology. Our microfluidic device may also be used to study newly settled coral larvae, providing an important tool for comparing coral physiological processes during different life stages . Combined with recent advances in coral genomics <ref type="bibr" target="#b59">60,</ref><ref type="bibr" target="#b60">61</ref> , together with emerging genome editing tools such as short interfering RNA <ref type="bibr" target="#b61">62</ref> and the CRISPR-CAS9 system <ref type="bibr" target="#b62">63,</ref><ref type="bibr" target="#b63">64</ref> , our system will provide an important and powerful platform for the introduction of forward and reverse genetics into the study of reef-building corals. As corals represent an early stage in the evolution of multicellular organisms, the coral-on-a-chip platform has the potential to establish them as an important model system for studying the evolution of complex traits such as tissue organization, symbiosis and biomineralization.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head><p>Coral growth conditions. Small colonies of the coral P. damicornis collected by permit (permit no# 2014/40327) from the reef opposite the Inter-University Institute in Eilat, Israel were kept in a 200-l aquarium equipped with a biological filtration system under the following conditions: Temperature: 24°C; Salinity: 39 p.p.t. (artificial seawater prepared by dissolving Reef Salts (Aqua Medic GMBH, Germany) in deionized water); light intensity: 200 mmol photons per m 2 per s, 12-h light-dark cycle. Light was provided using an equal proportion of white and actinic blue T5 fluorescent tubes.</p><p>Coral micropropagation. For each experiment, a small (B5 mm) branch tip is removed from the mother colony using a clean stainless-steel bone cutter. The branch tip is placed in an open glass Petri dish filled with filtered artificial seawater (FASW) just covering the coral fragment. A gradual increase in salinity due to water evaporation results in a polyp-bail-out response, with separate polyps released from the coral skeleton. Polyp release can be expedited by gently pipetting or stirring the water around the coral fragment. Precise conditions for the different coral species used here differed as detailed in the text. A 5-mm fragment from the corals P. damicornis or S pistillata typically yields 30-40 micropropagates. Expelled micropropagates are transferred to a small Petri dish containing FASW at ambient salinity for up to 10 min for initial recovery. Micropropagates are then screened for viability using a stereo-microscope, and scored by observing tissue integrity, the extension of mesenterial filaments and the presence of vortical ciliary flows <ref type="bibr" target="#b36">37</ref> . Viable polyps are collected using a clean glass pipette and used for settlement as described. Polyp-bail-out imaging ( <ref type="figure" target="#fig_2">Fig. 2b</ref>; Supplementary Movie 1) was done using an Olympus SZX12 stereoscope (Olympus, Japan) equipped with a UI-1465LE camera (IDS Imaging Development Systems GmbH, Obersulm, Germany).</p><p>Microfluidic channels. A simple straight channel (4 cm Â 3 mm Â 0.1 mm) is etched into a silicone elastomer (PDMS); (Sylgard 184, Dow Corning) using soft lithography <ref type="bibr" target="#b34">35,</ref><ref type="bibr" target="#b35">36</ref> . Inlet and outlet holes are punched at both ends of the channel using a 1-mm biopsy punch (AcuDerm, FL, USA), and a 3-mm punch is used to make a well at the centre of the channel. Channel is placed on the clean surface of a new glass microscope slide or a 60 Â 24 mm cover slip (Sail brand, China) without plasma bonding.</p><p>Raceway flow system. The raceway is made of a shallow glass tray divided into three channels, each 3-cm wide and 1.5-cm deep, with a 1-cm-high downstream wall to direct overflow. All glass parts are glued together using non-toxic silicone aquarium sealant. To maintain flow, the raceway is placed on top of a small glass container (20 Â 30 cm area; 10-cm deep) filled with FASW. Glass brackets placed about 3 cm below the top of the container support a 19 Â 29 cm glass shelf, so that a small gap is left between the edge of the shelf and the container's short sides. The total operating volume is B3.5 l. A 20 W submersible aquarium pump (Aqua Medic GMBH) placed inside the glass container drives constant flow through a silicone tube coming out of the gap on one end of the glass shelf and divided between the raceway channels. The system is placed at a slight angle so that water coming out of the raceway channels return to the main container through the gap on the downstream end, thus allowing continuous recycling of the water. Water temperature is maintained using a self-regulated 25 W submersible aquarium heater (Aqua Medic) and an aquarium thermometer is used to visually verify temperature. Salinity is controlled by daily addition of distilled water to compensate for evaporation. Light is provided using a mixture of white and blue LED strips, with a total photon flux of 150 mmol photons per m 2 per s (measured using a Li-Cor 189 light meter (Li-Cor, USA)) and operated on a 12-h light-dark cycle.</p><p>V. coralliilyticus transformation and growth conditions. A tri-parental conjugation protocol was used to transform V. coralliilyticus strain YB2 by a plasmid carrying a gene encoding for a DsRed2 fluorescent protein [DsRed.T3(DNT), <ref type="bibr" target="#b64">65</ref> ]. Following transformation, colonies formed on marine agar (Marine Agar 2216, Difco, USA) supplemented with 50 mg l À 1 Kanamycin (Sigma) were screened for DsRed fluorescence. Transformed V. coralliilyticus colonies were regrown in Marine Broth 2216 and in À 80°C in 15% glycerol. For infection experiments, DsRed-tagged V. coralliilyticus were grown overnight in 1/1,000 marine broth diluted in FASW containing 50 mg l À 1 Kanamycin. Cells were washed in FASW prior to their introduction into the microfluidic channel.</p><p>Experimental set-up and light microscopy. The explant-containing channel is mounted on a motorized XY stage (Prior Scientific, MA, USA) with a temperature-controlled inset (LCI, Korea). The microwell is sealed by gently scraping the top surface of the microchannel and placing a clean cover glass on top of the open well. Care is taken to avoid trapping of bubbles that may interfere with transmitted light microscopy. The inlet tube <ref type="figure" target="#fig_2">(Fig. 2d</ref>) connects one end of the channel to a reservoir containing the incoming water. The outlet tube from the other end of the channel is connected to a syringe pump (New Era Pump Systems, NY, USA) set to withdraw mode, ensuring negative pressure in the channel to minimize leakage. For all experiments reported here, flow rate was set to 1 ml h À 1 . Light microscopy imaging was performed using an Olympus IX81 microscope (Olympus) equipped with Â 4 (numerical aperture (NA) 0.13), Â 10 (NA 0.3), long working distance Â 40 (NA 0.6) and a Â 60 oil (NA 1.42) objectives, and a motorized stage (Prior Scientific). A Lumen 200PRO illumination system (Prior Scientific), enabling rapid switching of excitation and emission wavelengths, was used for epi-fluorescence microscopy. Images were captured using a Coolsnap HQ 2 CCD camera (Photometrics, Tuscon, AZ, USA) and processed using the CellSens Dimension V1.11 software package (Olympus). Light flux for all experiments was provided using the microscope's transmitted light, and measured using a Li-Cor 189 light meter.</p><p>Calcein staining. A microfluidic device holding a coral micropropagate was placed on the microscope stage. Illumination was set to 500 mmol photons per m 2 per s. Calcein was introduced into the chamber for a period of 1 h by filling the inlet reservoir with a 20 mM calcein solution in FASW. After 1 h, inlet was changed to FASW and free calcein washed out of the channel. Inlet was then change to 1% sodium hypochlorite in FASW for 1 h to remove tissues and organic residues, as well as unincorporated calcein. Filters used for epi-fluorescence microscopy were: GFP and Calcein-Ex:490 nm/Em:535/50 nm; Chlorophyll-Ex:490 nm/Em: 660/50 nm. All filters were obtained from Chroma (Chroma Technology Corp, Bellows Falls, VT USA). SEM was performed by removing the PDMS channel and cutting the glass slide around the exposed skeleton using a hand-held glass cutter. Skeleton was dehydrated by immersion in 100% ethanol, dried under vacuum and sputter-coated with gold-palladium (Edwards, S150). Coated skeleton was imaged using a Carl Zeiss Ultra 55 scanning electron microscope (Carl Zeiss, Oberkochen, Germany).</p><p>Bacterial infection. A suspension of B10 8 cells per ml of DsRed-labelled V. coralliilyticus was introduced into the channel for a period of 2 h. Inlet was then changed to FASW and micropropagate held on the microscope stage for an additional 7-h period. Micropropagate was imaged throughout the process at 15-min intervals. Filters used for epi-fluorescence microscopy were: GFP-Ex:490 nm/Em:535/50 nm; Chlorophyll-Ex:490 nm/Em: 660/50 nm; DsRed-Ex:555/20 nm/Em: 590/33 nm.</p><p>Coral bleaching imaging and quantification. To induce bleaching, that is, loss of algal symbionts, micropropagates were incubated for 8 h under 2,500 mmol photons per m 2 per s ( <ref type="figure" target="#fig_4">Fig. 4c; Supplementary Movie</ref> 3) or 12 h under 1,500 mmol photons per m 2 per s ( <ref type="figure" target="#fig_4">Fig. 4d; Supplementary Movie 4)</ref>. Images were captured at 5-or 10-min intervals as noted, with each frame composed by overlaying of bright field (grey), coral GFP (green) and chlorophyll (red). Chlorophyll fluorescence intensity was quantified using the CellSens software package. For <ref type="figure" target="#fig_4">Fig. 4e</ref>, a region-of-interest (ROI) was defined as the area bounded by the micropropagate (dashed white line in 4c), and total chlorophyll fluorescence within the ROI quantified for each frame. For <ref type="figure" target="#fig_4">Fig. 4f</ref>, dynamic ROIs were defined around the two algal cells denoted by blue and red arrows in <ref type="figure" target="#fig_4">Fig. 4d</ref>. The ROIs were adjusted manually for each frame in Supplementary Movie 4 to track the movements of the algae during the acquisition period. Finally, total chlorophyll fluorescence for each ROI was obtained for each frame.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 |</head><label>1</label><figDesc>Schematic illustration of the workflow for setting up the coralon-a-chip platform. A branch tip fragmented from a healthy coral colony is micropropagated via a polyp-bail-out response by subjecting it to a gradual increase in salinity. Micropropagates are transferred to open microwells within a microfluidic channel and incubated under controlled light, flow and temperature conditions to induce settlement. Microscopic observation is facilitated by sealing the microwell with a glass coverslip and introduction of flow via silicon tubes connected to a syringe pump. Light intensity is controlled using the microscope's transmitted illumination system. Temperature control may be provided using a stage incubator. The coral-ona-chip platform allows maintaining live coral micropropagates on the microscope stage for extended time periods while precisely controlling the chemical and physical environment.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 |</head><label>2</label><figDesc>Explantation and resettlement of P. damicornis micropropagates into the coral-on-a-chip microfluidic platform. (a) A colony of P. damicornis. Polyps appear as brown dots covering the colony surface. (b) Under salinity stress, polyps from a small P. damicornis branch (0 h) are separated from each other through rupturing of the coenosarc tissue (11 h). Polyps are then ejected from the skeleton (11.5 h) resulting in the production of clonal micropropagates. (c) A settled P. damicornis micropropagate, 48 h following explantation. The polyp base is flattened against the glass surface. Extended tentacles (brown) indicate recovery from the stress experienced during the explantation process. Symbiotic algae (zooxanthellae) are visible as brown dots. (d) A coral micropropagate (white arrow) settled inside the coral-on-a-chip microfluidic device, held on a temperature-controlled microscope stage. Tubes attached to the microfluidic device allow the introduction of flow and the control of water chemistry during the experiment. (e) A P. damicornis micropropagate as seen by epi-fluorescence microscopy, based on the autofluorescence of the coral's native GFP (green) and algal chlorophyll (red) (SeeSupplementary Fig. 1for additional coral species). (f) Vortical ciliary flows around a settled P. damicornis micropropagate, visualized from the motion of small tracer particles suspended in the water (please see the study by Shapiro et al.<ref type="bibr" target="#b36">37</ref> for methodology). The white arrow points to the edge of the microwell. (g) Calcium carbonate crystals deposited by a P. damicornis micropropagate, showing concentric growth rings (white arrow) possibly reflecting diel growth cycles. (h) High-magnification view of the calicoblastic tissue immediately above the glass substrate, demonstrating the ability to track key components of the coral holobiont. Cell borders are seen as faint straight lines. D-desmocyte anchoring the coral to the glass surface. Z-symbiotic zooxanthellae algae in the coral's gastrodermis, slightly above the focal plane. B-a bacterial micro-colony growing between the glass surface and the coral's calicodermis. (SeeSupplementary Fig. 3for full image) Scale bars: (a,d) 1 cm; (b,c,e,f) 500 mm; (g,h) 20 mm.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 3 |</head><label>3</label><figDesc>The coral-on-a-chip platform as a model system for studying coral calcification. Coral micropropagates resume calcification soon after resettlement and proceed to secrete a skeleton that has many of the features of the mother colony.(a) A micropropagate consisting of two P. damicornis polyps, 6 weeks following resettlement. Coral native GFP (green) and chlorophyll autofluorescence (red) are shown on the background of the newly formed skeleton (imaged using polarized light microscopy). (b) Skeleton of the same micropropagate from a following calcein labelling and tissue removal. Calcein (green) is preferentially incorporated at the edge of the tissue or at sites corresponding to tissue areas devoid of algal symbionts. (c) Skeleton from b imaged with scanning electron microscopy (SEM). Calcein labelling (green areas in b) is strongest at skeleton spinules (S) and at the calyx edge. (d) Higher magnification view of the area marked by the white rectangle in c showing skeletal spinules (S) that are strongly labelled with calcein in b. Desmocyte scars (D) mark the locations of cells anchoring the polyp tissue to the calcium carbonate skeleton. (e) High-magnification view ( Â 40 objective) of the formation of aragonite crystals by a newly settled coral micropropagate (48 h from explantation) held in a microfluidic channel with continuous flow of FASW, visualized using differential interference contrast microscopy. (See also Supplementary Movie 3). Scale bars: (a-c) 200 mm; (d) 50 mm; (e) 20 mm.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 4 |</head><label>4</label><figDesc>Using the coral-on-a-chip platform for the visualization of bacterial infection and coral bleaching. A detailed view of microbial processes and interactions within the coral holobiont. (a) The aboral view provided by the coral-on-a-chip platform enables the visualization of fluorescently tagged bacterial cells inside the coral's gastrovascular cavity. Zooxanthellae (red) and DsRed-tagged bacterial pathogens (blue dots) are seen on the background of the coral's native GFP (green). (b) Higher magnification view of the mouth area. Algal cells and bacterial pathogens are seen on the background of the polyp's mouth, here visualized by differential interference contrast microscopy. (c) Bleaching is induced in a micropropagate subjected to high light intensity (2,500 mmol photons per m 2 per s), seen through the gradual decrease in the autofluorescence signal from the algal chlorophyll. Individual polyps are seen by their native GFP fluorescence, concentrated around the mouth and tentacles. (d) Part of a bleaching process similar to a but under reduced light intensity (1,500 mmol photons per m 2 per s). Algal chlorophyll and native GFP are overlaid on a bright field image of the coral tissue. This image sequence compares two individual algal cells that appear to be physically linked as one (indicated by red arrow) is lost while the other (blue arrow) remains. (e,f) Changes as a function of time of total chlorophyll (chl) fluorescence of whole micropropagate (c) and algal cells pointed by arrows (d). Values in e denote normalized chlorophyll fluorescence for the area marked by a white dashed line, corresponding to the settled micropropagate in c. Values in f denote total chlorophyll fluorescence per marked alga in d, divided by the average fluorescence for that alga from 4 to 8 h of the experiment. Red and blue curves denote algal cells pointed by red and blue arrows, respectively. Scale bars: (a) 200 mm; (b) 50 mm; (c) 500 mm; (d) 50 mm.</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">NATURE COMMUNICATIONS | 7:10860 | DOI: 10.1038/ncomms10860 | www.nature.com/naturecommunications</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgements</head><p>We thank Y. Cohen and S. Buchnik for their contribution to the development of the micropropagation process. V. coralliilyticus transformation was carried out with the help of D. Schatz using materials and protocols generously provided by Prof. E. Stabb (Franklin College, the University of Georgia). Electron microscopy was performed at the Irving and Cherna Moskowitz Center for Nano and Bio-Nano Imaging at the Weizmann Institute of Science, with the help of E. Kartvelishvily. This work was supported by the Human Frontiers in Science Program award #RGY0089 to R.S. and A.V., and by the Angel Faivovich Foundation for Ecological Research and the Weizmann-EPFL collaboration program awarded to A.V.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional information</head><p>Supplementary Information accompanies this paper at http://www.nature.com/ naturecommunications</p><p>Competing financial interests: The authors declare no competing financial interests.</p><p>Reprints and permission information is available online at http://npg.nature.com/ reprintsandpermissions/</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Cell biology in model systems as the key to understanding corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Weis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Davy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Hoegh-Guldberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Rodriguez-Lanetty</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Pringle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Ecol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="369" to="376" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Weis, V., Davy, S., Hoegh-Guldberg, O., Rodriguez-Lanetty, M. &amp; Pringle, J. Cell biology in model systems as the key to understanding corals. Trends Ecol. Evol. 23, 369-376 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Habitat complexity: coral structural loss leads to fisheries declines</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">J</forename><surname>Graham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Biol</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="359" to="361" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Graham, N. J. Habitat complexity: coral structural loss leads to fisheries declines. Curr. Biol. 24, R359-R361 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Coral biomineralization: from the gene to the environment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Tambutté</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Mar. Biol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">408</biblScope>
+			<biblScope unit="page" from="58" to="78" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tambutté, S. et al. Coral biomineralization: from the gene to the environment. J. Exp. Mar. Biol. Ecol. 408, 58-78 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Confronting the coral reef crisis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Bellwood</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Folke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Nyström</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">429</biblScope>
+			<biblScope unit="page" from="827" to="833" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bellwood, D., Hughes, T., Folke, C. &amp; Nyström, M. Confronting the coral reef crisis. Nature 429, 827-833 (2004).</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The 27-year decline of coral cover on the Great Barrier Reef and its causes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>De'ath</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">E</forename><surname>Fabricius</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Sweatman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Puotinen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page" from="17995" to="17999" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">De&apos;ath, G., Fabricius, K. E., Sweatman, H. &amp; Puotinen, M. The 27-year decline of coral cover on the Great Barrier Reef and its causes. Proc. Natl Acad. Sci. USA 109, 17995-17999 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Rosenberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Loya</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Coral health and disease</title>
+		<imprint>
+			<date type="published" when="2004" />
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rosenberg, E. &amp; Loya, Y. Coral health and disease (Springer, 2004).</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Rosenberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Kellogg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">L</forename><surname>Rohwer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Coral microbiology. Oceanography</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page">146</biblScope>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rosenberg, E., Kellogg, C. A. &amp; Rohwer, F. L. Coral microbiology. Oceanography 20, 146 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Microbial disease and the coral holobiont</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Bourne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="554" to="562" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bourne, D. et al. Microbial disease and the coral holobiont. Trends Microbiol. 17, 554-562 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Dubinsky</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Stambler</surname></persName>
+		</author>
+		<title level="m">Coral Reefs: an Ecosystem in Transition</title>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dubinsky, Z. &amp; Stambler, N. in Coral Reefs: an Ecosystem in Transition (Springer, 2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">M</forename><surname>Yonge</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Nicholls</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Yonge</surname></persName>
+		</author>
+		<title level="m">Studies on the Physiology of Corals</title>
+		<imprint>
+			<publisher>British Museum</publisher>
+			<date type="published" when="1931" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yonge, C. M., Nicholls, A. &amp; Yonge, M. J. in Studies on the Physiology of Corals (British Museum, 1931).</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Symbiophagy as a cellular mechanism for coral bleaching</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Downs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Autophagy</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="211" to="216" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Downs, C. A. et al. Symbiophagy as a cellular mechanism for coral bleaching. Autophagy 5, 211-216 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Cellular pathology and histopathology of hypo-salinity exposure on the coral Stylophora pistillata</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Downs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Total Environ</title>
+		<imprint>
+			<biblScope unit="volume">407</biblScope>
+			<biblScope unit="page" from="4838" to="4851" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Downs, C. A. et al. Cellular pathology and histopathology of hypo-salinity exposure on the coral Stylophora pistillata. Sci. Total Environ. 407, 4838-4851 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">A single-cell view of ammonium assimilation in coral-dinoflagellate symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Pernice</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ISME J</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1314" to="1324" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pernice, M. et al. A single-cell view of ammonium assimilation in coral-dinoflagellate symbiosis. ISME J. 6, 1314-1324 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Membrane lipids of symbiotic algae are diagnostic of sensitivity to thermal bleaching in corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Tchernov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="13531" to="13535" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tchernov, D. et al. Membrane lipids of symbiotic algae are diagnostic of sensitivity to thermal bleaching in corals. Proc. Natl Acad. Sci. USA 101, 13531-13535 (2004).</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Extracellular matrix production and calcium carbonate precipitation by coral cells in vitro</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Helman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="54" to="58" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Helman, Y. et al. Extracellular matrix production and calcium carbonate precipitation by coral cells in vitro. Proc. Natl Acad. Sci. USA 105, 54-58 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Aragonite precipitation by proto-polyps in coral cell cultures</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Mass</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">35049</biblScope>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mass, T. et al. Aragonite precipitation by proto-polyps in coral cell cultures. PLoS ONE 7, e35049 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Aragonite crystallization in primary cell cultures of multicellular isolates from a hard coral, Pocillopora damicornis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Domart-Coulon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Elbert</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Scully</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Calimlim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Ostrander</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="11885" to="11890" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Domart-Coulon, I., Elbert, D., Scully, E., Calimlim, P. &amp; Ostrander, G. Aragonite crystallization in primary cell cultures of multicellular isolates from a hard coral, Pocillopora damicornis. Proc. Natl Acad. Sci. USA 98, 11885-11890 (2001).</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Short term viability of soft tissue detached from the skeleton of reef-building corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Domart-Coulon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Tambutté</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Tambutté</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Allemand</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Mar. Biol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">309</biblScope>
+			<biblScope unit="page" from="199" to="217" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Domart-Coulon, I., Tambutté, S., Tambutté, E. &amp; Allemand, D. Short term viability of soft tissue detached from the skeleton of reef-building corals. J. Exp. Mar. Biol. Ecol. 309, 199-217 (2004).</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">In vitro establishment of continuous cell cultures and cell lines from ten colonial cnidarians</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Frank</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Rabinowitz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Rinkevich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Biol</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page" from="491" to="499" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Frank, U., Rabinowitz, C. &amp; Rinkevich, B. In vitro establishment of continuous cell cultures and cell lines from ten colonial cnidarians. Mar. Biol. 120, 491-499 (1994).</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Current applications of tissue culture in plant propagation and improvement</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Drew</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Funct. Plant Biol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="267" to="289" />
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Smith, M. &amp; Drew, R. Current applications of tissue culture in plant propagation and improvement. Funct. Plant Biol. 17, 267-289 (1990).</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">A novel method for coral explant culture and micropropagation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Vizel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Loya</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Downs</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Kramarsky-Winter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="423" to="432" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vizel, M., Loya, Y., Downs, C. &amp; Kramarsky-Winter, E. A novel method for coral explant culture and micropropagation. Mar. Biotechnol. 13, 423-432 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Pineapple (Ananas comosus L. Merr) micropropagation in temporary immersion systems</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Escalona</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Cell Rep</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="743" to="748" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Escalona, M. et al. Pineapple (Ananas comosus L. Merr) micropropagation in temporary immersion systems. Plant Cell Rep. 18, 743-748 (1999).</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">The use of plant growth regulators in micropropagation of slow-growing potato cultivars</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Amirouche</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Stuchbury</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Matthews</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Potato Res</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="479" to="486" />
+			<date type="published" when="1985" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Miller, P., Amirouche, L., Stuchbury, T. &amp; Matthews, S. The use of plant growth regulators in micropropagation of slow-growing potato cultivars. Potato Res. 28, 479-486 (1985).</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Tissue Culture in Forestry and Agriculture</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">O</forename><surname>Franco</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><forename type="middle">J</forename><surname>Schwarz</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1985" />
+			<publisher>Springer</publisher>
+			<biblScope unit="page" from="195" to="213" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Franco, E. O. &amp; Schwarz, O. J. Tissue Culture in Forestry and Agriculture 195-213 (Springer, 1985).</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">F</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Hall</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>De Klerk</surname></persName>
+		</author>
+		<title level="m">Micropropagation: Uses and Methods</title>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">George, E. F., Hall, M. A. &amp; De Klerk, G. in Micropropagation: Uses and Methods (Springer, 2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">The Hydra polyp: nothing but an active stem cell community</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C</forename><surname>Bosch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Anton-Erxleben</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Hemmrich</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Khalturin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dev. Growth Differ</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="15" to="25" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bosch, T. C., Anton-Erxleben, F., Hemmrich, G. &amp; Khalturin, K. The Hydra polyp: nothing but an active stem cell community. Dev. Growth Differ. 52, 15-25 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">What hydra has to say about the role and origin of symbiotic interactions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C</forename><surname>Bosch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Bull</title>
+		<imprint>
+			<biblScope unit="volume">223</biblScope>
+			<biblScope unit="page" from="78" to="84" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bosch, T. C. What hydra has to say about the role and origin of symbiotic interactions. Biol. Bull. 223, 78-84 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Rising starlet: the starlet sea anemone, Nematostella vectensis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Darling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioessays</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="211" to="221" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Darling, J. A. et al. Rising starlet: the starlet sea anemone, Nematostella vectensis. Bioessays 27, 211-221 (2005).</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Sexual plasticity and self-fertilization in the sea anemone Aiptasia diaphana</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Schlesinger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Kramarsky-Winter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Rosenfeld</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Armoza-Zvoloni</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Loya</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">11874</biblScope>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schlesinger, A., Kramarsky-Winter, E., Rosenfeld, H., Armoza-Zvoloni, R. &amp; Loya, Y. Sexual plasticity and self-fertilization in the sea anemone Aiptasia diaphana. PLoS ONE 5, e11874 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Characterisation of coral explants: a model organism for cnidarian-dinoflagellate studies</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Nielsen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Petrou</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Larkum</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Ralph</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Coral Reefs</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="133" to="142" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gardner, S., Nielsen, D., Petrou, K., Larkum, A. &amp; Ralph, P. Characterisation of coral explants: a model organism for cnidarian-dinoflagellate studies. Coral Reefs 34, 133-142 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Micro/nanofabricated environments for synthetic biology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Collier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Simpson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="516" to="526" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Collier, C. &amp; Simpson, M. Micro/nanofabricated environments for synthetic biology. Curr. Opin. Biotechnol. 22, 516-526 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Chemoattraction to Dimethylsulfoniopropionate throughout the marine microbial food web</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Seymour</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Simo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Ahmed</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Stocker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">329</biblScope>
+			<biblScope unit="page" from="342" to="345" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Seymour, J. R., Simo, R., Ahmed, T. &amp; Stocker, R. Chemoattraction to Dimethylsulfoniopropionate throughout the marine microbial food web. Science 329, 342-345 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Microfluidics expanding the frontiers of microbial ecology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Rusconi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Garren</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Stocker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Biophys</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="65" to="91" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rusconi, R., Garren, M. &amp; Stocker, R. Microfluidics expanding the frontiers of microbial ecology. Annu. Rev. Biophys. 43, 65-91 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Bone marrow-on-a-chip replicates hematopoietic niche physiology in vitro</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Torisawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="663" to="669" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Torisawa, Y. et al. Bone marrow-on-a-chip replicates hematopoietic niche physiology in vitro. Nat. Methods 11, 663-669 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Microfluidics for in vivo imaging of neuronal and behavioral activity in Caenorhabditis elegans</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Chronis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Zimmer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">I</forename><surname>Bargmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="727" to="731" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chronis, N., Zimmer, M. &amp; Bargmann, C. I. Microfluidics for in vivo imaging of neuronal and behavioral activity in Caenorhabditis elegans. Nat. Methods 4, 727-731 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">A bacterial pathogen uses dimethylsulfoniopropionate as a cue to target heat-stressed corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Garren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ISME J</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="999" to="1007" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Garren, M. et al. A bacterial pathogen uses dimethylsulfoniopropionate as a cue to target heat-stressed corals. ISME J. 8, 999-1007 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Vortical ciliary flows actively enhance mass transport in reef corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><forename type="middle">H</forename><surname>Shapiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="13391" to="13396" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shapiro, O. H. et al. Vortical ciliary flows actively enhance mass transport in reef corals. Proc. Natl Acad. Sci. USA 111, 13391-13396 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Polyp bail-out: an escape response to environmental stress and a new means of reproduction in corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">W</forename><surname>Sammarco</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Ecol. Prog. Ser</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="57" to="65" />
+			<date type="published" when="1982" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sammarco, P. W. Polyp bail-out: an escape response to environmental stress and a new means of reproduction in corals. Mar. Ecol. Prog. Ser. 10, 57-65 (1982).</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Seawater transport during coral biomineralization</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Gagnon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">F</forename><surname>Adkins</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Erez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet. Sci. Lett</title>
+		<imprint>
+			<biblScope unit="volume">329</biblScope>
+			<biblScope unit="page" from="150" to="161" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gagnon, A. C., Adkins, J. F. &amp; Erez, J. Seawater transport during coral biomineralization. Earth Planet. Sci. Lett. 329, 150-161 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Calcein labelling and electrophysiology: insights on coral tissue permeability and calcification</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Tambutte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Biol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">279</biblScope>
+			<biblScope unit="page" from="19" to="27" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tambutte, E. et al. Calcein labelling and electrophysiology: insights on coral tissue permeability and calcification. Proc. Biol. Sci. 279, 19-27 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Vibrio coralliilyticus sp. nov., a temperature-dependent pathogen of the coral Pocillopora damicornis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Ben-Haim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Syst. Evol. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="309" to="315" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ben-Haim, Y. et al. Vibrio coralliilyticus sp. nov., a temperature-dependent pathogen of the coral Pocillopora damicornis. Int. J. Syst. Evol. Microbiol. 53, 309-315 (2003).</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Reproduction and recruitment of corals: comparisons among the Caribbean, the Tropical Pacific, and the Red Sea</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">H</forename><surname>Richmond</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">L</forename><surname>Hunter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Ecol. Prog. Ser</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="185" to="203" />
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Richmond, R. H. &amp; Hunter, C. L. Reproduction and recruitment of corals: comparisons among the Caribbean, the Tropical Pacific, and the Red Sea. Mar. Ecol. Prog. Ser. 60, 185-203 (1990).</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Breakdown of coral colonial form under reduced pH conditions is initiated in polyps and mediated through apoptosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Kvitt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="2082" to="2086" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kvitt, H. et al. Breakdown of coral colonial form under reduced pH conditions is initiated in polyps and mediated through apoptosis. Proc. Natl Acad. Sci. USA 112, 2082-2086 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Tissue models: a living system on a chip</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">471</biblScope>
+			<biblScope unit="page" from="661" to="665" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baker, M. Tissue models: a living system on a chip. Nature 471, 661-665 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">An integrated microfluidic platform for evaluating in vivo antimicrobial activity of natural compounds using a whole-animal infection model</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Ching</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Q</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lab Chip</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="3373" to="3382" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yang, J., Chen, Z., Ching, P., Shi, Q. &amp; Li, X. An integrated microfluidic platform for evaluating in vivo antimicrobial activity of natural compounds using a whole-animal infection model. Lab Chip 13, 3373-3382 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Effects of morphology and water motion on carbon delivery and productivity in the reef coral, Pocillopora damicornis (Linnaeus): diffusion barriers, inorganic carbon limitation, and biochemical plasticity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">P</forename><surname>Lesser</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">M</forename><surname>Weis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">R</forename><surname>Patterson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">L</forename><surname>Jokiel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Mar. Biol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">178</biblScope>
+			<biblScope unit="page" from="153" to="179" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lesser, M. P., Weis, V. M., Patterson, M. R. &amp; Jokiel, P. L. Effects of morphology and water motion on carbon delivery and productivity in the reef coral, Pocillopora damicornis (Linnaeus): diffusion barriers, inorganic carbon limitation, and biochemical plasticity. J. Exp. Mar. Biol. Ecol. 178, 153-179 (1994).</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">The Environment Recording Unit in coral skeletons-a synthesis of structural and chemical evidences for a biochemically driven, stepping-growth process in fibres</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Cuif</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Dauphin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biogeosciences</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="61" to="73" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cuif, J. &amp; Dauphin, Y. The Environment Recording Unit in coral skeletons-a synthesis of structural and chemical evidences for a biochemically driven, stepping-growth process in fibres. Biogeosciences 2, 61-73 (2005).</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Coral reef calcifiers buffer their response to ocean acidification using both bicarbonate and carbonate</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Comeau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Carpenter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Edmunds</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. R. Soc. B</title>
+		<imprint>
+			<biblScope unit="volume">280</biblScope>
+			<biblScope unit="page">20122374</biblScope>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Comeau, S., Carpenter, R. &amp; Edmunds, P. Coral reef calcifiers buffer their response to ocean acidification using both bicarbonate and carbonate. Proc. R. Soc. B 280, 20122374 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Ocean acidification and control of reef coral calcification by boundary layer limitation of proton flux</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">L</forename><surname>Jokiel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bull. Mar. Sci</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="639" to="657" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jokiel, P. L. Ocean acidification and control of reef coral calcification by boundary layer limitation of proton flux. Bull. Mar. Sci. 87, 639-657 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Microstructural and physico-chemical characterization of &apos;centers of calcification&apos;in septa of some Recent scleractinian corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Cuif</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Dauphin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Paläontol. Z</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="257" to="269" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cuif, J. &amp; Dauphin, Y. Microstructural and physico-chemical characterization of &apos;centers of calcification&apos;in septa of some Recent scleractinian corals. Paläontol. Z. 72, 257-269 (1998).</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Observations of the tissue-skeleton interface in the scleractinian coral Stylophora pistillata</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Tambutté</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Coral Reefs</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="517" to="529" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tambutté, E. et al. Observations of the tissue-skeleton interface in the scleractinian coral Stylophora pistillata. Coral Reefs 26, 517-529 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">In vivo light-microscopic documentation for primary calcification processes in the hermatypic coral Stylophora pistillata</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Raz-Bahat</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Erez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Rinkevich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Tissue Res</title>
+		<imprint>
+			<biblScope unit="volume">325</biblScope>
+			<biblScope unit="page" from="361" to="368" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Raz-Bahat, M., Erez, J. &amp; Rinkevich, B. In vivo light-microscopic documentation for primary calcification processes in the hermatypic coral Stylophora pistillata. Cell Tissue Res. 325, 361-368 (2006).</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Effects of a changing climate on the dynamics of coral infectious disease: a review of the evidence</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Sokolow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dis. Aquat. Org</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="5" to="18" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sokolow, S. Effects of a changing climate on the dynamics of coral infectious disease: a review of the evidence. Dis. Aquat. Org. 87, 5-18 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Chronic nutrient enrichment increases prevalence and severity of coral disease and bleaching</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">L</forename><surname>Vega Thurber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Global Change Biol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="544" to="554" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vega Thurber, R. L. et al. Chronic nutrient enrichment increases prevalence and severity of coral disease and bleaching. Global Change Biol. 20, 544-554 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">The role of microorganisms in coral health, disease and evolution</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Rosenberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Koren</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Reshef</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Efrony</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Zilber-Rosenberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="355" to="362" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rosenberg, E., Koren, O., Reshef, L., Efrony, R. &amp; Zilber-Rosenberg, I. The role of microorganisms in coral health, disease and evolution. Nat. Rev. Microbiol. 5, 355-362 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Non-photochemical quenching. A response to excess light energy</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Muller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><forename type="middle">P</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">K</forename><surname>Niyogi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Physiol</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="page" from="1558" to="1566" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Muller, P., Li, X. P. &amp; Niyogi, K. K. Non-photochemical quenching. A response to excess light energy. Plant Physiol. 125, 1558-1566 (2001).</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Cellular mechanisms of Cnidarian bleaching: stress causes the collapse of symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">M</forename><surname>Weis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Biol</title>
+		<imprint>
+			<biblScope unit="volume">211</biblScope>
+			<biblScope unit="page" from="3059" to="3066" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Weis, V. M. Cellular mechanisms of Cnidarian bleaching: stress causes the collapse of symbiosis. J. Exp. Biol. 211, 3059-3066 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Nitric oxide and cnidarian bleaching: an eviction notice mediates breakdown of a symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Perez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Weis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Biol</title>
+		<imprint>
+			<biblScope unit="volume">209</biblScope>
+			<biblScope unit="page" from="2804" to="2810" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Perez, S. &amp; Weis, V. Nitric oxide and cnidarian bleaching: an eviction notice mediates breakdown of a symbiosis. J. Exp. Biol. 209, 2804-2810 (2006).</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">A stress surveillance system based on calcium and nitric oxide in marine diatoms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Vardi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Biol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">60</biblScope>
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vardi, A. et al. A stress surveillance system based on calcium and nitric oxide in marine diatoms. PLoS Biol. 4, e60 (2006).</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Using the Acropora digitifera genome to understand coral responses to environmental change</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Shinzato</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">476</biblScope>
+			<biblScope unit="page" from="320" to="323" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shinzato, C. et al. Using the Acropora digitifera genome to understand coral responses to environmental change. Nature 476, 320-323 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">The Symbiodinium kawagutii genome illuminates dinoflagellate gene expression and coral symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">350</biblScope>
+			<biblScope unit="page" from="691" to="694" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lin, S. et al. The Symbiodinium kawagutii genome illuminates dinoflagellate gene expression and coral symbiosis. Science 350, 691-694 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">siRNA-mediated gene silencing in vitro and in vivo</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Xia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Q</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">L</forename><surname>Paulson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">L</forename><surname>Davidson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="1006" to="1010" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Xia, H., Mao, Q., Paulson, H. L. &amp; Davidson, B. L. siRNA-mediated gene silencing in vitro and in vivo. Nat. Biotechnol. 20, 1006-1010 (2002).</note>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Development and applications of CRISPR-Cas9 for genome engineering</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">D</forename><surname>Hsu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">S</forename><surname>Lander</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">157</biblScope>
+			<biblScope unit="page" from="1262" to="1278" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hsu, P. D., Lander, E. S. &amp; Zhang, F. Development and applications of CRISPR- Cas9 for genome engineering. Cell 157, 1262-1278 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">The new frontier of genome engineering with CRISPR-Cas9</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Doudna</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Charpentier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Genome</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Editing</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">346</biblScope>
+			<biblScope unit="page">1258096</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Doudna, J. A. &amp; Charpentier, E. Genome editing. The new frontier of genome engineering with CRISPR-Cas9. Science 346, 1258096 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">New rfp-and pES213-derived tools for analyzing symbiotic Vibrio fischeri reveal patterns of infection and lux expression in situ</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">K</forename><surname>Dunn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">S</forename><surname>Millikan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">M</forename><surname>Adin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Bose</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">V</forename><surname>Stabb</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="802" to="810" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dunn, A. K., Millikan, D. S., Adin, D. M., Bose, J. L. &amp; Stabb, E. V. New rfp-and pES213-derived tools for analyzing symbiotic Vibrio fischeri reveal patterns of infection and lux expression in situ. Appl. Environ. Microbiol. 72, 802-810 (2006).</note>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Corrigendum: A coral-on</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Corrigendum: A coral-on-a-chip microfluidic</note>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Orr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Esti</forename><surname>Shapiro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Assaf</forename><forename type="middle">R</forename><surname>Kramarsky-Winter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Roman</forename><surname>Gavish</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Stocker &amp; Assaf</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Vardi</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ncomms10860</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Communications</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">10860</biblScope>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Orr H. Shapiro, Esti Kramarsky-Winter, Assaf R. Gavish, Roman Stocker &amp; Assaf Vardi Nature Communications 7:10860 doi: 10.1038/ncomms10860 (2016);</note>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<monogr>
+		<title level="m" type="main">describing live imaging of coral mounted on cover slips in miniaturized flow cells and live imaging of coral calcification was inadvertently omitted from the reference list of this Article. This work should have been cited in the second paragraph of the introduction, where previous work describing microscopic examination of coral and coral culture systems are referred to, as follows: &apos;Previous work by Venn et al. described live imaging of coral calcification using the lateral skeleton preparation in combination with miniaturized flow chambers</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Venn</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note>A reference to this work should also have been provided in the section discussing the use of calcein for in vivo imaging of coral calcification</note>
+	<note type="raw_reference">Previous work by Venn et al. describing live imaging of coral mounted on cover slips in miniaturized flow cells and live imaging of coral calcification was inadvertently omitted from the reference list of this Article. This work should have been cited in the second paragraph of the introduction, where previous work describing microscopic examination of coral and coral culture systems are referred to, as follows: &apos;Previous work by Venn et al. described live imaging of coral calcification using the lateral skeleton preparation in combination with miniaturized flow chambers (Venn et al. 2011)&apos;. A reference to this work should also have been provided in the section discussing the use of calcein for in vivo imaging of coral calcification.</note>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Live tissue imaging shows reef corals elevate pH under their calcifying tissue relative to seawater</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Venn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Tambutté</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Holcomb</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Allemand</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Tambutté</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">20013</biblScope>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Venn, A., Tambutté, E., Holcomb, M., Allemand, D. &amp; Tambutté, S. Live tissue imaging shows reef corals elevate pH under their calcifying tissue relative to seawater. PLoS ONE 6, e20013 (2011).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

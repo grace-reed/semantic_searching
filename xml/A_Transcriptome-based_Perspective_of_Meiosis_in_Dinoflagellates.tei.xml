@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/grace/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.protis.2019.06.003</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-09-14T02:40+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>The cell and molecular basis of meiosis is becoming well understood in a variety of model systems <ref type="bibr">(Hong et al. 2019;</ref><ref type="bibr">Mercier et al. 2015;</ref><ref type="bibr" target="#b10">Owens et al. 2018;</ref><ref type="bibr" target="#b22">Yamashita et al. 2017)</ref>.</p><p>Meiosis is complex, as after replication of a diploid genome to make sister chromatids of each DNA molecule, the cell divides the genetic material twice. The first is a reductive cell division, in which pairs of homologous chromosomes are separated into two different haploid daughter cells. Each of these two daughters then separates the sister chromatids, using a mechanism essentially identical to a mitotic cell division, to produce four gametes. The independent segregation of homologous chromosomes, coupled with crossing-over events that occur during prophase of the first meiotic division, generates a population of gametes with an high genetic diversity. A hypothesis to explain the pervasiveness of meiosis among organisms is that the resulting increase in genetic diversity allows populations to better resist parasitic infections -this hypothesis is supported by both observations of natural populations and laboratory experiments (Lively and Morran 2014).</p><p>Despite the many studies on model systems, non-model organisms and dinoflagellates in particular are much less studied. It is clear that at least some dinoflagellate species are able to undergo meiosis. In Lingulodinium, fusion between two haploid gametes of different sexual types leads to formation of a diploid cell called a hypnozygote, which can form either resting cysts (under nutrient deficiency) or sexual cysts (formed in nutrient replete conditions) <ref type="bibr" target="#b2">(Bravo and Figueroa 2014)</ref>. Lingulodinium was also used for mating experiments between clonal lines to show the presence of only two sexual types <ref type="bibr" target="#b5">(Figueroa and Bravo 2005)</ref>. In Alexandrium, 4C cells were identified cells using imaging flow cytometry <ref type="bibr" target="#b6">(Figueroa et al. 2015)</ref>. In older studies with Peridinium, hypnozygotes with four nuclei following gamete fusion were reported <ref type="bibr" target="#b11">(Pfiester 1976)</ref>, and two successive divisions of a planozygote, suggestive of meiosis were reported in several species <ref type="bibr" target="#b19">(von Stosch 1973)</ref>. However, it is far from clear that all species are capable of sex, including the coral symbiont Symbiodinium. Symbiodinium has come under increased scrutiny because meiotic recombination may augment the functional diversity of symbionts and produce some strains more resistant to coral bleaching <ref type="bibr" target="#b18">(Suggett et al. 2017)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A c c e p t e d M a n u s c r i p t</head><p>Even though there is little definitive evidence of sex from cytological or genetic evidence in coral symbionts <ref type="bibr">(LaJeunesse 2001;</ref><ref type="bibr" target="#b20">Wilkinson et al. 2015)</ref>, heat stress of Symbiodinium was observed to result in an up-regulation of MutS and Spo11, two essential meiotic genes <ref type="bibr">(Levin et al. 2016)</ref>. Several studies have queried sequence databases for the presence of genes known to be involved in meiosis. One query database containing 51 meiotic genes <ref type="bibr" target="#b15">(Schurko and Logsdon 2008)</ref> showed that 31 of these were found in Symbiodinium (e-values &lt; 10 -4 ) <ref type="bibr" target="#b4">(Chi et al. 2014)</ref>. A more recent re-examination of Symbiodinium for presence of these same 51 meiotic genes reported that between 46 to 48 genes were present depending on the species (Liu et al. 2018).</p><p>However, the discrepancy between the two studies was not addressed, and in neither case was the conservation of these genes among different dinoflagellates explored.</p><p>In this study an extensive list of 307 genes involved in meiosis in budding yeast was used in BLAST searches to evaluate their possible presence in three dinoflagellate transcriptomes.</p><p>One of the dinoflagellates chosen, Lingulodinium polyedra, is known to undergo meiosis <ref type="bibr" target="#b5">(Figueroa and Bravo 2005)</ref>. We further evaluated the presence of these genes in phylogenetically related protists, including apicomplexans, ciliates and diatoms, reasoning that absence of a gene among all these protists would reflect merely that the gene is not needed rather than being an impediment to the meiotic process in dinoflagellates. Similarity in gene content on the other hand would suggest the dinoflagellates are as likely to undergo meiosis as are the apicomplexans Furthermore, both show considerable similarity to other protists where meiosis has also been documented. These analysis thus support an ability of Symbiodinium to undergo genetic recombination.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and Discussion</head><p>An overview of meiosis, in a view similar to that in the Saccharomyces cerevisiae KEGG pathway, indicates that many of the yeast regulatory elements are also found in the dinoflagellate S. kawagutii <ref type="figure" target="#fig_5">(Fig.1</ref>) (Lingulodinium polyedra is shown in <ref type="figure" target="#fig_5">Supplementary Material Fig. S1</ref>). In A c c e p t e d M a n u s c r i p t this analysis, yeast genes that give significant hit to a S. kawagutii transcriptome are colored red.</p><p>There are a few notable absences in this regulatory schema. First, the regulatory protein securin (Pms1p) is not found. Securin normally acts to prevent the transition from metaphase to anaphase by inhibiting the protease separin (Esp1p). However, it must be noted that securin is not found in any of the other protists tested, and furthermore, is also absent from fission yeast <ref type="table" target="#tab_0">(Supplementary Material Table S1</ref>). Second, some elements of the cohesin complex holding homologous chromosomes together (Rec8p and Irr1p) are absent. This may suggest that dinoflagellate chromosomes also require alternative partners to Smc1p/Smc3p in the cohesin complex, although again, these two sequences are also absent in the majority of the other protists tested (Supplementary Material <ref type="table" target="#tab_0">Table S1</ref>). Lastly, elements of the pachytene checkpoint, in particular the synapsis proteins Hop1p and Red1p, as well as the Sum1p transcription factor activated by them, are not present. This last is not surprizing, since there is no conservation of other budding yeast cell cycle-related transcription factor genes (including Ndt80 and Ime1) in other species.</p><p>Below the schema of the regulatory elements are a series of yeast genes grouped in boxes <ref type="figure" target="#fig_5">(Fig.1, bottom)</ref>. Again, those genes with hits to the S. kawagutii transcriptome are colored in red.</p><p>Interestingly, among these groupings, the genes involved in recombination show a high proportion of conserved sequences <ref type="figure" target="#fig_5">(Fig. 1)</ref>. To assess how well gene presence in S. kawagutii reflected what is observed in other protists, the subset of genes whose products are involved in recombination was also used to query apicomplexan, ciliate and diatom databases. The results of this analysis <ref type="figure" target="#fig_6">(Fig. 2)</ref> are presented as a heat map, where the colors pass from yellow to red with a lowering of the e-value (e-values of 0 were arbitrarily set at e -200 to allow them to be presented graphically). Absent genes lack color. The different genes are ordered according to an increase in similarity with the budding yeast query to the fission yeast database (leftmost column). We observe here that the degree of similarity to budding yeast genes in BLAST searches is very similar between the different protists. Other than the apicomplexans, most of the protists surveyed have roughly 50% of the budding yeast meiotic gene repertoire, while fission yeast has genes similar to 66% of the budding yeast gene repertoire <ref type="table" target="#tab_0">(Table 1</ref>). In particular, the similarity between Symbiodinium gene inventories and what is observed with the other protists clearly supports the notion that the recombination machinery is sufficient to support meiosis in this dinoflagellate.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A c c e p t e d M a n u s c r i p t</head><p>It was interesting to note that the group of genes implicated in formation of the yeast synaptonemal complex suggests that almost all are missing <ref type="figure" target="#fig_5">(Fig. 1, Supplementary Material Fig.    S2</ref>). Among these, the only highly conserved gene is the topoisomerase (Top1), as the Mnd1 gene has only a weak similarity to the yeast query. However, this is a characteristic shared by all other protists tested ( <ref type="figure" target="#fig_5">Supplementary Material Fig. S1</ref>), and is thus unlikely to reflect any adaptations to the particularities of dinoflagellate chromosomes <ref type="bibr" target="#b21">(Wong 2019)</ref>. The genes encoding structural maintenance of chromosomes (Smc) proteins, ATPases that act as either cohesins (Smc1 and Smc3) or condensins (Smc2 and Smc4), were not listed as part of the synaptonemal complex, but are present and highly conserved over all the organisms surveyed ( <ref type="figure" target="#fig_6">Supplementary Material Fig. S2</ref>).</p><p>To assess if there were patterns in the identities of the genes conserved, genes were assigned to different stages of the recombination pathway and gene products that function together in complexes (as in yeastgenome.org) were grouped together, linked by hyphens ( <ref type="figure">Supplementary Material Fig. S3</ref>). However, this does not reveal any overarching rule dictating the presence or absence of the different components. In some cases, all complex components are present (such as Msh2-Msh6 or Msh4-Msh5), while in another, entire complexes are absent (such as the complex containing Rec107, or that containing Csm2). Alternatively, some complexes contain some but not all of the components (such as the complex containing Mre11 or that containing Mlh1). Out of nineteen complexes, 6 have retained all components and 6 lack all components.</p><p>Previous assessments of the ability of Symbiodinium to undergo meiosis have used BLAST analyses of Symbiodinium databases using a meiosis detection toolkit <ref type="bibr" target="#b15">(Schurko and Logsdon 2008)</ref>, a set of 51 meiosis-specific and meiosis-related genes. One study <ref type="bibr" target="#b4">(Chi et al. 2014</ref>) recovered 31 of the 51 genes using a genome derived protein list of S. minutum <ref type="bibr">(Shoguchi et al., 2013)</ref>   here. Overall, the agreement between the two species is 84%. We also note that for the most part, the genes missing in S. kawagutii are also missing when BLAST searches are performed with the NCBI transcriptome shotgun assembly (TSA) database limited to dinoflagellates.</p><p>In conclusion, we have found an inventory of meiotic genes in Symbiodinium that is similar to what is found in dinoflagellates known to undergo meiosis, such as L. polyedra, as well as to apicomplexan and ciliate species that undergo meiosis. These analyses thus support the contention that Symbiodinium can undergo meiotic recombination.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head><p>A list of 307 genes involved in meiosis in budding yeast Saccharomyces cerevisiae was compiled from genes listed in the KEGG meiosis pathway (sce04113), genes identified through a meiosis key word search in the Saccharomyces genomes database (www.yeastgenome.org), genes found to be required for meiosis in a genetic screen <ref type="bibr" target="#b8">(Okuda et al. 2008;</ref><ref type="bibr" target="#b12">Rabitsch et al. 2001)</ref>, and genes comprising a meiosis detection toolkit <ref type="bibr" target="#b15">(Schurko and Logsdon 2008)</ref>. The full list, along with the best e-value hits for all searches, can be found in <ref type="table" target="#tab_0">Supplementary Material    Table S1</ref>. When two or more yeast genes gave hits to the same transcriptome sequence, the transcriptome sequence was placed only once and corresponded to that with the best (smallest) e-    </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>2</head><label></label><figDesc>There is increasing interest in the possibility of sexual recombination in dinoflagellates, especially those symbiotic with coral, since recombination may be able to augment genetic diversity and reduce levels of coral bleaching. Several previous studies have addressed this in Symbiodinium by querying sequence databanks with a list of 51 genes termed a meiosis detection toolkit. Here, we have constructed an expanded list of 307 genes involved in meiosis in budding yeast. We find the genes involved in the major regulatory steps in yeast meiosis are also found in dinoflagellates, as are many of the genes involved in recombination. In contrast, few genes involved in forming the synaptonemal complex or forming spores are conserved. We further note that the meiosis-related genes absent in dinoflagellates are also as a general rule absent from other protists in the closely related apicomplexa and the ciliates. We conclude the symbiotic dinoflagellates are as able to undergo meiosis as are other protists. Key words: Dinoflagellate; meiosis; conserved genes; Symbiodinium kawagutii; Fugacium kawagutii.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>(</head><label></label><figDesc>Fritz et al. 2012; Guttery et al. 2012; O'Hara and Chen 2011), the ciliates (Loidl and Lorenz 2016) and the diatoms<ref type="bibr" target="#b3">(Chepurnov et al. 2004)</ref>. A comparison of the meiotic gene repertoire shows that the dinoflagellates Lingulodinium and Symbiodinium are practically identical.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>while a second(Liu et al. 2018) recovered between 46 and 48 genes depending on the Symbiodinium species (47 for S. minutum). However, our BLAST searches with the same toolkit genes found only 31 of the 51 sequences in our S. kawagutii transcriptome assembly.While the reason for the discrepancy between the different analyses of S. minutum is unknown, we conclude the lower proportion of the meiotic gene toolkit genes appears more likely. It should be noted that the 31 of 51 genes found here in S. kawagutii are not all identical to the 31 of 51 genes found in S. minutum. Hop2, BRCA1, Ku80 and Sae2 were found in S. minutum but not in</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>, while Mer3, Dna2, Mph1 and Msh3 were not found in S. minutum but were found</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head></head><label></label><figDesc>value. The yeast gene list was used in BLAST searches of Trinity assemblies of Illumina reads from Lingulodinium polyedra (CCMP1936)(Beauchemin et al. 2012;<ref type="bibr" target="#b13">Roy et al. 2014</ref>), Symbiodinium kawagutii (CCMP2468) (Illumina reads available from NCBI with Accession number PRJNA517819), and Amphidinium carterae (Lauritano et al. 2017). S. kawagutii has been renamed Fugacium kawagutii (LaJeunesse et al. 2018) but for simplicity the name Symbiodinium will be used here. Datasets also included genome derived protein datasets for the apicomplexans Plasmodium falciparum 3D7 (from PlasmoDB.org), Toxoplasma gondii ME49 (from ToxoDB.org) and Cryptosporidium parvum (from CryptoDB.org), the ciliate Tetrahymena thermophila (from ciliate.org), the diatom Phaeodactylum tricornutum (from ensemblegenomes release 42) and the fission yeast Schizosaccharomyces pombe (from PomBase.org) were also screened. Depending on the target database, either BLASTp or tBLASTn was used, both with a cut-off of 1e -05 . The best BLAST hit e-value was recorded for each screen. Yeast genes without Fritz HM, Buchholz KR, Chen X, Durbin-Johnson B, Rocke DM, Conrad PA, Boothroyd JC (2012) Transcriptomic analysis of toxoplasma development reveals many novel functions and structures specific to sporozoites and oocysts. PLoS ONE 7:e29998 Guttery DS, Holder AA, Tewari R (2012) Sexual development in Plasmodium: Lessons from functional analyses. PLoS Pathogens 8:e1002404 Hong S, Joo JH, Yun H, Kim K (2019) The nature of meiotic chromosome dynamics and recombination in budding yeast. J Microbiol 57:221-231 LaJeunesse TC (2001) Investigating the biodiversity, ecology, and phylogeny of endosymbiotic dinoflagellates in the genus Symbiodinium using the ITS region: in search of a"species"level marker. J Phyco. 37:866-880 LaJeunesse TC, Parkinson JE, Gabrielson PW, Jeong HJ, Reimer JD, Voolstra CR, Santos SR (2018) Systematic revision of Symbiodiniaceae highlights the antiquity and diversity of coral endosymbionts. Curr Biol 28:2570-2580 Lauritano C, De Luca D, Ferrarini A, Avanzato C, Minio A, Esposito F, Ianora A (2017) De novo transcriptome of the cosmopolitan dinoflagellate Amphidinium carterae to identify enzymes with biotechnological potential. Sci Rep 7:11701 Levin RA, Beltran VH, Hill R, Kjelleberg S, McDougald D, Steinberg PD, van Oppen MJ (2016) Sex, scavengers, and chaperones: Transcriptome secrets of divergent Symbiodinium thermal tolerances. Mol Biol Evol 33:2201-2215 Liu H, Stephens TG, Gonzalez-Pech RA, Beltran VH, Lapeyre B, Bongaerts P, Cooke I, Aranda M, Bourne DG, Foret S, Miller DJ, van Oppen MJH, Voolstra CR, Ragan MA, Chan CX (2018) Symbiodinium genomes reveal adaptive evolution of functions related to coral-dinoflagellate symbiosis. Commun Biol 1: 95 Lively CM, Morran LT (2014) The ecology of sexual reproduction. J Evol Biol 27:1292-1303 Loidl J, Lorenz A (2016) DNA double-strand break formation and repair in Tetrahymena meiosis. Semin Cell Dev Biol 54:126-134 Mercier R, Mezard C, Jenczewski E, Macaisne N, Grelon M (2015) The molecular biology of meiosis in plants. Annu Rev Plant Biol 66:297-327 A c c e p t e d M a n u s c r i p t</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 1</head><label>1</label><figDesc>Overview of Symbiodinium (Fugacium) kawagutii genes mapped onto the yeast KEGG meiosis pathway. Genes found in the S. kawagutii transcriptome by BLAST searches with meiosis related genes from budding yeast are colored in red, while genes not found are in black. The schema at the top shows the principal regulatory steps, while the boxes at the bottom group together genes associated with different processes. Some lines are marked with +/-p to indicate changes in phosphorylation status, or with +u to indicate addition of ubiquitin.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 2</head><label>2</label><figDesc>Heat map illustrating best BLAST e-values after screening a variety of organisms with yeast genes involved in recombination. From left to right, the organisms are fission yeast Schizosaccharomyces pombe, the diatom Phaeodactylum tricornutum, the ciliate Tetrahymena thermophila, the apicomplexans Toxoplasma gondii Plasmodium falciparum and Cryptosporidium parvum, and the dinoflagellates Amphidinium carterae, Lingulodinium polyedra and Symbiodinium (Fugacium) kawagutii. White squares have no BLAST hit (&lt; e -05 ); the color scheme runs from yellow (poor BLAST hit) to red (good BLAST hit) using values calculated from the e-value with a -ln function. E-values of zero were arbitrarily assigned a value of e -200 for ease of graphing. Genes are ordered by decreasing e-values in S. pombe.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Number of meiotic genes with similarity to budding yeast</figDesc><table><row><cell>Species</cell><cell>Number of similar genes</cell></row><row><cell>Schizosaccharomyces pombe</cell><cell>65.7 %</cell></row><row><cell>Phaeodactylum tricornutum</cell><cell>50.5 %</cell></row><row><cell>Tetrahymena thermophila</cell><cell>53.7 %</cell></row><row><cell>Toxoplasma gondii</cell><cell>43.3 %</cell></row><row><cell>Plasmodium falciparum</cell><cell>40.4 %</cell></row><row><cell>Cryptosporidium parvum</cell><cell>44.3 %</cell></row><row><cell>Amphidinium carterae</cell><cell>46.9 %</cell></row><row><cell>Lingulodinium polyedra</cell><cell>49.5 %</cell></row><row><cell>Symbiodinium kawagutii</cell><cell>49.5 %</cell></row></table><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="14">Supplementary Material</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgements</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declarations of Interest none</head></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>A c c e p t e d M a n u s c r i p t hits in the three dinoflagellate assemblies above were also tested using tBLASTn to query the TSA database at NCBI (limited to dinoflagellates). </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Beauchemin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Roy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Daoust</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Dagenais-Bellefeuille</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Bertomeu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Letourneau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">F</forename><surname>Lang</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Beauchemin M, Roy S, Daoust P, Dagenais-Bellefeuille S, Bertomeu T, Letourneau L, Lang BF,</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Dinoflagellate tandem array gene transcripts are highly conserved and not polycistronic</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Morse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page" from="15793" to="15798" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Morse D (2012) Dinoflagellate tandem array gene transcripts are highly conserved and not polycistronic. Proc Natl Acad Sci USA 109:15793-15798</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Towards an ecological understanding of dinoflagellate cyst functions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Bravo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">I</forename><surname>Figueroa</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014" />
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="11" to="32" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bravo I, Figueroa RI (2014) Towards an ecological understanding of dinoflagellate cyst functions. Microorganisms 2:11-32</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Experimental studies on sexual reproduction in diatoms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">A</forename><surname>Chepurnov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">G</forename><surname>Mann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Sabbe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Vyverman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Rev Cytol</title>
+		<imprint>
+			<biblScope unit="volume">237</biblScope>
+			<biblScope unit="page" from="91" to="154" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chepurnov VA, Mann DG, Sabbe K, Vyverman W (2004) Experimental studies on sexual reproduction in diatoms. Int Rev Cytol 237:91-154</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Cryptic sex in Symbiodinium (Alveolata, Dinoflagellata) is supported by an inventory of meiotic genes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Chi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">W</forename><surname>Parrow</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Dunthorn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Eukaryot Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="322" to="327" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chi J, Parrow MW, Dunthorn M (2014) Cryptic sex in Symbiodinium (Alveolata, Dinoflagellata) is supported by an inventory of meiotic genes. J Eukaryot Microbiol 61:322-327</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Sexual reproduction and two different encystment strategies of Lingulodinium polyedrum (Dinophyceae) in culture</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">I</forename><surname>Figueroa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Bravo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Phycol</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="370" to="379" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Figueroa RI, Bravo I (2005) Sexual reproduction and two different encystment strategies of Lingulodinium polyedrum (Dinophyceae) in culture. J Phycol 41:370-379</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The hidden sexuality of Alexandrium minutum: An example of overlooked sex in dinoflagellates</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">I</forename><surname>Figueroa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Dapena</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Bravo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Cuadrado</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">142667</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Figueroa RI, Dapena C, Bravo I, Cuadrado A (2015) The hidden sexuality of Alexandrium minutum: An example of overlooked sex in dinoflagellates. PLoS ONE 10:e0142667</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The cell biology of Cryptosporidium infection</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">P</forename><surname>O'hara</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><forename type="middle">M</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbes Infect</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="721" to="730" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">O&apos;Hara SP, Chen XM (2011) The cell biology of Cryptosporidium infection. Microbes Infect 13:721-730</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Okuda</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Yamada</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Hamajima</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Itoh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Katayama</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Bork</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Goto</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Kanehisa</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Okuda S, Yamada T, Hamajima M, Itoh M, Katayama T, Bork P, Goto S, Kanehisa M (2008)</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">KEGG Atlas mapping for global analysis of metabolic pathways</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="423" to="426" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">KEGG Atlas mapping for global analysis of metabolic pathways. Nucleic Acids Res 36:W423- W426</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Monitoring recombination during meiosis in budding yeast</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Owens</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Hunter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Enzymol</title>
+		<imprint>
+			<biblScope unit="volume">601</biblScope>
+			<biblScope unit="page" from="275" to="307" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Owens S, Tang S, Hunter N (2018) Monitoring recombination during meiosis in budding yeast. Methods Enzymol 601:275-307</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Sexual reproduction of Peridinium willei (Dinophyceae)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">A</forename><surname>Pfiester</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Phycol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="234" to="238" />
+			<date type="published" when="1976" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pfiester LA (1976) Sexual reproduction of Peridinium willei (Dinophyceae). J Phycol 12:234-238</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">A screen for genes required for meiosis and spore formation based on whole-genome expression</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">P</forename><surname>Rabitsch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Toth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Galova</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Schleiffer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Schaffner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Aigner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Rupp</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Penkner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Moreno-Borchart</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Primig</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">E</forename><surname>Esposito</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Klein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Knop</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Nasmyth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Biol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1001" to="1009" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rabitsch KP, Toth A, Galova M, Schleiffer A, Schaffner G, Aigner E, Rupp C, Penkner AM, Moreno-Borchart AC, Primig M, Esposito RE, Klein F, Knop M, Nasmyth K (2001) A screen for genes required for meiosis and spore formation based on whole-genome expression. Curr Biol 11:1001-1009</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Roy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Beauchemin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Dagenais-Bellefeuille</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Letourneau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Cappadocia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Morse</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Roy S, Beauchemin M, Dagenais-Bellefeuille S, Letourneau L, Cappadocia M, Morse D (2014)</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The Lingulodinium circadian system lacks rhythmic changes in transcript abundance</title>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Biology</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">107</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">The Lingulodinium circadian system lacks rhythmic changes in transcript abundance. BMC Biology 12:107.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Using a meiosis detection toolkit to investigate ancient asexual &quot;scandals&quot; and the evolution of sex</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Schurko</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Logsdon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jr</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioessays</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="579" to="589" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schurko AM, Logsdon JM, Jr (2008) Using a meiosis detection toolkit to investigate ancient asexual &quot;scandals&quot; and the evolution of sex. Bioessays 30:579-589</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Shoguchi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Shinzato</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Kawashima</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Gyoja</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Mungpakdee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Koyanagi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Takeuchi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Hisata</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Shoguchi E, Shinzato C, Kawashima T, Gyoja F, Mungpakdee S, Koyanagi R, Takeuchi T, Hisata</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Draft assembly of the Symbiodinium minutum nuclear genome reveals dinoflagellate gene structure</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Tanaka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Fujiwara</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Hamada</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Seidi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Fujie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Usami</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Goto</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Yamasaki</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Arakaki</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Suzuki</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Sugano</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Toyoda</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Kuroki</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Fujiyama</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Medina</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Coffroth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Bhattacharya</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Satoh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Biol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="1399" to="1408" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K, Tanaka M, Fujiwara M, Hamada M, Seidi A, Fujie M, Usami T, Goto H, Yamasaki S, Arakaki N, Suzuki Y, Sugano S, Toyoda A, Kuroki Y, Fujiyama A, Medina M, Coffroth MA, Bhattacharya D, Satoh N (2013) Draft assembly of the Symbiodinium minutum nuclear genome reveals dinoflagellate gene structure. Curr Biol 23:1399-1408</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Symbiotic dinoflagellate functional diversity mediates coral survival under ecological crisis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Suggett</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E</forename><surname>Warner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Leggat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Ecol Evol</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="735" to="745" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Suggett DJ, Warner ME, Leggat W (2017) Symbiotic dinoflagellate functional diversity mediates coral survival under ecological crisis. Trends Ecol Evol 32:735-745</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Observations on vegetative reproduction and sexual life cycles of two freshwater dinoflagellates, Gymnodinium pseudopalustre Schiller and Woloszynskia apiculata sp</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">A</forename><surname>Von Stosch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br Phycol J</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="105" to="134" />
+			<date type="published" when="1973" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">von Stosch HA (1973) Observations on vegetative reproduction and sexual life cycles of two freshwater dinoflagellates, Gymnodinium pseudopalustre Schiller and Woloszynskia apiculata sp. Br Phycol J 8:105-134</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Intra-genomic variation in symbiotic dinoflagellates: recent divergence or recombination between lineages?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">P</forename><surname>Wilkinson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">L</forename><surname>Fisher</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Van Oppen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Davy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Evol Biol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">46</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wilkinson SP, Fisher PL, van Oppen MJ, Davy SK (2015) Intra-genomic variation in symbiotic dinoflagellates: recent divergence or recombination between lineages? BMC Evol Biol 15:46</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Architectural organization of dinoflagellate liquid crystalline chromosomes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jty</forename><surname>Wong</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019" />
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">27</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wong JTY (2019) Architectural organization of dinoflagellate liquid crystalline chromosomes. Microorganisms 7:27</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Analysis of Schizosaccharomyces pombe meiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Yamashita</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Sakuno</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Watanabe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Yamamoto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cold Spring Harb Protoc</title>
+		<imprint>
+			<biblScope unit="page">79855</biblScope>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yamashita A, Sakuno T, Watanabe Y, Yamamoto M (2017) Analysis of Schizosaccharomyces pombe meiosis. Cold Spring Harb Protoc 2017: pdb top079855</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

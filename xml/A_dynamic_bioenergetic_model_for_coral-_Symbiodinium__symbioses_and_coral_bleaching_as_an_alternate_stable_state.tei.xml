@@ -1,0 +1,1958 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/grace/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Journal of Theoretical Biology</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ross</forename><surname>Cunning</surname></persName>
+							<email>ross.cunning@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">School of Ocean and Earth Science and Technology</orgName>
+								<orgName type="institution" key="instit1">Hawaii Institute of Marine Biology</orgName>
+								<orgName type="institution" key="instit2">University of Hawaii at Manoa</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Erik</forename><forename type="middle">B</forename><surname>Muller</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Ecology, Evolution, and Marine Biology</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<settlement>Santa Barbara</settlement>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Marine Science Institute</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<settlement>Santa Barbara</settlement>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ruth</forename><forename type="middle">D</forename><surname>Gates</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Ocean and Earth Science and Technology</orgName>
+								<orgName type="institution" key="instit1">Hawaii Institute of Marine Biology</orgName>
+								<orgName type="institution" key="instit2">University of Hawaii at Manoa</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Roger</forename><forename type="middle">M</forename><surname>Nisbet</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Ecology, Evolution, and Marine Biology</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<settlement>Santa Barbara</settlement>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Journal of Theoretical Biology</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.jtbi.2017.08.003</idno>
+					<note type="submission">Received 23 March 2017 Revised 14 July 2017 Accepted 2 August 2017 Available online 3 August 2017</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-09-14T02:41+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Coral reefs Symbiosis Syntrophy Mutualism Dynamic energy budget theory (DEB) R language</keywords>
+			</textClass>
+			<abstract>
+				<p>Coral reef ecosystems owe their ecological success-and vulnerability to climate change-to the symbiotic metabolism of corals and Symbiodinium spp. The urgency to understand and predict the stability and breakdown of these symbioses (i.e., coral &apos;bleaching&apos;) demands the development and application of theoretical tools. Here, we develop a dynamic bioenergetic model of coral-Symbiodinium symbioses that demonstrates realistic steady-state patterns in coral growth and symbiont abundance across gradients of light, nutrients, and feeding. Furthermore, by including a mechanistic treatment of photo-oxidative stress, the model displays dynamics of bleaching and recovery that can be explained as transitions between alternate stable states. These dynamics reveal that &quot;healthy&quot; and &quot;bleached&quot; states correspond broadly to nitrogen-and carbon-limitation in the system, with transitions between them occurring as integrated responses to multiple environmental factors. Indeed, a suite of complex emergent behaviors reproduced by the model (e.g., bleaching is exacerbated by nutrients and attenuated by feeding) suggests it captures many important attributes of the system; meanwhile, its modular framework and open source R code are designed to facilitate further problem-specific development. We see significant potential for this modeling framework to generate testable hypotheses and predict integrated, mechanistic responses of corals to environmental change, with important implications for understanding the performance and maintenance of symbiotic systems.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>The nutritional exchange between corals and Symbiodinium directly underlies the capacity of corals to build coral reef ecosystems, worth trillions of US Dollars annually <ref type="bibr" target="#b11">( Costanza et al., 2014 )</ref>. However, the complex symbiotic metabolism of corals is vulnerable to disruption by numerous anthropogenic environmental perturbations, jeopardizing their future persistence. In order to understand and predict responses of corals to complex changes in their environment, a mechanistic understanding of how multiple interacting factors drive the individual and emergent physiology of both symbiotic partners is necessary. Such a task is well suited for theoretical modeling frameworks such as Dynamic Energy Budget (DEB) theory <ref type="bibr" target="#b31">( Kooijman, 2010 )</ref>, although the complexity of such theory makes these effort s inaccessible to many biologists <ref type="bibr" target="#b27">( Jager et al., 2013 )</ref>. In order to bridge this gap, we present here a simplified dynamic bioenergetic model for coral-Symbiodinium symbioses that aims to mechanistically integrate the impacts of complex environmental change on the physiological performance of reef corals, including responses to environmental stress.</p><p>In reef coral symbioses, intracellular Symbiodinium translocate photosynthetically fixed carbon to support coral metabolism, while the animal host provides access to inorganic nutrients and carbon dioxide <ref type="bibr">( Muscatine and Porter, )</ref>. Previous application of DEB theory to this syntrophic system <ref type="bibr" target="#b37">( Muller et al., 2009</ref> ) demonstrated a stable symbiotic relationship and qualitatively realistic growth and biomass ratios across gradients of ambient irradiance, nutrients, and food. This model (as well as the present work) assumes that (1) Symbiodinium has priority access to fixed carbon through photosynthesis, (2) the coral animal has priority access to nitrogen through contact with seawater and feeding on prey, and (3) each partner shares with the other only what it cannot use for its own growth. In its simplest form, this principle of sharing the surhttp://dx.doi.org/10.1016/j.jtbi.2017.08.003 0022-5193/© 2017 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license. ( http://creativecommons.org/licenses/by-nc-nd/4.0/ ) plus is sufficient to describe the dynamics of diverse syntrophic organs and organisms (e.g., trees, duckweeds, corals), suggesting the mechanism is mathematically and evolutionarily robust <ref type="bibr">(Nisbet et al., unpublished data)</ref>.</p><p>While the formal DEB model of <ref type="bibr" target="#b37">Muller et al. (2009)</ref> represents the most significant theoretical contribution in coral symbiosis research to date, we aim to strengthen the role of theory and broaden its potential application in three primary ways:</p><p>1. Develop a new module of photo-oxidative stress. Of primary interest to coral biologists and ecologists is symbiosis dysfunction under environmental stress, resulting in coral "bleaching" -the loss of algal symbionts from the association <ref type="bibr" target="#b28">( Jokiel and Coles, 1977 )</ref>. Bleaching is thought to be triggered by photooxidative stress in Symbiodinium <ref type="bibr" target="#b59">( Weis, 2008 )</ref>, which has been modeled previously as a response to absolute external irradiance <ref type="bibr" target="#b16">( Eynaud et al., 2011 )</ref>. However, this response may also depend on self-shading by other symbionts <ref type="bibr" target="#b15">( Enríquez et al., 2005 )</ref>, CO 2 availability at the site of photosynthesis <ref type="bibr" target="#b61">( Wooldridge, 2009 )</ref>, and other non-photochemical quenching mechanisms <ref type="bibr" target="#b46">( Roth, 2014 )</ref>. We incorporate these features into a new photooxidative stress module linking overreduction of the photosynthetic light reactions to downstream impacts of photoinhibition and photodamage. Importantly, this formulation introduces a link between CO 2 -limitation of photosynthesis and bleaching, and potential synergistic roles for heterotrophy and nutrient availability in influencing bleaching responses <ref type="bibr" target="#b65">( Wooldridge, 2014b )</ref>. 2. Reduce theoretical and mathematical complexity. Following the logic of Jager et al. <ref type="formula">2013</ref>, we exclude certain features of formal DEB theory in order to capture behaviors of interest with the simplest possible formulation. Here, we present a model without reserves, maturity, or reproduction (see <ref type="bibr" target="#b31">Kooijman, 2010 )</ref>. This formulation precludes modeling the full life cycle of corals as reproduction, larval stages, and metamorphosis are not considered, but greatly reduces theoretical complexity and parameter numbers, which is advantageous given the relative paucity of data for corals. Moreover, dynamics of the symbiosis (i.e., changes in symbiont to host biomass, including bleaching and recovery) and coral biomass growth are efficiently captured with this simpler formulation, which also increases accessibility for biologists and ecologists without requiring expertise in DEB theory. 3. Provide well-documented, open source code. In order to facilitate the continued development and application of theoretical modeling tools for coral symbioses, we provide access to the model in the form of an R package called coRal ( github.com/jrcunning/ coRal ), which users may install to run and visualize model simulations. With an accessible and modular framework, we envision this code base as a resource for further development by the scientific community to include additional complexity and problem-specific components. We chose R ( R Core <ref type="bibr">Team, 2014 )</ref>, an open source programming language in common use by biologists and ecologists, to reach the widest possible audience with this work.</p><p>With these as our primary motivations, we describe a simplified approach to bioenergetic modeling of coral-Symbiodinium symbioses that dynamically integrates the influences of external irradiance, nutrients, and prey availability on coral growth and symbiosis dynamics (i.e., changes in symbiont:host biomass ratios), allowing for the possibility of coral bleaching in response to photooxidative stress. An emergent finding of this work is that coral bleaching can be interpreted as an alternate stable state of the symbiotic system, which provides a new framework for understanding the mechanisms that drive a coral into a bleached state, as well as those that facilitate recovery. In the following sections, <ref type="figure">Fig. 1</ref>. Graphical representation of coral-algal symbiosis model. Light, CO 2 , prey, and DIN are acquired from the external environment proportional to the biomass of the partner indicated by the black box for uptake. Mass fluxes (see <ref type="table">Table 1</ref> for definitions) are represented by j 's with subscripts indicating the type of mass, and in some cases the process (e.g., j CP is the flux of carbon produced by photosynthesis), and ρ's indicate fluxes that are shared by one partner with the other. Parallel complementary synthesizing units (SUs) are represented by large circles, and rejection fluxes from these SUs are indicated by dashed lines. c ROS is a proportional rate that impacts other model fluxes by inhibition or acceleration; likewise, j eC accelerates the rate of j CO 2 . Recycling fluxes are not shown for clarity (but see <ref type="table">Table 1</ref> for definitions).</p><p>we describe and provide rationale for the model structure, demonstrate a range of steady state and dynamic behaviors that are consistent with observed phenomena, and discuss new insights from this work in understanding responses of coral-Symbiodinium symbioses to environmental change.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Model description</head><p>In this dynamical system, both the coral host and algal symbiont acquire and use carbon and nitrogen to construct biomass. The symbiont fixes carbon through photosynthesis and receives nitrogen shared by the host, while the host acquires nitrogen from the environment and receives carbon shared by the symbiont. A graphical representation of the model is presented in <ref type="figure">Fig. 1</ref> , and each model flux and parameter is defined in Tables 1 and 2 , respectively. We use C-moles (C-mol) as the unit of biomass for consistency with the rigorous mass balance of DEB theory: 1 C-mol is equivalent to the amount of biomass containing 1 mol of carbon atoms. Host biomass (expressed as C-mol H), symbiont biomass (expressed as C-mol S), and prey biomass (expressed as C-mol X) have fixed, but different, molar N:C ratios <ref type="table" target="#tab_0">( Table 2 )</ref>, consistent with the assumption of strong homeostasis in DEB theory <ref type="bibr" target="#b31">( Kooijman, 2010 )</ref>. Biomass is produced from carbon and nitrogen by parallel complementary synthesizing units (SUs) -mathematical specifications of the formation of a product by a metabolic network processing two complementary substrates in parallel <ref type="bibr">( Kooijman, 2010 , p. 105, Fig. 3.7)</ref>. The two state variables in the model are symbiont biomass and coral biomass; because resources are acquired proportionally to surface area, and surface area is proportional to volume (corals are V1-morphs in a DEB context ( Kooijman, 2010 , <ref type="table">Table 1</ref> Model fluxes (mass-specific). Units are explained in the text. (Abbreviations: CCMs = carbon concentrating mechanisms; NPQ = non-photochemical quenching; ROS = reactive oxygen species).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Symbol</head><p>Description Units Eq. no.</p><formula xml:id="formula_0">j X Prey assimilation (feeding) rate C-mol X C-mol H −1 d −1 (3) j N Nitrogen uptake rate mol N Cmol H −1 d −1 (4) j HG</formula><p>Host biomass formation rate C-mol H C-mol</p><formula xml:id="formula_1">H −1 d −1 (5) j HT</formula><p>Host biomass turnover rate C-mol H C-mol</p><formula xml:id="formula_2">H −1 d −1 (6) r NH</formula><p>Recycled nitrogen from host turnover mol N C-mol</p><formula xml:id="formula_3">H −1 d −1 (7) ρ N</formula><p>Nitrogen shared with the symbiont mol N C-mol</p><formula xml:id="formula_4">H −1 d −1 (8) j eC</formula><p>Excess carbon used to activate host CCMs mol C C-mol</p><formula xml:id="formula_5">H −1 d −1 (9) j CO 2 CO 2 input to photosynthesis mol CO 2 C-mol H −1 d −1 (10) j L Light absorption rate mol photons C-mol S −1 d −1 (12) r CH Recycled CO 2 from host mol CO 2 C-mol H −1 d −1 (13) r CS Recycled CO 2 from symbiont mol CO 2 C-mol S −1 d −1 (14) j CP Photosynthesis rate mol C C-mol S −1 d −1 (15) j eL</formula><p>Light energy in excess of photochemistry mol photons C-mol</p><formula xml:id="formula_6">S −1 d −1 (16) j NPQ Total capacity of NPQ mol photons C-mol S −1 d −1 (17) c ROS ROS production proportional to baseline - (18) r NS</formula><p>Recycled nitrogen from symbiont turnover mol N C-mol Maximum prey assimilation rate from host feeding C-mol X C-mol</p><formula xml:id="formula_7">S −1 d −1 (19) j SG Symbiont biomass formation rate C-mol S C-mol S −1 d −1 (20) ρ C Fixed carbon shared with host mol C C-mol S −1 d −1 (21) j ST Symbiont biomass turnover rate C-mol S C-mol S −1 d −1 (22)</formula><formula xml:id="formula_8">H −1 d −1 0.13 K X</formula><p>Half-saturation constant for prey assimilation C-mol X L −1 10 −6 j Nm Maximum host DIN uptake rate mol N C-mol</p><formula xml:id="formula_9">H −1 d −1 0.035 K N</formula><p>Half-saturation constant for host DIN uptake mol N L −1 1 . 5 × 10 −6 k CO 2 Efficacy of CO 2 delivery to photosynthesis by host CCMs mol CO 2 mol C −1</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="10">j HGm</head><p>Maximum specific growth rate of host C-mol H C-mol</p><formula xml:id="formula_10">H −1 d −1 1 y CL Quantum yield of photosynthesis mol C mol photons −1 0.1 y C Yield of biomass formation from carbon C-mol mol C −1 0.8 ā *</formula><p>Effective light-absorbing cross-section of symbiont</p><formula xml:id="formula_11">m 2 C-mol S −1 1.34 k NPQ NPQ capacity of symbiont mol photons C-mol S −1 d −1 112 k ROS</formula><p>Excess photon energy that doubles ROS production, relative to baseline levels mol photons C-mol</p><formula xml:id="formula_12">S −1 d −1 80 j CPm</formula><p>Maximum specific photosynthesis rate of symbiont mol C C-mol</p><formula xml:id="formula_13">S −1 d −1 2.8 j SGm</formula><p>Maximum specific growth rate of symbiont C-mol S C-mol</p><formula xml:id="formula_14">S −1 d −1 0.25 b</formula><p>Scaling parameter for bleaching response -5 p. 122), biomass increases exponentially during growth (indeed, corals grow exponentially <ref type="bibr" target="#b2">Bak, 1976 )</ref>. Environmental stress is implemented in the form of photooxidative stress, which is thought to be a primary trigger of coral bleaching <ref type="bibr" target="#b32">( Lesser, 1997;</ref><ref type="bibr" target="#b59">Weis, 2008;</ref><ref type="bibr" target="#b61">Wooldridge, 2009 )</ref>. To simulate bleaching, we model the absorption and quenching of light energy by photochemistry and non-photochemical quenching, and the responses that occur (i.e., photoinhibition, photodamage, and symbiont loss) when these quenching capacities are overwhelmed. While bleaching in response to high light alone has been observed experimentally <ref type="bibr" target="#b13">( Downs et al., 2013;</ref><ref type="bibr" target="#b48">Schutter et al., 2011 )</ref>, mass coral bleaching events occur concurrently with high temperature <ref type="bibr" target="#b23">( Hoegh-Guldberg, 1999 )</ref>. Thus, it is important to justify our consideration of light as the primary stressor. In reality, light and temperature interact synergistically <ref type="bibr" target="#b9">( Coles and Jokiel, 1978;</ref><ref type="bibr" target="#b29">Jones et al., 1998 )</ref>, and in fact, any stressor that disrupts the quenching of light energy may lead to bleaching <ref type="bibr" target="#b62">Wooldridge, 2010 )</ref>. This is because the proximate cause of photo-oxidative stress is excess excitation energy, but the upstream events that lead to this situation may be diverse. Indeed, elevated temperature may inhibit Rubisco functioning <ref type="bibr" target="#b29">( Jones et al., 1998 )</ref> and the repair of the D1 protein in photosystem II <ref type="bibr" target="#b58">( Warner et al., 1999 )</ref>, which reduces the capacity of photochemical quenching and leads to an excess of light energy. In this way, elevated temperature serves to reduce the threshold above which light stresses the system <ref type="bibr" target="#b23">( Hoegh-Guldberg, 1999 )</ref>; importantly, light is still the proximate stressor. Therefore, we omitted temperature from the model to maintain a desired level of simplicity, while still allowing photooxidative stress and bleaching to be simulated with biological realism in response to light.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">State equations</head><p>The balance equations for symbiont ( S ) and host ( H ) biomass are expressed as "specific" rates, i.e. rates per unit of symbiont and host biomass, respectively:</p><formula xml:id="formula_15">dS Sdt = j SG − j ST (1) dH Hdt = j HG − j HT .<label>(2)</label></formula><p>The specific biomass growth and turnover rates that define these balance equations are produced by combinations of the individual model fluxes (see <ref type="table">Table 1</ref> for definitions and units), which are each expressed as mass-specific rates (e.g., per C-mole of symbiont or host biomass per day). When necessary, conversions between symbiont-mass-specific and host-mass-specific rates are accomplished by multiplying or dividing by the symbiont:host biomass ratio.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Coral animal fluxes</head><p>The coral animal acquires both carbon and nitrogen from feeding on prey from the environment. Assimilation from feeding is specified by Michaelis-Menten kinetics (i.e., a Holling type II function) with a maximum rate of j Xm and half-saturation constant K X :</p><formula xml:id="formula_16">j X = j Xm • X X + K X .<label>(3)</label></formula><p>Additionally, the coral animal acquires dissolved inorganic nitrogen (DIN) from the surrounding seawater, which is assumed to represent ammonium, the primary form utilized by corals <ref type="bibr" target="#b67">( Yellowlees et al., 2008 )</ref>. This gives the host (rather than the symbiont) priority in nitrogen utilization; this capacity is supported by experimental evidence <ref type="bibr" target="#b57">( Wang and Douglas, 1998 )</ref> and is consistent with the spatial arrangment of the partners, where the host is in direct contact with the external environment. The uptake of nitrogen from the environment is thus specified by Michaelis-Menten kinetics using a maximum uptake rate j Nm and half-saturation constant K N :</p><formula xml:id="formula_17">j N = j Nm • N N + K N .<label>(4)</label></formula><p>Coral biomass formation is then specified by a parallel complementary SU (formula in <ref type="bibr">Kooijman, 2010 , Fig. 3</ref>.7). The general form for a production flux is (m</p><formula xml:id="formula_18">−1 + x −1 + y −1 − (x + y ) −1 ) −1 , where m</formula><p>is the maximum production flux, and x and y are the input fluxes of the two substrates. Coral biomass is thus produced from carbon and nitrogen according to</p><formula xml:id="formula_19">j HG = 1 j HGm + 1 y C ρ C S H + j X + 1 ( j N + n NX j X + r NH ) n −1 NH − 1 y C ρ C S H + j X + ( j N + n NX j X + r NH ) n −1 NH −1 (5)</formula><p>where ρ C is fixed carbon shared by the symbiont (see Eq. <ref type="formula" target="#formula_34">21)</ref>, and r NH is recycled nitrogen liberated by host biomass turnover (see Eq. (7) ). The parameter y C specifies the yield of biomass from organic carbon, which we take to be 0.8 to satisfy redox balance (see <ref type="bibr" target="#b37">Muller et al., 2009 )</ref>. Host biomass turnover is equal to the specific maintenance rate of host biomass, j HT = j 0 HT <ref type="bibr">(6)</ref> and the specific flux of nitrogen that is recycled to the host biomass SU is calculated as</p><formula xml:id="formula_20">r NH = σ NH n NH j HT . (7)</formula><p>The amount of nitrogen input to the coral biomass SU in excess of what is actually consumed in biomass formation (i.e., surplus nitrogen, or the rejection flux 1 of the SU) is then made available to the symbiont:</p><formula xml:id="formula_21">ρ N = ( j N + n NX j X + r NH − n NH j HG y −1 C ) + .<label>(8)</label></formula><p>Due to the inherent inefficiency of the parallel complementary SU formulation, there is always some nitrogen shared with the symbiont even when coral biomass formation is strongly nitrogenlimited. Likewise, there is always a non-zero rejection flux of excess carbon from the coral biomass SU. The carbon rejected from this SU reflects the amount of excess fixed carbon available to the host that is not used in biomass formation:</p><formula xml:id="formula_22">j eC = j X + ρ C S H − j HG y −1 C + .<label>(9)</label></formula><p>This flux, j eC , is assumed to be available to the host as a respiratory substrate to support energetically demanding processes; of particular importance is the host's active carbon concentrating mechanisms (CCMs) that supply CO 2 for symbiont photosynthesis <ref type="bibr" target="#b63">Wooldridge, 2013 )</ref>. We therefore specify j CO 2 as the host-mediated delivery of CO 2 to photosynthesis that encompasses potentially diverse CCMs, including active transport of bicarbonate, carbonic anhydrase-catalyzed conversion of bicarbonate to CO 2 to promote diffusion toward the symbiont , and acidification of the symbiosome to increase localized CO 2 concentrations around the symbiont <ref type="bibr" target="#b5">( Barott et al., 2014 )</ref>. Since these active CCMs require energetic input by the host, we define j CO 2 as proportional to j eC , assuming that some of this carbon is respired to energize the CCMs. This formulation means that the symbiont indirectly ensures its own CO 2 supply by providing fixed carbon ( = energy) to the host <ref type="bibr" target="#b63">( Wooldridge, 2013 )</ref>. The parameter k CO 2 scales the efficacy of host CCMs, which enables the comparison of different rates of CO 2 delivery that may characterize different coral species <ref type="bibr" target="#b64">( Wooldridge, 2014a )</ref>. The active input of CO 2 to the photosynthesis SU is therefore specified as</p><formula xml:id="formula_23">j CO 2 = k CO 2 j eC (10)</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Symbiodinium fluxes</head><p>The symbiont produces fixed carbon through photosynthesis, a process represented here by a single SU with two substrates: light (photons) and inorganic carbon (CO 2 ). The amount of light absorbed by the symbiont depends on the scalar irradiance at the site of light absorption, which is modified substantially relative to external downwelling irradiance owing to multiple scattering by the coral skeleton and self-shading by surrounding symbionts <ref type="bibr" target="#b15">( Enríquez et al., 2005;</ref><ref type="bibr" target="#b35">Marcelino et al., 2013 )</ref>. We used skeletal light amplification measurements from <ref type="bibr" target="#b35">Marcelino et al. (2013)</ref> to empirically derive an amplification factor, A <ref type="figure">(Fig. S1</ref>), indicating the ratio of internal scalar irradiance to external downwelling irradiance as a function of symbiont density (S:H biomass), which is specified as</p><formula xml:id="formula_24">A = 1 . 26 + 1 . 39 • exp −6 . 48 • S H .<label>(11)</label></formula><p>This amplification factor is then multiplied by the external downwelling irradiance L and a parameter representing the effective light-absorbing surface area of symbiont biomass ā * to specify the total light absorption:</p><formula xml:id="formula_25">j L = A • L •ā * .<label>(12)</label></formula><p>CO 2 arrives at the photosynthesis SU from multiple sources: in addition to the CO 2 actively supplied by the host through its CCMs ( j CO 2 ; Eq. (10) ), we assume a fixed proportion σ CH of metabolic 1 Rejection fluxes must always be positive, and hence are specified with the notation (x ) + , which means max ( x , 0). CO 2 generated by the host from both biomass turnover and formation is passively available to the photosynthesis SU, according to</p><formula xml:id="formula_26">r CH = σ CH ( j HT + (1 − y C ) j HG y −1 C )<label>(13)</label></formula><p>along with a fixed proportion of CO 2 generated by symbiont biomass turnover 2 and formation:</p><formula xml:id="formula_27">r CS = σ CS ( j 0 ST + (1 − y C ) j SG y −1 C ) .<label>(14)</label></formula><p>Fixed carbon is then produced by the photosynthesis SU according to</p><formula xml:id="formula_28">j CP = 1 j CPm + 1 y CL j L + 1 ( j CO 2 + r CH ) H S + r CS − 1 y CL j L + ( j CO 2 + r CH ) H S + r CS −1 • c −1 ROS (15)</formula><p>where j CPm is the maximum specific rate of photosynthesis, and c ROS is the relative rate ( ≥ 1) of reactive oxygen species production (see Eq. <ref type="formula">18</ref>). Dividing the photosynthetic rate by c ROS causes a decline in response to photooxidative stress at high light levels, and the emergent outcome of this SU formulation demonstrates a classic photoinhibition response ( <ref type="figure" target="#fig_0">Fig. S2</ref>).</p><p>Light energy absorbed in excess of what is used to fix carbon is specified by the SU rejection flux, according to</p><formula xml:id="formula_29">j eL = ( j L − j CP y −1 CL ) + .<label>(16)</label></formula><p>This excess light energy must be quenched by alternative pathways in order to prevent photooxidative damage <ref type="bibr" target="#b45">( Powles, 1984 )</ref>. Symbiodinium utilize a variety of pathways for non-photochemical quenching (NPQ; Roth, 2014 ), which we collect in a total NPQ capacity specified as a parameter of the symbiont ( k NPQ ). The NPQ flux j NPQ is then specified as a single-substrate SU formula with a maximum of k NPQ :</p><formula xml:id="formula_30">j NPQ = (k −1 NPQ + j −1 eL ) −1 (17)</formula><p>If light energy further exceeds the capacity of both photochemistry and NPQ, then reactive oxygen species (ROS) are produced. We represent this as a relative quantity c ROS , which takes a value of 1 when all light energy is quenched by photochemistry and NPQ, and increases as the amount of excess excitation energy increases, specified as</p><formula xml:id="formula_31">c ROS = 1 + ( j eL − j NPQ ) + k ROS (18)</formula><p>where k ROS is a parameter of the symbiont that determines the rate of ROS production (specifically, the amount of excess excitation energy that doubles ROS production relative to baseline levels). Importantly, c ROS is specified here not as a function of absolute external light, but rather the amount of excess light energy after accounting for quenching by carbon fixation and NPQ. A direct consequence of this formulation is that CO 2 -limitation of photosynthesis can lead to ROS production, an important mechanism <ref type="bibr" target="#b8">( Butow et al., 1998;</ref><ref type="bibr" target="#b61">Wooldridge, 2009 )</ref> that was not captured by previous representations of photooxidative stress <ref type="bibr" target="#b16">( Eynaud et al., 2011 )</ref>. With this single SU, both the light and dark reactions of photosynthesis are represented, allowing for sink-limitation (i.e., CO 2 -limitation) to cause overreduction of the electron transport chain and ROS production.</p><p>Carbon fixed by photosynthesis ( j CP ; Eq. (15) ) is then combined with nitrogen shared by the host ( ρ N ; Eq. (8) ) and nitrogen recycled from symbiont biomass turnover (see footnote 2)</p><formula xml:id="formula_32">r NS = σ NS n NS j 0 ST (19)</formula><p>to build new symbiont biomass, following the SU equation:</p><formula xml:id="formula_33">j SG = 1 j SGm + 1 y C j CP + 1 (ρ N H S + r NS ) n −1 NS − 1 y C j CP + (ρ N H S + r NS ) n −1 NS −1<label>(20)</label></formula><p>The rejection flux of carbon from this SU represents the amount of fixed carbon produced by photosynthesis in excess of what can be used to produce symbiont biomass; this surplus, ρ C , is translocated to the coral host:</p><formula xml:id="formula_34">ρ C = ( j CP − j SG y −1 C ) +<label>(21)</label></formula><p>Nitrogen rejected by the symbiont biomass SU, which has already been rejected by the host biomass SU, cannot be used by either partner and is thus lost to the environment.</p><p>Symbiont biomass turnover includes a component of constant turnover specified by the parameter j 0</p><p>ST , representing fixed maintenance costs, plus a component that scales with the magnitude of ROS production,</p><formula xml:id="formula_35">j ST = j 0 ST (1 + b(c ROS − 1)) . (22)</formula><p>This second component of symbiont biomass loss represents both photodamage and/or symbiont expulsion (i.e., bleaching), both of which occur in response to high levels of ROS production. The parameter b is included to scale biomass loss due to bleaching in response to ROS.</p><p>To aid in visualizing model results, we calculated values to indicate the degree to which product formation at an SU was limited by availability of either of its two substrates using the formula log</p><formula xml:id="formula_36">min ( j S1 , j Pm ) min ( j S2 , j Pm ) (23)</formula><p>where j S 1 and j S 2 are the specific input fluxes of the two substrates and j Pm is the maximum specific product formation rate, in units of Cmol Cmol −1 d −1 . When both substrate input fluxes are higher than what can be used at the maximum production rate, this limitation coefficient is zero, implying that neither substrate is limiting production.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Numerical analysis</head><p>The model dynamics are specified by the differential equations (1) and ( 2 ) that impose biomass balance for host and symbiont and by a set of coupled non-linear algebraic equations ( 3 )-( 22 ) that define fluxes. Several of these fluxes are defined implicitly ; for example, the rejection fluxes of carbon and nitrogen from the symbiont and host biomass SUs, respectively, act as reciprocal input fluxes to the other SU. Similarly, the photosynthesis SU receives CO 2 at a rate proportional to the carbon rejection flux from the host biomass SU, and the rejection flux of excitation energy from the photosynthesis SU acts to reduce its own production through photoinhibition. Without further assumptions, however, the dynamical system is not always unambiguously defined because for some combinations of parameters and environmental forcing functions the system of algebraic equations has more than one solution with all fluxes non-negative (see results below). In such circumstances, the right hand side of the differential equations (1) and ( 2 ) is not uniquely defined even when S and H are specified. We resolved this problem by defining the dynamical system as the limit as a time step t → 0 of a discretized system corresponding to Euler integration of the differential equations, with those fluxes that represent flows of elemental matter implemented by assuming that transfer of material between components of the system takes one time step. Thus, for example, carbon rejected from the symbiont SU at time t arrives at the host SU at time t + t.</p><p>Simulations using the discretized scheme were performed using R code developed in the coRal R package ( github.com/jrcunning/ coRal ). By experimentation, we found that a time step of 0.1 days gave adequate precision for most simulations (including used to generate Figs. 2 -8 in this paper). For steady state estimations, sim-ulations were run until the changes in specific growth rate of the host and the S:H biomass ratio were less than 1e −5 per time step. In regions of state space where very slow transient dynamics could be expected (i.e. near bifurcation points), sample steady state calculations were verified using MATHEMATICA code for numerical root finding (function FindRoot) with the code written independently by a coauthor without reference to the R code. All of the R code for the simulations and figures presented in this paper can be found in the accompanying data repository at github.com/ jrcunning/coRal-analysis .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Steady state behavior</head><p>In a constant environment, the system ultimately reaches a steady state of exponential growth or decline. However, under some conditions, either of these outcomes may occur depending on initial values of symbiont and host biomass, indicating the presence of alternate stable states <ref type="figure" target="#fig_0">( Fig. 2 )</ref>. The mechanism that produces these alternate stable states is the positive feedback between carbon-limitation of the host and CO 2 -limitation of photosynthesis: if symbiont biomass is initially very low (i.e., a "bleached" coral), very little carbon is fixed, and the system cannot escape this positive feedback and cannot grow (unless feeding is sufficiently high). However, if symbiont biomass is initially high (i.e., a "healthy" coral), then the system remains in a nitrogen-limited state with positive growth. For practical purposes, this section of the manuscript considers only positive growth steady states under constant environments; subsequently, we explore how environmental forcing may cause the system to switch between alternate stable states, which we interpret in the context of coral bleaching (see "Coral Bleaching and Recovery", below).</p><p>To analyze positive-growth steady state behavior, we ran the model to steady state across gradients of external irradiance and nutrients ( <ref type="figure">Fig. )</ref>, which revealed patterns consistent with observed phenomena in corals. Predicted growth rates are low at low light and DIN ( ∼ 0.01 d −1 ), and begin increasing as both of these factors increase <ref type="figure">( Fig. 3 (A)</ref>). Low light limits photosynthetic rates, resulting in less fixed carbon shared with the host and an asso- <ref type="figure">Fig. 3</ref>. Steady state values of (A) specific growth (C-mol H C-mol H −1 d −1 ) and (B) the symbiont to host biomass ratio (C-mol S C-mol H −1 ) across gradients of external irradiance and dissolved inorganic nitrogen. Note that typical conditions for reefs are ∼ 1e −7 M DIN and 10-20 mol photons m −2 d −1 . Simulations for each combination of light and nutrients (41 points along each axis) were run to steady state with all parameters at default values and prey density set to zero. Negative steady state growth rates and corresponding S:H ratios were set to zero, and a ceiling of 0.5 was imposed on S:H ratios to aid in visualization. <ref type="figure">Fig. 4</ref>. Sensitivity analysis. Plots show the fractional change in steady state values of growth rate (solid lines) and S:H biomass (dashed lines) in response to fractional changes in default parameter values (see <ref type="table" target="#tab_0">Table 2</ref> for default values). Parameters are grouped by the processes in which they are involved. This sensitivity analysis was conducted at conditions typical for coral reef environments: low DIN (1e −7 M) and intermediate light (15 mol photons m −2 d −2 ), with prey density set to zero. Sensitivity analyses conducted other environmental conditions are presented in Figs. S3-S7. ciated increase in the symbiont to host biomass ratio <ref type="figure">( Fig. 3 (B)</ref>). In agreement with this trend are many observations of negative correlation between irradiance and symbiont density <ref type="bibr" target="#b7">( Brown et al., 1999;</ref><ref type="bibr">Fitt et al., 20 0 0;</ref><ref type="bibr" target="#b50">Stimson, 1997;</ref><ref type="bibr" target="#b56">Titlyanov et al., 2001</ref> ). As higher light alleviates light-limitation of photosynthesis, host growth becomes less carbon-limited.</p><p>Similarly, increasing DIN alleviates nitrogen-limitation ( <ref type="figure">Fig. 3 (A)</ref>). Increased growth at higher DIN is predicted by the DEB model of <ref type="bibr" target="#b37">Muller et al. (2009)</ref> , and has also been observed experimentally <ref type="bibr" target="#b39">( Muller-Parker et al., 1994;</ref><ref type="bibr" target="#b51">Tanaka et al., 2013</ref><ref type="bibr" target="#b52">Tanaka et al., , 2007</ref>. However, DIN elevation beyond a certain point (e.g., ∼ 3-4 μM in these simulations) has little effect on growth as carbon becomes limiting. Although very high nutrient levels may reduce growth in nature <ref type="bibr" target="#b49">( Shantz et al., 2015 )</ref>, these impacts are not likely to occur within the range of concentrations considered here ( &lt; 4 μM) ( Ferrier-Pagés et al., 20 0 0 ). In addition to increasing growth, DIN also increases the symbiont to host biomass ratio <ref type="figure">( Fig. 3 (B)</ref>), a phenomenon also observed in reef corals <ref type="bibr" target="#b36">( Marubini and Davies, 1996 )</ref>. At low DIN and intermediate light, more typical of coral reef environments, symbiont to host biomass ratios are around ∼ 0.06-0.21, which is consistent with values reported in the literature <ref type="bibr" target="#b14">( Edmunds et al., 2011;</ref><ref type="bibr" target="#b22">Hawkins et al., 2016;</ref><ref type="bibr" target="#b41">Muscatine et al., 1981 )</ref>.</p><p>The maximum predicted growth rates of ∼ 0.1 d −1 , occurring between ∼ 10-25 mol photons m −2 d −1 light and ∼ 4 μM DIN <ref type="figure">( Fig. 3 (A)</ref>), are comparable to the rate of 0.07 d −1 measured by <ref type="bibr" target="#b52">Tanaka et al. (2007)</ref> in Acropora pulchra under similar N-enriched conditions. Under conditions more typical of reef environments ( &lt; 0.5 μM DIN), predicted growth rates are ∼ 0.01-0.03 d −1 . Observed specific growth rates in several coral species fall near or below the lower end of this range ( ∼ 0.01 d −1 ) , though values as high as 0.025 d −1 have been reported in Galaxea fascicularis <ref type="bibr" target="#b47">( Schutter et al., 2010 )</ref>, and 0.04 d −1 in Aiptasia diaphana , a non-calcifying symbiotic anemone <ref type="figure">Fig. 5</ref>. Light-driven seasonal dynamics of symbiont abundance and coral growth. Light input (upper panel) was designed as a sinusoidal curve with a period of one year, with maximum and minimum values of 44 and 20 mol photons m −2 d −1 , corresponding to those measured by <ref type="bibr" target="#b50">Stimson (1997)</ref> . The dynamic behavior of symbiont to host biomass ratio (middle panel) and the specific growth rate of host biomass (lower panel) show seasonal oscillations that are greater in magnitude under high nutrients (15.14 μM N; dashed lines) relative to low nutrients (0.14 μM N; solid lines), consistent with the findings of <ref type="bibr" target="#b50">Stimson (1997)</ref> . Prey density was set at 1e −6 CmolX L −1 . <ref type="bibr" target="#b1">( Armoza-Zvuloni et al., 2014 )</ref>. However, it is not surprising that observed growth rates are often lower than model predictions, since the model does not account for ecological factors that may limit growth (e.g., competition, predation, bioerosion). Furthermore, while most measurements are made on skeletal growth, the model predicts biomass growth, which may not always be strongly correlated <ref type="bibr" target="#b0">( Anthony, 2002 )</ref>.</p><p>At irradiance levels above ∼ 25 mol photons m −2 d −1 , steady state growth rates decline until positive growth ceases above ∼ 40 μmol photons m −2 d −1 <ref type="figure">( Fig. 3 (A)</ref>). The mechanism underlying this decline is the increase in light energy beyond the capacities of photosynthesis and non-photochemical quenching: excess excitation energy generates reactive oxygen species (ROS) <ref type="bibr" target="#b46">( Roth, 2014;</ref><ref type="bibr" target="#b59">Weis, 2008 )</ref>, which, in this model, have the phenomenological consequences of reducing the photosynthetic rate (representing photoinhibition) and increasing symbiont biomass loss (representing photodamage and/or symbiont expulsion) (see <ref type="bibr" target="#b16">Eynaud et al., 2011 )</ref>. Together, these impacts reduce the symbiont to host biomass ratio <ref type="figure">( Fig. 3 (B)</ref>), as occurs during coral bleaching. This reduction in symbionts consequently reduces the flux of fixed carbon to the host, resulting in increasing carbon-limitation and eventual cessation of growth ( <ref type="figure">Fig. 3 (A)</ref>).</p><p>The incorporation of photooxidative stress in the model sets an upper limit to the amount of light at which a stable symbiotic interaction can be maintained, but even below this threshold of breakdown, negative effects of high light reduce steady state growth and symbiont:host biomass <ref type="figure">( Fig. 3 )</ref>. This gradual decline is consistent with experimental results showing that high light levels decrease growth , and field studies documenting optimum growth rates at intermediate depths <ref type="bibr" target="#b4">( Baker and Weber, 1975;</ref><ref type="bibr" target="#b26">Huston and Discovery, 1985 )</ref>. By incorporating these impacts of light stress, the model predicts greater, and more realistic, variation in state variables across light gradients than was predicted by the models of <ref type="bibr" target="#b37">Muller et al. (2009)</ref> , which did not include photoinhibition or photodamage, or <ref type="bibr" target="#b16">Eynaud et al. (2011)</ref> , which included representations of photoinhibition or photodamage separately. It is important to recognize that the upper light limit set by photooxidative stress on a stable symbiosis under steady state conditions <ref type="figure">( Fig. 3</ref> ) may be temporarily crossed by a dynamic system, which may experience a period of symbiont loss (bleaching) and reduced growth, after which a return to benign conditions may restore symbiont biomass and positive growth. To explore this further and illustrate the behavior of the model in more detail, we evaluate a number of dynamic simulations below (see "Dynamic behavior").</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Sensitivity analysis</head><p>The values used for each parameter in the model <ref type="table" target="#tab_0">( Table 2 )</ref> are derived from relevant literature (see <ref type="figure">Supplementary Information)</ref>.</p><p>Here we evaluate the sensitivity of the model to changes in these parameter values, which also serves to demonstrate the behavior of the dynamical system. We calculated fractional change in steady state values in response to fractional changes in parameter values, relative to their default values, under environmental conditions typical of coral reefs.</p><p>Overall, relative changes in the steady state of the system are less than the equivalent relative change in parameter value. However, changes in certain parameter values have more significant impacts: increasing j Nm or decreasing K N both dramatically increase host growth <ref type="figure">( Fig. 4 )</ref>, demonstrating the strong nitrogen-limitation that characterizes these symbioses. The parameter ā * has a strong impact on S:H biomass ratios <ref type="figure">( Fig. 4</ref> ) since this parameter determines the amount of light absorbed by symbionts, with lower values increasing light-limitation. Increasing the maximum growth and turnover rates have the expected effects of increasing and decreasing growth, respectively. Parameters relating to photooxidative stress and bleaching have little impact under low nutrients and intermediate light <ref type="figure">( Fig. 4 )</ref>, but have larger impacts under higher light (e.g., <ref type="figure">Fig. S6</ref>). Sensitivity analyses conducted under different combinations of external light and nutrients are presented in Figs. S3-S7.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Dynamic behavior</head><p>The dynamic behavior of the model demonstrates its power to integrate multiple environmental forcings simultaneously. Here we present several scenarios that demonstrate the model's ability to reproduce complex phenomena that have been observed in corals.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.">Seasonal variability</head><p>Symbiont densities and coral growth rates are known to vary seasonally, representing an integrated response to changes in a suite of environmental factors. Light in particular is a strong driver of these trends <ref type="bibr" target="#b7">( Brown et al., 1999;</ref><ref type="bibr" target="#b17">Fagoonee et al., 1999;</ref><ref type="bibr">Fitt et al., 20 0 0;</ref><ref type="bibr" target="#b50">Stimson, 1997 )</ref>, with high light associated with lower symbiont abundance and reduced tissue biomass. The role of light in driving seasonal changes in symbiont density was demonstrated nicely by <ref type="bibr" target="#b50">Stimson (1997)</ref> , who also found that experimental nutrient-enrichment amplified the light-driven seasonal oscillation. Using the levels of light and nutrients from this study as inputs, the model reproduces this observed interaction among environmental factors <ref type="figure">( Fig. 5 )</ref>, and also provides the mechanism: increasing light in summer decreases symbiont growth rates due <ref type="figure">Fig. 6</ref>. Coral bleaching as a switch from a nitrogen-to carbon-limited alternative stable state. This transition is demonstrated in response to gradually increasing external light (A), which causes an increase in production of ROS (B) that reduces the photosynthetic rate through photoinhibition (C). Decreasing photosynthesis moves the system from overall nitrogen-limitation toward carbon-limitation (D); when this threshold is crossed, the system rapidly becomes highly carbon-limited as photosynthesis becomes CO 2 -limited (E) and symbiont densities rapidly decline (F) into a bleached state. Substrate limitation coefficients were calculated using Eq. (23) . All parameters were set at default values with external DIN = 1e −7 mol N/L and prey density set to zero. <ref type="figure">Fig. 7</ref>. Bleaching with interactive factors. Simulations of high light stress (sinusoid with maximum = 48 mol pH m −2 d −1 ) under default environmental conditions (solid line; DIN = 1e −7 mol N L-; prey = 2e −7 C-molX L −1 ), or with elevated feeding (dashed line; prey = 1e −6 C-molX L −1 ), or elevated nutrients (dotted line; DIN = 4e −6 mol N L −1 ). Initial symbiont biomass was set to the steady state for each set of starting conditions, with all other parameters at default values.</p><p>to photooxidative stress, leading to decreasing S:H ratios. Under nutrient enrichment, this effect is more pronounced, as CO 2limitation of photosynthesis (due to higher symbiont standing stocks) causes mild bleaching that results in a similar summertime minimum S:H as the ambient nutrient case ('physiological bleaching' sensu <ref type="bibr" target="#b19">Fitt et al. (2001)</ref> . Decreasing light into winter then alleviates the photooxidative stress constraints on carbon fixation such that nitrogen-limitation constrains the S:H ratio, explaining why S:H increases more when DIN is enriched <ref type="figure">(Fig. S8)</ref>.</p><p>The prediction of higher growth when light is reduced indicates that growth is not limited by low light in winter, but is actually reduced by excess light in summer, 3 consistent with the experimental findings of <ref type="bibr" target="#b48">Schutter et al. (2011)</ref> . Seasonal summertime reductions in tissue biomass have also been well-documented in the field <ref type="bibr">( Fitt et al.,</ref><ref type="bibr">20 0 0 )</ref>, along with reductions in net photosynthetic capacity <ref type="bibr" target="#b38">( Muller-Parker and Giséle, 1987 )</ref>. Importantly, while light alone may drive seasonal dynamics in the ways discussed (see footnote 3), temperature fluctuations may attenuate or even reverse the effect of light as cooler winters depress metabolism. <ref type="figure">Fig. 8</ref>. Hysteresis under different nutrient and feeding regimes. Steady state S:H biomass ratios in constant environments with (A) low DIN (1e −7 mol N L −1 ) and low food (2e −7 C-molX L −1 ), (B) low DIN (1e −7 mol N L −1 ) and no food, (C) high DIN (2e −6 mol N L −1 ) and low food (2e −7 C-molX L −1 ), and (D) high DIN (2e −6 mol N L −1 ) and high food (4e −7 C-molX L −1 ). In each panel, steady states are shown starting from both high initial S:H biomass (1, i.e. healthy corals -closed circles) and low initial initial S:H biomass (0.0 0 01, i.e. bleached corals -open circles). Points are colored according to whether the host exhibits positive (black) or negative (red) growth at steady state. Arrows above points indicate values beyond the y -axis range. (For interpretation of the references to color in this figure legend, the reader is referred to the web version of this article.) Seasonal changes in nutrients associated with fertilization use and runoff during growing seasons may also impact these dynamics. Thus, the relative magnitude of fluctuation in temperature, light, and nutrients may produce wide variability in the direction and magnitude of seasonal changes in growth and symbiont abundance, depending on location and microhabitat. Nevertheless, the seasonal variability predicted here in response to light <ref type="figure">( Fig. 5</ref> ) is consistent with experimental and field observations for corals, and demonstrates the model's ability to predict dynamic behavior that mechanistically integrates multiple environmental drivers.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2.">Coral bleaching and recovery</head><p>Coral bleaching is the stress-induced loss of symbiotic algae from coral tissues, which can occur in response to a variety of environmental stressors. In most cases, coral bleaching is thought to begin with photooxidative stress in symbiont photosynthesis <ref type="bibr" target="#b32">( Lesser, 1997 )</ref>, which triggers a cascade of events leading to symbiont expulsion <ref type="bibr" target="#b59">( Weis, 2008 )</ref>. As symbionts are expelled, the host receives less fixed carbon, which may then compromise its ability to activate CCMs that deliver CO 2 to photosynthesis <ref type="bibr" target="#b63">( Wooldridge, 2013 )</ref>. Increasing CO 2 -limitation for remaining symbionts, along with an amplified internal light environment due to reduced selfshading <ref type="bibr" target="#b15">( Enríquez et al., 2005 )</ref>, may further exacerbate photooxida-tive stress and accelerate symbiont expulsion, driving the coral into a bleached state.</p><p>While these positive feedbacks have been discussed previously in the literature, this is the first attempt to implement and explore their properties within a dynamical model. Interestingly, these feedbacks lead to alternate stable states in the symbiotic system. The 'healthy' state is characterized by nitrogen-limitation of both symbiont and host: under these conditions, the symbiont translocates sufficient carbon to support host growth and CCMs, which ensures that photosynthesis does not become CO 2 -limited. However, if carbon translocation is disrupted (and light is sufficiently high), then the system is driven into the 'bleached' state by photooxidative stress and positively reinforcing carbon-and CO 2limitation. In this context, coral bleaching can be understood as a transition from one stable state to another, and bleaching thresholds are sets of environmental conditions that push a healthy-state coral onto a trajectory leading to a bleached state.</p><p>We are highly interested in the conditions under which the system switches from a healthy to a bleached state, and can use this model as a tool to explore this dynamic behavior. Most straightforwardly, this switch occurs when increasing external irradiance ( <ref type="figure">Fig. 6 (A)</ref>) causes sufficient ROS production ( <ref type="figure">Fig. 6 (B)</ref>) and photoinhibition ( <ref type="figure">Fig. 6 (C)</ref>) that the positive feedbacks between host carbon-limitation ( <ref type="figure">Fig. 6 (D)</ref>) and CO 2 -limitation of photosynthesis ( <ref type="figure">Fig. 6 (E)</ref>) are rapidly engaged, leading to even greater photooxidative stress and a rapid decline in S:H biomass ( <ref type="figure">Fig. 6 (F)</ref>), characteristic of coral bleaching. However, the positive feedbacks involved in bleaching are not engaged only in response to high external irradiance alone; in fact, they depend on the relative balance of light energy absorption and quenching, which in turn depends on the availability of CO 2 for photosynthesis. While previous models framed photooxidative stress as a fixed response to absolute external irradiance <ref type="bibr" target="#b16">( Eynaud et al., 2011 )</ref>, our implementation considers the dynamic balance of multiple energy sinks in the causation of stress, which is more consistent with current understanding of symbiosis dysfunction <ref type="bibr" target="#b63">( Wooldridge, 2013 )</ref>, and establishes a critical role of host CCMs in providing CO 2 for photosynthesis <ref type="bibr" target="#b53">Tansik et al., 2015 )</ref>.</p><p>The importance of host CCM activity establishes significant interactive roles for other factors in influencing coral bleaching responses. For example, simulations of high light stress <ref type="figure">( Fig. 7 )</ref> demonstrate that bleaching can be attenuated by heterotrophic feeding, a phenomenon which has been observed experimentally <ref type="bibr" target="#b6">( Borell et al., 2008 )</ref>. The mechanism underlying this prediction is that feeding by the host increases host CCM activity, which delays the onset of CO 2 -limitation of photosynthesis and reduces bleaching severity. On the other hand, elevated nutrients exacerbate bleaching <ref type="figure">( Fig. 7 )</ref>, since higher symbiont densities are more susceptible to CO 2 -limitation <ref type="bibr" target="#b61">( Wooldridge, 2009 )</ref>. Several experimental <ref type="bibr" target="#b12">( Cunning and Baker, 2013;</ref><ref type="bibr" target="#b55">Thurber et al., 2014;</ref><ref type="bibr" target="#b60">Wiedenmann et al., 2013 )</ref> and correlational studies <ref type="bibr" target="#b66">( Wooldridge and Done, 2009 )</ref> are consistent with this mechanistic link between high nutrients and bleaching.</p><p>Since bleaching can be understood as a transition from a nitrogen-limited state with high S:H biomass to a carbon-limited state with low S:H biomass, induced by an external stressor, recovery can be understood as a switch back to the nitrogen-limited state once the external stressor is alleviated. In natural settings, this typically occurs through seasonal declines in temperature and light. However, hysteresis associated with the system's alternate stable states indicates that the symbiosis cannot recover along the same trajectory it followed during bleaching; indeed, the stressor must be alleviated below the threshold that initially caused bleaching in order for the system to recover <ref type="figure" target="#fig_0">( Fig. 2 )</ref>. This is because under the same external conditions, a bleached coral with low S:H biomass (relative to a healthy coral with high S:H biomass) is char-acterized by greater light amplification and weaker CCM activity, which enhance photooxidative stress and serve to maintain the carbon-limited state. In order for the system to recover, the stressor must be reduced enough such that photooxidative stress ceases and translocation of carbon from symbiont to host is resumed. Once this occurs, the host can energize its CCMs, which further enhances carbon fixation and accelerates the system back toward a nitrogen-limited state, indicative of recovery. The conditions under which recovery can occur -which determine the magnitude of hysteresis <ref type="figure">( Fig. )</ref> depend on the relative abundance of nitrogen and carbon in the environment. Higher food levels, representing a non-autotrophic carbon source for the host, make it easier for the host to overcome carbon-limitation ( <ref type="figure">Fig. 8 (A)</ref> and (D)), thus providing a potential mechanism underlying observations that feeding aids recovery from bleaching <ref type="bibr" target="#b10">( Connolly et al., 2012;</ref><ref type="bibr" target="#b21">Grottoli et al., )</ref>. Conversely, high external DIN impedes the re-establishment of nitrogen-limitation, making recovery from bleaching more difficult (i.e., narrowing -or eliminating -conditions under which recovery is possible, <ref type="figure">Fig. 8 (C)</ref>).</p><p>Dynamic simulations of recovery reveal another interesting behavior of the system: under some conditions, an 'overshoot' occurs in which S:H biomass temporarily increases beyond the ratio maintained in the 'healthy' state, before returning to stabilize at this value <ref type="figure" target="#fig_1">( Fig. 9 )</ref>. In fact, unusually high symbiont densities have been observed following bleaching in both experimental  and field studies <ref type="bibr" target="#b30">( Kemp et al., 2014 )</ref>, and have been interpreted as a potential 'disequilibrium in host-symbiont regulation' <ref type="bibr" target="#b30">( Kemp et al., 2014 )</ref>. The model reveals the dynamics of this 'overshoot' as follows: as symbionts repopulate the host, photosynthesis becomes increasingly CO 2 -limited due to weak CCM activity of the carbon-limited host. Thus, although symbiont growth is not yet carbon-limited, a growing symbiont population has less and less excess carbon (per symbiont) to share, and is thus moving toward carbon-limitation. Meanwhile, because S:H biomass is increasing, the host receives more and more carbon per unit host biomass, and is thus moving away from carbon-limitation. If the host overcomes carbon-limitation before the symbiont reaches it, then the system rapidly transitions to the nitrogen-limited state and the S:H ratio stabilizes without an overshoot <ref type="figure">( Fig. (A)</ref>). However, if the symbiont becomes carbon-limited first <ref type="figure" target="#fig_1">( Fig. 9 (B)</ref> and (C)), then carbon translocation per symbiont declines further and photosynthesis becomes more CO 2 -limited, which maintains carbon-limitation of the host. In this situation, continued growth of less and less productive symbionts drives S:H biomass to a much higher level before the host finally overcomes carbon-limitation. At this point, representing the peak of the overshoot, the transition to nitrogenlimitation finally takes place and the S:H biomass ratio declines and stabilizes as positive growth is resumed.</p><p>Whether this 'overshoot' occurs or not is determined by the relative availability of carbon and nitrogen to the host -any factor that enhances carbon-limitation of host growth (e.g. high DIN and/or low feeding) therefore magnifies the overshoot and prolongs the dysfunctional, carbon-limited state of the symbiosis <ref type="figure" target="#fig_1">( Fig. 9 )</ref>. On the other hand, factors that favor nitrogen-limitation, such as low external DIN and/or high feeding rates, will accelerate the re-establishment of nitrogen-limitation and prevent an overshoot from occurring at all. While many scenarios are possible under different environmental conditions, we illustrate the general effects of varying N and C availability on recovery from bleaching with a series of simulations that vary the N:C ratio of host's heterotrophic food source <ref type="figure" target="#fig_1">( Fig. 9 (A)</ref>-(C)): lower N:C ratios (effectively representing lower DIN and/or higher heterotrophy) favor nitrogenlimitation and more rapid recovery, while higher N:C ratios (effectively representing higher DIN and/or lower heterotrophy) favor carbon-limitation and prolonged recovery with a larger overshoot in S:H biomass. Higher N:C ratios in a heterotrophic food source (effectively representing higher external DIN and/or lower feeding rates) cause a larger overshoot in the S:H biomass ratio, and prolong the duration of time until the system 'recovers' by re-establishing nitrogen-limitation. Substrate limitation coefficients were calculated using Eq. (23) . All simulations were run with default parameters (except varying n NX ), with L = 20 mol photons m 2 d −1 , DIN = 1e −7 mol N k L −1 , prey = 1e −7 CmolX L −1 , and initial S:H biomass = 0.001.</p><p>These dynamics reveal that the re-establishment of nitrogenlimitation is the most important diagnostic of recovery to a 'healthy' state, as this is when positive growth rates are resumed. A high S:H biomass ratio alone does not necessarily indicate that a 'healthy' state has been reached, since the carbon-limited state may still persist (e.g. <ref type="figure" target="#fig_1">Fig. 9 (B)</ref> and (C)). This could explain why corals that have recovered their symbiont populations after bleaching may still exhibit energetic deficits and physiological impacts, possibly for months to years <ref type="bibr" target="#b25">( Hughes and Grottoli, 2013;</ref><ref type="bibr" target="#b34">Levitan et al., 2014 )</ref>. These findings suggest that host acquisition of carbon from a source other than the symbiont may be extremely important for the system to recover from bleaching. Indeed, host feeding has been shown to promote a more rapid return to pre-bleaching levels of key physiological parameters in recovering corals <ref type="bibr" target="#b10">( Connolly et al., 2012 )</ref>. Additional carbon sources for the host, such as direct uptake of dissolved organic carbon <ref type="bibr" target="#b33">( Levas et al., 2015 )</ref>, may also promote more rapid recovery from a bleached state.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Conclusions</head><p>This dynamic bioenergetic model of coral-Symbiodinium symbioses mechanistically reproduces patterns in steady-state coral growth and symbiont abundance commonly observed in corals, including higher symbiont abundance with higher nutrients and feeding, lower symbiont abundance with increasing light, and optimal growth at intermediate light levels. Moreover, the model reproduces complex dynamic behaviors including seasonal changes in symbiont density at different nutrient levels, rapid bleaching above a threshold of high light, mitigation of bleaching by heterotrophic feeding, exacerbation of bleaching by elevated nutrients, and an overshoot of symbiont density during recovery from bleaching. These examples demonstrate the model's ability to integrate multiple environmental forcing functions to reproduce complex responses; meanwhile, the diversity of these phenomena suggest the model has captured many of the important features of the system in a unifying mechanistic framework. This model also provides a new conceptual framework for considering coral bleach-ing as a transition to an alternate stable state, which has important implications for understanding the performance and maintenance of symbiotic interactions. In this context, the 'healthy' stable state represents a scenario in which nitrogen-limitation stabilizes the symbiont to host biomass ratio and maintains positive growth. Conversely, carbon-limitation represents a dysfunctional state wherein positive feedbacks result in coral bleaching and negative growth, with hysteresis maintaining this alternate state until a favorable environment is re-established. Interestingly, alternate stable states have received much attention in coral reef community ecology with respect to coral-and macroalgal-dominance on reefs <ref type="bibr" target="#b40">( Mumby et al., 2007 )</ref>. Here, we find that the same principles may also mediate bleaching and recovery in individual corals.</p><p>The model developed here can be used to explore many different dynamic environmental scenarios, and represents a tool that biologists and ecologists can use to generate hypotheses and make predictions in both experimental and natural settings. Moreover, parameter values can be modified to correspond to different genetic or functional types of coral hosts and Symbiodinium partners in order to evaluate variability in system responses. Thus, the diversity of potential applications for this model is high, and we envision this work as a foundation for continued development, which may include more detailed treatments of specific modules (e.g., DIC processing), and the incorporation of more external forcing capabilities (e.g., external DIC, temperature). Importantly, open source R code allows this effort to benefit from contributions from the wider scientific community, including those with empirical and theoretical backgrounds. Ultimately, the continued refinement of these tools is fundamental in elucidating the mechanisms of symbiosis function and dysfunction, and in predicting coral responses to environmental change.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 2 .</head><label>2</label><figDesc>Alternate stable states in S:H biomass and growth across a light gradient. Alternate stable states occur between ∼ 25-42 mol photons m −1 d −1 under these conditions (DIN = 1e −7 mol N L −1 ; X = 1e −7 C-mol X L −1 ), depending on whether initial S:H is high (1, closed circles), representing a healthy coral, or low (0.0 0 01, open circles), representing a bleached coral. Arrow above point at L = 25 indicates a S:H ratio beyond the y -axis range; this "overshoot" phenomenon, in which initially bleached corals may achieve high S:H ratios while remaining in a carbon-limited state is discussed in the Coral Bleaching and Recovery section.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 9 .</head><label>9</label><figDesc>Recovery from bleaching with varying N:C availability (A: N:C = 0.100; B: N:C = 0.175; C: N:C = 0.220).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 2</head><label>2</label><figDesc></figDesc><table><row><cell cols="4">Model parameters (units explained in the text). Justification and/or derivation of each parameter value along with supporting references are</cell></row><row><cell cols="4">provided in the Supplementary Information. (Abbreviations: CCMs = carbon concentrating mechanisms; NPQ = non-photochemical quench-</cell></row><row><cell cols="2">ing; ROS = reactive oxygen species; DIN = dissolved inorganic nitrogen).</cell><cell></cell><cell></cell></row><row><cell>Symbol</cell><cell>Description</cell><cell>Units</cell><cell>Value</cell></row><row><cell>n NH</cell><cell>N:C molar ratio in host biomass</cell><cell>-</cell><cell>0 . 1 8</cell></row><row><cell>n NS</cell><cell>N:C molar ratio in symbiont biomass</cell><cell>-</cell><cell>0 . 1 3</cell></row><row><cell>n NX</cell><cell>N:C molar ratio in prey biomass</cell><cell>-</cell><cell>0 . 2</cell></row><row><cell>j 0 HT j 0 ST σ NH</cell><cell>Maintenance rate of host biomass Maintenance rate of symbiont biomass Proportion N turnover recycled in host</cell><cell>C-mol H C-mol H −1 d −1 C-mol S C-mol S −1 d −1 -</cell><cell>0.03 0.03 0 . 9</cell></row><row><cell>σ CH</cell><cell>Proportion host metabolic CO 2 recycled to photosynthesis</cell><cell>-</cell><cell>0 . 1</cell></row><row><cell>σ NS</cell><cell>Proportion N turnover recycled in symbiont</cell><cell>-</cell><cell>0 . 9</cell></row><row><cell>σ CS</cell><cell>Proportion symbiont metabolic CO 2 recycled to photosynthesis</cell><cell>-</cell><cell>0 . 9</cell></row><row><cell>j Xm</cell><cell></cell><cell></cell><cell></cell></row></table><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2">Note that recycling of symbiont biomass turnover ( r NS and r CS ) only occurs based on the maintenance component of turnover (i.e., j 0 ST ), and not the photodamage/bleaching component, as this loss represents biomass that is expelled from the host.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3">At the light levels indicated in<ref type="bibr" target="#b50">Stimson (1997)</ref> . Note that if light levels were reduced throughout the year (e.g. for a coral at greater depth) such that light did not cause photo-oxidative stress in summer but became limiting to photosynthesis in winter, the S:H ratio would still increase in winter, but growth would decrease; the latter scenario is predicted both by the present model as well as that of<ref type="bibr" target="#b37">Muller et al. (2009)</ref> , since photo-oxidative stress does not become relevant.</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgments</head><p>This work was supported by a NSF Postdoctoral Research Fellowship in Biology to RC (#1400787).</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary material</head><p>Supplementary material associated with this article can be found, in the online version, at doi: 10.1016/j.jtbi.2017.08.003 .</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Comparative analysis of energy allocation to tissue and skeletal growth in corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Anthony</surname></persName>
+		</author>
+		<ptr target="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=0036733455&amp;origin=inward" />
+	</analytic>
+	<monogr>
+		<title level="j">Limnol. Oceanogr</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1417" to="1429" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Anthony, K., 2002. Comparative analysis of energy allocation to tissue and skeletal growth in corals. Limnol. Oceanogr. 47 (5), 1417-1429. https://www.scopus.com/ inward/record.uri?partnerID=HzOxMe3b&amp;scp=0036733455&amp;origin=inward .</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Trioecy, a unique breeding strategy in the sea anemone aiptasia diaphana and its association with sex steroids</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rachel</forename><surname>Armoza-Zvuloni</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Kramarsky-Winter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Loya</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Schlesinger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Rosenfeld</surname></persName>
+		</author>
+		<idno type="DOI">10.1095/biolreprod.113.114116</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Reprod</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<date type="published" when="2014" />
+			<publisher>122 . Society for the Study of Reproduction</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Armoza-Zvuloni, Rachel, Kramarsky-Winter, E., Loya, Y., Schlesinger, A., Rosen- feld, H., 2014. Trioecy, a unique breeding strategy in the sea anemone aiptasia diaphana and its association with sex steroids. Biol. Reprod. 90 (6), 122 . Society for the Study of Reproduction. doi: 10.1095/biolreprod.113.114116 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The growth of coral colonies and the importance of crustose coralline algae and burrowing sponges in relation with carbonate accumulation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Bak</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0077-7579(76)90009-0</idno>
+		<idno>doi: 10.1016/0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neth. J. Sea Res</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="90" to="99" />
+			<date type="published" when="1976" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bak, R., 1976. The growth of coral colonies and the importance of crustose coralline algae and burrowing sponges in relation with carbonate accumulation. Neth. J. Sea Res. 10 (3), 285-337. doi: 10.1016/0 077-7579(76)90 09-0 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Coral &apos;bleaching&apos; as a generalized stress response to environmental disturbance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Cunning</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/9781118828502.ch30</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Diseases of Coral</title>
+		<meeting><address><addrLine>NJ</addrLine></address></meeting>
+		<imprint>
+			<publisher>John Wiley &amp; Sons, Inc., Hoboken</publisher>
+			<date type="published" when="2015" />
+			<biblScope unit="page" from="396" to="409" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baker, A.C., Cunning, R., 2015. Coral &apos;bleaching&apos; as a generalized stress response to environmental disturbance. In: Diseases of Coral. John Wiley &amp; Sons, Inc., Hobo- ken, NJ, pp. 396-409. doi: 10.1002/9781118828502.ch30 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Coral growth rate: variation with depth</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">N</forename><surname>Weber</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0012-821X(75)90160-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet. Sci. Lett</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="57" to="61" />
+			<date type="published" when="1975" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baker, P., Weber, J.N., 1975. Coral growth rate: variation with depth. Earth Planet. Sci. Lett. 27 (1), 57-61. doi: 10.1016/0012-821X(75)90160-0 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Coral host cells acidify symbiotic algal microenvironment to promote photosynthesis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">L</forename><surname>Barott</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">A</forename><surname>Venn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">O</forename><surname>Perez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Tambutte</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Tresguerres</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1413483112</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the National Academy of Sciences of the United States of America</title>
+		<meeting>the National Academy of Sciences of the United States of America</meeting>
+		<imprint>
+			<date type="published" when="2014-12" />
+			<biblScope unit="page">201413483</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Barott, K.L., Venn, A .A ., Perez, S.O., Tambutte, S., Tresguerres, M., December 2014. Coral host cells acidify symbiotic algal microenvironment to promote photosyn- thesis. In: Proceedings of the National Academy of Sciences of the United States of America, p. 201413483. doi: 10.1073/pnas.1413483112 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The effect of heterotrophy on photosynthesis and tissue composition of two scleractinian corals under elevated temperature</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">M</forename><surname>Borell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Yuliantri</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Bischof</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Richter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Mar. Biol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">364</biblScope>
+			<biblScope unit="page" from="116" to="123" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Borell, E.M. , Yuliantri, A. , Bischof, K. , Richter, C. , 2008. The effect of heterotrophy on photosynthesis and tissue composition of two scleractinian corals under el- evated temperature. J. Exp. Mar. Biol. Ecol. 364, 116-123 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Seasonal fluctuations in environmental factors and variations in symbiotic algae and chlorophyll pigments in four indo-pacific coral species</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">E</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">P</forename><surname>Dunne</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Ambarsari</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">L</forename><surname>Tissier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Satapoomin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Ecol. Prog. Ser</title>
+		<imprint>
+			<biblScope unit="volume">191</biblScope>
+			<biblScope unit="page" from="53" to="69" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brown, B.E. , Dunne, R.P. , Ambarsari, I. , Tissier, M.L. , Satapoomin, U. , 1999. Seasonal fluctuations in environmental factors and variations in symbiotic algae and chlorophyll pigments in four indo-pacific coral species. Mar. Ecol. Prog. Ser. 191, 53-69 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The synergistic effect of carbon concentration and high temperature on lipid peroxidation in peridinium gatunense</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Butow</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Wynne</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Sukenik</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Hadas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Tel-Or</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/plankt/20.2.355</idno>
+		<idno>doi: 10. 1093/plankt/20.2.355</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Plankton Res</title>
+		<imprint>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="355" to="369" />
+			<date type="published" when="1998" />
+			<publisher>Oxford University Press</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Butow, B., Wynne, D., Sukenik, A., Hadas, O., Tel-Or, E., 1998. The synergistic effect of carbon concentration and high temperature on lipid peroxidation in peridinium gatunense. J. Plankton Res. (2), 355-369 . Oxford University Press. doi: 10. 1093/plankt/20.2.355 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Synergistic effects of temperature, salinity and light on the hermatypic coral montipora verrucosa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Coles</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">L</forename><surname>Jokiel</surname></persName>
+		</author>
+		<ptr target="http://www.springerlink.com/index/LU582837924G7674.pdf" />
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Biol</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="187" to="195" />
+			<date type="published" when="1978" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Coles, S., Jokiel, P.L., 1978. Synergistic effects of temperature, salinity and light on the hermatypic coral montipora verrucosa. Mar. Biol. 49, 187-195. http://www. springerlink.com/index/LU582837924G7674.pdf .</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Food availability promotes rapid recovery from thermal stress in a scleractinian coral</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Connolly</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Lopez-Yglesias</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">R N</forename><surname>Anthony</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00338-012-0925-9</idno>
+		<idno>doi: 10.10 07/s0 0338-012-0925-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Coral Reefs</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="951" to="960" />
+			<date type="published" when="2012" />
+			<publisher>Springer-Verlag</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Connolly, S.R., Lopez-Yglesias, M.A., Anthony, K.R.N., 2012. Food availability promotes rapid recovery from thermal stress in a scleractinian coral. Coral Reefs 31 (4), 951-960 . Springer-Verlag. doi: 10.10 07/s0 0338-012-0925-9 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Changes in the global value of ecosystem services</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Costanza</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>De Groot</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Sutton</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.gloenvcha.2014.04.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Global Environ. Chang</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="152" to="158" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Costanza, R., de Groot, R., Sutton, P., 2014. Changes in the global value of ecosys- tem services. Global Environ. Chang. 26, 152-158. doi: 10.1016/j.gloenvcha.2014. 04.002 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Investigating the causes and consequences of symbiont shuffling in a multi-partner reef coral symbiosis under environmental change</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Cunning</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Cunning</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">N</forename><surname>Silverstein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Baker</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rspb.2014.1725&amp;domain$=$pdf&amp;date_stamp</idno>
+		<ptr target="doi:10.1098/rspb.2014.1725&amp;domain=pdf&amp;date_stamp" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Clim. Chang</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="259" to="262" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note>Proc. R. Soc. B</note>
+	<note type="raw_reference">Cunning, R., Baker, A.C., 2013. Excess algal symbionts increase the susceptibility of reef corals to bleaching. Nat. Clim. Chang. 3, 259-262. doi: 10.1038/nclimate1711 . Cunning, R., Silverstein, R.N., Baker, A.C., 2015. Investigating the causes and con- sequences of symbiont shuffling in a multi-partner reef coral symbiosis un- der environmental change. Proc. R. Soc. B 282, 20141725. doi: 10.1098/rspb.2014. 1725&amp;domain=pdf&amp;date _ stamp .</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Heatstress and light-stress induce different cellular pathologies in the symbiotic dinoflagellate during coral bleaching</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Downs</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">E</forename><surname>Mcdougall</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">M</forename><surname>Woodley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Fauth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">H</forename><surname>Richmond</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Kushmaro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">W</forename><surname>Gibb</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Yossi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">K</forename><surname>Ostrander</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Kramarsky-Winter</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0077173</idno>
+		<idno>doi: 10.1371/ journal.pone.0077173</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page">77173</biblScope>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Downs, C.A., McDougall, K.E., Woodley, C.M., Fauth, J.E., Richmond, R.H., Kush- maro, A., Gibb, S.W., Yossi, L., Ostrander, G.K., Kramarsky-Winter, E., 2013. Heat- stress and light-stress induce different cellular pathologies in the symbiotic dinoflagellate during coral bleaching. PLoS One 8 (12), e77173. doi: 10.1371/ journal.pone.0077173 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Benchmarks in organism performance and their use in comparative analyses</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">J</forename><surname>Edmunds</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">M</forename><surname>Putnam</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Nisbet</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">B</forename><surname>Muller</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00442-011-2004-2</idno>
+		<idno>379- 390. doi: 10.10 07/s0 0442-011-2004-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Oecologia</title>
+		<imprint>
+			<biblScope unit="volume">167</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Edmunds, P.J., Putnam, H.M., Nisbet, R.M., Muller, E.B., 2011. Benchmarks in organ- ism performance and their use in comparative analyses. Oecologia 167 (2), 379- 390. doi: 10.10 07/s0 0442-011-2004-2 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Multiple scattering on coral skeletons enhances light absorption by symbiotic algae</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Enríquez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">R</forename><surname>Méndez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Iglesias-Prieto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Limnol. Oceanogr</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1025" to="1032" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Enríquez, S. , Méndez, E.R. , Iglesias-Prieto, R. , 2005. Multiple scattering on coral skeletons enhances light absorption by symbiotic algae. Limnol. Oceanogr. 50 (4), 1025-1032 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Impact of excess and harmful radiation on energy budgets in scleractinian corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Eynaud</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Nisbet</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">B</forename><surname>Muller</surname></persName>
+		</author>
+		<ptr target="http://www.sciencedirect.com/science/article/pii/S0304380011000263" />
+	</analytic>
+	<monogr>
+		<title level="j">Ecol. Model</title>
+		<imprint>
+			<biblScope unit="volume">222</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1315" to="1322" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note>Elsevier</note>
+	<note type="raw_reference">Eynaud, Y., Nisbet, R.M., Muller, E.B., 2011. Impact of excess and harmful radiation on energy budgets in scleractinian corals. Ecol. Model. 222 (7), 1315-1322 . El- sevier. http://www.sciencedirect.com/science/article/pii/S0304380 0110 0 0263 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The dynamics of zooxanthellae populations: a long-term study in the field</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Fagoonee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">B</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">P</forename><surname>Hassell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Turner</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.283.5403.843</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">283</biblScope>
+			<biblScope unit="issue">5403</biblScope>
+			<biblScope unit="page" from="843" to="845" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fagoonee, I., Wilson, H.B., Hassell, M.P., Turner, J.R., 1999. The dynamics of zooxan- thellae populations: a long-term study in the field. Science 283 (5403), 843- 845. doi: 10.1126/science.283.5403.843 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Effect of nutrient enrichment on growth and photosynthesis of the zooxanthellate coral stylophora pistillata</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Ferrier-Pagés</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J.-P</forename><surname>Gattuso</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Dallot</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Jaubert</surname></persName>
+		</author>
+		<ptr target="http://www.springerlink.com/index/3DRC3K1Q57TPC0UT.pdf" />
+	</analytic>
+	<monogr>
+		<title level="j">Coral Reefs</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">0</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ferrier-Pagés, C., Gattuso, J.-P., Dallot, S., Jaubert, J., 20 0 0. Effect of nutrient enrich- ment on growth and photosynthesis of the zooxanthellate coral stylophora pis- tillata. Coral Reefs. http://www.springerlink.com/index/3DRC3K1Q57TPC0UT.pdf .</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Coral bleaching: interpretation of thermal tolerance limits and thermal thresholds in tropical corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">K</forename><surname>Fitt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">E</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E</forename><surname>Warner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">P</forename><surname>Dunne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Coral Reefs</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="51" to="65" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fitt, W.K. , Brown, B.E. , Warner, M.E. , Dunne, R.P. , 2001. Coral bleaching: interpreta- tion of thermal tolerance limits and thermal thresholds in tropical corals. Coral Reefs 20, 51-65 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Seasonal patterns of tissue biomass and densities of symbiotic dinoflagellates in reef corals and relation to coral bleaching</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">K</forename><surname>Fitt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">K</forename><surname>Mcfarland</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E</forename><surname>Warner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">C</forename><surname>Chilcoat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Limnol. Oceanogr</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">0</biblScope>
+			<biblScope unit="page" from="677" to="685" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fitt, W.K. , McFarland, F.K. , Warner, M.E. , Chilcoat, G.C. , 20 0 0. Seasonal patterns of tissue biomass and densities of symbiotic dinoflagellates in reef corals and re- lation to coral bleaching. Limnol. Oceanogr. 45 (3), 677-685 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Heterotrophic plasticity and resilience in bleached corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">G</forename><surname>Grottoli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">J</forename><surname>Rodrigues</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Palardy</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature04565</idno>
+		<idno>doi: 10.1038/ nature04565</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">440</biblScope>
+			<biblScope unit="issue">7088</biblScope>
+			<biblScope unit="page" from="1186" to="1189" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Grottoli, A.G., Rodrigues, L.J., Palardy, J.E., 2006. Heterotrophic plasticity and resilience in bleached corals. Nature 440 (7088), 1186-1189. doi: 10.1038/ nature04565 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Partitioning of respiration in an animal-algal symbiosis: implications for different aerobic capacity between symbiodinium spp</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">D</forename><surname>Hawkins</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C G</forename><surname>Hagemeyer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">D</forename><surname>Hoadley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">G</forename><surname>Marsh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E</forename><surname>Warner</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fphys.2016.00128</idno>
+		<idno>doi: 10.3389/ fphys.2016.00128</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">125</biblScope>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hawkins, T.D., Hagemeyer, J.C.G., Hoadley, K.D., Marsh, A.G., Warner, M.E., 2016. Par- titioning of respiration in an animal-algal symbiosis: implications for different aerobic capacity between symbiodinium spp. Front. Physiol. 7, 125. doi: 10.3389/ fphys.2016.00128 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Climate change, coral bleaching and the future of the world&apos;s coral reefs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Hoegh-Guldberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Freshwater Res</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="839" to="866" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hoegh-Guldberg , 1999. Climate change, coral bleaching and the future of the world&apos;s coral reefs. Mar. Freshwater Res. 50, 839-866 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Internal carbonic anhydrase activity in the tissue of scleractinian corals is sufficient to support proposed roles in photosynthesis and calcification</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">M</forename><surname>Hopkinson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">L</forename><surname>Tansik</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">K</forename><surname>Fitt</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/jeb.118182</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Biology . The Company of Biologists Ltd</title>
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hopkinson, B.M., Tansik, A.L., Fitt, W.K., 2015. Internal carbonic anhydrase activity in the tissue of scleractinian corals is sufficient to support proposed roles in photosynthesis and calcification. J. Exp. Biology . The Company of Biologists Ltd. doi: 10.1242/jeb.118182 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Heterotrophic compensation: a possible mechanism for resilience of coral reefs to global warming or a sign of prolonged stress?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">D</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">G</forename><surname>Grottoli</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0081172</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<date type="published" when="2013" />
+			<publisher>e81172 . Public Library of Science</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hughes, A.D., Grottoli, A.G., 2013. Heterotrophic compensation: a possible mech- anism for resilience of coral reefs to global warming or a sign of prolonged stress? PLoS One 8 (11), e81172 . Public Library of Science. doi: 10.1371/journal. pone.0081172 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Variation in coral growth rates with depth at discovery Bay</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Huston</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Discovery</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF00302200</idno>
+		<idno>doi: 10.10 07/BF0 030220 0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Jamaica. Coral Reefs</title>
+		<imprint>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="19" to="25" />
+			<date type="published" when="1985" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Huston, M., Discovery, B., 1985. Variation in coral growth rates with depth at dis- covery Bay, Jamaica. Coral Reefs (1), 19-25. doi: 10.10 07/BF0 030220 0 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">DEBKiss or the quest for the simplest generic model of animal life history</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Jager</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">T</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">I</forename><surname>Zimmer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jtbi.2013.03.011</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Theor. Biol</title>
+		<imprint>
+			<biblScope unit="volume">328</biblScope>
+			<biblScope unit="page" from="9" to="18" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jager, T., Martin, B.T., Zimmer, E.I., 2013. DEBKiss or the quest for the simplest generic model of animal life history. J. Theor. Biol. 328, 9-18. doi: 10.1016/j.jtbi. 2013.03.011 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Effects of temperature on the mortality and growth of hawaiian reef corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">L</forename><surname>Jokiel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Coles</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Biol</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="201" to="208" />
+			<date type="published" when="1977" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jokiel, P.L. , Coles, S. , 1977. Effects of temperature on the mortality and growth of hawaiian reef corals. Mar. Biol. 43 (3), 201-208 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Temperature-induced bleaching of corals begins with impairment of the CO 2 fixation mechanism in zooxanthellae</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">J</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Hoegh-Guldberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">W D</forename><surname>Larkum</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Schreiber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Cell Environ</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1219" to="1230" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jones, R.J. , Hoegh-Guldberg, O. , Larkum, A.W.D. , Schreiber, U. , 1998. Temperature-in- duced bleaching of corals begins with impairment of the CO 2 fixation mecha- nism in zooxanthellae. Plant Cell Environ. 21 (12), 1219-1230 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Community dynamics and physiology of symbiodinium spp. before, during, and after a coral bleaching event</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">W</forename><surname>Kemp</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Hernandez-Pech</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Iglesias-Prieto</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">K</forename><surname>Fitt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">W</forename><surname>Schmidt</surname></persName>
+		</author>
+		<ptr target="http://www.aslo.org/lo/pdf/vol_59/issue_3/0788.pdf" />
+	</analytic>
+	<monogr>
+		<title level="j">Limnol. Oceanogr</title>
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kemp, D.W., Hernandez-Pech, X., Iglesias-Prieto, R., Fitt, W.K., Schmidt, G.W., 2014. Community dynamics and physiology of symbiodinium spp. before, during, and after a coral bleaching event. Limnol. Oceanogr. http://www.aslo.org/lo/pdf/vol _ 59/issue _ 3/0788.pdf .</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Dynamic Energy Budget Theory for Metabolic Organization</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Kooijman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010" />
+			<publisher>Cambridge University Press. SALM</publisher>
+		</imprint>
+	</monogr>
+	<note>3rd ed.</note>
+	<note type="raw_reference">Kooijman, 2010. Dynamic Energy Budget Theory for Metabolic Organization. 3rd ed. Cambridge University Press. SALM.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Oxidative stress causes coral bleaching during exposure to elevated temperatures</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">P</forename><surname>Lesser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Coral Reefs</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="187" to="192" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lesser, M.P. , 1997. Oxidative stress causes coral bleaching during exposure to ele- vated temperatures. Coral Reefs 16, 187-192 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Can heterotrophic uptake of dissolved organic carbon and zooplankton mitigate carbon budget deficits in annually bleached corals?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Levas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">G</forename><surname>Grottoli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Schoepf</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">D</forename><surname>Aschaffenburg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Baumann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Bauer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E</forename><surname>Warner</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00338-015-1390-z</idno>
+		<idno>doi: 10.1007/ s00338-015-1390-z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Coral Reefs</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="495" to="506" />
+			<date type="published" when="2015" />
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Levas, S., Grottoli, A.G., Schoepf, V., Aschaffenburg, M.D., Baumann, J., Bauer, J.E., Warner, M.E., 2015. Can heterotrophic uptake of dissolved organic car- bon and zooplankton mitigate carbon budget deficits in annually bleached corals? Coral Reefs 35 (2), 495-506 . Springer Berlin Heidelberg. doi: 10.1007/ s00338-015-1390-z .</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Long-term reduced spawning in orbicella coral species due to temperature stress</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">R</forename><surname>Levitan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Boudreau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Jara</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Knowlton</surname></persName>
+		</author>
+		<idno type="DOI">10.3354/meps11063</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Ecol. Prog. Ser</title>
+		<imprint>
+			<biblScope unit="volume">515</biblScope>
+			<biblScope unit="page" from="1" to="10" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Levitan, D.R., Boudreau, W., Jara, J., Knowlton, N., 2014. Long-term reduced spawning in orbicella coral species due to temperature stress. Mar. Ecol. Prog. Ser. 515, 1- 10. doi: 10.3354/meps11063 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Modulation of light-enhancement to symbiotic algae by light-scattering in corals and evolutionary trends in bleaching</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">A</forename><surname>Marcelino</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">W</forename><surname>Westneat</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Stoyneva</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Henss</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">D</forename><surname>Rogers</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Radosevich</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Turzhitsky</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0061492.s008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Marcelino, L.A., Westneat, M.W., Stoyneva, V., Henss, J., Rogers, J.D., Radosevich, A., Turzhitsky, V., 2013. Modulation of light-enhancement to symbiotic algae by light-scattering in corals and evolutionary trends in bleaching. PLoS One 8 (4), e61492. doi: 10.1371/journal.pone.0061492.s008 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Nitrate increases zooxanthellae population density and reduces skeletogenesis in corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Marubini</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Davies</surname></persName>
+		</author>
+		<idno>partnerID=yv4JPVwI&amp;eid=2-s2. 0-0 030301761&amp;md5=0971551a6865f30 046294b9e17fb4081</idno>
+		<ptr target="http://www.scopus.com/inward/record.url" />
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Biol</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="319" to="328" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Marubini, F., Davies, P., 1996. Nitrate increases zooxanthellae population den- sity and reduces skeletogenesis in corals. Mar. Biol. 127 (2), 319-328. http://www.scopus.com/inward/record.url?partnerID=yv4JPVwI&amp;eid=2-s2. 0-0 030301761&amp;md5=0971551a6865f30 046294b9e17fb4081 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Dynamic energy budgets in syntrophic symbiotic relationships between heterotrophic hosts and photoautotrophic symbionts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">B</forename><surname>Muller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">L</forename><surname>Sebastiaan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Kooijman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">J</forename><surname>Edmunds</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">J</forename><surname>Doyle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Nisbet</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jtbi.2009.03.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Theor. Biol</title>
+		<imprint>
+			<biblScope unit="volume">259</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="44" to="57" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Muller, E.B., Sebastiaan, A.L., Kooijman, M., Edmunds, P.J., Doyle, F.J., Nisbet, R.M., 2009. Dynamic energy budgets in syntrophic symbiotic relationships between heterotrophic hosts and photoautotrophic symbionts. J. Theor. Biol. 259 (1), 44- 57. doi: 10.1016/j.jtbi.20 09.03.0 04 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Seasonal variation in light-shade adaptation of natural populations of the symbiotic sea anemone aiptasiapulchella (carlgren, 1943) in Hawaii</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Giséle</forename><surname>Muller-Parker</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0022-0981(87)90115-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Mar. Biol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="90115" to="90123" />
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Muller-Parker, Giséle, 1987. Seasonal variation in light-shade adaptation of natu- ral populations of the symbiotic sea anemone aiptasiapulchella (carlgren, 1943) in Hawaii. J. Exp. Mar. Biol. Ecol. 112 (2), 165-183. doi: 10.1016/0022-0981(87) 90115-8 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Effect of ammonium enrichment on animal and algal biomass of the coral pocillopora damicornis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Muller-Parker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Giséle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">R</forename><surname>Mccloskey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Hoegh-Guldberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Mcauley</surname></persName>
+		</author>
+		<ptr target="http://scholarspace.manoa.hawaii.edu/handle/10125/" />
+	</analytic>
+	<monogr>
+		<title level="j">Pac. Sci</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Muller-Parker, Giséle, McCloskey, L.R., Hoegh-Guldberg, O., McAuley, P., 1994. Effect of ammonium enrichment on animal and algal biomass of the coral pocillopora damicornis. Pac. Sci. 48 (3) http://scholarspace.manoa.hawaii.edu/handle/10125/ .</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Thresholds and the resilience of caribbean coral reefs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">J</forename><surname>Mumby</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Hastings</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">J</forename><surname>Edwards</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature06252</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">450</biblScope>
+			<biblScope unit="issue">7166</biblScope>
+			<biblScope unit="page" from="98" to="101" />
+			<date type="published" when="2007" />
+			<publisher>Nature Publishing Group</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mumby, P.J., Hastings, A., Edwards, H.J., 2007. Thresholds and the resilience of caribbean coral reefs. Nature 450 (7166), 98-101 . Nature Publishing Group. doi: 10.1038/nature06252 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Estimating the daily contribution of carbon from zooxanthellae to coral animal respiration</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Muscatine</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">R</forename><surname>Mccloskey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">E</forename><surname>Marian</surname></persName>
+		</author>
+		<idno type="DOI">10.4319/lo.1981.26.4.0601</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Limnol. Oceanogr</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="601" to="611" />
+			<date type="published" when="1981" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Muscatine, L., McCloskey, L.R., Marian, R.E., 1981. Estimating the daily contribution of carbon from zooxanthellae to coral animal respiration. Limnol. Oceanogr. 26 (4), 601-611. doi: 10.4319/lo.1981.26.4.0601 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Reef corals: mutualistic symbioses adapted to nutrient-poor environments</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Muscatine</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">W</forename><surname>Porter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioscience</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="454" to="460" />
+			<date type="published" when="1977" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Muscatine, L. , Porter, J.W. , 1977. Reef corals: mutualistic symbioses adapted to nu- trient-poor environments. Bioscience 27 (7), 454-460 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">The biology and economics of coral growth</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Osinga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Schutter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Griffioen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">H</forename><surname>Wijffels</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A J</forename><surname>Verreth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Shafir</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Henard</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Taruffi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Claudia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Silvia</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10126-011-9382-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="658" to="671" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Osinga, R., Schutter, M., Griffioen, B., Wijffels, R.H., Verreth, J.A.J., Shafir, S., Henard, S., Taruffi, M., Claudia, G., Silvia, L., 2011. The biology and economics of coral growth. Mar. Biotechnol. 13 (4), 658-671. doi: 10.1007/s10126-011-9382-7 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">The CORALZOO project: a synopsis of four years of public aquarium science</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Osinga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Schutter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Wijgerde</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Rinkevich</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Shafir</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Shpigel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">M</forename><surname>Luna</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/S0025315411001779</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mar. Biol. Assoc. U. K</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="issue">04</biblScope>
+			<biblScope unit="page" from="753" to="768" />
+			<date type="published" when="2012" />
+			<publisher>Cambridge University Press</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Osinga, R., Schutter, M., Wijgerde, T., Rinkevich, B., Shafir, S., Shpigel, M., Luna, G.M., 2012. The CORALZOO project: a synopsis of four years of public aquarium sci- ence. J. Mar. Biol. Assoc. U. K. 92 (04), 753-768 . Cambridge University Press. doi: 10.1017/S0025315411001779 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Photoinhibition of photosynthesis induced by visible light</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">B</forename><surname>Powles</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Plant. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="15" to="44" />
+			<date type="published" when="1984" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Powles, S.B. , 1984. Photoinhibition of photosynthesis induced by visible light. Annu. Rev. Plant. Physiol. 35, 15-44 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<monogr>
+		<title level="m" type="main">The engine of the reef: photobiology of the coral-algal symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">S</forename><surname>Roth</surname></persName>
+		</author>
+		<idno type="DOI">http://journal.frontiersin.org/Journal/10.3389/fmicb.2014.00422/pdf</idno>
+		<ptr target="http://journal.frontiersin.org/Journal/10.3389/fmicb.2014.00422/pdf" />
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Roth, M.S., 2014. The engine of the reef: photobiology of the coral-algal symbiosis. Front Microbiol. http://journal.frontiersin.org/Journal/10.3389/fmicb.2014.00422/ pdf .</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">The effect of different flow regimes on the growth and metabolic rates of the scleractinian coral galaxea fascicularis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Schutter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Crocker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Paijmans</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Osinga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename><surname>Verreth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">H</forename><surname>Wijffels</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00338-010-0617-2</idno>
+		<idno>doi: 10.1007/ s00338-010-0617-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Coral Reefs</title>
+		<imprint>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schutter, M.J., Crocker, A., Paijmans, M.J., Osinga, R., Verreth, A.J., Wijffels, R.H., 2010. The effect of different flow regimes on the growth and metabolic rates of the scleractinian coral galaxea fascicularis. Coral Reefs doi: 10.1007/ s00338-010-0617-2 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Light intensity, photoperiod duration, daily light flux and coral growth of galaxea fascicularis in an aquarium setting: a matter of photons?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Schutter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Van Der Ven</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Janse</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A J</forename><surname>Verreth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">H</forename><surname>Wijffels</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Osinga</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/S0025315411000920</idno>
+		<idno>doi: 10.1017/ S0025315411000920</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mar. Biol. Assoc. UK</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="issue">04</biblScope>
+			<biblScope unit="page" from="703" to="712" />
+			<date type="published" when="2011" />
+			<publisher>Cambridge University Press</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schutter, M., van der Ven, R.M., Janse, M., Verreth, J.A.J., Wijffels, R.H., Osinga, R., 2011. Light intensity, photoperiod duration, daily light flux and coral growth of galaxea fascicularis in an aquarium setting: a matter of photons? J. Mar. Biol. Assoc. UK 92 (04), 703-712 . Cambridge University Press. doi: 10.1017/ S0025315411000920 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Nutrient loading alters the performance of key nutrient exchange mutualisms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">A</forename><surname>Shantz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">P</forename><surname>Lemoine</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">E</forename><surname>Burkepile</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/ele.12538</idno>
+		<idno>doi: 10. 1111/ele.12538</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ecol. Lett</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="20" to="28" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shantz, A .A ., Lemoine, N.P., Burkepile, D.E., 2015. Nutrient loading alters the perfor- mance of key nutrient exchange mutualisms. Ecol. Lett. 19 (1), 20-28. doi: 10. 1111/ele.12538 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">The annual cycle of density of zooxanthellae in the tissues of field and laboratory-held pocillopora damicornis (linnaeus)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Stimson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Mar. Biol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">214</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="35" to="48" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stimson, J. , 1997. The annual cycle of density of zooxanthellae in the tissues of field and laboratory-held pocillopora damicornis (linnaeus). J. Exp. Mar. Biol. Ecol. 214 (1-2), 35-48 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Marine pollution bulletin</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Tanaka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Iguchi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Inoue</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Mori</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Sakai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Suzuki</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Kawahata</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Nakamura</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.marpolbul.2012.12.017</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Pollut. Bull</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="93" to="98" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tanaka, Y., Iguchi, A., Inoue, M., Mori, C., Sakai, K., Suzuki, A., Kawahata, H., Naka- mura, T., 2013. Marine pollution bulletin. Mar. Pollut. Bull. 68 (1-2), 93-98. doi: 10.1016/j.marpolbul.2012.12.017 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Imbalanced coral growth between organic tissue and carbonate skeleton caused by nutrient enrichment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Tanaka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Miyajima</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Koike</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Hayashibara</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Ogawa</surname></persName>
+		</author>
+		<ptr target="http://www.aslo.org/lo/toc/vol_52/issue_3/1139.pdf" />
+	</analytic>
+	<monogr>
+		<title level="j">Limnol. Oceanogr</title>
+		<imprint>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tanaka, Y., Miyajima, T., Koike, I., Hayashibara, T., Ogawa, H., 2007. Imbalanced coral growth between organic tissue and carbonate skeleton caused by nutrient en- richment. Limnol. Oceanogr. http://www.aslo.org/lo/toc/vol _ 52/issue _ 3/1139.pdf .</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">External carbonic anhydrase in three caribbean corals: quantification of activity and role in CO 2 uptake</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">L</forename><surname>Tansik</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">K</forename><surname>Fitt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">M</forename><surname>Hopkinson</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00338-015-1289-8</idno>
+		<idno>doi: 10.10 07/s0 0338-015-1289-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Coral Reefs</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="703" to="713" />
+			<date type="published" when="2015" />
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tansik, A.L., Fitt, W.K., Hopkinson, B.M., 2015. External carbonic anhydrase in three caribbean corals: quantification of activity and role in CO 2 uptake. Coral Reefs 34 (3), 703-713 . Springer Berlin Heidelberg. doi: 10.10 07/s0 0338-015-1289-8 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">R: A Language and Environment for Statistical Computing</title>
+		<ptr target="http://www.R-project.org/" />
+	</analytic>
+	<monogr>
+		<title level="m">R Foundation for Statistical Computing</title>
+		<meeting><address><addrLine>Vienna, Austria</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note>R Development Core Team</note>
+	<note type="raw_reference">R Development Core Team, 2014. R: A Language and Environment for Statisti- cal Computing. Vienna, Austria: R Foundation for Statistical Computing. http: //www.R-project.org/ .</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Chronic nutrient enrichment increases prevalence and severity of coral disease and bleaching</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Thurber</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Rebecca</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">E</forename><surname>Burkepile</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Fuchs</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">A</forename><surname>Shantz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Mcminds</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Zaneveld</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/gcb.12450</idno>
+		<idno>doi: 10.1111/ gcb.12450</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Glob. Chang. Biol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="544" to="554" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Thurber, V., Rebecca, L., Burkepile, D.E., Fuchs, C., Shantz, A .A ., McMinds, R., Zan- eveld, J.R., 2014. Chronic nutrient enrichment increases prevalence and severity of coral disease and bleaching. Glob. Chang. Biol. 20 (2), 544-554. doi: 10.1111/ gcb.12450 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Photo-acclimation dynamics of the coral stylophora pistillata to low and extremely low light</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">A</forename><surname>Titlyanov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">V</forename><surname>Titlyanova</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Yamazato</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Van Woesik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Mar. Biol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">263</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="211" to="225" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Titlyanov, E.A. , Titlyanova, T.V. , Yamazato, K. , van Woesik, R. , 2001. Photo-acclima- tion dynamics of the coral stylophora pistillata to low and extremely low light. J. Exp. Mar. Biol. Ecol. 263 (2), 211-225 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Nitrogen recycling or nitrogen conservation in an alga-invertebrate symbiosis?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Douglas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Biol</title>
+		<imprint>
+			<biblScope unit="volume">201</biblScope>
+			<biblScope unit="page" from="2445" to="2453" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, J. , Douglas, A.E. , 1998. Nitrogen recycling or nitrogen conservation in an al- ga-invertebrate symbiosis? J. Exp. Biol. 201, 2445-2453 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Damage to photosystem II in symbiotic dinoflagellates: a determinant of coral bleaching</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E</forename><surname>Warner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">K</forename><surname>Fitt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">W</forename><surname>Schmidt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page" from="8007" to="8012" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Warner, M.E. , Fitt, W.K. , Schmidt, G.W. , 1999. Damage to photosystem II in symbiotic dinoflagellates: a determinant of coral bleaching. Proc. Natl. Acad. Sci. USA 96 (14), 8007-8012 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Cellular mechanisms of cnidarian bleaching: stress causes the collapse of symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">M</forename><surname>Weis</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/jeb.009597</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Biol</title>
+		<imprint>
+			<biblScope unit="volume">211</biblScope>
+			<biblScope unit="page" from="3059" to="3066" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note>Pt 19</note>
+	<note type="raw_reference">Weis, V.M., 2008. Cellular mechanisms of cnidarian bleaching: stress causes the col- lapse of symbiosis. J. Exp. Biol. 211 (Pt 19), 3059-3066. doi: 10.1242/jeb.009597 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Nutrient enrichment can increase the susceptibility of reef corals to bleaching</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Wiedenmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>D'angelo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">G</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">N</forename><surname>Hunt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F.-E</forename><surname>Legiret</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">D</forename><surname>Postle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">P</forename><surname>Achterberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nclimate1661</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Clim. Chang</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="160" to="164" />
+			<date type="published" when="2013" />
+			<publisher>Nature Publishing Group</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wiedenmann, J., D&apos;Angelo, C., Smith, E.G., Hunt, A.N., Legiret, F.-E., Postle, A.D., Achterberg, E.P., 2013. Nutrient enrichment can increase the susceptibility of reef corals to bleaching. Nat. Clim. Chang. 3, 160-164 . Nature Publishing Group. doi: 10.1038/nclimate1661 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">A new conceptual model for the warm-water breakdown of the coral-algae endosymbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Wooldridge</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Freshwater Res</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="83" to="87" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wooldridge, S.A. , 2009. A new conceptual model for the warm-water breakdown of the coral-algae endosymbiosis. Mar. Freshwater Res. 60, 4 83-4 96 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Is the coral-algae symbiosis really &apos;mutually beneficial&apos; for the partners?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Wooldridge</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioessays</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="615" to="625" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wooldridge, S.A. , 2010. Is the coral-algae symbiosis really &apos;mutually beneficial&apos; for the partners? Bioessays 32, 615-625 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Breakdown of the coral-algae symbiosis: towards formalising a linkage between warm-water bleaching thresholds and the growth rate of the intracellular zooxanthellae</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Wooldridge</surname></persName>
+		</author>
+		<ptr target="http://www.biogeosciences.net/10/1647/2013/bg-10-1647-2013.html" />
+	</analytic>
+	<monogr>
+		<title level="j">Biogeosciences</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1647" to="1658" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wooldridge, S.A., 2013. Breakdown of the coral-algae symbiosis: towards formalis- ing a linkage between warm-water bleaching thresholds and the growth rate of the intracellular zooxanthellae. Biogeosciences 10, 1647-1658. http://www. biogeosciences.net/10/1647/2013/bg-10-1647-2013.html .</note>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Differential thermal bleaching susceptibilities amongst coral taxa: re-posing the role of the host</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Wooldridge</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00338-013-1111-4</idno>
+		<idno>10.10 07/s0 0338-013-1111-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Coral Reefs</title>
+		<imprint>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="15" to="27" />
+			<date type="published" when="2014" />
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wooldridge, S.A., 2014a. Differential thermal bleaching susceptibilities amongst coral taxa: re-posing the role of the host. Coral Reefs (1), 15-27 . Springer Berlin Heidelberg. 10.10 07/s0 0338-013-1111-4 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<monogr>
+		<title level="m" type="main">Formalising a mechanistic linkage between heterotrophic feeding and thermal bleaching resistance. Coral Reefs 1-6</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Wooldridge</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00338-014-1193-7</idno>
+		<idno>Hei- delberg. doi: 10.10 07/s0 0338-014-1193-7</idno>
+		<imprint>
+			<date type="published" when="2014" />
+			<publisher>Springer</publisher>
+			<pubPlace>Berlin</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wooldridge, S.A., 2014b. Formalising a mechanistic linkage between heterotrophic feeding and thermal bleaching resistance. Coral Reefs 1-6 . Springer Berlin Hei- delberg. doi: 10.10 07/s0 0338-014-1193-7 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Improved water quality can ameliorate effects of climate change on corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Wooldridge</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">J</forename><surname>Done</surname></persName>
+		</author>
+		<idno type="DOI">10.1890/08-0963.1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ecol. Appl</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1492" to="1499" />
+			<date type="published" when="2009" />
+			<publisher>Ecological Society of America</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wooldridge, S.A., Done, T.J., 2009. Improved water quality can ameliorate effects of climate change on corals. Ecol. Appl. 19 (6), 1492-1499 . Ecological Society of America. doi: 10.1890/08-0963.1 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Metabolic interactions between algal symbionts and invertebrate hosts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Yellowlees</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">A V</forename><surname>Rees</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Leggat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Cell Environ</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="679" to="694" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yellowlees, D. , Rees, T.A.V. , Leggat, W. , 2008. Metabolic interactions between algal symbionts and invertebrate hosts. Plant Cell Environ. 31, 679-694 .</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

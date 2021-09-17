@@ -1,0 +1,2322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/grace/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Insights into coral bleaching under heat stress from analysis of gene expression in a sea anemone model system</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2021-08-23">August 23, 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Phillip</forename><forename type="middle">A</forename><surname>Cleves</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cory</forename><forename type="middle">J</forename><surname>Krediet</surname></persName>
+							<idno type="ORCID">0000-0002-8526-8940</idno>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Erik</forename><forename type="middle">M</forename><surname>Lehnert</surname></persName>
+							<idno type="ORCID">0000-0002-5565-2503</idno>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Masayuki</forename><surname>Onishi</surname></persName>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">R</forename><surname>Pringle</surname></persName>
+							<email>jpringle@stanford.edu</email>
+							<idno type="ORCID">0000-0002-9799-4501</idno>
+						</author>
+						<author>
+							<affiliation>
+								<orgName>a Department of Genetics, Stanford University School of Medicine, </orgName>
+								<address><addrLine>Stanford, CA 94305</addrLine></address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> b Department of Marine Science, </orgName>
+								<address><addrLine> Eckerd College, St. Petersburg, FL Baltimore, MD 21218. Durham, NC 27708.</addrLine></address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> University of Miami</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> and K.L.B., University of Pennsylvania. </orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> Department of Embryology, Carnegie Institution for Science, </orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> Department of Biology, Duke University,</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Insights into coral bleaching under heat stress from analysis of gene expression in a sea anemone model system</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2021-08-23">August 23, 2021</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1073/pnas.2015737117/-/DCSupplemental.</idno>
+					<note type="submission">Contributed by John R. Pringle, September 9, 2020 (sent for review July 27, 2020; reviewed by Andrew C. Baker and Katie L. Barott</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-09-14T02:37+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Loss of endosymbiotic algae ("bleaching") under heat stress has become a major problem for reef-building corals worldwide. To identify genes that might be involved in triggering or executing bleaching, or in protecting corals from it, we used RNAseq to analyze gene-expression changes during heat stress in a coral relative, the sea anemone Aiptasia. We identified &gt;500 genes that showed rapid and extensive up-regulation upon temperature increase. These genes fell into two clusters. In both clusters, most genes showed similar expression patterns in symbiotic and aposymbiotic anemones, suggesting that this early stress response is largely independent of the symbiosis. Cluster I was highly enriched for genes involved in innate immunity and apoptosis, and most transcript levels returned to baseline many hours before bleaching was first detected, raising doubts about their possible roles in this process. Cluster II was highly enriched for genes involved in protein folding, and most transcript levels returned more slowly to baseline, so that roles in either promoting or preventing bleaching seem plausible. Many of the genes in clusters I and II appear to be targets of the transcription factors NFκB and HSF1, respectively. We also examined the behavior of 337 genes whose much higher levels of expression in symbiotic than aposymbiotic anemones in the absence of stress suggest that they are important for the symbiosis. Unexpectedly, in many cases, these expression levels declined precipitously long before bleaching itself was evident, suggesting that loss of expression of symbiosis-supporting genes may be involved in triggering bleaching.</p><p>heat-shock proteins | innate immunity | symbiosis | nutrient transport | reactive oxygen species S hallow-water coral reefs are biodiversity hotspots in the tropical and subtropical oceans. These ecologically, economically, and aesthetically important ecosystems are underpinned by reefbuilding corals, whose ecological and evolutionary success is due in large part to their mutualistic relationship with dinoflagellates in the family Symbiodiniaceae <ref type="bibr" target="#b0">(1)</ref>. These algal endosymbionts enable corals to thrive in nutrient-poor waters by providing them with photosynthetically derived energy (via the transfer of glucose and perhaps other compounds) and metabolic building blocks, and in return the coral hosts provide the algae with shelter and inorganic nutrients, including ammonium <ref type="bibr" target="#b1">(2)</ref><ref type="bibr" target="#b2">(3)</ref><ref type="bibr" target="#b3">(4)</ref><ref type="bibr" target="#b4">(5)</ref><ref type="bibr" target="#b5">(6)</ref><ref type="bibr" target="#b6">(7)</ref><ref type="bibr" target="#b7">(8)</ref><ref type="bibr" target="#b8">(9)</ref><ref type="bibr" target="#b9">(10)</ref><ref type="bibr" target="#b10">(11)</ref>. However, corals are endangered globally by a variety of anthropogenic stressors, including the rising sea-surface temperatures associated with climate change. These stresses have increased the frequency of coral bleaching, in which the algal symbionts are lost from the coral tissue; when prolonged, bleaching leads to coral death <ref type="bibr" target="#b11">(12,</ref><ref type="bibr" target="#b12">13)</ref>.</p><p>Because of the critical threat posed by heat-induced bleaching, a major focus of recent research has been to investigate the molecular bases of the coral response to heat stress and the cellular mechanisms underlying heat-induced bleaching. Among other approaches, numerous transcriptomic studies over the past ∼15 y have examined the gene-expression responses to heat stress in corals and related symbiotic cnidarians (recently reviewed in refs. <ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b14">15)</ref>. From these studies, it seems clear that heat-stressed symbiotic cnidarians, like most other organisms <ref type="bibr" target="#b15">(16,</ref><ref type="bibr" target="#b16">17)</ref>, rapidly (within a few hours) up-regulate the genes encoding the heat-shock-protein (HSP) molecular chaperones <ref type="bibr" target="#b17">(18)</ref><ref type="bibr" target="#b18">(19)</ref><ref type="bibr" target="#b19">(20)</ref><ref type="bibr" target="#b20">(21)</ref><ref type="bibr" target="#b21">(22)</ref>. As two of these studies <ref type="bibr" target="#b17">(18,</ref><ref type="bibr" target="#b18">19)</ref> used aposymbiotic larvae, it appears that the up-regulation of HSP genes does not depend on the presence of algal symbionts but is rather an intrinsic part of the animal's stress response (as expected from studies in other species). Moreover, the same two studies provided evidence that the upregulation is transient (again as expected from studies in other organisms), although interpretation of the data is complicated both by the transcriptional changes associated with the concomitant larval development in these studies and by the reliance of each study on a single later time point. Thus, the detailed dynamics of the HSP transcriptional response have remained obscure. Nonetheless, the conclusion that HSP mRNA levels are rapidly but transiently up-regulated during heat stress in cnidarians is consistent with earlier studies showing a rapid but transient up-regulation of Hsp70 protein levels <ref type="bibr" target="#b22">(23,</ref><ref type="bibr" target="#b23">24)</ref>.</p><p>Although many genes in addition to the HSPs have been reported to be up-or down-regulated during heat stress, there are as yet few cases in which the available data are convincing, consistent across multiple studies, and strongly suggestive of</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Significance</head><p>Coral reefs are biodiversity hotspots of great ecological, economic, and aesthetic importance. Their global decline under climate change and other stresses makes it urgent to understand the molecular bases of their responses to stress, including "bleaching," in which the corals' photosynthetic algal symbionts are lost, thus depriving the host animals of a crucial source of energy and metabolic building blocks. We sought clues to the mechanisms that cause (or protect against) bleaching by analyzing the patterns of gene expression in a sea anemone relative of corals during exposure to a heat stress sufficient to induce bleaching. The results challenge some current ideas about bleaching while also suggesting hypotheses and identifying genes that are prime targets for future genetic analyses. relevant biological mechanisms. For example, one study has reported a large increase in mRNA for the transcription factor NFκB (a major regulator of innate immunity) during the first few hours of heat stress <ref type="bibr" target="#b21">(22)</ref>, consistent with the hypothesis <ref type="bibr" target="#b24">(25)</ref> that activation of innate-immunity and apoptotic pathways plays a central role in bleaching. However, that study only examined gene expression during the first few hours of heat stress, so that the full dynamics of the NFκB response remained unclear. Moreover, another study that examined early time points did not note changes in NFκB mRNA levels <ref type="bibr" target="#b18">(19)</ref>, whereas of two studies that examined a later time point (∼24 h of heat stress), one reported elevated levels of NFκB mRNA (26) while the other did not <ref type="bibr" target="#b26">(27)</ref>. A sustained elevation of NFκB mRNA during heatinduced bleaching would be consistent with the evidence that NFκB protein is present at lower levels in symbiotic than in aposymbiotic animals, which may be necessary to avoid innateimmune rejection of the foreign cells <ref type="bibr" target="#b27">(28)</ref>. In summary, the available data, although intriguing, have not yet provided a clear picture of the expression behavior of NFκB (and thus, presumably, of its targets) during heat stress.</p><p>Similarly, several studies have reported up-regulation during heat stress of genes whose products may be protective against the effects of oxidative stress <ref type="bibr" target="#b13">(14,</ref><ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b28">(29)</ref><ref type="bibr" target="#b29">(30)</ref><ref type="bibr" target="#b30">(31)</ref><ref type="bibr" target="#b31">(32)</ref><ref type="bibr" target="#b32">(33)</ref>, consistent with the hypothesis that the production of reactive oxygen species (ROS) by heat-stressed algal chloroplasts plays a central role in triggering bleaching <ref type="bibr" target="#b24">(25,</ref><ref type="bibr" target="#b33">34)</ref>. However, in all of the studies of which we are aware, the response detected has involved only one or a few genes (rather than the whole suite that might be expected), the fold changes observed have been modest, and/or the particular genes reported as up-regulated have been different from those reported in the other studies. Moreover, some studies that seemingly could have seen such changes did not <ref type="bibr" target="#b17">(18,</ref><ref type="bibr" target="#b34">(35)</ref><ref type="bibr" target="#b35">(36)</ref><ref type="bibr" target="#b36">(37)</ref>. Thus, it has remained unclear whether there is a concerted transcriptional response to oxidative stress during heat stress and, if so, whether it depends on the presence of the algal symbionts.</p><p>Finally, as the expression of many genes is markedly different between symbiotic and aposymbiotic animals in the absence of stress <ref type="bibr">(7-10, 27, 38-45)</ref>, it is of interest to ask how the expression of such "symbiosis genes" changes under conditions that will eventually lead to symbiosis breakdown: do their expression levels simply track with the numbers of remaining algae, or do they anticipate or lag behind the bleaching curve? To the best of our knowledge, no studies published to date have addressed this question through comparative time courses of gene expression in symbiotic and aposymbiotic animals.</p><p>In summary, despite a considerable effort, we do not yet have a clear picture of the transcriptional responses to heat stress in symbiotic cnidarians or of which of these responses may be involved in causing-or in protecting from-bleaching. The reasons include at least the following: (i) The studies to date have used a variety of cnidarian and algal species, often a variety of genotypes and prior thermal histories for the individuals within a given species, and a variety of temperature and light regimens for the stress experiments themselves, all of which complicate attempts to compare the results of different studies <ref type="bibr" target="#b45">(46)</ref>. (ii) Such comparisons are further complicated by the changes during the past dozen years in the methods used for such studies, which have progressed from an early reliance on microarrays (with limited numbers of features) and quantitative RT-PCR (of small numbers of preselected genes) to the more comprehensive and quantitatively reliable RNAseq. (iii) Although some studies have analyzed samples collected soon after the imposition of heat stress (and thus well before bleaching is observed), and others have analyzed samples collected considerably later (and thus concomitant with, or even after, bleaching), only one study of which we are aware has analyzed samples of both types, and that study used only aposymbiotic larvae <ref type="bibr" target="#b18">(19)</ref>. Thus, we have had no real picture of the dynamics of the transcriptional response to heat stress as it relates to bleaching itself. (iv) Although some studies have used aposymbiotic larvae, only two studies of which we are aware have attempted systematic comparisons of gene expression under heat stress in symbiotic and aposymbiotic animals <ref type="bibr" target="#b26">(27,</ref><ref type="bibr" target="#b38">39)</ref>, and each of those studies involved a single time of sampling. Thus, there has been little information available on how the presence of the symbiotic algae might influence the dynamics of the heat-stress response, a point of particular interest given the prominent hypothesis suggesting that bleaching is triggered by the release of ROS by heat-stressed algae <ref type="bibr" target="#b24">(25,</ref><ref type="bibr" target="#b33">34)</ref>.</p><p>In this study, we attempted to achieve a clearer picture of gene expression during heat stress by using RNAseq to analyze samples obtained over a full time course that began soon after the imposition of heat stress and continued until bleaching was essentially complete. We used the small sea anemone Aiptasia (sensu Exaiptasia pallida), a model system with great advantages for study of many aspects of cnidarian-dinoflagellate symbiosis <ref type="bibr" target="#b46">(47)</ref><ref type="bibr" target="#b47">(48)</ref><ref type="bibr" target="#b48">(49)</ref>, including the long-term viability of fully aposymbiotic animals <ref type="bibr" target="#b42">(43,</ref><ref type="bibr" target="#b49">50,</ref><ref type="bibr" target="#b50">51)</ref>. The results obtained suggest hypotheses about the molecular and cellular mechanisms of heat-stress response and bleaching that should be testable using the geneknockdown and gene-knockout methods that are becoming available for symbiotic cnidarians <ref type="bibr" target="#b51">(52)</ref><ref type="bibr" target="#b52">(53)</ref><ref type="bibr" target="#b53">(54)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Strategy for Analysis of Gene Expression during Heat Stress.</head><p>To examine the transcriptional responses of Aiptasia to heat stress, we performed RNAseq time courses on both symbiotic and aposymbiotic anemones after a shift to 34°C ( <ref type="figure" target="#fig_1">Fig. 1 A and B)</ref>. For comparison, we also determined bleaching rates in the symbiotic anemones ( <ref type="figure" target="#fig_1">Fig. 1</ref> C and D and SI Appendix, <ref type="table">Table S1</ref>). The sampling times for RNAseq were chosen to capture changes that occurred before, during, and after bleaching. Other Genes in both Symbiotic and Aposymbiotic Anemones. To explore the early transcriptional responses to heat stress, we used DESeq2 to identify genes that were significantly and highly upregulated (P &lt; 0.05, fold change &gt;4) in symbiotic anemones during the first 3 h after the initiation of heat stress; this revealed a set of 524 genes (Dataset S1). After normalizing the expression of each gene to its value at time = 0, we used k-means clustering to group the genes into two clusters (320 and 204 genes, respectively) based on the similarity of their expression patterns across the time course; we then sorted each cluster according to the fold change from 0 to 3 h ( <ref type="figure">Fig. 2</ref> A, Left). The genes in the two clusters showed similarly dramatic levels of early upregulation (e.g., 28 and 17 genes with up-regulation by 3 h of more than eightfold in clusters I and II, respectively) but differed in that expression of most genes in cluster I returned to near baseline levels by 12 h, whereas expression of most genes in cluster II returned to baseline levels more slowly <ref type="figure">(Fig. 2</ref> A, Left and <ref type="figure">Fig. 2B</ref>).</p><p>To ask if these early responses to heat stress are affected by the presence of the symbiotic algae, we examined the expression of the same 524 genes over an identical time course at 34°C in aposymbiotic anemones. Strikingly, most (but not all) genes behaved similarly <ref type="figure">(Fig. 2 A, Right, Fig. 2B</ref>, and Dataset S1; and see below), suggesting that the majority of these gene-expression changes are part of the animal's core response to heat stress independent of its symbiotic state.</p><p>To explore the functions of the genes showing an early response to heat stress, we performed Gene Ontology (GO)-term analyses on clusters I and II (Dataset S2). For cluster I, the most enriched GO terms were related to innate immunity and apoptosis ( <ref type="figure">Fig. 2</ref> C, Top; see also <ref type="figure">Fig. 2B</ref>, plots 1, 2, 4, and 5 for examples; Dataset S1). For cluster II, the most enriched GO terms were related to protein folding and the endoplasmic reticulum (ER)-stress response <ref type="figure">(Fig. 2</ref> C, Bottom; see also <ref type="figure">Fig. 2B</ref>, plots 9, 10, and 12 for examples; Dataset S1).</p><p>Inspection of <ref type="figure">Fig. 2A</ref> suggested that some genes did not follow the general rule of rapid up-regulation in aposymbiotic animals paralleling that in symbiotic animals. This set of genes was revealed more clearly when we resorted the genes in each cluster by their fold change between 0 and 3 h in the aposymbiotic animals ( <ref type="figure">Fig. 2</ref> D and E and SI Appendix, <ref type="figure" target="#fig_1">Fig. S1</ref>). Some of these genes (particularly in cluster I) seemed not to be up-regulated at all in the aposymbiotic animals during the heat stress, whereas others (particularly in cluster II) seemed to be up-regulated, but only after a delay relative to what was observed in the symbiotic animals. In total, this analysis identified 41 genes in cluster I and 18 genes in cluster II that were up-regulated less than twofold in aposymbiotic animals (versus their more than fourfold upregulation in symbiotic animals). Surprisingly, inspection of the annotations of these genes (SI Appendix, <ref type="table">Table S2</ref> and Dataset S3) did not reveal any obvious common themes.</p><p>In particular, none of these genes had annotations relating directly to oxidative-stress response, a surprising result given the common expectation that symbiotic anemones would have higher levels of ROS due to their increased production by heatstressed algal chloroplasts <ref type="bibr" target="#b24">(25,</ref><ref type="bibr" target="#b33">34,</ref><ref type="bibr" target="#b54">55,</ref><ref type="bibr" target="#b55">56)</ref>. To explore this issue further, we asked if any of 99 Aiptasia genes with putative roles in the oxidative-stress response (the 97 genes manually curated in ref. <ref type="bibr" target="#b32">33</ref> plus two genes [AIPGENEs 21344 and 21459] annotated as catalases) were up-regulated early during heat stress. Strikingly, only one of these genes was in either cluster I or cluster II, and this gene was up-regulated to similar extents in symbiotic and aposymbiotic anemones (Dataset S1 and SI Appendix, Tables S3A and S3B: AIPGENE 8449). Thus, we found no evidence of an early transcriptional response to ROS that was specific to the presence of the algal symbiont.</p><p>Because our initial analysis had focused specifically on genes that were strongly up-regulated during the first 3 h of heat stress, and it seemed possible that a transcriptional response to ROS would be manifested only at later times, we performed two additional analyses. First, we asked if any of the 99 genes were strongly up-regulated (P &lt; 0.05, fold change &gt;4) in symbiotic animals at times later than 3 h. We found only two such genes, both annotated as glutathione S-transferases (Dataset S4 and SI Appendix, <ref type="table">Table S3A</ref>: AIPGENEs 20480 and 6351). Both were modestly up-regulated throughout the time course and met the more than fourfold cutoff only at 12 h (AIPGENE 20480) or 48 and 96 h (AIPGENE 6351). Moreover, both genes were also upregulated in aposymbiotic anemones (SI Appendix, <ref type="table">Table S3B</ref>), while neither was up-regulated in symbiotic relative to aposymbiotic anemones (SI Appendix, <ref type="table">Table S3C</ref>). Second, we asked if any of the 99 genes were strongly up-regulated (P &lt; 0.05, fold difference &gt;4) in symbiotic relative to aposymbiotic animals at any time point. We found only three such genes (SI Appendix, <ref type="table">Table S3C</ref>: AIPGENEs 8889, 22290, and 27830), and, strikingly, none of them was also up-regulated during the heat-stress time course in symbiotic anemones (SI Appendix, <ref type="table">Table S3A</ref>). Even relaxing the fold-change cutoff from fourfold to twofold revealed no very suggestive patterns of expression (SI Appendix, <ref type="table">Table S3</ref> and Dataset S4), and, strikingly, neither of the putative catalase genes met even this relaxed criterion. Taken together, these data indicate that at least for this Aiptasia strain and stress conditions, there is no concerted and strong transcriptional response to to one at 34°C. (B and C) Time courses of sampling symbiotic (CC7-SSB01) and aposymbiotic (CC7-Apo) anemones for RNAseq analyses (B) and the symbiotic anemones for assessment of bleaching (C). The tanks were shifted from an incubator at 27°C to one at 34°C at time = 0. In C, algal counts were normalized to total protein in the homogenates (Materials and Methods) and then expressed as percentages of the value at time = 0. (D) In a separate experiment, bleaching was assessed over a shorter time course. Less bleaching was observed at 24 h than in the experiment of B and C (experiment-to-experiment variability at 24 h probably reflects the fact that bleaching is just beginning at around this time), but the levels of bleaching at 48 h were similar. In C and D, data are shown as means ± SEMs of the percentage values; the actual numbers of algae per microgram (μg) of protein are shown in SI Appendix, <ref type="table">Table S1</ref>.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Symbiotic</head><p>Aposymbiotic Symbiotic Aposymbiotic <ref type="figure">Fig. 2</ref>. Rapid up-regulation of many genes in response to heat stress in both symbiotic and aposymbiotic anemones. (A) Heatmaps of genes significantly and highly up-regulated in symbiotic anemones in response to a shift from 27°C to 34°C (Left; see text for details) and of the same genes in aposymbiotic anemones (Right). Genes were grouped into two clusters by k-means clustering based on their expression patterns in the symbiotic animals and are sorted by their extents of up-regulation from 0 to 3 h in those animals. Expression values for each gene in the aposymbiotic animals (Right column) were also normalized to the value for that gene in the symbiotic animals at time = 0, and the genes are shown in the same order as in the Left column. Colors in the heatmap are based on a log 2 scale (as shown). (B) Expression patterns for example genes in clusters I (plots 1 through 6) and II (plots 7 through 12). Data are shown as raw read counts normalized to library size (Materials and Methods). Red, data for symbiotic animals; blue, data for aposymbiotic animals. (C) Results from GO-term-enrichment analyses of each cluster. The terms shown are those significant in each cluster (Fisher's P value &lt;1e-4) and represented by ≥6 genes; the full outputs of these analyses are provided in Dataset S2. (D) Heatmaps (color scale as in A) showing genes from clusters I and II after normalizing each gene's expression level to its mean value in aposymbiotic animals at time = and then sorting by the degree of up-regulation from 0 to 3 h in aposymbiotic animals. Shown here are only the genes in which up-regulation in the aposymbiotic animals was less than twofold at 3 h; the complete heatmaps are shown in SI Appendix, <ref type="figure" target="#fig_1">Fig. S1</ref>. (E) Examples of genes showing differential regulation between symbiotic and aposymbiotic anemones. The cluster number for each gene is indicated. Red, data for symbiotic animals; blue, data for aposymbiotic animals. (F) Heatmaps (color scale as in A) of genes as in A but after resorting based on the fold difference between symbiotic and aposymbiotic animals at time = 0. All genes are shown in which this difference was statistically significant (adjusted P value &lt;0.05), independent of the magnitude of the expression difference or of whether expression was higher at 0 h in symbiotic or aposymbiotic animals. The dashed line separates the two groups, and the complete heatmaps are shown in SI Appendix, oxidative stress during heat stress despite the occurrence of nearly complete bleaching during the time course ( <ref type="figure" target="#fig_1">Fig. 1)</ref>. Inspection of <ref type="figure">Fig. 2A</ref> also suggested that some of the genes that underwent dramatic up-regulation during the first 3 h of heat stress were also expressed at substantially higher levels in symbiotic than in aposymbiotic animals in the absence of stress. Such genes were revealed more clearly when we resorted the genes in each cluster according to the magnitude of the difference  in expression between symbiotic and aposymbiotic animals at time = 0 ( <ref type="figure">Fig. 2F and SI Appendix, Fig. S2)</ref>; they were present in both clusters (based on P &lt; 0.05; fold difference &gt; 2) but more numerous in cluster I (57 genes, ∼18%) than in cluster II (22 genes, ∼11%) (SI Appendix, <ref type="table">Table S4</ref> and Dataset S5). Such genes were also enriched relative to their frequency among all genes, particularly in cluster I ( <ref type="figure">Fig. 2G</ref>; P &lt; 2e-16 for cluster I and P &lt; 0.02 for cluster II by two-sample Kolmogorov-Smirnov tests). Many of these genes have annotations related to immune response or apoptosis (particularly in cluster I: SI Appendix, <ref type="table">Table S4A</ref>) and protein folding (particularly in cluster II: SI Appendix, <ref type="table">Table S4B</ref>). These data suggest that there may be stress arising from the presence of the algae even at a nominally nonstressful temperature (Discussion).</p><formula xml:id="formula_0">T G T TC A T A GA A TTC C T C AGAA A A T T G C G C C G A A T G C G AT CT C T C A G C A GTG G A TC TT C G T G A G A C T 0 1 2 bits G G G T T T C C T AC A G C A CA T CC 0 1 2 bits 0 1 2 bits GAA TT C TA G AA CTT G AG CG CT G C 0 1 2 bits G C A G GGG A T A C T CA C C C G T T T A T A Time (h) D G E<label>Log</label></formula><p>Apparent Involvement of the NFκB and HSF1 Transcription Factors in the Early Up-Regulation of Stress-Responsive Genes. The seemingly coordinated up-regulation of many genes during the early hours of heat stress suggested that there might be common control by specific transcription factors. To explore this possibility, we first identified the 100 genes with the greatest up-regulation over the first 3 h of heat stress in symbiotic animals; 58 of these genes were in cluster I of <ref type="figure">Fig. 2A</ref>, and 42 were in cluster II. In each case in which the genome assembly contains 500 bp immediately upstream of the putative transcription start site ( <ref type="figure">Fig. 3A; 96</ref> of the 100 genes), we searched these 500 bp for significantly enriched DNA motifs (Materials and Methods). Remarkably, these searches identified two DNA motifs with high confidence <ref type="figure">(Fig. 3 B</ref> and C, Upper) that corresponded (again with high confidence) to canonical binding sites for the transcription factors NFκB and HSF1 ( <ref type="figure">Fig. 3 B and C, Lower)</ref>. In the 96 upstream regions, we found 29 putative NFκB binding sites (20 in 10 genes of cluster I; 9 in 9 genes of cluster II) and 30 putative HSF1 binding sites (9 in 8 genes of cluster I; 21 in 10 genes of cluster II). Consistent with the hypothesis that NFκB and HSF1 are important in driving the early burst of gene up-regulation upon heat stress, the genes encoding these two transcription factors were themselves highly up-regulated early in the course of heat stress <ref type="figure">(Fig. 2B, plots 2 and 3</ref>).</p><p>To explore further whether the identified motifs, and their associated transcription factors, are indeed involved in the upregulation of genes in response to heat stress, we performed two additional bioinformatic analyses. First, for all 22,872 annotated Aiptasia genes with 500 bp of immediately upstream sequence present in the genome assembly, we searched these 500-bp segments for the presence of each motif and then correlated the numbers of motifs found with the degrees of up-regulation found during the first 3 h of heat stress (Materials and Methods). The smoothened-density plots showed a strong correlation between the numbers of such motifs and the degrees of up-regulation ( <ref type="figure">Fig. 3 D and E)</ref>. Second, we examined the specific genes with three or more putative NFκB or HSF1 binding sites in their upstream regions. Strikingly, not only did many of these genes show strong up-regulation during the first 3 h of heat stress, but many of them are the Aiptasia homologs of genes known to be targets of these same transcription factors in other organisms <ref type="figure">(Fig. 3 F and G)</ref>. Moreover, the putative NFκB and HSF1 target genes identified in this way had expression patterns similar to those typical of cluster I (rapid return to baseline) and cluster II (slower return to baseline), respectively, suggesting the existence of distinct patterns of regulation in the response to heat stress that are driven at least in part by NFκB and HSF1.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Surprisingly Rapid Changes in Expression of Many Genes with</head><p>Putative Roles in Symbiosis Maintenance. Previous studies have identified many genes that are differentially expressed between symbiotic and aposymbiotic cnidarians (in the Introduction). To investigate the behavior of such genes as symbiosis begins to break down under heat stress, we first identified the genes that showed strong differential expression (P &lt; 0.05; fold difference &gt;4 or &lt;0.25) in our RNAseq dataset at time = 0, finding 337 that were up-regulated and 150 that were down-regulated in symbiotic relative to aposymbiotic anemones. We then followed these differences in expression during the period of heat stress <ref type="figure">(Fig. 4A)</ref>. Not surprisingly, for many genes, the expression levels in the symbiotic and aposymbiotic anemone populations gradually converged as the symbiotic animals lost algae through bleaching (and thus approached the aposymbiotic state). Unexpectedly, however, for some genes the expression levels had changed dramatically by 12 or even 3 h <ref type="figure">(Fig. 4A</ref>), although no bleaching was detected until 24 h or later ( <ref type="figure" target="#fig_1">Fig. 1 C and D)</ref>.</p><p>To investigate these genes further, we first ranked the 337 genes that were initially expressed at higher levels in symbiotic anemones (green dots in <ref type="figure">Fig. 4A</ref>) by their fold decrease in expression in symbiotic anemones between 0 and 12 h (SI Appendix, <ref type="table">Table S5A</ref> and Dataset S6). Strikingly, ∼25% (84 of 337) of these genes fell 3-fold or more during the first 12 h of heat exposure, with ∼5% (18 of 337) dropping 10-fold or more. Interestingly, among the genes whose expression dropped most rapidly were ones encoding ammonium-, glucose-, and sterol-transport proteins <ref type="figure">(Fig. 4</ref> B-D and SI Appendix, <ref type="table">Table S5A</ref>), all of which are likely to be involved in metabolite exchanges critical for support of the symbiosis. Other genes with dramatic early decreases in expression ( <ref type="figure">Fig. 4</ref> E-G and SI Appendix, <ref type="table">Table S5A</ref>) include ones encoding extracellular-matrix/cell-adhesion, innate-immunity/ stress-response, and potential signaling proteins, as well as proteins involved in lipid (including arachidonic acid) metabolism, all of which may also be important to support the symbiosis. Thus, the host begins to reduce the expression of many symbiosis-supporting genes long before bleaching is detected (Discussion).</p><p>We performed similar analyses of the 150 genes that were initially expressed at lower levels in symbiotic anemones (black dots in <ref type="figure">Fig. 4A</ref>), keeping in mind the ambiguity as to whether these genes should be viewed as down-regulated in unstressed symbiotic anemones, up-regulated in unstressed aposymbiotic anemones, or both. We first ranked the genes in this group by their fold increases in expression between 0 and 12 h in symbiotic anemones. However, this analysis was uninformative: only 10 genes had fold changes more than twofold, and their associated annotations did not fit any evident pattern (SI Appendix, <ref type="table">Table  S5B</ref> and Dataset S7). We then ranked the same genes according to their fold decreases in expression between 0 and 12 h in aposymbiotic anemones, obtaining potentially more informative results. Again, just 10 genes had fold changes &lt;0.5-fold, but several of these did have annotations suggestive of possible roles in symbiont uptake or the digestion of food (both processes that might well be enhanced in aposymbiotic animals) (SI Appendix, <ref type="table">Table S5C</ref> and Dataset S8). However, why heat stress would drive down the expression of these genes remains mysterious.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>It is important to understand both the mechanisms that cause coral bleaching under heat stress and those that may help protect against it. To this end, we used RNAseq to examine gene expression in the sea anemone Aiptasia through a time course that began soon after the start of heat stress and continued until bleaching was essentially complete. By using closely controlled laboratory conditions and clonal populations of both the animal host and the algal symbiont, we eliminated some of the variables that have complicated interpretation of many earlier studies <ref type="bibr" target="#b45">(46)</ref>. By focusing on genes with relatively large changes in mRNA levels, we tried to identify cases in which there would actually be significant changes at the protein level [for which mRNA levels are only a rather crude proxy <ref type="bibr" target="#b32">(33,</ref><ref type="bibr" target="#b56">57)</ref>]. And by subjecting both symbiotic and aposymbiotic anemones to the full time course in parallel, we could ask which aspects of the animal's response Rapid changes in expression of many symbiosis-related genes after onset of heat stress. In the experiment of <ref type="figure" target="#fig_1">Fig. 1</ref> A-C, genes with strong differential expression (≥4-fold, P &lt; 0.05) between symbiotic and aposymbiotic anemones prior to heat stress were identified and analyzed. (A) Dot plots of the ratios of expression levels between symbiotic and aposymbiotic anemones for individual genes (log scale) as a function of time after the temperature shift. Both genes expressed at higher levels at time = in symbiotic anemones (green dots) and those expressed at higher levels in aposymbiotic anemones (black dots) are shown. (B-G) Examples of genes whose expression is rapidly down-regulated in symbiotic anemones after the temperature shift. The mean expression values for each gene at each time in symbiotic anemones are shown relative to the mean expression of that gene in aposymbiotic anemones at time = 0. See SI Appendix, <ref type="table">Table S5A</ref> and the text for more details.</p><p>relate directly to the presence of algal symbionts. The results have provided a clearer picture of the heat-stress response than has been available previously and suggest numerous hypotheses for which critical experimental tests should now be possible <ref type="bibr" target="#b57">(58)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Highly Transient Up-Regulation of a Large Set of Genes Including</head><p>Many Implicated in Innate-Immunity Function. Our analyses revealed a set of &gt;300 genes that were rapidly (within &lt;3 h) and extensively (more than fourfold) up-regulated upon exposure of symbiotic anemones to heat stress but whose transcript levels also returned rapidly (by ≤12 h) to near-baseline levels even during continued heat stress <ref type="figure">(Fig. 2, cluster I)</ref>. Many of these genes encode proteins with putative functions in innate immunity or apoptosis, and indeed many of them appear to be targets of the innate-immunity transcription factor NFκB. The finding of conserved NFκB binding sites in the Aiptasia genome was not in itself surprising <ref type="bibr" target="#b58">(59)</ref>, but their concentration in the regions upstream of genes that are highly up-regulated during heat stress was striking. The NFκB gene itself is in cluster I <ref type="figure">(Fig. 2B, plot 2)</ref>, as are the genes encoding several proteins likely to be upstream or downstream of NFκB in a TNF-like signaling pathway <ref type="figure">(Fig. 2B, plot 4</ref> and Dataset S1), while several other functionally related genes were in a second group (cluster II) of rapidly upregulated genes <ref type="figure">(Fig. 2B, plot 8</ref> and Dataset S1; see also below). Rapid up-regulation of some of these genes under heat stress had been reported previously [e.g., NFκB (22); TRAF3 <ref type="bibr" target="#b25">(26,</ref><ref type="bibr" target="#b31">32,</ref><ref type="bibr" target="#b36">37)</ref>] but neither the full extent of this response nor its striking transience had been clear.</p><p>NFκB-regulated activation of innate-immunity and apoptotic pathways has been proposed to play a major role in bleaching <ref type="bibr" target="#b24">(25,</ref><ref type="bibr" target="#b59">60)</ref>, a model consistent with recent evidence indicating that NFκB protein and activity levels are reduced in symbiotic relative to aposymbiotic Aiptasia <ref type="bibr" target="#b27">(28)</ref>. However, our results pose significant challenges for this model. First, the mRNA levels for most of these genes have returned to near-baseline levels well before bleaching is even detectable, much less complete. These observations are not necessarily incompatible with the model, because it is possible that the levels of the relevant protein products stay elevated long after the mRNA levels have declined and/or that the early activation of these genes triggers a later wave(s) of activation of other genes whose products are more directly involved in bleaching. However, it should be noted that the brief elevation of caspase 7 mRNA levels <ref type="figure" target="#fig_1">(Fig. 2B, plot 1)</ref> is paralleled by a similarly brief elevation of caspase enzymeactivity levels during heat stress (61), one of several lines of evidence suggesting that apoptosis does not play a major role in bleaching under these conditions <ref type="bibr" target="#b60">(61)</ref>. Nonetheless, as NFκB has many roles, it may be involved in bleaching in some way other than its promotion of apoptosis through caspases. Second, most of the genes in this group had very similar expression profiles in aposymbiotic anemones, indicating that this aspect of the response to heat stress is inherent to the animal and not specific to the presence of the symbiotic algae. However, these observations are also not necessarily incompatible with the model, because it is possible that an ancestral animal response to heat stress was co-opted during evolution to provide a mechanism for ridding the animal cells of algal partners that have become unwanted under stress conditions.</p><p>Resolution of these questions is likely to come only when the rates of bleaching can be evaluated in animals in which the genes encoding NFκB and/or others of this early up-regulated set have been inactivated. Fortunately, such experiments should soon be possible using the recently developed methods for morpholinobased gene knockdown <ref type="bibr" target="#b51">(52)</ref> and CRISPR-based gene knockout <ref type="bibr" target="#b52">(53,</ref><ref type="bibr" target="#b53">54)</ref> in corals.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Longer Lasting Up-Regulation of a Large Set of Genes Including Many</head><p>Implicated in Protein Homeostasis. A second group of &gt;200 genes showed equally striking early up-regulation but, in most cases, a slower return of mRNA levels to baseline during continued heat stress <ref type="figure">(Fig. 2, cluster II)</ref>. Many of these genes encode proteins expected to function in protein folding and the response to ER stress. Early up-regulation of some of these genes in heatstressed corals had been reported previously <ref type="bibr" target="#b17">(18)</ref><ref type="bibr" target="#b18">(19)</ref><ref type="bibr" target="#b19">(20)</ref><ref type="bibr" target="#b20">(21)</ref><ref type="bibr" target="#b21">(22)</ref> and is consistent with the very wide conservation of these heat-stress responses in animals and other eukaryotes <ref type="bibr" target="#b15">(16,</ref><ref type="bibr" target="#b16">17)</ref>. Many of the up-regulated genes appear to be targets of the transcription factor HSF1, as expected from extensive studies in other organisms <ref type="bibr" target="#b61">(62)</ref>, and the HSF1 gene itself was rapidly and extensively up-regulated in our experiment <ref type="figure">(Fig. 2B, plot 3)</ref>.</p><p>Like the cluster I genes (see above), most of the cluster II genes showed up-regulation in aposymbiotic anemones that was very similar to that in symbiotic anemones. However, as argued above, the products of these genes might still play roles either in promoting bleaching or in protecting the animals from it. Indeed, given the well established role of the heat-shock proteins in protecting various types of cells from protein damage during heat stress, it seems likely that at least some of the cluster II gene products will prove to be protective (up to a point) against the stresses that lead to bleaching. In this regard, we have recently shown that a CRISPR-induced knockout of the gene encoding HSF1 produces increased sensitivity to heat-stress-induced death in aposymbiotic larvae of the coral Acropora millepora <ref type="bibr" target="#b53">(54)</ref>. As Acropora larvae can be infected with Symbiodiniaceae strains and then subjected to bleaching tests <ref type="bibr" target="#b62">(63,</ref><ref type="bibr" target="#b63">64)</ref>, it should now be straightforward to ask whether a knockout of HSF1 (or of any of its targets) also produces an increased sensitivity to heat-induced bleaching.</p><p>Apparent Absence of a Gene-Expression Response to Oxidative Stress during Heat Exposure. About 10% of the genes in clusters I and II differed from the majority in showing a delayed and/or much weaker up-regulation under heat stress in aposymbiotic than in symbiotic anemones <ref type="figure">(Fig. 2 D and E)</ref>. Examination of the annotations of these genes did not reveal any obvious common themes, and, in particular, none of them encodes a protein known to be directly involved in response to oxidative stress. More extensive analyses of our data also failed to find any substantial signature of up-regulation of oxidative-stress-response genes during heat exposure (Results), even though bleaching was essentially complete by the end of the time course.</p><p>These results were initially surprising, given the prominence of models in which photosynthetically produced ROS play a central role in triggering bleaching <ref type="bibr" target="#b24">(25,</ref><ref type="bibr" target="#b33">34,</ref><ref type="bibr" target="#b54">55,</ref><ref type="bibr" target="#b55">56)</ref>. However, examination of the literature revealed that previous gene-expression studies have also found either the up-regulation of only one or a few oxidative-stress-response genes during heat exposure, and generally with only modest levels of up-regulation <ref type="bibr" target="#b13">(14,</ref><ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b28">(29)</ref><ref type="bibr" target="#b29">(30)</ref><ref type="bibr" target="#b30">(31)</ref><ref type="bibr" target="#b31">(32)</ref><ref type="bibr" target="#b32">(33)</ref> or no such up-regulation at all <ref type="bibr" target="#b17">(18,</ref><ref type="bibr" target="#b34">(35)</ref><ref type="bibr" target="#b35">(36)</ref><ref type="bibr" target="#b36">(37)</ref>. Thus, to date, gene-expression studies in a variety of symbiotic cnidarians, using a variety of light-and heat-stress conditions, have failed to produce appreciable support for the ROS-induced-bleaching model.</p><p>However, these results do not necessarily invalidate the model. First, it is possible that increased levels of ROS during heat stress result in changes in transcript levels that are biologically meaningful but less than the twofold cutoff used in our analyses, that the relevant genes are not known to be involved in response to oxidative stress, or both. Second, it is possible that there is relevant regulation, but all at the posttranscriptional level. This might explain the apparent discrepancy between results at the mRNA level and those reported at the protein and enzyme-activity levels <ref type="bibr" target="#b33">(34,</ref><ref type="bibr" target="#b64">(65)</ref><ref type="bibr" target="#b65">(66)</ref><ref type="bibr" target="#b66">(67)</ref><ref type="bibr" target="#b67">(68)</ref><ref type="bibr" target="#b68">(69)</ref><ref type="bibr" target="#b69">(70)</ref><ref type="bibr" target="#b70">(71)</ref><ref type="bibr" target="#b71">(72)</ref>. Third, our experiment used rather low light levels and a spectrum with little UV, and it is possible that experiments with more intense light or a full-sunlight spectrum would have yielded different results. However, it must be noted both that the conditions in our experiment did lead to full bleaching within ∼4 d and that some of the other studies cited above used more intense light, full-spectrum sunlight, or both, so that this possibility does not actually seem likely. Moreover, in a previous study, we observed that bleaching under heat stress could occur as rapidly in the dark as in the light both in Aiptasia and in several species of corals <ref type="bibr" target="#b72">(73)</ref>, results clearly incompatible with the hypothesis that photosynthetically derived ROS are necessary to trigger bleaching. Other studies have also reported results that are difficult to reconcile with the ROS-induced bleaching model <ref type="bibr" target="#b40">(41,</ref><ref type="bibr" target="#b43">44,</ref><ref type="bibr" target="#b70">71,</ref><ref type="bibr" target="#b73">(74)</ref><ref type="bibr" target="#b74">(75)</ref><ref type="bibr" target="#b75">(76)</ref>. We suggest that the possible role, if any, of photosynthetically produced ROS in bleaching will not be settled until bleaching rates have been measured in animals in which genes encoding proteins involved in controlling oxidative stress have been knocked down or knocked out, experiments that should now be feasible <ref type="bibr" target="#b51">(52)</ref><ref type="bibr" target="#b52">(53)</ref><ref type="bibr" target="#b53">(54)</ref>.</p><p>Evidence That the Presence of Algae May Be Stressful Even in the Absence of Heat. Among the genes up-regulated early in response to heat stress were a substantial number that were already up-regulated in symbiotic relative to aposymbiotic anemones under nominally nonstressful conditions <ref type="figure">(Fig. 2F)</ref>. Such genes were much more frequent than expected by chance, particularly in cluster I <ref type="figure">(Fig. 2G)</ref>, and annotations relating to immunity, apoptosis, and protein folding appeared to be particularly frequent among them (SI Appendix, <ref type="table">Table S4</ref>), even given the high overall frequencies of such annotations in the full clusters I and II. Taken together, these results suggest that even at nonstressful temperatures, symbiotic anemones experience some stress simply due to the presence of the algal symbionts. Although it is not yet clear what that stress might be, it may represent a physiological cost to the host that partially offsets the benefits of the symbiosis, as has been observed in many other mutualisms <ref type="bibr" target="#b76">(77)</ref><ref type="bibr" target="#b77">(78)</ref><ref type="bibr" target="#b78">(79)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Possible Roles in Bleaching of a Rapid Down-Regulation of Many</head><p>Symbiosis-Related Genes. As observed also by others (7-10, 27, 38-45), we found that many genes were highly up-regulated in symbiotic relative to aposymbiotic anemones prior to stress <ref type="figure">(Fig.  4A, 0 h)</ref>. The differential expression of these genes and putative functions of their products suggest that they have direct and important roles in supporting the symbiosis. Thus, we expected that in most cases, their levels of up-regulation would decline in parallel with the numbers of algal cells during bleaching, and such a gradual decline was indeed observed for many genes. Unexpectedly, however, we also found that in addition to some genes in this group that were actually up-regulated in response to heat stress (see preceding section), ∼25% were very rapidly down-regulated (to essentially aposymbiotic levels) by 12 or even 3 h <ref type="figure">(Fig. 4)</ref>, and thus long before any bleaching was detected. The products of the genes showing this behavior include transporters likely to be involved in metabolite exchange between the host and alga, extracellular-matrix proteins that might be involved in surface contacts between host and algal cells, enzymes of lipid metabolism, and other proteins that might be involved in signaling between the symbiotic partners. Thus, it appears that host transcriptional support for important aspects of the symbiosis shuts down well before any actual loss of algae occurs. An important remaining question is whether the levels of the corresponding gene products also decline precipitously during the early hours of heat stress; this question should be answerable by experiments using appropriate antibodies or proteomic methods.</p><p>It will be of interest to determine what causes the rapid downregulation of transcript levels. In this regard, it may be relevant that at least 20 putative transcription factors are in the sets of very rapidly up-regulated and very rapidly down-regulated genes (Datasets S1 and S6). Regulation by miRNAs might also be a factor <ref type="bibr" target="#b44">(45)</ref>. Further insight might be gained by examining the relative timing of the various transcriptional changes in an RNAseq time course with multiple time points during the first few hours of heat stress. However, a deeper understanding is likely to require experiments in which the relevant genes have been ectopically expressed from constitutive promoters, knocked down or knocked out, or both; such experiments should now be feasible <ref type="bibr" target="#b51">(52)</ref><ref type="bibr" target="#b52">(53)</ref><ref type="bibr" target="#b53">(54)</ref><ref type="bibr" target="#b79">80)</ref>.</p><p>Of perhaps greater interest, however, is to ask how the rapid down-regulation of symbiosis-related genes relates to the breakdown of the symbiosis that follows later. Possible models include at least the following:</p><p>(i) Breakdown of the symbiosis at the cellular level (ejection of algae from host gastrodermal cells) actually occurs much earlier than is evident from whole-animal color or algal counts on whole-animal homogenates. This possibility should be testable by real-time fluorescence video microscopy that takes advantage of the intrinsic chlorophyll fluorescence of the algae. (ii) Very soon after the onset of heat stress, the algae cease to release something that they normally provide to the host [e.g., glucose <ref type="bibr" target="#b5">(6)</ref> or sterols <ref type="bibr" target="#b7">(8,</ref><ref type="bibr" target="#b9">10)</ref>], in response to which the host turns off genes necessary for support of the algae [e.g., the symbiosome-membrane NH transporter(s)], resulting in algal loss. This model is attractive in part because it fits well with an increasing body of evidence for the importance of nutritional interactions (and, especially, the regulation of nitrogen supply) in the control of algal numbers in symbiotic corals and anemones <ref type="bibr" target="#b3">(4,</ref><ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b80">(81)</ref><ref type="bibr" target="#b81">(82)</ref><ref type="bibr" target="#b82">(83)</ref><ref type="bibr" target="#b83">(84)</ref><ref type="bibr" target="#b84">(85)</ref><ref type="bibr" target="#b85">(86)</ref><ref type="bibr" target="#b86">(87)</ref><ref type="bibr" target="#b87">(88)</ref>. Evaluation of this model should probably begin by establishing [by gene knockdown or knockout <ref type="bibr" target="#b51">(52)</ref><ref type="bibr" target="#b52">(53)</ref><ref type="bibr" target="#b53">(54)</ref>] which of the metabolitetransporter genes [e.g., GLUT8 (43), the two NPC2s (8, 10), and the two NH 3 -transporter genes (9, 43) ( <ref type="figure">Fig. 4B)</ref>] are actually essential for symbiosis maintenance. Evaluating heat-induced bleaching in animals expressing the appropriate NH 3 transporter(s) from a constitutive promoter [which should soon be possible <ref type="bibr" target="#b53">(54,</ref><ref type="bibr" target="#b79">80)</ref>] might ultimately provide an incisive test of the model. (iii) Very soon after the onset of heat stress, the algae begin to release something (e.g., ROS; see, however, above) that is toxic to the host, in response to which the host turns off genes necessary for support of the algae, resulting in bleaching. This model might also be tested by establishing constitutive expression of (for example) an NH transporter, although the consequences of thus potentially forcing retention of a source of toxic molecules are difficult to predict. (iv) Very soon after the onset of heat stress, the host initiates a response in which it turns off genes necessary for support of the algae, resulting in bleaching. It is difficult to see why the host would do this, except in the context of model 2 or 3, but experimental tests could proceed along lines similar to those discussed above.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Rapidly Responding Genes as Possible Early Biomarkers for Coral</head><p>Bleaching. The identification of many genes that undergo large changes in expression (up or down) many hours in advance of the actual loss of algae from the host raises the possibility of using these changes in expression as early biomarkers of incipient coral bleaching. This idea presupposes only that the kinds of changes seen here in Aiptasia will be observed also in corals of ecological interest, which should be straightforward to test and indeed is already supported by considerable published data <ref type="bibr" target="#b17">(18)</ref><ref type="bibr" target="#b18">(19)</ref><ref type="bibr" target="#b19">(20)</ref><ref type="bibr" target="#b20">(21)</ref><ref type="bibr" target="#b21">(22)</ref><ref type="bibr" target="#b36">37)</ref>. Such tests may be easier to deploy in the field if they can be done using protein rather than mRNA levels, but the degree to which protein levels track mRNA levels in this system is an issue that needs to be explored in any case, as already noted above.</p><p>Concluding Remarks. It is important to note several limitations of this study. First, we examined a single combination of host and algal strain and subjected it to a moderate heat stress under low light, such that bleaching occurred to near completion over ∼4 d.</p><p>Examination of a more (or less) sensitive holobiont or the use of more extreme conditions (e.g., higher light) might yield at least some different results. Second, except for the potential oxidativestress-response genes, we focused here entirely on genes whose expression changed dramatically in the first few hours of heat stress. It is possible that an analysis focused on genes whose expression is altered strongly when bleaching is in full swing (e.g., ∼48 h in this study) would lead to additional interesting findings. Third, our analysis was done with mRNAs extracted from whole animals, so that we might have missed changes in expression that were strong but occurred only in specific cell types. Fortunately, methods for doing such cell-type-specific analyses have emerged and are improving rapidly <ref type="bibr" target="#b88">(89,</ref><ref type="bibr" target="#b89">90)</ref>. Nonetheless, despite its limitations, this study has suggested a variety of specific hypotheses that should be susceptible to rigorous experimental tests using methods that are already available or rapidly emerging, as indicated above.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and Methods</head><p>Aiptasia Strains and Husbandry. All animals were from the clonal population CC7, which naturally contains algal symbionts of the Symbiodiniaceae clade A species Symbiodinium linucheae <ref type="bibr" target="#b60">(61,</ref><ref type="bibr" target="#b90">91)</ref>. CC7 animals were rendered aposymbiotic as described previously <ref type="bibr" target="#b91">(92,</ref><ref type="bibr" target="#b92">93)</ref>, generating strain CC7-Apo. CC7-Apo animals were then exposed to algae of the clonal, axenic strain SSB01 [Symbiodiniaceae clade B species Breviolum minutum (7, 93)] and grown under standard conditions (see below) until the algal population was in steady state. The resulting strain CC7-SSB01 was checked periodically by sequencing PCR-amplified fragments of cps23S (chloroplast rDNA), 18S (nuclear rDNA), and/or ITS2 (nuclear rDNA), as described previously <ref type="bibr" target="#b92">(93)</ref>, to ensure that the animals had not been repopulated by S. linuchae or another algal type. Except where noted, animal stocks were maintained at 27°C in artificial seawater (ASW) prepared using Coral Pro Salt (Red Sea) at 33.5 ppt in deionized water (dH 2 O) under a 12 h:12 h light:dark cycle at an irradiance of ∼25 μmol photons m −2 s −1 (Phillips Alto II 25 W white fluorescent bulbs). Anemones were fed every 2 to 3 d with freshly hatched Artemia nauplii, and the water was changed on the days after feeding.</p><p>Design of Heat-Stress Experiments and Quantification of Bleaching. To investigate the transcriptional response of Aiptasia to thermal stress, CC7-SSB01 and CC7-Apo anemones were first acclimated at 27°C for ∼2 mo with a normal feeding regimen. For the experiment, polycarbonate tanks containing 1 L of ASW were used. Each of three tanks contained ∼35 CC7-SSB01 anemones, while each of three other tanks contained ∼25 CC7-Apo anemones. Time = 0 samples were taken at 3 h into the light phase, after which the tanks were shifted (within ∼20 min) to an incubator at 34°C. The ASW gradually warmed to 34°C over several hours <ref type="figure" target="#fig_1">(Fig. 1A)</ref>, and anemones were not fed after the temperature shift. Anemones of each strain were sampled at 6.5 h into the light phase (thus, slightly more than 3 h after the tanks were shifted to the 34°C incubator: time = 3-h samples), 9 h later (time = 12-h samples), and 3.5 h into the light phase on each of several subsequent days (time = 24-h, 48-h, and 96-h samples). At each time of sampling, three anemones were removed from each tank, pooled (thus, six samples containing three anemones apiece), and preserved in RNAlater (Ambion) at −20°C until RNA extraction for RNAseq analysis. In addition, at times 0, 24, 48, and 96 h, eight individual CC7-SSB01 animals were removed at random from the three tanks (typically three from each of two tanks and two from the third), transferred into separate wells of a 96-well plate containing 500 μL of 0.01% SDS detergent (Sigma-Aldrich) in dH O, and frozen at −20°C for subsequent quantification of algal numbers by flow cytometry using a Guava cytometer (Millipore) as described previously <ref type="bibr" target="#b93">(94)</ref>. Each algal count was normalized to the total protein of the same anemone homogenate using the Thermo Scientific Pierce BCA assay <ref type="bibr" target="#b93">(94)</ref>.</p><p>The short-term bleaching experiment was performed similarly except that a single tank was used; eight anemones per time point were analyzed individually as just described.</p><p>RNA Isolation and Sequencing. Total RNA was extracted from each pool of three anemones using the RNAqueous-4PCR Kit (Ambion AM1914) following the manufacturer's instructions. The RNA-integrity number of each sample was determined using an Agilent 2100 Bioanalyzer; all samples had values ≥8 and were therefore used for sequencing. For each sample, ∼1 μg of total RNA was processed (including the poly-A + selection step) using the TruSeq RNA Sample Prep Kit (Illumina FC-122-1001) and following the manufacturer's instructions to produce indexed libraries. The resulting libraries were pooled based on their indices (as described in the kit instructions), and sequencing of 36-bp single-end reads was performed by the Stanford Center for Genomics and Personalized Medicine using an Illumina HiSeq 2000 sequencer.</p><p>Analysis of Differential Gene Expression and GO-Term Analyses. Reads were aligned to the Aiptasia genome (version 1.0) (7) using STAR (version 2.5.1b) <ref type="bibr" target="#b94">(95)</ref> under default alignment parameters. Read counts for each gene were then generated using the Aiptasia gene models (version 1.0) using HTSeq (version 0.6.1) under default parameters <ref type="bibr" target="#b95">(96)</ref>. To generate librarynormalized expression counts for each gene, raw read counts were normalized to the total numbers of reads from the corresponding libraries using the function counts with the parameter normalize = TRUE in DESeq2 (97). To identify differentially expressed genes, we used DESeq2 with the default parameters to generate fold-change (log ) expression ratios and adjusted P values <ref type="bibr" target="#b96">(97)</ref>. These expression ratios were used for all analyses except the ranking of genes for the motif analysis (see below) and for the analysis of symbiosis-associated genes (SI Appendix, <ref type="table">Table S5</ref>). In these cases, shrunken log 2 fold-change values (which are more accurate for gene ranking) were used after generation using the function lfcshrink in DEseq2 <ref type="bibr" target="#b96">(97)</ref>. For hierarchical clustering, we used the function rlog in DESeq2 to generate normalized, log 2 -transformed read counts and perform k-means clustering using the pheatmap function and specifying the number of clusters with the parameter kmeans_k. Smoothened density histograms were generated in R using the density function with default parameters. The statistical significance of differences between these histogram distributions was assessed using a two-sample Kolmogorov-Smirnov test (function ks.test in R).</p><p>To conduct the GO-term analyses, we used the R function topGO using default parameters except for specifying the program to report the top 20 terms and the gene-ontology level as biological process (parameters: topNodes = 20 and ontology = BP). We used the GO terms for each gene from the Aiptasia genome version 1.0 as our database <ref type="bibr" target="#b6">(7)</ref>. Enrichment analysis was done for each query GO-term list against this database using a Fisher's exact test (parameter: statistic = Fisher). All analyses in R were performed using RStudio version 1.1.414 with the R version 3.5.1.</p><p>Analysis of Putative Transcription-Factor Binding Motifs. We used the function lfcShrink in DESeq2 to generate log 2 fold-change ratios for 3-h read counts vs. 0-h read counts for all genes in symbiotic anemones, and we used these ratios to rank the genes <ref type="bibr" target="#b96">(97)</ref>. For each of the top 100 most-up-regulated genes, we used a custom Python script (Python version 2.7.13) to extract the putative promoter sequence, defined as the bp immediately upstream of the predicted transcription start site in the gene model. Four of the 100 genes did not have a full 500 bp upstream of their transcription start sites in the genome assembly and so were not included in the further analysis. We then used the 96 500-bp sequences to identify enriched motifs (possible binding sites for transcription factors) using the program MEME with the following parameters: max width = 25, motif site distribution = "any number of sites per sequence", and maximum number of motifs = 2. The resulting enriched motifs were then searched against a database of known transcription factor binding sites with the TOMTOM program using default parameters. Next, we used the program FIMO to quantify the numbers of these motifs within the putative promoters of all 22,872 genes for which the gene models contain a full 500 bp immediately upstream of the putative transcription start site. To increase the specificity of the motif search, the sequence of the enriched HSF1 motif <ref type="figure">(Fig. 2 C, Top</ref>) was trimmed to "GAANNTTCTAGAA" to match the size of the canonical HSF1 binding site <ref type="figure">(Fig. 2 C, Bottom)</ref>. The enriched Aiptasia NFKB motif <ref type="figure">(Fig. 2 B, Top)</ref> was used without alteration. The MEME, TOMTOM, and FIMO programs are parts of the MEME suite web server <ref type="bibr" target="#b97">(98)</ref>.</p><p>Data Availability. All data for this paper are provided in the main text or SI Appendix. Raw sequences and metadata have been deposited in the NCBI BioProject database (accession no. PRJNA662400).</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>Rapid Up-Regulation of Many Immune-Response, Protein-Folding, and</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 1 .</head><label>1</label><figDesc>of heat stress (h) Time since initiation of heat stress (h) Time since initiation of heat stress (h) Experimental design. (A) Gradual increase in temperature after shifting a tank containing anemones in 1 L of ASW from an incubator at 27°C</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>Fig. S2. (G) Smoothened-density histograms (Materials and Methods) of log 2 fold differences between symbiotic and aposymbiotic animals at 0 h.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>A</head><label></label><figDesc>Top 100 upregulated genes (3 h:0 h) 500 bp Promoter Heat-Responsive Gene</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>2 FoldFig. 3 .</head><label>23</label><figDesc>ubiquitin−protein ligase) BCL3 MAFG (Transcription factor) RCHY1 (E3 ubiquitin−protein ligase) BAG domain-containing protein l(2)efl (HSP20 Family) DZIP3 (E3 ubiquitin−protein ligase) HSPA8 (Heat shock protein) HSP20 (Heat shock protein) HSPA8 (Heat shock protein) HSP70 (Heat shock protein) HSP90 (Heat shock protein) Enrichment of potential NFκB and HSF1 binding sites in the promoter regions of genes that are highly up-regulated during heat stress. (A) Strategy used to search for transcription-factor binding sites involved in the response to heat stress; see text for details. (B and C) Logo plots showing the top two hits returned by the MEME search (Upper plots) and their correspondence to canonical binding sites (Lower plots) for transcription factors NFκB (B) and HSF1 (C); see text for details. (D-G) Correlations between numbers of putative binding sites for NFκB (D and F) and HSF1 (E and G) and degrees of up-regulation of the associated genes. (D and E) Smoothened-density histograms for the indicated numbers of binding sites plotted as a function of the log fold changes in transcript levels between 0 and 3 h after the shift to 34°C for all genes in the genome. (F and G) Heatmaps showing changes in transcript levels (log scale; see key)as a function of time since the initiation of heat stress for all of the genes with four or more putative NFκB (F) or HSF1 (G) binding sites plus some of the genes with three such sites in each case. Annotations were obtained from ref.<ref type="bibr" target="#b6">7</ref> and by manual BLASTP searches against nonredundent databases on NCBI for genes with no annotation<ref type="bibr" target="#b98">(99)</ref>; red font shows genes that are known to be regulated by the respective transcription factor in at least one other organism.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head></head><label></label><figDesc>Fig. 4. Rapid changes in expression of many symbiosis-related genes after onset of heat stress. In the experiment of Fig. 1 A-C, genes with strong differential expression (≥4-fold, P &lt; 0.05) between symbiotic and aposymbiotic anemones prior to heat stress were identified and analyzed. (A) Dot plots of the ratios of expression levels between symbiotic and aposymbiotic anemones for individual genes (log scale) as a function of time after the temperature shift. Both genes expressed at higher levels at time = in symbiotic anemones (green dots) and those expressed at higher levels in aposymbiotic anemones (black dots) are shown. (B-G) Examples of genes whose expression is rapidly down-regulated in symbiotic anemones after the temperature shift. The mean expression values for each gene at each time in symbiotic anemones are shown relative to the mean expression of that gene in aposymbiotic anemones at time = 0. See SI Appendix, Table S5A and the text for more details.</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">Downloaded by guest on August 23, 2021</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">GENETICSDownloaded by guest on August 23, 2021</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">| www.pnas.org/cgi/doi/10.1073/pnas.2015737117   Cleves et al.Downloaded by guest on August 23, 2021</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="28914">| www.pnas.org/cgi/doi/10.1073/pnas.2015737117 Cleves et al. Downloaded by guest on August 23, 2021</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>ACKNOWLEDGMENTS. We thank Amanda Tinoco for assistance with bleaching experiments and members of our own and the Arthur Grossman and Stephen Palumbi laboratories for many helpful discussions. Funding for this study was provided by grants from the Gordon and Betty Moore Foundation (Grant 2629.01), the Simons Foundation (LIFE#336932), and the National Science Foundation (IOS EDGE Award 1645164). This work used the Genome Sequencing Service Center of the Stanford Center for Genomics and Personalized Medicine, supported by grant awards NIH S10OD025212 and NIH/National Institute of Diabetes and Digestive and Kidney Diseases P30DK116074.</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Systematic revision of Symbiodiniaceae highlights the antiquity and diversity of coral endosymbionts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C</forename><surname>Lajeunesse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Biol</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="2570" to="2580" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. C. LaJeunesse et al., Systematic revision of Symbiodiniaceae highlights the antiquity and diversity of coral endosymbionts. Curr. Biol. 28, 2570-2580 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Reef corals: Mutualistic symbioses adapted to nutrient-poor environments</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Muscatine</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">W</forename><surname>Porter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioscience</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="454" to="460" />
+			<date type="published" when="1977" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Muscatine, J. W. Porter, Reef corals: Mutualistic symbioses adapted to nutrient-poor environments. Bioscience 27, 454-460 (1977).</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Light and the bioenergetics of a symbiotic coral</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">G</forename><surname>Falkowski</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Dubinsky</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Muscatine</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">W</forename><surname>Porter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioscience</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="705" to="709" />
+			<date type="published" when="1984" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. G. Falkowski, Z. Dubinsky, L. Muscatine, J. W. Porter, Light and the bioenergetics of a symbiotic coral. Bioscience 34, 705-709 (1984).</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Population control in symbiotic corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">G</forename><surname>Falkowski</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Dubinsky</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Muscatine</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Mccloskey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioscience</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="606" to="611" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. G. Falkowski, Z. Dubinsky, L. Muscatine, L. McCloskey, Population control in sym- biotic corals. Bioscience 43, 606-611 (1993).</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Nitrogen recycling or nitrogen conservation in an algainvertebrate symbiosis?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Douglas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Biol</title>
+		<imprint>
+			<biblScope unit="volume">201</biblScope>
+			<biblScope unit="page" from="2445" to="2453" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Wang, A. E. Douglas, Nitrogen recycling or nitrogen conservation in an alga- invertebrate symbiosis? J. Exp. Biol. 201, 2445-2453 (1998).</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Evidence that glucose is the major transferred metabolite in dinoflagellate-cnidarian symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">S</forename><surname>Burriesci</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">K</forename><surname>Raab</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Pringle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Biol</title>
+		<imprint>
+			<biblScope unit="volume">215</biblScope>
+			<biblScope unit="page" from="3467" to="3477" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. S. Burriesci, T. K. Raab, J. R. Pringle, Evidence that glucose is the major transferred metabolite in dinoflagellate-cnidarian symbiosis. J. Exp. Biol. 215, 3467-3477 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The genome of Aiptasia, a sea anemone model for coral symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Baumgarten</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="11893" to="11898" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Baumgarten et al., The genome of Aiptasia, a sea anemone model for coral sym- biosis. Proc. Natl. Acad. Sci. U.S.A. 112, 11893-11898 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Expression patterns of sterol transporters NPC1 and NPC2 in the cnidarian-dinoflagellate symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Dani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">12753</biblScope>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. Dani et al., Expression patterns of sterol transporters NPC1 and NPC2 in the cnidarian-dinoflagellate symbiosis. Cell. Microbiol. 19, e12753 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Host-dependent nitrogen recycling as a mechanism of symbiont control in Aiptasia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Cui</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Genet</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">1008189</biblScope>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Cui et al., Host-dependent nitrogen recycling as a mechanism of symbiont control in Aiptasia. PLoS Genet. 15, e1008189 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Sterol transfer by atypical cholesterol-binding NPC2 proteins in coral-algal symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">A</forename><surname>Hambleton</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019" />
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">43923</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. A. Hambleton et al., Sterol transfer by atypical cholesterol-binding NPC2 proteins in coral-algal symbiosis. eLife 8, e43923 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Symbiont population control by host-symbiont metabolic interaction in Symbiodiniaceae-cnidarian associations</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Xiang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">108</biblScope>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Xiang et al., Symbiont population control by host-symbiont metabolic interaction in Symbiodiniaceae-cnidarian associations. Nat. Commun. 11, 108 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Coral reef ecosystems under climate change and ocean acidification</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Hoegh-Guldberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">S</forename><surname>Poloczanska</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Skirving</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Dove</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Mar. Sci</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">158</biblScope>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">O. Hoegh-Guldberg, E. S. Poloczanska, W. Skirving, S. Dove, Coral reef ecosystems under climate change and ocean acidification. Front. Mar. Sci. 4, 158 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Spatial and temporal patterns of mass bleaching of corals in the Anthropocene</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">P</forename><surname>Hughes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">359</biblScope>
+			<biblScope unit="page" from="80" to="83" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. P. Hughes et al., Spatial and temporal patterns of mass bleaching of corals in the Anthropocene. Science 359, 80-83 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Gene expression biomarkers of heat stress in scleractinian corals: Promises and limitations</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">D</forename><surname>Louis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Bhagooli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">D</forename><surname>Kenkel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">D</forename><surname>Dyall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comp. Biochem. Physiol. C Toxicol. Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">191</biblScope>
+			<biblScope unit="page" from="63" to="77" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. D. Louis, R. Bhagooli, C. D. Kenkel, A. C. Baker, S. D. Dyall, Gene expression bio- markers of heat stress in scleractinian corals: Promises and limitations. Comp. Bio- chem. Physiol. C Toxicol. Pharmacol. 191, 63-77 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The past, present, and future of coral heat stress studies</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Cziesielski</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Schmidt-Roach</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Aranda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="10055" to="10066" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. J. Cziesielski, S. Schmidt-Roach, M. Aranda, The past, present, and future of coral heat stress studies. Ecol. Evol. 9, 10055-10066 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">The heat-shock proteins</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Lindquist</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">A</forename><surname>Craig</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Genet</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="631" to="677" />
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Lindquist, E. A. Craig, The heat-shock proteins. Annu. Rev. Genet. 22, 631-677 (1988).</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Morimoto</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Stress Proteins in Biology and Medicine</title>
+		<editor>Tissieres, C. Georgopoulos</editor>
+		<imprint>
+			<date type="published" when="1990" />
+			<publisher>Cold Spring Harbor Laboratory Press</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Morimoto, A. Tissieres, C. Georgopoulos, Eds., Stress Proteins in Biology and Medicine, (Cold Spring Harbor Laboratory Press, 1990).</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Early molecular responses of coral larvae to hyperthermal stress</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Rodriguez-Lanetty</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Harii</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Hoegh-Guldberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="5101" to="5114" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Rodriguez-Lanetty, S. Harii, O. Hoegh-Guldberg, Early molecular responses of coral larvae to hyperthermal stress. Mol. Ecol. 18, 5101-5114 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Profiling gene expression responses of coral larvae (Acropora millepora) to elevated temperature and settlement inducers using a novel RNA-Seq procedure</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">V</forename><surname>Aglyamova</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">V</forename><surname>Matz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="3599" to="3616" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Meyer, G. V. Aglyamova, M. V. Matz, Profiling gene expression responses of coral larvae (Acropora millepora) to elevated temperature and settlement inducers using a novel RNA-Seq procedure. Mol. Ecol. 20, 3599-3616 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Development of gene expression markers of acute heat-light stress in reef-building corals of the genus Porites</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">D</forename><surname>Kenkel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">26914</biblScope>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. D. Kenkel et al., Development of gene expression markers of acute heat-light stress in reef-building corals of the genus Porites. PLoS One 6, e26914 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Diagnostic gene expression biomarkers of coral thermal stress</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">D</forename><surname>Kenkel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Resour</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="667" to="678" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. D. Kenkel et al., Diagnostic gene expression biomarkers of coral thermal stress. Mol. Ecol. Resour. 14, 667-678 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Early transcriptional responses during heat stress in the coral Acropora hyacinthus</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Traylor-Knowles</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">H</forename><surname>Rose</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">A</forename><surname>Sheets</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Palumbi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Bull</title>
+		<imprint>
+			<biblScope unit="volume">232</biblScope>
+			<biblScope unit="page" from="91" to="100" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. Traylor-Knowles, N. H. Rose, E. A. Sheets, S. R. Palumbi, Early transcriptional re- sponses during heat stress in the coral Acropora hyacinthus. Biol. Bull. 232, 91-100 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Expression of low molecular weight HSP 70 related polypeptides from the symbiotic sea anemone Anemonia viridis Forskall in response to heat shock</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">A</forename><surname>Sharp</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Bythell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">E</forename><surname>Brown</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Mar. Biol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">179</biblScope>
+			<biblScope unit="page" from="179" to="193" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. A. Sharp, D. Miller, J. C. Bythell, B. E. Brown, Expression of low molecular weight HSP 70 related polypeptides from the symbiotic sea anemone Anemonia viridis For- skall in response to heat shock. J. Exp. Mar. Biol. Ecol. 179, 179-193 (1994).</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Induction of 70-kD heat shock protein in scleractinian corals by elevated temperature: Significance for coral bleaching</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">L</forename><surname>Hayes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">M</forename><surname>King</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Mar. Biol. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="36" to="42" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. L. Hayes, C. M. King, Induction of 70-kD heat shock protein in scleractinian corals by elevated temperature: Significance for coral bleaching. Mol. Mar. Biol. Biotechnol. 4, 36-42 (1995).</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Cellular mechanisms of Cnidarian bleaching: Stress causes the collapse of symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">M</forename><surname>Weis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Biol</title>
+		<imprint>
+			<biblScope unit="volume">211</biblScope>
+			<biblScope unit="page" from="3059" to="3066" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. M. Weis, Cellular mechanisms of Cnidarian bleaching: Stress causes the collapse of symbiosis. J. Exp. Biol. 211, 3059-3066 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Transcriptomic responses to heat stress and bleaching in the elkhorn coral Acropora palmata</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">K</forename><surname>Desalvo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Sunagawa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">R</forename><surname>Voolstra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Medina</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Ecol. Prog. Ser</title>
+		<imprint>
+			<biblScope unit="volume">402</biblScope>
+			<biblScope unit="page" from="97" to="113" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. K. Desalvo, S. Sunagawa, C. R. Voolstra, M. Medina, Transcriptomic responses to heat stress and bleaching in the elkhorn coral Acropora palmata. Mar. Ecol. Prog. Ser. 402, 97-113 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Global shifts in gene expression profiles accompanied with environmental changes in cnidarian-dinoflagellate endosymbiosis. G3 (Bethesda) 9</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Ishii</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019" />
+			<biblScope unit="page" from="2337" to="2347" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. Ishii et al., Global shifts in gene expression profiles accompanied with environ- mental changes in cnidarian-dinoflagellate endosymbiosis. G3 (Bethesda) 9, 2337-2347 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Transcription factor NF-κB is modulated by symbiotic status in a sea anemone model of cnidarian bleaching</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">M</forename><surname>Mansfield</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">16025</biblScope>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. M. Mansfield et al., Transcription factor NF-κB is modulated by symbiotic status in a sea anemone model of cnidarian bleaching. Sci. Rep. 7, 16025 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Response of the symbiotic cnidarian Anthopleura elegantissima transcriptome to temperature and UV increase</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Richier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Rodriguez-Lanetty</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">E</forename><surname>Schnitzler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">M</forename><surname>Weis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comp. Biochem. Physiol. Part D Genomics Proteomics</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="283" to="289" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Richier, M. Rodriguez-Lanetty, C. E. Schnitzler, V. M. Weis, Response of the sym- biotic cnidarian Anthopleura elegantissima transcriptome to temperature and UV increase. Comp. Biochem. Physiol. Part D Genomics Proteomics 3, 283-289 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Hyperthermic stress-induced increase in the expression of glutamate-cysteine ligase and glutathione levels in the symbiotic sea anemone Aiptasia pallida</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Sunagawa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">J</forename><surname>Forman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Medina</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comp. Biochem. Physiol. B Biochem. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">151</biblScope>
+			<biblScope unit="page" from="133" to="138" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Sunagawa, J. Choi, H. J. Forman, M. Medina, Hyperthermic stress-induced increase in the expression of glutamate-cysteine ligase and glutathione levels in the symbiotic sea anemone Aiptasia pallida. Comp. Biochem. Physiol. B Biochem. Mol. Biol. 151, 133-138 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Effects of temperature on gene expression in embryos of the coral Montastraea faveolata</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">R</forename><surname>Voolstra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genomics</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">627</biblScope>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. R. Voolstra et al., Effects of temperature on gene expression in embryos of the coral Montastraea faveolata. BMC Genomics 10, 627 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Genomic basis for coral resilience to climate change</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Barshis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="1387" to="1392" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. J. Barshis et al., Genomic basis for coral resilience to climate change. Proc. Natl. Acad. Sci. U.S.A. 110, 1387-1392 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Multi-omics analysis of thermal stress response in a zooxanthellate cnidarian reveals the importance of associating with thermotolerant symbionts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Cziesielski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Biol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">285</biblScope>
+			<biblScope unit="page">20172654</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. J. Cziesielski et al., Multi-omics analysis of thermal stress response in a zoox- anthellate cnidarian reveals the importance of associating with thermotolerant symbionts. Proc. Biol. Sci. 285, 20172654 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Oxidative stress in marine environments: Biochemistry and physiological ecology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">P</forename><surname>Lesser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="253" to="278" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. P. Lesser, Oxidative stress in marine environments: Biochemistry and physiological ecology. Annu. Rev. Physiol. 68, 253-278 (2006).</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Development and heat stressinduced transcriptomic changes during embryogenesis of the scleractinian coral Acropora palmata</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">J</forename><surname>Portune</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">R</forename><surname>Voolstra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Medina</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Szmant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Genomics</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="51" to="62" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. J. Portune, C. R. Voolstra, M. Medina, A. M. Szmant, Development and heat stress- induced transcriptomic changes during embryogenesis of the scleractinian coral Acropora palmata. Mar. Genomics 3, 51-62 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">The transcriptomic response to thermal stress is immediate, transient and potentiated by ultraviolet radiation in the sea anemone Anemonia viridis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Moya</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Ganot</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Furla</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Sabourault</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1158" to="1174" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Moya, P. Ganot, P. Furla, C. Sabourault, The transcriptomic response to thermal stress is immediate, transient and potentiated by ultraviolet radiation in the sea anemone Anemonia viridis. Mol. Ecol. 21, 1158-1174 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">The role of transcriptome resilience in resistance of corals to bleaching</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">O</forename><surname>Seneca</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Palumbi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="1467" to="1484" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. O. Seneca, S. R. Palumbi, The role of transcriptome resilience in resistance of corals to bleaching. Mol. Ecol. 24, 1467-1484 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Transcriptomic changes with increasing algal symbiont reveal the detailed process underlying establishment of coral-algal symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Yuyama</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Ishikawa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Nozawa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Yoshida</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Ikeo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">16802</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">I. Yuyama, M. Ishikawa, M. Nozawa, M. A. Yoshida, K. Ikeo, Transcriptomic changes with increasing algal symbiont reveal the detailed process underlying establishment of coral-algal symbiosis. Sci. Rep. 8, 16802 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title level="m" type="main">The algal symbiont modifies the transcriptome of the Scleractinian coral Euphyllia paradivisa during heat stress</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Meron</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019" />
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">256</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Meron et al., The algal symbiont modifies the transcriptome of the Scleractinian coral Euphyllia paradivisa during heat stress. Microorganisms 7, 256 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Symbiotic lifestyle triggers drastic changes in the gene expression of the algal endosymbiont Breviolum minutum (Symbiodiniaceae)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Maor-Landaw</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J H</forename><surname>Van Oppen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">I</forename><surname>Mcfadden</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="451" to="466" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. Maor-Landaw, M. J. H. van Oppen, G. I. McFadden, Symbiotic lifestyle triggers drastic changes in the gene expression of the algal endosymbiont Breviolum minutum (Symbiodiniaceae). Ecol. Evol. 10, 451-466 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Transcriptome analysis of a cnidarian-dinoflagellate mutualism reveals complex modulation of host gene expression</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Rodriguez-Lanetty</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">S</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">M</forename><surname>Weis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genomics</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">23</biblScope>
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Rodriguez-Lanetty, W. S. Phillips, V. M. Weis, Transcriptome analysis of a cnidarian-dinoflagellate mutualism reveals complex modulation of host gene ex- pression. BMC Genomics 7, 23 (2006).</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Adaptations to endosymbiosis in a cnidarian-dinoflagellate association: Differential gene expression and specific gene duplications</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Ganot</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Genet</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">1002187</biblScope>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Ganot et al., Adaptations to endosymbiosis in a cnidarian-dinoflagellate associa- tion: Differential gene expression and specific gene duplications. PLoS Genet. 7, e1002187 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Extensive differences in gene expression between symbiotic and aposymbiotic cnidarians</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">M</forename><surname>Lehnert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bethesda)</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="277" to="295" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. M. Lehnert et al., Extensive differences in gene expression between symbiotic and aposymbiotic cnidarians. G3 (Bethesda) 4, 277-295 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Symbiosis induces widespread changes in the proteome of the model cnidarian Aiptasia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Oakley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1009" to="1023" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. A. Oakley et al., Symbiosis induces widespread changes in the proteome of the model cnidarian Aiptasia. Cell. Microbiol. 18, 1009-1023 (2016).</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Evidence for miRNA-mediated modulation of the host transcriptome in cnidarian-dinoflagellate symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Baumgarten</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="403" to="418" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Baumgarten et al., Evidence for miRNA-mediated modulation of the host tran- scriptome in cnidarian-dinoflagellate symbiosis. Mol. Ecol. 27, 403-418 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Thirty years of coral heatstress experiments: A review of methods</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">H</forename><surname>Mclachlan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">T</forename><surname>Price</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">L</forename><surname>Solomon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">G</forename><surname>Grottoli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Coral Reefs</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="885" to="902" />
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. H. McLachlan, J. T. Price, S. L. Solomon, A. G. Grottoli, Thirty years of coral heat- stress experiments: A review of methods. Coral Reefs 39, 885-902 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Cell biology in model systems as the key to understanding corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">M</forename><surname>Weis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Davy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Hoegh-Guldberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Rodriguez-Lanetty</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Pringle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Ecol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="369" to="376" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. M. Weis, S. K. Davy, O. Hoegh-Guldberg, M. Rodriguez-Lanetty, J. R. Pringle, Cell biology in model systems as the key to understanding corals. Trends Ecol. Evol. 23, 369-376 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">A journey into the wild of the cnidarian model system Aiptasia and its symbionts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">R</forename><surname>Voolstra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="4366" to="4368" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. R. Voolstra, A journey into the wild of the cnidarian model system Aiptasia and its symbionts. Mol. Ecol. 22, 4366-4368 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Cell biology of coral symbiosis: Foundational study can inform solutions to the coral reef crisis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">M</forename><surname>Weis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Integr. Comp. Biol</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="845" to="855" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. M. Weis, Cell biology of coral symbiosis: Foundational study can inform solutions to the coral reef crisis. Integr. Comp. Biol. 59, 845-855 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Genetic variation in Symbiodinium (Gymnodinium) microadriaticum Freudenthal, and specificity in its symbiosis with marine invertebrates. III. Specificity and infectivity of Symbiodinium microadriaticum</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Schoenberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">K</forename><surname>Trench</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. R. Soc. Lond. B Biol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">207</biblScope>
+			<biblScope unit="page" from="405" to="427" />
+			<date type="published" when="1980" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. A. Schoenberg, R. K. Trench, Genetic variation in Symbiodinium (Gymnodinium) microadriaticum Freudenthal, and specificity in its symbiosis with marine inverte- brates. III. Specificity and infectivity of Symbiodinium microadriaticum. Proc. R. Soc. Lond. B Biol. Sci. 207, 405-427 (1980).</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Specificity of a model cnidariandinoflagellate symbiosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Belda-Baillie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">K</forename><surname>Baillie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Maruyama</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Bull</title>
+		<imprint>
+			<biblScope unit="volume">202</biblScope>
+			<biblScope unit="page" from="74" to="85" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. A. Belda-Baillie, B. K. Baillie, T. Maruyama, Specificity of a model cnidarian- dinoflagellate symbiosis. Biol. Bull. 202, 74-85 (2002).</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">The mesoderm-forming gene brachyury regulates ectoderm-endoderm demarcation in the coral Acropora digitifera</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Yasuoka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Shinzato</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Satoh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Biol</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="2885" to="2892" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. Yasuoka, C. Shinzato, N. Satoh, The mesoderm-forming gene brachyury regulates ectoderm-endoderm demarcation in the coral Acropora digitifera. Curr. Biol. 26, 2885-2892 (2016).</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">CRISPR/Cas9-mediated genome editing in a reef-building coral</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">A</forename><surname>Cleves</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E</forename><surname>Strader</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">K</forename><surname>Bay</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Pringle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">V</forename><surname>Matz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="page" from="5235" to="5240" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. A. Cleves, M. E. Strader, L. K. Bay, J. R. Pringle, M. V. Matz, CRISPR/Cas9-mediated genome editing in a reef-building coral. Proc. Natl. Acad. Sci. U.S.A. 115, 5235-5240 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Reduced thermal tolerance in a coral carrying CRISPR-induced mutations in the gene for a heat-shock transcription factor</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Cleves</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page" from="28899" to="28905" />
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Cleves et al., Reduced thermal tolerance in a coral carrying CRISPR-induced mu- tations in the gene for a heat-shock transcription factor. Proc. Natl. Acad. Sci. U.S.A. 117, 28899-28905 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<monogr>
+		<title level="m" type="main">Coral &apos;bleaching&apos; as a generalized stress response to environmental disturbance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Cunning</surname></persName>
+		</author>
+		<editor>Diseases of Coral, C. M. Woodley, C. A. Downs, A. W. Bruckner, J. W. Porter, S. B. Galloway</editor>
+		<imprint>
+			<date type="published" when="2015" />
+			<publisher>Wiley</publisher>
+			<biblScope unit="page" from="396" to="409" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. C. Baker, R. Cunning, &quot;Coral &apos;bleaching&apos; as a generalized stress response to envi- ronmental disturbance&quot; in Diseases of Coral, C. M. Woodley, C. A. Downs, A. W. Bruckner, J. W. Porter, S. B. Galloway, Eds. (Wiley, 2015), pp. 396-409.</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">A review: The role of reactive oxygen species in mass coral bleaching</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Szabó</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">W D</forename><surname>Larkum</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Vass</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Photosynthesis in Algae: Biochemical and Physiological Mechanisms</title>
+		<editor>A. W. D. Larkum, A. R. Grossman, J. Raven</editor>
+		<imprint>
+			<publisher>Springer</publisher>
+			<biblScope unit="page" from="459" to="488" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Szabó, A. W. D. Larkum, I. Vass, &quot;A review: The role of reactive oxygen species in mass coral bleaching&quot; in Photosynthesis in Algae: Biochemical and Physiological Mechanisms, A. W. D. Larkum, A. R. Grossman, J. Raven, Eds. (Springer, 2020), pp. 459-488.</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Protein pathway and complex clustering of correlated mRNA and protein expression analyses in Saccharomyces cerevisiae</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">P</forename><surname>Washburn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="3107" to="3112" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. P. Washburn et al., Protein pathway and complex clustering of correlated mRNA and protein expression analyses in Saccharomyces cerevisiae. Proc. Natl. Acad. Sci. U.S.A. 100, 3107-3112 (2003).</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Unknown to known: Advancing knowledge of coral gene function</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">A</forename><surname>Cleves</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Shumaker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">M</forename><surname>Putnam</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Bhattacharya</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Genet</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="93" to="104" />
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. A. Cleves, A. Shumaker, J. Lee, H. M. Putnam, D. Bhattacharya, Unknown to known: Advancing knowledge of coral gene function. Trends Genet. 36, 93-104 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">NF-κB: Where did it come from and why?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">D</forename><surname>Gilmore</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">S</forename><surname>Wolenski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Immunol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">246</biblScope>
+			<biblScope unit="page" from="14" to="35" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. D. Gilmore, F. S. Wolenski, NF-κB: Where did it come from and why? Immunol. Rev. 246, 14-35 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Innate immunity and cnidarian-Symbiodiniaceae mutualism</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">M</forename><surname>Mansfield</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">D</forename><surname>Gilmore</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dev. Comp. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="199" to="209" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. M. Mansfield, T. D. Gilmore, Innate immunity and cnidarian-Symbiodiniaceae mutualism. Dev. Comp. Immunol. 90, 199-209 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Relative contributions of various cellular mechanisms to loss of algae during cnidarian bleaching</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Bieri</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Onishi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Xiang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">R</forename><surname>Grossman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Pringle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">152693</biblScope>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Bieri, M. Onishi, T. Xiang, A. R. Grossman, J. R. Pringle, Relative contributions of various cellular mechanisms to loss of algae during cnidarian bleaching. PLoS One 11, e0152693 (2016).</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Regulation of heat shock transcription factors and their roles in physiology and disease</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Gomez-Pastor</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">T</forename><surname>Burchfiel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Thiele</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Mol. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="4" to="19" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Gomez-Pastor, E. T. Burchfiel, D. J. Thiele, Regulation of heat shock transcription factors and their roles in physiology and disease. Nat. Rev. Mol. Cell Biol. 19, 4-19 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Infection dynamics vary between Symbiodinium types and cell surface treatments during establishment of endosymbiosis with coral larvae</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">K</forename><surname>Bay</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diversity</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="356" to="374" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. K. Bay et al., Infection dynamics vary between Symbiodinium types and cell surface treatments during establishment of endosymbiosis with coral larvae. Diversity 3, 356-374 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Heat-evolved microalgal symbionts increase coral bleaching tolerance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Buerger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Adv</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">2498</biblScope>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Buerger et al., Heat-evolved microalgal symbionts increase coral bleaching toler- ance. Sci. Adv. 6, eaba2498 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Oxygen production by endosymbiotic algae controls superoxide dismutase activity in their animal host</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Dykens</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Shick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">297</biblScope>
+			<biblScope unit="page" from="579" to="580" />
+			<date type="published" when="1982" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. A. Dykens, J. M. Shick, Oxygen production by endosymbiotic algae controls su- peroxide dismutase activity in their animal host. Nature 297, 579-580 (1982).</note>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Bleaching in coral reef anthozoans: Effects of irradiance, ultraviolet radiation, and temperature on the activities of protective enzymes against active oxygen</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">P</forename><surname>Lesser</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">R</forename><surname>Stochaj</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">W</forename><surname>Tapley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Shick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Coral Reefs</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="225" to="232" />
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. P. Lesser, W. R. Stochaj, D. W. Tapley, J. M. Shick, Bleaching in coral reef antho- zoans: Effects of irradiance, ultraviolet radiation, and temperature on the activities of protective enzymes against active oxygen. Coral Reefs 8, 225-232 (1990).</note>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">A molecular biomarker system for assessing the health of coral (Montastraea faveolata) during heat stress</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Downs</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Mueller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Fauth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">M</forename><surname>Woodley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="533" to="544" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. A. Downs, E. Mueller, S. Phillips, J. E. Fauth, C. M. Woodley, A molecular biomarker system for assessing the health of coral (Montastraea faveolata) during heat stress. Mar. Biotechnol. 2, 533-544 (2000).</note>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Oxidative stress and seasonal coral bleaching. Free Radic</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Downs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Med</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="533" to="543" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. A. Downs et al., Oxidative stress and seasonal coral bleaching. Free Radic. Biol. Med. 33, 533-543 (2002).</note>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Differential susceptibility to oxidative stress of two scleractinian corals: Antioxidant functioning of mycosporineglycine</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Yakovleva</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Bhagooli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Takemura</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Hidaka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comp. Biochem. Physiol. B Biochem. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="page" from="721" to="730" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">I. Yakovleva, R. Bhagooli, A. Takemura, M. Hidaka, Differential susceptibility to oxi- dative stress of two scleractinian corals: Antioxidant functioning of mycosporine- glycine. Comp. Biochem. Physiol. B Biochem. Mol. Biol. 139, 721-730 (2004).</note>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Symbiosis-induced adaptation to oxidative stress</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Richier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Furla</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Plantivaux</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P.-L</forename><surname>Merle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Allemand</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Biol</title>
+		<imprint>
+			<biblScope unit="volume">208</biblScope>
+			<biblScope unit="page" from="277" to="285" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Richier, P. Furla, A. Plantivaux, P.-L. Merle, D. Allemand, Symbiosis-induced adap- tation to oxidative stress. J. Exp. Biol. 208, 277-285 (2005).</note>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Differential coral bleaching-Contrasting the activity and response of enzymatic antioxidants in symbiotic partners under thermal stress</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Krueger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comp. Biochem. Physiol. A Mol. Integr. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">190</biblScope>
+			<biblScope unit="page" from="15" to="25" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Krueger et al., Differential coral bleaching-Contrasting the activity and response of enzymatic antioxidants in symbiotic partners under thermal stress. Comp. Biochem. Physiol. A Mol. Integr. Physiol. 190, 15-25 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">A multi-trait systems approach reveals a response cascade to bleaching in corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">G</forename><surname>Gardner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Biol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">117</biblScope>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. G. Gardner et al., A multi-trait systems approach reveals a response cascade to bleaching in corals. BMC Biol. 15, 117 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Coral bleaching independent of photosynthetic activity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Tolleter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Biol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="1782" to="1786" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Tolleter et al., Coral bleaching independent of photosynthetic activity. Curr. Biol. 23, 1782-1786 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Oxidative stress in the symbiotic sea anemone Aiptasia pulchella (Carlgren, 1943): Contribution of the animal to superoxide ion production at elevated temperature</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">M</forename><surname>Nii</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Muscatine</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Bull</title>
+		<imprint>
+			<biblScope unit="volume">192</biblScope>
+			<biblScope unit="page" from="444" to="456" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. M. Nii, L. Muscatine, Oxidative stress in the symbiotic sea anemone Aiptasia pul- chella (Carlgren, 1943): Contribution of the animal to superoxide ion production at elevated temperature. Biol. Bull. 192, 444-456 (1997).</note>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Host coenzyme Q redox state is an early biomarker of thermal stress in the coral Acropora millepora</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Lutz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J.-B</forename><surname>Raina</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Motti</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J H</forename><surname>Van Oppen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">139290</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Lutz, J.-B. Raina, C. A. Motti, D. J. Miller, M. J. H. van Oppen, Host coenzyme Q redox state is an early biomarker of thermal stress in the coral Acropora millepora. PLoS One 10, e0139290 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Coral bleaching from a single cell perspective</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Nielsen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Petrou</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">D</forename><surname>Gates</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ISME J</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1558" to="1567" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. A. Nielsen, K. Petrou, R. D. Gates, Coral bleaching from a single cell perspective. ISME J. 12, 1558-1567 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">The exploitation of mutualisms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Bronstein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecol. Lett</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="277" to="287" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. L. Bronstein, The exploitation of mutualisms. Ecol. Lett. 4, 277-287 (2001).</note>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Integrating plant carbon dynamics with mutualism ecology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">G</forename><surname>Pringle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">New Phytol</title>
+		<imprint>
+			<biblScope unit="volume">210</biblScope>
+			<biblScope unit="page" from="71" to="75" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. G. Pringle, Integrating plant carbon dynamics with mutualism ecology. New Phytol. 210, 71-75 (2016).</note>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Endosymbiosis: The feeling is not mutual</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">J</forename><surname>Keeling</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">P</forename><surname>Mccutcheon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Theor. Biol</title>
+		<imprint>
+			<biblScope unit="volume">434</biblScope>
+			<biblScope unit="page" from="75" to="79" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. J. Keeling, J. P. McCutcheon, Endosymbiosis: The feeling is not mutual. J. Theor. Biol. 434, 75-79 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Microinjection to deliver protein, mRNA, and DNA into zygotes of the cnidarian endosymbiosis model Aiptasia sp</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">A S</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Bucher</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">A</forename><surname>Hambleton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Guse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">16437</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. A. S. Jones, M. Bucher, E. A. Hambleton, A. Guse, Microinjection to deliver protein, mRNA, and DNA into zygotes of the cnidarian endosymbiosis model Aiptasia sp. Sci. Rep. 8, 16437 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Influence of the population density of zooxanthellae and supply of ammonium on the biomass and metabolic characteristics of the reef corals Seriatopora hystrix and Stylophora pistillata</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Hoegh-Guldberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Ecol. Prog. Ser</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="173" to="186" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">O. Hoegh-Guldberg, G. Smith, Influence of the population density of zooxanthellae and supply of ammonium on the biomass and metabolic characteristics of the reef corals Seriatopora hystrix and Stylophora pistillata. Mar. Ecol. Prog. Ser. 57, 173-186 (1989).</note>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">The effect of external nutrient resources on the optical properties and photosynthetic efficiency of Stylophora pistillata</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Dubinsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Biol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">239</biblScope>
+			<biblScope unit="page" from="231" to="246" />
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Z. Dubinsky et al., The effect of external nutrient resources on the optical properties and photosynthetic efficiency of Stylophora pistillata. Proc. Biol. Sci. 239, 231-246 (1990).</note>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">Are symbiotic algae nutrient deficient?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">A V</forename><surname>Rees</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Biol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">243</biblScope>
+			<biblScope unit="page" from="227" to="233" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. A. V. Rees, Are symbiotic algae nutrient deficient? Proc. Biol. Sci. 243, 227-233 (1991).</note>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Effect of ammonium enrichment on animal and algal biomass of the coral Pocillopora damicornis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Muller-Parker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">R</forename><surname>Mccloskey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Hoegh-Guldberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">J</forename><surname>Mcauley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pac. Sci</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="273" to="283" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Muller-Parker, L. R. McCloskey, O. Hoegh-Guldberg, P. J. McAuley, Effect of am- monium enrichment on animal and algal biomass of the coral Pocillopora damicornis. Pac. Sci. 48, 273-283 (1994).</note>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">Sugar enrichment provides evidence for a role of nitrogen fixation in coral bleaching</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Pogoreutz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Glob. Change Biol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="3838" to="3848" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Pogoreutz et al., Sugar enrichment provides evidence for a role of nitrogen fixation in coral bleaching. Glob. Change Biol. 23, 3838-3848 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">Phosphate deficiency promotes coral bleaching and is reflected by the ultrastructure of symbiotic dinoflagellates</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Rosset</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Wiedenmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename><surname>Reed</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Angelo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Pollut. Bull</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="180" to="187" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Rosset, J. Wiedenmann, A. J. Reed, C. D&apos;Angelo, Phosphate deficiency promotes coral bleaching and is reflected by the ultrastructure of symbiotic dinoflagellates. Mar. Pollut. Bull. 118, 180-187 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main">Glucose-induced trophic shift in an endosymbiont dinoflagellate with physiological and molecular consequences</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Xiang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Physiol</title>
+		<imprint>
+			<biblScope unit="volume">176</biblScope>
+			<biblScope unit="page" from="1793" to="1807" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Xiang et al., Glucose-induced trophic shift in an endosymbiont dinoflagellate with physiological and molecular consequences. Plant Physiol. 176, 1793-1807 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title level="a" type="main">Nutrient availability and metabolism affect the stability of coral-Symbiodiniaceae symbioses</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">A</forename><surname>Morris</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">R</forename><surname>Voolstra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">M</forename><surname>Quigley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">G</forename><surname>Bourne</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">K</forename><surname>Bay</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="678" to="689" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. A. Morris, C. R. Voolstra, K. M. Quigley, D. G. Bourne, L. K. Bay, Nutrient availability and metabolism affect the stability of coral-Symbiodiniaceae symbioses. Trends Mi- crobiol. 27, 678-689 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Beyond bulk: A review of single cell transcriptomics methodologies and applications</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Kulkarni</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">G</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">P</forename><surname>Merullo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Konopka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="129" to="136" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Kulkarni, A. G. Anderson, D. P. Merullo, G. Konopka, Beyond bulk: A review of single cell transcriptomics methodologies and applications. Curr. Opin. Biotechnol. 58, 129-136 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title level="a" type="main">Lineage dynamics of the endosymbiotic cell type in the soft coral Xenia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C.-M</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Zheng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">582</biblScope>
+			<biblScope unit="page" from="534" to="538" />
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Hu, X. Zheng, C.-M. Fan, Y. Zheng, Lineage dynamics of the endosymbiotic cell type in the soft coral Xenia. Nature 582, 534-538 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<analytic>
+		<title level="a" type="main">Generation and analysis of transcriptomic resources for a model system on the rise: The sea anemone Aiptasia pallida and its dinoflagellate endosymbiont</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Sunagawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genomics</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">258</biblScope>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Sunagawa et al., Generation and analysis of transcriptomic resources for a model system on the rise: The sea anemone Aiptasia pallida and its dinoflagellate endo- symbiont. BMC Genomics 10, 258 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<analytic>
+		<title level="a" type="main">Developing the anemone Aiptasia as a tractable model for cnidarian-dinoflagellate symbiosis: The transcriptome of aposymbiotic A. pallida</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">M</forename><surname>Lehnert</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">S</forename><surname>Burriesci</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Pringle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genomics</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">271</biblScope>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. M. Lehnert, M. S. Burriesci, J. R. Pringle, Developing the anemone Aiptasia as a tractable model for cnidarian-dinoflagellate symbiosis: The transcriptome of apo- symbiotic A. pallida. BMC Genomics 13, 271 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<analytic>
+		<title level="a" type="main">Isolation of clonal axenic strains of the symbiotic dinoflagellate Symbiodinium and their growth and host specificity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Xiang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">A</forename><surname>Hambleton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Denofrio</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Pringle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">R</forename><surname>Grossman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phycol</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="447" to="458" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Xiang, E. A. Hambleton, J. C. DeNofrio, J. R. Pringle, A. R. Grossman, Isolation of clonal axenic strains of the symbiotic dinoflagellate Symbiodinium and their growth and host specificity. J. Phycol. 49, 447-458 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<analytic>
+		<title level="a" type="main">Rapid, precise, and accurate counts of Symbiodinium cells using the Guava flow cytometer, and a comparison to other methods</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">J</forename><surname>Krediet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">135725</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. J. Krediet et al., Rapid, precise, and accurate counts of Symbiodinium cells using the Guava flow cytometer, and a comparison to other methods. PLoS One 10, e0135725 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<analytic>
+		<title level="a" type="main">STAR: Ultrafast universal RNA-seq aligner</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Dobin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="15" to="21" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Dobin et al., STAR: Ultrafast universal RNA-seq aligner. Bioinformatics 29, 15-21 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b95">
+	<analytic>
+		<title level="a" type="main">HTSeqA Python framework to work with highthroughput sequencing data</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Anders</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">T</forename><surname>Pyl</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Huber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="166" to="169" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Anders, P. T. Pyl, W. Huber, HTSeqA Python framework to work with high- throughput sequencing data. Bioinformatics 31, 166-169 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b96">
+	<analytic>
+		<title level="a" type="main">Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">I</forename><surname>Love</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Huber</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Anders</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">550</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. I. Love, W. Huber, S. Anders, Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2. Genome Biol. 15, 550 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b97">
+	<analytic>
+		<title level="a" type="main">MEME SUITE: Tools for motif discovery and searching</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">L</forename><surname>Bailey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="202" to="210" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. L. Bailey et al., MEME SUITE: Tools for motif discovery and searching. Nucleic Acids Res. 37, W202-8 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b98">
+	<analytic>
+		<title level="a" type="main">BLAST+: Architecture and applications</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Camacho</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">421</biblScope>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Camacho et al., BLAST+: Architecture and applications. BMC Bioinformatics 10, 421 (2009).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

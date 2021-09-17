@@ -1,0 +1,2082 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/grace/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A deep transcriptomic resource for the copepod crustacean Labidocera madurae: A potential indicator species for assessing near shore ecosystem health</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2017-10-24">October 24, 2017</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vittoria</forename><surname>Roncalli</surname></persName>
+							<email>roncalli@hawaii.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrew</forename><forename type="middle">E</forename><surname>Christie</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stephanie</forename><forename type="middle">A</forename><surname>Sommer</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Current address: Scripps Institution of Oceanography</orgName>
+								<orgName type="institution">University of California San Diego</orgName>
+								<address>
+									<settlement>La Jolla</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">CA United States of America</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matthew</forename><forename type="middle">C</forename><surname>Cieslak</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><forename type="middle">K</forename><surname>Hartline</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Petra</forename><forename type="middle">H</forename><surname>Lenz</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Békésy Laboratory of Neurobiology</orgName>
+								<orgName type="institution">University of Hawai&apos;i at Mānoa</orgName>
+								<address>
+									<settlement>Honolulu</settlement>
+									<region>HI</region>
+									<country>United States of America</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Stazione Zoologica Anton Dohrn</orgName>
+								<address>
+									<country key="IT">ITALY</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A deep transcriptomic resource for the copepod crustacean Labidocera madurae: A potential indicator species for assessing near shore ecosystem health</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2017-10-24">October 24, 2017</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1371/journal.pone.0186794</idno>
+					<note type="submission">Received: July 15, 2017 Accepted: October 7, 2017</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-09-14T02:41+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>BUSCO, bench-marking universal single-copy orthologs</term>
+					<term>CDS, transcripts with coding regions</term>
+					<term>cpm, counts per million</term>
+					<term>DEGs, differentially expressed genes</term>
+					<term>GO, gene ontology</term>
+					<term>Na V , voltage-gated sodium channel</term>
+					<term>aa, amino acid</term>
+					<term>KEGG, Kyoto Encyclopedia of Genes and Genomes</term>
+					<term>TSA, transcriptome shotgun assembly</term>
+					<term>Na V , voltage-gated sodium channels</term>
+					<term>GFP, green fluorescent proteins</term>
+					<term>CLK, Core clock proteins</term>
+					<term>CRY2, clock cryptochrome 2</term>
+					<term>CYC, cycle</term>
+					<term>PER, period</term>
+					<term>TIM, timeless</term>
+					<term>CKII α, casein kinaseII α</term>
+					<term>CKIIß, casein kinase IIß</term>
+					<term>CWO, clockwork orange</term>
+					<term>DBT, doubletime</term>
+					<term>JET, jetlag</term>
+					<term>PDP1, PAR-domain protein 1</term>
+					<term>PP1, protein phosphatase 1</term>
+					<term>PP2A, protein phosphatase</term>
+					<term>MTS, catalytic subunit microtubule star</term>
+					<term>TWS, PP2A regulatory subunit twins</term>
+					<term>WDB, PP2A regulatory subunit widerborst</term>
+					<term>SGG, shaggy</term>
+					<term>SLIMB, supernumerary limbs</term>
+					<term>VRI, vrille</term>
+					<term>CRY1, cryptochrome 1</term>
+					<term>PDH, pigment dispersing hormone</term>
+					<term>PDHR, pigment dispersing hormone receptor</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Coral reef ecosystems of many subtropical and tropical marine coastal environments have suffered significant degradation from anthropogenic sources. Research to inform management strategies that mitigate stressors and promote a healthy ecosystem has focused on the ecology and physiology of coral reefs and associated organisms. Few studies focus on the surrounding pelagic communities, which are equally important to ecosystem function. Zooplankton, often dominated by small crustaceans such as copepods, is an important food source for invertebrates and fishes, especially larval fishes. The reef-associated zooplankton includes a sub-neustonic copepod family that could serve as an indicator species for the community. Here, we describe the generation of a de novo transcriptome for one such copepod, Labidocera madurae, a pontellid from an intensively-studied coral reef ecosystem, Kāne&apos;ohe Bay, Oahu, Hawai&apos;i. The transcriptome was assembled using high-throughput sequence data obtained from whole organisms. It comprised 211,002 unique transcripts, including 72,391 with coding regions. It was assessed for quality and completeness using multiple workflows. Bench-marking-universal-single-copy-orthologs (BUSCO) analysis identified transcripts for 88% of expected eukaryotic core proteins. Targeted gene-discovery analyses included searches for transcripts coding full-length &quot;giant&quot; proteins (&gt;4,000 amino acids), proteins and splice variants of voltage-gated sodium channels, and proteins involved in the circadian signaling pathway. Four different reference transcriptomes were generated and compared for the detection of differential gene expression between copepodites and adult females; 6,229 genes were consistently identified as differentially expressed between the two regardless of reference. Automated bioinformatics analyses and targeted manual gene curation suggest that the de novo assembled L. madurae transcriptome is of high quality and completeness. This transcriptome provides a new resource for assessing the global physiological status of a planktonic species inhabiting a coral reef ecosystem that is subjected to multiple anthropogenic stressors. The workflows provide a template for generating and assessing transcriptomes in other non-model species.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Copepods are ubiquitous in aquatic and semi-aquatic habitats, living in marine, estuarine, freshwater and interstitial environments from the deepest ocean trenches to the top of mountain peaks <ref type="bibr" target="#b0">[1]</ref>. Labidocera madurae is in the family Pontellidae, which are free-living surface dwelling planktonic copepods that are particularly abundant in coastal marine environments <ref type="bibr" target="#b1">[2]</ref>. The genus Labidocera is a key member of oligotrophic waters surrounding coral reefs in the Pacific and Indian Oceans including Kāne'ohe Bay, Oahu, Hawai'i <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b3">4]</ref>. Kāne'ohe Bay has a thriving coral reef community, which has shown significant resilience and the ability to recover from major environmental perturbations, including pollution, eutrophication, high temperatures, and low salinities <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref>. It is also one of the best-studied coral reef ecosystems, and serves as a natural laboratory for experimental research on coral reef habitats <ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref>. Equally important are the pelagic regions that surround coral reefs, which serve both as a source of food and habitat for reef dwellers. Fishes, corals and other invertebrates have bi-phasic lifestyles: their larvae spend days to months in the plankton before settling nearshore, often within 100 m of their parents <ref type="bibr" target="#b9">[10]</ref>. Furthermore, planktivorous reef-dwelling fishes and invertebrates depend on the abundant supply of zooplankton brought to them by currents <ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref>. Thus, the coral reef ecosystem includes both coral reef areas and the surrounding open water.</p><p>The zooplankton community in Kāne'ohe Bay is dominated by copepods including two cyclopoid species in the genus Oithona, two paracalanid species (Bestiolina similis and Parvocalanus crassirostris), and L. madurae <ref type="bibr" target="#b2">[3]</ref>. Genetic barcoding indicates that while the L. madurae present in Kāne'ohe Bay is genetically unique, it is clearly a member of the L. madurae species complex <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b3">4]</ref>. Because L madurae occurs throughout Kāne'ohe Bay and its surrounding inshore waters, and it is moderately abundant year-round, it has the potential to be an indicator species for the pelagic regions of this estuarine system <ref type="bibr" target="#b12">[13,</ref><ref type="bibr" target="#b13">14]</ref>. As one of the larger copepod species in Kāne'ohe Bay <ref type="figure" target="#fig_0">(Fig 1)</ref>, its physiology and behavior has been investigated <ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref>. However, L. madurae has been inaccessible to the genetic and genomic research tools that, applied to model organisms, have yielded so much insight into basic biology. As a group, copepods and other crustaceans are under-represented in the number of sequenced genomes and genomic resources. Thus, much of the basic understanding of the taxon potentially available from such resources is lacking. While there are several crustacean genome projects in progress (e.g., the water flea Daphnia magna, the copepods Tigriopus californicus, Tigriopus kingsejongensis, Eurytemora affinis and the amphipod Hyalella azteca), the genome of Daphnia pulex stands out as the only crustacean genome thus far completed, curated, fully annotated, and accessible through a searchable web portal (wFlea-Base; http://wfleabase.org/) <ref type="bibr" target="#b19">[20]</ref>.</p><p>Transcriptomes can be reconstructed with high-throughput sequencing technologies. However, the quality of de novo assemblies is variable <ref type="bibr" target="#b20">[21,</ref><ref type="bibr" target="#b21">22]</ref>, and poor quality limits their usefulness in physiological and cellular studies that use gene expression profiles. Thus, the goal of this study was to generate a deep and high-quality de novo transcriptome for L. madurae. Furthermore, multiple workflows were used to provide complementary indicators for assessing its quality and depth. RNA was obtained from multiple developmental stages to increase the representation of transcripts, since a significant percentage of genes are silent in any particular stage <ref type="bibr" target="#b22">[23]</ref>. Bioinformatics tools described in the Methods section were used to assemble and provide an initial evaluation of quality based on assembly, mapping and annotation statistics. This analysis was followed by targeted searches for transcripts encoding proteins of interest: green fluorescent proteins (GFP <ref type="figure" target="#fig_0">; Fig 1)</ref>, the voltage-gated sodium channel (Na V ), and the proteins involved in circadian signalling. All of the proteins are highly conserved across eukaryotes and possess stereotypical structural domains that were used to vet the completeness of the identified sequences. https://doi.org/10.1371/journal.pone.0186794.g001</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample preparation and RNA sequencing</head><p>Total RNA was obtained from two developmental stage groups of L. madurae: mix of copepodites (CIII to CV) and adult females (CVI) (S1 <ref type="table">Table)</ref>. All animals used here were collected in summer 2015 from central Kāne'ohe Bay (Hawai'i) (Lat: 21˚4'N; Long: 157˚7'W) using surface net tows with a 0.25 m diameter, 125-μm mesh plankton net. The field collection did not require any permits or approval and was performed by PHL and DKH using a personal watercraft. Zooplankton collections were immediately diluted into a bucket containing 5-10 L of seawater and returned to the laboratory. Adult female and copepodite L. madurae were sorted from samples under the microscope, rinsed in filtered seawater, transferred onto a sieve to remove excess seawater and either preserved in RNAlater (Ambion) (adult females) or prepared for immediate RNA extraction (copepodites). The copepodites were inspected for stage distribution prior to total RNA extraction. Three biological samples were obtained for each group with 5 to 6 pooled individual females and approximately 15 to 26 pooled copepodites for each replicate sample (S1 <ref type="table">Table)</ref>.</p><p>Total RNA was extracted using the QIAGEN RNeasy Plus Mini Kit (catalog # 74134) with Qiashredder (catalog # 79654) following the instructions of the manufacturer and stored in a -80˚C freezer. For each sample, RNA concentration and quality were checked using an Agilent model 2100 Bioanalyzer (Agilent Technologies). Total RNA samples were shipped on dry ice to the Georgia Genomics Facility (University of Georgia, Athens, GA; dna.uga.edu) for library preparation and sequencing. Double-stranded cDNA libraries were prepared using the Kapa Stranded mRNA-seq kit (KK8420) following manufacturer's instructions with a mean library insert size of 201-300 bp. Briefly, RNA samples were first purified with two oligo-dT selection (poly(A) enrichment using oligodT beds), and then fragmented and reverse transcribed into double-stranded complementary cDNA. Each sample was tagged with an indexed adapter and paired-end sequenced (151 bp, 300 cycles) using a High Output Flow Cell in a single lane using an Illumina NextSeq instrument (NextSeq 500) (S1 <ref type="table">Table)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>De novo assembly and functional annotation</head><p>Prior to assembly, raw sequencing reads were assessed for quality using FASTQC (v1.0.0; Illumina Basespace Labs). The six RNA-Seq libraries were quality filtered using FASTQ Toolkit (v.2.0.0; Illumina Basespace Labs) by trimming the first nine bp, removing Illumina adapters (TruSeqLT universal primer) and low quality reads ("Phred" cutoff score ! 30), and setting the minimum read length to 50 bp. This led to the removal of an average of 11% of reads, leaving from 79 to 85 million reads per sample for the de novo assembly. The resulting reads from the six libraries were combined and assembled using Trinity (v. 2.0.6) <ref type="bibr" target="#b23">[24]</ref> on the National Center for Genome Analysis Support's (NCGAS; Indiana University, Bloomington, IN, USA) Mason Linux cluster. The initial parameters of Trinity were set to:-seqType fq-CPU 32-max_memory 200G -min_contig_length 300 -normalize_max_read_cov50. The minimum sequence length in the assembly was set to 300 bp. A summary of the assembly statistics was obtained using the script TrinityStat.pl (v2.0.6). Quality-filtered reads were mapped back to the reference using Bowtie2 software (v2.1.0) <ref type="bibr" target="#b24">[25]</ref>.</p><p>Functional annotation was performed in different steps. First, we predicted transcripts with coding regions (CDS) using TransDecoder (v3.0.0) with default settings (minimum open reading frame [ORF] length 100 amino acid and multiple ORFs per transcript) <ref type="bibr" target="#b23">[24]</ref>. Then, all predicted transcripts with coding region were automatically annotated using a local BLAST webserver on a Beowulf cluster running the NCBI BLAST algorithm <ref type="bibr" target="#b25">[26]</ref>. The BLASTx algorithm was used to search against the SwissProt protein database <ref type="bibr" target="#b26">[27]</ref> (downloaded on 18 th September, 2015 from NCBI) employing a maximum E-value for annotation of 10 −3 . As a third step, the resulting BLAST annotations were mapped against the Gene Ontology (GO) and the Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway database using UniProt <ref type="bibr" target="#b27">[28]</ref>. The transcripts with GO terms were classified under three categories: biological process, molecular function and cellular component, which are hierarchically organized into levels. Lastly, "Bench-marking universal single-copy orthologs" (BUSCO) software (v1.22) was used to identify core genes: a set of singlecopy genes highly conserved among eukaryotes and thus expected to be present in a complete assembly <ref type="bibr" target="#b28">[29]</ref>. BUSCO analysis was performed using the Arthropoda dataset consisting of 2,675 single-copy orthologs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Transcriptome mining and confirmation of protein identification</head><p>In addition to the automated annotation step, a targeted approach was used to identify and vet transcripts encoding Na V s and GFPs and circadian signalling system proteins. The complete assembled transcriptome was downloaded to a local Beowulf cluster running the NCBI BLAST algorithm <ref type="bibr" target="#b25">[26]</ref>, and queried using known protein sequences for transcripts encoding putative homologs of the target groups (GFP: the copepod Pontella mimocerami; Na V and circadian system: fruit fly Drosophila melanogaster, monarch butterfly Danaus plexippus or the copepod Calanus finmarchicus).</p><p>Nucleotide sequences with low E-value hits were translated (TranSeq or ExPASy) and then aligned (MAFFT, (v7) <ref type="bibr" target="#b29">[30]</ref>) with and checked for homology to the query protein (typically better than 50% identity). Each deduced protein was used to query the NCBI non-redundant proteins (nr) to confirm the annotation. For Na V channels, conserved regions were located in the MAFFT alignments with the C. finmarchicus predicted proteins as a check on the identification. Protein identity was confirmed by the presence of the characteristic four amino acid (DEKA) selectivity filter <ref type="bibr" target="#b30">[31]</ref>. For GFP proteins, the online program Pfam (v 29.0) <ref type="bibr" target="#b31">[32]</ref> was used to check for the presence of a GFP domain. BLAST searches for transcripts encoding putative circadian signaling system proteins including those for core clock, clock-associated, clock input pathway and clock output pathway proteins <ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref><ref type="bibr" target="#b34">[35]</ref>. The circadian proteins were identified as "full-length" if they exhibit a functional signal sequence (including a "start" methionine) and were flanked on their C-terminus end by a stop codon, while "partial" proteins either lacked a start methionine (referred to as C-terminal partial proteins), or a stop codon (referred to as N-terminal partial proteins), or both of these features (referred to as internal fragment proteins). Next, each predicted L. madurae protein was used as the input query in a BLAST search of the annotated Drosophila protein dataset present in FlyBase (v FB2016_05) <ref type="bibr" target="#b35">[36]</ref>, except for CRY1 and CRY2. For these two proteins, the extant D. plexippus protein dataset present in GenBank was used for the reciprocal BLAST. The arthropod protein most similar to each L. madurae sequence was subsequently determined by conducting a BLAST search of the non-redundant arthropod protein dataset (taxid:6656) curated at NCBI. Finally, protein structural motifs were analyzed for each of the L. madurae proteins using the online program Pfam (v 29.0) <ref type="bibr" target="#b31">[32]</ref>. This manual annotation was compared with the KEGG pathway annotation (map0471).</p><p>A key member of the circadian system is pigment dispersing hormone (PDH), which undergoes post-translational modification. Thus, the mature structures of L. madurae PDH and several other peptides derived from the PDH preprohormone were deduced using a workflow employed previously for peptide structural prediction in crustaceans, including copepods <ref type="bibr" target="#b36">[37,</ref><ref type="bibr" target="#b37">38]</ref>. Specifically, the precursor protein in question was assessed for the presence of a signal peptide using the online program SignalP 4.1 <ref type="bibr" target="#b38">[39]</ref>; the D-cutoff values of SignalP 4.1 were set to "Sensitive". Prohormone cleavage sites were identified based on homology to known arthropod PDH preprohormone processing schemes. Carboxyl (C)-terminal amidation at glycine residues were predicted by homology to known peptide isoforms, while the sulfation state of tyrosine residues was predicted using the online program "Sulfinator" <ref type="bibr" target="#b39">[40]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reference transcriptomes and differential gene expression</head><p>Four different transcriptomes were constructed and assessed for differential gene expression between copepodites and adult females. In addition to the full transcriptome ("Full") consisting of 211,002 transcripts, three "reference" transcriptomes were generated and searched: 1) "Trinity predicted genes", consisting of unique TR#_c#_g# and the longest "i"; 2) "Full-CDS", which included only transcripts with predicted coding regions using TransDecoder <ref type="bibr" target="#b23">[24]</ref> on the full transcriptome; 3) "Pred. genes-CDS", which was derived from the Trinity predicted gene transcriptome and included only transcripts with predicted coding regions using Trans-Decoder <ref type="bibr" target="#b23">[24]</ref>.</p><p>Mapping and statistical analysis were performed using the pipeline described for "Differential expression using a Trinity assembly" <ref type="bibr" target="#b23">[24]</ref> employing kallisto for mapping and edgeR for the statistical analysis. We compared these analyses to a second approach using Bowtie as the mapping program, followed by edgeR. Briefly, the quality filtered reads from the six RNA-Seq libraries were mapped against each reference transcriptome using either Bowtie (default settings; v. 2.0.6) <ref type="bibr" target="#b24">[25]</ref> or kallisto (default settings; v.0.43.1) <ref type="bibr" target="#b40">[41]</ref>. Each dataset generated by the mapping program was then tested for statistical significance using the BioConductor package edgeR <ref type="bibr" target="#b41">[42]</ref>. As implemented by edgeR, prior to statistical testing, RNA-Seq libraries were normalized using the TMM methods (trimmed means of M values), followed by the removal of transcripts with expression levels below 1 count per million (1 cpm). Transcripts with a Benjamini-Hochberg corrected p-value &lt;0.05 were considered differentially expressed (DEGs). Venny (v. 2.1) and BioVenn were used to generate Venn diagrams of the DEGs identified using kallisto and Bowtie <ref type="bibr" target="#b42">[43,</ref><ref type="bibr" target="#b43">44]</ref>. Differential expression of the target genes was analyzed and compared across transcriptomes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and discussion</head><p>To date, the majority of publications describing de novo transcriptomes of calanoid copepods have targeted a single genus, Calanus <ref type="bibr" target="#b22">[23,</ref><ref type="bibr" target="#b44">[45]</ref><ref type="bibr" target="#b45">[46]</ref><ref type="bibr" target="#b46">[47]</ref><ref type="bibr" target="#b47">[48]</ref>. The individuals used in the current study are from the coastal region of Oahu, Hawai'i: they belong to the L. madurae species complex <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b3">4]</ref>. Illumina sequencing of six libraries yielded 528 million paired-end reads ranging in length from 50 to 151 base pairs (bp) and over 92% of these reads were of high quality (Phred score !30). These reads were de novo assembled using the Trinity software package (see Methods)( <ref type="table">Table 1</ref>). The first step in quality assessment was to generate the battery of standard statistical measures characterizing the results. The assembly produced 211,002 transcripts with an average length of 872 bp, a maximum of 23,836 bp and an N50 value of 1,184 bp <ref type="table">(Table 1)</ref>. It contained 153,604 "Trinity predicted genes" that is transcripts with unique "TR# | c#_g#" identifiers ( <ref type="table">Table 1</ref>). Of the "Trinity predicted genes", the majority (127,025) were singletons (83%), with the remaining genes (26,579) possessing from two to 71 "Trinity predicted isoforms" (TR#|c#_g#_i#). This is similar to the percentage reported for C. finmarchicus <ref type="bibr" target="#b22">[23]</ref>.</p><p>For the L. madurae assembly, the mapping rate was high, ranging from 88 to 92% for the six individual samples ( <ref type="table">Table 1, S1 Table)</ref>, which is above the suggested cut-off at 80% mapping rate for a successful assembly. Ambiguous mapping, which was~30% (31-37% of reads that aligned &gt;1 time; S1 <ref type="table">Table)</ref>, is likely due to the large number of multiple isoforms assembled by Trinity.</p><p>The complete de novo transcriptome containing 211,002 transcripts was used in three separate workflows to further assess the quality of the assembly <ref type="figure" target="#fig_1">(Fig 2, see methods)</ref>. First, bioinformatic tools were used to identify transcripts with coding regions (CDS), which were then annotated against SwissProt, Gene Ontology and KEGG databases, followed by BUSCO analysis. Next, targeted protein discovery was focused on large conserved and complex proteins ("giant proteins" and Na V s), proteins of interest of this copepod group (GFPs and crystallins), and proteins members of a complex pathway (circadian signalling system). Finally, several approaches were tested for generating a representative reference transcriptome for gene expression studies.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Functional annotation of the transcriptome</head><p>TransDecoder (see Methods) identified 72,391 transcripts with coding regions (CDS; length ! 100 amino acids) in the de novo assembly. Nearly 87% of the CDS retrieved <ref type="table">Table 1</ref>. De novo assembly and annotation statistics. Labidocera madurae RNA-Seq data from six samples were combined, quality filtered and trimmed and assembled using Trinity software <ref type="bibr" target="#b23">[24]</ref>. Missing genes (%) 12 * Trinity's hierarchical nomenclature ("TR# | c#_g#_i#") classifies assembled sequences by similarity. "TR#" corresponds to gene "families"; unique "TR# | c#_g#" corresponds to predicted "genes". ** Minimum sequence length of &gt; 300 bp was set as one of the assembly parameters ***"Complete" is defined as a gene with a predicted length that is within two standard deviations of the BUSCO group mean length that get annotation against the "Eukaryotes databases". "Complete duplicate" indicates that multiple transcripts annotated to the same core gene such as transcripts with predicted isoforms. "Fragmented genes" refers to transcripts that encode partial proteins.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sequencing and Quality Filtering</head><p>https://doi.org/10.1371/journal.pone.0186794.t001 significant hits with E-values of 10 −3 or lower when blasted against the SwissProt database, and over 95% of these were further annotated with gene ontology terms ( <ref type="table">Table 1</ref>). Within the "biological process" category, L. madurae transcripts covered broadly conserved eukaryotic processes with "cellular process", "metabolic process" and "single-organism process" representing more than 60% of the annotated transcripts <ref type="figure" target="#fig_2">(Fig 3)</ref>. Eighty percent of transcripts with GO terms were annotated within the KEGG database <ref type="table">(Table 1)</ref>, indicating good coverage of transcripts encoding proteins/enzymes involved in lipid, amino acid and energy metabolism pathways (S1 <ref type="figure">Fig)</ref>. BUSCO analysis identified 76% (2,036) complete orthologs of 2,679 core eukaryotic genes in the CDS with &lt;1% of these genes present in more than one copy (duplicated). An additional 11% of fragmented core genes were found among the CDS, with only 12% of core genes missing completely ( <ref type="table">Table 1)</ref>. The assembly and annotation statistics of the L. madurae de novo transcriptome were compared with those of other non-model arthropods: three insect species and five other copepods <ref type="table" target="#tab_1">(Table 2)</ref>  <ref type="bibr" target="#b22">[23,</ref><ref type="bibr" target="#b46">47,</ref><ref type="bibr" target="#b48">[49]</ref><ref type="bibr" target="#b49">[50]</ref><ref type="bibr" target="#b50">[51]</ref><ref type="bibr" target="#b51">[52]</ref><ref type="bibr" target="#b52">[53]</ref>. The number of assembled transcripts is quite variable across de novo transcriptomes with the number in the L. madurae transcriptome (~200K) being among the highest <ref type="table" target="#tab_1">(Tables 1 and 2</ref>). The number of transcripts with coding regions is higher in copepods, including L. madurae, than that reported for the insect, Lygus hesperus (Western tarnished plant bug) <ref type="bibr" target="#b48">[49]</ref>. Interestingly, the L. madurae annotation rates (87% of transcripts with coding regions) were higher than those reported in the other copepods which can in part be attributed to limiting annotation to protein encoding transcripts ( <ref type="table" target="#tab_1">Table 2</ref>). The number of predicted core proteins was similar across the transcriptomes with an approximate coverage of 80 to 90% based on the BUSCO analysis <ref type="table" target="#tab_1">(Table 2)</ref>. Overall, the annotation statistics suggests that the L. madurae transcriptome is at least as good in quality and depth as the others with which it was compared.</p><p>The large number of putative lncRNA transcripts in L.madurae suggests that there may be more lncRNA loci in this crustacean than in D. melanogaster <ref type="bibr" target="#b53">[54]</ref><ref type="bibr" target="#b54">[55]</ref>. However, a shotgun assembly only produces predicted transcripts, and further analyses are needed to confirm which transcripts are indeed lncRNAs, as opposed to genes coding for very small proteins (&lt;100 amino acids long), incomplete transcripts, or assembly artifacts (e.g. fragmented UTRs which have been found in this transcriptome).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Searches of target genes based on automated annotation</head><p>"Giant" proteins. The presence of transcripts encoding "giant" proteins (those &gt;4,000 amino acids) was used as an indicator of quality of the assembly. The L. madurae assembly included 23 transcripts that exceeded 15,000 bp in length. The lengths of these transcripts are comparable to those reported for six of the transcriptomes listed in <ref type="table" target="#tab_1">Table 2</ref>. The majority of the long transcripts encoded "giant" proteins belonging to titin/connectin family, such as "twitchin", and proteins involved in cellular architecture/cytoskeleton such as "nesprin". Examples of long transcripts, all of which are predicted to be full-length and annotations are given in <ref type="table">Table 3</ref>.</p><p>Crystallins. An unusual feature of Labidocera and other pontellids is a sophisticated frontal eye structure <ref type="bibr" target="#b55">[56,</ref><ref type="bibr" target="#b56">57]</ref>. Unlike most copepods, the pontellid eye includes a clear lens, which requires structural proteins that are both stable and transparent. However not much is known about the structure of invertebrate lenses <ref type="bibr" target="#b57">[58]</ref>. In vertebrates, the structural proteins of lenses include crystallins, which have been well characterized. A search of the L. madurae list of automated annotated transcripts identified 20 putative crystallins. Fifteen of these encode putative α-crystallins, with others encoding putative members of the β-crystallin (2), the γ-crystallin (1) and λ-crystallin (1) families (S2 <ref type="table">Table)</ref>. The β-and γ-crystallins, which form a partnership with α-crystallins, are the primary structural proteins of the vertebrate lens <ref type="bibr" target="#b58">[59,</ref><ref type="bibr" target="#b59">60]</ref>. Thus, one or more of these transcripts might be involved in lens formation in L. madurae. * BUSCO analysis was performed in 2017 using publicly accessible NCBI "transcriptome shotgun assembly". TSA data were first processed using transdecoder, followed by BUSCO (v.1.22) specifying the "Arthropoda" dataset, which included 2,675 core genes-analysis. TSA accession numbers: GAXK00000000 (C. finmarchicus), GCJT01000000 (P. nana), GCHA01000000 (T. japonicus), GDFW00000000 (T. kingsejongensis) ** # of transcripts given is the number of isotigs, N50 value is the isotig N50.L. madurae de novo assembly included a significant number of contigs (&gt;100K), which lacked an open reading frame. Many of these non-coding sequences could belong to a class of transcripts called "long (&gt;200 nucleotides) non-coding RNAs" (lncRNAs). While these sequences are often omitted from de novo transcriptomes, they are unlikely to be "assembly artifacts".</p><p>https://doi.org/10.1371/journal.pone.0186794.t002</p><p>Manual sequence annotation using targeted gene discovery</p><p>Green fluorescent proteins (GFPs). Pontellids are well known for the presence of GFPs, which include some of the brightest GFPs currently known <ref type="bibr" target="#b60">[61]</ref>. In L. madurae, GFPs are concentrated at the base of the appendages as seen in the side view of an adult female ( <ref type="figure" target="#fig_0">Fig 1C and  1D)</ref>. Three transcripts were found that putatively encode GFPs (S2 <ref type="table">Table)</ref>. Two of the predicted proteins, both full lengths, shared 90% amino acid identity with a pair of GFPs identified in a closely related species, Pontella mimocerami <ref type="bibr" target="#b60">[61]</ref>. The third L. madurae GFP is most similar to a jellyfish (Aequorea victoria) GFP with which it shares 90% amino acid identity (S2 <ref type="table">Table)</ref>; this protein appears to represent a new class of copepod GFP. These putative transcripts encoding crystallins could serve as a starting point for any study investigating lens formation in copepods, specifically the pontellids, which possess modified naupliar eyes.</p><p>Large proteins with splice variants: voltage-gated sodium channels (Na V ). Large proteins that belong to families with closely-related members and which possess multiple splice sites or other regions of variation can be challenging to assemble and group dependably. One such protein family comprises the Na V s. In arthropods and in particular copepods de novo transcriptomes, incomplete or fragmented genes are common within this family (e.g. see publicly accessible transcriptomes in the following references: <ref type="bibr" target="#b22">[23,</ref><ref type="bibr" target="#b44">45,</ref><ref type="bibr" target="#b47">48,</ref><ref type="bibr" target="#b51">52]</ref> and NCBI Bioprojects PRJEB20069, PRJNA231234). Thus, as a stringent test of transcriptome quality, we assessed the assembly of the L. madurae Na V s proteins (Labma Na V s), comparing it with that from our previously published well-vetted transcriptome for C. finmarchicus <ref type="bibr" target="#b22">[23,</ref><ref type="bibr" target="#b37">38,</ref><ref type="bibr" target="#b61">62,</ref><ref type="bibr" target="#b62">63]</ref>. We examined whether expectations were met in: 1) the number and completeness of predicted Na V genes, identified by their expected characteristics (match statistics, conserved motifs, length); 2) the occurrence and nature of predicted splice variants; 3) how well Na V s were grouped into the Trinity hierarchy; 4) the occurrence and nature of irregularities (incorrect or incomplete sequences).</p><p>Characteristics of Na V s expected to be present in an invertebrate transcriptome include occurrence of contigs from two families of orthologous genes, designated Na V 1 and Na V 2 <ref type="bibr" target="#b63">[64]</ref>. However, in L. madurae three predicted gene families (TR#) were identified as Na V s by the automated annotation. This is one more than expected <ref type="table" target="#tab_3">(Table 4</ref>). These had low E-values (&lt;8e-156) and were identified either as para or 60E, the D. melanogaster designations for Na V 1 and Na V 2 respectively. Querying the full transcriptome with a well-vetted arthropod sodium-channel sequence from D. melanogaster (SwissProt SP3500) retrieved 13 sequences from the same three gene families with E-values &lt; 1e-88. Sequences with the next higher Evalues had features of voltage-gated calcium channels. The retrieved sequences are shown diagrammatically in <ref type="figure" target="#fig_3">Fig 4.</ref> ReBLASTing each of the Na V contigs into Flybase returned either para <ref type="table">Table 3</ref>. Giant proteins. Four transcripts encoding "giant" proteins assembled using Trinity software in Labidocera madurae transcriptome. For each transcript, transcript length, predicted protein length, annotation name (NCBI), Accession No. of top blast hit (NCBI), E-value annotation (NCBI), protein family and protein function are listed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>TR75346|c7_g2_i1</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>TR27483|c2_g1_i1 TR79107|c1_g1_i1 TR75290|c0_g1_i1</head><p>Transcript or 60E <ref type="table" target="#tab_3">(Table 4</ref>). To further resolve the identity of the contigs, they were used to query the C. finmarchicus transcriptome <ref type="bibr" target="#b22">[23]</ref>, retrieving top hits for 7 isoforms corresponding to Na V 1.1 (TR7852|c0_g1), 2 corresponding to Na V 1.2 (TR7852|c0_g2) and 4 in two TR groupings corresponding to the Na V 2 gene (TR65477_c0_g1 and TR68660_c0_g1). The motifs expected of Na V s, shown diagrammatically at the top of <ref type="figure" target="#fig_3">Fig 4 (see caption for details)</ref>, were validated through sequence alignment (MAFFT) and hence the various groups have been designated Labma Na V 1.1, 1.2 and 2.</p><p>Full-length proteins of the Na V family are expected to be around 200 kD in size. Completeness of predicted proteins was verified for one or more contigs from each Labma Na V 1 gene as well as from the single reconstructed Labma Na V 2 gene (see below). Start and stop codons as well as 5' and 3' UTRs are present in all three. When all optional sequence segments (putative exons) are included, predicted proteins 2072 and 2069 amino acids long result for Labma Na V 1.1 and Labma Na V 1.2, respectively. These match the lengths predicted for corresponding genes of C. finmarchicus (2094 and 2079 respectively) <ref type="bibr" target="#b22">[23]</ref>, for D. melanogaster Na V 1 (2131; UniProtKB P35500), and for human Na V 1.1 (2009; UniProtKB P35498). Similarly, the 2533 residue length of the reconstructed Labma Na V 2 was within 2% of that for C. finmarchicus (2485aa) and 10% of that for D. melanogaster (2821aa). Thus, three Na V genes, with appropriate characteristics, are well assembled in the L. madurae transcriptome. Two or more sites of splice variation separated by more than a cDNA-insert-length of identical bridging sequence 2 Top BLASTp result from Flybase annotated proteins; "para" = Na V 1; "NaCP60E" = Na V 2 <ref type="bibr" target="#b2">3</ref> Original identification based on automated annotation <ref type="bibr" target="#b3">4</ref> Sodium channel not fully characterized</p><p>The Drosophila melanogaster Na V 1 sequence (sp|P{35500) para was used as a query in a tBLASTn probe of the Labidocara madurae 2015 transcriptome (column Drome e-value) The top hits (Trinity ID number column), with e-values &lt; e-84, were translated into protein sequnces and reblasted using the tBLASTn tool against the Calanus finmarchicus Gulf of Maine transcriptome <ref type="bibr" target="#b22">[23]</ref>. The top hits from that BLAST are indicated in the column "C. finmarchicus top hit," with e-values given in the column "Calfi e." These are used to identify the protein (column "Labma name") using the correspondence of comp222993 and comp299307 with Na V 1.1, comp44060 and comp233807 with Na V 1.2, and comp428211 with Na V 2.</p><p>https://doi.org/10.1371/journal.pone.0186794.t004</p><p>cannot be assembled reliably without additional information. Labma Na V 1.1 has two sites with variant segments at opposite ends of the molecule. Site I is an N-terminal region of optional segments (putative exons; <ref type="figure" target="#fig_3">Fig 4)</ref>; site II is an alternatively spliced segment nearer the C-terminal end. Both sites correspond to ones in Calfi Na V 1.1 ( <ref type="table" target="#tab_3">Table 4</ref>). The two sites are separated by a minimum of residues in L. madurae, well over a cDNA-insert-length (200-300 bp mean value), so the associations implied by the contigs assembled that include those two regions are unreliable. This does not imply a poorer quality of assembly compared with other paired-end assemblies of cDNA inserts of the same length: it is intrinsic to the shotgun approach. This caveat applies to four of the seven contigs of Labma Na V 1.1 <ref type="figure" target="#fig_3">(Fig 4)</ref>, but as well to the long contigs (18 in all) of Calfi Na V 1.1 (see <ref type="figure" target="#fig_0">Fig 10 of</ref> Lenz et al <ref type="bibr" target="#b22">[23]</ref>). Despite this ambiguity, the Labma Na V 1.1 contigs gave solid evidence for the presence of four optional segments at Site I and one alternative segment at Site II, which is qualitatively similar to the pattern found in C. finmarchicus. No clear evidence for splice variants was found for Labma Na V 1.2 (i2 is an anomalous fragment, possibly artifactual), the same being the case for Calfi Na V 1.2. For Labma Na V 2, the two members of each pair of fragments (TR65477 and TR68660) differ in the presence of "optional" segments in each, a feature not found in Calfi Na V 2 (arrows in the Na V 2 diagram of <ref type="figure" target="#fig_3">Fig 4)</ref>. Thus, aside from this last case, the L. madurae transcriptome showed splicing features expected from the C. finmarchicus assembly. Most differences in the details (see below) are likely species differences. Hierarchical transcript grouping by Trinity, as outlined in Methods, enables classifying assembled sequences into likely gene families, genes and isoforms. It performed well on the Labma Na V 1 genes, separating them correctly into two genes nested within a single family. In contrast, transcripts for the same Calfi Na V 1 genes are more broadly assigned, spanning four "Chrysalis components" (comps = gene proxies; <ref type="table" target="#tab_3">Table 4</ref>) <ref type="bibr" target="#b23">[24]</ref>. Reassembly of the C. finmarchicus transcriptome using Trinity 2.0.6 only reduced this number from four to three and failed to include them in the same gene family. Thus the L. madurae transcriptome is of higher quality in this respect than that of C. finmarchicus. On the other hand, a single transcript coded for Calfi Na V 2, while Labma Na V 2 was present as two fragments assigned to different Trinity (2.0.6) predicted gene families <ref type="table" target="#tab_3">(Table 4)</ref>. Still, these fragments had overlapping ends and could be amalgamated to form a full-length predicted protein with all of the expected properties. Thus the overall structure of the three Na V genes was successfully assembled in the L. madurae transcriptome with about the same quality as for that of the C. finmarchicus.</p><p>Irregularities in the L. madurae assembly were of several types, described in more detail in S5 <ref type="figure">Fig.</ref> To summarize, the number of Labma Na V s assembled was smaller (three vs. six) than for C. finmarchicus. This is likely in part a species difference. Anomalous sequences of various origins were also noted. These include a short contig (TR25803|c0_g1_i1) that may represent an additional Labma Na V 1 <ref type="table" target="#tab_3">(Table 4</ref>) and a sequence with a frame-shift that is probably an error. In addition, several issues appear to have arisen from the ambiguity in assembling regions of variation bridged by segments with identical sequences that are longer than one cDNA-insert-length: 1) isoforms, especially within the Labma Na V 1.1 gene, code for partial rather than full-length proteins <ref type="table" target="#tab_3">(Table 4)</ref>; 2) Calfi Na V 1.1s have many more full-length contigs (18 vs 2) perhaps reflecting a greater leniency of Trinity 1.0 for matching variable regions; 3) genetic variability within the population may have increased the number of variable regions, possibly contributing to premature truncation of sequences.</p><p>Overall, the L. madurae transcriptome assembled Na V s as well as or better than that of C. finmarchicus <ref type="bibr" target="#b22">[23]</ref>. However, it highlighted the limitations inherent in matching variant segments separated by stretches of identical sequence longer than a cDNA-insert-length.</p><p>Key regulatory pathways: circadian signaling system. The number of full-length circadian signaling system proteins deduced from Labidocera assembly supports the conclusion that this transcriptome is of high quality. Twenty-one protein families <ref type="bibr" target="#b64">[65]</ref><ref type="bibr" target="#b65">[66]</ref><ref type="bibr" target="#b66">[67]</ref><ref type="bibr" target="#b67">[68]</ref> were searched for and putative homologs were identified in the L. madurae assembly <ref type="table" target="#tab_4">(Table 5)</ref>, with the proteins encoded by the identified transcripts predicted (S3 <ref type="table">Table)</ref>, and vetted via reciprocal BLAST searches (S4 <ref type="table" target="#tab_4">Table and S5 Table)</ref> and protein structural motif analysis (S6 <ref type="table">Table)</ref>. The protein families included: 1) the core clock proteins clock (CLK): cryptochrome 2 (CRY2), cycle (CYC), period (PER) and timeless (TIM); 2) the clock-associated proteins: casein kinase II α (CKII α), casein kinase IIß (CKIIß), clockwork orange (CWO), doubletime (DBT), jetlag (JET), PAR-domain protein 1 (PDP1), protein phosphatase 1 (PP1), protein phosphatase (PP2A) catalytic subunit microtubule star (MTS), PP2A regulatory subunit twins (TWS), PP2A regulatory subunit widerborst (WDB), shaggy (SGG), supernumerary limbs (SLIMB) and vrille (VRI); 3)the clock input pathway protein cryptochrome 1 (CRY1); and 4) the putative clock output pathway proteins: pigment dispersing hormone (PDH) and pigment dispersing hormone receptor (PDHR).</p><p>Translation of the identified transcripts revealed that the vast majority encoded full-length proteins ( <ref type="table" target="#tab_4">Table 5, S3 Table)</ref>, with just two encoding partial sequences ( <ref type="table" target="#tab_4">Table 5</ref>). For many protein groups, multiple variants, all likely derived from a common gene, were predicted. These variants were most likely derived from alternative splicing, as well as single nucleotide polymorphisms (e.g., the five CYC variants shown in <ref type="figure" target="#fig_1">S2 Fig)</ref>. In addition, for a number of groups, proteins derived from multiple genes were identified (e.g., the four distinct PP1s shown in <ref type="figure" target="#fig_2">S3  Fig)</ref>. PDP1 was represented with four predicted genes, one with a splice variant, as shown in <ref type="figure" target="#fig_5">Fig 5.</ref> While parts of the molecule were very conserved, there were significant differences between the predicted proteins, which may reflect diversity in function. In the case of the CRY2 protein, 12 distinct transcripts were identified, and while they differed in length <ref type="table" target="#tab_4">(Table 5)</ref>, the predicted proteins were all identical. These transcripts differed in the two untranslated regions (5'UTR and 3'UTR), which may be related to differential processing and/ or tissue-specific expression.</p><p>In addition to vetting the completeness/quality of the L. madurae transcriptome, the mining of this resource for circadian protein-encoding transcripts has shed light on the clock system of this species, and for that matter, those of crustaceans in general. The large suite of proteins predicted from the Labidocera transcriptome <ref type="table" target="#tab_4">(Table 5)</ref>, include, among others, the canonical core clock proteins CLK, CYC, PER and TIM, all showing significant homology to those of D. melanogaster (S4 <ref type="table">Table)</ref>. They possess structural domains consistent with their fruit fly homologs, domains required for normal function (S1 <ref type="figure">Fig)</ref>. Moreover, putative L. madurae homologs of both CRY1 and CRY2 were identified <ref type="table" target="#tab_4">(Table 5)</ref>, a finding that suggests that the Labidocera circadian system is organized more similarly to the "ancestral-type" clock proposed for lepidopteran/mosquito species than to that of D. melanogaster <ref type="bibr" target="#b65">[66]</ref>. Specifically, CRY2, which is missing in Drosophila, but participates in the core clock itself, is likely to be a repressor of CLK-CYC-mediated transcription, while CRY1 functions as a photoreceptor, putatively providing photic input to the core clock. This result is consistent with the "ancestral-type" circadian systems described in other crustaceans that have been examined via genome/ transcriptome analyses <ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref><ref type="bibr" target="#b34">[35]</ref><ref type="bibr" target="#b68">69</ref>], suggesting that this type of clock organization is broadly conserved within members of this arthropod subphylum.</p><p>The mining of the Labidocera transcriptome resulted in the discovery of the first PDP1s from a member of the Copepoda. The results suggest the presence of multiple genes from several protein families: DBT (three genes), PDP1 (four genes), PP1 (four genes), MTS (two genes), TWS (two genes) and SGG (two genes). No members of PDP1 had been identified previously from either C. finmarchicus or T. californicus <ref type="bibr" target="#b32">[33,</ref><ref type="bibr" target="#b33">34]</ref>. The identification of the L. madurae PDP1 genes allowed for the revisitation of the C. finmarchicus and T. californicus transcriptomes for putative homologs. Using the Labidocera PDP1 predicted proteins as queries, related proteins have now been discovered in these two copepod species (A. E. <ref type="bibr">Christie, unpublished)</ref>. Moreover, mining of the assembly led to the prediction of a novel isoform of PDH, NSEMLHILRSMPKDMGKIIRNamide, which is just the second member of this peptide family identified from a copepod <ref type="bibr" target="#b36">[37]</ref>, a peptide that may serve as an output signal from the Labidocera clock for controlling its physiology and behavior.   https://doi.org/10.1371/journal.pone.0186794.t005</p><p>Comparison between the results from the targeted gene discovery workflow with the results from the automated annotation is shown in <ref type="figure" target="#fig_6">Fig 6.</ref> The circadian system pathway retrieved from the KEGG database (map0471) resulted in the identification of five of the eight expected genes <ref type="figure" target="#fig_6">(Fig 6)</ref>. The automated annotation programs failed to identify VRI, PDP1 and PER among the L. madurae transcripts with coding regions (CDS). These results underscore the value of targeted gene discovery in combination with the automated bioinformatics tools to obtain a complete annotation for a de novo transcriptome.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reference transcriptome analysis</head><p>Identification of differentially expressed genes between L. madurae developmental stages. The generation of a transcriptome that provides robust results for gene expression profiling is key for application to physiological ecology. While sequenced and annotated genomes are used as reference in model species, de novo assembled transcriptomes, in combination with bioinformatic tools for annotation and statistical testing, provide a powerful alternative. However, for a transcriptome of a non-model species to be used as an alternative for a genome, it needs to be of high quality and complete. Here, we compare four strategies for obtaining a reference for read mapping and identification of differentially expressed genes (DEGs). While the full transcriptome (211,002 transcripts) is optimal for targeted gene discovery, including the identification of genetic variants (i.e., splice variants, indels, SNPs), it also generates a large percentage of ambiguous mapping that could affect statistical testing. In addition to the full transcriptome ("Full"), we generated three alternative "reference" transcriptomes from the "Full" assembly by: 1) selecting the longest transcript for Trinity predicted genes (unique TR#_c#_g#; "Pred. genes"); 2) selecting only transcripts with coding regions (CDS) ("Full-CDS"); and 3) selecting only transcripts with coding regions (CDS) from the "Trinity predicted genes" transcriptome ("Pred. genes-CDS"). <ref type="table">Table 6</ref> shows the effects of applying these filters. The number of transcripts decreased from 211K to 45K in the smallest "reference". Nevertheless, the four transcriptomes were comparable with respect to the number of core eukaryotic proteins, which declined only by 3% between the full and the Trinity-predicted "unique" gene transcriptomes ("Pred. gene", "Pred. gene-CDS"). With the exception of the full transcriptome, the number of duplicated genes (genes with more then one copy) was low (&lt; 0.5%). The percentage of mapped reads using Bowtie decreased from 91% to 68% between the Full and Pred. genes-CDS references Furthermore, the three derived reference transcriptomes had fewer ambiguous reads than the full transcriptome, and the "unique gene" approach led to the lowest number of reads mapped more than once (14% and 6% for "Pred. genes" and "Pred. genes-CDS", respectively). Differences among these potential "reference transcriptomes" were further evaluated by testing for differential gene expression between copepodites and adult females. Thus, we mapped reads to the four "reference transcriptomes" using two different bioinformatics tools (Bowtie and kallisto) followed by statistical testing to DEGs (edgeR). While the number of counts (= mapped reads) associated with each transcript is higher in Bowtie than in kallisto, this did not affect the number of transcripts tested for relative gene expression after applying the 1 cpm filter ( <ref type="table">Table 6</ref>). The number of DEGs identified by edgeR using counts generated by Bowtie varied by more than a factor of two among the references used. Nevertheless, 8,970 DEGs were shared among the four references (S4 <ref type="figure">Fig)</ref>. In contrast, the number of DEGs identified with kallisto was similar for all four transcriptomes <ref type="table">(Table 6)</ref>, with 6,229 shared among all references <ref type="figure" target="#fig_7">(Fig 7)</ref>. A comparison between Bowtie and kallisto of the shared DEGs identified 5,438 common DEGs (S4 <ref type="figure">Fig)</ref>. The smallest reference transcriptome ("Pred. genes-CDS") had best agreement between Bowtie and kallisto with 9,827 shared DEGs, which represented approximately 89% (kallisto) and 77% (Bowtie) of identified DEGs, which is not surprising given that this transcriptome had the smallest number of ambiguous reads (S4 <ref type="figure">Fig)</ref>. In general, mapping by kallisto is more conservative, making it the preferred mapping program for the identification of DEGs, in particular in association with an assembly program like Trinity, which is designed to preserve isoform variants <ref type="bibr" target="#b23">[24]</ref>.</p><p>While the large number of shared DEGs regardless of mapping program or reference transcriptome (5,438 DEGs) was reassuring, there were still many of DEGs that were identified in one or two references but not the others as shown in the Venn diagram for DEGs generated from kallisto mapped reads <ref type="figure" target="#fig_7">(Fig 7)</ref>. There was good agreement between the Full and Full-CDS (9,637 DEGs) and the Pred. genes and Pred. genes-CDS (9,028 DEGs; <ref type="figure" target="#fig_7">Fig 7)</ref>.</p><p>Differential expression of transcripts identified through targeted gene discovery. To gain further insight into differences in expression, we examined expression results for the targeted genes identified in the previous sections (Tables 3, 4 and 5). For all investigated <ref type="table">Table 6</ref>. Comparison across four possible reference transcriptomes generated from the de novo assembly for gene expression studies. Reference transcriptomes-"Full": complete de novo Trinity assembly; "Pred. genes": retained a single (longest) isoform each Trinity-defined unique genes; "Full-CDS": de novo Trinity assembly filtered using TransDecoder with only transcripts with predicted coding regions retained; "Pred. genes-CDS": "Pred. genes" transcriptome filtered using TransDecoder with only transcripts with predicted coding regions retained. Number of transcripts, Bowtie mapping statistics and BUSCO analysis is given for each reference. Differential gene expression results include the number of transcripts that were included in the statistical analysis (expression level: &gt; 1 cpm) and number of identified differentially expressed genes (DEGS) using either Bowtie or kallisto software as the mapping program.</p><p>"Full" "Pred. genes" "Full-CDS" "Pred. *Mapping statistics are given as averages of six samples. Information for individual samples is provided in S1 <ref type="table">Table.</ref> https://doi.org/10.1371/journal.pone.0186794.t006 transcripts, expression rate was higher such that the transcripts did pass the 1 cpm filter and were considered for the statistical test. The transcripts encoding "giant" proteins were represented in all reference transcriptomes, and two transcripts, fibrillin-1 and nesprin-1, were consistently identified as differentially expressed <ref type="table" target="#tab_7">(Table 7</ref>). Other target genes that contributed to the shared DEGs (6,229) included a Na V (Labma1.2) and one transcript each of PER-v1, CWO-v1 and VRI <ref type="table" target="#tab_7">(Table 7</ref>; <ref type="figure" target="#fig_7">Fig 7)</ref>. The transcriptomes differed in the number of Na V transcripts given the presence of isoforms. Thus, Na V 1.1 and 1.2 had seven and two isoforms, respectively, in the Full and Full-CDS transcriptomes, while the two unique gene transcriptomes (Pred. genes and Pred. genes-CDS) had single transcripts representing each of these two genes <ref type="table" target="#tab_7">(Table 7)</ref>. Two isoforms (i3, i4) of the Na V 1.1 transcripts were differentially expressed in the Full and Full-CDS transcriptomes, however, the single Na V 1.1 in the other two transcriptomes was not among the DEGs <ref type="table" target="#tab_7">(Table 7)</ref>.</p><p>Several CRY2 isoforms were identified as differentially expressed in the Full and Full-CDS transcriptomes, but not in the Pred. genes and Pred. genes-CDS references ( <ref type="table" target="#tab_7">Table 7)</ref>. In these two transcriptomes the "i6" isoform was among the DEGs <ref type="table" target="#tab_7">(Table 7</ref>). A similar pattern was observed with JET-two out of three isoforms were among the DEGs, while the third isoform The references transcriptomes are defined as: "Full" with 211K transcripts (purple), "Pred. genes" consisting of longest transcript for Trinity predicted genes (yellow), "Pred.genes-CDS" consisting of transcripts with coding regions (CDS) from the "Pred.genes" (green) and "Full-CDS" consisting of transcripts with coding regions (CDS) from "Full" (pink). Relative transcript abundance as determined using kallisto, and DEGs were identified by statistical analysis using edgeR with P&lt;0.05 and false discovery rate (FDR) cutoff at 5%.</p><p>https://doi.org/10.1371/journal.pone.0186794.g007 <ref type="table" target="#tab_7">Table 7</ref>. Comparison among reference transcriptomes in the identification of differentially expressed genes (DEGs) between L. madurae copepodites and adult females among transcripts encoding for "giant" proteins, voltage-gated sodium channels and circadian system proteins. Transcripts were identified as DEGs using a Benjamini-Hochberg corrected p-value &lt;0.05.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Target proteins</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Transcript</head><p>Reference transcriptomes Protein name Trinity identification # "Full" "Pred. genes" "Full-CDS" "Pred.genes-CDS"</p><p>"Giants"  was identified as differentially expressed in the references with single isoforms ( <ref type="table" target="#tab_7">Table 7)</ref>. While these are examples of disagreements between the references <ref type="figure" target="#fig_7">(Fig 7)</ref>, the results are consistent in identifying at least one isoform of CRY2 and JET as differentially expressed. Another pattern that occurred was the inclusion of multiple isoforms among the DEGs in both Full and Full-CDS transcriptomes, but not in the "unique gene" ones (e.g., CYC, Tim, PDP1-III and PDP1-IV). The reverse, differentially expressed according to the "unique gene" transcriptomes, but not the other two, occurred for transcripts of one doubletime (Labma-DBT-II), one PAR-domain protein 1 (Labma-PDP1-II) and pigment-dispersing hormone (Labma-PDH). Four DEGs were identified in a single reference (3 in Full-CDS and 1 in Pred. genes-CDS), while one DEG was shared between the two CDS-based reference transcriptomes ( <ref type="table" target="#tab_7">Table 7)</ref>. In summary, comparing DEGs identified with four reference transcriptomes for the target genes indicated good concordance between the Full and the CDS-based transcriptomes (29/33) and the two "unique gene" references (Pred. genes and Pred. genes-CDS: 11/13). Agreement between all four transcriptomes regardless of isoform was observed in eight out of 13 genes. Inconsistent results across reference transcriptomes are typically associated with transcripts belonging to genes with multiple isoforms, such as those with predicted splice variants. Thus, independent of the method used for generating a reference transcriptome, it is important to assess the number of isoforms for each differentially expressed gene.</p><formula xml:id="formula_0">Twitchin X20 TR75346|c7_g2_i1 - - - - Titin TR27483|c2_g1_i1 - - - - Dynein heavy chain5 TR79107|c1_g1_i1 - - - - Nesprin-1 TR75290|c0_g1_i1 YES YES YES YES Dystonin TR39786|c3_g2_i1 - - - - Fibrillin-1 TR81357|c0_g1_i1 YES YES YES YES Nesprin-1 TR75299|c4_g1_i1 - - - -</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Voltatge-gated sodium channel</head><formula xml:id="formula_1">Na V 1.1 TR7852|c0_g1_i1 - - - - TR7852|c0_g1_i2 - X - X TR7852|c0_g1_i3 YES X YES X TR7852|c0_g1_i4 YES X YES X TR7852|c0_g1_i5 - X - X TR7852|c0_g1_i6 - X - X TR7852|c0_g1_i7 - X - X Na V 1.2 TR7852|c0_g2_i1 YES YES YES YES TR7852|c0_g2_i2 - X - X Na V 2 TR65477|c0_g1_i1 - X - X TR65477|c0_g1_i2 - - - - TR68660|c0_g0_i1 - X - X TR68660|c0_g0_i2 - - - - TR25803|c0_g1_i1 - - - - Circadian system Clock (CLK) Labma-CLK TR80374|c0_g1_i1 - - - - Cryptochrome 2 (CRY2) Labma-CRY2 TR24805|c1_g1_i4 YES X YES X Labma-CRY2 TR24805|c1_g1_i12 - X YES X Labma-CRY2 TR24805|c1_g1_i11 YES X YES X Labma-CRY2 TR24805|c1_g1_i10 - X - X Labma-CRY2 TR24805|c1_g1_i9 YES X YES X Labma-CRY2 TR24805|c1_g1_i8 YES X YES X Labma-CRY2 TR24805|c1_g1_i7 YES X YES X Labma-CRY2 TR24805|c1_g1_i6 - YES - YES Labma-CRY2 TR24805|c1_g1_i5 - X - X Labma-CRY2 TR24805|c1_g1_i3 YES X YES X Labma-CRY2 TR24805|c1_g1_i2 YES X YES X Labma-CRY2 TR24805|c1_g1_i1 YES X YES X Cycle (CYC) Labma-CYC-v1 TR40651|c0_g1_i4 - X - X Labma-CYC-v1 TR40651|c0_g1_i1 - - YES - Labma-CYC-v2a TR40651|c0_g1_i3 YES X YES X Labma-CYC-v2b TR40651|c0_g1_i5 YES X YES X Labma-CYC-v3 TR40651|c0_g1_i2 YES X YES X Labma-CYC-v4 TR40651|c0_g1_i7 - X - X (Continued)</formula><formula xml:id="formula_2">Labma-CWO-v1 TR54681|c0_g1_i2 YES X YES X Labma-CWO-v2 TR54681|c0_g1_i1 YES X YES X Doubletime (DBT) Labma-DBT-I TR25584|c0_g3_i1 - - - - Labma-DBT-II-v1 TR13652|c3_g1_i1 - YES - YES Labma-DBT-II-v2 TR13652|c3_g1_i2 - X - X Labma-DBT-III-v1 TR84098|c0_g1_i2 - X - X Labma-DBT-III-v1 TR84098|c0_g1_i1 - X - X Labma-DBT-III-v2 TR84098|c0_g1_i4 - - - - Labma-DBT-III-v2 TR84098|c0_g1_i3 - X - X Jetlag (JET) Labma-JET TR56999|c0_g1_i3 YES X YES X Labma-JET</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>High-throughput sequencing in combination with bioinformatics tools has made transcriptomic approaches accessible to non-model species, including those of ecological interest. Thus, transcriptomics can now be used to investigate the eco-physiology of key species within the context of life history strategies, population cycles and ecosystem dynamics. However, these types of studies, which involve gene expression profiling, depend on good reference transcriptomes. Application of multiple workflows to evaluate the quality and completeness of a transcriptome generated for the copepod L. madurae demonstrates that no single criterion is sufficient to assess a de novo assembly. High-throughput bioinformatics tools were used to identify transcripts with protein coding regions and provide annotations. Targeted gene discovery provided information on completeness of individual genes, identified possible sources of fragmentation, established predicted gene variants, and provided additional annotations. The analysis of four different strategies for generating a reference for gene expression studies suggest good agreement among references when a predicted gene assembled into a single isoform. However, many predicted genes include a multiplicity of isoforms, and when these are included in the reference they contribute to ambiguous mapping. Thus, one source of disagreement among transcriptomes in the identification of DEGs is related to which genes are regulated, and weather they are represented by multiple isoforms. The workflows developed in this study if used in a routine assessment of de novo transcriptomes would enhance the reliability of gene expression studies.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig 1 .</head><label>1</label><figDesc>Light micrographs of Labidocera madurae copepodite (A, B) and adult female (C,D). (A) Copepodite stage CIII, dorsal view (magnification: 4x). (B) Same copepodite as in A under fluorescent light showing expression of green fluorescent protein (GFP) (magnification 10x). (C) lateral view of the anterior portion of an adult female showing one dorsal and the ventral ocelli, feeding appendages and GFP expression (magnification 10x). (D) Lateral view of the same individual as in C under fluorescent light showing GFP expression at the base of the swimming legs (magnification 10x). Scale bar: 0.5 mm.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig 2 .</head><label>2</label><figDesc>Diagram of the workflow used to generate the de novo transcriptome for Labidocera madurae and the three approaches used to test for completeness and quality of the assembly.https://doi.org/10.1371/journal.pone.0186794.g002</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig 3 .</head><label>3</label><figDesc>Biological processes represented in L. madurae transcriptome. Pie chart of the annotated transcripts including Gene Ontology (GO) terms belonging to the biological process (BP) category. https://doi.org/10.1371/journal.pone.0186794.g003</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig 4 .</head><label>4</label><figDesc>Labidocera madurae voltage-gated sodium channel sequences assembled by Trinity. Diagram at top shows the four wellconserved domains (DI-DIV) bridged by less-well-conserved loops. Conserved domains are depicted vertically expanded to show approximate locations of six trans-membrane α-helical segments (colored bands labeled S1, S2-S6). Sodium-selectivity of the Na V 1 transcripts (but not Na V 2) is confirmed by the occurrence of four characteristic amino acids (aspartic acid, glutamic acid, lysine and alanine [DEKA]) in specific locations termed the "P-loops"<ref type="bibr" target="#b30">[31]</ref>. Coverage by variants of three putative genes, Labma Na V 1.1 Labma Na V 1.2 and Labma Na V 2 indicated by bars labeled with the i number assigned by Trinity. For Labma Na V 1.1, no one sequence possessed all of the pieces (putative exons), so the overall span across the diagram represents a manual reconstruction generated by including all of the pieces from the different i's. Gaps in sequences are indicated by fine dotted lines. Identical 5' (504 nucleotide) UTRs for i1-i7 have been omitted, as have the identical 3' UTRs (1518 nucleotides) of i1 and i2. Within each gene, corresponding residues across different i's were identical (reflected in the same coloration of the bars) in almost all cases, except for the splice variant indicated in red for Na V 1.1 i3. Sequences representing partial predicted proteins not initiated by an M at the N-terminal or terminated by a stop codon ("X" above the bar) at the C-terminal are indicated with a short diagonal bar. Positions of the domains for Na V 2 differ somewhat from those of Na V 1 shown in the top diagram and are indicated by thickening of the bars. Two sites of putative splice variation (Site I and II) are indicated below the Na V 1.1 diagram, and one non-optional segment within Site I is designated "1" (96aa). Arrows in the Na V 2 diagram indicate short optional pieces (gaps in the horizontal bars), and the overlap region between the two pairs of isoforms of 44 identical amino acids (aa) is indicated.https://doi.org/10.1371/journal.pone.0186794.g004</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head></head><label></label><figDesc>Protein type abbreviations: F, full-length protein; N, amino (N)-terminal partial protein; C, carboxyl (C)-terminal partial protein. Proteins used as queries in tblastn searches: CLK, Drosophila melanogaster CLK (Accession No. AAC62234); CRY2, Danaus plexippus CRY2 (Accession No. ABA62409); CYC, D. melanogaster CYC (Accession No. AAF49107); PER, D. melanogaster PER, isoform A (Accession No. AAF45804); TIM, D. melanogaster TIM (Accession No. AAC46920); CKII α, D. melanogaster CKIIα, isoform A (Accession No. AAN11415); CKIIß, D. melanogaster CKIIß, isoform B (Accession No. AAF48093); CWO, D. melanogaster CWO, isoform A (Accession No. AAF54527); DBT, D. melanogaster discs overgrown, isoform A (Accession No. AAF57110); JET, D. melanogaster JET, isoform A (Accession No. AAF52178); PDP1, D. melanogaster PDP1, isoform B (Accession No. AAN12022); PP1, D. melanogaster PP1 (Accession No. CAA39821); MTS, D. melanogaster MTS, isoform A (Accession No. AAF52567); TWS, D. melanogaster TWS, isoform A (Accession No. AAF54498); WDB, D. melanogaster WDB, isoform A (Accession No. AAF56720); SGG, D. melanogaster SGG, isoform A (Accession No. AAN09082); SLIMB, D. melanogaster SLIMB, isoform A (Accession No. AAF55853); VRI, D. melanogaster VRI, isoform A (Accession No. AAF52237); CRY1, D. plexippus CRY (Accession No. AAX58599); PDH, Eucyclops serrulatus Prepro-PDH I (deduced from Accession No. GARW01021210); PDHR, D. melanogaster pigment dispersing factor receptor, isoform A (Accession No. AAF45788).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig 5 .</head><label>5</label><figDesc>Alignment of five PDP1 protein sequences predicted from the L. madurae de novo transcriptome. Four genes were predicted (I-IV). The first two sequences (Labma-PDP1-I-v1 and Labma-PDP1-I-v2) are likely to be splice variants, since they are identical except for a 9 amino acid long indel.https://doi.org/10.1371/journal.pone.0186794.g005</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig 6 .</head><label>6</label><figDesc>Predicted gene mapping to the circadian rhythm pathway obtained through KEGG annotation. Circadian rhythm pathway shown represents a map for Drosophila melanogaster (map04711). Highlighted boxes (green) represent L. madurae transcripts with coding regions (CDS) automatically annotated against the Kyoto Encyclopedia of Genes and Genomes (KEGG). PER, VRI, PDP1 were not identified by the automated annotation (white boxes).https://doi.org/10.1371/journal.pone.0186794.g006</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig 7 .</head><label>7</label><figDesc>Non-proportional Venn diagram for the number of differentially expressed genes (DEGs) identified using four different transcriptomes as a reference for mapping of reads.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 . Comparison of de novo transcriptomes generated for non-model arthropods. Hexapoda Copepoda Hemiptera Calanoida Cyclopoida Harpacticoida Lygus hesperus Cuerna arida Graphocephala atropunctata Calanus finmarchicus Calanus sinicus Paracyclopina nana Tigriopus japonicus Tigriopus kingsejongensis</head><label>2</label><figDesc></figDesc><table><row><cell>Sequencing</cell><cell>Illumina</cell><cell>Illumina</cell><cell>Illumina</cell><cell>Illumina</cell><cell>454 GS</cell><cell>Illumina HiSeq</cell><cell>Illumina</cell><cell>Illumina</cell></row><row><cell>platform</cell><cell>HiSeq</cell><cell>HiSeq</cell><cell>HiSeq</cell><cell>HiSeq</cell><cell>FLX</cell><cell></cell><cell>HiSeq</cell><cell>HiSeq</cell></row><row><cell>Transcripts (#)</cell><cell>22,022</cell><cell>91,830</cell><cell>97,830</cell><cell>206,041</cell><cell>31,591**</cell><cell>125,631</cell><cell>140,130</cell><cell>81,653</cell></row><row><cell>Minimum</cell><cell>297</cell><cell>224</cell><cell>224</cell><cell>301</cell><cell></cell><cell>201</cell><cell>201</cell><cell>224</cell></row><row><cell>Length (bp)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Maximum</cell><cell>23,350</cell><cell>20,095</cell><cell>17,082</cell><cell>23,068</cell><cell>&gt; 4,000</cell><cell>30,223</cell><cell>30,174</cell><cell>8,427</cell></row><row><cell>Length (bp)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>N50</cell><cell>2,610</cell><cell>1,560</cell><cell>1,692</cell><cell>1,418</cell><cell>873*</cell><cell>4,178</cell><cell>3,565</cell><cell>1,283</cell></row><row><cell>% mapping</cell><cell></cell><cell>88</cell><cell>95</cell><cell>89</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Transcripts with</cell><cell>13,689</cell><cell></cell><cell></cell><cell>159,790</cell><cell></cell><cell>67,179</cell><cell>54,761</cell><cell>38,250</cell></row><row><cell>coding regions</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>(CDS)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Transcripts with</cell><cell>16,942</cell><cell></cell><cell></cell><cell>28,616</cell><cell>9,497</cell><cell>21,397</cell><cell>39,507</cell><cell>22,977</cell></row><row><cell>BLAST hits (#)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Transcripts with</cell><cell>12,114</cell><cell></cell><cell></cell><cell>10,334</cell><cell></cell><cell></cell><cell>27,706</cell><cell>16,815</cell></row><row><cell>GO terms (#)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>BUSCO</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Complete</cell><cell>74</cell><cell>68</cell><cell>66</cell><cell>79</cell><cell></cell><cell>72</cell><cell>81</cell><cell>72</cell></row><row><cell>(%)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Duplicated</cell><cell>33</cell><cell>26</cell><cell>24</cell><cell>20</cell><cell></cell><cell>0.2</cell><cell>0.4</cell><cell>3.5</cell></row><row><cell>(%)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Fragmented</cell><cell>13</cell><cell>17</cell><cell>19</cell><cell>8</cell><cell></cell><cell>5.7</cell><cell>6.9</cell><cell>10</cell></row><row><cell>(%)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Missing (%)</cell><cell>17</cell><cell>14</cell><cell>13</cell><cell>12</cell><cell></cell><cell>21</cell><cell>11</cell><cell>17</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4 . Labidocera madurae (Labma) voltage-gated sodium channel transcripts/predicted proteins. Transcript Deduced protein Trinity ID number (Drome Na V 1 hits) Length nt Drome E-value 1 C. finmarchicus top hit Labma name Length aa Type Calfi e-value Flybase top hit 2</head><label>4</label><figDesc></figDesc><table><row><cell>TR7852|c0_g1_i1</cell><cell>7686</cell><cell>0.0</cell><cell>GAXK01152315</cell><cell>Na V 1.1</cell><cell>1888</cell><cell>F</cell><cell>0.0</cell><cell>para-PAL</cell></row><row><cell>TR7852|c0_g1_i2</cell><cell>7668</cell><cell>0.0</cell><cell>GAXK01152315</cell><cell>"</cell><cell>1882</cell><cell>F</cell><cell>0.0</cell><cell>para-PBA</cell></row><row><cell>TR7852|c0_g1_i3</cell><cell>4399</cell><cell>0.0</cell><cell>GAXK01152316</cell><cell>"</cell><cell>1292</cell><cell>N</cell><cell>0.0</cell><cell>para-PBA</cell></row><row><cell>TR7852|c0_g1_i4</cell><cell>2636</cell><cell>0.0</cell><cell>GAXK01042242</cell><cell>"</cell><cell>710</cell><cell>N</cell><cell>0.0</cell><cell>para-PBE</cell></row><row><cell>TR7852|c0_g1_i5</cell><cell>2654</cell><cell>0.0</cell><cell>GAXK01042242</cell><cell>"</cell><cell>716</cell><cell>N</cell><cell>0.0</cell><cell>para-PBH</cell></row><row><cell>TR7852|c0_g1_i6</cell><cell>1928</cell><cell>e-168</cell><cell>GAXK01042242</cell><cell>"</cell><cell>474</cell><cell>N</cell><cell>0.0</cell><cell>para-PBH</cell></row><row><cell>TR7852|c0_g1_i7</cell><cell>5858</cell><cell>0.0</cell><cell>GAXK01152315</cell><cell>"</cell><cell>1785</cell><cell>N</cell><cell>0.0</cell><cell>para-PBA</cell></row><row><cell>TR7852|c0_g2_i1</cell><cell>6765</cell><cell>0.0</cell><cell>GAXK01186590</cell><cell>Na V 1.2</cell><cell>2069</cell><cell>F</cell><cell>0.0</cell><cell>para-PAL</cell></row><row><cell>TR7852|c0_g2_i2</cell><cell>1731</cell><cell>e-135</cell><cell>GAXK01121435</cell><cell>"</cell><cell>547</cell><cell>I</cell><cell>0.0</cell><cell>para-PBE</cell></row><row><cell>TR65477|c0_g1_i1</cell><cell>3165</cell><cell>7e-89</cell><cell>GAXK01056270</cell><cell>Na V 2</cell><cell>817</cell><cell>N</cell><cell>0.0</cell><cell>NaCP60E-PJ</cell></row><row><cell>TR65477|c0_g1_i2</cell><cell>3220</cell><cell>7e-89</cell><cell>GAXK01056270</cell><cell>"</cell><cell>819</cell><cell>N</cell><cell>0.0</cell><cell>NaCP60E-PM</cell></row><row><cell>TR68660|c0_g0_i1</cell><cell>5266</cell><cell>0.0</cell><cell>GAXK01056270</cell><cell>"</cell><cell>1755</cell><cell>C</cell><cell>0.0</cell><cell>NaCP60E-PJ</cell></row><row><cell>TR68660|c0_g0_i2</cell><cell>5281</cell><cell>0.0</cell><cell>GAXK01056270</cell><cell>"</cell><cell>1759</cell><cell>C</cell><cell>0.0</cell><cell>NaCP60E-PI</cell></row><row><cell>TR25803|c0_g1_i1</cell><cell>457</cell><cell>-3</cell><cell>GAXK01114023</cell><cell>Na V X 4</cell><cell>50</cell><cell>I</cell><cell>4e-09</cell><cell>para-PX</cell></row><row><cell></cell><cell></cell><cell></cell><cell>GAXK01037398</cell><cell></cell><cell></cell><cell></cell><cell>2e-08</cell><cell></cell></row></table><note>1 Query sequence = Drosophila melanogaster canonical Na V 1 sequence SwissProt P33500</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 5 . Putative Labidocera madurae (Labma) circadian signaling system transcripts/proteins identified via in silico transcriptome mining. Circadian signaling system protein Transcript/protein identifications Transcript Deduced protein Clock component</head><label>5</label><figDesc></figDesc><table><row><cell></cell><cell>Family</cell><cell>Trinity identification</cell><cell>Length*</cell><cell>Name</cell><cell cols="2">Length + Type</cell></row><row><cell></cell><cell></cell><cell>number</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Core clock</cell><cell>Clock (CLK)</cell><cell>TR80374|c0_g1_i1</cell><cell>1944</cell><cell>Labma-CLK</cell><cell>590</cell><cell>N</cell></row><row><cell></cell><cell>Cryptochrome 2 (CRY2)</cell><cell>TR24805|c1_g1_i4</cell><cell>3157</cell><cell>Labma-CRY2</cell><cell>799</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR24805|c1_g1_i12</cell><cell>5006</cell><cell>Labma-CRY2</cell><cell>799</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR24805|c1_g1_i11</cell><cell>3036</cell><cell>Labma-CRY2</cell><cell>799</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR24805|c1_g1_i10</cell><cell>4023</cell><cell>Labma-CRY2</cell><cell>799</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR24805|c1_g1_i9</cell><cell>3691</cell><cell>Labma-CRY2</cell><cell>799</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR24805|c1_g1_i8</cell><cell>4784</cell><cell>Labma-CRY2</cell><cell>799</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR24805|c1_g1_i7</cell><cell>4837</cell><cell>Labma-CRY2</cell><cell>799</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR24805|c1_g1_i6</cell><cell>5012</cell><cell>Labma-CRY2</cell><cell>799</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR24805|c1_g1_i5</cell><cell>2978</cell><cell>Labma-CRY2</cell><cell>799</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR24805|c1_g1_i3</cell><cell>3658</cell><cell>Labma-CRY2</cell><cell>799</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR24805|c1_g1_i2</cell><cell>3049</cell><cell>Labma-CRY2</cell><cell>799</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR24805|c1_g1_i1</cell><cell>3007</cell><cell>Labma-CRY2</cell><cell>799</cell><cell>F</cell></row><row><cell></cell><cell>Cycle (CYC)</cell><cell>TR40651|c0_g1_i4</cell><cell>3926</cell><cell>Labma-CYC-v1</cell><cell>706</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR40651|c0_g1_i1</cell><cell>4000</cell><cell>Labma-CYC-v1</cell><cell>706</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR40651|c0_g1_i3</cell><cell>3982</cell><cell>Labma-CYC-v2a</cell><cell>700</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR40651|c0_g1_i5</cell><cell>3908</cell><cell>Labma-CYC-v2b</cell><cell>700</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR40651|c0_g1_i2</cell><cell>2278</cell><cell>Labma-CYC-v3</cell><cell>669</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR40651|c0_g1_i7</cell><cell>3688</cell><cell>Labma-CYC-v4</cell><cell>663</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR40651|c0_g1_i6</cell><cell>3614</cell><cell>Labma-CYC-v4</cell><cell>663</cell><cell>F</cell></row><row><cell></cell><cell>Period (PER)</cell><cell>TR32117|c1_g1_i2</cell><cell>4925</cell><cell>Labma-PER-v1</cell><cell>1409</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR32117|c1_g1_i1</cell><cell>4913</cell><cell>Labma-PER-v2</cell><cell>1405</cell><cell>F</cell></row><row><cell></cell><cell>Timeless (TIM)</cell><cell>TR9084|c2_g1_i4</cell><cell>5887</cell><cell>Labma-TIM-v1</cell><cell>1173</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR9084|c2_g1_i3</cell><cell>5875</cell><cell>Labma-TIM-v2</cell><cell>1169</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR9084|c2_g1_i2</cell><cell>5851</cell><cell>Labma-TIM-v3</cell><cell>1161</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR9084|c2_g1_i1</cell><cell>5839</cell><cell>Labma-TIM-v4</cell><cell>1157</cell><cell>F</cell></row><row><cell cols="2">Clock-associated Casein kinase IIα (CKIIα)</cell><cell>TR16899|c1_g1_i1</cell><cell>2279</cell><cell>Labma-CKIIα</cell><cell>375</cell><cell>F</cell></row><row><cell></cell><cell>Casein kinase IIβ (CKIIβ)</cell><cell>TR61463|c0_g1_i1</cell><cell>1281</cell><cell>Labma-CKIIβ</cell><cell>217</cell><cell>F</cell></row><row><cell></cell><cell>Clockwork orange (CWO)</cell><cell>TR54681|c0_g1_i3</cell><cell>4432</cell><cell>Labma-CWO-v1</cell><cell>617</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR54681|c0_g1_i2</cell><cell>4422</cell><cell>Labma-CWO-v1</cell><cell>617</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR54681|c0_g1_i1</cell><cell>4404</cell><cell>Labma-CWO-v2</cell><cell>611</cell><cell>F</cell></row><row><cell></cell><cell>Doubletime (DBT)</cell><cell>TR25584|c0_g3_i1</cell><cell>2273</cell><cell>Labma-DBT-I</cell><cell>312</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR13652|c3_g1_i1</cell><cell>5782</cell><cell>Labma-DBT-II-v1</cell><cell>609</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR13652|c3_g1_i2</cell><cell>5141</cell><cell>Labma-DBT-II-v2</cell><cell>586</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR84098|c0_g1_i2</cell><cell>4145</cell><cell>Labma-DBT-III-v1</cell><cell>413</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR84098|c0_g1_i1</cell><cell>6085</cell><cell>Labma-DBT-III-v1</cell><cell>413</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR84098|c0_g1_i4</cell><cell>6288</cell><cell>Labma-DBT-III-v2</cell><cell>407</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR84098|c0_g1_i3</cell><cell>4348</cell><cell>Labma-DBT-III-v2</cell><cell>407</cell><cell>F</cell></row><row><cell></cell><cell>Jetlag (JET)</cell><cell>TR56999|c0_g1_i3</cell><cell>2307</cell><cell>Labma-JET</cell><cell>291</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR56999|c0_g1_i2</cell><cell>2681</cell><cell>Labma-JET</cell><cell>291</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR56999|c0_g1_i1</cell><cell>2293</cell><cell>Labma-JET</cell><cell>291</cell><cell>F</cell></row><row><cell></cell><cell>Par domain protein 1 (PDP1)</cell><cell>TR26154|c2_g1_i2</cell><cell>1714</cell><cell>Labma-PDP1-I-v1</cell><cell>252</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR26154|c2_g1_i1</cell><cell>1686</cell><cell>Labma-PDP1-I-v2</cell><cell>243</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR81334|c0_g4_i2</cell><cell>1078</cell><cell>Labma-PDP1-II</cell><cell>266</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="2">(Continued)</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table 5 .</head><label>5</label><figDesc>(Continued)    </figDesc><table><row><cell></cell><cell>Circadian signaling system protein</cell><cell cols="3">Transcript/protein identifications</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>Transcript</cell><cell></cell><cell cols="2">Deduced protein</cell><cell></cell></row><row><cell>Clock</cell><cell>Family</cell><cell>Trinity identification</cell><cell>Length*</cell><cell>Name</cell><cell cols="2">Length + Type</cell></row><row><cell>component</cell><cell></cell><cell>number</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>TR81334|c0_g4_i1</cell><cell>2886</cell><cell>Labma-PDP1-II</cell><cell>266</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR85690|c1_g2_i3</cell><cell>2036</cell><cell>Labma-PDP1-III</cell><cell>329</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR85690|c1_g2_i2</cell><cell>1955</cell><cell>Labma-PDP1-III</cell><cell>329</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR85690|c1_g2_i1</cell><cell>2002</cell><cell>Labma-PDP1-III</cell><cell>329</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR40313|c4_g1_i2</cell><cell>2359</cell><cell>Labma-PDP1-IV</cell><cell>312</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR40313|c4_g1_i1</cell><cell>2324</cell><cell>Labma-PDP1-IV</cell><cell>312</cell><cell>F</cell></row><row><cell></cell><cell>Protein phosphatase 1 (PP1)</cell><cell>TR8331|c4_g1_i1</cell><cell>1820</cell><cell>Labma-PP1-I</cell><cell>328</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR44262|c1_g1_i1</cell><cell>3263</cell><cell>Labma-PP1-II</cell><cell></cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR58187|c0_g1_i1</cell><cell>3191</cell><cell>Labma-PP1-III</cell><cell>316</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR43009|c0_g1_i1</cell><cell>2414</cell><cell>Labma-PP1-IV</cell><cell>468</cell><cell>F</cell></row><row><cell></cell><cell>Protein phosphatase 2A (PP2A)-Microtubule star</cell><cell>TR69087|c4_g1_i1</cell><cell>2162</cell><cell>Labma-MTS-I</cell><cell>311</cell><cell>F</cell></row><row><cell></cell><cell>(MTS)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>TR6003|c0_g1_i1</cell><cell>1742</cell><cell>Labma-MTS-II</cell><cell>350</cell><cell>F</cell></row><row><cell></cell><cell>PP2A -Twins (TWS)</cell><cell>TR47276|c5_g1_i1</cell><cell>3687</cell><cell>Labma-TWS-I</cell><cell>445</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR55093|c0_g1_i1</cell><cell>4446</cell><cell>Labma-TWS-II</cell><cell>534</cell><cell>F</cell></row><row><cell></cell><cell>PP2A -Widerborst (WDB)</cell><cell>TR25971|c2_g2_i2</cell><cell>2441</cell><cell>Labma-WDB-v1</cell><cell>481</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR25971|c2_g2_i1</cell><cell>2337</cell><cell>Labma-WDB-v2</cell><cell>465</cell><cell>F</cell></row><row><cell></cell><cell>Shaggy (SGG)</cell><cell>TR76551|c2_g2_i2</cell><cell>3218</cell><cell>Labma-SGG-I</cell><cell>411</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR76551|c2_g2_i1</cell><cell>3190</cell><cell>Labma-SGG-I</cell><cell>411</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR80377|c0_g1_i2</cell><cell>5696</cell><cell>Labma-SGG-II-v1</cell><cell>600</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR80377|c0_g1_i1</cell><cell>5675</cell><cell>Labma-SGG-II-v2</cell><cell>593</cell><cell>F</cell></row><row><cell></cell><cell>Supernumerary limbs (SLIMB)</cell><cell>TR55609|c6_g1_i2</cell><cell>3676</cell><cell>Labma-SLIMB-v1</cell><cell>547</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR55609|c6_g1_i1</cell><cell>3662</cell><cell>Labma-SLIMB-v2</cell><cell>546</cell><cell>F</cell></row><row><cell></cell><cell>Vrille (VRI)</cell><cell>TR41378|c1_g1_i2</cell><cell>2296</cell><cell>Labma-VRI</cell><cell>457</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell>TR41378|c1_g1_i1</cell><cell>2339</cell><cell>Labma-VRI</cell><cell>457</cell><cell>F</cell></row><row><cell>Clock input</cell><cell>Cryptochrome 1 (CRY1)</cell><cell>TR53226|c0_g1_i1</cell><cell>2585</cell><cell>Labma-CRY1</cell><cell>531</cell><cell>F</cell></row><row><cell>Clock output</cell><cell>Pigment dispersing hormone (PDH)</cell><cell>TR22949|c0_g1_i2</cell><cell>731</cell><cell>Labma-prepro-PDH-</cell><cell>136</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>v1</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>TR22949|c0_g1_i1</cell><cell>701</cell><cell>Labma-prepro-PDH-</cell><cell>126</cell><cell>F</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>v2</cell><cell></cell><cell></cell></row><row><cell></cell><cell>PDH receptor (PDHR)</cell><cell>TR69493|c0_g1_i1</cell><cell>1635</cell><cell>Labma-PDHR</cell><cell>428</cell><cell>C</cell></row></table><note>*Length in nucleotides.+ Length in amino acids.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head>Table 7 .</head><label>7</label><figDesc>(Continued)    </figDesc><table><row><cell>Target proteins</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>Transcript</cell><cell></cell><cell cols="3">Reference transcriptomes</cell></row><row><cell></cell><cell>Protein name</cell><cell>Trinity identification</cell><cell>"Full"</cell><cell>"Pred.</cell><cell>"Full-</cell><cell>"Pred.genes-</cell></row><row><cell></cell><cell></cell><cell>#</cell><cell></cell><cell>genes"</cell><cell>CDS"</cell><cell>CDS"</cell></row><row><cell></cell><cell>Labma-CYC-v4</cell><cell>TR40651|c0_g1_i6</cell><cell>-</cell><cell>X</cell><cell>-</cell><cell>X</cell></row><row><cell>Period (PER)</cell><cell>Labma-PER-v1</cell><cell>TR32117|c1_g1_i2</cell><cell>YES</cell><cell>YES</cell><cell>YES</cell><cell>YES</cell></row><row><cell></cell><cell>Labma-PER-v2</cell><cell>TR32117|c1_g1_i1</cell><cell>YES</cell><cell>X</cell><cell>YES</cell><cell>X</cell></row><row><cell>Timeless (TIM)</cell><cell>Labma-TIM-v1</cell><cell>TR9084|c2_g1_i4</cell><cell>YES</cell><cell>-</cell><cell>YES</cell><cell>-</cell></row><row><cell></cell><cell>Labma-TIM-v2</cell><cell>TR9084|c2_g1_i3</cell><cell>-</cell><cell>X</cell><cell>YES</cell><cell>X</cell></row><row><cell></cell><cell>Labma-TIM-v3</cell><cell>TR9084|c2_g1_i2</cell><cell>YES</cell><cell>X</cell><cell>YES</cell><cell>X</cell></row><row><cell></cell><cell>Labma-TIM-v4</cell><cell>TR9084|c2_g1_i1</cell><cell>YES</cell><cell>X</cell><cell>YES</cell><cell>X</cell></row><row><cell>Casein kinase IIα (CKIIα)</cell><cell>Labma-CKIIα</cell><cell>TR16899|c1_g1_i1</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell></row><row><cell>Casein kinase IIβ (CKIIβ)</cell><cell>Labma-CKIIβ</cell><cell>TR61463|c0_g1_i1</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell></row><row><cell>Clockwork orange (CWO)</cell><cell>Labma-CWO-v1</cell><cell>TR54681|c0_g1_i3</cell><cell>YES</cell><cell>YES</cell><cell>YES</cell><cell>YES</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head>Table 7 .</head><label>7</label><figDesc>(Continued) Transcript present in the reference transcriptome but not differentially expressed YES Transcript present in the reference transcriptome and differentially expressed X Transcript not present in the reference transcriptome In bold Transcripts resulting differentially expressed in all 4 reference transcriptomes https://doi.org/10.1371/journal.pone.0186794.t007</figDesc><table><row><cell>Target proteins</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>Transcript</cell><cell></cell><cell cols="3">Reference transcriptomes</cell></row><row><cell></cell><cell>Protein name</cell><cell>Trinity identification</cell><cell>"Full"</cell><cell>"Pred.</cell><cell>"Full-</cell><cell>"Pred.genes-</cell></row><row><cell></cell><cell></cell><cell>#</cell><cell></cell><cell>genes"</cell><cell>CDS"</cell><cell>CDS"</cell></row><row><cell></cell><cell>Labma-SGG-II-v1</cell><cell>TR80377|c0_g1_i2</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell></row><row><cell></cell><cell>Labma-SGG-II-v2</cell><cell>TR69087|c4_g1_i1</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell></row><row><cell>Supernumerary limbs (SLIMB)</cell><cell>Labma-SLIMB-v1</cell><cell>TR55609|c6_g1_i2</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell></row><row><cell></cell><cell>Labma-SLIMB-v2</cell><cell>TR55609|c6_g1_i1</cell><cell>-</cell><cell>X</cell><cell>-</cell><cell>X</cell></row><row><cell>Vrille (VRI)</cell><cell>Labma-VRI</cell><cell>TR41378|c1_g1_i2</cell><cell>-</cell><cell>X</cell><cell>-</cell><cell>X</cell></row><row><cell></cell><cell>Labma-VRI</cell><cell>TR41378|c1_g1_i1</cell><cell>YES</cell><cell>YES</cell><cell>YES</cell><cell>YES</cell></row><row><cell>Cryptochrome 1 (CRY1)</cell><cell>Labma-CRY1</cell><cell>TR53226|c0_g1_i1</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>YES</cell></row><row><cell>Pigment dispersing hormone (PDH)</cell><cell>Labma-prepro-PDH-</cell><cell>TR22949|c0_g1_i2</cell><cell>-</cell><cell>YES</cell><cell>-</cell><cell>YES</cell></row><row><cell></cell><cell>v1</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>Labma-prepro-PDH-</cell><cell>TR22949|c0_g1_i1</cell><cell>-</cell><cell>X</cell><cell>-</cell><cell>X</cell></row><row><cell></cell><cell>v2</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>PDH receptor (PDHR)</cell><cell>Labma-PDHR</cell><cell>TR69493|c0_g1_i1</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell></row><row><cell>Legend</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>-</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">PLOS ONE | https://doi.org/10.1371/journal.pone.0186794 October 24, 2017</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgments</head><p>We would like to thank T. Weatherby and L. Hata from the University of Hawai'i at Mānoa, M. Belanger and R. Nilsen from the Georgia Genomics Facility at the University of Georgia. This research was supported by the National Science Foundation Grant OCE-1459235 to P.H.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supporting information S1 Fig. Metabolic pathways represented in the Labidocera madurae transcriptome based on annotation using Kyoto Encyclopedia of Genes and Genomes (KEGG).</head><p>Diagram in light purple is a map of 146 KEGG pathways that provide a generalized overview of global metabolism in eukaryotes. Metabolic compounds are identified by nodes, while the lines show enzymatic transformations. Highlighted blue lines and corresponding nodes represent the pathways that were annotated in the L. madurae transcriptome using SwissProt and KEGG pathway analysis. The KEGG map was customized using ipath2. (PDF)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>S2 Fig. Comparison of variants of predicted cycle (Labma-CYC) proteins predicted from</head><p>the Labidocera madurae transcriptome. Variants were aligned using MAFFT. In the line immediately below each sequence grouping, " Ã " indicates identical amino acid residues, while ":" and "." denote amino acids that are similar in structure between sequences. In this figure, helix-loop-helix DNA-binding, PAS fold, and PAS domains identified by Pfam analyses are highlighted in yellow, light green, and light blue, respectively. (DOCX)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>S3 Fig. Comparison of variants of predicted protein phosphatase 1 (Labma-P1) proteins</head><p>predicted from the Labidocera madurae transcriptome. Variants were aligned using MAFFT. In the line immediately below each sequence grouping, " Ã " indicates identical amino acid residues, while ":" and "." denote amino acids that are similar in structure between sequences. In this figure, serine-threonine protein phosphatase N-terminal and calcineurinlike phosphoesterase domains identified by Pfam analyses are highlighted in blue and red, respectively. (PDF) The reference transcriptomes are defined as: "Full" with 211K transcripts, "Pred. genes" consisting of longest transcript for Trinity predicted genes, "Pred.genes-CDS" consisting of transcripts with coding regions (CDS) from the "Pred.genes" and "Full-CDS" consisting of transcripts with coding regions (CDS) from "Full". A) Non-proportional Venn diagram comparing all four transcriptomes for the number of identified DEGs using Bowtie as the mapping program.</p><p>"Full" transcriptome (purple), "Pred. genes" (yellow), "Pred.genes-CDS"(green) and "Full-CDS" (pink). B) Proportional Venn diagram comparing the DEGs that were shared among all four reference transcriptomes using either Bowtie (purple) or kallisto (green) as the mapping program. C) Proportional Venn diagram comparing DEGs identified using the smallest reference "Pred. genes-CDS" using either Bowtie (purple) or kallisto (green) as the mapping program. DEGs were separately identified for each transcriptome and mapping combination using edgeR set to P-value &lt;0.05 and false discovery rate (FDR) cutoff of 5%. (PDF) </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Copepod evolution. London: The Ray Society</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Huys</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">A</forename><surname>Boxshall</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1991" />
+			<pubPlace>Unwin Brothers</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Huys R and Boxshall GA. Copepod evolution. London: The Ray Society, Unwin Brothers; 1991.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">The Biology of Calanoid Copepods</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Mauchline</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+			<publisher>Academic Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mauchline J. The Biology of Calanoid Copepods. New York: Academic Press; 1998.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Copepod diversity in a subtropical bay based on a fragment of the mitochondrial COI gene</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Jungbluth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">H</forename><surname>Lenz</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/Plankt/Fbt015</idno>
+		<ptr target="https://doi.org/10.1093/Plankt/Fbt015" />
+	</analytic>
+	<monogr>
+		<title level="j">J Plankton Res</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="630" to="673" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jungbluth MJ and Lenz PH. Copepod diversity in a subtropical bay based on a fragment of the mito- chondrial COI gene. J Plankton Res. 2013; 35 3:630-43. https://doi.org/10.1093/Plankt/Fbt015</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Molecular identification and systematic assessment of Labidocera madurae A. Scott, 1909 (calanoid copepod) from Lakshadweep Archipelago, southwest coast of India, based on mitochondrial COI gene sequences</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">F</forename><surname>Sanu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">B</forename><surname>Nandan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Deepak</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Harikrishnan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar Biodivers</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="95" to="103" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sanu VF, Nandan SB, Deepak J and Harikrishnan M. Molecular identification and systematic assess- ment of Labidocera madurae A. Scott, 1909 (calanoid copepod) from Lakshadweep Archipelago, south- west coast of India, based on mitochondrial COI gene sequences. Mar Biodivers. 2016; 46 1:95-103.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Kaneohe Bay sewage diversion experiment: perspectives on ecosystem responses to nutritional perturbation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">V</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">J</forename><surname>Kimmerer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">A</forename><surname>Laws</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">E</forename><surname>Brock</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">W</forename><surname>Walsh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pacific Science</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="279" to="395" />
+			<date type="published" when="1981" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Smith SV, Kimmerer WJ, Laws EA, Brock RE, Walsh TW. Kaneohe Bay sewage diversion experiment: perspectives on ecosystem responses to nutritional perturbation. Pacific Science. 1981; 35 4:279-395.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Ecological impact of a fresh-water &quot;reef kill</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">L</forename><surname>Jokiel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">L</forename><surname>Hunter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Taguchi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Watarai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Coral Reefs</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="177" to="84" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jokiel PL, Hunter CL, Taguchi S, Watarai L. Ecological impact of a fresh-water &quot;reef kill&quot; in Kaneohe Bay, Oahu, Hawaii. Coral Reefs. 1993; 12 3:177-84.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The unnatural history of Kāne &apos;ohe Bay: coral reef resilience in the face of centuries of anthropogenic impacts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">D</forename><surname>Bahr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">L</forename><surname>Jokiel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">J</forename><surname>Toonen</surname></persName>
+		</author>
+		<idno type="DOI">10.7717/peerj.950</idno>
+		<idno type="PMID">26020007</idno>
+		<ptr target="https://doi.org/10.7717/peerj.950" />
+	</analytic>
+	<monogr>
+		<title level="j">PeerJ</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bahr KD, Jokiel PL, Toonen RJ. The unnatural history of Kāne &apos;ohe Bay: coral reef resilience in the face of centuries of anthropogenic impacts. PeerJ. 2015; 3:e950. https://doi.org/10.7717/peerj.950 PMID: 26020007</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Coral reefs in Kaneohe Bay, Hawaii: two centuries of western influence and two decades of data</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">L</forename><surname>Hunter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">W</forename><surname>Evans</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bull Mar Sci</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="501" to="516" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hunter CL, Evans CW. Coral reefs in Kaneohe Bay, Hawaii: two centuries of western influence and two decades of data. Bull Mar Sci. 1995; 57 2:501-15.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The 2014 coral bleaching and freshwater flood events in</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">D</forename><surname>Bahr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">L</forename><surname>Jokiel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">S</forename><surname>Rodgers</surname></persName>
+		</author>
+		<idno type="DOI">10.7717/peerj.1136</idno>
+		<idno type="PMID">26290792</idno>
+		<ptr target="https://doi.org/10.7717/peerj.1136" />
+	</analytic>
+	<monogr>
+		<title level="j">PeerJ</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bahr KD, Jokiel PL, Rodgers KS. The 2014 coral bleaching and freshwater flood events in Kāne&apos;ohe Bay, Hawai&apos;i. PeerJ. 2015; 3:e1136. https://doi.org/10.7717/peerj.1136 PMID: 26290792</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Coral reef fish larvae settle close to home</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">P</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Planes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Thorrold</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cub.2005.06.061</idno>
+		<idno type="PMID">16051176</idno>
+		<ptr target="https://doi.org/10.1016/j.cub.2005.06.061" />
+	</analytic>
+	<monogr>
+		<title level="j">Current Biology</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="1314" to="1322" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jones GP, Planes S, Thorrold SR. Coral reef fish larvae settle close to home. Current Biology. 2005; 15 14:1314-8. https://doi.org/10.1016/j.cub.2005.06.061 PMID: 16051176</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Zooplankton, planktivorous fish, and water currents on a windward reef face: Great Barrier Reef, Australia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">M</forename><surname>Hamner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">S</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">H</forename><surname>Carleton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><forename type="middle">R</forename><surname>Hauri</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">M</forename><surname>Williams</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bull Mar Sci</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="459" to="79" />
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hamner WM, Jones MS, Carleton JH, Hauri IR, Williams DM. Zooplankton, planktivorous fish, and water currents on a windward reef face: Great Barrier Reef, Australia. Bull Mar Sci. 1988; 42 3:459-79.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Export-import dynamics of zooplankton on a coral reef in Palau</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">M</forename><surname>Hamner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">L</forename><surname>Colin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">P</forename><surname>Hamner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">MEPS</title>
+		<imprint>
+			<biblScope unit="volume">334</biblScope>
+			<biblScope unit="page" from="83" to="92" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hamner WM, Colin PL, Hamner PP. Export-import dynamics of zooplankton on a coral reef in Palau. MEPS. 2007; 334:83-92.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Nearshore distributional gradients of larval fish (15 taxa) and planktonic crustaceans (6 taxa) in Hawaii</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Leis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar Biol</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="89" to="97" />
+			<date type="published" when="1982" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Leis JM. Nearshore distributional gradients of larval fish (15 taxa) and planktonic crustaceans (6 taxa) in Hawaii. Mar Biol. 1982; 72 1:89-97.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Spatial and temporal distributions of copepods to leeward and windward of Oahu, Hawaiian Archipelago</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">P</forename><surname>Hassett</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">W</forename><surname>Boehlert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar Biol</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="571" to="84" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hassett RP, Boehlert GW. Spatial and temporal distributions of copepods to leeward and windward of Oahu, Hawaiian Archipelago. Mar Biol. 1999; 134(3):571-84.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Mechanoreception in marine copepods: electrophysiological studies on the first antennae</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Yen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">H</forename><surname>Lenz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">V</forename><surname>Gassie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">K</forename><surname>Hartline</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Plankton Res</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="495" to="512" />
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yen J, Lenz PH, Gassie DV, Hartline DK. Mechanoreception in marine copepods: electrophysiological studies on the first antennae. J Plankton Res. 1992; 14 4:495-512.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">The escape behavior of marine copepods in response to a quantifiable fluid mechanical disturbance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">M</forename><surname>Fields</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Yen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Plankton Res</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="1289" to="304" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fields DM, Yen J. The escape behavior of marine copepods in response to a quantifiable fluid mechani- cal disturbance. J Plankton Res. 1997; 19 9:1289-304.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Physiological and behavioral studies of escape responses in calanoid copepods</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">K</forename><surname>Hartline</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">H</forename><surname>Lenz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">M</forename><surname>Herren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar Freshwater Behav Physiol</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="199" to="212" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hartline DK, Lenz PH, Herren CM. Physiological and behavioral studies of escape responses in cala- noid copepods. Mar Freshwater Behav Physiol 1996; 27 2-3:199-212.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The need for speed. I. Fast reactions and myelinated axons in copepods</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">H</forename><surname>Lenz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">K</forename><surname>Hartline</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">D</forename><surname>Davis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Comp Physiol A: Neuroethol Sens Neural Behav Physiol</title>
+		<imprint>
+			<biblScope unit="volume">186</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="337" to="382" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lenz PH, Hartline DK, Davis AD. The need for speed. I. Fast reactions and myelinated axons in cope- pods. J Comp Physiol A: Neuroethol Sens Neural Behav Physiol. 2000; 186 4:337-45.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">The need for speed. II. Myelin in calanoid copepods</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">M</forename><surname>Weatherby</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">D</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">K</forename><surname>Hartline</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">H</forename><surname>Lenz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Comp Physiol A: Neuroethol Sens Neural Behav Physiol</title>
+		<imprint>
+			<biblScope unit="volume">186</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="347" to="57" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Weatherby TM, Davis AD, Hartline DK, Lenz PH. The need for speed. II. Myelin in calanoid copepods. J Comp Physiol A: Neuroethol Sens Neural Behav Physiol. 2000; 186 4:347-57.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The ecoresponsive genome of Daphnia pulex</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">K</forename><surname>Colbourne</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E</forename><surname>Pfrender</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Gilbert</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">K</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Tucker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">H</forename><surname>Oakley</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1197761</idno>
+		<idno type="PMID">21292972</idno>
+		<ptr target="https://doi.org/10.1126/science.1197761" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">331</biblScope>
+			<biblScope unit="page" from="555" to="61" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Colbourne JK, Pfrender ME, Gilbert D, Thomas WK, Tucker A, Oakley TH, et al. The ecoresponsive genome of Daphnia pulex. Science. 2011; 331 6017:555-61. https://doi.org/10.1126/science.1197761 PMID: 21292972</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Here we are, but where do we go? A systematic review of crustacean transcriptomic studies from 2014-2015</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Havird</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Santos</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/icb/icw061</idno>
+		<idno type="PMID">27400974</idno>
+		<ptr target="https://doi.org/10.1093/icb/icw061" />
+	</analytic>
+	<monogr>
+		<title level="j">Integr Comp Biol</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="1055" to="66" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Havird JC and Santos SR. Here we are, but where do we go? A systematic review of crustacean tran- scriptomic studies from 2014-2015. Integr Comp Biol. 2016; 56:1055-66. https://doi.org/10.1093/icb/ icw061 PMID: 27400974</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">A comparison across non-model animals suggests an optimal sequencing depth for de novo transcriptome assembly</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">R</forename><surname>Francis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">M</forename><surname>Christianson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Kiko</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">L</forename><surname>Powers</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">C</forename><surname>Shaner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">H</forename><surname>Haddock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genomics</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">167</biblScope>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Francis WR, Christianson LM, Kiko R, Powers ML, Shaner NC and Haddock SH. A comparison across non-model animals suggests an optimal sequencing depth for de novo transcriptome assembly. BMC Genomics. 2013; 14 1:167.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">De novo assembly of a transcriptome for Calanus finmarchicus (Crustacea, Copepoda)-the dominant zooplankter of the North Atlantic Ocean</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">H</forename><surname>Lenz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Roncalli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">P</forename><surname>Hassett</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">S</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">C</forename><surname>Cieslak</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">K</forename><surname>Hartline</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0088589</idno>
+		<idno type="PMID">24586345</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0088589" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lenz PH, Roncalli V, Hassett RP, Wu LS, Cieslak MC, Hartline DK, et al. De novo assembly of a tran- scriptome for Calanus finmarchicus (Crustacea, Copepoda)-the dominant zooplankter of the North Atlantic Ocean. PLoS ONE. 2014; 9 2:e88589. https://doi.org/10.1371/journal.pone.0088589 PMID: 24586345</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">De novo transcript sequence reconstruction from RNA-seq using the Trinity platform for reference generation and analysis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">J</forename><surname>Haas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Papanicolaou</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Yassour</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Grabherr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">D</forename><surname>Blood</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Bowden</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nprot.2013.084</idno>
+		<ptr target="https://doi.org/10.1038/nprot.2013.084PMID" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat Protoc</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1494" to="512" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Haas BJ, Papanicolaou A, Yassour M, Grabherr M, Blood PD, Bowden J, et al. De novo transcript sequence reconstruction from RNA-seq using the Trinity platform for reference generation and analysis. Nat Protoc. 2013; 8 8:1494-512. https://doi.org/10.1038/nprot.2013.084 PMID:</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Ultrafast and memory-efficient alignment of short DNA sequences to the human genome</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Langmead</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Trapnell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Pop</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">L</forename><surname>Salzberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/Gb-2009-10-3-R25</idno>
+		<idno type="PMID">19261174</idno>
+		<ptr target="https://doi.org/10.1186/Gb-2009-10-3-R25" />
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Langmead B, Trapnell C, Pop M and Salzberg SL. Ultrafast and memory-efficient alignment of short DNA sequences to the human genome. Genome Biol. 2009; 10 3 https://doi.org/10.1186/Gb-2009-10- 3-R25 PMID: 19261174</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Gapped BLAST and PSI-BLAST: a new generation of protein database search programs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">F</forename><surname>Altschul</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">L</forename><surname>Madden</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">A</forename><surname>Schaffer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Miller</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/Nar/25.17.3389</idno>
+		<idno type="PMID">9254694</idno>
+		<ptr target="https://doi.org/10.1093/Nar/25.17.3389" />
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="3389" to="402" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Altschul SF, Madden TL, Schaffer AA, Zhang JH, Zhang Z, Miller W, et al. Gapped BLAST and PSI- BLAST: a new generation of protein database search programs. Nucleic Acids Res. 1997; 25 17:3389- 402. https://doi.org/10.1093/Nar/25.17.3389 PMID: 9254694</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">The SWISS-PROT protein sequence database and its supplement TrEMBL in 2000</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Bairoch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Apweiler</surname></persName>
+		</author>
+		<idno type="PMID">10592178</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="45" to="48" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bairoch A and Apweiler R.The SWISS-PROT protein sequence database and its supplement TrEMBL in 2000. Nucleic Acids Res. 2000; 28 1, 45-48. PMID: 10592178</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">The UniProt Consortium; UniProt: the universal protein knowledgebase</title>
+		<idno type="DOI">10.1093/nar/gkw1099</idno>
+		<idno type="PMID">27899622</idno>
+		<ptr target="https://doi.org/10.1093/nar/gkw1099" />
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">D1</biblScope>
+			<biblScope unit="page" from="158" to="169" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">The UniProt Consortium; UniProt: the universal protein knowledgebase. Nucleic Acids Res 2017; 45 (D1): D158-D169. https://doi.org/10.1093/nar/gkw1099 PMID: 27899622</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">BUSCO: assessing genome assembly and annotation completeness with single-copy orthologs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">A</forename><surname>Simão</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Waterhouse</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Ioannidis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">V</forename><surname>Kriventseva</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">M</forename><surname>Zdobnov</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btv351</idno>
+		<idno type="PMID">26059717</idno>
+		<ptr target="https://doi.org/10.1093/bioinformatics/btv351" />
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="3210" to="3212" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Simão FA, Waterhouse RM, Ioannidis P, Kriventseva EV and Zdobnov EM. BUSCO: assessing genome assembly and annotation completeness with single-copy orthologs. Bioinformatics. 2015; 31 19:3210-2. https://doi.org/10.1093/bioinformatics/btv351 PMID: 26059717</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">MAFFT multiple sequence alignment software version 7: improvements in performance and usability</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Katoh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">M</forename><surname>Standley</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/molbev/mst010</idno>
+		<idno type="PMID">23329690</idno>
+		<ptr target="https://doi.org/10.1093/molbev/mst010" />
+	</analytic>
+	<monogr>
+		<title level="j">Mol Biol Evol</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="772" to="80" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Katoh K and Standley DM. MAFFT multiple sequence alignment software version 7: improvements in performance and usability. Mol Biol Evol. 2013; 30 4:772-80. https://doi.org/10.1093/molbev/mst010 PMID: 23329690</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">International Union of Pharmacology. XXXIX. Compendium of voltage-gated ion channels: Sodium channels</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">A</forename><surname>Catterall</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">L</forename><surname>Goldin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">G</forename><surname>Waxman</surname></persName>
+		</author>
+		<idno type="DOI">10.1124/pr.55.4.7</idno>
+		<idno type="PMID">14657413</idno>
+		<ptr target="https://doi.org/10.1124/pr.55.4.7" />
+	</analytic>
+	<monogr>
+		<title level="j">Pharmacol Rev</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="575" to="583" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Catterall WA, Goldin AL and Waxman SG. International Union of Pharmacology. XXXIX. Compendium of voltage-gated ion channels: Sodium channels. Pharmacol Rev. 2003; 55 4:575-8. https://doi.org/10. 1124/pr.55.4.7 PMID: 14657413</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">The Pfam protein families database: towards a more sustainable future</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">D</forename><surname>Finn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Coggill</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">Y</forename><surname>Eberhardt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Eddy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Mistry</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">L</forename><surname>Mitchell</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkv1344</idno>
+		<idno type="PMID">26673716</idno>
+		<ptr target="https://doi.org/10.1093/nar/gkv1344" />
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="279" to="85" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Finn RD, Coggill P, Eberhardt RY, Eddy SR, Mistry J, Mitchell AL, et al. The Pfam protein families data- base: towards a more sustainable future. Nucleic Acids Res. 2016; 44 D1:D279-D85. https://doi.org/ 10.1093/nar/gkv1344 PMID: 26673716</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Prediction of the protein components of a putative Calanus finmarchicus (Crustacea, Copepoda) circadian signaling systems using a de novo assembled transcriptome</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Christie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">M</forename><surname>Fontanilla</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">T</forename><surname>Nesbit</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">H</forename><surname>Lenz</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cbd.2013.04.002</idno>
+		<idno type="PMID">23727418</idno>
+		<ptr target="https://doi.org/10.1016/j.cbd.2013.04.002" />
+	</analytic>
+	<monogr>
+		<title level="j">Comp Biochem Phys D</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="165" to="93" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Christie AE, Fontanilla TM, Nesbit KT and Lenz PH. Prediction of the protein components of a putative Calanus finmarchicus (Crustacea, Copepoda) circadian signaling systems using a de novo assembled transcriptome. Comp Biochem Phys D. 2013; 8:165-93. https://doi.org/10.1016/j.cbd.2013.04.002 PMID: 23727418</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Identification of the molecular components of a Tigriopus californicus (Crustacea, Copepoda) circadian clock</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">T</forename><surname>Nesbit</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Christie</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cbd.2014.09.002</idno>
+		<idno type="PMID">25310881</idno>
+		<ptr target="https://doi.org/10.1016/j.cbd.2014.09.002" />
+	</analytic>
+	<monogr>
+		<title level="j">Comp Biochem Phys D</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="16" to="44" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nesbit KT and Christie AE. Identification of the molecular components of a Tigriopus californicus (Crus- tacea, Copepoda) circadian clock. Comp Biochem Phys D. 2014; 12:16-44. https://doi.org/10.1016/j. cbd.2014.09.002 PMID: 25310881</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Genomic identification of a putative circadian system in the cladoceran crustacean Daphnia pulex</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">R</forename><surname>Tilden</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">D</forename><surname>Mccoole</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">M</forename><surname>Harmon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">N</forename><surname>Baer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Christie</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/J.Cbd.2011.06.002</idno>
+		<idno type="PMID">21798832</idno>
+		<ptr target="https://doi.org/10.1016/J.Cbd.2011.06.002" />
+	</analytic>
+	<monogr>
+		<title level="j">Comp Biochem Phys D</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="282" to="309" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tilden AR, McCoole MD, Harmon SM, Baer KN and Christie AE. Genomic identification of a putative cir- cadian system in the cladoceran crustacean Daphnia pulex. Comp Biochem Phys D. 2011; 6 3:282- 309. https://doi.org/10.1016/J.Cbd.2011.06.002 PMID: 21798832</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">FlyBase at 25: looking to the future</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">S</forename><surname>Gramates</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">J</forename><surname>Marygold</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Santos</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Urbano</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Antonazzo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">B</forename><surname>Matthews</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkw1016</idno>
+		<idno type="PMID">27799470</idno>
+		<ptr target="https://doi.org/10.1093/nar/gkw1016" />
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="663" to="71" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gramates LS, Marygold SJ, dos Santos G, Urbano JM, Antonazzo G, Matthews BB, et al. FlyBase at 25: looking to the future. Nucleic Acids Res. 2016; 45 D1:D663-D71. https://doi.org/10.1093/nar/ gkw1016 PMID: 27799470</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Neuropeptide discovery in Eucyclops serrulatus (Crustacea, Copepoda): in silico prediction of the first peptidome for a member of the Cyclopoida</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Christie</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ygcen.2014.11.002</idno>
+		<idno type="PMID">25448253</idno>
+		<ptr target="https://doi.org/10.1016/j.ygcen.2014.11.002" />
+	</analytic>
+	<monogr>
+		<title level="j">Gen Comp Endocrinol</title>
+		<imprint>
+			<biblScope unit="volume">211</biblScope>
+			<biblScope unit="page" from="92" to="105" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Christie AE. Neuropeptide discovery in Eucyclops serrulatus (Crustacea, Copepoda): in silico prediction of the first peptidome for a member of the Cyclopoida. Gen Comp Endocrinol. 2015; 211:92-105. https://doi.org/10.1016/j.ygcen.2014.11.002 PMID: 25448253</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Peptidergic signaling in Calanus finmarchicus (Crustacea, Copepoda): In silico identification of putative peptide hormones and their receptors using a de novo assembled transcriptome</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Christie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Roncalli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">S</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">L</forename><surname>Ganote</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Doak</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">H</forename><surname>Lenz</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ygcen.2013.03.018</idno>
+		<idno type="PMID">23578900</idno>
+		<ptr target="https://doi.org/10.1016/j.ygcen.2013.03.018" />
+	</analytic>
+	<monogr>
+		<title level="j">Gen Comp Endocrinol</title>
+		<imprint>
+			<biblScope unit="volume">187</biblScope>
+			<biblScope unit="page" from="117" to="152" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Christie AE, Roncalli V, Wu LS, Ganote CL, Doak T and Lenz PH. Peptidergic signaling in Calanus fin- marchicus (Crustacea, Copepoda): In silico identification of putative peptide hormones and their recep- tors using a de novo assembled transcriptome. Gen Comp Endocrinol. 2013; 187:117-35. https://doi. org/10.1016/j.ygcen.2013.03.018 PMID: 23578900</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">SignalP 4.0: discriminating signal peptides from transmembrane regions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">N</forename><surname>Petersen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Brunak</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Von</forename><surname>Heijne</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Nielsen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename></persName>
+		</author>
+		<idno type="DOI">10.1038/nmeth.1701</idno>
+		<idno type="PMID">21959131</idno>
+		<ptr target="https://doi.org/10.1038/nmeth.1701" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature Methods</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="785" to="791" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Petersen TN, Brunak S, Von Heijne G and Nielsen H. SignalP 4.0: discriminating signal peptides from transmembrane regions. Nature Methods. 2011; 8 10:785-6. https://doi.org/10.1038/nmeth.1701 PMID: 21959131</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">The Sulfinator: predicting tyrosine sulfation sites in protein sequences</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Monigatti</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Gasteiger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Bairoch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jung</forename><forename type="middle">E</forename></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/18.5.769</idno>
+		<idno type="PMID">12050077</idno>
+		<ptr target="https://doi.org/10.1093/bioinformatics/18.5.769" />
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="769" to="70" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Monigatti F, Gasteiger E, Bairoch A and Jung E. The Sulfinator: predicting tyrosine sulfation sites in pro- tein sequences. Bioinformatics. 2002; 18 5:769-70. https://doi.org/10.1093/bioinformatics/18.5.769 PMID: 12050077</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<title level="m" type="main">Pseudoalignment for metagenomic read assignment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Schaeffer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Pimentel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Bray</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Melsted</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Pachter</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1510.07371</idno>
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+	<note type="raw_reference">Schaeffer L, Pimentel H, Bray N, Melsted P, Pachter L. Pseudoalignment for metagenomic read assign- ment. 2015.arXiv preprint arXiv:1510.07371.</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">edgeR: a Bioconductor package for differential expression analysis of digital gene expression data</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">D</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mccarthy</forename><surname>Dj</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">K</forename><surname>Smyth</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btp616</idno>
+		<idno type="PMID">19910308</idno>
+		<ptr target="https://doi.org/10.1093/bioinformatics/btp616" />
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="139" to="140" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Robinson MD, McCarthy DJ and Smyth G.K. edgeR: a Bioconductor package for differential expression analysis of digital gene expression data. Bioinformatics, 2010; 26 1:139-140. https://doi.org/10.1093/ bioinformatics/btp616 PMID: 19910308</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title level="m" type="main">An interactive tool for comparing lists with Venn&apos;s diagrams</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Oliveros</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Venny</surname></persName>
+		</author>
+		<ptr target="http://bioinfogp.cnb.csic.es/tools/venny/index.html" />
+		<imprint>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Oliveros JC. Venny. An interactive tool for comparing lists with Venn&apos;s diagrams. 2007-2015. http:// bioinfogp.cnb.csic.es/tools/venny/index.html.</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">BioVenn-a web application for the comparison and visualization of biological lists using area-proportional Venn diagrams</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Hulsen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>De Vlieg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Alkema</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC genomics</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">488</biblScope>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hulsen T, de Vlieg J, Alkema W. BioVenn-a web application for the comparison and visualization of bio- logical lists using area-proportional Venn diagrams. BMC genomics. 2008; 9 1:488.</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Transcriptional profiling of reproductive development, lipid storage and molting throughout the last juvenile stage of the marine copepod Calanus finmarchicus</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Tarrant</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">F</forename><surname>Baumgartner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">H</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Altin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Nordtug</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename><surname>Olsen</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12983-014-0091-8</idno>
+		<ptr target="https://doi.org/10.1186/s12983-014-0091-8" />
+	</analytic>
+	<monogr>
+		<title level="j">Front Zool</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tarrant AM, Baumgartner MF, Hansen BH, Altin D, Nordtug T and Olsen AJ. Transcriptional profiling of reproductive development, lipid storage and molting throughout the last juvenile stage of the marine copepod Calanus finmarchicus. Front Zool. 2014; 11 1:1. https://doi.org/10.1186/s12983-014-0091-8</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Comprehensive transcriptome study to develop molecular resources of the copepod Calanus sinicus for their potential ecological applications</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Q</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yang</forename><forename type="middle">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename></persName>
+		</author>
+		<idno type="DOI">10.1155/2014/493825</idno>
+		<idno type="PMID">24982883</idno>
+		<ptr target="https://doi.org/10.1155/2014/493825" />
+	</analytic>
+	<monogr>
+		<title level="j">BioMed Res Int</title>
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yang Q, Sun F, Yang Z and Li H. Comprehensive transcriptome study to develop molecular resources of the copepod Calanus sinicus for their potential ecological applications. BioMed Res Int. 2014; 2014 https://doi.org/10.1155/2014/493825 PMID: 24982883</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Transcriptome sequencing and de novo analysis of the copepod Calanus sinicus using 454 GS FLX</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Ning</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Sun</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0063741</idno>
+		<idno type="PMID">23671698</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0063741" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ning J, Wang MX, Li CL and Sun S. Transcriptome sequencing and de novo analysis of the copepod Calanus sinicus using 454 GS FLX. PLoS ONE. 2013; 8 5:e63741. https://doi.org/10.1371/journal. pone.0063741 PMID: 23671698</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Vibrio elicits targeted transcriptional responses from copepod hosts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">A</forename><surname>Almada</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Tarrant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FEMS Microb Ecol</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="92" to="98" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Almada AA, Tarrant AM. Vibrio elicits targeted transcriptional responses from copepod hosts. FEMS Microb Ecol. 2016; 1 92 6.</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">De novo construction of an expanded transcriptome assembly for the western tarnished plant bug</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">E</forename><surname>Tassone</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">M</forename><surname>Geib</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Hall</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Fabrick</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">S</forename><surname>Brent</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename><surname>Hull</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lygus hesperus. GigaScience</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="5" to="6" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tassone EE, Geib SM, Hall B, Fabrick JA, Brent CS, Hull JJ. De novo construction of an expanded tran- scriptome assembly for the western tarnished plant bug, Lygus hesperus. GigaScience. 2016; 28 5:1:6.</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">De novo transcriptome assemblies of four xylem sap-feeding insects</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">E</forename><surname>Tassone</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">C</forename><surname>Cowden</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">J</forename><surname>Castle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">GigaScience</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="6" to="9" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tassone EE, Cowden CC, Castle SJ. De novo transcriptome assemblies of four xylem sap-feeding insects. GigaScience. 2017; 1 6 3:1-4.</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+		<title level="m" type="main">De novo assembly and annotation of the Antarctic copepod (Tigriopus kingsejongensis) transcriptome. Marine genomics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">Y</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">S</forename><surname>Min</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Kim</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.margen.2016.04.009</idno>
+		<idno type="PMID">27157881</idno>
+		<ptr target="https://doi.org/10.1016/j.margen.2016.04.009" />
+		<imprint>
+			<date type="published" when="2016" />
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="37" to="46" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kim HS, Lee BY, Han J, Lee YH, Min GS, Kim S, et al. De novo assembly and annotation of the Antarc- tic copepod (Tigriopus kingsejongensis) transcriptome. Marine genomics. 2016; 28:37-9. https://doi. org/10.1016/j.margen.2016.04.009 PMID: 27157881</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">RNA-seq based whole transcriptome analysis of the cyclopoid copepod Paracyclopina nana focusing on xenobiotics metabolism</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">Y</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">S</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">S</forename><surname>Hwang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">Y</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Han</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comp Biochem Physiol D</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="12" to="19" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lee BY, Kim HS, Choi BS, Hwang DS, Choi AY, Han J. et al. RNA-seq based whole transcriptome anal- ysis of the cyclopoid copepod Paracyclopina nana focusing on xenobiotics metabolism. Comp Biochem Physiol D 2015; 15: 12-19.</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Identification of xenobiotic biodegradation and metabolism-related genes in the copepod Tigriopus japonicus whole transcriptome analysis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">Y</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">J</forename><surname>Won</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">S</forename><surname>Hwang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">G</forename><surname>Park</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.margen.2015.05.011</idno>
+		<idno type="PMID">26024611</idno>
+		<ptr target="https://doi.org/10.1016/j.margen.2015.05.011" />
+	</analytic>
+	<monogr>
+		<title level="j">Marine genomics</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="207" to="215" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kim HS, Lee BY, Won EJ, Han J, Hwang DS, Park HG, et al. Identification of xenobiotic biodegradation and metabolism-related genes in the copepod Tigriopus japonicus whole transcriptome analysis. Marine genomics. 2015; 24:207-8. https://doi.org/10.1016/j.margen.2015.05.011 PMID: 26024611</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Pseudogene-derived lncRNAs: emerging regulators of gene expression</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Milligan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Lipovich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Genet</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Milligan MJ, Lipovich L. Pseudogene-derived lncRNAs: emerging regulators of gene expression. Front Genet. 2014; 5.</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Diversity and dynamics of the Drosophila transcriptome</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">B</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Boley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Eisman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">E</forename><surname>May</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">H</forename><surname>Stoiber</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">O</forename><surname>Duff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brown JB, Boley N, Eisman R, May GE, Stoiber MH, Duff MO, et al. Diversity and dynamics of the Dro- sophila transcriptome. Nature. 2014.</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Alberts</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Morgan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Raff</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Roberts</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Biology of the Cell</title>
+		<imprint>
+			<date type="published" when="2014" />
+			<publisher>Garland Science</publisher>
+		</imprint>
+	</monogr>
+	<note>6th ed</note>
+	<note type="raw_reference">Alberts B, Johnson A, Lewis J, Morgan D, Raff M, Roberts K, et al. Molecular Biology of the Cell. 6th ed. New York, NY: Garland Science; 2014.</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Evolution of crystallins for a role in the vertebrate eye lens</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Slingsby</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">J</forename><surname>Wistow</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">R</forename><surname>Clark</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/pro.2229</idno>
+		<idno type="PMID">23389822</idno>
+		<ptr target="https://doi.org/10.1002/pro.2229" />
+	</analytic>
+	<monogr>
+		<title level="j">Protein Science</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="367" to="380" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Slingsby C, Wistow GJ and Clark AR. Evolution of crystallins for a role in the vertebrate eye lens. Protein Science.2013; 22 4:367-380. https://doi.org/10.1002/pro.2229 PMID: 23389822</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">The cuticular nature of corneal lenses in Drosophila melanogaster</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">L</forename><surname>Stahl</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Charlton-Perkins</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">K</forename><surname>Buschbeck</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">A</forename><surname>Cook</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dev Genes Evol</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="8" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stahl AL, Charlton-Perkins M, Buschbeck EK and Cook TA. The cuticular nature of corneal lenses in Drosophila melanogaster. 2017. Dev Genes Evol. 1-8.</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Vertebrate-like βγ-crystallins in the ocular lenses of a copepod</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">H</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Piatigorsky</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">J</forename><surname>Colley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ward</forename><forename type="middle">R</forename><surname>Horwitz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Comp Physiol A</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="291" to="299" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cohen JH, Piatigorsky J, Ding L, Colley NJ, Ward R and Horwitz J. Vertebrate-like βγ-crystallins in the ocular lenses of a copepod. J Comp Physiol A. 2005; 19:291-8.</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">ERRATUM: Vertebrate-like βγ-crystallins in the ocular lenses of a copepod</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">H</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Piatigorsky</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">J</forename><surname>Colley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Horwitz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Comp Physiol A</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="573" to="577" />
+			<date type="published" when="0193" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cohen JH, Piatigorsky J, Ding L, Colley NJ, Ward R, Horwitz J. ERRATUM: Vertebrate-like βγ-crystal- lins in the ocular lenses of a copepod. J Comp Physiol A. 2007;1; 193 5:573-4.</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Very bright green fluorescent proteins from the Pontellid copepod Pontella mimocerami</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E</forename><surname>Hunt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">P</forename><surname>Scherrer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">D</forename><surname>Ferrari</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">V</forename><surname>Matz</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0011517</idno>
+		<idno type="PMID">20644720</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0011517" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hunt ME, Scherrer MP, Ferrari FD, Matz MV. Very bright green fluorescent proteins from the Pontellid copepod Pontella mimocerami. PLoS ONE. 2010; 5 7:e11517. https://doi.org/10.1371/journal.pone. 0011517 PMID: 20644720</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Transcriptomic responses of the calanoid copepod Calanus finmarchicus to the saxitoxin producing dinoflagellate Alexandrium fundyense</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Roncalli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cieslak</forename><surname>Mc</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">H</forename><surname>Lenz</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/srep25708</idno>
+		<idno type="PMID">27181871</idno>
+		<ptr target="https://doi.org/10.1038/srep25708" />
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">25708</biblScope>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Roncalli V, Cieslak MC and Lenz PH. Transcriptomic responses of the calanoid copepod Calanus fin- marchicus to the saxitoxin producing dinoflagellate Alexandrium fundyense. Sci Rep. 2016; 6:25708. https://doi.org/10.1038/srep25708 PMID: 27181871</note>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<monogr>
+		<title level="m" type="main">Molecular characterization of copepod photoreception</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Porter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Steck</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Roncalli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">H</forename><surname>Lenz</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note>In press</note>
+	<note type="raw_reference">Porter M, Steck M, Roncalli V, Lenz PH. Molecular characterization of copepod photoreception. Biol Bull.2017 In press.</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Evolution of voltage-gated Na+ channels</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">L</forename><surname>Goldin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Biol</title>
+		<imprint>
+			<biblScope unit="volume">205</biblScope>
+			<biblScope unit="page" from="575" to="84" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Goldin AL. Evolution of voltage-gated Na+ channels. J Exp Biol. 2002; 205 5:575-84.</note>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Circadian organization of behavior and physiology in Drosophila</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Allada</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chung</forename><surname>By</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev-physiol-021909-135815</idno>
+		<idno type="PMID">20148690</idno>
+		<ptr target="https://doi.org/10.1146/annurev-physiol-021909-135815" />
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Physiol</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="605" to="629" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Allada R and Chung BY. Circadian organization of behavior and physiology in Drosophila. Annu Rev Physiol. 2010; 72:605-24. https://doi.org/10.1146/annurev-physiol-021909-135815 PMID: 20148690</note>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Molecular genetic analysis of circadian timekeeping in Drosophila</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">E</forename><surname>Hardin</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/B978-0-12-387690-4.00005-2</idno>
+		<idno type="PMID">21924977</idno>
+		<ptr target="https://doi.org/10.1016/B978-0-12-387690-4.00005-2" />
+	</analytic>
+	<monogr>
+		<title level="j">Adv Genet</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="141" to="73" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hardin PE. Molecular genetic analysis of circadian timekeeping in Drosophila. Adv Genet. 2011; 74:141-73. https://doi.org/10.1016/B978-0-12-387690-4.00005-2 PMID: 21924977</note>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">The ancestral circadian clock of monarch butterflies: role in time-compensated sun compass orientation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">M</forename><surname>Reppert</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/sqb.2007.72.056</idno>
+		<idno type="PMID">18419268</idno>
+		<ptr target="https://doi.org/10.1101/sqb.2007.72.056" />
+	</analytic>
+	<monogr>
+		<title level="j">Cold Spring Harbor Symposia on quantitative biology</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="113" to="119" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Reppert SM. The ancestral circadian clock of monarch butterflies: role in time-compensated sun com- pass orientation. In:Cold Spring Harbor Symposia on quantitative biology. 2007; 72:113-6. https://doi. org/10.1101/sqb.2007.72.056 PMID: 18419268</note>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Insect cryptochromes: gene duplication and loss define diverse ways to construct insect circadian clocks</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Q</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Metterville</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">D</forename><surname>Briscoe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">M</forename><surname>Reppert</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/molbev/msm011</idno>
+		<idno type="PMID">17244599</idno>
+		<ptr target="https://doi.org/10.1093/molbev/msm011" />
+	</analytic>
+	<monogr>
+		<title level="j">Mol Biol Evol</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="948" to="55" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yuan Q, Metterville D, Briscoe AD and Reppert SM. Insect cryptochromes: gene duplication and loss define diverse ways to construct insect circadian clocks. Mol Biol Evol. 2007; 24 4:948-55. https://doi. org/10.1093/molbev/msm011 PMID: 17244599</note>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Identification, characterization, and diel pattern of expression of canonical clock genes in Nephrops norvegicus (Crustacea: Decapoda) eyestalk</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Sbragaglia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Lamanna</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Mat</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Rotllant</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Joly</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Ketmaier</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0141893</idno>
+		<idno type="PMID">26524198</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0141893" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">141893</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sbragaglia V, Lamanna F, Mat AM, Rotllant G, Joly S, Ketmaier V, et al. Identification, characterization, and diel pattern of expression of canonical clock genes in Nephrops norvegicus (Crustacea: Decapoda) eyestalk. PLoS ONE. 2015; 10:e0141893. https://doi.org/10.1371/journal.pone.0141893 PMID: 26524198</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

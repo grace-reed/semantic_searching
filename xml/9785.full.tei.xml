@@ -1,0 +1,1011 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/grace/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A genetically encoded fluorescent amino acid</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2021-08-23">August 23, 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><surname>Summerer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">The Scripps Research Institute</orgName>
+								<address>
+									<addrLine>10550 North Torrey Pines Road, La Jolla</addrLine>
+									<postCode>SR202, 92037</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shuo</forename><surname>Chen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">The Scripps Research Institute</orgName>
+								<address>
+									<addrLine>10550 North Torrey Pines Road, La Jolla</addrLine>
+									<postCode>SR202, 92037</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ning</forename><surname>Wu</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Division of Signal Transduction</orgName>
+								<orgName type="institution" key="instit1">Beth Israel Deaconess Medical Center</orgName>
+								<orgName type="institution" key="instit2">Harvard Medical School</orgName>
+								<address>
+									<addrLine>77 Avenue Louis Pasteur</addrLine>
+									<postCode>02115</postCode>
+									<settlement>Boston</settlement>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alexander</forename><surname>Deiters</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">North Carolina State University</orgName>
+								<address>
+									<addrLine>Campus</addrLine>
+									<postBox>Box 8240</postBox>
+									<postCode>27695</postCode>
+									<settlement>Raleigh</settlement>
+									<region>NC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jason</forename><forename type="middle">W</forename><surname>Chin</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Contributed by Peter G. Schultz</orgName>
+								<orgName type="laboratory">Division of Protein and Nucleic Acid Chemistry, Medical Research Council Laboratory of Molecular Biology</orgName>
+								<address>
+									<addrLine>Hills Road, May 12</addrLine>
+									<postCode>CB2 2QH, 2006</postCode>
+									<settlement>Cambridge</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><forename type="middle">G</forename><surname>Schultz</surname></persName>
+							<email>schultz@scripps.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">The Scripps Research Institute</orgName>
+								<address>
+									<addrLine>10550 North Torrey Pines Road, La Jolla</addrLine>
+									<postCode>SR202, 92037</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A genetically encoded fluorescent amino acid</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2021-08-23">August 23, 2021</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-09-14T02:38+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>GdmCl, guanidinium chloride</term>
+					<term>hSOD, human copper͞zinc superoxide dismutase</term>
+					<term>LeuRS, leucyl-tRNA synthetase</term>
+					<term>NTA, nitrilotriacetic acid</term>
+					<term>pol, RNA polymerase</term>
+					<term>SD, synthetic dropout</term>
+					<term>T252A, Thr-252 3 Ala</term>
+					<term>tRNA CUA Leu5</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>The ability to introduce fluorophores selectively into proteins provides a powerful tool to study protein structure, dynamics, localization, and biomolecular interactions both in vitro and in vivo. Here, we report a strategy for the selective and efficient biosynthetic incorporation of a low-molecular-weight fluorophore into proteins at defined sites. The fluorescent amino acid 2-amino-3-(5-(dimethylamino)naphthalene-1-sulfonamide)propanoic acid (dansylalanine) was genetically encoded in Saccharomyces cerevisiae by using an amber nonsense codon and corresponding orthogonal tRNA͞aminoacyl-tRNA synthetase pair. This environmentally sensitive fluorophore was selectively introduced into human superoxide dismutase and used to monitor unfolding of the protein in the presence of guanidinium chloride. The strategy described here should be applicable to a number of different fluorophores in both prokaryotic and eukaryotic organisms, and it should facilitate both biochemical and cellular studies of protein structure and function. molecular evolution ͉ fluorescent probes ͉ genetic code expansion ͉ protein design ͉ unnatural amino acids Conflict of interest statement: No conflicts declared.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>F luorescently labeled proteins are useful in a large number of bioanalytical applications, including in vivo imaging, highthroughput screening, diagnostics, proteomics, and singlebiomolecule spectroscopy <ref type="bibr" target="#b0">(1)</ref><ref type="bibr" target="#b1">(2)</ref><ref type="bibr" target="#b2">(3)</ref><ref type="bibr" target="#b3">(4)</ref><ref type="bibr" target="#b4">(5)</ref>. Such applications have been greatly facilitated by the ability to label the protein of interest genetically with fluorescent proteins from jellyfish or coral <ref type="bibr" target="#b5">(6)</ref><ref type="bibr" target="#b6">(7)</ref><ref type="bibr" target="#b7">(8)</ref>. This method overcomes many of the difficulties associated with chemical modification, including yield, selectivity, and the need to modify proteins in vitro <ref type="bibr" target="#b8">(9)</ref>. However, the size of naturally occurring fluorescent proteins (Ͼ20 kDa) limits the resolution of distance measurements, and in many cases it represents a significant structural perturbation to the protein under study. Moreover, the fluorophore typically can be introduced only at the C or N terminus of a protein, and it is relatively insensitive to the local environment.</p><p>The use of small synthetic dyes allows investigation of local changes in distance or polarity with high precision and without significant structural perturbation of the protein. Nevertheless, most reactive dyes must be introduced into the protein in vitro, they exhibit relatively low chemoselectivity, and they are often limited to accessible positions at the protein surface <ref type="bibr" target="#b8">(9)</ref>. Moreover, mutagenesis of the target protein is often required to generate unique sites for derivatization. Recently, strategies have been developed to label proteins with small fluorescent dyes in vivo. One of these methods makes use of cell-permeant, biarsenic dyes that bind to their target protein through two arsenic-dithiol interactions <ref type="bibr" target="#b9">(10)</ref>. Another approach exploits a biotin ligase that recognizes a hydrazide-reactive ketone substrate that can be attached to a 15-mer acceptor peptide and subsequently linked to a hydrazide-derivatized fluorophore <ref type="bibr" target="#b10">(11)</ref>. It has also been shown that a highly promiscuous O 6alkylguanine-DNA-alkyltransferase, fused to a protein of interest, can be labeled by fluorescent O 6 -benzylguanosine derivatives <ref type="bibr" target="#b11">(12)</ref>. However, all of these approaches rely on the introduction of specific dye-acceptor motifs, peptides or proteins that restrict the sites of modification and can introduce undesired structural perturbations into the protein to be analyzed. Finally, in vitro mutagenesis with suppressor tRNAs chemically modified with fluorescent amino acids can be used to label proteins with fluorescent probes site-specifically, but this method is largely limited to in vitro systems affording small quantities of proteins <ref type="bibr" target="#b12">(13)</ref><ref type="bibr" target="#b13">(14)</ref><ref type="bibr" target="#b14">(15)</ref><ref type="bibr" target="#b15">(16)</ref>.</p><p>Many of the challenges involved in the generation of fluorescently labeled proteins would be overcome if one could genetically encode fluorescent amino acids directly in prokaryotic or eukaryotic organisms. To this end, we report the efficient and selective biosynthetic introduction of a dansyl-containing amino acid into proteins in Saccharomyces cerevisiae in response to the amber nonsense codon, TAG.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Selection of an Aminoacyl-tRNA Synthetase with Activity Toward</head><p>Dansylalanine. Dansylalanine (1, <ref type="figure" target="#fig_2">Fig. 1A</ref>) was initially chosen by virtue of its small size; relatively large Stokes shift; and the high degree of sensitivity of its emission wavelength and quantum yield to environmental effects such as ligand binding, complex formation, conformational changes, or protein unfolding <ref type="bibr" target="#b13">(14,</ref><ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b17">18)</ref>. To encode this amino acid in yeast genetically, a previously reported Escherichia coli amber suppressor tRNA͞leucyl-tRNA synthetase pair (tRNA CUA Leu5 ͞LeuRS) was used. This pair is orthogonal in yeast, i.e., tRNA CUA Leu5 does not crossreact with any of the endogenous aminoacyl-tRNA synthetases, and LeuRS does not accept any endogenous tRNAs as substrates. This pair has been used to incorporate a number of structurally diverse amino acids into proteins with high fidelities and good efficiencies in yeast <ref type="bibr" target="#b18">(19)</ref>.</p><p>To alter the amino acid specificity of LeuRS, a library of Ϸ10 7 mutants was generated by randomizing residues Met-40, Leu-41, Tyr-499, Tyr-527, and His-537 in the leucine-binding site. These amino acids form a hydrophobic pocket around one ␥-methyl group of leucine in the x-ray crystal structure of the homologous Thermus thermophilus LeuRS <ref type="figure" target="#fig_2">(Fig. 1B)</ref>  <ref type="bibr" target="#b19">(20)</ref>. Because this binding pocket largely consists of side-chain atoms, mutations might be expected to accommodate novel amino acid substrates without significant perturbation of the LeuRS polypeptide backbone. To evolve a LeuRS specific for 1, a selection scheme was used in which the codons for Thr-44 and Arg-110 of the gene for the transcriptional activator GAL4 were both converted to amber nonsense codons (TAG) <ref type="bibr" target="#b20">(21)</ref>. Suppression of these amber codons in the MaV203:pGADGAL4(2TAG) yeast strain leads to production of functional full-length GAL4, which drives expression of genomic HIS3 and URA3 reporter genes. These genes complement histidine and uracil auxotrophy, allowing clones harboring active synthetase mutants that aminoacylate endogenous amino acids or 1 to be positively selected on synthetic dropout (SD) medium (containing dextrose) supplemented with 1 mM 1. Negative selection of synthetases that accept endogenous amino acids is carried out by growth on SD medium lacking 1 but containing 0.1% 5-fluoroorotic acid, which is converted into a toxic product by the URA3 gene product <ref type="bibr" target="#b20">(21,</ref><ref type="bibr" target="#b21">22)</ref>.</p><p>After three rounds of selection (positive, negative, positive), the growth rates of 96 clones were assayed individually on selective media in the presence or absence of 1. Three different clones were isolated that are dependent on 1 for growth. The ability of these clones to incorporate into proteins selectively was tested by suppression of an amber mutant (Trp-33 TAG) of His 6 -tagged human superoxide dismutase (hSOD-33TAG-His 6 ), and subsequent SDS͞PAGE analysis with either GelCode Blue (Pierce) staining or fluorescence imaging. LeuRS mutant B8 in which all five active site residues were mutated (M40A, L41N, Y499I, Y527G, and H537T) afforded the most protein in the presence of 1; however, significant amounts of hSOD-33TAG-His 6 were also produced in the absence of 1. Analysis of hSOD-33TAG-His 6 expressed in the presence of by MALDI-TOF MS indicated that leucine or isoleucine was also being incorporated at position 33.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Redesign of the Editing Domain and Enhancement of tRNA Expression.</head><p>E. coli LeuRS has an editing site to enhance selectivity toward structurally similar amino acids, e.g., isoleucine, valine, and methionine. Recent structural and biochemical studies have shown that hydrolysis of a cognate activated or charged leucine at this site is prevented by steric repulsion between one or more active-site amino acids and a ␥-methyl group of leucine. Mutation of one such residue, Thr-252, to alanine (T252A) results in efficient hydrolysis of aminoacylated tRNA Leu <ref type="bibr" target="#b22">(23,</ref><ref type="bibr" target="#b23">24)</ref>. Consequently, to enhance fidelity of LeuRSB8, the T252A mutation was introduced (LeuRSB8T252A). Analysis of the suppression efficiency with hSOD-33TAG-His revealed relatively low yields of protein in the presence of [0.29 mg͞liter hSOD-33TAG-His 6 harboring 1 after nickel-nitrilotriacetic acid (Ni-NTA) purification]. However, the T252A mutation resulted in a marked reduction of hSOD expression in the absence of 1. Previous studies of the suppression efficiency of an amber suppressor E. coli tRNA Tyr ͞TyrRS pair in yeast indicated that suppressor tRNA levels can limit overall protein yields (S.C., unpublished results). To increase tRNA expression, three copies of tRNA CUA Leu5 with flanking regions from yeast suppressor tRNA SUP4, which are known to contain an RNA polymerase (pol) III promoter, were inserted into the plasmid pLeuRSB8T252A <ref type="bibr" target="#b24">(25,</ref><ref type="bibr" target="#b25">26)</ref>. These multiple tRNA genes were placed under the control of an additional phosphoglycerate kinase 1 (PGK1) promoter, resulting in an Ϸ4-fold enhancement (1.11 mg͞liter) of expression of hSOD harboring 1 at position 33 ( <ref type="figure" target="#fig_0">Fig. 2A)</ref>. A high degree of   . No peaks corresponding to incorporation of endogenous amino acids were observed. Moreover, no protein was observed in the SDS͞polyacrylamide gel in the absence of 1 <ref type="figure" target="#fig_0">(Fig. 2 A)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Use of Genetically Encoded Dansylalanine as Probe of Protein Unfold-</head><p>ing. To demonstrate the utility of dansylamino acid in studies of protein structure and function, it was used as an environmentally sensitive reporter of protein unfolding <ref type="bibr" target="#b12">(13,</ref><ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b17">18)</ref>. hSOD has a Greek-key ␤-barrel fold with an external loop and short helical regions at one barrel face near the active site, which contains the copper and zinc ions <ref type="bibr" target="#b26">(27)</ref>. Loop IV of this region is additionally connected by a disulfide bond (Cys-57 and Cys-146) to ␤-strand 8 of the barrel <ref type="figure" target="#fig_1">(Fig. 3)</ref>. Monomeric hSOD has been shown to undergo reversible and complete unfolding in the concentration range 0-3.5 M guanidinium chloride (GdmCl) <ref type="bibr" target="#b27">(28)</ref>. To analyze local changes in the barrel core and outer rim regions during unfolding, 1 was incorporated at two different positions, Gln-16 and Trp-33 ( <ref type="figure" target="#fig_1">Fig. 3)</ref>. Position 33 lies on the barrel at the center of ␤-strand 3, the first N-terminal strand of Greek-key 1 <ref type="bibr" target="#b26">(27)</ref>; surface residue Gln-16 forms the N-terminal tip of ␤-strand 2 adjacent to Greek-key ␤-strand 3. When 1 was incorporated at positions 16 and 33 in hSOD, the fluorescence intensity increased slightly at both positions (11% and 3% for positions 16 and 33, respectively). The max of 1 also blueshifted compared with the free amino acid (Ϸ14 nm and 27 nm for positions 16 and 33, respectively). These spectral changes likely reflect partial shielding by surface side chains or dielectric differences between bulk water and the protein hydration shell. GdmCl denaturation only weakly affected the emission intensity and wavelength of the Gln-16 3 1 mutant ( <ref type="figure" target="#fig_3">Fig. 4 A, C, and D)</ref>. However, increasing the GdmCl concentration from 0 to 5 M caused a significant redshift in the max (528-544 nm) and decrease in the fluorescence intensity of the Trp-33 1 mutant <ref type="figure" target="#fig_3">(Fig 4 B-D)</ref>. The most striking effects were observed at low GdmCl concentrations (0-1.5 M) followed by moderate changes from 1.5 M to 3.5 M GdmCl and a relatively small change between 3.5 M and 5 M GdmCl <ref type="figure" target="#fig_3">(Fig. 4)</ref>. These results suggest that relatively large environmental changes occur at position 33 during protein unfolding. Previous NMR studies have revealed transitions from the native state to intermediate states of similar structure at 0-0.5 M GdmCl and a subsequent complete transition to an unfolded state at 3.5 M. At 2 M GdmCl, the intermediate states and the unfolded state are present in a 1:1 ratio, whereas only the unfolded state is present at Ͼ3.5 M GdmCl. Changes in 1 H- <ref type="bibr" target="#b14">15</ref> N heteronuclear single-quantum correlation NMR spectra indicate that the loop regions and ␤-strand 3 are the first to be affected at low concentrations (0.5 M), whereas other ␤-strands are affected only at higher concentrations <ref type="bibr" target="#b27">(28)</ref>. The observed spectral response of 1 at position 33 corresponds well with these findings. In contrast, the fluorescence of mutant protein with 1 at position 16 did not show a large response to unfolding, indicating low changes in local dielectric during structural transitions near this side chain. Removal of copper and zinc ions or reduction of the disulfide bridge resulted in similar unfolding behavior at sites 16 and 33. These studies demonstrate that unnatural amino acid 1 provides a useful probe of structural transitions at defined sites in proteins.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>In summary, we have shown that a fluorescent amino acid can be incorporated into proteins in yeast at genetically specified sites in good yield and with high fidelity in response to the nonsense codon TAG. This amino acid should be useful for a large range of in vitro studies of protein structure, function, and bimolecular interactions because of its relatively small size and sensitivity to local environment. For example, it should be possible to use 1 to report directly ligand-antibody-binding interactions, protein conformational changes involved in catalysis or regulation, and as a reporter of protein posttranslational modifications. In addition, it may be possible to extend this approach to amino acids with increased fluorescent quantum yields or longer emission wavelengths, as well as apply this methodology to imaging directly in mammalian cells.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Synthesis of Dansylalanine (1)</head><p>. Dansyl chloride (2.4 g, 8.9 mmol; Sigma-Aldrich) and Et 3 N (2.6 ml; Fluka) were dissolved in CH 2 Cl 2 (50 ml; Fisher). The solution was cooled to 0°C, Boc-Dap-OH (2.0 g, 9.8 mmol; Bachem) was added in one portion to the stirred solution, and the mixture was allowed to warm to room temperature. After stirring overnight, the volatiles were removed, and the residue was dissolved in CH 2 Cl 2 (30 ml). Trifluoroacetic acid (15 ml; Aldrich) was added, and the reaction mixture was stirred at room temperature for 4 h. The solvent was removed in vacuo, and the residue was dissolved in H 2 O (50 ml). The solution was made basic with solid NaOH and then acidified with concentrated HCl until precipitation occurred. The precipitate was collected, washed with H 2 O and EtOH, and dried in vacuo, yielding dansylalanine (1.75 g, 58% yield) as a slightly yellowish solid. <ref type="bibr" target="#b0">1</ref>  Selection was carried out in the presence of 1 mM as described in ref. <ref type="bibr" target="#b18">19</ref>. Three different clones whose growth rate depended on the presence of 1 emerged after three rounds of selection (B8: M40A, L41N, Y499I, Y527G, and H537T; C6: M40G, L41N, Y499I, Y527G, and H537G; and D12: M40G, L41L, Y499V, Y527G, and H537E. B8 additionally had an S497C mutation, presumably introduced by PCR during library design. The T252A mutation was introduced by using the QuikChange method (Stratagene) with primers LRST252AFwd (5Ј-ACA CTA CCC GCC CGG ACG CGT TTA TGG GTT GTA CCT A-3Ј) and LRST252ARev (5Ј-TAG GTA CAA CCC ATA AAC GCG TCC GGG CGG GTA GTG T-3Ј).</p><p>Vector Construction. Vector pLeuRSB8T252AЈ was constructed as follows. E. coli tRNA CUA Leu5 and its flanking sequences were assembled by overlap PCR with the following primers (1Fwd, 5Ј-ATC CCG ACC GGT AAG CTG CTA GCC TCT TTT TC-3Ј; 1Rev, 5Ј-GAA GAA AGA GTA TAC TAC ATA ACA CAT ATA CAA TTG AAA AAG AGG CTA GC-3Ј; 2Fwd, 5Ј-GTA TAC TCT TTC TTC AAC AAT TAA ATA GCC CGG ATG GTG GAA TCG GTA GA-3Ј; 2Rev, 5Ј-CAG CGC GAA CGC CGA GGG ATT TAG AAT CCC TTG TGT CTA CCG ATT CCA CC-3Ј; 3Fwd, 5Ј-TCG GCG TTC GCG CTG TGC GGG TTC AAG TCC CGC TCC GGG TAT TTT TTT GT-3Ј; 3Rev, 5Ј-CGG CTC TAG ACA TAA AAA ACA AAA AAA TAC CCG-3Ј). The 5Ј and 3Ј sequences are identical to the flanking sequences of yeast suppressor tRNA gene SUP4, which is known to contain a pol III promoter <ref type="bibr" target="#b24">(25,</ref><ref type="bibr" target="#b25">26)</ref>. This combined tRNA CUA Leu5 -SUP4 sequence was digested with AgeI and XbaI and repetitively inserted into the AgeI͞NheI sites of vector pLeuRSB8T252A to yield three copies of this gene in one direction in the same vector. Subsequently, a PCR DNA fragment including the 650-bp upstream sequence of yeast PGK1 ORF was inserted into the AgeI͞NheI site to introduce an additional pol II promoter for transcription of the tRNA region. Vectors pC1SOD-33TAG-His 6 and pC1SOD-16TAG-His 6 were constructed as follows. S. cerevisiae strain 208708 was obtained from American Type Culture Collection. This strain produces Cu͞Zn SOD from a 2-m leu2-d plasmid. This plasmid was extracted, and a BamHI restriction fragment of Ϸ2 kb containing the SOD gene was gel purified and inserted into the BamHI site of pBKJYRS; the larger BamHI fragment was recircularized to produce plasmid pC1. A gene encoding His -tagged hSOD with or without an amber codon at position 33 was used to replace the NcoI͞SalI fragment of SOD in pBKJYRS. The amber mutation 16TAG was introduced by using the QuikChange method with primers Q16TAGF (5Ј-GAA GGG TGA CGG CCC AGT TTA GGG TAT TAT TAA CTT CGA GCA GAA G-3Ј) and Q16TAGR (5Ј-CTT CTG CTC GAA GTT AAT AAT ACC CTA AAC TGG GCC GTC ACC CTT C-3Ј). The resulting pBKSOD plasmids were digested with BamHI and inserted into pC1 to give pC1SOD-33TAG-His 6 and pC1SOD-16TAG-His 6 . These plasmids were transformed into the MJY125-derived strain SCY4 (MATa, ade2-101, ura3-1, leu2-3,112, trp1, his3-11, ⌬CYB2::kan [cir 0 ]) by a lithium acetate method and plated on SD medium (Ϫleucine). Plasmids pLeuRSB8, pLeuRSB8T252A, and pLeuRSB8T252AЈ were transformed into the obtained strains by using a lithium acetate method and plated on SD medium (Ϫleucine, Ϫtryptophan).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Expression, Purification, and Characterization of hSOD-His6 Mutants.</head><p>Expression was performed with strain SCY4 transformed with the hSOD expression plasmid pC1SOD-33TAG-His or pC1SOD-16TAG-His 6 and the respective tRNA CUA Leu5 ͞LeuRSencoding plasmid (pLeuRS derivatives). Cultures were grown to saturation at 30°C in SD medium lacking leucine and tryptophan and diluted 50-fold into SD medium containing dextrose, lacking leucine and tryptophan, and containing 5 mM 1. This culture was incubated for 16 h at 30°C, and cells were harvested. Cells were lysed with Y-PER lysis reagent (Pierce) containing 1ϫ complete protease inhibitor mix (ϪEDTA; Roche) and centrifuged, and buffer was exchanged with native purification buffer A [50 mM Tris⅐HCl, pH 7.8͞100 mM NaCl͞5% (vol/vol) glycerol] by repeated ultrafiltration (Amicon; 10-kDa molecular mass cutoff, Millipore). For 1-liter culture volumes, protein was bound to 500 l of Ni-NTA, washed three times with 1 ml of buffer A containing 25 mM imidazole, eluted three times with 1 ml of buffer A containing 500 mM imidazole, and dialyzed against water by using Slide-A-Lyzer cassettes (Pierce) with 5-kDa cutoff. MALDI-TOF MS measurements were performed by using a Voyager STR 2 spectrometer (Applied Biosystems). Yields were routinely quantified by using a BCA assay (Pierce).</p><p>Unfolding Experiments. Measurements were performed on a Fluoromax-2 (Instruments SA, Edison, NJ) equipped with a 150-W continuous xenon lamp at 22°C with excitation at 340 nm and a bandpass of 5 nm for both excitation and emission. Fluorescence of hSOD-His 6 with 1 at position 16 or 33 at a concentration of M was measured in 50 mM sodium phosphate (pH 7.2)͞100 mM NaCl͞6 M ZnCl 2 ͞6 M CuSO 4 ͞GdmCl concentrations of 0, 0.5, 1.5, 2.0, 3.5, and 5.0 M. Samples were incubated for 1 h at 22°C after the addition of GdmCl before measurements. Demetallated protein was analyzed after the addition of 2.5 mM EDTA; reduced and demetallated protein was analyzed after the addition of 1 mM DTT and 2.5 mM EDTA. Emission was recorded in steps of 1 nm in the range of 500-600 nm, and the results are uncorrected. Blank measurements with buffer at the respective GdmCl concentrations with or without EDTA and͞or DTT were subtracted from protein measurements to correct for nonspecific background fluorescence.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 2 .</head><label>2</label><figDesc>Analysis of incorporation efficiency and fidelity of 1 assayed with hSOD-33TAG-His 6. (A) Expression of hSOD-33TAG-His6 in the presence (ϩ) and absence (Ϫ) of 5 mM 1 with the orthogonal tRNA CUA Leu5 and LeuRSB8T252A mutant. Protein was detected after Ni-NTA affinity purification and SDS͞PAGE by using GelCode Blue staining. Left two lanes, expression with tRNA CUA Leu5 ͞ LeuRSB8T252A from the vector pLeuRSB8T252A. Right two lanes, expression with tRNA CUA Leu5 ͞LeuRSB8T252A from the modified vector pLeuRSB8T252AЈ harboring three copies of tRNA CUA Leu5 with flanking regions of yeast suppressor tRNA SUP4 under control of the PGK1 promoter. (B) MALDI-TOF MS analysis of Ni-NTA-purified hSOD-33TAG-His 6 expressed in the presence of 1 and the orthogonal tRNA CUA Leu5 and LeuRSB8T252A. m͞z ϭ mass to charge ratio;(MϩH) ϩ ϭ protonated molecular ion. The peaks with m͞z ϭ 16,575 and m͞z ϭ 16,718 do not correspond to hSOD-33TAG-His 6 with an endogenous amino acid incorporated at position 33.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 3 .</head><label>3</label><figDesc>Structure of hSOD (Protein Data Bank ID code 1PU0). Protein is colored in green, and Greek-key 1 is shown in red. Amino acids Gln-16 and Trp-33 of ␤-strands 2 and 3 and the disulfide bridge between Cys-57 and Cys-146 are highlighted. Copper and zinc ions at the active site are shown as spheres and are colored in orange and gray, respectively.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 1 .</head><label>1</label><figDesc>Structures of fluorescent amino acid and complex of aminoacyl-tRNA synthetase and natural amino acid used for library design. (A) Structure of dansylalanine (1). (B) Structure of Thermus thermophilus leucyl-tRNA synthetase (LeuRS) active site with the bound inhibitor leucyl-adenylate sulfamoyl analogue (Protein Data Bank ID code 1H3N). Side chains corresponding to the randomized region of E. coli LeuRS are shown as sticks. Protein helices are colored in red, ␤-strands in yellow, and loops in green. fidelity for incorporation of 1 was confirmed by MALDI-TOF MS {calculated mass, m͞z, 16,802; observed mass, 16,802 ([MϩH] ϩ ); Fig. 2B}</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc>Fluorescence spectra of different unfolding states of hSOD containing 1 at position 16 or 33. (A) Fluorescence spectra of hSOD with at position 16 in the presence of different concentrations of GdmCl (■, 0 M; ᮀ, 0.5 M; OE, 1.5 M; ‚, 2.0 M; F, 3.5 M; E, 5.0 M). Samples were measured in 50 mM sodium phosphate (pH 7.2) and 100 mM NaCl containing 3 M hSOD and 2 eq of ZnCl2 and CuSO4, respectively. Spectra were recorded in 1-nm steps at 22°C by using excitation at 340 nm and a bandpass of 5 nm for both excitation and emission. (B) Fluorescence spectra of hSOD with at position 33 conducted under conditions identical to those in A. (C) Fluorescence intensity of 1 at positions 16 and 33 of hSOD at unfolding states of the protein present at different GdmCl concentrations. The fluorescence intensity of spectra shown in A (᭜) and B (■) at the wavelength where maximal fluorescence is observed (max) is plotted against the GdmCl concentration. (D) Wavelength of maximal fluorescence intensity (max) of 1 at positions 16 and 33 of hSOD at unfolding states of the protein present at different GdmCl concentrations. max of spectra shown in A (᭜) and B (■) is plotted against GdmCl concentration. AU, arbitrary units.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head></head><label></label><figDesc>H NMR (400 MHz, DMSO): ␦ H (ppm) ϭ 2.81 (6H, s, CH 3 ), 3.0 (1H, dd, J ϭ 13.2, 3 J ϭ 8.4, CH 2 a), 3.11 (1H, dd, 2 J ϭ 13.2, 3 J ϭ 5.2, CH 2 b), 3.31 (1H, dd, 3 J ϭ 8.4, 3 J ϭ 5.2, CH), 7.21 (1H, d, J ϭ 7.2, Ar), 7.53 (1H, ''t,'' J ϭ 7.6, Ar), 7.61 (1H, dd, 3 J ϭ 8.4, 3 J ϭ 7.2, Ar), 8.12 (1H, dd, J ϭ 7.2, 4 J ϭ 1.2, Ar), 8.25 (1H, d, J ϭ 8.8, Ar), 8.46 (1H, dd, J ϭ 7.6, Ar). 13 C NMR (100 MHz, DMSO): ␦ C (ppm) ϭ 43.6 (CH 2 ), 45.0 (CH 3 ), 53.5 (CH), 115.2, 118.9, 123.5, 128.0, 128.5, 128.9, 129.0, 129.6, 135.0, 151.3 (Ar), 168.3 (COOH). Electrospray ionization MS: m͞z ϭ 338.2 [MϩH] ϩ , 675.1 [2MϩH] ϩ . Evolution of Aminoacyl-tRNA Synthetases for Incorporation of Dansylalanine.</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">͉ www.pnas.org͞cgi͞doi͞10.1073͞pnas.0603965103Summerer et al.Downloaded by guest on August 23, 2021</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">PNAS ͉ June 27, 2006 ͉ vol. 103 ͉ no. 26 ͉ 9787 BIOCHEMISTRY Downloaded by guest on August 23, 2021</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="9788">͉ www.pnas.org͞cgi͞doi͞10.1073͞pnas.0603965103 Summerer et al. Downloaded by guest on August 23, 2021</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">PNAS ͉ June 27, 2006 ͉ vol. 103 ͉ no. 26 ͉ 9789 BIOCHEMISTRY Downloaded by guest on August 23, 2021</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We thank Makkuni Jayaram and Soundarapandian Velmurugan (University of Texas, Austin) for strain MJY125. </p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">E</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">Y</forename><surname>Ting</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">Y</forename><surname>Tsien</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Mol. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="906" to="918" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang, J., Campbell, R. E., Ting, A. Y. &amp; Tsien, R. Y. (2002) Nat. Rev. Mol. Cell Biol. 3, 906-918.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">Y</forename><surname>Ting</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">H</forename><surname>Kain</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">L</forename><surname>Klemke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">Y</forename><surname>Tsien</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="15003" to="15008" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ting, A. Y., Kain, K. H., Klemke, R. L. &amp; Tsien, R. Y. (2001) Proc. Natl. Acad. Sci. USA 98, 15003-15008.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Gaietta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">J</forename><surname>Deerinck</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Bouwer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Tour</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">W</forename><surname>Laird</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">E</forename><surname>Sosinsky</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">Y</forename><surname>Tsien</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">H</forename><surname>Ellisman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">296</biblScope>
+			<biblScope unit="page" from="503" to="507" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gaietta, G., Deerinck, T. J., Adams, S. R., Bouwer, J., Tour, O., Laird, D. W., Sosinsky, G. E., Tsien, R. Y. &amp; Ellisman, M. H. (2002) Science 296, 503-507.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Sako</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Yanagida</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Mol. Cell Biol</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="5" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note>Suppl.</note>
+	<note type="raw_reference">Sako, Y. &amp; Yanagida, T. (2003) Nat. Rev. Mol. Cell Biol., Suppl., SS1-SS5.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Macbeath</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">L</forename><surname>Schreiber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">289</biblScope>
+			<biblScope unit="page" from="1760" to="1763" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">MacBeath, G. &amp; Schreiber, S. L. (2000) Science 289, 1760-1763.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">V</forename><surname>Matz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">F</forename><surname>Fradkov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">A</forename><surname>Labas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">P</forename><surname>Savitsky</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">G</forename><surname>Zaraisky</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">L</forename><surname>Markelov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Lukyanov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="969" to="973" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Matz, M. V., Fradkov, A. F., Labas, Y. A., Savitsky, A. P., Zaraisky, A. G., Markelov, M. L. &amp; Lukyanov, S. A. (1999) Nat. Biotechnol. 17, 969-973.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">D</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">K</forename><surname>Kerppola</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="539" to="545" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hu, C. D. &amp; Kerppola, T. K. (2003) Nat. Biotechnol. 21, 539-545.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">Y</forename><surname>Tsien</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="509" to="544" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tsien, R. Y. (1998) Annu. Rev. Biochem. 67, 509-544.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Miyawaki</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Sawano</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Kogure</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Cell Biol</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note>Suppl.</note>
+	<note type="raw_reference">Miyawaki, A., Sawano, A. &amp; Kogure, T. (2003) Nat. Cell Biol., Suppl., S1-S7.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">A</forename><surname>Griffin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">Y</forename><surname>Tsien</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">281</biblScope>
+			<biblScope unit="page" from="269" to="272" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Griffin, B. A., Adams, S. R. &amp; Tsien, R. Y. (1998) Science 281, 269-272.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Howarth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">Y</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">Y</forename><surname>Ting</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="99" to="104" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen, I., Howarth, M., Lin, W. Y. &amp; Ting, A. Y. (2005) Nat. Methods 2, 99-104.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Keppler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Gendreizig</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Gronemeyer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Pick</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Vogel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Johnsson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="86" to="89" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Keppler, A., Gendreizig, S., Gronemeyer, T., Pick, H., Vogel, H. &amp; Johnsson, K. (2003) Nat. Biotechnol. 21, 86-89.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Hohsaka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Muranaka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Komiyama</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Matsui</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Takaura</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Abe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Murakami</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Sisido</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FEBS Lett</title>
+		<imprint>
+			<biblScope unit="volume">560</biblScope>
+			<biblScope unit="page" from="173" to="177" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hohsaka, T., Muranaka, N., Komiyama, C., Matsui, K., Takaura, S., Abe, R., Murakami, H. &amp; Sisido, M. (2004) FEBS Lett. 560, 173-177.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Murakami</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Hohsaka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Ashizuka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Hashimoto</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Sisido</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomacromolecules</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="118" to="125" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Murakami, H., Hohsaka, T., Ashizuka, Y., Hashimoto, K. &amp; Sisido, M. (2000) Biomacromolecules 1, 118-125.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">E</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">B</forename><surname>Mcananey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">S</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">N</forename><surname>Jan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">G</forename><surname>Boxer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">Y</forename><surname>Jan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">296</biblScope>
+			<biblScope unit="page" from="1700" to="1703" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cohen, B. E., McAnaney, T. B., Park, E. S., Jan, Y. N., Boxer, S. G. &amp; Jan, L. Y. (2002) Science 296, 1700-1703.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Traverso</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Diehl</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Hurst</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Shuber</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Whitney</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Levin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">W</forename><surname>Kinzler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Vogelstein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1093" to="1097" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Traverso, G., Diehl, F., Hurst, R., Shuber, A., Whitney, D., Johnson, C., Levin, B., Kinzler, K. W. &amp; Vogelstein, B. (2003) Nat. Biotechnol. 21, 1093-1097.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Turcatti</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Zoffmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Lowe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Iii</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">E</forename><surname>Drozda</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Chassaing</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">W</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Chollet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">272</biblScope>
+			<biblScope unit="page" from="21167" to="21175" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Turcatti, G., Zoffmann, S., Lowe, J. A., III, Drozda, S. E., Chassaing, G., Schwartz, T. W. &amp; Chollet, A. (1997) J. Biol. Chem. 272, 21167-21175.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">L</forename><surname>Scalley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Nauli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">T</forename><surname>Gladwin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="15927" to="15935" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Scalley, M. L., Nauli, S., Gladwin, S. T. &amp; Baker, D. (1999) Biochemistry 38, 15927-15935.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Deiters</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">A</forename><surname>Cropp</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">G</forename><surname>Schultz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page" from="14306" to="14307" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wu, N., Deiters, A., Cropp, T. A., King, D. &amp; Schultz, P. G. (2004) J. Am. Chem. Soc. 126, 14306-14307.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Cusack</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Yaremchuk</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Tukalo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="2351" to="2361" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cusack, S., Yaremchuk, A. &amp; Tukalo, M. (2000) EMBO J. 19, 2351-2361.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">W</forename><surname>Chin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">A</forename><surname>Cropp</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Mukherji</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">G</forename><surname>Schultz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">301</biblScope>
+			<biblScope unit="page" from="964" to="967" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chin, J. W., Cropp, T. A., Anderson, J. C., Mukherji, M., Zhang, Z. &amp; Schultz, P. G. (2003) Science 301, 964-967.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">W</forename><surname>Chin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">A</forename><surname>Cropp</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Chu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Meggers</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">G</forename><surname>Schultz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="511" to="519" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chin, J. W., Cropp, T. A., Chu, S., Meggers, E. &amp; Schultz, P. G. (2003) Chem. Biol. 10, 511-519.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">L</forename><surname>Lincecum</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Tukalo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Yaremchuk</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">S</forename><surname>Mursinna</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">S</forename><surname>Sproat</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Van Den Eynde</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Link</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Van Calenbergh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Grotli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="951" to="963" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lincecum, T. L., Jr., Tukalo, M., Yaremchuk, A., Mursinna, R. S., Williams, A. M., Sproat, B. S., Van Den Eynde, W., Link, A., Van Calenbergh, S., Grotli, M., et al. (2003) Mol. Cell 11, 951-963.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">S</forename><surname>Mursinna</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Martinis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">124</biblScope>
+			<biblScope unit="page" from="7286" to="7287" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mursinna, R. S. &amp; Martinis, S. A. (2002) J. Am. Chem. Soc. 124, 7286 - 7287.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">M</forename><surname>Goodman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">V</forename><surname>Olson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">D</forename><surname>Hall</surname></persName>
+		</author>
+		<title level="m">Proc. Natl. Acad. Sci. USA</title>
+		<meeting>Natl. Acad. Sci. USA</meeting>
+		<imprint>
+			<date type="published" when="1977" />
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="5453" to="5457" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Goodman, H. M., Olson, M. V. &amp; Hall, B. D. (1977) Proc. Natl. Acad. Sci. USA 74, 5453-5457.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">A</forename><surname>Kassavetis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">L</forename><surname>Riggs</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Negri</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">H</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">P</forename><surname>Geiduschek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell. Biol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="2551" to="2566" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kassavetis, G. A., Riggs, D. L., Negri, R., Nguyen, L. H. &amp; Geiduschek, E. P. (1989) Mol. Cell. Biol. 9, 2551-2566.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Didonato</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Craig</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E</forename><surname>Huff</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">M</forename><surname>Thayer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Cardoso</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">J</forename><surname>Kassmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">P</forename><surname>Lo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">K</forename><surname>Bruns</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">T</forename><surname>Powers</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">W</forename><surname>Kelly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">332</biblScope>
+			<biblScope unit="page" from="601" to="615" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">DiDonato, M., Craig, L., Huff, M. E., Thayer, M. M., Cardoso, R. M., Kassmann, C. J., Lo, T. P., Bruns, C. K., Powers, E. T., Kelly, J. W., et al. (2003) J. Mol. Biol. 332, 601-615.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Assfalg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Banci</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Bertini</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Turano</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">R</forename><surname>Vasos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">330</biblScope>
+			<biblScope unit="page" from="145" to="158" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Assfalg, M., Banci, L., Bertini, I., Turano, P. &amp; Vasos, P. R. (2003) J. Mol. Biol. 330, 145-158.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

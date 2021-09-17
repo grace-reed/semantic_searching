@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/grace/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Molecular cloning of heat shock protein 70 and HOP from the freshwater green algae Closterium ehrenbergii and their responses to stress</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2020-08-13">13 August 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sofia</forename><surname>Abassi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biotechnology</orgName>
+								<orgName type="institution">Sangmyung University</orgName>
+								<address>
+									<postCode>03016</postCode>
+									<settlement>Seoul</settlement>
+									<country key="KR">South Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hui</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biotechnology</orgName>
+								<orgName type="institution">Sangmyung University</orgName>
+								<address>
+									<postCode>03016</postCode>
+									<settlement>Seoul</settlement>
+									<country key="KR">South Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jang-Seu</forename><surname>Ki</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biotechnology</orgName>
+								<orgName type="institution">Sangmyung University</orgName>
+								<address>
+									<postCode>03016</postCode>
+									<settlement>Seoul</settlement>
+									<country key="KR">South Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biotechnology</orgName>
+								<orgName type="institution">Sangmyung University</orgName>
+								<address>
+									<postCode>03016</postCode>
+									<settlement>Seoul</settlement>
+									<country key="KR">South Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Molecular cloning of heat shock protein 70 and HOP from the freshwater green algae Closterium ehrenbergii and their responses to stress</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-08-13">13 August 2020</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1007/s12192-020-01143-8</idno>
+					<note type="submission">Received: 31 March 2020 / Revised: 7 July 2020 / Accepted: 22 July 2020</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-09-14T02:34+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Green algae</term>
+					<term>HOP</term>
+					<term>Heat shock protein</term>
+					<term>Stress response</term>
+					<term>Expression profiles</term>
+					<term>Cloning</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Heat shock proteins (HSPs) and HSP70-HSP90 organizing proteins (HOPs) are related, and they function together to maintain cellular homeostasis and respond to stress. In the present study, we reported the first molecular characteristics of HSP70 (designated as CeHSP70) and HOP (designated as CeHOP) genes from the freshwater green algae Closterium ehrenbergii and examined the changes in their expression profiles under heat stress and toxic chemicals treatment. CeHSP70 presented the conserved motif patterns and EEVD domain specific to cytosolic HSP70; CeHOP contained a typical domain of TPR repeats. Real-time PCR analysis showed that thermal stress considerably up-regulated both CeHOP and CeHSP70. In addition, the genes were significantly induced by CuCl 2 , CuSO 4 , and NiSO , but not by K Cr 2 O 7 , herbicide, and endocrine disrupting chemicals. These results suggest that CeHOP and CeHSP70 function together and play a role in responses to specific stressors and indicate their possible use as sensitive specific biomarkers in risk assessments.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>The unicellular green algae Closterium ehrenbergii is widely distributed in freshwater ecosystems throughout the world <ref type="bibr" target="#b10">(Ichimura and Kasai 1984)</ref>; it is known to sensitively respond to a wide range of pollutants, and its sensitivity and sublethal toxicity have been assessed using heavy metals and disinfectant <ref type="bibr" target="#b11">(Juneau et al. 2003;</ref><ref type="bibr" target="#b23">Sathasivam et al. 2016)</ref>. Our recent works on the species have shown that antioxidant SOD and small HSPs respond sensitively when exposed to heavy metals <ref type="bibr" target="#b28">(Wang et al. 2017</ref><ref type="bibr">(Wang et al. , 2018</ref><ref type="bibr" target="#b0">Abassi et al. 2019;</ref><ref type="bibr" target="#b27">Wang and Ki 2019)</ref>. These results suggest that it can be used as a molecular toxicity testing model; however, little research has been conducted regarding molecular gene responses to toxic substances.</p><p>Heat shock proteins 70 (HSP70) are a family of conserved ubiquitously expressed proteins, and they are an important part of the cell's machinery for protein folding and help protect cells from stress <ref type="bibr" target="#b17">(Morano 2007)</ref>. To date, HSP70 genes and proteins have been studied in most organisms, including microalgae Dunaliella salina and Prorocentrum minimum <ref type="bibr" target="#b18">Mosaviazam et al. 2016)</ref>. In addition, molecular studies showed that HSP70 genes are mostly induced by environmental stresses and toxic chemicals <ref type="bibr" target="#b20">(Piano et al. 2004;</ref>, and thus they have been considered as potential biomarkers for ecotoxicogenomics assessments in different organisms <ref type="bibr" target="#b31">(Wepener et al. 2005)</ref>.</p><p>HSP70-HSP90 organizing protein (HOP) regulates and assists the major chaperones <ref type="bibr" target="#b19">(Odunuga et al. 2004)</ref>. It is recognized by the presence of three TPR domains, which are tandem repeats of a 34-amino-acid consensus motif, forming a cleft of seven antiparallel α-helices facilitating the binding to C-terminal tails of HSP90 and HSP70 <ref type="bibr" target="#b24">(Schmid et al. 2012)</ref>. This suggests that the HOP may react simultaneously with HSP70 and/or HSP90, in a coupled response against stress conditions. Unlike the structural characterization of HOP <ref type="bibr" target="#b2">(Baindur-Hudson et al. 2015)</ref>, reports on the transcriptional Sofia Abassi and Hui Wang contributed equally to this work.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Electronic supplementary material</head><p>The online version of this article (https://doi.org/10.1007/s12192-020-01143-8) contains supplementary material, which is available to authorized users.</p><p>responses of the HOP gene remain inadequately poor, particularly those including the coupled responses of HSP70 and HOP.</p><p>Here, we characterized HSP70 and HOP genes from C. ehrenbergii, and examined the changes in their transcriptional responses, following heat stress and different chemical treatments, to understand their roles in cell stress defense and their potential application as biomarkers for environmental pollution monitoring.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and methods</head><p>Algae culture, RNA extraction, and cDNA synthesis A strain of Closterium ehrenbergii (Ce-01) was obtained from Environmental Bio Inc. (Seoul, Korea). The cells were cultured in C medium <ref type="bibr" target="#b30">(Watanebe 2000)</ref> at 20 ± 1°C, with 12:12 h light-dark cycle and a photon flux density of 65 μmol photons/m 2 /s. Total RNA extraction and cDNA synthesis were conducted following our previous studies <ref type="bibr" target="#b0">(Abassi et al. 2019;</ref><ref type="bibr" target="#b27">Wang and Ki 2019)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sequence identity and phylogenetic analysis</head><p>The full length cDNA sequences of CeHOP and CeHSP70 genes were identified from an Expressed Sequence Tag (EST) library of C. ehrenbergii in our laboratory and validated by PCR with specific primers (Supplementary <ref type="table">Table 1</ref>). PCR reaction conditions were as follows: pre-denaturation at 94°C for 3 min; 39 cycles of 94°C for 30 s, 55°C for 30 s, 72°C for 2 min, and extension at 72°C for 10 min. Positive PCR products were purified, cloned into pMD20-T vectors (Takara, Shiga, Japan), transformed into Escherichia coli competent cells, and subjected to DNA sequencing (Sanger method). Protein motifs and conserved domains of CeHOP and CeHSP70 were analyzed according to the method in our previous study <ref type="bibr" target="#b0">(Abassi et al. 2019)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Stress treatment</head><p>Exponential growth phase cultures (200 mL) with an original cell density of 3.0 ± 0.25 × 10 cells/mL were used for stress treatment. For thermal treatments, we exposed the cultures to 20°C (control), 24, 28, 32, and 36°C, and then harvested the cells after 30 min. For chemical treatments, a series of separate doses were added to cultures to reach the following final concentrations: 0.05, 0.1, 0.2, and 0.5 mg/L of copper chloride (CuCl 2 , Cat. No. 222011, Sigma-Aldrich); 0.05, 0.1, 0.2, and 0.5 mg/L of copper sulfate (CuSO 4 , Cat. No. C1297, Sigma-Aldrich); 0.1, 0.5, 1.0, 2.0, and 5.0 mg/L of nickel sulfate (NiSO 4 , Cat. No. 10101-97-0, Sigma-Aldrich); 1.0, 2.0, 3.0, and 4.0 mg/L of potassium dichromate (K 2 Cr 2 O 7 , Cat. No. 7778-50-9, Sigma-Aldrich); 0.05, 0.3, and 0.8 mg/L of atrazine (C 8 H 14 ClN 5 , Cat.No.45330, Sigma-Aldrich); 0.1, 0.2, 0.3, 0.4, and 0.5 mg/L of polychlorinated biphenyl (C 12 H 10 − x Cl x , PCB, Aroclor 1016, Cat. No. 48701, Sigma-Aldrich); and 0.1, 0.5, 1.0, 1.5, and 2.0 mg/L of endosulfan (C 9 H 6 Cl 6 O 3 S, Cat. No. 1031-07-8, Sigma-Aldrich). Atrazine was dissolved in dimethyl sulfoxide (DMSO) to obtain a stock solution and the maximum amount of DMSO was 0.01% in all test cultures, as the concentration (0.01%) of DMSO has no effect on the organism <ref type="bibr" target="#b12">(Kim et al. 2020)</ref>. The tested concentrations of individual chemicals were based on the EC 50 values meas <ref type="table">Table 2</ref>). All samples were performed in triplicate and all dilutions were prepared from standard stock solutions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>u r e d i n t h i s s t u d y a n d o u r p r e v i o u s s t u d i e s (Supplementary</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reactive oxygen species (ROS) measurement</head><p>Cells were independently treated with 0.2 mg/L CuSO , 0.5 mg/L CuCl 2 , 4 mg/L K 2 Cr 2 O 7 , and 0.1 mg/L atrazine, for an incubation period of 24 h, stained using dihydroxyrhodamine 123 (DHR123-D1054; Sigma-Aldrich) DHR123 at a final concentration of 20 μM for 1 h, then harvested by centrifugation and cleaned twice with fresh C medium. The cultures were then re-suspended in fresh C medium, and mounted onto a slide and sealed; green emission was observed with a fluorescence microscope (Carl Zeiss Axioskop, Oberkochen, Germany) to determine the level of ROS production in the cells and relative ROS levels were quantified with ImageJ software (NIH, Bethesda, MD) from the fluorescence microscopic images.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Real-time PCR and gene expression analysis</head><p>Quantitative real-time PCR was performed using a CFX96 Real-time PCR detection system (Bio-Rad, Hercules, CA). To assess the expression of HSP90, a sequence was selected from the EST library of C. ehrenbergii (Access. No. MT324120) and the primers were designed accordingly ( <ref type="table">Supplementary Table 1</ref>). A reaction mixture for each PCR run was prepared using the TOPreal qPCR 2X PreMIX (SYBR Green) Kit (Enzynomics, Daejeon, Korea). The cycle parameters were as follows: preincubation (for UDG) of 4 min at 50°C, initial denaturation of 10 min at 95°C, followed by 39 cycles of 95°C for 10 s, 60°C for 15 s, and 72°C for 15 s; a dissociation step was included: 62°C for 2 s and 95°C for 20 s. All reactions were amplified in three technical replicates and the average values were calculated. Alpha tubulin (TUA), actin (ACT), and histone H4 were used as an internal control <ref type="bibr" target="#b14">(Lee et al. 2015)</ref>. The relative quantification of gene expressions among the treatment groups was analyzed using the cycle threshold (Ct) method <ref type="bibr" target="#b16">(Livak and Schmittgen 2001)</ref>, where Ct is the cycle number at which the fluorescent signal rises statistically above the background. All data were analyzed using one-way analysis of variance (ANOVA), followed by the Student-Newman-Keuls multiple comparison test to compare the relative gene expression levels. P &lt; 0.05 was considered statistically significant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and discussion</head><p>Molecular characterization and phylogeny of CeHSP70 and HOP CeHSP70 cDNA (Access. No. MT324118) was 2181 bp in length, including a 99 bp 5′-untranslated region (UTR), a 114 bp 3′-UTR, and an open reading frame (ORF) of 1968 bp that encoded 655 amino acids (aa) ( <ref type="figure">Supplementary  Fig. 1a</ref>). We identified three HSP70 protein family signatures:</p><formula xml:id="formula_0">G I D L G T T Y S C , I F D L G G G T F D V S L L , a n d IVLVGGSTRIPKVQQ.</formula><p>The structural comparisons of our CeHSP70 conformed to the conserved features of the HSP70 family of other organisms <ref type="bibr" target="#b26">(Vayssier et al. 1999)</ref>. We also detected an EEVD motif, which is a C-terminus conserved motif exclusively found in cytosolic HSPs <ref type="bibr" target="#b26">(Vayssier et al. 1999;</ref><ref type="bibr" target="#b1">Assimon et al. 2015)</ref>. Similar features of HSP70s were observed in other microalgae <ref type="bibr" target="#b8">(Guo et al. , 2013</ref><ref type="bibr" target="#b9">(Guo et al. , 2015</ref>, suggesting that our protein is a cytosolic HSP70.</p><p>CeHOP cDNA (Access. No. MT324119) was 2165 bp long, comprising an ORF of 1749 bp, 143 bp 5′-UTR, and 272 bp 3′ UTR; it encoded a protein of 582 aa ( <ref type="figure">Supplementary  Fig. 2a</ref>). The BLAST searches showed that our protein belongs to the tetratricopeptide-like helical domain superfamily, and we identified three TPR domains ( <ref type="figure">Supplementary  Fig. 2c</ref>), which are the signature domains of the HOP family <ref type="bibr" target="#b21">(Röhl et al. 2015)</ref>. This matched with previous reports on HOP family proteins (Baindur-Hudson et al. 2015). Significant differences between the control and treated sample, as determined by one-way ANOVA, are highlighted *P &lt; 0.05; **P &lt; 0.01; ***P &lt; 0.001 Phylogenetic analysis of CeHSP70 and CeHOP proteins showed that the green algae C. ehrenbergii clustered with species from the streptophytes, showing closer relativity with higher plants than with other green algae ( <ref type="figure">Supplementary  Fig. 1b, Supplementary Fig. 2b</ref>). All the results combined confirm that the sequence we isolated in this study certainly belongs to the HOP family.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Effect of heat stress on HSP70, HSP90, and HOP expression</head><p>The results showed a correlation in the expression of both genes, with an up-regulated response to the different heat treatments (24°C, 28°C, 32°C, and 36°C) <ref type="figure">(Fig. 1)</ref>. CeHOP showed a consistent up-regulation of~2.5-fold, with a highest up-regulation of 3-fold at 36°C; similarly, HOP transcripts increased with increasing temperatures in the soybean Glycine max <ref type="bibr" target="#b32">(Zhang et al. 2003)</ref>. CeHSP70 showed an up-regulated response in a temperature dependent manner, with approximately 2-fold changes at both 28°C and 32°C and 3-fold changes at 36°C when compared to the control (20°C). The expression levels of CeHSP90 showed an up-regulation similar to that observed for HSP70, in a temperature dependent manner, with a maximum of 4.5-fold changes at the highest temperature. These results were in accordance with heat responsive patterns of HSP70 and HSP90 in other microalgae <ref type="bibr" target="#b22">(Rosic et al. 2011;</ref><ref type="bibr" target="#b8">Guo et al. , 2013</ref><ref type="bibr" target="#b9">Guo et al. , 2015</ref>. These suggest that CeHSP70 and CeHSP90 may have a role in the first line of defense against thermal fluctuations in the environments. Therefore, the HOP (since it is the organizing protein for HSP70/HSP90 and an important element in the activity of both HSP70 and HSP90) may be a key element of thermo-resistance in C. ehrenbergii. <ref type="figure">Figure 2</ref> shows the response of HSP70, HSP90, and HOP upon treatments with different concentrations of toxic metals. Copper and nickel treated cells in exponential cultures showed a general up-regulation in the response of all tested genes. CuCl 2 treatments resulted in an up-regulation of both genes, with a more significant response for HOP with increased concentration; the response was up to 17-fold changes at 0.2 mg/L and decreased but still demonstrated significant 12-fold changes at a concentration of 0.5 mg/L <ref type="figure">(Fig. 2a)</ref>. CuSO 4 treatments showed a continuous up-regulation of CeHOP in a concentration-dependent manner with the highest transcriptional changes of 10.5-fold compared to the control. CeHSP70 and CeHSP90 transcripts increased for lower concentrations of 0.05 and 0.1 mg/L, with 5-fold changes for CeHSP90 at a concentration of 0.2 mg/L, and a decrease in transcription nearing that of the control for CeHSP70 at higher concentrations (0.2 and 0.5 mg/L) and 3fold changes for CeHSP90 at 0.5 mg/L <ref type="figure">(Fig. 2b)</ref>. CeHSP70 showed a down-regulation at low concentrations of K 2 Cr 2 O 7 (1 and 2 mg/L) and a slight increase in the transcription of the <ref type="figure">Fig. 3</ref> Effect of atrazine (a), endosulfan (b), and PCB (c) on the expression of CeHOP, CeHSP70, and CeHSP90. Error bars represent the standard deviation. Significant differences between the control and treated sample, as determined by one-way ANOVA, are highlighted *P &lt; 0.05 gene at concentrations of 3 and 4 mg/L. CeHSP90 transcripts increased by 1.7-fold and 1.9-fold changes at concentrations of 3 and 4 mg/L, respectively. CeHOP was induced with a marginally significant (P &lt; 0.05) change of 1.8-fold at the highest concentration of 4 mg/L <ref type="figure">(Fig. 2d)</ref>. These results were in accordance with a previous study regarding C. ehrenbergii small HSPs genes, which were induced in response to copper stress and showed no apparent changes to chromium treatments <ref type="bibr" target="#b0">(Abassi et al. 2019)</ref>. HOP, HSP70, and CeHSP90 showed high responses to different chemical treatments at concentrations lower than the EC 50 ; our genes were induced at 0.05 mg/L of CuCl 2 and CuSO 4 when the EC 50 for both chemicals were previously reported to be 0.24 mg/L and 0.20 mg/L, respectively (Supplementary <ref type="table">Table 2</ref>). EC 50 for nickel sulfate was 1.53 mg/L and both HSP70 and CeHSP90 were induced at a concentration of 0.1 mg/L. The overall results showed high sensitivity toward certain chemicals but not others for HSP70, HSP90, and HOP, suggesting they might be involved in the early responses for certain stresses, making them perfect candidates as sensitive specific biomarkers for risk assessments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Effect of heavy metals on HSP70, HSP90, and HOP expression</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Effect of EDCs stress on HSP70, HSP90, and HOP expression</head><p>The tested EDCs had no apparent effects on the expression of HOP, HSP70, and HSP90 <ref type="figure">(Fig. 3)</ref>. The genes showed no <ref type="figure">Fig. 4</ref> Reactive oxygen species (ROS) production and relative ROS level in C. ehrenbergii after exposure to different contaminants; a Control (untreated cells), b 0.2 mg/L CuSO 4 , c 0.5 mg/L CuCl 2 , d 4 mg/L K 2 Cr 2 O 7 , and e 0.1 mg/L atrazine significant response for all treatments, except for PCB where HSP70 and HSP90 showed a rather significant response (P &lt; 0.05) with 1.7-fold changes at 0.5 mg/L and 2-fold changes at 0.3 mg/L, respectively <ref type="figure">(Fig. 3c)</ref>. HSP90 responded to PCB concentrations lower than the EC 50 , suggesting that it might be involved in early processes that counter PCB stress in C. ehrenbergii. EDCs such as PCB and endosulfan have the potential to cause oxidative stress by ROS generation <ref type="bibr" target="#b25">(Shao et al. 2012)</ref>. The toxic effect of ECDs has been extensively studied in higher organisms and recent studies showed that they also have toxic effects on microalgae even if these are considered as non-target organisms <ref type="bibr" target="#b15">(Liu et al. 2010;</ref><ref type="bibr">Ki 2012, 2016)</ref>. Microarray analysis of dinoflagellate Prorocentrum minimum by PCB exposure showed different responses from various genes involved in different cell pathways, suggesting that the EDC did not cause chloroplast and oxidative damage, but could lead to cell cycle arrest and apoptosis <ref type="bibr">(Wang et al. 2018)</ref>. We did not observe any effect of the EDCs on the transcriptional response of CeHOP and CeHSP70 of C. ehrenbergii. Similarly, our previous studies on P. minimum HSP90 and D. brightwellii HSP70 and HSP90 showed that these genes did not respond to EDCs <ref type="bibr" target="#b8">(Guo et al. , 2013</ref>. The overall results suggest that HSPs genes, and consequently HOP, have no major role in the EDC stress response of C. ehrenbergii.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Oxidative stress with ROS accumulation</head><p>Following the results of metals and EDCs stress, we confirmed whether the stress treatments had an effect on C. ehrenbergii or not <ref type="figure">(Fig. 4)</ref>. Copper sulfate is known to induce high ROS production in C. ehrenbergii <ref type="bibr" target="#b28">(Wang et al. 2017)</ref>, and our results confirmed the production of ROS at different concentrations of CuSO 4 and CuCl . The toxic effect of various metals and EDCs was indicated by ROS production, representing oxidative stress in C. ehrenbergii. These results proved that EDCs had an effect on the treated cells, and that our genes indeed had no apparent role in the counter against EDCs stress <ref type="bibr">Wang et al. 2018)</ref>.</p><p>The cooperation between CeHOP and CeHSPs in C. ehrenbergii can be implied by the correlation of their respective expression responses to various stress treatments. This suggests that HOP may react simultaneously with HSP70 and HSP90 in a coupled response as a defense against certain stress conditions <ref type="bibr" target="#b13">(Lamoth et al. 2015)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>The present study is intended to support previous results regarding the high sensitivity of C. ehrenbergii to various toxic chemicals, making it a model species for ecotoxicology research <ref type="bibr" target="#b28">(Wang et al. 2017;</ref><ref type="bibr" target="#b0">Abassi et al. 2019;</ref><ref type="bibr" target="#b27">Wang and Ki 2019)</ref>. CeHOP, CeHSP70, and CeHSP90 showed a coupled response to different stresses; however, the over-expression of the HOP gene over that of HSP70 and HSP90 suggests it might be involved in much more than the co-chaperone activity for the HSP70/HSP90 complex. HSPs genes have been already suggested as biomarkers in microalgae <ref type="bibr" target="#b3">(Chankova et al. 2013;</ref><ref type="bibr" target="#b8">Guo et al. 2013)</ref>; thus, HOP might be used as a biomarker to predict the action of species, and collect data of various genes transcriptions to design a response profile to external stress factors, which might help in the protection and monitoring of aquatic environments. This is the first study to evaluate the expression profiles of HSP70, HSP90, and HOP together in microalgae, and to our knowledge, there are no reports on the characterization of HOP genes from green algae. Therefore, this study has paved a way for further studies regarding the complex HOP/HSP70/HSP90 to understand the interaction between these genes and their mode of action, and especially to elucidate the roles of HOP in stress responses.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 Fig. 2</head><label>12</label><figDesc>Effect of heat shock(24, 28, 32, and 36°C)  for 30 min on the expression profiles of CeHOP, CeHSP70, and CeHSP90. Error bars represented the standard deviation. Significant differences between the control and treated sample, as determined by one-way ANOVA, are highlighted *P &lt; 0.05; **P &lt; 0.01 Effect of biocide pollutants CuCl 2 (a), CuSO 4 (b), NiSO 4 (c), and K 2 Cr 2 O 7 (d) on the expression of CeHOP, CeHSP70, and CeHSP90. Error bars represent the standard deviation.</figDesc></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Acknowledgements We thank Dr. S. Kim at Environmental Bio Inc., Korea, for proving a cultured strain and Miss H. Kim for cell culture and microscopic observation.</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Small heat shock protein genes of the green algae Closterium ehrenbergii: cloning and differential expression under heat and heavy metal stresses</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Abassi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Ponmani</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">S</forename><surname>Ki</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/tox.22772</idno>
+		<ptr target="https://doi.org/10.1002/tox.22772" />
+	</analytic>
+	<monogr>
+		<title level="j">Environ Toxicol</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="1013" to="1024" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Abassi S, Wang H, Ponmani T, Ki JS (2019) Small heat shock protein genes of the green algae Closterium ehrenbergii: cloning and differ- ential expression under heat and heavy metal stresses. Environ Toxicol 34:1013-1024. https://doi.org/10.1002/tox.22772</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Specific binding of tetratricopeptide repeat proteins to heat shock protein 70 (Hsp70) and heat shock protein 90 (Hsp90) is regulated by affinity and phosphorylation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">A</forename><surname>Assimon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">R</forename><surname>Southworth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Gestwicki</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.biochem.5b00801</idno>
+		<ptr target="https://doi.org/10.1021/acs.biochem.5b00801" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="7120" to="7131" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Assimon VA, Southworth DR, Gestwicki JE (2015) Specific binding of tetratricopeptide repeat proteins to heat shock protein 70 (Hsp70) and heat shock protein 90 (Hsp90) is regulated by affinity and phos- phorylation. Biochemistry 54:7120-7131. https://doi.org/10.1021/ acs.biochem.5b00801</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Hsp70/Hsp90 organising protein (Hop): beyond interactions with chaperones and prion proteins</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Baindur-Hudson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">L</forename><surname>Edkins</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">L</forename><surname>Blatch</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-319-11731-7_3</idno>
+		<ptr target="https://doi.org/10.1007/978-3-319-11731-7_3" />
+	</analytic>
+	<monogr>
+		<title level="j">Subcell Biochem</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="1" to="22" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baindur-Hudson S, Edkins AL, Blatch GL (2015) Hsp70/Hsp90 organising protein (Hop): beyond interactions with chaperones and prion proteins. Subcell Biochem 78:1-22. https://doi.org/10.1007/ 978-3-319-11731-7_3</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Heat shock protein HSP70B as a marker for genotype resistance to environmental stress in Chlorella species from contrasting habitats</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Chankova</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Mitrovska</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Miteva</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.gene.2012.11.052</idno>
+		<ptr target="https://doi.org/10.1016/j.gene.2012.11.052" />
+	</analytic>
+	<monogr>
+		<title level="j">Gene</title>
+		<imprint>
+			<biblScope unit="volume">516</biblScope>
+			<biblScope unit="page" from="184" to="189" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chankova S, Mitrovska Z, Miteva D et al (2013) Heat shock protein HSP70B as a marker for genotype resistance to environmental stress in Chlorella species from contrasting habitats. Gene 516:184-189. https://doi.org/10.1016/j.gene.2012.11.052</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Evaluation of the sub-lethal toxicity of Cu, Pb, bisphenol A and polychlorinated biphenyl to the marine dinoflagellate Cochlodinium polykrikoides</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Ebenezer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J-S</forename><surname>Ki</surname></persName>
+		</author>
+		<idno type="DOI">10.4490/algae.2012.27.1.063</idno>
+		<ptr target="https://doi.org/10.4490/algae.2012.27.1.063" />
+	</analytic>
+	<monogr>
+		<title level="j">Algae</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="63" to="70" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ebenezer V, Ki J-S (2012) Evaluation of the sub-lethal toxicity of Cu, Pb, bisphenol A and polychlorinated biphenyl to the marine dinoflagel- late Cochlodinium polykrikoides. Algae 27:63-70. https://doi.org/ 10.4490/algae.2012.27.1.063</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Toxic effects of Aroclor 1016 and bisphenol A on marine green algae Tetraselmis suecica, diatom Ditylum brightwellii and dinoflagellate Prorocentrum minimum</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Ebenezer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">S</forename><surname>Ki</surname></persName>
+		</author>
+		<idno type="DOI">10.7845/KJM.2016.6050</idno>
+		<ptr target="https://doi.org/10.7845/KJM.2016.6050" />
+	</analytic>
+	<monogr>
+		<title level="j">Korean J Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="306" to="312" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ebenezer V, Ki JS (2016) Toxic effects of Aroclor 1016 and bisphenol A on marine green algae Tetraselmis suecica, diatom Ditylum brightwellii and dinoflagellate Prorocentrum minimum. Korean J Microbiol 52:306-312. https://doi.org/10.7845/KJM.2016.6050</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Differential transcription of heat shock protein 90 (HSP90) in the dinoflagellate Prorocentrum minimum by copper and endocrine-disrupting chemicals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">S</forename><surname>Ki</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10646-012-0898-z</idno>
+		<ptr target="https://doi.org/10.1007/s10646-012-0898-z" />
+	</analytic>
+	<monogr>
+		<title level="j">Ecotoxicology</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1448" to="1457" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Guo R, Ki JS (2012) Differential transcription of heat shock protein 90 (HSP90) in the dinoflagellate Prorocentrum minimum by copper and endocrine-disrupting chemicals. Ecotoxicology 21:1448-1457. https://doi.org/10.1007/s10646-012-0898-z</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Transcriptional responses of heat shock protein 70 (Hsp70) to thermal, bisphenol A, and copper stresses in the dinoflagellate Prorocentrum minimum</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Ebenezer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">S</forename><surname>Ki</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.chemosphere.2012.05.014</idno>
+		<ptr target="https://doi.org/10.1016/j.chemosphere.2012.05.014" />
+	</analytic>
+	<monogr>
+		<title level="j">Chemosphere</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="512" to="520" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Guo R, Ebenezer V, Ki JS (2012) Transcriptional responses of heat shock protein 70 (Hsp70) to thermal, bisphenol A, and copper stresses in the dinoflagellate Prorocentrum minimum. Chemosphere 89:512- 520. https://doi.org/10.1016/j.chemosphere.2012.05.014</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Different transcriptional responses of heat shock protein 70/90 in the marine diatom Ditylum brightwellii exposed to metal compounds and endocrine-disrupting chemicals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">S</forename><surname>Ki</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.chemosphere.2013.03.052</idno>
+		<ptr target="https://doi.org/10.1016/j.chemosphere.2013.03.052" />
+	</analytic>
+	<monogr>
+		<title level="j">Chemosphere</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="535" to="543" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Guo R, Lee MA, Ki JS (2013) Different transcriptional responses of heat shock protein 70/90 in the marine diatom Ditylum brightwellii ex- posed to metal compounds and endocrine-disrupting chemicals. Chemosphere 92:535-543. https://doi.org/10.1016/j.chemosphere. 2013.03.052</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Heat shock protein 70 and 90 genes in the harmful dinoflagellate Cochlodinium polykrikoides: genomic structures and transcriptional responses to environmental stresses</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">H</forename><surname>Youn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J-S</forename><surname>Ki</surname></persName>
+		</author>
+		<idno type="DOI">10.1155/2015/484626</idno>
+		<ptr target="https://doi.org/10.1155/2015/484626" />
+	</analytic>
+	<monogr>
+		<title level="j">Int J Genomics</title>
+		<imprint>
+			<biblScope unit="volume">2015</biblScope>
+			<biblScope unit="page" from="1" to="12" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Guo R, Youn SH, Ki J-S (2015) Heat shock protein 70 and 90 genes in the harmful dinoflagellate Cochlodinium polykrikoides: genomic structures and transcriptional responses to environmental stresses. Int J Genomics 2015:1-12. https://doi.org/10.1155/2015/484626</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Time lapse analyses of sexual reproduction in Closterium ehrenbergii (conjugatophyceae)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Ichimura</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Kasai</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.0022-3646.1984.00258.x</idno>
+		<ptr target="https://doi.org/10.1111/j.0022-3646.1984.00258.x" />
+	</analytic>
+	<monogr>
+		<title level="j">J Phycol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="258" to="265" />
+			<date type="published" when="1984" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ichimura T, Kasai F (1984) Time lapse analyses of sexual reproduction in Closterium ehrenbergii (conjugatophyceae). J Phycol 20:258-265. https://doi.org/10.1111/j.0022-3646.1984.00258.x</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Use of chlorophyll fluorescence of Closterium ehrenbergii and Lemna gibba for toxic effect evaluation of sewage treatment plant effluent and its hydrophobic components</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Juneau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Sumitomo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Matsui</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0147-6513(02)00130-6</idno>
+		<ptr target="https://doi.org/10.1016/s0147-6513" />
+	</analytic>
+	<monogr>
+		<title level="j">Ecotoxicol Environ Saf</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">02</biblScope>
+			<biblScope unit="page" from="130" to="136" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Juneau P, Sumitomo H, Matsui S et al (2003) Use of chlorophyll fluores- cence of Closterium ehrenbergii and Lemna gibba for toxic effect evaluation of sewage treatment plant effluent and its hydrophobic components. Ecotoxicol Environ Saf 55:1-8. https://doi.org/10. 1016/s0147-6513(02)00130-6</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The herbicide alachlor severely affects photosystem function and photosynthetic gene expression in the marine dinoflagellate Prorocentrum minimum</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Abassi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">S</forename><surname>Ki</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/03601234.2020.1755198</idno>
+		<ptr target="https://doi.org/10.1080/03601234.2020.1755198" />
+	</analytic>
+	<monogr>
+		<title level="j">J Environ Sci Health B Pestic Food Contam Agric Wastes</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="620" to="629" />
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kim H, Wang H, Abassi S, Ki JS (2020) The herbicide alachlor severely affects photosystem function and photosynthetic gene expression in the marine dinoflagellate Prorocentrum minimum. J Environ Sci Health B Pestic Food Contam Agric Wastes 55:620-629. https:// doi.org/10.1080/03601234.2020.1755198</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Hsp70 and the cochaperone StiA (hop) orchestrate Hsp90-mediated caspofungin tolerance in Aspergillus fumigatus</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Lamoth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">R</forename><surname>Juvvadi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">J</forename><surname>Soderblom</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/AAC.00946-15</idno>
+		<ptr target="https://doi.org/10.1128/AAC.00946-15" />
+	</analytic>
+	<monogr>
+		<title level="j">Antimicrob Agents Chemother</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="4727" to="4733" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lamoth F, Juvvadi PR, Soderblom EJ et al (2015) Hsp70 and the cochaperone StiA (hop) orchestrate Hsp90-mediated caspofungin tolerance in Aspergillus fumigatus. Antimicrob Agents Chemother 59:4727-4733. https://doi.org/10.1128/AAC.00946-15</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Evaluation and selection of reference genes for ecotoxicogenomic study of the green alga Closterium ehrenbergii using quantitative real-time PCR</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Ebenezer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">S</forename><surname>Ki</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10646-015-1430-z</idno>
+		<ptr target="https://doi.org/10.1007/s10646-015-1430-z" />
+	</analytic>
+	<monogr>
+		<title level="j">Ecotoxicology</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="863" to="872" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lee MA, Guo R, Ebenezer V, Ki JS (2015) Evaluation and selection of reference genes for ecotoxicogenomic study of the green alga Closterium ehrenbergii using quantitative real-time PCR. Ecotoxicology 24:863-872. https://doi.org/10.1007/s10646-015- 1430-z</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Cellular responses, biodegradation and bioaccumulation of endocrine disrupting chemicals in marine diatom Navicula incerta</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Guan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Q</forename><surname>Gao</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.chemosphere.2010.03.042</idno>
+		<ptr target="https://doi.org/10.1016/j.chemosphere.2010.03.042" />
+	</analytic>
+	<monogr>
+		<title level="j">Chemosphere</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="592" to="599" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liu Y, Guan Y, Gao Q et al (2010) Cellular responses, biodegradation and bioaccumulation of endocrine disrupting chemicals in marine diatom Navicula incerta. Chemosphere 80:592-599. https://doi.org/ 10.1016/j.chemosphere.2010.03.042</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Analysis of relative gene expression data using real-time quantitative PCR and the 2 -ΔΔCT method</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">J</forename><surname>Livak</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">D</forename><surname>Schmittgen</surname></persName>
+		</author>
+		<idno type="DOI">10.1006/meth.2001.1262</idno>
+		<ptr target="https://doi.org/10.1006/meth.2001.1262" />
+	</analytic>
+	<monogr>
+		<title level="j">Methods</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="402" to="408" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Livak KJ, Schmittgen TD (2001) Analysis of relative gene expression data using real-time quantitative PCR and the 2 -ΔΔCT method. Methods 25:402-408. https://doi.org/10.1006/meth.2001.1262</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">New tricks for an old dog: the evolving world of Hsp70</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">A</forename><surname>Morano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann N Y Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">1113</biblScope>
+			<biblScope unit="page" from="1" to="14" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Morano KA (2007) New tricks for an old dog: the evolving world of Hsp70. Ann N Y Acad Sci 1113:1-14</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">HSP70 gene expression analysis in Dunaliella salina under salt stress</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Mosaviazam</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Ramezani</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">H</forename><surname>Morowvat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Pharmacogn Phytochem Res</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="767" to="770" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mosaviazam B, Ramezani A, Morowvat MH et al (2016) HSP70 gene expression analysis in Dunaliella salina under salt stress. Int J Pharmacogn Phytochem Res 8:767-770</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Hop: more than an Hsp70/Hsp90 adaptor protein</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><forename type="middle">O</forename><surname>Odunuga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">M</forename><surname>Longshaw</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">L</forename><surname>Blatch</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/bies.20107</idno>
+		<ptr target="https://doi.org/10.1002/bies.20107" />
+	</analytic>
+	<monogr>
+		<title level="j">BioEssays</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="1058" to="1068" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Odunuga OO, Longshaw VM, Blatch GL (2004) Hop: more than an Hsp70/Hsp90 adaptor protein. BioEssays 26:1058-1068. https:// doi.org/10.1002/bies.20107</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Expression of cytoprotective proteins, heat shock protein 70 and metallothioneins, in tissues of Ostrea edulis exposed to heat and heavy metals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Piano</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Valbonesi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Fabbri</surname></persName>
+		</author>
+		<idno type="DOI">10.1379/483.1</idno>
+		<ptr target="https://doi.org/10.1379/483.1" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell Stress Chaperones</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="134" to="142" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Piano A, Valbonesi P, Fabbri E (2004) Expression of cytoprotective proteins, heat shock protein 70 and metallothioneins, in tissues of Ostrea edulis exposed to heat and heavy metals. Cell Stress Chaperones 9:134-142. https://doi.org/10.1379/483.1</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Hsp90 regulates the dynamics of its cochaperone Sti1 and the transfer of Hsp70 between modules</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Röhl</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Wengler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Madl</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ncomms7655</idno>
+		<ptr target="https://doi.org/10.1038/ncomms7655" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">6655</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Röhl A, Wengler D, Madl T et al (2015) Hsp90 regulates the dynamics of its cochaperone Sti1 and the transfer of Hsp70 between modules. Nat Commun 6:6655. https://doi.org/10.1038/ncomms7655</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Gene expression profiles of cytosolic heat shock proteins Hsp70 and Hsp90 from symbiotic dinoflagellates in response to thermal stress: possible implications for coral bleaching</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">N</forename><surname>Rosic</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Pernice</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Dove</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s12192-010-0222-x</idno>
+		<ptr target="https://doi.org/10.1007/s12192-010-0222-x" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell Stress Chaperones</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="69" to="80" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rosic NN, Pernice M, Dove S et al (2011) Gene expression profiles of cytosolic heat shock proteins Hsp70 and Hsp90 from symbiotic dinoflagellates in response to thermal stress: possible implications for coral bleaching. Cell Stress Chaperones 16:69-80. https://doi. org/10.1007/s12192-010-0222-x</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Physiological and biochemical responses of the freshwater green algae Closterium ehrenbergii to the common disinfectant chlorine</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Sathasivam</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Ebenezer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">S</forename><surname>Ki</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ecoenv.2016.08.004</idno>
+		<ptr target="https://doi.org/10.1016/j.ecoenv.2016.08.004" />
+	</analytic>
+	<monogr>
+		<title level="j">Ecotoxicol Environ Saf</title>
+		<imprint>
+			<biblScope unit="volume">133</biblScope>
+			<biblScope unit="page" from="501" to="508" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sathasivam R, Ebenezer V, Guo R, Ki JS (2016) Physiological and bio- chemical responses of the freshwater green algae Closterium ehrenbergii to the common disinfectant chlorine. Ecotoxicol Environ Saf 133:501-508. https://doi.org/10.1016/j.ecoenv.2016. 08.004</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The architecture of functional modules in the Hsp90 co-chaperone Sti1/Hop</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">B</forename><surname>Schmid</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Lagleder</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Gräwert</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/emboj.2011.472</idno>
+		<ptr target="https://doi.org/10.1038/emboj.2011.472" />
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="1506" to="1517" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schmid AB, Lagleder S, Gräwert MA et al (2012) The architecture of functional modules in the Hsp90 co-chaperone Sti1/Hop. EMBO J 31:1506-1517. https://doi.org/10.1038/emboj.2011.472</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">DNA damage and oxidative stress induced by endosulfan exposure in zebrafish (Danio rerio)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Dong</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10646-012-0907-2</idno>
+		<ptr target="https://doi.org/10.1007/s10646-012-0907-2" />
+	</analytic>
+	<monogr>
+		<title level="j">Ecotoxicology</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1533" to="1540" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shao B, Zhu L, Dong M et al (2012) DNA damage and oxidative stress induced by endosulfan exposure in zebrafish (Danio rerio). Ecotoxicology 21:1533-1540. https://doi.org/10.1007/s10646-012- 0907-2</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Cloning and analysis of a Trichinella britovi gene encoding a cytoplasmic heat shock protein of 72 kDa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Vayssier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Le</forename><surname>Guerhier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Fabien</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">F</forename></persName>
+		</author>
+		<idno type="DOI">10.1017/S0031182099004461</idno>
+		<ptr target="https://doi.org/10.1017/S0031182099004461" />
+	</analytic>
+	<monogr>
+		<title level="j">Parasitology</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="81" to="93" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vayssier M, Le Guerhier F, Fabien JF et al (1999) Cloning and analysis of a Trichinella britovi gene encoding a cytoplasmic heat shock protein of 72 kDa. Parasitology 119:81-93. https://doi.org/10.1017/ S0031182099004461</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Molecular characterization and expression analysis of copper-zinc superoxide dismutases from the freshwater alga Closterium ehrenbergii under metal stress</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">S</forename><surname>Ki</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/tox.22837</idno>
+		<ptr target="https://doi.org/10.1002/tox.22837" />
+	</analytic>
+	<monogr>
+		<title level="j">Environ Toxicol</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="5" to="14" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang H, Ki JS (2019) Molecular characterization and expression analy- sis of copper-zinc superoxide dismutases from the freshwater alga Closterium ehrenbergii under metal stress. Environ Toxicol 35:5- 14. https://doi.org/10.1002/tox.22837</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Physiological effects of copper on the freshwater alga Closterium ehrenbergii Meneghini (Conjugatophyceae) and its potential use in toxicity assessments</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Sathasivam</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">S</forename><surname>Ki</surname></persName>
+		</author>
+		<idno type="DOI">10.4490/algae.2017.32.5.24</idno>
+		<ptr target="https://doi.org/10.4490/algae.2017.32.5.24" />
+	</analytic>
+	<monogr>
+		<title level="j">Algae</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="131" to="137" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang H, Sathasivam R, Ki JS (2017) Physiological effects of copper on the freshwater alga Closterium ehrenbergii Meneghini (Conjugatophyceae) and its potential use in toxicity assessments. Algae 32:131-137. https://doi.org/10.4490/algae.2017.32.5.24</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">2018) 6.0 K microarray reveals differential transcriptomic responses in the dinoflagellate Prorocentrum minimum exposed to polychlorinated biphenyl (PCB)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">S</forename><surname>Ki</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.chemosphere.2017.12.066</idno>
+		<ptr target="https://doi.org/10.1016/j.chemosphere.2017.12.066" />
+	</analytic>
+	<monogr>
+		<title level="j">Chemosphere</title>
+		<imprint>
+			<biblScope unit="volume">195</biblScope>
+			<biblScope unit="page" from="398" to="409" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang H, Guo R, Ki JS (2018) 6.0 K microarray reveals differential transcriptomic responses in the dinoflagellate Prorocentrum minimum exposed to polychlorinated biphenyl (PCB). Chemosphere 195:398-409. https://doi.org/10.1016/j. chemosphere.2017.12.066</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">NIES-collection list of strains</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Watanebe</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000" />
+			<pubPlace>Tsukuba</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>National Institute for Environmental Studies Environment Agency Japan</orgName>
+		</respStmt>
+	</monogr>
+	<note>6th edn</note>
+	<note type="raw_reference">Watanebe S (2000) NIES-collection list of strains, 6th edn. National Institute for Environmental Studies Environment Agency Japan, Tsukuba</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Active biomonitoring in freshwater environments: early warning signals from biomarkers in assessing biological effects of diffuse sources of pollutants</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Wepener</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jhj</forename><surname>Van Vuren</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">P</forename><surname>Chatiza</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pce.2005.08.018</idno>
+		<ptr target="https://doi.org/10.1016/j.pce.2005.08.018" />
+	</analytic>
+	<monogr>
+		<title level="j">Phys Chem Earth</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="751" to="761" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wepener V, van Vuren JHJ, Chatiza FP et al (2005) Active biomonitoring in freshwater environments: early warning signals from biomarkers in assessing biological effects of diffuse sources of pollutants. Phys Chem Earth 30:751-761. https://doi.org/10.1016/j.pce.2005.08.018</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Characterization of a plant homolog of hop, a cochaperone of hsp90</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">K</forename><surname>Quick</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">C</forename><surname>Kanelakis</surname></persName>
+		</author>
+		<idno type="DOI">10.1104/pp.011940</idno>
+		<ptr target="https://doi.org/10.1104/pp.011940" />
+	</analytic>
+	<monogr>
+		<title level="j">Plant Physiol</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page" from="525" to="535" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang Z, Quick MK, Kanelakis KC et al (2003) Characterization of a plant homolog of hop, a cochaperone of hsp90. Plant Physiol 131: 525-535. https://doi.org/10.1104/pp.011940</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title level="m" type="main">Publisher&apos;s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Publisher&apos;s note Springer Nature remains neutral with regard to jurisdic- tional claims in published maps and institutional affiliations.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

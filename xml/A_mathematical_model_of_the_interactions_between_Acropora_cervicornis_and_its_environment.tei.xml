@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/grace/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A mathematical model of the interactions between Acropora cervicornis and its environment</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2019-05-28">28 May 2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aniel</forename><surname>Nieves-González</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Statistics &amp; Computerized Information Systems</orgName>
+								<orgName type="institution">University of Puerto Rico</orgName>
+								<address>
+									<addrLine>Río Piedras</addrLine>
+									<settlement>Puerto Rico</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Claudia</forename><forename type="middle">P</forename><surname>Ruiz-Diaz</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Environmental Sciences</orgName>
+								<orgName type="institution">University of Puerto Rico</orgName>
+								<address>
+									<addrLine>Río Piedras</addrLine>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">Puerto Rico c Sociedad de Ambiente Marino</orgName>
+								<address>
+									<settlement>Puerto Rico</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Carlos</forename><surname>Toledo-Hernández</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Juan</forename><forename type="middle">S</forename><surname>Ramírez-Lugo</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Biology</orgName>
+								<orgName type="institution">University of Puerto Rico</orgName>
+								<address>
+									<addrLine>Río Piedras</addrLine>
+									<settlement>Puerto Rico</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A mathematical model of the interactions between Acropora cervicornis and its environment</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2019-05-28">28 May 2019</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.ecolmodel.2019.04.004</idno>
+					<note type="submission">Received 20 December 2018; Received in revised form 30 March 2019; Accepted 4 April 2019 ⁎ Corresponding author.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-09-14T02:41+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Acropora cervicornis Dynamical system Lyapunov stability</keywords>
+			</textClass>
+			<abstract>
+				<p>Environmental factors associated with climate change such as increasing sea surface temperature (SST) and solar radiation (SR) have negatively impacted corals throughout their geographic ranges. One such coral, which has been seriously impacted by these stressors, is the staghorn coral Acropora cervicornis. To reduce the effects of such stressors, this coral utilizes fluorescent proteins (FPs) and melanin (M). These constitutive immune components quench reactive oxygen species (ROS) produced during thermal stress and absorb or reflect potentially damaging light. The synthesis of these components are, nonetheless, energetically costly. Hence, production of these protective compounds may be traded-off against other vital functions such as growth. In this study we develop a mathematical model, viz., a system of ordinary differential equations that simulates the growth of A. cervicornis branches under different regimes and combinations of SST and SR. The model assumes that polyps are the functional unit of the coral and that the concentration of FPs and M are inversely proportional to SST and SR intensity. To develop the model we use empirical (birth and mortality rate of polyps and the maximum number of polyps per unit area) and theoretical parameters (concentration of FPs, M produced, and trade-offs with growth). The model simulates how changes in FPs and M due to environmental changes affect the growth capacity of A. cervicornis. The model as well as its stability analysis show that polyp growth is affected by SR and SST. Hence, the model will help in understanding how corals will respond to future changes in climate.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Global climate change is having a profound and potentially devastating effect on many marine environments including coral reef ecosystems. Climate change is primarily associated to the atmospheric deposition of carbon dioxide (CO 2 ) among others greenhouse gases. A direct consequence of this accumulation of greenhouse gases in the atmosphere is the increase of sea surface temperature (SST). There is compelling evidence that points towards an increase of 0.4-0.74°C in the mean global SST during the past century <ref type="bibr" target="#b10">(Hoegh-Guldberg et al., 2007)</ref>. Likewise, solar radiation (SR) reaching the Earth's surface in its different wavelengths, e.g. ultraviolet radiation (UV) and photosynthetic active radiation (PAR), has also increased, partly as a result of ozone layer depletion <ref type="bibr" target="#b7">(Häder et al., 2007)</ref>. Rising SST and increased SR are physiological stressors to marine organisms; such stressors, when severe, might jeopardize vital functions such as growth, reproduction, and the capacity to fight diseases, thereby threatening the viability of coral reef populations.</p><p>Reef building corals are particularly vulnerable to SST and SR. Slight increments in temperature (≈1°C, over the average summer temperature), in conjunction with elevated radiation, have caused large-scale coral bleaching <ref type="bibr" target="#b10">(Hoegh-Guldberg et al., 2007;</ref><ref type="bibr" target="#b18">Lesser et al., 1990)</ref>. Coral bleaching is the phenomenon by which corals lose their algal endosymbionts or the algal pigments degrade <ref type="bibr" target="#b13">(Iglesias-Prieto et al., 1992)</ref>. Moreover, the aforementioned environmental stressors may also promote coral diseases, which also reduce the corals's capacity to growth, reproduce, and survive.</p><p>To minimize or at least reduce the negative impact of SST and SR, corals have developed a suite of immune mechanisms, including the syntheses of pigments such as fluorescent proteins (FPs) and melanin (M). FPs and M are ubiquitous to corals; thus, they are primary constituents of coral's innate immune system <ref type="bibr" target="#b26">(Roth et al., 2010)</ref>. In general, these immune constitutive pigments possess multiple functions within corals. These chemical compounds have photoprotective properties as they scatter light and absorb potentially harmful high-energy radiation <ref type="bibr" target="#b27">(Salih et al., 2000;</ref><ref type="bibr" target="#b22">Palmer et al., 2010;</ref><ref type="bibr" target="#b20">Mydlarz and Harvell, 2007)</ref>, and also have the capacity to quench reactive oxygen species (ROS), which dramatically increase under high levels of abiotic stressors, leading to coral bleaching.</p><p>As is in the case of other living organisms, corals have a finite amount of resources to be allocated into a multitude of vital functions, e.g., immune defense and growth among others. Given these resource constraints, the allocation of resources into a vital function such as immune defense will be traded-off against other vital functions such as growth. Several studies conducted on corals support this paradigm. For instance, <ref type="bibr" target="#b22">Palmer et al. (2010)</ref> compared the activity of phenoloxidase (PO), an enzyme involved in M biosynthesis, with the number of amoebocyte-containing M granules (melanocytes) of two scleractian corals, Porites sp. and Acropora millepora. That study revealed that Porites sp. invests considerably more resources into the aforementioned immune constituent than A. millepora, as it exhibited higher numbers of melanocytes than A. millepora. This investment of resources into immunity provides Porites with higher disease and bleaching resistance. By contrast, acroporids allocate more resources into growth, when compared to Porites, as acroporid corals may growth several cm in length per month, whereas porites corals may growth several cm per year <ref type="bibr" target="#b22">(Palmer et al., 2010)</ref>. However, for acroporids the rather rapid growth is traded-off at a cost in reduced immunity, as acroporids are among the corals most susceptible to bleaching and disease.</p><p>Corals rely on a suite of immune constituents, including pigments such FPs and M, to protect against the threat of bleaching. FPs and M are ubiquitous to corals and serve as primary constituents of corals's innate immune system due to their multiple functions <ref type="bibr" target="#b26">(Roth et al., 2010)</ref>. FPs, for instance, have photoprotective properties as they scatter light and absorb potentially harmful high-energy radiation <ref type="bibr" target="#b27">(Salih et al., 2000)</ref>. FPs also have the capacity to quench reactive oxygen species (ROS), which dramatically increase under high levels of abiotic stressors, leading to coral bleaching. As in the case of FPs, M provides corals with photoprotection as well as it scatters and absorbs over 50-70% of harmful radiation such as UV radiation. M is commonly found in a corals epithelial cells, creating a physical barrier to prevent and/or reduce harmful impact of radiation. In addition, M plays an important role in the inflammatory responses such as wound healing processes and the response to pathogens <ref type="bibr" target="#b22">(Palmer et al., 2010)</ref>. As both FP and M are components of the response to the same environmental stressor, i.e., SR and SST, we infer that the degree of each response is proportional to the insult.</p><p>The objective of this study is to present and analyze a mathematical model which consists of a system of ordinary differential equations (ODE), that simulates the immune response of A. cervicornis under a finite resource budget scenario and different SST and SR regimes. The mathematical model embodies a set of assumptions and hypotheses. Such assumptions and hypotheses can be examined by comparing the model results (simulations) with the observed behavior of the system that is simulated. Furthermore, although the model is an abstraction of the biological system under consideration, this model sufficiently captures the interaction between the coral and its environment; so, it helps to better understand the impact of environmental challenges within the coral. Thereby, the model could be used to design better conservation policies or strategies to preserve corals, i.e., it could be used as a conservation tool.</p><p>We have chosen A. cervicornis coral as our biological model for two reasons:</p><p>1 Throughout their geographical extent, A. cervicornis populations have suffered unprecedented population declines. These declines have motivated the implementation of several local and regional protection initiatives such as the inclusion of this coral species onto the US Endangered Species Act (ESA) and the Red List of Critically Threatened Species (RLCT). 2 Being in such precarious population state, have motivate us to study the effect of SST and SR on the syntheses of FPs and M, and on its growth rate. Thus, some of the parameters described on this model have been empirically estimated.</p><p>This paper is organized in the following way: In Section 2, we state the model assumptions, describe the mathematical model, and the model parameters. Section 3 is about the asymptotic stability analysis of the model, thus, we focus on how the model behaves as time increases to infinity. In that section we also compute the equilibrium points analytically and assess their stability using different methods such as linearization of the ODE system and Lyapunov function. In Section 4 we present simulations results under different environmental conditions determined by the model parameters and initial conditions. Results regarding the structural stability of model are also presented in Section 4. We discuss the results in Section 5. For completeness' sake, we provide, in the Appendix, details about the mathematical concepts that were used for the analysis of the model.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Mathematical model</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Model assumptions</head><p>The following set of assumptions allow us to construct a model that simulates changes in A. cervircornis's growth and immune system elements as a function of environmental changes.</p><p>1 A. cervircornis corals, as all living organisms, have a finite amount of resources (including energy) to be allocated into several vital functions such as somatic growth (the increase in number of polyps), or immune defenses. Given these resource constraints, the allocation of resources into any given life history trade, will be traded-off against others live history traits. 2 The syntheses of M and FP require the same amount of resources; for both, M and FP, the behavior in terms of synthesis is similar. 3 FP and M are synthesized within the polyps, which are the basic units of coral. 4 Corals have a logistic somatic growth. 5 SST and SR exert a similar stress to the coral and these affect both immune system constituents (M and FP) in a similar way, i.e., as SST and SR increases, the synthesis of M and FP decreases. 6 SST and SR vary at the same rate with respect to water depth <ref type="bibr" target="#b17">(Lee et al., 2005)</ref>. 7 The effects of the two environmental variables, SST and SR, on coral polyps are embodied in the functions F d (˜)'s, where d represents normalized water depth. Normalized depth is defined as the ratio of depth to maximum depth where A. cervicornis grows, i.e.,</p><formula xml:id="formula_0">= d d d / max .</formula><p>The maximum depth is 30 m according to the work of <ref type="bibr" target="#b24">Pang (1973)</ref>. 8 Based on the limiting resource theory, F d</p><p>1 affect the number of polyps. As depth increases the number of polyps decreases.</p><formula xml:id="formula_2">Likewise, F d (˜) 2 and F d (˜) 3</formula><p>affect the syntheses of FP and M respectively. As depth increases the syntheses of FP and M concentration increases. 9 F d</p><p>1 must be a positive, decreasing, and continuous functions of d.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>F d (˜)</head><p>i i = 2, 3 must be positive, increasing, and continuous functions of d. 10 Based on how SST and SR vary with depth (SR according to <ref type="bibr" target="#b17">Lee et al. (2005)</ref>) we defined the environmental functions as</p><formula xml:id="formula_4">= F d c e ( ) = F d e (˜) f d 2˜(1b) = F d e (˜) m d 3˜(1c)</formula><p>where c 1 , c 2 , β f , and β m are constants. 11 Changes in FP and M concentration are the main responses of the coral's immune system to environmental stress. Albeit other responses could possibly change the concentration of FP and M, these immune constituents are sufficient to describe the coral's reaction to environmental stress.</p><p>Based on these assumptions we constructed a mathematical model that consists of a system of ordinary differential equations (ODE). <ref type="figure" target="#fig_1">Fig. 1</ref> shows a schematic diagram of the model. Observe in the figure that given a finite energy budget, at greater depth -depth being a proxy for SST and SR-less resources are dedicated to polyp growth. Ergo polyp growth is reduced whereas FP and M concentration is increased.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Model equations</head><p>We constructed a model that simulates the growth of A. cervicornis coral with SST and SR changing accordingly to the depth profile as follows:</p><formula xml:id="formula_5">= + x t F d x x x x x x ( ) ( ) (1 ) ( ) a a af am 1 1 1 1 1 2 3 1 (2a) = + x t F d x x x x x x ( ) ( ) ( ) f f m 2 2 2 1 2 1 3 2 (2b) = + x t F d x x x x x x ( ) ( ) ( ) m mf 3 3 3 1 3 1 2 3 (2c)</formula><p>where x represents the growth of A. cervicornis coral (in units of polyps per cm 3 ), x 2 and x 3 represent FP and M concentrations in mmoles/cm 3 . The parameters are: act as modifiers of the synthesis rate of FP and M, respectively. Moreover, for the stability and bifurcation analysis, the exact form of the functions is unimportant as long as they satisfy model Assumption 9 (Section 2.1). The values for the c i in Eq. <ref type="formula" target="#formula_24">1</ref>were determined by fitting the functions to polyp's birth rate data, as explained in Section 2.3. Furthermore, the c i s must be positive, because of the conditions that the environmental functions must satisfy (see Section 2.1). β f and β m represent the syntheses rate of FP and M respectively; their values are in <ref type="table" target="#tab_1">Table 1</ref>.</p><formula xml:id="formula_6">d, δ a , κ a , δ f , δ m , δ af , δ</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.1.">Normalized model equations</head><p>In order to facilitate the process of numerically solving the model equations (Eq. (2)) and their interpretation we normalize the model by letting y</p><formula xml:id="formula_7">1 (t) = x 1 (t)/κ a , = y t x t x ( ) ( )/ 2 2 2 max , and = y t x t x ( ) ( )/ 3 3 3</formula><p>max where x 2 max and x 3 max are the maximum (saturation) concentration of fluorescent protein and melanin respectively. Thereby the model becomes   The empirical values are reported as 95% confidence interval (i.e., arithmetic mean plus-minus margin of error using t distribution). b Some simulations required that we had to change these values (see Section 4).</p><formula xml:id="formula_8">= + y t F d y y y y y y ( ) ( ) (1 ) ( * * ) a af am 1 1 1 1 1 2 3 1 (3a) = + y t F d y y y y y y ( ) * ( ) ( * * ) f f m 2 2 2 1 2 1 3 2 (3b) = + y t F d y y y y y y ( ) * ( ) ( * * ) m mf 3 3 3 1 3 1 2 3 (3c) where = x * af a f max , = x * am am 3 max , = = F d F d e * (˜) (˜) a a f d 2 2˜, = * f f a , = x * f m f m 3 max , = = F d F d e * (˜) (˜)</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Parameters</head><p>The model has two parameters sets: those that were estimated empirically and the theoretical parameters. The empirical parameters are: β a , δ a , and κ a . We emphasize that the values of β a are used to fit the parameters for the environmental function, i.e., c 1 and c 2 . The theoretical normalized parameters are: * f , * f , * m , * m , and d. <ref type="table" target="#tab_1">Table 1</ref> presents the baseline parameter values used in the simulations. The empirical parameters were measured at two depths: 4.572 and 12.19 m. Henceforth, we define the 4.572 m group of measurements as shallow group, and the 12.12 m group of measurements as deep group.</p><p>2.3.1. Empirical parameters 2.3.1.1. Estimation of fluorescent proteins (FPs) concentration. To estimate FP we collected fragments from 20 colonies which were raised in nursery farms located at two depths (10 fragments per depth). Once collected each fragment was frozen and stored for further FPs analyses through the spectral emission of these proteins following <ref type="bibr" target="#b23">Palmer et al. (2009)</ref>, with slight modification. Each frozen coral fragment (e.g., the growing tips of the fragments) was airbrushed individually to separate soft tissue from skeleton using a phosphate extraction buffer (50 mM phosphate buffer, pH 7.8 with 0.05 mM dithiotheitol) and individually collected into sterile tubes. The crude extract was subsequently homogenized using a Fisher Scientific PowerGen 125 Tissue Homogenizer with a medium saw tooth tip for 30 s at low power. The homogenized tissue slurry was then centrifuged at 4°C at 1900 × g for 5 min. The supernatant was aliquoted and stored at −20°C. To measure FPs concentration, 30 μL of the extracted samples was placed in a black 96-well plate, along with a control sample (buffer-only well). Triplicates of each sample were excited using a Infinite 200 Pro Multimode Microplate Reader at 410, 470 and 520 nm and the emission spectra measured from 400 nm to 850 nm at 5 nm intervals. Relative fluorescence and absorbance of each sample was normalized to total protein concentration determined using Bradford Reagent and measuring absorbance at 595 nm.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.1.2.">Estimation of PO as a proxy for melanin (M) concentration.</head><p>PO enzymatic activity was quantified as PO. PO is an enzymatic precursor of melanin <ref type="bibr" target="#b21">(Palmer et al., 2011)</ref>. We used the stored tissue portion obtained for FPs biochemical analysis, and we processed it as explained by <ref type="bibr" target="#b21">Palmer et al. (2011)</ref> with slight the modifications described above. PO activity was determined by adding 20 μL of the extracted coral sample to a 96-well plate, in addition to 40 μL of 50 mmol•L −1 phosphate buffer, pH 7.8 and 25 μL of double distilled water (ddH 2 O). After incubating at room temperature for 20 min 30 μL of a 10 mmol•L −1 dopamine hydrochloride solution was added as a substrate and the change in absorbance of the reaction was monitored every 5 min for 45 min using a BioTek ELx808 Absorbance Microplate Reader at 490 nm. The change in absorbance for the linear portion of the reaction curve was used to determine PO activity. Control reactions under the same condition but with 70 μL of 50 mmol•L −1 phosphate buffer, pH 7.8, and no substrate was run in parallel. PO activity was normalized to total protein concentration in each sample. Total protein concentration of the extracted coral sample was determined using Bradford Reagent and measuring absorbance at 595 nm utilizing the same protocol described above.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.1.3.">Maximum growth capacity of polyps (κ a )</head><p>. A. cervicornis branches are cylindrical in shape and relatively uniform in diameter at the base of each individual branch within the same colony. Furthermore, across all branches, the polyp corallite (the skeletal cup in which each independent polyp sits) is highly visible to the unassisted vision. Taking into consideration these branch features, we mapped the number of polyps within a cylinder-like branch to a volume of 1 cm . To accomplish this we first fitted a paraffin ribbon of 1 cm in height around the branch and counted the number of marks left on the ribbon by the corallites in the branches. Thereafter, we measured the diameter of the branch were the ribbon was fitted with a caliper to estimate the volume of the cylinder-like branches with a height 1 cm. Afterward, we divided the number of corallite marks (the equivalent to the number of polyps counted in 18 genetically distinct branches) by the cylinder volume of that branch to estimate the number of polyps per cm 3 . Finally, we calculated the maximum capacity of polyps in one cm (κ a ) by averaging all the estimated number of polyps within 1 cm 3 of tissue.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.1.4.">Birth rate of polyps (β a )</head><p>. Inasmuch as in our model (Eqs. <ref type="formula" target="#formula_24">1</ref></p><formula xml:id="formula_9">-(2)) the environmental function F d (˜) 1</formula><p>acts as a modifier of β a , then is crucial to estimate β a at different depths. To estimate β a we tracked the changes in length of 245 A. cervicornis colonies located at water depths shallow and deep throughout a year; then we determined the number of new polyps occurring within each length increment to estimate the maximum capacity of polyps within 1 cm 3 of tissue. The growth rate of each colony was estimated by taking high-resolution digital images of each colony at monthly intervals for one year. Besides, in the laboratory, we used the software program Coral Point Counter Excel (CPCe <ref type="bibr" target="#b14">Kohler and Gill, 2006)</ref> to estimate the total length (in cm) of each fragment. The total length was further used to estimate the volumes of each of the colonies at the start (V i ) and at the end (V f ) of the study using the expression for the volume of a cylinder with constant radius r and length (height) L k :</p><formula xml:id="formula_10">= = V r L k i f , . k k 2 (4)</formula><p>The subscript in L k and V k , denote the total length and volume of the fragment at the start (i, initial) and at the end of the study (f, final). The radius r was estimated by measuring with a caliper the fragment diameter of the 18 colonies previously used to estimate κ a , L i , and L f . Finally, we used the volumes of each fragment to compute β a in units of days −1 per fragment using the following equation:</p><formula xml:id="formula_11">= V V 364 , a f i<label>(5)</label></formula><p>where α = 1 is a constant in units of cm −3 , V i and V f are the estimated volumes (vide supra) and 364 is the elapsed time (in days) between the start and end of the study. Observe that Eq. (5) is the average growth rate over the time interval <ref type="bibr">[0,</ref><ref type="bibr">364]</ref>. After estimating β a at different depths (shallow and deep), we proceeded to test the assumption that, indeed, β a changes with depth. Furthermore, we also needed to statistically test the claim, embodied by</p><formula xml:id="formula_12">F d (˜) 1</formula><p>(Eq. (1a)), that β a decreases with depth. Such claim is crux to the idea that SST and SR affect polyp's growth. A t-test was used to test for equality of mean β a for the two depth groups. The normality assumption was verified by conducting a normal quantile plot. The equal variance assumption was shown to be false by conducting Bartlett's test. The t-test for equality of means (assuming unequal variances) yielded a P-value = 3.145 × 10 −5 , statistically showing that β a decreases as depth increases.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.1.5.">Death rate of polyps (δ a ).</head><p>To estimate death rate of polyps we selected 223 colonies that exhibited negative growth (shrinking) in at least one month during a one year monitoring period. We identified the shrinking month and estimated the amount of life tissue lost by subtracting the estimated length of that colony during the month prior to shrinking to the estimated growth during the month of shrinking. Then, we followed the same protocol used in the birth rate estimation, to calculate the number of polyps lost in one cubic centimeter. Similar to birth rate of polyps we tested the data for equality of means using a Wilcoxon test. Yet, in this case analysis yielded no statistical differences (P-value= 0.9535) suggesting that δ a does not changes with depth. The estimated value is in <ref type="table" target="#tab_1">Table 1</ref>. to birth rates measured at shallow and deep depths. The fitting algorithm that we used was the Levenberg-Marquardt as implemented in the MATLAB® computing platform. We ran algorithm for a set of 10000 randomly generated (uniformly) initial guesses. The values obtained as solutions of the curve fitting problem are: c 1 = 1.1571 (unitless) and c 2 = 0.1532 (in units of day −1 ). We reiterate that, strictly speaking, ocean depth is another model parameter that acts as a proxy for SR and SST.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Initial conditions</head><p>Different initial conditions for the ODE system (2) were chosen to conduct different simulations (see Section 4). The overall rationale was to take initial values from a set of typically observed values for number of polyps, FP and M concentrations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Stability analysis (asymptotic)</head><p>The goal in this section is to elucidate the behavior of the model as t → ∞, i.e., how the model equations behave in the "long run". To accomplish this we calculated the nullclines and the equilibria of system (2), and study the Lyapunov or asymptotic stability of such equilibria.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Equilibrium points</head><p>Let g(x(t), μ) be the right-hand side (RHS) of the ODE system <ref type="formula">2</ref>where μ is a tuple with the 12 model parameters. Thereby, system (2) can be written as</p><formula xml:id="formula_13">= µ t t x g x ( ) ( ( ), )</formula><p>, and the equilibrium points are defined as the solutions of g(x(t), μ) = 0. It is important to mention that the results given below do not assume the exact form of the environmental functions in Eq. <ref type="formula" target="#formula_24">1</ref>, but rather that the functions satisfy the assumptions in Section 2.1. Moreover, for simplicity's sake, we omit the arguments of the environmental functions, i.e., F i denotes F d (˜) i for i = 1, 2, 3. Also, in order to simplify the algebra we define</p><formula xml:id="formula_14">= = = p F p F p F , ,</formula><p>and .</p><formula xml:id="formula_15">a f m 1 1 2 2 3 3<label>(6)</label></formula><p>3.1.1. Equilibrium points The equilibria of the ODE system (2) are obtained by setting its RHS side to zero, i.e., g(x(t), μ) = 0 and solving the nonlinear system by considering different cases. The expressions for the nullclines (the details are on Appendix A) embodied those cases. Hence, the equilibrium points of Eq. (2) are: (8) and the p i , i = 1, 2, 3 are defined in Eq. (6). The origin, i.e., Eq. (7a), is trivially obtained whenever x 1 = 0. Eq. (7b) is obtained when x 1 ≠ 0 and x 2 = x 3 = 0 (see expression in (A.3)). The expression in Eq. (7c) is obtained by setting x 1 ≠ 0, x 2 ≠ 0, and x 3 ≠ 0 and substituting expressions in Eqs. (A.2) and (A.1) into expression in Eq. (A.3).</p><formula xml:id="formula_16">= x * (0, 0, 0) T 1 (7a) = F p x * , 0, 0 a T 1 1 2 (7b) = p p p x * ( , , ) a f m mf f m mf T 1 3 2 3 (7c) = C C C x * (0, 0, ) T 4 (7d) = B B B x * (0, , 0) T 5<label>(7e)</label></formula><p>An equilibrium point is biologically feasible when all of its entries are nonnegative, i.e., whenever it is in the first octant. Observe that x *1 is biologically feasible. x *2 (Eq. (7b)) is biologically feasible whenever p 1 ≥ 0. Owing to the complexity of the algebraic expression that constitute x *3 (Eq. (7c)), then the biological feasibility of x *3 must be assessed with caution. Hence, we consider the following cases:</p><p>1 If p 1 ≥ 0, p 2 ≥ 0, and p 3 ≥ 0, then x *3 is biologically feasible. 2 If p 1 &lt; 0 or p 2 &lt; 0, or p 3 &lt; 0, then we have the following subcases: (a) If p 1 &lt; 0, then Δ &lt; 0 in order to obtain a positive first component of x *3 which in turns implies p 3 &gt; 0, and p 2 &gt; 0 in order to obtain positive second and third components of x *3 . But observe that this leads to a contradiction because if p 3 &gt; 0, and p 2 &gt; 0 then by definition of Δ (Eq. (8)), Δ &gt; 0. (b) If p 2 &lt; 0, then p 1 Δ −1 &lt; 0. But this leads to a biologically unrealistic solution because the first component in Eq. (7c) must be nonnegative. (c) Similarly, if p 3 &lt; 0, then p 1 Δ −1 &lt; 0. But this leads to an biologically unrealistic solution because the first component in Eq. (7c) must be nonnegative. (d) All other possible subcases also lead to biological unrealistic solutions.</p><p>Thereby, components of solution x *3 are nonnegative only if p 1 ≥ 0, p 2 ≥ 0, and p 3 ≥ 0.</p><p>Moreover, observe that since the first entry of x *3 and x *4 is zero (see Eqs. (7d)-(7e)) we regard them as biologically unrealistic.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Local stability analysis</head><p>Here, we elucidate the stability of the equilibria computed in Section 3.1. To do so we calculate the Jacobian matrix of Eq. <ref type="formula">2</ref>and determine whether each of the equilibrium points are hyperbolic . This analysis is local because it focus in trajectories (solutions of Eq. <ref type="formula">2</ref> </p><formula xml:id="formula_17">= + + Dg F x x x (1 ) ( ) a a af am 11 1 1 2 3 (10a) = Dg p x x f m 22 2 1 3 (10b) = Dg p x x . mf 33 3 1 2 (10c)</formula><p>3.2.1. Stability of x *1 (the origin) At x *1 the Jacobian matrix becomes upper triangular and its eigenvalues are p 1 and 0 (with two zero eigenvalues). Ergo, we conclude that the origin is a nonhyperbolic equilibrium and its stability cannot be assessed with the linearization of Eq. (2) (i.e., Hartmann-Grobman theorem does not apply <ref type="bibr" target="#b19">(Meiss, 2008)</ref>).</p><p>Thus, we proceed to study its stability by constructing a Lyapunov function and applying the LaSalle invariance principle <ref type="bibr" target="#b15">(LaSalle, 1960)</ref>. A similar approach has been used by other investigators to assess the stability of other ecological models <ref type="bibr" target="#b11">(Hsu, 1978;</ref><ref type="bibr" target="#b12">Hsu and Huang, 1995)</ref>. For completeness' sake we explain in Appendix D the concept of Lyapunov function and LaSalle invariance principle.</p><p>Now, we state that x *1 is an asymptotically stable equilibrium whenever p 1 &lt; 0, p 2 &lt; 0, and p 3 &lt; 0. These conditions on the parameters are the main assumptions of Proposition 3.1 (vide infra). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.2.">Stability of x *2</head><p>x *2 is given by Eq. (7b). The Jacobian matrix evaluated at x *2 is upper triangular and its eigenvalues are: −p 1 , p p (p i s are defined in Eq. (6)). Observe that x *2 is hyperbolic if p 1 ≠ 0 and p 2 ≠ 0 and p 3 ≠ 0. In such case, then the stability of x *2 is established as follows:</p><p>1 If p 1 &gt; 0, p 2 &lt; 0, and p 3 &lt; 0, then x *2 is asymptotically stable (an attractor or sink). In this case the real part of all eigenvalues is negative. 2 If p 1 &lt; 0, p 2 &lt; 0, and p 3 &lt; 0, then x *2 is a repulsor (source). In this case the real part of all eigenvalues is positive. 3 x *2 is a saddle point if it is still hyperbolic but none of the previous conditions hold.</p><p>In the case of x *2 being nonhyperbolic, the stability of x *2 must be assessed through the Lyapunov function technique used to study the stability of x *1 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.3.">Stability of x *3</head><p>x *3 is given in Eqs. (7c)-(8). The Jacobian matrix evaluated at</p><formula xml:id="formula_18">x *3 is = D A g x ( * ) x p a 3 1 , where = A F p p p p p p 1 0 0 . a f m mf af f m mf am f m mf f m f m mf mf 1 2 3 2 3 2 3 2 2<label>(11)</label></formula><p>Moreover, the eigenvalues of D x g(x *3 ) are 1 . Also, the coefficients of the characteristic polynomial in Eq. (12) satisfy the following conditions: 1 b &gt; 0 because all the parameters and the environmental functions are positive. 2 The expression p 2 p 3 δ mf δ fm &gt; 0 because the δs are always positive and in order for x 3 to be biologically feasible, p 2 &gt; 0 and p 3 &gt; 0. Ergo, the sign of c is determined by the expression δ mf δ fm − δ af δ fm − δ am δ mf . 3 d &lt; 0 since the δs are positive and in order to have a biologically feasible x *3 then p 2 &gt; 0, p 3 &gt; 0, and Δ &gt; 0.</p><p>The solutions of Eq. (12) are given by Cardano and Tartaglia's formulae; if we take b &gt; 0 and d &lt; 0 the formulae simplify (we used Mathematica ® to obtain the simplified expressions) to expressions for which are difficult to assess the signs of the real part of such solutions to study the stability of x *3 . In Appendix C we state a list of remarks from which we infer Proposition 3.2. The proof of the proposition is also in Appendix C. The assumptions on that proposition comprise the stability conditions of x *3 . Proposition 3.2 can be modified by adding the assumption that inequality (C.2) holds true. In that case, x *3 is a saddle equilibrium point. The reason for this is that according to the Gershgorin disc theorem <ref type="bibr" target="#b25">(Quateroni et al., 2007;</ref><ref type="bibr" target="#b4">Geršgorin, 1931)</ref> the union of the Gershgorin discs (Eq. (C.1)) contains the eigenvalues of A. Furthermore, inequality (C.2) ensures that R 1 and R 2 ∪ R 3 are disjoint, ergo R 1 must contain a real negative eigenvalue. Thus, by the Descartes's rule of signs, one of other two remaining eigenvalues must be a negative real number and the other a positive one. Therefore, x *3 is a saddle equilibrium point. It is noteworthy that if any of the eigenvalues (solutions of Eq. (12)) is zero or have a zero real part, then the stability of x *3 cannot be assessed by inspecting the eigenvalues of the Jacobian matrix at x *3 , but rather by constructing a Lyapunov function.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.4.">Stability of x *4 and x *5</head><p>x *4 is given by Eq. (7d). The Jacobian matrix evaluated at x *4 is a lower triangular matrix with eigenvalues p 1 − δ am C, −δ fm C, and 0 where C . Because of the 0 eigenvalue, we cannot use the linearization of Eq. (2) to assess the stability of x *4 . Two modifications to Proposition 3.1 yield the stability conditions for x *4 . The modifications are: that the Lyapunov function is redefined as</p><formula xml:id="formula_19">= V x x x ( ) * 1 2 2</formula><p>, and that it is also assumed that x 3 (0) − C &lt; 0 where C &lt; l 3 and l 3 is the maximum concentration of M in a fixed volume of coral. This yields another proposition whose proof is analogous to Proposition 3.1. The assumptions of such proposition are indeed the stability conditions. x *5 is given by Eq. (7e), and its stability conditions are analogous to those of x *4 . <ref type="table">Table 2</ref> summarizes the stability conditions of the equilibrium points.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Results</head><p>We numerically solved the model (Eq. (2)) using the numerical differentiation formulas (NDF) as implemented in MATLAB ® . Details about the NDF are in <ref type="bibr" target="#b25">Quateroni et al. (2007)</ref>, <ref type="bibr" target="#b28">Shampine and Reichelt (1997)</ref>. <ref type="figure" target="#fig_9">Figs. 6 and 8</ref> were done using the Mathematica ® platform. The computing resource was a Linux workstation with 40 computing cores and 128 GB of memory.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Results for different parameters configurations</head><p>We show simulations that correspond to different parameter configurations that satisfy the various stability conditions for the equilibria that were obtained in Section 3. The initial condition in this set of simulations was (0.0897, 0.1, 0.1) T (this was with the normalized model).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.1.">An asymptotically stable x *1</head><p>In Proposition 3.1 we stated the conditions for asymptotic stability of x *1 (see also <ref type="table">Table 2</ref>). <ref type="figure">Fig. 2</ref> shows a simulation in that such stability condition is met. In this case we had to set = e 0.9 , and the value given by F 1 was set to 90% of δ a . Note in <ref type="figure">Fig. 2</ref> that x *1 , which can be interpreted as total extinction of the polyp's population, is an attractor. Thus, under the mentioned parameter configuration if the IC is "close" (in the 2-norm sense) to x *1 , then the polyp's population (solution of Eq. (2)) evolves towards extinction.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.2.">An asymptotically stable x *2</head><p>In Section 3 and <ref type="table">Table 2</ref> we gave the stability conditions x *2 . <ref type="figure">Fig. 3</ref> 2 A saddle equilibrium occurs whenever all the eigenvalues of D x g(x *3 ) have nonzero real part, but they do not have the same sign. This means that there are some trajectories that start "close" to x *3 and stay "close" to x *3 as t → ∞</p><p>(footnote continued) whereas other trajectories start "close" to x *3 but go farther away from x *3 as t → ∞.</p><p>shows a simulation in which such stability condition is satisfied. Hence, we set = e 0.9 f f d , and = e 0.9 m m d (the condition p 1 &gt; 0 is satisfied using the parameters in <ref type="table" target="#tab_1">Table 1</ref>). <ref type="figure">Fig. 3</ref> shows that, indeed, x *2 (Eq. (7b)) is an attractor or sink for the parameter configuration given above. Note that x *2 is not biologically realistic because it is expected that some amount of FP and M is going to be present under all circumstances except after polyp's death.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.3.">x *3 is a saddle equilibrium</head><p>In Section 3 we concluded that x *3 is either a saddle or an unstable equilibrium whenever the conditions in Proposition 3.2 are satisfied. <ref type="figure">Fig. 4</ref> shows a simulation that satisfies the stability condition in Proposition 3.2 3 . The parameter values that we used are in <ref type="table" target="#tab_1">Table 1</ref>. The figure shows that in this case the trajectory (solution of Eq. (2) with the given IC) evolves towards x *3 . Thus, we conclude that x *3 is a saddle equilibrium.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Results for different initial conditions</head><p>We numerically solved the model equation to simulate 2 biologically relevant cases. Each case corresponds to different initial conditions (ICs) with parameter configuration as in <ref type="table" target="#tab_1">Table 1</ref>. The cases are: Case 1, FP concentration is less than M concentration; Case 2, FP concentration is greater than M concentration. <ref type="figure" target="#fig_8">Fig. 5</ref> show simulations in which the IC satisfied the constraint that the FP concentration is less than or equal to the M concentration. Each color represents a different simulation (i.e. a solution with a different IC). We took 27 linearly spaced points from the set [0.08971, 0.8971] × [0.1, 0.5] × [0.5, 1] as ICs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.1.">Case 1: FP less than M</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 2</head><p>Stability conditions for equilibria.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Equilibrium points</head><p>Stability condition a Unstability condition a Biological feasibility condition b</p><p>x *1 (Eq. 7a)</p><formula xml:id="formula_20">p 1 &lt; 0, p 2 &lt; 0, p 3 &lt; 0 N/A c unconditional x *2 (Eq. 7b) p 1 &gt; 0, p 2 &lt; 0, p 3 &lt; 0 p 1 &lt; 0, p 2 &lt; 0, p 3 &lt; 0 p 1 ≥ 0 x *3 (Eq. 7c) saddle d N/A p 1 ≥ 0, p 2 ≥ 0, p 3 ≥ 0 x *4 (Eq. 7d) p 1 &lt; 0, p 2 &lt; 0, p 3 &lt; 0, x 3 (0) &lt; l 3 e N/A unfeasible x *5 (Eq. 7e) p 1 &lt; 0, p 2 &lt; 0, p 3 &lt; 0,x 2 (0) &lt; l 2 e</formula><p>N/A unfeasible a By stability condition we refer to conditions for the equilibrium point to be either asymptotically stable or Lyapunov Stable <ref type="bibr" target="#b19">Meiss (2008)</ref>. By unstability we mean that the equilibrium point is a source. b By biological feasibility we mean that all components of the equilibrium are nonnegative. c Proposition 3.1 established the conditions for x *1 to be stable. d Proposition 3.2 established the conditions for x *3 to be a either a saddle or unstable equilibrium. e l 2 and l 3 are the maximum concentration FP and M that given number of coral polyps can produce. <ref type="figure">Fig. 2</ref>. Simulation with parameters that satisfy conditions that makes x *1 asymptotically stable.</p><p>3 That is, p j &gt; 0 for j = 1, 2, 3. The eigenvalues of D x g(x *3 ) are 0.0678, −0.0232, and −0.0472 for deep and 0.0567, −0.0471 − 0.0235i, and −0.0471 + 0.0235i for shallow. <ref type="figure">Fig. 3</ref>. Simulation with parameters that satisfy conditions that makes x *2 asymptotically stable. <ref type="figure">Fig. 4</ref>. Simulation with parameters that satisfy conditions for x *3 to be a saddle equilibrium.</p><p>In <ref type="figure" target="#fig_8">Fig. 5</ref>, panels A, C, and E show simulations for shallow configuration, whereas panels B, D, and F show results for deep configuration. Observe that in some simulations, for both shallow and deep, the solution evolves toward the equilibrium x *4 (Eq. (7d)). But we also noted that other simulations, including the case in which the initial concentrations of FP and M are similar (dashed lines), the ODE system evolves toward x *3 (Eq. (7c)). This confirms numerically that x *3 is a saddle equilibrium. It is important to mention that in <ref type="figure" target="#fig_8">Fig. 5E</ref> and 5 F although the dashed line seems to reach zero, the value that they actually reach is about 0.5667 and 4.4486 respectively. It is also noteworthy that the proportion of polyps under both configurations have the same order of magnitude throughout the simulation (cf. <ref type="figure" target="#fig_8">Fig. 5A</ref> and 5 B), but in contrast, for FP and M fraction, the variation (swings in fraction values) under shallow configuration is smaller than under deep configuration (for FP cf. <ref type="figure" target="#fig_8">Fig. 5C</ref> and 5 D. For M, cf. <ref type="figure" target="#fig_8">Fig. 5E</ref> and 5 F). <ref type="figure" target="#fig_9">Fig. 6</ref> shows the corresponding phase portraits and basins of attraction 4 . <ref type="figure" target="#fig_9">Fig. 6</ref>, for shallow and deep, show that the basing of attraction is indeed the first octant. Each black curve corresponds to a solution of the model with IC depicted as a either blue or yellow point. Blue points represent IC randomly (uniformly distributed) chosen from the region defined for Case 1 whereas yellow points were randomly chosen from a neighborhood of x* 3 . The black, green, and red point are x *1 , x *2 , and x *3 respectively. In both phase portraits we observe that some solutions evolve toward x *3 , whereas others evolve away from it. Thus the plots show numerically that x *3 is a saddle equilibrium. <ref type="figure" target="#fig_10">Fig. 7</ref> show simulations for which the IC satisfied the constraint that the FP concentration is greater or equal than M concentration. Each color represents a different simulation. In this case we took 27 linearly spaced points from the set [0.08971, 0.8971] × [0.5, 1] × [0.1, 0.5] as ICs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.2.">Case 2: FP greater than M</head><p>In <ref type="figure" target="#fig_10">Fig. 7</ref>, panels A, C, and E show simulations for shallow configuration, whereas panels B, D, and F show results for deep configuration. Observe that in some simulations, for both shallow and deep, the solution evolves toward the equilibrium x *5 (Eq. (7e)). But we also noted that other simulations, including those in which the initial concentrations of FP and M are similar (dashed lines), the ODE system evolves toward x *3 (Eq. (7c)). This confirms numerically that x *3 is a saddle equilibrium. It is important to mention that in <ref type="figure" target="#fig_10">Fig. 7C</ref> although the dashed line seems to reach zero, the value that it actually reaches is about 0.5665. It is also noteworthy that the proportion of polyps under both configurations have the same order of magnitude throughout the simulation (cf. <ref type="figure" target="#fig_10">Fig. 7A and 7 B)</ref>, but in contrast, for FP and M fraction, the variation under shallow configuration is smaller than under deep configuration (for FP cf. <ref type="figure" target="#fig_10">Fig. 7C</ref> and 7 D. For M, cf. <ref type="figure" target="#fig_10">Fig. 7E and 7</ref> F. <ref type="figure" target="#fig_11">Fig. 8</ref> shows the corresponding phase portraits and basins of attraction. The figure shows that the basing of attraction is the first octant. Analogous to <ref type="figure" target="#fig_9">Fig. 6</ref> each black curve corresponds to a trajectory with IC depicted as a either blue or yellow point. Blue points represent IC randomly chosen from the region defined for Case 2 while yellow points were randomly chosen from a neighborhood of x* 3 . The black, green, and red point are x *1 , x *2 , and x *3 respectively. We observe in both phase portraits that some solutions evolve toward x *3 , whereas others evolve away from it. Thus, similar to the case [FP] ≤ [M], the plots show numerically that x *3 is indeed a saddle equilibrium. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Local bifurcation analysis</head><p>We say that our model (Eq. (2)) is structurally stable whenever a "small" change in a model parameter do not cause qualitative changes 5 in the solution of the model, i.e., when the model shows no bifurcations. We are focusing in bifurcation of the equilibria found in Section 3.1, therefore this analysis is a local bifurcation analysis. Moreover, this analysis pays attention to codimension 6 1 bifurcations. A detailed discussion about bifurcations is in <ref type="bibr" target="#b19">Meiss (2008)</ref>, <ref type="bibr" target="#b30">Wiggins (2000)</ref>.</p><p>We did the numerical bifurcation analysis using MATCONT. MATCONT is a numerical continuation and bifurcation analysis software package implemented in MATLAB ® . The documentation of such package is found in <ref type="bibr">Dhooge et al., 2003a</ref><ref type="bibr">Dhooge et al., ,b, 2004</ref>. The work of several investigators <ref type="bibr" target="#b3">(Dhooge et al., 2006;</ref><ref type="bibr" target="#b6">Govaerts et al., 2005;</ref><ref type="bibr" target="#b5">Govaerts, 2000)</ref> was used as a guide in our analysis, which we summarize as procedure in G.1. <ref type="table" target="#tab_5">Table 3</ref>, summarizes the results of the numerical bifurcation analysis for the equilibria of our model. Before elucidating the results in <ref type="table" target="#tab_5">Table 3</ref> we state the following remarks:</p><p>• Equilibria x *1 , x *4 , and x *5 were excluded from the table because their Jacobian matrix is singular regardless of the parameter values. Ergo, is impossible to generate a continuation equilibrium curve starting from those equilibria. Moreover, x *4 and x *5 are uninteresting from the biological standpoint.</p><p>• The parameters were perturbed in two ways: toward values greater and toward values lesser than the value in <ref type="table" target="#tab_1">Table 1</ref>, viz., the forward (⟵) and backward (→) direction respectively.</p><p>• <ref type="table" target="#tab_5">Table 3</ref> only includes results that are biologically relevant (inside first octant).Observe in <ref type="table" target="#tab_5">Table 3</ref>, that under the conditions that x *3 starts as a saddle equilibrium, we only found parameter values that make either x *2 or x *3 a neutral saddle. These results allow us to conclude that because our model does not exhibit codimension 1 bifurcations, ergo it is structurally stable in terms of that type of bifurcation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Discussion</head><p>The stability analysis (Section 3) and the simulations in <ref type="figure">Figs. 2-4</ref> showed that under a specific set of conditions for the parameters there are 3 biologically relevant equilibria (Eqs. (7a)-(7c)): x *1 (polyps cease to exist at a certain point in time and consequently there are no FP and M syntheses), x *2 (the number of polyps eventually reaches a certain value, while FP and M syntheses are reduced to their minimum), and x *3 (number of polyps, as well as FP and M syntheses, varied with time until they become nonzero constants with respect of time). Furthermore, we showed that there is another set of conditions that determine the asymptotic stability of the equilibria (see Section 3 and <ref type="table">Table 2</ref>). It is conspicuous that albeit the model has 12 parameters the core feasibility and stability conditions depend on the 3 parameter combinations p 1 , p 2 , and p 3 (defined in Eq. (6)) and on the normalized depth (d). Moreover, the signs of the p i s can be changed by changing d. In biological terms, p can be interpreted as population growth of polyps, as it affects the number of polyps born minus the number of polyps dying. Meanwhile, p 2 and p 3 can be interpreted as a difference of rates. The rates at which FP and M are synthesized minus the rates at which these chemical compounds are degraded.</p><p>Furthermore, in some cases, the stability condition of an equilibrium precludes the other two from being biologically feasible. For example: the stability condition of x *1 , moves x *2 and x *3 outside the first octant (see <ref type="table">Table 2</ref>). In biological terms, once the coral is dying that is, x 1 (t) → 0 as t → ∞), there will be no recovery unless some factor, which could be an environmental factor, affects the stability condition of x *1 (vide infra). Similarly, the stability condition of x *2 makes x *3 biologically unfeasible. Regarding the stability of x *3 , the contrapositive statement of Proposition 3.2 says that if x *3 is a sink, then at least one of the following statements is true: at least one p i &lt; 0 for i = 1, 2, 3 or there is a solution of Eq. (12) that is zero or purely imaginary, i.e., x *3 is nonhyperbolic. Hence, in our model (Eq. (2)), if x *3 is an attractor (sink), then it is either biologically unfeasible or nonhyperbolic. Being a nonhyperbolic equilibrium point means that in a neighborhood of x *3 our model is not equivalent to its linearization, thus the nonlinear part of our model determines whether x *3 is stable.</p><p>Figs. 3-4 show that at equilibrium the proportion of polyps is greater at shallow depth than at deep depth. Besides, <ref type="figure">Fig. 4</ref> show that at equilibrium (x *3 ) the amount of FP and M is greater at greater depth. These results are in agreement with our field observations and with the limiting resource theory (model assumption 1), that states: the less resources the coral allocates into immunity, more resources could be allocated into growth.</p><p>Figs. 5-8 show numerically that x *3 is indeed a saddle equilibrium; thus from some starting values (ICs) the system evolves toward x *3 whereas from other ICs the system evolves away from x *3 . Furthermore, <ref type="figure" target="#fig_9">Fig. 6 and 8</ref> show numerically that trajectories (solutions of the ODE system) that start in the first octant remain in the first octant.</p><p>Another important issue to elucidate is whether given some initial condition, changes in the environmental variables SST or SR, which are represented in the model by the depth parameter (d) in the environmental functions, make the system evolves toward one equilibrium point versus another. Note that this issue is in essence how a change in a parameter value affects the stability of equilibria, thus is an issue related to bifurcations in our model. Suppose that our model (Eq. (2)) is solved with IC "close" to some equilibrium point under the corresponding stability conditions for such point. Now, if we change d, how the solution (trajectory) is affected as t → ∞? To answer that, consider the following cases:</p><p>• Case 1: x *1 stable (sink), i.e. eventual collapse of the coral colony. Suppose that our model is solved with IC "close" to x *1 and with p i &lt; 0 ∀i, i.e., under the conditions that makes x *1 an sink and x *2 a repulsor (see Section 3). As depth decreases <ref type="bibr">7</ref> </p><formula xml:id="formula_21">F d (˜) 1 increases whereas F d (˜) 2 and F d (˜) 3</formula><p>decreases, thus, there may be a sign change for p (negative to positive) but not for p 2 and p 3 . In that case, we obtain p 1 &gt; 0, p 2 &lt; 0, and p 3 &lt; 0; therefore x *2 becomes an attractor (see 2), and this implies that the trajectory might evolve -depending on the IC-from x *1 to x *2 . Note that under this scenario x *2 flips from source to sink (similar to a transcritical bifurcation) and x *1 stops being a sink. Moreover, in this case, it will not be possible to get p i &gt; 0 ∀i, thus the conditions for x *3 to be a saddle are not satisfied.</p><p>• Case 2: x *3 stable (sink), i.e. a coral colony with number of polyps and amount of protein that have a nonzero constant value. In this case Proposition 3.2 and its contrapositive (vide supra) establish that the nonlinearities of our model make a biologically feasible x *3 to be asymptotically stable. We hypothesize that changes in one or more model parameters affect the nonlinear part of the model and that determines stability of x *3 .</p><p>• Case 3: x *3 a saddle, i.e., some trajectories evolve to x *3 and other away from x *3 as t → ∞. Suppose that our model is solved with IC "close" to x *3 and that all assumptions of Proposition 3.2 are satisfied. In particular, we focus on the assumption p i &gt; 0 ∀i. As depth de-  increases, thus, there can be a sign change for p , but not for p 2 or p 3 . p 1 must remain positive but p 2 or p 3 may become negative. In that case, x *3 becomes biologically unfeasible, but x *2 becomes an attractor if both, p 2 and p 3 are negative. In any case, the nonlinearities of our model must play a role in determining the stability of x *3 .</p><p>• Case 4: x *2 stable. Suppose that our model is solved with IC "close" to</p><p>x *2 and with p 1 &gt; 0, p 2 &lt; 0, and p 3 &lt; 0, that is, under the conditions that makes x *2 an sink. As depth decreases F d</p><formula xml:id="formula_22">(˜) 1 increases whereas F d (˜) 2 and F d (˜) 3</formula><p>decreases, hence none of the p i i = 1, 2, 3 can change sign and no change in the stability of x *2 occurs. If depth increases, the signs of p i could flip. If all p i become negative, the trajectory may evolve toward x *1 because it would become an attractor; but if not all of the p i become negative, then the trajectory may evolve toward x *1 or elsewhere.</p><p>The numerical bifurcation analysis in Section 4.3 showed that our model is structurally stable. It is noteworthy that the reason for not finding a value of depth that produce some change of stability of equilibria is that for the baseline value of the other parameters that comprise p i besides d, a solution of p i = 0 for d lies outside the interval that we looked into. This finding does not preclude the model to exhibit global bifurcations or some codimension 2 or higher codimension bifurcations.</p><p>Furthermore, we found conditions that ensure that the point x *3 is a saddle equilibrium. Hence, there are going to be some orbits (solutions of Eq. (2)) that start "close" to x *3 and evolve towards it whereas other orbits start "close" to x *3 evolve away from x *3 . The mathematical implications of this might be interesting. For instance, note that whenever p 1 &gt; 0, p 2 &gt; 0, and p 3 &gt; 0, which is one of the conditions for x *3 to be a saddle, makes also x *2 to be a saddle. Ergo, a saddle connection or heteroclinic 9 orbit is possible. Such a scenario would be in agreement with the findings of neutral saddle points for these two equilibria in the local bifurcation analysis (see Section 4.3). In biological terms, a saddle point could reflect a change in an environmental condition such as an increase in SST, that makes the growth rate of a colony to decrease to extinction.</p><p>Phenomena like the appearance or the disappearance of a saddle connection is associated with global bifurcations. Although the study of the existence of global bifurcations is beyond the scope of this work, if they indeed exist in our model, then this could indicate that the system that the model seeks to represent have different configurations and that parameter changes affect the system as a whole, i.e., more than one equilibrium point at once.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Conclusions</head><p>We constructed a mathematical model that simulate the effects of the environment on A. cervicornis. The model captures the essence of how environmental variables, SST and SR, affect the resource allocation between polyp population growth and two of its immune system constituents (FP and M) as a function of time. In that regard, the model succeeds as a predictor of the effect of climate change on the coral population. Yet, we understand that the biology behind this model is far more complicated, as we are beginning to understand the multiple roles of FP and M in corals; thus we could have partially missed the roles of these as immune constituents and their trade-off against other life  </p><formula xml:id="formula_23">x *2 β m NS ⟵ shallow β f NS ⟵ shallow κ a NS → ⟵ shallow x *3 β f NS → ⟵ shallow δ f NS → ⟵ shallow κ a NS → shallow</formula><p>a NS stands for neutral saddle. b Forward (→) means that the parameter was increased relative to its baseline value in <ref type="table" target="#tab_1">Table 1</ref> whereas backward (⟵) means that the parameter was decreased relative to its baseline value.</p><p>history traits such as growth. Nonetheless, this model could still be useful as a conservation tool as it fairly simulates the coral reality with the available knowledge. We can modify the model to capture phenomena associated with abrupt seasonal changes. This can be done in at least two ways: First, to make some of the parameters, e.g. birth rate, time dependent. This will make the model a nonautonomous ODE system; thereby making it more difficult to analyze. Second, to change some of the parameters at discrete times (seasons). This will encapsulate our model, which is a continuous time model, into a discrete time model.</p><p>A nullcline defines the set of values that makes the corresponding model variable time-independent (i.e., derivative with respect of time is zero). Let g 2 (x, μ) be the RHS of Eq. (2b). By definition of nullcline the x 2 -nullcline is given by the equation g Observe that for x to have a biological meaning p 3 ≥ 0. Finally, let g 1 (x, μ) be the RHS of Eq. (2a) and take g 1 (x, μ) = 0, ergo Likewise, for x to be biologically feasible p 1 − (δ af x 2 + δ am x 3 ) ≥ 0. Therefore, Eqs. (A.1)-(A.3) are the nullclines of the ODE system (2).</p><formula xml:id="formula_24">+ = = = F x x x x x x x x F p x x<label>(1 )</label></formula><p>(a) Eq. (12) has a maximum and exactly 1 positive real root. (b) Eq. (12) has a maximum of 2 negative real roots. Furthermore, the equation could have 0 or 2 negative real solutions. Note that the rule of signs leads to the conclusion that if all the solutions of Eq. (12) are nonzero real numbers, then 2 of them must be negative and 1 positive. On the other hand, if only one solution is real (the other are a complex conjugate pair), then it must be positive. 3 By Gerschgorin disc theorem <ref type="bibr" target="#b25">(Quateroni et al., 2007;</ref><ref type="bibr" target="#b4">Geršgorin, 1931)</ref>  mf Observe that R 's center is at some point in the negative part of the real axis whereas R 2 and R 3 are concentric and their center is the origin. Inasmuch as we seek a stability condition for x *3 we want to impose a condition on the parameters that yield eigenvalues with a negative real part. To achieve that we start by seeking that R 1 is contained in the negative part of the complex plane and disjoint from R 2 ∪ R 3 . Such condition is:</p><formula xml:id="formula_25">&gt; + F r r r max{ , } a m f f m 1 1 1 2 3 (C.2)</formula><p>This guarantees that the eigenvalue in R 1 , which is one of the solutions of Eq. <ref type="formula">12</ref>, is a negative real number. Moreover, since matrix A is irreducible 10 , then the eigenvalue in R 1 is not in its boundary.</p><p>From the previous list of remarks we infer following proposition (Proposition 3.2). The assumptions on that proposition comprise the stability conditions of x *3 .</p><p>If p 1 &gt; 0, p 2 &gt; 0, p 3 &gt; 0, and none of the solutions (eigenvalues) of Eq. (12) is neither zero nor purely imaginary, then x *3 is either an unstable equilibrium or a saddle equilibrium point 11 .</p><p>Theorem D.2 (LaSalle 2). Let Ω denote the closed region defined by V(x) ≤ l, and suppose that V(x) has continuous first partials in Ω. If, in addition, Ω is bounded and V x ( ) 0 in Ω, then every solution starting in Ω approaches M as t → ∞, where M is defined as in Theorem D.1.</p><p>The proofs of Theorems D.1 and D.2 can be found in <ref type="bibr" target="#b15">LaSalle (1960</ref><ref type="bibr" target="#b16">LaSalle ( , 1968</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix E. Descartes's rule of signs</head><p>We take the following statement of Descartes's rule of signs from <ref type="bibr" target="#b25">Quateroni et al. (2007)</ref>.</p><p>Theorem E.3 (Descartes's rule of signs). Let p n be a polynomial of degree n and n ≥ 0. Denote by ν the number of sign changes in the set of coefficients {a j } and by k the number of positive real roots of p n (each counted with its multiplicity). Then, k ≤ ν and ν − k is an even number.</p><p>The rule can be applied to bound the number of negative real roots by applying the rule to the polynomial p n (−x).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix F. Normalized model</head><p>Here we normalize model quations (2). Let y 1 (t) = x 1 (t)/κ a , = y t</p><p>x t x ( ) (  </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>Note that in system (3) all variables are dimensionless and the parameters are in units of day −1 . The details on how the equations are normalized can be seen in Appendix F.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 1 .</head><label>1</label><figDesc>Schematic diagram of the mathematical model. F i , i = 1, …, 3 are the environmental functions. x 1 , x 2 , and x 3 are the number of coral polyps, melanin (M) concentration, and fluorescent protein (FP) concentration, respectively.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>2.3.1.6. Parameters of environmental function (F d (˜) 1 ). The parameters for the environmental functions are the c and c 2 in Eq. (1). Their values were obtained by fitting F d (˜) 1</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>) that start in a neighborhood of each equilibrium point. The Jacobian matrix of the RHS of Eq. (2</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head></head><label></label><figDesc>Proposition 3.1 Stability of x *1 The proof is in Appendix B and uses the concept of Lyapunov function (explained in Appendix D) and the LaSalle invariance principle (D.1).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>p a 1</head><label>1</label><figDesc>multiplied by the roots of the characteristic polynomial of A. The roots of the characteristic polynomial of A are the solutions of p 2 p 3 δ mf δ fm (δ mf δ fm − (δ af δ fm + δ am δ mf )), and = d</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 5 .</head><label>5</label><figDesc>Solutions of the model (Eq. (2)) when ICs are taken such that [FP] ≤ [M]. Each color corresponds to a simulation with a different IC. We took 27 linearly spaced points from the set [0.08971, 0.8971] × [0.1, 0.5] × [0.5, 1] as ICs. The dotted lines represent the cases where the ICs satisfied [FP] ≈ [M]. The shallow simulations are in panels A, C, and E; whereas the deep simulations are in panels B, D, and F.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 6 .</head><label>6</label><figDesc>Phase portrait when ICs are taken such that [FP] ≤ [M]. The black point is x *1 , green point is x *2 , red point is x *3 , and the blue or yellow points are different ICs.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 7 .</head><label>7</label><figDesc>Solutions of the model (Eq. (2)) when ICs are taken such that [FP] ≥ [M]. Each color corresponds to a simulation with a different IC. We took 27 linearly spaced points from the set [0.08971, 0.8971] × [0.5, 1] × [0.1, 0.5] as ICs. The dotted lines represent the cases where the ICs satisfied [FP] ≈ [M]. The shallow simulations are in panels A, C, and E; whereas the deep simulations are in panels B, D, and F.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Fig. 8 .</head><label>8</label><figDesc>Phase portrait and basin of attraction when ICs are taken such that [FP] ≥ [M]. The black point is x *1 , green asterisk is x *2 , red point is x *3 , and the blue point are different ICs.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head></head><label></label><figDesc>x 3 to be biologically plausible p 2 ≥ 0. Similarly, let g 3 (x, μ) be the RHS of Eq. (2c) and take g 3 (x, μ) = 0, thus we obtain</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head></head><label></label><figDesc>all variables are dimensionless and the parameters are in units of day −1 .</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>am , δ fm , and δ mf . The normalized depth, d, was defined in Section 2.1. δ a and κ a are the natural death rate and maximal growth capacity of the A.</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>cervicornis branches,</cell></row><row><cell cols="5">respectively; δ f and δ m are the breakdown rates of FP and M, respec-</cell></row><row><cell cols="5">tively; δ af and δ am are the death rates of a branch due to the presence of</cell></row><row><cell cols="5">FP and M, respectively; δ fm is the breakdown rate of FP due to the</cell></row><row><cell cols="5">presence of M; δ mf represents the breakdown rate of M owing to the</cell></row><row><cell cols="2">presence of FP. F d (˜) 1</cell><cell>, F d (˜) 2</cell><cell>, and F d (˜) 3</cell><cell>represent the environmental</cell></row><row><cell cols="5">functions. They incarnate the relation between d, SST, SR, and the</cell></row><row><cell cols="5">growth rate of A. cervicornis or synthesis of FP and M. Observe in Eq.</cell></row><row><cell>(2a) that F d (˜) 1</cell><cell cols="4">acts as a birth rate of polyps (β a ). Similarly, in Eqs.</cell></row><row><cell>(2b)-(2c), F d (˜) 2</cell><cell cols="2">(˜) and F d 3</cell><cell></cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1 Parameters</head><label>1</label><figDesc></figDesc><table><row><cell cols="3">Parameter</cell><cell>Value at 4.572 m</cell><cell>Sample size</cell><cell>Value at 12.19 m</cell><cell>Sample size</cell><cell>Units</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>Empirical a</cell><cell></cell></row><row><cell>κ a β a δ a</cell><cell></cell><cell></cell><cell>111.5 ± 21.55 0.1339 ± 0.001126 0.07959 ± 0.01974</cell><cell>16 137 78</cell><cell>111.5 ± 21.55 0.1006 ± 0.0006750 0.07959 ± 0.01067</cell><cell>16 146 91</cell><cell>polyp•cm −3 day −1 day −1</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>Theoretical</cell><cell></cell></row><row><cell>* f</cell><cell cols="2">b</cell><cell>0.1672</cell><cell></cell><cell>1.6720</cell><cell>day −1</cell></row><row><cell cols="2">* m</cell><cell>b</cell><cell>0.1672</cell><cell></cell><cell>1.6720</cell><cell>day −1</cell></row><row><cell>* f</cell><cell></cell><cell></cell><cell>5.574×10 −4</cell><cell></cell><cell>5.6×10 −3</cell><cell>day −1</cell></row><row><cell cols="2">* m</cell><cell></cell><cell>5.574×10 −4</cell><cell></cell><cell>5.6×10 −3</cell><cell>day −1</cell></row><row><cell>* af</cell><cell></cell><cell></cell><cell>10 −2</cell><cell></cell><cell>10 −2</cell><cell>day −1</cell></row><row><cell cols="3">* am</cell><cell>10 −2</cell><cell></cell><cell>10 −2</cell><cell>day −1</cell></row><row><cell cols="3">* mf</cell><cell>10 −1</cell><cell></cell><cell>10 −1</cell><cell>day −1</cell></row><row><cell cols="3">* fm</cell><cell>10 −1</cell><cell></cell><cell>10 −1</cell><cell>day −1</cell></row><row><cell cols="3">d max</cell><cell>30</cell><cell></cell><cell>30</cell><cell>m</cell></row><row><cell>a</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table 3</head><label>3</label><figDesc>Summary of the numerical bifurcation analysis.</figDesc><table><row><cell>Equilibrium point</cell><cell>Parameter</cell><cell>Type a</cell><cell>Direction b</cell><cell>depth</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head></head><label></label><figDesc>the eigenvalues of matrix A (recall that</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>D</cell><cell>x</cell><cell>g x ( * ) 3</cell><cell>=</cell><cell>a</cell><cell>p 1</cell><cell>A</cell><cell>and that</cell><cell>p a 1</cell><cell>&gt; 0</cell><cell>)</cell></row><row><cell cols="14">are contained within the discs:</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>R 1</cell><cell>=</cell><cell>{</cell><cell>z</cell><cell></cell><cell></cell><cell cols="2">z : |</cell><cell>(</cell><cell>F 1</cell><cell>a</cell><cell>1</cell><cell></cell><cell cols="2">mf fm</cell><cell cols="2">)|</cell><cell>r 1 }</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell cols="4">where</cell><cell>r 1</cell><cell cols="2">=</cell><cell cols="3">( fm mf af</cell><cell cols="2">+</cell><cell>am</cell><cell>)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>(C.1a)</cell></row><row><cell cols="3">(C.1b)</cell><cell>R 2</cell><cell cols="2">=</cell><cell>{</cell><cell>z</cell><cell cols="2">z : | |</cell><cell></cell><cell>r 2</cell><cell cols="4">} where</cell><cell>r 2</cell><cell>=</cell><cell>p p ( fm 3 2</cell><cell>+</cell><cell>) fm (C.1c)</cell><cell>R 3</cell><cell>=</cell><cell>{</cell><cell>z</cell><cell>z : | |</cell><cell>r 3</cell><cell>} where</cell><cell>r 3</cell><cell>=</cell><cell>p p ( mf 2 3</cell><cell>+</cell><cell>).</cell></row></table><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1">An equilibrium point is hyperbolic if all the eigenvalues of the Jacobian matrix of the RHS of the ODE system evaluated at the equilibrium point have nonzero real part.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4">Informally, the basing of attraction is the maximal trapping region. A trapping region is found, numerically, by computing the vector field and verifying it point inward on the boundary<ref type="bibr" target="#b19">(Meiss, 2008)</ref>.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5">The concept of qualitative change is explained with precision in<ref type="bibr" target="#b19">Meiss (2008)</ref>,<ref type="bibr" target="#b30">Wiggins (2000)</ref>. Whenever a change in the model parameters cause the orbits generated by the model to not being equivalent (topologically conjugate) between themselves, we say that a qualitative change in the solutions of the model occurs.6  Loosely speaking, the codimension of a bifurcation is the minimal number of parameters that have to be changed in order to observe the bifurcation.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="9">Informally, an heteroclinic orbit is a trajectory that connects two saddle equilibrium points. An homoclinic orbit is a special case where the two equilibria are the same.</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgments</head><p>We thank Mariano Marcano, Loretta Roberson, and Juan Luis Sanchez. We also extend our gratitude to Fundación Toyota, Ford Motor Company Foundation of Puerto Rico, the University of Puerto Rico Sea Grant College Program (NOAA Grant Number NA14OAR4170068, Project R-102-1-14), University of Puerto Rico, Río Piedras Campus Office of Research and Graduate Studies Institutional Research Fund (FIPI, 20FIP2550017.00 and 20FIP3490018.00), and Programa de Iniciativas de Investigación (PII 2017).</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The assumptions of Proposition 3.1 are the stability conditions of x *1 . Next, we restate the proposition and give its proof.</p><p>2 , p 1 &lt; 0, p 2 &lt; 0, and p 3 &lt; 0, then the equilibrium point x *1 is asymptotically stable.</p><p>Proof. The goal is to apply LaSalle invariance principle (D.1). Thus, we define Ω = [0, l 1 ] × [0, l 2 ] × [0, l 3 ], where l 1 = κ a , and l 2 , l 3 are the maximum concentrations of FP and M that a fixed volume of coral (polyps in a given volume) can produce. Note that Ω is forward invariant for the following reasons: First, any trajectory (solution of Eq. (2)) that starts in Ω will not escape the first octant because of the zero nullclines (Eqs. (A.1)-(A.3)). Second, neither the number of polyps nor the protein concentrations is unbounded. The number of polyps cannot increase beyond the carrying capacity, and the proteins concentrations must be bounded because the polyps synthesize proteins up to a finite positive concentration. Note also that Ω is a closed and bounded subset of 3 , thus it is compact <ref type="bibr" target="#b8">(Hasser and Sullivan, 1991)</ref>. Next we show that V is a Lyapunov function (D). Observe that</p><p>3 2</p><p>x 3 and V(x *1 ) = 0. We proceed to establish the nonincreasing property of V along the trajectories given by Eq. (2). Let g(x, μ) be the RHS of Eq. (2). We assume x ∈ Ω and obtain the following:  Observe that because p &lt; 0, p 2 &lt; 0, p 3 &lt; 0, and</p><p>is a Lyapunov function in Ω. We emphasize that to apply LaSalle's principle we only need the nonincreasing property of V to hold true.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix C. Proof of Proposition 3.2</head><p>The following remarks lead to Proposition 3.2. The proof of the proposition is also shown in this section.</p><p>Because the degree of the polynomial in Eq. <ref type="formula">12</ref>is 3, the equation has either 3 real solutions or 1 real solution and 2 complex solutions (a complex conjugate pair). 2 By Descartes's rule of signs (see Appendix E), regardless of the value taken by c we conclude the following:</p><p>, then all the components of x *3 are positive and the characteristic polynomial of the matrix</p><p>is given by Eq. <ref type="formula">12</ref>whose solutions are given by the Cardano and Tartaglia's formulae. Since we assumed that none of the expressions in Cardano and Tartaglia's formulae is purely imaginary or zero, then x *3 is an hyperbolic equilibrium and by Hartman-Grobmann theorem <ref type="bibr" target="#b19">(Meiss, 2008)</ref> the linearization of Eq. (2) is sufficient to describe such equation in a neighborhood of x *3 . Owing to the Descartes's rule of signs Eq. (12) has exactly 1 positive real root. Thereby, just one of the following two cases holds:</p><p>• Case 1: The discriminant 12 of Eq. (12) is nonnegative. Hence, all the roots are real. Inasmuch as we assumed that they are nonzero, by Descartes's rule of signs, then 1 of them is positive and the other 2 must be negative. Ergo, x *3 must be a saddle equilibrium.</p><p>• Case 2: The discriminant of Eq. (12) is negative. Thus, one of the roots is real and the other are a complex conjugate pair. Owing to the Descartes's rule of signs and because we assumed nonzero roots, the real root must be positive. Additionally, we supposed that the real parts of the complex conjugate pair are nonzero. Thus, if the real parts of the complex conjugate pair are positive, then x *3 is an unstable equilibrium whereas if the real parts of the complex conjugate pair are negative, then x *3 is a saddle equilibrium.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>□</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix D. Lyapunov function and LaSalle invariance Principle</head><p>A Lyapunov function is a generalization of the concept of total energy of a physical system. The textbook definition (see <ref type="bibr" target="#b19">Meiss, 2008;</ref><ref type="bibr" target="#b30">Vidyasagar, 2002;</ref><ref type="bibr" target="#b30">Wiggins, 2000)</ref> of Lyapunov function is that V: n is a Lyapunov function for equilibrium x * if it is a C 1 function with the following properties:</p><p>• V is positive semidefinite, i.e., V(x) ≥ 0, for all x in a neighborhood of x * .</p><p>• V is nonincreasing along the trajectories of the ODE system that start in a neighborhood of x * . That is, let g(x) be the RHS of the ODE system and</p><p>If one can construct a Lyapunov function for a given equilibrium then the equilibrium is Lyapunov stable. If V is decreasing, i.e. dV/dt &lt; 0, then the equilibrium is asymptotically stable <ref type="bibr" target="#b19">(Meiss, 2008)</ref>. The LaSalle invariance principle generalizes even more the concept of Lyapunov function in that only the decreasing property is needed. For completeness' sake we state the LaSalle invariance principle.</p><p>Theorem D.1 (LaSalle 1). Let Ω be a bounded closed (compact) set with the property that every solution of a system of ordinary differential equations ( = x g x ( )) which begins in Ω remains for all future time in Ω. Suppose there is a scalar function V(x) which has continuous first partials in Ω and is such that V x ( ) 0 in Ω. Let E be the set of all points in Ω where = V x ( ) 0. Let M be the largest invariant set in E (a set is an invariant if solutions of the ODE system that start in the set remain in the set for all t). Then every solution starting in Ω approaches M as t → ∞.</p><p>10 A matrix is irreducible if its associated directed graph is strongly connected. 11 A saddle equilibrium occurs whenever all the eigenvalues of D x g(x *3 ) have nonzero real part, but they do not have the same sign. This means that there are some trajectories that start "close" to x *3 and stay "close" to x *3 as t → ∞ whereas other trajectories start "close" to x *3 but go farther away from x *3 as t → ∞.</p><p>12 The discriminant of the cubic Eq. (12) is (bc) 2 − 4db 3 − 27d 2 − 4c 3 + 18bcd.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix G. Remarks on local bifurcation analysis</head><p>We did a numerical bifurcation analysis using MATCONT. The analysis involves the construction of an equilibrium curve and the classification of the points that comprise it. The equilibrium curve is a continuation curve. It is constructed starting from an equilibrium point and changing a model parameter. The classification of points in the equilibrium curve involves two things: the computation of the eigenvalues of the Jacobian matrix evaluated at the corresponding point in the equilibrium curve and the evaluation of different test functions. A detailed explanation on how the points are classified and about the meaning of the categories can be found in <ref type="bibr" target="#b3">Dhooge et al. (2006)</ref>, <ref type="bibr" target="#b19">Meiss (2008)</ref>. The points are classified according to the following categories:</p><p>• A fold point, also known as limit point, is an equilibrium point for which the Jacobian matrix evaluated at the equilibrium has an eigenvalue that becomes zero as a parameter crosses certain value (bifurcation value). A limit point indicates that a saddle-node bifurcation might occur.</p><p>• A Hopf point is an equilibrium point for which the Jacobian matrix evaluated at the equilibrium has a pair of complex conjugate eigenvalues that cross the imaginary axis as a parameter crosses certain value. A Hopf point indicates either that a Hopf bifurcation (birth of limit cycle) or that a more complex codimension 2 bifurcation might be occurring. That depends on the sign of the first Lyapunov coefficient as well as other factors.</p><p>• A neutral saddle point is a point with two real eigenvalues that sum zero. A neutral saddle indicates that a codimension 2 bifurcation or a more complex bifurcation related to an homoclinic 13 or heteroclinic 14 orbit might exist. It is noteworthy that both, neutral saddle and Hopf point, are zeros of one of the test functions that MATCONT uses to detect them.</p><p>Based on the work of <ref type="bibr" target="#b3">Dhooge et al. (2006)</ref>, <ref type="bibr" target="#b6">Govaerts et al. (2005)</ref>, <ref type="bibr" target="#b5">Govaerts (2000)</ref> we did bifurcation analysis using the following procedure. <ref type="bibr">13</ref> Loosely speaking an homoclinic orbit is a trajectory that connects a saddle point to itself. 14 Informally, an heteroclinic orbit is a trajectory that connects two saddle equilibrium points. An homoclinic orbit is a special case where the two equilibria are the same.</p><p>A. <ref type="bibr">Nieves-González, et al. Ecological Modelling 406 (2019) 7-22</ref> Procedure G.1 (Procedure for local bifurcation analysis).</p><p>• Input: The equilibrium points (in section 3.1 we obtained their exact expression in terms of the model parameters).</p><p>• Output: Bifurcation points in phase-parameter space, if there are any, and type of bifurcation.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">MATCONT: a MATLAB package for numerical bifurcation analysis of ODEs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Dhooge</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Govaerts</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">A</forename><surname>Kuznetsov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Trans. Math. Softw. (TOMS)</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="141" to="164" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dhooge, A., Govaerts, W., Kuznetsov, Y.A., 2003. MATCONT: a MATLAB package for numerical bifurcation analysis of ODEs. ACM Trans. Math. Softw. (TOMS) 29, 141-164.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">MATCONT: a MATLAB package for numerical bifurcation analysis of ODEs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Dhooge</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Govaerts</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">A</forename><surname>Kuznetsov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACM SIGSAM Bull</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="21" to="22" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dhooge, A., Govaerts, W., Kuznetsov, Y.A., 2004. MATCONT: a MATLAB package for numerical bifurcation analysis of ODEs. ACM SIGSAM Bull. 38, 21-22.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Cl_matcont: a continuation toolbox in Matlab</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Dhooge</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Govaerts</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">A</forename><surname>Kuznetsov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Mestrom</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Riet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2003 ACM symposium on Applied computing</title>
+		<meeting>the 2003 ACM symposium on Applied computing</meeting>
+		<imprint>
+			<date type="published" when="2003" />
+			<biblScope unit="page" from="161" to="166" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dhooge, A., Govaerts, W., Kuznetsov, Y.A., Mestrom, W., Riet, A., 2003. Cl_matcont: a continuation toolbox in Matlab. in: Proceedings of the 2003 ACM symposium on Applied computing 161-166.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">MATCONT and CL MATCONT: Continuation toolboxes in MATLAB</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Dhooge</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Govaerts</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">A</forename><surname>Kuznetsov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Mestrom</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Riet</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Sautois</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+			<pubPlace>The Netherlands</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Universiteit Gent, Belgium and Utrecht University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">Dhooge, A., Govaerts, W., Kuznetsov, Y.A., Mestrom, W., Riet, A., Sautois, B., 2006. MATCONT and CL MATCONT: Continuation toolboxes in MATLAB. Universiteit Gent, Belgium and Utrecht University, The Netherlands.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Bulletin de l&apos;Académie des Sciences de l&apos;URSS. Classe des sciences mathématiques et na</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Geršgorin</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1931" />
+			<biblScope unit="page" from="749" to="754" />
+		</imprint>
+	</monogr>
+	<note>Über die Abgrenzung der Eigenwerte einer Matrix</note>
+	<note type="raw_reference">Geršgorin, S., 1931. Über die Abgrenzung der Eigenwerte einer Matrix. In: Bulletin de l&apos;Académie des Sciences de l&apos;URSS. Classe des sciences mathématiques et na. pp. 749-754.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Numerical bifurcation analysis for ODEs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Govaerts</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Comput. Appl. Math</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="page" from="57" to="68" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Govaerts, W., 2000. Numerical bifurcation analysis for ODEs. J. Comput. Appl. Math. 125, 57-68.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Numerical continuation of bifurcations of limit cycles in MATLAB</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Govaerts</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">A</forename><surname>Kuznetsov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Dhooge</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">SIAM J. Sci. Comput</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="231" to="252" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Govaerts, W., Kuznetsov, Y.A., Dhooge, A., 2005. Numerical continuation of bifurcations of limit cycles in MATLAB. SIAM J. Sci. Comput. 27, 231-252.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Effects of solar UV radiation on aquatic ecosystems and interactions with climate change</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Häder</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Worrest</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Photochem. Photobiol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="267" to="285" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Häder, D., Kumar, H., Smith, R., Worrest, R., 2007. Effects of solar UV radiation on aquatic ecosystems and interactions with climate change. Photochem. Photobiol. Sci. 6, 267-285.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">B</forename><surname>Hasser</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Sullivan</surname></persName>
+		</author>
+		<title level="m">Real Analysis</title>
+		<meeting><address><addrLine>Mineola, New York USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Dover</publisher>
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+	<note>1st edition</note>
+	<note type="raw_reference">Hasser, N.B., Sullivan, J.A., 1991. Real Analysis, 1st edition. Dover, Mineola, New York USA.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">On the numerical computation of Poincaré maps</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Henon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physica D: Nonlinear Phenomena</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="412" to="414" />
+			<date type="published" when="1982" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Henon, M., 1982. On the numerical computation of Poincaré maps. Physica D: Nonlinear Phenomena 5, 412-414.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Coral reefs under rapid climate change and ocean acidification</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Hoegh-Guldberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">J</forename><surname>Mumby</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename><surname>Hooten</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">S</forename><surname>Steneck</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Greenfield</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Gomez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">D</forename><surname>Harvell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">F</forename><surname>Sale</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Caldeira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">318</biblScope>
+			<biblScope unit="page" from="1737" to="1742" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hoegh-Guldberg, O., Mumby, P.J., Hooten, A.J., Steneck, R.S., Greenfield, P., Gomez, E., Harvell, C.D., Sale, P.F., Edwards, A.J., Caldeira, K., et al., 2007. Coral reefs under rapid climate change and ocean acidification. Science 318, 1737-1742.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">On Global Stability of a Predator-Prey System</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Hsu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Math. Biosci</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="1" to="10" />
+			<date type="published" when="1978" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hsu, S., 1978. On Global Stability of a Predator-Prey System. Math. Biosci. 39, 1-10.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Global stability for a class of predator-prey systems</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">B</forename><surname>Hsu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">W</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">SIAM J. Appl. Math</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="763" to="783" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hsu, S.B., Huang, T.W., 1995. Global stability for a class of predator-prey systems. SIAM J. Appl. Math. 55, 763-783.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Photosynthetic response to elevated temperature in the symbiotic dinoflagellate symbiodinium microadriaticum in culture</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Iglesias-Prieto</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Matta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">A</forename><surname>Robins</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">K</forename><surname>Trench</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. Natl. Acad. Sci</title>
+		<meeting>Natl. Acad. Sci</meeting>
+		<imprint>
+			<date type="published" when="1992" />
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="10302" to="10305" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Iglesias-Prieto, R., Matta, J.L., Robins, W.A., Trench, R.K., 1992. Photosynthetic response to elevated temperature in the symbiotic dinoflagellate symbiodinium micro- adriaticum in culture. Proc. Natl. Acad. Sci. 89, 10302-10305.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Coral Point Count with Excel extensions (cpce): A Visual Basic program for the determination of coral and substrate coverage using random point count methodology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">E</forename><surname>Kohler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">M</forename><surname>Gill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Geosci</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="1259" to="1269" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kohler, K.E., Gill, S.M., 2006. Coral Point Count with Excel extensions (cpce): A Visual Basic program for the determination of coral and substrate coverage using random point count methodology. Comput. Geosci. 32, 1259-1269.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Some Extensions to Lyapunov&apos;s Second method</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Lasalle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IRE Trans. Circuit Theory CT</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="520" to="527" />
+			<date type="published" when="1960" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">LaSalle, J., 1960. Some Extensions to Lyapunov&apos;s Second method. IRE Trans. Circuit Theory CT-7, 520-527.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Stability theory for ordinary differential equations</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Lasalle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Diff. Eq</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="57" to="65" />
+			<date type="published" when="1968" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">LaSalle, J., 1968. Stability theory for ordinary differential equations. J. Diff. Eq. 4, 57-65.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Penetration of solar radiation in the upper ocean: A numerical model for oceanic and coastal waters</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Arnone</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Liew</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Penta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page">9019</biblScope>
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lee, Z., Du, K., Arnone, R., Liew, S., Penta, B., 2005. Penetration of solar radiation in the upper ocean: A numerical model for oceanic and coastal waters. J. Geophys. Res. 110, C09019.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Bleaching in coral reef anthozoans: effects of irradiance, ultraviolet radiation, and temperature on the activities of protective enzymes against active oxygen</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Lesser</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Stochaj</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Tapley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Shick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Coral Reefs</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="225" to="232" />
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lesser, M., Stochaj, W., Tapley, D., Shick, J., 1990. Bleaching in coral reef anthozoans: effects of irradiance, ultraviolet radiation, and temperature on the activities of pro- tective enzymes against active oxygen. Coral Reefs 8, 225-232.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Differential Dynamical Systems</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">D</forename><surname>Meiss</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<pubPlace>SIAM, USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note>1st edition</note>
+	<note type="raw_reference">Meiss, J.D., 2008. Differential Dynamical Systems, 1st edition. SIAM, USA.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Peroxidase activity and inducibility in the sea fan coral exposed to a fungal pathogen</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">D</forename><surname>Mydlarz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">D</forename><surname>Harvell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comparative Biochem. Physiol. Part A: Mol. Integrative Physiol</title>
+		<imprint>
+			<biblScope unit="volume">146</biblScope>
+			<biblScope unit="page" from="54" to="62" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mydlarz, L.D., Harvell, C.D., 2007. Peroxidase activity and inducibility in the sea fan coral exposed to a fungal pathogen. Comparative Biochem. Physiol. Part A: Mol. Integrative Physiol. 146, 54-62.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">A comparative study of phenoloxidase activity in diseased and bleached colonies of the coral acropora millepora</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Palmer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Bythell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Willis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Develop. Comparative Immunol</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="1098" to="1101" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Palmer, C., Bythell, J., Willis, B., 2011. A comparative study of phenoloxidase activity in diseased and bleached colonies of the coral acropora millepora. Develop. Comparative Immunol. 35, 1098-1101.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Levels of immunity parameters underpin bleaching and disease susceptibility of reef corals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">V</forename><surname>Palmer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Bythell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">L</forename><surname>Willis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FASEB J</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="1935" to="1946" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Palmer, C.V., Bythell, J.C., Willis, B.L., 2010. Levels of immunity parameters underpin bleaching and disease susceptibility of reef corals. FASEB J. 24, 1935-1946.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Coral fluorescent proteins as antioxidants</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">V</forename><surname>Palmer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">K</forename><surname>Modi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">D</forename><surname>Mydlarz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">7298</biblScope>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Palmer, C.V., Modi, C.K., Mydlarz, L.D., 2009. Coral fluorescent proteins as antioxidants. PLoS ONE 4, e7298.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Coral Reef Project-Papers in memory of Dr. Thomas F. Goreau. 9 The Ecology of Some Jamaican Excavating Sponges</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">K</forename><surname>Pang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bull. Marine Sci</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="227" to="243" />
+			<date type="published" when="1973" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pang, R.K., 1973. Coral Reef Project-Papers in memory of Dr. Thomas F. Goreau. 9 The Ecology of Some Jamaican Excavating Sponges. Bull. Marine Sci. 23, 227-243.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Quateroni</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Sacco</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Saleri</surname></persName>
+		</author>
+		<title level="m">Numerical Mathematics</title>
+		<meeting><address><addrLine>Berlin Heidelberg</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note>2nd edition</note>
+	<note type="raw_reference">Quateroni, A., Sacco, R., Saleri, F., 2007. Numerical Mathematics, 2nd edition. Springer, Berlin Heidelberg.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Green fluorescent protein regulation in the coral acropora yongei during photoacclimation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">S</forename><surname>Roth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">I</forename><surname>Latz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Goericke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">D</forename><surname>Deheyn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Biol</title>
+		<imprint>
+			<biblScope unit="volume">213</biblScope>
+			<biblScope unit="page" from="3644" to="3655" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Roth, M.S., Latz, M.I., Goericke, R., Deheyn, D.D., 2010. Green fluorescent protein reg- ulation in the coral acropora yongei during photoacclimation. J. Exp. Biol. 213, 3644-3655.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Fluorescent pigments in corals are photoprotective</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Salih</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Larkum</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Cox</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Kühl</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Hoegh-Guldberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">408</biblScope>
+			<biblScope unit="page" from="850" to="853" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Salih, A., Larkum, A., Cox, G., Kühl, M., Hoegh-Guldberg, O., 2000. Fluorescent pigments in corals are photoprotective. Nature 408, 850-853.</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">The matlab ode suite</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">F</forename><surname>Shampine</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">W</forename><surname>Reichelt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">SIAM J Sci. Comput</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1" to="22" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shampine, L.F., Reichelt, M.W., 1997. The matlab ode suite. SIAM J Sci. Comput. 18, 1-22.</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Computing accurate Poincaré maps</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Tucker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physica D: Nonlinear Phenomena</title>
+		<imprint>
+			<biblScope unit="volume">171</biblScope>
+			<biblScope unit="page" from="127" to="137" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tucker, W., 2002. Computing accurate Poincaré maps. Physica D: Nonlinear Phenomena 171, 127-137.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Introduction to Applied Nonlinear Dynamical Systems and Chaos</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">;</forename><surname>Vidyasagar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Usa</forename><surname>Siam Classics</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Wiggins</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000" />
+			<publisher>Springer</publisher>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Nonlinear Systems Analysis. 2nd edition</note>
+	<note type="raw_reference">Vidyasagar, M., 2002. Nonlinear Systems Analysis, 2nd edition. SIAM Classics, USA. Wiggins, S., 2000. Introduction to Applied Nonlinear Dynamical Systems and Chaos, 2nd edition. Springer, USA.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
