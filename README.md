@@ -34,5 +34,3 @@ Table of contents
 
 # Structure
 We will plan to meet 30 minutes to an hour per week in the Winter quarter (Jan to mid-march). The time will be consistent each week and we can decide when is best after our first meeting. We can use slack to communicate and we will need to set up a time frame when FrankenTech will be available to answer questions.
-
-We will need to set up the UCSD learning agreement by December 3rd. We can find the internship on aip.ucsd.edu and we can talk to Tricia (ttaylor@ucsd.edu) for any enrollment questions. 
