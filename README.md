@@ -1,10 +1,3 @@
-
-**Project Outline**
-To develop a comparative diagnostic testing platform for upper respiratory viruses as well as gastrointestinal pathogens, using a golden standard as MiSeq with PCR against ONT library preparation in four phases.
-### Phases ###
-
-
-
 # Approach
 
 - Parse the text from the body of each document using NLP
